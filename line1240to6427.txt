@@ -221,7 +221,7 @@ bg black,22
 `　......Why did it have to turn out like this......?`@
 br
 ;　宙を泳ぐ金魚がいたならば、@水面で口をぱくぱくさせなければならないに違いないと思うほど、@酸素の薄れた空気の中で、私はぼんやりと考えていた……。\
-`　I thought as much idly to myself in that oxygen deprived air, `@`if there were goldfish that could swim through the air, `@`it could put its mouth in the water to breathe.`\
+`　In this oxygen deprived air, `@`I idly thought to myself that even if there was a goldfish that could swim in midair, `@`it would have no choice but to stick its head in the water to beathe......`\
 
 bg black,22
 
@@ -371,7 +371,7 @@ bg toire_08,2
 
 me3v 3,70
 ;……ただただ今日もいいなりになり、下着姿にランドセルを背負うよう命じられ、@……先生の日頃の疲れを労うよう命じられただけだった……。@
-`　......Just today, doing exactly as he said. He told me to put on my backpack while wearing my underwear, `@`......and then Sensei told me to thank him for his day's work......`@
+`　......Just today, I did exactly as he said. He told me to put on my backpack while in my underwear, `@`......and then Sensei told me to thank him for his day's work......`@
 br
 ;　それが辛く感じるのは、私に感謝の気持ちがないからなのだ。\
 `　And that pain I felt was because I had no feelings of gratitude.`\
@@ -459,7 +459,7 @@ ld r,KAN_K3,22
 `　All he had was the trickling of his meaningless sweat.`@
 br
 ;　……なのに、世の中にはそんな自分の苦労の上にさも当り前のようにあぐらをかき、@うまい汁だけを吸っている連中がたくさんいるのだ。\
-`　(?) ......And yet, in reality that kind of person could sit atop his own hardships, `@`and there were a lot of people who would suck on their own delicious sweat.`\
+`　......And yet there were a lot of people in this world who would stand on his shoulders,`@` and just sip his delicious sweat.`\
 
 ;bg e016,45
 
@@ -467,12 +467,12 @@ ld l,KAN_def3a,0
 ld c,KAN_K2,22
 
 ;　自分はすでに報われて当然の苦労を充分に積み上げた。@
-`　Soon rewards needed for his daily hardships greatly piled up.`@
+`　He was already being rewarded and piling up his hard work.`@
 ;　それに対し、誰も自分に報いないなら、自分で自分に報わなければならない。@
-`　And then, if no one rewarded him, he would reward himself.`@
+`　On the other hand, if no one rewarded him, he had to reward himself.`@
 br
 ;　だから、これまでの自分の苦労を考えれば、これくらいの逸脱は当然の権利であると、@自分勝手な理論を次第に蓄積させていくようになった。\
-`　Because if he thought about his troubles up until now, this kind of deviation was his right, `@`and so he began to reinforce his selfish reasoning.`\
+`　Because if he thought about his hard work up until now, this kind of deviation was his right, `@`and so he began to reinforce his selfish reasoning.`\
 
 bg black,22
 
@@ -505,7 +505,7 @@ bg kyou_01,22
 `　And that was just the beginning of Kanamori's concious sins.`@
 br
 ;　弱みを握り、自分の欲望に何の枷も付けることもなく吐き出せる快楽は、@彼から罪の意識を奪うのに大して長い時間を必要ともしなかったのである……。\
-`　(?) He grips weakness, and without any restraints for his lust the pleasure he unleashes, `@`doesn't take a long time to snatch away his sins from his conciousness......`\
+`　He had a weakness. No matter how much he suppressed it, his desire could not be contained from the pleasure he could unleash. `@`And that pleasure didn't need long to take the guilt away from him......`\ 
 
 bg black,2
 
