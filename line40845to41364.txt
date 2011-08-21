@@ -1,0 +1,520 @@
+;説明テキストの読み込み
+lsph t_txt_ep1_lsp,":a;bmp\title\txt_box\ep1.bmp",350,120,100
+lsph t_txt_ep2_lsp,":a;bmp\title\txt_box\ep2.bmp",350,120,100
+lsph t_txt_ep3_lsp,":a;bmp\title\txt_box\ep3.bmp",350,120,100
+lsph t_txt_ep4_lsp,":a;bmp\title\txt_box\ep4.bmp",350,120,100
+lsph t_txt_ep5_lsp,":a;bmp\title\txt_box\ep5.bmp",350,120,100
+lsph t_txt_ep6_lsp,":a;bmp\title\txt_box\ep6.bmp",350,120,100
+lsph t_txt_ep7_lsp,":a;bmp\title\txt_box\ep7.bmp",350,120,100
+
+;lsph t_txt_lock_lsp,":a;bmp\title\txt_box\warning.bmp",350,35
+
+
+; ボタン定義と、ボタンクリック待ちの処理
+*b_title_botun_loop
+
+btndef ""
+
+
+exbtn_d "C87C45"
+
+exbtn t_btn_start_lsp,t_btn_start_lsp,"P82"
+exbtn t_btn_web_lsp,t_btn_web_lsp,"P86"
+exbtn t_btn_exit_lsp,t_btn_exit_lsp,"P81"
+exbtn t_btn_tips_lsp,t_btn_tips_lsp,"P84"
+exbtn t_btn_music_lsp,t_btn_music_lsp,"P83"
+
+print 0
+
+   btnwait2 %BtnRes
+
+	if %BtnRes = t_btn_start_lsp : cell t_btn_start_lsp,1 : print 1:btndef "" : goto *start_sub_menu
+	if %BtnRes = t_btn_web_lsp seplay 9,80 : menu_window : shell "http://07th-expansion.net"
+	if %BtnRes = t_btn_tips_lsp cell t_btn_tips_lsp,1 : print 1:btndef "" : goto *tips
+	if %BtnRes = t_btn_exit_lsp seplay 9,80 : seplay 9,79 : csp -1 : bg black,2 : wait 3000 : end
+	if %BtnRes = t_btn_music_lsp btndef "" : goto *bgm_mode
+
+
+goto *b_title_botun_loop
+
+;------------------------------
+;スタートを押した後の処理
+*start_sub_menu
+	btndef ""
+
+	vsp t_btn_start_lsp,0
+	vsp t_btn_web_lsp,0
+	vsp t_btn_tips_lsp,0
+	vsp t_btn_exit_lsp,0
+	vsp t_btn_music_lsp,0
+	vsp t_logo_lsp,0
+	vsp t_btn_start_lsp,0
+	vsp t_txt_start_lsp,0
+
+
+	bg black,2
+	bgcopy
+   ;１話、未クリア状態
+   ;------------------------------
+;	*start_sub_menu_100
+	notif %UMINEKOEND < 1 goto *start_sub_menu_btn_100
+		
+;		bg "bmp\title\ss_btn\back\s_select_back0.bmp",3
+		lsp t_back_lsp,":a;bmp\title\ss_btn\back\1ms.bmp",0,0
+
+		lsp t_btn_ep1_lsp,":a/2,0,3;bmp\title\ss_btn\btn\1_2.bmp",0,100	;178
+		lsp t_btn_ep2_lsp,":a;bmp\title\ss_btn\btn\2_1.bmp",15,200,100	;197
+		lsp t_btn_ep3_lsp,":a;bmp\title\ss_btn\btn\3_1.bmp",25,160,100	;216
+		lsp t_btn_ep4_lsp,":a;bmp\title\ss_btn\btn\4_1.bmp",90,210,80	;235
+		lsp t_btn_ep5_lsp,":a;bmp\title\ss_btn\btn\5_1.bmp",107,100,80	;235
+		lsp t_btn_ep6_lsp,":a;bmp\title\ss_btn\btn\6_1.bmp",150,230,45	;235
+		lsp t_btn_ep7_lsp,":a;bmp\title\ss_btn\btn\7_1.bmp",240,180,40	;235
+		lsp t_btn_load_lsp,":a/2,0,3;bmp\r_click\sys_btn\load.bmp",460,430	;254
+		lsph t_txt_ep1_lsp,":a;bmp\title\txt_box\ep1.bmp",350,120,100
+
+		bg "bmp\title\ss_btn\back\s_select_back1.bmp",0
+		print 80
+
+	*start_sub_menu_100
+	notif %UMINEKOEND < 1 goto *start_sub_menu_btn_100
+		
+;		bg "bmp\title\ss_btn\back\s_select_back0.bmp",3
+
+		lsp t_btn_ep1_lsp,":a/2,0,3;bmp\title\ss_btn\btn\1_2.bmp",0,100	;178
+		lsp t_btn_ep2_lsp,":a;bmp\title\ss_btn\btn\2_1.bmp",15,200,100	;197
+		lsp t_btn_ep3_lsp,":a;bmp\title\ss_btn\btn\3_1.bmp",25,160,100	;216
+		lsp t_btn_ep4_lsp,":a;bmp\title\ss_btn\btn\4_1.bmp",90,210,80	;235
+		lsp t_btn_ep5_lsp,":a;bmp\title\ss_btn\btn\5_1.bmp",107,100,80	;235
+		lsp t_btn_ep6_lsp,":a;bmp\title\ss_btn\btn\6_1.bmp",150,230,45	;235
+		lsp t_btn_ep7_lsp,":a;bmp\title\ss_btn\btn\7_1.bmp",240,180,40;235
+		lsp t_btn_load_lsp,":a/2,0,3;bmp\r_click\sys_btn\load.bmp",460,430	;254
+
+
+
+
+
+		bg "bmp\title\ss_btn\back\s_select_back1.bmp",0
+		print 1
+
+		*start_sub_menu_btn_100_loop
+		btndef ""
+
+		exbtn_d "P0,1C87C18C15C14C13C12C61C60C59C58C57C56C55C54C78C77C79"
+;exbtn 4,1,"P4,1P5P6P7S1,(sound/cursor8.wav)"
+
+		exbtn t_btn_ep1_lsp,t_btn_ep1_lsp,"P18S1,(sys_se/p_sharin.wav)"
+		exbtn t_btn_ep2_lsp,t_btn_ep2_lsp,"C78"
+		exbtn t_btn_ep3_lsp,t_btn_ep3_lsp,"C78"
+		exbtn t_btn_ep4_lsp,t_btn_ep4_lsp,"C78"
+		exbtn t_btn_ep5_lsp,t_btn_ep5_lsp,"C78"
+		exbtn t_btn_ep6_lsp,t_btn_ep6_lsp,"C78"
+		exbtn t_btn_ep7_lsp,t_btn_ep7_lsp,"C78"
+		exbtn t_btn_load_lsp,t_btn_load_lsp,"C87"
+
+		transbtn ;透過部分のみをボタンとする
+		btnwait2 %BtnRes
+
+		if %BtnRes = t_btn_ep1_lsp mov %scenario_Number,1 : E_A : goto *higan_start
+
+
+		if %BtnRes = t_btn_load_lsp btndef "" : seplay 9,1001 : mov %load_for_title,1 : gosub *loadmode : mov %title_skip,1 : goto *b_title
+		if %BtnRes = -1 btndef "" : seplay 9,1001 : mov %r_for_title,1 : gosub *csptext : goto *b_title_shunkan
+		goto *start_sub_menu_btn_100_loop
+
+	*start_sub_menu_btn_100
+		;確認メッセージを出して、アンロック処理を行う
+   ;------------------------------
+   ;1話クリア､2話クリア状態
+	*start_sub_menu_200
+
+		;背景を一段明るくする
+		lsp t_back_lsp,":a;bmp\title\ss_btn\back\2ms.bmp",0,0
+
+		bg "bmp\title\ss_btn\back\s_select_back7.bmp",0
+
+	if %UMINEKOEND < 1 goto *start_sub_menu_btn_200
+	if %UMINEKOEND >= 2 goto *start_sub_menu_btn_200
+		lsp t_btn_ep1_lsp,":a/2,0,3;bmp\title\ss_btn\btn\1_3.bmp",0,100,170	;178
+		lsp t_btn_ep2_lsp,":a/2,0,3;bmp\title\ss_btn\btn\2_2.bmp",15,200	;197
+		lsp t_btn_ep3_lsp,":a;bmp\title\ss_btn\btn\3_1.bmp",25,130,140	;216
+		lsp t_btn_ep4_lsp,":a;bmp\title\ss_btn\btn\4_1.bmp",90,210,80	;235
+		lsp t_btn_ep5_lsp,":a;bmp\title\ss_btn\btn\5_1.bmp",107,100,80	;235
+		lsp t_btn_ep6_lsp,":a;bmp\title\ss_btn\btn\6_1.bmp",150,230,45	;235
+		lsp t_btn_ep7_lsp,":a;bmp\title\ss_btn\btn\7_1.bmp",240,180,50	;235
+		lsp t_btn_load_lsp,":a/2,0,3;bmp\r_click\sys_btn\load.bmp",460,430	;254
+		lsph t_txt_ep1_lsp,":a;bmp\title\txt_box\ep1.bmp",350,120,100
+		lsph t_txt_ep2_lsp,":a;bmp\title\txt_box\ep2.bmp",350,120,100
+
+		print 80
+
+		*start_sub_menu_btn_200_loop
+		btndef ""
+		transbtn ;透過部分のみをボタンとする
+
+		exbtn_d "P0,1C87C18C17C15C14C13C12C61C60C59C58C57C56C55C54C78C77C79"
+
+		exbtn t_btn_ep1_lsp,t_btn_ep1_lsp,"P18S1,(sys_se/fire.wav)"
+		exbtn t_btn_ep2_lsp,t_btn_ep2_lsp,"P17S1,(sys_se/p_sharin.wav)"
+		exbtn t_btn_ep3_lsp,t_btn_ep3_lsp,"C78"
+		exbtn t_btn_ep4_lsp,t_btn_ep4_lsp,"C78"
+		exbtn t_btn_ep5_lsp,t_btn_ep5_lsp,"C78"
+		exbtn t_btn_ep6_lsp,t_btn_ep6_lsp,"C78"
+		exbtn t_btn_ep7_lsp,t_btn_ep7_lsp,"C78"
+		exbtn t_btn_load_lsp,t_btn_load_lsp,"C87"
+
+		transbtn ;透過部分のみをボタンとする
+		btnwait2 %BtnRes
+
+		if %BtnRes = t_btn_ep1_lsp mov %scenario_Number,1 : E_A : goto *higan_start
+		if %BtnRes = t_btn_ep2_lsp mov %scenario_Number,2 : E_A : goto *higan_start 
+
+
+		if %BtnRes = t_btn_load_lsp btndef "" : seplay 9,1001 : mov %load_for_title,1 : gosub *loadmode : mov %title_skip,1 : goto *b_title
+				if %BtnRes = -1 btndef "" : seplay 9,1001 : mov %r_for_title,1 : gosub *csptext : goto *b_title_shunkan
+		goto *start_sub_menu_btn_200_loop
+	*start_sub_menu_btn_200
+
+
+
+
+   ;2話クリア状態、3話未クリア
+	*start_sub_menu_300
+
+		;背景を一段明るくする
+		lsp t_back_lsp,":a;bmp\title\ss_btn\back\3ms.bmp",0,0
+
+		bg "bmp\title\ss_btn\back\s_select_back7.bmp",0
+
+	if %UMINEKOEND < 2 goto *start_sub_menu_btn_300
+	if %UMINEKOEND >= 3 goto *start_sub_menu_btn_300
+		lsp t_btn_ep1_lsp,":a/2,0,3;bmp\title\ss_btn\btn\1_3.bmp",0,100,170	;178
+		lsp t_btn_ep2_lsp,":a/2,0,3;bmp\title\ss_btn\btn\2_3.bmp",15,200,170	;197
+		lsp t_btn_ep3_lsp,":a/2,0,3;bmp\title\ss_btn\btn\3_2.bmp",25,130,230	;216
+		lsp t_btn_ep4_lsp,":a;bmp\title\ss_btn\btn\4_1.bmp",90,210,80	;235
+		lsp t_btn_ep5_lsp,":a;bmp\title\ss_btn\btn\5_1.bmp",107,100,80	;235
+		lsp t_btn_ep6_lsp,":a;bmp\title\ss_btn\btn\6_1.bmp",150,230,45	;235
+		lsp t_btn_ep7_lsp,":a;bmp\title\ss_btn\btn\7_1.bmp",240,180,50	;235
+		lsp t_btn_load_lsp,":a/2,0,3;bmp\r_click\sys_btn\load.bmp",460,430	;254
+		lsph t_txt_ep1_lsp,":a;bmp\title\txt_box\ep1.bmp",350,120,100
+		lsph t_txt_ep2_lsp,":a;bmp\title\txt_box\ep2.bmp",350,120,100
+		lsph t_txt_ep3_lsp,":a;bmp\title\txt_box\ep3.bmp",350,120,100
+		print 80
+
+		*start_sub_menu_btn_300_loop
+		btndef ""
+		transbtn ;透過部分のみをボタンとする
+
+		exbtn_d "P0,1C87C18C17C16C15C14C13C12C61C60C59C58C57C56C55C54C78C77C79"
+
+		exbtn t_btn_ep1_lsp,t_btn_ep1_lsp,"P18S1,(sys_se/fire.wav)"
+		exbtn t_btn_ep2_lsp,t_btn_ep2_lsp,"P17S1,(sys_se/fire.wav)"
+		exbtn t_btn_ep3_lsp,t_btn_ep3_lsp,"P16S1,(sys_se/p_sharin.wav)"
+		exbtn t_btn_ep4_lsp,t_btn_ep4_lsp,"C78"
+		exbtn t_btn_ep5_lsp,t_btn_ep5_lsp,"C78"
+		exbtn t_btn_ep6_lsp,t_btn_ep6_lsp,"C78"
+		exbtn t_btn_ep7_lsp,t_btn_ep7_lsp,"C78"
+		exbtn t_btn_load_lsp,t_btn_load_lsp,"C87"
+
+		transbtn ;透過部分のみをボタンとする
+		btnwait2 %BtnRes
+
+		if %BtnRes = t_btn_ep1_lsp mov %scenario_Number,1 : E_A : goto *higan_start
+		if %BtnRes = t_btn_ep2_lsp mov %scenario_Number,2 : E_A : goto *higan_start
+		if %BtnRes = t_btn_ep3_lsp mov %scenario_Number,3 : E_A : goto *higan_start
+
+
+		if %BtnRes = t_btn_load_lsp btndef "" : seplay 9,1001 : mov %load_for_title,1 : gosub *loadmode : mov %title_skip,1 : goto *b_title
+				if %BtnRes = -1 btndef "" : seplay 9,1001 : mov %r_for_title,1 : gosub *csptext : goto *b_title_shunkan
+		goto *start_sub_menu_btn_300_loop
+	*start_sub_menu_btn_300
+
+
+
+   ;------------------------------
+   ;3話クリア状態、４話未クリア
+	*start_sub_menu_400
+
+		;背景を一段明るくする
+		bg "bmp\title\ss_btn\back\s_select_back7.bmp",0
+		lsp t_back_lsp,":a;bmp\title\ss_btn\back\4ms.bmp",0,0
+
+
+	if %UMINEKOEND < 3 goto *start_sub_menu_btn_400
+	if %UMINEKOEND >= 4 goto *start_sub_menu_btn_400
+		lsp t_btn_ep1_lsp,":a/2,0,3;bmp\title\ss_btn\btn\1_3.bmp",0,100,120	;178
+		lsp t_btn_ep2_lsp,":a/2,0,3;bmp\title\ss_btn\btn\2_3.bmp",15,200,170	;197
+		lsp t_btn_ep3_lsp,":a/2,0,3;bmp\title\ss_btn\btn\3_3.bmp",25,130,170	;216
+		lsp t_btn_ep4_lsp,":a/2,0,3;bmp\title\ss_btn\btn\4_2.bmp",90,260	;235
+		lsp t_btn_ep5_lsp,":a;bmp\title\ss_btn\btn\5_1.bmp",107,100,80	;235
+		lsp t_btn_ep6_lsp,":a;bmp\title\ss_btn\btn\6_1.bmp",150,230,45	;235
+		lsp t_btn_ep7_lsp,":a;bmp\title\ss_btn\btn\7_1.bmp",240,180,50	;235
+		lsp t_btn_load_lsp,":a/2,0,3;bmp\r_click\sys_btn\load.bmp",460,430	;254
+		lsph t_txt_ep1_lsp,":a;bmp\title\txt_box\ep1.bmp",350,120,100
+		lsph t_txt_ep2_lsp,":a;bmp\title\txt_box\ep2.bmp",350,120,100
+		lsph t_txt_ep3_lsp,":a;bmp\title\txt_box\ep3.bmp",350,120,100
+		lsph t_txt_ep4_lsp,":a;bmp\title\txt_box\ep4.bmp",350,120,100
+
+		print 80
+
+		*start_sub_menu_btn_400_loop
+		btndef ""
+		transbtn ;透過部分のみをボタンとする
+
+		exbtn_d "P0,1C87C18C17C16C15C14C13C12C61C60C59C58C57C56C55C54C78C77C79"
+
+		exbtn t_btn_ep1_lsp,t_btn_ep1_lsp,"P18S1,(sys_se/fire.wav)"
+		exbtn t_btn_ep2_lsp,t_btn_ep2_lsp,"P17S1,(sys_se/fire.wav)"
+		exbtn t_btn_ep3_lsp,t_btn_ep3_lsp,"P16S1,(sys_se/fire.wav)"
+		exbtn t_btn_ep4_lsp,t_btn_ep4_lsp,"P15S1,(sys_se/p_sharin.wav)"
+		exbtn t_btn_ep5_lsp,t_btn_ep5_lsp,"C78"
+		exbtn t_btn_ep6_lsp,t_btn_ep6_lsp,"C78"
+		exbtn t_btn_ep7_lsp,t_btn_ep7_lsp,"C78"
+		exbtn t_btn_load_lsp,t_btn_load_lsp,"C87"
+
+		transbtn ;透過部分のみをボタンとする
+		btnwait2 %BtnRes
+
+		if %BtnRes = t_btn_ep1_lsp mov %scenario_Number,1 : E_A : goto *higan_start
+		if %BtnRes = t_btn_ep2_lsp mov %scenario_Number,2 : E_A : goto *higan_start
+		if %BtnRes = t_btn_ep3_lsp mov %scenario_Number,3 : E_A : goto *higan_start
+		if %BtnRes = t_btn_ep4_lsp mov %scenario_Number,4 : E_A : goto *higan_start
+
+
+		if %BtnRes = t_btn_load_lsp btndef "" : seplay 9,1001 : mov %load_for_title,1 : gosub *loadmode : mov %title_skip,1 : goto *b_title
+				if %BtnRes = -1 btndef "" : seplay 9,1001 : mov %r_for_title,1 : gosub *csptext : goto *b_title_shunkan
+		goto *start_sub_menu_btn_400_loop
+	*start_sub_menu_btn_400
+
+   ;------------------------------
+   ;4話クリア状態、5話未クリア
+	*start_sub_menu_500
+		bg "bmp\title\ss_btn\back\s_select_back7.bmp",0
+		lsp t_back_lsp,":a;bmp\title\ss_btn\back\5ms.bmp",0,0
+
+
+	if %UMINEKOEND < 4 goto *start_sub_menu_btn_500
+	if %UMINEKOEND >= 5 goto *start_sub_menu_btn_500
+		lsp t_btn_ep1_lsp,":a/2,0,3;bmp\title\ss_btn\btn\1_3.bmp",0,100,70	;178
+		lsp t_btn_ep2_lsp,":a/2,0,3;bmp\title\ss_btn\btn\2_3.bmp",15,200,90	;197
+		lsp t_btn_ep3_lsp,":a/2,0,3;bmp\title\ss_btn\btn\3_3.bmp",25,130,170	;216
+		lsp t_btn_ep4_lsp,":a/2,0,3;bmp\title\ss_btn\btn\4_3.bmp",90,260,190	;235
+		lsp t_btn_ep5_lsp,":a/2,0,3;bmp\title\ss_btn\btn\5_2.bmp",107,100,230	;235
+		lsp t_btn_ep6_lsp,":a;bmp\title\ss_btn\btn\6_1.bmp",150,230,45	;235
+		lsp t_btn_ep7_lsp,":a;bmp\title\ss_btn\btn\7_1.bmp",240,180,50	;235
+		lsp t_btn_load_lsp,":a/2,0,3;bmp\r_click\sys_btn\load.bmp",460,430	;254
+		lsph t_txt_ep1_lsp,":a;bmp\title\txt_box\ep1.bmp",350,120,100
+		lsph t_txt_ep2_lsp,":a;bmp\title\txt_box\ep2.bmp",350,120,100
+		lsph t_txt_ep3_lsp,":a;bmp\title\txt_box\ep3.bmp",350,120,100
+		lsph t_txt_ep4_lsp,":a;bmp\title\txt_box\ep4.bmp",350,120,100
+		lsph t_txt_ep5_lsp,":a;bmp\title\txt_box\ep5.bmp",350,120,100
+
+
+		print 80
+
+		*start_sub_menu_btn_500_loop
+		btndef ""
+		transbtn ;透過部分のみをボタンとする
+
+		exbtn_d "P0,1C87C18C17C16C15C14C13C12C61C60C59C58C57C56C55C54C78C77C79"
+
+		exbtn t_btn_ep1_lsp,t_btn_ep1_lsp,"P18S1,(sys_se/fire.wav)"
+		exbtn t_btn_ep2_lsp,t_btn_ep2_lsp,"P17S1,(sys_se/fire.wav)"
+		exbtn t_btn_ep3_lsp,t_btn_ep3_lsp,"P16S1,(sys_se/fire.wav)"
+		exbtn t_btn_ep4_lsp,t_btn_ep4_lsp,"P15S1,(sys_se/fire.wav)"
+		exbtn t_btn_ep5_lsp,t_btn_ep5_lsp,"P14S1,(sys_se/p_sharin.wav)"
+		exbtn t_btn_ep6_lsp,t_btn_ep6_lsp,"C78"
+		exbtn t_btn_ep7_lsp,t_btn_ep7_lsp,"C78"
+		exbtn t_btn_load_lsp,t_btn_load_lsp,"C87"
+
+		transbtn ;透過部分のみをボタンとする
+		btnwait2 %BtnRes
+
+		if %BtnRes = t_btn_ep1_lsp mov %scenario_Number,1 : E_A : goto *higan_start
+		if %BtnRes = t_btn_ep2_lsp mov %scenario_Number,2 : E_A : goto *higan_start
+		if %BtnRes = t_btn_ep3_lsp mov %scenario_Number,3 : E_A : goto *higan_start
+		if %BtnRes = t_btn_ep4_lsp mov %scenario_Number,4 : E_A : goto *higan_start
+		if %BtnRes = t_btn_ep5_lsp mov %scenario_Number,5 : E_A : goto *higan_start
+
+
+		if %BtnRes = t_btn_load_lsp btndef "" : seplay 9,1001 : mov %load_for_title,1 : gosub *loadmode : mov %title_skip,1 : goto *b_title
+;		if %BtnRes = 0 btndef "" : seplay 9,1001 : mov %r_for_title,1 : goto *b_title_shunkan
+				if %BtnRes = -1 btndef "" : seplay 9,1001 : mov %r_for_title,1 : gosub *csptext : goto *b_title_shunkan
+		goto *start_sub_menu_btn_500_loop
+	*start_sub_menu_btn_500
+
+   ;------------------------------
+   ;5話クリア状態、6話未クリア
+	*start_sub_menu_600
+
+		bg "bmp\title\ss_btn\back\s_select_back7.bmp",0
+		lsp t_back_lsp,":a;bmp\title\ss_btn\back\6ms.bmp",0,0
+
+
+	if %UMINEKOEND < 5 goto *start_sub_menu_btn_600
+	if %UMINEKOEND >= 6 goto *start_sub_menu_btn_600
+		lsp t_btn_ep1_lsp,":a/2,0,3;bmp\title\ss_btn\btn\1_3.bmp",0,100,170	;178
+		lsp t_btn_ep2_lsp,":a/2,0,3;bmp\title\ss_btn\btn\2_3.bmp",15,200,170	;197
+		lsp t_btn_ep3_lsp,":a/2,0,3;bmp\title\ss_btn\btn\3_3.bmp",25,130,170	;216
+		lsp t_btn_ep4_lsp,":a/2,0,3;bmp\title\ss_btn\btn\4_3.bmp",90,260,170	;235
+		lsp t_btn_ep5_lsp,":a/2,0,3;bmp\title\ss_btn\btn\5_3.bmp",107,100,170	;235
+		lsp t_btn_ep6_lsp,":a/2,0,3;bmp\title\ss_btn\btn\6_2.bmp",150,230,230	;235
+		lsp t_btn_ep7_lsp,":a;bmp\title\ss_btn\btn\7_1.bmp",240,180,50	;235
+		lsp t_btn_load_lsp,":a/2,0,3;bmp\r_click\sys_btn\load.bmp",460,430	;254
+		lsph t_txt_ep1_lsp,":a;bmp\title\txt_box\ep1.bmp",350,120,100
+		lsph t_txt_ep2_lsp,":a;bmp\title\txt_box\ep2.bmp",350,120,100
+		lsph t_txt_ep3_lsp,":a;bmp\title\txt_box\ep3.bmp",350,120,100
+		lsph t_txt_ep4_lsp,":a;bmp\title\txt_box\ep4.bmp",350,120,100
+		lsph t_txt_ep5_lsp,":a;bmp\title\txt_box\ep5.bmp",350,120,100
+		lsph t_txt_ep6_lsp,":a;bmp\title\txt_box\ep6.bmp",350,120,100
+
+		print 80
+
+		*start_sub_menu_btn_600_loop
+		btndef ""
+		transbtn ;透過部分のみをボタンとする
+
+		exbtn_d "P0,1C87C18C17C16C15C14C13C12C61C60C59C58C57C56C55C54C78C77C79"
+
+		exbtn t_btn_ep1_lsp,t_btn_ep1_lsp,"P18S1,(sys_se/fire.wav)"
+		exbtn t_btn_ep2_lsp,t_btn_ep2_lsp,"P17S1,(sys_se/fire.wav)"
+		exbtn t_btn_ep3_lsp,t_btn_ep3_lsp,"P16S1,(sys_se/fire.wav)"
+		exbtn t_btn_ep4_lsp,t_btn_ep4_lsp,"P15S1,(sys_se/fire.wav)"
+		exbtn t_btn_ep5_lsp,t_btn_ep5_lsp,"P14S1,(sys_se/fire.wav)"
+		exbtn t_btn_ep6_lsp,t_btn_ep6_lsp,"P13S1,(sys_se/p_sharin.wav)"
+		exbtn t_btn_ep7_lsp,t_btn_ep7_lsp,"C78"
+		exbtn t_btn_load_lsp,t_btn_load_lsp,"C87"
+
+		;透過処理が掛かっている部分はボタン処理を行なわない、という宣言
+		transbtn
+		btnwait2 %BtnRes
+
+		if %BtnRes = t_btn_ep1_lsp mov %scenario_Number,1 : E_A : goto *higan_start
+		if %BtnRes = t_btn_ep2_lsp mov %scenario_Number,2 : E_A : goto *higan_start
+		if %BtnRes = t_btn_ep3_lsp mov %scenario_Number,3 : E_A : goto *higan_start
+		if %BtnRes = t_btn_ep4_lsp mov %scenario_Number,4 : E_A : goto *higan_start
+		if %BtnRes = t_btn_ep5_lsp mov %scenario_Number,5 : E_A : goto *higan_start
+		if %BtnRes = t_btn_ep6_lsp mov %scenario_Number,6 : E_A : goto *higan_start
+
+		if %BtnRes = t_btn_load_lsp btndef "" : seplay 9,1001 : mov %load_for_title,1 : gosub *loadmode : mov %title_skip,1 : goto *b_title
+				if %BtnRes = -1 btndef "" : seplay 9,1001 : mov %r_for_title,1 : gosub *csptext : goto *b_title_shunkan
+		goto *start_sub_menu_btn_600_loop
+	*start_sub_menu_btn_600
+
+   ;------------------------------
+   ;6話クリア状態、7話未クリア
+	*start_sub_menu_700
+		bg "bmp\title\ss_btn\back\s_select_back7.bmp",0
+		lsp t_back_lsp,":a;bmp\title\ss_btn\back\6ms.bmp",0,0
+
+
+	if %UMINEKOEND < 6 goto *start_sub_menu_btn_700
+	if %UMINEKOEND >= 7 goto *start_sub_menu_btn_700
+		lsp t_btn_ep1_lsp,":a/2,0,3;bmp\title\ss_btn\btn\1_3.bmp",0,100,170	;178
+		lsp t_btn_ep2_lsp,":a/2,0,3;bmp\title\ss_btn\btn\2_3.bmp",15,200,170	;197
+		lsp t_btn_ep3_lsp,":a/2,0,3;bmp\title\ss_btn\btn\3_3.bmp",25,130,170	;216
+		lsp t_btn_ep4_lsp,":a/2,0,3;bmp\title\ss_btn\btn\4_3.bmp",90,260,170	;235
+		lsp t_btn_ep5_lsp,":a/2,0,3;bmp\title\ss_btn\btn\5_3.bmp",107,100,170	;235
+		lsp t_btn_ep6_lsp,":a/2,0,3;bmp\title\ss_btn\btn\6_3.bmp",150,230,230	;235
+		lsp t_btn_ep7_lsp,":a/2,0,3;bmp\title\ss_btn\btn\7_2.bmp",240,180,240	;235
+		lsp t_btn_load_lsp,":a/2,0,3;bmp\r_click\sys_btn\load.bmp",460,430	;254
+		lsph t_txt_ep1_lsp,":a;bmp\title\txt_box\ep1.bmp",350,120,100
+		lsph t_txt_ep2_lsp,":a;bmp\title\txt_box\ep2.bmp",350,120,100
+		lsph t_txt_ep3_lsp,":a;bmp\title\txt_box\ep3.bmp",350,120,100
+		lsph t_txt_ep4_lsp,":a;bmp\title\txt_box\ep4.bmp",350,120,100
+		lsph t_txt_ep5_lsp,":a;bmp\title\txt_box\ep5.bmp",350,120,100
+		lsph t_txt_ep6_lsp,":a;bmp\title\txt_box\ep6.bmp",350,120,100
+		lsph t_txt_ep7_lsp,":a;bmp\title\txt_box\ep7.bmp",350,120,100
+
+		print 80
+
+		*start_sub_menu_btn_700_loop
+		btndef ""
+		transbtn ;透過部分のみをボタンとする
+
+		exbtn_d "P0,1C87C18C17C16C15C14C13C12C61C60C59C58C57C56C55C54C78C77C79"
+
+		exbtn t_btn_ep1_lsp,t_btn_ep1_lsp,"P18S1,(sys_se/fire.wav)"
+		exbtn t_btn_ep2_lsp,t_btn_ep2_lsp,"P17S1,(sys_se/fire.wav)"
+		exbtn t_btn_ep3_lsp,t_btn_ep3_lsp,"P16S1,(sys_se/fire.wav)"
+		exbtn t_btn_ep4_lsp,t_btn_ep4_lsp,"P15S1,(sys_se/fire.wav)"
+		exbtn t_btn_ep5_lsp,t_btn_ep5_lsp,"P14S1,(sys_se/fire.wav)"
+		exbtn t_btn_ep6_lsp,t_btn_ep6_lsp,"P13S1,(sys_se/fire.wav)"
+		exbtn t_btn_ep7_lsp,t_btn_ep7_lsp,"P12S1,(sys_se/p_sharin.wav)"
+		exbtn t_btn_load_lsp,t_btn_load_lsp,"C87"
+
+		transbtn ;透過部分のみをボタンとする
+		btnwait2 %BtnRes
+
+		if %BtnRes = t_btn_ep1_lsp mov %scenario_Number,1 : E_A : goto *higan_start
+		if %BtnRes = t_btn_ep2_lsp mov %scenario_Number,2 : E_A : goto *higan_start
+		if %BtnRes = t_btn_ep3_lsp mov %scenario_Number,3 : E_A : goto *higan_start
+		if %BtnRes = t_btn_ep4_lsp mov %scenario_Number,4 : E_A : goto *higan_start
+		if %BtnRes = t_btn_ep5_lsp mov %scenario_Number,5 : E_A : goto *higan_start
+		if %BtnRes = t_btn_ep6_lsp mov %scenario_Number,6 : E_A : goto *higan_start
+		if %BtnRes = t_btn_ep7_lsp mov %scenario_Number,7 : E_A : goto *higan_start
+
+		if %BtnRes = t_btn_load_lsp btndef "" : seplay 9,1001 : mov %load_for_title,1 : gosub *loadmode : mov %title_skip,1 : goto *b_title
+;		if %BtnRes = 0 btndef "" : seplay 9,1001 : mov %r_for_title,1 : goto *b_title_shunkan
+				if %BtnRes = -1 btndef "" : seplay 9,1001 : mov %r_for_title,1 : gosub *csptext : goto *b_title_shunkan
+		goto *start_sub_menu_btn_700_loop
+	*start_sub_menu_btn_700
+
+   ;------------------------------
+   ;6話クリア状態、追加要素未プレイ？状態
+	*start_sub_menu_800
+		bg "bmp\title\ss_btn\back\s_select_back7.bmp",0
+
+	if %UMINEKOEND < 7 goto *start_sub_menu_btn_700
+;	if %UMINEKOEND >= 8 goto *start_sub_menu_btn_600
+		lsp t_btn_ep1_lsp,":a/2,0,3;bmp\title\ss_btn\btn\1_3.bmp",0,100,120	;178
+		lsp t_btn_ep2_lsp,":a/2,0,3;bmp\title\ss_btn\btn\2_3.bmp",15,200,130	;197
+		lsp t_btn_ep3_lsp,":a/2,0,3;bmp\title\ss_btn\btn\3_3.bmp",25,130,210	;216
+		lsp t_btn_ep4_lsp,":a/2,0,3;bmp\title\ss_btn\btn\4_3.bmp",90,260,200	;235
+		lsp t_btn_ep5_lsp,":a/2,0,3;bmp\title\ss_btn\btn\5_3.bmp",107,100,250	;235
+		lsp t_btn_ep6_lsp,":a/2,0,3;bmp\title\ss_btn\btn\6_3.bmp",150,230,230	;235
+		lsp t_btn_ep7_lsp,":a/2,0,3;bmp\title\ss_btn\btn\7_3.bmp",240,180,240	;235
+		lsp t_btn_load_lsp,":a/2,0,3;bmp\r_click\sys_btn\load.bmp",460,430	;254
+		lsph t_txt_ep1_lsp,":a;bmp\title\txt_box\ep1.bmp",350,120,100
+		lsph t_txt_ep2_lsp,":a;bmp\title\txt_box\ep2.bmp",350,120,100
+		lsph t_txt_ep3_lsp,":a;bmp\title\txt_box\ep3.bmp",350,120,100
+		lsph t_txt_ep4_lsp,":a;bmp\title\txt_box\ep4.bmp",350,120,100
+		lsph t_txt_ep5_lsp,":a;bmp\title\txt_box\ep5.bmp",350,120,100
+		lsph t_txt_ep6_lsp,":a;bmp\title\txt_box\ep6.bmp",350,120,100
+		lsph t_txt_ep7_lsp,":a;bmp\title\txt_box\ep7.bmp",350,120,100
+
+		print 80
+
+		*start_sub_menu_btn_800_loop
+		btndef ""
+		transbtn ;透過部分のみをボタンとする
+
+		exbtn_d "P0,1C87C18C17C16C15C14C13C12C61C60C59C58C57C56C55C54C78C77C79"
+
+		exbtn t_btn_ep1_lsp,t_btn_ep1_lsp,"P18S1,(sys_se/fire.wav)"
+		exbtn t_btn_ep2_lsp,t_btn_ep2_lsp,"P17S1,(sys_se/fire.wav)"
+		exbtn t_btn_ep3_lsp,t_btn_ep3_lsp,"P16S1,(sys_se/fire.wav)"
+		exbtn t_btn_ep4_lsp,t_btn_ep4_lsp,"P15S1,(sys_se/fire.wav)"
+		exbtn t_btn_ep5_lsp,t_btn_ep5_lsp,"P14S1,(sys_se/fire.wav)"
+		exbtn t_btn_ep6_lsp,t_btn_ep6_lsp,"P13S1,(sys_se/fire.wav)"
+		exbtn t_btn_ep7_lsp,t_btn_ep7_lsp,"P12S1,(sys_se/fire.wav)"
+		exbtn t_btn_load_lsp,t_btn_load_lsp,"C87"
+
+		transbtn ;透過部分のみをボタンとする
+		btnwait2 %BtnRes
+
+		if %BtnRes = t_btn_ep1_lsp mov %scenario_Number,1 : E_A : goto *higan_start
+		if %BtnRes = t_btn_ep2_lsp mov %scenario_Number,2 : E_A : goto *higan_start
+		if %BtnRes = t_btn_ep3_lsp mov %scenario_Number,3 : E_A : goto *higan_start
+		if %BtnRes = t_btn_ep4_lsp mov %scenario_Number,4 : E_A : goto *higan_start
+		if %BtnRes = t_btn_ep5_lsp mov %scenario_Number,5 : E_A : goto *higan_start
+		if %BtnRes = t_btn_ep6_lsp mov %scenario_Number,6 : E_A : goto *higan_start
+		if %BtnRes = t_btn_ep7_lsp mov %scenario_Number,7 : E_A : goto *higan_start
+
+		if %BtnRes = t_btn_load_lsp btndef "" : seplay 9,1001 : mov %load_for_title,1 : gosub *loadmode : mov %title_skip,1 : goto *b_title
+;		if %BtnRes = 0 btndef "" : seplay 9,1001 : mov %r_for_title,1 : goto *b_title_shunkan
+				if %BtnRes = -1 btndef "" : seplay 9,1001 : mov %r_for_title,1 : gosub *csptext : goto *b_title_shunkan
+		goto *start_sub_menu_btn_800_loop
+	*start_sub_menu_btn_800
+
+
+;＞＜＞＜＞＜＞＜＞＜＞＜＞＜＞＜＞＞＜＞＜＞＜＞＜＞＜＞＜＞＜＞＜＞
