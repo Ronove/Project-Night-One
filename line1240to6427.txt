@@ -2,19 +2,19 @@
 `　A man exits a toilet stall and leaves a girl behind him.`@
 br
 ;　少女の姿は、…一言で言えば異常だった。\
-`　As for the girl... if she could have been described with one word, it was strange.`\
+` As for the girl... if she could have been described with one word, it would be strange.`\
 bg black,22
 
 ;　上履きに靴下。@
 `　She had socks and indoor slippers.`@
 ;　それは、ここが学校であることを考えれば何もおかしいことはない。@
-`　If one were to think this were a school, there'd be nothing strange about it.`@
+`　If one were to think this was a school, there'd be nothing strange about it.`@
 ;bg Aka1,22
 br
 ;　背負っているのは赤いランドセル。@
 `　She wore an elementary student's red pack on her back.`@
 ;　それは、ここが学校であることを考えれば何もおかしいことはない。\
-`　If one were to think this were a school, there'd be nothing strange about it.`\
+`　If one were to think this was a school, there'd be nothing strange about it.`\
 
 ;bg Aka2,22
 
@@ -36,7 +36,7 @@ bg black,5
 bg toire_04,5
 
 ;　少女は、男の足音が遠のき、@自分が無人の旧校舎の忘れられたトイレに一人っきりになったことを思い出すと、@そのまま床にへたり込み、めそめそと哀れな涙を零し始めるのだった……。\
-`　As for this girl, as the echoes of the man's footsteps began to fade away, `@`she remembered she was helplessly forgotten, alone in the former school building. `@`As she sank to the floor, it was then that she began to shed her tears while sobbing, mesomeso......`\ 
+`　As the echoes of the man's footsteps began to fade away, `@`the girl remembered she was helplessly forgotten, alone in the former school building. `@`As she sank to the floor, she began to shed her tears while sobbing, mesomeso......`\
 
 textoff
 
@@ -75,7 +75,7 @@ bgm1 5
 bg kyou_01,42
 
 ;　学校には大勢の生徒がいて、女子だってその半分を占める。@
-`　In the school there is a large crowd of students -- girls making up around half of them.`@
+`　In the school, there is a large crowd of students -- girls making up around half of them.`@
 br
 ;　……だから、この“少女”のことをいつまでも少女と呼称するのは適当ではないだろう。@
 `　......And so perhaps it's no longer appropriate to keep calling this girl, "the girl."`@
@@ -112,7 +112,7 @@ ld r,MAR_Def2,80
 cl r,2
 
 ;　彼女も、そんな弱い自分と決別したいと日々思っていた。@
-`　For her there were times when she had thought to say farewell to her weaker self.`@
+`　There were times when she had thought of saying farewell to her weaker self.`@
 　
 ;　……だが、思うだけで自分を変えられたなら誰も苦労などしない。@
 `　.....And yet, if she had been able to change herself just by thinking, no one would have had to suffer.`@
@@ -125,7 +125,7 @@ bg black,2
 ;　毬枝が望まぬことをいつから強要されているのか。@
 `　For how long had Marie been forced to do the things she didn't want?`@
 ;　そしてどのような破廉恥な行為を強要されているのか。@
-`　And what kind of shameless deeds was she being forced to do?`@
+`　And what kind of shameless deeds were she being forced to do?`@
 ;　……それについて詳細に説明する必要は何もない。@
 `　.....As for that, there's no need to explain it in detail.`@
 br
@@ -139,7 +139,7 @@ bg k_kyou_03,2
 me1v 16,50
 
 ;　どうしてこのような悲しい運命に迷い込んでしまったのか。@最初の切っ掛けは本当にささやかで下らないものだった気がする。@
-`　Why has she gone astray into this sad fate? `@`One might muse at the excuses as to why she was so meagre and worthless.`@
+`　Why has she gone astray into this sad fate? `@`One might muse at the excuses for why she was so meagre and worthless.`@
 br
 ;　ああするしかなかった。@他に方法がなかった。@断る術がなかった。@それが常に、最善だった。@
 `　She had no choice but to be like that. `@`There was no other way. `@`No way to refuse it. `@`That it was always for the best.`@
@@ -181,7 +181,7 @@ br
 `　Eventually, Marie became servile, and soon she became alone at school and at home.`@
 br
 ;　悩み事を相談すれば、姉たちの偉業と比べられ、また居心地が悪くなるに違いないと恐れた。@
-`　In her distress if she were to ask for help, she feared she would doubtlessly be compared to the greatness of her sisters and suffer for it.`@
+`　In her distress, if she were to ask for help, she feared she would doubtlessly be compared to the greatness of her sisters and suffer for it.`@
 br
 ;　……だから、このような蟻地獄に落とされた時、@家族も含め、相談する相手が誰一人思いつかなかったのだ…。\
 `　......And so, when she was dropped into this ant lion pit, `@`within her family she could think of no one to ask for help...`\
@@ -189,7 +189,7 @@ br
 bg black,22
 
 ;　彼女なりに考えた最善は、常に裏目裏目に出続けた。@
-`　To her what she thought was for the best, was constantly backfiring and backfiring.`@
+`　To her, what she thought was for the best was constantly backfiring and backfiring.`@
 ;　押しつけられた飼育委員すら断れなかった彼女に、@どうして悪意ある罠が振り払えるというのか。@
 `　To her, a girl who couldn't even refuse joining the animal raising committee when pressed, `@`how could she escape this malicious trap?`@
 br
@@ -221,7 +221,7 @@ bg black,22
 `　......Why did it have to turn out like this......?`@
 br
 ;　宙を泳ぐ金魚がいたならば、@水面で口をぱくぱくさせなければならないに違いないと思うほど、@酸素の薄れた空気の中で、私はぼんやりと考えていた……。\
-`　I thought as much idly to myself in that oxygen deprived air, `@`if there were goldfish that could swim through the air, `@`it could put its mouth in the water to breathe`\
+`　I thought as much idly to myself in that oxygen deprived air, `@`if there were goldfish that could swim through the air, `@`it could put its mouth in the water to breathe.`\
 
 bg black,22
 
@@ -252,7 +252,7 @@ mono 0
 ;bg e002,22
 
 ;　……その代償として求めてきた行為が、どんなに異常なものだったとしても。\
-`　......No matter what kind of strange thing it was he might have wanted in return.`\
+`　......No matter what kind of strange thing he might have wanted in return.`\
 
 ;bg black,22
 bg e008,22
@@ -268,7 +268,7 @@ bg e009,22
 ;quakey 2,300
 
 ;　だから、私は再び虐められる生け贄羊に戻らないためには、どんな代償だって安く思えたのだ。@
-`　And so that once again I wouldn't return to being the sacrificial lamb, I thought any kind of compensation would have been easier than that.`@
+`　And so that I wouldn't return to being the sacrificial lamb once again, I thought any kind of compensation would have been easier than that.`@
 ;　……それくらいに、生け贄羊の役は、辛いのだから……。@
 `　......For fitting into the role of the sacrificial lamb was a painful one......`@
 br
@@ -282,7 +282,7 @@ bg e010,22
 `　If I were to compare it to the sorrow and fear of being bullied in class, `@`listening to Sensei's words weren't hard at all.`@
 br
 ;　先生は、放課後に私を呼び出す時以外は私を虐めないし、@むしろ私を虐めようとするクラスメートを叱ってさえくれた。\
-`　Aside from calling for me after school, it's not like Sensei ever teases me, `@`rather, he goes so far as to punish the classmates who do tease me.`\
+`　Aside from calling for me after school, it's not like Sensei ever teases me. `@`Rather, he goes so far as to punish the classmates who do tease me.`\
 
 ;bg white,27
 ;bg black,22
@@ -311,7 +311,7 @@ br
 `　......But, `@`Sensei doesn't know how to stop his desires.`\
 
 ;　先生が私を守ってくれることに対する感謝の気持ちとして捧げていたはずの行為は、@今では先生のために私が施さなければならない義務と化し、@かつてはたまの放課後だけに呼び出されていたはずの関係も、@徐々に他の時間にも浸食するようになり始めていた。\
-`　The deeds I should have offered up in gratitude to Sensei for protecting me, `@`are now becoming an obligation I must perform for Sensei, `@`and even the once in a while call after school relationship, `@`gradually began to corrode into other times as well.`\
+`　The deeds I should have offered up in gratitude to Sensei for protecting me, `@`are now becoming an obligation I must perform for Sensei. `@`Even the occasional after school relationship, `@`gradually began to corrode into other times as well.`\
 
 textoff
 
@@ -334,7 +334,7 @@ br
 me1v 16,70
 
 ;　平穏な学校生活を守るために耐えてきた苦役は、@今や私の平穏を侵し始め、何のために捧げている行為なのか、@その意味すら分からなくなり始めていたのだ……。\
-`　This hard toil that I've come to endure to protect my tranquil school life, `@`has begun to violate that very tranquility, and then as to why I'm doing these things, `@`I'm beginning to no longer understand their significance......`\
+`　This hard toil that I've come to endure to protect my tranquil school life, `@`has begun to violate that very tranquility. And as for my reason for doing these things, `@`I'm beginning to no longer understand their significance......`\
 
 fedexx 70,70,0,0,0,0,2000
 E_M3
@@ -345,7 +345,7 @@ bg kyou_04,22
 `　......But, there's no doubt Sensei helped protect me from those bullies.`@
 br
 ;　今日だって、私の教科書をいたずらしようとした男子たちを全員廊下に並べて、@真っ赤になるくらいに平手を打ってくれた。@そして私に謝罪させてくれた。\
-`　Just today, a bunch of boys who wanted to pull a prank with my textbook all were lined up out in the hall, `@` and all their palms were smacked red. `@`And he made them to apologize to me.`\
+`　Just today, a bunch of boys who wanted to pull a prank with my textbook were all lined up out in the hall, `@` and had their palms smacked red. `@`And he made them apologize to me.`\
 
 bg black,22
 ;mono 0
@@ -361,7 +361,7 @@ me2v 17,70
 `　......And so heeding Sensei's desires is the natural way of showing my gratitude for that......`@
 br
 ;　それに対し、不快に感じるのはつまり、@私が感謝の気持ちを忘れかけているということで……。\
-`　And so for that, my feeling unpleasant is basically, `@`proof that I'm beginning to forget my feelings of gratitude......`\
+`　My feeling unpleasant is basically proof `@`that I'm beginning to forget my feelings of gratitude......`\
 
 
 bg toire_08,2
@@ -371,7 +371,7 @@ bg toire_08,2
 
 me3v 3,70
 ;……ただただ今日もいいなりになり、下着姿にランドセルを背負うよう命じられ、@……先生の日頃の疲れを労うよう命じられただけだった……。@
-`　......Just today, exactly as he said. He told me to put on my backpack while wearing my underwear, `@`......and then Sensei told me to thank him for his day's work......`@
+`　......Just today, doing exactly as he said. He told me to put on my backpack while wearing my underwear, `@`......and then Sensei told me to thank him for his day's work......`@
 br
 ;　それが辛く感じるのは、私に感謝の気持ちがないからなのだ。\
 `　And that pain I felt was because I had no feelings of gratitude.`\
@@ -386,7 +386,7 @@ br
 `　......Compared to that, ...this is natural ......fine......`@
 br
 ;　そうわかっているはずなのに、@……私はめそめそと泣き続けるのをやめることはできなかった……。\
-`　Even though I should have understood that, `@`......I couldn't stop myself from continuing to cry and sob, mesomeso`\ 
+`　Even though I should have understood that, `@`......I couldn't stop myself from continuing to cry and sob, mesomeso.`\
 
 bg black,42
 
@@ -412,20 +412,20 @@ wait 1000
 ld c,KAN_Def2,80
 
 ;　すでに少女の独白でも明かされている通り、男は毬枝の担任だった。@
-`　Just as revelead in the girl's monologue, the man is Marie's homeroom teacher.`@
+`　Just as revealed in the girl's monologue, the man is Marie's homeroom teacher.`@
 br
 ;　名は、金森義仁（かなもりよしひと）。\
 `　His name is Kanamori Yoshihito (金森義仁).`\
 
 ;　若くて線が細く、落ち着いた振る舞いの中にもユーモアを忘れない、@憧れる女子も多い人気のある教師だった。\
-`　Young with a slender figure, in his calm composure he hadn't lost his humor, `@`he was a popular teacher who many girls longed for.`\
+`　Young with a slender figure, in his calm composure he hadn't lost his humor. `@`He was a popular teacher who many girls longed for.`\
 
 bg black,0
 ld c,KAN_w2,22
 ;ld c,KAN_Def1,80
 
 ;　だが、それは容姿だけの問題だ。@
-`　But, that was just a matter of his appereance.`@
+`　But that was just a matter of his appereance.`@
 ;　その内面は、彼に憧れる少女たちのささやかな好意を踏みにじってなお余りある、最低のものだった。\
 `　On the inside, he crushed the meagre desires of these girls underfoot, and he had plenty of them. He was the worst.`\
 
@@ -459,7 +459,7 @@ ld r,KAN_K3,22
 `　All he had was the trickling of his meaningless sweat.`@
 br
 ;　……なのに、世の中にはそんな自分の苦労の上にさも当り前のようにあぐらをかき、@うまい汁だけを吸っている連中がたくさんいるのだ。\
-`　......And yet, in reality that kind of person could sit atop his own hardships, `@`and there were a lot of people who would suck on their own delicious sweat.`\
+`　(?) ......And yet, in reality that kind of person could sit atop his own hardships, `@`and there were a lot of people who would suck on their own delicious sweat.`\
 
 ;bg e016,45
 
@@ -480,13 +480,13 @@ bg black,22
 `　......And that could only be his unconcious rage.`@
 br
 ;　その怒りのはけ口を他者に向けなかったなら、@彼はそれでも高潔な教師であり続けられただろう。\
-`　That rage, that if he hadn't found an outlet in another person, `@`he might have continued to be a noble teacher.`\
+`　If he hadn't found an outlet for that rage in another person, `@`he might have continued to be a noble teacher.`\
 
 mono 1
 ld r,MAR_Def3n,22
 
 ;　……だが彼は、それを他者に向けた。@こともあろうか、自分の教え子の少女にだった。@
-`　...... But he found that person. `@`Not only that, but she was of his own students.`@
+`　......But he found that person. `@`Not only that, but she was one of his own students.`@
 
 br
 ;　だからその時点で、その高潔な生い立ちに関係なく、@彼は最低の男であることに間違いなかった。\
@@ -498,14 +498,14 @@ br
 bg kyou_01,22
 
 ;　彼は今や学校に来る目的は、将来の社会を担う少年少女たちに学問を教えることではなく、@少女を思うがままに蹂躙して報われない自分を慰めるためだと自覚までしているのだ。\
-`　His purpose now when he came to school was not to educate the next generation of girls and boys to bear the future of society, `@`but he made his goal to amuse his unrequited self by conciously violating the girl to his heart's content.`\
+`　His purpose now when he came to school was not to educate the next generation of girls and boys to bear the future of society, `@`but to amuse his unrequited self by conciously violating the girl to his heart's content.`\
 
 
 ;　それに対し、金森が罪の意識を持ったのは本当に最初の最初だけだ。@
 `　And that was just the beginning of Kanamori's concious sins.`@
 br
 ;　弱みを握り、自分の欲望に何の枷も付けることもなく吐き出せる快楽は、@彼から罪の意識を奪うのに大して長い時間を必要ともしなかったのである……。\
-`　He grips weakness, and without any restraints for his lust the pleasure he unleashes, `@`doesn't take a long time to snatch away his sins from his conciousness......`\
+`　(?) He grips weakness, and without any restraints for his lust the pleasure he unleashes, `@`doesn't take a long time to snatch away his sins from his conciousness......`\
 
 bg black,2
 
