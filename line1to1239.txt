@@ -1,29 +1,30 @@
 ;value 2500
-
+;gameid HiganbanaEnglish
 *define
 
-;デバッグ用（セーブデータを別のフォルダに保存）
-;savedir "savedata"
-;effectskip 0
 humanz 900
 
 ;windowback
 
 mode_wave_demo
 
+language english
+
 nsa
 
 errorsave ;エラー時に999番に保存
 
-killmenu 7
+;killmenu 7
 ;「CD-DA」項目を非表示
-killmenu 4
+;killmenu 4
 ;「ボリューム」項目を非表示
-killmenu 2
+;killmenu 2
 ;「表示形式」項目を非表示
 
-caption "彼岸花の咲く夜に"
-versionstr "彼岸花の咲く夜に　ver1.009","制作　０７ｔｈ　Ｅｘｐａｎｓｉｏｎ"
+;caption "彼岸花の咲く夜に"
+;versionstr "彼岸花の咲く夜に　ver1.009","制作　０７ｔｈ　Ｅｘｐａｎｓｉｏｎ"
+caption "Higanbana no Saku Yoru ni - The First Night, Patch v0.1"
+versionstr "Higanbana no Saku Yoru ni, ver1.009","created by 07th Expansion"
 
 ;メニューの内容
 ;rmenu "セーブする",save,"ロードする",load,"次の選択肢へスキップする",skip,"文字を消す",windowerase,"回想",lookback,"タイトルに戻る",reset
@@ -1236,4 +1237,3 @@ bg toire_03,42
 wait 1000
 
 se2 83
-
