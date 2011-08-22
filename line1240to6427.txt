@@ -2372,10 +2372,10 @@ br
 `　At that moment, from the far side of the hall, he heard someone's footsteps drawing near.`\
 
 ;　歩き方の特徴から、おそらく生徒の誰かだろうと思う。@
-`　Because of the peculiar way they walked, I think it's probably one of the students.`@
+`　Because of the peculiar way they walked, I thought it was probably one of the students.`@
 br
 ;　……しかし、こんな時間の旧校舎の、それもこんなトイレに何の用だってんだ…？！\
-`　......But, in the old school building at this kind of time, and even then, what kind of business did they have with this bathroom...?!`\
+`　......But, in the old school building at this hour? And even then, what kind of business did they have with this bathroom...?!`\
 
 E_A
 bgm1 11
@@ -2394,7 +2394,7 @@ bg toire_03,0
 ld r,KAN_K4,23
 
 ;　その足音は、すたすたと歩くのとは違う。@……一歩一歩がゆっくりで、非常に慎重に歩いているのがわかった。@…息も殺しているように感じる。@
-`　The sounds of those footsteps weren't like a brisk pace. `@`.....I could tell it was someone walking very carefully and slowly, step by step. `@`...And I could even tell they were holding their breath.`\
+`　The sounds of those footsteps weren't like a brisk pace. `@`.....I could tell it was someone walking very carefully and slowly, step by step. `@`...And I could even tell they were holding their breath.`@
 br
 ;　……だから私はもう完全に想像がついていた。\
 `　......Because I had clearly imagined this already.`\
@@ -2589,7 +2589,7 @@ br
 `".........Mesomeso, ...Mesomeso. `@`......You there, please listen to my pitiful story...`@
 br
 ;　哀れっぽく。@…そして、めそめそさんだったら、@…いや、毬枝だったらそう言うだろうとイメージしながら、それを口にする。@……裏声で、か細く。\
-`　Pitifully. `@`...And I spoke while imagining as if Mesomeso-san, `@`...No, as if Marie had said it. `@`......Feebly, with a high pitch.
+`　Pitifully. `@`...And I spoke while imagining as if Mesomeso-san, `@`...No, as if Marie had said it. `@`......Feebly, with a high pitch.`\
 
 me2v 16,50
 
