@@ -1,5 +1,6 @@
 ;Testing
-　これは、近隣の学校の統廃合に伴い、大きなマンモス校になって大勢の生徒数を誇り、@のみならず、学校の七不思議が、さらにもう一つ多いという不思議な学校の物語…。\
+;　これは、近隣の学校の統廃合に伴い、大きなマンモス校になって大勢の生徒数を誇り、@のみならず、学校の七不思議が、さらにもう一つ多いという不思議な学校の物語…。\
+` This is the strange story of how, with the re-organization of their local school the students took pride in the new, larger building, `@`and, setting that aside, how the resident seven school mysteries also grew by one... `\
 
 bg black,22
 
@@ -15,7 +16,8 @@ wait 1000
 
 ld r,NON_Def2,2
 
-　野々宮武（ののみや　たけし）がカメラを手に取るようになったのは、@何年か前の理科準備室での事件が切っ掛けだった。\
+;　野々宮武（ののみや　たけし）がカメラを手に取るようになったのは、@何年か前の理科準備室での事件が切っ掛けだった。\
+` The tale of how Nonomiya Takeshi got his hands on a camera, `@` begins many years ago with an incident that happened in the Science Prep. Room. `\
 
 ld r,NON_Def1,22
 
@@ -25,26 +27,34 @@ bg black,22
 mono 1
 bg rika_01,2
 
-　彼の班は、今週は理科室と理科準備室を掃除することになっていた。@
+;　彼の班は、今週は理科室と理科準備室を掃除することになっていた。@
+`  This week his group had the duty of cleaning the Science Lab and Science Prep. Room. `@`
 br
-　理科室よりは理科準備室の方が、面白そうな、そして怪しそうなものが多くて、@ある意味、人気が高い。@
+;　理科室よりは理科準備室の方が、面白そうな、そして怪しそうなものが多くて、@ある意味、人気が高い。@
+` The Science Prep. Room was by far the more interesting of the two, as it was full of strange things, `@` was the view of many of the students. `@`
 br
-　彼は、ちょっとしたジャンケンにより、その日は理科準備室の掃除の権利を手に入れた。\
+;　彼は、ちょっとしたジャンケンにより、その日は理科準備室の掃除の権利を手に入れた。\
+` That day he had earned the right to clean the Science Prep. Room after winning a round of rock-paper-scissors. `\
 
-　掃除の時間は、真面目に掃除をする生徒がいる一方で、ふざけて遊んでいる生徒も少なくない。@
+;　掃除の時間は、真面目に掃除をする生徒がいる一方で、ふざけて遊んでいる生徒も少なくない。@
+` There were a few students who did the cleaning diligently, but there were also many who just used the time to goof off. `@`
 br
-　その日も、理科室と理科準備室、そして廊下へとくるくる回りながら追いかけっこをしてふざけている女子の一群があった。\
+;　その日も、理科室と理科準備室、そして廊下へとくるくる回りながら追いかけっこをしてふざけている女子の一群があった。\
+` That day as well, there was a group of girls skipping and chasing each other around all through the Lab and Science Prep. Room, and even out into the hallways. `\
 
 bg black,22
 
-　その時、彼はたまたま１人だった。@
+;　その時、彼はたまたま１人だった。@
+` By chance, at that time he was all by himself. `@`
 br
-　掃き掃除を終え、@自分ひとりが掃除していることに気付いて憤慨し、班の仲間を誰か呼びに行こうとしているところだった。\
+;　掃き掃除を終え、@自分ひとりが掃除していることに気付いて憤慨し、班の仲間を誰か呼びに行こうとしているところだった。\
+` He had finished sweeping, `@` and had noticed with indignation that he was the only one still cleaning, so he was about to go call for some of his buddies in the group. `\
 
 bg white,23
 bg rika_03,23
 
-　再び女子の一群が、きゃっきゃとはしゃぎながら、@それこそバターになってしまうのではないかという勢いで、理科室から理科準備室を抜け、廊下へ駆け抜けていく。\
+;　再び女子の一群が、きゃっきゃとはしゃぎながら、@それこそバターになってしまうのではないかという勢いで、理科室から理科準備室を抜け、廊下へ駆け抜けていく。\
+` Again the group of girls, giggling all the while, `@` chased each other around through the Lab, the Prep. Room and back into the hall. `\
 
 quake 3,300
 wait 500
@@ -54,24 +64,31 @@ se2v 39,70
 
 quakey 3,300
 
-　その時、彼女らの一群の最後のひとりが、@理科室の定番の…、人体解剖模型を肩で弾き飛ばして倒した。@
+;　その時、彼女らの一群の最後のひとりが、@理科室の定番の…、人体解剖模型を肩で弾き飛ばして倒した。@
+` At that time, the last girl of the group, `@` happened to bump the human anatomy dummy with her shoulder... sending it crashing to the floor. `@`
 br
-　それは勢いよく床に叩き付けられると、ばらばらになって散らばり、@これ以上ないくらいに取り返しがつかないことを見せ付けた。\
+;　それは勢いよく床に叩き付けられると、ばらばらになって散らばり、@これ以上ないくらいに取り返しがつかないことを見せ付けた。\
+` It hit the floor with such force that it broke, its pieces scattering here and there `@` just by looking at it one could tell that it could not be more horribly broken beyond repair. `\
 
 ld l,NON_def5a,22
 
-　その女子と彼は一瞬、起こったことに呆然として動きを止め、@……そして目を合わせた。\
+;　その女子と彼は一瞬、起こったことに呆然として動きを止め、@……そして目を合わせた。\
+` She and he paused for a moment, dumbfounded by what had happened, `@` ... then their eyes met. `\
 
-　野々宮武にとってみれば、それは目の前で起きた事故。@騒ぐつもりも囃し立てるつもりもない。@
+;　野々宮武にとってみれば、それは目の前で起きた事故。@騒ぐつもりも囃し立てるつもりもない。@
+` To Nonomiya Takeshi it was just an accident that had occured right before his eyes. `@` He had no desire to either cheer or raise a fuss. `@`
 br
-　少なくとも自分は当事者ではないわけで、@彼女がどう先生に謝るのか、どう怒られるのか、それを気の毒に思うだけだった。\
+;　少なくとも自分は当事者ではないわけで、@彼女がどう先生に謝るのか、どう怒られるのか、それを気の毒に思うだけだった。\
+` At the very least, since he wasn't the culprit himself, `@` he felt pity on the girl, considering how she would apologize to the teachers and how angry they would be. `\
 
 bg white,64
 bg rika_01,22
 
-　だが女子は気まずそうな顔を浮かべた後、そのまま廊下へ駆け出して行った。@本来の、彼女の友人を追いかける仕事に戻った。@
+;　だが女子は気まずそうな顔を浮かべた後、そのまま廊下へ駆け出して行った。@本来の、彼女の友人を追いかける仕事に戻った。@
+` But after giving him an uncomfortable look, the girl fled back to the corridor. `@` Then, she resumed chasing after her friends.
 br
-　後には、彼とばらばらになった人体解剖模型の残骸が散らばるだけだった。\
+;　後には、彼とばらばらになった人体解剖模型の残骸が散らばるだけだった。\
+` He was left alone with the scattered fragments of the fallen anatomy dummy. `\
 
 bg black,22
 
@@ -91,33 +108,43 @@ bg Different_spiral_1a,22
 
 me1v 11,90
 
-　ここからが、おかしな話になった。@
+;　ここからが、おかしな話になった。@
+` From here on, the tale became strange. `@
 br
-　彼は、彼女が人体模型を倒したと正しい主張をしたのだが、@彼女とその友人たちはそんなことをしていないと主張した。@いや、それどころか、そもそも理科準備室にすら立ち入っていないと主張した。\
+;　彼は、彼女が人体模型を倒したと正しい主張をしたのだが、@彼女とその友人たちはそんなことをしていないと主張した。@いや、それどころか、そもそも理科準備室にすら立ち入っていないと主張した。\
+` Despite his insistence that she had broken the anatomy dummy, `@` the girl and her friends claimed she had done no such thing. `@` No, in fact, they even went so far as to say none of them had gone near the Scinece Prep. Room. `\
 
-　野々宮武は、自分の目の前で彼女が人体模型を弾き飛ばした光景をはっきり目に焼き付けている。@
+;　野々宮武は、自分の目の前で彼女が人体模型を弾き飛ばした光景をはっきり目に焼き付けている。@
+` But the image of the girl knocking over the anatomy dummy right before his eyes was burned into Nonomiya Takeshi's mind. `@`
 br
-　もしも可能ならば現像したいと思うくらいにはっきりと焼き付けていた。\
+;　もしも可能ならば現像したいと思うくらいにはっきりと焼き付けていた。\
+` It was fixed there so clearly that, if he could, he would have printed and developed it like film.
 
 ;bg Different_spiral_1b,22
 bg black,0
 mono 1
 ld r,NON_def5a,22
 
-　しかし女子たちは証拠があるならば見せろと反論する。@
+;　しかし女子たちは証拠があるならば見せろと反論する。@
+` But the girls wanted him to produce real proof if he had it. `@`
 br
-　………目で見た光景は現像などできない。@証拠はもちろんなかった。\
+;　………目で見た光景は現像などできない。@証拠はもちろんなかった。\
+` ... but one can't develop that which is seen by eye alone. `@` So he had no proof to give. `\
 
-　その女子たちは普段、成績もよく、@……平均的に考えれば、男子よりも女子の方が信用できる年頃だった。@その上、女子たちは多人数で口裏を合わせている。\
+;　その女子たちは普段、成績もよく、@……平均的に考えれば、男子よりも女子の方が信用できる年頃だった。@その上、女子たちは多人数で口裏を合わせている。\
+` Those girls were normally good students, `@`... and, thinking statistically, girls at that age are more trustworthy than boys. `@` Above all that, the girls had united their many voices against his. `\
 
 bg rika_02,0
 ld r,NON_def5a,22
 
-　結果、何としたことか、@………先生は、野々宮武が嘘を吐いていると断定したのだ。@
+;　結果、何としたことか、@………先生は、野々宮武が嘘を吐いていると断定したのだ。@
+` As a result, no matter what he did, `@` ... the teacher decided Nonomiya Takeshi was lying. `@`
 br
-　別にゲンコツをもらったわけではないが、こっぴどく叱られた。@……とても悔しかった。@
+;　別にゲンコツをもらったわけではないが、こっぴどく叱られた。@……とても悔しかった。@
+` It wasn't like he was beaten for it, only harshly scolded. `@` ...but it was so very frustrating. `@`
 br
-　もちろん、嘘を吐いた女子も許せなかったが、@それ以上に、目の前で起こった真実を提示できなかったことが悔しかった。\
+;　もちろん、嘘を吐いた女子も許せなかったが、@それ以上に、目の前で起こった真実を提示できなかったことが悔しかった。\
+` Oh, he would never forgive the girls who had lied but, `@` what was truly frustrating was that he couldn't present the truth he had seen with his own eyes. `\
 
 
 
@@ -149,9 +176,11 @@ wait 1000
 
 bgm1 8
 
-　人は真実を見ることができても、その証拠が示せない限り、それを語ることができない。@
+;　人は真実を見ることができても、その証拠が示せない限り、それを語ることができない。@
+` People can see the truth with their eyes, but, as long as they have no proof to back it up they cannot call it truth. `@`
 br
-　つまり、人は真実を自らの眼で見ることなどできない。@……写真に現像してしか、真実を見ることができないのだ。\
+;　つまり、人は真実を自らの眼で見ることなどできない。@……写真に現像してしか、真実を見ることができないのだ。\
+` In other words, a person cannot see the truth alone. `@` ... only by developing what has been captured on film can anyone see the truth. `\
 
 se1 81
 
@@ -172,18 +201,24 @@ bgcopy
 csp -1
 
 
-　彼はその時を境に、@真実を写真という形で切り取り、現像できる、カメラというものに強い関心を持つようになった。@
+;　彼はその時を境に、@真実を写真という形で切り取り、現像できる、カメラというものに強い関心を持つようになった。@
+` In his current state of mind, `@` he began to wish strongly for something like a camera that could capture the truth and develop it into pictures. `@`
 br
-　そんな彼の義憤が、真実を追究する新聞記者やカメラマンに向けられたのは、@若さを考えれば自然なものに違いなかった。\
+;　そんな彼の義憤が、真実を追究する新聞記者やカメラマンに向けられたのは、@若さを考えれば自然なものに違いなかった。\
+` His decision to aim toward becoming a reporter or cameraman who sought the truth was, `@` given his righteous indignation at that time, a natural result. `\
 
-　きっかけはそのようなものであったにせよ。@彼は、写真の世界に少しずつのめり込んで行った。@
+;　きっかけはそのようなものであったにせよ。@彼は、写真の世界に少しずつのめり込んで行った。@
+` And so, that became the catalyst. `@` From then on, he slowly began to enter the world of photography. `@`
 br
-　しかし、彼の義憤を納得させるようなスクープ写真など、そうそうお目にかかれるわけもない。\
+;　しかし、彼の義憤を納得させるようなスクープ写真など、そうそうお目にかかれるわけもない。\
+` But, a scoop photo that would serve to fulfil his wrathful desire was not quick in coming. `\
 
 
-　そのレンズは次第に、身近でささやかなものに向けられるようになり、@いつの間にか日々の日常を切り取って残すことに、詩的な喜びを感じるようになっていった…。@
+;　そのレンズは次第に、身近でささやかなものに向けられるようになり、@いつの間にか日々の日常を切り取って残すことに、詩的な喜びを感じるようになっていった…。@
+` That lens was instead turned upon the more ordinary things that were close at hand, `@` and before he knew it he took almost poetic pleasure in the simple things he was able to capture day by day... `@`
 br
-　そんな日々は幸いにもやがて、悔しい冤罪のことを忘れさせ、@濡れ衣を着せた相手の少女の顔も名前も思い出せなくしていった……。\
+;　そんな日々は幸いにもやがて、悔しい冤罪のことを忘れさせ、@濡れ衣を着せた相手の少女の顔も名前も思い出せなくしていった……。\
+` As those days continued, his happiness eroded away at the frustration he had felt at the false accusations, `@` and soon he began to even forget the name and face of the girl who had caused it all... `\
 
 textoff
 
@@ -214,11 +249,14 @@ bgm1 4
 
 
 
-　そして、クラスには彼以外にカメラに関心を持つ者がいなかった為、@この趣味は彼のアイデンティティを確立させるのにこの上なく貢献した。\
+;　そして、クラスには彼以外にカメラに関心を持つ者がいなかった為、@この趣味は彼のアイデンティティを確立させるのにこの上なく貢献した。\
+` So, since no one else in his class was quite as passionate about cameras, `@` this hobby began to become his entire identity in the school. `\
 
-　彼＝カメラという図式はクラスでは当り前のものとなり、@林間学校などでは、報道係なる役目をもらって、特別にカメラを携帯する許可をもらえたりした。@
+;　彼＝カメラという図式はクラスでは当り前のものとなり、@林間学校などでは、報道係なる役目をもらって、特別にカメラを携帯する許可をもらえたりした。
+` The concept that Takeshi=Camera became a matter of fact, `@` so that, even during outdoor school trips, he was allowed to bring a camera along for school journalism purposes.
 br
-　それは彼の自尊心を大きく向上させ、@将来は写真関係の仕事に就いてもいいかもしれないと思えるまでになっていた。\
+;　それは彼の自尊心を大きく向上させ、@将来は写真関係の仕事に就いてもいいかもしれないと思えるまでになっていた。\
+` That was a huge boost to his self esteem, `@` and he began to seriously consider pursuing a job in photography in the future. `\
 
 se1 81
 
@@ -231,9 +269,11 @@ ld r,NON_def2,22
 bgcopy
 csp -1
 
-　だから、そんな彼が「新聞部」に所属することになるのは自然な流れだった。@
+;　だから、そんな彼が「新聞部」に所属することになるのは自然な流れだった。@
+` And therefore, his joining the 'Newspaper Club' was a given in the flow of events. `@`
 br
-　彼は、新聞部でもっともカメラに詳しい人間として重宝され、@顧問教師にカメラマンと呼ばれることに喜びを感じるのだった…。\
+;　彼は、新聞部でもっともカメラに詳しい人間として重宝され、@顧問教師にカメラマンと呼ばれることに喜びを感じるのだった…。\
+` He was valuable as the person with the most knowledge of cameras in the whole club, `@` and so he could feel a thrill of joy whenever the club councilor would call him 'cameraman'... `\
 
 bg black,2
 wait 1000
@@ -3408,7 +3448,7 @@ br
 bg black,22
 
 　助けてもらったのは間違いないし、……自慢できるようなものじゃないけれど、@アルバムを恩返しに見せてあげよう。@
-　ひょっとすると、僕が気付いていないような心霊写真でも見つけてくれるかも。@
+　ひょ???とすると、僕が気付いていないような心霊写真でも見つけてくれるかも。@
 br
 　……無理にポジティブにそう考え、僕は慌てて彼岸花の後を追うのだった。\
 
@@ -3438,7 +3478,7 @@ br
 
 　……今日、何かをひとつ間違えていたら、僕は二度と家へ帰れなかったかもしれないのだ。@
 br
-　例え、妖怪と一緒の帰宅となったとしても、無事に再び門を潜れたことが嬉しい。\
+　例え、妖怪と一緒の帰??となったとしても、無事に再び門を潜れたことが嬉しい。\
 
 　彼岸花は、門を潜る前で足を止め、家を見上げてから、僕の背中を見ていた。@
 br
@@ -4561,7 +4601,7 @@ ld l,YOU_Def1,2
 se1v 38,50
 ld l,YOU_Def3,22
 
-「…………………野々宮……く………。」@
+「…………………野々宮……く……・c。」@
 br
 　沼田さんが、苦しげに言う。@
 　今の僕にはもう、無惨な彼女の姿に恐怖は感じなかった。@……ただただ、痛々しいとだけ思った。\
