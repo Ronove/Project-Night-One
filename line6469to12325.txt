@@ -249,11 +249,14 @@ bgm1 4
 
 
 
-　そして、クラスには彼以外にカメラに関心を持つ者がいなかった為、@この趣味は彼のアイデンティティを確立させるのにこの上なく貢献した。\
+;　そして、クラスには彼以外にカメラに関心を持つ者がいなかった為、@この趣味は彼のアイデンティティを確立させるのにこの上なく貢献した。\
+` So, since no one else in his class was quite as passionate about cameras, `@` this hobby began to become his entire identity in the school. `\
 
-　彼＝カメラという図式はクラスでは当り前のものとなり、@林間学校などでは、報道係なる役目をもらって、特別にカメラを携帯する許可をもらえたりした。@
+;　彼＝カメラという図式はクラスでは当り前のものとなり、@林間学校などでは、報道係なる役目をもらって、特別にカメラを携帯する許可をもらえたりした。
+` The concept that Takeshi=Camera became a matter of fact, `@` so that, even during outdoor school trips, he was allowed to bring a camera along for school journalism purposes.
 br
-　それは彼の自尊心を大きく向上させ、@将来は写真関係の仕事に就いてもいいかもしれないと思えるまでになっていた。\
+;　それは彼の自尊心を大きく向上させ、@将来は写真関係の仕事に就いてもいいかもしれないと思えるまでになっていた。\
+` That was a huge boost to his self esteem, `@` and he began to seriously consider pursuing a job in photography in the future. `\
 
 se1 81
 
@@ -266,9 +269,11 @@ ld r,NON_def2,22
 bgcopy
 csp -1
 
-　だから、そんな彼が「新聞部」に所属することになるのは自然な流れだった。@
+;　だから、そんな彼が「新聞部」に所属することになるのは自然な流れだった。@
+` And therefore, his joining the 'Newspaper Club' was a given in the flow of events. `@`
 br
-　彼は、新聞部でもっともカメラに詳しい人間として重宝され、@顧問教師にカメラマンと呼ばれることに喜びを感じるのだった…。\
+;　彼は、新聞部でもっともカメラに詳しい人間として重宝され、@顧問教師にカメラマンと呼ばれることに喜びを感じるのだった…。\
+` He was valuable as the person with the most knowledge of cameras in the whole club, `@` and so he could feel a thrill of joy whenever the club councilor would call him 'cameraman'... `\
 
 bg black,2
 wait 1000
@@ -3443,7 +3448,7 @@ br
 bg black,22
 
 　助けてもらったのは間違いないし、……自慢できるようなものじゃないけれど、@アルバムを恩返しに見せてあげよう。@
-　ひょっとすると、僕が気付いていないような心霊写真でも見つけてくれるかも。@
+　ひょ???とすると、僕が気付いていないような心霊写真でも見つけてくれるかも。@
 br
 　……無理にポジティブにそう考え、僕は慌てて彼岸花の後を追うのだった。\
 
@@ -4596,7 +4601,7 @@ ld l,YOU_Def1,2
 se1v 38,50
 ld l,YOU_Def3,22
 
-「…………………野々宮……く………。」@
+「…………………野々宮……く……・c。」@
 br
 　沼田さんが、苦しげに言う。@
 　今の僕にはもう、無惨な彼女の姿に恐怖は感じなかった。@……ただただ、痛々しいとだけ思った。\
