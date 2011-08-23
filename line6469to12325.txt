@@ -279,18 +279,24 @@ bg black,2
 wait 1000
 bg shinbun_02,22
 
-　部室はとても古い。@しかし、膨れ上がった生徒数を抱えるこの学校で、@それを与えられているのはとても名誉なことで、新聞部が歴史あるものであることを暗に教えてくれた。\
+;　部室はとても古い。@しかし、膨れ上がった生徒数を抱えるこの学校で、@それを与えられているのはとても名誉なことで、新聞部が歴史あるものであることを暗に教えてくれた。\
+` The room was very old. `@` However, in a school that was growing to meet the needs of the increasing student population, `@` having a room that had some obvious history was a mark of pride for the Newspaper Club. `\
 
-　もっとも、机を囲んで部員たちがパイプ椅子に座るのがやっとで、@後は棚に溢れかえる資料や本、会報。@それを積み上げたものや、古い機材、壊れた機材。@誰がいつ持ち込んだものなのかももはやわからない私物などが雑然とし、@のみならず、カビや埃の臭いを感じさせる実にカオスな部室だった。\
+;　もっとも、机を囲んで部員たちがパイプ椅子に座るのがやっとで、@後は棚に溢れかえる資料や本、会報。@それを積み上げたものや、古い機材、壊れた機材。@誰がいつ持ち込んだものなのかももはやわからない私物などが雑然とし、@のみならず、カビや埃の臭いを感じさせる実にカオスな部室だった。\
+` In the room the club members sat around a desk on folding chairs, `@` the shelves on the walls were overflowing with old books, documents and clippings, as well as old and broken machines of all sizes. `@` There was no way of telling what belonged to the club originally and what had been brought and forgotten by members long ago, `@` above all, the stench of dust and mildew lingered, and chaos ruled. `\
 me1v 11,90
 
-「この新聞部ってさ。@何でもすっげぇ古い歴史があるらしいぜ。@戦前どころか、開校の当時からあるって噂だぜ。」@
+;「この新聞部ってさ。@何でもすっげぇ古い歴史があるらしいぜ。@戦前どころか、開校の当時からあるって噂だぜ。」@
+`"You know what they say about the Newspaper Club. `@` Apparently it's got some super long history or something. `@` Forget before the war, this club's been around since the day the school opened, they say." `@`
 br
-　次回の会報のテーマが決まらず、いつの間にか雑談となっている中で部長がぽつりと言った。\
+;　次回の会報のテーマが決まらず、いつの間にか雑談となっている中で部長がぽつりと言った。\
+' The club president muttured this suddenly, while the club was in the middle of chattering idly rather than decide on the theme for the next bulletin. `\
 
-　武は、何かアイデアになるものが見つからないかと、古い棚を漁っている。@特に、教室奥の棚は、積み上げられた本の山のため、迂闊には近づけず、@入ったら帰れない魔境とまで呼ばれているのだった。@
+;　武は、何かアイデアになるものが見つからないかと、古い棚を漁っている。@特に、教室奥の棚は、積み上げられた本の山のため、迂闊には近づけず、@入ったら帰れない魔境とまで呼ばれているのだった。@
+` Takeshi, looking for some kind of interesting idea they could go with, was fishing around in the old shelves. `@` Some of the older shelves in the back were, due to the random piles of books, almost impossible to get to, `@` even if you managed to get back there it was a one-way street from which no man could return. `@`
 br
-　彼は、そこにこそ何か珍しいものが眠っていて、@いつまでも堂々巡りで終わらないこの会議に終止符を打ってくれるものと期待していた。\
+;　彼は、そこにこそ何か珍しいものが眠っていて、@いつまでも堂々巡りで終わらないこの会議に終止符を打ってくれるものと期待していた。\
+` 
 
 「野々宮、どうだよ。@何か面白そうなものは発掘できるかー？@　その辺まで行くと、戦前レベルのアルバムばっかだろ。」\
 
@@ -3420,7 +3426,7 @@ mcl a,22
 
 bg black,22
 
-　でも、これを断れば、本当に僕の腕を一本もいでいくかもしれない…。@………彼女が僕のことを、友達だと言ってくれている以上、僕もそれに合わさざるを得ない……。@
+　でも、これを断れば、本当に僕の腕を一本もいでいくかもしれない…。@………彼女が僕のこ???を、友達だと言ってくれている以上、僕もそれに合わさざるを得ない……。@
 　彼女の機嫌を損ねることは、今の僕には怖くてとてもできなかった。\
 
 
