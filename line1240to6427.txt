@@ -2774,24 +2774,32 @@ E_M1
 ;bg etc_01,22
 bg gakkou_07y,22
 ;　そして、………校内が完全に無人になった深夜の暗闇の中、@私は毬枝の体を倉庫から引っ張り出し、@……プレハブ校舎にあるトイレ小屋裏にやってきた。\
-`　So, ......With the school completely empty under the darkness of the late night, `@`I drug Marie's body from the storehouse, `@`and took her to an outhouse behind the prefab school building.`\
+`　So, ......with the school completely empty under the darkness of the late night, `@`I drug Marie's body from the storehouse, `@`and took her to an outhouse behind the prefab school building.`\
 
-　このトイレはかなり古い汲み取り式で、巨大な便槽が地下に埋まっている。@
-　本来は、下水道化すべきなのだが、@このプレハブを作った当時はあくまで仮の校舎で、すぐに取り壊すつもりでいたらしい。@
+;　このトイレはかなり古い汲み取り式で、巨大な便槽が地下に埋まっている。@
+`　This toilet was the fairly old squatting kind, where the waste had to be pumped out from a gigantic septic tank buried underground.`@
+;　本来は、下水道化すべきなのだが、@このプレハブを作った当時はあくまで仮の校舎で、すぐに取り壊すつもりでいたらしい。@
+`　Originally the drainage system should have been changed, `@`but at the same time this prefab was made, it seems they intended to quickly tear down the old school.`@
 br
-　それが、取り壊されずいつまでも使われ続けているため、@水洗便所と汲み取り式便所が同時に存在するという歪な状況になってしまっているのだ。\
+;　それが、取り壊されずいつまでも使われ続けているため、@水洗便所と汲み取り式便所が同時に存在するという歪な状況になってしまっているのだ。\
+`　But since it wasn't destroyed and was always being used, `@`both flush toilets and squat toilets came to exist at the same time in this strange state of affairs.`\
 
-　時折、バキュームカーが汲み取りに来るだけで、@中身を完全に空っぽにしているわけじゃない。@ましてや、その底を覗き込むわけでもない。@
+;　時折、バキュームカーが汲み取りに来るだけで、@中身を完全に空っぽにしているわけじゃない。@ましてや、その底を覗き込むわけでもない。@
+`　Someone just comes to empty the septic tank sometimes, `@`but it's not like they completely empty its contents. `@`Much less peak at the bottom.`@
 br
-　……だから、この便槽の中に放り込んでしまえば……、誰にもわかるはずはない。\
+;　……だから、この便槽の中に放り込んでしまえば……、誰にもわかるはずはない。\
+`　......And so if I tossed her inside this septic tank, ......, no one should notice.`\
 
 bg black,0
 ld r,KAN_K1,22
 
-　……いつかはバレるかもしれないが、それは遺体が白骨化するほど未来の話だろう。@
+;　……いつかはバレるかもしれないが、それは遺体が白骨化するほど未来の話だろう。@
+`　......It might be found someday, but that might be in the future after the body has turned into a skeleton.`@
 br
-　便槽の中で糞尿に塗れてウジに食われ、白骨化した死体に何の痕跡も見つけられるものか。@
-　……遊んでる時に誤って落ちたと思うのが精一杯さ。\
+;　便槽の中で糞尿に塗れてウジに食われ、白骨化した死体に何の痕跡も見つけられるものか。@
+`　Covered in shit and eaten by maggots, what kind of trace could they find on those skeletal remains?`@
+;　……遊んでる時に誤って落ちたと思うのが精一杯さ。\
+`　......The most they could think is that she accidentally fell in while playing.`\
 
 bg black,22
 
@@ -2801,12 +2809,16 @@ bg etc_02,6
 
 me1v 5,50
 
-　便槽の汲み取り口の蓋を開ける。@
-　……むわっとした悪臭の熱気がこみ上げ、一瞬たじろぐ。@
+;　便槽の汲み取り口の蓋を開ける。@
+`　I uncovered the drainage pipe for the septic tank.`@
+;　……むわっとした悪臭の熱気がこみ上げ、一瞬たじろぐ。@
+`　......For a moment I winced at the horrible hot stench. Phew!`@
 br
-　それから、改めて懐中電灯で毬枝の体を照らし、不審な点がないことを確認した。@
+;　それから、改めて懐中電灯で毬枝の体を照らし、不審な点がないことを確認した。@
+`　And then I shined my light on Marie's body with my flashlight, and checked to make sure I didn't leave any suspicious marks.`@
 br
-　……大丈夫だ。@運んでくる途中で靴が脱げてしまって、校内のどこかに残っている…なんてことにはなっていない……。\
+;　……大丈夫だ。@運んでくる途中で靴が脱げてしまって、校内のどこかに残っている…なんてことにはなっていない……。\
+`　......It looks alright. `@`It's not as if she lost her shoes along the way and left them somewhere in the school......`\
 
 
 
@@ -2824,31 +2836,39 @@ ld l,KAN_K1,22
 ;mono 2
 ;bg Different_spiral_1a,22
 
-　その時、小さな違和感。@
+;　その時、小さな違和感。@
+`　Suddenly, he noticed something was a little out of place.`@
 
 me3v 17,70
 
 br
-　……………………右腕の、袖のボタンは…？\
+;　……………………右腕の、袖のボタンは…？\
+`　.........Her right sleeve's button is...?`\
 
-　毬枝の着ていた服は、袖に飾りボタンがついたものだった。@
+;　毬枝の着ていた服は、袖に飾りボタンがついたものだった。@
+`　The clothes Marie wore had decorative buttons on the sleeves.`@
 br
-　見れば、左腕にはちゃんとついているが、右腕にはついてなくて、手首がほんの少しはだけていた。\
+;　見れば、左腕にはちゃんとついているが、右腕にはついてなくて、手首がほんの少しはだけていた。\
+`　Looking at her, her right sleeve should have had one, but it wasn't there, and her arm lay bare.`\
 
 bg Different_spiral_1a,0
 ld l,KAN_K1,22
 
 bgm1 11
 
-　……どこかでボタンが落ちてしまっただろうか…。@…いや、それとも、今日の初めからボタンはなかった…？\
+;　……どこかでボタンが落ちてしまっただろうか…。@…いや、それとも、今日の初めからボタンはなかった…？\
+`　......Maybe I dropped the button somewhere...? `@`...No, maybe, she didn't have one on today to begin with...?`\
 
-　………たったひとつのボタンを探して校内を探し回るのは不可能だ。@
+;　………たったひとつのボタンを探して校内を探し回るのは不可能だ。@
+`　......Searching the school for a single button was impossible.`@
 br
-　私は、そんなことに悩むよりも、毬枝の体を一刻も早く放り込む方が大事だと気付き、@躊躇なくそれを実行する。\
+;　私は、そんなことに悩むよりも、毬枝の体を一刻も早く放り込む方が大事だと気付き、@躊躇なくそれを実行する。\
+`　Rather than worrying about that, I was aware that I had to immediately dispose of Marie's body, `@`and I did so without hesitation.`\
 
 bg black,22
 
-　深く、意外に広いらしい便槽内に反響して、@ドポーンという音は、少しだけ不気味な彩りを添えた後、@夜の虫の声に飲まれて消えていくのだった…。\
+;　深く、意外に広いらしい便槽内に反響して、@ドポーンという音は、少しだけ不気味な彩りを添えた後、@夜の虫の声に飲まれて消えていくのだった…。\
+`　From within the deep and unusually large septic tank came an echo, `@`Splaaat. And after the somewhat creepy sound, `@`it too was replaced by the sound of the night insects, and disappeared...`\
 
 fedexx 0,0,50,0,0,0,2000
 E_B
@@ -2858,9 +2878,11 @@ E_M3
 ;bg etc_01,22
 bg gakkou_07y,22
 
-　便槽の蓋を元通り被せる。@
+;　便槽の蓋を元通り被せる。@
+`　I returned the drain's cover to the way it was before.`@
 br
-　……大丈夫。@何もわからない。@誰にも見られてない。\
+;　……大丈夫。@何もわからない。@誰にも見られてない。\
+`　......It's fine. `@`No one knows a thing. `@`No one saw me.`\
 
 bg black,22
 ;wait 1000
@@ -2871,21 +2893,26 @@ bg black,22
 fede 0,1000
 E_A
 
-　そのまま早歩きで職員室に戻る。@
+;　そのまま早歩きで職員室に戻る。@
+`　I thought as I walked briskly and returned to the staff room.
 br
-　……職員室に目撃した教師がいて、@自分に問い詰めて来る…という、最悪の想像で頭をいっぱいにしたが、@そんなことはありえなかった。\
+;　……職員室に目撃した教師がいて、@自分に問い詰めて来る…という、最悪の想像で頭をいっぱいにしたが、@そんなことはありえなかった。\
+`　......If there was a teacher in the staff room who witnessed it, they'd come question me... `@`And while this worst case scenario filled my mind, `@`it was impossible.`\
 
 me2v 11,90
 
-　職員室は静寂に満たされていて、@針を刻む音がうるさい壁掛け時計の音以外に何もなかった…。\
+;　職員室は静寂に満たされていて、@針を刻む音がうるさい壁掛け時計の音以外に何もなかった…。\
+`　The staff room was filled with silence, `@`and aside from the annoying sound of the ticking hands of the wall clock, there was nothing there...`\
 
 bg shokuin_03,22
 ld c,KAN_Def3a,22
 ;ld c,KAN_Def1,80
 
-　だって、自分以外の教師が全員、下校したことを確認してから毬枝を捨てに行ったのだから、@それは当然のことなのだ。@
+;　だって、自分以外の教師が全員、下校したことを確認してから毬枝を捨てに行ったのだから、@それは当然のことなのだ。@
+`　After all, I had already checked that all the teachers aside from myself had left the school before I went to disposed of Marie. `@`That was the natural thing to do.`@
 br
-　……………………。\
+;　……………………。\
+`　............`\
 
 
 
@@ -2903,27 +2930,36 @@ ld c,KAN_k2,22
 E_A
 bgm1 7
 
-「………ふふ、…………はははは？@　はっはっはっはっはっはっはっは！！」@
+;「………ふふ、…………はははは？@　はっはっはっはっはっはっはっは！！」@
+`"......Huhu, .........Hahahaha? `@` HAHAHAHAHAHAHAHAHA!!"`@
 br
-　笑う必要なんか何もなかったが、@…面倒臭い片付けごとが全て終わったような爽快な気分になり、意識せず笑いがこみ上げるのを感じた。@
+;　笑う必要なんか何もなかったが、@…面倒臭い片付けごとが全て終わったような爽快な気分になり、意識せず笑いがこみ上げるのを感じた。@
+`　There wasn't any need to laugh, `@`...but I was exhilerated that the annoying cleanup job was all over, and felt like a fullfilling yet senseless laugh.`@
 br
-　でも、笑いにまで至ったのは、それだけではないようだった。\
+;　でも、笑いにまで至ったのは、それだけではないようだった。\
+`　But the cause of my laughter wasn't just that alone.`\
 
 bg black,22
 
-　……そう。@あのトイレでの咄嗟の機転。\
+;　……そう。@あのトイレでの咄嗟の機転。\
+`　......That's right. `@`My quick thinking back in that bathroom.`\
 
-　度胸試しの女子生徒がノックしてきた時、@……万事休すだと思った。@
+;　度胸試しの女子生徒がノックしてきた時、@……万事休すだと思った。@
+`　When that girl testing her nerve came and knocked, `@`...I thought it was over.`@
 br
-　それを、@……ちょっと小耳に挟んだ「めそめそさん」のふりをして、見事にやり過ごしたのだ。\
+;　それを、@……ちょっと小耳に挟んだ「めそめそさん」のふりをして、見事にやり過ごしたのだ。\
+`　But then, `@`......pretending to be that "Mesomeso-san" I had heard about was beyond amazing.`\
 
 mono 1
 bg toire_01,22
 
-　あの女子は、明日から人に会う毎に自分は「めそめそさん」に会ったと喧伝するだろう。@
-　……そして、この学校には確かに「めそめそさん」という妖怪がいるという、学校伝説に育っていく。\
+;　あの女子は、明日から人に会う毎に自分は「めそめそさん」に会ったと喧伝するだろう。@
+`　That girl will probably spread the news to the people she meets everyday starting tomorrow that she met "Mesomeso-san."`@
+;　……そして、この学校には確かに「めそめそさん」という妖怪がいるという、学校伝説に育っていく。\
+`　......And then this school will certainly say that a youkai named "Mesomeso-san" exists, and a legend will be born.`\
 
-　……それはつまり、@……私が「めそめそさん」だったということだ。\
+;　……それはつまり、@……私が「めそめそさん」だったということだ。\
+`　......That meant basically, `@`...I was "Mesomeso-san."`\
 
 bg black,22
 mono 0
@@ -2931,32 +2967,40 @@ bg shokuin_02,0
 ld c,KAN_Def3a,22
 
 
-　そう。@何の証拠も残さず、殺人を遂行し、それを隠し切った。@
-　……それは、ヒエラルキーのピラミッドで、自分が人間より上位に立ったことすら意味する。\
+;　そう。@何の証拠も残さず、殺人を遂行し、それを隠し切った。@
+`　That's right. `@`Leaving no evidence, I accomplished murder and escaped unseen.`@
+;　……それは、ヒエラルキーのピラミッドで、自分が人間より上位に立ったことすら意味する。\
+`　......That meant that I stood above humans in the hierarchal pyramid.`\
 
 ld c,KAN_k2,80
 
-　つまり、……私は殺人という儀式を経て、今、人間というステージを超えたのだ…。@
+;　つまり、……私は殺人という儀式を経て、今、人間というステージを超えたのだ…。@
+`　In other words, ......I passed my test as a killer, and now, I have surpassed so called human stage...`@
 br
-　そして得たのが「めそめそさん」の呼び名。\
+;　そして得たのが「めそめそさん」の呼び名。\
+`　And what I earned was the name "Mesomeso-san."`\
 
 ;bg black,24
 ;bg shokuin_01,24
 
 bg shokuin_04,26
 
-　そう、……自分は人間を超えた。@「めそめそさん」になった。@妖怪になった。@人を超え、人を殺め、人に恐れられる存在になったのだ。@
+;　そう、……自分は人間を超えた。@「めそめそさん」になった。@妖怪になった。@人を超え、人を殺め、人に恐れられる存在になったのだ。@
+`　Yes, ......I have surpassed human beings. `@`I became "Mesomeso-san." `@`I became a youkai. `@`My existence now surpasses, murders, and is feared by humans.`@
 br
-　そして、私が残した「めそめそさん」の怪談は、例え私の身が滅んだとしても、@この学校の生徒たちによって、いつまでもいつまでも語り継がれて生き残っていくことになる……。\
+;　そして、私が残した「めそめそさん」の怪談は、例え私の身が滅んだとしても、@この学校の生徒たちによって、いつまでもいつまでも語り継がれて生き残っていくことになる……。\
+`　And even if the ghost story of "Mesomeso-san" I left behind may have destroyed me, `@`I will live on in the stories spoken by the students in this school forever...`\
 
 bg black,22
 
-　……それはまるで、@人間として生まれたからには絶対に逃れぬことができぬ宿命である寿命すらも超越したということ……。\
+;　……それはまるで、@人間として生まれたからには絶対に逃れぬことができぬ宿命である寿命すらも超越したということ……。\
+`　......That was as if, `@`it had even transcended my predestined life span from having been born a human being, and from which there was no escape...`\
 
 bg shokuin_04,26
 ld c,KAN_k5,26
 
-「はは、…はははははは！@　私が『めそめそさん』だぞ…！@　生徒諸君、私を怖がれ、恐れろ、そして語り継げ！@　あはは、あはははははははは！@　こいつは素敵だな、あははははははは！@　毬枝、@お前は生きてた時には、俺の退屈を紛らすためにその身を捧げ、@最後には命まで捧げて、私を人間から卒業させてくれたんだなぁ。@あはははははははは！@　本当に愉快なヤツだったよ…、あっはははははははは！@　はーっはっはっはっはっはっは！！」\
+;「はは、…はははははは！@　私が『めそめそさん』だぞ…！@　生徒諸君、私を怖がれ、恐れろ、そして語り継げ！@　あはは、あはははははははは！@　こいつは素敵だな、あははははははは！@　毬枝、@お前は生きてた時には、俺の退屈を紛らすためにその身を捧げ、@最後には命まで捧げて、私を人間から卒業させてくれたんだなぁ。@あはははははははは！@　本当に愉快なヤツだったよ…、あっはははははははは！@　はーっはっはっはっはっはっは！！」\
+`"Haha, ...Hahahahahaha! `@　`I'm "Mesomeso-san"...! `@`　Students, dread me, fear me, and transmit me! `@`　Ahaha, Ahahahahahahaha! `@`　How superb, ahahahahahaha! `@`　Marie, `@`when you were alive, you sacrificed your body to relieve my boredom, `@`and in the end, you even sacrificed your life to graduate me from humanityyy. `@`AHAHAHAHAHAHA! `@` What a swell kid...!, AHAHAHAHAHAHAHA! `@` HAAaHAaHAaHAaHAaHAaHA!!!"`\
 
 cl c,2
 bg black,2
@@ -2976,7 +3020,8 @@ me1v 16,50
 
 locate 0,5
 
-　………めそめそ……………めそめそ…………。\
+;　………めそめそ……………めそめそ…………。\
+`　......Mesomeso.........mesomeso.........`\
 
 　聞く者があれば、胸を掻き毟らずにはいられないような悲しい泣き声が、@毬枝の死体の捨てられたトイレ小屋の裏から聞こえてくる……。\
 
