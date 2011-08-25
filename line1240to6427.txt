@@ -3314,11 +3314,13 @@ me1v 35,50
 ;ld l,HIG_Def1,23
 ;ld l,HIG_Def1,80
 
-「……まだ悲観することはないわ、毬枝。@『めそめそさん』の候補が、あなたと金森の２人になっただけよ。@…『めそめそさん』という学校妖怪に序列の第８位を与えることはすでに決まっている。@だから今さら空席にはできない。@あなたか金森のどちらかが必ずその席につけるわ。@二分の一の確率で必ずね。」\
+;「……まだ悲観することはないわ、毬枝。@『めそめそさん』の候補が、あなたと金森の２人になっただけよ。@…『めそめそさん』という学校妖怪に序列の第８位を与えることはすでに決まっている。@だから今さら空席にはできない。@あなたか金森のどちらかが必ずその席につけるわ。@二分の一の確率で必ずね。」\
+`"......There's nothing to be disappointed about, Marie. `@`The candidates for "Mesomeso-san" has just become two -- you and Kanamori. `@`...It's already been decided "Mesomeso-san" will be take the 8th rank among the school youkai. `@`So now it can't be left empty. `@`Either you, or Kanamori, one of you will certainly take that seat. `@`Your odds are 50%, so it's a sure thing, right?."`\
 
 ;ld r,MAR_Def1,24
 
-「………それはどうやって、…いつ決まるんですか……」\
+;「………それはどうやって、…いつ決まるんですか……」\
+`"......How is it, ...and when will it be decided......?"\
 
 textoff
 ld c,HIG_w3,22
@@ -3328,11 +3330,13 @@ ld c,HIG_w4,80
 
 bgm1 8
 
-「学級会での投票でよ。@……学級会に投票できるのは私たち７人。@奇数だから必ず決まる。@……私はあなたと縁があったからね、あなたに投票するつもりだけれど。@でも、ウチのクラスには性質が悪いのも多いわ。@金森みたいな、邪悪なヤツにこそ第８位は相応しいって思ってるクラスメートもいるみたい。@なるほど、一理あるわね、くすくすくすくす……。」\
+;「学級会での投票でよ。@……学級会に投票できるのは私たち７人。@奇数だから必ず決まる。@……私はあなたと縁があったからね、あなたに投票するつもりだけれど。@でも、ウチのクラスには性質が悪いのも多いわ。@金森みたいな、邪悪なヤツにこそ第８位は相応しいって思ってるクラスメートもいるみたい。@なるほど、一理あるわね、くすくすくすくす……。」\
+`"A poll at the school meeting. `@`...We 7 can vote at the school meeting. `@`......We're an odd number, so it will surely be decided. `@`......Because I'm attached to you, I intend to vote for you. `@`But, in 'our' class there are a lot with wicked natures. `@`It seems there are some among us who think an evil bastard like Kanamori would be suitable for number 8. `@`Indeed, they might have a point, kusukusukusu......"\
 
 ld l,MAR_Def3n,22
 
-「……そんな………………。@…じゃあもし、……その投票に敗れたら、…私はどうなるんですか。」\
+;「……そんな………………。@…じゃあもし、……その投票に敗れたら、…私はどうなるんですか。」\
+`"......Oh no........ `@`...Well if, ...I should lose that poll, ...what will happen to me?"`\
 
 ;bg black,22
 ;bg gakkou_02,0
@@ -3342,21 +3346,25 @@ cl c,0
 
 ld r,HIG_w3,23
 
-「うふふふふふふふ……。@学校ほど未熟な魂がたくさん集まるところはない。@そんな魂からお零れを頂戴しようと、日本中で学校ほど魑魅魍魎が集まるところはない。@まだあなたには知覚できないだろうけど、@近隣でも最大のマンモス校であるこの学校は、この辺りじゃちょいと知られた妖怪銀座。」\
+;「うふふふふふふふ……。@学校ほど未熟な魂がたくさん集まるところはない。@そんな魂からお零れを頂戴しようと、日本中で学校ほど魑魅魍魎が集まるところはない。@まだあなたには知覚できないだろうけど、@近隣でも最大のマンモス校であるこの学校は、この辺りじゃちょいと知られた妖怪銀座。」\
+`"Uhuhuhuhuhu...... `@`There's no place where as many ripe souls gather other than a school. `@`Just to feast on the leftovers of those souls, there is no other place in all Japan where as many evil spirits gather. `@`You probably can't perceive them yet, `@`but this mammoth school is a well known youkai gold mine."
 
 bg black,0
 ld r,HIG_Def3,22
 
 me1v 17,50
 
-「……あなたみたいな、矜持も克己もないくせにいやに瑞々しい魂にちょっかいを出さずにはいられない、性質の悪い連中が、@あっという間に襲い掛かって骨の髄までしゃぶり尽くしてしまうでしょうね。@……あなたには見えない？@　あの校舎の影や、向こうの茂み。@……あなたの瑞々しい泣き声に引かれて、@欲望をむき出しにした性質の悪い連中が群れを成してうかがってるわ。」\
+;「……あなたみたいな、矜持も克己もないくせにいやに瑞々しい魂にちょっかいを出さずにはいられない、性質の悪い連中が、@あっという間に襲い掛かって骨の髄までしゃぶり尽くしてしまうでしょうね。@……あなたには見えない？@　あの校舎の影や、向こうの茂み。@……あなたの瑞々しい泣き声に引かれて、@欲望をむき出しにした性質の悪い連中が群れを成してうかがってるわ。」\
+`"......For someone like you, since they have no respect or control, those ill natured guys wouldn't pass up an awfully juicy soul like yours. `@`In an instant they'd rush you and devour you until they'd sucked out our bone marrow. `@`......Can't you imagine it? `@`In that school building's shadow, or on the otherside of the thicket. `@`I've heard those ill types with quite an appetite have formed groups."`\
 
 bg black,22
 ;bg etc_01,23
 
-　毬枝はぎょっとして、彼岸花の言う方を見るが、夜の闇に紛れる何かを見つけることはできなかった。@
+;　毬枝はぎょっとして、彼岸花の言う方を見るが、夜の闇に紛れる何かを見つけることはできなかった。@
+`　Marie was startled, and while saw what Higanbana was saying, she didn't see anything slip out from the night's darkness.`@
 br
-　……だが、見えなくても、その邪悪な存在は実在するに違いないのだ。\
+;　……だが、見えなくても、その邪悪な存在は実在するに違いないのだ。\
+`　......But, even without seeing them, she was certain those wicked beings existed.`\
 
 fede 10,1000
 E_MA
@@ -3365,13 +3373,16 @@ bg okujou_01y,0
 ld c,HIG_Def3,22
 ld c,HIG_w2,80
 
-「今はまだ大丈夫。@あなたの魂はまだ、この彼岸花が預かってる。@……学校の敷地内で、その学校を預かる学校妖怪の七席に刃向かおうなんてお馬鹿さんはいないわ。@ましてや私、…残酷なことで知られてるしね。@くすくすくすくす……。」\
+;「今はまだ大丈夫。@あなたの魂はまだ、この彼岸花が預かってる。@……学校の敷地内で、その学校を預かる学校妖怪の七席に刃向かおうなんてお馬鹿さんはいないわ。@ましてや私、…残酷なことで知られてるしね。@くすくすくすくす……。」\
+`"You'll be alright for now. `@`Your spirit is still being looked after by this Higanbana. `@`......On school premises, there isn't a fool who would dare attack someone from that school in the care of a school youkai from the seven seats. `@`Not to mention, ...I'd teach them what cruelty is. `@`Kusukusukusukusu......"`\
 
 ld c,HIG_w6,22
 
-　彼岸花はお世辞にも頼もしそうとは呼べない不気味な表情でくすくすと笑う。@
+;　彼岸花はお世辞にも頼もしそうとは呼べない不気味な表情でくすくすと笑う。@
+`　Higanbana giggled with an eerie expression that was neither flattering or trustworthy.`@
 br
-　それは毬枝を大いに怯えさせたが、@……毬枝には見えない、夜の帳に潜み毬枝を値踏みする邪悪な連中をそれ以上に怯えさせてもいた。\
+;　それは毬枝を大いに怯えさせたが、@……毬枝には見えない、夜の帳に潜み毬枝を値踏みする邪悪な連中をそれ以上に怯えさせてもいた。\
+`　That should have greatly frightened Marie, `@`...but Marie couldn't see it, she was more frightened of the things appraising her that hid in the veil of darkness.`\
 
 ;bg black,24
 ;bg gakkou_03,0
@@ -3379,21 +3390,26 @@ br
 cl c,0
 ld r,HIG_Def4,23
 
-「あなたと金森のどちらが『めそめそさん』に相応しいか。@それが決まるまで、あなたの安全は私が保証するわ。@………その後は保証しないけれどね？@　大丈夫よ。@あの連中に食い尽くされるのも、@あるいは死神がやって来て、冥府で正しい裁きが受けられるよう取り計らってくれるのも、@どちらにせよ一瞬のことよ。@……あなたがあなたでありたいと思う弱々しい気持ちなど、一瞬で奪ってくれるわ。@どちらにせよね。」\
+;「あなたと金森のどちらが『めそめそさん』に相応しいか。@それが決まるまで、あなたの安全は私が保証するわ。@………その後は保証しないけれどね？@　大丈夫よ。@あの連中に食い尽くされるのも、@あるいは死神がやって来て、冥府で正しい裁きが受けられるよう取り計らってくれるのも、@どちらにせよ一瞬のことよ。@……あなたがあなたでありたいと思う弱々しい気持ちなど、一瞬で奪ってくれるわ。@どちらにせよね。」\
+`"Which is more appropriate for "Mesomeso-san," you or Kanamori? `@`Until that's decided, I'll guarantee your safety. `@`......But after that I can't guarantee it, right? `@`It's alright. `@`even if you're eaten by those guys, or even if a reaper comes along and your judgement is settled in Hades, `@`either way will last an instant. `@`....However you might have wanted to live along with your frail thoughts will be snatched away in an instant. `@`One way or another."`\
 
 ld l,MAR_Def2n,22
 
-「……………私がこうしていられるのは、彼岸花さんが守ってくれる今だけ、@…ということなんですね。」@
+;「……………私がこうしていられるのは、彼岸花さんが守ってくれる今だけ、@…ということなんですね。」@
+`".........Higanbana-san is only protecting my existence like this for now. `@`...Is that right?"`@
 
 ld r,HIG_w2,80
 
-「そういうことよ。@あとこれ、…言っていいのかわからないんだけど。」\
+;「そういうことよ。@あとこれ、…言っていいのかわからないんだけど。」\
+`"That's right. `@`Although, after this... I don't know if it's safe to say."`\
 
 ld l,MAR_Def3n,80
 
-「………なんですか…？」@
+;「………なんですか…？」@
+`"......What is it...?"`@
 br
-　彼岸花は、冷酷そうににやりと笑うと、毬枝の耳元に唇を寄せ、……耳たぶを舐め取るようにそれを言う。\
+;　彼岸花は、冷酷そうににやりと笑うと、毬枝の耳元に唇を寄せ、……耳たぶを舐め取るようにそれを言う。\
+`　Higanbana, with a cruel cattish laugh, put her lips to Marie's ear, and as if to lick her earlobe, she spoke.`\
 
 textoff
 
@@ -3415,7 +3431,8 @@ ld c,HIG_w6,24
 
 bgm1 6
 
-「………あなたが美味しそうだと思ってるのは、@そこいらの連中だけじゃなくて、……私もだってことよ。@あなたが『めそめそさん』じゃないってことになったら、@…連中が食らい付く前に、………私が食べてしまおうと思ってるんだから。」\
+;「………あなたが美味しそうだと思ってるのは、@そこいらの連中だけじゃなくて、……私もだってことよ。@あなたが『めそめそさん』じゃないってことになったら、@…連中が食らい付く前に、………私が食べてしまおうと思ってるんだから。」\
+`"......There are many who think you look delicious, `@`it isn't just that group out there, ......but I do too. `@`Because I think if you don't become "Mesomeso-san," `@`...before they can sink their teeth into you, ......I'll already have eaten you."`\
 
 bg okujou_01y,0
 
@@ -3423,19 +3440,26 @@ ld l,MAR_Def2n,0
 ld c,HIG_w6,22
 
 
-　……その言葉にはわずかほどの冗談もない。@
+;　……その言葉にはわずかほどの冗談もない。@
+`　......Those words couldn't have been just a joke.`@
 br
-　群れて互いの権利を尊重しあうのは人の世の理だ。@
-　人ならざる者の世界では全ては序列。全ては弱肉強食。@
+;　群れて互いの権利を尊重しあうのは人の世の理だ。@
+`　Respecting mutual rights of others was logic from the human world.`@
+;　人ならざる者の世界では全ては序列。全ては弱肉強食。@
+`　In the world of non-humans things, everything was rank. Everything was survival of the fittest.`@
 br
-　……そして、彼岸花がそれを望むなら、@今この瞬間にもそれを実行してしまえるという現実が、言葉で伝えられているのだ……。\
+;　……そして、彼岸花がそれを望むなら、@今この瞬間にもそれを実行してしまえるという現実が、言葉で伝えられているのだ……。\
+`　......And if Higanbana wanted that, `@`those words told her that she could, now, in this very moment, make it into reality......`\ 
 
 mbg black,22
 
-　死を乗り越えればもう何も恐れることがないというのは、人間の無知だ。@
-　死してなお、この世界にはさらに恐れるべき何かが満ちている…。@
+;　死を乗り越えればもう何も恐れることがないというのは、人間の無知だ。@
+`　Saying that there's nothing to be afraid of after death, that is human stupidity.
+;　死してなお、この世界にはさらに恐れるべき何かが満ちている…。@
+`　Even after death, this world is still filled with things to be afraid of...`@
 br
-　そして毬枝は、死というあまりに苛烈な壁を一度潜り、@それをも上回る過酷な終末が存在している事実に、さらなる恐怖を感じずにはいられなかった……。\
+;　そして毬枝は、死というあまりに苛烈な壁を一度潜り、@それをも上回る過酷な終末が存在している事実に、さらなる恐怖を感じずにはいられなかった……。\
+`　And Marie, who has already once dived through the extremely severe barrier called death, `@`that reality where she could have lived without excessive cruelty, where she could have known no fear, never came.
 
 ;textoff
 
@@ -3443,12 +3467,14 @@ br
 ;bg gakkou_02,0
 ;ld c,MAR_Def1,22
 
-　……でも、…毬枝はその恐れを押し留め、やさしい声で言った。\
+;　……でも、…毬枝はその恐れを押し留め、やさしい声で言った。\
+`　......But, ...Marie stopped those fears, and spoke in a gentle voice.`\
 
 mcbg 22
 ld l,MAR_Def3n,80
 
-「……もしそういうことになって、彼岸花さんがそれを望むなら、@……そういうことでいいと思います。」\
+;「……もしそういうことになって、彼岸花さんがそれを望むなら、@……そういうことでいいと思います。」\
+`"......If it comes to that, if Higanbana-san desires that, `@`......I think that would be fine."`\
 
 
 ;bg black,23
@@ -3456,29 +3482,38 @@ ld l,MAR_Def3n,80
 cl c,0
 ld r,HIG_Def5,23
 
-「…………………もう観念…？」@
+;「…………………もう観念…？」@
+`"............Already given up...?"`@
 
 ld l,MAR_w2n,80
 
-「……違います。@お礼、みたいなものです。@……だって今の私、彼岸花さんが守ってくれるから、ここにこうしていられるんですよね…？@　だから、今こうして自分の死のために涙を流せる時間を下さる彼岸花さんに、@私は感謝しないといけないって、……そう思ったんです。」\
+;「……違います。@お礼、みたいなものです。@……だって今の私、彼岸花さんが守ってくれるから、ここにこうしていられるんですよね…？@　だから、今こうして自分の死のために涙を流せる時間を下さる彼岸花さんに、@私は感謝しないといけないって、……そう思ったんです。」\
+`"......That's not it. `@`I meant it to be, gratitude. `@`......Because, Higanbana-san is protecting me, I'm allowed to exist as I am now, right...? `@`Because, to Higanbana-san, who gave me time to cry for my own death, `@`I must be thankful, ...... And that's why."`\
 
 ld r,HIG_w3,80
 
-「………………………………。」\
+;「………………………………。」\
+`"....................."`\
 
-　毬枝にとって、彼岸花が自分に近付いてきた目的が、@自分を食い殺そうというものであったとしても。@
+;　毬枝にとって、彼岸花が自分に近付いてきた目的が、@自分を食い殺そうというものであったとしても。@
+`　For Marie, Higanbana's reason for approaching her, `@`even if it was to kill and eat her.`@
 br
-　……それでも、自分を仲間に迎えたいと掛けてくれた言葉の温かさは感謝に値するものだった。\
+;　……それでも、自分を仲間に迎えたいと掛けてくれた言葉の温かさは感謝に値するものだった。\
+`　......Even so, the warm words that offered to welcome her into their fold was worthy of gratitude.`\
 
-　あの金森が、いじめっ子から庇う対価として不道徳な行為を要求してきた時も、@決して自分を友人とも仲間とも言ってはくれなかったから。@
+;　あの金森が、いじめっ子から庇う対価として不道徳な行為を要求してきた時も、@決して自分を友人とも仲間とも言ってはくれなかったから。@
+`　Even Kanamori's, who demanded compensation in the form of those immoral acts for protecting her from those bullies, `@`had certainly never offered her to be his friend or companion.`@
 br
-　……毬枝が口に出さなくても、その感情を彼岸花は読み取る。\
+;　……毬枝が口に出さなくても、その感情を彼岸花は読み取る。\
+`　......Even if Marie didn't say them, Higanbana read those emotions.`\
 
 mbg black,22
 
-「…………ふ。」@
+;「…………ふ。」@
+`".........Hu."`@
 br
-　彼岸花は笑うが、その表情は毬枝からは見えない。\
+;　彼岸花は笑うが、その表情は毬枝からは見えない。\
+`　Higanbana laughs, but Marie doesn't see her expression.`\
 
 cl a,0
 mcbg 0
@@ -3487,26 +3522,31 @@ mcbg 0
 ld c,HIG_w1,22
 ;ld r,HIG_Def1,80
 
-「……そんなだから、あなたは美味しそうな魂になっちゃうんだわ。@……あなたにはもう少し、学校妖怪に相応しい残忍さや邪悪さが必要よ。」@
+;「……そんなだから、あなたは美味しそうな魂になっちゃうんだわ。@……あなたにはもう少し、学校妖怪に相応しい残忍さや邪悪さが必要よ。」@
+`"......If it's like that, then your soul will be delicious. `@`......To be a suitable school youkai, you'll need a bit more wickedness and cruelty, you know."`@
 
 ;ld l,MAR_Def1,23
 ld r,MAR_w2n,22
 
-「……大丈夫です。@………こんな私でも、…仕返ししてやりたいって、@…その程度の邪悪さは持ってますから。」\
+;「……大丈夫です。@………こんな私でも、…仕返ししてやりたいって、@…その程度の邪悪さは持ってますから。」\
+`"......I'll be alright. `@`......Even like I am now, because I said I wanted to take my revenge, `@`...I posess that kind of cruelty."`\
 
 cl c,0
 ld l,HIG_w4,24
 
-「……その仕返しも、『めそめそさん』になれなかったらできないんだから、大変ね？@　…復讐するのすら、あの男に邪魔されなくちゃならないんだからね…？」\
+;「……その仕返しも、『めそめそさん』になれなかったらできないんだから、大変ね？@　…復讐するのすら、あの男に邪魔されなくちゃならないんだからね…？」\
+`"......And with that revenge, if you don't become "Mesomeso-san," you'll be in a tough spot, won't you? `@`...And even if you have your revenge, it might just be an inconvinence for that man, right...?"`\
 
 ;cl l,45
 ;quakey 1,100
 
 ld r,MAR_def3n,80
 
-「………………………ううぅうぅぅぅ…！！」@
+;「………………………ううぅうぅぅぅ…！！」@
+`"............UUuUuuu...!!"`@
 br
-　毬枝は再び涙する……。@
+;　毬枝は再び涙する……。@
+`　Marie once again began to cry......`@\
 br
 　死してなお逃れられぬあの男の影に、今は悲しさと悔しさと怒りと、……様々な感情をごちゃまぜにすることしかできなかった……。\
 
