@@ -3023,40 +3023,53 @@ locate 0,5
 ;　………めそめそ……………めそめそ…………。\
 `　......Mesomeso.........mesomeso.........`\
 
-　聞く者があれば、胸を掻き毟らずにはいられないような悲しい泣き声が、@毬枝の死体の捨てられたトイレ小屋の裏から聞こえてくる……。\
+;　聞く者があれば、胸を掻き毟らずにはいられないような悲しい泣き声が、@毬枝の死体の捨てられたトイレ小屋の裏から聞こえてくる……。\
+`(?)　If someone were there to hear it, it would seem like a sad cry that couldn't be relieved, `@`and it could be heard coming from behind the outhouse where Marie's body had been disposed......`\
 
-　もちろん、それは聞く者のない悲しみの声。@
+;　もちろん、それは聞く者のない悲しみの声。@
+`　Of course, it was a sad cry that no one heard.`@
 br
-　……いや、@聞く者がいない時にしか許されない声だった。\
+;　……いや、@聞く者がいない時にしか許されない声だった。\
+`　......No, `@`it was a voice that couldn't forgive that there was no one there.`\
 
 bg gakkou_07y,2
 ld r,MAR_Def3n,2
 
 me2v 35,50
 
-　毬枝の体は今や、永遠に光が差し込むこともない不浄の便槽の中。@
+;　毬枝の体は今や、永遠に光が差し込むこともない不浄の便槽の中。@
+`　Marie's body was now in a vat of filth where light would never shine again.`@
 br
-　……だが、その魂は体を離れ、便槽の蓋の脇にしゃがみ込んでいた。\
+;　……だが、その魂は体を離れ、便槽の蓋の脇にしゃがみ込んでいた。\
+`　.......However, her soul had been released, and sat down across the vat's lid.`\
 
-　今の毬枝を悲しませているものは何なのか。@…当の本人にも理解できなかったに違いない。\
+;　今の毬枝を悲しませているものは何なのか。@…当の本人にも理解できなかったに違いない。\
+`　What was it that made Marie sad now? `@`...Even Marie herself didn't know.`\
 
-　彼女を悲しませているもの。@
+;　彼女を悲しませているもの。@
+`　It made her sad nonetheless.`@
 br
-　希望を持って生を与えられたはずなのに、このような悲しい最期を与えられてしまったこと。@
+;　希望を持って生を与えられたはずなのに、このような悲しい最期を与えられてしまったこと。@
+`　She had hoped she would have been given her life, only to have been given this sad fate.`@
 br
-　自分が誰にも知られることなく殺されてしまい、@このような不浄の場所に死体を捨てられ、自分の死すら伝えられぬこと。\
+;　自分が誰にも知られることなく殺されてしまい、@このような不浄の場所に死体を捨てられ、自分の死すら伝えられぬこと。\
+`　Being finally killed, without having known anyone. `@`With her corpse tossed in this filthy place, no one would even know about her death.`\
 
-　……そして、望まぬ行為だったとはいえ、従ってきた数々の行為に対する担任の気持ちが、@後悔でもなければ感謝でもなく、…ただただ嘲りだったこと。@
+;　……そして、望まぬ行為だったとはいえ、従ってきた数々の行為に対する担任の気持ちが、@後悔でもなければ感謝でもなく、…ただただ嘲りだったこと。@
+`　......And although this result wasn't what she wanted. Nonetheless, the feeling she had for the purpotrator of these acts she had come to obey -- `@`if it wasn't regret or even gratitude, ...it was scorn.`@
 br
-　それらがそれぞれに毬枝を苛み、@…彼女に未来永劫、終わらぬ悲しみを与え続けるのだった……。\
+;　それらがそれぞれに毬枝を苛み、@…彼女に未来永劫、終わらぬ悲しみを与え続けるのだった……。\
+`　All of those things tormented Marie, `@`...For her, eternity would continue her sorrow forever......`\
 
 ld r,MAR_Def1,80
 
 E_M2
 
-　ふと、虫たちの声が泣き止み、誰かがやって来たことを教えてくれた。@
+;　ふと、虫たちの声が泣き止み、誰かがやって来たことを教えてくれた。@
+`　Suddenly, the insects were silent, as if telling her someone had finally come.`@
 br
-　それが、今の自分と同じ、人ならざる存在であることを、@すでに人ならざる存在である感性で感じた毬枝は、顔を上げた。\
+;　それが、今の自分と同じ、人ならざる存在であることを、@すでに人ならざる存在である感性で感じた毬枝は、顔を上げた。\
+`　That was someone like she was now -- whose existence wasn't human. `@`And Marie who existed no longer as a human had already sensed that someone, and raised her head.`\
 
 
 
@@ -3077,20 +3090,25 @@ E_A
 bg gakkou_03,22
 ld c,HIG_Def2,2
 
-　……それは、彼岸花だった。@
+;　……それは、彼岸花だった。@
+`　......It was Higanbana.`@
 
 bgm1 5
 
 br
-　元々感情を感じさせない表情の彼女だったが、@…今の彼女は本当の意味で感情のない表情を浮かべていた。\
+;　元々感情を感じさせない表情の彼女だったが、@…今の彼女は本当の意味で感情のない表情を浮かべていた。\
+`　Before her face didn't betray any emotions, `@`...but now she held an expression that fit the true meaning of the word emotionless.`\
 
-　どんな感情も今の毬枝を傷つけたかもしれないことを考えると、@彼岸花の冷たささえ感じさせるその無表情は、@ある意味、毬枝にとって一番やさしいものだったかもしれない。@
+;　どんな感情も今の毬枝を傷つけたかもしれないことを考えると、@彼岸花の冷たささえ感じさせるその無表情は、@ある意味、毬枝にとって一番やさしいものだったかもしれない。@
+`　Whatever emotion it was, if one were to think it might have hurt Marie's feelings, `@`to Marie, Higanbana's cold emotionless expressionless form, `@`might have been the kindest.`@
 br
-　……毬枝にはまだ理解できないだろうが、@死者にとって一番やさしい、人ならざる存在らしい礼儀だったのかもしれない。\
+;　……毬枝にはまだ理解できないだろうが、@死者にとって一番やさしい、人ならざる存在らしい礼儀だったのかもしれない。\
+`　......Marie might not have yet understood, `@`but this kindness to the dead, might have been a non-human formality.`\
 
 ld c,HIG_w3,80
 
-「……ご愁傷様ね。@…泣くことで悲しみが癒されるなら、はばかることなく泣くといい。@…決して誰の耳にも届かぬ泣き声であることを知りながらね。」\
+;「……ご愁傷様ね。@…泣くことで悲しみが癒されるなら、はばかることなく泣くといい。@…決して誰の耳にも届かぬ泣き声であることを知りながらね。」\
+`"......My condolences. `@`...if you think crying will heal your sorrow, feel free to cry. `@`...As long as you understand that those cries can no longer be reach someone's ears, that is."`\
 
 
 ;cl c,24
@@ -3098,23 +3116,28 @@ ld c,HIG_w3,80
 
 ld r,MAR_Def3n,22
 
-「…………やっぱり、…そうなんですね。@………幽霊の声が聞こえたりしちゃ、…おかしいですよね……。」\
+;「…………やっぱり、…そうなんですね。@………幽霊の声が聞こえたりしちゃ、…おかしいですよね……。」\
+`".........I thought so, ...it's like that, isn't it? `@`......It would be strange, ...to hear the voice of a ghost, wouldn't it......?"`\
 
 cl c,0
 ld l,HIG_w1,24
 
-　……彼岸花の言葉は鋭利だったかもしれない。@…でも、幽霊の理を知らぬ毬枝にとって、それは必要な言葉だったかもしれないし、@…それはやはり、毬枝へのやさしさになったかもしれない。\
+;　……彼岸花の言葉は鋭利だったかもしれない。@…でも、幽霊の理を知らぬ毬枝にとって、それは必要な言葉だったかもしれないし、@…それはやはり、毬枝へのやさしさになったかもしれない。\
+`　......Higanbana's words might have been harsh. `@`But for Marie who didn't know the logic of spirits, those words might have been necessary, `@`...And perhaps, it might have been a kindness to Marie.`\
 
 textoff
 
 mbg black,22
 ;bg e003,45
 
-　泣き声とは、誰かに助けを求めるサインだ。@…だから、誰かに受け取ってもらえるまで、人は泣き続ける。\
+;　泣き声とは、誰かに助けを求めるサインだ。@…だから、誰かに受け取ってもらえるまで、人は泣き続ける。\
+`　A cry is a sign that one wants to be helped by someone. `@`...Because until someone accepts, the person will continue crying.`\
 
-　その声が誰にも届かぬ幽霊であっても、それに気付かず、@いつまでもいつまでも永遠に泣き続ける。@
+;　その声が誰にも届かぬ幽霊であっても、それに気付かず、@いつまでもいつまでも永遠に泣き続ける。@
+`　`Even with the voice of a ghost whose voice can reach no one. Without realizing it, `@`they continue crying eternally -- forever and ever.`\
 br
-　……そしていつしか、泣くために泣く霊と成り果てて、@ただただ生者に泣き声を聞かせたいだけのみすぼらしい霊と成り果てる…。\
+;　……そしていつしか、泣くために泣く霊と成り果てて、@ただただ生者に泣き声を聞かせたいだけのみすぼらしい霊と成り果てる…。\
+`　......And when they are reduced to a spirit that cries only for crying's sake, `@`they become seedy spirits who just want their cries to be heard by the living...`\
 
 mcbg 22
 
@@ -3123,39 +3146,48 @@ mcbg 22
 ;ld l,HIG_Def1,0
 ;ld r,MAR_Def1,22
 
-　そんな存在に成り果てることの悲しさを知っているから。@彼岸花は毬枝にとって、今は辛い言葉になることを知っていながら、@“聞く耳を持っている内に”それを伝える…。\
+;　そんな存在に成り果てることの悲しさを知っているから。@彼岸花は毬枝にとって、今は辛い言葉になることを知っていながら、@“聞く耳を持っている内に”それを伝える…。\
+`　And because she knew what it was like to be reduced to that sort of existence. `@`For Higanbana, knowing she had to use strict words with Marie, `@`she had to tell her now while she still had ears that could hear...`\
 
 ld r,MAR_Def4a,80
 
-「………彼岸花さん。@…私、これで『めそめそさん』になれるんですよね…？」@
+;「………彼岸花さん。@…私、これで『めそめそさん』になれるんですよね…？」@
+`"......Higanbana-san. `@`...With this I'll be able to become "Mesomeso-san" won't I...?"`@
 
 ld l,HIG_w3,80
 
-「彼岸花で結構よ、毬枝。」@
+;「彼岸花で結構よ、毬枝。」@
+`"Higanbana is fine, Marie."`@
 br
-　彼岸花はそこで言葉を区切ると、しばし沈黙を守った。\
+;　彼岸花はそこで言葉を区切ると、しばし沈黙を守った。\
+`　And with that Higanbana paused and stayed silent for a time.`\
 
 cl l,22
 
 ;ld r,MAR_Def1,22
 
-　その沈黙に、毬枝は何か嫌な予感を感じる。@
+;　その沈黙に、毬枝は何か嫌な予感を感じる。@
+`　During that silence, Marie had a feeling something was wrong.`@
 br
-　……『めそめそさん』にしてくれるなら、躊躇せず、そうだと言ってくれればいいのだ。@…なのに、それを口にしないのだから。\
+;　……『めそめそさん』にしてくれるなら、躊躇せず、そうだと言ってくれればいいのだ。@…なのに、それを口にしないのだから。\
+`　......If she was going to let her be "Mesomeso-san," then she should say so without hesitation. `@`...And yet she doesn't say those words.`\
 
 bg black,23
 bg gakkou_02,22
 ld r,HIG_w1,22
 
-「………私のことを嘘吐きだと罵る前に聞いて頂戴。@毬枝を『めそめそさん』に推薦したのは本当。@クラスのみんなも学級会でそれを承認してくれた。@たったひとつの条件を付してね。……その条件はその時点では問題にならなかったからよかったのだけれど…。@………今になって、その条件が引っかかり出したの。」\
+;「………私のことを嘘吐きだと罵る前に聞いて頂戴。@毬枝を『めそめそさん』に推薦したのは本当。@クラスのみんなも学級会でそれを承認してくれた。@たったひとつの条件を付してね。……その条件はその時点では問題にならなかったからよかったのだけれど…。@………今になって、その条件が引っかかり出したの。」\
+`"......Before you label me as a liar, please listen to me. `@`It's true that I recommended Marie to be "Mesomeso-san." `@`Everyone at the school class meeting gave their approval. `@`They had only one condition. ......It would haven't have been a problem with that condition at that time, but... `@`...Now, that condition is stuck in place."`\
 
 ld l,MAR_Def3a,22
 
-「……条件って、何ですか、彼岸花さん。」\
+;「……条件って、何ですか、彼岸花さん。」\
+`"......A condition? What it is Higanbana-san?"`\
 
 bg black,22
 
-「………『めそめそさん』になりたいと希望する者が１人だった時に限る、よ。」\
+;「………『めそめそさん』になりたいと希望する者が１人だった時に限る、よ。」\
+`"......There can only be one person allowed to hope to become "Mesomeso-san," you see.`\
 
 
 
@@ -3174,35 +3206,42 @@ bg gakkou_03,0
 ld l,MAR_Def4a,22
 ;ld l,MAR_Def1,80
 
-「……え………？」@
+;「……え………？」@
+`"......Eh?.........?"`@
 
 bgm1 10
 
 br
-　毬枝は、何を言われてるのかわからず、ぽかんと口を開けるしかなかった。@
+;　毬枝は、何を言われてるのかわからず、ぽかんと口を開けるしかなかった。@
+`　Not understanding what Higanbana was talking about, Marie's mouth opened in surprise.
 br
-　……だが、言われていることが何であれ、@それが今の自分にとって絶望的な内容であることに変わりはない…。@その表情が、悲しみに彩られていく。\
+;　……だが、言われていることが何であれ、@それが今の自分にとって絶望的な内容であることに変わりはない…。@その表情が、悲しみに彩られていく。\
+`　......But, could that be what she was saying. `@`That there was no hope of changing her hopelessness now... `@`Her expression began to fill with sadness.`\
 
 ;bg black,23
 ;bg gakkou_03,0
 ld r,HIG_w1,22
 
-「『めそめそさん』という学校妖怪の席が認められた時、@この席に付きたいと願ったのは毬枝１人だった。@だから私はあなたのところへ訪れ、その意思はあるのかと確認を取った。@そしてあなたにその意思があり、且つあなた以外にその意思を持つ者がいなかったため、@その時点ではあなたが『めそめそさん』になるのは問題ないことだった。@………ところが、最後の最後のこの瞬間に、…問題が起きたの。」\
+;「『めそめそさん』という学校妖怪の席が認められた時、@この席に付きたいと願ったのは毬枝１人だった。@だから私はあなたのところへ訪れ、その意思はあるのかと確認を取った。@そしてあなたにその意思があり、且つあなた以外にその意思を持つ者がいなかったため、@その時点ではあなたが『めそめそさん』になるのは問題ないことだった。@………ところが、最後の最後のこの瞬間に、…問題が起きたの。」\
+`"When the seat for the school youkai called "Mesomeso-san" was recognized, `@`the one who fit the position was Marie alone. `@`Because I went to where you were, I confirmed that you had the will. `@`And since you had the will, and because you alone had the intent, `@`at that time there was no problem for you to become "Mesomeso-san." `@`......Nevertheless, at the very last moment, ...a problem developed."`\
 
 ;ld l,MAR_Def1,24
 ld l,MAR_Def3a,80
 
-「も、…問題って何ですか……。」\
+;「も、…問題って何ですか……。」\
+`"Wha, ...what was the problem......?"\
 
 ld r,HIG_w4,80
 
-「あなたの他にも、『めそめそさん』になりたいと希望する者が現れてしまったの。」\
+;「あなたの他にも、『めそめそさん』になりたいと希望する者が現れてしまったの。」\
+`"Aside from you, a person has appeared who hopes to become "Mesomeso-san."`\
 
 ld l,MAR_Def4a,80
 
 ;nega 1
 
-「……え……。」\
+;「……え……。」\
+`"......Eh......?"\
 
 ;cl a,0
 ;nega 0
@@ -3212,37 +3251,46 @@ bg etc_01,22
 mld c,HIG_Def2,22
 ;ld c,HIG_Def1,80
 
-「あなたはここで泣くことに精一杯だったから声が聞こえなかったのね。@……あの男が、あれだけ大声で邪悪に笑うものだから、その声は私たちのクラスにまで届いてしまった。@………それはとても皮肉な運命。@あなたの悲しみをより深めるだろうけれども、真実だからあなたに話すわ。@……あなたを殺した男、金森もね、@『めそめそさん』になると宣言してしまったの。」\
+;「あなたはここで泣くことに精一杯だったから声が聞こえなかったのね。@……あの男が、あれだけ大声で邪悪に笑うものだから、その声は私たちのクラスにまで届いてしまった。@………それはとても皮肉な運命。@あなたの悲しみをより深めるだろうけれども、真実だからあなたに話すわ。@……あなたを殺した男、金森もね、@『めそめそさん』になると宣言してしまったの。」\
+`"Because you were here crying with all your might, you didn't hear his voice, right? `@`......That man, with a wicked laughter in his loud voice, even reached our class with that cry. `@`......That was a very ironic twist of fate. `@`Because to tell you the truth, his voice might have been more intense than your sadness. `@`...You know, the man who killed you, that Kanamori. `@`He went and declared he would become "Mesomeso-san."`\
 
 ;cl c,23
 ;ld r,HIG_Def1,23
 ;ld l,MAR_Def1,23
 ld r,MAR_N1,22
 
-「……ど、………どうして……、先生が…！！」\
+;「……ど、………どうして……、先生が…！！」\
+`"......H, ......how...... how did Sensei...?!!!"\
 
 mld c,HIG_w1,80
 
-「………あなたを殺した直後。@そこへ訪れた生徒を追い払うため、金森は咄嗟に『めそめそさん』のふりをしたの。@…それが綺麗にうまくいってね。@彼はそれに大層機嫌を良くし、自分こそが『めそめそさん』であると、@ついさっき、声高らかに宣言してしまったのよ。@…あんなにも邪悪な声だったからあなたの耳にも届いたかと思ってたけど、@あなたは泣くのに忙しかったから、耳に入らなかったのね……。」\
+;「………あなたを殺した直後。@そこへ訪れた生徒を追い払うため、金森は咄嗟に『めそめそさん』のふりをしたの。@…それが綺麗にうまくいってね。@彼はそれに大層機嫌を良くし、自分こそが『めそめそさん』であると、@ついさっき、声高らかに宣言してしまったのよ。@…あんなにも邪悪な声だったからあなたの耳にも届いたかと思ってたけど、@あなたは泣くのに忙しかったから、耳に入らなかったのね……。」\
+`"......Right after he killed you. `@`To drive away students that arrived there, Kanamori faked being "Mesomeso-san." `@`...That turned out splendidly. `@`Being extremely pleased with himself, he believed himself "Mesomeso-san," `@`...so he just declared it with a loud voice. `@`...I thought such a wicked voice would reach your ears, `@`but because you were busy crying, it didn't......"`\
 
 mcl c,0
 bg black,22
 
-　…………毬枝はしばらくの間、呆然とするしかなかった。@
+;　…………毬枝はしばらくの間、呆然とするしかなかった。@
+`　......For a time, Marie was dumbfounded.`@
 br
-　あの男に、生ある時間を穢された。@そして命まで奪われ、尊厳を嘲笑われた。\
+;　あの男に、生ある時間を穢された。@そして命まで奪われ、尊厳を嘲笑われた。\
+`　She had been violated by that man while she was alive. `@`And even after taking her life, he sneered majestically down on her.`\
 
-　そして、……それだけでなく、@死後の存在まで、あの男に奪われなければならないのか。@
+;　そして、……それだけでなく、@死後の存在まで、あの男に奪われなければならないのか。@
+`　And, ......not only that. `@`did he have to snatch away even her life after death?`@
 br
-　……死しても、…あの男の支配から自分は抜け出すことができないのか…………。\
+;　……死しても、…あの男の支配から自分は抜け出すことができないのか…………。\
+`　......Even in death, ...can't I free myself from that man's control......?`\
 
 bg etc_01,0
 ld c,MAR_Def4a,22
 ld c,MAR_N1,22
 
-「そ、………そんな、…………そんな………ううぅうぅうぅ…！」@
+;「そ、………そんな、…………そんな………ううぅうぅうぅ…！」@
+`"It, ......It can't be, ......It can't be......UUuUuUu...!`"@
 br
-　毬枝はしばしの間、再び面を伏せて悲しみの涙を零し続けるしかなかった…。\
+;　毬枝はしばしの間、再び面を伏せて悲しみの涙を零し続けるしかなかった…。\
+`　For a time, all Marie could do was hide her face as she continued to shed her tears of sorrow...`\
 
 
 
