@@ -3548,17 +3548,20 @@ br
 ;　毬枝は再び涙する……。@
 `　Marie once again began to cry......`@\
 br
-　死してなお逃れられぬあの男の影に、今は悲しさと悔しさと怒りと、……様々な感情をごちゃまぜにすることしかできなかった……。\
-
+;　死してなお逃れられぬあの男の影に、今は悲しさと悔しさと怒りと、……様々な感情をごちゃまぜにすることしかできなかった……。\
+`　From that man's shadow who she couldn't even escape from in death, feeling sadness, biterness, and rage, ......all she could do was jumble her various emotions......`\
 textoff
 
 bg black,22
 
-　その苦悩の泣き声も、夜の帳に飲み込まれ、決して誰にも届くことはない……。\
+;　その苦悩の泣き声も、夜の帳に飲み込まれ、決して誰にも届くことはない……。\
+`　Even her wail of agony was swallowed by the veil of darkness, and reached no one......`\
 
-　毬枝や学校妖怪たちの思惑は、@生者である金森にとって、まったく関わりのないことだった。@
+;　毬枝や学校妖怪たちの思惑は、@生者である金森にとって、まったく関わりのないことだった。@
+`　Marie, school youkai's expectations, and the like `@`didn't matter one bit to the still living Kanamori.`@
 br
-　……だが、だからといって、@毬枝の死から金森が完全に縁が切れるわけもない。\
+;　……だが、だからといって、@毬枝の死から金森が完全に縁が切れるわけもない。\
+`　......But, what that might be true, `@`Kanamori hadn't yet completely cut all his connections to Marie's death.`\
 
 fede 0,2000
 E_A
@@ -3578,42 +3581,55 @@ bg gakkou_01,22
 
 me1v 24,50
 
-　森谷毬枝が自宅に帰らないという話はすぐに大騒ぎになった。@
+;　森谷毬枝が自宅に帰らないという話はすぐに大騒ぎになった。@
+`　Talk about Moriya Marie not coming home last night quickly turned into an uproar.`@
 br
-　事故か、それとも事件に巻き込まれたのか。@
+;　事故か、それとも事件に巻き込まれたのか。@
+`　Was it an accident? Or did she get involved in some trouble?`@
 br
-　普段からひとりぼっちで友達もいない毬枝の最後の目撃は当日の学校だけ。@下校中に何かあったのではないかと憶測するのが精一杯らしかった。\
+;　普段からひとりぼっちで友達もいない毬枝の最後の目撃は当日の学校だけ。@下校中に何かあったのではないかと憶測するのが精一杯らしかった。\
+`　The last anyone saw ever-lonely and friendless Marie was at that school that day. `@`As for what happened after school, it was anyone's guess.`\
 
-　警察が、当日の毬枝の服装を書いた、情報求むのチラシをあちこちの掲示板に貼り付けている。@
+;　警察が、当日の毬枝の服装を書いた、情報求むのチラシをあちこちの掲示板に貼り付けている。@
+`　Police were posting fliers looking for information with drawings of what Marie wore that day on bulletin boards here and there.`
 br
-　それを目にせずには過ごせないほどに、町のあちこちに貼り付けていた。\
+;　それを目にせずには過ごせないほどに、町のあちこちに貼り付けていた。\
+`　Making sure not to overlook any witnesses, they posted them here and there around town.`\
 
-　警察も、担任である金森に話を聞きに来た。@
+;　警察も、担任である金森に話を聞きに来た。@
+`　The police even came to question the homeroom teacher, Kanamori.`@
 br
-　下校した後のことは知らないと話すと、勝手に納得して去って行った。\
+;　下校した後のことは知らないと話すと、勝手に納得して去って行った。\
+`　Saying he didn't know what happened after school, and the police departed feeling satisfied.
 
 bg shokuin_02,22
 
-　職員会議でも緊急議題となり、愉快犯による第二の事件を警戒しようと、@当面の間、集団下校や保護者による送り迎えをしようという話になった。\
+;　職員会議でも緊急議題となり、愉快犯による第二の事件を警戒しようと、@当面の間、集団下校や保護者による送り迎えをしようという話になった。\
+`　It even became an urgent topic at the staff meeting. And as a precaution in-case of a second incident, `@`currently there was talk about after school groups or bodyguards and the like.`\
 
-　……初め、それらの話題は金森の精神を少なからず追い詰めたが、@一日二日と経つにつれ、それは逆に自信となっていった。@
+;　……初め、それらの話題は金森の精神を少なからず追い詰めたが、@一日二日と経つにつれ、それは逆に自信となっていった。@
+`　......At first, those topics made Kanamori's heart race, `@`but after a day or two, that turned into confidence.`@
 br
-　……なぜなら、毬枝の死体は未だ見つからず、警察の捜査も下校中に的を絞られ、@自分が捜査線から完全に零れていることを実感し始めたからだ。\
+;　……なぜなら、毬枝の死体は未だ見つからず、警察の捜査も下校中に的を絞られ、@自分が捜査線から完全に零れていることを実感し始めたからだ。\
+`　......Because the police investigation, not yet having found Marie's corpse, were focused on what happened after school, `@`he began to feel he had completely slipped away from that line of investigation.`\
 
 bg kyou_02,22
 
-　クラスの子に、毬枝はどこに消えたのだろうと聞かれ、@金森は冗談だと断りながらも言ってやった。\
+;　クラスの子に、毬枝はどこに消えたのだろうと聞かれ、@金森は冗談だと断りながらも言ってやった。\
+`　He was asked by children from his class where Marie could have disappeared to, `@`and Kanamori refused as if in jest and said.`\
 
 ld c,KAN_Def1,22
 ld c,KAN_Def2,22
 
-「うーん、……『めそめそさん』の祟り、かなぁ…。@……あぁ、いやいや！@　先生がこんなこと言ったなんて内緒だよ？」\
+;「うーん、……『めそめそさん』の祟り、かなぁ…。@……あぁ、いやいや！@　先生がこんなこと言ったなんて内緒だよ？」\
+`"Hhmmm, ......Could it be the curse of "Mesomeso-san", I wonder...? `@`...Oh, nono! `@` For me to say something like that -- keep it a secret, okay?"`\
 
 ;bg black,22
 bg kyou_04,22
 quake 5,400
 
-　……予想通り、この話は生徒に大層ウケた。@
+;　……予想通り、この話は生徒に大層ウケた。@
+`　......As expected, the students took that 'well'.`@
 br
 　『めそめそさん』という、最近流行りの学校妖怪に犠牲者のオマケまでついたのだ。@
 br
