@@ -296,27 +296,38 @@ br
 ` Takeshi, looking for some kind of interesting idea they could go with, was fishing around in the old shelves. `@` Some of the older shelves in the back were, due to the random piles of books, almost impossible to get to, `@` even if you managed to get back there it was a one-way street from which no man could return. `@`
 br
 ;　彼は、そこにこそ何か珍しいものが眠っていて、@いつまでも堂々巡りで終わらないこの会議に終止符を打ってくれるものと期待していた。\
-` 
+` He was hoping that in that hidden place he would find some rare thing sleeping, `@` something amazing enough to put this endlessly repeating meeting to an end. `\
 
-「野々宮、どうだよ。@何か面白そうなものは発掘できるかー？@　その辺まで行くと、戦前レベルのアルバムばっかだろ。」\
+;「野々宮、どうだよ。@何か面白そうなものは発掘できるかー？@　その辺まで行くと、戦前レベルのアルバムばっかだろ。」\
+`"Nonomiya, how's it look? `@` Dug up anything interesting yet? `@` If you're that far back, it's probably all pre-war albums and stuff." `\
 
 ld r,NON_Def4a,24
 
-「そうですね。@……こりゃすごいや。@同じ教室内なのに、ここだけ明治の空気のような気がする。」@
-「さながら、教室内のタイムカプセルだよな。」\
+;「そうですね。@……こりゃすごいや。@同じ教室内なのに、ここだけ明治の空気のような気がする。」@
+`"You're right. `@` ... it's amazing. `@` We're in the same room, but over here it feels like I've stepped right into the Meiji period." `@`
+;「さながら、教室内のタイムカプセルだよな。」\
+`"Like some kind of time-capsule, right here in the room." `\
 
 ld r,NON_Def3a,80
 
-「カプセルしてませんけどねぇ。」@
+;「カプセルしてませんけどねぇ。」@
+`"Yeah only, y'know, minus the capsule." `@`
 br
-　みんなケラケラと笑う。@アイデアの枯れ果てた会議に飽き、笑いの沸点が低くなっているようだった。\
+;　みんなケラケラと笑う。@アイデアの枯れ果てた会議に飽き、笑いの沸点が低くなっているようだった。\
+`Everyone laughed hard at that. `@` It seemed that the endless, fruitless meeting had brought the boiling point for everyone's laughter down a notch. `\
 
-　部長の言う通り、この魔境の奥の棚にある本は非常に古いものが多かった。@
+;　部長の言う通り、この魔境の奥の棚にある本は非常に古いものが多かった。@
+`Just like the club president had said, most of the books on the shelves tucked away in that dark corner* were amazingly old. `@`
+`((Translator's Note: The literal translation for the * is 'haunt for wicked men'. Ryuukishi was obviously making a joke, and I don't know exactly how to make it in English))`
 br
-　年号も、大正どころか明治にまで遡るものも少なくなかった。@
-　ついでに、ひっくり返って干からびた怪しげな虫の死骸なども見つかる。@
+;　年号も、大正どころか明治にまで遡るものも少なくなかった。@
+`Even just looking at the dates. Forget Taisho, there really a bunch that went all the way back to Meiji. `@`
+;　ついでに、ひっくり返って干からびた怪しげな虫の死骸なども見つかる。@
+`As he went through the books he even found the old, dried, strange remains of insects. `@`
 br
-　……なるほど、魔境の名は伊達ではない。\
+;　……なるほど、魔境の名は伊達ではない。\
+` ...Ah, so this really was a place where the sun never shone*. `\
+`((Translator's Note: Again this is a reference to the same word 'haunt for wicked men' and again I'm at a loss as to how to properly convey the joke))`
 
 bg black,23
 bg shinbun_03,23
@@ -325,14 +336,17 @@ ld c,NON_Def1,80
 
 E_A
 
-「…………お。」@
+;「…………お。」@
+`"......Oh." `@`
 br
-　武は、ふとそれを見つける。@
+;　武は、ふとそれを見つける。@
+`Suddenly, Takeshi found it. `@`
 
 bgm1 8
 
 br
-　それは、古いインスタントカメラ。\
+;　それは、古いインスタントカメラ。\
+`'It' was an old instant camera. `\
 
 
 
@@ -345,35 +359,46 @@ br
 
 
 
-　インスタントの写真はすぐに色落ちしてしまう為、記録用には向かない。@
+;　インスタントの写真はすぐに色落ちしてしまう為、記録用には向かない。@
+`Instant photos tend to lose their color quickly, so it would have been useless for records. `@`
 br
-　しかし、撮ったその場で現像されるというお手軽感は、暗室を必要とする一般的なカメラでは味わえない、@何と言うのか、おもちゃ感覚を思い起こさせる。@
+;　しかし、撮ったその場で現像されるというお手軽感は、暗室を必要とする一般的なカメラでは味わえない、@何と言うのか、おもちゃ感覚を思い起こさせる。@
+`However, by using it one would never need to go through the hassle of a dark room for developing as they would with a normal camera, `@` to put it simply, it was thought of more as a kind of toy camera.
 br
-　いつか縁があったら一台ほしいと思っていたが、今日までそれを手にしたことはなかった。\
+;　いつか縁があったら一台ほしいと思っていたが、今日までそれを手にしたことはなかった。\
+`I'd always wanted one if I could get my hands on it, but before today I'd never had the chance. `\
 
 ;ld c,NON_Def1,80
 
-　……でも、もうひとつ違和感。@
+;　……でも、もうひとつ違和感。@
+`... but, I somehow felt uneasy about this. `@`
 br
-　この部室の魔境の最深奥の、開校当時の本の山の中に、@このインスタントカメラは少しだけ違和感があるように感じられた。\
+;　この部室の魔境の最深奥の、開校当時の本の山の中に、@このインスタントカメラは少しだけ違和感があるように感じられた。\
+`That I had found an instant camera like this, `@` buried among a pile of books that dated back to the school's founding, somehow gave me a strange feeling. `\
 
-　確かに古いカメラだったが、開校当時の世界観からは新しすぎる。@……にも関わらず、この部室の最深奥に、まるで封印するかのように置かれていた。\
+;　確かに古いカメラだったが、開校当時の世界観からは新しすぎる。@……にも関わらず、この部室の最深奥に、まるで封印するかのように置かれていた。\
+`Yeah it was an old camera, but it was too new to actually be from the time the school was founded. `@`... It felt more like it had been buried all the way back here as if to seal it away.`\
 
-　触れる。@
+;　触れる。@
+`I touched it. `@`
 br
 bg white,1
 bg shinbun_03,0
 ld r,NON_Def5a,23
 
-　ぴりっと静電気を感じた気がした。@
-　臆病に引っ込めた指を、もう一度伸ばして触れる。\
+;　ぴりっと静電気を感じた気がした。@
+`I felt a tiny jolt, almost like a static shock. `@`
+;　臆病に引っ込めた指を、もう一度伸ばして触れる。\
+`I timidly pulled my fingers back, then reached out to touch it again. `\
 
 cl r,0
 ld c,NON_Def6a,24
 
-　……ひんやりと冷たい感触。@
+;　……ひんやりと冷たい感触。@
+` ...it was pleasantly cool to the touch. `@`
 br
-　誰の名前もなく、学校の備品であることを示すシールもない。@
+;　誰の名前もなく、学校の備品であることを示すシールもない。@
+`There was no name written on it, or any seal to mark it as property of the school. `@`
 br
 　埃での汚れ具合から、@ずいぶん昔に壊れ、過去の先輩の誰かがここに置き去りにしていったのだろうと考えるのが妥当だった。\
 
