@@ -1,0 +1,92 @@
+
+
+bg black,62
+
+mov %Free1,65 ;BGMの初期値+アルファ
+	for %Free1 = 65 to 100 ;BGMボリュームを65から100までフェード。
+		bgmvol %Free1 ;その瞬間のBGMボリューム
+		add %Free1,5 ;フェードボリュームの増加速度（増加値）
+		wait 500 ;フェードのスピード。
+	next
+
+
+;＜おしまい＞
+
+;fede 0,2000
+;E_A
+;bgmonce"bgm\bgm_ldsk_01.ogg"
+;bgmvol 100
+
+   mov %Free1,1                   ;スクロールの現在値
+   mov %Free2,1                   ;スクロールの増加値
+
+   btndef ":c;bmp\background\efe\end_1.bmp"                   ;スクロール画像を読みこむ
+
+
+gosub *higan1_scroll                   ;スクロール実行本体
+
+resettimer
+waittimer 8000
+
+prnumclear                                  ;数値ラベル設定クリア
+
+bgcopy
+
+csp 500
+csp 510
+
+bg black,42
+bgcopy ;背景をリセット
+E_A
+
+wait 5000
+
+
+
+
+
+
+
+if %UMINEKOEND >= 11 : jumpf ;新規告知の表示を１回のみ行なうための処理
+	se1 22
+	bg "bmp\background\efe\TEXT006.bmp",22
+
+	delay 10000
+	bg black,22
+	bgcopy ;背景をリセット
+	fede 0,1000
+	E_A
+~ ;もしクリア後なら、この~まで処理を飛ばす
+
+
+
+if %UMINEKOEND < 7 mov %UMINEKOEND,11 : mov %END_FLG,12 : mov %END_MUSIC_FLG,1 : mov %END_TIPS_FLG,1 ;クリアフラグの変更
+
+bgmvol 70
+	saveoff            ;セーブオフで、処理を高速化する。
+	erasetextwindow 0  ;テキストエフェクトを切る事で処理を高速化
+	rmode 0            ;右クリックのメニュー表示の無効化
+	textoff
+
+
+goto *b_title
+;reset
+
+
+*higan6_opning
+texton
+csp -1
+
+bg black,2
+bgcopy ;背景をリセット
+
+setwindow 31,16,22,16,26,26,0,2,20,1,1,#999999,0,0,639,479
+
+!sd
+
+mono 0
+E_A
+;■とある少女の一日
+
+wait 2000
+

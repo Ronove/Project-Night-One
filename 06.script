@@ -1,0 +1,57 @@
+
+se1v 54,85
+
+cl c,2
+
+se2v 54,70
+se3v 55,50
+
+bg white,2
+
+;＜おしまい＞
+
+fede 1,2000
+E_B
+wait 2000
+
+se1v 77,70
+
+bg e022,1
+
+wait 2000
+
+bg black,42
+bgcopy ;背景をリセット
+
+if %UMINEKOEND < 3 mov %UMINEKOEND,3 : mov %END_FLG,3 ;クリアフラグの変更
+	saveoff            ;セーブオフで、処理を高速化する。
+	erasetextwindow 0  ;テキストエフェクトを切る事で処理を高速化
+	rmode 0            ;右クリックのメニュー表示の無効化
+	textoff
+
+
+goto *b_title
+;reset
+
+*higan4_opning
+texton
+csp -1
+
+bg black,2
+bgcopy ;背景をリセット
+
+setwindow 31,16,22,16,26,26,0,2,20,1,1,#999999,0,0,639,479
+
+!sd
+
+mono 0
+E_A
+
+;■鎮守神さまの祠
+
+me1v 5,50
+
+wait 2000
+
+bg gakkou_03,2
+

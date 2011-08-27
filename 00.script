@@ -1,0 +1,1239 @@
+;value 2500
+;gameid HiganbanaEnglish
+*define
+
+humanz 900
+
+;windowback
+
+mode_wave_demo
+
+language english
+
+nsa
+
+errorsave ;エラー時に999番に保存
+
+;killmenu 7
+;「CD-DA」項目を非表示
+;killmenu 4
+;「ボリューム」項目を非表示
+;killmenu 2
+;「表示形式」項目を非表示
+
+;caption "彼岸花の咲く夜に"
+;versionstr "彼岸花の咲く夜に　ver1.009","制作　０７ｔｈ　Ｅｘｐａｎｓｉｏｎ"
+caption "Higanbana no Saku Yoru ni - The First Night, Patch v0.1"
+versionstr "Higanbana no Saku Yoru ni, ver1.009","created by 07th Expansion"
+
+;メニューの内容
+;rmenu "セーブする",save,"ロードする",load,"次の選択肢へスキップする",skip,"文字を消す",windowerase,"回想",lookback,"タイトルに戻る",reset
+
+;メニューウィンドの設定
+menusetwindow 20,20,5,3,1,0,#cccccc
+;menuselectcolor #aaaaff,#ffffff,#aaaaaa
+
+;セーブファイルの指定
+savename "記録を保存する","記録を読み込む","記録"
+savenumber 18
+
+;グローバル変数の宣言
+globalon
+
+;メッセージスピード
+defaultspeed 40,20,0
+
+defaultfont "ＭＳ ゴシック"
+
+;禁則処理
+addkinsoku "”","“"
+
+mov %0,1
+
+
+;エフェクト
+
+;デフォルトスピード
+;エフェクト　クイック
+;エフェクト　スロウ
+;部活用　クイック
+
+
+;クロスフェード
+effect 2,10,1000
+effect 22,10,400
+effect 42,10,3000
+effect 62,10,200
+;表情の変化用
+effect 80,10,200
+
+;左フェード
+effect 3,18,1300,":c;Bmp\Efe\left.bmp"
+effect 23,18,300,":c;Bmp\Efe\left.bmp"
+effect 43,18,3000,":c;Bmp\Efe\left.bmp"
+effect 63,15,300,":c;Bmp\Efe\left.bmp"
+effect 83,15,5,":c;Bmp\Efe\left.bmp"
+
+;右フェード
+effect 4,18,1300,":c;Bmp\Efe\right.bmp"
+effect 24,18,300,":c;Bmp\Efe\right.bmp"
+effect 44,18,3000,":c;Bmp\Efe\right.bmp"
+effect 64,15,300,":c;Bmp\Efe\right.bmp"
+effect 84,15,5,":c;Bmp\Efe\right.bmp"
+
+;上フェード
+effect 5,18,1300,":c;Bmp\Efe\down.bmp"
+effect 25,18,300,":c;Bmp\Efe\down.bmp"
+effect 45,18,3000,":c;Bmp\Efe\down.bmp"
+effect 65,15,300,":c;Bmp\Efe\down.bmp"
+effect 85,15,5,":c;Bmp\Efe\down.bmp"
+
+;下フェード
+effect 6,18,1300,":c;Bmp\Efe\up.bmp"
+effect 26,18,300,":c;Bmp\Efe\up.bmp"
+effect 46,18,3000,":c;Bmp\Efe\up.bmp"
+effect 66,15,300,":c;Bmp\Efe\up.bmp"
+effect 86,15,5,":c;Bmp\Efe\up.bmp"
+
+;上面右、下面左フェード
+effect 7,18,1300,":c;Bmp\Efe\x.bmp"
+effect 27,18,300,":c;Bmp\Efe\x.bmp"
+effect 47,18,3000,":c;Bmp\Efe\x.bmp"
+effect 67,15,300,":c;Bmp\Efe\x.bmp"
+
+;中央からフェード
+effect 8,18,1300,":c;Bmp\Efe\c.bmp"
+effect 28,18,300,":c;Bmp\Efe\c.bmp"
+effect 48,18,3000,":c;Bmp\Efe\c.bmp"
+effect 68,15,300,":c;Bmp\Efe\c.bmp"
+effect 88,18,1,":c;Bmp\Efe\c.bmp"
+
+effect 9,18,1300,":c;Bmp\Efe\m1.bmp"
+effect 29,18,300,":c;Bmp\Efe\m1.bmp"
+effect 49,18,3000,":c;Bmp\Efe\m1.bmp"
+effect 69,15,300,":c;Bmp\Efe\m1.bmp"
+
+;観音開き
+
+effect 10,18,3000,":c;Bmp\Efe\1.bmp"
+effect 30,18,300,":c;Bmp\Efe\1.bmp"
+effect 50,18,3000,":c;Bmp\Efe\1.bmp"
+
+effect 11,18,3000,":c;Bmp\Efe\2.bmp"
+effect 31,18,300,":c;Bmp\Efe\2.bmp"
+
+;グローバル変数エリア
+
+; 使用変数名
+
+numalias UMINEKOEND,2901     ;終了フラグ
+numalias savemodePage,3001         ;セーブ画面ページ収得エリア
+
+numalias savedataTime,3100          ;セーブデータ用時間データ文字エリア
+numalias savedataComment,3200          ;セーブデータ用コメントエリア
+numalias savedataflg,3300          ;セーブデータ用グローバルエリア
+
+;3500以上はあけておく
+
+
+
+numalias scenario1_1,101   ;キャラクター説明フラグ値　シナリオ１進行度１
+numalias scenario1_2,102   ;キャラクター説明フラグ値　シナリオ１進行度２
+
+numalias default_vol,70
+numalias RG_move,%0 : inc %0
+dim ?RG_move[20][4]
+
+numalias scenario_Number,%0 : inc %0  ;開始シナリオナンバー
+numalias remnu_data,%0 : inc %0  ;右クリックシステム用資料室解禁フラグ
+;numalias side_flg,%0 : inc %0 ;第三サイド開放フラグ
+numalias data_pagemax,%0 : inc %0 ;資料閲覧最大数
+numalias ran_memo,%0 : inc %0 ;ランダム結果メモ用変数
+
+numalias intro_prog_flg,%0 : inc %0  ;キャラクター説明グラフィック終了用フラグ
+
+;numalias introduction_BEA_flg,%0 : inc %0  ;キャラクター説明　ベアトリーチェ表示フラグ
+numalias monoflg,%0 :inc  %0  ;右クリック停止フラグ
+
+
+numalias rmordflg,%0 :inc  %0  ;右クリック停止フラグ
+numalias save_on_flg,%0 :inc  %0  ;セーブON停止フラグ
+
+numalias introduction_open,%0 : inc %0  ;キャラクター説明システム開放フラグ
+numalias on,1
+numalias off,0
+
+;bgm関連
+numalias BGM_Play,%0 : inc %0        ;曲名のパス収納用
+numalias Me_Play,%0 : inc %0         ;ミュージックエフェクトのパス収納用
+numalias Se_Play,%0 : inc %0         ;サウンドエフェクトのパス収納用
+numalias BGM_Play_Channel,%0 : inc %0 ;前奏ＢＧＭの再生チャンネル用
+numalias Me_Play_Channel,%0 : inc %0 ;ミュージックエフェクトの再生チャンネル用
+numalias Se_Play_Channel,%0 : inc %0 ;サウンドエフェクトの再生チャンネル用
+numalias BGM_s_Ch,%0 : inc %0        ;
+numalias Me_Number,%0 : inc %0       ;再生するミュージックエフェクトのナンバー収納用
+numalias Se_Number,%0 : inc %0       ;再生するサウンドエフェクトのナンバー収納用
+numalias Me_s_Ch0,%0 : inc %0        ;ミュージックエフェクトのチャンネル使用フラグ
+numalias Me_s_Ch1,%0 : inc %0
+numalias Me_s_Ch2,%0 : inc %0
+numalias Me_s_Ch3,%0 : inc %0
+numalias Me_s_Ch4,%0 : inc %0
+numalias Me_s_Ch5,%0 : inc %0
+
+numalias Set_vol,%0 : inc %0         ;指定ボリューム
+numalias BGM_v_Ch,%0 : inc %0        ;ＢＧＭ用ボリュームフラグ
+numalias Me_v_Ch0,%0 : inc %0        ;ミュージックエフェクトのボリュームフラグ
+numalias Me_v_Ch1,%0 : inc %0
+numalias Me_v_Ch2,%0 : inc %0
+numalias Me_v_Ch3,%0 : inc %0
+numalias Me_v_Ch4,%0 : inc %0
+numalias Me_v_Ch5,%0 : inc %0
+numalias Se_v_Ch1,%0 : inc %0        ;サウンド用
+numalias Se_v_Ch2,%0 : inc %0
+numalias Se_v_Ch3,%0 : inc %0
+
+numalias BGM_v_Chx,%0 : inc %0        ;ＢＧＭ用ボリュームフラグ
+numalias Me_v_Chx0,%0 : inc %0        ;ミュージックエフェクトのボリュームフラグ
+numalias Me_v_Chx1,%0 : inc %0
+numalias Me_v_Chx2,%0 : inc %0
+numalias Me_v_Chx3,%0 : inc %0
+numalias Me_v_Chx4,%0 : inc %0
+numalias Me_v_Chx5,%0 : inc %0
+numalias Se_v_Chx1,%0 : inc %0        ;サウンド用
+numalias Se_v_Chx2,%0 : inc %0
+numalias Se_v_Chx3,%0 : inc %0
+
+numalias BGM_v_Chy,%0 : inc %0        ;ＢＧＭ用ボリュームフラグ
+numalias Me_v_Chy0,%0 : inc %0        ;ミュージックエフェクトのボリュームフラグ
+numalias Me_v_Chy1,%0 : inc %0
+numalias Me_v_Chy2,%0 : inc %0
+numalias Me_v_Chy3,%0 : inc %0
+numalias Me_v_Chy4,%0 : inc %0
+numalias Me_v_Chy5,%0 : inc %0
+numalias Se_v_Chy1,%0 : inc %0        ;サウンド用
+numalias Se_v_Chy2,%0 : inc %0
+numalias Se_v_Chy3,%0 : inc %0
+
+;衣装フラグ関連
+numalias MAR_Isyou,%0 : inc %0 ;森谷毬枝
+numalias KAN_Isyou,%0 : inc %0 ;金森先生
+numalias HIG_Isyou,%0 : inc %0 ;彼岸花
+numalias NON_Isyou,%0 : inc %0 ;野々宮武
+numalias YOU_Isyou,%0 : inc %0 ;沼田陽子
+numalias KOU_Isyou,%0 : inc %0 ;校長先生
+numalias HIK_Isyou,%0 : inc %0 ;二瓶ひかる
+numalias HAM_Isyou,%0 : inc %0 ;ハメルン
+numalias HOK_Isyou,%0 : inc %0 ;保健の先生
+numalias MID_Isyou,%0 : inc %0 ;楠木みどり
+numalias SIN_Isyou,%0 : inc %0 ;紅茶紳士
+numalias MIC_Isyou,%0 : inc %0 ;桜田みちる
+numalias SAK_Isyou,%0 : inc %0 ;さくのしん
+numalias YUK_Isyou,%0 : inc %0 ;榊由香里
+numalias SMI_Isyou,%0 : inc %0 ;スミレ
+numalias YO2_Isyou,%0 : inc %0 ;沼田陽子　生前
+
+
+numalias ld_pass,%0 : inc %0
+numalias ld_pass2,%0 : inc %0 ;体部分のロードパス
+numalias ld_pass_number,%0 : inc %0
+
+mov %1,1001
+
+numalias Fede_bgmv,%1 : inc %1   ;指定数字
+numalias Fede_Me1v,%1 : inc %1
+numalias Fede_Me2v,%1 : inc %1
+numalias Fede_Me3v,%1 : inc %1
+numalias Fede_Me4v,%1 : inc %1
+numalias Fede_Me5v,%1 : inc %1
+numalias Fede_wait,%1 : inc %1
+
+numalias Fede_bgmvflg,%1 : inc %1   ;変動なしチェックフラグ
+numalias Fede_Me1vflg,%1 : inc %1
+numalias Fede_Me2vflg,%1 : inc %1
+numalias Fede_Me3vflg,%1 : inc %1
+numalias Fede_Me4vflg,%1 : inc %1
+numalias Fede_Me5vflg,%1 : inc %1
+
+numalias Fede_bgmv2,%1 : inc %1    ;音量変動値
+numalias Fede_Me1v2,%1 : inc %1
+numalias Fede_Me2v2,%1 : inc %1
+numalias Fede_Me3v2,%1 : inc %1
+numalias Fede_Me4v2,%1 : inc %1
+numalias Fede_Me5v2,%1 : inc %1
+
+numalias Fede_bgmvflg2,%1 : inc %1   ;アップダウンフラグ
+numalias Fede_Me1vflg2,%1 : inc %1
+numalias Fede_Me2vflg2,%1 : inc %1
+numalias Fede_Me3vflg2,%1 : inc %1
+numalias Fede_Me4vflg2,%1 : inc %1
+numalias Fede_Me5vflg2,%1 : inc %1
+
+numalias Fede_bgmv3,%1 : inc %1   ;10ミリセコンド用現在値
+numalias Fede_Me1v3,%1 : inc %1
+numalias Fede_Me2v3,%1 : inc %1
+numalias Fede_Me3v3,%1 : inc %1
+numalias Fede_Me4v3,%1 : inc %1
+numalias Fede_Me5v3,%1 : inc %1
+
+numalias Fede_bgmv4,%1 : inc %1   ;10ミリセコンド用変動値
+numalias Fede_Me1v4,%1 : inc %1
+numalias Fede_Me2v4,%1 : inc %1
+numalias Fede_Me3v4,%1 : inc %1
+numalias Fede_Me4v4,%1 : inc %1
+numalias Fede_Me5v4,%1 : inc %1
+
+
+
+numalias tmordflg,%0 :inc %0          ;テキストモードフラグ（０／Ｏｎ　１／ｏｆｆ）
+numalias backlogTotalNum,%0 : inc %0       ;バックログ最大値
+
+
+numalias Textlog,2000          ;テキストログの取得番号
+numalias backloglook,2100      ;現在表示テキストログ
+
+numalias pose,%0 : inc %0
+
+numalias Fade_back,699                 ;フェードアウト用スプライト番号
+
+numalias Fade,%0 : inc %0              ;フェードアウト回数
+numalias Fade_wait1,%0 : inc %0        ;フェードアウトウェイト
+
+numalias ch_vol_b,%0 : inc %0        ;フェードアウト用ボリューム変動値
+numalias ch_vol_0,%0 : inc %0
+numalias ch_vol_1,%0 : inc %0
+numalias ch_vol_2,%0 : inc %0
+numalias ch_vol_3,%0 : inc %0
+numalias ch_vol_4,%0 : inc %0
+numalias ch_vol_5,%0 : inc %0
+
+intlimit BGM_v_Ch,0,100        ;ＢＧＭ用ボリュームフラグ
+intlimit Me_v_Ch0,0,100        ;ミュージックエフェクトのボリュームフラグ
+intlimit Me_v_Ch1,0,100
+intlimit Me_v_Ch2,0,100
+intlimit Me_v_Ch3,0,100
+intlimit Me_v_Ch4,0,100
+intlimit Me_v_Ch5,0,100
+intlimit Se_v_Ch1,0,100        ;：サウンド用
+intlimit Se_v_Ch2,0,100
+intlimit Se_v_Ch3,0,100
+add %0,200
+numalias Readbacklogpage,%0 : add %0,100          ;バックログの現在表示ページ
+numalias BacklogNum,%0 : add %0,100          ;バックログの現在取得ページ
+
+numalias Backlogpage0,%0 : inc %0          ;バックログの最小ページ数
+numalias Backlogpage1,%0 : add %0,10
+numalias BacklogpageMax,%0 : inc %0          ;バックログの最大ページ数
+numalias mini,1
+numalias MAX,10
+
+
+
+
+numalias savemodePageNow,%0 : inc %0      ;セーブ画面現在表示ページ
+numalias savescreenshotsp,%0 : inc %0     ;スクリーンショットスプライト番号
+numalias saveTimesp,%0 : inc %0           ;時間スプライト番号
+numalias saveTextsp,%0 : inc %0           ;テキストスプライト番号
+numalias saveTimesp2,%0 : inc %0          ;時間スプライト表示エリア
+numalias saveTextsp2,%0 : inc %0          ;テキストスプライト表示エリア
+
+numalias SaveNum,%0 : inc %0          ;セーブデータファイル番号
+numalias SaveTime,%0 : inc %0          ;セーブデータファイル番号
+numalias Morth,%0 : inc %0          ;月
+numalias Day,%0 : inc %0          ;日
+numalias Hour,%0 : inc %0          ;時
+numalias Minute,%0 : inc %0          ;分
+numalias Strsp,%0 : inc %0          ;文字列スプライトの設定文字列
+numalias SpNum,%0 : inc %0          ;スプライト番号
+numalias x1,%0 : inc %0          ;スプライトｘ軸
+numalias y1,%0 : inc %0          ;スプライトｙ軸
+numalias x2,%0 : inc %0          ;スプライトｘ軸
+numalias y2,%0 : inc %0          ;スプライトｙ軸
+numalias x3,%0 : inc %0          ;スプライトｘ軸
+numalias y3,%0 : inc %0          ;スプライトｙ軸
+
+numalias savedataNowNum,%0 : inc %0          ;セーブデータ番号
+
+numalias Page1,%0 : inc %0
+numalias Page2,%0 : inc %0
+numalias Page3,%0 : inc %0
+numalias Page4,%0 : inc %0
+numalias Page5,%0 : inc %0
+
+numalias save,%0 : inc %0
+
+
+
+numalias eye_custom1,%0 : inc %0  ;アイキャッチカスタムモードの背景表示フラグ
+numalias eye_custom2,%0 : inc %0  ;アイキャッチカスタムモードのロゴ表示フラグ
+numalias eye_efeB1,%0 : inc %0
+numalias eye_efeB2,%0 : inc %0
+numalias eye_efeB3,%0 : inc %0
+numalias eye_efeL1,%0 : inc %0
+numalias eye_efeL2,%0 : inc %0
+numalias eye_efeL3,%0 : inc %0
+numalias eye_waitB,%0 : inc %0
+numalias eye_waitL,%0 : inc %0
+
+
+numalias x,%0 : inc %0
+numalias y,%0 : inc %0
+numalias cspParam,%0 : inc %0
+numalias BtnRes,%0 : inc %0
+numalias TextCC12Flug,%0 : inc %0
+;numalias BtnRes,598
+;numalias TextCC12Flug,599
+numalias TextCC1SpNum,601
+numalias TextCC2SpNum,602
+numalias Text_back,603
+
+numalias efespflg,%0 : inc %0  ;雨等Dll演出用管理画像フラグ番号
+numalias efespflg2,%0 : inc %0  ;雨等Dll演出用管理表示フラグ番号
+numalias efesp,798  ;雨等Dll演出用スプライト番号
+numalias bgsp,799  ;演出背景用スプライト番号
+
+numalias bgsp2,902  ;立ち絵後ろ、背景前
+
+numalias crosstimer,%0 : inc %0
+
+numalias Free1,%0 : inc %0          ;：フリーエリア
+numalias Free2,%0 : inc %0
+numalias Free3,%0 : inc %0
+numalias Free4,%0 : inc %0
+numalias Free5,%0 : inc %0
+numalias Free6,%0 : inc %0
+numalias Free7,%0 : inc %0
+numalias Free8,%0 : inc %0
+numalias Free9,%0 : inc %0
+
+numalias Free11,%0 : inc %0          ;：フリーエリア
+numalias Free12,%0 : inc %0
+numalias Free13,%0 : inc %0
+numalias Free14,%0 : inc %0
+numalias Free15,%0 : inc %0
+numalias Free16,%0 : inc %0
+numalias Free17,%0 : inc %0
+numalias Free18,%0 : inc %0
+numalias Free19,%0 : inc %0
+
+numalias Free21,%0 : inc %0          ;：フリーエリア
+numalias Free22,%0 : inc %0
+numalias Free23,%0 : inc %0
+numalias Free24,%0 : inc %0
+numalias Free25,%0 : inc %0
+numalias Free26,%0 : inc %0
+numalias Free27,%0 : inc %0
+numalias Free28,%0 : inc %0
+numalias Free29,%0 : inc %0
+
+numalias ryuu1,%0 : inc %0          ;：フリーエリア
+numalias ryuu2,%0 : inc %0
+numalias ryuu3,%0 : inc %0
+numalias ryuu4,%0 : inc %0
+numalias ryuu5,%0 : inc %0
+numalias ryuu6,%0 : inc %0
+numalias ryuu7,%0 : inc %0
+numalias ryuu8,%0 : inc %0
+numalias ryuu9,%0 : inc %0
+
+
+numalias MAR,1 ;森谷毬枝
+numalias KAN,2 ;金森先生
+numalias HIG,3 ;彼岸花
+numalias NON,4 ;野々宮武
+numalias YOU,5 ;沼田陽子
+numalias KOU,6 ;校長先生
+numalias HIK,7 ;二瓶ひかる
+numalias HAM,8 ;ハメルン
+numalias HOK,9 ;保健の先生
+numalias MID,10 ;楠木みどり
+numalias SIN,11 ;紅茶紳士
+numalias MIC,12 ;桜田みちる
+numalias SAK,13 ;さくのしん
+numalias YUK,14 ;榊由香里
+numalias SMI,15 ;スミレ
+numalias YO2,16 ;沼田陽子　昼
+
+
+
+
+numalias START_bg,%0 :inc %0
+numalias title_y,%0 :inc %0                  ;タイトルロゴのｙ座標
+numalias title_trap,%0 :inc %0
+
+mov %0,601
+
+numalias Cinema_logo,%0 : inc %0      ;アイキャッチ時のロゴスプライト
+numalias Cinema_up,%0 : inc %0        ;アイキャッチ時の黒帯スプライト（上）
+numalias Cinema_down,%0 : inc %0      ;アイキャッチ時の黒帯スプライト（下）
+
+numalias intro,%0 : inc %0      ;登場人物紹介告知スプライト
+
+numalias left,%0 : inc %0
+numalias right,%0 : inc %0
+
+
+numalias name_W,%0 : inc %0   ;顔ウィンドウ用現在位置枠
+numalias name1,%0 : inc %0
+numalias name2,%0 : inc %0
+numalias name3,%0 : inc %0
+numalias name4,%0 : inc %0
+numalias name5,%0 : inc %0
+numalias name6,%0 : inc %0
+numalias name7,%0 : inc %0
+numalias name8,%0 : inc %0
+numalias name9,%0 : inc %0
+numalias name10,%0 : inc %0
+numalias name11,%0 : inc %0
+numalias name12,%0 : inc %0
+numalias name13,%0 : inc %0
+numalias name14,%0 : inc %0
+numalias name15,%0 : inc %0
+numalias name16,%0 : inc %0
+numalias name17,%0 : inc %0
+numalias name18,%0 : inc %0
+
+numalias name_ch,%0 : inc %0
+numalias name_namber,%0 : inc %0
+numalias introduction_sp,%0 : inc %0
+numalias comment_sp1,%0 : inc %0
+numalias comment_sp2,%0 : inc %0
+numalias introduction_back,%0 : inc %0
+numalias r_back,%0 : inc %0
+
+intlimit name_namber,0,20
+
+
+numalias backlogupbtn,%0 : inc %0          ;バックログ用上ボタンスプライト番号
+numalias backlogdownbtn,%0 : inc %0          ;バックログ用下ボタンスプライト番号
+numalias backlogtext,%0 : inc %0          ;バックログ用テキストスプライト番号
+numalias backscreen,%0 : inc %0          ;バックログ用背景プライト番号
+
+numalias textlognow,%0 : inc %0          ;セーブデータ用ログエリア
+
+numalias flg_sp_x,%0 : inc %0               ;フラグタイトルスプライトのｘ軸
+numalias flg_sp_y,%0 : inc %0               ;ｙ軸
+numalias flg_number_tx,%0 : inc %0          ;フラグ十の桁のスプライトのｘ軸
+numalias flg_number_ty,%0 : inc %0
+numalias flg_number_ox,%0 : inc %0          ;フラグ一の桁のスフライトのｘ軸
+numalias flg_number_oy,%0 : inc %0
+
+numalias flg_number_t,%0 : inc %0           ;フラグの十桁目の変数
+numalias flg_number_o,%0 : inc %0           ;フラグの一桁目の変数
+
+numalias flg_passT,%0 : inc %0              ;フラグタイトルのパス収納変数
+numalias flg_pass1,%0 : inc %0
+numalias flg_pass10,%0 : inc %0
+
+numalias RG_move_bg,%0 : inc %0		;七姉妹ジャンプランダムシステム
+numalias RG_move_jp,%0 : inc %0
+numalias RG_move_speed,%0 : inc %0
+
+
+;TIPS
+numalias tips_cha_max,%0 : inc %0 ;TIPSのキャラ数
+numalias tips_cha_view,%0 : inc %0 ;TIPSのテキスト数
+
+
+
+;flg
+numalias flg_sp1,894                ;フラグタイトルのスプライト番号
+numalias flg_sp2,893                ;フラグ十桁目のスプライト番号
+numalias flg_sp3,892                ;フラグ一桁目のスプライト番号
+
+;右クリック
+numalias rmenu_back,699          ;右クリックシステム用背景スプライト番号
+numalias rmenu_btn1,698          ;右クリックシステム用人物紹介スプライト番号
+numalias rmenu_btn2,697          ;右クリックシステム用セーブスプライト番号
+numalias rmenu_btn3,696          ;右クリックシステム用ロードスプライト番号
+numalias rmenu_databtn,693          ;右クリックシステム用資料室スプライト番号
+
+numalias rmenu_btn_Exit,695          ;右クリックシステム用ＥＸＩＴスプライト番号
+numalias Load,694
+
+mov %0,1001
+
+numalias MAR_start_number,%0		;毬枝の表情の番号の開始
+numalias MAR_Def1,%0 : inc %0		;毬枝立ち絵デフォ
+numalias MAR_Def2,%0 : inc %0		;毬枝立ち絵デフォ
+numalias MAR_Def2a,%0 : inc %0		;毬枝立ち絵デフォ
+numalias MAR_Def2n,%0 : inc %0		;毬枝立ち絵デフォ
+numalias MAR_Def3,%0 : inc %0		;毬枝立ち絵デフォ
+numalias MAR_Def3a,%0 : inc %0		;毬枝立ち絵デフォ
+numalias MAR_Def3n,%0 : inc %0		;毬枝立ち絵デフォ
+numalias MAR_Def4,%0 : inc %0		;毬枝立ち絵デフォ
+numalias MAR_Def4a,%0 : inc %0		;毬枝立ち絵デフォ
+numalias MAR_I1,%0 : inc %0		;毬枝立ち絵怒り
+numalias MAR_I1a,%0 : inc %0		;毬枝立ち絵怒り
+numalias MAR_I2,%0 : inc %0		;毬枝立ち絵怒り
+numalias MAR_I2a,%0 : inc %0		;毬枝立ち絵怒り
+numalias MAR_I3,%0 : inc %0		;毬枝立ち絵怒り
+numalias MAR_I3a,%0 : inc %0		;毬枝立ち絵怒り
+numalias MAR_I4,%0 : inc %0		;毬枝立ち絵怒り
+numalias MAR_I4a,%0 : inc %0		;毬枝立ち絵怒り
+numalias MAR_N1,%0 : inc %0		;毬枝立ち絵泣く
+numalias MAR_N2,%0 : inc %0		;毬枝立ち絵泣く
+numalias MAR_W1,%0 : inc %0		;毬枝立ち絵笑い
+numalias MAR_W2,%0 : inc %0		;毬枝立ち絵笑い
+numalias MAR_W2n,%0 : inc %0		;毬枝立ち絵笑い
+numalias MAR_O1,%0 : inc %0		;毬枝立ち絵その他
+numalias MAR_last_number,%0 :inc %0	;毬枝の表情の番号の終端
+
+numalias KAN_start_number,%0		;金森の表情の番号の開始
+numalias KAN_Def1,%0 : inc %0		;金森立ち絵デフォ
+numalias KAN_Def2,%0 : inc %0		;金森立ち絵デフォ
+numalias KAN_Def3,%0 : inc %0		;金森立ち絵デフォ
+numalias KAN_Def3a,%0 : inc %0		;金森立ち絵デフォ
+numalias KAN_Def4,%0 : inc %0		;金森立ち絵デフォ
+numalias KAN_Def5,%0 : inc %0		;金森立ち絵デフォ
+numalias KAN_I1,%0 : inc %0		;金森立ち絵怒り
+numalias KAN_I2,%0 : inc %0		;金森立ち絵怒り
+numalias KAN_k1,%0 : inc %0		;金森立ち絵困る
+numalias KAN_k2,%0 : inc %0		;金森立ち絵困る
+numalias KAN_k3,%0 : inc %0		;金森立ち絵困る
+numalias KAN_k4,%0 : inc %0		;金森立ち絵困る
+numalias KAN_k5,%0 : inc %0		;金森立ち絵困る
+numalias KAN_w1,%0 : inc %0		;金森立ち絵笑い
+numalias KAN_w2,%0 : inc %0		;金森立ち絵笑い
+numalias KAN_w3,%0 : inc %0		;金森立ち絵笑い
+numalias KAN_last_number,%0 :inc %0	;金森の表情の番号の終端
+
+numalias HIG_start_number,%0		;彼岸花の表情の番号の開始
+numalias HIG_Def1,%0 : inc %0		;彼岸花立ち絵デフォ
+numalias HIG_Def2,%0 : inc %0		;彼岸花立ち絵デフォ
+numalias HIG_Def3,%0 : inc %0		;彼岸花立ち絵デフォ
+numalias HIG_Def4,%0 : inc %0		;彼岸花立ち絵デフォ
+numalias HIG_Def5,%0 : inc %0		;彼岸花立ち絵デフォ
+numalias HIG_W1,%0 : inc %0		;彼岸花立ち絵笑い
+numalias HIG_W2,%0 : inc %0		;彼岸花立ち絵笑い
+numalias HIG_W3,%0 : inc %0		;彼岸花立ち絵笑い
+numalias HIG_W4,%0 : inc %0		;彼岸花立ち絵笑い
+numalias HIG_W5,%0 : inc %0		;彼岸花立ち絵笑い
+numalias HIG_W5a,%0 : inc %0		;彼岸花立ち絵笑い
+numalias HIG_W6,%0 : inc %0		;彼岸花立ち絵笑い
+numalias HIG_W6a,%0 : inc %0		;彼岸花立ち絵笑い
+numalias HIG_last_number,%0 :inc %0	;彼岸花の表情の番号の終端
+
+numalias NON_start_number,%0		;野々宮の表情の番号の開始
+numalias NON_Def1,%0 : inc %0		;野々宮立ち絵デフォ
+numalias NON_Def2,%0 : inc %0		;野々宮立ち絵デフォ
+numalias NON_Def3,%0 : inc %0		;野々宮立ち絵デフォ
+numalias NON_Def3a,%0 : inc %0		;野々宮立ち絵デフォ
+numalias NON_Def4,%0 : inc %0		;野々宮立ち絵デフォ
+numalias NON_Def4a,%0 : inc %0		;野々宮立ち絵デフォ
+numalias NON_Def5,%0 : inc %0		;野々宮立ち絵デフォ
+numalias NON_Def5a,%0 : inc %0		;野々宮立ち絵デフォ
+numalias NON_Def6,%0 : inc %0		;野々宮立ち絵デフォ
+numalias NON_Def6a,%0 : inc %0		;野々宮立ち絵デフォ
+numalias NON_Def7,%0 : inc %0		;野々宮立ち絵デフォ
+numalias NON_Def7a,%0 : inc %0		;野々宮立ち絵デフォ
+numalias NON_N1,%0 : inc %0		;野々宮立ち絵泣く
+numalias NON_N1a,%0 : inc %0		;野々宮立ち絵泣く
+numalias NON_N2,%0 : inc %0		;野々宮立ち絵泣く
+numalias NON_S1,%0 : inc %0		;野々宮立ち絵叫ぶ
+numalias NON_S2,%0 : inc %0		;野々宮立ち絵叫ぶ
+numalias NON_S3,%0 : inc %0		;野々宮立ち絵叫ぶ
+numalias NON_last_number,%0 :inc %0	;野々宮の表情の番号の終端
+
+numalias YOU_start_number,%0		;沼田陽子の表情の番号の開始
+numalias YOU_Def1,%0 : inc %0		;沼田陽子立ち絵デフォ
+numalias YOU_Def2,%0 : inc %0		;沼田陽子立ち絵デフォ
+numalias YOU_Def3,%0 : inc %0		;沼田陽子立ち絵デフォ
+numalias YOU_Def4,%0 : inc %0		;沼田陽子立ち絵デフォ
+numalias YOU_Def5,%0 : inc %0		;沼田陽子立ち絵デフォ
+numalias YOU_last_number,%0 :inc %0	;沼田陽子の表情の番号の終端
+
+numalias KOU_start_number,%0		;校長先生の表情の番号の開始
+numalias KOU_Def1,%0 : inc %0		;校長先生立ち絵デフォ
+numalias KOU_Def2,%0 : inc %0		;校長先生立ち絵デフォ
+numalias KOU_Def3,%0 : inc %0		;校長先生立ち絵デフォ
+numalias KOU_Def4,%0 : inc %0		;校長先生立ち絵デフォ
+numalias KOU_Def5,%0 : inc %0		;校長先生立ち絵デフォ
+numalias KOU_Def6,%0 : inc %0		;校長先生立ち絵デフォ
+numalias KOU_U1,%0 : inc %0		;校長先生立ち絵その他
+numalias KOU_last_number,%0 :inc %0	;校長先生の表情の番号の終端
+
+numalias HIK_start_number,%0		;二瓶ひかるの表情の番号の開始
+numalias HIK_Def1,%0 : inc %0		;二瓶ひかる立ち絵デフォ
+numalias HIK_Def2,%0 : inc %0		;二瓶ひかる立ち絵デフォ
+numalias HIK_Def3,%0 : inc %0		;二瓶ひかる立ち絵デフォ
+numalias HIK_Def4,%0 : inc %0		;二瓶ひかる立ち絵デフォ
+numalias HIK_Def4a,%0 : inc %0		;二瓶ひかる立ち絵デフォ
+numalias HIK_I1,%0 : inc %0		;二瓶ひかる立ち絵怒り
+numalias HIK_I2,%0 : inc %0		;二瓶ひかる立ち絵怒り
+numalias HIK_N1,%0 : inc %0		;二瓶ひかる立ち絵泣く
+numalias HIK_N2,%0 : inc %0		;二瓶ひかる立ち絵泣く
+numalias HIK_W1,%0 : inc %0		;二瓶ひかる立ち絵笑い
+numalias HIK_W2,%0 : inc %0		;二瓶ひかる立ち絵笑い
+numalias HIK_W2a,%0 : inc %0		;二瓶ひかる立ち絵笑い
+numalias HIK_W3,%0 : inc %0		;二瓶ひかる立ち絵笑い
+numalias HIK_W3a,%0 : inc %0		;二瓶ひかる立ち絵笑い
+numalias HIK_last_number,%0 :inc %0	;二瓶ひかるの表情の番号の終端
+
+numalias HAM_start_number,%0		;ハメルンの表情の番号の開始
+numalias HAM_Def1,%0 : inc %0		;ハメルン立ち絵デフォ
+numalias HAM_Def2,%0 : inc %0		;ハメルン立ち絵デフォ
+numalias HAM_Def3,%0 : inc %0		;ハメルン立ち絵デフォ
+numalias HAM_Def4,%0 : inc %0		;ハメルン立ち絵デフォ
+numalias HAM_Def5,%0 : inc %0		;ハメルン立ち絵デフォ
+numalias HAM_Def6,%0 : inc %0		;ハメルン立ち絵デフォ
+numalias HAM_last_number,%0 :inc %0	;ハメルンの表情の番号の終端
+
+numalias HOK_start_number,%0		;保健の先生の表情の番号の開始
+numalias HOK_Def1,%0 : inc %0		;保健の先生立ち絵デフォ
+numalias HOK_Def2,%0 : inc %0		;保健の先生立ち絵デフォ
+numalias HOK_Def3,%0 : inc %0		;保健の先生立ち絵デフォ
+numalias HOK_Def4,%0 : inc %0		;保健の先生立ち絵デフォ
+numalias HOK_last_number,%0 :inc %0	;保健の先生の表情の番号の終端
+
+numalias MID_start_number,%0		;楠木みどりの表情の番号の開始
+numalias MID_Def1,%0 : inc %0		;楠木みどり立ち絵デフォ
+numalias MID_Def2,%0 : inc %0		;楠木みどり立ち絵デフォ
+numalias MID_Def2a,%0 : inc %0		;楠木みどり立ち絵デフォ
+numalias MID_Def3,%0 : inc %0		;楠木みどり立ち絵デフォ
+numalias MID_Def4,%0 : inc %0		;楠木みどり立ち絵デフォ
+numalias MID_Def4a,%0 : inc %0		;楠木みどり立ち絵デフォ
+numalias MID_Def5,%0 : inc %0		;楠木みどり立ち絵デフォ
+numalias MID_K1,%0 : inc %0		;楠木みどり立ち絵困る
+numalias MID_K2,%0 : inc %0		;楠木みどり立ち絵困る
+numalias MID_K3,%0 : inc %0		;楠木みどり立ち絵困る
+numalias MID_K4,%0 : inc %0		;楠木みどり立ち絵困る
+numalias MID_K5,%0 : inc %0		;楠木みどり立ち絵困る
+numalias MID_U1,%0 : inc %0		;楠木みどり立ち絵その他
+numalias MID_U2,%0 : inc %0		;楠木みどり立ち絵その他
+numalias MID_last_number,%0 :inc %0	;楠木みどりの表情の番号の終端
+
+numalias SIN_start_number,%0		;紅茶紳士の表情の番号の開始
+numalias SIN_Def1,%0 : inc %0		;紅茶紳士立ち絵デフォ
+numalias SIN_Def2,%0 : inc %0		;紅茶紳士立ち絵デフォ
+numalias SIN_Def3,%0 : inc %0		;紅茶紳士立ち絵デフォ
+numalias SIN_Def4,%0 : inc %0		;紅茶紳士立ち絵デフォ
+numalias SIN_last_number,%0 :inc %0	;紅茶紳士の表情の番号の終端
+
+numalias MIC_start_number,%0		;桜田みちるの表情の番号の開始
+numalias MIC_Def1,%0 : inc %0		;桜田みちる立ち絵デフォ
+numalias MIC_Def2,%0 : inc %0		;桜田みちる立ち絵デフォ
+numalias MIC_Def3,%0 : inc %0		;桜田みちる立ち絵デフォ
+numalias MIC_Def4,%0 : inc %0		;桜田みちる立ち絵デフォ
+numalias MIC_Def5,%0 : inc %0		;桜田みちる立ち絵デフォ
+numalias MIC_Def6,%0 : inc %0		;桜田みちる立ち絵デフォ
+numalias MIC_N1,%0 : inc %0		;桜田みちる立ち絵泣く
+numalias MIC_N2,%0 : inc %0		;桜田みちる立ち絵泣く
+numalias MIC_N2n,%0 : inc %0		;桜田みちる立ち絵泣く
+numalias MIC_N3,%0 : inc %0		;桜田みちる立ち絵泣く
+numalias MIC_N3n,%0 : inc %0		;桜田みちる立ち絵泣く
+numalias MIC_last_number,%0 :inc %0	;桜田みちるの表情の番号の終端
+
+numalias SAK_start_number,%0		;さくのしんの表情の番号の開始
+numalias SAK_Def1,%0 : inc %0		;さくのしん立ち絵デフォ
+numalias SAK_Def2,%0 : inc %0		;さくのしん立ち絵デフォ
+numalias SAK_Def3,%0 : inc %0		;さくのしん立ち絵デフォ
+numalias SAK_Def4,%0 : inc %0		;さくのしん立ち絵デフォ
+numalias SAK_k1,%0 : inc %0		;さくのしん立ち絵困る
+numalias SAK_k2,%0 : inc %0		;さくのしん立ち絵困る
+numalias SAK_k3,%0 : inc %0		;さくのしん立ち絵困る
+numalias SAK_n1,%0 : inc %0		;さくのしん立ち絵泣く
+numalias SAK_n2,%0 : inc %0		;さくのしん立ち絵泣く
+numalias SAK_n3,%0 : inc %0		;さくのしん立ち絵泣く
+numalias SAK_last_number,%0 :inc %0	;さくのしんの表情の番号の終端
+
+numalias YUK_start_number,%0		;榊由香里の表情の番号の開始
+numalias YUK_Def1,%0 : inc %0		;榊由香里立ち絵デフォ
+numalias YUK_Def2,%0 : inc %0		;榊由香里立ち絵デフォ
+numalias YUK_Def2a,%0 : inc %0		;榊由香里立ち絵デフォ
+numalias YUK_Def3,%0 : inc %0		;榊由香里立ち絵デフォ
+numalias YUK_Def3a,%0 : inc %0		;榊由香里立ち絵デフォ
+numalias YUK_Def4,%0 : inc %0		;榊由香里立ち絵デフォ
+numalias YUK_Def4a,%0 : inc %0		;榊由香里立ち絵デフォ
+numalias YUK_I1,%0 : inc %0		;榊由香里立ち絵怒り
+numalias YUK_I1a,%0 : inc %0		;榊由香里立ち絵怒り
+numalias YUK_I2,%0 : inc %0		;榊由香里立ち絵怒り
+numalias YUK_I2a,%0 : inc %0		;榊由香里立ち絵怒り
+numalias YUK_I3,%0 : inc %0		;榊由香里立ち絵怒り
+numalias YUK_I3a,%0 : inc %0		;榊由香里立ち絵怒り
+numalias YUK_n1,%0 : inc %0		;榊由香里立ち絵泣く
+numalias YUK_n2,%0 : inc %0		;榊由香里立ち絵泣く
+numalias YUK_w1,%0 : inc %0		;榊由香里立ち絵笑い
+numalias YUK_w2,%0 : inc %0		;榊由香里立ち絵笑い
+numalias YUK_w3,%0 : inc %0		;榊由香里立ち絵笑い
+numalias YUK_w4,%0 : inc %0		;榊由香里立ち絵笑い
+numalias YUK_last_number,%0 :inc %0	;榊由香里の表情の番号の終端
+
+numalias SMI_start_number,%0		;スミレの表情の番号の開始
+numalias SMI_Def1,%0 : inc %0		;スミレ立ち絵デフォ
+numalias SMI_Def1a,%0 : inc %0		;スミレ立ち絵デフォ
+numalias SMI_Def2n,%0 : inc %0		;スミレ立ち絵デフォ
+numalias SMI_Def2,%0 : inc %0		;スミレ立ち絵デフォ
+numalias SMI_Def3,%0 : inc %0		;スミレ立ち絵デフォ
+numalias SMI_Def3a,%0 : inc %0		;スミレ立ち絵デフォ
+numalias SMI_Def4,%0 : inc %0		;スミレ立ち絵デフォ
+numalias SMI_Def4a,%0 : inc %0		;スミレ立ち絵デフォ
+numalias SMI_Def5,%0 : inc %0		;スミレ立ち絵デフォ
+numalias SMI_Def5a,%0 : inc %0		;スミレ立ち絵デフォ
+numalias SMI_Def6,%0 : inc %0		;スミレ立ち絵デフォ
+numalias SMI_Def7,%0 : inc %0		;スミレ立ち絵デフォ
+numalias SMI_I1,%0 : inc %0		;スミレ立ち絵怒り
+numalias SMI_I2,%0 : inc %0		;スミレ立ち絵怒り
+numalias SMI_I3,%0 : inc %0		;スミレ立ち絵怒り
+numalias SMI_I3a,%0 : inc %0		;スミレ立ち絵怒り
+numalias SMI_N1,%0 : inc %0		;スミレ立ち絵泣く
+numalias SMI_N2,%0 : inc %0		;スミレ立ち絵泣く
+numalias SMI_N3,%0 : inc %0		;スミレ立ち絵泣く
+numalias SMI_W1,%0 : inc %0		;スミレ立ち絵笑い
+numalias SMI_W2,%0 : inc %0		;スミレ立ち絵笑い
+numalias SMI_W3,%0 : inc %0		;スミレ立ち絵笑い
+numalias SMI_W4,%0 : inc %0		;スミレ立ち絵笑い
+numalias SMI_W5,%0 : inc %0		;スミレ立ち絵笑い
+numalias SMI_W6,%0 : inc %0		;スミレ立ち絵笑い
+numalias SMI_last_number,%0 :inc %0	;スミレの表情の番号の終端
+
+numalias YO2_start_number,%0		;沼田陽子　昼の表情の番号の開始
+numalias YO2_Def1,%0 : inc %0		;沼田陽子　昼立ち絵デフォ
+numalias YO2_Def1n,%0 : inc %0		;沼田陽子　昼立ち絵デフォ
+numalias YO2_Def2,%0 : inc %0		;沼田陽子　昼立ち絵デフォ
+numalias YO2_Def2n,%0 : inc %0		;沼田陽子　昼立ち絵デフォ
+numalias YO2_Def3,%0 : inc %0		;沼田陽子　昼立ち絵デフォ
+numalias YO2_Def3n,%0 : inc %0		;沼田陽子　昼立ち絵デフォ
+numalias YO2_last_number,%0 :inc %0	;沼田陽子　昼の表情の番号の終端
+
+
+;彼岸花テスト
+stralias Air_01,"BMP\background\school\Air_01.bmp"  ;空【夕方】
+stralias Air_02,"BMP\background\school\Air_02.bmp"  ;空【昼】
+
+stralias usagi_01,"BMP\background\school\usagi_01.bmp"  ;うさぎ小屋　外観
+stralias usagi_02,"BMP\background\school\usagi_02.bmp"  ;うさぎ小屋　中
+stralias usagi_03,"BMP\background\school\usagi_03.bmp"  ;うさぎ小屋　中
+
+stralias ongaku_01,"BMP\background\school\ongaku_01.bmp"  ;音楽室　中
+stralias ongaku_02,"BMP\background\school\ongaku_02.bmp"  ;音楽室　中
+stralias ongaku_03,"BMP\background\school\ongaku_03.bmp"  ;音楽室　天井
+
+stralias engeki_01,"BMP\background\school\engeki_01.bmp"  ;演劇部
+stralias engeki_02,"BMP\background\school\engeki_02.bmp"  ;演劇部
+stralias engeki_03,"BMP\background\school\engeki_03.bmp"  ;演劇部
+stralias engeki_04,"BMP\background\school\engeki_04.bmp"  ;演劇部
+
+stralias engeki_05,"BMP\background\school\engeki_05.bmp"  ;演劇部
+stralias engeki_06,"BMP\background\school\engeki_06.bmp"  ;演劇部
+
+
+stralias hoken_01,"BMP\background\school\hoken_01.bmp"  ;保健室
+stralias hoken_02,"BMP\background\school\hoken_02.bmp"  ;保健室
+stralias hoken_03,"BMP\background\school\hoken_03.bmp"  ;保健室
+stralias hoken_04,"BMP\background\school\hoken_04.bmp"  ;保健室
+stralias hoken_05,"BMP\background\school\hoken_05.bmp"  ;保健室　人形
+
+stralias toire_01,"BMP\background\school\toire_01.bmp"  ;トイレ　入り口
+stralias toire_02,"BMP\background\school\toire_02.bmp"  ;女子トイレ　中
+stralias toire_03,"BMP\background\school\toire_03.bmp"  ;女子トイレ　個室
+stralias toire_04,"BMP\background\school\toire_04.bmp"  ;女子トイレ　個室　天井
+stralias toire_05,"BMP\background\school\toire_05.bmp"  ;トイレ　入り口
+stralias toire_06,"BMP\background\school\toire_06.bmp"  ;トイレ　紙
+stralias toire_06b,"BMP\background\school\toire_06b.bmp"  ;トイレ　紙　ボタン
+stralias toire_07,"BMP\background\school\toire_07.bmp"  ;トイレ　中
+stralias toire_08,"BMP\background\school\toire_08.bmp"  ;トイレ　個室中
+
+stralias kyou_01,"BMP\background\school\kyou_01.bmp"  ;教室
+stralias kyou_02,"BMP\background\school\kyou_02.bmp"  ;教室
+stralias kyou_02a,"BMP\background\school\kyou_02a.bmp"  ;教室　朝
+stralias kyou_02u,"BMP\background\school\kyou_02u.bmp"  ;教室　夕方
+stralias kyou_03,"BMP\background\school\kyou_03.bmp"  ;教室　天井
+stralias kyou_04,"BMP\background\school\kyou_04.bmp"  ;教室　入り口
+
+stralias k_kyou_01,"BMP\background\school\k_kyou_01.bmp"  ;教室　旧
+stralias k_kyou_02,"BMP\background\school\k_kyou_02.bmp"  ;教室　旧
+stralias k_kyou_03,"BMP\background\school\k_kyou_03.bmp"  ;教室　旧　天井
+stralias k_kyou_04,"BMP\background\school\k_kyou_04.bmp"  ;教室　旧　入り口
+
+
+stralias rika_01,"BMP\background\school\rika_01.bmp"  ;理科室
+stralias rika_02,"BMP\background\school\rika_02.bmp"  ;理科室
+stralias rika_03,"BMP\background\school\rika_03.bmp"  ;理科室
+stralias rika_04,"BMP\background\school\rika_04.bmp"  ;理科室
+
+stralias shokuin_01,"BMP\background\school\shokuin_01.bmp"  ;職員室
+stralias shokuin_02,"BMP\background\school\shokuin_02.bmp"  ;職員室
+stralias shokuin_03,"BMP\background\school\shokuin_03.bmp"  ;職員室
+stralias shokuin_04,"BMP\background\school\shokuin_04.bmp"  ;職員室　天井
+
+stralias rouka_01,"BMP\background\school\rouka_01.bmp"  ;廊下
+stralias rouka_02,"BMP\background\school\rouka_02.bmp"  ;廊下
+stralias rouka_03,"BMP\background\school\rouka_03.bmp"  ;廊下
+stralias rouka_04,"BMP\background\school\rouka_04.bmp"  ;廊下　天井
+
+stralias k_rouka_01,"BMP\background\school\k_rouka_01.bmp"  ;廊下　旧
+stralias k_rouka_02,"BMP\background\school\k_rouka_02.bmp"  ;廊下　旧
+stralias k_rouka_03,"BMP\background\school\k_rouka_03.bmp"  ;廊下　旧
+
+
+stralias tosho_01,"BMP\background\school\tosho_01.bmp"  ;図書室
+stralias tosho_02,"BMP\background\school\tosho_02.bmp"  ;図書室
+stralias tosho_03,"BMP\background\school\tosho_03.bmp"  ;図書室
+stralias tosho_04,"BMP\background\school\tosho_04.bmp"  ;図書室　天井
+stralias tosho_05,"BMP\background\school\tosho_05.bmp"  ;図書室　入り口
+
+stralias shinbun_01,"BMP\background\school\shinbun_01.bmp"  ;新聞部部室
+stralias shinbun_02,"BMP\background\school\shinbun_02.bmp"  ;新聞部部室
+stralias shinbun_03,"BMP\background\school\shinbun_03.bmp"  ;新聞部部室
+
+
+stralias kaidan_01,"BMP\background\school\kaidan_01.bmp"  ;階段
+stralias kaidan_02,"BMP\background\school\kaidan_02.bmp"  ;階段
+stralias kaidan_03,"BMP\background\school\kaidan_03.bmp"  ;階段
+stralias kaidan_03u,"BMP\background\school\kaidan_03u.bmp"  ;階段　夕方
+stralias kaidan_04,"BMP\background\school\kaidan_04.bmp"  ;階段
+stralias kaidan_04u,"BMP\background\school\kaidan_04u.bmp"  ;階段　夕方
+
+
+stralias k_kaidan_01,"BMP\background\school\k_kaidan_01.bmp"  ;階段　旧
+stralias k_kaidan_02,"BMP\background\school\k_kaidan_02.bmp"  ;階段　旧
+
+stralias okujou_01,"BMP\background\school\okujou_01.bmp"  ;屋上
+stralias okujou_01u,"BMP\background\school\okujou_01u.bmp"  ;屋上 夕方
+stralias okujou_01y,"BMP\background\school\okujou_01y.bmp"  ;屋上 夜
+stralias okujou_02,"BMP\background\school\okujou_02.bmp"  ;屋上
+stralias okujou_03,"BMP\background\school\okujou_03.bmp"  ;屋上　鳥瞰
+stralias okujou_03u,"BMP\background\school\okujou_03u.bmp"  ;屋上　鳥瞰
+
+stralias hokora_01,"BMP\background\school\hokora_01.bmp"  ;祠
+stralias hokora_02,"BMP\background\school\hokora_02.bmp"  ;祠
+
+
+
+stralias gakkou_01,"BMP\background\school\gakkou_01.bmp"  ;学校　建物
+stralias gakkou_01a,"BMP\background\school\gakkou_01a.bmp"  ;学校　建物　朝
+stralias gakkou_01u,"BMP\background\school\gakkou_01u.bmp"  ;学校　建物　夕方
+stralias gakkou_02,"BMP\background\school\gakkou_02.bmp"  ;学校　建物
+stralias gakkou_02u,"BMP\background\school\gakkou_02u.bmp"  ;学校　建物　夕方
+stralias gakkou_03,"BMP\background\school\gakkou_03.bmp"  ;学校　建物
+stralias gakkou_04,"BMP\background\school\gakkou_04.bmp"  ;学校　建物
+stralias gakkou_05,"BMP\background\school\gakkou_05.bmp"  ;学校　建物
+stralias gakkou_06,"BMP\background\school\gakkou_06.bmp"  ;学校　建物
+stralias gakkou_07,"BMP\background\school\gakkou_07.bmp"  ;学校　建物
+stralias gakkou_07y,"BMP\background\school\gakkou_07y.bmp"  ;学校　建物　夜
+stralias gakkou_08,"BMP\background\school\gakkou_08.bmp"  ;学校　建物
+stralias gakkou_08y,"BMP\background\school\gakkou_08y.bmp"  ;学校　建物　夜
+
+
+stralias etc_01,"BMP\background\school\etc_01.bmp"  ;学校　倉庫
+stralias etc_02,"BMP\background\school\etc_02.bmp"  ;学校　便槽
+
+stralias shoukou_01,"BMP\background\school\shoukou_01.bmp"  ;昇降口
+
+
+stralias mansion_01,"BMP\background\town\mansion_01.bmp"  ;マンション　外観
+stralias mansion_02,"BMP\background\town\mansion_02.bmp"  ;マンション　エレベーターホール
+stralias mansion_03,"BMP\background\town\mansion_03.bmp"  ;マンション　廊下
+
+stralias ie_01,"BMP\background\town\ie_01.bmp"  ;住宅　外観
+stralias ie_01u,"BMP\background\town\ie_01u.bmp"  ;住宅　外観
+stralias ie_02,"BMP\background\town\ie_02.bmp"  ;住宅　部屋
+stralias ie_02y,"BMP\background\town\ie_02y.bmp"  ;住宅　部屋
+stralias ie_02u,"BMP\background\town\ie_02u.bmp"  ;住宅　部屋
+stralias ie_03,"BMP\background\town\ie_03.bmp"  ;住宅　部屋
+stralias ie_04,"BMP\background\town\ie_04.bmp"  ;住宅　部屋　天井
+stralias ie_05,"BMP\background\town\ie_05.bmp"  ;住宅　廊下
+
+stralias roji_01,"BMP\background\town\roji_01.bmp"  ;路地
+stralias roji_02,"BMP\background\town\roji_02.bmp"  ;路地
+stralias roji_03,"BMP\background\town\roji_03.bmp"  ;路地　空
+stralias roji_03a,"BMP\background\town\roji_03a.bmp"  ;路地　空
+stralias roji_04,"BMP\background\town\roji_04.bmp"  ;路地
+stralias roji_04a,"BMP\background\town\roji_04a.bmp"  ;路地
+stralias roji_05,"BMP\background\town\roji_05.bmp"  ;路地
+stralias roji_06,"BMP\background\town\roji_06.bmp"  ;路地
+
+stralias touge_01,"BMP\background\town\touge_01.bmp"  ;峠
+stralias touge_02,"BMP\background\town\touge_02.bmp"  ;峠
+stralias touge_03,"BMP\background\town\touge_03.bmp"  ;峠
+stralias touge_04,"BMP\background\town\touge_04.bmp"  ;バス
+
+
+;stralias e001,"BMP\background\efe\e001.bmp"  ;出席簿
+
+stralias e002,"BMP\background\efe\e002.bmp"  ;涙
+;stralias e003,"BMP\background\efe\e003.bmp"  ;涙
+;stralias e004,"BMP\background\efe\e004.bmp"  ;涙
+
+stralias e005,"BMP\background\efe\e005.bmp"  ;目
+stralias e006,"BMP\background\efe\e006.bmp"  ;目
+stralias e007,"BMP\background\efe\e007.bmp"  ;目
+
+stralias e008,"BMP\background\efe\e008.bmp"  ;嘲笑
+stralias e009,"BMP\background\efe\e009.bmp"  ;嘲笑
+stralias e010,"BMP\background\efe\e010.bmp"  ;嘲笑
+
+stralias e011,"BMP\background\efe\e011.bmp"  ;花
+stralias e012,"BMP\background\efe\e012.bmp"  ;花
+stralias e013,"BMP\background\efe\e013.bmp"  ;彼岸花
+
+
+stralias e014,"BMP\background\efe\e014.bmp"  ;血
+stralias e015,"BMP\background\efe\e015.bmp"  ;血
+stralias e016,"BMP\background\efe\e016.bmp"  ;血
+
+
+stralias e017,"BMP\background\efe\e017.bmp"  ;手
+stralias e018,"BMP\background\efe\e018.bmp"  ;闇の力
+stralias e019,"BMP\background\efe\e019.bmp"  ;闇の力
+
+stralias e020,"BMP\background\efe\e020.bmp"  ;攻撃
+
+stralias e021,"BMP\background\efe\e021.bmp"  ;タイトル
+stralias e022,"BMP\background\efe\e022.bmp"  ;タイトル
+
+stralias Aka1,"BMP\background\efe\Aka1.bmp"  ;赤
+stralias Aka2,"BMP\background\efe\Aka2.bmp"  ;赤
+stralias Aka3,"BMP\background\efe\Aka3.bmp"  ;赤
+
+
+;EP8追加
+
+
+
+stralias blood_1a,"BMP\background\efe\blood_1a.bmp"  ;流血１
+stralias blood_1aR,"BMP\background\efe\blood_1aR.bmp";流血１のリバース
+stralias blood_1b,"BMP\background\efe\blood_1b.bmp"  ;流血２
+
+stralias blood_2a,"BMP\background\efe\blood_2a.bmp"  ;血ぼた　少ない
+stralias blood_2b,"BMP\background\efe\blood_2b.bmp"  ;血ぼた
+stralias blood_2c,"BMP\background\efe\blood_2c.bmp"  ;血ぼた
+stralias blood_2d,"BMP\background\efe\blood_2d.bmp"  ;血ぼた
+stralias blood_2e,"BMP\background\efe\blood_2e.bmp"  ;血ぼた　多い
+
+stralias bullet_1a,"BMP\background\efe\bullet_1a.bmp" 
+stralias bullet_1b,"BMP\background\efe\bullet_1b.bmp" 
+stralias bullet_1c,"BMP\background\efe\bullet_1c.bmp" 
+stralias bullet_1d,"BMP\background\efe\bullet_1d.bmp" 
+stralias bullet_1e,"BMP\background\efe\bullet_1e.bmp" 
+
+stralias white1,":a;BMP\background\efe\white1.bmp"  ;真っ白画面
+stralias bite,"BMP\background\efe\bite.bmp"  ;ガブリ！！
+
+stralias note1,"BMP\background\efe\note1.bmp"  ;メッセージボトルのノート片
+
+stralias Different_spiral_1a,"BMP\background\efe\Different_spiral_1a.bmp"  ;カケラ空間　渦巻き
+stralias Different_spiral_1b,"BMP\background\efe\Different_spiral_1b.bmp"  ;カケラ空間　渦巻き
+
+;sanctuary
+stralias punch_l1,"BMP\background\efe\punch_l1.bmp"  ;パンチ残影１
+stralias punch_l2,"BMP\background\efe\punch_l2.bmp"  ;パンチ残影２
+stralias punch_l3,"BMP\background\efe\punch_l3.bmp"  ;パンチ残影３
+
+stralias punch_r1,"BMP\background\efe\punch_r1.bmp"  ;パンチ残影１
+stralias punch_r2,"BMP\background\efe\punch_r2.bmp"  ;パンチ残影２
+stralias punch_r3,"BMP\background\efe\punch_r3.bmp"  ;パンチ残影３
+;stralias sea_1a,"BMP\background\efe\different_spiral_1a.bmp"  ;パンチ残影３
+
+roff
+
+defsub bg
+
+defsub ld_p
+defsub ld
+defsub me1
+defsub me1v
+defsub me2
+defsub me2v
+defsub me3
+defsub me3v
+defsub me4
+defsub me4v
+defsub me5
+defsub me5v
+defsub bgm1
+defsub bgm1v
+
+defsub meplay
+defsub meplay2
+defsub bgmplay
+defsub bgmplay2
+defsub se1
+defsub se2
+defsub se3
+defsub se1v
+defsub se2v
+defsub se3v
+defsub seplay
+defsub seplay2
+
+defsub mevol
+defsub bgmvol
+
+defsub e_
+defsub silent
+defsub E_B
+defsub E_M0
+defsub E_M1
+defsub E_M2
+defsub E_M3
+defsub E_M4
+defsub E_M5
+defsub E_A
+defsub E_MA
+defsub Fede
+defsub FedeXX
+defsub cross1
+defsub cross2
+
+defsub introduction_flg
+defsub dllefe
+defsub dllefe_off
+defsub csp
+defsub mono
+
+defsub flg_set
+defsub flg_p
+
+defsub clock
+defsub eye1
+defsub eye2
+defsub eye11
+defsub eye12
+
+;メタ世界関連の命令
+defsub meta_set
+defsub meta_set2
+defsub meta_set_ef
+defsub meta_set2_ef
+defsub meta_end
+defsub meta_end_ef
+defsub meta_ld
+defsub meta_cl
+defsub meta_bg
+defsub meta_cbg
+defsub mset
+defsub mset2
+defsub msetef
+defsub mset2ef
+defsub mend
+defsub mendef
+defsub mld
+defsub mcl
+defsub mbg
+defsub mcbg
+defsub mchana
+defsub mhana1
+defsub mhana2
+
+defsub mld2
+defsub mldg
+
+;cl
+defsub cl
+
+
+;七姉妹ジャンプランダムシステム
+defsub RG_set
+defsub RG_start
+defsub RG_start_f
+
+;ジャンプシステム
+defsub jump_set
+defsub jump_start
+
+;立ち位置の座標を取得する命令
+defsub tati_x_get
+
+;defsub texton
+;defsub textoff
+pretextgosub *pretext
+textgosub *text_cw
+
+loadgosub *Coll_system
+
+usewheel
+useescspc
+maxkaisoupage 100
+
+
+setlayer 0,50,"snow.dll"
+;setlayer 10,50,"NShake.dll"
+
+;setlayer 10,20,"MSpDraw.dll"
+
+rubyon 17,17
+
+gosub *bt_def
+
+
+game
+*Start
+saveoff
+;csp -1
+
+
+setwindow 31,16,22,16,26,26,0,2,20,1,1,#999999,0,0,639,479
+lsph TextCC1SpNum,":l/3,160,2;bmp\cursor0.bmp",0,0
+lsph TextCC2SpNum,":l/3,160,2;bmp\cursor1.bmp",0,0
+;lsph text_back,":a;bmp\introduction_back1.bmp",0,0
+
+;setcursor 0,":l/3,160,2;Bmp\cursor0.bmp",0,0
+;setcursor 1,":l/3,160,2;Bmp\cursor1.bmp",0,0
+
+;アイキャッチ表示速度基本設定
+mov %eye_waitB,2000
+mov %eye_waitL,2000
+
+mov %Set_vol,50
+gosub *DATA_SET
+;gosub *YATA_r_def
+
+texton
+
+mov %backlogTotalNum,%BacklogNum
+mov %BacklogNum,Backlogpage1
+;dec %backlogTotalNum
+
+
+mov $START_bg,"BMP\background\efe\different_spiral_1a.bmp"
+
+gosub *bt_def2
+mov %save_on_flg,on	;セーブON命令を動作させる。
+goto *b_sakuru_logo
+
+*higan1_opning
+texton
+csp -1
+
+bg black,2
+bgcopy ;背景をリセット
+
+setwindow 31,16,22,16,26,26,0,2,20,1,1,#999999,0,0,639,479
+
+!sd
+
+mono 0
+E_A
+
+bg "bmp\background\efe\keikoku_01.bmp",22
+wait 4000
+bg black,22
+
+me1v 16,0
+me2v 26,0
+
+fedexx 0,70,10,0,0,0,3000
+
+bg shoukou_01,42
+
+fedexx 0,30,30,0,0,0,3000
+
+bg black,2
+bg toire_01,42
+
+fedexx 0,10,50,0,0,0,3000
+
+bg black,2
+bg toire_02,42
+
+wait 2000
+
+se1v 18,40
+
+bg black,2
+bg toire_03,42
+
+wait 1000
+
+se2 83
