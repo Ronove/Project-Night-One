@@ -3629,17 +3629,21 @@ bg kyou_04,22
 quake 5,400
 
 ;　……予想通り、この話は生徒に大層ウケた。@
-`　......As expected, the students took that 'well'.`@
+`　......As expected, the students took those words all too well.`@
 br
-　『めそめそさん』という、最近流行りの学校妖怪に犠牲者のオマケまでついたのだ。@
+;　『めそめそさん』という、最近流行りの学校妖怪に犠牲者のオマケまでついたのだ。@
+`　Having her treated as a victim of "Mesomeso-san," the school youkai everyone is crazy about lately, came as an added bonus.`@
 br
-　校内では『めそめそさん』の噂が横行し、@新しい学校怪談としてすでに定着し始めているようだった。\
+;　校内では『めそめそさん』の噂が横行し、@新しい学校怪談としてすでに定着し始めているようだった。\
+`　In school the rumors about "Mesomeso-san" ran wild, `@`and new school ghost stories began to take hold.`\
 
 bg black,22
 
-　それを知り、金森はますますに自分が『めそめそさん』なのだという確信を強めていく……。@
+;　それを知り、金森はますますに自分が『めそめそさん』なのだという確信を強めていく……。@
+`　With that in mind, Kanamori started to believe more and more that he was "Mesomeso-san"......`@
 br
-　そんなある日のことだった。\
+;　そんなある日のことだった。\
+`　It was that kind of day.`\
 
 fede 0,2000
 E_A
@@ -3657,43 +3661,58 @@ se1v 13,50
 
 quakey 2,200
 
-　放課後に、職員室へ向かった時、@/
+;　放課後に、職員室へ向かった時、@/
+`　After school, on his way to the staff room, `@/
 bgm1 8
-何もない平らな廊下なのに、……突然、転倒してしまった。@
+;何もない平らな廊下なのに、……突然、転倒してしまった。@
+`In the middle of the empty hallway, ......suddenly, he fell.`@
 br
-　転んだ拍子に、肘を何かに引っ掛けてしまったらしい。@皮が破れて血を滲ませていた。@
+;　転んだ拍子に、肘を何かに引っ掛けてしまったらしい。@皮が破れて血を滲ませていた。@
+`　The moment he fell, it was as if something had caught his elbow. `@`It tore his skin and made him bleed.`@
 br
-　大した傷ではないが、出血でワイシャツを汚すわけにはいかず、ポケットティッシュで肘を押さえた。\
+;　大した傷ではないが、出血でワイシャツを汚すわけにはいかず、ポケットティッシュで肘を押さえた。\
+`　It wasn't a serious injury, but so it didn't stain his shirt, he pressed a tissue to his elbow.`@
 
-「おや、金森先生、大丈夫ですか。@お怪我でも……。」@
+;「おや、金森先生、大丈夫ですか。@お怪我でも……。」@
+`"Oh my, Kanamori-sensei, are you alright? `@`You're hurt......"`@
 br
-　その様子をたまたま見ていた教頭が声を掛けてくる。\
+;　その様子をたまたま見ていた教頭が声を掛けてくる。\
+`　Called out the vice principle who saw him by chance.`\
 
 ld l,KAN_Def1,26
 
-「あぁ、これはお恥ずかしいところをお見せしました。@転んだ拍子にどこかにぶつけてしまったようで。@……多分、生徒が絞らない雑巾で拭いた水溜りか何かで足を滑らせてしまったのでしょう。」\
+;「あぁ、これはお恥ずかしいところをお見せしました。@転んだ拍子にどこかにぶつけてしまったようで。@……多分、生徒が絞らない雑巾で拭いた水溜りか何かで足を滑らせてしまったのでしょう。」\
+`"Ah, how embarassing. `@`I must have bumped into something when I fell. `@`......I probably just slipped on a puddle a student neglected to wipe up or something."`\
 
-　とは言ったものの、@そんなことで足を滑らせるはずがないと金森自身が一番理解していた。@
+;　とは言ったものの、@そんなことで足を滑らせるはずがないと金森自身が一番理解していた。@
+`"He said, `@`even though Kanamori knew more than anyone that he hadn't lost his footing like that.`@
 br
-　こうして言い繕いながら廊下を見て、自分は何に足を躓いたのかと訝しがるしかなかった。\
+;　こうして言い繕いながら廊下を見て、自分は何に足を躓いたのかと訝しがるしかなかった。\
+`　While he smoothed things over, he looked at the hall, and he was left doubting he could have slipped on something.`\
 
-「……先生、だいぶ出血がひどいようですね。@ティッシュに滲み出してきていますよ。」\
+;「……先生、だいぶ出血がひどいようですね。@ティッシュに滲み出してきていますよ。」\
+`"......Sensei, you seem to be bleeding a lot. `@`It's seeping through your tissue."`\
 
 ld l,KAN_Def4,80
 
-「……本当だ。@困ったな、保健室へ行って止血をしてもらった方が良さそうですね。」@
+;「……本当だ。@困ったな、保健室へ行って止血をしてもらった方が良さそうですね。」@
+`"......You're right. `@`I'm in a bind, maybe I should head to the infirmary and get myself patched up."`@
 
-「そうなさるといい。@あ、先生～。@金森先生が転ばれて怪我をしたようです。@見てあげてくれませんか。」@
+;「そうなさるといい。@あ、先生～。@金森先生が転ばれて怪我をしたようです。@見てあげてくれませんか。」@
+`"You do that. `@`Ah, nurse~. `@`Kanamori-sensei seems to have hurt himself. `@`Would you take a look at him?`"@
 br
-　都合よく、廊下の向こうに保健室の先生の姿があった。\
+;　都合よく、廊下の向こうに保健室の先生の姿があった。\
+`　Conveniently, from the other side of the hallway the school nurse appeared.`\
 
 bg rouka_03,23
 ld r,HOK_Def1,22
 ld r,HOK_Def3,80
 
-「あらあら、大丈夫ですか、その肘。」@
+;「あらあら、大丈夫ですか、その肘。」@
+`"Oh my, is it alright? That elbow?"`@
 br
-　怪我自体は大したことないのだが、血で着衣を汚したくない。@金森はそう思い、大人しく保健室に向かうことにした。\
+;　怪我自体は大したことないのだが、血で着衣を汚したくない。@金森はそう思い、大人しく保健室に向かうことにした。\
+`　The injury itself wasn't a big deal, but he didn't want the blood to stain his clothes. `@`Kanamori thought as much, and he calmly headed to the school infirmary.`\
 
 bg black,22
 
@@ -3701,33 +3720,45 @@ wait 2000
 
 bg hoken_01,2
 
-　消毒薬の臭いに満ちた保健室で、@こうして消毒薬の脱脂綿の痛みを感じていると、自分の小学生時代を思い出すようで懐かしい。\
+;　消毒薬の臭いに満ちた保健室で、@こうして消毒薬の脱脂綿の痛みを感じていると、自分の小学生時代を思い出すようで懐かしい。\
+`　Inside the infirmary filled with the smell of disinfectant, `@`feeling the pain from cotton-wool soaked in that disinfectant brought back memories of my elementary school days. It was nostalgic.`\  
 
-　人より優れたものが何一つ見出せず、@いつも周囲に見下されているように感じていたあの頃。@
+;　人より優れたものが何一つ見出せず、@いつも周囲に見下されているように感じていたあの頃。@
+`　Without noticing anything better than being human, `@`in those times, I always felt looked down upon by those around me.`@
 br
-　見下されたくない、見下し返してやりたいと、@周囲に対する攻撃性を蓄積させていったあの頃。\
+;　見下されたくない、見下し返してやりたいと、@周囲に対する攻撃性を蓄積させていったあの頃。\
+`　Not wanting to be looked down upon, and wanting to look down on others, `@`in those times, I bottled up my aggression them.`\
 
 ;bg black,22
 
-　……私は毬枝を見下すことでようやくそのコンプレックスから解放されたように感じた。@
+;　……私は毬枝を見下すことでようやくそのコンプレックスから解放されたように感じた。@
+`　......And by looking down on Marie, I finally felt as if I had relieved myself from that complex.
 br
-　殺人を肯定したいとは思わない。@
-　……でも、この禊によってコンプレックスから解放されなかったなら、@自分は生涯、どれほど惨めな思いで生きていかなければならなかったのか。\
+;　殺人を肯定したいとは思わない。@
+`　I didn't think I wanted to be a killer.`@
+;　……でも、この禊によってコンプレックスから解放されなかったなら、@自分は生涯、どれほど惨めな思いで生きていかなければならなかったのか。\
+`　......But, if this purge didn't free me from my complex, `@`for the rest of my life, how long would I have had to live in despair?`\
 
 bg black,22
 
-　それを思えば、どうせ生き続けたって、@自分以外の誰かの慰みにされて生涯を終えただろう毬枝の存在を、@自分が活かし、新しい境地に目覚めたのは当然のことと思えた。\
+;　それを思えば、どうせ生き続けたって、@自分以外の誰かの慰みにされて生涯を終えただろう毬枝の存在を、@自分が活かし、新しい境地に目覚めたのは当然のことと思えた。\
+`　If I thought about it, as for how long I could go on living, `@`supposing Marie's life was ended for someone else's amusement, `@`I thought it natural for them to live on, and seek new ventures in life.`\
 
-　食物連鎖の上下関係のよう。@
+;　食物連鎖の上下関係のよう。@
+`　Like the different links in the food chain.`@
 br
-　自分は食う側だった。@毬枝は食われる側だった。@…それだけのことなのだ。\
+;　自分は食う側だった。@毬枝は食われる側だった。@…それだけのことなのだ。\
+`　I was the predator. `@`Marie was the prey. `@`...That was there was to it.`\
 
 bg hoken_01,22
 
-　私が食わなければ、将来、別の誰かが食っていた。@
-　なら、早い内に私が食ってやって、人生をリセットさせてやる方が慈悲深いというものだ。@
+;　私が食わなければ、将来、別の誰かが食っていた。@
+`　If I didn't eat her, then in the future, she'd be eaten by someone else.`@
+;　なら、早い内に私が食ってやって、人生をリセットさせてやる方が慈悲深いというものだ。@
+`　And so, I ate her early on, and in a deeply compassionate way, reset her life.`@
 br
-　もっとも、次の人生でも食われる側に違いないだろうが。@……つくづく救えないヤツさ。\
+;　もっとも、次の人生でも食われる側に違いないだろうが。@……つくづく救えないヤツさ。\
+`　Although, even in her next life she'll probably be eaten again. `@`......That girl is just that hard to teach, after all.`\
 
 
 
@@ -3752,33 +3783,42 @@ bg hoken_02,24
 
 me1v 11,90
 
-　そんな妄想に浸っている間に少し大きめの絆創膏を貼ってもらい、治療を終えた。@
+;　そんな妄想に浸っている間に少し大きめの絆創膏を貼ってもらい、治療を終えた。@
+`　While I was immersed in my fantasies, I had a somewhat large bandaid put on and ended my treatment.`@
 br
-　礼を述べ、立ち上がった時。@コツ、コツコツ、コツン…、という小さな連続する音を耳にした。\
+;　礼を述べ、立ち上がった時。@コツ、コツコツ、コツン…、という小さな連続する音を耳にした。\
+`　When I mentioned my thanks and stood up to leave, `@`thump, thump thump, thuummp..., the small series of sounds reached my ears.`\
 
 ld l,HOK_Def1,22
 ;ld l,HOK_Def1,80
 
-「どうしましたか？」@
+;「どうしましたか？」@
+`"Something the matter?"`@
 
 
 ld r,KAN_Def4,22
 ;ld r,KAN_Def1,80
 
-「……いえ、今、何か音が。@何か落ちて転がるような。」@
+;「……いえ、今、何か音が。@何か落ちて転がるような。」@
+`"......No, I heard something just now. `@`As if something fell over."`@
 br
-　金森は床の上に小さな白いものが落ちているのを見つけ、拾い上げた。\
+;　金森は床の上に小さな白いものが落ちているのを見つけ、拾い上げた。\
+`　Kanamori saw a small white thing had fallen on the floor and picked it up.`\
 
 ld r,KAN_Def1,80
 
-「…………………？」@
+;「…………………？」@
+`"............?"`@
 br
-　それはプラスチックか何かでできた、小さなボタンみたいなものだった。@
-　ボタンと言っても、直径は数ミリもなく、何の部品なのか理解できなかった。\
+;　それはプラスチックか何かでできた、小さなボタンみたいなものだった。@
+`　It was made of plastic or something, and it looked like a small button.`@
+;　ボタンと言っても、直径は数ミリもなく、何の部品なのか理解できなかった。\
+`　Even saying it was a button, it wasn't even a millimeter in diameter, but he understood it must have been an accessory for something.`\
 
 bg black,22
 
-　だが、その何かが落ちてきただろうと思う方向…、薬品棚の上を見た時、@それが何なのかを理解した。\
+;　だが、その何かが落ちてきただろうと思う方向…、薬品棚の上を見た時、@それが何なのかを理解した。\
+`　But, when he turned his thoughts as to what it might have fallen from..., he looked up above the medicine shelves, `@`and he understood what it was.
 
 E_A
 
@@ -3796,21 +3836,26 @@ me1v 16,50
 
 
 
-　それは、この保健室にあるのは何とも不釣合いな、……西洋人形だった。@
+;　それは、この保健室にあるのは何とも不釣合いな、……西洋人形だった。@
+`　That was something particularly out of place in this infirmary, ......A western doll.`@
 br
-　経年劣化により、くたびれた様子を隠せないが、@決して安っぽいものではなかったに違いない。\
+;　経年劣化により、くたびれた様子を隠せないが、@決して安っぽいものではなかったに違いない。\
+`　From its degredation over time, it couldn't hide its worn out state, `@`but there was no doubt it certainly wasn't something cheap.`\
 
-　さっき拾い上げた何かの形状とその人形を何度も見比べ、@おそらく、この人形の洋服のボタンに違いないと察する。\
+;　さっき拾い上げた何かの形状とその人形を何度も見比べ、@おそらく、この人形の洋服のボタンに違いないと察する。\
+`　I compared the shape of the object I had just picked up with the doll many times, `@`and I sensed it was certainly a button from this doll's clothes.`\
 
 ld l,KAN_Def1,23
 ;ld l,KAN_Def1,80
 
-「多分、この人形のボタンが飛んだのでしょう。」@
+;「多分、この人形のボタンが飛んだのでしょう。」@
+`"This doll's button probably fell off."`@
 
 ld r,HOK_Def2,24
 ;ld r,HOK_Def1,80
 
-「おやおや、そうですか。@それはあとで縫い付けておかないといけませんね。@何しろ、この子はこの保健室の主だそうですから。」\
+;「おやおや、そうですか。@それはあとで縫い付けておかないといけませんね。@何しろ、この子はこの保健室の主だそうですから。」\
+`"Oh oh, is that so? `@`I'll have to that back on after you go. `@`After all, because it's said that this child is the master of this infirmary."`\
 
 ;bg hoken_04,0
 ;ld r,HOK_Def1,0
@@ -3830,40 +3875,49 @@ bgm1 8
 
 
 
-「ヌシ？@　この可愛いお人形がですか？」@
+;「ヌシ？@　この可愛いお人形がですか？」@
+`"'Master'? `@`This cute doll?"`@
 br
-　金森は背伸びをして、薬品棚の上に座って保健室を見下ろしているその人形を抱き下ろした。\
+;　金森は背伸びをして、薬品棚の上に座って保健室を見下ろしているその人形を抱き下ろした。\
+`　Kanamori stood on his toes, and took down the doll that sat atop the medicine shelves looking down on them.`\
 
-　……その人形には、西洋人形独特の、どことなく冷たい雰囲気があり、@金森は社交辞令として可愛いと言ったが、内心は何て可愛げのない不気味な人形だろうと思った。\
+;　……その人形には、西洋人形独特の、どことなく冷たい雰囲気があり、@金森は社交辞令として可愛いと言ったが、内心は何て可愛げのない不気味な人形だろうと思った。\
+`　......That doll was uniquely Western, and had a vaguely cold air to it. `@`Kanamori had politely called it cute, but in his mind he thought of how it wasn't cute, but an eerie doll.`\
 
 mbg black,22
 mcbg 22
 
 ld r,HOK_Def3,80
 
-「えぇ、私も前任の先生から聞いたんですがね。@このお人形、その先生が来られるずっと前からここにあって、@こうして保健室を見守ってるんだそうなんですよ。」\
+;「えぇ、私も前任の先生から聞いたんですがね。@このお人形、その先生が来られるずっと前からここにあって、@こうして保健室を見守ってるんだそうなんですよ。」\
+`"Yeah, but I've also heard about it from the former nurse, you see. `@`She said this doll had been here long before that nurse came here, `@`and like this, it has been watching over the infirmary."`\
 
 ld l,KAN_Def3,80
 
-「そんな馬鹿な。@生徒の誰かの忘れ物じゃないんですか？」\
+;「そんな馬鹿な。@生徒の誰かの忘れ物じゃないんですか？」\
+`"How absurd. `@`Isn't it something a student lost?"`\
 
 ld r,HOK_Def4,80
 
-「そんな立派なお人形を持ってきて、忘れちゃう生徒がいるとも思えませんがね。@……そうそう、そのお人形は呪われた人形とか言って、@生徒たちには怖がられてるんだそうですよ。」\
+;「そんな立派なお人形を持ってきて、忘れちゃう生徒がいるとも思えませんがね。@……そうそう、そのお人形は呪われた人形とか言って、@生徒たちには怖がられてるんだそうですよ。」\
+`"Well I wouldn't think there's a student who would bring such a splendid doll and up and forget about it. `@`......Oh that's right, they say this doll is a cursed doll, `@`and the students are afraid of it, you see."`\
 
 ld l,KAN_Def2,80
 
-「ははは、学校の七不思議のひとつですか？@　そう言えば、保健室の人形が夜中に踊りだす、@みたいなことを生徒の誰かに聞いたような。@そうか、この人形のことだったんですね。」\
+;「ははは、学校の七不思議のひとつですか？@　そう言えば、保健室の人形が夜中に踊りだす、@みたいなことを生徒の誰かに聞いたような。@そうか、この人形のことだったんですね。」\
+`"Hahaha, so is this one of the school's seven mysteries? `@`Now that I think of it, the doll in the infirmary dances in the middle of the night, `@`or so I've heard from one of the students. `@`I see, so they were talking about this doll, eh?`"\
 
 ld r,HOK_Def2,80
 
-「昔、この保健室で死んだ女の子が持っていた人形が、魂が宿って妖怪になったんだとか何とか。@ふふふ、そういう話ってどこの学校に行っても多いですよね。@そうそう、その人形、誰が名付けたのか知りませんが、ちゃんと名前も持ってるんですよ。@……彼岸花って名前だそうで。」\
+;「昔、この保健室で死んだ女の子が持っていた人形が、魂が宿って妖怪になったんだとか何とか。@ふふふ、そういう話ってどこの学校に行っても多いですよね。@そうそう、その人形、誰が名付けたのか知りませんが、ちゃんと名前も持ってるんですよ。@……彼岸花って名前だそうで。」\
+`"Long ago, a doll that belonged to a girl who died in this infirmary took her spirit and became a youkai or some such. `@`Huhuhu, no matter what school you go to there are plenty of stories like that. `@`Oh that's right, I don't know who named that doll, but sure enough it has a name. `@`......They say it's called Higanbana."`\
 
 bg black,24
 bg hoken_03,24
 ld r,KAN_Def4,24
 
-　彼岸花。@
+;　彼岸花。@
+`　Higanbana.`@
 br
 
 ld r,KAN_Def3,80
