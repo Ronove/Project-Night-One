@@ -3922,24 +3922,29 @@ br
 
 ld r,KAN_Def3,80
 
-「……ふぅむ。@あまり縁起のいい名前ではないですね。@なるほど、この不気味な人形にはぴったりかもしれない。@……しかし、そんな人形をいつまでも飾っていると、生徒に怖がられていけないのでは？」\
+;「……ふぅむ。@あまり縁起のいい名前ではないですね。@なるほど、この不気味な人形にはぴったりかもしれない。@……しかし、そんな人形をいつまでも飾っていると、生徒に怖がられていけないのでは？」\
+`"......Hmmm. It's not a particularly fortunate name is it? `@`Indeed, it just might suit this strange doll perfectly. `@`......But with that kind of doll always there as a decoration, isn't it wrong to be scaring the students with it?"`\
 
 ld l,HOK_Def2,23
 
-「それが、その人形を捨てようとすると祟りがあるって話なんですよ。@ふふ、祟りを信じるわけじゃありませんけど、@ずっとずっとこの保健室で生徒たちを見守ってきた主なら、蔑ろにしちゃ悪いと思いましてね。@そこに座ってもらって、ここにやってくる生徒たちの怪我に、悪いのが入り込んで膿んだりしないように、@見守ってもらってるんです。」\
+;「それが、その人形を捨てようとすると祟りがあるって話なんですよ。@ふふ、祟りを信じるわけじゃありませんけど、@ずっとずっとこの保健室で生徒たちを見守ってきた主なら、蔑ろにしちゃ悪いと思いましてね。@そこに座ってもらって、ここにやってくる生徒たちの怪我に、悪いのが入り込んで膿んだりしないように、@見守ってもらってるんです。」\
+`"Well, there's also talk of a curse put on those who throw that doll away. `@`Huhu, it's not that I believe in curses, `@`but since it's been watching over students in this infirmary for a long long time, I'd feel kinda bad you know. `@`She sits there, making sure the injuries of the students who come here don't get worse, `@`and she protects them."`\
 
 ld r,KAN_Def1,80
 
-「……………そうですか。@しかしこのボタン、どこの部分のものでしょうね。」@
+;「……………そうですか。@しかしこのボタン、どこの部分のものでしょうね。」@
+`".........Is that so? `@`But where does this button go I wonder?"`@
 
 ld l,HOK_Def4,80
 
-「あぁ、ここですね。@あとで縫っておきましょう。@ほら、右腕の袖のボタンですね。」@
+;「あぁ、ここですね。@あとで縫っておきましょう。@ほら、右腕の袖のボタンですね。」@
+`"Aah, here. `@`I'll sew it on later. `@`See, it's her right sleeve's button."`@
 br
 
 E_A
 
-　右腕の、袖の、ボタン……？\
+;　右腕の、袖の、ボタン……？\
+`　Right, sleeve's, button......?`\
 
 
 
@@ -3955,31 +3960,39 @@ bgm1 11
 bg "BMP\background\efe\red1.bmp",1
 bg black,22
 
-　その何気ない単語が、@金森の、忘れたくてもなかなか忘れられない、記憶のゴミ箱の中をちりちりと刺激する……。@
+;　その何気ない単語が、@金森の、忘れたくてもなかなか忘れられない、記憶のゴミ箱の中をちりちりと刺激する……。@
+`　Those were casual words, `@`but it was something Kanamori wanted to forget and yet could not. Bits and pieces from his disposed memory began to stir......`@
 br
-　そう。@…あの毬枝の死体を捨てた夜の心残り。違和感。@
+;　そう。@…あの毬枝の死体を捨てた夜の心残り。違和感。@
+`　Yes. `@`...A regret from that night he disposed of Marie's corpse. It was an uncomfortable feeling.`@
 br
-　毬枝の死体を捨てる直前、何かないかと死体を照らした時、@……毬枝の右袖のボタンが千切れているのを確かに見たのだ。\
+;　毬枝の死体を捨てる直前、何かないかと死体を照らした時、@……毬枝の右袖のボタンが千切れているのを確かに見たのだ。\
+`　Just before disposing of Marie's body, when shining a light on the body to make sure nothing was missing, `@`......he certainly saw Marie's right sleeve had been torn.`\
 
 bg "BMP\background\efe\red1.bmp",1
 bg black,22
 
 me1v 17,50
 
-　あの夜はある種の興奮状態にあった。@だから、ボタンひとつくらいどうってことないと無視した。@……でも、だからといって拭いきれない違和感も残したのだ。@
+;　あの夜はある種の興奮状態にあった。@だから、ボタンひとつくらいどうってことないと無視した。@……でも、だからといって拭いきれない違和感も残したのだ。@
+`　That night his attention was invariably divided. `@`And so he didn't see how a single button mattered. He ignored it. `@`......But even so, it still left him with a bad feeling.`@
 br
-　その、まるで靴下の中に小さな小石でも紛れ込んだような感覚が、ぶわっと脳裏に蘇る……。\
+;　その、まるで靴下の中に小さな小石でも紛れ込んだような感覚が、ぶわっと脳裏に蘇る……。\
+`　That had felt as if there were a tiny pebble slipped in his sock, but that memory revived in his mind......`\
 
 me2v 28,70
 
 mono 2
 bg Different_spiral_1a,22
 
-　……この人形から千切れたボタンが、右袖以外だったなら何も気にしなかった。@
+;　……この人形から千切れたボタンが、右袖以外だったなら何も気にしなかった。@
+`　......This doll's torn off button, `@`if it hadn't been the right sleeve, he wouldn't have noticed anything.`@
 br
-　なのに、よりにもよって、右袖のボタン。@
+;　なのに、よりにもよって、右袖のボタン。@
+`　Even so, it had to be the right sleeve's button.`@
 br
-　……毬枝の服から千切れたのと同じ、右袖のボタン……！\
+;　……毬枝の服から千切れたのと同じ、右袖のボタン……！\
+`　......The same as the one torn from Marie's clothes, the right sleeve's button......!`\
 
 ;bg "BMP\background\efe\red1.bmp",1
 ;bg black,22
@@ -3990,45 +4003,54 @@ mono 0
 
 bg hoken_05,22
 
-　その時、金森は彼岸花という名のつけられた不気味な西洋人形に嘲笑われたような気がした。\
+;　その時、金森は彼岸花という名のつけられた不気味な西洋人形に嘲笑われたような気がした。\
+`　At that moment, Kanamori felt as if the eerie Western doll named Higanbana was sneering at him.`\
 
 ld_p HIG_Def1
 lsp2 2,$ld_pass,130,170,200,200,0
 lsp2 3,$ld_pass2,130,170,200,200,0
 print 22
 
-“馬鹿な男ね。@この世に蒸発するものは２つしかない。@何かわかる？”@
+;“馬鹿な男ね。@この世に蒸発するものは２つしかない。@何かわかる？”@
+`"What a foolish man. `@`There are only two things that can disappear from this world. `@`Know what they are?"`@
 br
-　え…？@　な、何の話だ……？@
+;　え…？@　な、何の話だ……？@
+`　Huh...? `@`　Wh, what are you talking about......?`@
 br
-　人形が自分に語り掛けるはずなどないという先入観が、その問いを霞ませる。\
+;　人形が自分に語り掛けるはずなどないという先入観が、その問いを霞ませる。\
+`　The preconception that there was no way a doll could talk to me blurred with that question.
 
 ld_p HIG_Def2
 lsp2 2,$ld_pass,130,170,200,200,0
 lsp2 3,$ld_pass2,130,170,200,200,0
 print 80
 
-“蒸発するものは。@……水と感謝の心、この２つだけよ。@くすくすくすくす……。”@
+;“蒸発するものは。@……水と感謝の心、この２つだけよ。@くすくすくすくす……。”@
+`"The things that disappear. `@`......Water and grateful souls, just these two. `@`*giggle*giggle*giggle*......"`@
 br
-　……あぁ、なるほど、それはよくできてる皮肉だなと笑う。@…だが、すぐにその笑いが凍る言葉を人形は続けた。\
+;　……あぁ、なるほど、それはよくできてる皮肉だなと笑う。@…だが、すぐにその笑いが凍る言葉を人形は続けた。\
+`　(?)......She laughed at her well made satire. `@`...But the doll quickly froze her laughter and continued.`\
 
 ld_p HIG_Def4
 lsp2 2,$ld_pass,130,170,200,200,0
 lsp2 3,$ld_pass2,130,170,200,200,0
 print 80
 
-“あなたが探してるのは毬枝の右袖のボタンなの？@　そのボタンは何でできている？@　水？@　感謝の心？”@
+;“あなたが探してるのは毬枝の右袖のボタンなの？@　そのボタンは何でできている？@　水？@　感謝の心？”@
+`"Are you looking for Marie's right sleeve button? `@`What is that button made of? `@` Water? `@` Grateful souls?"`@
 br
-　……水や心でボタンができてるわけがない。@
-　高級品なら貝だろうが、安ければせいぜいプラスチックに違いない……。\
+;　……水や心でボタンができてるわけがない。@
+`　......There's no way a button could be made of water or souls.`@
+;　高級品なら貝だろうが、安ければせいぜいプラスチックに違いない……。\
+`　If it were top quality it might have been made from shells, or if it was cheap then it'd be plastic at best......`\
 
 ld_p HIG_w2
 lsp2 2,$ld_pass,130,170,200,200,0
 lsp2 3,$ld_pass2,130,170,200,200,0
 print 80
 
-“そう。@水でも心でもない材質でできてるのね。@なら、蒸発なんてするわけがない。@溶けもしないし蒸発もしない。@……なら、まだ落とした場所に残っていることになるわね。@……落とした場所に、いつまでも。@誰かに拾われるまで、…ずぅっとね？@　くすくすくすくすくすくすくすくす…………………。”\
-
+;“そう。@水でも心でもない材質でできてるのね。@なら、蒸発なんてするわけがない。@溶けもしないし蒸発もしない。@……なら、まだ落とした場所に残っていることになるわね。@……落とした場所に、いつまでも。@誰かに拾われるまで、…ずぅっとね？@　くすくすくすくすくすくすくすくす…………………。”\
+`"Right. `@`It's made of things that aren't water or souls. `@`So there's no way it can disappear from this world. `@`It can't dissolve nor evaporate. `@`......So it must still be where it was dropped, right? `@`......It'll be where it was dropped, always. `@`Until it's found by someone, ...it'll be there forever won't it? `@`*giggle*giggle*giggle*giggle*giggle*giggle*`\
 
 
 
@@ -4048,32 +4070,42 @@ E_A
 
 me1v 26,50
 
-　その言葉の意味するところがひりひりとした感触で伝わってくる……。@
+;　その言葉の意味するところがひりひりとした感触で伝わってくる……。@
+`　The meaning of those words began to pain me.
 br
-　都合の悪いことを、人間はすぐに忘れたがる。@……今日まで私は、あの毬枝のボタンの違和感を、……忘れていた。\
+;　都合の悪いことを、人間はすぐに忘れたがる。@……今日まで私は、あの毬枝のボタンの違和感を、……忘れていた。\
+`　It was an inconvienent thing that people would have wanted to quickly forget. `@`......Until today, that bad feeling I had about Marie's button ......I had forgotten it.`\
 
-　……だが、私がいかに忘れようとも、ボタン自体はなくならない。@
-　それは必ず落ちた場所に今も残り続けていて、……そして、誰かが拾ってくれるのを今も待ち続けている…！\
+;　……だが、私がいかに忘れようとも、ボタン自体はなくならない。@
+`　......But no matter how I wanted to forget it, the button itself wouldn't disappear.`@
+;　それは必ず落ちた場所に今も残り続けていて、……そして、誰かが拾ってくれるのを今も待ち続けている…！\
+`　It was surely there even now where it was dropped, ......and until someone picks it up it's waiting there even now...!`\
 
 ;bg "BMP\background\efe\red1.bmp",1
 
 bg toire_01,1
 bg black,22
 
-　……そう。@あの右袖のなくなったボタンのことを忘れてはいけなかったのだ。@
-　最初からボタンが千切れていたわけはない。@
+;　……そう。@あの右袖のなくなったボタンのことを忘れてはいけなかったのだ。@
+`　......That's right. `@`I mustn't forget about that button that came off that right sleeve.`@
+;　最初からボタンが千切れていたわけはない。@
+`　From the start there was no way it had been torn off at all.`@
 br
-　ガサツな男子なら、ボタンが１つくらい千切れた服でもまったく気にしないだろう。\
+;　ガサツな男子なら、ボタンが１つくらい千切れた服でもまったく気にしないだろう。\
+`　If it was a crude boy, they wouldn't care at all about a single button torn from his clothes.`\
 
 ;bg "BMP\background\efe\red1.bmp",1
 bg toire_08,1
 bg black,22
 
-　だが、女子だぞ！@　ボタンが取れたら必ず付ける。@
+;　だが、女子だぞ！@　ボタンが取れたら必ず付ける。@
+`　But she was a girl! `@`If a button is taken off it'll certainly be put back on again.`@
 br
-　……毬枝も几帳面なタイプだった。@右袖のボタンが千切れたまま、日々の生活をしていたわけがない。@
+;　……毬枝も几帳面なタイプだった。@右袖のボタンが千切れたまま、日々の生活をしていたわけがない。@
+`　......Even Marie was the methodical type. `@`She wouldn't go through her daily routine with a button torn off her right sleeve.`@
 br
-　だから、あのボタンは間違いなく、あの日に千切れたのだ…！\
+;　だから、あのボタンは間違いなく、あの日に千切れたのだ…！\
+`　So that button, undoubtedly, would have to be from that day...!`\
 
 me2v 11,90
 fede 11,2000
@@ -4086,12 +4118,14 @@ E_M1
 bg hoken_01,0
 ld r,KAN_K1,2
 
-「……………………………………………………。」@
+;「……………………………………………………。」@
+`"..........................."`@
 
 ld l,HOK_Def3,23
 ;ld r,HOK_Def1,80
 
-「金森先生。@どうかなさいまして？」\
+;「金森先生。@どうかなさいまして？」\
+`"Kanamori-sensei. `@`Is something the matter?"`\
 
 textoff
 
@@ -4099,7 +4133,8 @@ wait 1000
 
 ld r,KAN_K2,80
 
-「……あ、いえ。@ありがとうございました。@ちょっと用事を思い出したところです。@すみません、失礼します……。」\
+;「……あ、いえ。@ありがとうございました。@ちょっと用事を思い出したところです。@すみません、失礼します……。」\
+`"......Ah, no. `@`Thank you very much. `@`I just remembered I have some business to take care of. `@`Sorry, if you'll excuse me......"`\
 
 cl r,22
 bg black,2
@@ -4108,80 +4143,102 @@ bgm1 10
 
 bg rouka_02,2
 
-　……もう私の心には、根拠なき安心感などなかった。@
+;　……もう私の心には、根拠なき安心感などなかった。@
+`　......Already foundation of my mental state and sense of security were gone.`@
 br
-　このままぼんやりとしていれば、いつかあのボタンを誰かが見つける。\
+;　このままぼんやりとしていれば、いつかあのボタンを誰かが見つける。\
+`　If I continue aimlessly like this, sometime someone will find that button.`\
 
-　毬枝が失踪した日の服について、警察はとっくに知っているから、@万一、それが警察の手に渡れば、毬枝の服の一部だとわかるはずだ。@
+;　毬枝が失踪した日の服について、警察はとっくに知っているから、@万一、それが警察の手に渡れば、毬枝の服の一部だとわかるはずだ。@
+`　Because the police have long known about the clothes Marie wore the day she disappeared, `@`if by chance it winds up in their hands, they'll probably realize it belongs to Marie's clothing.`@
 br
-　……それほどまでに危機的状況を放置して、私は何をのうのうとしていたのか……。\
+;　……それほどまでに危機的状況を放置して、私は何をのうのうとしていたのか……。\
+`　......What have I been doing being so carefree leaving such a critical state of affairs......?`\
 
 bg black,22
 
-　なら、あのボタンはどこに落ちた…？@
+;　なら、あのボタンはどこに落ちた…？@
+`　And where did that button fall off...?`@
 br
-　……………………………………。@
+;　……………………………………。@
+`　.....................`@
 br
-　……絞め殺した、あの場所。@…旧校舎のトイレの、個室の中。\
+;　……絞め殺した、あの場所。@…旧校舎のトイレの、個室の中。\
+`　......Where I strangled her. That place. `@`...The old school building's bathroom... In that stall.`\
 
 mono 1
 bg toire_07,22
 
-　いや、でも、あそこを出る時、痕跡が残っていないかどうか確かに見たはず…！@
+;　いや、でも、あそこを出る時、痕跡が残っていないかどうか確かに見たはず…！@
+`　No, and yet, when I left there I was sure I didn't leave any traces or the like behind...!`@
 br
-　でもそんなのは焦る心でちらりと見ただけのこと。@落ちた一粒のボタンを見逃さないほどに慎重だったとは思えない…。\
+;　でもそんなのは焦る心でちらりと見ただけのこと。@落ちた一粒のボタンを見逃さないほどに慎重だったとは思えない…。\
+`　But that was when I was in a hurry and only looked with a glance. `@`I don't think I cared so much that a grainlike fallen button couldn't have escaped my sight...`\
 
 bg black,22
 mono 0
 
-　……確信する。@
+;　……確信する。@
+`　......I'm sure of it.`@
 br
-　あそこだ。@……あそこにあるのだ。@
+;　あそこだ。@……あそこにあるのだ。@
+`　It's there. `@`......It's in there.`@
 br
-　……私は、誰にも見られずに旧校舎に入るため、完全にひと気がなくなる時間まで、@逸る心を抑えて待つしかできなかった……。\
+;　……私は、誰にも見られずに旧校舎に入るため、完全にひと気がなくなる時間まで、@逸る心を抑えて待つしかできなかった……。\
+`　......In order to not be seen by anyone when I entering the old school building, and stay there until I could be completely satisfied, `@`all I could do was hold back my impatient mind and wait.
 
 bg black,2
 
 bg hoken_01,0
 ld c,HOK_Def1,2
 
-　保健室には、まだ保健の先生が残り今日の事務の片づけをしていた。@
+;　保健室には、まだ保健の先生が残り今日の事務の片づけをしていた。@
+`　In the infirmary, the nurse was still finishing up the day's work.`@
 br
-　……その時、少女の笑い声を聞いた気がした。\
+;　……その時、少女の笑い声を聞いた気がした。\
+`　......Then she felt as if she heard a girl's laughter.`\
 
 bg black,23
 bg hoken_04,23
 ;ld c,HOK_Def1,23
 
-　まだ校内に生徒が残っているのだろうかと思い、振り返ると、@……薬品棚の上にちょこんと座った西洋人形の姿が目に入った。\
+;　まだ校内に生徒が残っているのだろうかと思い、振り返ると、@……薬品棚の上にちょこんと座った西洋人形の姿が目に入った。\
+`　Thinking there might still be students at school, she turned around, `@`......and the Western doll quietly sitting atop the medicine shelves caught her eye.`\
 
 ;ld c,HOK_Def1,80
 
-　もちろん「彼岸花」が笑うわけもない。@お人形なのだから。@
+;　もちろん「彼岸花」が笑うわけもない。@お人形なのだから。@
+`　Obviously there was no way "Higanbana" could laugh. `@`She was a doll after all.`@
 br
-　少し疲れているかもしれない…。@今日は家に帰ったら早めに床に入ろう。@そう思うのだった。\
+;　少し疲れているかもしれない…。@今日は家に帰ったら早めに床に入ろう。@そう思うのだった。\
+`　She might have been a little tired... `@`After going home today she would quickly get to bed. `@`And so she thought.`\
 
 mbg black,22
 
-「……くすくすくすくすくす。@どっちが『めそめそさん』に相応しいか、見物ね。@投票まで待つなんて面倒臭い。@……当事者同士で決めあうのが正しいとは思わない？」\
+;「……くすくすくすくすくす。@どっちが『めそめそさん』に相応しいか、見物ね。@投票まで待つなんて面倒臭い。@……当事者同士で決めあうのが正しいとは思わない？」\
+`"......*giggle*giggle*giggle*. `@`Which is more suitable to be "Mesomeso-san"? That'll be a sight, won't it? `@`Waiting until a vote is annoying. `@`......Don't you think it'd be better if the two involved decided it themselves?"`\
 
 mcbg 22
 ld r,HOK_Def4,80
 
-「………やはり疲れてるのかな。@今日はこれくらいにして帰るか……。」\
+;「………やはり疲れてるのかな。@今日はこれくらいにして帰るか……。」\
+`".........I must be tired. `@`I think I'll call it a day and head out......"`\
 
 bg black,22
 
-　彼岸花は、これから始まることを想像しながら、くすくすと笑う。@
+;　彼岸花は、これから始まることを想像しながら、くすくすと笑う。@
+`　Higanbana giggled as she imagined what was beginning to unfold from this point forward.`@
 br
-　無論、その声は保健の先生の耳には届くわけもなかった。\
+;　無論、その声は保健の先生の耳には届くわけもなかった。\
+`　Of course, it was impossible for that voice to reach the nurse's ears.`\
 
 textoff
 bg e002,22
 wait 1000
 bg e005,25
 
-「さぁ……。@毬枝も金森も。@どちらが相応しいか見せて頂戴。@ウチのクラスのみんなも、投票より面白いかもしれないって期待してるんだから。@くすくすくすくす…！」\
+;「さぁ……。@毬枝も金森も。@どちらが相応しいか見せて頂戴。@ウチのクラスのみんなも、投票より面白いかもしれないって期待してるんだから。@くすくすくすくす…！」\
+`"Now then...... `@`Marie. Kanamori. `@`Please show me who is more fitting. `@`Because everyone in 'our class' too is hoping for something more interesting than a vote. `@`*giggle*giggle*giggle*...!"`\
 
 bg black,22
 fede 0,2000
@@ -4202,27 +4259,34 @@ me2v 11,90
 
 wait 2000
 
-「金森先生はまだ残られますか。@明日に響きますよ。」\
+;「金森先生はまだ残られますか。@明日に響きますよ。」\
+`"Are you staying here Kanamori-sensei? `@`Tomorrow isn't far off now."`\
 
 bg shokuin_02,0
 ld l,KAN_Def1,22
 ld l,KAN_Def2,80
 
-「ありがとうございます、教頭先生。@もう少しで区切りがつきますので、もう少しだけ残らせてください。」\
+;「ありがとうございます、教頭先生。@もう少しで区切りがつきますので、もう少しだけ残らせてください。」\
+`"Thank you very much, Vice Principle. `@`Since I'm almost at a stopping point, please let me stay here a bit longer."`\
 
-「わかりました。@でも、ほどほどで引き上げてくださいよ。@あまり残業時間が付き過ぎると、組合にも事務局にも文句を言われますので。」@
+;「わかりました。@でも、ほどほどで引き上げてくださいよ。@あまり残業時間が付き過ぎると、組合にも事務局にも文句を言われますので。」@
+`"Understood. `@`But please start finishing up. `@`Because if you get too many overtime hours, we might even get a complaint from the union executive office."`@
 
 ld l,KAN_Def3,80
 
-「はははははは……。」\
+;「はははははは……。」\
+`"Hahahahahahaha......"`\
 
-「じゃあ、申し訳ございません。@私もこれで今日は失礼させていただきます。@金森先生が最後になると思いますので、セキュリティのセットをよろしくお願いします。@あと、２３時を超えるようでしたら、警備会社に連絡しないと確認に来てしまいます。@くれぐれも注意してくださいよ。」\
+;「じゃあ、申し訳ございません。@私もこれで今日は失礼させていただきます。@金森先生が最後になると思いますので、セキュリティのセットをよろしくお願いします。@あと、２３時を超えるようでしたら、警備会社に連絡しないと確認に来てしまいます。@くれぐれも注意してくださいよ。」\
+`"Well, I apologize. `@`But I'm going to have to excuse myself for the day. `@`Since I think Kanamori-sensei will be the last one out, please set up the security. `@`Also, if it's not on by 11 o'clock, if you don't call the security company they'll come check on it. `@`Be really careful please."`\
 
 ld l,KAN_Def2,80
 
-「えぇえぇ、心得ています。」@
+;「えぇえぇ、心得ています。」@
+`"Yeeees, I'm aware of that."`@
 br
-　……それは忘れてた。@……あのトイレを調べるのにそんな時間を掛けるつもりはないが、@そこに警備会社が来て鉢合わせじゃ、いろいろ都合が悪かったところだ……。\
+;　……それは忘れてた。@……あのトイレを調べるのにそんな時間を掛けるつもりはないが、@そこに警備会社が来て鉢合わせじゃ、いろいろ都合が悪かったところだ……。\
+`　......I had forgotten about that. `@`...Although I hadn't planned on taking that long to check that bathroom, `@`but if I end up bumping heads with the security company, it'll be all kinds of inconvenient......`\
 
 bg black,2
 ;bg shokuin_03,23
@@ -4237,38 +4301,52 @@ bgm1 12
 
 
 
-　金森は、今夜はこれまで以上に慎重だった。@…毬枝を殺した日よりも慎重なくらいに。@
+;　金森は、今夜はこれまで以上に慎重だった。@…毬枝を殺した日よりも慎重なくらいに。@
+`　Up until now, Kanamori had been discrete tonight. `@`...More discrete than the day he killed Marie.`@
 br
-　教頭の姿が校庭を横断していくのを見届けてから、@教頭の忠告通り、警備会社に残業で遅くなる旨の連絡を入れる。\
+;　教頭の姿が校庭を横断していくのを見届けてから、@教頭の忠告通り、警備会社に残業で遅くなる旨の連絡を入れる。\
+`　After seeing the vice principle cross the campus with his own eyes, `@`heeding the vice principle's advice, he called the security company to let them know he'd be working late that night.`\
 
-　……これで完璧だ。@これで今度こそ、@この深夜の学校には自分以外に誰もいないし、誰も訪れたりしない……。\
+;　……これで完璧だ。@これで今度こそ、@この深夜の学校には自分以外に誰もいないし、誰も訪れたりしない……。\
+`　......This is perfect. `@`Now this time as well, `@`with no one else except himself in this school late at night, no one would pay him a visit......`\
 
 ;bg black,44
 bg rouka_01,22
 
-　……そして、職員室を出て旧校舎に向かう前に、@自らの気配を殺し、校内に誰かが潜んでいないかをうかがった。\
+;　……そして、職員室を出て旧校舎に向かう前に、@自らの気配を殺し、校内に誰かが潜んでいないかをうかがった。\
+`　......So he left the staff room, and before heading to the old school building, `@`hiding his presence, he watched to see if anyone was lurking in the school.`\
 
 
-　もちろん、耳に入ってくる音は何もない。@
+;　もちろん、耳に入ってくる音は何もない。@
+`　Naturally, no sound reached his ears. `@
 br
-　校舎に染み入ってくる夜の虫の声だけ。@
-　……自分が呼吸を許せば、@それはまるで嵐のようにうるさく聞こえるくらいだった。\
+;　校舎に染み入ってくる夜の虫の声だけ。@
+`　Just the cries of the insects that infested the old building.`@
+;　……自分が呼吸を許せば、@それはまるで嵐のようにうるさく聞こえるくらいだった。\
+`　.......When he allowed himself a breath, `@`it sounded as loud as a storm in his ears.`\
 
 bg black,22
 bg okujou_01y,22
 ;bg gakkou_02,42
 
-　窓の外は真っ暗闇。@
-　……内側に明かりが灯っているから、廊下のガラスには外の暗闇でなく、@廊下の景色が鏡のように反射して映し出されているだけだった。@
+;　窓の外は真っ暗闇。@
+`　Outside the window was pure darkness.`@
+;　……内側に明かりが灯っているから、廊下のガラスには外の暗闇でなく、@廊下の景色が鏡のように反射して映し出されているだけだった。@
+`　......Because inside he had a light, outside of the glass in the hallway wasn't darkness, `@`but the interior of the hallway reflected itself back again like a mirror.`@
 br
-　だからすぐそこを見れば、……自分の姿が映っているのがわかる。@
+;　だからすぐそこを見れば、……自分の姿が映っているのがわかる。@
+`　So immediately after seeing that, ......he could see himself being reflected.`@
 br
-　この広大な校舎の中に、自分がひとりきり。\
+;　この広大な校舎の中に、自分がひとりきり。\
+`　Inside that massive school building, he was alone.`\
 
-　昼間の学校は、たくさんの生徒と教師で賑わい、@間違いなくひとつの社会を形成している。@
-　しかもそれは、世間とは切り離された別の世界で、@学校という別次元を構成しているとまで言えるだろう。@
+;　昼間の学校は、たくさんの生徒と教師で賑わい、@間違いなくひとつの社会を形成している。@
+`　In the day the school bustles with many students and teachers, `@`doubtlessly it was forming its own society.`@
+;　しかもそれは、世間とは切り離された別の世界で、@学校という別次元を構成しているとまで言えるだろう。@
+`　But that world was a different world seperated from this world, `@`it might even be said that school occupied a different dimension.`@
 br
-　その次元の中に、……今、自分がひとりしかいない。\
+;　その次元の中に、……今、自分がひとりしかいない。\
+`　In that dimension, ......Now, he was alone.`\
 
 bg black,22
 bg kaidan_03u,0
