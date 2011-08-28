@@ -1416,7 +1416,7 @@ bg tosho_05,22
 bg tosho_02,22
 
 ;　毬枝はそんなことをぼんやりと考えながら、@放課後の指定された時間まで、図書室でぼんやりと時間を潰していた。\
-`　As Marie idly wondered that question, `@`she absentmindedly wasted time in the library until the appointed time after school.`\
+`　As Marie idly wondered that question, `@`she absentmindedly wasted time in the library while waiting for the appointed time after school.`\
 
 ;bg black,22
 
@@ -1475,7 +1475,7 @@ bg tosho_02,0
 ld c,HIG_w3,22
 
 ;　服装や髪型に対しては、お人形のようというのは褒め言葉になるだろう。@……でも、目つきに限り、お人形のようと例えるのは、褒め言葉にならないときもあるかもしれない。@
-`　Her hair and outfit among other things could be complimented for being doll-like. `@`......But as far as her eyes, saying they were doll-like might not have been a compliment.`@
+`　Her hair and outfit among other things could be complimented for being doll-like. `@`......But as for her eyes, saying they were doll-like might not have been a compliment.`@
 br
 ;　…毬枝はこの少女の目つきに対し、そんな印象を感じていた。\
 `　...By the look in this girl's eyes, Marie was left with that kind of impression.`\
@@ -1486,7 +1486,7 @@ br
 bg black,22
 
 ;　この子は、同級生だろうか。上級生だろうか。@…もし上級生だったなら言葉遣いに気をつけないと……。@
-`　Could this girl be in the same grade? Or in a grade above? `@`...If she were an upperclassmen, she should watch their language......`@
+`　Could this girl be in the same grade? Or in a grade above? `@`...If she were an upperclassmen, she should watch her language......`@
 br
 ;　だから毬枝は、せめて相手の学年だけでも知りたくて、目の前の少女の名札を見ようとする。@
 `　Because Marie at least wanted to know what grade she was in, she looked at the nametag of the girl in front of her.`@
@@ -1509,7 +1509,7 @@ ld l,MAR_Def2a,80
 `"...Eh? `@`Oh, ..ah, ...I'm ...I'm sorry...!!"@
 br
 ;　毬枝の腕が名札を遮る形になっていたので、その少女から名札を見ることができなかったのだ。@
-`　Marie's arm had hidden her nametag, so that girl hadn't been able to see it.`@
+`　Marie's arm had hidden her nametag, so the girl hadn't been able to see it.`@
 br
 ;　また、自分が名札を覗き込んでいたことが悟られていたので、@毬枝は慌てながら自分の名札を見せる。\
 `　And since she had been caught peeking at her nametag, `@`Marie hurried to show her own.`\
@@ -1518,10 +1518,10 @@ br
 ld r,HIG_w1,80
 
 ;「８組の子なのね。@この学校は生徒がいっぱいいるからよくわからないわ。@うふふふふふふ。」@
-`"A child from class 8 right? `@`Because this school has so many students I can't say I know it very well. `@`Ufufufufufufu."`@
+`"A child from class 8 right? `@`Because this school has so many students, I can't say I know it very well. `@`Ufufufufufufu."`@
 br
 ;　その少女は、毬枝が８組の生徒だとわかって満足そうだったが、@毬枝には少女の名札がぼやけていてよく読めない。\
-`　The girl seemed satisfied to know that Marie was a student in class 8, `@`but for Marie that girl's nametag was obscured and she couldn't read it well.`\
+`　The girl seemed satisfied to know that Marie was a student in class 8, `@`but for Marie the girl's nametag was obscured and she couldn't read it well.`\
 
 ;ld r,MAR_Def1,80
 
@@ -1586,7 +1586,7 @@ ld l,MAR_Def4a,80
 `"...Umm, .....well, ......that's......"@
 br
 ;　毬枝は何と答えて良いかわからなかった。\
-`　Marie didn't really know what would be correct to say.`\
+`　Marie didn't really know what would be the correct reply.`\
 
 
 ;bg black,22
@@ -1658,7 +1658,7 @@ E_B
 `　Marie certainly wasn't in a dream world, ......but she knew.`@
 br
 ;　彼岸花は人間ならざる存在に違いないのだ。@…そして、めそめそさんという新しい妖怪が、自分たちの新しい仲間に相応しいか品定めに来た、@ということに違いない…。\
-`　There was no doubt Higanbana wasn't human. `@`...And she had come to choose a suitable new companion, the new youkai Mesomeso-san. `@`There was no doubt...`\
+`　There was no doubt that Higanbana wasn't human. `@`...And she had come to choose a suitable new companion, the new youkai Mesomeso-san. `@`There was no doubt...`\
 
 bg tosho_03,23
 ld l,MAR_Def4a,23
@@ -1669,7 +1669,7 @@ ld l,MAR_Def4a,23
 ld r,HIG_def3,24
 
 ;「えぇ。@クラスでは“踊る彼岸花”って呼ばれてる、七席の序列第３位。@一応、保健委員もやってるのよ。@保健室になぜか置いてあるお人形。@あれが夜中にひとりでに踊り出すっていう怪談、聞いたことない？」\
-`"Yeah. `@`In class I'm called "The Dancing Red Spider Lily," the third rank of the seven seats. `@`Once in a while I'm mentioned by a nurse as well. `@`A doll that for some reason had been left in the infirmary. `@`Have you heard the tale about it dancing alone in the depth of night?"`\
+`"Yeah. `@`In class I'm called "The Dancing Red Spider Lily," the third rank of the seven seats. `@`Once in a while I'm mentioned by a nurse as well. `@`A doll that for some reason had been left in the infirmary. `@`Have you heard the tale about it dancing alone in the depth of the night?"`\
 
 ld l,MAR_Def2a,80
 
@@ -1710,7 +1710,7 @@ br
 bg black,22
 
 ;　妖怪の仲間に加わる、@ということは、人間としての生を終えろという意味かもしれない。@
-`　To become one of the Youkai. `@`And that meant ending her life as a human.`@
+`　To become one of the youkai. `@`That meant ending her life as a human.`@
 br
 ;　…ならば、自分はこの彼岸花という妖怪にこの場で祟り殺されてしまうのか……。\
 `　...If so, would this youkai called Higanbana kill her here outright with a spell?......`\
@@ -1774,7 +1774,7 @@ ld l,MAR_Def4a,80
 bgm1 6
 
 ;　でも、毬枝が瞬きをひとつすると、笑い声は聞こえているのに姿は消えてしまい、@……もう一度瞬きをすると、今度は声も消えてしまい、@もう一度瞬きした時には、気配すらも消え去ってしまっていた……。\
-`　But in a blink, even though Marie could still hear her laughter, Higanbana's figure disappears. `@`......With another blink, this time her voice disappears. `@`And this time with another blink, her very presence dissipates away....`\
+`　But in a blink, even though Marie could still hear her laughter, Higanbana's figure disappeared. `@`......With another blink, this time her voice disappeared. `@`And with a final blink, her very presence dissipated away....`\
 
 bg tosho_03,22
 
