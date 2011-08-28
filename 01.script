@@ -1187,7 +1187,7 @@ bg toire_07,22
 `　Marie also realized it. `@`...That it was probably about her.`@
 br
 ;　よく覚えていないが、以前、@それまでに一度も要求されたことのない酷い事を強いられた時、@…辛くて悲しくて、解放された後に涙が止まらなかったことがあった。\
-`　She didn't remember it well, from before, `@`when she was forced to do something she was never demanded to do before. `@`...It was sad, painful, and after being released she couldn't stop her tears.`\
+` She didn't remember the incident from earlier well, `@`but being forced to do something horrible that she had never done before, `@`...it was bitter, painful, and after she was released she couldn't stop the tears.`\
 
 ;　…その時、トイレに誰かがやってきて、……あまりの悲しさから助けを求めたくて、@そんな風に語り掛けたことがあった気がするのだ。\
 `　...At that time, someone came to the bathroom. ......She wanted them to help save her from her terrible sadness. `@`And she had a feeling that she had said something like that.`\
@@ -1199,10 +1199,10 @@ mono 0
 　And so, ...like it's said in that ghost story, that someone on the otherside of the door ran away.`@
 br
 ;　その話はいつの間にか怪談となり、@…自分はいつの間にか、めそめそさんという妖怪にされてしまっている。\
-`　And that story suddenly became a ghost story, `@`... And she was also suddenly made out to be a youkai called Mesomeso-san.`\
+`　And that incident suddenly became a ghost story, `@`... And she was also suddenly made out to be a youkai called Mesomeso-san.`\
 
 ;　誰かに助けを求めたくても、@話を聞いたりしたら全身の骨を砕かれて殺されてしまうことになってるのだから、@誰も話など聞いてくれたりはしない……。\
-　Even if she wanted to be saved by someone, `@`if they asked to hear her story, they would be killed by having all the bones crushed in their bodies, `@`so no one would dare ask......`\
+　Even if she wanted to be saved by someone, `@`if they asked to hear her story, they would be killed by having all the bones in their bodies crushed, `@`so no one would dare ask......`\
 
 ;bg e003,45
 
@@ -1210,7 +1210,7 @@ bg k_kyou_02,0
 ld r,MAR_def3,22
 
 ;　……悲しかった。@自分のたった一回の勇気を、妖怪の仕業にしてしまった誰かが恨めしかった。@
-`　......It was sad. `@`Having her sole act of courage turned into the work of a youkai by someone left her feeling bitter.`@
+`　......It was sad. `@`Having her sole act of courage turned into the work of a youkai by someone's story, left her feeling bitter.`@
 br
 ;　でも、………妖怪というのも悪くないかもしれないとも思った。\
 `　But, ......she thought being a youkai might not have been bad.`\
@@ -1233,10 +1233,10 @@ wait 2000
 bg mansion_01,5
 
 ;　……最近、マンションのエレベーターを待つ時、眼下を見下ろしていると、@８階という高さにも関わらず、アスファルトの大地がとても柔らかく、慈しみを感じられることがあるのだ。@
-`　......Recently, when she waited for the apartment elevator, looking down below her, `@`despite being on the 8th floor, she had a pleasant feeling that the vast asphault must have been very soft.`@
+`　......Recently, while waiting for the apartment elevator, she looked down below her, `@`and despite being on the 8th floor, she had a pleasant feeling that the vast asphault must have been very soft.`@
 br
 ;　家にも学校にも居場所がなく、これからも行き先がわからない自分を、@本当にやさしく受け止めてくれるのではないか。@……そう思うようになっていた。\
-`　Without family, school, and a place in the world, to her who no longer knew what tomorrow would bring, `@`could the asphault truly kindly bring it all to an end? `@`......And so she thought.`\
+`　For someone without family, school, and a place in the world, and who no longer knew what tomorrow would bring, `@`could the asphault truly and kindly bring it all to an end? `@`......And so she thought.`\
 
 bg black,22
 
@@ -1266,7 +1266,7 @@ mono 1
 ld l,KAN_W1,22
 
 ;　先生が自分に強いてる行為は、全ていけないことだとわかっている。@
-`　I know all of what Sensei forces me to do is wrong.`@
+`　I know that all of what Sensei forces me to do is wrong.`@
 ;　自分に破滅する覚悟があるならば、@全てをさらけ出し、先生を道連れにすることもきっとできるのだ。\
 `　If I have the resolve to ruin myself, `@`I can expose everything, and I'll surely take Sensei along with me.`\
 
@@ -1287,7 +1287,7 @@ ld l,KAN_K3,22
 `　......If I have the resolve to ruin myself, I can take Sensei along with me.`@
 br
 ;　でも、破滅した後の自分には、@多分、生きているだけでも辛い辱めの日々が待ち受けているだろう。@
-`　But, after ruining myself, `@`probably even just by being alive, many painful days of shame would await me.`@ 
+`　But after ruining myself, `@`probably even just by being alive, many painful days of shame would await me.`@ 
 br
 ;　…その恐ろしさは、復讐したい気持ちと十分、天秤にかけられるものだった。\
 `　...Between that kind of horror and my desire for revenge, I've thought plenty about both results.`\
@@ -1331,7 +1331,7 @@ E_B
 `　......Then I thought. `@`......I really should become the youkai "Mesomeso-san" then.`\
 
 ;　めそめそさんは恐ろしい妖怪で、@相手を引きずり込み、全身の骨を粉々に砕いて殺してしまう恐ろしい力を持っていると言う。@
-`　Mesomeso-san is a terrifying youkai, `@`and it's said it drags in its victims, and kills them by crushing all their bones with its horrific power.`@
+`　Mesomeso-san is a terrifying youkai, `@`and it's said that it drags in its victims and kills them by crushing all their bones with its horrific power.`@
 br
 ;　……そんな力が自分に与えられたなら、@……きっときっと、あの男に復讐できるのに…。\
 `　......If I could attain that power, `@`......then surely, surely, I could even have my revenge on that man...`\
@@ -1341,20 +1341,20 @@ br
 bg Different_spiral_1a,22
 
 ;　あの男はいつも私をチューインガムのように扱う。@……噛んで噛んで、噛んで噛んで、味が出尽くすまで噛み尽くして、@…最後にぺっと吐き出して捨てて、勝手に服を着て勝手に帰れと言い残し、勝手に帰って行くのだ。\
-`　That man always treats me like chewing gum. `@`...He chews, chews, chews, and chews until the flavor is gone, `@`...and finally he'll spit me out and throw me away. He puts on his clothes, he tells me to go home, and he leaves me.`\
+`　That man always treats me like chewing gum. `@`...He chews, chews, chews, and chews until the flavor is gone, `@`...and finally he'll spit me out and throw me away. He puts on his clothes, tells me to go home, and he leaves me.`\
 
 ;　だから私にめそめそさんの力があったなら、@……私もあの男を噛んで噛んで、噛んで噛んで噛んで、@全身の骨を粉々に砕いてから、ぺっと吐き出してやるのに……。\
-`　But if I had Mesomeso-san's power, `@`......then I would also chew, chew, chew, `@`and even after I ground his bones into dust, I'd spit him out......`\
+`　But if I had Mesomeso-san's power, `@`......then I would also chew, chew, chew, `@`and after I ground his bones into dust, I'd spit him out......`\
 
 bg black,22
 
 ;　それはつまり人間をやめて妖怪になりたいということだった。@
-`　And so I wanted to become a youkai and cease being human.`@
+`　And so, I wanted to become a youkai and cease being human.`@
 ;　人間をやめるという意味においては、自殺とそんなに意味は変わらない。@
-`　And in ceasing being human, it isn't that much different than killing myself.`@
+`　And to stop being human, isn't that much different than killing myself.`@
 br
 ;　でも、単に人間をやめたいというだけでなく、@別のものに生まれ変わって復讐したいという点において大きく違っていた。\
-`　But, it wasn't that I simply wanted to stop being human, `@`there was a big difference, because I wanted to be reborn into something else to take my revenge.`\ 
+`　But it wasn't that I simply wanted to stop being human. `@`There was a big difference because I wanted to be reborn into something else to take my revenge.`\ 
 
 fede 0,2000
 E_A
@@ -1383,13 +1383,13 @@ mono 0
 bg mansion_01,42
 
 ;　だから、私がこのまま人生を続けても、どうせいいことなど何もない…。@
-`　Because, even if I were to continue living like this, nothing good would come of it...`@
+`　Because even if I were to continue living like this, nothing good would come of it...`@
 br
 ;　社会に出ても、また先生のような男に囚われ、@抜け出せない日々に再び戻るだけに決まっているのだ……。\
 `　Even if I entered society, I'd be captured by another man like Sensei, `@`and once again I'd be fated to return to those days of being unable to break free......`\
 
 ;　……そこまで理解しながら、自ら死を選ぶだけの勇気が持てない。@
-`　......While reasoning to that extent, naturally I didn't have the courage to just choose death.`@
+`　......Even reasoning to that extent, naturally I didn't have the courage to just choose death.`@
 br
 ;　だから、妖怪になって復讐したいなどという、@前向きなのか後向きなのかもわからない、妙な考えになってしまうのだ…。\
 `　Because becoming a Youkai and wanting revenge and the like, `@`I didn't know if it was positive thinking or negative thinking, and it was becoming a peculiar idea...`\
@@ -1401,12 +1401,12 @@ bg black,2
 ;bg tosho_03,42
 
 ;　どうすれば、めそめそさんになれるのだろう……。@
-`　I wonder could I become Mesomeso-san......?`@`
+`　I wonder, could I become Mesomeso-san......?`@`
 ;　どうすれば、自分は学校に数多ある学校妖怪の一員に加われるのだろう……。@
-`　I wonder could I join the ranks as one of the many school youkai......?@
+`　I wonder, could I join the ranks as one of the many school youkai......?@
 br
 ;　みんなが噂するめそめそさんは、本当は自分なのだ。@でも、自分はみんなが噂するような妖怪ではない。\
-`　The Mesomeso-san that everyone gossipped about was truly me. `@`But, I wasn't the kind of youkai everyone was talking about.`\
+`　The Mesomeso-san that everyone gossipped about was truly me. `@`But I wasn't the kind of youkai everyone was talking about.`\
 
 bg tosho_05,22
 
@@ -1416,12 +1416,12 @@ bg tosho_05,22
 bg tosho_02,22
 
 ;　毬枝はそんなことをぼんやりと考えながら、@放課後の指定された時間まで、図書室でぼんやりと時間を潰していた。\
-`　As Marie idly wondered that question, `@`until the appointed time after school, she absentmindedly wasted time in the library.`\
+`　As Marie idly wondered that question, `@`she absentmindedly wasted time in the library until the appointed time after school.`\
 
 ;bg black,22
 
 ;　だから、それは小声の独り言だったはず。@
-`　And that was must have been her quiet monologue.`@
+`　And that must have been her quiet monologue.`@
 ;　聞く者があったとしても、何を言ったのか聞き取れない程度の小声だったはず。@
 `　Even if there were people listening, her voice must have been too quiet to warrant asking if she had said something.`@
 br
@@ -1451,24 +1451,24 @@ ld c,HIG_w3,42
 `　Of course, the girl was someone Marie didn't know.`\
 
 ;　一学年にクラスが１０を超えることもあるマンモス校だ。@転入、転校も激しい。@
-`　For each grade there were more than 10 classes in this mammoth school. `@`Exchanges and transfers of students were common.`@
+`　There were more than 10 classes for each grade in this mammoth school. `@`Exchanges and transfers of students were common.`@
 ;　同じ学年であっても、面識のない子などいくらでもいた。@
-`　Even though they were in the same grade, there were many children she didn't know.`@
+`　Even if they were in the same grade, there were many children she didn't know.`@
 br
 ;　その子の身なりはとても上品…、@というか、豪華だった。\
-`　This girl looked very refined..., `@`that is to say, extravagent.`\
+`　This girl looked very refined..., `@`that is to say, extravagant.`\
 
 bg black,0
 ld c,HIG_def2,22
 
 ;　まるでピアノの発表会でもあるかのような、綺麗で豪華な身なり。@…まるで、美しいドレスを着たお人形がそのまま人間になったような、そんな身なりだった。\
-`　She had a pristine and elegent figure as if she were at a piano recital. `@`...She looked like a doll wearing a beautiful dress had turned into a human being.`\
+`　She had a pristine and elegant figure as if she was at a piano recital. `@`...She looked like a doll wearing a beautiful dress that had turned into a human being.`\
 
 ;　それはもちろん顔立ちや髪型もだ。@手入れだけでも相当の時間を掛けて丁寧にしていることがすぐにわかった。@
-`　Of course, the same was for her face and her hair. `@`It was obvious that properly maintaining it must have taken a lot of time.`@
+`　Of course, the same could be said for her face and hair. `@`It was obvious that properly maintaining it must have taken a lot of time.`@
 br
 ;　でも、…目つきもお人形のようだった。@とても美しく、まるで宝石のよう。@…だけど、血の通った温かさを感じることはできなかった。\
-`　But, ...even the look in her eyes was like a doll's. `@`They were very beautiful, like jewels.`@`...Even so, one couldn't sense warm blood flowing through her.`\
+`　But, ...even the look in her eyes was like a doll's. `@`They were very beautiful, like jewels. `@`...Even so, one couldn't sense warm blood flowing through her.`\
 
 
 bg tosho_02,0
@@ -1489,7 +1489,7 @@ bg black,22
 `　Could this girl be in the same grade? Or in a grade above? `@`...If she were an upperclassmen, she should watch their language......`@
 br
 ;　だから毬枝は、せめて相手の学年だけでも知りたくて、目の前の少女の名札を見ようとする。@
-`　Because Marie at least wanted to know what grade she was in, and so she looked at nametag of the girl in front of her.`@
+`　Because Marie at least wanted to know what grade she was in, she looked at the nametag of the girl in front of her.`@
 br
 ;　でも、雨に滲んだような名札で、よく読み取ることができなかった。\
 `　But as if the nametag has been blotted by the rain, it wasn't something that could be made out.`\
@@ -1518,24 +1518,24 @@ br
 ld r,HIG_w1,80
 
 ;「８組の子なのね。@この学校は生徒がいっぱいいるからよくわからないわ。@うふふふふふふ。」@
-`　A child from class 8 right? `@`Because this school has so many students I can't say I know it very well. `@`Ufufufufufufu."`@
+`"A child from class 8 right? `@`Because this school has so many students I can't say I know it very well. `@`Ufufufufufufu."`@
 br
 ;　その少女は、毬枝が８組の生徒だとわかって満足そうだったが、@毬枝には少女の名札がぼやけていてよく読めない。\
-`　That girl seemed satisfied knowing Marie was a student in Class 8, `@`but for Marie that girl's nametag was obscured and she couldn't read it well.`\
+`　The girl seemed satisfied to know that Marie was a student in class 8, `@`but for Marie that girl's nametag was obscured and she couldn't read it well.`\
 
 ;ld r,MAR_Def1,80
 
 ;　このような上品な服装でも、学校規定の名札を欠かさないところに、@何だか不思議な滑稽さを覚えた。@
-`　Despite the girl's elegent clothing with her school regulation nametag in an unmissable spot, `@`Marie felt a strange humor to it all.`@
+`　Despite the girl's elegant clothing with her school regulation nametag in an unmissable spot, `@`Marie felt a strange humor to it all.`@
 br
 ;　毬枝はがんばって目をこらし、何とかクラスだけを読み取ったが、それも何だかおかしかった。\
-`　Marie strained her eyes as best she could, and she read only the class, but something was strange about that too.`\
+`　Marie strained her eyes as best she could and read only the class, but something was strange about that too.`\
 
 
 bg black,22
 
 ;　だって、Ｂ組と読めたからだ。@
-`　Because, she had read Class B.`@
+`　Because she had read Class B.`@
 br
 ;　……アルファベットのクラス名などこの学校にはないはずなのに…。@でも名札の書式はこの学校のものだ。@
 `　......Even though there shouldn't be any classes named alphabetically... `@`But the nametag was this school's format.`@
@@ -1558,7 +1558,7 @@ br
 `　A girl called Higanbana. But could it be her first name or last name? Marie couldn't decide.`\
 
 ;　でも、彼女と一対一で話す限り、特に名前を呼ぶ必要はない。@
-`　But as far as talking to her one on one, there no need to call her by her first name.`@
+`　But as far as talking to her one on one, there is no need to call her by her first name.`@
 br
 ;　……毬枝は無理にその名を記憶に留める必要もないだろうと思った。\
 `　......Marie also thought there was probably no need to pointlessly remember that name.`\
@@ -1568,7 +1568,7 @@ ld r,HIG_w3,80
 ;　すると、彼岸花と名乗った少女はくすりと笑う。@
 `　And then the girl named Higanbana giggled.`@
 ;　…それはまるで、その名を怪訝に思ったことを見抜かれたかのよう。@
-`　...It might have been as if she saw through Marie's doubts about her name.`@
+`　...It might have been because she saw through Marie's doubts about her name.`@
 br
 ;　見抜かれるはずのない感情を気付かれ、毬枝は少しだけぞっとするのだった。\
 `　Thinking there was no way she could have sensed something like that, Marie shivered ever so slightly.`\
@@ -1586,7 +1586,7 @@ ld l,MAR_Def4a,80
 `"...Umm, .....well, ......that's......"@
 br
 ;　毬枝は何と答えて良いかわからなかった。\
-`　Marie didn't really know what would be alright to say.`\
+`　Marie didn't really know what would be correct to say.`\
 
 
 ;bg black,22
@@ -1614,7 +1614,7 @@ ld c,HIG_w3,80
 ld c,HIG_Def3,80
 
 ;「……この学校は、こんなにも大きくてたくさんの子供が集まっている。@知ってる？@　妖怪はね、人の想いに集まるの。@だから、こんなにもたくさんの生徒がひしめく学校だったら、@並の学校よりもたくさんの妖怪が集まってくるのよ。」\
-`"......There are a lot of children gathered here at a school this big. `@`Did you know? `@` Youkai, gather the hearts of people. `@`So if there's a school with this many students crowding about, `@`then more youkai would gather here than at a normal school!"`\ 
+`"......There are a lot of children gathered here at a school this big. `@`Did you know? `@` Youkai gather the hearts of people. `@`So if there's a school with this many students crowding about, `@`then more youkai would gather here than at a normal school!"`\ 
 
 bg black,0
 ld c,HIG_Def4,22
@@ -1625,7 +1625,7 @@ ld c,HIG_Def4,22
 ld c,HIG_w2,80
 
 ;「……だからこの学校を統べる妖怪の席数を増やさないかって話が出てるのよ。@それで席数を増やそうという話になったら、@ちょうどよく、めそめそさんという妖怪が現れたという話だから、@どんな子かなって思って、ずっと探していたの。@……でも驚いたわ。@だって、いざ見つけてみたら人間だったから。@くすくすくすくす……。」\
-`"......So there's been talk about increasing the number of seats for youkai in this school! `@`If the number of seats is to be increased, `@`fittingly, there's been talk about a youkai called Mesomeso-san. `@`I've been searching, thinking what kind of child it could be. `@`......But I'm surprised. `@`Now that I've finally found it, to think it was a human. `@` *giggle giggle giggle*......"`\
+`"......So there's been talk about increasing the number of seats for youkai in this school! `@`Fittingly, there's been talk about a youkai called Mesomeso-san. `@`I've been searching, thinking what kind of child it could be. `@`......But I'm surprised. `@`Now that I've finally found it, to think it was a human. `@` *giggle giggle giggle*......"`\
 
 bg black,22
 bg tosho_02,0
@@ -1641,7 +1641,7 @@ ld l,HIG_Def4,23
 `"But you're Mesomeso-san right? `@` I don't think it matters that you're human. `@`Among the Seven Mysteries, it seems there are also former humans as well. `@`I'm different however. `@`......*giggle giggle giggle*."`\
 
 ;　彼岸花はくすくすと笑う。@美しいお人形が調度品に囲まれて優雅な仕草をするように。@
-`　Higanbana laughs with a giggle. `@`As if she were a beautiful doll surrounded by elegent furniture.`@
+`　Higanbana laughs with a giggle. `@`As if she was a beautiful doll surrounded by elegent furniture.`@
 br
 ;　……だけれども、@動くはずのない人形が笑うかのような不気味さも同時に持ちながら、くすくすと笑う。\
 `　......And yet, `@`at the same time with an eerieness of a doll that shouldn't move, she giggled.`\
@@ -1669,7 +1669,7 @@ ld l,MAR_Def4a,23
 ld r,HIG_def3,24
 
 ;「えぇ。@クラスでは“踊る彼岸花”って呼ばれてる、七席の序列第３位。@一応、保健委員もやってるのよ。@保健室になぜか置いてあるお人形。@あれが夜中にひとりでに踊り出すっていう怪談、聞いたことない？」\
-`"Yeah. `@`In class I'm called "The Dancing Red Spider Lily," the third rank of the seven seats. `@`Once in a while I'm mentioned by a nurse as well. `@`A doll that for some reason has been left in the infirmary. `@`Have you heard the tale about it dancing alone in the depth of night?"`\
+`"Yeah. `@`In class I'm called "The Dancing Red Spider Lily," the third rank of the seven seats. `@`Once in a while I'm mentioned by a nurse as well. `@`A doll that for some reason had been left in the infirmary. `@`Have you heard the tale about it dancing alone in the depth of night?"`\
 
 ld l,MAR_Def2a,80
 
@@ -1704,13 +1704,13 @@ br
 
 
 ;　友達を持ったことのない毬枝にとって、@例え素性の知れない、それも自分を妖怪だと名乗る少女であっても、@自分を仲間に迎えたいとやって来てくれることに、実は小さな喜びを感じていた。\
-`　To Marie who had no friends, `@`even though she was strange and the girl called herself a youkai, `@`that someone was to welcome her into their fold, truly made her feel a little happy.`\
+`　Even though she was strange and called herself a youkai, `@`for her to welcome Marie, who had no friends, into their fold, truly made Marie feel a little happy.`\
 
 
 bg black,22
 
 ;　妖怪の仲間に加わる、@ということは、人間としての生を終えろという意味かもしれない。@
-`　To become one of the Youkai. `@`And that meaning she might be able to end her life as a human.`@
+`　To become one of the Youkai. `@`And that meant ending her life as a human.`@
 br
 ;　…ならば、自分はこの彼岸花という妖怪にこの場で祟り殺されてしまうのか……。\
 `　...If so, would this youkai called Higanbana kill her here outright with a spell?......`\
@@ -1719,7 +1719,7 @@ br
 `　......But that was just wishful thinking.`@
 br
 ;　このままあの男に慰み者にされる日々を永遠に繰り返さなければならず、@自ら死を選ぶ勇気もないならば。@……今この場で彼岸花に祟り殺されて、彼女の仲間に加えてもらえた方がずっとマシだと思った。\
-`　The days of being that man's plaything would continue without end, `@`if she didn't even have the courage to choose to take her life. `@`......She thought it'd be better to be killed with a spell from Higanbana and be welcomed as one of her kind.`\
+`　The days of being that man's plaything would continue without end, `@`if she didn't even have the courage to take her own life. `@`......She thought it'd be better to be killed with a spell from Higanbana and be welcomed as one of her kind.`\
 
 bg tosho_03,22
 ld r,HIG_w4,22
@@ -1741,7 +1741,7 @@ ld r,HIG_def3,80
 ;ld l,MAR_Def1,80
 
 ;　この頃になると毬枝は、@彼岸花には言葉に出さずとも胸中を読み取れる力があることを疑わなくなっていた。@
-`　Around this time Marie had no doubt, `@`Higanbana had the power to wordlessly read her mind.`@
+`　Around this time, Marie had no doubt. `@`Higanbana had the power to wordlessly read her mind.`@
 br
 ;　……そう心の中で思うと、その通りと言わんばかりに彼岸花はもう一度にやりと笑うのだった。\
 `　......And after thinking it, Higanbana, as if to reply 'of course', laughed cattishly once again.`\
@@ -1751,7 +1751,7 @@ ld c,HIG_w2,24
 ld c,HIG_Def2,80
 
 ;「なら、本人の意志は問題ないってことね。@気に入った。@序列の第８位に“めそめそさん”を加えるよう、うちのクラスの学級会で推薦する。@多分、あっさりと決まると思うわ。@めそめそさん、みんな気に入っているもん。@……くすくすくすくすくす。」@
-`"Well, there's no problem with the will to do it. `@`How suitable. `@`I'll recommend it at our class meeting that you join us as the eigth rank, as "Mesomeso-san." `@`Probably, I think it'll be easily decided. `@`After all, everyone's pleased with Mesomeso-san. '@'......Kusukusukusukusu."`@
+`"Well, there's no problem with the will to do it. `@`How suitable. `@`I'll recommend it at our class meeting that you join us as the eigth rank, as "Mesomeso-san." `@`I think it'll probably be easily decided. `@`After all, everyone's pleased with Mesomeso-san. `@`......*giggle giggle giggle*"`@
 br
 ;　彼岸花は上機嫌そうに笑う。\
 `　Higanbana laughed as if she were in a good mood.`\
@@ -1785,13 +1785,13 @@ br
 `　......Marie frantically searched for Higanbana, but she didn't find her again.`\
 
 ;　消えたことにより、…彼岸花が人間ではないということがわかった。@そんな存在から仲間として受け入れようと言ってもらえたことに嬉しさを感じた。\
-`　Since she disappeared, ...she understood Higanbana wasn't human. `@`She felt happiness that she had been invited to be a part of that kind of existence.`\
+`　Since she disappeared, ...she understood that Higanbana wasn't human. `@`She felt happiness knowing that she had been invited to be a part of that kind of existence.`\
 
 bg black,22
 ;bg tosho_03,24
 
 ;　だが、消えたことにより、@…今の出来事が全て自分の白昼夢に過ぎないのではないかという恐れも生まれた。@それを払拭したくて、彼岸花の姿を探す。\
-`　But since she disappeared, `@`...the terrifying thought that everything that happened just now might have just all been a daydream. `@`Wanting to wipe that thought from her mind, she searches for Higanbana.`\
+`　But since she disappeared, `@`...there was the terrifying thought that everything that happened just now might have all been a daydream. `@`Wanting to wipe that thought from her mind, she searches for Higanbana.`\
 
 ;bg black,23
 bg tosho_02,22
@@ -1817,7 +1817,7 @@ br
 `　There was no way that this vivid experience just now was an illusion.`\
 
 ;　私は学校妖怪に誘いを受け、@……人間を終え、ようやく苦難に満ちた日々から抜け出す道筋を見つけたのだ。@
-`　I will accept this invitation from the school youkai, `@` ......By ending my humanity, I've finally found a way to escape from my days of suffering.`@
+`　I will accept this invitation from the school youkai. `@` ......By ending my humanity, I've finally found a way to escape from my days of suffering.`@
 br
 ;　人の身を捨てれば、きっと私を慰み者にした先生に復讐する力が得られる。\
 `　Surely I'll attain the power I need to take my revenge on Sensei if I rid myself of this human life.`\
@@ -1857,13 +1857,13 @@ bg tosho_01,22
 ld c,MAR_Def3,26
 
 ;　だが、その感情が何かに気付く前に、@時計の針は、旧校舎トイレへ行かねばならない時間が来たことを告げる。\
-`　But before she could realize what that emotion was, `@`the needle on the clock signalled that it was the time she had to head to the old school building bathroom.`\
+`　But before she could realize what that emotion was, `@`the needle on the clock signaled that it was time for her to head to the old school building bathroom.`\
 
 ld c,MAR_Def3n,22
 cl c,22
 
 ;　彼女は再び無表情な、@……彼岸花以上に人形のような蒼白な表情に戻ると、とぼとぼと旧校舎へ向かうのだった。@
-`　And once again she was expressionless, `@`...and she returned to an expression paler than Higanbana's doll-like figure as trudged towards the old school building.`\
+`　And once again she was expressionless, `@`...returning to an expression paler than Higanbana's doll-like figure, she trudged towards the old school building.`\
 br
 ;　心の中に灯った何かが、どういう感情なのかを考えながら。\
 `　She wondered what kind of emotion it was that had lit her heart.`\ 
@@ -1876,7 +1876,7 @@ br
 ;　彼岸花に、自分は人間をやめる覚悟があることは伝えた。@
 `　She had told Higanbana that she was prepared to cease being human.`@
 ;　あとは彼女のクラスの学級会で、めそめそさんの存在が認められるのを待つだけだ。\
-`　After that, all she could do was wait for Mesomeso-san's existence to be recognized at that girl's class' school meeting.`\
+`　After that, all she could do was wait for Mesomeso-san's existence to be recognized at the youkai school meeting.`\
 
 ;bg e002,42
 
@@ -1886,13 +1886,13 @@ me1v 16,50
 `　......If I were recognized by them, I might be welcomed to live as a youkai in the school.@
 br
 ;　多分、私の命は失われ、人としての生を終えるという通過儀礼を経ることになるはずだ。\
-`　Likely, I'll lose my life, and I'll probably have to go through a rite of passage to end my life as a human.`\
+`　I'll likely lose my life, and I'll probably have to go through a rite of passage to end my life as a human.`\
 
 ;　つまり、……私はもうじき、人間の生を終える。@
 `　In other words, ......I will soon, end my human life.`@
 br
 ;　ならば、駄目で元々…。@自分が人間の身である内に、たったひとつの勇気を試してもいいのではないか……。\
-`　If that's so, since I have nothing to lose... `@`Wouldn't it be alright if, while I've still got my human body, I could try just one act of bravery......?`\
+`　If that's so, since I have nothing to lose... `@`Wouldn't it be all right if I could try just one act of bravery while I've still got my human body......?`\
 
 bg rouka_01,22
 
@@ -1900,7 +1900,7 @@ bg rouka_01,22
 `　With her head down, Marie headed for the old school building's bathroom.`@
 br
 ;　でも、その握り拳は、小さくだけれど力強く握られていた…。\
-`　But in those clenched fists of hers was held just a tiny bit of strength...`\
+`　But in those clenched fists of hers, she held just a tiny bit of strength...`\
 
 bg black,2
 
