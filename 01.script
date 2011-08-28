@@ -1492,7 +1492,7 @@ br
 `　Because Marie at least wanted to know what grade she was in, she looked at the nametag of the girl in front of her.`@
 br
 ;　でも、雨に滲んだような名札で、よく読み取ることができなかった。\
-`　But as if the nametag has been blotted by the rain, it wasn't something that could be made out.`\
+`　But as if the nametag had been blotted by the rain, it wasn't something that could be made out.`\
 
 bg tosho_02,22
 ld r,HIG_w3,22
@@ -1547,7 +1547,7 @@ bg tosho_03,23
 ld r,HIG_Def3,24
 
 ;「森谷毬枝さん？@　最近の子の名前は難しくなる一方ね。@…私の名前も負けないけれど。@彼岸花（ひがんばな）って呼んで頂戴。@よろしくね、毬枝？」\
-`"Moriya Marie-san? `@`Childrens' names these days are getting harder to read. `@`...But they can't beat my name, `@`Call me Higanbana (彼岸花) alright? `@`Nice to meet you, Marie?"`\
+`"Moriya Marie-san? `@`Childrens' names these days are getting harder to read. `@`...But they can't beat my name, `@`Call me Higanbana (彼岸花) all right? `@`Nice to meet you, Marie?"`\
 
 ld l,MAR_Def4a,23
 
@@ -1641,7 +1641,7 @@ ld l,HIG_Def4,23
 `"But you're Mesomeso-san right? `@` I don't think it matters that you're human. `@`Among the Seven Mysteries, it seems there are also former humans as well. `@`I'm different however. `@`......*giggle giggle giggle*."`\
 
 ;　彼岸花はくすくすと笑う。@美しいお人形が調度品に囲まれて優雅な仕草をするように。@
-`　Higanbana laughs with a giggle. `@`As if she was a beautiful doll surrounded by elegent furniture.`@
+`　Higanbana laughs with a giggle. `@`As if she was a beautiful doll surrounded by elegant furniture.`@
 br
 ;　……だけれども、@動くはずのない人形が笑うかのような不気味さも同時に持ちながら、くすくすと笑う。\
 `　......And yet, `@`at the same time with an eerieness of a doll that shouldn't move, she giggled.`\
