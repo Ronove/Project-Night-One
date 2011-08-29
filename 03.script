@@ -400,46 +400,62 @@ br
 ;　誰の名前もなく、学校の備品であることを示すシールもない。@
 `There was no name written on it, or any seal to mark it as property of the school. `@`
 br
-　埃での汚れ具合から、@ずいぶん昔に壊れ、過去の先輩の誰かがここに置き去りにしていったのだろうと考えるのが妥当だった。\
+;　埃での汚れ具合から、@ずいぶん昔に壊れ、過去の先輩の誰かがここに置き去りにしていったのだろうと考えるのが妥当だった。\
+` Judging by how dusty it was, `@` it'd be fair to assume that it had been broken some years ago and then abandoned here by some long gone senpai. `\
 
 
-　ひょっとすると、電池を換えると動いたりしないだろうか。@……いやいや、こんなにも古いものに収められたフィルムがまだ使えるわけもない。@きっともう使用期限をはるかに超過しているだろう。\
+;　ひょっとすると、電池を換えると動いたりしないだろうか。@……いやいや、こんなにも古いものに収められたフィルムがまだ使えるわけもない。@きっともう使用期限をはるかに超過しているだろう。\
+` Even if you put some new batteries in it would it even work? `@` ... no, no, even if it did the film inside would be useless. `@` It had probably expired years ago by now. `\
 
-　……でも、この捨てられた玩具を、なぜか武は見過ごせなかった。@
+;　……でも、この捨てられた玩具を、なぜか武は見過ごせなかった。@
+` ... but, somehow Takeshi just couldn't tear his eyes away from this toy he had found. `@`
 br
-　ひょっとしたら、動くかも。@動かないなら捨ててしまえばいい。@
-　もしも動いたなら、@普段とは違う感覚で使える、ちょっとした玩具になるかもしれない。\
+;　ひょっとしたら、動くかも。@動かないなら捨ててしまえばいい。@
+` Maybe, just maybe, it could still work. `@` If not he could always throw it away again. `@`
+;　もしも動いたなら、@普段とは違う感覚で使える、ちょっとした玩具になるかもしれない。\
+` If it did work, `@` it would be the perfect plaything to change up his everyday life. `\
 
 bg black,24
 bg shinbun_01,24
 ;ld l,NON_Def1,24
 
-「部長、これ、動くと思います？」@
+;「部長、これ、動くと思います？」@
+`"President, you think this thing still works?" `@`
 br
-　武はそのインスタントカメラを掲げながら、@再び積み重ねられた本の魔境を乗り越えて、部員たちのもとへ戻る。\
+;　武はそのインスタントカメラを掲げながら、@再び積み重ねられた本の魔境を乗り越えて、部員たちのもとへ戻る。\
+` Takeshi, hoisting the instant camera, `@` made his way back out of the dark haunt made of old books and returned to where the other club members were. `\
 
-「何だよそれ。@汚いカメラだな。@それ、落ちてたのか？」@
+;「何だよそれ。@汚いカメラだな。@それ、落ちてたのか？」@
+`"What the heck is that? `@`Oh, it's an old beat-up camera. `@` Was it dropped back there?" `@`
 
 ld l,NON_Def3,23
 
-「はい。@一番奥の奥に。@大昔の先輩の忘れ物ですかね？」\
+;「はい。@一番奥の奥に。@大昔の先輩の忘れ物ですかね？」\
+`"Yeah. `@` All the way in the very back. `@` I guess maybe one of our ancient senpais forgot it here?"`\
 
-　部員たちはそのカメラに何か面白いものを撮影したフィルムが残っていないか期待した。@
+;　部員たちはそのカメラに何か面白いものを撮影したフィルムが残っていないか期待した。@
+` The other club members hoped maybe there'd be something interesting photographed on the film left in the camera. `@`
 br
-　しかしこれはインスタントカメラだから撮影したフィルムは残らない。@その場で現像されて排出されるから、過去の貴重な写真が見つかるというわけではないのだ。\
+;　しかしこれはインスタントカメラだから撮影したフィルムは残らない。@その場で現像されて排出されるから、過去の貴重な写真が見つかるというわけではないのだ。\
+` But this was an instant camera, so it didn't retain its used film. `@` After taking a picture it would instantly develop it and spit it out, thus no trace of past pictures could be found. `\
 
-　となれば、このような薄汚れたカメラに好んで触りたがる部員もいるわけがない。@彼らの関心は、誰かが唐突に言い出したダジャレの笑いで掻き消されるのだった。\
+;　となれば、このような薄汚れたカメラに好んで触りたがる部員もいるわけがない。@彼らの関心は、誰かが唐突に言い出したダジャレの笑いで掻き消されるのだった。\
+` And so, the interest the club members had in the dirty old camera flagged. `@` After they all laughed at a suddenly interjected pun their focus on the matter completely vanished. `\
 
 ;ld l,NON_Def1,80
 
 cl l,22
 
-　武はそんな彼らを放っておいて、インスタントカメラに電池を入れてみた。@
+;　武はそんな彼らを放っておいて、インスタントカメラに電池を入れてみた。@
+` Takeshi left them to themselves, and put some new batteries into the instant camera. `@`
 br
-　動くとは期待してない。@それで動かなければ放り出す。@百分の一の確率でも動けばラッキー。@
-　その程度の気持ちで電池を入れてみた。@
+;　動くとは期待してない。@それで動かなければ放り出す。@百分の一の確率でも動けばラッキー。@
+` He wasn't expecting it to work. `@` If it didn't he'd trash it. `@` If, million-to-one, it did, well it'd be his lucky day. `@`
+;　その程度の気持ちで電池を入れてみた。@
+` Those were his feelings as he changed the batteries. `@`
 br
-　……少しいじってみる。@通電を意味するであろうランプが点り、驚く。\
+;　……少しいじってみる。@通電を意味するであろうランプが点り、驚く。\
+` ... he turned it over. `@` To his surprise, the LED light that signified that it was receiving electricity was glowing. `\
 
 bg black,23
 bg shinbun_02,23
@@ -449,9 +465,11 @@ se1 81
 bg white,1
 bg shinbun_02,22
 
-　まだゲラゲラと笑いあっている部員たちにカメラを向け、試しにシャッターを切ってみた。@硬く重い手応え。@……でも、バシャリと心地良い音がした。@
+;　まだゲラゲラと笑いあっている部員たちにカメラを向け、試しにシャッターを切ってみた。@硬く重い手応え。@……でも、バシャリと心地良い音がした。@
+` Takeshi aimed the camera at his club-mates, who were still laughing among themselves, and pushed the shutter. `@` The shutter resisted quite stubbornly. `@` ... but, then it made a happy little snapshot noise. `@`
 br
-　まさか動くとは思っていなかった古カメラが撮影したので、みんなは驚く。@……それはもちろん武も。\
+;　まさか動くとは思っていなかった古カメラが撮影したので、みんなは驚く。@……それはもちろん武も。\
+` Everyone was shocked when the ancient camera managed to take a picture. `@`... of course, Takeshi was too. `\
 
 me1v 20,50
 
@@ -4486,7 +4504,7 @@ ld r,HIG_Def3,80
 
 ld r,HIG_w4,80
 
-「それを慈悲深い私が蘇らせたわ。@陽子は無力な死者の分際で、自らの困難を自ら戦い抜く権利を軽々しく手放して命を捨てた分際で、@私によって復讐の機会が与えられた。@だからこうして、生きている野々宮くんの前に再び現れることができる。」\
+「それを慈悲深い私が蘇らせたわ。@陽子は無力な死者の分際で、自らの困難を自ら戦い抜く権利を軽々しく手放・ｵて命を捨てた分際で、@私によって復讐の機会が与えられた。@だからこうして、生きている野々宮くんの前に再び現れることができる。」\
 
 cl r,0
 
