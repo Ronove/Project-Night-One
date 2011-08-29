@@ -4352,33 +4352,44 @@ bg black,22
 bg kaidan_03u,0
 ld r,KAN_K1,22
 
-　社会とは人が複数いた時に構成されるものだ。@…それが複数でなく、単数になったなら、…それは社会ではない。@
+;　社会とは人が複数いた時に構成されるものだ。@…それが複数でなく、単数になったなら、…それは社会ではない。@
+`　Society is order made by the many. `@`...And without numbers, when there's only one, ...it is a society no more.`@
 br
-　つまり、今この瞬間、この学校という次元は、@社会というモラルから解放され、自分だけの世界になったのだ。\
+;　つまり、今この瞬間、この学校という次元は、@社会というモラルから解放され、自分だけの世界になったのだ。\
+`　Basically, in this moment, in this seperate school dimension, `@`freed from the morals of so called society, the world was his alone.`\
 
-　昼間の学校で廊下を走れば、生徒に走ってはいけないと囃され、@教頭に見つかれば、生徒の模範にならないと叱られもするだろう。@
-　廊下は走ってはいけないという、社会のルールがあるからだ。\
+;　昼間の学校で廊下を走れば、生徒に走ってはいけないと囃され、@教頭に見つかれば、生徒の模範にならないと叱られもするだろう。@
+`　If he ran in the halls during the day, he'd be scolded by his pupils, `@`and if the vice principle saw him, he'd probably be made example of infront of the students.`@
+;　廊下は走ってはいけないという、社会のルールがあるからだ。\
+`　Because not running in the hallway is one of those rules of society.`\
 
 bg black,22
 
-　だが、この深夜の学校は社会から解放されている。@
+;　だが、この深夜の学校は社会から解放されている。@
+`　However, this school in the depth of night has now been set free from society.`@
 br
-　つまり、社会の作ったルールが及ばない、……ここにいる自分だけの世界なのだ。\
+;　つまり、社会の作ったルールが及ばない、……ここにいる自分だけの世界なのだ。\
+`　In other words, the rules created by society no longer reach him, ......this is a world where he alone exists after all.`\
 
 ld c,KAN_K3,22
 
-　だから、こうして思い切り廊下を疾走しても、誰にもはばかられることはない。@
+;　だから、こうして思い切り廊下を疾走しても、誰にもはばかられることはない。@
+`　And even if he ran ahead at full speed, there wasn't anyone to worry about.`@
 br
-　今この瞬間こそ、自分はこの世界の王であり、@社会の構成要素の１つである人間などというちっぽけな存在をはるかに超越しているのだ。\
+;　今この瞬間こそ、自分はこの世界の王であり、@社会の構成要素の１つである人間などというちっぽけな存在をはるかに超越しているのだ。\
+`　And even in this moment, he was the lord of this world. `@`He had transcended his insignificant existence as a single man in the larger society.`\
 
 bg rouka_01,0
 ld c,KAN_K5,22
 
-　そう思えば思うほど、早く毬枝のボタンを見つけなければならないという焦りが消えていき、@自分はさっきまで、何てちっぽけな悩みに焦燥感を感じてきたのかと呆れたくなってしまう。@
+;　そう思えば思うほど、早く毬枝のボタンを見つけなければならないという焦りが消えていき、@自分はさっきまで、何てちっぽけな悩みに焦燥感を感じてきたのかと呆れたくなってしまう。@
+`　The more he thought about it, the more his impatience about quickly finding Marie's button began to fade. `@`He had wanted to feel surprised at how little frustration he felt in his impatience.`@ 
 br
-　自分に角があるなら。@自分に翼があるなら。@今こそ思い切り伸ばしてやろう、広げてやろう！\
+;　自分に角があるなら。@自分に翼があるなら。@今こそ思い切り伸ばしてやろう、広げてやろう！\
+`　If he had horns. `@`If he had wings. `@`Then now more than ever he lengthened and grew them, unfolded and extended them!`\
 
-　最初は心の中でだけ笑っていたが、@今のこの世界ではそれを声に出して笑っても、誰にもはばかられないのだと思い出し、@とうとう金森は、心の底から、そしてあまりに邪悪な声で、@げらげらと笑いながら旧校舎へ向かうのだった……。\
+;　最初は心の中でだけ笑っていたが、@今のこの世界ではそれを声に出して笑っても、誰にもはばかられないのだと思い出し、@とうとう金森は、心の底から、そしてあまりに邪悪な声で、@げらげらと笑いながら旧校舎へ向かうのだった……。\
+`　It had started as a laugh only in his mind, `@`but then he realized even if that laugh escaped his mouth, in this world no one else could hear it. `@`And so Kanamori, in an insanely wicked voice from the depths of his soul, `@`howled with laughter as he headed to the former school building......`\
 
 cl c,2
 bg black,2
@@ -4393,9 +4404,11 @@ bgm1 13
 lsp bgsp,":a;bmp\background\efe\mabuta2.bmp",0,0,200
 bg k_rouka_03,2
 
-　だが、その悪魔的な自信は、旧校舎に一歩踏み入った瞬間に引き、@…そして、凍りつくぐらいに冷酷なまでの慎重さに摩り替わった。@……それもまた、悪魔的なまでに。\
+;　だが、その悪魔的な自信は、旧校舎に一歩踏み入った瞬間に引き、@…そして、凍りつくぐらいに冷酷なまでの慎重さに摩り替わった。@……それもまた、悪魔的なまでに。\
+`　However, the moment he stepped foot into the old school building his demonic confidence retreated. `@`...It was replaced with a discretion as if his ruthlessness had frozen in ice. `@`......It even froze his demonic nature.`\
 
-　旧校舎に明かりをつければ、@ひょっとすると近隣の住民に見られてしまうこともあるかもしれない。@だから電気をつけず、懐中電灯の細い明かりだけを灯した。\
+;　旧校舎に明かりをつければ、@ひょっとすると近隣の住民に見られてしまうこともあるかもしれない。@だから電気をつけず、懐中電灯の細い明かりだけを灯した。\
+`　If he turned the lights on in the old school building, `@`he might be seen by someone in the neighborhood. `@`And so without turning on the lights, he illuminated his path with the thin glow of a flashlight.`\
 
 lsp bgsp,":a;bmp\background\efe\mabuta2.bmp",0,0,100
 print 8
@@ -4404,42 +4417,53 @@ csp -1
 
 wait 1000
 
-　真っ暗な世界を照らし出す弱々しい明かりが、@この廊下の長さが、まるで地平線まで続いているかのような錯覚をさせる。@
+;　真っ暗な世界を照らし出す弱々しい明かりが、@この廊下の長さが、まるで地平線まで続いているかのような錯覚をさせる。@
+`　The frail light illuminated the world of pure darkness. `@`But like an illusion, the length of that hallway seemed to continue all the way into the horizon.`@
 br
-　そして、内側より旧校舎の扉を閉め、念には念を入れて施錠までした。\
+;　そして、内側より旧校舎の扉を閉め、念には念を入れて施錠までした。\
+`　And from the inside all the doors had been closed and locked with the utmost care.`\
 
 textoff
 se1 25
 wait 1000
 
-　これでこの世界は完全に切り取られた。@
-　学校という世界から、さらに切り取られて隔絶されたのだ。@
+;　これでこの世界は完全に切り取られた。@
+`　And with this he had completely severed himself from the world.`@
+;　学校という世界から、さらに切り取られて隔絶されたのだ。@
+`　Torn and made isolated from that world known as school.`@
 br
-　つまり、人の世から、二つ分も遠くに切り離された世界ということ。\
+;　つまり、人の世から、二つ分も遠くに切り離された世界ということ。\
+`　In other words, a second world divided far away from the human world.`\  
 
 bg black,22
 ;locate 0,3
 br
-“……これだけ人の世から遠ざかったなら、…人ならざる世の方が近くになってしまうかもね…？@/
+;“……これだけ人の世から遠ざかったなら、…人ならざる世の方が近くになってしまうかもね…？@/
+`"......If you've gone this far from the human world, ...you'll get closer to the spirit world, won't you...?`@/
 se1 84
-　くすくすくすくすくす……。”\
+;　くすくすくすくすくす……。”\
+`　*giggle*giggle*giggle*......"`\
 
 lsp bgsp,":a;bmp\background\efe\mabuta2.bmp",0,0,100
 bg k_rouka_03,22
 bgcopy
 csp -1
 
-　あの、ボタンの飛んだ保健室の人形の声がまた聞こえた気がした。@
+;　あの、ボタンの飛んだ保健室の人形の声がまた聞こえた気がした。@
+`　He felt as if he heard that voice of the doll whose button fell in the infirmary again.
 br
-　もちろん、人形がしゃべるわけなどないのだから、そんな馬鹿なことはあるわけもない。\
+;　もちろん、人形がしゃべるわけなどないのだから、そんな馬鹿なことはあるわけもない。\
+`　Of course because there was no way a doll could speak, there's no way something that foolish could happen.`\
 
-　……でも、今の旧校舎の世界は、@人形などしゃべるわけがない人の世よりも、二つも遠のいている。\
+;　……でも、今の旧校舎の世界は、@人形などしゃべるわけがない人の世よりも、二つも遠のいている。\
+`　......And yet this world of the former school building `@`and the human world where dolls couldn't speak were two vastly different places.`\
 
 bg black,22
 
 me1v 28,70
 
-　ひょっとして、…今のこの旧校舎の世界では、@人形ガオシャベリヲ始メテモ、問題ガナイ世界ナノデハ……？\
+;　ひょっとして、…今のこの旧校舎の世界では、@人形ガオシャベリヲ始メテモ、問題ガナイ世界ナノデハ……？\
+`　Maybe ...here in this old school, `@`lies a world where even dolls c an be g in to sp e ak......?`\
 
 lsp bgsp,":a;bmp\background\efe\mabuta2.bmp",0,0,100
 bg k_rouka_03,22
@@ -4448,9 +4472,11 @@ csp -1
 
 ld c,KAN_K3,22
 
-「……はは、…は…。@…馬鹿馬鹿しい……。」@
+;「……はは、…は…。@…馬鹿馬鹿しい……。」@
+`"......Ha ha, ...ha... `@`...That's absurd......`@\
 br
-　笑い飛ばしたくて、あえて口に出すが、@さっきまでの安っぽい威勢が嘘のように退いていることを実感するだけだった。\
+;　笑い飛ばしたくて、あえて口に出すが、@さっきまでの安っぽい威勢が嘘のように退いていることを実感するだけだった。\
+`　Wanting to laugh, he dared let it pass his mouth, `@`but all it did was cause his insignificant power to dissipate like a lie.`\
 
 bg black,22
 
