@@ -4476,7 +4476,7 @@ ld c,KAN_K3,22
 `"......Ha ha, ...ha... `@`...That's absurd......`@\
 br
 ;　笑い飛ばしたくて、あえて口に出すが、@さっきまでの安っぽい威勢が嘘のように退いていることを実感するだけだった。\
-`　Wanting to laugh, he dared let it pass his mouth, `@`but all it did was cause his insignificant power to dissipate like a lie.`\
+`　He had wanted to laugh. And after he dared let it pass his mouth, `@`he felt as if the power moments ago had been cast aside like a lie.`\
 
 bg black,22
 
@@ -4488,9 +4488,11 @@ bg k_kaidan_02,22
 bgcopy
 csp -1
 
-　少年時代に心に染み付けられた、@夜の学校は不気味な世界という根も葉もない思い込みが、こんな時にじわじわと効いてきたというのか……。\
+;　少年時代に心に染み付けられた、@夜の学校は不気味な世界という根も葉もない思い込みが、こんな時にじわじわと効いてきたというのか……。\
+`　It was something ingrained in his mind since childhood. `@`He remembered unfounded rumors regarding the strange world of the school at night, and now they began to slowly work their effect on his mind......`\
 
-　もう一度、馬鹿馬鹿しいと口にしようとしたが、@……もう一度口にすると、今度は、胸の中に芽生えつつある、恐れという感情を呼び起こしかねないと思い、@それをぐっと飲み込んだ……。\
+;　もう一度、馬鹿馬鹿しいと口にしようとしたが、@……もう一度口にすると、今度は、胸の中に芽生えつつある、恐れという感情を呼び起こしかねないと思い、@それをぐっと飲み込んだ……。\
+`　He wanted to say how absurd it was again, `@`.......This time as he tried to say the words, they were caught like a lump in his throat. He thought saying them might cause him to remember that emotion known as horror, `@`so he swallowed them back down......`\
 
 bg black,22
 lsp bgsp,":a;bmp\background\efe\mabuta2.bmp",0,0,100
@@ -4498,7 +4500,8 @@ bg k_rouka_01,22
 bgcopy
 csp -1
 
-　……だから、ますますに旧校舎はシンと静まり返り、@自分が否定したその感情をますますに増幅させるのだった……。\
+;　……だから、ますますに旧校舎はシンと静まり返り、@自分が否定したその感情をますますに増幅させるのだった……。\
+`　......Because the former school building was getting quieter and quieter, `@`his desire to deny that emotion amplified more and more......`\
 
 
 
@@ -4534,16 +4537,22 @@ bgcopy
 csp -1
 
 
-　どこかの水道管から水漏れでもしているのだろうか。@
-　……昼間には気付かなかった不気味な音が、トイレを満たしていた。\
+;　どこかの水道管から水漏れでもしているのだろうか。@
+`　There might have been a leak in a water pipe somewhere.`@
+;　……昼間には気付かなかった不気味な音が、トイレを満たしていた。\
+`　......That strange sound he hadn't noticed during the day filled the bathroom.`\
 
-　トイレ内の明かりをつけたいという欲求に駆られたが、それを必死に抑え、@か細い懐中電灯の明かりで照らし出す。\
+;　トイレ内の明かりをつけたいという欲求に駆られたが、それを必死に抑え、@か細い懐中電灯の明かりで照らし出す。\
+`　He had wanted to run and turn on the lights inside, and so he desperately checked for it. `@`He illuminated the area with the thin beam of his flashlight.`\
 
-　……もし、……あの毬枝を殺した個室の扉が閉まっていて、@………そこから、めそめそという、毬枝の泣き声が聞こえてきたら……。\
+;　……もし、……あの毬枝を殺した個室の扉が閉まっていて、@………そこから、めそめそという、毬枝の泣き声が聞こえてきたら……。\
+`　......Perhaps, ......That stall door where I killed Marie is still shut, `@`......And after they heard Marie sobbing mesomeso......`\
 
-　昼間の世界でだったら、失笑してしまうような安っぽい怪談も、@……今のこの世界では、コインを放ったら、時には裏面が上になるというのと同じくらいの確率で、@実際に起こりかねない恐ろしさを秘めている……。@
+;　昼間の世界でだったら、失笑してしまうような安っぽい怪談も、@……今のこの世界では、コインを放ったら、時には裏面が上になるというのと同じくらいの確率で、@実際に起こりかねない恐ろしさを秘めている……。@
+`　In the world in the daytime, this might have been a laughably cheap ghost story, `@`......But in this world, with about as much likelyhood as a coin landing on tails, `@`it held the chance of that horror becoming reality......`\
 br
-　だからこそ、…あの個室を照らすのに、躊躇があった……。\
+;　だからこそ、…あの個室を照らすのに、躊躇があった……。\
+`　Even though all he had to do was shine his light on that bathroom stall, he hesitated......`\
 
 bg black,22
 
@@ -4551,9 +4560,11 @@ lsp bgsp,":a;bmp\background\efe\mabuta2.bmp",0,0,100
 bg toire_07,0
 ld l,KAN_def3a,22
 
-「………………………くそ、…何をびびってんだ…。@怖いのは毬枝の亡霊じゃないさ、落ちているボタンを警察に見つけられることの方じゃないか。@……くだらないさ。@…ふふ……。」@
+;「………………………くそ、…何をびびってんだ…。@怖いのは毬枝の亡霊じゃないさ、落ちているボタンを警察に見つけられることの方じゃないか。@……くだらないさ。@…ふふ……。」@
+`"...............Dammit, ...the hell am I afraid of... `@`Marie's ghost isn't something to be afraid of, it's that fallen button the police might find. `@`......How trivial. `@`...Huhu......"`@
 br
-　意味もなくにやりと笑って自分を奮い立たせながら、@……あの個室に懐中電灯の明かりを向けた。\
+;　意味もなくにやりと笑って自分を奮い立たせながら、@……あの個室に懐中電灯の明かりを向けた。\
+`　While cheering himself up with his meaningless chuckle, `@`......he poked his flashlight into that stall.`\
 
 bg black,23
 lsp bgsp,":a;bmp\background\efe\mabuta2.bmp",0,0,100
@@ -4561,19 +4572,26 @@ bg toire_08,23
 bgcopy
 csp -1
 
-　……………………………。@
+;　……………………………。@
+`　..................`@
 br
-　……当然だ。@
+;　……当然だ。@
+`　......It was like he thought it would be.`@
 br
-　個室は閉まっていたりなどしなかった。@
+;　個室は閉まっていたりなどしなかった。@
+`　The stall hadn't been closed or anything.`@
 br
-　だから無論、中に誰かがいたりなどしないし、@めそめそと泣き声をさせていることなどない……。\
+;　だから無論、中に誰かがいたりなどしないし、@めそめそと泣き声をさせていることなどない……。\
+`　So obviously, there wasn't anyone inside, `@`and there wasn't any crying voice sobbing mesomeso......`\
 
-　……本当に…？@
+;　……本当に…？@
+`　......So that's it...?`@
 br
-　それを確かめるために息を潜めようかとも思ったが、@…それをすることは、せっかく一度は抑えた感情を再び呼び起こすことになりかねない。@
+;　それを確かめるために息を潜めようかとも思ったが、@…それをすることは、せっかく一度は抑えた感情を再び呼び起こすことになりかねない。@
+`　He thought as he confirmed it and sighed in relief. `@`...But in doing so, the fears he had restrained seemed as if they were about to resurface once again.`@
 br
-　だから、それをやることを堪え、とにかく、個室の中を検めることにする……。\
+;　だから、それをやることを堪え、とにかく、個室の中を検めることにする……。\
+`　He resisted, in any case he set out to examine the bathroom stall...`\
 
 ;bg black,25
 ;lsp bgsp,":a;bmp\background\efe\mabuta2.bmp",0,0,100
@@ -4581,9 +4599,11 @@ br
 ;bgcopy
 ;csp -1
 
-　個室の中には、和式の便器がある。@
+;　個室の中には、和式の便器がある。@
+`　In the stall there was a Japanese style squat toilet.`@
 br
-　それを見た瞬間に、…ぞわぞわと毛を逆立てながら、あの日の記憶が蘇っていくのを感じた。\
+;　それを見た瞬間に、…ぞわぞわと毛を逆立てながら、あの日の記憶が蘇っていくのを感じた。\
+`　The moment he saw it, ...his hair stood on end as he felt the memories of that day resurface in his mind.`\
 
 textoff
 bg black,22
@@ -4599,31 +4619,40 @@ bgcopy
 csp -1
 
 
-　……かつてこの個室は、毬枝に数々の非道な行為を強いる背徳の場所だった。@
+;　……かつてこの個室は、毬枝に数々の非道な行為を強いる背徳の場所だった。@
+`　......Once this stall was an immoral place where I performed countless inhuman things to Marie.`@
 br
-　その行為はあれほどにも長い日々に及んだにも関わらず、@……たった一度の出来事である、毬枝を殺したあの日の記憶に完全に塗りつぶされていた。\
+;　その行為はあれほどにも長い日々に及んだにも関わらず、@……たった一度の出来事である、毬枝を殺したあの日の記憶に完全に塗りつぶされていた。\
+`　Even though I remeber those long days when I committed those indescretions, `@`......they were all completely blotted out by my memory of that sole act -- that day when I killed Marie.`\
 
-　……だから、蘇る毬枝の姿は、淫らなそれではなく、@……私が絞殺した後、着衣の乱れも気にせずにだらしなく崩れ落ちた、あの姿なのだ。@
+;　……だから、蘇る毬枝の姿は、淫らなそれではなく、@……私が絞殺した後、着衣の乱れも気にせずにだらしなく崩れ落ちた、あの姿なのだ。@
+`　......Because the Marie that revived in my mind wasn't stimulating, `@`......It was when she carelessly tumbled to the ground unaware of her indecency after I strangled her.
 br
-　その姿を連想した時、心の奥底に、ほんの少しだけ後悔の念も浮かんだ。@だが、すぐにその考えを捨てる。@
+;　その姿を連想した時、心の奥底に、ほんの少しだけ後悔の念も浮かんだ。@だが、すぐにその考えを捨てる。@
+`　When I remembered her body, I felt just a slight sense of regret float from the bottom of my heart. `@`But I quickly disposed of it.`\
 br
-　そのような考えに囚われること自体が、自らの弱さを認めるように思ったからだ。\
+;　そのような考えに囚われること自体が、自らの弱さを認めるように思ったからだ。\
+`　Because if I allowed myself to entertain such thoughts, I thought all I was doing was acknowledging my own weakness.`\
 
 bg black,22
 mono 2
 bg Different_spiral_1a,22
 
-　日々の糧食に対し、@いちいち元になった動物や植物に後悔などしていたら、パンの一枚も食べられやしないだろう。@
+;　日々の糧食に対し、@いちいち元になった動物や植物に後悔などしていたら、パンの一枚も食べられやしないだろう。@
+`　Take daily provisions for instance, `@`if he came to regret every single animal or plant he had eaten before, he wouldn't even be able to eat a slice of bread.`@
 br
-　……今の自分にとって、毬枝はその程度の存在なのさ。\
+;　……今の自分にとって、毬枝はその程度の存在なのさ。\
+`　......And that's my attitude towards Marie.
 
 ;bg Different_spiral_1b,22
 
 ld c,KAN_K1,22
 
-　ヒエラルキーによる断固とした階級の違いがあり、@私はそのピラミッドにおいて毬枝より上位にいた。@……ただそれだけのことなのだ。@
+;　ヒエラルキーによる断固とした階級の違いがあり、@私はそのピラミッドにおいて毬枝より上位にいた。@……ただそれだけのことなのだ。@
+`　We're firmly different levels in the hierarchy. `@`I'm placed in a higher position on the pyramid than Marie. `@`......And that's all there was to it.`@
 br
-　だからこれは当然の結果であり、何も私が後悔する必要などないのだ。@パンを食べて悲しみの涙を零す人間がいないように。\
+;　だからこれは当然の結果であり、何も私が後悔する必要などないのだ。@パンを食べて悲しみの涙を零す人間がいないように。\
+`　Because this was a natural result, and I don't have to regret anything. `@`Just like there are no humans who shed tears of sadness from eating bread.`\
 
 
 bg black,22
@@ -4633,9 +4662,11 @@ bg toire_03,0
 ld c,KAN_def3a,22
 bgcopy
 csp -1
-「……くだらない妄想だ。@……そんなことより、ボタンがないか探さないと。」@
+;「……くだらない妄想だ。@……そんなことより、ボタンがないか探さないと。」@
+`"......Such pitiful daydreams. `@`......Anyway, I have to see if that button is here."`@
 br
-　言葉にして自らに言い聞かせないと、ますます妄想に囚われるような気がした。\
+;　言葉にして自らに言い聞かせないと、ますます妄想に囚われるような気がした。\
+`　I felt as if I didn't scold myself I would be sucked more and more into my delusions.`\
 
 bg black,22
 lsp bgsp,":a;bmp\background\efe\mabuta2.bmp",0,0,100
@@ -4644,11 +4675,14 @@ me1v 16,70
 
 bg k_rouka_03,22
 
-　……すでに、旧校舎という異次元の空気は、私を蝕み始めているのかもしれない。\
+;　……すでに、旧校舎という異次元の空気は、私を蝕み始めているのかもしれない。\
+`　......Already it seemed like the air of this different dimension in the old school started to eat away at me.`\
 
-　早く、この異常な世界から抜け出ないと、何か取り返しの付かないことになると、@子供の頃以来、すっかり錆び付いていた第六感が警告する……。@
+;　早く、この異常な世界から抜け出ないと、何か取り返しの付かないことになると、@子供の頃以来、すっかり錆び付いていた第六感が警告する……。@
+`　I had to quickly pull myself out of this strange world, or else I'd lose the ability to return from it. `@`A sixth sense that had molded since childhood warned me so......`@
 br
-　急いで、……だけれども執拗に丁寧に調べなくては……。\
+;　急いで、……だけれども執拗に丁寧に調べなくては……。\
+`　Quickly, ......And yet I had to relentlessly and carefully search...`\
 
 bg black,42
 lsp bgsp,":a;bmp\background\efe\mabuta2.bmp",0,0,100
