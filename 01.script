@@ -4620,7 +4620,7 @@ csp -1
 
 
 ;　……かつてこの個室は、毬枝に数々の非道な行為を強いる背徳の場所だった。@
-`　......Once this stall was an immoral place where I performed countless inhuman things to Marie.`@
+`　......Once this stall was an immoral place where I performed countless atrocities with Marie.`@
 br
 ;　その行為はあれほどにも長い日々に及んだにも関わらず、@……たった一度の出来事である、毬枝を殺したあの日の記憶に完全に塗りつぶされていた。\
 `　Even though I remeber those long days when I committed those indescretions, `@`......they were all completely blotted out by my memory of that sole act -- that day when I killed Marie.`\
@@ -4682,7 +4682,7 @@ bg k_rouka_03,22
 `　I had to quickly pull myself out of this strange world, or else I'd lose the ability to return from it. `@`A sixth sense that had molded since childhood warned me so......`@
 br
 ;　急いで、……だけれども執拗に丁寧に調べなくては……。\
-`　Quickly, ......And yet I had to relentlessly and carefully search...`\
+`　I must hurry, ......And yet I had to relentlessly and carefully search...`\
 
 bg black,42
 lsp bgsp,":a;bmp\background\efe\mabuta2.bmp",0,0,100
@@ -4690,15 +4690,19 @@ bg toire_08,22
 bgcopy
 csp -1
 
-　私は、トイレだということも気にせずに、床に這いつくばって、舐めるように調べた。@
+;　私は、トイレだということも気にせずに、床に這いつくばって、舐めるように調べた。@
+`　I didn't care if it was a toilet stall, I crawled down on all fours and searched as if I were licking the floor.`@
 br
-　尿がこびり付いて変色し、永遠に汚臭を放ち続ける床の上に、@……毬枝のボタンが落ちているのを見つけることはできなかった。\
+;　尿がこびり付いて変色し、永遠に汚臭を放ち続ける床の上に、@……毬枝のボタンが落ちているのを見つけることはできなかった。\
+`　On top of that floor stained the color of urine that eternally released its foul oder, `@`......I couldn't the button that fell off Marie.`\
 
 bg black,22
 
-　……なら、ここにはないのかと普通なら思うかもしれない。@
+;　……なら、ここにはないのかと普通なら思うかもしれない。@
+`　......Under normal circumstances I might have thought that meant it wasn't here.`@
 br
-　でも、なぜか確信していた。@根拠などない。@……間違いなく、ボタンはここにあるのだ。@ここに！　絶対…！\
+;　でも、なぜか確信していた。@根拠などない。@……間違いなく、ボタンはここにあるのだ。@ここに！　絶対…！\
+`　But somehow I was convinced. `@`I had no reason to think so. `@`......No doubt, the button is here. `@`HERE!　IT HAS TO BE...!`\
 
 lsp bgsp,":a;bmp\background\efe\mabuta2.bmp",0,0,100
 bg toire_08,22
@@ -4708,13 +4712,17 @@ csp -1
 ld l,KAN_K4,26
 
 
-　床ではないのか…？@　死角があるのか…？@
+;　床ではないのか…？@　死角があるのか…？@
+`　It's not on the floor...? `@`　Did I miss a spot...?`@`
 br
-　……毬枝を絞殺した時点では、個室は閉ざされていた。@今は床に這いつくばるため、個室を開いている。\
+;　……毬枝を絞殺した時点では、個室は閉ざされていた。@今は床に這いつくばるため、個室を開いている。\
+`　......The moment I strangled Marie to death the stall door was closed. `@`Now the door was open so I could crawl around the stall.`\
 
-　扉の内側に何か。@…あるいは扉の裏側に何か。@
+;　扉の内側に何か。@…あるいは扉の裏側に何か。@
+`　There might be something on the inside of the door? `@`...Or possibly the outside?`@
 br
-　ボタンがそんなところにあるわけがないと思いつつも、……あの日と同じ個室内を再現しないことには、その妄想も振り払えなかった。\
+;　ボタンがそんなところにあるわけがないと思いつつも、……あの日と同じ個室内を再現しないことには、その妄想も振り払えなかった。\
+`　Even though I thought there was no way the button could be in such a place, ...I thought that if I didn't recreate the same stall from that day, I wouldn't be able to free myself from my delusions.`\
 
 bg black,26
 lsp bgsp,":a;bmp\background\efe\mabuta2.bmp",0,0,100
@@ -4722,15 +4730,20 @@ bg toire_04,26
 bgcopy
 csp -1
 
-　なので一度立ち上がり、個室に入って扉を閉めた。@鍵を掛けないと自然に開いてしまうため、鍵も掛ける。@
+;　なので一度立ち上がり、個室に入って扉を閉めた。@鍵を掛けないと自然に開いてしまうため、鍵も掛ける。@
+`　So I carried out the first task in recreating it. I shut the door from the inside. `@`Because it would naturally swing open if it wasn't locked, I locked the stall door.`@
 br
-　さっそく閉めた扉の裏側を見るが、もちろんボタンが張り付いていたなどということはない……。@
+;　さっそく閉めた扉の裏側を見るが、もちろんボタンが張り付いていたなどということはない……。@
+`　I caught a quick glimpse of the opposite side of the shut door, but the button hadn't stuck to it or anything like that......`@
 br
-　ではボタンはどこに……。\
+;　ではボタンはどこに……。\
+`　Then where is the button......`\
 
-　毬枝はここで死んだ。@ここで殺した。@そしてここに崩れ落ちた。@その時にボタンが千切れたのだ。@
+;　毬枝はここで死んだ。@ここで殺した。@そしてここに崩れ落ちた。@その時にボタンが千切れたのだ。@
+`　Marie died here. `@`She was killed here. `@`And it was here that she fell. `@`It was then that the button was torn off.`@
 br
-　見たわけじゃないのになぜかわかる。@そうに違いないのだ…！\
+;　見たわけじゃないのになぜかわかる。@そうに違いないのだ…！\
+`　I hadn't seen it, but somehow I knew. `@`It must have been then...!`\
 
 bg black,22
 
@@ -4761,19 +4774,24 @@ csp -1
 
 ld c,KAN_K4,26
 
-「………………………………！」@
+;「………………………………！」@
+`"..................!"`@
 br
-　……その時、懐中電灯の明かりが、ぎらりと反射した。@
-　トイレットペーパーの上に被さっている銀色の、ペーパーホルダーだった。\
+;　……その時、懐中電灯の明かりが、ぎらりと反射した。@
+`　......Then the flashlight's beam reflected with a flash.`@
+;　トイレットペーパーの上に被さっている銀色の、ペーパーホルダーだった。\
+`　Covering the top of the toilet paper was a silver colored dispenser.`\
 
 lsp bgsp,":a;bmp\background\efe\mabuta2.bmp",0,0,100
 bg toire_06b,22
 bgcopy
 csp -1
 
-　生徒の乱暴な使用により、それはややひしゃげていたが、@トイレットペーパーを都合のいい大きさに切る程度の役割は、まだ十分に果たせるようだった。@
+;　生徒の乱暴な使用により、それはややひしゃげていたが、@トイレットペーパーを都合のいい大きさに切る程度の役割は、まだ十分に果たせるようだった。@
+`　From its rough use by students it had been squashed somewhat, `@`but it seemed like it could still fufill its role in conveniently cutting large sheets of toilet paper.`@
 br
-　……その、…ペーパーホルダーの上に、………白い雫のようなものが一粒。\
+;　……その、…ペーパーホルダーの上に、………白い雫のようなものが一粒。\
+`　......And, ...above that paper dispenser, ......there was a pebble that looked like a white teardrop.`\ 
 
 textoff
 
@@ -4786,27 +4804,38 @@ ld c,KAN_K2,80
 
 bgm1 12
 
-「あった…。@………………これだ……。」@
+;「あった…。@………………これだ……。」@
+`"It's here... `@`............This is it..."`@
 br
-　それをそっと人差し指と親指で摘み上げる…。@
-　間違いなかった。@……これだ。@このボタンだ…。@これこそ、毬枝の右腕の袖から千切れ落ちたボタンなのだ……。\
+;　それをそっと人差し指と親指で摘み上げる…。@
+`　I slowly took it between my thumb and forefinger...`@
+;　間違いなかった。@……これだ。@このボタンだ…。@これこそ、毬枝の右腕の袖から千切れ落ちたボタンなのだ……。\
+`　There was no mistake. `@`...This is it. `@`It's that button... `@`It was the very button that had been torn from Marie's right sleeve......`\
 
 ld c,KAN_K3,22
 
-　あの日、毬枝は息の根を止められ、脱力した瞬間に、@私の両腕に抗っていたその手を、ストンと下に落とした。@
-　その拍子に、ペーパーホルダーに袖のボタンが引っ掛かるかして千切れて、@……ボタンがここに乗っかったのだ。\
+;　あの日、毬枝は息の根を止められ、脱力した瞬間に、@私の両腕に抗っていたその手を、ストンと下に落とした。@
+`　That day Marie had the life squeezed out of her. And when she was exhausted, `@`those hands of hers that faught against my choking arms dropped with a thump.`@
+;　その拍子に、ペーパーホルダーに袖のボタンが引っ掛かるかして千切れて、@……ボタンがここに乗っかったのだ。\
+`　And then that button somehow caught and tore off on the paper dispenser, `@`......that's how the button got here.`\
 
 ld c,KAN_K5,22
 
-　……ふふ、……ははははははは。@…見つけた……見つけた……。@
+;　……ふふ、……ははははははは。@…見つけた……見つけた……。@
+`　......Huhu, ......Hahahahahahaha. `@`...I found it......I found it......`@
 br
-　大声で笑いたくなるのを懸命に堪える。@
-　まずはこのボタンを永遠に処理する方が先だった。@
-　難しく考える必要はない。@こうして便器に落として、流してしまえばいいだけなのだ。\
+;　大声で笑いたくなるのを懸命に堪える。@
+`　I desperately resisted the urge to wail in laughter.`@
+;　まずはこのボタンを永遠に処理する方が先だった。@
+`　I could think about this button as long as I wanted later.`@
+;　難しく考える必要はない。@こうして便器に落として、流してしまえばいいだけなのだ。\
+`　There's no need to overthink this. `@`All I need to do is just drop it in the toilet and flush it like so.`\
 
-　水を流すと、私を少なからず恐怖させてきた静寂の世界が、その轟音で引き裂かれる。@
+;　水を流すと、私を少なからず恐怖させてきた静寂の世界が、その轟音で引き裂かれる。@
+`　As the water flushed, the world of silence that had come to greatly haunt me was torn apart by its roaring sound.`@
 br
-　そしてあっという間にボタンを飲み込み、永遠に地上からその姿を消し去ってしまった……。\
+;　そしてあっという間にボタンを飲み込み、永遠に地上からその姿を消し去ってしまった……。\
+`　And in an instant it swallowed up the button, and its form had forever disappeared from the world above......`\
 
 bg black,22
 lsp bgsp,":a;bmp\background\efe\mabuta2.bmp",0,0,100
@@ -4814,19 +4843,25 @@ bg toire_04,22
 bgcopy
 csp -1
 
-　あの人形の言う通り、ボタンは蒸発しないから、この世に残り続けはするだろう。@
-　だが、下水道管に入り込んだ小さなボタン一粒など、絶対に探し出せるものか！@　砂漠のビーズを探すより困難に決まってる！\
+;　あの人形の言う通り、ボタンは蒸発しないから、この世に残り続けはするだろう。@
+`　Just as that doll said, because that button can't disappear it'll probably remain in this word.`@
+;　だが、下水道管に入り込んだ小さなボタン一粒など、絶対に探し出せるものか！@　砂漠のビーズを探すより困難に決まってる！\
+`　But no one could find something like a tiny button in a sewar! `@`It would be harder than finding a bead in a desert!`\
 
-　だから事実上、これで永遠に葬ったも同然なのだ。@
+;　だから事実上、これで永遠に葬ったも同然なのだ。@
+`　And so this was the same as sending it into the eternal abyss.`@
 br
-　つまりこれで、私の殺人の痕跡は完全に抹消された…！\
+;　つまりこれで、私の殺人の痕跡は完全に抹消された…！\
+`　Basically this perfectly erases any trace of the murder I committed...!`\
 
 bg black,0
 ld c,KAN_K5,22
 
-　……あの日から心の中に居座り続けていた違和感が、じわりと解けるのを感じる。@
+;　……あの日から心の中に居座り続けていた違和感が、じわりと解けるのを感じる。@
+`　......I felt the unease from that day that remained in my mind slowly clear away.`@
 br
-　そして、静寂を引き裂いていた排水の轟音が少しずつ静まっていくに従い、@私はさっき一度は達していた、人間を超えた者の境地を再び取り戻していく。\
+;　そして、静寂を引き裂いていた排水の轟音が少しずつ静まっていくに従い、@私はさっき一度は達していた、人間を超えた者の境地を再び取り戻していく。\
+`　And as the roaring flushing sound that had torn the silence began to slowly quiet down, `@` I began to rise to where I was once before -- I once again began to take back my place as a being that surpassed humans.`\
 
 me1v 17,70
 
@@ -4836,16 +4871,21 @@ bgcopy
 csp -1
 
 
-　もう、笑いを抑えるのだけでも苦しい。@今すぐこの場で大声で笑い出したい気分だった。@
+;　もう、笑いを抑えるのだけでも苦しい。@今すぐこの場で大声で笑い出したい気分だった。@
+`　Now even holding back laughter was painful. `@`I felt like I was going to burst out laughing right there.`@
 br
-　いや、笑おうじゃないか。@ここは人の世から２つも隔絶された別の世だ。@そして自分しかいない、自分だけの世界じゃないか…！\
+;　いや、笑おうじゃないか。@ここは人の世から２つも隔絶された別の世だ。@そして自分しかいない、自分だけの世界じゃないか…！\
+`　No, shouldn't I laugh? `@`This is a world seperate from the human world. `@`And so I am alone. Isn't this world mine alone...?!`\
 
 me2v 28,70
 
-　だからもう遠慮はしなかった。@
-　自らの笑い声で静寂を切り裂き、再び自分が人間を超えた存在であることを顕示してやった。@
+;　だからもう遠慮はしなかった。@
+`　And so I didn't hold back.`@
+;　自らの笑い声で静寂を切り裂き、再び自分が人間を超えた存在であることを顕示してやった。@
+`　My laughter cut through the silence, and once again I was exposed my existence that was more than human.`@
 br
-　最高の気分だった。@これまでの人生で、これほど痛快に笑ったことなど一度もないだろう。\
+;　最高の気分だった。@これまでの人生で、これほど痛快に笑ったことなど一度もないだろう。\
+`　It was the greatest feeling. `@`Until now I had never laughed with such joy once in all my life.`\
 
 bg black,22
 lsp bgsp,":a;bmp\background\efe\mabuta2.bmp",0,0,100
@@ -4854,9 +4894,11 @@ bgcopy
 csp -1
 ld c,KAN_K3,26
 
-　そうして、存分に笑いを楽しんだ後、@笑いすぎによる軽い酸欠と腹痛を楽しみ、私は個室を出ることにした。@
+;　そうして、存分に笑いを楽しんだ後、@笑いすぎによる軽い酸欠と腹痛を楽しみ、私は個室を出ることにした。@
+`　And after laughing to my heart's content `@`-- after I had laughed so much I was in pain from the lack of oxygen I needed to breathe, I set out to leave the bathroom stall.`@
 br
-　そして、個室の鍵に手を掛ける。\
+;　そして、個室の鍵に手を掛ける。\
+`　I went to unlatch the lock.`\
 
 
 
@@ -4881,18 +4923,22 @@ bgcopy
 csp -1
 ld r,KAN_K4,2
 
-　その時、…鍵に触れた指が、静電気で弾かれるような感覚を受けた。\
+;　その時、…鍵に触れた指が、静電気で弾かれるような感覚を受けた。\
+`　At that moment, ...my finger that touched the lock repelled as if it had been struck by static electricity.`\
 
-　いや、正しい言い方ではない。@
+;　いや、正しい言い方ではない。@
+`　No, that's not the right way to put it.`@
 br
-　触れた指が静電気に弾かれたのではなく、@……鍵に触れた時、私が静電気で弾かれたような感覚を受けた、というのが正しい…。@なぜなら………、\
+;　触れた指が静電気に弾かれたのではなく、@……鍵に触れた時、私が静電気で弾かれたような感覚を受けた、というのが正しい…。@なぜなら………、\
+`　It wasn't as if my finger had been hit by static electricity, `@`......It felt as if when touching it, it was better to say I had been struck with static electricity... `@`Because.........,`\
 
 bg black,22
 
 E_A
 bgm1 13
 
-　扉の向こうから、めそめそという少女の泣き声が聞こえてきたから……。\
+;　扉の向こうから、めそめそという少女の泣き声が聞こえてきたから……。\
+`　from the other side of the door, I heard the voice of a girl sobbing mesomeso......`\
 
 ;bg "BMP\background\efe\red1.bmp",1
 ;lsp bgsp,":a;bmp\background\efe\mabuta2.bmp",0,0,100
@@ -4901,43 +4947,55 @@ bgm1 13
 ;bgcopy
 ;csp -1
 
-　全身の毛穴が逆立つような感覚が、@ものすごい勢いで足元から上って頭の天辺まで突き抜けるのを感じた。@
+;　全身の毛穴が逆立つような感覚が、@ものすごい勢いで足元から上って頭の天辺まで突き抜けるのを感じた。@
+`　All the hairs on my body stood up, `@`and I felt a huge presence penetrate me from head to toe.`@
 br
-　そして、息を殺し、……その“めそめそ”が、幻聴であることを確認しようとする。\
+;　そして、息を殺し、……その“めそめそ”が、幻聴であることを確認しようとする。\
+`　And so I stopped breathing, ......As if I were checking if that "Mesomeso" was an auditory illusion.`\
 
 me1v 17,70
 
 mono 2
 bg Different_spiral_1a,22
 
-　でも本当なら、そんなことをして確認をする必要はない。@
+;　でも本当なら、そんなことをして確認をする必要はない。@
+`　But if it was real, there was no need for that kind of confirmation.`@
 br
-　だって、この旧校舎に入るにはあの入り口しかない。@そしてその入り口は入ってすぐに施錠した。\
+;　だって、この旧校舎に入るにはあの入り口しかない。@そしてその入り口は入ってすぐに施錠した。\
+`　Because there was only one entrance to the old school building, `@`and after I entered I quickly locked it.`\
 
 ;bg Different_spiral_1b,22
 
-　だから誰も入ってこれるはずがない。@こんな時間まで生徒が残って隠れているはずもない。@だからつまり、そこに誰かがいるなんてアッテハイケナイノダ…！！！\
+;　だから誰も入ってこれるはずがない。@こんな時間まで生徒が残って隠れているはずもない。@だからつまり、そこに誰かがいるなんてアッテハイケナイノダ…！！！\
+`　There's no way someone could come in here. `@`There's no way there were any students hiding out at this hour. `@`And there's no way that s o m e o ne  i s  o u t  t h e r e...!!!`\
 
 bg black,22
 mono 0
 
-　だからだからつまり、息を潜めて確認するなんて行為自体がすでに、@そこにアッテハイケナイコトが起こっていることを認めること……。@
+;　だからだからつまり、息を潜めて確認するなんて行為自体がすでに、@そこにアッテハイケナイコトが起こっていることを認めること……。@
+`　Because, because, basically hiding my breathing and checking was in itself, `@`confirmation that something w a s  h a p p e n i n g......`@
 br
-　でも、それをしなければならないくらいに、…今、めそめそははっきりと聞こえたんだッ？！\
+;　でも、それをしなければならないくらいに、…今、めそめそははっきりと聞こえたんだッ？！\
+`　But because I had to do that, ...does that mean that I clearly heard that 'mesomeso' just now~?!`\
 
 ld c,KAN_K4,22
 
-　……心を落ち着けろ、………そして、耳を…………。@
+;　……心を落ち着けろ、………そして、耳を…………。@
+`　......I've got to calm down, ......Check my ears.........`@
 br
-　だが、………扉の向こうの、すすり泣く声の気配が、…消えない。…去らない……。\
+;　だが、………扉の向こうの、すすり泣く声の気配が、…消えない。…去らない……。\
+`　But ......that presence of that sobbing cry from the other side of the door, ...it won't go away. ...it won't leave......`\
 
 me2v 28,70
 
-　気のせいだ。@幻聴だ。@精神が高ぶり過ぎて、ありもしないものが聞こえているんだ…。@そうさ、こいつは俺が人間だった頃の名残、良心の呵責ってヤツに違いない…。@
+;　気のせいだ。@幻聴だ。@精神が高ぶり過ぎて、ありもしないものが聞こえているんだ…。@そうさ、こいつは俺が人間だった頃の名残、良心の呵責ってヤツに違いない…。@
+`　I'm just hearing things. `@`It's a hallucination. `@`I got too excited and went and heard something that isn't there... `@`That's it. This has to be remnants of my humanity -- this has to be those damn pangs of guilt.`\
 br
-　俺はきっと、殺害現場に舞い戻り、毬枝を殺したことに後悔を感じて、@こうして毬枝の亡霊を自らの内側に作り出してしまってるんだ。\
+;　俺はきっと、殺害現場に舞い戻り、毬枝を殺したことに後悔を感じて、@こうして毬枝の亡霊を自らの内側に作り出してしまってるんだ。\
+`　Surely, since I came back to place where I murdered her, I must be feeling guilt from killing Marie, `@`and I must be hallucinating Marie's ghost inside my mind.`\
 
-　つまり、そこに居て、俺を責めてほしいという、良心の甘え。@つまり所詮は、\
+;　つまり、そこに居て、俺を責めてほしいという、良心の甘え。@つまり所詮は、\
+`　In other words, what's out there is my desire to blame myself, my good conscience. `@`After all, `\
 
 bg black,22
 fede 0,1000
@@ -4951,15 +5009,19 @@ csp -1
 bgm1 10
 
 br
-「………そこの人、……どうか哀れな私の話を聞いてください……。」@
+;「………そこの人、……どうか哀れな私の話を聞いてください……。」@
+`"......You there, ......Please listen to my pitiful story......"`@
 br
-　……ッッ！！！！\
+;　……ッッ！！！！\
+`　......!!!!`\
 
 ld l,KAN_K4,26
 
-　もう、内なる声とか幻聴とか、そんな水準じゃなかった。@…それは言葉となって耳に届いた。@
+;　もう、内なる声とか幻聴とか、そんな水準じゃなかった。@…それは言葉となって耳に届いた。@
+`　It was no longer a voice in my head or a hallucination. `@`...They were words that reached my ears.`@
 br
-　そしてその声は、……毬枝以外の何者でもないのだ…。\
+;　そしてその声は、……毬枝以外の何者でもないのだ…。\
+`　And that voice. ......It was none other than Marie's...`\
 
 bg black,23
 lsp bgsp,":a;bmp\background\efe\mabuta2.bmp",0,0,100
@@ -4968,21 +5030,27 @@ bgcopy
 csp -1
 ld r,KAN_K4,23
 
-「ま、………、ままま、………毬枝なのか、……毬枝なのかッ！！！」@
-「………めそめそ……、……めそめそ、………ひっく……！」\
+;「ま、………、ままま、………毬枝なのか、……毬枝なのかッ！！！」@
+`"Ma, ......, Ma ma ma, ......Marie?, ......Is that Marieee??!!!"`@
+;「………めそめそ……、……めそめそ、………ひっく……！」\
+`"......Mesomeso......, ......mesomeso, ......Hic......!"`\
 
 ;cl c,0
 ;mld c,KAN_Def1,80
 
-　相手は泣いてるだけだった。@でも、しゃくりあげるような声が、自分の問い掛けに答えたものは明白だった…。@
+;　相手は泣いてるだけだった。@でも、しゃくりあげるような声が、自分の問い掛けに答えたものは明白だった…。@
+`　Whoever it was only cried. `@`But that voice heaving with sobs answered my question...`@
 br
-　だが、毬枝をあの日、確かに殺して、死体を便槽に放り込んだ。@だからここにいる毬枝が生きた存在のわけがない。\
+;　だが、毬枝をあの日、確かに殺して、死体を便槽に放り込んだ。@だからここにいる毬枝が生きた存在のわけがない。\
+`　But, on that die, surely I killed Marie, and tossed her corpse in a septic tank. `@`There's no way Marie could be here -- no way she could still be alive.`\
 
 bg black,22
 
-　……この時の金森は、深夜の旧校舎という異常な世界にあり、@……人ならざる世の理を無意識の内に理解していた。@
+;　……この時の金森は、深夜の旧校舎という異常な世界にあり、@……人ならざる世の理を無意識の内に理解していた。@
+`　......At this time Kanamori was in the strange world of the former school building in the depth of night, `@`......He unconciously came to realize the logic of the spirit world.`@
 br
-　だから、殺したはずだからいないという、人の世の理に囚われず、@……素直に、扉の向こうにいる、死んだ毬枝という存在を理解できた。\
+;　だから、殺したはずだからいないという、人の世の理に囚われず、@……素直に、扉の向こうにいる、死んだ毬枝という存在を理解できた。\
+`　Because without being limited to the reasoning of the human world where something killed no longer exists, `@`.....
 
 ;mcl c,0
 ;bg "BMP\background\efe\red1.bmp",1
