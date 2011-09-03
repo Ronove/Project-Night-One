@@ -5047,18 +5047,20 @@ br
 bg black,22
 
 ;　……この時の金森は、深夜の旧校舎という異常な世界にあり、@……人ならざる世の理を無意識の内に理解していた。@
-`　......At this time Kanamori was in the strange world of the former school building in the depth of night, `@`......He unconciously came to realize the logic of the spirit world.`@
+`　......Now Kanamori was in the strange world of the former school building in the depth of night. `@`......He unconciously came to realize the logic of the spirit world.`@
 br
 ;　だから、殺したはずだからいないという、人の世の理に囚われず、@……素直に、扉の向こうにいる、死んだ毬枝という存在を理解できた。\
-`　Because without being limited to the reasoning of the human world where something killed no longer exists, `@`.....
+`　Because without being limited to the reasoning of the human world where something killed no longer exists, `@`.....he understood that on the other side of the door, the once dead Marie was alive.`\
 
 ;mcl c,0
 ;bg "BMP\background\efe\red1.bmp",1
 ;bg black,22
 
-　理解できた……？@
+;　理解できた……？@
+`　He understood......?`@
 br
-　それはつまり、死んだはずの毬枝の亡霊がそこにいるという、アッテハナラナイ事実の理解……。\
+;　それはつまり、死んだはずの毬枝の亡霊がそこにいるという、アッテハナラナイ事実の理解……。\
+`　In other words, dead Marie's ghost was out there -- he understood the truth t h a t  c a n n o t  e x i s t......`\ 
 
 bg black,22
 lsp bgsp,":a;bmp\background\efe\mabuta2.bmp",0,0,100
@@ -5069,43 +5071,55 @@ bg toire_04,22
 bgcopy
 csp -1
 
-　扉の向こうの泣き声は、@……いや、…毬枝の亡霊は哀れに泣き続けながら、少しでも責めようと言葉を紡ぐ……。\
+;　扉の向こうの泣き声は、@……いや、…毬枝の亡霊は哀れに泣き続けながら、少しでも責めようと言葉を紡ぐ……。\
+`　That crying voice from the other side of the door, `@`......No, ...while Marie's ghost continued its pitiful cries, she began to condemn him with her words......`\
 
-「…………あれだけ酷いことを強いて……、………………その最後が殺すことなんて、@…あんまりに酷いです……。@…………ううぅうぅぅぅ……。」\
+;「…………あれだけ酷いことを強いて……、………………その最後が殺すことなんて、@…あんまりに酷いです……。@…………ううぅうぅぅぅ……。」\
+`".........You forced me to do horrible things......, .........And then you killed me in the end, `@`...that was cruelest of all...... `@`.........UUuUuuu......"`\
 
 ld r,KAN_K2,22
 ;ld r,KAN_Def1,80
 
-「こ、……殺すのは当然さ。@……馬鹿かい君は…！@　あれだけのことをしちまったんだ！@　警察に知られちゃまずいと思うのは当然だろ！！@　君を生かして帰せば、その足で交番に駆け込んだはずさ。@そうだろ？！」\
+;「こ、……殺すのは当然さ。@……馬鹿かい君は…！@　あれだけのことをしちまったんだ！@　警察に知られちゃまずいと思うのは当然だろ！！@　君を生かして帰せば、その足で交番に駆け込んだはずさ。@そうだろ？！」\
+`"K, ......killing you was the right thing to do.`@`　...Are you stupid...?!`@`　That's the only thing I did! `@`If you think about if the police found out, it was the right thing to do!!`@`　If I had let you live, you would have probably ran to a police box with those legs of yours. `@`Isn't that right?!"`\
 
 
 
-「……そんなこと、……しなかったです……。@だって、……私がしゃべったら先生、…あの恥ずかしいビデオテープをばら撒くって……。」\
+;「……そんなこと、……しなかったです……。@だって、……私がしゃべったら先生、…あの恥ずかしいビデオテープをばら撒くって……。」\
+`"......I wouldn't, ......do something like that...... `@`After all, ......If I talked then Sensei would, ...distribute that embarassing video tape......"`\
 
 ld r,KAN_K3,80
 
-「ビデオテープだってぇ？！@　はっはっはっは、わあっはっはっはっはっは！！@　あんなもんが脅迫になると、君は本気で思ってたのかい。@ははははは、だからその程度の存在なのさ。@…あははははははははは！」\
+;「ビデオテープだってぇ？！@　はっはっはっは、わあっはっはっはっはっは！！@　あんなもんが脅迫になると、君は本気で思ってたのかい。@ははははは、だからその程度の存在なのさ。@…あははははははははは！」\
+`"Video tape huhhh?! `@`　Hahhahhahhah, Wahhahhahhahhahha!!`@`　Did you really think something like that could be a threat to you? `@`Hahahaha, that's about how useful it was. `@`...Ahahahahahahahaha!"`\
 
-「……だって、…だって……。@…私だって、…普通の生活に戻りたかったです…。@だから、…その生活に戻らせてくれるなら、@……先生のことを内緒にする約束、ちゃんと守るつもりだったんです……。」\
+;「……だって、…だって……。@…私だって、…普通の生活に戻りたかったです…。@だから、…その生活に戻らせてくれるなら、@……先生のことを内緒にする約束、ちゃんと守るつもりだったんです……。」\
+`"......But, ...but...... `@`...But I, ...wanted to return to a normal life... `@`Because, ...if you let me return to that normal life, `@`......I would keep what you did a secret, and I would have protected it......"`\
 
 cl r,0
 ld c,KAN_K2,24
 
-「ははん！@　口でなら何とでも言えるさ。@君はそうは言いながら、あの日、下校したら警察へ行くつもりだった。@そうだろう？！@　警察に相談すれば何だってすぐ解決するさ。@相談しても埒が明かないってのはテレビドラマの中だけだ！@　泣いてる女の子の訴えを無視できる警官なんているもんか！」\
+;「ははん！@　口でなら何とでも言えるさ。@君はそうは言いながら、あの日、下校したら警察へ行くつもりだった。@そうだろう？！@　警察に相談すれば何だってすぐ解決するさ。@相談しても埒が明かないってのはテレビドラマの中だけだ！@　泣いてる女の子の訴えを無視できる警官なんているもんか！」\
+`"Hoho! `@`You could say anything with that mouth of yours you see. `@`You would have said that, and then that day after school you would have gone to the police. `@`Isn't that right?! `@`And if you asked the police for help you would have done as they said and settled things immediately. `@`The only place where nothing changes when people ask for help are in TV Dramas!"`\
 
-「………でも、……ビデオテープを先生が持ってる……。@…約束を破ったら……、あのテープを先生が……。」\
+;「………でも、……ビデオテープを先生が持ってる……。@…約束を破ったら……、あのテープを先生が……。」\
+`".........But, ......Sensei has the video tape...... `@`...If I broke that promise......, then sensei would......"`\
 
 ld c,KAN_K5,80
 
-「はは、ははは！@/
+;「はは、ははは！@/
+`"HaHa, HAHAHA!`@/
 ld c,KAN_I1,80
-　亡霊になっても君ってヤツは…！@　哀れだね、本当に哀れだよ！@　あんなテープ、君が警察に通報することと比べたら何の脅迫にもなるものか！@　警察だって馬鹿じゃないさ、そのテープがばら撒かれる前に私を逮捕しようとするさ。@私はダビング機に触れることすらできずに逮捕されて、@自宅は踏み込まれテープも機材も全て証拠品として押収さ！！@　あんなテープが脅迫のタネになるなんて死んだ後まで信じてる、君のおめでたさには、はははははははは！！@　死後にまで笑わされるよ。@そんな程度の浅はかさだから、その程度の末路なのさ。@はははは、はははははははは！」\
+;　亡霊になっても君ってヤツは…！@　哀れだね、本当に哀れだよ！@　あんなテープ、君が警察に通報することと比べたら何の脅迫にもなるものか！@　警察だって馬鹿じゃないさ、そのテープがばら撒かれる前に私を逮捕しようとするさ。@私はダビング機に触れることすらできずに逮捕されて、@自宅は踏み込まれテープも機材も全て証拠品として押収さ！！@　あんなテープが脅迫のタネになるなんて死んだ後まで信じてる、君のおめでたさには、はははははははは！！@　死後にまで笑わされるよ。@そんな程度の浅はかさだから、その程度の末路なのさ。@はははは、はははははははは！」\
+`　Even as a ghost you're so ... ! `@`　Pathetic, truly pathetic! `@`Did you really think that kind of tape would compare to tipping off the police?!`@`　The police aren't stupid you know. Before I'd release that tape they'd arrest me, `@`I'd be arrested before I could edit myself out, `@`and they'd go in my house and seize the tapes, my equipment -- everything would be evidence!!`@`　If you truly believed that tape was blackmail material even after your death, then I congratulate you! HahahaHAHAHAHA!!`@`　Even in death you make me laugh. `@`That's how stupid you were, even in your last days. `@`hahaHAHAHA, HAHAHAHA, HAHAHAHAHAHA!"`\
 
 bg black,22
 
-「……………そんな、……………そんな…………。」@
+;「……………そんな、……………そんな…………。」@
+`"............It can't be, ............It can't be........"`@
 br
-　毬枝のすすり泣きが、一層、悲しい色を帯びる…。\
+;　毬枝のすすり泣きが、一層、悲しい色を帯びる…。\
+`　Marie's sobbing was tinted with even more sorrow...`\
 
 fede 10,1000
 E_MA
@@ -5116,14 +5130,16 @@ bg toire_02,22
 bgcopy
 csp -1
 
-「この程度のことが脅迫になると信じてた君のおめでたさには心底呆れるよ。@どこの漫画の見過ぎだか！@　勝手に下らない知識を吸収して、独りよがりに世界観を構築していった浅はかさのツケさ！！@　相談できる友達が１人でもいたなら、それが間抜けな勘違いだとすぐに気付けたろう。@でも君は、下らないコンプレックスを理由に友達をまるで作ろうとしなかった。」\
+;「この程度のことが脅迫になると信じてた君のおめでたさには心底呆れるよ。@どこの漫画の見過ぎだか！@　勝手に下らない知識を吸収して、独りよがりに世界観を構築していった浅はかさのツケさ！！@　相談できる友達が１人でもいたなら、それが間抜けな勘違いだとすぐに気付けたろう。@でも君は、下らないコンプレックスを理由に友達をまるで作ろうとしなかった。」\
+`"That you believed it could be used against you, I delightfully congratulate you from the bottom of my heart. `@`Maybe you read too much manga!`@`　And you went and absorbed such useless knowledge, and in your foolishness you probably felt satisfied　in the world you created!!`@`　If you even had one friend to ask for help, you would have probably realized such a stupid mistake right away. `@`But your worthlessness complex prevented you from making any friends."`\
 
 lsp bgsp,":a;bmp\background\efe\mabuta2.bmp",0,0,100
 bg toire_06,22
 bgcopy
 csp -1
 
-「…この世はな、社会なのさ！@　社会とは人と人のつながりで出来ている。@そのつながりを拒否して社会から零れた君は、まさに社会の落ち零れ。@そんなだから、あんな下らないビデオテープが脅迫のタネになると本気で信じてしまうのさ！！」\
+;「…この世はな、社会なのさ！@　社会とは人と人のつながりで出来ている。@そのつながりを拒否して社会から零れた君は、まさに社会の落ち零れ。@そんなだから、あんな下らないビデオテープが脅迫のタネになると本気で信じてしまうのさ！！」\
+`"...This world, you see, is society!`@`　Society is made up of relationships from person to person. `@`And you, being denied those relationships and being left out, truly became the leftovers of society. `@`And it's because of that, you truly believed that worthless tape could have been used as blackmail material!!"`\ 
 
 lsp bgsp,":a;bmp\background\efe\mabuta2.bmp",0,0,100
 bg toire_03,0
@@ -5131,7 +5147,8 @@ ld c,KAN_W2,23
 bgcopy
 csp -1
 
-「ははははは、まったく嘆かわしいね！@　君の担任として、心の底よりそう思うよ！@　三者面談の時、友達を作ろうと私が指導しても、君はいつだって言い訳ばかりだ！@　それを死を境に理解できたかと思っていたら！@　死んでも勘違いしたままだったとはね！！」\
+;「ははははは、まったく嘆かわしいね！@　君の担任として、心の底よりそう思うよ！@　三者面談の時、友達を作ろうと私が指導しても、君はいつだって言い訳ばかりだ！@　それを死を境に理解できたかと思っていたら！@　死んでも勘違いしたままだったとはね！！」\
+`"Hahahahaha, how sad!`@`　As your homeroom teacher, I feel for you from the bottom of my heart! `@`When I met with you and your parents and even advised you to make friends, you had nothing but excuses!`@`　To think I thought you realized it on the brink of death!`@`　Even after death you still don't get it do you?!!"`\
 
 bg black,22
 mono 0
@@ -5140,7 +5157,8 @@ lsp2 4,$ld_pass,130,550,-200,200,0
 lsp2 5,$ld_pass2,130,550,-200,200,0
 print 22
 
-「………わ、……私が、………ばかだったって言うんですか………。」\
+;「………わ、……私が、………ばかだったって言うんですか………。」\
+`"......A, .....Are you, ........saying I was stupid?......"`\
 
 ld_p KAN_I1
 lsp2 2,$ld_pass,480,480,200,200,0
@@ -5151,28 +5169,32 @@ print 22
 ;lsp2 3,$ld_pass2,480,480,200,200,0
 ;print 80
 
-「あぁそうだね！！@　私の口からはっきり言ってあげよう。@君は馬鹿さ！@　大馬鹿だ！！@　ガキのくせに人生を達観したようなフリをして、自分が社会の落伍者であることを美徳化し、@自身の悩みを打ち明け相談することにすら徒労を感じた落ち零れだッ！@　人間社会のピラミッドの、底辺からすら零れたんだよ君は！」\
+;「あぁそうだね！！@　私の口からはっきり言ってあげよう。@君は馬鹿さ！@　大馬鹿だ！！@　ガキのくせに人生を達観したようなフリをして、自分が社会の落伍者であることを美徳化し、@自身の悩みを打ち明け相談することにすら徒労を感じた落ち零れだッ！@　人間社会のピラミッドの、底辺からすら零れたんだよ君は！」\
+`"Oh I see!!`@`　Then I give you the words straight from my mouth. `@`You're an idiot!`@`　A blithering idiot!!`@`　Even though you're a child you pretend to take a philosophical view on life, and you've turned your status as a drop out in society into a virtue, `@`and you felt it was too much trouble to even ask for help with your sorrows and dropped out of society!`@`　You've fallen out of the very bottom of the pyramid of human society!"`\
 
 ld_p MAR_Def3n
 lsp2 4,$ld_pass,130,550,-200,200,0
 lsp2 5,$ld_pass2,130,550,-200,200,0
 print 80
 
-「……そんな……。@……うううぅううぅぅぅ！！」\
+;「……そんな……。@……うううぅううぅぅぅ！！」\
+`"......That can't be...... `@`......UUUuUUuuu!!"`\
 
 ld_p KAN_W1
 lsp2 2,$ld_pass,480,480,200,200,0
 lsp2 3,$ld_pass2,480,480,200,200,0
 print 80
 
-「君を酷い目に遭わせたのは、ははは、そうだね！@　私の個人授業だったんだよ。@君ひとりでは解決できない問題に直面した時、どうすればいいかというね！」\
+;「君を酷い目に遭わせたのは、ははは、そうだね！@　私の個人授業だったんだよ。@君ひとりでは解決できない問題に直面した時、どうすればいいかというね！」\
+`"Those terrible things I made you experience, hahaha, that's right!`@`　That was my private lesson, you see. `@`When confronted with a problem that can't be solved by yourself, what do you do?!"`\
 
 ld_p KAN_w3
 lsp2 2,$ld_pass,480,480,200,200,0
 lsp2 3,$ld_pass2,480,480,200,200,0
 print 80
 
-「正解は、誰かに相談する、だったのさ！！@　君にひとりでも相談できる友達、あるいは家族がいれば正解のチャンスはあった。@だが君はひとりも友達を作らなかった。@家族にも心を開かなかった！@　私があれだけ指導したにも関わらずね！！@　だから授業は時間切れになったというわけさ！」\
+;「正解は、誰かに相談する、だったのさ！！@　君にひとりでも相談できる友達、あるいは家族がいれば正解のチャンスはあった。@だが君はひとりも友達を作らなかった。@家族にも心を開かなかった！@　私があれだけ指導したにも関わらずね！！@　だから授業は時間切れになったというわけさ！」\
+`"That's right, the answer was to ask someone for help!!`@`　Even by yourself if you had asked your friends, or your family you might have had a chance at being correct. `@`But by yourself you didn't make friends. `@`You didn't even open up to your family!`@`　Regardless of the instruction I gave you!!`@`　And class time ran out you see!"`\
 
 ld_p MAR_N1
 lsp2 4,$ld_pass,130,550,-200,200,0
@@ -5180,7 +5202,8 @@ lsp2 5,$ld_pass2,130,550,-200,200,0
 print 80
 
 
-「じ、……時間切れなんかじゃないです……！@　……相談は、……しなかったけれど…、@……確かに、友達を作ろうともせず、…誰にも相談しようとしなかったのは私が悪かったかもしれないけど……、@…でも、私は、…………戦ったんです。@…先生と！」\
+;「じ、……時間切れなんかじゃないです……！@　……相談は、……しなかったけれど…、@……確かに、友達を作ろうともせず、…誰にも相談しようとしなかったのは私が悪かったかもしれないけど……、@…でも、私は、…………戦ったんです。@…先生と！」\
+`"It, ......It's not like time has run out......!`@`　......I didn't, ......ask for help but..., `@`......Even though I didn't make friends, ...and I might have been wrong in not asking for help......, `@`...But, I, .........I fought. `@`I fought against you!"`\
 
 csp2 -1
 print 0
@@ -5193,13 +5216,15 @@ csp -1
 ld c,KAN_W1,22
 ;ld c,KAN_Def1,80
 
-「私が命じれば犬にも猫にもなった、人間の尊厳を捨てた君にしちゃ、@まずまずの奮闘だったことは認めるよ。@だが、そんなものは何の評価にもならないね！@　その結果がそれさ！！@　君は相手に逆上されて、@現にそうして首を絞めて殺されて、しかも肥溜めに死体を放り込まれた！！@　その無様な結果を以って、私にどう評価してもらいたいというんだい？」\
+;「私が命じれば犬にも猫にもなった、人間の尊厳を捨てた君にしちゃ、@まずまずの奮闘だったことは認めるよ。@だが、そんなものは何の評価にもならないね！@　その結果がそれさ！！@　君は相手に逆上されて、@現にそうして首を絞めて殺されて、しかも肥溜めに死体を放り込まれた！！@　その無様な結果を以って、私にどう評価してもらいたいというんだい？」\
+`"As I commanded you became like a cat, like a dog -- you threw away your human dignity, `@`and I will admit you did struggle somewhat. `@`But that sort of thing has no value whatsoever!`@`　This resulted in that!!`@`　You drove your opponent into a frenzy, `@`and then you were really strangled to death, and your body was even thrown into a cesspool!!`@`　Aside from those clumsy results, how would you like me to evaluate you?"`\  
 
 ld c,KAN_w3,80
 se1v 12,50
 quakey 2,200 
 
-「馬鹿言っちゃいけないね！！@　０点だよ０点ッ！！@　そういう下らない勇気を蛮勇というのさ！@　そんな勇気より、君は警察に相談する勇気を持つべきだった。@それを、それでも選べず！！@　その結果が今の姿というなら、それのどこを褒めろと言うんだい？」\
+;「馬鹿言っちゃいけないね！！@　０点だよ０点ッ！！@　そういう下らない勇気を蛮勇というのさ！@　そんな勇気より、君は警察に相談する勇気を持つべきだった。@それを、それでも選べず！！@　その結果が今の姿というなら、それのどこを褒めろと言うんだい？」\
+`"I can only say you're an idiot!!`@`　No points! You get a zero!!`@`　That's what they call reckless courage you see!`@`　Rather than that kind of courage, you should haev had the courage to call the police. `@`And you didn't even do that!!`@` What you are now is the result of that, and what part of that are you saying I should praise?"`\
 
 bg black,26
 lsp bgsp,":a;bmp\background\efe\mabuta2.bmp",0,0,100
@@ -5210,29 +5235,38 @@ csp -1
 ld r,KAN_K5,26
 quakey 2,200
 
-「ははははは！！@　馬鹿は死ななきゃ治らないって言うが、どうやらそれは間違いらしい！@　死んでも治らないがどうも正しいみたいだ！！@　わっはっはっはっはっはッ！！！」\
+;「ははははは！！@　馬鹿は死ななきゃ治らないって言うが、どうやらそれは間違いらしい！@　死んでも治らないがどうも正しいみたいだ！！@　わっはっはっはっはっはッ！！！」\
+`"HahaHAHAHA!!`@`　They say that the only thing that can cure stupidity is daeth, but apparently they were wrong!`@`　It seems 'even in death stupidity can't be cured' would have been correct!!`@`　WahahaHAHAHAHAHAA!!!"`\
 
 bg black,22
 ;bg e004,45
 
-「……ううううぅううぅうぅぅぅッ！！！」@
+;「……ううううぅううぅうぅぅぅッ！！！」@
+`"......UUUUUuUUuUuuu~!!!"`@
 br
-　毬枝の魂を死した後にも辱める…。\
+;　毬枝の魂を死した後にも辱める…。\
+`　Even Marie's soul after death was humiliated...`\
 
 
-　亡霊は生者より強いなんて誰が決めた？@
-　……そんなルールなんてない。@死んだ時点で、生者から落ち零れた時点で、劣った存在なのだ。@
+;　亡霊は生者より強いなんて誰が決めた？@
+`　Who decided departed souls were stronger than the living?`@
+;　……そんなルールなんてない。@死んだ時点で、生者から落ち零れた時点で、劣った存在なのだ。@
+`　......There is no such rule. `@`At the moment of death, at the moment one leaves life behind, their existence is inferior.`@
 br
-　毬枝がわずかに持っていた希望、……人間を辞めれば、復讐する力が得られるという幻想が、@死した後になって、打ち砕かれていく……。\
+;　毬枝がわずかに持っていた希望、……人間を辞めれば、復讐する力が得られるという幻想が、@死した後になって、打ち砕かれていく……。\
+`　The slight hope Marie held, ....that illusion that if she stopped being human, she could gain the strength to have her revenge after death, `@`began to crumble......`\
 
 ;bg black,45
 bg Different_spiral_1a,22
 
-　だから毬枝は今こそ理解した。@
+;　だから毬枝は今こそ理解した。@
+`　Because Marie understood now.`@
 br
-　「めそめそさん」に自分がなれるかどうかなんて、まったく関係ない。@……復讐する力、…いや、戦う力とは、@そもそも自分が何を悟り何をするかという力にあることを。\
+;　「めそめそさん」に自分がなれるかどうかなんて、まったく関係ない。@……復讐する力、…いや、戦う力とは、@そもそも自分が何を悟り何をするかという力にあることを。\
+`　This had nothing to do with whether or not she could become "Mesomeso-san." `@`......Her power to avenge herself, ...No, the power to fight, `@`it was the power to understand something -- to do something.`\
 
-　人間以上の存在になれば、人間である担任に復讐できるに違いないという甘えがある限り、@そんな甘えた存在に戦う力など宿るわけがないのだ。\
+;　人間以上の存在になれば、人間である担任に復讐できるに違いないという甘えがある限り、@そんな甘えた存在に戦う力など宿るわけがないのだ。\
+`　As much as she believed that if she became something other than human she could have her revenge on the one responsible, `@`in that kind of a position there was no power she could fight with at all.`\
 
 ;bg punch_l1,1
 ;wait 50
@@ -5244,27 +5278,36 @@ br
 
 bg black,22
 
-　その力を持つ者は、人間の内に戦える。@…否、戦うとは生きること。@それを放棄した時点で、生きることを放棄した時点で、@永遠に負け犬なのだ。\
+;　その力を持つ者は、人間の内に戦える。@…否、戦うとは生きること。@それを放棄した時点で、生きることを放棄した時点で、@永遠に負け犬なのだ。\
+`　The ones with the power to fight are among humans. `@`...No. To fight is to live. `@`When she gave up -- when she gave up living, `@`she had lost forever.`\
 
 bg Aka1,22
 
-　だから、すでに死んでしまった毬枝は、戦うという本当の力の意味、……本当の意味での勇気を理解したにも関わらず、@………もう、戦いの土俵に上がる資格すらないのだ。@
+;　だから、すでに死んでしまった毬枝は、戦うという本当の力の意味、……本当の意味での勇気を理解したにも関わらず、@………もう、戦いの土俵に上がる資格すらないのだ。@
+`　Because she had already died, regardless if Marie understood what it means to truly fight, ......what it means to truly have courage, `@`......she was above the requirements to fight in that arena.`@
 br
-　戦うための資格。@それが、生きることだった。\
+;　戦うための資格。@それが、生きることだった。\
+`　The requirement to fight. `@`That was to be alive.`\
 
 bg Aka2,22
 
-　命を奪ったのは担任だったかもしれない。@
+;　命を奪ったのは担任だったかもしれない。@
+`　Her homeroom teacher might have snatched her life from her.`@
 br
-　でも、彼岸花に妖怪にしてもらえると聞き、妖怪になれれば復讐できると浮かれ、@ならばと持った実に下らない蛮勇だった。@
+;　でも、彼岸花に妖怪にしてもらえると聞き、妖怪になれれば復讐できると浮かれ、@ならばと持った実に下らない蛮勇だった。@
+`　But listening to Higanbana offer to turn her into a youkai, that if she became a youkai she could rejoice in revenge, `@`in the end it was truly pointless foolhardiness.`@
 br
-　せめてそこでその勇気を、誰かに相談しようという方向に向けていたら、@……きっと自分は生きていた。\
+;　せめてそこでその勇気を、誰かに相談しようという方向に向けていたら、@……きっと自分は生きていた。\
+`　And at the very least if she had had the courage to ask someone for help, `@`...she would surely be alive.`\
 
-　生きて戦って、あるいは勝って、この運命の出口にいたかもしれない。@
+;　生きて戦って、あるいは勝って、この運命の出口にいたかもしれない。@
+`　Live and fight, perhaps even win, and there might have been a way out of this fate.`@
 br
-　それを放棄した！@
+;　それを放棄した！@
+`　She gave it up!`@
 br
-　だから自分の運命は永遠にこの男の中に帰結して、どこにも逃れられず、@こうして死後も永遠に辱めを受け続けなければならないのだ……。\
+;　だから自分の運命は永遠にこの男の中に帰結して、どこにも逃れられず、@こうして死後も永遠に辱めを受け続けなければならないのだ……。\
+`　And so her fate resides eternally within this man, without anywhere to run, `@`this way even after death she would eternally continue being shamed......`\
 
 bg black,22
 fede 0,2000
@@ -5283,15 +5326,20 @@ me1v 16,50
 bg toire_02,22
 
 
-「……うううぅぅ…！@　うううぅううぅぅ…！！」@
+;「……うううぅぅ…！@　うううぅううぅぅ…！！」@
+`"......UUUuu...!`@　UUUuUUuu...!!"`@
 br
-　毬枝の声は、もはやすすり泣きではなく、号泣と呼んでもいいものに違いなかった。\
+;　毬枝の声は、もはやすすり泣きではなく、号泣と呼んでもいいものに違いなかった。\
+`　Marie's voice no longer came in sobs, they could only be described as wails.\
 
-　……それは、祟ってやろうという攻撃的な姿ではない。@
+;　……それは、祟ってやろうという攻撃的な姿ではない。@
+`　......That wasn't an attack as if to curse him either.`@
 br
-　永遠に辱められることを宿命付けられ、それに抗えもせず泣いて従うしかない、卑しい姿。@
+;　永遠に辱められることを宿命付けられ、それに抗えもせず泣いて従うしかない、卑しい姿。@
+`　Fixed with the fate of eternal shame, without fighting it she could only cry in subjugation -- with her lowly self.`@
 br
-　毬枝は、これほどまでに自分を悲しい存在だと思ったことはなく、…後悔したこともなかった。\
+;　毬枝は、これほどまでに自分を悲しい存在だと思ったことはなく、…後悔したこともなかった。\
+`　It wasn't that Marie thought her existence until now sad, ...or even had regret.`\
 
 bg black,22
 mono 1
