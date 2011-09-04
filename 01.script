@@ -1669,7 +1669,7 @@ ld l,MAR_Def4a,23
 ld r,HIG_def3,24
 
 ;「えぇ。@クラスでは“踊る彼岸花”って呼ばれてる、七席の序列第３位。@一応、保健委員もやってるのよ。@保健室になぜか置いてあるお人形。@あれが夜中にひとりでに踊り出すっていう怪談、聞いたことない？」\
-`"Yeah. `@`In class I'm called "The Dancing Red Spider Lily," the third rank of the seven seats. `@`Once in a while I'm mentioned by a nurse as well. `@`A doll that for some reason had been left in the infirmary. `@`Have you heard the tale about it dancing alone in the depth of the night?"`\
+`"Yeah. `@`In class I'm called "The Dancing Higanbana," the third rank of the seven seats. `@`Once in a while I'm mentioned by a nurse as well. `@`A doll that for some reason had been left in the infirmary. `@`Have you heard the tale about it dancing alone in the depth of the night?"`\
 
 ld l,MAR_Def2a,80
 
@@ -3331,7 +3331,7 @@ ld c,HIG_w4,80
 bgm1 8
 
 ;「学級会での投票でよ。@……学級会に投票できるのは私たち７人。@奇数だから必ず決まる。@……私はあなたと縁があったからね、あなたに投票するつもりだけれど。@でも、ウチのクラスには性質が悪いのも多いわ。@金森みたいな、邪悪なヤツにこそ第８位は相応しいって思ってるクラスメートもいるみたい。@なるほど、一理あるわね、くすくすくすくす……。」\
-`"A poll at the school meeting. `@`...We 7 can vote at the school meeting. `@`......We're an odd number, so it will surely be decided. `@`......Because I'm attached to you, I intend to vote for you. `@`But, in 'our' class there are a lot with wicked natures. `@`It seems there are some among us who think an evil bastard like Kanamori would be suitable for number 8. `@`Indeed, they might have a point, kusukusukusu......"\
+`"A poll at the school meeting. `@`...We 7 can vote at the school meeting. `@`......We're an odd number, so it will surely be decided. `@`......Because I'm attached to you, I intend to vote for you. `@`But, in 'our' class there are a lot with wicked natures. `@`It seems there are some among us who think an evil bastard like Kanamori would be suitable for number 8. `@`Indeed, they might have a point, *giggle* *giggle* *giggle*......"\
 
 ld l,MAR_Def3n,22
 
@@ -3818,7 +3818,7 @@ br
 bg black,22
 
 ;　だが、その何かが落ちてきただろうと思う方向…、薬品棚の上を見た時、@それが何なのかを理解した。\
-`　But, when he turned his thoughts as to what it might have fallen from..., he looked up above the medicine shelves, `@`and he understood what it was.
+`　But, when he turned his thoughts as to what it might have fallen from..., he looked up above the medicine cabinets, `@`and he understood what it was.
 
 E_A
 
@@ -3879,7 +3879,7 @@ bgm1 8
 `"'Master'? `@`This cute doll?"`@
 br
 ;　金森は背伸びをして、薬品棚の上に座って保健室を見下ろしているその人形を抱き下ろした。\
-`　Kanamori stood on his toes, and took down the doll that sat atop the medicine shelves looking down on them.`\
+`　Kanamori stood on his toes, and took down the doll that sat atop the medicine cabinets looking down on them.`\
 
 ;　……その人形には、西洋人形独特の、どことなく冷たい雰囲気があり、@金森は社交辞令として可愛いと言ったが、内心は何て可愛げのない不気味な人形だろうと思った。\
 `　......That doll was uniquely Western, and had a vaguely cold air to it. `@`Kanamori had politely called it cute, but in his mind he thought of how it wasn't cute, but an eerie doll.`\
@@ -4203,7 +4203,7 @@ bg hoken_04,23
 ;ld c,HOK_Def1,23
 
 ;　まだ校内に生徒が残っているのだろうかと思い、振り返ると、@……薬品棚の上にちょこんと座った西洋人形の姿が目に入った。\
-`　Thinking there might still be students at school, she turned around, `@`......and the Western doll quietly sitting atop the medicine shelves caught her eye.`\
+`　Thinking there might still be students at school, she turned around, `@`......and the Western doll quietly sitting atop the medicine cabinets caught her eye.`\
 
 ;ld c,HOK_Def1,80
 
@@ -5822,7 +5822,7 @@ locate 0,5
 E_A
 
 ;　アナタミタイナ邪悪ナ人ヲ、ウチノクラスニオ迎エデキナクテ。\
-`　T H A T  W E  C A N N O T  W E L C O M E  A N  E V I L  H U M A N  L I K E  Y O U`\
+`　T H A T  W E  C A N N O T  W E L C O M E  A  W I C K E D  H U M A N  L I K E  Y O U`\
 
 bg black,0
 ld_p KAN_K2
@@ -5953,7 +5953,7 @@ bg black,22
 `"Ufufufufufu. `@`Marie. Do it."`@
 br
 ;　彼岸花がくすくすと笑いながら、最後の止めを毬枝にせびる。\
-`　As Higanbana giggled, she told Marie to deliver the finishing blow.`\
+`　As Higanbana giggled, pressured Marie to deliver the finishing blow.`\
 
 ;bg Aka2,1
 ;quakex 1,200
@@ -5996,31 +5996,34 @@ se3v 13,90
 quakey 5,300
 
 ;　そして、異音…。\
-`　And then a strange noise...`\
+`　And then came a strange noise...`\
 
 ;quake 10,1500
 
 me1v 16,50
 
 ;　身近な音に例えるなら、新聞紙を乱暴にゴミ箱に突っ込む時のようなぐしゃぐしゃという音。@
-`　Compared to earlier noises, they were like someone crumbling up a newspaper and violently tossing it in a garbage can -- a crumpling noise.`@
+`　Compared to earlier sounds, they were like someone crumbling up a newspaper and violently tossing it in a garbage can -- a crumpling noise.`@
 ;　でも、その音は紙のように軽くなく、聞くだけで気分が悪くなりそうなおぞましい音……。@
-`　But this sound wasn't light like paper, and just by listening to it is sickening -- it's that kind of repulsive sound......`@
+`　But this sound wasn't light like paper, and just listening to it was sickening -- a repulsive sound......`@
 br
 ;　それは金森の、全身の骨が粉々に砕かれていく音だった……。\
-`　That was the sound of every bone in Kanamori's body being crushed to bits......`\
+`　That was the sound of every bone in Kanamori's body beginning to be crushed to bits......`\
 
 se1 38
 bg bite,2
 
 ;　もう苦痛の声も漏れない。@口からは幾筋もの血を溢れさせている。@
-`　There was no longer a painful voice leaking out. `@`From his mouth flowed nothing but blood.`@
+`　There was no longer a painful voice leaking out. `@`His mouth overflowed with streams of blood.`@
 br
-　そこから聞こえるごぼごぼという音は、もはや言葉すら許されない金森の断末魔なのか、@内臓の奥底から全てを搾り出されてくる臓器の喘ぎなのか、もう区別がつかない。\
+;　そこから聞こえるごぼごぼという音は、もはや言葉すら許されない金森の断末魔なのか、@内臓の奥底から全てを搾り出されてくる臓器の喘ぎなのか、もう区別がつかない。\
+`　And the sound that could be heard gushing from there, may have been Kanamori's dying agony that had been denied even being put into words, `@`or it could have been the heaving sound of everything from his lower intestines to all of his organs being squeezed out of him -- one couldn't tell which.`\ 
 
-　そして、…人の体で一番太い骨が、ごきりと折れる音が聞こえた……。@
+;　そして、…人の体で一番太い骨が、ごきりと折れる音が聞こえた……。@
+`　And then, ...came the sound of the largest bones in his body folding with a crack......`@
 br
-　聞いていたのは夜の虫の声と、学校妖怪が２人だけ、だった……。\
+;　聞いていたのは夜の虫の声と、学校妖怪が２人だけ、だった……。\
+`　Then all that could be heard was the cries of insects in the night -- and then the two school youkai were alone......`\
 
 ;bg "BMP\background\efe\red1.bmp",1
 
@@ -6052,24 +6055,29 @@ ld r,HIG_Def2,2
 ld r,HIG_Def3,22
 
 
-「おめでとう、『めそめそさん』の毬枝。@あなたが選ばれたわ。@みんなの拍手が聞こえる？」@
+;「おめでとう、『めそめそさん』の毬枝。@あなたが選ばれたわ。@みんなの拍手が聞こえる？」@
+`"Congratulations, "Mesomeso-san" Marie. `@`You have been chosen. `@`Can you hear everyone's applause?"`@
 
 ld l,MAR_Def4a,23
 ;ld l,MAR_Def1,80
 
-「………………いいえ。」\
+;「………………いいえ。」\
+`"............No."`\
 
 ld r,HIG_w3,80
 
-「くすくすくす。@みんなも姿を現せばいいものを。@勿体ぶってるわね。@恥ずかしがり屋さんばかりなんだから。@……もっとも、もう少し力をつけないと、@あなたに知覚するのは難しいかもしれないけどね。」\
+;「くすくすくす。@みんなも姿を現せばいいものを。@勿体ぶってるわね。@恥ずかしがり屋さんばかりなんだから。@……もっとも、もう少し力をつけないと、@あなたに知覚するのは難しいかもしれないけどね。」\
+`"*giggle* *giggle* *giggle*. `@`Even though everyone should reveal themselves `@`-- they feel too important. `@`They're all nothing but shy individuals you see. `@`......If you don't attain a bit more power, `@`then it might be difficult for you to perceive them."`\
 
 ld l,MAR_Def3,80
 
 「……学校妖怪のみんなと、私は仲良くできるでしょうか。」@
+`"......Do you think the school youkai and I can get along?"`@
 
 ld r,HIG_w4,80
 
-「さぁ、難しいんじゃない？@　人間の友達すら作れなかったあなたに、@人間じゃない存在の友達を作れるかしら？」\
+;「さぁ、難しいんじゃない？@　人間の友達すら作れなかったあなたに、@人間じゃない存在の友達を作れるかしら？」\
+`"Who knows, maybe it'll be difficult? `@`For you who couldn't even make human friends -- `@`could you make friends with non-humans I wonder?"`\
 
 bg black,23
 ;lsp bgsp,":a;bmp\background\efe\mabuta2.bmp",0,0,100
@@ -6078,39 +6086,51 @@ bg toire_07,23
 ;csp -1
 ld r,MAR_i1a,22
 
-「がんばります。@……やり直せぬ人生なら、この新しい人生で過ちを、せめて取り返したいので。」@
+;「がんばります。@……やり直せぬ人生なら、この新しい人生で過ちを、せめて取り返したいので。」@
+`"I'll give it my all. `@`......Because if I can't relive my life, then at the very least I want to correct my past mistakes in this new life"`@
 br
-　その表情は、毬枝が今日までに見せてきた表情の中で、一番、決意に溢れたものだった。\
+;　その表情は、毬枝が今日までに見せてきた表情の中で、一番、決意に溢れたものだった。\
+` Marie's expression overflowed with more determination than any other face she had shown until today.`\
 
 ld l,HIG_Def3,22
 ;ld l,HIG_Def1,80
 
-「………ふぅん。@死して堕落する子は多いけど、死して決意する子なんて珍しいわね。@やっぱり毬枝は面白い子、……いいえ、変な子よね。@くすくすくす……。」@
+;「………ふぅん。@死して堕落する子は多いけど、死して決意する子なんて珍しいわね。@やっぱり毬枝は面白い子、……いいえ、変な子よね。@くすくすくす……。」@
+`"......Hmmm. `@`There are a lot of dead and depraved children, but a dead and determined child -- now that's unusual. `@`Of course, Marie you're an interesting girl, ......No, a weird girl. `@`*giggle* *giggle* *giggle*......"`@
 br
-　彼岸花が敷居の上から飛び降りると、図書室で出会った時のような人の姿になる。\
+;　彼岸花が敷居の上から飛び降りると、図書室で出会った時のような人の姿になる。\
+`　Higanbana jumped over the railing, and then she took the shape of a human like the day they met in the library room.`\
 
 ld l,HIG_w3,80
 
-「そろそろみんなもあなたの自己紹介がほしいところのはず。@それに、あなたの新しいクラスになる私たちの教室にも案内しないとね。」\
+;「そろそろみんなもあなたの自己紹介がほしいところのはず。@それに、あなたの新しいクラスになる私たちの教室にも案内しないとね。」\
+`"Evereyone is going to want you to introduce yourself pretty soon. `@`Also, I should probably direct you to 'our class.'"`\
 
 ld r,MAR_Def4a,80
 
-「……クラスって、……Ｂ組ですか…？」@
+;「……クラスって、……Ｂ組ですか…？」@
+`"......By 'class', ......could that be classroom B?..."`@
 br
-　彼岸花の胸にある名札には、学年の欄は空欄で、クラス名にＢと書かれていたからだ。@
+;　彼岸花の胸にある名札には、学年の欄は空欄で、クラス名にＢと書かれていたからだ。@
+`　On the nametag on Higanbana's chest, the school year was blank but the 'class' name, B, was written there.
 br
-　かつて、雨に滲んだようで読めなかった名札は、@なぜか今はくっきりと読めるようになっていた。\
+;　かつて、雨に滲んだようで読めなかった名札は、@なぜか今はくっきりと読めるようになっていた。\
+`　That nametag that had once seemed blotted out by the rain, `@`how was it now she could read it so clearly.`\
 
 ld l,HIG_Def5,80
 
-「Ｂ組？@　違うわ。１３組よ。@字が汚くてごめんなさいね。」@
+;「Ｂ組？@　違うわ。１３組よ。@字が汚くてごめんなさいね。」@
+`"Classroom B? `@`You're wrong. It's Classroom 13. `@`The numbers have gotten dirty -- sorry about that."`@
 
 ld r,MAR_Def4,80
 
-「１３組……。」@
+;「１３組……。」@
+`"Classroom 13......"`@
 br
-　そんなクラスはこの学校のどの学年にも存在しない。@
-　でも、そのクラスの教室は、確かにこの学校に存在している……。\
+;　そんなクラスはこの学校のどの学年にも存在しない。@
+`　That kind of 'class' doesn't exist anywhere in this school.`@
+;　でも、そのクラスの教室は、確かにこの学校に存在している……。\
+`　And yet there was no doubt that 'classroom' was in this school......`\
 
 cl l,22
 
@@ -6119,13 +6139,17 @@ bg toire_05,23
 
 ld c,HIG_Def4,22
 
-「おいで、『めそめそさん』の毬枝。@『踊る人形』彼岸花の手を取って。」@
+;「おいで、『めそめそさん』の毬枝。@『踊る人形』彼岸花の手を取って。」@
+`"Come, "Mesomeso-san" Marie. `@`Take the hand of "The Doll That Dances" Higanbana."`@
 br
-　彼岸花がそっと手を出す。@
+;　彼岸花がそっと手を出す。@
+`　Higanbana slowly reached out her hand.`@
 br
-　毬枝は少しだけ躊躇した後、それを握った。@
+;　毬枝は少しだけ躊躇した後、それを握った。@
+`　After hesitating ever so slightly, Marie took her hand.`@
 br
-　怖かったからじゃない。\
+;　怖かったからじゃない。\
+`　It wasn't because she was scared.`\
 
 bg black,22
 ;lsp bgsp,":a;bmp\background\efe\mabuta2.bmp",0,0,100
@@ -6133,11 +6157,15 @@ bg black,22
 ;bgcopy
 ;csp -1
 
-「学校妖怪の役目は大変よ？@　夜の闇をもっとに暗く染め、不吉と邪悪で覆わなくてはならない。」@
+;「学校妖怪の役目は大変よ？@　夜の闇をもっとに暗く染め、不吉と邪悪で覆わなくてはならない。」@
+`"The job of a school youkai is tough you know? `@`We must surround ourselves in ill omens and wickedness as we dye the dark of night even darker."`@
 「…………は、…はい。」\
+`"......Y, ...yes."`\
 
-「夜の闇が暗かったならば、…その分だけ、昼間の学校は明るく照らされる。@邪悪な教師がひとり、夜の闇に飲み込まれれば、@その分、昼間の学校はマシになるでしょうしね。」@
-「……あは、ははは。」\
+;「夜の闇が暗かったならば、…その分だけ、昼間の学校は明るく照らされる。@邪悪な教師がひとり、夜の闇に飲み込まれれば、@その分、昼間の学校はマシになるでしょうしね。」@
+`"And if the night was truly dark, ...only then will daylight brightly shine upon the school. `@`If one wicked teacher is swallowed by the dark night, `@`then in the day the school will become a better place, won't it?"`@
+;「……あは、ははは。」\
+`"......Aha, hahaha."`\
 
 ;bg black,22
 ;lsp bgsp,":a;bmp\background\efe\mabuta2.bmp",0,0,100
@@ -6147,23 +6175,28 @@ bg k_rouka_01,22
 
 ld r,HIG_def3,22
 
-「でも、おめでとう。@これが初の白星ね。@せっかくだから、しっかり数えておいた方がいいんじゃない？」@
+;「でも、おめでとう。@これが初の白星ね。@せっかくだから、しっかり数えておいた方がいいんじゃない？」@
+`"But congratulations. `@`This was your first victory right?`@` You really strived for it, so be sure to keep a count alright?"`@
 
 ld l,MAR_Def4,22
 
-「数えるって、何をですか…？」\
+;「数えるって、何をですか…？」\
+`"Count? Count what...?"`\
 
 ld r,HIG_w4,80
 
-「くすくす。@……祟り殺した人数よ。@これが毬枝の１人目ね。」@
+;「くすくす。@……祟り殺した人数よ。@これが毬枝の１人目ね。」@
+`"*giggle* *giggle*. `@`......The number of people you've cursed to death. `@`This was your first, you see."`@
 
 ld l,MAR_Def2a,80
 
-「い、…いやです、そんなの数えるの。」\
+;「い、…いやです、そんなの数えるの。」\
+`"No, ...I don't want to count something like that."`\
 
 ld r,HIG_Def3,80
 
-「くすくすくすくす。@まぁ、そこが毬枝の面白いところかしらね。@そんな気弱そうな振る舞いだと、ウチのクラスでもいじめられちゃうかもしれないわよ？」\
+;「くすくすくすくす。@まぁ、そこが毬枝の面白いところかしらね。@そんな気弱そうな振る舞いだと、ウチのクラスでもいじめられちゃうかもしれないわよ？」\
+`"*giggle*giggle*giggle*. `@`Well, that might be why you're interesting Marie. `@`But with that kind of faintheartedness, maybe you'll even be bullied in 'our class'?"`\
 
 bg black,22
 lsp bgsp,":a;bmp\background\efe\mabuta2.bmp",0,0,100
@@ -6172,23 +6205,29 @@ bgcopy
 csp -1
 ld r,MAR_Def2a,22
 
-「い、…いじめられたら、…友達に相談します。」\
+;「い、…いじめられたら、…友達に相談します。」\
+`"If... if I'm bullied, ...then I'll ask my friends for help."`\
 
 ld l,HIG_w4,22
 
-「友達って誰？」@
+;「友達って誰？」@
+`"Friends? Like who?"`@
 
 ld r,MAR_Def4a,80
 
-「ひ、…彼岸花さんは、友達になっては……その、…くれないんですか……。」\
+;「ひ、…彼岸花さんは、友達になっては……その、…くれないんですか……。」\
+`"W, ...would Higanbana-san, please, ...well... become my friend...?"`\
 
 ld l,HIG_w6,80
 
-「この『踊る彼岸花』に友達になれ…？@　………くすくす、うふふふ、ははははははははははは。@もう少し友達は選んだ方がいいと思うけれども。」\
+;「この『踊る彼岸花』に友達になれ…？@　………くすくす、うふふふ、ははははははははははは。@もう少し友達は選んだ方がいいと思うけれども。」\
+`"This "Doll That Dances" Higanbana, become your friend...?`@` .........*giggle* *giggle*, Uhuhuhu, HAHAHAHAHAHAHAHAHA. `@`But I think you should wait a little longer when it comes to choosing your friends."`\
 
-　彼岸花はしばらくの間、こんなに滑稽なことはないとでもいう風に、お腹を捩って笑う。@
+;　彼岸花はしばらくの間、こんなに滑稽なことはないとでもいう風に、お腹を捩って笑う。@
+`　For a while Higanbana, even though this was no laughing matter, wrenched her stomach with laughter.`@
 br
-　それもやがて収まり、肩を竦める。\
+;　それもやがて収まり、肩を竦める。\
+`　And when she was finally finished, she shrugged her shoulders.`\
 
 textoff
 ld l,HIG_w3,22
@@ -6197,16 +6236,20 @@ wait 2000
 
 ld l,HIG_def5,22
 
-「……毬枝がそれでいいなら、それでいいわ。@…本当の私を知っている人なら、そんな命知らずな申し出は絶対にしないしね。@無知のなせる業かしら、くすくすくすくす……。」\
+;「……毬枝がそれでいいなら、それでいいわ。@…本当の私を知っている人なら、そんな命知らずな申し出は絶対にしないしね。@無知のなせる業かしら、くすくすくすくす……。」\
+`"......If Marie is fine with that, then it's fine. `@`...If it was someone who knew the real me, then I wouldn't take up such a reckless proposal. `@`Perhaps ignorance is bliss, *giggle*giggle*giggle*giggle*......"`\
 
 ld r,MAR_w1,80
 
-「彼岸花さんは、冷たそうだけど、その、いい人だと思いますので……。」\
+;「彼岸花さんは、冷たそうだけど、その、いい人だと思いますので……。」\
+`"Higanbana-san, you might seem coldhearted, but, well, I think you're a good person........."`\
 
 bg black,22
 
-「……本気で？」@
-「はい。」\
+;「……本気で？」@
+`"......Really?"`@
+;「はい。」\
+`"Yes."`\
 
 lsp bgsp,":a;bmp\background\efe\mabuta2.bmp",0,0,100
 bg k_rouka_03,22
@@ -6215,49 +6258,62 @@ csp -1
 
 ld r,HIG_w1,22
 
-「…………ふぅん。」@
+;「…………ふぅん。」@
+`".........Hmmm."`@
 
 ld l,MAR_Def4a,22
 
-「……ご迷惑ですか……。」\
+;「……ご迷惑ですか……。」\
+`"......Does that bother you......?"`\
 
 ld r,HIG_w3,80
 
-「…………。」@
+;「…………。」@
+`"........."`@
 
 ld l,MAR_Def2a,80
 
-「…………。」\
+;「…………。」\
+`"........."`\
 
 ld r,HIG_w2,22
 
-「……ありがと。」\
+;「……ありがと。」\
+`"......Thanks."`\
 
 ld l,MAR_Def4a,80
 
-「え？」@
+;「え？」@
+`"Eh?"`@
 br/
 
 cl r,22
 
-　彼岸花が毬枝の手を離し、廊下の先へひとり歩いていく。\
+;　彼岸花が毬枝の手を離し、廊下の先へひとり歩いていく。\
+`　Higanbana let go of Marie's hand, and walked down the hallway alone.`\
 
-「こっちよ。@わかる？@　廊下が伸びているのが。@…人間のクセが抜けないと、知覚できないわよ。@見えてる？」@
+;「こっちよ。@わかる？@　廊下が伸びているのが。@…人間のクセが抜けないと、知覚できないわよ。@見えてる？」@
+`"It's this way. `@`Do you see? `@`The hallway extends. `@`...It won't come out for humans and they can't see it. `@`Do you see it?"`@
 
 cl l,0
 ld c,MAR_Def4a,23
 
 
-「は、はい！@　見えてます！」\
+;「は、はい！@　見えてます！」\
+`"Y, yes! `@`I can see it!"`\
 
 cl c,22
 
-　あるはずのない廊下が、闇の向こうにずっと伸びている。@
-　人間だった頃、そこは壁だったはずの場所が、今やさらに遠くまで廊下を延ばしている。\
+;　あるはずのない廊下が、闇の向こうにずっと伸びている。@
+`　The impossible hallway extended far away into darkness.`@
+;　人間だった頃、そこは壁だったはずの場所が、今やさらに遠くまで廊下を延ばしている。\
+`　When she was human there would have been a wall there, but now the hallway stretched far into the distance.`\
 
-「さ、おいで。」@
+;「さ、おいで。」@
+`"Then come."`@
 br
-　彼岸花の後を追い、毬枝もその闇の中へ入っていく………。\
+;　彼岸花の後を追い、毬枝もその闇の中へ入っていく………。\
+`　Following after Higanbana, Marie entered the darkness......`\
 
 cl c,22
 
@@ -6270,23 +6326,28 @@ E_A
 
 wait 2000
 
-　……その日を境に、金森の姿を見た者はいない。@
+;　……その日を境に、金森の姿を見た者はいない。@
+`　......At the end of the day, no one had seen Kanamori.`@
 br
-　もちろん、森谷毬枝の姿も。\
+;　もちろん、森谷毬枝の姿も。\
+`　Of course, neither had they seen Moriya Marie.`\
 
 bg hoken_04,22
 
 bgm1 4
 
-　でも、保健室の主と呼ばれ、彼岸花と呼ばれる西洋人形の姿は、今も薬品棚の上にある。\
+;　でも、保健室の主と呼ばれ、彼岸花と呼ばれる西洋人形の姿は、今も薬品棚の上にある。\
+`　But the one called the master of the infirmary, the western doll called Higanbana, was even now sitting atop the medicine cabinets.`\
 
 bg black,2
 bg toire_01,22
 
-　旧校舎の奥にあるトイレには、妖怪が住んでいるという噂があり、@夜な夜な、その祟りに触れ絞め殺される、哀れな教師の悲鳴が漏れ聞こえるという話である……。\
+;　旧校舎の奥にあるトイレには、妖怪が住んでいるという噂があり、@夜な夜な、その祟りに触れ絞め殺される、哀れな教師の悲鳴が漏れ聞こえるという話である……。\
+`　There was a rumor that inside the bathroom of the former school building lived a youkai. `@`It was said each night one could hear the accursed screams of the pitiful teacher who had been strangled to death......`\
 
 bg black,2
 bg gakkou_01u,22
 
 
-　これは、近隣の学校の統廃合に伴い、大きなマンモス校になって大勢の生徒数を誇り、@のみならず、学校の七不思議が、さらにもう一つ多いという不思議な学校の物語……。\
+;　これは、近隣の学校の統廃合に伴い、大きなマンモス校になって大勢の生徒数を誇り、@のみならず、学校の七不思議が、さらにもう一つ多いという不思議な学校の物語……。\
+`　In accordance with the recent school reorganization when the school became a mammoth school bursting with pride at the number of students it contains, `@`so too then, came the strange school tale about the Seven Mysteries adding one more to their number......`\
