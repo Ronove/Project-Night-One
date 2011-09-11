@@ -834,10 +834,11 @@ bg black,22
 
 　だから、ある日。@残りのフィルムがあと２枚しかないことに気付き、@………例のことを試してみようと思った。@もちろん、悪戯心でだ。@
 br
-“クラス写真を撮ると、いないはずの生徒が写るらしい”。@
+;“クラス写真を撮ると、いないはずの生徒が写るらしい”。@
+`"When you take a Class Photo, students which shouldn't exist appear."`@`
 br
-　それを、…確かめてみようと思った。\
-
+;　それを、…確かめてみようと思った。\
+` I thought I'd try to ascertain that.`\
 fede 1,1000
 E_B
 
@@ -899,18 +900,21 @@ E_MA
 
 ld c,HIG_Def3,22
 
-　あの日、廊下ですれ違った不思議な少女の意味深な言葉が蘇る。@
+;　あの日、廊下ですれ違った不思議な少女の意味深な言葉が蘇る。@
+` That day, in the corridor on that day, words were spoken of that mysterious girl's revival`\
 br
 　……彼女は、僕にクラス写真を撮りたがらせていたような気がする。@だから、ああいう意味深な言い方をしたのではないだろうか。\
 
 bg black,22
 bg kyou_03,22
 
-　この写真には、きっと何かが写っているのだ。@
+;　この写真には、きっと何かが写っているのだ。@
+` This photo is something I've surely seen.`@`
 br
 　………そう言えば、ひどくわずかではあるが、画像がじんわりと浮き出してきたような気がする。\
 
-　その写真は、放課後に見た時には、さらにじんわりと浮き出ていた。@
+;　その写真は、放課後に見た時には、さらにじんわりと浮き出ていた。@
+`When I looked at that photo after school, it gradually stood out more and more`\
 br
 　……しかしそれでも、写っているクラスメートたちの顔を確認できるようなものではなかった。\
 
