@@ -919,8 +919,8 @@ br
 ;　その写真は、放課後に見た時には、さらにじんわりと浮き出ていた。@
 `When I looked at that photo after school, it gradually stood out more and more`\
 br
-　……しかしそれでも、写っているクラスメートたちの顔を確認できるようなものではなかった。\
-
+;　……しかしそれでも、写っているクラスメートたちの顔を確認できるようなものではなかった。\
+`...however even that, the appearing faces of the classmates, didn't confirm my suspicions.`\
 
 ;lsp bgsp,":a;bmp\background\efe\a004.bmp",0,0
 ;print 0
@@ -936,8 +936,8 @@ bg "bmp\background\efe\photo1.bmp",22
 br
 　彼はその写真を大事にしまい込むと、自宅に持ち帰り、@食事をしたり、風呂に入ったりする度に取り出しては確認した。@
 br
-　それはじわじわと鮮明になっていく。\
-
+;　それはじわじわと鮮明になっていく。\
+` it became clearer and clearer.`\
 bg "bmp\background\efe\photo2.bmp",22
 
 ;bg white,45
@@ -996,10 +996,11 @@ cl r,22
 　そう。@みんな、クラスメート。@
 　知っている顔ばかり。@知っている顔ばかり。@
 br
-　これは団野くん。@これは福田くん。@こっちは西川さん。@そして安藤さん。@そして、……えぇと誰だっけ。@
+;　これは団野くん。@これは福田くん。@こっちは西川さん。@そして安藤さん。@そして、……えぇと誰だっけ。@
+` This is Danno-kun.`@`This is Fukuta-kun.`@`This is Saigawa-san.??`@`And this is Anzou-san.`@`And...umm, who?`@`
 br
-　……あまり話したことのない子だから名前が思い出せない。\
-
+;　……あまり話したことのない子だから名前が思い出せない。\
+`...I remebered the child's name, since she didn't talk very much.`\ 
 
 
 
@@ -1024,18 +1025,21 @@ wait 2000
 
 me1v 11,90
 
-　……えぇとえぇと、誰だっけ。@ぼんやりと覇気のない表情の眼鏡姿の女の子。@
+;　……えぇとえぇと、誰だっけ。@ぼんやりと覇気のない表情の眼鏡姿の女の子。@
+` ....umm....errr...who...`@`The girl wearing glassed looked vaguely.`@`
 br
-　何とも悲しい話だった。@同じクラスの仲間として、春夏秋冬を共にしてるはずなのに、@……僕はこの子の名前を即答することもできないのだ。\
-
+;　何とも悲しい話だった。@同じクラスの仲間として、春夏秋冬を共にしてるはずなのに、@……僕はこの子の名前を即答することもできないのだ。\
+` Nothing sad was said.`@`As a fellow classmate, having been together for four seasons, even I was not able to immediately recall the child's name.`\
 mono 1
 bg black,0
 ld c,MAR_Def3,2
 
 me2v 16,50
 
-　………………誰だっけ。@……本当に誰だっけ。@
-　クラスメートなのは間違いない。@なのに、思い出せない。@……誰だっけ誰だっけ……。@
+;　………………誰だっけ。@……本当に誰だっけ。@
+` ........Who....`@`Really, who are you...`@`
+;　クラスメートなのは間違いない。@なのに、思い出せない。@……誰だっけ誰だっけ……。@
+` She was a classmate, without a doubt.`@`Nevertheless, I couldn't remember....`@`Who...Who...?`@`
 br
 　もう寝る時間なのに、なぜか意地になってしまう。@それを確かめることができたら、僕は消灯しようと決めていた。\
 
