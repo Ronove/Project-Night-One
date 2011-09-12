@@ -813,7 +813,8 @@ csp -1
 br
 　だから、今を撮り、今を楽しむ。気軽に。\
 
-　残りのフィルムが数枚だから、もったいぶろうという考えはすぐになくなった。@
+;　残りのフィルムが数枚だから、もったいぶろうという考えはすぐになくなった。@
+`Few of the pieces of film remained, so the idea quickly died.`@` 
 br
 　ひょっとするとこのカメラは、@残りのフィルムがあるからこそ、成仏できなかったのかもしれない。\
 
@@ -832,12 +833,14 @@ br
 
 bg black,22
 
-　だから、ある日。@残りのフィルムがあと２枚しかないことに気付き、@………例のことを試してみようと思った。@もちろん、悪戯心でだ。@
+;　だから、ある日。@残りのフィルムがあと２枚しかないことに気付き、@………例のことを試してみようと思った。@もちろん、悪戯心でだ。@
+`That's why, one day.`@`Realizing that there were two pieces of film left over,`@`I thought to try the example.`@`Of course, with no good intent.`@`
 br
-“クラス写真を撮ると、いないはずの生徒が写るらしい”。@
+;“クラス写真を撮ると、いないはずの生徒が写るらしい”。@
+`"When you take a Class Photo, students which shouldn't exist appear."`@`
 br
-　それを、…確かめてみようと思った。\
-
+;　それを、…確かめてみようと思った。\
+` I thought I'd try to ascertain that.`\
 fede 1,1000
 E_B
 
@@ -865,7 +868,8 @@ bgcopy
 csp -1
 
 
-　僕はみんなの写真を撮らせてくれと宣言し、面白半分で写真を撮った。@
+;　僕はみんなの写真を撮らせてくれと宣言し、面白半分で写真を撮った。@
+` I declared that I would take photographs of everyone, and took their pictures half in jest`@`
 br
 　ところが、@……いつもは割とすぐに浮かび上がるはずの画像が、なかなか浮かび上がらなかった。\
 
@@ -899,21 +903,24 @@ E_MA
 
 ld c,HIG_Def3,22
 
-　あの日、廊下ですれ違った不思議な少女の意味深な言葉が蘇る。@
+;　あの日、廊下ですれ違った不思議な少女の意味深な言葉が蘇る。@
+` That day, in the corridor on that day, words were spoken of that mysterious girl's revival`\
 br
 　……彼女は、僕にクラス写真を撮りたがらせていたような気がする。@だから、ああいう意味深な言い方をしたのではないだろうか。\
 
 bg black,22
 bg kyou_03,22
 
-　この写真には、きっと何かが写っているのだ。@
+;　この写真には、きっと何かが写っているのだ。@
+` This photo is something I've surely seen.`@`
 br
 　………そう言えば、ひどくわずかではあるが、画像がじんわりと浮き出してきたような気がする。\
 
-　その写真は、放課後に見た時には、さらにじんわりと浮き出ていた。@
+;　その写真は、放課後に見た時には、さらにじんわりと浮き出ていた。@
+`When I looked at that photo after school, it gradually stood out more and more`\
 br
-　……しかしそれでも、写っているクラスメートたちの顔を確認できるようなものではなかった。\
-
+;　……しかしそれでも、写っているクラスメートたちの顔を確認できるようなものではなかった。\
+`...however even that, the appearing faces of the classmates, didn't confirm my suspicions.`\
 
 ;lsp bgsp,":a;bmp\background\efe\a004.bmp",0,0
 ;print 0
@@ -929,8 +936,8 @@ bg "bmp\background\efe\photo1.bmp",22
 br
 　彼はその写真を大事にしまい込むと、自宅に持ち帰り、@食事をしたり、風呂に入ったりする度に取り出しては確認した。@
 br
-　それはじわじわと鮮明になっていく。\
-
+;　それはじわじわと鮮明になっていく。\
+` it became clearer and clearer.`\
 bg "bmp\background\efe\photo2.bmp",22
 
 ;bg white,45
@@ -989,10 +996,11 @@ cl r,22
 　そう。@みんな、クラスメート。@
 　知っている顔ばかり。@知っている顔ばかり。@
 br
-　これは団野くん。@これは福田くん。@こっちは西川さん。@そして安藤さん。@そして、……えぇと誰だっけ。@
+;　これは団野くん。@これは福田くん。@こっちは西川さん。@そして安藤さん。@そして、……えぇと誰だっけ。@
+` This is Danno-kun.`@`This is Fukuta-kun.`@`This is Saigawa-san.??`@`And this is Anzou-san.`@`And...umm, who?`@`
 br
-　……あまり話したことのない子だから名前が思い出せない。\
-
+;　……あまり話したことのない子だから名前が思い出せない。\
+`...I remebered the child's name, since she didn't talk very much.`\ 
 
 
 
@@ -1017,18 +1025,21 @@ wait 2000
 
 me1v 11,90
 
-　……えぇとえぇと、誰だっけ。@ぼんやりと覇気のない表情の眼鏡姿の女の子。@
+;　……えぇとえぇと、誰だっけ。@ぼんやりと覇気のない表情の眼鏡姿の女の子。@
+` ....umm....errr...who...`@`The girl wearing glassed looked vaguely.`@`
 br
-　何とも悲しい話だった。@同じクラスの仲間として、春夏秋冬を共にしてるはずなのに、@……僕はこの子の名前を即答することもできないのだ。\
-
+;　何とも悲しい話だった。@同じクラスの仲間として、春夏秋冬を共にしてるはずなのに、@……僕はこの子の名前を即答することもできないのだ。\
+` Nothing sad was said.`@`As a fellow classmate, having been together for four seasons, even I was not able to immediately recall the child's name.`\
 mono 1
 bg black,0
 ld c,MAR_Def3,2
 
 me2v 16,50
 
-　………………誰だっけ。@……本当に誰だっけ。@
-　クラスメートなのは間違いない。@なのに、思い出せない。@……誰だっけ誰だっけ……。@
+;　………………誰だっけ。@……本当に誰だっけ。@
+` ........Who....`@`Really, who are you...`@`
+;　クラスメートなのは間違いない。@なのに、思い出せない。@……誰だっけ誰だっけ……。@
+` She was a classmate, without a doubt.`@`Nevertheless, I couldn't remember....`@`Who...Who...?`@`
 br
 　もう寝る時間なのに、なぜか意地になってしまう。@それを確かめることができたら、僕は消灯しようと決めていた。\
 
