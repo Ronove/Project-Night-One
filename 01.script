@@ -3432,7 +3432,7 @@ ld c,HIG_w6,24
 bgm1 6
 
 ;「………あなたが美味しそうだと思ってるのは、@そこいらの連中だけじゃなくて、……私もだってことよ。@あなたが『めそめそさん』じゃないってことになったら、@…連中が食らい付く前に、………私が食べてしまおうと思ってるんだから。」\
-`"......There are many who think you look delicious, `@`it isn't just that group out there, ......but I do too. `@`Because I think if you don't become "Mesomeso-san," `@`...before they can sink their teeth into you, ......I think I'll eat you first myself."`\
+`"......There are many who think you look delicious, `@`not only just that group out there, ......but I do too. `@`Because I think if you don't become "Mesomeso-san," `@`...before they can sink their teeth into you, ......I think I'll eat you first myself."`\
 
 bg okujou_01y,0
 
@@ -3441,12 +3441,12 @@ ld c,HIG_w6,22
 
 
 ;　……その言葉にはわずかほどの冗談もない。@
-`　......Those words couldn't have been just a joke.`@
+`　......What she said couldn't have been just a joke.`@
 br
 ;　群れて互いの権利を尊重しあうのは人の世の理だ。@
 `　Respecting mutual rights of others was logic from the human world.`@
 ;　人ならざる者の世界では全ては序列。全ては弱肉強食。@
-`　In the world of non-humans things, everything was rank. Everything was survival of the fittest.`@
+`　In the world of non-humans, rank was everything. Everything was survival of the fittest.`@
 br
 ;　……そして、彼岸花がそれを望むなら、@今この瞬間にもそれを実行してしまえるという現実が、言葉で伝えられているのだ……。\
 `　......And if Higanbana wanted that, `@`those words told her that she could, now, in this very moment, make it into reality......`\ 
@@ -3454,12 +3454,12 @@ br
 mbg black,22
 
 ;　死を乗り越えればもう何も恐れることがないというのは、人間の無知だ。@
-`　Saying that there's nothing to be afraid of after death, that is human stupidity.
+`　Thinking that there's nothing to be afraid of after death, that is human stupidity.
 ;　死してなお、この世界にはさらに恐れるべき何かが満ちている…。@
-`　Even after death, this world is still filled with things to be afraid of...`@
+`　Even after death, the world is still filled with things to be afraid of...`@
 br
 ;　そして毬枝は、死というあまりに苛烈な壁を一度潜り、@それをも上回る過酷な終末が存在している事実に、さらなる恐怖を感じずにはいられなかった……。\
-`　And Marie, who has already once dived through the extremely severe barrier called death, `@`that reality where she could have lived without excessive cruelty, where she could have known no fear, never came.
+`　And Marie, who has already once dived through the extremely cruel barrier of death, `@`that reality where she could have lived without excessive cruelty, where she could have known no fear, never came.
 
 ;textoff
 
@@ -3468,13 +3468,13 @@ br
 ;ld c,MAR_Def1,22
 
 ;　……でも、…毬枝はその恐れを押し留め、やさしい声で言った。\
-`　......But, ...Marie stopped those fears, and spoke in a gentle voice.`\
+`　......But, ...Marie reigned in her fears, and spoke in a gentle voice.`\
 
 mcbg 22
 ld l,MAR_Def3n,80
 
 ;「……もしそういうことになって、彼岸花さんがそれを望むなら、@……そういうことでいいと思います。」\
-`"......If it comes to that, if Higanbana-san desires that, `@`......I think that would be fine."`\
+`"......If it comes to that, then if Higanbana-san desires that, `@`......I think that would be alright."`\
 
 
 ;bg black,23
@@ -3483,12 +3483,12 @@ cl c,0
 ld r,HIG_Def5,23
 
 ;「…………………もう観念…？」@
-`"............Already given up...?"`@
+`"............Have you already given up...?"`@
 
 ld l,MAR_w2n,80
 
 ;「……違います。@お礼、みたいなものです。@……だって今の私、彼岸花さんが守ってくれるから、ここにこうしていられるんですよね…？@　だから、今こうして自分の死のために涙を流せる時間を下さる彼岸花さんに、@私は感謝しないといけないって、……そう思ったんです。」\
-`"......That's not it. `@`I meant it to be, gratitude. `@`......Because, Higanbana-san is protecting me, I'm allowed to exist as I am now, right...? `@`Because, to Higanbana-san, who gave me time to cry for my own death, `@`I must be thankful, ...... And that's why."`\
+`"......That's not it. `@`It would be in gratitude. `@`......Because, Higanbana-san is protecting me I'm allowed to exist as I am now, aren't I...? `@`Because, to Higanbana-san, who gave me time to cry for my own death, `@`So I think, ...... I must be grateful for that."`\
 
 ld r,HIG_w3,80
 
@@ -3496,21 +3496,21 @@ ld r,HIG_w3,80
 `"....................."`\
 
 ;　毬枝にとって、彼岸花が自分に近付いてきた目的が、@自分を食い殺そうというものであったとしても。@
-`　For Marie, Higanbana's reason for approaching her, `@`even if it was to kill and eat her.`@
+`　For Marie, Higanbana's reason for approaching her, `@`might have even been just to kill and eat her.`@
 br
 ;　……それでも、自分を仲間に迎えたいと掛けてくれた言葉の温かさは感謝に値するものだった。\
-`　......Even so, the warm words that offered to welcome her into their fold was worthy of gratitude.`\
+`　......Even so, the warm words that offered to welcome her among Higanbana's kind was worthy of gratitude.`\
 
 ;　あの金森が、いじめっ子から庇う対価として不道徳な行為を要求してきた時も、@決して自分を友人とも仲間とも言ってはくれなかったから。@
-`　Even Kanamori's, who demanded compensation in the form of those immoral acts for protecting her from those bullies, `@`had certainly never offered her to be his friend or companion.`@
+`　Even Kanamori, who demanded compensation in the form of those immoral acts for protecting her from those bullies, `@`had certainly never offered her to be his friend or companion.`@
 br
 ;　……毬枝が口に出さなくても、その感情を彼岸花は読み取る。\
-`　......Even if Marie didn't say them, Higanbana read those emotions.`\
+`　......Even if Marie didn't put those emotions into words, Higanbana read them.`\
 
 mbg black,22
 
 ;「…………ふ。」@
-`".........Hu."`@
+`".........Ha."`@
 br
 ;　彼岸花は笑うが、その表情は毬枝からは見えない。\
 `　Higanbana laughs, but Marie doesn't see her expression.`\
@@ -3523,13 +3523,13 @@ ld c,HIG_w1,22
 ;ld r,HIG_Def1,80
 
 ;「……そんなだから、あなたは美味しそうな魂になっちゃうんだわ。@……あなたにはもう少し、学校妖怪に相応しい残忍さや邪悪さが必要よ。」@
-`"......If it's like that, then your soul will be delicious. `@`......To be a suitable school youkai, you'll need a bit more wickedness and cruelty, you know."`@
+`"......If that happens, then your soul will be delicious. `@`......To be a suitable school youkai, you'll need a bit more wickedness and cruelty, you know."`@
 
 ;ld l,MAR_Def1,23
 ld r,MAR_w2n,22
 
 ;「……大丈夫です。@………こんな私でも、…仕返ししてやりたいって、@…その程度の邪悪さは持ってますから。」\
-`"......I'll be alright. `@`......Even like I am now, because I said I wanted to take my revenge, `@`...I posess that kind of cruelty."`\
+`"......That's alright. `@`......Because I said I wanted to take my revenge, as I am now, `@`...I'm capable of that kind of cruelty."`\
 
 cl c,0
 ld l,HIG_w4,24
@@ -3546,7 +3546,7 @@ ld r,MAR_def3n,80
 `"............UUuUuuu...!!"`@
 br
 ;　毬枝は再び涙する……。@
-`　Marie once again began to cry......`@\
+`　Marie once again began to cry......`@
 br
 ;　死してなお逃れられぬあの男の影に、今は悲しさと悔しさと怒りと、……様々な感情をごちゃまぜにすることしかできなかった……。\
 `　From that man's shadow who she couldn't even escape from in death, feeling sadness, biterness, and rage, ......all she could do was jumble her various emotions......`\
@@ -3555,13 +3555,13 @@ textoff
 bg black,22
 
 ;　その苦悩の泣き声も、夜の帳に飲み込まれ、決して誰にも届くことはない……。\
-`　Even her wail of agony was swallowed by the veil of darkness, and reached no one......`\
+`　Even her wail of agony reached no one as it was swallowed by the veil of darkness......`\
 
 ;　毬枝や学校妖怪たちの思惑は、@生者である金森にとって、まったく関わりのないことだった。@
 `　Marie, school youkai's expectations, and the like `@`didn't matter one bit to the still living Kanamori.`@
 br
 ;　……だが、だからといって、@毬枝の死から金森が完全に縁が切れるわけもない。\
-`　......But, what that might be true, `@`Kanamori hadn't yet completely cut all his connections to Marie's death.`\
+`　......But, even so, `@`Kanamori hadn't yet completely cut all his connections to Marie's death.`\
 
 fede 0,2000
 E_A
@@ -3588,41 +3588,41 @@ br
 `　Was it an accident? Or did she get involved in some trouble?`@
 br
 ;　普段からひとりぼっちで友達もいない毬枝の最後の目撃は当日の学校だけ。@下校中に何かあったのではないかと憶測するのが精一杯らしかった。\
-`　The last anyone saw ever-lonely and friendless Marie was at that school that day. `@`As for what happened after school, it was anyone's guess.`\
+`　The last anyone saw of the ever-lonely and friendless Marie was at that school that day. `@`As for what happened after school, it was anyone's guess.`\
 
 ;　警察が、当日の毬枝の服装を書いた、情報求むのチラシをあちこちの掲示板に貼り付けている。@
-`　Police were posting fliers looking for information with drawings of what Marie wore that day on bulletin boards here and there.`
+`　Police were looking for information and posting fliers with drawings of what Marie wore that day on bulletin boards here and there.`
 br
 ;　それを目にせずには過ごせないほどに、町のあちこちに貼り付けていた。\
-`　Making sure not to overlook any witnesses, they posted them here and there around town.`\
+`　Making sure not to overlook any witnesses, they posted them all around town.`\
 
 ;　警察も、担任である金森に話を聞きに来た。@
 `　The police even came to question the homeroom teacher, Kanamori.`@
 br
 ;　下校した後のことは知らないと話すと、勝手に納得して去って行った。\
-`　Saying he didn't know what happened after school, and the police departed feeling satisfied.
+`　Kanamori said he didn't know what happened after school, and the police departed feeling satisfied.`\
 
 bg shokuin_02,22
 
 ;　職員会議でも緊急議題となり、愉快犯による第二の事件を警戒しようと、@当面の間、集団下校や保護者による送り迎えをしようという話になった。\
-`　It even became an urgent topic at the staff meeting. And as a precaution in-case of a second incident, `@`currently there was talk about after school groups or bodyguards and the like.`\
+`　It even became an urgent topic at the staff meeting. And as a precaution in-case of a second incident, `@`there was recent talk about after school groups or bodyguards and the like.`\
 
 ;　……初め、それらの話題は金森の精神を少なからず追い詰めたが、@一日二日と経つにつれ、それは逆に自信となっていった。@
-`　......At first, those topics made Kanamori's heart race, `@`but after a day or two, that turned into confidence.`@
+`　......At first, those topics made Kanamori's heart race, `@`but after a day or two, he became confident.`@
 br
 ;　……なぜなら、毬枝の死体は未だ見つからず、警察の捜査も下校中に的を絞られ、@自分が捜査線から完全に零れていることを実感し始めたからだ。\
-`　......Because the police investigation, not yet having found Marie's corpse, were focused on what happened after school, `@`he began to feel he had completely slipped away from that line of investigation.`\
+`　......Because the police investigation hadn't found Marie's corpse, it was focused on what happened after school. `@`He began to feel he had completely slipped away from that line of investigation.`\
 
 bg kyou_02,22
 
 ;　クラスの子に、毬枝はどこに消えたのだろうと聞かれ、@金森は冗談だと断りながらも言ってやった。\
-`　He was asked by children from his class where Marie could have disappeared to, `@`and Kanamori refused as if in jest and said.`\
+`　He was asked by a child from his class where Marie could have disappeared to, `@`and Kanamori refused as if in jest and said.`\
 
 ld c,KAN_Def1,22
 ld c,KAN_Def2,22
 
 ;「うーん、……『めそめそさん』の祟り、かなぁ…。@……あぁ、いやいや！@　先生がこんなこと言ったなんて内緒だよ？」\
-`"Hhmmm, ......Could it be the curse of "Mesomeso-san", I wonder...? `@`...Oh, nono! `@` For me to say something like that -- keep it a secret, okay?"`\
+`"Hhmmm, ......Could it be the curse of "Mesomeso-san", I wonder...? `@`...Oh, of course not! `@` I can't believe I just said that. Let's make this our little secret, okay?"`\
 
 ;bg black,22
 bg kyou_04,22
@@ -3635,7 +3635,7 @@ br
 `　Having her treated as a victim of "Mesomeso-san," the school youkai everyone is crazy about lately, came as an added bonus.`@
 br
 ;　校内では『めそめそさん』の噂が横行し、@新しい学校怪談としてすでに定着し始めているようだった。\
-`　In school the rumors about "Mesomeso-san" ran wild, `@`and new school ghost stories began to take hold.`\
+`　In school the rumors about "Mesomeso-san" ran wild, `@`and a new school ghost story began to take hold.`\
 
 bg black,22
 
@@ -3668,10 +3668,10 @@ bgm1 8
 `In the middle of the empty hallway, ......suddenly, he fell.`@
 br
 ;　転んだ拍子に、肘を何かに引っ掛けてしまったらしい。@皮が破れて血を滲ませていた。@
-`　The moment he fell, it was as if something had caught his elbow. `@`It tore his skin and made him bleed.`@
+`　When he fell, it was as if something had caught his elbow. `@`It tore his skin and made him bleed.`@
 br
 ;　大した傷ではないが、出血でワイシャツを汚すわけにはいかず、ポケットティッシュで肘を押さえた。\
-`　It wasn't a serious injury, but so it didn't stain his shirt, he pressed a tissue to his elbow.`@
+`　It wasn't a serious injury, but he pressed a tissue to his elbow so it wouldn't stain his shirt.`\
 
 ;「おや、金森先生、大丈夫ですか。@お怪我でも……。」@
 `"Oh my, Kanamori-sensei, are you alright? `@`You're hurt......"`@
@@ -3685,21 +3685,21 @@ ld l,KAN_Def1,26
 `"Ah, how embarassing. `@`I must have bumped into something when I fell. `@`......I probably just slipped on a puddle a student neglected to wipe up or something."`\
 
 ;　とは言ったものの、@そんなことで足を滑らせるはずがないと金森自身が一番理解していた。@
-`"He said, `@`even though Kanamori knew more than anyone that he hadn't lost his footing like that.`@
+`　Kanamori said that, `@`even though he knew more than anyone that he hadn't lost his footing like that.`@
 br
 ;　こうして言い繕いながら廊下を見て、自分は何に足を躓いたのかと訝しがるしかなかった。\
-`　While he smoothed things over, he looked at the hall, and he was left doubting he could have slipped on something.`\
+`　While he smoothed things over with the vice principle, he looked at the hall, and he was left doubting he could have slipped on something.`\
 
 ;「……先生、だいぶ出血がひどいようですね。@ティッシュに滲み出してきていますよ。」\
-`"......Sensei, you seem to be bleeding a lot. `@`It's seeping through your tissue."`\
+`"......Sensei, you seem to be bleeding quite a bit. `@`It's seeping through your tissue."`\
 
 ld l,KAN_Def4,80
 
 ;「……本当だ。@困ったな、保健室へ行って止血をしてもらった方が良さそうですね。」@
-`"......You're right. `@`I'm in a bind, maybe I should head to the infirmary and get myself patched up."`@
+`"......You're right. `@`How annoying. Perhaps I should head to the infirmary and get myself patched up?"`@
 
 ;「そうなさるといい。@あ、先生～。@金森先生が転ばれて怪我をしたようです。@見てあげてくれませんか。」@
-`"You do that. `@`Ah, nurse~. `@`Kanamori-sensei seems to have hurt himself. `@`Would you take a look at him?`"@
+`"You do that. `@`Oh nurse~. `@`Kanamori-sensei seems to have hurt himself. `@`Would you take a look at him?`"@
 br
 ;　都合よく、廊下の向こうに保健室の先生の姿があった。\
 `　Conveniently, from the other side of the hallway the school nurse appeared.`\
@@ -3709,7 +3709,7 @@ ld r,HOK_Def1,22
 ld r,HOK_Def3,80
 
 ;「あらあら、大丈夫ですか、その肘。」@
-`"Oh my, is it alright? That elbow?"`@
+`"Oh my, are you alright? Your elbow."`@
 br
 ;　怪我自体は大したことないのだが、血で着衣を汚したくない。@金森はそう思い、大人しく保健室に向かうことにした。\
 `　The injury itself wasn't a big deal, but he didn't want the blood to stain his clothes. `@`Kanamori thought as much, and he calmly headed to the school infirmary.`\
@@ -3721,13 +3721,13 @@ wait 2000
 bg hoken_01,2
 
 ;　消毒薬の臭いに満ちた保健室で、@こうして消毒薬の脱脂綿の痛みを感じていると、自分の小学生時代を思い出すようで懐かしい。\
-`　Inside the infirmary filled with the smell of disinfectant, `@`feeling the pain from cotton-wool soaked in that disinfectant brought back memories of my elementary school days. It was nostalgic.`\  
+`　The inside of the infirmary was filled with the smell of disinfectant, `@`and feeling the pain from cotton-wool soaked in that disinfectant brought back memories of my elementary school days. It was nostalgic.`\  
 
 ;　人より優れたものが何一つ見出せず、@いつも周囲に見下されているように感じていたあの頃。@
-`　Without noticing anything better than being human, `@`in those times, I always felt looked down upon by those around me.`@
+`　Before I knew there was something greater than being human, `@`in those times, I always felt looked down upon by those around me.`@
 br
 ;　見下されたくない、見下し返してやりたいと、@周囲に対する攻撃性を蓄積させていったあの頃。\
-`　Not wanting to be looked down upon, and wanting to look down on others, `@`in those times, I bottled up my aggression them.`\
+`　Not wanting to be looked down upon, and wanting to look down on others, `@`in those times, I bottled up my aggression against them.`\
 
 ;bg black,22
 
@@ -3737,25 +3737,25 @@ br
 ;　殺人を肯定したいとは思わない。@
 `　I didn't think I wanted to be a killer.`@
 ;　……でも、この禊によってコンプレックスから解放されなかったなら、@自分は生涯、どれほど惨めな思いで生きていかなければならなかったのか。\
-`　......But, if this purge didn't free me from my complex, `@`for the rest of my life, how long would I have had to live in despair?`\
+`　......But, if this purge didn't free me from my complex, `@`for the rest of my life, how long would I have to live in despair?`\
 
 bg black,22
 
 ;　それを思えば、どうせ生き続けたって、@自分以外の誰かの慰みにされて生涯を終えただろう毬枝の存在を、@自分が活かし、新しい境地に目覚めたのは当然のことと思えた。\
-`　If I thought about it, as for how long I could go on living, `@`supposing Marie's life was ended for someone else's amusement, `@`I thought it natural for them to live on, and seek new ventures in life.`\
+`　If I thought about it, as for how long I could go on living, `@`if I supposed Marie's life was ended for someone else's amusement, `@`I thought it would be natural for them to go on living, seeking new ventures in life.`\
 
 ;　食物連鎖の上下関係のよう。@
 `　Like the different links in the food chain.`@
 br
 ;　自分は食う側だった。@毬枝は食われる側だった。@…それだけのことなのだ。\
-`　I was the predator. `@`Marie was the prey. `@`...That was there was to it.`\
+`　I was the predator. `@`Marie was the prey. `@`...That was all there was to it.`\
 
 bg hoken_01,22
 
 ;　私が食わなければ、将来、別の誰かが食っていた。@
 `　If I didn't eat her, then in the future, she'd be eaten by someone else.`@
 ;　なら、早い内に私が食ってやって、人生をリセットさせてやる方が慈悲深いというものだ。@
-`　And so, I ate her early on, and in a deeply compassionate way, reset her life.`@
+`　And so, I ate her early on, and in a deeply compassionate way, reset her existence.`@
 br
 ;　もっとも、次の人生でも食われる側に違いないだろうが。@……つくづく救えないヤツさ。\
 `　Although, even in her next life she'll probably be eaten again. `@`......That girl is just that hard to teach, after all.`\
@@ -3787,7 +3787,7 @@ me1v 11,90
 `　While I was immersed in my fantasies, I had a somewhat large bandaid put on and ended my treatment.`@
 br
 ;　礼を述べ、立ち上がった時。@コツ、コツコツ、コツン…、という小さな連続する音を耳にした。\
-`　When I mentioned my thanks and stood up to leave, `@`thump, thump thump, thuummp..., the small series of sounds reached my ears.`\
+`　When I mentioned my thanks and stood up to leave, `@`ting, tingting, tink..., a small series of sounds reached my ears.`\
 
 ld l,HOK_Def1,22
 ;ld l,HOK_Def1,80
@@ -3818,7 +3818,7 @@ br
 bg black,22
 
 ;　だが、その何かが落ちてきただろうと思う方向…、薬品棚の上を見た時、@それが何なのかを理解した。\
-`　But, when he turned his thoughts as to what it might have fallen from..., he looked up above the medicine cabinets, `@`and he understood what it was.
+`　But, when he turned his thoughts as to what it might have fallen from..., he looked up above the medicine cabinets, `@`and he understood what it was.`\
 
 E_A
 
@@ -3840,7 +3840,7 @@ me1v 16,50
 `　That was something particularly out of place in this infirmary, ......A western doll.`@
 br
 ;　経年劣化により、くたびれた様子を隠せないが、@決して安っぽいものではなかったに違いない。\
-`　From its degredation over time, it couldn't hide its worn out state, `@`but there was no doubt it certainly wasn't something cheap.`\
+`　It couldn't hide its worn out state from its degredation over time, `@`but there was no doubt it certainly wasn't something cheap.`\
 
 ;　さっき拾い上げた何かの形状とその人形を何度も見比べ、@おそらく、この人形の洋服のボタンに違いないと察する。\
 `　I compared the shape of the object I had just picked up with the doll many times, `@`and I sensed it was certainly a button from this doll's clothes.`\
@@ -3855,7 +3855,7 @@ ld r,HOK_Def2,24
 ;ld r,HOK_Def1,80
 
 ;「おやおや、そうですか。@それはあとで縫い付けておかないといけませんね。@何しろ、この子はこの保健室の主だそうですから。」\
-`"Oh oh, is that so? `@`I'll have to that back on after you go. `@`After all, because it's said that this child is the master of this infirmary."`\
+`"Oh oh, is that so? `@`I'll have to sew that back on after you leave. `@`After all, because it's said that this child is the master of this infirmary."`\
 
 ;bg hoken_04,0
 ;ld r,HOK_Def1,0
@@ -3882,7 +3882,7 @@ br
 `　Kanamori stood on his toes, and took down the doll that sat atop the medicine cabinets looking down on them.`\
 
 ;　……その人形には、西洋人形独特の、どことなく冷たい雰囲気があり、@金森は社交辞令として可愛いと言ったが、内心は何て可愛げのない不気味な人形だろうと思った。\
-`　......That doll was uniquely Western, and had a vaguely cold air to it. `@`Kanamori had politely called it cute, but in his mind he thought of how it wasn't cute, but an eerie doll.`\
+`　......That doll was uniquely Western, and had a vaguely cold air to it. `@`Kanamori had politely called doll cute, but in his mind he thought of how it wasn't cute but eerie.`\
 
 mbg black,22
 mcbg 22
@@ -3890,17 +3890,17 @@ mcbg 22
 ld r,HOK_Def3,80
 
 ;「えぇ、私も前任の先生から聞いたんですがね。@このお人形、その先生が来られるずっと前からここにあって、@こうして保健室を見守ってるんだそうなんですよ。」\
-`"Yeah, but I've also heard about it from the former nurse, you see. `@`She said this doll had been here long before that nurse came here, `@`and like this, it has been watching over the infirmary."`\
+`"Yeah, but I've also heard about it from the former nurse, you see. `@`She said this doll was here long before she started working, `@`and it had been watching over the infirmary just like it is now."`\
 
 ld l,KAN_Def3,80
 
 ;「そんな馬鹿な。@生徒の誰かの忘れ物じゃないんですか？」\
-`"How absurd. `@`Isn't it something a student lost?"`\
+`"How absurd. `@`Isn't it something some student lost?"`\
 
 ld r,HOK_Def4,80
 
 ;「そんな立派なお人形を持ってきて、忘れちゃう生徒がいるとも思えませんがね。@……そうそう、そのお人形は呪われた人形とか言って、@生徒たちには怖がられてるんだそうですよ。」\
-`"Well I wouldn't think there's a student who would bring such a splendid doll and up and forget about it. `@`......Oh that's right, they say this doll is a cursed doll, `@`and the students are afraid of it, you see."`\
+`"Well I wouldn't think there's a student who would bring such a splendid doll and simply forget about it. `@`......Oh that's right, they say this doll is a cursed doll, `@`and the students are afraid of it, you see."`\
 
 ld l,KAN_Def2,80
 
@@ -3910,7 +3910,7 @@ ld l,KAN_Def2,80
 ld r,HOK_Def2,80
 
 ;「昔、この保健室で死んだ女の子が持っていた人形が、魂が宿って妖怪になったんだとか何とか。@ふふふ、そういう話ってどこの学校に行っても多いですよね。@そうそう、その人形、誰が名付けたのか知りませんが、ちゃんと名前も持ってるんですよ。@……彼岸花って名前だそうで。」\
-`"Long ago, a doll that belonged to a girl who died in this infirmary took her spirit and became a youkai or some such. `@`Huhuhu, no matter what school you go to there are plenty of stories like that. `@`Oh that's right, I don't know who named that doll, but sure enough it has a name. `@`......They say it's called Higanbana."`\
+`"Long ago, a doll that belonged to a girl who died in this infirmary took her spirit and became a youkai or some such. `@`Hehehe, no matter what school you go to there are plenty of stories like that. `@`Oh that's right, I don't know who named that doll, but sure enough it has a name. `@`......They say it's called Higanbana."`\
 
 bg black,24
 bg hoken_03,24
@@ -3923,12 +3923,12 @@ br
 ld r,KAN_Def3,80
 
 ;「……ふぅむ。@あまり縁起のいい名前ではないですね。@なるほど、この不気味な人形にはぴったりかもしれない。@……しかし、そんな人形をいつまでも飾っていると、生徒に怖がられていけないのでは？」\
-`"......Hmmm. It's not a particularly fortunate name is it? `@`Indeed, it just might suit this strange doll perfectly. `@`......But with that kind of doll always there as a decoration, isn't it wrong to be scaring the students with it?"`\
+`"......Hmmm. It's not a particularly fortunate name is it? `@`Indeed, it just might suit this strange doll perfectly. `@`......However isn't it wrong to be scaring the students by keeping that kind of doll there as a decoration?"`\
 
 ld l,HOK_Def2,23
 
 ;「それが、その人形を捨てようとすると祟りがあるって話なんですよ。@ふふ、祟りを信じるわけじゃありませんけど、@ずっとずっとこの保健室で生徒たちを見守ってきた主なら、蔑ろにしちゃ悪いと思いましてね。@そこに座ってもらって、ここにやってくる生徒たちの怪我に、悪いのが入り込んで膿んだりしないように、@見守ってもらってるんです。」\
-`"Well, there's also talk of a curse put on those who throw that doll away. `@`Huhu, it's not that I believe in curses, `@`but since it's been watching over students in this infirmary for a long long time, I'd feel kinda bad you know. `@`She sits there, making sure the injuries of the students who come here don't get worse, `@`and she protects them."`\
+`"Well, there's also talk of a curse put on those who throw that doll away. `@`Hehe, it's not that I believe in curses, `@`but since it's been watching over students in this infirmary for a long long time, I'd feel kinda bad you know. `@`She sits there, making sure the injuries of the students who come here don't get worse, `@`and she protects them."`\
 
 ld r,KAN_Def1,80
 
@@ -3938,13 +3938,13 @@ ld r,KAN_Def1,80
 ld l,HOK_Def4,80
 
 ;「あぁ、ここですね。@あとで縫っておきましょう。@ほら、右腕の袖のボタンですね。」@
-`"Aah, here. `@`I'll sew it on later. `@`See, it's her right sleeve's button."`@
+`"Aah, here. `@`I'll sew it on later. `@`See, it's her right sleeve button."`@
 br
 
 E_A
 
 ;　右腕の、袖の、ボタン……？\
-`　Right, sleeve's, button......?`\
+`　Right, sleeve, button......?`\
 
 
 
@@ -3978,7 +3978,7 @@ me1v 17,50
 `　That night his attention was invariably divided. `@`And so he didn't see how a single button mattered. He ignored it. `@`......But even so, it still left him with a bad feeling.`@
 br
 ;　その、まるで靴下の中に小さな小石でも紛れ込んだような感覚が、ぶわっと脳裏に蘇る……。\
-`　That had felt as if there were a tiny pebble slipped in his sock, but that memory revived in his mind......`\
+`　That memory revived in his mind with a yelp as if a small rock had gotten inside his sock......`\
 
 me2v 28,70
 
@@ -3992,7 +3992,7 @@ br
 `　Even so, it had to be the right sleeve's button.`@
 br
 ;　……毬枝の服から千切れたのと同じ、右袖のボタン……！\
-`　......The same as the one torn from Marie's clothes, the right sleeve's button......!`\
+`　......The same as the one torn from Marie's clothes, her right sleeve button......!`\
 
 ;bg "BMP\background\efe\red1.bmp",1
 ;bg black,22
@@ -4012,13 +4012,13 @@ lsp2 3,$ld_pass2,130,170,200,200,0
 print 22
 
 ;“馬鹿な男ね。@この世に蒸発するものは２つしかない。@何かわかる？”@
-`"What a foolish man. `@`There are only two things that can disappear from this world. `@`Know what they are?"`@
+`"What a foolish man. `@`There are only two things that can evaporate, or disappear from this world. `@`Know what they are?"`@
 br
 ;　え…？@　な、何の話だ……？@
 `　Huh...? `@`　Wh, what are you talking about......?`@
 br
 ;　人形が自分に語り掛けるはずなどないという先入観が、その問いを霞ませる。\
-`　The preconception that there was no way a doll could talk to me blurred with that question.
+`　The preconception that there was no way a doll could talk to me blurred with that question.`\
 
 ld_p HIG_Def2
 lsp2 2,$ld_pass,130,170,200,200,0
@@ -4026,10 +4026,10 @@ lsp2 3,$ld_pass2,130,170,200,200,0
 print 80
 
 ;“蒸発するものは。@……水と感謝の心、この２つだけよ。@くすくすくすくす……。”@
-`"The things that disappear. `@`......Water and grateful souls, just these two. `@`*giggle*giggle*giggle*......"`@
+`"The things that disappear. `@`......Water and grateful souls, just these two. `@`*giggle giggle giggle*......"`@
 br
 ;　……あぁ、なるほど、それはよくできてる皮肉だなと笑う。@…だが、すぐにその笑いが凍る言葉を人形は続けた。\
-`　(?)......She laughed at her well made satire. `@`...But the doll quickly froze her laughter and continued.`\
+`　......She laughed at her own joke sarcastically. `@`...But the doll quickly froze her laughter and continued.`\
 
 ld_p HIG_Def4
 lsp2 2,$ld_pass,130,170,200,200,0
@@ -4050,7 +4050,7 @@ lsp2 3,$ld_pass2,130,170,200,200,0
 print 80
 
 ;“そう。@水でも心でもない材質でできてるのね。@なら、蒸発なんてするわけがない。@溶けもしないし蒸発もしない。@……なら、まだ落とした場所に残っていることになるわね。@……落とした場所に、いつまでも。@誰かに拾われるまで、…ずぅっとね？@　くすくすくすくすくすくすくすくす…………………。”\
-`"Right. `@`It's made of things that aren't water or souls. `@`So there's no way it can disappear from this world. `@`It can't dissolve nor evaporate. `@`......So it must still be where it was dropped, right? `@`......It'll be where it was dropped, always. `@`Until it's found by someone, ...it'll be there forever won't it? `@`*giggle*giggle*giggle*giggle*giggle*giggle*`\
+`"Right. `@`It's made of things that aren't water or souls. `@`So there's no way it can disappear from this world. `@`It can't dissolve or evaporate. `@`......So it must still be where it was dropped, right? `@`......It'll be where it was dropped, always. `@`Until it's found by someone, ...it'll be there forever won't it? `@`*giggle*giggle*giggle*giggle*giggle*giggle*`\
 
 
 
@@ -4074,7 +4074,7 @@ me1v 26,50
 `　The meaning of those words began to pain me.
 br
 ;　都合の悪いことを、人間はすぐに忘れたがる。@……今日まで私は、あの毬枝のボタンの違和感を、……忘れていた。\
-`　It was an inconvienent thing that people would have wanted to quickly forget. `@`......Until today, that bad feeling I had about Marie's button ......I had forgotten it.`\
+`　It was an inconvienence that most people would have wanted to quickly forget. `@`......And until today I had forgotten it, ......that bad feeling I had about Marie's button.`\
 
 ;　……だが、私がいかに忘れようとも、ボタン自体はなくならない。@
 `　......But no matter how I wanted to forget it, the button itself wouldn't disappear.`@
@@ -4087,25 +4087,25 @@ bg toire_01,1
 bg black,22
 
 ;　……そう。@あの右袖のなくなったボタンのことを忘れてはいけなかったのだ。@
-`　......That's right. `@`I mustn't forget about that button that came off that right sleeve.`@
+`　......That's right. `@`I mustn't forget about that button that came off her right sleeve.`@
 ;　最初からボタンが千切れていたわけはない。@
-`　From the start there was no way it had been torn off at all.`@
+`　There was no way the button was torn off from the beginning.`@
 br
 ;　ガサツな男子なら、ボタンが１つくらい千切れた服でもまったく気にしないだろう。\
-`　If it was a crude boy, they wouldn't care at all about a single button torn from his clothes.`\
+`　If she were crude boy, she wouldn't care at all about a single button torn from her clothes.`\
 
 ;bg "BMP\background\efe\red1.bmp",1
 bg toire_08,1
 bg black,22
 
 ;　だが、女子だぞ！@　ボタンが取れたら必ず付ける。@
-`　But she was a girl! `@`If a button is taken off it'll certainly be put back on again.`@
+`　But she was a girl! `@`If a button was torn off, she would have certainly put it back on again.`@
 br
 ;　……毬枝も几帳面なタイプだった。@右袖のボタンが千切れたまま、日々の生活をしていたわけがない。@
-`　......Even Marie was the methodical type. `@`She wouldn't go through her daily routine with a button torn off her right sleeve.`@
+`　......Even Marie was the methodical type. `@`She wouldn't go through her daily routine with a button missing from her right sleeve.`@
 br
 ;　だから、あのボタンは間違いなく、あの日に千切れたのだ…！\
-`　So that button, undoubtedly, would have to be from that day...!`\
+`　So that button must have been torn off on that day...!`\
 
 me2v 11,90
 fede 11,2000
@@ -4134,7 +4134,7 @@ wait 1000
 ld r,KAN_K2,80
 
 ;「……あ、いえ。@ありがとうございました。@ちょっと用事を思い出したところです。@すみません、失礼します……。」\
-`"......Ah, no. `@`Thank you very much. `@`I just remembered I have some business to take care of. `@`Sorry, if you'll excuse me......"`\
+`"......Ah, no. `@`Thank you very much. `@`I just remembered I have some business to take care of. `@`Sorry, now if you'll excuse me......"`\
 
 cl r,22
 bg black,2
@@ -4144,7 +4144,7 @@ bgm1 10
 bg rouka_02,2
 
 ;　……もう私の心には、根拠なき安心感などなかった。@
-`　......Already foundation of my mental state and sense of security were gone.`@
+`　......Already the foundation for my mental state and sense of security were gone.`@
 br
 ;　このままぼんやりとしていれば、いつかあのボタンを誰かが見つける。\
 `　If I continue aimlessly like this, sometime someone will find that button.`\
@@ -4153,7 +4153,7 @@ br
 `　Because the police have long known about the clothes Marie wore the day she disappeared, `@`if by chance it winds up in their hands, they'll probably realize it belongs to Marie's clothing.`@
 br
 ;　……それほどまでに危機的状況を放置して、私は何をのうのうとしていたのか……。\
-`　......What have I been doing being so carefree leaving such a critical state of affairs......?`\
+`　......What the hell am I doing being so carefree in letting this critical situation go?......`\
 
 bg black,22
 
@@ -4170,10 +4170,10 @@ mono 1
 bg toire_07,22
 
 ;　いや、でも、あそこを出る時、痕跡が残っていないかどうか確かに見たはず…！@
-`　No, and yet, when I left there I was sure I didn't leave any traces or the like behind...!`@
+`　No, and yet, when I left there I was sure I didn't leave any traces behind...!`@
 br
 ;　でもそんなのは焦る心でちらりと見ただけのこと。@落ちた一粒のボタンを見逃さないほどに慎重だったとは思えない…。\
-`　But that was when I was in a hurry and only looked with a glance. `@`I don't think I cared so much that a grainlike fallen button couldn't have escaped my sight...`\
+`　But that was when I was in a hurry and only looked with a glance. `@`I don't think I cared that much if a grainlike fallen button escaped my sight...`\
 
 bg black,22
 mono 0
@@ -4185,7 +4185,7 @@ br
 `　It's there. `@`......It's in there.`@
 br
 ;　……私は、誰にも見られずに旧校舎に入るため、完全にひと気がなくなる時間まで、@逸る心を抑えて待つしかできなかった……。\
-`　......In order to not be seen by anyone when I entering the old school building, and stay there until I could be completely satisfied, `@`all I could do was hold back my impatient mind and wait.
+`　......In order to not be seen by anyone when I entering the old school building, and stay there until I could be completely satisfied, `@`all I could do was hold back my impatient mind and wait......`\
 
 bg black,2
 
@@ -4211,12 +4211,12 @@ bg hoken_04,23
 `　Obviously there was no way "Higanbana" could laugh. `@`She was a doll after all.`@
 br
 ;　少し疲れているかもしれない…。@今日は家に帰ったら早めに床に入ろう。@そう思うのだった。\
-`　She might have been a little tired... `@`After going home today she would quickly get to bed. `@`And so she thought.`\
+`　The nurse might have been a little tired... `@`She thought after going home today she would quickly get to bed.`\
 
 mbg black,22
 
 ;「……くすくすくすくすくす。@どっちが『めそめそさん』に相応しいか、見物ね。@投票まで待つなんて面倒臭い。@……当事者同士で決めあうのが正しいとは思わない？」\
-`"......*giggle*giggle*giggle*. `@`Which is more suitable to be "Mesomeso-san"? That'll be a sight, won't it? `@`Waiting until a vote is annoying. `@`......Don't you think it'd be better if the two involved decided it themselves?"`\
+`"......*giggle giggle giggle*. `@`Which one is the better "Mesomeso-san"? That'll be a sight, won't it? `@`Waiting until a vote is boring. `@`......Don't you think it'd be better if the two involved decided it themselves?"`\
 
 mcbg 22
 ld r,HOK_Def4,80
@@ -4238,7 +4238,7 @@ wait 1000
 bg e005,25
 
 ;「さぁ……。@毬枝も金森も。@どちらが相応しいか見せて頂戴。@ウチのクラスのみんなも、投票より面白いかもしれないって期待してるんだから。@くすくすくすくす…！」\
-`"Now then...... `@`Marie. Kanamori. `@`Please show me who is more fitting. `@`Because everyone in 'our class' too is hoping for something more interesting than a vote. `@`*giggle*giggle*giggle*...!"`\
+`"Now then...... `@`Marie. Kanamori. `@`Please show me who is more fitting. `@`Because everyone in 'our class' are also hoping for something more interesting than a vote. `@`*giggle giggle giggle*...!"`\
 
 bg black,22
 fede 0,2000
@@ -4260,17 +4260,17 @@ me2v 11,90
 wait 2000
 
 ;「金森先生はまだ残られますか。@明日に響きますよ。」\
-`"Are you staying here Kanamori-sensei? `@`Tomorrow isn't far off now."`\
+`"Are you staying here Kanamori-sensei? `@`It won't be long until tomorrow you know."`\
 
 bg shokuin_02,0
 ld l,KAN_Def1,22
 ld l,KAN_Def2,80
 
 ;「ありがとうございます、教頭先生。@もう少しで区切りがつきますので、もう少しだけ残らせてください。」\
-`"Thank you very much, Vice Principle. `@`Since I'm almost at a stopping point, please let me stay here a bit longer."`\
+`"Thank you very much, Vice Principle. `@`I'm almost done here, so please let me stay here a bit longer."`\
 
 ;「わかりました。@でも、ほどほどで引き上げてくださいよ。@あまり残業時間が付き過ぎると、組合にも事務局にも文句を言われますので。」@
-`"Understood. `@`But please start finishing up. `@`Because if you get too many overtime hours, we might even get a complaint from the union executive office."`@
+`"I understand. `@`But please start finishing up. `@`Because if you get too many overtime hours, we might even get a complaint from the union executive office."`@
 
 ld l,KAN_Def3,80
 
@@ -4278,7 +4278,7 @@ ld l,KAN_Def3,80
 `"Hahahahahahaha......"`\
 
 ;「じゃあ、申し訳ございません。@私もこれで今日は失礼させていただきます。@金森先生が最後になると思いますので、セキュリティのセットをよろしくお願いします。@あと、２３時を超えるようでしたら、警備会社に連絡しないと確認に来てしまいます。@くれぐれも注意してくださいよ。」\
-`"Well, I apologize. `@`But I'm going to have to excuse myself for the day. `@`Since I think Kanamori-sensei will be the last one out, please set up the security. `@`Also, if it's not on by 11 o'clock, if you don't call the security company they'll come check on it. `@`Be really careful please."`\
+`"Well, I apologize. `@`But I'm going to have to excuse myself for the day. `@`Since I think you will be the last one out, please set up the security system. `@`Also, if it's not on by 11 o'clock, if you don't call the security company they'll come check on it. `@`Be really careful please."`\
 
 ld l,KAN_Def2,80
 
@@ -4286,7 +4286,7 @@ ld l,KAN_Def2,80
 `"Yeeees, I'm aware of that."`@
 br
 ;　……それは忘れてた。@……あのトイレを調べるのにそんな時間を掛けるつもりはないが、@そこに警備会社が来て鉢合わせじゃ、いろいろ都合が悪かったところだ……。\
-`　......I had forgotten about that. `@`...Although I hadn't planned on taking that long to check that bathroom, `@`but if I end up bumping heads with the security company, it'll be all kinds of inconvenient......`\
+`　......I had forgotten about that. `@`...Although I hadn't planned on taking that long to check that bathroom, `@`but if I end up bumping heads with the security company, there'll be all kinds of trouble......`\
 
 bg black,2
 ;bg shokuin_03,23
@@ -4302,7 +4302,7 @@ bgm1 12
 
 
 ;　金森は、今夜はこれまで以上に慎重だった。@…毬枝を殺した日よりも慎重なくらいに。@
-`　Up until now, Kanamori had been discrete tonight. `@`...More discrete than the day he killed Marie.`@
+`　Tonight Kanamori had been more discrete than ever before. `@`...Even more discrete than the day he killed Marie.`@
 br
 ;　教頭の姿が校庭を横断していくのを見届けてから、@教頭の忠告通り、警備会社に残業で遅くなる旨の連絡を入れる。\
 `　After seeing the vice principle cross the campus with his own eyes, `@`heeding the vice principle's advice, he called the security company to let them know he'd be working late that night.`\
@@ -4314,14 +4314,14 @@ br
 bg rouka_01,22
 
 ;　……そして、職員室を出て旧校舎に向かう前に、@自らの気配を殺し、校内に誰かが潜んでいないかをうかがった。\
-`　......So he left the staff room, and before heading to the old school building, `@`hiding his presence, he watched to see if anyone was lurking in the school.`\
+`　......So he left the staff room, and before heading to the old school building, `@`he hid himself and watched to see if anyone was lurking in the school.`\
 
 
 ;　もちろん、耳に入ってくる音は何もない。@
-`　Naturally, no sound reached his ears. `@
+`　Naturally, no sounds caught his attention. `@
 br
 ;　校舎に染み入ってくる夜の虫の声だけ。@
-`　Just the cries of the insects that infested the old building.`@
+`　Only the cries of insects infested the old building.`@
 ;　……自分が呼吸を許せば、@それはまるで嵐のようにうるさく聞こえるくらいだった。\
 `　.......When he allowed himself a breath, `@`it sounded as loud as a storm in his ears.`\
 
@@ -4343,7 +4343,7 @@ br
 ;　昼間の学校は、たくさんの生徒と教師で賑わい、@間違いなくひとつの社会を形成している。@
 `　In the day the school bustles with many students and teachers, `@`doubtlessly it was forming its own society.`@
 ;　しかもそれは、世間とは切り離された別の世界で、@学校という別次元を構成しているとまで言えるだろう。@
-`　But that world was a different world seperated from this world, `@`it might even be said that school occupied a different dimension.`@
+`　But that world was a different world seperated from this world, `@`it might even be said that the school occupied a different dimension.`@
 br
 ;　その次元の中に、……今、自分がひとりしかいない。\
 `　In that dimension, ......Now, he was alone.`\
@@ -4356,20 +4356,20 @@ ld r,KAN_K1,22
 `　Society is order made by the many. `@`...And without numbers, when there's only one, ...it is a society no more.`@
 br
 ;　つまり、今この瞬間、この学校という次元は、@社会というモラルから解放され、自分だけの世界になったのだ。\
-`　Basically, in this moment, in this seperate school dimension, `@`freed from the morals of so called society, the world was his alone.`\
+`　In other words, in this moment, in this seperate school dimension, `@`freed from the morals of so called society, the world was his alone.`\
 
 ;　昼間の学校で廊下を走れば、生徒に走ってはいけないと囃され、@教頭に見つかれば、生徒の模範にならないと叱られもするだろう。@
-`　If he ran in the halls during the day, he'd be scolded by his pupils, `@`and if the vice principle saw him, he'd probably be made example of infront of the students.`@
+`　If he ran in the halls during the day, he'd be scolded by his pupils, `@`and if the vice principle saw him, he'd probably be made example of in front of the students.`@
 ;　廊下は走ってはいけないという、社会のルールがあるからだ。\
-`　Because not running in the hallway is one of those rules of society.`\
+`　Because 'no running in the halls' is one of those rules of society.`\
 
 bg black,22
 
 ;　だが、この深夜の学校は社会から解放されている。@
-`　However, this school in the depth of night has now been set free from society.`@
+`　However, this school in the depth of night has now been set free from that society.`@
 br
 ;　つまり、社会の作ったルールが及ばない、……ここにいる自分だけの世界なのだ。\
-`　In other words, the rules created by society no longer reach him, ......this is a world where he alone exists after all.`\
+`　In other words, the rules created by society can no longer reach him, ......after all, this is a world where he alone exists.`\
 
 ld c,KAN_K3,22
 
@@ -4377,13 +4377,13 @@ ld c,KAN_K3,22
 `　And even if he ran ahead at full speed, there wasn't anyone to worry about.`@
 br
 ;　今この瞬間こそ、自分はこの世界の王であり、@社会の構成要素の１つである人間などというちっぽけな存在をはるかに超越しているのだ。\
-`　And even in this moment, he was the lord of this world. `@`He had transcended his insignificant existence as a single man in the larger society.`\
+`　Even in this moment, he was the lord of this world. `@`He had transcended his insignificant existence as a single man in the larger society.`\
 
 bg rouka_01,0
 ld c,KAN_K5,22
 
 ;　そう思えば思うほど、早く毬枝のボタンを見つけなければならないという焦りが消えていき、@自分はさっきまで、何てちっぽけな悩みに焦燥感を感じてきたのかと呆れたくなってしまう。@
-`　The more he thought about it, the more his impatience about quickly finding Marie's button began to fade. `@`He had wanted to feel surprised at how little frustration he felt in his impatience.`@ 
+`　The more he thought about it, the more his impatience about quickly finding Marie's button began to dissipate. `@`He began to feel surprised at how frustrated and impatient he was moments ago.`@ 
 br
 ;　自分に角があるなら。@自分に翼があるなら。@今こそ思い切り伸ばしてやろう、広げてやろう！\
 `　If he had horns. `@`If he had wings. `@`Then now more than ever he lengthened and grew them, unfolded and extended them!`\
@@ -4405,7 +4405,7 @@ lsp bgsp,":a;bmp\background\efe\mabuta2.bmp",0,0,200
 bg k_rouka_03,2
 
 ;　だが、その悪魔的な自信は、旧校舎に一歩踏み入った瞬間に引き、@…そして、凍りつくぐらいに冷酷なまでの慎重さに摩り替わった。@……それもまた、悪魔的なまでに。\
-`　However, the moment he stepped foot into the old school building his demonic confidence retreated. `@`...It was replaced with a discretion as if his ruthlessness had frozen in ice. `@`......It even froze his demonic nature.`\
+`　However, the moment he stepped foot into the old school building his demonic confidence retreated. `@`...It was replaced with a discretion as if his ruthlessness had frozen in ice. `@`......It even froze his inner demon.`\
 
 ;　旧校舎に明かりをつければ、@ひょっとすると近隣の住民に見られてしまうこともあるかもしれない。@だから電気をつけず、懐中電灯の細い明かりだけを灯した。\
 `　If he turned the lights on in the old school building, `@`he might be seen by someone in the neighborhood. `@`And so without turning on the lights, he illuminated his path with the thin glow of a flashlight.`\
@@ -4430,10 +4430,10 @@ wait 1000
 ;　これでこの世界は完全に切り取られた。@
 `　And with this he had completely severed himself from the world.`@
 ;　学校という世界から、さらに切り取られて隔絶されたのだ。@
-`　Torn and made isolated from that world known as school.`@
+`　He was torn and isolated from that school world.`@
 br
 ;　つまり、人の世から、二つ分も遠くに切り離された世界ということ。\
-`　In other words, a second world divided far away from the human world.`\  
+`　In other words, he was in a second world divided far away from the human world.`\  
 
 bg black,22
 ;locate 0,3
@@ -4442,7 +4442,7 @@ br
 `"......If you've gone this far from the human world, ...you'll get closer to the spirit world, won't you...?`@/
 se1 84
 ;　くすくすくすくすくす……。”\
-`　*giggle*giggle*giggle*......"`\
+`　*giggle giggle giggle*......"`\
 
 lsp bgsp,":a;bmp\background\efe\mabuta2.bmp",0,0,100
 bg k_rouka_03,22
@@ -4450,10 +4450,10 @@ bgcopy
 csp -1
 
 ;　あの、ボタンの飛んだ保健室の人形の声がまた聞こえた気がした。@
-`　He felt as if he heard that voice of the doll whose button fell in the infirmary again.
+`　He felt as if he heard the voice of the doll whose button fell in the infirmary again.
 br
 ;　もちろん、人形がしゃべるわけなどないのだから、そんな馬鹿なことはあるわけもない。\
-`　Of course because there was no way a doll could speak, there's no way something that foolish could happen.`\
+`　Of course there was no way a doll could talk, so it was impossible for something that foolish to really happen.`\
 
 ;　……でも、今の旧校舎の世界は、@人形などしゃべるわけがない人の世よりも、二つも遠のいている。\
 `　......And yet this world of the former school building `@`and the human world where dolls couldn't speak were two vastly different places.`\
@@ -4463,7 +4463,7 @@ bg black,22
 me1v 28,70
 
 ;　ひょっとして、…今のこの旧校舎の世界では、@人形ガオシャベリヲ始メテモ、問題ガナイ世界ナノデハ……？\
-`　Maybe ...here in this old school, `@`lies a world where even dolls c an be g in to sp e ak......?`\
+`　Maybe ...here in this old school, `@`lies a world where e v e n  d o l l s  c a n  t a l k......?`\
 
 lsp bgsp,":a;bmp\background\efe\mabuta2.bmp",0,0,100
 bg k_rouka_03,22
@@ -4473,10 +4473,10 @@ csp -1
 ld c,KAN_K3,22
 
 ;「……はは、…は…。@…馬鹿馬鹿しい……。」@
-`"......Ha ha, ...ha... `@`...That's absurd......`@\
+`"......Ha ha, ...ha... `@`...That's absurd......`@
 br
 ;　笑い飛ばしたくて、あえて口に出すが、@さっきまでの安っぽい威勢が嘘のように退いていることを実感するだけだった。\
-`　He had wanted to laugh. And after he dared let it pass his mouth, `@`he felt as if the power moments ago had been cast aside like a lie.`\
+`　He had wanted to laugh. And after he dared let it pass his mouth, `@`he felt as if the power he had earlier had been cast aside like a lie.`\
 
 bg black,22
 
@@ -4492,7 +4492,7 @@ csp -1
 `　It was something ingrained in his mind since childhood. `@`He remembered unfounded rumors regarding the strange world of the school at night, and now they began to slowly work their effect on his mind......`\
 
 ;　もう一度、馬鹿馬鹿しいと口にしようとしたが、@……もう一度口にすると、今度は、胸の中に芽生えつつある、恐れという感情を呼び起こしかねないと思い、@それをぐっと飲み込んだ……。\
-`　He wanted to say how absurd it was again, `@`.......This time as he tried to say the words, they were caught like a lump in his throat. He thought saying them might cause him to remember that emotion known as horror, `@`so he swallowed them back down......`\
+`　He wanted to say how absurd it was again, `@`.......This time as he tried to say the words, they were caught like a lump in his throat. He thought saying them might cause him to remember that emotion - horror, `@`so he swallowed them back down......`\
 
 bg black,22
 lsp bgsp,":a;bmp\background\efe\mabuta2.bmp",0,0,100
@@ -4543,13 +4543,13 @@ csp -1
 `　......That strange sound he hadn't noticed during the day filled the bathroom.`\
 
 ;　トイレ内の明かりをつけたいという欲求に駆られたが、それを必死に抑え、@か細い懐中電灯の明かりで照らし出す。\
-`　He had wanted to run and turn on the lights inside, and so he desperately checked for it. `@`He illuminated the area with the thin beam of his flashlight.`\
+`　He had wanted to run and turn on the lights inside, but he held back his desperation, `@`and he illuminated the area with the thin beam of his flashlight.`\
 
 ;　……もし、……あの毬枝を殺した個室の扉が閉まっていて、@………そこから、めそめそという、毬枝の泣き声が聞こえてきたら……。\
-`　......Perhaps, ......That stall door where I killed Marie is still shut, `@`......And after they heard Marie sobbing mesomeso......`\
+`　......Perhaps, ......That stall door where I killed Marie is still shut, `@`......that place where Marie's sobbing mesomeso came from......`\
 
 ;　昼間の世界でだったら、失笑してしまうような安っぽい怪談も、@……今のこの世界では、コインを放ったら、時には裏面が上になるというのと同じくらいの確率で、@実際に起こりかねない恐ろしさを秘めている……。@
-`　In the world in the daytime, this might have been a laughably cheap ghost story, `@`......But in this world, with about as much likelyhood as a coin landing on tails, `@`it held the chance of that horror becoming reality......`\
+`　In the world in the daytime, this might have been a laughably cheap ghost story, `@`......But in this world, with about as much likelyhood as a coin landing on tails, `@`it held the chance of that horror becoming reality......`@
 br
 ;　だからこそ、…あの個室を照らすのに、躊躇があった……。\
 `　Even though all he had to do was shine his light on that bathroom stall, he hesitated......`\
@@ -4561,10 +4561,10 @@ bg toire_07,0
 ld l,KAN_def3a,22
 
 ;「………………………くそ、…何をびびってんだ…。@怖いのは毬枝の亡霊じゃないさ、落ちているボタンを警察に見つけられることの方じゃないか。@……くだらないさ。@…ふふ……。」@
-`"...............Dammit, ...the hell am I afraid of... `@`Marie's ghost isn't something to be afraid of, it's that fallen button the police might find. `@`......How trivial. `@`...Huhu......"`@
+`"...............Dammit, ...the hell am I afraid of... `@`Marie's ghost isn't something to be afraid of, it's that fallen button the police might find that's important. `@`......How stupid. `@`...Hehe......"`@
 br
 ;　意味もなくにやりと笑って自分を奮い立たせながら、@……あの個室に懐中電灯の明かりを向けた。\
-`　While cheering himself up with his meaningless chuckle, `@`......he poked his flashlight into that stall.`\
+`　With a senseless grin he tried to boost his morale,`@`......as he shined his flashlight towards that stall.`\
 
 bg black,23
 lsp bgsp,":a;bmp\background\efe\mabuta2.bmp",0,0,100
@@ -4582,13 +4582,13 @@ br
 `　The stall hadn't been closed or anything.`@
 br
 ;　だから無論、中に誰かがいたりなどしないし、@めそめそと泣き声をさせていることなどない……。\
-`　So obviously, there wasn't anyone inside, `@`and there wasn't any crying voice sobbing mesomeso......`\
+`　Naturally there wasn't anyone inside, `@`and there wasn't any crying voice sobbing mesomeso......`\
 
 ;　……本当に…？@
 `　......So that's it...?`@
 br
 ;　それを確かめるために息を潜めようかとも思ったが、@…それをすることは、せっかく一度は抑えた感情を再び呼び起こすことになりかねない。@
-`　He thought as he confirmed it and sighed in relief. `@`...But in doing so, the fears he had restrained seemed as if they were about to resurface once again.`@
+`　He thought while checking it and sighed in relief. `@`...But in doing so, the fears he had restrained seemed as if they were about to resurface once again.`@
 br
 ;　だから、それをやることを堪え、とにかく、個室の中を検めることにする……。\
 `　He resisted, in any case he set out to examine the bathroom stall...`\
@@ -4623,13 +4623,13 @@ csp -1
 `　......Once this stall was an immoral place where I performed countless atrocities with Marie.`@
 br
 ;　その行為はあれほどにも長い日々に及んだにも関わらず、@……たった一度の出来事である、毬枝を殺したあの日の記憶に完全に塗りつぶされていた。\
-`　Even though I remeber those long days when I committed those indescretions, `@`......they were all completely blotted out by my memory of that sole act -- that day when I killed Marie.`\
+`　Even though I remember those long days when I committed those indescretions, `@`......they were all completely blotted out by my memory of that sole act -- that day when I killed Marie.`\
 
 ;　……だから、蘇る毬枝の姿は、淫らなそれではなく、@……私が絞殺した後、着衣の乱れも気にせずにだらしなく崩れ落ちた、あの姿なのだ。@
-`　......Because the Marie that revived in my mind wasn't stimulating, `@`......It was when she carelessly tumbled to the ground unaware of her indecency after I strangled her.
+`　......Because the Marie that revived in my mind wasn't the one that stimulated me, `@`......it was when she carelessly tumbled to the ground unaware of her indecency after I strangled her.
 br
 ;　その姿を連想した時、心の奥底に、ほんの少しだけ後悔の念も浮かんだ。@だが、すぐにその考えを捨てる。@
-`　When I remembered her body, I felt just a slight sense of regret float from the bottom of my heart. `@`But I quickly disposed of it.`\
+`　When I remembered her body, I felt just a slight sense of regret float from the bottom of my heart. `@`But I quickly disposed of it.`@
 br
 ;　そのような考えに囚われること自体が、自らの弱さを認めるように思ったからだ。\
 `　Because if I allowed myself to entertain such thoughts, I thought all I was doing was acknowledging my own weakness.`\
@@ -4639,17 +4639,17 @@ mono 2
 bg Different_spiral_1a,22
 
 ;　日々の糧食に対し、@いちいち元になった動物や植物に後悔などしていたら、パンの一枚も食べられやしないだろう。@
-`　Take daily provisions for instance, `@`if he came to regret every single animal or plant he had eaten before, he wouldn't even be able to eat a slice of bread.`@
+`　Take my daily meals for instance, `@`if I came to regret every single animal or plant I have eaten before, I wouldn't even be able to eat a slice of bread.`@
 br
 ;　……今の自分にとって、毬枝はその程度の存在なのさ。\
-`　......And that's my attitude towards Marie.
+`　......And that's my attitude towards Marie.`\
 
 ;bg Different_spiral_1b,22
 
 ld c,KAN_K1,22
 
 ;　ヒエラルキーによる断固とした階級の違いがあり、@私はそのピラミッドにおいて毬枝より上位にいた。@……ただそれだけのことなのだ。@
-`　We're firmly different levels in the hierarchy. `@`I'm placed in a higher position on the pyramid than Marie. `@`......And that's all there was to it.`@
+`　We're firmly different levels in the hierarchy. `@`I'm placed in a higher position than Marie on the pyramid. `@`......And that's all there was to it.`@
 br
 ;　だからこれは当然の結果であり、何も私が後悔する必要などないのだ。@パンを食べて悲しみの涙を零す人間がいないように。\
 `　Because this was a natural result, and I don't have to regret anything. `@`Just like there are no humans who shed tears of sadness from eating bread.`\
@@ -4663,7 +4663,7 @@ ld c,KAN_def3a,22
 bgcopy
 csp -1
 ;「……くだらない妄想だ。@……そんなことより、ボタンがないか探さないと。」@
-`"......Such pitiful daydreams. `@`......Anyway, I have to see if that button is here."`@
+`"......Such stupid thoughts. `@`......Anyway, I have to see if that button is here."`@
 br
 ;　言葉にして自らに言い聞かせないと、ますます妄想に囚われるような気がした。\
 `　I felt as if I didn't scold myself I would be sucked more and more into my delusions.`\
@@ -4679,10 +4679,10 @@ bg k_rouka_03,22
 `　......Already it seemed like the air of this different dimension in the old school started to eat away at me.`\
 
 ;　早く、この異常な世界から抜け出ないと、何か取り返しの付かないことになると、@子供の頃以来、すっかり錆び付いていた第六感が警告する……。@
-`　I had to quickly pull myself out of this strange world, or else I'd lose the ability to return from it. `@`A sixth sense that had molded since childhood warned me so......`@
+`　I had to quickly pull myself out of this strange world, or else I wouldn't be able to return from it. `@`A sixth sense that had molded since childhood warned me so......`@
 br
 ;　急いで、……だけれども執拗に丁寧に調べなくては……。\
-`　I must hurry, ......And yet I had to relentlessly and carefully search...`\
+`　I must hurry, ......But I had to relentlessly and carefully search...`\
 
 bg black,42
 lsp bgsp,":a;bmp\background\efe\mabuta2.bmp",0,0,100
@@ -4694,7 +4694,7 @@ csp -1
 `　I didn't care if it was a toilet stall, I crawled down on all fours and searched as if I were licking the floor.`@
 br
 ;　尿がこびり付いて変色し、永遠に汚臭を放ち続ける床の上に、@……毬枝のボタンが落ちているのを見つけることはできなかった。\
-`　On top of that floor stained the color of urine that eternally released its foul oder, `@`......I couldn't the button that fell off Marie.`\
+`　On top of that urine color stained floor that eternally released its foul oder, `@`......I couldn't find the button that fell off Marie.`\
 
 bg black,22
 
@@ -4702,7 +4702,7 @@ bg black,22
 `　......Under normal circumstances I might have thought that meant it wasn't here.`@
 br
 ;　でも、なぜか確信していた。@根拠などない。@……間違いなく、ボタンはここにあるのだ。@ここに！　絶対…！\
-`　But somehow I was convinced. `@`I had no reason to think so. `@`......No doubt, the button is here. `@`HERE!　IT HAS TO BE...!`\
+`　But somehow I was convinced. `@`I had no proof. `@`......But I had no doubt, the button was here. `@`IT HAS TO BE HERE...!`\
 
 lsp bgsp,":a;bmp\background\efe\mabuta2.bmp",0,0,100
 bg toire_08,22
@@ -4719,7 +4719,7 @@ br
 `　......The moment I strangled Marie to death the stall door was closed. `@`Now the door was open so I could crawl around the stall.`\
 
 ;　扉の内側に何か。@…あるいは扉の裏側に何か。@
-`　There might be something on the inside of the door? `@`...Or possibly the outside?`@
+`　Maybe there's something on the inside of the door? `@`...Or possibly the outside?`@
 br
 ;　ボタンがそんなところにあるわけがないと思いつつも、……あの日と同じ個室内を再現しないことには、その妄想も振り払えなかった。\
 `　Even though I thought there was no way the button could be in such a place, ...I thought that if I didn't recreate the same stall from that day, I wouldn't be able to free myself from my delusions.`\
@@ -4825,7 +4825,7 @@ ld c,KAN_K5,22
 `　......Huhu, ......Hahahahahahaha. `@`...I found it......I found it......`@
 br
 ;　大声で笑いたくなるのを懸命に堪える。@
-`　I desperately resisted the urge to wail in laughter.`@
+`　I desperately resisted the urge to howl in laughter.`@
 ;　まずはこのボタンを永遠に処理する方が先だった。@
 `　I could think about this button as long as I wanted later.`@
 ;　難しく考える必要はない。@こうして便器に落として、流してしまえばいいだけなのだ。\
@@ -4844,9 +4844,9 @@ bgcopy
 csp -1
 
 ;　あの人形の言う通り、ボタンは蒸発しないから、この世に残り続けはするだろう。@
-`　Just as that doll said, because that button can't disappear it'll probably remain in this word.`@
+`　Just as that doll said, because that button can't disappear it'll probably remain in this world.`@
 ;　だが、下水道管に入り込んだ小さなボタン一粒など、絶対に探し出せるものか！@　砂漠のビーズを探すより困難に決まってる！\
-`　But no one could find something like a tiny button in a sewar! `@`It would be harder than finding a bead in a desert!`\
+`　But no one could find something like a tiny button that fell into the sewar! `@`That would be harder than finding a bead in a desert!`\
 
 ;　だから事実上、これで永遠に葬ったも同然なのだ。@
 `　And so this was the same as sending it into the eternal abyss.`@
@@ -4930,7 +4930,7 @@ ld r,KAN_K4,2
 `　No, that's not the right way to put it.`@
 br
 ;　触れた指が静電気に弾かれたのではなく、@……鍵に触れた時、私が静電気で弾かれたような感覚を受けた、というのが正しい…。@なぜなら………、\
-`　It wasn't as if my finger had been hit by static electricity, `@`......It felt as if when touching it, it was better to say I had been struck with static electricity... `@`Because.........,`\
+`　It wasn't as if 'my finger' had been hit by static electricity, `@`......It felt as if when touching it, it was better to say 'I' had been struck with static electricity... `@`Because.........,`\
 
 bg black,22
 
@@ -4938,7 +4938,7 @@ E_A
 bgm1 13
 
 ;　扉の向こうから、めそめそという少女の泣き声が聞こえてきたから……。\
-`　from the other side of the door, I heard the voice of a girl sobbing mesomeso......`\
+`　From the other side of the door, I heard the voice of a girl sobbing "mesomeso"......`\
 
 ;bg "BMP\background\efe\red1.bmp",1
 ;lsp bgsp,":a;bmp\background\efe\mabuta2.bmp",0,0,100
@@ -4948,10 +4948,10 @@ bgm1 13
 ;csp -1
 
 ;　全身の毛穴が逆立つような感覚が、@ものすごい勢いで足元から上って頭の天辺まで突き抜けるのを感じた。@
-`　All the hairs on my body stood up, `@`and I felt a huge presence penetrate me from head to toe.`@
+`　All the hairs on my body stood on end, `@`and I felt a huge presence pass through me from head to toe.`@
 br
 ;　そして、息を殺し、……その“めそめそ”が、幻聴であることを確認しようとする。\
-`　And so I stopped breathing, ......As if I were checking if that "Mesomeso" was an auditory illusion.`\
+`　And so I stopped breathing, ......As if I were checking if that "mesomeso" was an auditory illusion.`\
 
 me1v 17,70
 
@@ -4967,7 +4967,7 @@ br
 ;bg Different_spiral_1b,22
 
 ;　だから誰も入ってこれるはずがない。@こんな時間まで生徒が残って隠れているはずもない。@だからつまり、そこに誰かがいるなんてアッテハイケナイノダ…！！！\
-`　There's no way someone could come in here. `@`There's no way there were any students hiding out at this hour. `@`And there's no way that s o m e o ne  i s  o u t  t h e r e...!!!`\
+`　There's no way someone could come in here. `@`There's no way there were any students hiding out at this hour. `@`And there's no way that s o m e o n e  i s  o u t  t h e r e...!!!`\
 
 bg black,22
 mono 0
@@ -4989,7 +4989,7 @@ br
 me2v 28,70
 
 ;　気のせいだ。@幻聴だ。@精神が高ぶり過ぎて、ありもしないものが聞こえているんだ…。@そうさ、こいつは俺が人間だった頃の名残、良心の呵責ってヤツに違いない…。@
-`　I'm just hearing things. `@`It's a hallucination. `@`I got too excited and went and heard something that isn't there... `@`That's it. This has to be remnants of my humanity -- this has to be those damn pangs of guilt.`\
+`　I'm just hearing things. `@`It's a hallucination. `@`I got too excited and went and heard something that isn't there... `@`That's it. This has to be remnants of my humanity -- this has to be those damn pangs of guilt...`@
 br
 ;　俺はきっと、殺害現場に舞い戻り、毬枝を殺したことに後悔を感じて、@こうして毬枝の亡霊を自らの内側に作り出してしまってるんだ。\
 `　Surely, since I came back to place where I murdered her, I must be feeling guilt from killing Marie, `@`and I must be hallucinating Marie's ghost inside my mind.`\
@@ -5018,7 +5018,7 @@ br
 ld l,KAN_K4,26
 
 ;　もう、内なる声とか幻聴とか、そんな水準じゃなかった。@…それは言葉となって耳に届いた。@
-`　It was no longer a voice in my head or a hallucination. `@`...They were words that reached my ears.`@
+`　Now it wasn't a voice in my head or a hallucination. `@`...There were words that reached my ears.`@
 br
 ;　そしてその声は、……毬枝以外の何者でもないのだ…。\
 `　And that voice. ......It was none other than Marie's...`\
@@ -5042,7 +5042,7 @@ ld r,KAN_K4,23
 `　Whoever it was only cried. `@`But that voice heaving with sobs answered my question...`@
 br
 ;　だが、毬枝をあの日、確かに殺して、死体を便槽に放り込んだ。@だからここにいる毬枝が生きた存在のわけがない。\
-`　But, on that die, surely I killed Marie, and tossed her corpse in a septic tank. `@`There's no way Marie could be here -- no way she could still be alive.`\
+`　But, on that day, surely I killed Marie, and tossed her corpse in a septic tank. `@`There's no way Marie could be here -- no way she could still be alive.`\
 
 bg black,22
 
@@ -5050,7 +5050,7 @@ bg black,22
 `　......Now Kanamori was in the strange world of the former school building in the depth of night. `@`......He unconciously came to realize the logic of the spirit world.`@
 br
 ;　だから、殺したはずだからいないという、人の世の理に囚われず、@……素直に、扉の向こうにいる、死んだ毬枝という存在を理解できた。\
-`　Because without being limited to the reasoning of the human world where something killed no longer exists, `@`.....he understood that on the other side of the door, the once dead Marie was alive.`\
+`　Because without being limited to the reasoning of the human world where something killed no longer exists, `@`.....he understood that on the other side of the door, the dead Marie was there.`\
 
 ;mcl c,0
 ;bg "BMP\background\efe\red1.bmp",1
@@ -5081,7 +5081,7 @@ ld r,KAN_K2,22
 ;ld r,KAN_Def1,80
 
 ;「こ、……殺すのは当然さ。@……馬鹿かい君は…！@　あれだけのことをしちまったんだ！@　警察に知られちゃまずいと思うのは当然だろ！！@　君を生かして帰せば、その足で交番に駆け込んだはずさ。@そうだろ？！」\
-`"K, ......killing you was the right thing to do.`@`　...Are you stupid...?!`@`　That's the only thing I did! `@`If you think about if the police found out, it was the right thing to do!!`@`　If I had let you live, you would have probably ran to a police box with those legs of yours. `@`Isn't that right?!"`\
+`"K, ......killing you was the right thing to do.`@`　...Are you stupid...?!`@`　That's the only thing I did! `@`Think about it if the police found out! It was the right thing to do!!`@`　If I had let you live, you would have probably ran to a police box with those legs of yours. `@`Isn't that right?!"`\
 
 
 
@@ -5091,7 +5091,7 @@ ld r,KAN_K2,22
 ld r,KAN_K3,80
 
 ;「ビデオテープだってぇ？！@　はっはっはっは、わあっはっはっはっはっは！！@　あんなもんが脅迫になると、君は本気で思ってたのかい。@ははははは、だからその程度の存在なのさ。@…あははははははははは！」\
-`"Video tape huhhh?! `@`　Hahhahhahhah, Wahhahhahhahhahha!!`@`　Did you really think something like that could be a threat to you? `@`Hahahaha, that's about how useful it was. `@`...Ahahahahahahahaha!"`\
+`"Video tape huhhh?! `@`　Hahhahhahhah, WAHAHAHAHAHAHAHAHA!!`@`　Did you really think something like that could be a threat to you? `@`Hahahaha, that's about how useful it was. `@`...Ahahahahahahahaha!"`\
 
 ;「……だって、…だって……。@…私だって、…普通の生活に戻りたかったです…。@だから、…その生活に戻らせてくれるなら、@……先生のことを内緒にする約束、ちゃんと守るつもりだったんです……。」\
 `"......But, ...but...... `@`...But I, ...wanted to return to a normal life... `@`Because, ...if you let me return to that normal life, `@`......I would keep what you did a secret, and I would have protected it......"`\
@@ -5194,7 +5194,7 @@ lsp2 3,$ld_pass2,480,480,200,200,0
 print 80
 
 ;「正解は、誰かに相談する、だったのさ！！@　君にひとりでも相談できる友達、あるいは家族がいれば正解のチャンスはあった。@だが君はひとりも友達を作らなかった。@家族にも心を開かなかった！@　私があれだけ指導したにも関わらずね！！@　だから授業は時間切れになったというわけさ！」\
-`"That's right, the answer was to ask someone for help!!`@`　Even by yourself if you had asked your friends, or your family you might have had a chance at being correct. `@`But by yourself you didn't make friends. `@`You didn't even open up to your family!`@`　Regardless of the instruction I gave you!!`@`　And class time ran out you see!"`\
+`"That's right, the answer was to ask someone for help!!`@`　Even if you had asked your friends, or your family you might have had a chance at being correct. `@`But you didn't make friends. `@`You didn't even open up to your family!`@`　Regardless of the instruction I gave you!!`@`　And class time ran out you see!"`\
 
 ld_p MAR_N1
 lsp2 4,$ld_pass,130,550,-200,200,0
@@ -5217,14 +5217,14 @@ ld c,KAN_W1,22
 ;ld c,KAN_Def1,80
 
 ;「私が命じれば犬にも猫にもなった、人間の尊厳を捨てた君にしちゃ、@まずまずの奮闘だったことは認めるよ。@だが、そんなものは何の評価にもならないね！@　その結果がそれさ！！@　君は相手に逆上されて、@現にそうして首を絞めて殺されて、しかも肥溜めに死体を放り込まれた！！@　その無様な結果を以って、私にどう評価してもらいたいというんだい？」\
-`"As I commanded you became like a cat, like a dog -- you threw away your human dignity, `@`and I will admit you did struggle somewhat. `@`But that sort of thing has no value whatsoever!`@`　This resulted in that!!`@`　You drove your opponent into a frenzy, `@`and then you were really strangled to death, and your body was even thrown into a cesspool!!`@`　Aside from those clumsy results, how would you like me to evaluate you?"`\  
+`"As I commanded you became like a cat or like a dog -- you threw away your human dignity, `@`and I will admit you did struggle somewhat. `@`But that sort of thing has no value whatsoever!`@`　This resulted in that!!`@`　You drove your opponent into a frenzy, `@`and then you were really strangled to death, and your body was even thrown into a cesspool!!`@`　Aside from those clumsy results, how would you like me to evaluate you?"`\  
 
 ld c,KAN_w3,80
 se1v 12,50
 quakey 2,200 
 
 ;「馬鹿言っちゃいけないね！！@　０点だよ０点ッ！！@　そういう下らない勇気を蛮勇というのさ！@　そんな勇気より、君は警察に相談する勇気を持つべきだった。@それを、それでも選べず！！@　その結果が今の姿というなら、それのどこを褒めろと言うんだい？」\
-`"I can only say you're an idiot!!`@`　No points! You get a zero!!`@`　That's what they call reckless courage you see!`@`　Rather than that kind of courage, you should haev had the courage to call the police. `@`And you didn't even do that!!`@` What you are now is the result of that, and what part of that are you saying I should praise?"`\
+`"I can only say you're an idiot!!`@`　No points! You get a zero!!`@`　That's what they call reckless courage you see!`@`　Rather than that kind of courage, you should have had the courage to call the police. `@`And you didn't even do that!!`@` What you are now is the result of that, and what part of that are you saying I should praise?"`\
 
 bg black,26
 lsp bgsp,":a;bmp\background\efe\mabuta2.bmp",0,0,100
@@ -5236,7 +5236,7 @@ ld r,KAN_K5,26
 quakey 2,200
 
 ;「ははははは！！@　馬鹿は死ななきゃ治らないって言うが、どうやらそれは間違いらしい！@　死んでも治らないがどうも正しいみたいだ！！@　わっはっはっはっはっはッ！！！」\
-`"HahaHAHAHA!!`@`　They say that the only thing that can cure stupidity is daeth, but apparently they were wrong!`@`　It seems 'even in death stupidity can't be cured' would have been correct!!`@`　WahahaHAHAHAHAHAA!!!"`\
+`"HahaHAHAHA!!`@`　They say that the only thing that can cure stupidity is daeth, but apparently they were wrong!`@`　It seems 'even in death stupidity can't be cured' would make more sense!!`@`　WahahaHAHAHAHAHAA!!!"`\
 
 bg black,22
 ;bg e004,45
@@ -5284,7 +5284,7 @@ bg black,22
 bg Aka1,22
 
 ;　だから、すでに死んでしまった毬枝は、戦うという本当の力の意味、……本当の意味での勇気を理解したにも関わらず、@………もう、戦いの土俵に上がる資格すらないのだ。@
-`　Because she had already died, regardless if Marie understood what it means to truly fight, ......what it means to truly have courage, `@`......she was above the requirements to fight in that arena.`@
+`　Because she had already died, regardless if Marie understood what it meant to truly fight, ......what it meant to truly have courage, `@`......she was above the requirements to fight in that arena.`@
 br
 ;　戦うための資格。@それが、生きることだった。\
 `　The requirement to fight. `@`That was to be alive.`\
@@ -5295,13 +5295,13 @@ bg Aka2,22
 `　Her homeroom teacher might have snatched her life from her.`@
 br
 ;　でも、彼岸花に妖怪にしてもらえると聞き、妖怪になれれば復讐できると浮かれ、@ならばと持った実に下らない蛮勇だった。@
-`　But listening to Higanbana offer to turn her into a youkai, that if she became a youkai she could rejoice in revenge, `@`in the end it was truly pointless foolhardiness.`@
+`　But listening to Higanbana offer to turn her into a youkai, that if she became a youkai she could rejoice in revenge, `@`in the end it was truly pointless and foolhardy.`@
 br
 ;　せめてそこでその勇気を、誰かに相談しようという方向に向けていたら、@……きっと自分は生きていた。\
-`　And at the very least if she had had the courage to ask someone for help, `@`...she would surely be alive.`\
+`　And at the very least if she had the courage to ask someone for help, `@`...she would surely still be alive.`\
 
 ;　生きて戦って、あるいは勝って、この運命の出口にいたかもしれない。@
-`　Live and fight, perhaps even win, and there might have been a way out of this fate.`@
+`　Still alive, fighting, perhaps even winning, that might have been her way out of this fate.`@
 br
 ;　それを放棄した！@
 `　She gave it up!`@
@@ -5333,7 +5333,7 @@ br
 `　Marie's voice no longer came in sobs, they could only be described as wails.\
 
 ;　……それは、祟ってやろうという攻撃的な姿ではない。@
-`　......That wasn't an attack as if to curse him either.`@
+`　......They weren't offensive as if to curse him either.`@
 br
 ;　永遠に辱められることを宿命付けられ、それに抗えもせず泣いて従うしかない、卑しい姿。@
 `　Fixed with the fate of eternal shame, without fighting it she could only cry in subjugation -- with her lowly self.`@
@@ -5420,7 +5420,7 @@ bg black,22
 ;　……もう鍵はない。@金森が扉を開けば、そこにいる毬枝が目の前に晒される。@
 `　......The lock was gone. `@`If Kanamori opened that door, he would expose the Marie that was out there to his own eyes.`@
 ;　毬枝にとっては、自分を殺した恐ろしい相手が、再び目の前に現れることになる。@
-`　For Marie, the terrifying man who killed her would once again appear before her eyes again.`@
+`　For Marie, the terrifying man who killed her would once again appear before her.`@
 br
 ;　今の毬枝にとって金森の存在は、扉越しでも恐ろしい。@それを直視する勇気など、未だになかった。\
 `　For Marie, the living Kanamori that lay beyond that door was still terrifying. `@`Even up until now, she never even had the courage to look him in the eyes.`\
@@ -5434,7 +5434,7 @@ bg Different_spiral_1a,22
 `　After all, those fearsome spirits have already been wiped away from the world of human reason.`@
 br
 ;　金森は理解した。@……亡霊などという存在は、命を失う前と後という区分の、後を指すだけのものだと。\
-`　Kanamori knew. `@`......On the divide between before one is robbed of life and afterwards, the souls of the dead can only point to the afterlife.`\
+`　Kanamori knew. `@`......On the divide between before one is robbed of life and after death, the souls of the dead can only stand in afterlife.`\
 
 ;bg Different_spiral_1b,22
 
@@ -5493,7 +5493,7 @@ csp -1
 `　......It was a bizarre scene.`@
 br
 ;　なぜなら、トイレの個室の扉を内から開けたのに、@……そこもまた、トイレの中だったからだ。\
-`　Even though he had opened the door from inside the bathroom, `@`......Because he was still there -- in that stall.`\
+`　Even though he had opened the door from inside the stall, `@`......he was still there -- in that stall.`\
 
 me1v 26,50
 
@@ -5505,7 +5505,7 @@ br
 ;　殺した日と同じ姿で。@
 `　With the same appearance as the day he killed her.`@
 ;　右袖のボタンを失った姿で。@
-`　With the same right sleeve missing a button.
+`　With the same right sleeve missing a button.`@
 ;　首には絞め殺された時の痣を残して。\
 `　With a wound left on her throat from where he strangled her to death.`\
 
@@ -5518,7 +5518,7 @@ br
 ;　毬枝が、怯えた声を出して後退るが、そこもまた狭い個室なのだ。@逃げるべき場所はなく、すぐに壁を背負ってしまう。@
 `　Marie uttered a frightened squeal and backed off, but it was already a small stall as it was. `@`With no place to run to -- her back was quickly up against the wall.`@
 ;　そして、がたがたと震え、@金森のおぞましきその姿が、せめてそれ以上近付いて来ないよう、祈るような目つきをした。\
-`　She began to tremble, `@`and as she quiverred in fear of Kanamori, her eyes pleaded that he not come any closer.`\
+`　She began to tremble, `@`and as she quivered in fear of Kanamori, her eyes pleaded that he not come any closer.`\
 
 ld l,KAN_Def1,23
 
@@ -5533,7 +5533,7 @@ ld r,MAR_N1,80
 ld l,KAN_Def3,80
 
 ;「そんな姿で私の前に現れるということは、@どうやら自分が殺されたことがしっかり理解できてないかららしい。@……君の新しい人生がやり直せるよう、@先生がもう一度、君を絞め殺してあげようって言うんだ。」\
-`"That you appeared before me like this `@`seems to mean that you haven't fully realized that you've been killed. `@`......I'm saying that in order for you to fix things in your new life, `@`Sensei is going to once again, strangle you to death."`\
+`"Since you appeared before me like this `@`it seems to me that you haven't fully realized that you've been killed. `@`......I'm saying that in order for you to fix things in your new life, `@`Sensei is going to once again, strangle you to death."`\
 
 me2v 17,70
 
@@ -5620,7 +5620,7 @@ quakey 2,200
 quakex 3,200
 
 ;　互いに相手の首を絞め合うといっても、力の差は歴然としている。@
-`　Even as they both gripped each other's throats, the difference in power was clear.`\
+`　Even as they both gripped each other's throats, the difference in power was clear.`@
 br
 ;　万力のような力で締め付ける金森に対し、毬枝の力はすぐに抜けていく……。@
 `　Against Kanamori's grip that squeezed her like a vice, Marie's strength started to fade......`@
@@ -5637,7 +5637,7 @@ print 24
 quakex 3,200
 
 ;「君ひとりでは打ち勝てない難題なんてこの世にはいくらだってあるッ！！@　それを乗り越えるために人は社会の力を借りるんだ。@それを怠った君の末路は、@例え二度繰り返そうとここに帰ってくるんだ。@……これで成仏できないなら、また何度でも私のもとを訪れるといい！！@　何度でも何度でも、殺された時の苦しみを思い出させてやるッ！！@　何度でも何度でも、お前を絞め殺してやるッ！！！」\
-`"How many challenges are there in this world that you can't win alone~?!!`@`　In order to surmount them, a person will borrow power from society. `@`In your last days you ignored that. `@`And you've come once again to repeat that mistake. `@`......If you can't rest in peace, then feel free to visit me as many times as you like!!`@`　Over and over again, I'll make you remember the pain of death~!!`@`　I'll strangle you to death forever and ever!!
+`"How many challenges are there in this world that you can't win alone~?!!`@`　In order to surmount them, people borrow power from society. `@`In your final days you ignored that. `@`And you've come once again to repeat that mistake. `@`......If you can't rest in peace, then feel free to visit me as many times as you like!!`@`　Over and over again, I'll make you remember the pain of death~!! `@`I'll strangle you to death forever and everrr!!!"`\
 
 bg black,23
 csp2 -1
@@ -5765,10 +5765,10 @@ ld r,HIG_Def2,5
 `　Looking up at who the voice belonged to, `@`above the railing between the bathroom stalls looking down on him sat that western doll he had seen in the infirmary.`\
 
 ;　人ならざる存在を理解できる今の金森にとって、その存在は不気味なものでもなんでもなく、@毬枝と自分の決闘の正式な見届け人に違いないと思った。@
-`　For Kanamori who could now understand the existence of non-humans, this sort of thing didn't seem eerie, `@`he thought she was surely a witness to his formal duel with Marie.`\
+`　For Kanamori who could now understand the existence of non-humans, this sort of thing didn't seem eerie, `@`he thought she was surely a witness to his formal duel with Marie.`@
 br
 ;　だから、ニヤリと笑って言ってやった。\
-`　And so with a laugh he spoke.`\
+`　And so he grinned and said.`\
 
 ld l,KAN_w1,23
 
@@ -5873,7 +5873,7 @@ lsp2 5,$ld_pass2,130,450,200,200,0
 print 80
 
 ;「残念よ。@あなたくらい邪悪な人にはそうそう会えないから、@ウチのクラスにお迎えできなくて本当に残念。@……私があなたたちに試したかったのは、@どちらがより邪悪か、どちらがより妖怪に相応しいか、じゃなくて、@…どちらが『めそめそさん』に相応しいか、よ。」\
-`"Sorry. `@`Because I don't often to get such a wicked man like yourself, `@`I'm truly sorry I couldn't welcome you to 'our class.' `@`......What I wanted to test was, you see, `@`wasn't who was more vile, or who was a more suitable youkai. `@`It was who was more suitable to be "Mesomeso-san," you see."`\
+`"Sorry. `@`Because I don't often to get to meet such a wicked man like yourself, `@`I'm truly sorry I couldn't welcome you to 'our class.' `@`......What I wanted to test was, you see, `@`wasn't who was more vile, or who was a more suitable youkai. `@`It was who was more suitable to be "Mesomeso-san," you see."`\
 
 csp2 -1
 print 0
@@ -5907,7 +5907,7 @@ br
 ;　だがその抱擁は愛のなせるものではない。@
 `　But that embrace wasn't one of love.`@
 ;　全身の骨を粉々に砕いてしまおうという、悪意ある死の抱擁。\
-`　It was an malicious embrace of death that sought to crush every bone in his body.`\
+`　It was a malicious embrace of death that sought to crush every bone in his body.`\
 
 se1v 38,70
 ;se2v 78,50
@@ -5932,7 +5932,7 @@ csp -1
 
 
 ;「そうよ、『めそめそさん』のルール。@『めそめそさん』に出会ってしまったら、話し掛けてはならない。@正体を見ようとしてはいけない。@………あなた、そのルールを全部破っちゃったわ。@だから毬枝の勝ちよ。」\
-`"That's right. The rules of "Mesomeso-san." `@`That if you meet "Mesomeso-san," you musn't speak with it. `@`You mustn't see its true form. `@`......You broke those rules. `@`Therefore, Marie wins."`\
+`"That's right. The rules of "Mesomeso-san." `@`That if you meet "Mesomeso-san," you must not speak with it. `@`You must not see its true form. `@`......You broke those rules. `@`Therefore, Marie wins."`\
 
 se1 38
 se2v 12,40
@@ -5970,7 +5970,7 @@ br
 ld r,MAR_Def4,22
 
 ;「………ありがとう、先生。@…先生の言葉はとても汚くて辛いものだったけど、@……でも先生の言う通りだったと思います。@…私は、先生に教えられなかったら、@死んでも自分の罪が理解できなかったかもしれない。@……それを、こうして死んだ後であっても教えてくれたことに感謝します……。」@
-`".........Thank you, Sensei. `@`...What Sensei said was very filthy and painful, `@`......but I think it's as you say Sensei. `@`...If I hadn't learned it from Sensei, `@`I might not have understood my sin even in death. `@`......I'm grateful that you were able to teach me like this even after death......"`@
+`".........Thank you, Sensei. `@`...What Sensei said was very filthy and painful, `@`......but I think it's as you say. `@`...If I hadn't learned it from Sensei, `@`I might not have understood my sin even in death. `@`......I'm grateful that you were able to teach me like this even after death......"`@
 ;「……ま、毬……ぇ……、」\
 `"......Ma, Mari......e......,"`\
 
@@ -6071,13 +6071,13 @@ ld r,HIG_w3,80
 
 ld l,MAR_Def3,80
 
-「……学校妖怪のみんなと、私は仲良くできるでしょうか。」@
+;「……学校妖怪のみんなと、私は仲良くできるでしょうか。」@
 `"......Do you think the school youkai and I can get along?"`@
 
 ld r,HIG_w4,80
 
 ;「さぁ、難しいんじゃない？@　人間の友達すら作れなかったあなたに、@人間じゃない存在の友達を作れるかしら？」\
-`"Who knows, maybe it'll be difficult? `@`For you who couldn't even make human friends -- `@`could you make friends with non-humans I wonder?"`\
+`"Who knows, maybe it'll be difficult? `@`You couldn't even make human friends -- `@`could you make friends with non-humans I wonder?"`\
 
 bg black,23
 ;lsp bgsp,":a;bmp\background\efe\mabuta2.bmp",0,0,100
@@ -6087,7 +6087,7 @@ bg toire_07,23
 ld r,MAR_i1a,22
 
 ;「がんばります。@……やり直せぬ人生なら、この新しい人生で過ちを、せめて取り返したいので。」@
-`"I'll give it my all. `@`......Because if I can't relive my life, then at the very least I want to correct my past mistakes in this new life"`@
+`"I'll give it my all. `@`......Because if I can't relive my life, then at the very least I want to correct my past mistakes in this new one"`@
 br
 ;　その表情は、毬枝が今日までに見せてきた表情の中で、一番、決意に溢れたものだった。\
 ` Marie's expression overflowed with more determination than any other face she had shown until today.`\
@@ -6159,7 +6159,7 @@ bg black,22
 
 ;「学校妖怪の役目は大変よ？@　夜の闇をもっとに暗く染め、不吉と邪悪で覆わなくてはならない。」@
 `"The job of a school youkai is tough you know? `@`We must surround ourselves in ill omens and wickedness as we dye the dark of night even darker."`@
-「…………は、…はい。」\
+;「…………は、…はい。」\
 `"......Y, ...yes."`\
 
 ;「夜の闇が暗かったならば、…その分だけ、昼間の学校は明るく照らされる。@邪悪な教師がひとり、夜の闇に飲み込まれれば、@その分、昼間の学校はマシになるでしょうしね。」@
@@ -6224,7 +6224,7 @@ ld l,HIG_w6,80
 `"This "Doll That Dances" Higanbana, become your friend...?`@` .........*giggle* *giggle*, Uhuhuhu, HAHAHAHAHAHAHAHAHA. `@`But I think you should wait a little longer when it comes to choosing your friends."`\
 
 ;　彼岸花はしばらくの間、こんなに滑稽なことはないとでもいう風に、お腹を捩って笑う。@
-`　For a while Higanbana, even though this was no laughing matter, wrenched her stomach with laughter.`@
+`　For a while Higanbana, even though this was no laughing matter, split her sides with laughter.`@
 br
 ;　それもやがて収まり、肩を竦める。\
 `　And when she was finally finished, she shrugged her shoulders.`\
@@ -6350,4 +6350,4 @@ bg gakkou_01u,22
 
 
 ;　これは、近隣の学校の統廃合に伴い、大きなマンモス校になって大勢の生徒数を誇り、@のみならず、学校の七不思議が、さらにもう一つ多いという不思議な学校の物語……。\
-`　In accordance with the recent school reorganization when the school became a mammoth school bursting with pride at the number of students it contains, `@`so too then, came the strange school tale about the Seven Mysteries adding one more to their number......`\
+`　In accordance with the recent school reorganization when the school became a mammoth school bursting with pride at the number of students it contained, `@`so too then, came the strange school tale about the Seven Mysteries adding one more to their number......`\
