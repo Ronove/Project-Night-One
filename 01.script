@@ -1538,7 +1538,7 @@ bg black,22
 `　Because she had read Class B.`@
 br
 ;　……アルファベットのクラス名などこの学校にはないはずなのに…。@でも名札の書式はこの学校のものだ。@
-`　......Even though there shouldn't be any classes named alphabetically... `@`but the nametag was this school's format.`@
+`　......Even though there shouldn't be any classes named alphabetically... `@`but the nametag had this school's format.`@
 br
 ;　それ以上をじろじろ覗き込んでいると失礼に当たると思い、@毬枝は名札を見るのをやめた。\
 `　Thinking it would be rude to stare anymore beyond that, `@`Marie stopped looking at her nametag.`\
@@ -1685,7 +1685,7 @@ br
 `　That was the first time Higanbana's expression dimmed as she frowned. `@`...It seemed that having Marie not know her name made Higanbana uncomfortable.`\
 
 ;　だが、その表情を見て、ようやく毬枝は意思の疎通ができていることを実感する。@
-`　But looking at that expression, Marie finally realized that she talk to her.`@
+`　But looking at that expression, Marie finally realized that she could talk to her.`@
 br
 ;　自分を学校の七不思議に連なる妖怪だと自己紹介する彼女が何者なのか、@未だわかりかねていたが、少なくとも悪い人ではなさそうだった。\
 `　What kind of person was this girl who introduced herself as one of the Seven Mysteries? `@`While it was difficult for her to understand, she didn't seem like a bad person.`\
@@ -1802,7 +1802,7 @@ bg tosho_02,22
 `　Because as much as she wanted the youkai's form across from her own, she couldn't be seen through human eyes...`@
 br
 ;　……今の出来事は果たして真実なのか、@…それとも逃避したい自分が見た、束の間の白昼夢なのか。\
-`　......Could what happened be real? `@`...Or could it have been a desired escape in a momentary daydream?`\
+`　......Could what had happened been real? `@`...Or could it have been a desired escape in a momentary daydream?`\
 
 bg black,0
 
@@ -1846,7 +1846,7 @@ me1v 17,70
 `　......The resolution to cease being human. `@`The resolution to throw away all of her life up until today.`@
 br
 ;　それを自覚した時。@……毬枝は心の中に、ほんのわずかに灯った感情があった。\
-`　At the time she became aware of it. `@`......In Marie's heart she had a spark of emotion.`\
+`　At the time, she became aware of it. `@`......In Marie's heart she had a spark of emotion.`\
 
 bg black,22
 
@@ -1889,10 +1889,10 @@ br
 `　I'll likely lose my life, and I'll probably have to go through a rite of passage to end my life as a human.`\
 
 ;　つまり、……私はもうじき、人間の生を終える。@
-`　In other words, ......I will soon, end my human life.`@
+`　In other words, ......I will soon end my human life.`@
 br
 ;　ならば、駄目で元々…。@自分が人間の身である内に、たったひとつの勇気を試してもいいのではないか……。\
-`　If that's so, since I have nothing to left to lose... `@`Wouldn't it be all right if I could try just one act of bravery while I've still got my human body......?`\
+`　If that's so, since I have nothing left to lose... `@`Wouldn't it be all right if I could try just one act of bravery while I've still got my human body......?`\
 
 bg rouka_01,22
 
