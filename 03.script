@@ -788,11 +788,14 @@ csp -1
 
 bgm1 1
 
-　撮ったその場で現像された写真が出てくるというのは、僕には未知の喜びだった。@
+;　撮ったその場で現像された写真が出てくるというのは、僕には未知の喜びだった。@
+` The concept of being able to take and develop pictures on the spot was a joy I had not yet realized. `@`
 br
-　確かに、写真をフィルムいっぱいに収め、その出来具合を暗室でまとめて確かめるのもとても楽しい。@
+;　確かに、写真をフィルムいっぱいに収め、その出来具合を暗室でまとめて確かめるのもとても楽しい。@
+` The act of filling up a roll of film and then slowly developing it in a dark room was enjoyable in its own right. `@`
 br
-　しかし、その場ですぐに写真になる手軽さは、玩具的とは言え本当に楽しいものだった。\
+;　しかし、その場ですぐに写真になる手軽さは、玩具的とは言え本当に楽しいものだった。\
+` But the more simple fun of developing film on the spot with that toy-like camera was far more entertaining. `\
 
 ;mono 1
 ;print 42
@@ -808,13 +811,17 @@ csp -1
 
 
 
-　インスタントの写真は、そう長い時間は持たない。@普通の写真よりはるかに短い期間で色褪せてしまう。@
+;　インスタントの写真は、そう長い時間は持たない。@普通の写真よりはるかに短い期間で色褪せてしまう。@
+` With instant pictures there was no long wait. `@`In exchange, the colors of the photo would fade far faster than a normal picture. `@`
 br
-　だから、今を撮り、今を楽しむ。気軽に。\
+;　だから、今を撮り、今を楽しむ。気軽に。\
+` They were meant to be taken in the moment, and enjoyed in the moment. A carefree kind of joy. `\
 
-　残りのフィルムが数枚だから、もったいぶろうという考えはすぐになくなった。@
+;　残りのフィルムが数枚だから、もったいぶろうという考えはすぐになくなった。@
+` There were quite a few shots left in the camera, so I didn't worry too much about wasting them. `@`
 br
-　ひょっとするとこのカメラは、@残りのフィルムがあるからこそ、成仏できなかったのかもしれない。\
+;　ひょっとするとこのカメラは、@残りのフィルムがあるからこそ、成仏できなかったのかもしれない。\
+` Perhaps it was the very fact that it had film left, `@`that had made it impossible for the camera to rest in peace.`\
 
 bg black,22
 ;mono 0
@@ -823,19 +830,25 @@ me1v 24,50
 
 bg rouka_04,22
 
-　まだ撮影できるフィルムが残っているのに、それを全うできず埃に塗れて誰からも忘れられてしまうのは、@きっと悲しいことだったに違いない。@
-　それを思えば、僕とこのカメラの出会いは、ちょっとした縁なのではないかと思った。@
+;　まだ撮影できるフィルムが残っているのに、それを全うできず埃に塗れて誰からも忘れられてしまうのは、@きっと悲しいことだったに違いない。@
+` To be gathering dust, forgotten by someone while there was still film left unused within it, `@`seemed like such a painful thing.`@`
+;　それを思えば、僕とこのカメラの出会いは、ちょっとした縁なのではないかと思った。@
+` If I thought about it that way, it seemed even more like my meeting with this camera was dictated by fate. `@`
 br
-　変に勿体ぶらずに、色々遊んでみよう。@そしてフィルムを使い切り、元の場所に戻してやろう。@そう思った。\
+;　変に勿体ぶらずに、色々遊んでみよう。@そしてフィルムを使い切り、元の場所に戻してやろう。@そう思った。\
+` So I wouldn't worry about wasting the film, and I'd enjoy taking all kinds of photos with it. `@` Then, when I'd used all the film, I'd return it to where I found it. `@`That was my plan. `\
 
 
 bg black,22
 
-　だから、ある日。@残りのフィルムがあと２枚しかないことに気付き、@………例のことを試してみようと思った。@もちろん、悪戯心でだ。@
+;　だから、ある日。@残りのフィルムがあと２枚しかないことに気付き、@………例のことを試してみようと思った。@もちろん、悪戯心でだ。@
+` So, one day. `@`I realized there were only two shots left, `@`...so I decided to try something with it. `@`Obviously, it was a prank. `@`
 br
-“クラス写真を撮ると、いないはずの生徒が写るらしい”。@
+;“クラス写真を撮ると、いないはずの生徒が写るらしい”。@
+`"They say if you take a class picture, a student who should not be there will appear." `@`
 br
-　それを、…確かめてみようと思った。\
+;　それを、…確かめてみようと思った。\
+` I figured... I'd give that a try.`\
 
 fede 1,1000
 E_B
@@ -852,7 +865,8 @@ E_B
 
 bg kyou_02,2
 
-　たまたま社会の時間に、教材のビデオを見て、その感想を書くようにとの自習があった。\
+;　たまたま社会の時間に、教材のビデオを見て、その感想を書くようにとの自習があった。\
+` It was during Social Studies. The assignment was to watch a video and write our impressions. `\
 
 se1 81
 
@@ -864,25 +878,33 @@ bgcopy
 csp -1
 
 
-　僕はみんなの写真を撮らせてくれと宣言し、面白半分で写真を撮った。@
+;　僕はみんなの写真を撮らせてくれと宣言し、面白半分で写真を撮った。@
+` I announced that I wanted a picture of the class, and took it just for fun. `@`
 br
-　ところが、@……いつもは割とすぐに浮かび上がるはずの画像が、なかなか浮かび上がらなかった。\
+;　ところが、@……いつもは割とすぐに浮かび上がるはずの画像が、なかなか浮かび上がらなかった。\
+` Incidentally, `@`... for some reason the film that would always develop fairly quickly took much longer this time. `\
 
 
 bg kyou_01,0
 ld r,NON_def6,22
 
-　どんな写真が写ってるのかと期待したクラスメートたちは、@やはりカメラが壊れていたのだろうと納得した。@
+;　どんな写真が写ってるのかと期待したクラスメートたちは、@やはりカメラが壊れていたのだろうと納得した。@
+` My classmates, who were all waiting to see what would develop, `@`all said that the old camera had probably broken down.`@`
 br
-　彼らは、まだフィルムがあるのならもう一枚撮ればいいとせがんだが、@……僕はなぜか気になり、それを断り、撮影をやめた。\
+;　彼らは、まだフィルムがあるのならもう一枚撮ればいいとせがんだが、@……僕はなぜか気になり、それを断り、撮影をやめた。\
+` They told me if there was film left I should try again, but ` @`...but I was worried, so I refused and that was it for photographing that day. `\
 
 
-　……フィルムの薬物が古くなって駄目になってしまっていたのだろうか？@
-　僕は何となく違うと思った。@
+;　……フィルムの薬物が古くなって駄目になってしまっていたのだろうか？@
+` ...had the chemicals of the film finally gone bad?`@`
+;　僕は何となく違うと思った。@
+` Somehow I figured that wasn't it.`@`
 br
-　ひょっとして、………写ってしまったのではないだろうか。@“写ってはならないもの”が。@
+;　ひょっとして、………写ってしまったのではないだろうか。@“写ってはならないもの”が。@
+` Maybe,...it had photographed something.`@`"Something that should not be photographed." `@`
 br
-　それを僕らに見せまいと、……写真が抵抗しているのではないだろうか。\
+;　それを僕らに見せまいと、……写真が抵抗しているのではないだろうか。\
+` Perhaps the camera was,... resisting, to spare us from seeing that.`\
 
 bg black,22
 
@@ -898,20 +920,26 @@ E_MA
 
 ld c,HIG_Def3,22
 
-　あの日、廊下ですれ違った不思議な少女の意味深な言葉が蘇る。@
+;　あの日、廊下ですれ違った不思議な少女の意味深な言葉が蘇る。@
+` That day, the deep words spoken to me by the strange girl in the corridor returned to me. `@`
 br
-　……彼女は、僕にクラス写真を撮りたがらせていたような気がする。@だから、ああいう意味深な言い方をしたのではないだろうか。\
+;　……彼女は、僕にクラス写真を撮りたがらせていたような気がする。@だから、ああいう意味深な言い方をしたのではないだろうか。\
+`...it was as if she had wanted me to take that picture of my class. `@`That's why she had said those things to me. `\
 
 bg black,22
 bg kyou_03,22
 
-　この写真には、きっと何かが写っているのだ。@
+;　この写真には、きっと何かが写っているのだ。@
+` I just knew there was something captured in this photo.`@`
 br
-　………そう言えば、ひどくわずかではあるが、画像がじんわりと浮き出してきたような気がする。\
+;　………そう言えば、ひどくわずかではあるが、画像がじんわりと浮き出してきたような気がする。\
+` ...that said, it was incredibly faint but, I thought I saw the picture beginning to develop.`\
 
-　その写真は、放課後に見た時には、さらにじんわりと浮き出ていた。@
+;　その写真は、放課後に見た時には、さらにじんわりと浮き出ていた。@
+` I looked at that photo after school, and it was still slowly developing.`@`
 br
-　……しかしそれでも、写っているクラスメートたちの顔を確認できるようなものではなかった。\
+;　……しかしそれでも、写っているクラスメートたちの顔を確認できるようなものではなかった。\
+`...but, even with that, I still couldn't make out the faces of my classmates in it.`\
 
 
 ;lsp bgsp,":a;bmp\background\efe\a004.bmp",0,0
@@ -4247,7 +4275,7 @@ ld r,HIG_w5,22
 bg black,22
 bg kyou_01,22
 
-　彼女はたまたまその頃、親しくしていたグループとトラブルを起こしていて疎遠になっていた。@……たまたま敵が多い時期だったのね。@
+　彼女はたまたまその頃、親しくしていたグループとトラブルを起こしていて疎遠になっていた。@……たまたま敵・ｪ多い時期だったのね。@
 br
 　相談する相手もなく、隠し撮りを疑える人間も少なくなかった。@あなたはそんな気配を敏感に感じ取り、@彼女に対し執拗な付け回しと隠し撮りを重ねたわ。\
 
