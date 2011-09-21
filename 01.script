@@ -245,7 +245,7 @@ br
 `　That was something very very wrong, `@`and if my classmates found out, there's no mistake I would surely be bullied again, `@`...it was that kind of thing.`\
 
 ;　だから、それを内緒にしてもいいと先生が言ってくれたとき、@……私は少なからず先生に感謝の念を感じたのだ。\
-`　And so when Sensei said it was alright to keep it a secret, `@`......I felt very grateful to Sensei.`\
+`　And so when Sensei said it was all right to keep it a secret, `@`......I felt very grateful to Sensei.`\
 
 bg black,22
 mono 0
@@ -2818,7 +2818,7 @@ br
 `　And then I shined a light on Marie's body with my flashlight, and checked to make sure I didn't leave any suspicious marks.`@
 br
 ;　……大丈夫だ。@運んでくる途中で靴が脱げてしまって、校内のどこかに残っている…なんてことにはなっていない……。\
-`　......It looks alright. `@`It's not as if she lost her shoes along the way and left them somewhere in the school......`\
+`　......It looks all right. `@`It's not as if she lost her shoes along the way and left them somewhere in the school......`\
 
 
 
@@ -3000,7 +3000,7 @@ bg shokuin_04,26
 ld c,KAN_k5,26
 
 ;「はは、…はははははは！@　私が『めそめそさん』だぞ…！@　生徒諸君、私を怖がれ、恐れろ、そして語り継げ！@　あはは、あはははははははは！@　こいつは素敵だな、あははははははは！@　毬枝、@お前は生きてた時には、俺の退屈を紛らすためにその身を捧げ、@最後には命まで捧げて、私を人間から卒業させてくれたんだなぁ。@あはははははははは！@　本当に愉快なヤツだったよ…、あっはははははははは！@　はーっはっはっはっはっはっは！！」\
-`"Haha, ...Hahahahahaha! `@　`I'm "Mesomeso-san"...! `@`　Students, dread me, fear me, and transmit me with your stories! `@`　Ahaha, Ahahahahahahaha! `@`　How superb, ahahahahahaha! `@`　Marie, `@`when you were alive, you sacrificed your body to relieve my boredom, `@`and in the end, you even sacrificed your life to graduate me from humanityyy. `@`AHAHAhaHAHAHA! `@` What a swell kid...! AHAhaHAHAHAHAHA! `@` HAAaHAaHAaHAaHAaHAaHA!!!"`\
+`"Haha, ...Hahahahahaha! `@`I'm 'Mesomeso-san'...! `@`Students, dread me, fear me, and transmit me with your stories! `@`Ahaha, Ahahahahahahaha! `@`How superb, ahahahahahaha! `@`Marie, `@`when you were alive, you sacrificed your body to relieve my boredom, `@`and in the end, you even sacrificed your life to graduate me from humanityyy. `@`AHAHAhaHAHAHA! `@`What a swell kid...! AHAhaHAHAHAHAHA! `@`HAAaHAaHAaHAaHAaHAaHA!!!"`\
 
 cl c,2
 bg black,2
@@ -3152,7 +3152,7 @@ mcbg 22
 ld r,MAR_Def4a,80
 
 ;「………彼岸花さん。@…私、これで『めそめそさん』になれるんですよね…？」@
-`"......Higanbana-san. `@`...With this I'll be able to become "Mesomeso-san" won't I...?"`@
+`"......Higanbana-san. `@`...With this I'll be able to become 'Mesomeso-san' won't I...?"`@
 
 ld l,HIG_w3,80
 
@@ -3223,7 +3223,7 @@ br
 ld r,HIG_w1,22
 
 ;「『めそめそさん』という学校妖怪の席が認められた時、@この席に付きたいと願ったのは毬枝１人だった。@だから私はあなたのところへ訪れ、その意思はあるのかと確認を取った。@そしてあなたにその意思があり、且つあなた以外にその意思を持つ者がいなかったため、@その時点ではあなたが『めそめそさん』になるのは問題ないことだった。@………ところが、最後の最後のこの瞬間に、…問題が起きたの。」\
-`"When the seat for the school youkai called "Mesomeso-san" was recognized, `@`the one who fit the position was Marie alone. `@`Because I went to where you were, I confirmed that you had the will. `@`And since you had the will, and because you alone had the intent, `@`at that time there was no problem for you to become "Mesomeso-san." `@`......Nevertheless, at the very last moment, ...a problem developed."`\
+`"When the seat for the school youkai called 'Mesomeso-san' was recognized, `@`the one who fit the position was Marie alone. `@`Because I went to where you were, I confirmed that you had the will. `@`And since you had the will, and because you alone had the intent, `@`at that time there was no problem for you to become "Mesomeso-san." `@`......Nevertheless, at the very last moment, ...a problem developed."`\
 
 ;ld l,MAR_Def1,24
 ld l,MAR_Def3a,80
@@ -3315,7 +3315,7 @@ me1v 35,50
 ;ld l,HIG_Def1,80
 
 ;「……まだ悲観することはないわ、毬枝。@『めそめそさん』の候補が、あなたと金森の２人になっただけよ。@…『めそめそさん』という学校妖怪に序列の第８位を与えることはすでに決まっている。@だから今さら空席にはできない。@あなたか金森のどちらかが必ずその席につけるわ。@二分の一の確率で必ずね。」\
-`"......There's no need to despair, Marie. `@`There are just two candidates for "Mesomeso-san" -- you and Kanamori. `@`...It's already been decided "Mesomeso-san" will be take the 8th rank among the school youkai. `@`So now it can't be left empty. `@`Either you, or Kanamori, one of you will certainly take that seat. `@`Your odds are 50%, so it's a sure thing, right?."`\
+`"......There's no need to despair, Marie. `@`There are just two candidates for 'Mesomeso-san' -- you and Kanamori. `@`...It's already been decided 'Mesomeso-san' will be take the 8th rank among the school youkai. `@`So now it can't be left empty. `@`Either you, or Kanamori, one of you will certainly take that seat. `@`Your odds are 50%, so it's a sure thing, right?."`\
 
 ;ld r,MAR_Def1,24
 
@@ -3374,7 +3374,7 @@ ld c,HIG_Def3,22
 ld c,HIG_w2,80
 
 ;「今はまだ大丈夫。@あなたの魂はまだ、この彼岸花が預かってる。@……学校の敷地内で、その学校を預かる学校妖怪の七席に刃向かおうなんてお馬鹿さんはいないわ。@ましてや私、…残酷なことで知られてるしね。@くすくすくすくす……。」\
-`"You'll be alright for now. `@`Your spirit is still being looked after by the one and only Higanbana. `@`......On school premises, there isn't a fool who would dare attack someone from that school in the care of a school youkai from the seven seats. `@`Not to mention, ...I'd teach them what cruelty is. `@`*giggle giggle giggle*......"`\
+`"You'll be all right for now. `@`Your spirit is still being looked after by the one and only Higanbana. `@`......On school premises, there isn't a fool who would dare attack someone from that school in the care of a school youkai from the seven seats. `@`Not to mention, ...I'd teach them what cruelty is. `@`*giggle giggle giggle*......"`\
 
 ld c,HIG_w6,22
 
@@ -3391,7 +3391,7 @@ cl c,0
 ld r,HIG_Def4,23
 
 ;「あなたと金森のどちらが『めそめそさん』に相応しいか。@それが決まるまで、あなたの安全は私が保証するわ。@………その後は保証しないけれどね？@　大丈夫よ。@あの連中に食い尽くされるのも、@あるいは死神がやって来て、冥府で正しい裁きが受けられるよう取り計らってくれるのも、@どちらにせよ一瞬のことよ。@……あなたがあなたでありたいと思う弱々しい気持ちなど、一瞬で奪ってくれるわ。@どちらにせよね。」\
-`"Who is more appropriate for the title of "Mesomeso-san," you or Kanamori? `@`Until that's decided, I'll guarantee your safety. `@`......But after that I can't guarantee it, can I? `@`It's alright. `@`Even if you're eaten by those guys, or even if a reaper comes along and your judgment is settled in Hades, `@`either way will only last an instant. `@`....However you might have wanted to exist along with your frail mind will be snatched away in an instant. `@`Either way, see?"`\
+`"Who is more appropriate for the title of "Mesomeso-san," you or Kanamori? `@`Until that's decided, I'll guarantee your safety. `@`......But after that I can't guarantee it, can I? `@`It's all right. `@`Even if you're eaten by those guys, or even if a reaper comes along and your judgment is settled in Hades, `@`either way will only last an instant. `@`....However you might have wanted to exist along with your frail mind will be snatched away in an instant. `@`Either way, see?"`\
 
 ld l,MAR_Def2n,22
 
@@ -3474,7 +3474,7 @@ mcbg 22
 ld l,MAR_Def3n,80
 
 ;「……もしそういうことになって、彼岸花さんがそれを望むなら、@……そういうことでいいと思います。」\
-`"......If it comes to that, then if Higanbana-san desires that, `@`......I think that would be alright."`\
+`"......If it comes to that, then if Higanbana-san desires that, `@`......I think that would be all right."`\
 
 
 ;bg black,23
@@ -3529,7 +3529,7 @@ ld c,HIG_w1,22
 ld r,MAR_w2n,22
 
 ;「……大丈夫です。@………こんな私でも、…仕返ししてやりたいって、@…その程度の邪悪さは持ってますから。」\
-`"......That's alright. `@`......Because I said I wanted to take my revenge, as I am now, `@`...I'm capable of that kind of cruelty."`\
+`"......That's all right. `@`......Because I said I wanted to take my revenge, as I am now, `@`...I'm capable of that kind of cruelty."`\
 
 cl c,0
 ld l,HIG_w4,24
@@ -3622,7 +3622,7 @@ ld c,KAN_Def1,22
 ld c,KAN_Def2,22
 
 ;「うーん、……『めそめそさん』の祟り、かなぁ…。@……あぁ、いやいや！@　先生がこんなこと言ったなんて内緒だよ？」\
-`"Hhmmm, ......Could it be the curse of "Mesomeso-san", I wonder...? `@`...Oh, of course not! `@` I can't believe I just said that. Let's make this our little secret, okay?"`\
+`"Hmmm, ......Could it be the curse of 'Mesomeso-san', I wonder...? `@`...Oh, of course not! `@` I can't believe I just said that. Let's make this our little secret, okay?"`\
 
 ;bg black,22
 bg kyou_04,22
@@ -3674,7 +3674,7 @@ br
 `　It wasn't a serious injury, but he pressed a tissue to his elbow so it wouldn't stain his shirt.`\
 
 ;「おや、金森先生、大丈夫ですか。@お怪我でも……。」@
-`"Oh my, Kanamori-sensei, are you alright? `@`You're hurt......"`@
+`"Oh my, Kanamori-sensei, are you all right? `@`You're hurt......"`@
 br
 ;　その様子をたまたま見ていた教頭が声を掛けてくる。\
 `　Called out the vice principal who saw him by chance.`\
@@ -3709,7 +3709,7 @@ ld r,HOK_Def1,22
 ld r,HOK_Def3,80
 
 ;「あらあら、大丈夫ですか、その肘。」@
-`"Oh my, are you alright? Your elbow."`@
+`"Oh my, are you all right? Your elbow."`@
 br
 ;　怪我自体は大したことないのだが、血で着衣を汚したくない。@金森はそう思い、大人しく保健室に向かうことにした。\
 `　The injury itself wasn't a big deal, but he didn't want the blood to stain his clothes. `@`Kanamori thought as much, and he calmly headed to the school infirmary.`\
@@ -4216,7 +4216,7 @@ br
 mbg black,22
 
 ;「……くすくすくすくすくす。@どっちが『めそめそさん』に相応しいか、見物ね。@投票まで待つなんて面倒臭い。@……当事者同士で決めあうのが正しいとは思わない？」\
-`"......*giggle giggle giggle*. `@`Which one is the better "Mesomeso-san"? That'll be a sight, won't it? `@`Waiting until a vote is boring. `@`......Don't you think it'd be better if the two involved decided it themselves?"`\
+`"......*giggle giggle giggle*. `@`Which one is the better 'Mesomeso-san'? That'll be a sight, won't it? `@`Waiting until a vote is boring. `@`......Don't you think it'd be better if the two involved decided it themselves?"`\
 
 mcbg 22
 ld r,HOK_Def4,80
@@ -5081,7 +5081,7 @@ ld r,KAN_K2,22
 ;ld r,KAN_Def1,80
 
 ;「こ、……殺すのは当然さ。@……馬鹿かい君は…！@　あれだけのことをしちまったんだ！@　警察に知られちゃまずいと思うのは当然だろ！！@　君を生かして帰せば、その足で交番に駆け込んだはずさ。@そうだろ？！」\
-`"K, ......killing you was the right thing to do.`@`　...Are you stupid...?!`@`　That's the only thing I did! `@`Think about it if the police found out! It was the right thing to do!!`@`　If I had let you live, you would have probably run to a police box with those legs of yours. `@`Isn't that right?!"`\
+`"K, ......killing you was the right thing to do. `@`...Are you stupid...?! `@`That's the only thing I did! `@`Think about it if the police found out! It was the right thing to do!!`@`　If I had let you live, you would have probably run to a police box with those legs of yours. `@`Isn't that right?!"`\
 
 
 
@@ -5131,7 +5131,7 @@ bgcopy
 csp -1
 
 ;「この程度のことが脅迫になると信じてた君のおめでたさには心底呆れるよ。@どこの漫画の見過ぎだか！@　勝手に下らない知識を吸収して、独りよがりに世界観を構築していった浅はかさのツケさ！！@　相談できる友達が１人でもいたなら、それが間抜けな勘違いだとすぐに気付けたろう。@でも君は、下らないコンプレックスを理由に友達をまるで作ろうとしなかった。」\
-`"That you believed it could be used against you, I delightfully congratulate you from the bottom of my heart. `@`Maybe you read too much manga!`@`　And you went and absorbed such useless knowledge, and in your foolishness you probably felt satisfied　in the world you created!!`@`　If you even had one friend to ask for help, you would have probably realized such a stupid mistake right away. `@`But your worthlessness complex prevented you from making any friends."`\
+`"That you believed it could be used against you, I delightfully congratulate you from the bottom of my heart. `@`Maybe you read too much manga!`@`　And you went and absorbed such useless knowledge, and in your foolishness you probably felt satisfied in the world you created!!`@`　If you even had one friend to ask for help, you would have probably realized such a stupid mistake right away. `@`But your worthlessness complex prevented you from making any friends."`\
 
 lsp bgsp,":a;bmp\background\efe\mabuta2.bmp",0,0,100
 bg toire_06,22
@@ -5203,7 +5203,7 @@ print 80
 
 
 ;「じ、……時間切れなんかじゃないです……！@　……相談は、……しなかったけれど…、@……確かに、友達を作ろうともせず、…誰にも相談しようとしなかったのは私が悪かったかもしれないけど……、@…でも、私は、…………戦ったんです。@…先生と！」\
-`"It, ......It's not like time has run out......!`@`　......I didn't, ......ask for help but..., `@`......Even though I didn't make friends, ...and I might have been wrong in not asking for help......, `@`...But, I, .........I fought. `@`I fought against you!"`\
+`"It, ......It's not like time has run out......!`@` ......I didn't, ......ask for help but..., `@`......Even though I didn't make friends, ...and I might have been wrong in not asking for help......, `@`...But, I, .........I fought. `@`I fought against you!"`\
 
 csp2 -1
 print 0
@@ -5744,7 +5744,7 @@ bg black,22
 E_A
 
 ;「ゲームセットね。@これでどちらが『めそめそさん』に相応しいか、はっきり決着したわ。」\
-`"<Game Set>, I see. `@`As for which of you is more suitable to be "Mesomeso-san", clearly, it's been decided."`\
+`"<Game Set>, I see. `@`As for which of you is more suitable to be 'Mesomeso-san', clearly, it's been decided."`\
 
 bg white,25
 bg hoken_05,25
@@ -5783,7 +5783,7 @@ ld r,HIG_w4,80
 ld l,KAN_w3,80
 
 ;「はははははははは！@　なるほど、これは君たち学校妖怪の、@どちらが『めそめそさん』に相応しいかのテストだったというわけかい。@粋なマネをするね！」@
-`"HAHAHAHAHAHAHA! `@`I see. `@`So this is a test that you school demons have made to decide who is more suitable to become "Mesomeso-san"? `@`How cliche!"`@
+`"HAHAHAHAHAHAHA! `@`I see. `@`So this is a test that you school demons have made to decide who is more suitable to become 'Mesomeso-san'? `@`How cliche!"`@
 
 ld r,HIG_Def3,80
 
@@ -5793,7 +5793,7 @@ ld r,HIG_Def3,80
 ld l,KAN_w2,80
 
 ;「なるほどね。@保健室で君のボタンが飛んだのは、そのテストへの誘いだったというわけだ！@　ははははは、なるほどね、はっはははははははは！！@　だが、こうして結果は出たね！@　どちらが『めそめそさん』に相応しいか！！」\
-`"Indeed. `@`Basically when you tossed your button in the infirmary it was your invitation to this test!`@`　HAHAHAHAHA, I SEE, HAHHAHAHAHAHAHA!!`@`　But now it's been decided right?! `@`That is which shall be "Mesomeso-san"!!"`\
+`"Indeed. `@`Basically when you tossed your button in the infirmary it was your invitation to this test?!`@`　HAHAHAHAHA, I SEE, HAHHAHAHAHAHAHA!!`@`　But now it's been decided right?! `@`That test about who will become 'Mesomeso-san'!!"`\
 
 
 bg black,22
@@ -5885,7 +5885,7 @@ bgcopy
 csp -1
 
 ;「………金森。@あなた、『めそめそさん』になりたいって言ったのに、@『めそめそさん』のルール、…忘れちゃった…？」\
-`"......Kanamori. `@`Even though you said you wanted to become "Mesomeso-san," `@`did you forget, ...the "Mesomeso-san" rules...?"`\
+`"......Kanamori. `@`Even though you said you wanted to become 'Mesomeso-san,' `@`did you forget, ...the 'Mesomeso-san' rules...?"`\
 
 ;「め、……めそめ、……ルール……？@/
 `"Me, ...mesomeso, ......rules.....?`@/
@@ -6056,7 +6056,7 @@ ld r,HIG_Def3,22
 
 
 ;「おめでとう、『めそめそさん』の毬枝。@あなたが選ばれたわ。@みんなの拍手が聞こえる？」@
-`"Congratulations, "Mesomeso-san" Marie. `@`You have been chosen. `@`Can you hear everyone's applause?"`@
+`"Congratulations, 'Mesomeso-san' Marie. `@`You have been chosen. `@`Can you hear everyone's applause?"`@
 
 ld l,MAR_Def4a,23
 ;ld l,MAR_Def1,80
@@ -6140,7 +6140,7 @@ bg toire_05,23
 ld c,HIG_Def4,22
 
 ;「おいで、『めそめそさん』の毬枝。@『踊る人形』彼岸花の手を取って。」@
-`"Come, "Mesomeso-san" Marie. `@`Take the hand of "The Doll That Dances" Higanbana."`@
+`"Come, 'Mesomeso-san' Marie. `@`Take the hand of 'The Doll That Dances' Higanbana."`@
 br
 ;　彼岸花がそっと手を出す。@
 `　Higanbana slowly reached out her hand.`@
@@ -6176,7 +6176,7 @@ bg k_rouka_01,22
 ld r,HIG_def3,22
 
 ;「でも、おめでとう。@これが初の白星ね。@せっかくだから、しっかり数えておいた方がいいんじゃない？」@
-`"But congratulations. `@`This was your first victory right?`@` You really strived for it, so be sure to keep a count alright?"`@
+`"But congratulations. `@`This was your first victory right?`@` You really strived for it, so be sure to keep a count all right?"`@
 
 ld l,MAR_Def4,22
 
@@ -6221,7 +6221,7 @@ ld r,MAR_Def4a,80
 ld l,HIG_w6,80
 
 ;「この『踊る彼岸花』に友達になれ…？@　………くすくす、うふふふ、ははははははははははは。@もう少し友達は選んだ方がいいと思うけれども。」\
-`"This "Doll That Dances" Higanbana, become your friend...?`@` .........*giggle* *giggle*, Uhuhuhu, HAHAHAHAHAHAHAHAHA. `@`But I think you should wait a little longer when it comes to choosing your friends."`\
+`"This 'Doll That Dances' Higanbana, become your friend...?`@` .........*giggle* *giggle*, Uhuhuhu, HAHAHAHAHAHAHAHAHA. `@`But I think you should wait a little longer when it comes to choosing your friends."`\
 
 ;　彼岸花はしばらくの間、こんなに滑稽なことはないとでもいう風に、お腹を捩って笑う。@
 `　For a while Higanbana, even though this was no laughing matter, split her sides with laughter.`@
