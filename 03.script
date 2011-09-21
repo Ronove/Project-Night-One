@@ -1,5 +1,5 @@
 ;　これは、近隣の学校の統廃合に伴い、大きなマンモス校になって大勢の生徒数を誇り、@のみならず、学校の七不思議が、さらにもう一つ多いという不思議な学校の物語…。\
-` This is the strange story of how, with the re-organization of their local school the students took pride in the new, larger building, `@`and, setting that aside, how the resident seven school mysteries also grew by one... `\
+`　This is the strange story of how, with the re-organization of their local school the students took pride in the new, larger building, `@`as well as how the resident seven school mysteries also grew by one...`\
 
 bg black,22
 
@@ -16,7 +16,7 @@ wait 1000
 ld r,NON_Def2,2
 
 ;　野々宮武（ののみや　たけし）がカメラを手に取るようになったのは、@何年か前の理科準備室での事件が切っ掛けだった。\
-` The tale of how Nonomiya Takeshi got his hands on a camera, `@` begins many years ago with an incident that happened in the Science Prep. Room. `\
+`　The tale of how Nonomiya Takeshi got his hands on a camera, `@` begins many years ago with an incident that happened in the science prep room.`\
 
 ld r,NON_Def1,22
 
@@ -27,33 +27,33 @@ mono 1
 bg rika_01,2
 
 ;　彼の班は、今週は理科室と理科準備室を掃除することになっていた。@
-`  This week his group had the duty of cleaning the Science Lab and Science Prep. Room. `@`
+`　This week his group had the duty of cleaning the science lab and science prep room.`@`
 br
 ;　理科室よりは理科準備室の方が、面白そうな、そして怪しそうなものが多くて、@ある意味、人気が高い。@
-` The Science Prep. Room was by far the more interesting of the two, as it was full of strange things, `@` was the view of many of the students. `@`
+`　The science prep room was by far the more interesting of the two, as it was full of strange things, `@`and because of that it was popular among the students.`@`
 br
 ;　彼は、ちょっとしたジャンケンにより、その日は理科準備室の掃除の権利を手に入れた。\
-` That day he had earned the right to clean the Science Prep. Room after winning a round of rock-paper-scissors. `\
+`　That day he had earned the right to clean the science prep room after winning a round of rock-paper-scissors.`\
 
 ;　掃除の時間は、真面目に掃除をする生徒がいる一方で、ふざけて遊んでいる生徒も少なくない。@
-` There were a few students who did the cleaning diligently, but there were also many who just used the time to goof off. `@`
+`　There were a few students who did the cleaning diligently, but there were also many who just used the time to goof off.`@`
 br
 ;　その日も、理科室と理科準備室、そして廊下へとくるくる回りながら追いかけっこをしてふざけている女子の一群があった。\
-` That day as well, there was a group of girls skipping and chasing each other around all through the Lab and Science Prep. Room, and even out into the hallways. `\
+`　That day as well, there was a group of girls skipping and chasing each other around all through the lab, science prep room, and even out into the hallways.`\
 
 bg black,22
 
 ;　その時、彼はたまたま１人だった。@
-` By chance, at that time he was all by himself. `@`
+`　By chance, at that time he was all by himself.`@`
 br
 ;　掃き掃除を終え、@自分ひとりが掃除していることに気付いて憤慨し、班の仲間を誰か呼びに行こうとしているところだった。\
-` He had finished sweeping, `@` and had noticed with indignation that he was the only one still cleaning, so he was about to go call for some of his buddies in the group. `\
+`　He had finished sweeping, `@`and had noticed with indignation that he was the only one still cleaning, so he was about to go call for some of his buddies in the group.`\
 
 bg white,23
 bg rika_03,23
 
 ;　再び女子の一群が、きゃっきゃとはしゃぎながら、@それこそバターになってしまうのではないかという勢いで、理科室から理科準備室を抜け、廊下へ駆け抜けていく。\
-` Again the group of girls, giggling all the while, `@` chased each other around through the Lab, the Prep. Room and back into the hall. `\
+`　Again the group of girls, giggling all the while, `@`chased each other around through the lab, out the prep room, and back into the hall.`\
 
 quake 3,300
 wait 500
@@ -64,30 +64,30 @@ se2v 39,70
 quakey 3,300
 
 ;　その時、彼女らの一群の最後のひとりが、@理科室の定番の…、人体解剖模型を肩で弾き飛ばして倒した。@
-` At that time, the last girl of the group, `@` happened to bump the human anatomy dummy with her shoulder... sending it crashing to the floor. `@`
+`　At that time, the last girl of the group, `@`happened to bump the human anatomy dummy with her shoulder... sending it crashing to the floor.`@`
 br
 ;　それは勢いよく床に叩き付けられると、ばらばらになって散らばり、@これ以上ないくらいに取り返しがつかないことを見せ付けた。\
-` It hit the floor with such force that it broke, its pieces scattering here and there `@` just by looking at it one could tell that it could not be more horribly broken beyond repair. `\
+`　It hit the floor with such force that it broke, its pieces scattering here and there `@`just by looking at it he could tell that it could not be more horribly broken beyond repair.`\
 
 ld l,NON_def5a,22
 
 ;　その女子と彼は一瞬、起こったことに呆然として動きを止め、@……そして目を合わせた。\
-` She and he paused for a moment, dumbfounded by what had happened, `@` ... then their eyes met. `\
+`　She and he paused for a moment, dumbfounded by what had happened, `@`... then their eyes met. `\
 
 ;　野々宮武にとってみれば、それは目の前で起きた事故。@騒ぐつもりも囃し立てるつもりもない。@
-` To Nonomiya Takeshi it was just an accident that had occured right before his eyes. `@` He had no desire to either cheer or raise a fuss. `@`
+`　To Nonomiya Takeshi it was just an accident that had occured right before his eyes. `@`He had no desire to cheer or panic.`@`
 br
 ;　少なくとも自分は当事者ではないわけで、@彼女がどう先生に謝るのか、どう怒られるのか、それを気の毒に思うだけだった。\
-` At the very least, since he wasn't the culprit himself, `@` he felt pity on the girl, considering how she would apologize to the teachers and how angry they would be. `\
+`　At the very least, since he wasn't the culprit himself, `@`he felt pity on the girl, considering how she would apologize to the teachers and how angry they would be.`\
 
 bg white,64
 bg rika_01,22
 
 ;　だが女子は気まずそうな顔を浮かべた後、そのまま廊下へ駆け出して行った。@本来の、彼女の友人を追いかける仕事に戻った。@
-` But after giving him an uncomfortable look, the girl fled back to the corridor. `@` Then, she resumed chasing after her friends.
+`　But after giving him an uncomfortable look, the girl fled back to the corridor. `@`Then, she resumed chasing after her friends.`@
 br
 ;　後には、彼とばらばらになった人体解剖模型の残骸が散らばるだけだった。\
-` He was left alone with the scattered fragments of the fallen anatomy dummy. `\
+`　He was left alone with the scattered fragments of the fallen anatomy dummy.`\
 
 bg black,22
 
@@ -108,16 +108,16 @@ bg Different_spiral_1a,22
 me1v 11,90
 
 ;　ここからが、おかしな話になった。@
-` From here on, the tale became strange. `@
+`　From here on, this became a strange tale. `@
 br
 ;　彼は、彼女が人体模型を倒したと正しい主張をしたのだが、@彼女とその友人たちはそんなことをしていないと主張した。@いや、それどころか、そもそも理科準備室にすら立ち入っていないと主張した。\
-` Despite his insistence that she had broken the anatomy dummy, `@` the girl and her friends claimed she had done no such thing. `@` No, in fact, they even went so far as to say none of them had gone near the Scinece Prep. Room. `\
+`　Despite his insistence that she had broken the anatomy dummy, `@`the girl and her friends claimed she had done no such thing. `@`No, in fact, they even went so far as to say none of them had gone near the science prep room.`\
 
 ;　野々宮武は、自分の目の前で彼女が人体模型を弾き飛ばした光景をはっきり目に焼き付けている。@
-` But the image of the girl knocking over the anatomy dummy right before his eyes was burned into Nonomiya Takeshi's mind. `@`
+`　But the image of the girl knocking over the anatomy dummy right before his eyes was burned into Nonomiya Takeshi's mind.`@`
 br
 ;　もしも可能ならば現像したいと思うくらいにはっきりと焼き付けていた。\
-` It was fixed there so clearly that, if he could, he would have printed and developed it like film.
+`　It was fixed there so clearly that, if he could, he would have printed and developed it like film.`\
 
 ;bg Different_spiral_1b,22
 bg black,0
@@ -125,25 +125,25 @@ mono 1
 ld r,NON_def5a,22
 
 ;　しかし女子たちは証拠があるならば見せろと反論する。@
-` But the girls wanted him to produce real proof if he had it. `@`
+`　But the girls wanted him to produce real proof if he had it.`@`
 br
 ;　………目で見た光景は現像などできない。@証拠はもちろんなかった。\
-` ... but one can't develop that which is seen by eye alone. `@` So he had no proof to give. `\
+`　... but one can't develop that which is seen by eye alone.`@` So he had no proof to give.`\
 
 ;　その女子たちは普段、成績もよく、@……平均的に考えれば、男子よりも女子の方が信用できる年頃だった。@その上、女子たちは多人数で口裏を合わせている。\
-` Those girls were normally good students, `@`... and, thinking statistically, girls at that age are more trustworthy than boys. `@` Above all that, the girls had united their many voices against his. `\
+`　Those girls were normally good students, `@`... and, thinking statistically, girls at that age are more trustworthy than boys. `@` On top of that, the girls had united their many voices against his.`\
 
 bg rika_02,0
 ld r,NON_def5a,22
 
 ;　結果、何としたことか、@………先生は、野々宮武が嘘を吐いていると断定したのだ。@
-` As a result, no matter what he did, `@` ... the teacher decided Nonomiya Takeshi was lying. `@`
+`　As a result, no matter what he did, `@` ... the teacher decided Nonomiya Takeshi was lying. `@`
 br
 ;　別にゲンコツをもらったわけではないが、こっぴどく叱られた。@……とても悔しかった。@
-` It wasn't like he was beaten for it, only harshly scolded. `@` ...but it was so very frustrating. `@`
+`　It wasn't like he was beaten for it, only harshly scolded. `@`...but it was so very frustrating. `@`
 br
 ;　もちろん、嘘を吐いた女子も許せなかったが、@それ以上に、目の前で起こった真実を提示できなかったことが悔しかった。\
-` Oh, he would never forgive the girls who had lied but, `@` what was truly frustrating was that he couldn't present the truth he had seen with his own eyes. `\
+`　Oh, he would never forgive the girls who had lied but, `@`what was truly frustrating was that he couldn't present the truth he had seen with his own eyes.`\
 
 
 
@@ -176,10 +176,10 @@ wait 1000
 bgm1 8
 
 ;　人は真実を見ることができても、その証拠が示せない限り、それを語ることができない。@
-` People can see the truth with their eyes, but, as long as they have no proof to back it up they cannot call it truth. `@`
+`　Even though people can see the truth with their eyes, as long as they have no proof to back it up they cannot call it truth. `@`
 br
 ;　つまり、人は真実を自らの眼で見ることなどできない。@……写真に現像してしか、真実を見ることができないのだ。\
-` In other words, a person cannot see the truth alone. `@` ... only by developing what has been captured on film can anyone see the truth. `\
+`　In other words, a person cannot see the truth with their eyes alone. `@` ... only by developing what has been captured on film can anyone see the truth. `\
 
 se1 81
 
@@ -201,23 +201,23 @@ csp -1
 
 
 ;　彼はその時を境に、@真実を写真という形で切り取り、現像できる、カメラというものに強い関心を持つようになった。@
-` In his current state of mind, `@` he began to wish strongly for something like a camera that could capture the truth and develop it into pictures. `@`
+`　In his current state of mind, `@`he began to wish strongly for something like a camera that could capture the truth and develop it into pictures. `@`
 br
 ;　そんな彼の義憤が、真実を追究する新聞記者やカメラマンに向けられたのは、@若さを考えれば自然なものに違いなかった。\
-` His decision to aim toward becoming a reporter or cameraman who sought the truth was, `@` given his righteous indignation at that time, a natural result. `\
+`　His decision to aim toward becoming a reporter or cameraman who sought the truth was, `@`considering his youth and righteous indignation at that time, a natural result. `\
 
 ;　きっかけはそのようなものであったにせよ。@彼は、写真の世界に少しずつのめり込んで行った。@
-` And so, that became the catalyst. `@` From then on, he slowly began to enter the world of photography. `@`
+`　And so, that became the catalyst. `@`From then on, he slowly began to enter the world of photography.`@`
 br
 ;　しかし、彼の義憤を納得させるようなスクープ写真など、そうそうお目にかかれるわけもない。\
-` But, a scoop photo that would serve to fulfil his wrathful desire was not quick in coming. `\
+`　But, something like a scoop photo that would fulfil his righteous desires did not come quickly.`\
 
 
 ;　そのレンズは次第に、身近でささやかなものに向けられるようになり、@いつの間にか日々の日常を切り取って残すことに、詩的な喜びを感じるようになっていった…。@
-` That lens was instead turned upon the more ordinary things that were close at hand, `@` and before he knew it he took almost poetic pleasure in the simple things he was able to capture day by day... `@`
+`　That lens was instead turned upon the more ordinary things that were close at hand, `@`and before he knew it he took almost poetic pleasure in the simple things he was able to capture day by day...`@`
 br
 ;　そんな日々は幸いにもやがて、悔しい冤罪のことを忘れさせ、@濡れ衣を着せた相手の少女の顔も名前も思い出せなくしていった……。\
-` As those days continued, his happiness eroded away at the frustration he had felt at the false accusations, `@` and soon he began to even forget the name and face of the girl who had caused it all... `\
+`　As those days continued, his happiness eroded away at the frustration he had felt from those false accusations, `@`and soon he began to even forget the name and face of the girl who had caused it all...`\
 
 textoff
 
@@ -249,13 +249,13 @@ bgm1 4
 
 
 ;　そして、クラスには彼以外にカメラに関心を持つ者がいなかった為、@この趣味は彼のアイデンティティを確立させるのにこの上なく貢献した。\
-` So, since no one else in his class was quite as passionate about cameras, `@` this hobby began to become his entire identity in the school. `\
+`　So, since no one else in his class was quite as passionate about cameras, `@` this hobby began to become his entire identity in the school. `\
 
 ;　彼＝カメラという図式はクラスでは当り前のものとなり、@林間学校などでは、報道係なる役目をもらって、特別にカメラを携帯する許可をもらえたりした。
-` The concept that Takeshi=Camera became a matter of fact, `@` so that, even during outdoor school trips, he was allowed to bring a camera along for school journalism purposes.
+`　The concept that Takeshi=Camera became a matter of fact, `@`so that, even during outdoor school trips, he was allowed to bring a camera along for school journalism purposes.`@
 br
 ;　それは彼の自尊心を大きく向上させ、@将来は写真関係の仕事に就いてもいいかもしれないと思えるまでになっていた。\
-` That was a huge boost to his self esteem, `@` and he began to seriously consider pursuing a job in photography in the future. `\
+`　That was a huge boost to his self esteem, `@`and he even thought that it might be nice to pursue a job involving photography in the future. `\
 
 se1 81
 
@@ -269,33 +269,33 @@ bgcopy
 csp -1
 
 ;　だから、そんな彼が「新聞部」に所属することになるのは自然な流れだった。@
-` And therefore, his joining the 'Newspaper Club' was a given in the flow of events. `@`
+`　So joining the 'Newspaper Club' came naturally in the flow of events.`@`
 br
 ;　彼は、新聞部でもっともカメラに詳しい人間として重宝され、@顧問教師にカメラマンと呼ばれることに喜びを感じるのだった…。\
-` He was valuable as the person with the most knowledge of cameras in the whole club, `@` and so he could feel a thrill of joy whenever the club councilor would call him 'cameraman'... `\
+`　He was valuable as the person with the most knowledge of cameras in the whole club, `@` and so he could feel a thrill of joy whenever the club councilor would call him 'cameraman'... `\
 
 bg black,2
 wait 1000
 bg shinbun_02,22
 
 ;　部室はとても古い。@しかし、膨れ上がった生徒数を抱えるこの学校で、@それを与えられているのはとても名誉なことで、新聞部が歴史あるものであることを暗に教えてくれた。\
-` The room was very old. `@` However, in a school that was growing to meet the needs of the increasing student population, `@` having a room that had some obvious history was a mark of pride for the Newspaper Club. `\
+`　The room was very old. `@` However, in a school that was growing to meet the needs of the increasing student population, `@` having a room that had some obvious history was a mark of pride for the Newspaper Club. `\
 
 ;　もっとも、机を囲んで部員たちがパイプ椅子に座るのがやっとで、@後は棚に溢れかえる資料や本、会報。@それを積み上げたものや、古い機材、壊れた機材。@誰がいつ持ち込んだものなのかももはやわからない私物などが雑然とし、@のみならず、カビや埃の臭いを感じさせる実にカオスな部室だった。\
-` In the room the club members sat around a desk on folding chairs, `@` the shelves on the walls were overflowing with old books, documents and clippings, as well as old and broken machines of all sizes. `@` There was no way of telling what belonged to the club originally and what had been brought and forgotten by members long ago, `@` above all, the stench of dust and mildew lingered, and chaos ruled. `\
+`　In the room the club members sat around a desk on folding chairs, `@` the shelves on the walls were overflowing with old books, documents and clippings, as well as old and broken equipment. `@`There was no way of telling what belonged to the club originally and what had been brought and forgotten by members long ago, `@`and above all, the stench of dust and mildew lingered in the chaotic club room.`\
 me1v 11,90
 
 ;「この新聞部ってさ。@何でもすっげぇ古い歴史があるらしいぜ。@戦前どころか、開校の当時からあるって噂だぜ。」@
-`"You know what they say about the Newspaper Club. `@` Apparently it's got some super long history or something. `@` Forget before the war, this club's been around since the day the school opened, they say." `@`
+`"You know this Newspaper Club? `@`It seems we've got a super long history. `@`Even before the war, this club's been around since the day the school opened, so the rumors say."`@`
 br
 ;　次回の会報のテーマが決まらず、いつの間にか雑談となっている中で部長がぽつりと言った。\
-' The club president muttured this suddenly, while the club was in the middle of chattering idly rather than decide on the theme for the next bulletin. `\
+'　The club president muttured this suddenly, while the club was in the middle of chattering idly rather than deciding on the theme for the next bulletin. `\
 
 ;　武は、何かアイデアになるものが見つからないかと、古い棚を漁っている。@特に、教室奥の棚は、積み上げられた本の山のため、迂闊には近づけず、@入ったら帰れない魔境とまで呼ばれているのだった。@
-` Takeshi, looking for some kind of interesting idea they could go with, was fishing around in the old shelves. `@` Some of the older shelves in the back were, due to the random piles of books, almost impossible to get to, `@` even if you managed to get back there it was a one-way street from which no man could return. `@`
+`　Takeshi, looking for some kind of interesting idea they could go with, was fishing around in the old shelves. `@`Because some of the older shelves in the back had mountains of piled books, if one didn't approach them carefully, `@`some went as far as to say it was like hell, and once entered, no man could return.`@`
 br
 ;　彼は、そこにこそ何か珍しいものが眠っていて、@いつまでも堂々巡りで終わらないこの会議に終止符を打ってくれるものと期待していた。\
-` He was hoping that in that hidden place he would find some rare thing sleeping, `@` something amazing enough to put this endlessly repeating meeting to an end. `\
+`　He was hoping that in that hidden place he would find some rare thing sleeping, `@` something amazing enough to put this endlessly repeating meeting to an end. `\
 
 ;「野々宮、どうだよ。@何か面白そうなものは発掘できるかー？@　その辺まで行くと、戦前レベルのアルバムばっかだろ。」\
 `"Nonomiya, how's it look? `@` Dug up anything interesting yet? `@` If you're that far back, it's probably all pre-war albums and stuff." `\
@@ -313,20 +313,20 @@ ld r,NON_Def3a,80
 `"Yeah only, y'know, minus the capsule." `@`
 br
 ;　みんなケラケラと笑う。@アイデアの枯れ果てた会議に飽き、笑いの沸点が低くなっているようだった。\
-`Everyone laughed hard at that. `@` It seemed that the endless, fruitless meeting had brought the boiling point for everyone's laughter down a notch. `\
+`　Everyone laughed hard at that. `@` It seemed that the endless, fruitless meeting had brought the boiling point for everyone's laughter down a notch. `\
 
 ;　部長の言う通り、この魔境の奥の棚にある本は非常に古いものが多かった。@
-`Just like the club president had said, most of the books on the shelves tucked away in that dark corner* were amazingly old. `@`
-`((Translator's Note: The literal translation for the * is 'haunt for wicked men'. Ryuukishi was obviously making a joke, and I don't know exactly how to make it in English))`
+`　Just like the club president had said, most of the books on the shelves tucked away in that dark corner* were amazingly old. `@`
+;`((Translator's Note: The literal translation for the * is 'haunt for wicked men'. Ryuukishi was obviously making a joke, and I don't know exactly how to make it in English))`
 br
 ;　年号も、大正どころか明治にまで遡るものも少なくなかった。@
-`Even just looking at the dates. Forget Taisho, there really a bunch that went all the way back to Meiji. `@`
+`　Even just looking at the dates. Forget Taisho, there really a bunch that went all the way back to Meiji. `@`
 ;　ついでに、ひっくり返って干からびた怪しげな虫の死骸なども見つかる。@
-`As he went through the books he even found the old, dried, strange remains of insects. `@`
+`　As he went through the books he even found the old, dried, strange remains of insects. `@`
 br
 ;　……なるほど、魔境の名は伊達ではない。\
 ` ...Ah, so this really was a place where the sun never shone*. `\
-`((Translator's Note: Again this is a reference to the same word 'haunt for wicked men' and again I'm at a loss as to how to properly convey the joke))`
+;`((Translator's Note: Again this is a reference to the same word 'haunt for wicked men' and again I'm at a loss as to how to properly convey the joke))`
 
 bg black,23
 bg shinbun_03,23
@@ -339,13 +339,13 @@ E_A
 `"......Oh." `@`
 br
 ;　武は、ふとそれを見つける。@
-`Suddenly, Takeshi found it. `@`
+`　Suddenly, Takeshi found it. `@`
 
 bgm1 8
 
 br
 ;　それは、古いインスタントカメラ。\
-`'It' was an old instant camera. `\
+`　'It' was an old instant camera. `\
 
 
 
@@ -359,60 +359,60 @@ br
 
 
 ;　インスタントの写真はすぐに色落ちしてしまう為、記録用には向かない。@
-`Instant photos tend to lose their color quickly, so it would have been useless for records. `@`
+`　Instant photos tend to lose their color quickly, so it would have been useless for records. `@`
 br
 ;　しかし、撮ったその場で現像されるというお手軽感は、暗室を必要とする一般的なカメラでは味わえない、@何と言うのか、おもちゃ感覚を思い起こさせる。@
-`However, by using it one would never need to go through the hassle of a dark room for developing as they would with a normal camera, `@` to put it simply, it was thought of more as a kind of toy camera.
+`　However, by using it one would never need to go through the hassle of a dark room for developing as they would with a normal camera, `@` to put it simply, it was thought of more as a kind of toy camera.
 br
 ;　いつか縁があったら一台ほしいと思っていたが、今日までそれを手にしたことはなかった。\
-`I'd always wanted one if I could get my hands on it, but before today I'd never had the chance. `\
+`　I'd always wanted one if I could get my hands on it, but before today I'd never had the chance. `\
 
 ;ld c,NON_Def1,80
 
 ;　……でも、もうひとつ違和感。@
-`... but, I somehow felt uneasy about this. `@`
+`　... but, I somehow felt uneasy about this. `@`
 br
 ;　この部室の魔境の最深奥の、開校当時の本の山の中に、@このインスタントカメラは少しだけ違和感があるように感じられた。\
-`That I had found an instant camera like this, `@` buried among a pile of books that dated back to the school's founding, somehow gave me a strange feeling. `\
+`　That I had found an instant camera like this, `@` buried among a pile of books that dated back to the school's founding, somehow gave me a strange feeling. `\
 
 ;　確かに古いカメラだったが、開校当時の世界観からは新しすぎる。@……にも関わらず、この部室の最深奥に、まるで封印するかのように置かれていた。\
-`Yeah it was an old camera, but it was too new to actually be from the time the school was founded. `@`... It felt more like it had been buried all the way back here as if to seal it away.`\
+`　Yeah it was an old camera, but it was too new to actually be from the time the school was founded. `@`... It felt more like it had been buried all the way back here as if to seal it away.`\
 
 ;　触れる。@
-`I touched it. `@`
+`　I touched it. `@`
 br
 bg white,1
 bg shinbun_03,0
 ld r,NON_Def5a,23
 
 ;　ぴりっと静電気を感じた気がした。@
-`I felt a tiny jolt, almost like a static shock. `@`
+`　I felt a tiny jolt, almost like a static shock. `@`
 ;　臆病に引っ込めた指を、もう一度伸ばして触れる。\
-`I timidly pulled my fingers back, then reached out to touch it again. `\
+`　I timidly pulled my fingers back, then reached out to touch it again. `\
 
 cl r,0
 ld c,NON_Def6a,24
 
 ;　……ひんやりと冷たい感触。@
-` ...it was pleasantly cool to the touch. `@`
+`　...it was pleasantly cool to the touch. `@`
 br
 ;　誰の名前もなく、学校の備品であることを示すシールもない。@
-`There was no name written on it, or any seal to mark it as property of the school. `@`
+`　There was no name written on it, or any seal to mark it as property of the school. `@`
 br
 ;　埃での汚れ具合から、@ずいぶん昔に壊れ、過去の先輩の誰かがここに置き去りにしていったのだろうと考えるのが妥当だった。\
-` Judging by how dusty it was, `@` it'd be fair to assume that it had been broken some years ago and then abandoned here by some long gone senpai. `\
+`　Judging by how dusty it was, `@` it'd be fair to assume that it had been broken some years ago and then abandoned here by some long gone senpai. `\
 
 
 ;　ひょっとすると、電池を換えると動いたりしないだろうか。@……いやいや、こんなにも古いものに収められたフィルムがまだ使えるわけもない。@きっともう使用期限をはるかに超過しているだろう。\
-` Even if you put some new batteries in it would it even work? `@` ... no, no, even if it did the film inside would be useless. `@` It had probably expired years ago by now. `\
+`　Even if you put some new batteries in it would it even work? `@` ... no, no, even if it did the film inside would be useless. `@` It had probably expired years ago by now. `\
 
 ;　……でも、この捨てられた玩具を、なぜか武は見過ごせなかった。@
-` ... but, somehow Takeshi just couldn't tear his eyes away from this toy he had found. `@`
+`　... but, somehow Takeshi just couldn't tear his eyes away from this toy he had found. `@`
 br
 ;　ひょっとしたら、動くかも。@動かないなら捨ててしまえばいい。@
-` Maybe, just maybe, it could still work. `@` If not he could always throw it away again. `@`
+`　Maybe, just maybe, it could still work. `@` If not he could always throw it away again. `@`
 ;　もしも動いたなら、@普段とは違う感覚で使える、ちょっとした玩具になるかもしれない。\
-` If it did work, `@` it would be the perfect plaything to change up his everyday life. `\
+`　If it did work, `@` it would be the perfect plaything to change up his everyday life. `\
 
 bg black,24
 bg shinbun_01,24
@@ -422,7 +422,7 @@ bg shinbun_01,24
 `"President, you think this thing still works?" `@`
 br
 ;　武はそのインスタントカメラを掲げながら、@再び積み重ねられた本の魔境を乗り越えて、部員たちのもとへ戻る。\
-` Takeshi, hoisting the instant camera, `@` made his way back out of the dark haunt made of old books and returned to where the other club members were. `\
+`　Takeshi, hoisting the instant camera, `@` made his way back out of the dark haunt made of old books and returned to where the other club members were. `\
 
 ;「何だよそれ。@汚いカメラだな。@それ、落ちてたのか？」@
 `"What the heck is that? `@`Oh, it's an old beat-up camera. `@` Was it dropped back there?" `@`
@@ -433,13 +433,13 @@ ld l,NON_Def3,23
 `"Yeah. `@` All the way in the very back. `@` I guess maybe one of our ancient senpais forgot it here?"`\
 
 ;　部員たちはそのカメラに何か面白いものを撮影したフィルムが残っていないか期待した。@
-` The other club members hoped maybe there'd be something interesting photographed on the film left in the camera. `@`
+`　The other club members hoped maybe there'd be something interesting photographed on the film left in the camera. `@`
 br
 ;　しかしこれはインスタントカメラだから撮影したフィルムは残らない。@その場で現像されて排出されるから、過去の貴重な写真が見つかるというわけではないのだ。\
-` But this was an instant camera, so it didn't retain its used film. `@` After taking a picture it would instantly develop it and spit it out, thus no trace of past pictures could be found. `\
+`　But this was an instant camera, so it didn't retain its used film. `@` After taking a picture it would instantly develop it and spit it out, thus no trace of past pictures could be found. `\
 
 ;　となれば、このような薄汚れたカメラに好んで触りたがる部員もいるわけがない。@彼らの関心は、誰かが唐突に言い出したダジャレの笑いで掻き消されるのだった。\
-` And so, the interest the club members had in the dirty old camera flagged. `@` After they all laughed at a suddenly interjected pun their focus on the matter completely vanished. `\
+`　And so, the interest the club members had in the dirty old camera flagged. `@` After they all laughed at a suddenly interjected pun their focus on the matter completely vanished. `\
 
 ;ld l,NON_Def1,80
 
@@ -449,12 +449,12 @@ cl l,22
 ` Takeshi left them to themselves, and put some new batteries into the instant camera. `@`
 br
 ;　動くとは期待してない。@それで動かなければ放り出す。@百分の一の確率でも動けばラッキー。@
-` He wasn't expecting it to work. `@` If it didn't he'd trash it. `@` If, million-to-one, it did, well it'd be his lucky day. `@`
+`　He wasn't expecting it to work. `@` If it didn't he'd trash it. `@` If, million-to-one, it did, well it'd be his lucky day. `@`
 ;　その程度の気持ちで電池を入れてみた。@
-` Those were his feelings as he changed the batteries. `@`
+`　Those were his feelings as he changed the batteries. `@`
 br
 ;　……少しいじってみる。@通電を意味するであろうランプが点り、驚く。\
-` ... he turned it over. `@` To his surprise, the LED light that signified that it was receiving electricity was glowing. `\
+`　... he turned it over. `@` To his surprise, the LED light that signified that it was receiving electricity was glowing. `\
 
 bg black,23
 bg shinbun_02,23
@@ -465,10 +465,10 @@ bg white,1
 bg shinbun_02,22
 
 ;　まだゲラゲラと笑いあっている部員たちにカメラを向け、試しにシャッターを切ってみた。@硬く重い手応え。@……でも、バシャリと心地良い音がした。@
-` Takeshi aimed the camera at his club-mates, who were still laughing among themselves, and pushed the shutter. `@` The shutter resisted quite stubbornly. `@` ... but, then it made a happy little snapshot noise. `@`
+`　Takeshi aimed the camera at his club-mates, who were still laughing among themselves, and pushed the shutter. `@` The shutter resisted quite stubbornly. `@` ... but, then it made a happy little snapshot noise. `@`
 br
 ;　まさか動くとは思っていなかった古カメラが撮影したので、みんなは驚く。@……それはもちろん武も。\
-` Everyone was shocked when the ancient camera managed to take a picture. `@`... of course, Takeshi was too. `\
+`　Everyone was shocked when the ancient camera managed to take a picture. `@`... of course, Takeshi was too. `\
 
 me1v 20,50
 
@@ -482,10 +482,10 @@ csp -1
 E_MA
 
 ;　そして、ベロリとカメラの正面から写真が現れる。@
-` Then, like a tongue sliding out, a picture appeared from the front of the camera. `@`
+`　Then, like a tongue sliding out, a picture appeared from the front of the camera. `@`
 br
 ;　始め、そこには何も写っていないように見えたが、少しずつじんわりとそこに画像が浮かび上がってきた……。\
-` At first it looked like there was nothing on it, but slowly an image began to appear... `\
+`　At first it looked like there was nothing on it, but slowly an image began to appear... `\
 
 ;「お…、すっげぇじゃん。@写ったぜ？！」@
 `"Woah... Awesome. `@` I actually worked!?" `@`
@@ -501,19 +501,19 @@ me1v 11,90
 `"Ah, I talked to that senpai too. `@` They said that when someone took a class picture with that camera, students who weren't supposed to be there showed up in it." `@`
 br
 ;　そういう話をしている間に、写真の画像が鮮明になる。@
-` As they were telling these stories, the photograph finished developing.  `@`
+`　As they were telling these stories, the photograph finished developing.  `@`
 ;　みんなは頭をぶつけ合いながらそれを覗き込み、自分たち以外の誰かが写っていないか探した。\
-` Everyone crammed in close together, butting heads as they tried to see if there was anyone besides them all in the picture. `\
+`　Everyone crammed in close together, butting heads as they tried to see if there was anyone besides them all in the picture. `\
 
 ;　もちろん、そんな都合よく心霊写真にお目にかかれるわけもない。@
-` Obviously, that wasn't the sort of place you'd expect a real ghost photo to show up at. `@`
+`　Obviously, that wasn't the sort of place you'd expect a real ghost photo to show up at. `@`
 ;　そこには呆気ないくらい当り前の日常風景が切り取られているだけだった。\
-` What they got was a picture so normal as to crush the mood entirely. `\
+`　What they got was a picture so normal as to crush the mood entirely. `\
 ;　期待外れなものだったかもしれないが、@今日、ここに集った部員たちの日常を捉えたささやかな記念写真には充分だろう。@
-` Perhaps it betrayed their hopes but, `@` at the very least, it could serve as a nice memory of their meeting that day. `@`
+`　Perhaps it betrayed their hopes but, `@` at the very least, it could serve as a nice memory of their meeting that day. `@`
 br
 ;　画像もそこそこに鮮やか。@……記録写真には到底使えないが、玩具にしては上出来だった。\
-` The picture was fairly vivid. `@` ... Even though these kinds of photos couldn't be used for long-term records, it was pretty good for a 'toy' camera `\
+`　The picture was fairly vivid. `@` ... Even though these kinds of photos couldn't be used for long-term records, it was pretty good for a 'toy' camera `\
 
 bg black,24
 bg shinbun_01,0
@@ -525,10 +525,10 @@ ld r,NON_Def2,24
 `"Yeah, why not? `@` The guy who brought it probably forgot about it a long time ago. `@` It's old, so you probably won't be able to find parts or film for it. `@` You found it, Nonomiya, so you can keep it if you want, that okay?" `\
 
 ;　あっさりと、このカメラの新しい所有者は武で決定する。@
-` And so, with those simple words, the camera passed into Takeshi's ownership. `@`
+`　And so, with those simple words, the camera passed into Takeshi's ownership. `@`
 br
 ;　彼らにとっては、特別な関心のあるものではなかったということだろう。\
-` The camera was, one could perhaps say, not so simple an object, to him. `\
+`　The camera was, one could perhaps say, not so simple an object, to him. `\
 
 bg black,22
 
@@ -538,31 +538,31 @@ E_B
 E_M1
 
 ;　フィルムの残り枚数は、あとほんの数枚しかない。@玩具にするほども遊べはしないだろう。@
-` There was only a few shots left of the film that had been left in the camera. `@` It'd be a waste to use it frivolously. `@`
+`　There was only a few shots left of the film that had been left in the camera. `@` It'd be a waste to use it frivolously. `@`
 br
 ;　それでも、このカメラと自分との出会いは、神さまか何かの仕組んだ貴重な縁に違いない。\
-` Still, his encounter with this camera was unmistakably an act of important destiny, part of some plan arranged by God. `\
+`　Still, his encounter with this camera was unmistakably an act of important destiny, part of some plan arranged by God. `\
 
 ;bg black,44
 bg rouka_02,22
 
 ;　彼は前向きにそう考えながら、昇降口に向かっていた。\
-` With that kind of positive thinking on his mind, he was headed for the exit. `\
+`　With that kind of positive thinking on his mind, he was headed for the exit. `\
 
 ;　結局、会報のテーマは、いつも通り、無難にぐだぐだに決まった。@しかもその案は一番最初に出て、あまりに面白みがないので却下されたはずのものだった。@
-` In the end,  the group had fallen back to deciding on a safe and normal theme for the paper. `@` More than 'safe', it was something so overdone and uninteresting that it should have been shot down as soon as someone said it. `@`
+`　In the end,  the group had fallen back to deciding on a safe and normal theme for the paper. `@` More than 'safe', it was something so overdone and uninteresting that it should have been shot down as soon as someone said it. `@`
 br
 ;　それで決定しておけば、無駄な時間を過ごさずに済んだはずなのに。@……まぁ、いつものことだけど。\
-` If they were going to just decide on something like that, they should have done it from the start instead of wasting so much time. `@` ... oh well, it was always like that. `\
+`　If they were going to just decide on something like that, they should have done it from the start instead of wasting so much time. `@` ... oh well, it was always like that. `\
 
 ;　時間は夕方、黄昏時。@橙色に染まる廊下に他の生徒の気配はない。@遠くから体育会系の部活の勇ましい声は聞こえるのだが、@それはとてもとても遠く感じて、むしろ廊下の寂しさを煽った。\
-` It was already evening, dusk. `@`In the hallway stained orange by the setting sun, there was no sign of any other students. `@`From a distance one could hear the rousing shouts of the athletics clubs, but `@`those were so distant, they only served to accent the lonely feeling of the hallway. `\
+`　It was already evening, dusk. `@`In the hallway stained orange by the setting sun, there was no sign of any other students. `@`From a distance one could hear the rousing shouts of the athletics clubs, but `@`those were so distant, they only served to accent the lonely feeling of the hallway. `\
 
 ;　……だから、人にぶつかるわけもない。@
-` ... so, there was no way I could have bumped into someone. `@`
+`　... so, there was no way I could have bumped into someone. `@`
 br
 ;　僕はカメラいじりに熱中しながら、目線をカメラに落としたまま歩く。\
-` I was so excited about the camera that I couldn't take my eyes off it as I walked. `\
+`　I was so excited about the camera that I couldn't take my eyes off it as I walked. `\
 
 bg black,23
 bg rouka_03,0
@@ -571,7 +571,7 @@ ld c,HIG_w3,1
 E_A
 
 ;　なので、突然目の前に人がいることに気付いて、僕は飛び上がって驚いた。@
-` So, when I suddenly noticed that someone was there, I jumped in surprise. `@`
+`　So, when I suddenly noticed that someone was there, I jumped in surprise. `@`
 br
 
 me1v 28,50
@@ -579,10 +579,10 @@ me1v 28,50
 quakey 2,200
 
 ;　その拍子にカメラを手から落としてしまう。@
-` And in that moment I felt the camera slip from my fingers. `@`
+`　And in that moment I felt the camera slip from my fingers. `@`
 br
 ;　このカメラは華奢なものだ。@落としただけできっと壊れてしまうに違いない！\
-` The camera was such a fragile thing. `@` If it hit the ground it'd definitely shatter! `\
+`　The camera was such a fragile thing. `@` If it hit the ground it'd definitely shatter! `\
 
 
 cl c,22
@@ -591,7 +591,7 @@ E_A
 se1v 13,30
 
 ;　しかし、そのカメラを、……まるで羽根突きか何かで、優雅に打ち返すような仕草で、@眼前の女子生徒はカメラを受け取った。@間一髪だった。\
-` But... with the grace of a badminton player hitting a shuttlecock at the last moment, `@`the girl before my eyes gracefully scooped the camera out of the air. `@` It had been a hair's breadth from hitting the ground. `\
+`　But... with the grace of a badminton player hitting a shuttlecock at the last moment, `@`the girl before my eyes gracefully scooped the camera out of the air. `@` It had been a hair's breadth from hitting the ground. `\
 
 ld c,HIG_w3,6
 ld c,HIG_Def3,22
@@ -602,19 +602,19 @@ bgm1 5
 `" ... you should look ahead while walking, correct? Next time what falls might not be as simple as a camera. `@` ... hehehehe." `@`
 br
 ;　その女子は、とてもとても優雅な仕草で、そう笑った。\
-` The girl, with perfect grace and elegance, laughed like that. `\
+`　The girl, with perfect grace and elegance, laughed like that. `\
 
 ;　話しぶりや雰囲気から、ひょっとすると上級生かもしれないと思った。@
-` From the way she spoke, and the atmosphere, I assumed she was an upper-classman. `@`
+`　From the way she spoke, and the atmosphere, I assumed she was an upper-classman. `@`
 br
 ;　謝る仕草をしながら名札を見るが、雨か何かで滲んだようになっていてよく読み取れなかった。\
-` As I bowed to apologize I glanced at her nametag but, maybe by rain or something else, it had been washed out and was impossible to read. `\
+`　As I bowed to apologize I glanced at her nametag but, maybe by rain or something else, it had been washed out and was impossible to read. `\
 
 ;　それは、相手が自分より年齢が上か下かによって対応を変えようという行為だが、@彼女が上でも下でも関係はないだろう。@ぼんやりしていた自分の方が悪いのだから。@
-` And so, I was caught in the strange situation of not knowing whether the person I was talking to was older or younger than me but, `@`it really didn't matter how old she was, did it? `@`The whole thing was my fault for spacing out. `@`
+`　And so, I was caught in the strange situation of not knowing whether the person I was talking to was older or younger than me but, `@`it really didn't matter how old she was, did it? `@`The whole thing was my fault for spacing out. `@`
 br
 ;　武はとりあえず、相手の学年は問わず敬語で謝る。\
-` So, regardless, Takeshi apologized as he would to an upper-classman. `\
+`　So, regardless, Takeshi apologized as he would to an upper-classman. `\
 
 ;cl c,24
 ;ld l,HIG_Def5,24
@@ -657,9 +657,9 @@ ld r,NON_Def5a,80
 `"...what?" `@`
 br
 ;　彼女はくすりと笑う。@
-` The girl gave a quiet laugh.`@`
+`　The girl gave a quiet laugh.`@`
 ;　風もないのに、彼女の長く美しい髪が、ふわりとなびいた気がした。\
-` Even though there was no wind, the girl's long hair was swaying as if in a breeze.`\
+`　Even though there was no wind, the girl's long hair was swaying as if in a breeze.`\
 
 
 bg black,23
@@ -675,15 +675,15 @@ ld c,HIG_Def3,80
 `"...I don't believe I'd enjoy that.`@` If I died it's unpleasant to think that my body would be devoured and torn into pieces but, the thought of existing forever as an unsightly empty shell is unbearable.`@`... thus, when I say that stuffing dead animals and taking pictures are equally as cruel, you understand, right? Hehehehe..."`\
 
 ;　武は、少しだけ馬鹿にされていると感じた。@
-` Takeshi got the feeling she was making fun of him.`@`
+`　Takeshi got the feeling she was making fun of him.`@`
 br
 ;　確かに、彼女の言うような残酷な使い方も、カメラは可能だろう。\
-` Of course, a person could use a camera in the way she was describing.`\
+`　Of course, a person could use a camera in the way she was describing.`\
 
 ;　だから、カメラマンには倫理が必要だ。@
-` That's why when using a camera one needed to be ethical.`@`
+`　That's why when using a camera one needed to be ethical.`@`
 ;　写して良いものと、悪いもの。@その見分けをつけて、良いものだけを語り継がなくてはならないのだ。\
-` What was okay to photograph, or not.`@` Understanding the difference, one had to always choose to photograph only the good things.`\
+`　What was okay to photograph, or not.`@` Understanding the difference, one had to always choose to photograph only the good things.`\
 
 ld c,HIG_w4,80
 
@@ -691,18 +691,18 @@ ld c,HIG_w4,80
 `"... what a nice thought.`@`If you're that straight-laced about it, perhaps there is value in entrusting that camera with you.`@`... why don't you run along and play with it?`@` I'm sure you'll have fun. `@`... hehehe."`@`
 br
 ;　彼女は、まるでこの写真機のことをよく知っているように見えた。\
-` It seemed almost as if this girl knew all about the camera.`\
+`　It seemed almost as if this girl knew all about the camera.`\
 
 ;　……もちろんそんなわけ、あるはずもない。@それは多分、僕の気のせいだ。@
-` ... of course, that was impossible.`@` That was probably just my imagination.`@`
+`　... of course, that was impossible.`@` That was probably just my imagination.`@`
 br
 ;　まるで、このカメラに何かびっくりするような仕掛けでもしてあるのを知っているかのように。@彼女はくすくすと笑いながら僕の脇を通り抜ける。\
-` It was almost like she knew of some prank that was hidden in the camera.`@`She snickered quietly to herself as she passed by me.`\
+`　It was almost like she knew of some prank that was hidden in the camera.`@`She snickered quietly to herself as she passed by me.`\
 
 cl c,2
 
 ;　黄昏色に染まる廊下を歩む彼女が、なぜかとても神秘的に見えて。@……僕は無意識の内に彼女の後姿をファインダーに捉えていた。\
-` Somehow, in the twilight-stained hallway, the figure of the girl walking away seemed mysterious.`@`...I unconciously found myself fixing her figure into the viewfinder of the camera.`\
+`　Somehow, in the twilight-stained hallway, the figure of the girl walking away seemed mysterious.`@`...I unconciously found myself fixing her figure into the viewfinder of the camera.`\
 
 E_A
 se1 1006
@@ -716,18 +716,18 @@ bg rouka_02,2
 me1v 5,50
 
 ;　すると突然、すぐ近くの窓ガラスがビシリと鋭い音を上げた。\
-` As I did, all of the sudden there was a loud noise from a window near me.`\
+`　As I did, all of the sudden there was a loud noise from a window near me.`\
 
 ld c,NON_Def5a,22
 
 ;　びっくりしてカメラを下ろし、それを見る。@
-` I jumped, and, lowering the camera, looked over that way.`@`
+`　I jumped, and, lowering the camera, looked over that way.`@`
 br
 ;　……どこかからボールでも飛んできて窓ガラスにぶつかったんだろうか。@そこには蜘蛛の巣状のひびが入っていた…。@
-` ...Maybe a ball from somewhere had flown and hit the glass or something.`@`There was a spiderweb crack there, after all...`@`
+`　...Maybe a ball from somewhere had flown and hit the glass or something.`@`There was a spiderweb crack there, after all...`@`
 br
 ;　気付けば、彼女は振り返り自分をじっと見ていた。@……無断で彼女の姿を撮ろうとしたのを不愉快に思っているように見えた。\
-` I noticed that the girl had turned and was looking steadily at me.`@` ... I got the feeling she was upset at me for trying to take a picture of her without her permission.`\
+`　I noticed that the girl had turned and was looking steadily at me.`@` ... I got the feeling she was upset at me for trying to take a picture of her without her permission.`\
 
 bg rouka_03,0
 ld r,HIG_w3,3
@@ -743,17 +743,17 @@ ld l,NON_Def4a,23
 `"S-... sorry."`@`
 br
 ;　彼女が何を言ったのか、よく意味がわからなかったが、@……とりあえず、怒られたことだけはわかった。\
-` I had no idea what she was saying, but `@`... at the very least, I understood that she was upset.`\
+`　I had no idea what she was saying, but `@`... at the very least, I understood that she was upset.`\
 
 me3v 11,90
 
 cl r,2
 
 ;　彼女は廊下の向こうに立ち去り、僕とカメラだけが、静寂の廊下に残されている。@
-` She headed toward the other end of the corridor and soon vanished, leaving me alone in the deserted hall with the camera.`@`
+`　She headed toward the other end of the corridor and soon vanished, leaving me alone in the deserted hall with the camera.`@`
 br
 ;　……このカメラには、何を写す力があるというのだろう。\
-` ...Just what was the camera really capable of capturing?`\
+`　...Just what was the camera really capable of capturing?`\
 
 
 
@@ -788,13 +788,13 @@ csp -1
 bgm1 1
 
 ;　撮ったその場で現像された写真が出てくるというのは、僕には未知の喜びだった。@
-` The concept of being able to take and develop pictures on the spot was a joy I had not yet realized. `@`
+`　The concept of being able to take and develop pictures on the spot was a joy I had not yet realized. `@`
 br
 ;　確かに、写真をフィルムいっぱいに収め、その出来具合を暗室でまとめて確かめるのもとても楽しい。@
-` The act of filling up a roll of film and then slowly developing it in a dark room was enjoyable in its own right. `@`
+`　The act of filling up a roll of film and then slowly developing it in a dark room was enjoyable in its own right. `@`
 br
 ;　しかし、その場ですぐに写真になる手軽さは、玩具的とは言え本当に楽しいものだった。\
-` But the more simple fun of developing film on the spot with that toy-like camera was far more entertaining. `\
+`　But the more simple fun of developing film on the spot with that toy-like camera was far more entertaining. `\
 
 ;mono 1
 ;print 42
@@ -811,16 +811,16 @@ csp -1
 
 
 ;　インスタントの写真は、そう長い時間は持たない。@普通の写真よりはるかに短い期間で色褪せてしまう。@
-` With instant pictures there was no long wait. `@`In exchange, the colors of the photo would fade far faster than a normal picture. `@`
+`　With instant pictures there was no long wait. `@`In exchange, the colors of the photo would fade far faster than a normal picture. `@`
 br
 ;　だから、今を撮り、今を楽しむ。気軽に。\
-` They were meant to be taken in the moment, and enjoyed in the moment. A carefree kind of joy. `\
+`　They were meant to be taken in the moment, and enjoyed in the moment. A carefree kind of joy. `\
 
 ;　残りのフィルムが数枚だから、もったいぶろうという考えはすぐになくなった。@
-` There were quite a few shots left in the camera, so I didn't worry too much about wasting them. `@`
+`　There were quite a few shots left in the camera, so I didn't worry too much about wasting them. `@`
 br
 ;　ひょっとするとこのカメラは、@残りのフィルムがあるからこそ、成仏できなかったのかもしれない。\
-` Perhaps it was the very fact that it had film left, `@`that had made it impossible for the camera to rest in peace.`\
+`　Perhaps it was the very fact that it had film left, `@`that had made it impossible for the camera to rest in peace.`\
 
 bg black,22
 ;mono 0
@@ -830,24 +830,24 @@ me1v 24,50
 bg rouka_04,22
 
 ;　まだ撮影できるフィルムが残っているのに、それを全うできず埃に塗れて誰からも忘れられてしまうのは、@きっと悲しいことだったに違いない。@
-` To be gathering dust, forgotten by someone while there was still film left unused within it, `@`seemed like such a painful thing.`@`
+`　To be gathering dust, forgotten by someone while there was still film left unused within it, `@`seemed like such a painful thing.`@`
 ;　それを思えば、僕とこのカメラの出会いは、ちょっとした縁なのではないかと思った。@
-` If I thought about it that way, it seemed even more like my meeting with this camera was dictated by fate. `@`
+`　If I thought about it that way, it seemed even more like my meeting with this camera was dictated by fate. `@`
 br
 ;　変に勿体ぶらずに、色々遊んでみよう。@そしてフィルムを使い切り、元の場所に戻してやろう。@そう思った。\
-` So I wouldn't worry about wasting the film, and I'd enjoy taking all kinds of photos with it. `@` Then, when I'd used all the film, I'd return it to where I found it. `@`That was my plan. `\
+`　So I wouldn't worry about wasting the film, and I'd enjoy taking all kinds of photos with it. `@` Then, when I'd used all the film, I'd return it to where I found it. `@`That was my plan. `\
 
 
 bg black,22
 
 ;　だから、ある日。@残りのフィルムがあと２枚しかないことに気付き、@………例のことを試してみようと思った。@もちろん、悪戯心でだ。@
-` So, one day. `@`I realized there were only two shots left, `@`...so I decided to try something with it. `@`Obviously, it was a prank. `@`
+`　So, one day. `@`I realized there were only two shots left, `@`...so I decided to try something with it. `@`Obviously, it was a prank. `@`
 br
 ;“クラス写真を撮ると、いないはずの生徒が写るらしい”。@
 `"They say if you take a class picture, a student who should not be there will appear." `@`
 br
 ;　それを、…確かめてみようと思った。\
-` I figured... I'd give that a try.`\
+`　I figured... I'd give that a try.`\
 
 fede 1,1000
 E_B
@@ -865,7 +865,7 @@ E_B
 bg kyou_02,2
 
 ;　たまたま社会の時間に、教材のビデオを見て、その感想を書くようにとの自習があった。\
-` It was during Social Studies. The assignment was to watch a video and write our impressions. `\
+`　It was during Social Studies. The assignment was to watch a video and write our impressions. `\
 
 se1 81
 
@@ -878,32 +878,32 @@ csp -1
 
 
 ;　僕はみんなの写真を撮らせてくれと宣言し、面白半分で写真を撮った。@
-` I announced that I wanted a picture of the class, and took it just for fun. `@`
+`　I announced that I wanted a picture of the class, and took it just for fun. `@`
 br
 ;　ところが、@……いつもは割とすぐに浮かび上がるはずの画像が、なかなか浮かび上がらなかった。\
-` Incidentally, `@`... for some reason the film that would always develop fairly quickly took much longer this time. `\
+`　Incidentally, `@`... for some reason the film that would always develop fairly quickly took much longer this time. `\
 
 
 bg kyou_01,0
 ld r,NON_def6,22
 
 ;　どんな写真が写ってるのかと期待したクラスメートたちは、@やはりカメラが壊れていたのだろうと納得した。@
-` My classmates, who were all waiting to see what would develop, `@`all said that the old camera had probably broken down.`@`
+`　My classmates, who were all waiting to see what would develop, `@`all said that the old camera had probably broken down.`@`
 br
 ;　彼らは、まだフィルムがあるのならもう一枚撮ればいいとせがんだが、@……僕はなぜか気になり、それを断り、撮影をやめた。\
-` They told me if there was film left I should try again, but ` @`...but I was worried, so I refused and that was it for photographing that day. `\
+`　They told me if there was film left I should try again, but ` @`...but I was worried, so I refused and that was it for photographing that day. `\
 
 
 ;　……フィルムの薬物が古くなって駄目になってしまっていたのだろうか？@
 ` ...had the chemicals of the film finally gone bad?`@`
 ;　僕は何となく違うと思った。@
-` Somehow I figured that wasn't it.`@`
+`　Somehow I figured that wasn't it.`@`
 br
 ;　ひょっとして、………写ってしまったのではないだろうか。@“写ってはならないもの”が。@
-` Maybe,...it had photographed something.`@`"Something that should not be photographed." `@`
+`　Maybe,...it had photographed something.`@`"Something that should not be photographed." `@`
 br
 ;　それを僕らに見せまいと、……写真が抵抗しているのではないだろうか。\
-` Perhaps the camera was,... resisting, to spare us from seeing that.`\
+`　Perhaps the camera was,... resisting, to spare us from seeing that.`\
 
 bg black,22
 
@@ -920,25 +920,25 @@ E_MA
 ld c,HIG_Def3,22
 
 ;　あの日、廊下ですれ違った不思議な少女の意味深な言葉が蘇る。@
-` That day, the deep words spoken to me by the strange girl in the corridor returned to me. `@`
+`　That day, the deep words spoken to me by the strange girl in the corridor returned to me. `@`
 br
 ;　……彼女は、僕にクラス写真を撮りたがらせていたような気がする。@だから、ああいう意味深な言い方をしたのではないだろうか。\
-`...it was as if she had wanted me to take that picture of my class. `@`That's why she had said those things to me. `\
+`　...it was as if she had wanted me to take that picture of my class. `@`That's why she had said those things to me. `\
 
 bg black,22
 bg kyou_03,22
 
 ;　この写真には、きっと何かが写っているのだ。@
-` I just knew there was something captured in this photo.`@`
+`　I just knew there was something captured in this photo.`@`
 br
 ;　………そう言えば、ひどくわずかではあるが、画像がじんわりと浮き出してきたような気がする。\
 ` ...that said, it was incredibly faint but, I thought I saw the picture beginning to develop.`\
 
 ;　その写真は、放課後に見た時には、さらにじんわりと浮き出ていた。@
-` I looked at that photo after school, and it was still slowly developing.`@`
+`　I looked at that photo after school, and it was still slowly developing.`@`
 br
 ;　……しかしそれでも、写っているクラスメートたちの顔を確認できるようなものではなかった。\
-`...but, even with that, I still couldn't make out the faces of my classmates in it.`\
+`　...but, even with that, I still couldn't make out the faces of my classmates in it.`\
 
 
 ;lsp bgsp,":a;bmp\background\efe\a004.bmp",0,0
