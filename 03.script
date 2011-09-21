@@ -788,11 +788,14 @@ csp -1
 
 bgm1 1
 
-　撮ったその場で現像された写真が出てくるというのは、僕には未知の喜びだった。@
+;　撮ったその場で現像された写真が出てくるというのは、僕には未知の喜びだった。@
+` The concept of being able to take and develop pictures on the spot was a joy I had not yet realized. `@`
 br
-　確かに、写真をフィルムいっぱいに収め、その出来具合を暗室でまとめて確かめるのもとても楽しい。@
+;　確かに、写真をフィルムいっぱいに収め、その出来具合を暗室でまとめて確かめるのもとても楽しい。@
+` The act of filling up a roll of film and then slowly developing it in a dark room was enjoyable in its own right. `@`
 br
-　しかし、その場ですぐに写真になる手軽さは、玩具的とは言え本当に楽しいものだった。\
+;　しかし、その場ですぐに写真になる手軽さは、玩具的とは言え本当に楽しいものだった。\
+` But the more simple fun of developing film on the spot with that toy-like camera was far more entertaining. `\
 
 ;mono 1
 ;print 42
@@ -809,14 +812,16 @@ csp -1
 
 
 ;　インスタントの写真は、そう長い時間は持たない。@普通の写真よりはるかに短い期間で色褪せてしまう。@
-` Instant photos don't have as much time; they fade faster than regular photos.`@`
+` With instant pictures there was no long wait. `@`In exchange, the colors of the photo would fade far faster than a normal picture. `@`
 br
-　だから、今を撮り、今を楽しむ。気軽に。\
+;　だから、今を撮り、今を楽しむ。気軽に。\
+` They were meant to be taken in the moment, and enjoyed in the moment. A carefree kind of joy. `\
 
 ;　残りのフィルムが数枚だから、もったいぶろうという考えはすぐになくなった。@
-`Few of the pieces of film remained, so the idea quickly died.`@` 
+` There were quite a few shots left in the camera, so I didn't worry too much about wasting them. `@`
 br
-　ひょっとするとこのカメラは、@残りのフィルムがあるからこそ、成仏できなかったのかもしれない。\
+;　ひょっとするとこのカメラは、@残りのフィルムがあるからこそ、成仏できなかったのかもしれない。\
+` Perhaps it was the very fact that it had film left, `@`that had made it impossible for the camera to rest in peace.`\
 
 bg black,22
 ;mono 0
@@ -825,22 +830,26 @@ me1v 24,50
 
 bg rouka_04,22
 
-　まだ撮影できるフィルムが残っているのに、それを全うできず埃に塗れて誰からも忘れられてしまうのは、@きっと悲しいことだったに違いない。@
-　それを思えば、僕とこのカメラの出会いは、ちょっとした縁なのではないかと思った。@
+;　まだ撮影できるフィルムが残っているのに、それを全うできず埃に塗れて誰からも忘れられてしまうのは、@きっと悲しいことだったに違いない。@
+` To be gathering dust, forgotten by someone while there was still film left unused within it, `@`seemed like such a painful thing.`@`
+;　それを思えば、僕とこのカメラの出会いは、ちょっとした縁なのではないかと思った。@
+` If I thought about it that way, it seemed even more like my meeting with this camera was dictated by fate. `@`
 br
-　変に勿体ぶらずに、色々遊んでみよう。@そしてフィルムを使い切り、元の場所に戻してやろう。@そう思った。\
+;　変に勿体ぶらずに、色々遊んでみよう。@そしてフィルムを使い切り、元の場所に戻してやろう。@そう思った。\
+` So I wouldn't worry about wasting the film, and I'd enjoy taking all kinds of photos with it. `@` Then, when I'd used all the film, I'd return it to where I found it. `@`That was my plan. `\
 
 
 bg black,22
 
 ;　だから、ある日。@残りのフィルムがあと２枚しかないことに気付き、@………例のことを試してみようと思った。@もちろん、悪戯心でだ。@
-`That's why, one day.`@`Realizing that there were two pieces of film left over,`@`I thought to try the example.`@`Of course, with no good intent.`@`
+` So, one day. `@`I realized there were only two shots left, `@`...so I decided to try something with it. `@`Obviously, it was a prank. `@`
 br
 ;“クラス写真を撮ると、いないはずの生徒が写るらしい”。@
-`"When you take a Class Photo, students which shouldn't exist appear."`@`
+`"They say if you take a class picture, a student who should not be there will appear." `@`
 br
 ;　それを、…確かめてみようと思った。\
-` I thought I'd try to ascertain that.`\
+` I figured... I'd give that a try.`\
+
 fede 1,1000
 E_B
 
@@ -856,7 +865,8 @@ E_B
 
 bg kyou_02,2
 
-　たまたま社会の時間に、教材のビデオを見て、その感想を書くようにとの自習があった。\
+;　たまたま社会の時間に、教材のビデオを見て、その感想を書くようにとの自習があった。\
+` It was during Social Studies. The assignment was to watch a video and write our impressions. `\
 
 se1 81
 
@@ -869,25 +879,32 @@ csp -1
 
 
 ;　僕はみんなの写真を撮らせてくれと宣言し、面白半分で写真を撮った。@
-` I declared that I would take photographs of everyone, and took their pictures half in jest`@`
+` I announced that I wanted a picture of the class, and took it just for fun. `@`
 br
-　ところが、@……いつもは割とすぐに浮かび上がるはずの画像が、なかなか浮かび上がらなかった。\
+;　ところが、@……いつもは割とすぐに浮かび上がるはずの画像が、なかなか浮かび上がらなかった。\
+` Incidentally, `@`... for some reason the film that would always develop fairly quickly took much longer this time. `\
 
 
 bg kyou_01,0
 ld r,NON_def6,22
 
-　どんな写真が写ってるのかと期待したクラスメートたちは、@やはりカメラが壊れていたのだろうと納得した。@
+;　どんな写真が写ってるのかと期待したクラスメートたちは、@やはりカメラが壊れていたのだろうと納得した。@
+` My classmates, who were all waiting to see what would develop, `@`all said that the old camera had probably broken down.`@`
 br
-　彼らは、まだフィルムがあるのならもう一枚撮ればいいとせがんだが、@……僕はなぜか気になり、それを断り、撮影をやめた。\
+;　彼らは、まだフィルムがあるのならもう一枚撮ればいいとせがんだが、@……僕はなぜか気になり、それを断り、撮影をやめた。\
+` They told me if there was film left I should try again, but ` @`...but I was worried, so I refused and that was it for photographing that day. `\
 
 
-　……フィルムの薬物が古くなって駄目になってしまっていたのだろうか？@
-　僕は何となく違うと思った。@
+;　……フィルムの薬物が古くなって駄目になってしまっていたのだろうか？@
+` ...had the chemicals of the film finally gone bad?`@`
+;　僕は何となく違うと思った。@
+` Somehow I figured that wasn't it.`@`
 br
-　ひょっとして、………写ってしまったのではないだろうか。@“写ってはならないもの”が。@
+;　ひょっとして、………写ってしまったのではないだろうか。@“写ってはならないもの”が。@
+` Maybe,...it had photographed something.`@`"Something that should not be photographed." `@`
 br
-　それを僕らに見せまいと、……写真が抵抗しているのではないだろうか。\
+;　それを僕らに見せまいと、……写真が抵抗しているのではないだろうか。\
+` Perhaps the camera was,... resisting, to spare us from seeing that.`\
 
 bg black,22
 
@@ -904,23 +921,26 @@ E_MA
 ld c,HIG_Def3,22
 
 ;　あの日、廊下ですれ違った不思議な少女の意味深な言葉が蘇る。@
-` That day, in the corridor on that day, words were spoken of that mysterious girl's revival`\
+` That day, the deep words spoken to me by the strange girl in the corridor returned to me. `@`
 br
-　……彼女は、僕にクラス写真を撮りたがらせていたような気がする。@だから、ああいう意味深な言い方をしたのではないだろうか。\
+;　……彼女は、僕にクラス写真を撮りたがらせていたような気がする。@だから、ああいう意味深な言い方をしたのではないだろうか。\
+`...it was as if she had wanted me to take that picture of my class. `@`That's why she had said those things to me. `\
 
 bg black,22
 bg kyou_03,22
 
 ;　この写真には、きっと何かが写っているのだ。@
-` This photo is something I've surely seen.`@`
+` I just knew there was something captured in this photo.`@`
 br
-　………そう言えば、ひどくわずかではあるが、画像がじんわりと浮き出してきたような気がする。\
+;　………そう言えば、ひどくわずかではあるが、画像がじんわりと浮き出してきたような気がする。\
+` ...that said, it was incredibly faint but, I thought I saw the picture beginning to develop.`\
 
 ;　その写真は、放課後に見た時には、さらにじんわりと浮き出ていた。@
-`When I looked at that photo after school, it gradually stood out more and more`\
+` I looked at that photo after school, and it was still slowly developing.`@`
 br
 ;　……しかしそれでも、写っているクラスメートたちの顔を確認できるようなものではなかった。\
-`...however even that, the appearing faces of the classmates, didn't confirm my suspicions.`\
+`...but, even with that, I still couldn't make out the faces of my classmates in it.`\
+
 
 ;lsp bgsp,":a;bmp\background\efe\a004.bmp",0,0
 ;print 0
@@ -936,8 +956,8 @@ bg "bmp\background\efe\photo1.bmp",22
 br
 　彼はその写真を大事にしまい込むと、自宅に持ち帰り、@食事をしたり、風呂に入ったりする度に取り出しては確認した。@
 br
-;　それはじわじわと鮮明になっていく。\
-` it became clearer and clearer.`\
+　それはじわじわと鮮明になっていく。\
+
 bg "bmp\background\efe\photo2.bmp",22
 
 ;bg white,45
@@ -996,11 +1016,10 @@ cl r,22
 　そう。@みんな、クラスメート。@
 　知っている顔ばかり。@知っている顔ばかり。@
 br
-;　これは団野くん。@これは福田くん。@こっちは西川さん。@そして安藤さん。@そして、……えぇと誰だっけ。@
-` This is Danno-kun.`@`This is Fukuta-kun.`@`This is Saigawa-san.??`@`And this is Anzou-san.`@`And...umm, who?`@`
+　これは団野くん。@これは福田くん。@こっちは西川さん。@そして安藤さん。@そして、……えぇと誰だっけ。@
 br
-;　……あまり話したことのない子だから名前が思い出せない。\
-`...I remebered the child's name, since she didn't talk very much.`\ 
+　……あまり話したことのない子だから名前が思い出せない。\
+
 
 
 
@@ -1025,21 +1044,18 @@ wait 2000
 
 me1v 11,90
 
-;　……えぇとえぇと、誰だっけ。@ぼんやりと覇気のない表情の眼鏡姿の女の子。@
-` ....umm....errr...who...`@`The girl wearing glassed looked vaguely.`@`
+　……えぇとえぇと、誰だっけ。@ぼんやりと覇気のない表情の眼鏡姿の女の子。@
 br
-;　何とも悲しい話だった。@同じクラスの仲間として、春夏秋冬を共にしてるはずなのに、@……僕はこの子の名前を即答することもできないのだ。\
-` Nothing sad was said.`@`As a fellow classmate, having been together for four seasons, even I was not able to immediately recall the child's name.`\
+　何とも悲しい話だった。@同じクラスの仲間として、春夏秋冬を共にしてるはずなのに、@……僕はこの子の名前を即答することもできないのだ。\
+
 mono 1
 bg black,0
 ld c,MAR_Def3,2
 
 me2v 16,50
 
-;　………………誰だっけ。@……本当に誰だっけ。@
-` ........Who....`@`Really, who are you...`@`
-;　クラスメートなのは間違いない。@なのに、思い出せない。@……誰だっけ誰だっけ……。@
-` She was a classmate, without a doubt.`@`Nevertheless, I couldn't remember....`@`Who...Who...?`@`
+　………………誰だっけ。@……本当に誰だっけ。@
+　クラスメートなのは間違いない。@なのに、思い出せない。@……誰だっけ誰だっけ……。@
 br
 　もう寝る時間なのに、なぜか意地になってしまう。@それを確かめることができたら、僕は消灯しようと決めていた。\
 
@@ -1064,8 +1080,8 @@ br
 　そういう班に所属するというのは、それだけで爪弾き者だとレッテルを貼られるようなものだ。@
 　……僕は幸いにも、いつも一緒にいる友人たちがいたからいいものの。@……そんな友人に恵まれない子がいたとしたら、@そういう子はこういうグループ分けの度に屈辱を味わわなければならないのだろうな……と。@……なぜかそう思った。@
 br
-;　この子も、そんな班にいそうな子だった。@だからきっと、そういう班にいるだろう……。\
-` This child, she seemed like one who would belong to such a group, so surely, she was in that group.`\
+　この子も、そんな班にいそうな子だった。@だからきっと、そういう班にいるだろう……。\
+
 textoff
 
 bg ie_03,0
@@ -1075,22 +1091,20 @@ wait 1000
 
 ld r,NON_Def4a,80
 
-;「………いや、…ないよな。@彼女は違う。」@
-`".....No, that's not it.`@`She's different."`@`
+「………いや、…ないよな。@彼女は違う。」@
 br
 　結局、その子の名前を見つけることはできなかった。@
-;　どの名前も、すぐに顔を連想できる。@そして写真に写っている名前の思い出せない子のものではない。\
+　どの名前も、すぐに顔を連想できる。@そして写真に写っている名前の思い出せない子のものではない。\
 
 cl r,0
 ld c,NON_Def5a,24
 
-;「……え？@　……………………。」@
-`".....what?`@`............."`@`
+「……え？@　……………………。」@
 br
-;　さっきから、ずっと燻り続けている違和感が、……ようやく、発芽する。\
-` For quite a while, the discomfort continued to grow.....finally burgeoning.`\
-;　僕は、クラスメートの名前を、全員知っている。@顔も知っている。@……そして、顔のわからない名前は、クラスに存在しない。\
-` I know all the names of the all the classmates. I know all their faces. And so I do not know the name of someone's face who is not in the class.`\
+　さっきから、ずっと燻り続けている違和感が、……ようやく、発芽する。\
+
+　僕は、クラスメートの名前を、全員知っている。@顔も知っている。@……そして、顔のわからない名前は、クラスに存在しない。\
+
 bg black,22
 
 bgm1 11
@@ -1110,8 +1124,7 @@ E_MA
 
 ;ld c,NON_Def7a,80
 
-;「え？@　………え？@　え？　………え？」@
-`"What?`@`......what?`@` What?`@`.....what?"`@`
+「え？@　………え？@　え？　………え？」@
 br
 　背中をぞわりとしたものが登る。@
 br
@@ -1137,8 +1150,8 @@ br
 
 　頼む、頼む頼む…。@４８であってくれ。@４９だったら、だったなら…。@頼む、４８であってくれ、クラスは４８人なんだ、４８であってくれ……！\
 
-;「４６、……４７、…………４８…。@……４８。@……間違いない。@それ以上はいない！@　ふぅ…ッ！！」\
-`"46....47......48...`@`...48.`@`....Ah, I'm certain.`@`No more!`@`Whew...."`\
+「４６、……４７、…………４８…。@……４８。@……間違いない。@それ以上はいない！@　ふぅ…ッ！！」\
+
 bg black,22
 
 fede 0,2000
@@ -1152,8 +1165,7 @@ quakey 2,200
 
 me1v 11,90
 
-;　うちのクラスは４８人。@
-` It's a class of 48 people.`@`
+　うちのクラスは４８人。@
 br
 　間違いなくその数を数えることができて、@僕は布団にどさりと倒れこみ、自らを笑い飛ばすように大笑いした。\
 
@@ -1169,8 +1181,7 @@ br
 bg white,1
 bg black,22
 
-;　それで、僕のささやかな好奇心は納得した。@
-` And so, my curiosity was satisfied.`@`
+　それで、僕のささやかな好奇心は納得した。@
 br
 　布団に入り、横になったままでも消灯できるように延長した灯りの紐を引っ張り、消灯する。\
 
@@ -3162,8 +3173,7 @@ br
 
 　……確かに、知らないがゆえに安穏とできるということはある。@
 br
-;　でも、それは良いことではないはずだ。@
-` But that's probably not a good thing.`@`
+　でも、それは良いことではないはずだ。@
 　人は、嫌でも知らなければならない真実がある。\
 
 bg black,22
@@ -3341,8 +3351,8 @@ ld l,NON_Def5a,26
 
 bgm1 14
 
-;「た、…………助けてくれて、……ありがとう。」\
-`"Th-Thanks ...for helping me."`\
+「た、…………助けてくれて、……ありがとう。」\
+
 ld r,HIG_Def3,80
 
 「どういたしまして。@私が来るのがあと少し遅れていたら、@あなたは下校中に、この路地で人知れずに消え去っていたわね。@………姿だけじゃない。@クラス名簿や集合写真からもね？@　もちろん、お家のあなたのお茶碗までも消え去っていたかもしれない。@くすくすくす。」@
@@ -3359,8 +3369,8 @@ ld r,HIG_Def2,80
 
 ld l,NON_Def6a,80
 
-;「あ、………いや、…保健室には行ったことがないので…。」@
-`"Uh...no, ...I've never been to the School Infirmary"`\
+「あ、………いや、…保健室には行ったことがないので…。」@
+
 ld r,HIG_w3,80
 
 「そう？@　なら今度、招待するわね。@……保健室に呼ばれるのに相応しい怪我の招待状と一緒にね。@くすくすくすくす。」@
@@ -3382,8 +3392,8 @@ ld l,HIG_Def5,22
 
 ld r,NON_Def4a,24
 
-;「………い、今は、ですか。」@
-`"N-...Now?"`\
+「………い、今は、ですか。」@
+
 ld l,HIG_w3,80
 
 「そう怯えなくてもいいわ。@今の野々宮くんの魂は、そんなに美味しそうじゃないの。@まだ食指は動かないわね。@くすくす。@私はこう見えても、味にはうるさいんだから。」@
@@ -4265,7 +4275,7 @@ ld r,HIG_w5,22
 bg black,22
 bg kyou_01,22
 
-　彼女はたまたまその頃、親しくしていたグループとトラブルを起こしていて疎遠になっていた。@……たまたま敵が多い時期だったのね。@
+　彼女はたまたまその頃、親しくしていたグループとトラブルを起こしていて疎遠になっていた。@……たまたま敵・ｪ多い時期だったのね。@
 br
 　相談する相手もなく、隠し撮りを疑える人間も少なくなかった。@あなたはそんな気配を敏感に感じ取り、@彼女に対し執拗な付け回しと隠し撮りを重ねたわ。\
 
@@ -5748,13 +5758,13 @@ br
 ld l,MAR_w1,22
 ;ld l,MAR_Def1,80
 
-;「それでは、私もこれで帰ります。@……今の私は学校の妖怪ですから。@学校の外に出ることはとても疲れることですので。」@
-`"In that case, I too will return.`@`...Now that I'm a ghost of the School,`@`travelling outside of the school is a very tiring thing"`\
+「それでは、私もこれで帰ります。@……今の私は学校の妖怪ですから。@学校の外に出ることはとても疲れることですので。」@
+
 ld r,NON_n1a,24
 ;ld r,NON_Def1,80
 
-;「その、……あ、……ありがとうございました…。」\
-`"Ah, well....thank you very much..."`\
+「その、……あ、……ありがとうございました…。」\
+
 ld l,MAR_w2,80
 
 「感謝は、怨嗟の連鎖を断ち切る勇気を見せた、沼田さんに。@……そして、沼田さんを許す勇気を見せた、あなたに。@…それが彼女が生きている内に見せられたならよかったのだけれど、@…………それでも手遅れなわけじゃない。@……だって、生と死の境を跨いでいたにしたって、@…二人は許し合えたのだから。」\
@@ -5770,8 +5780,8 @@ E_MA
 
 ;ld r,NON_Def1,80
 
-;「……そうだ、……あの。@……このカメラ。@…お返しします。」\
-`"...That's right...umm...`@`I'm...`@`I'm returning this camera"`\
+「……そうだ、……あの。@……このカメラ。@…お返しします。」\
+
 　全ての発端になった、あの不思議なカメラを、僕は森谷さんに渡そうとする。@
 br
 　すると彼女は困った顔をした。\
@@ -5799,8 +5809,8 @@ bg ie_04,22
 
 ;ld l,MAR_Def1,80
 
-;「彼女は、きっともう大丈夫だと思うの。」@
-`"I think she'd surely still be okay"`@` 
+「彼女は、きっともう大丈夫だと思うの。」@
+
 ;ld r,NON_Def1,80
 
 「……そうでしょうか…。」\
@@ -5841,8 +5851,8 @@ ld r,MAR_w1,80
 
 ld l,NON_Def5a,23
 
-;「あ、……なるほど。@……でも、何を撮れば。」\
-`"Ah, I see.`@`...
+「あ、……なるほど。@……でも、何を撮れば。」\
+
 textoff
 fede 0,1000
 E_A
@@ -5859,8 +5869,7 @@ ld l,NON_Def6a,80
 
 ld r,MAR_w1,80
 
-;「大丈夫。@何も怖いことはありません。@そして彼女も今、それを望んでいます。」@
-`"Don't Worry.`@`It's not anything scary.`@`And now even she's hoping for it"`\
+「大丈夫。@何も怖いことはありません。@そして彼女も今、それを望んでいます。」@
 br
 　その時、玄関の扉がガチャガチャ言うのが聞こえた。@
 　ようやく、母が戻ってきたのだ。\
@@ -6009,16 +6018,16 @@ ld r,HIG_w3,22
 
 ld l,MAR_w2,80
 
-;「くすくす。@……彼岸花さんのそういうところが、少しだけ可愛らしいと思いました。」\
-`"Heeheehee. `@`...But I thought that Higanbana-san was a little sweet"`\
+「くすくす。@……彼岸花さんのそういうところが、少しだけ可愛らしいと思いました。」\
+
 ld r,HIG_w5,80
 
 「可愛らしい？@　この踊る彼岸花が？@　この冷酷非道、@残虐無比の学校妖怪序列第３位の踊る彼岸花が可愛らしいって？@　くすくす、あはははははは。@お生憎ね、私はそういう子じゃないの。@…………さぁて、次は何をして遊ぼうかしら？@　どの子にちょっかいを出してあげようかしら…？」\
 
 ld l,MAR_Def2a,80
 
-;「もう…！@　私がちゃんと遊んであげますから、@当分は生徒にちょっかいはなしです。」\
-`"Ugh! I'm playing here right now, so don't let students mess with me"`\
+「もう…！@　私がちゃんと遊んであげますから、@当分は生徒にちょっかいはなしです。」\
+
 cl r,0
 ld c,HIG_w6,24
 
