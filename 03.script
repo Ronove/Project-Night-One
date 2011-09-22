@@ -292,20 +292,21 @@ br
 '　The club president muttured this suddenly, while the club was in the middle of chattering idly rather than deciding on the theme for the next bulletin. `\
 
 ;　武は、何かアイデアになるものが見つからないかと、古い棚を漁っている。@特に、教室奥の棚は、積み上げられた本の山のため、迂闊には近づけず、@入ったら帰れない魔境とまで呼ばれているのだった。@
-`　Takeshi, looking for some kind of interesting idea they could go with, was fishing around in the old shelves. `@`Because some of the older shelves in the back had mountains of piled books, if one didn't approach them carefully, `@`some went as far as to say it was like hell, and once entered, no man could return.`@`
+`　Takeshi, looking for some kind of interesting idea they could go with, was fishing around in the old shelves. `@`Because some of the older shelves in the back had mountains of piled books, `@`some went as far as to say the place was a 'nest of demons', and once carelessly entered, no man could return.`@`
+;((Note: For the purpose of this segment, 'nest of demons' has been chosen to represent 魔境, which makes sense given that insects had been living in the old books. Source: alc)
 br
 ;　彼は、そこにこそ何か珍しいものが眠っていて、@いつまでも堂々巡りで終わらないこの会議に終止符を打ってくれるものと期待していた。\
-`　He was hoping that in that hidden place he would find some rare thing sleeping, `@` something amazing enough to put this endlessly repeating meeting to an end. `\
+`　He was hoping that in that hidden place he would find something rare sleeping, `@`something amazing enough to put this endlessly repeating meeting to an end.`\
 
 ;「野々宮、どうだよ。@何か面白そうなものは発掘できるかー？@　その辺まで行くと、戦前レベルのアルバムばっかだろ。」\
-`"Nonomiya, how's it look? `@` Dug up anything interesting yet? `@` If you're that far back, it's probably all pre-war albums and stuff." `\
+`"Nonomiya, how's it look? `@`Dug up anything interesting yet? `@`If you're that far back, it's probably all pre-war albums and stuff." `\
 
 ld r,NON_Def4a,24
 
 ;「そうですね。@……こりゃすごいや。@同じ教室内なのに、ここだけ明治の空気のような気がする。」@
-`"You're right. `@` ... it's amazing. `@` We're in the same room, but over here it feels like I've stepped right into the Meiji period." `@`
+`"You're right. `@`... It's amazing. `@`We're in the same room, but over here it feels like I've stepped right into the Meiji period." `@`
 ;「さながら、教室内のタイムカプセルだよな。」\
-`"Like some kind of time-capsule, right here in the room." `\
+`"Like some kind of time-capsule, right here in the room."`\
 
 ld r,NON_Def3a,80
 
@@ -313,20 +314,18 @@ ld r,NON_Def3a,80
 `"Yeah only, y'know, minus the capsule." `@`
 br
 ;　みんなケラケラと笑う。@アイデアの枯れ果てた会議に飽き、笑いの沸点が低くなっているようだった。\
-`　Everyone laughed hard at that. `@` It seemed that the endless, fruitless meeting had brought the boiling point for everyone's laughter down a notch. `\
+`　Everyone laughed hard at that. `@`Weary from the fruitless meeting, it was as if everyone's boiling point for laughter was at a much lower temperature.`\
 
 ;　部長の言う通り、この魔境の奥の棚にある本は非常に古いものが多かった。@
-`　Just like the club president had said, most of the books on the shelves tucked away in that dark corner* were amazingly old. `@`
-;`((Translator's Note: The literal translation for the * is 'haunt for wicked men'. Ryuukishi was obviously making a joke, and I don't know exactly how to make it in English))`
+`　Just like the club president had said, most of the books on the shelves tucked away in that 'nest of demons' were amazingly old. `@`
 br
 ;　年号も、大正どころか明治にまで遡るものも少なくなかった。@
-`　Even just looking at the dates. Forget Taisho, there really a bunch that went all the way back to Meiji. `@`
+`　Even just looking at the dates. They weren't just Taisho era, there were many that went all the way back to Meiji. `@`
 ;　ついでに、ひっくり返って干からびた怪しげな虫の死骸なども見つかる。@
-`　As he went through the books he even found the old, dried, strange remains of insects. `@`
+`　As he went through the books he even found the old, dried, ominous remains of insects. `@`
 br
 ;　……なるほど、魔境の名は伊達ではない。\
-` ...Ah, so this really was a place where the sun never shone*. `\
-;`((Translator's Note: Again this is a reference to the same word 'haunt for wicked men' and again I'm at a loss as to how to properly convey the joke))`
+` ...Aah, the term 'nest of demons' wasn't all talk.`\
 
 bg black,23
 bg shinbun_03,23
@@ -362,7 +361,7 @@ br
 `　Instant photos tend to lose their color quickly, so it would have been useless for records. `@`
 br
 ;　しかし、撮ったその場で現像されるというお手軽感は、暗室を必要とする一般的なカメラでは味わえない、@何と言うのか、おもちゃ感覚を思い起こさせる。@
-`　However, by using it one would never need to go through the hassle of a dark room for developing as they would with a normal camera, `@` to put it simply, it was thought of more as a kind of toy camera.
+`　However, by using it one would never need to go through the hassle of a dark room for developing as they would with a normal camera, `@`to put it simply, it was thought of more as a kind of toy camera.`@
 br
 ;　いつか縁があったら一台ほしいと思っていたが、今日までそれを手にしたことはなかった。\
 `　I'd always wanted one if I could get my hands on it, but before today I'd never had the chance. `\
@@ -370,13 +369,13 @@ br
 ;ld c,NON_Def1,80
 
 ;　……でも、もうひとつ違和感。@
-`　... but, I somehow felt uneasy about this. `@`
+`　... But, I somehow felt uneasy about this.`@`
 br
 ;　この部室の魔境の最深奥の、開校当時の本の山の中に、@このインスタントカメラは少しだけ違和感があるように感じられた。\
-`　That I had found an instant camera like this, `@` buried among a pile of books that dated back to the school's founding, somehow gave me a strange feeling. `\
+`　That I had found an instant camera like this, `@`buried among a mountain of books that dated back to the school's founding, somehow made me feel uneasy. `\
 
 ;　確かに古いカメラだったが、開校当時の世界観からは新しすぎる。@……にも関わらず、この部室の最深奥に、まるで封印するかのように置かれていた。\
-`　Yeah it was an old camera, but it was too new to actually be from the time the school was founded. `@`... It felt more like it had been buried all the way back here as if to seal it away.`\
+`　It was an old camera, but it was beyond state of the art at the time of the school's founding. `@`... In spite of that, it had been buried in the depths of this place as if it had been sealed away.`\
 
 ;　触れる。@
 `　I touched it. `@`
@@ -394,67 +393,67 @@ cl r,0
 ld c,NON_Def6a,24
 
 ;　……ひんやりと冷たい感触。@
-`　...it was pleasantly cool to the touch. `@`
+`　...it was cold to the touch. `@`
 br
 ;　誰の名前もなく、学校の備品であることを示すシールもない。@
-`　There was no name written on it, or any seal to mark it as property of the school. `@`
+`　There were no names written on it or any labels marking it as school property.`@`
 br
 ;　埃での汚れ具合から、@ずいぶん昔に壊れ、過去の先輩の誰かがここに置き去りにしていったのだろうと考えるのが妥当だった。\
-`　Judging by how dusty it was, `@` it'd be fair to assume that it had been broken some years ago and then abandoned here by some long gone senpai. `\
+`　Judging by how dusty it was, `@`it'd be fair to assume that it had been broken and then abandoned here by some student long ago.`\
 
 
 ;　ひょっとすると、電池を換えると動いたりしないだろうか。@……いやいや、こんなにも古いものに収められたフィルムがまだ使えるわけもない。@きっともう使用期限をはるかに超過しているだろう。\
-`　Even if you put some new batteries in it would it even work? `@` ... no, no, even if it did the film inside would be useless. `@` It had probably expired years ago by now. `\
+`　I wonder, if I put some new batteries in it would it even work?`@` ...No, no, even if it did I can't use the film inside something this old. `@`It had probably expired years ago by now.`\
 
 ;　……でも、この捨てられた玩具を、なぜか武は見過ごせなかった。@
-`　... but, somehow Takeshi just couldn't tear his eyes away from this toy he had found. `@`
+`　...But, somehow Takeshi just couldn't tear his eyes away from this toy he had found.`@`
 br
 ;　ひょっとしたら、動くかも。@動かないなら捨ててしまえばいい。@
-`　Maybe, just maybe, it could still work. `@` If not he could always throw it away again. `@`
+`　Maybe, just maybe, it could still work.`@` If not he could always throw it away again.`@`
 ;　もしも動いたなら、@普段とは違う感覚で使える、ちょっとした玩具になるかもしれない。\
-`　If it did work, `@` it would be the perfect plaything to change up his everyday life. `\
+`　If it did work,`@` it would be the perfect plaything to change up his everyday life.`\
 
 bg black,24
 bg shinbun_01,24
 ;ld l,NON_Def1,24
 
 ;「部長、これ、動くと思います？」@
-`"President, you think this thing still works?" `@`
+`"President, do you think this thing still works?" `@`
 br
 ;　武はそのインスタントカメラを掲げながら、@再び積み重ねられた本の魔境を乗り越えて、部員たちのもとへ戻る。\
-`　Takeshi, hoisting the instant camera, `@` made his way back out of the dark haunt made of old books and returned to where the other club members were. `\
+`　Takeshi, hoisting the instant camera, `@`once again climbed his way through the demonic piles of books and returned to where the other club members were.`\
 
 ;「何だよそれ。@汚いカメラだな。@それ、落ちてたのか？」@
-`"What the heck is that? `@`Oh, it's an old beat-up camera. `@` Was it dropped back there?" `@`
+`"What the heck is that? `@`An old beat-up camera? `@`Was it dropped back there?"`@`
 
 ld l,NON_Def3,23
 
 ;「はい。@一番奥の奥に。@大昔の先輩の忘れ物ですかね？」\
-`"Yeah. `@` All the way in the very back. `@` I guess maybe one of our ancient senpais forgot it here?"`\
+`"Yes. `@`All the way in the very back. `@`Maybe it's something one of our predecessors forgot long ago?"`\
 
 ;　部員たちはそのカメラに何か面白いものを撮影したフィルムが残っていないか期待した。@
-`　The other club members hoped maybe there'd be something interesting photographed on the film left in the camera. `@`
+`　The other club members hoped maybe there'd be something interesting photographed on the film left in the camera.`@`
 br
 ;　しかしこれはインスタントカメラだから撮影したフィルムは残らない。@その場で現像されて排出されるから、過去の貴重な写真が見つかるというわけではないのだ。\
-`　But this was an instant camera, so it didn't retain its used film. `@` After taking a picture it would instantly develop it and spit it out, thus no trace of past pictures could be found. `\
+`　But because this was an instant camera, it didn't retain film. `@`It would instantly develop and eject after taking a picture, thus no trace of past pictures could be found.`\
 
 ;　となれば、このような薄汚れたカメラに好んで触りたがる部員もいるわけがない。@彼らの関心は、誰かが唐突に言い出したダジャレの笑いで掻き消されるのだった。\
-`　And so, the interest the club members had in the dirty old camera flagged. `@` After they all laughed at a suddenly interjected pun their focus on the matter completely vanished. `\
+`　And it wasn't as if there were any club members who wanted to touch this sort of old dusty camera. `@`After someone suddenly interjected a pun, they all laughed and their focus on the matter completely vanished.`\
 
 ;ld l,NON_Def1,80
 
 cl l,22
 
 ;　武はそんな彼らを放っておいて、インスタントカメラに電池を入れてみた。@
-` Takeshi left them to themselves, and put some new batteries into the instant camera. `@`
+` Takeshi left them to themselves, and put some new batteries into the instant camera.`@`
 br
 ;　動くとは期待してない。@それで動かなければ放り出す。@百分の一の確率でも動けばラッキー。@
-`　He wasn't expecting it to work. `@` If it didn't he'd trash it. `@` If, million-to-one, it did, well it'd be his lucky day. `@`
+`　He wasn't expecting it to work. `@`If it didn't he'd trash it. `@`In the one-in-a-million chance it did work, it would be his lucky day.`@`
 ;　その程度の気持ちで電池を入れてみた。@
-`　Those were his feelings as he changed the batteries. `@`
+`　Those were his feelings as he changed the batteries.`@`
 br
 ;　……少しいじってみる。@通電を意味するであろうランプが点り、驚く。\
-`　... he turned it over. `@` To his surprise, the LED light that signified that it was receiving electricity was glowing. `\
+`　... He turned it over. `@`To his surprise, a glowing light signified that it was receiving electricity.`\
 
 bg black,23
 bg shinbun_02,23
@@ -465,10 +464,10 @@ bg white,1
 bg shinbun_02,22
 
 ;　まだゲラゲラと笑いあっている部員たちにカメラを向け、試しにシャッターを切ってみた。@硬く重い手応え。@……でも、バシャリと心地良い音がした。@
-`　Takeshi aimed the camera at his club-mates, who were still laughing among themselves, and pushed the shutter. `@` The shutter resisted quite stubbornly. `@` ... but, then it made a happy little snapshot noise. `@`
+`　Takeshi aimed the camera at his club-mates, who were still laughing among themselves, and pushed the shutter. `@`The shutter resisted quite stubbornly. `@` ... but, then it made a pleasant snapshot noise with a click. `@`
 br
 ;　まさか動くとは思っていなかった古カメラが撮影したので、みんなは驚く。@……それはもちろん武も。\
-`　Everyone was shocked when the ancient camera managed to take a picture. `@`... of course, Takeshi was too. `\
+`　The club members were shocked when the ancient camera managed to take a picture. `@`...Of course, Takeshi was as well.`\
 
 me1v 20,50
 
@@ -485,28 +484,28 @@ E_MA
 `　Then, like a tongue sliding out, a picture appeared from the front of the camera. `@`
 br
 ;　始め、そこには何も写っていないように見えたが、少しずつじんわりとそこに画像が浮かび上がってきた……。\
-`　At first it looked like there was nothing on it, but slowly an image began to appear... `\
+`　At first it looked like there was nothing on it, but slowly an image began to appear...`\
 
 ;「お…、すっげぇじゃん。@写ったぜ？！」@
-`"Woah... Awesome. `@` I actually worked!?" `@`
+`"Woah... That's amazing. `@`It actually worked!?"`@`
 ;「何か心霊とか写ってないかよ。@こんな怪しい写真機なら、そういうのがいかにも写ってそうだよな。」@
-`"Did you capture any ghosts in the picture? `@` An strange old camera like this looks like it'd have that kind of ability."`@`
+`"Did you capture any spirits in the picture? `@`An old strange camera like this could probably do that, right?"`@`
 ;「……そう言えば、卒業した先輩にそんな話を聞いた気がするな。@/
-`"... now that you mention it, I heard a story like that from one of our senpai who graduated. `@``\
+`"...Now that you mention it, I feel like I heard a story like that from someone who graduated.`@/
 me1v 11,90
 ;この部室のどこかにさ、心霊写真を写すカメラが隠されている、みたいな話。」\
-`It was something about a camera that could photograph spirits being hidden somewhere in this room." `\
+`Somewhere in this room, there was a hidden camera that could photograph souls, or something like that."`\
 
 ;「あ、俺もそれ、先輩に聞いたことあるぜ。@そのカメラでクラス写真を撮るとさ、いないはずの生徒が写るらしいって話。」@
-`"Ah, I talked to that senpai too. `@` They said that when someone took a class picture with that camera, students who weren't supposed to be there showed up in it." `@`
+`"Ah, I heard that from him too. `@`He told me that when someone took a class picture with that camera, students who shouldn't have been there developed on the film."`@`
 br
 ;　そういう話をしている間に、写真の画像が鮮明になる。@
-`　As they were telling these stories, the photograph finished developing.  `@`
+`　As they were telling these stories, the image on the photograph began to appear.`@`
 ;　みんなは頭をぶつけ合いながらそれを覗き込み、自分たち以外の誰かが写っていないか探した。\
-`　Everyone crammed in close together, butting heads as they tried to see if there was anyone besides them all in the picture. `\
+`　Everyone crammed in close together, butting heads as they tried to see if there was anyone besides them in the picture.`\
 
 ;　もちろん、そんな都合よく心霊写真にお目にかかれるわけもない。@
-`　Obviously, that wasn't the sort of place you'd expect a real ghost photo to show up at. `@`
+`　Obviously, that wasn't the sort of place you'd expect a real spirit photo to show up at. `@`
 ;　そこには呆気ないくらい当り前の日常風景が切り取られているだけだった。\
 `　What they got was a picture so normal as to crush the mood entirely. `\
 ;　期待外れなものだったかもしれないが、@今日、ここに集った部員たちの日常を捉えたささやかな記念写真には充分だろう。@
