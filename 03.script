@@ -949,12 +949,16 @@ br
 bg "bmp\background\efe\photo1.bmp",22
 
 
-　武はなぜか確信する。@
-　この写真には、きっと何か得体の知れないものが写っている……。@
+;　武はなぜか確信する。@
+`　Takeshi somehow believed it.`@
+;　この写真には、きっと何か得体の知れないものが写っている……。@
+`　That in this photo, he had surely captured something mysterious......`@
 br
-　彼はその写真を大事にしまい込むと、自宅に持ち帰り、@食事をしたり、風呂に入ったりする度に取り出しては確認した。@
+;　彼はその写真を大事にしまい込むと、自宅に持ち帰り、@食事をしたり、風呂に入ったりする度に取り出しては確認した。@
+`　Carefully tucking that photo away, he returned home. `@`And when he ate dinner, took a bath or the like, he took it out each time to check it.`@
 br
-　それはじわじわと鮮明になっていく。\
+;　それはじわじわと鮮明になっていく。\
+`　And little by little it was becoming clearer.`\
 
 bg "bmp\background\efe\photo2.bmp",22
 
@@ -964,9 +968,11 @@ bg "bmp\background\efe\photo2.bmp",22
 
 me1v 35,50
 
-　……そして、もう寝ようかという深夜になって。@ようやく鮮明な画像を現してくれた。@
+;　……そして、もう寝ようかという深夜になって。@ようやく鮮明な画像を現してくれた。@
+`　......And then in the depth of night when he thought to give up and go to sleep, `@`finally the image appeared clearly for him.`@
 br
-　丹念に、その画像を確かめ、写っているクラスメートの顔を確認する。\
+;　丹念に、その画像を確かめ、写っているクラスメートの顔を確認する。\
+`　He diligently looked over the image, checking the photographed faces of his classmates.`\
 
 textoff
 
@@ -989,18 +995,25 @@ E_MA
 
 ld r,NON_Def2,80
 
-「…………………。@……うん。@おかしな幽霊とかは、写ってないよな。@……ははははははは、何だかなぁ、馬鹿馬鹿しい！」@
+;「…………………。@……うん。@おかしな幽霊とかは、写ってないよな。@……ははははははは、何だかなぁ、馬鹿馬鹿しい！」@
+`".........` @`...Yeah. `@`There wasn't any strange spirit or anything like that on there. `@`...Hahahahaha, what was I thinking, how silly!"`@
 br
-　思わず笑い転げてしまう。@
-　これだけ待たせた写真なのに、おかしなものは写ってない。\
+;　思わず笑い転げてしまう。@
+`　Before I knew it I was holding my sides in laughter.`@
+;　これだけ待たせた写真なのに、おかしなものは写ってない。\
+`　Even though that photograph had made me wait like this, there was nothing strange caught on the film.`\
 
-　思わせぶりに現像が妙に遅かったものだから、大いに期待したのに、@まったくの拍子抜けだった。@
+;　思わせぶりに現像が妙に遅かったものだから、大いに期待したのに、@まったくの拍子抜けだった。@
+`　The oddly long time to develop made me wonder, but even though I waited for so long, `@`in the end it was a complete letdown.`@
 br
-　写っているのは、何度見てもクラスメートだけ。\
+;　写っているのは、何度見てもクラスメートだけ。\
+`　What developed, no matter how many times I looked at it, was just a picture of my classmates.`\
 
-　横から見ても、逆さから見ても。@髪の長い女性が睨んでるとか、おかしな光線や影が映りこんでいるとか、@そんなものはまったくなかった。@
+;　横から見ても、逆さから見ても。@髪の長い女性が睨んでるとか、おかしな光線や影が映りこんでいるとか、@そんなものはまったくなかった。@
+`　I looked at it from the side. I looked at it upside down. `@`Something like a long haired girl glaring, or perhaps a strange light or shadow being projected `@`- I saw nothing of the sort.`@
 br
-　ただただ、教室に相応しいクラスメートが写っているだけだった。\
+;　ただただ、教室に相応しいクラスメートが写っているだけだった。\
+`　It was simply a classroom picture with my classmates as they should be.`\
 
 ;bg black,22
 ;lsp bgsp,":a;bmp\background\efe\a004.bmp",0,0
@@ -1011,12 +1024,16 @@ br
 
 cl r,22
 
-　そう。@みんな、クラスメート。@
-　知っている顔ばかり。@知っている顔ばかり。@
+;　そう。@みんな、クラスメート。@
+`　That's right. `@`Every one of my classmates.`@
+;　知っている顔ばかり。@知っている顔ばかり。@
+`　Only faces I knew. `@`Only faces I knew.`@
 br
-　これは団野くん。@これは福田くん。@こっちは西川さん。@そして安藤さん。@そして、……えぇと誰だっけ。@
+;　これは団野くん。@これは福田くん。@こっちは西川さん。@そして安藤さん。@そして、……えぇと誰だっけ。@
+`　There was Tanno-kun. `@`There was Fukuda-kun. `@`Here is Nishigawa-san. `@`And Andou-san. `@`And... Umm... Who is that again?`@
 br
-　……あまり話したことのない子だから名前が思い出せない。\
+;　……あまり話したことのない子だから名前が思い出せない。\
+`　......Since I didn't really talk to that kid, I can't remember the name.`\
 
 
 
@@ -1042,9 +1059,11 @@ wait 2000
 
 me1v 11,90
 
-　……えぇとえぇと、誰だっけ。@ぼんやりと覇気のない表情の眼鏡姿の女の子。@
+;　……えぇとえぇと、誰だっけ。@ぼんやりと覇気のない表情の眼鏡姿の女の子。@
+`　...Hmmm. Who was she again? `@`That absent-minded girl with glasses and that blank expression on her face.`@
 br
-　何とも悲しい話だった。@同じクラスの仲間として、春夏秋冬を共にしてるはずなのに、@……僕はこの子の名前を即答することもできないのだ。\
+;　何とも悲しい話だった。@同じクラスの仲間として、春夏秋冬を共にしてるはずなのに、@……僕はこの子の名前を即答することもできないのだ。\
+`　It was quite a sad story. `@`We were in the same class, and she was even here every semester, `@`......but I can't recall the girl's name.`\
 
 mono 1
 bg black,0
@@ -1052,10 +1071,13 @@ ld c,MAR_Def3,2
 
 me2v 16,50
 
-　………………誰だっけ。@……本当に誰だっけ。@
-　クラスメートなのは間違いない。@なのに、思い出せない。@……誰だっけ誰だっけ……。@
+;　………………誰だっけ。@……本当に誰だっけ。@
+`　.........Who was she? `@`......Who was she really?`@
+;　クラスメートなのは間違いない。@なのに、思い出せない。@……誰だっけ誰だっけ……。@
+`　There was no doubt she was in my class. `@`And yet, I can't remember. `@`...Who is it, who is she...?`@
 br
-　もう寝る時間なのに、なぜか意地になってしまう。@それを確かめることができたら、僕は消灯しようと決めていた。\
+;　もう寝る時間なのに、なぜか意地になってしまう。@それを確かめることができたら、僕は消灯しようと決めていた。\
+`　Even though it's already time to sleep, somehow I find myself determined to know. `@`I decided that only if I could remember who she was would I let myself sleep.`\
 
 bg black,23
 
@@ -1063,22 +1085,31 @@ mono 0
 
 bg ie_04,23
 
-　……そうだ。@修学旅行の時のしおりがあった。@それにクラスの班分けが書かれていて、全員の名前が記されていたはずだ。@それを見れば、忘れてしまっていた名前を見つけることができるだろう。@
+;　……そうだ。@修学旅行の時のしおりがあった。@それにクラスの班分けが書かれていて、全員の名前が記されていたはずだ。@それを見れば、忘れてしまっていた名前を見つけることができるだろう。@
+`　...That's right.`@` There was a guidebook from our field trip.`@` Inside everyone's group divisions was written down, and it should have records of everyone's names.`@` If I look in there, I should be able to find the name I've forgotten.`@
 br
-　本棚の脇に山積みにされた中から、それを見つけることができた。\
+;　本棚の脇に山積みにされた中から、それを見つけることができた。\
+`　From inside the pile of books on the bookshelf, I was able to find the guidebook.`\
 
-　昔の僕なら、こんなものは未練なく捨てている。@
+;　昔の僕なら、こんなものは未練なく捨てている。@
+`　If I were younger, I would have thrown this sort of thing away without regret.`@
 br
-　しかし、カメラを趣味にするようになってから、@写真に関わらず、何かを記録できる資料を大切にするようになっていた。@それで、このしおりも捨てずに持っていたのだ。\
+;　しかし、カメラを趣味にするようになってから、@写真に関わらず、何かを記録できる資料を大切にするようになっていた。@それで、このしおりも捨てずに持っていたのだ。\
+`　It's just that after making cameras my hobby, `@`regardless of photographs, for some reason I've started to take special care of recording materials. `@`Because of that I've even kept this guidebook.`\
 
-　しおりを開くと、６人前後のグループで班分けされたリストが出てくる。@
+;　しおりを開くと、６人前後のグループで班分けされたリストが出てくる。@
+`　Opening the guidebook, I could see a list of students divided by six people per group.`@
 br
-　……こういうグループ分けの時、決まってあぶれたりする気の毒な子がいるものだ。@すると、そういう子を集める、寄せ集めの班ができることになる。\
+;　……こういうグループ分けの時、決まってあぶれたりする気の毒な子がいるものだ。@すると、そういう子を集める、寄せ集めの班ができることになる。\
+`　...When the groups were formed like this, there were some clearly incapable and pitiful children there. `@`So those kids were gathered up and made into a mish-mash group.`\
 
-　そういう班に所属するというのは、それだけで爪弾き者だとレッテルを貼られるようなものだ。@
-　……僕は幸いにも、いつも一緒にいる友人たちがいたからいいものの。@……そんな友人に恵まれない子がいたとしたら、@そういう子はこういうグループ分けの度に屈辱を味わわなければならないのだろうな……と。@……なぜかそう思った。@
+;　そういう班に所属するというのは、それだけで爪弾き者だとレッテルを貼られるようなものだ。@
+`　Being attached to that kind of group was the same as being labeled a black sheep.`@
+;　……僕は幸いにも、いつも一緒にいる友人たちがいたからいいものの。@……そんな友人に恵まれない子がいたとしたら、@そういう子はこういうグループ分けの度に屈辱を味わわなければならないのだろうな……と。@……なぜかそう思った。@
+`　...I was happy, because I was with my friends that had always been there with me. `@`...If there were children who hadn't be blessed with such friends, `@`those kids would probably end up tasting the humilation each time they'd be put into this group...`@` ...I thought to myself.`@
 br
-　この子も、そんな班にいそうな子だった。@だからきっと、そういう班にいるだろう……。\
+;　この子も、そんな班にいそうな子だった。@だからきっと、そういう班にいるだろう……。\
+`　This girl seemed like she would have been in that kind of group. `@`So surely I thought she must have been in that section......`\
 
 textoff
 
@@ -1089,19 +1120,25 @@ wait 1000
 
 ld r,NON_Def4a,80
 
-「………いや、…ないよな。@彼女は違う。」@
+;「………いや、…ないよな。@彼女は違う。」@
+`"......No, ...She's not here. `@`It's not her."`@
 br
-　結局、その子の名前を見つけることはできなかった。@
-　どの名前も、すぐに顔を連想できる。@そして写真に写っている名前の思い出せない子のものではない。\
+;　結局、その子の名前を見つけることはできなかった。@
+`　In the end I couldn't find that girl's name.`@
+;　どの名前も、すぐに顔を連想できる。@そして写真に写っている名前の思い出せない子のものではない。\
+`　No matter what name it was, I'd be able to associate it with her face. `@`And none of these were the name of the girl who I can't remember caught in the photograph.`\
 
 cl r,0
 ld c,NON_Def5a,24
 
-「……え？@　……………………。」@
+;「……え？@　……………………。」@
+`"...Eh? `@`............"`@
 br
-　さっきから、ずっと燻り続けている違和感が、……ようやく、発芽する。\
+;　さっきから、ずっと燻り続けている違和感が、……ようやく、発芽する。\
+`　That bad feeling that had been clouded until now, ...had finally burst free.`\
 
-　僕は、クラスメートの名前を、全員知っている。@顔も知っている。@……そして、顔のわからない名前は、クラスに存在しない。\
+;　僕は、クラスメートの名前を、全員知っている。@顔も知っている。@……そして、顔のわからない名前は、クラスに存在しない。\
+`　My classmates names, I knew all of them. `@`I even knew their faces. `@`...So that face whose name I cannot recall, isn't from my class.`\
 
 bg black,22
 
@@ -1122,11 +1159,14 @@ E_MA
 
 ;ld c,NON_Def7a,80
 
-「え？@　………え？@　え？　………え？」@
+;「え？@　………え？@　え？　………え？」@
+`"Eh? `@`......Eh? `@`Eh? ......Eh?"`@
 br
-　背中をぞわりとしたものが登る。@
+;　背中をぞわりとしたものが登る。@
+`　Something began to crawl up my spine.`@
 br
-　……僕は最後の手段に出る。@まず、しおりに乗っているクラスメートの名前全員を数えた。@それも二度。@そしてその数は二度とも４８だった。\
+;　……僕は最後の手段に出る。@まず、しおりに乗っているクラスメートの名前全員を数えた。@それも二度。@そしてその数は二度とも４８だった。\
+`　......There was only one way to be sure. `@`First I counted all the my classmates in the guidebook. `@`I counted them twice to be sure. `@`Even counting them twice, there were 48 in number.`\
 
 ;bg black,22
 lsp bgsp,":a;bmp\background\efe\a004.bmp",0,0
@@ -1136,19 +1176,25 @@ ld c,MAR_def3,22
 bgcopy
 csp -1
 
-　次に写真に写っている顔を数える。@
+;　次に写真に写っている顔を数える。@
+`　Next I counted all the faces in the photo.`@
 br
-　もしも、この写真に写っている顔の数が、多かったなら……、多かったなら………。\
+;　もしも、この写真に写っている顔の数が、多かったなら……、多かったなら………。\
+`　If for some reason the number of faces in this photo - if there's more than that... if there's more...`\
 
 me1v 17,50
 
-　息が荒くなる。@激しくなる。@指が震える。頭がぐるぐる回る…。@
+;　息が荒くなる。@激しくなる。@指が震える。頭がぐるぐる回る…。@
+`　My breathing hurried. `@`Intensified. `@`My hands began to shake. The heads began to turn round and round in my mind...`@
 br
-　指では顔を数えるのに太すぎる。@僕はシャープペンシルを取り出し、その先端で丹念に顔の数を数えた。\
+;　指では顔を数えるのに太すぎる。@僕はシャープペンシルを取り出し、その先端で丹念に顔の数を数えた。\
+`　My finger was too big to count the faces with. `@`I took out a mechanical pencil, and with its tip I diligently counted the number of faces.`\
 
-　頼む、頼む頼む…。@４８であってくれ。@４９だったら、だったなら…。@頼む、４８であってくれ、クラスは４８人なんだ、４８であってくれ……！\
+;　頼む、頼む頼む…。@４８であってくれ。@４９だったら、だったなら…。@頼む、４８であってくれ、クラスは４８人なんだ、４８であってくれ……！\
+`　Please, please please... `@`Let it be 48. `@`If it's 49, if it's 49... `@`Please, let it be 48, there are 48 in my class, let it be 48...!`\
 
-「４６、……４７、…………４８…。@……４８。@……間違いない。@それ以上はいない！@　ふぅ…ッ！！」\
+;「４６、……４７、…………４８…。@……４８。@……間違いない。@それ以上はいない！@　ふぅ…ッ！！」\
+`"46, ...47, ......48... `@`...48. `@`...No doubt. `@`There isn't anyone else! @` Pheeew!!"`\
 
 bg black,22
 
@@ -1163,25 +1209,33 @@ quakey 2,200
 
 me1v 11,90
 
-　うちのクラスは４８人。@
+;　うちのクラスは４８人。@
+`　There are 48 students in our class.`@
 br
-　間違いなくその数を数えることができて、@僕は布団にどさりと倒れこみ、自らを笑い飛ばすように大笑いした。\
+;　間違いなくその数を数えることができて、@僕は布団にどさりと倒れこみ、自らを笑い飛ばすように大笑いした。\
+`　I had surely counted that many, `@`Toppling over with a thud on the futon, as if to laugh at myself, I burst out laughing.`\
 
-　この一枚の写真に、今日一日、僕はどれだけ大騒ぎしたというのか。@あぁ馬鹿馬鹿しい、だけれども本当に面白かった。@
+;　この一枚の写真に、今日一日、僕はどれだけ大騒ぎしたというのか。@あぁ馬鹿馬鹿しい、だけれども本当に面白かった。@
+`　All day today, how much have I been worrying about this single photograph I wonder? `@`Ahh how foolish, but it was truly fascinating.`@
 br
-　あははははははははは。@結果的には安心したけれど、@いっそのこと、謎の４９人目が写っていてくれた方が、むしろ面白かったかもしれない。\
+;　あははははははははは。@結果的には安心したけれど、@いっそのこと、謎の４９人目が写っていてくれた方が、むしろ面白かったかもしれない。\
+`　Ahahahahahaha. `@`I was relieved with the result, `@`or rather, perhaps I was fascinated by a mysterious 49th person in the photograph.`\
 
-　最初から玩具扱いしていたようなカメラだ。@だとしたなら、並の玩具よりもよっぽど楽しませてくれたに違いない。@
+;　最初から玩具扱いしていたようなカメラだ。@だとしたなら、並の玩具よりもよっぽど楽しませてくれたに違いない。@
+`　It's that camera I had treated like a toy camera from the start. `@`Because of it, I had a lot more fun with it than any normal toy.`@
 br
-　フィルムはあと一枚残っているけれど、@…わざと残したまま、部室の奥の元あった場所に再び眠らせるのも面白いかもしれない。@未来の後輩がそれを見つけて、僕と同じように楽しんでくれるかもしれないから。\
+;　フィルムはあと一枚残っているけれど、@…わざと残したまま、部室の奥の元あった場所に再び眠らせるのも面白いかもしれない。@未来の後輩がそれを見つけて、僕と同じように楽しんでくれるかもしれないから。\
+`　Only one strip of film remains, `@`... but if I left it on purpose, and put it back to sleep once again deep inside the club room - that might be interesting as well. `@`Because future students will find it, and they might enjoy it just as I have.`\
 
 
 bg white,1
 bg black,22
 
-　それで、僕のささやかな好奇心は納得した。@
+;　それで、僕のささやかな好奇心は納得した。@
+`　And with that, my meagre curiosity was satisfied.`@
 br
-　布団に入り、横になったままでも消灯できるように延長した灯りの紐を引っ張り、消灯する。\
+;　布団に入り、横になったままでも消灯できるように延長した灯りの紐を引っ張り、消灯する。\
+`　I got inside my futon, and as I laid down I pulled the string attached to the lamp and turned out the lights.`\
 
 E_A
 
@@ -1197,14 +1251,18 @@ E_A
 
 locate 0,5
 
-　…………………ネェ。@４８人ナラ、イイノ？\
+;　…………………ネェ。@４８人ナラ、イイノ？\
+`　......H e y. `@` A r e  y o u  f i n e  w i t h  4 8?`\
 
 me1v 5,50
 
-　……いいんじゃない？@
-　だって、うちのクラスは４８人だよ。@そして写真にはちゃんと、４８　人　写　っ　て　た。@
+;　……いいんじゃない？@
+`　...Isn't that fine?`\
+;　だって、うちのクラスは４８人だよ。@そして写真にはちゃんと、４８　人　写　っ　て　た。@
+`　After all, there are 48 in our class. `@`And that photo surely,   photographed   48  students.`@
 br
-　僕が、ファインダーを覗いていたなら、４７人の、はずなのに……？\
+;　僕が、ファインダーを覗いていたなら、４７人の、はずなのに……？\
+`　Even though, after looking through my viewfinder, there was surely only... 47?`\
 
 bgm1 6
 
@@ -1217,11 +1275,14 @@ E_MA
 se1v 13,50
 quakey 2,200
 
-「うわあああああああああああああああああああぁあああぁあああぁあッッ！！！」@
+;「うわあああああああああああああああああああぁあああぁあああぁあッッ！！！」@
+`"UWAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAaaaaAAAAaaaa~~!!!"`@
 br
-　僕は恐ろしい写真を撮ってしまったかもしれないことに、ようやく気付く。@
+;　僕は恐ろしい写真を撮ってしまったかもしれないことに、ようやく気付く。@
+`　I finally realized, what a terrifying photograph I had taken.`@
 br
-　心当たりのない、その眼鏡の女子生徒は、……本当に心霊なのか…？！\
+;　心当たりのない、その眼鏡の女子生徒は、……本当に心霊なのか…？！\
+`　That girl with the glasses -- I have no idea who she is -- could she truly be... dead...?!`\
 
 bg black,29
 lsp bgsp,":a;bmp\background\efe\a004.bmp",0,0
