@@ -666,7 +666,7 @@ bg rouka_02,23
 ld c,HIG_w1,23
 
 ;「写真は残酷よね。@真実を永遠に記録に残す。@……でも、それが本当に良いことなのかは誰にもわからない。@人の死体は腐り、虫を集らせ、腐臭を漂わすかもしれないけれど、@やがては野に帰って綺麗に消え去る。@……もしも腐らない死体があったとしたらどう？@　永遠にそこに無様な屍骸を晒さなければならない。」\
-`"Pictures are cruel, aren't they?`@` Pictures remain for eternity.`@` ...But, no one can really know if that is a good thing or not.`@` Human corpses rot, are eaten by the worms, and give off such an unpleasant smell, `@`but in the end they return to the earth and cleanly disappear.`@` ...But what if there was a corpse that couldn't rot away?`@` What if such a corpse remained exposed for all to see forever?"`\
+`"Pictures are cruel, aren't they?`@` They record the truth for eternity.`@` ...But, no one can really know if that is a good thing or not.`@` Human corpses rot, are eaten by the worms, and give off such an unpleasant smell, `@`but in the end they return to the earth and cleanly disappear.`@` ...But what if there was a corpse that couldn't rot away?`@` What if such a corpse remained exposed for all to see forever?"`\
 
 ld c,HIG_Def3,80
 
@@ -2280,25 +2280,34 @@ me3v 28,70
 quake 8,800
 
 ;　僕は確かに、錯乱という言葉を知っている。@
-`　I knew I had driven her mad with those words.`@
-　でも、それを形容するに値する状況を見たのは、これが生まれて初めてだった。\
+`　I knew those words were deranged.`@
+;　でも、それを形容するに値する状況を見たのは、これが生まれて初めてだった。\
+`　But, this was the first time in my life I had seen a scenario so befitting the word.
 
 
-　もし、開かれたドアにチェーンが掛かっていなかったなら、母親は僕に飛び掛かってきてもおかしくなかったかもしれない。\
+;　もし、開かれたドアにチェーンが掛かっていなかったなら、母親は僕に飛び掛かってきてもおかしくなかったかもしれない。\
+`　Perhaps, if that chain hadn't been on that opened door, that woman might have come lunging at me.`\
 
-　母親は、毬枝の名を繰り返し叫びながら、家の奥へどたどたと駆けていく。@
+;　母親は、毬枝の名を繰り返し叫びながら、家の奥へどたどたと駆けていく。@
+`　While she screamed for Marie to come back to her, the woman ran back into the house.`@
 br
-　何をしているのかはわからないが、……なぜか想像はついた。\
+;　何をしているのかはわからないが、……なぜか想像はついた。\
+`　I didn't know what she was doing, ...but I had a hunch.`\
 
-　毬枝という娘が実在した痕跡を、探しているのだろう。@
-　そしてそれは、今まで当り前のようにすぐ側にあったのに、気付けなかったのだ。\
+;　毬枝という娘が実在した痕跡を、探しているのだろう。@
+`　Maybe she was searching for remnants that she truly had a daughter called Marie.`@
+;　そしてそれは、今まで当り前のようにすぐ側にあったのに、気付けなかったのだ。\
+`　And that those traces had always been right by her side until now, but she had never noticed them.`\
 
-　今の彼女には多分、毬枝が愛用したマグカップだって見えているだろう。@４人家族の食器しか収められていないはずの食器棚に、@５人目の食器が見えているに違いないのだ。\
+;　今の彼女には多分、毬枝が愛用したマグカップだって見えているだろう。@４人家族の食器しか収められていないはずの食器棚に、@５人目の食器が見えているに違いないのだ。\
+`　For her now, perhaps she was seeing something like Marie's favorite mug. `@`Even in the cupboards where there should have been things belonging only to the 4 of them, `@`she must be seeing that 5th person's things now.`\
 
 
-　彼女が乱雑にそれらを掻き集めているかもしれない喧騒が、聞こえてくる。@
+;　彼女が乱雑にそれらを掻き集めているかもしれない喧騒が、聞こえてくる。@
+`　She might have been gathering those things in her confusion, as I heard a great clamor from within.`@
 br
-　そして他の家族に、毬枝が存在した証拠だとそれを突きつけるだろう。\
+;　そして他の家族に、毬枝が存在した証拠だとそれを突きつけるだろう。\
+`　And maybe she'd thrust those things upon the rest of the family to prove Marie existed.`\
 
 
 textoff
@@ -2312,9 +2321,11 @@ ld c,MAR_Def3,22
 bgcopy
 csp -1
 
-　しかし、家族は多分、毬枝の名前を思い出せない。@……この写真を見ない限り。@
+;　しかし、家族は多分、毬枝の名前を思い出せない。@……この写真を見ない限り。@
+`　But her family likely doesn't remember the name Marie. `@`...As long as they don't see this photograph that is.`@
 br
-　激しい音は多分、食器棚を引っ繰り返した音だ。@……無論、途切れることなく毬枝の名を呼ぶ叫び声が続いている。\
+;　激しい音は多分、食器棚を引っ繰り返した音だ。@……無論、途切れることなく毬枝の名を呼ぶ叫び声が続いている。\
+`　Those violent sounds were probably the sounds of those cupboards being turned inside out. `@`...Of course, without stopping she continued to scream and call out Marie's name.`\
 
 bg black,22
 fede 0,2000
@@ -2328,24 +2339,33 @@ bgm1 7
 
 bg mansion_01,22
 
-　僕は、真実を突き止めたつもりでここへ来た。@
+;　僕は、真実を突き止めたつもりでここへ来た。@
+`　I came here intending to ascertain the truth.`@
 br
-　しかし、待ち構えていたのは、………不気味な結末だけだった。\
+;　しかし、待ち構えていたのは、………不気味な結末だけだった。\
+`　But what I had been waited for, .......was just a strange conclusion.`\
 
-　森谷毬枝が実在したことはもはや疑わない。@
-　そして母親もそれを、思い出した。@
+;　森谷毬枝が実在したことはもはや疑わない。@
+`　I don't doubt that Marie existed anymore.`@
+;　そして母親もそれを、思い出した。@
+`　And Marie's mother remembered her as well.`@
 br
-　でも、森谷毬枝の存在を思い出せたとしても、存在しないことに変わりはないのだ。\
+;　でも、森谷毬枝の存在を思い出せたとしても、存在しないことに変わりはないのだ。\
+`　But even though we remember Marie's existence, it doesn't change the fact that she does not exist.
 
-　いないのに、いたことを、思い出す。@
+;　いないのに、いたことを、思い出す。@
+`　Even though she isn't here now, we remember her as she was.`@
 br
-　僕はひょっとして、………とても恐ろしいことをしてしまったのではないだろうか。\
+;　僕はひょっとして、………とても恐ろしいことをしてしまったのではないだろうか。\
+`　I wonder...... did I do something absolutely terrible?`\
 
 bg black,22
 br
-“写真は残酷よね。@真実を永遠に記録に残す。@”
+;“写真は残酷よね。@真実を永遠に記録に残す。@”
+`"`"Pictures are cruel, aren't they?`@` They record the truth for eternity.`@`"`
 br
-　あの写真機の正体を知っているかのように振舞う、あの不思議な少女は、そう言った。\
+;　あの写真機の正体を知っているかのように振舞う、あの不思議な少女は、そう言った。\
+`　Acting as if she knew that camera's true purpose, that mysterious girl had said that.`\
 
 mono 1
 
@@ -2357,8 +2377,10 @@ ld c,MAR_Def3,22
 bgcopy
 csp -1
 
-　写真は確かに真実を残す。@
-　しかし、その真実は、必ずしも人を幸福にするとは、限らない。@
+;　写真は確かに真実を残す。@
+`　Photographs certainly save the truth.`@
+;　しかし、その真実は、必ずしも人を幸福にするとは、限らない。@
+`　But that truth wasn't always limited to that person's happiness.`@
 br
 　僕が訪れて写真を見せなければ、母親はこれからもずっと、自分の家族を四人だと信じ続けただろう。@そして、平凡な人生を穏やかに送ったに違いない。\
 
