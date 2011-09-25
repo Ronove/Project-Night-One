@@ -1060,7 +1060,7 @@ wait 2000
 me1v 11,90
 
 ;　……えぇとえぇと、誰だっけ。@ぼんやりと覇気のない表情の眼鏡姿の女の子。@
-`　...Hmmm. Who was she again? `@`That absent-minded girl with glasses and that blank expression on her face.`@
+`　...Hmmm. Who was she again? `@`That absent-minded girl with glasses and that depressed look on her face.`@
 br
 ;　何とも悲しい話だった。@同じクラスの仲間として、春夏秋冬を共にしてるはずなのに、@……僕はこの子の名前を即答することもできないのだ。\
 `　It was quite a sad story. `@`We were in the same class, and she was even here every semester, `@`......but I can't recall the girl's name.`\
@@ -1259,10 +1259,10 @@ me1v 5,50
 ;　……いいんじゃない？@
 `　...Isn't that fine?`\
 ;　だって、うちのクラスは４８人だよ。@そして写真にはちゃんと、４８　人　写　っ　て　た。@
-`　After all, there are 48 in our class. `@`And that photo surely,   photographed   48  students.`@
+`　After all, there are 48 of us in our class. `@`And that photo surely,   photographed   48  students.`@
 br
 ;　僕が、ファインダーを覗いていたなら、４７人の、はずなのに……？\
-`　Even though, after looking through my viewfinder, there was surely only... 47?`\
+`　But I was behind the viewfinder, so there should have only been... 47?`\
 
 bgm1 6
 
@@ -1279,7 +1279,7 @@ quakey 2,200
 `"UWAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAaaaaAAAAaaaa~~!!!"`@
 br
 ;　僕は恐ろしい写真を撮ってしまったかもしれないことに、ようやく気付く。@
-`　I finally realized, what a terrifying photograph I had taken.`@
+`　I finally realized what a terrifying photograph I had taken.`@
 br
 ;　心当たりのない、その眼鏡の女子生徒は、……本当に心霊なのか…？！\
 `　That girl with the glasses -- I have no idea who she is -- could she truly be... dead...?!`\
@@ -1292,29 +1292,39 @@ ld c,MAR_Def3,29
 bgcopy
 csp -1
 
-　しかし、一般的な心霊写真に期待するような不気味さは、@その子からはまったく感じられなかった。\
+;　しかし、一般的な心霊写真に期待するような不気味さは、@その子からはまったく感じられなかった。\
+`　But compared to the eeriness expected from a typical ghost photo, `@`I couldn't sense that kind of eeriness from that girl at all.`\
 
-　その子のイメージは僕の第一印象そのまま。@
+;　その子のイメージは僕の第一印象そのまま。@
+`　That was my first impression from her image.`@
 br
-　……いてもいなくてもいい扱いを受けているような、@気の毒ないじめられっこで、グループ分けではいつも寄せ集めの班に身をおいてしまう。@
+;　……いてもいなくてもいい扱いを受けているような、@気の毒ないじめられっこで、グループ分けではいつも寄せ集めの班に身をおいてしまう。@
+`　...Whether she was there or not, `@`it seemed as if she underwent that treatment -- an unfortunate bullied kid, always placed in the group with the leftovers.`@
 br
-　……そんな可哀想な子に見えた。\
+;　……そんな可哀想な子に見えた。\
+`　...She seemed like that kind of pitiful girl.`\
 
-　しおりに名前がないのは、それもまたいじめのひとつなのではないか。@……そう思ってしまうほどに、彼女の存在は、クラスメートとして写真に馴染んでいた。\
+;　しおりに名前がないのは、それもまたいじめのひとつなのではないか。@……そう思ってしまうほどに、彼女の存在は、クラスメートとして写真に馴染んでいた。\
+`　Perhaps even not having her name in the guidebook was another form of bullying her. `@`...The more I thought about it, the more familiar her presence seemed among my classmates in the photograph.`\ 
 
-　彼女は、窓や鏡に映りこんでぼんやり存在しているわけではない。@みんなと同じに席を与えられて、@誰かに消しゴムを投げつけられやしないかとおどおどしている、普通の生徒のひとりに見えた。\
+;　彼女は、窓や鏡に映りこんでぼんやり存在しているわけではない。@みんなと同じに席を与えられて、@誰かに消しゴムを投げつけられやしないかとおどおどしている、普通の生徒のひとりに見えた。\
+`　It wasn't as if she was vaguely reflected in a window or mirror. `@`She had a seat like everyone else, `@`and as she was cowering as if someone was about to throw an eraser at her, she seemed like a normal student.`\
 
 me1v 28,90
 mono 1
 print 22
 
-　……彼女は、……誰なのか。@
+;　……彼女は、……誰なのか。@
+`　...She is, ...who is she?`@
 br
-　見れば、見るほどに。@……名前を思い出せないのが申し訳ないほどに…、………彼女がクラスにいたような気がしてくる。\
+;　見れば、見るほどに。@……名前を思い出せないのが申し訳ないほどに…、………彼女がクラスにいたような気がしてくる。\
+`　The more I looked the more I stared at her. `@`...As if I had no excuse for not remembering her name... ...I had a feeling she was in our class.`\
 
-　そんなはずはない。@彼女のことは、知らない。@
+;　そんなはずはない。@彼女のことは、知らない。@
+`　That couldn't be. `@`I didn't know her.`@
 br
-　なのに、彼女がそこに写る写真は、クラスを写した写真としてあまりに自然に感じられるのだ。\
+;　なのに、彼女がそこに写る写真は、クラスを写した写真としてあまりに自然に感じられるのだ。\
+`　However, I felt that photo she was in was so natural as a class photograph.`\
 
 bg black,22
 
@@ -1322,14 +1332,19 @@ mono 0
 
 bg ie_04,22
 
-　これは一体？@　この写真は何なんだ？！@　彼女は誰？！@　いや、このカメラは一体…？！@
+;　これは一体？@　この写真は何なんだ？！@　彼女は誰？！@　いや、このカメラは一体…？！@
+`　What is this? `@`What is this photogrph?! `@`Who is she?! `@`No, what is this camera?!`@
 br
-　明日、学校へ行き、クラスを確認しよう。@この写真に写っている席の子を確認しよう。@
-　それだけのことで、僕はこの子の正体を確認できる。\
+;　明日、学校へ行き、クラスを確認しよう。@この写真に写っている席の子を確認しよう。@
+`　Tomorrow I'll head to school and check my class. `@`I'll check that girl's desk from this photograph.`@
+;　それだけのことで、僕はこの子の正体を確認できる。\
+`　And with that, I'll learn who this girl really is.`\
 
-　名前どころか、存在すらも忘れていたのだとしたら、@僕は同じクラスの人間として、あまりに申し訳ない。@
+;　名前どころか、存在すらも忘れていたのだとしたら、@僕は同じクラスの人間として、あまりに申し訳ない。@
+`　If I forgot she even exists, much less her name, `@`I have no excuse as a human being in the same class to do something like that.`@
 br
-　……それがどう申し訳ないのかはわからないけれどとにかく、……たとえ交流がないとしても、@せめてクラスメートとして記憶しなければ、あまりに悲しいことだと、その時、思った。\
+;　……それがどう申し訳ないのかはわからないけれどとにかく、……たとえ交流がないとしても、@せめてクラスメートとして記憶しなければ、あまりに悲しいことだと、その時、思った。\
+`　...Why I had no excuse, I had no idea, but anyway ...even if we hadn't spoken, `@`I thought at that moment, not even remembering her was far too sad a thing.`\
 
 bg black,2
 
@@ -1340,17 +1355,22 @@ bg gakkou_01,2
 wait 2000
 bg kyou_03,2
 
-　そして僕は、知る。@
+;　そして僕は、知る。@
+`　And then, I knew.`@
 br
-　翌日。@僕は朝のホームルームで偶然なのか必然なのか、委員の仕事の関係でみんなの前で発表をしなければならなくなった。@
+;　翌日。@僕は朝のホームルームで偶然なのか必然なのか、委員の仕事の関係でみんなの前で発表をしなければならなくなった。@
+`　The next day. `@`Whether it was coincidently or inevitable, that morning in homeroom I had the job of making an announcement in front of everyone.`@
 br
-　だから、全員が揃った状態で、教壇の前からクラス全体を見た。\
+;　だから、全員が揃った状態で、教壇の前からクラス全体を見た。\
+`　Because everyone was present, I saw every person in the class from in front of the lectern.`\
 
 bg kyou_01,23
 
-　……あの、名前を思い出せない子の座っていた席を、見る。@……何度も、見る。@
+;　……あの、名前を思い出せない子の座っていた席を、見る。@……何度も、見る。@
+`　...I looked at that desk where the girl whose name I couldn't remember sat. `@`...Many times, I looked.`@
 br
-　そして僕は、……写真は真実を写すという常識を、捨てなければならなかった……。\
+;　そして僕は、……写真は真実を写すという常識を、捨てなければならなかった……。\
+`　And so... I must cast aside my common sense that tells me that truth is captured in photographs......`\
 
 bg black,2
 fede 0,2000
@@ -1376,37 +1396,51 @@ ld c,MAR_Def3,2
 bgcopy
 csp -1
 
-　僕は、授業中も事ある毎に写真を取り出してはそれを眺めた。@
+;　僕は、授業中も事ある毎に写真を取り出してはそれを眺めた。@
+`　After every single thing I did during class, I'd pull out the photo and gaze at it.`@
 br
-　悔しかった。@認めたくなかったのだ。\
+;　悔しかった。@認めたくなかったのだ。\
+`　It was maddening. `@`I didn't want to believe it.`\
 
-　写真は真実を写す。@それが僕の主張だった。@だからこそ、僕はカメラマンとして誇りを持っていた。@
-　なのに、その写真が、真実でないものを写したのだ。\
+;　写真は真実を写す。@それが僕の主張だった。@だからこそ、僕はカメラマンとして誇りを持っていた。@
+`　Truth is captured in photographs. `@`That was my belief. `@`And because of that, I took pride in being a cameraman.`@
+;　なのに、その写真が、真実でないものを写したのだ。\
+`　However, something that wasn't true was captured in that image.`\
 
-　ならば、僕は暴かなくてはならない。@
+;　ならば、僕は暴かなくてはならない。@
+`　If that's the case, then I have to know.`@
 br
-　……つまり、この子が何者であるかを暴かなくてはならないのだ。\
+;　……つまり、この子が何者であるかを暴かなくてはならないのだ。\
+`　...Basically, I have to find out who this girl is.`\
 
-　今の僕にとって、@この写真を誰かに「心霊写真」だと思われることは、カメラと自分に対する冒涜のように思えた。@
+;　今の僕にとって、@この写真を誰かに「心霊写真」だと思われることは、カメラと自分に対する冒涜のように思えた。@
+`　At that time I thought `@`that someone thinking this photo was 'spirit photography,' seemed both blasphemous to the camera and to myself.`@
 br
-　だから、無闇に人には見せず、この顔をした子が他のクラスにいないか、漠然とその姿を探した。\
+;　だから、無闇に人には見せず、この顔をした子が他のクラスにいないか、漠然とその姿を探した。\
+`　So without recklessly showing it to people, perhaps thinking her face might turn up in other classes, I indirectly searched for her figure.`\
 
 mono 1
 print 22
 
-　だが、この学校は本当に大きい。@
-　クラスの数も膨大で、同じ学年の子であっても、顔も知らないなんてことはザラだった。\
+;　だが、この学校は本当に大きい。@
+`　But this school is truly massive.`@
+;　クラスの数も膨大で、同じ学年の子であっても、顔も知らないなんてことはザラだった。\
+`　With an enormous amount of classrooms, even for girls in the same grade, unknown faces were common.`\
 
-　彼女は実は他のクラスの子で、@こっそりうちのクラスに混じりこんで遊んでいたのではないかとも想像した。@
+;　彼女は実は他のクラスの子で、@こっそりうちのクラスに混じりこんで遊んでいたのではないかとも想像した。@
+`　I imagined she might have really been a girl from another class, `@`and she stealthfully mixed herself into our class.`@ 
 br
-　何しろあの日は自習中だった。@他のクラスでも自習があり、ふざけてうちのクラスに入り込んできて、近くの席の子と遊んでいた、@というのは考えられることだった。\
+;　何しろあの日は自習中だった。@他のクラスでも自習があり、ふざけてうちのクラスに入り込んできて、近くの席の子と遊んでいた、@というのは考えられることだった。\
+`　After all, that day was a self-study session. `@`Other classes had it too, so students could enter our class to mess around, even pretend to be a student in the next seat over `@`- I thought to myself.`\
 
 bg black,0
 ld c,MAR_Def3,22
 
-　……しかし、彼女の覇気のない表情から、そんな大それたことをする雰囲気が感じられないのだ。@
+;　……しかし、彼女の覇気のない表情から、そんな大それたことをする雰囲気が感じられないのだ。@
+`　...But from her sad expression, I couldn't sense that kind of extraordinary ambience about her.`@
 br
-　彼女がもっと悪戯っぽい表情を浮かべていてくれたなら、@それを考える余地もあったのかもしれない。\
+;　彼女がもっと悪戯っぽい表情を浮かべていてくれたなら、@それを考える余地もあったのかもしれない。\
+`　If she had projected a more mischievous expression, `@`then there might have been room for that kind of thinking.`\
 
 bg black,2
 
@@ -1417,46 +1451,63 @@ bg shinbun_02,22
 
 me1v 16,50
 
-「野々宮、先日のカメラ。@あれ、結局、何か面白いものは写ったのかよー？」@
+;「野々宮、先日のカメラ。@あれ、結局、何か面白いものは写ったのかよー？」@
+`"Nonomiya, about that camera from the other day. `@`After all that, did it capture anything interesting~?"`@
 
 ld r,NON_Def3a,23
 
-「え？@　いや、……全然。」@
-「そりゃそうだよな。@わっはっはっは…。」@
+;「え？@　いや、……全然。」@
+`"Eh? `@`No, ...Nothing at all."`@
+;「そりゃそうだよな。@わっはっはっは…。」@
+`"Thought so. `@`Hahahah..."`@
 br
-　部室で、仲間たちに戦果を聞かれたが、僕ははぐらかした。\
+;　部室で、仲間たちに戦果を聞かれたが、僕ははぐらかした。\
+`　In the club room my friends had asked about my spoils of war, but I evaded the question.`\
 
-　内心は心霊写真が写ることを欲していたはずだ。@そして、それを充分に疑える写真が撮れた。@なのに僕は、それを否定している。\
+;　内心は心霊写真が写ることを欲していたはずだ。@そして、それを充分に疑える写真が撮れた。@なのに僕は、それを否定している。\
+`　In their minds they probably wanted it to take pictures of ghosts. `@`And it had taken that fairly suspicious photograph. `@`Even so, I was denying them that.`\
 
 ld r,NON_Def4a,22
 
-　彼らにこの写真を見せれば、誰もが心霊写真だと騒ぎ立てるだろう。@
-　……だがそれは僕の、写真は真実を写すという信念に反するのだ……。@
+;　彼らにこの写真を見せれば、誰もが心霊写真だと騒ぎ立てるだろう。@
+`　If I showed this photo to them, everyone would probably be in an uproar saying it was a ghost caught on film.`@
+;　……だがそれは僕の、写真は真実を写すという信念に反するのだ……。@
+`　...But that would contradict my belief that photographs capture the truth......`@
 br
-　不思議にも思う。@
-　僕はそんなにも倫理観に溢れる男だったろうか。\
+;　不思議にも思う。@
+`　I also thought it was strange.`@
+;　僕はそんなにも倫理観に溢れる男だったろうか。\
+`　But I wonder, am I not a man of morality?`\
 
 
 bg black,22
 mono 1
 bg rika_01,22
 
-　そうさ。@僕がカメラを始めた動機は、@……理科準備室での冤罪事件が悔しくて、その無実を晴らしたいが為だった。@
+;　そうさ。@僕がカメラを始めた動機は、@……理科準備室での冤罪事件が悔しくて、その無実を晴らしたいが為だった。@
+`　Of course. `@`...That time when I felt mortified by those false charges in the science prep room, because I had wanted to dispel those lies `@`-- that was my motivation for going into photography.`@
 br
-　あの時、自らの眼に映った真実を写真に現像できたならと、何度も思った。\
+;　あの時、自らの眼に映った真実を写真に現像できたならと、何度も思った。\
+`　At that time, I had thought over and over again, what would have happened if the truth reflected in my eyes had developed into a photograph.`\
 
-　写真に写ったものだけが真実。@……そう信じたはずだ。@
+;　写真に写ったものだけが真実。@……そう信じたはずだ。@
+`　The only thing captured in a photo is the truth. `@`...I had certainly believed so.`@
 br
-　だからこそ、真実を写さなかったこの写真が許せないというのだろうか。\
+;　だからこそ、真実を写さなかったこの写真が許せないというのだろうか。\
+`　Because of that, I don't think I can stand this photograph that hasn't captured the truth.`\
 
 bg black,22
 mono 0
 
-　…………違うのだ。@
-　多分、そんな格好をつけた理由じゃない。@
+;　…………違うのだ。@
+`　......That's not it.`@
+;　多分、そんな格好をつけた理由じゃない。@
+`　Perhaps it wasn't that kind of a convenient reason.`\
 br
-　……僕は、多分、イラついている。@
-　この謎の少女のことを、僕は多分、知っているのだ。@なのに思い出せなくて、イラついているのだ。\
+;　……僕は、多分、イラついている。@
+`　...Perhaps I was just frustrated.`@
+;　この謎の少女のことを、僕は多分、知っているのだ。@なのに思い出せなくて、イラついているのだ。\
+`　That mysterious girl - I probably knew her. `@`And I was frustrated because I couldn't remember who she was.`\
 
 bg black,2
 fede 1,2000
@@ -1473,112 +1524,144 @@ E_B
 ;bg white,24
 bg rouka_02,2
 
-　部室での仲間たちとの交流の後、@何となく気乗りしなかったので、先に帰らせてもらうことにした。@
+;　部室での仲間たちとの交流の後、@何となく気乗りしなかったので、先に帰らせてもらうことにした。@
+`　After an exchange with my friends in the club, `@`since we weren't interested in our work, we decided to head home early.`@ 
 br
-　そして、……あの日と同じ黄昏色に染まった廊下で、僕は再び、同じ少女に出会う。\
+;　そして、……あの日と同じ黄昏色に染まった廊下で、僕は再び、同じ少女に出会う。\
+`　So, ...In the same orange tinted hallway from that day, I once again met that same girl.`\
 
 E_A
 ld r,HIG_w3,2
 
 bgm1 14
 
-　そうだ。@思えば彼女は、このカメラの正体を知っていたように思う。@
-　なら、この写真に写った謎の少女のことも教えてくれるのではないか。\
+;　そうだ。@思えば彼女は、このカメラの正体を知っていたように思う。@
+`　That's right. `@`Now that I think of it, I believe this girl knows what this camera really is.`@
+;　なら、この写真に写った謎の少女のことも教えてくれるのではないか。\
+`　If so, maybe she can tell me who this mysterious girl is captured in this photograph.`\
 
 ld r,HIG_Def3,22
 
-「………それが知りたいならば、教えてあげてもいいわよ。」@
+;「………それが知りたいならば、教えてあげてもいいわよ。」@
+`"......If you want to know, I can surely tell you."`@
 
 ld l,NON_Def5a,23
 ;ld l,NON_Def1,80
 
-「え………。」@
+;「え………。」@
+`"Eh......"`@
 br
-　口に出してはいないはず。@……にも関わらず彼女は、僕の心の中の問いに応えて先に口を開いた。\
+;　口に出してはいないはず。@……にも関わらず彼女は、僕の心の中の問いに応えて先に口を開いた。\
+`　Even though no words had come from my mouth, `@`...regardless, this girl spoke in response to a question I had in my mind before I opened my mouth.`\
 
 ld r,HIG_w3,80
 
-「その子は間違いなく、あなたのクラスメートよ。@思い出してもらえて、きっと彼女も喜んでいるわ。@……くすくすくすくす。」\
+;「その子は間違いなく、あなたのクラスメートよ。@思い出してもらえて、きっと彼女も喜んでいるわ。@……くすくすくすくす。」\
+`"Without a doubt, that girl is your classmate. `@`If you remember her, she'll surely be happy with that. `@`...*giggle giggle giggle* "`\
 
 ld l,NON_Def7a,80
 
-「ぼ、…僕のクラスは４８人です。@あの子は４９人目だ。@クラスの名簿にも写真にも、彼女の名前は載っていないです…！」\
+;「ぼ、…僕のクラスは４８人です。@あの子は４９人目だ。@クラスの名簿にも写真にも、彼女の名前は載っていないです…！」\
+`"Th- ...There are 48 people in my class. `@`She's the 49th person. `@`Even in the class register and photos, her name isn't mentioned anywhere...!!"`\
 
 ld r,HIG_w1,80
 
-「みぃんな忘れちゃったのよね。@…アイツのせいで。@…………あなたはこれから帰り？」@
+;「みぃんな忘れちゃったのよね。@…アイツのせいで。@…………あなたはこれから帰り？」@
+`"Everyone~ went and forgot her, you see? `@`...It's 'his' fault. `@`......Are you heading out?"`@
 
 ld l,NON_Def4a,80
 
-「……はい。」\
+;「……はい。」\
+`"...Yes."`\
 
 
 ld r,HIG_Def3,80
 
-「なら、下駄箱でみんなの名前を調べてみたら…？@　クラスメートなら、誰にだって靴を入れる場所はあるでしょう？@　机や椅子を隠してしまうイジメはあるそうだけど、下駄箱を丸ごと隠してしまうイジメはないでしょうから。@……くすくす。」\
+;「なら、下駄箱でみんなの名前を調べてみたら…？@　クラスメートなら、誰にだって靴を入れる場所はあるでしょう？@　机や椅子を隠してしまうイジメはあるそうだけど、下駄箱を丸ごと隠してしまうイジメはないでしょうから。@……くすくす。」\
+`"Well, how about you try checking everyone's names by the shoe racks...? `@`If she's your classmate, everyone has a place to put their shoes, don't they? `@`There might be ways to tease someone by hiding their desks and chairs, but there's probably no way to hide a locker in its entirety. `@`...*giggle giggle* "`\
 
 bg black,22
 
-　下駄箱を調べる…。@……そんな程度のことであの子の正体がわかるだろうか。@
-　クラス名簿に名がないのに、下駄箱だけがあるなんて、考え難い。\
+;　下駄箱を調べる…。@……そんな程度のことであの子の正体がわかるだろうか。@
+`　Checking the shoe racks... `@`...By doing that could I learn that girl's identity?`@
+;　クラス名簿に名がないのに、下駄箱だけがあるなんて、考え難い。\
+`　Even though her name wasn't on the class register, for her name to be left on the shoe racks, that's hard to believe.`\
 
-　しかし、不思議な少女は調べてみろという。@
+;　しかし、不思議な少女は調べてみろという。@
+`　But that strange girl was saying I should try checking there.`@
 br
-　……彼女が、そのカメラで驚かせたいと予告し、僕は現に驚かされた。@
-　ならば、彼女が調べろという下駄箱にもまた、僕の求めるものがあるというのか。\
+;　……彼女が、そのカメラで驚かせたいと予告し、僕は現に驚かされた。@
+`　...That warning she had given me that if I wanted a surprise that camera would deliver, and it actually did surprise me.`@
+;　ならば、彼女が調べろという下駄箱にもまた、僕の求めるものがあるというのか。\
+`　So if she's saying I should check those shoe racks, maybe once again I'll find what I'm looking for.`\
 
 ;bg rouka_02,0
 ;ld c,NON_Def6a,22
 
 bg rouka_03,22
 
-「あ、………ありがとう。@調べてみます。」\
+;「あ、………ありがとう。@調べてみます。」\
+`"Th- ......Thanks. `@`I'll try checking it out."`\
 
 ;bg black,23
 ld c,HIG_w3,22
 ld c,HIG_w4,80
 
-「そうなさいな。@じゃあね。@…くすくす、あははははははははははは…。」\
+;「そうなさいな。@じゃあね。@…くすくす、あははははははははははは…。」\
+`"You do that. `@`Later. `@`...Tehehe, Ahahahahahaha..."`\
 
 cl c,22
 bg black,22
 
 
-「あの、……帰らないんですか？」@
+;「あの、……帰らないんですか？」@
+`"Um, ...Aren't you leaving?"`\
 
 ;ld c,HIG_Def5,80
 
-「……………え？」\
+;「……………え？」\
+`"......Eh?"`\
 
-　こんな夕方に、昇降口とは逆の方向に歩く彼女に、わずかの違和感を覚えて僕は声を掛ける。\
+;　こんな夕方に、昇降口とは逆の方向に歩く彼女に、わずかの違和感を覚えて僕は声を掛ける。\
+`　On this kind of evening, for that girl to be walking in the opposite direction of the exit, I felt something was a bit out of place and spoke to her.`\
 
-　……部活動なら、部室か体育館でそれをしている。@帰宅するなら、僕と同じように昇降口へ向かっている。@
+;　……部活動なら、部室か体育館でそれをしている。@帰宅するなら、僕と同じように昇降口へ向かっている。@
+`　...If she it was part of a club activity, she'd be doing that in a club room or in the gym. `@`If she were returning home, she'd be heading to the same exit as I was.`@
 br
-　彼女が向かう方向に、何の意味も感じられなかった。@
-　……彼女の歩き方はまるで、@昼休みか何かに、のんびりと散歩するような、そんな雰囲気が感じられた。\
+;　彼女が向かう方向に、何の意味も感じられなかった。@
+`　I had no idea what she doing based on where she was headed.`@
+;　……彼女の歩き方はまるで、@昼休みか何かに、のんびりと散歩するような、そんな雰囲気が感じられた。\
+`　...Even the way she walked `@`- she strolled leisurely, as if she were on lunch break - that's the kind of atmosphere I felt about her.`\
 
-　すると彼女はくすりと微笑む。\
+;　すると彼女はくすりと微笑む。\
+`　And then she giggled and smiled.`\
 
 bg rouka_03,0
 ld c,HIG_w1,22
 ld c,HIG_w3,80
 
-「…………ありがと。」@
+;「…………ありがと。」@
+`"......Thanks."`@
 br
-　僕は、なぜ唐突にお礼を言われたのか、理解できない。\
+;　僕は、なぜ唐突にお礼を言われたのか、理解できない。\
+`　Why was I suddenly being thanked? I had no idea.`\
 
 
 ld c,HIG_Def2,80
 
-「昇降口は、お家へ帰るための学校の出口よ。@ならば私には必要ないだけのこと。@……くすくすくすくす。@さぁさ、お帰りなさい？@　あなたたちのクラスはもうとっくに下校でしょう？」@
+;「昇降口は、お家へ帰るための学校の出口よ。@ならば私には必要ないだけのこと。@……くすくすくすくす。@さぁさ、お帰りなさい？@　あなたたちのクラスはもうとっくに下校でしょう？」@
+`"That exit is for leaving the school and returning home, you see. `@`So it's useless for me. `@`...*giggle giggle giggle*. `@`Well well, how about you head home? `@`Your classmates have already left long ago haven't they?"`@
 br
-　……彼女のクラスは、まだ下校にならないというのか。\
+;　……彼女のクラスは、まだ下校にならないというのか。\
+`　...So her class hadn't left school yet then?`\
 
 cl c,2
 
-　彼女の姿が、なぜかぼんやりと歪んだ気がする。@……目の霞み…？@
+;　彼女の姿が、なぜかぼんやりと歪んだ気がする。@……目の霞み…？@
+`　I noticed her figure vaguely distort somehow. `@`...Are my eyes blurry...?`@
 br
-　目にゴミでも入ったのかとごしごしと擦ってから再び廊下を見ると、@彼女の姿はもうなくなっていた……。\
+;　目にゴミでも入ったのかとごしごしと擦ってから再び廊下を見ると、@彼女の姿はもうなくなっていた……。\
+`　As if something were in my eyes, I quickly rubbed them and once ago looked down the hall, `@`and the girl's figure had already disappeared......`\
 
 bg black,2
 fede 0,2000
