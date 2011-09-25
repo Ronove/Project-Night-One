@@ -5227,6 +5227,7 @@ numalias t_hane_lsp,%0 : dec %0		;99
 numalias t_logo_lsp,%0 : dec %0		;98
 numalias t_btn_start_lsp,%0 : dec %0	;97
 numalias t_btn_web_lsp,%0 : dec %0	;96
+numalias t_btn_glos_lsp,%0 : dec %0	;96
 numalias t_btn_exit_lsp,%0 : dec %0	;95
 dec %0	;94
 numalias t_btn_tips_lsp,%0 : dec %0	;93
@@ -9906,13 +9907,14 @@ if %UMINEKOEND >= 11 : lsph t_logo_lsp,"bmp\title\title_c2.bmp",0,0
 	;exitボタン。クリア前は通常。
 	lsph t_btn_start_lsp,":a/2,0,3;bmp\title\title_menu\start.bmp",474,156	;146
 	lsph t_btn_web_lsp,":a/2,0,3;bmp\title\title_menu\web.bmp",474,188 + 8	;178
-	if %UMINEKOEND < 10 lsph t_btn_exit_lsp,":a/2,0,3;bmp\title\title_menu\exit.bmp",474,237		;210
-	if %UMINEKOEND = 11 lsph t_btn_exit_lsp,":a/2,0,3;bmp\title\title_menu\exit2.bmp",474,284+31	;242
-	if %UMINEKOEND = 12 lsph t_btn_exit_lsp,":a/2,0,3;bmp\title\title_menu\exit3.bmp",474,284+31	;274
-	if %UMINEKOEND >=13  lsph t_btn_exit_lsp,":a/2,0,3;bmp\title\title_menu\exit4.bmp",474,284+31	;306
+	lsph t_btn_glos_lsp,":a/2,0,3;bmp\title\title_menu\glossary.bmp",474,237	;178
+	if %UMINEKOEND < 10 lsph t_btn_exit_lsp,":a/2,0,3;bmp\title\title_menu\exit.bmp",474,276		;210
+	if %UMINEKOEND = 11 lsph t_btn_exit_lsp,":a/2,0,3;bmp\title\title_menu\exit2.bmp",474,355	;242
+	if %UMINEKOEND = 12 lsph t_btn_exit_lsp,":a/2,0,3;bmp\title\title_menu\exit3.bmp",474,355	;274
+	if %UMINEKOEND >=13  lsph t_btn_exit_lsp,":a/2,0,3;bmp\title\title_menu\exit4.bmp",474,355	;306
 
 	;クリアフラグによってボタンの表示、非表示、EXITの高さを行う。
-	if %UMINEKOEND >= 12 lsph t_btn_music_lsp,":a/2,0,3;bmp\title\title_menu\music.bmp",474,252	;306
+	if %UMINEKOEND >= 12 lsph t_btn_music_lsp,":a/2,0,3;bmp\title\title_menu\music.bmp",474,315	;306
 
 ;----------------------
 lr_trap *b_title_shunkan             ;クリックに反応して瞬間表示を行う
@@ -9928,16 +9930,17 @@ if %title_skip = 1 goto *b_title_skip_100
 	vsp t_logo_lsp,1 : print 22
 	vsp t_btn_start_lsp,1 : print 22
 	vsp t_btn_web_lsp,1 : print 22
-	if %UMINEKOEND >= 11 lsp t_btn_tips_lsp,":a/2,0,3;bmp\title\title_menu\new_tips.bmp",474,220 +16	;274
-	if %UMINEKOEND >= 11 lsp t_btn_tips_lsp,":a/2,0,3;bmp\title\title_menu\tips.bmp",474,220 +16	;274
-	if %END_TIPS_FLG = 1 lsp t_btn_tips_lsp,":a/2,0,3;bmp\title\title_menu\new_tips.bmp",474,220 +16	;274
-	if %END_TIPS_FLG = 2 lsp t_btn_tips_lsp,":a/2,0,3;bmp\title\title_menu\tips.bmp",474,220 +16	;274
+	vsp t_btn_glos_lsp,1 : print 22
+	if %UMINEKOEND >= 11 lsp t_btn_tips_lsp,":a/2,0,3;bmp\title\title_menu\new_tips.bmp",474,276	;274
+	if %UMINEKOEND >= 11 lsp t_btn_tips_lsp,":a/2,0,3;bmp\title\title_menu\tips.bmp",474,276	;274
+	if %END_TIPS_FLG = 1 lsp t_btn_tips_lsp,":a/2,0,3;bmp\title\title_menu\new_tips.bmp",474,276	;274
+	if %END_TIPS_FLG = 2 lsp t_btn_tips_lsp,":a/2,0,3;bmp\title\title_menu\tips.bmp",474,276	;274
 
 	if %UMINEKOEND >= 11 : print 22
-	if %UMINEKOEND >= 11 lsp t_btn_music_lsp,":a/2,0,3;bmp\title\title_menu\new_music.bmp",474,252 +24	;306
-	if %UMINEKOEND >= 11 lsp t_btn_music_lsp,":a/2,0,3;bmp\title\title_menu\music.bmp",474,252 +24	;306
-	if %END_MUSIC_FLG = 1 lsp t_btn_music_lsp,":a/2,0,3;bmp\title\title_menu\new_music.bmp",474,252 +24	;306
-	if %END_MUSIC_FLG = 2 lsp t_btn_music_lsp,":a/2,0,3;bmp\title\title_menu\music.bmp",474,252 +24	;306
+	if %UMINEKOEND >= 11 lsp t_btn_music_lsp,":a/2,0,3;bmp\title\title_menu\new_music.bmp",474,315	;306
+	if %UMINEKOEND >= 11 lsp t_btn_music_lsp,":a/2,0,3;bmp\title\title_menu\music.bmp",474,315	;306
+	if %END_MUSIC_FLG = 1 lsp t_btn_music_lsp,":a/2,0,3;bmp\title\title_menu\new_music.bmp",474,315	;306
+	if %END_MUSIC_FLG = 2 lsp t_btn_music_lsp,":a/2,0,3;bmp\title\title_menu\music.bmp",474,315	;306
 
 	if %UMINEKOEND >= 11 : print 22
 	vsp t_btn_exit_lsp,1 : print 22
@@ -9958,6 +9961,7 @@ lr_trap off
 	vsp t_logo_lsp,1
 	vsp t_btn_start_lsp,1
 	vsp t_btn_web_lsp,1
+	vsp t_btn_glos_lsp,1
 	vsp t_btn_exit_lsp,1
 	vsp t_btn_ep1_lsp,0
 	vsp t_btn_ep2_lsp,0
@@ -9967,14 +9971,14 @@ lr_trap off
 	vsp t_btn_ep6_lsp,0
 	vsp t_btn_ep7_lsp,0
 	vsp t_btn_load_lsp,0
-	if %UMINEKOEND >= 11 lsp t_btn_tips_lsp,":a/2,0,3;bmp\title\title_menu\new_tips.bmp",474,220 +16	;274
-	if %UMINEKOEND >= 11 lsp t_btn_tips_lsp,":a/2,0,3;bmp\title\title_menu\tips.bmp",474,220 +16	;274
-	if %END_TIPS_FLG = 1 lsp t_btn_tips_lsp,":a/2,0,3;bmp\title\title_menu\new_tips.bmp",474,220 +16	;274
-	if %END_TIPS_FLG = 2 lsp t_btn_tips_lsp,":a/2,0,3;bmp\title\title_menu\tips.bmp",474,220 +16	;274
-	if %UMINEKOEND >= 11 lsp t_btn_music_lsp,":a/2,0,3;bmp\title\title_menu\new_music.bmp",474,252 +24	;306
-	if %UMINEKOEND >= 11 lsp t_btn_music_lsp,":a/2,0,3;bmp\title\title_menu\music.bmp",474,252 +24	;306
-	if %END_MUSIC_FLG = 1 lsp t_btn_music_lsp,":a/2,0,3;bmp\title\title_menu\new_music.bmp",474,252 +24	;306
-	if %END_MUSIC_FLG = 2 lsp t_btn_music_lsp,":a/2,0,3;bmp\title\title_menu\music.bmp",474,252 +24	;306
+	if %UMINEKOEND >= 11 lsp t_btn_tips_lsp,":a/2,0,3;bmp\title\title_menu\new_tips.bmp",474,276	;274
+	if %UMINEKOEND >= 11 lsp t_btn_tips_lsp,":a/2,0,3;bmp\title\title_menu\tips.bmp",474,276	;274
+	if %END_TIPS_FLG = 1 lsp t_btn_tips_lsp,":a/2,0,3;bmp\title\title_menu\new_tips.bmp",474,276	;274
+	if %END_TIPS_FLG = 2 lsp t_btn_tips_lsp,":a/2,0,3;bmp\title\title_menu\tips.bmp",474,276	;274
+	if %UMINEKOEND >= 11 lsp t_btn_music_lsp,":a/2,0,3;bmp\title\title_menu\new_music.bmp",474,315	;306
+	if %UMINEKOEND >= 11 lsp t_btn_music_lsp,":a/2,0,3;bmp\title\title_menu\music.bmp",474,315	;306
+	if %END_MUSIC_FLG = 1 lsp t_btn_music_lsp,":a/2,0,3;bmp\title\title_menu\new_music.bmp",474,315	;306
+	if %END_MUSIC_FLG = 2 lsp t_btn_music_lsp,":a/2,0,3;bmp\title\title_menu\music.bmp",474,315	;306
 
 	;サブメニューのボタンは消去する
 	csp t_btn_ep1_lsp : csp t_btn_ep2_lsp : csp t_btn_ep3_lsp : csp t_btn_ep4_lsp : csp t_btn_ep5_lsp : csp t_btn_ep6_lsp : csp t_btn_ep7_lsp
@@ -10008,6 +10012,7 @@ exbtn_d "C87C45"
 
 exbtn t_btn_start_lsp,t_btn_start_lsp,"P82"
 exbtn t_btn_web_lsp,t_btn_web_lsp,"P86"
+exbtn t_btn_glos_lsp,t_btn_glos_lsp,"P86"
 exbtn t_btn_exit_lsp,t_btn_exit_lsp,"P81"
 exbtn t_btn_tips_lsp,t_btn_tips_lsp,"P84"
 exbtn t_btn_music_lsp,t_btn_music_lsp,"P83"
@@ -10018,6 +10023,7 @@ print 0
 
 	if %BtnRes = t_btn_start_lsp : cell t_btn_start_lsp,1 : print 1:btndef "" : goto *start_sub_menu
 	if %BtnRes = t_btn_web_lsp seplay 9,80 : menu_window : shell "http://07th-expansion.net"
+	if %BtnRes = t_btn_glos_lsp cell t_btn_glos_lsp,1 : print 1:btndef "" : goto *tips
 	if %BtnRes = t_btn_tips_lsp cell t_btn_tips_lsp,1 : print 1:btndef "" : goto *tips
 	if %BtnRes = t_btn_exit_lsp seplay 9,80 : seplay 9,79 : csp -1 : bg black,2 : wait 3000 : end
 	if %BtnRes = t_btn_music_lsp btndef "" : goto *bgm_mode
