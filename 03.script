@@ -2021,10 +2021,12 @@ bg mansion_03,2
 ;　マンションの廊下を歩く。@
 `　I walked the hallway of the complex.`@
 br
-　色々な家がひしめくマンションの廊下は、それぞれの家の生活臭で入り混じり、@良く言えば生活感溢れる、……悪く言えば人間の悪い「気」のようなものが澱んだ場所だった。@
+;　色々な家がひしめくマンションの廊下は、それぞれの家の生活臭で入り混じり、@良く言えば生活感溢れる、……悪く言えば人間の悪い「気」のようなものが澱んだ場所だった。@
+`　The various apartments jostled by the hallway, mixed with the smells of daily life in the various apartments, `@`on the plus side, it was overflowing with life, ...but on the down side, the place seemed stagnant with an unwelcoming atmosphere.`@
 
 br
-　……そして、………とうとう辿り着く。\
+;　……そして、………とうとう辿り着く。\
+`　...And so, ...I finally arrived.`\
 
 fede 0,1000
 E_A
@@ -2041,45 +2043,63 @@ ld l,NON_def6a,22
 
 bgm1 7
 
-「…森谷。@………ここだ。」@
+;「…森谷。@………ここだ。」@
+`"...Moriya. `@`...Right here."`@
 br
-　表札の場所には、マジックで書かれた汚れたシールが貼られている。@
-　そこには森谷と苗字が書かれた後に小さく、四人家族のそれぞれの名前が記されていた。\
+;　表札の場所には、マジックで書かれた汚れたシールが貼られている。@
+`　Affixed to the nameplate was a card written and stained in marker.`@
+;　そこには森谷と苗字が書かれた後に小さく、四人家族のそれぞれの名前が記されていた。\
+`　And written in small print after the last name Moriya were the names of four family members.`\
 
-　…………そこに毬枝の名はない。@
+;　…………そこに毬枝の名はない。@
+`　......Marie's name wasn't on there.`@
 br
-　違う。@………そうじゃないんだ。@……五人家族なんだ。@
-　小さく息を吐き出し、下腹に力を入れながら、目を擦る。@
+;　違う。@………そうじゃないんだ。@……五人家族なんだ。@
+`　Wait. `@`......That's not right. `@`...It's a five member family.`@
+;　小さく息を吐き出し、下腹に力を入れながら、目を擦る。@
+`　I let loose a small breath, summoning up some courage, I rubbed my eyes.`@
 br
-　……………………。\
+;　……………………。\
+`　............`\
 
 bg white,24
 bg black,22
 ;bg mansion_03,22
 
-「……森谷、………毬枝…。」@
+;「……森谷、………毬枝…。」@
+`"...Moriya, ......Marie..."`@
 br
-　彼女の名前だけが風化してしまっていたかのように。@……そして、シールが彼女の名前を思い出したかのように。@……四人家族の名前の末尾にぼんやりと、@…“毬枝”と、浮かび上がる……。\
+;　彼女の名前だけが風化してしまっていたかのように。@……そして、シールが彼女の名前を思い出したかのように。@……四人家族の名前の末尾にぼんやりと、@…“毬枝”と、浮かび上がる……。\
+`　It was as if her name alone had been weathered. `@`...And, as if the nameplate remembered her name, `@`...at the end of the four names in the family, vaguely `@`..."Marie" began to surface......`\
 
-　呼び鈴のブザーを鳴らそうとすると、@そこには「故障中。ノックして下さい。」と張り紙があった。@
+;　呼び鈴のブザーを鳴らそうとすると、@そこには「故障中。ノックして下さい。」と張り紙があった。@
+`　I thought to ring the doorbell, `@`but there was a sticky note there, "Out of Order. Please Knock."`@
 br
-　………電気のメーターを見る。@家人がいることを想像させる程度の速度で回っていた。\
+;　………電気のメーターを見る。@家人がいることを想像させる程度の速度で回っていた。\
+`　......I looked at the electric meter. `@`It was moving in a way that suggested the family was home.`\
 
-　ここに来る途中、まだ夕刊をドアポストに挿したままの家もあった。@しかしこの家のドアポストに夕刊はない。@……それは在宅の気配だ。@
+;　ここに来る途中、まだ夕刊をドアポストに挿したままの家もあった。@しかしこの家のドアポストに夕刊はない。@……それは在宅の気配だ。@
+`　On the way here there were still apartments with the evening paper at their doors. `@`But there was no paper on their doorstep. `@`...That's a sign someone is home.`@
 br
-　硬い唾を飲み込み、それからもう一度だけ表札の“毬枝”の名を見る。@
+;　硬い唾を飲み込み、それからもう一度だけ表札の“毬枝”の名を見る。@
+`　I swallowed hard, and then once again I looked at the doorplate at the name "Marie."`@
 br
-　そして、ノックした。\
+;　そして、ノックした。\
+`　And then I knocked.`\
 
-　僕は、真実を知りたい。@
+;　僕は、真実を知りたい。@
+`　I wanted to know the truth.`@
 br
-　カメラが写した“真実”が、何を語る真実なのか、確かめなければならない…！\
+;　カメラが写した“真実”が、何を語る真実なのか、確かめなければならない…！\
+`　That "truth" caught on the camera. But what kind of truth was it? I had to find out...!`\
 
 bg mansion_03,22
 
-　やがて、@どちら様ァ？　という中年女性の声が聞こえてきた。@……森谷毬枝の母親だと考えていいだろう。@
+;　やがて、@どちら様ァ？　という中年女性の声が聞こえてきた。@……森谷毬枝の母親だと考えていいだろう。@
+`　Finally, `@`I heard the voice of a middle-aged woman say, 'Who is it?' `@`...Perhaps it's Moriya Marie's mother.`@
 br
-　玄関前でサンダルを履き、覗き穴からこちらを見ている気配がする。\
+;　玄関前でサンダルを履き、覗き穴からこちらを見ている気配がする。\
+`　I sensed her put on sandals in the entrance and then looking through the peephole.`\
 
 ;bg black,4
 ;lsp bgsp,":a;bmp\background\efe\view_efe2.bmp",0,0
@@ -2087,43 +2107,59 @@ br
 ;bgcopy
 ;csp -1
 
-　僕の姿は間違っても押し売りには見えなかっただろう。@それを確認したらしく、チェーンをしたまま、ドアが開いた。@
+;　僕の姿は間違っても押し売りには見えなかっただろう。@それを確認したらしく、チェーンをしたまま、ドアが開いた。@
+`　Even if she misunderstood what I looked like, I couldn't have looked like a high pressure salesman. `@`As if to make sure, the door opened with the chain on.`@
 br
-　ドアが開くと、むわっとした生活臭と共に、想像したよりも美人なおばさんが顔を覗かせる。\
+;　ドアが開くと、むわっとした生活臭と共に、想像したよりも美人なおばさんが顔を覗かせる。\
+`　As the door opened, along with all kinds of smells, an older woman's face, more beautiful than I had imagined, peaked out.`\
 
 ;bg mansion_03,22
 
-「あら、僕。@どうしちゃったの…？」@
+;「あら、僕。@どうしちゃったの…？」@
+`"Oh, youg man. `@`What's the matter...?"`@
 
 ld c,NON_Def3a,22
 ;ld c,NON_Def1,80
 
-「あ、……あの、…すみません。@森谷さんのお母さんですか？」@
-「えぇ、はい。@そうだけど。@……どっちのお友達かしら？」\
+;「あ、……あの、…すみません。@森谷さんのお母さんですか？」@
+`"Ah, ...Um, ...Excuse me. `@`Might you be Moriya-san's mother?"`@
+;「えぇ、はい。@そうだけど。@……どっちのお友達かしら？」\
+`"Well, yes. `@`I am but`@`...which of the two are you asking for?"`\
 
 
-　表札の通りなら、森谷家には毬枝とは別に２人の姉がいる。@そのどちらかの友人だと思ったのだろう。@
-　２人の姉という呼び方は毬枝が存在してこそだ。@存在しないならば適当な呼び方ではない。@
+;　表札の通りなら、森谷家には毬枝とは別に２人の姉がいる。@そのどちらかの友人だと思ったのだろう。@
+`　If it was like the nameplate read, then there were two other sisters aside from Marie in the Moriya family. `@`I thought that's what she meant by 'which of the two'.`@
+;　２人の姉という呼び方は毬枝が存在してこそだ。@存在しないならば適当な呼び方ではない。@
+`　While saying Marie had two sisters implies she exists. `@`Then if she didn't exist, asking for her might have seemed inappropriate.`@
 br
-　そして、どっちという言い方は二つを対象にした時の呼び方だ。@彼女が毬枝を認識していないことは間違いない……。\
+;　そして、どっちという言い方は二つを対象にした時の呼び方だ。@彼女が毬枝を認識していないことは間違いない……。\
+`　And the way she put it made it sound like there were only two. `@`There was no doubt, she didn't recognize 'Marie'......`\
 
 ld c,NON_Def5a,80
 
-「えっと、……森谷、……毬枝さんのことなんですけど…。」@
+;「えっと、……森谷、……毬枝さんのことなんですけど…。」@
+`"Ummm, ...Well, it's about Moriya, ....Marie..."`@
 
 
-「え？@　どっち？」@
+;「え？@　どっち？」@
+`"Eh? `@`Who?"`@
 br
-　母親は、毬枝という名に反応できなかった。\
+;　母親は、毬枝という名に反応できなかった。\
+`　Her mother didn't react to the name Marie.`\
 
-　娘のどちらかの名前を呼ばれたに違いないだろうと決め付けたので、@毬枝の名を正しく聞き取ることができなかった。@
+;　娘のどちらかの名前を呼ばれたに違いないだろうと決め付けたので、@毬枝の名を正しく聞き取ることができなかった。@
+`　She had decided I must have been asking for another one of her daughters, `@`so she must have misheard Marie's name.`@
 br
-　でも、僕はその反応も想定していた。\
+;　でも、僕はその反応も想定していた。\
+`　But, I had anticipated that reaction as well.`\
 
-　……僕の想像通りなら、………僕たちは普通では森谷毬枝のことを思い出せない。@あのカメラで撮ったあの写真を見てでしか、思い出せないのだ。@
+;　……僕の想像通りなら、………僕たちは普通では森谷毬枝のことを思い出せない。@あのカメラで撮ったあの写真を見てでしか、思い出せないのだ。@
+`　...If I'm guessing right, ......normally we can't remember Moriya Marie. `@`Without seeing that photograph I took with that camera, we can't remember her.`@
 br
-　だから僕は、ポケットから写真を取り出す。@
-　そして母親に見せながら、森谷毬枝を指差した。\
+;　だから僕は、ポケットから写真を取り出す。@
+`　So I took that photo from my pocket.`@
+;　そして母親に見せながら、森谷毬枝を指差した。\
+`　And while showing it to her mother, I pointed at Moriya Marie.`\
 
 textoff
 bg black,22
@@ -2135,42 +2171,58 @@ bgcopy
 csp -1
 
 
-「あの、………この子なんですけど…。@……この家の人ですよね……？」\
+;「あの、………この子なんですけど…。@……この家の人ですよね……？」\
+`"Um, ...It's about this girl you see... `@`...She does live here doesn't she...?"`\
 
-「…え？@　どの子が？@　……え？@　……もうちょっとよく見せてくれる？」@
+;「…え？@　どの子が？@　……え？@　……もうちょっとよく見せてくれる？」@
+`"...Eh? `@`Which girl? `@`......Eh? `@`......May I have a look at this photo for a bit?"`@
 br
-　これほど小さく写っているのでは、指で指し示してもどれを指したかわかりにくい。@
-　母親は、鼻の先がくっつくほどに顔を寄せ、まじまじと睨み付けた。\
+;　これほど小さく写っているのでは、指で指し示してもどれを指したかわかりにくい。@
+`　With a profile that small, even pointing her out with my finger was difficult to indicate where she was.`@
+;　母親は、鼻の先がくっつくほどに顔を寄せ、まじまじと睨み付けた。\
+`　Her mother, with those smells ever so close to her, stared intently at it.`\
 
-　……やはり、記憶は戻らないだろうか…？@
-　僕はおかしな写真に誑かされただけなのか。@
+;　……やはり、記憶は戻らないだろうか…？@
+`　......I wonder, maybe her memory won't return...?`@
+;　僕はおかしな写真に誑かされただけなのか。@
+`　Perhaps she'll just think I tricked her into looking at some weird photo.`@
 
 me1v 16,50
 
 br
-　……いや、違う。@
-　なぜなら、無関心な写真を見せられた人間は、これほど長い時間を集中はできない。\
+;　……いや、違う。@
+`　......No, that's not right.`@
+;　なぜなら、無関心な写真を見せられた人間は、これほど長い時間を集中はできない。\
+`　Because if a person saw a photograph they were indifferent to, they wouldn't concentrate on it for a long time like she was doing.`\
 
-　同じ経験をしたから、わかる。@
+;　同じ経験をしたから、わかる。@
+`　Because I had the same experience, I knew.`@
 br
-　……母親は、思い出し掛けているのだ。\
+;　……母親は、思い出し掛けているのだ。\
+`　...Her mother was beginning to remember.`\
 
 bg black,22
 bg mansion_03,0
 ld l,NON_Def4a,22
 
-「……………………………………。」@
+;「……………………………………。」@
+`"..............."`@
 
 ld l,NON_Def7a,80
 
-「…どうですか。@…覚えが、…ありませんか…？」@
-「………覚えって、………ええと………。」@
+;「…どうですか。@…覚えが、…ありませんか…？」@
+`"...Well? `@`...Don't you... remember her?"`@
+;「………覚えって、………ええと………。」@
+`"......Remember? ......Hmmm......"`@
 br
-　彼女の言葉が、不安定に揺らいでいるのがわかる。@……きっぱりと、記憶にないと言い切れないもどかしさを感じているのだろう。\
+;　彼女の言葉が、不安定に揺らいでいるのがわかる。@……きっぱりと、記憶にないと言い切れないもどかしさを感じているのだろう。\
+`　I could tell her words were trembling with uncertainty. `@`...I could clearly see her irritation that she couldn't say for sure she didn't know her.`\
 
-　自分の家族が、本当は四人じゃなくて、@……五人家族だったんじゃないかという記憶が蘇り掛けている…。@
+;　自分の家族が、本当は四人じゃなくて、@……五人家族だったんじゃないかという記憶が蘇り掛けている…。@
+`　In her house, perhaps she didn't really have four people, `@`...and a memory was might be reviving in her mind that she had a five member family...`@
 br
-　そして、…………小声で、………呟いた。\
+;　そして、…………小声で、………呟いた。\
+`　And then, ...in a whisper ...she muttered.`\
 
 
 
@@ -2184,17 +2236,21 @@ br
 
 E_A
 
-「………毬…………枝……。」@
+;「………毬…………枝……。」@
+`"......Ma...ri...e......"`@
 
 me1v 16,50
 
 ld l,NON_Def5a,80
 
-「は、…はい。@………毬枝さん、………です。」@
+;「は、…はい。@………毬枝さん、………です。」@
+`"Y- ...Yes. `@`......It's... Marie-san."`@
 br
-　僕がそれを復唱し、@………その瞬間、彼女は、自分の家族の本当の人数を、…思い出した。@
+;　僕がそれを復唱し、@………その瞬間、彼女は、自分の家族の本当の人数を、…思い出した。@
+`　I repeated that, `@`...At that moment, she realized it - the truth about her family.`@
 br
-　同時に、彼女の感情ははち切れた。@絶叫したのだ。\
+;　同時に、彼女の感情ははち切れた。@絶叫したのだ。\
+`　At teh same time, she burst with emotion. `@`She screamed.`\
 
 quakex 3,300
 
@@ -2210,17 +2266,23 @@ bg black,1
 
 me2v 17,70
 
-「毬枝ぇえええええええええぇ！！！@　そうよ、毬枝がずっと帰ってこないのよ！！@　毬枝はどこなの？！@　もうずっと帰ってこないのよ、帰ってこないのッ！！@　毬枝はどこなの？！@　ねぇどこにいるの？！@　あれから何日も家に帰ってこないのよ？！@　あああぁあぁ、私が悪いのよ、あの子の個性とか全然考えずに勉強勉強って押し付けすぎた…！！@　あの子は家に居場所がなくなってしまった！！@　あぁ、毬枝はきっと私が怖くて家に帰れなくて家出を…！@　私のせいなのよ！！@　どこなの？！@　毬枝はどこにいるのッ？！@/
+;「毬枝ぇえええええええええぇ！！！@　そうよ、毬枝がずっと帰ってこないのよ！！@　毬枝はどこなの？！@　もうずっと帰ってこないのよ、帰ってこないのッ！！@　毬枝はどこなの？！@　ねぇどこにいるの？！@　あれから何日も家に帰ってこないのよ？！@　あああぁあぁ、私が悪いのよ、あの子の個性とか全然考えずに勉強勉強って押し付けすぎた…！！@　あの子は家に居場所がなくなってしまった！！@　あぁ、毬枝はきっと私が怖くて家に帰れなくて家出を…！@　私のせいなのよ！！@　どこなの？！@　毬枝はどこにいるのッ？！@/
+`"MARIEeEEEEEEEEEEEEEEe!!! `@`That's right! Marie didn't came back for ages!! `@`Where is Marie?! `@`She never came back, never came baaack!! `@`Where is Marie?! `@`Hey, where is she?! `@`She's been gone for days you know?! `\
+;Note: Split this line because it's way too long.
+`AAaAAAh, it's my fault, I forced her to study study, never thinking of that girl's personality...!! `@`Now she doesn't know her own home!! `@`Aah, she won't come home, she's afraid of me, and she ran away...! `@`It's my fault!! `@`Where? `@`Where is Marie~?! `@/
 
 quakey 2,200
 
-　毬枝、お願いよ、帰って来てぇえええええええぇ、おおおおあああああああああああぁあぁッ！！！」\
+;　毬枝、お願いよ、帰って来てぇえええええええぇ、おおおおあああああああああああぁあぁッ！！！」\
+`　Marie, PLEASE! COME HOOOOOOOOOOOOOOMEe, WAAAAAAAAAAAAAAAAAAaaaaAAAHH~!!"\
 
 me3v 28,70
 quake 8,800
 
-　僕は確かに、錯乱という言葉を知っている。@
+;　僕は確かに、錯乱という言葉を知っている。@
+`　I knew I had driven her mad with those words.`@
 　でも、それを形容するに値する状況を見たのは、これが生まれて初めてだった。\
+
 
 　もし、開かれたドアにチェーンが掛かっていなかったなら、母親は僕に飛び掛かってきてもおかしくなかったかもしれない。\
 
