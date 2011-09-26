@@ -2300,7 +2300,7 @@ br
 `　And that those traces had always been right by her side until now, but she had never noticed them.`\
 
 ;　今の彼女には多分、毬枝が愛用したマグカップだって見えているだろう。@４人家族の食器しか収められていないはずの食器棚に、@５人目の食器が見えているに違いないのだ。\
-`　For her now, perhaps she was seeing something like Marie's favorite mug. `@`Even in the cupboards where there should have been things belonging only to her family of four, `@`she must be seeing that 5th member's things now.`\
+`　For her now, perhaps she was seeing something like Marie's favorite mug. `@`Even in the cupboards where there should have been things belonging only to her family of four, `@`she must be seeing that fifth member's things now.`\
 
 
 ;　彼女が乱雑にそれらを掻き集めているかもしれない喧騒が、聞こえてくる。@
@@ -2383,23 +2383,27 @@ csp -1
 `　But that truth wasn't always limited to that person's happiness.`@
 br
 ;　僕が訪れて写真を見せなければ、母親はこれからもずっと、自分の家族を四人だと信じ続けただろう。@そして、平凡な人生を穏やかに送ったに違いない。\
-`　If I hadn't brought that picture to her attention, that woman would have probably continued believing she ha
+`　If I hadn't brought that picture to her attention, that woman would have probably continued believing she had a family of four. `@`And she would have spent her life in relative peace.`\
 
 mono 0
 print 22
 
 ;　しかし、僕が思い出させてしまった。@
-` However, I forced them to remember.`@`
+` However, I forced her to remember.`@`
 br
-　彼女の娘のひとり、毬枝は、……ずっとずっと前に消えてしまって、帰ってこない。@
+;　彼女の娘のひとり、毬枝は、……ずっとずっと前に消えてしまって、帰ってこない。@
+`　That Marie, one of her daughters, ...had disappeared long ago, and didn't return.`@
 ;　それだけじゃない。@その存在すらも、世界中の全員が、忘れてしまった。\
-` That wasn't all.`@`Even the existence was, by all the world, forgotten.`\
+` That wasn't all.`@`Even her existence had been forgotten by the entire world.`\
 bg aka1,22
 
-　ならば彼女の、娘を探し叫ぶ嘆きは、誰に理解できるというのか。@
+;　ならば彼女の、娘を探し叫ぶ嘆きは、誰に理解できるというのか。@
+`　So I wonder if anyone can understand her cries of lament searching for her daughter?`@
 br
-　誰にも理解できない。@
-　……彼女は、毬枝という名を繰り返すが、@他の家族には、それが誰の名なのかを理解することもできないのだ。\
+;　誰にも理解できない。@
+`　No one could understand.`@
+;　……彼女は、毬枝という名を繰り返すが、@他の家族には、それが誰の名なのかを理解することもできないのだ。\
+`　...She repeatedly called Marie's name, `@`but the rest of her family couldn't understand whose name it was.`\
 
 bg black,22
 
@@ -2407,29 +2411,35 @@ me1v 17,70
 
 bg mansion_03,22
 
-　ものをガシャガシャと倒したり投げたりする音が、再び玄関に戻ってくるのを感じる。@
+;　ものをガシャガシャと倒したり投げたりする音が、再び玄関に戻ってくるのを感じる。@
+`　Things were thrown or fell down with loud crashing noises, but I could sense she was coming back to the entrance once more.`@
 br
-　今度こそ、彼女はチェーンを外して扉を開け、取っ組みかかってくるかもしれない。\
+;　今度こそ、彼女はチェーンを外して扉を開け、取っ組みかかってくるかもしれない。\
+`　This time she might release the chain, open the door, and come charging at him.`\
 
 bg black,23
 ;bg mansion_01,23
 
 ;　僕は、……その場を逃げ出す。\
-` I.....I flee from that place.`\
-　尋常でない様子の母親が恐ろしかったから？@
-　それとも、写真が暴いた真実を、それ以上、直視できなかったから？@
+` I.....ran away.`\
+;　尋常でない様子の母親が恐ろしかったから？@
+`　Was it because I was afraid of that woman's madness?`@
+;　それとも、写真が暴いた真実を、それ以上、直視できなかったから？@
+`　Or was it because I couldn't face the truth the photograph revealed?`@
 ;　それを細かく理解することはできない。@
-` I couldn't understand it precisely.`@`
+` I couldn't exactly understand why.`@`
 br
 ;　ただただ、怖かった…！\
-` And, I was scared...!`\
+` But I was absolutely terrified...!`\
 ;bg black,24
 bg mansion_01,22
 
 
-　野々宮武は、二度とここには近付くまいと、マンションを飛び出していく…。@
+;　野々宮武は、二度とここには近付くまいと、マンションを飛び出していく…。@
+`　Nonomiya Takeshi began to run away from the apartment complex, never to return again.
 br
-　それでもまだ、母親が毬枝の名を叫ぶのが聞こえる。@……それはマンションの谷間で残響して、この世ならざる世界からの叫びに聞こえるのだった……。\
+;　それでもまだ、母親が毬枝の名を叫ぶのが聞こえる。@……それはマンションの谷間で残響して、この世ならざる世界からの叫びに聞こえるのだった……。\
+`　And yet he could still hear the mother's screams for Marie. `@`...Her screams echoed in the chasm of the complex, and they were screams that sounded as if they came from another world...`\
 
 bg black,2
 
@@ -2452,13 +2462,17 @@ bg roji_01,2
 
 bgm1 14
 
-　滅茶苦茶に走ったせいで、何本か路地を間違えた。@
+;　滅茶苦茶に走ったせいで、何本か路地を間違えた。@
+`　Since I ran in confusion, I couldn't tell how many wrong alleyways I went down.`@
 br
-　でも、自分が町内のどの辺にいるのかは理解していたので、@僕はさして気にも留めず、滅多に歩かない細い路地を歩いていた。\
+;　でも、自分が町内のどの辺にいるのかは理解していたので、@僕はさして気にも留めず、滅多に歩かない細い路地を歩いていた。\
+`　But since I had an idea of where I was in the neighborhood, `@`without letting my guard down, I walked down a narrow alley that I had seldom walked down before.`\ 
 
-　今の僕には、往来の激しい太い通りよりも、@誰にも姿を見られずに済む、こんな忘れられた細い路地の方が心地良かった。@
+;　今の僕には、往来の激しい太い通りよりも、@誰にも姿を見られずに済む、こんな忘れられた細い路地の方が心地良かった。@
+`　Rather than going down a crowded wide avenue, `@`I felt more comfortable in a forgotten narrow alley where no one would see me.`@
 br
-　もう一度、あの写真を取り出す。@こんな、人ひとり通り抜けるのもやっとの細く人通りのない路地で回りに誰もいないことを確認してから、取り出す。\
+;　もう一度、あの写真を取り出す。@こんな、人ひとり通り抜けるのもやっとの細く人通りのない路地で回りに誰もいないことを確認してから、取り出す。\
+`　I decided to take out the photograph once again. `@`After checking around to make sure no one else had slipped into this seldom traveled street, I took it out.`\
 
 ;bg black,29
 ;textoff
@@ -2474,48 +2488,62 @@ ld r,NON_Def4a,22
 ;「………………………………。」@
 `"................"`@`
 br
-　………何度見直しても、そこには、自分を忘れないでほしいと訴える少女の姿が写っていた。@
+;　………何度見直しても、そこには、自分を忘れないでほしいと訴える少女の姿が写っていた。@
+`　......No matter how many times I looked, the captured girl's figure called to me as if to she didn't want to be forgotten.`@
 br
-　いや、……本当にそうなのだろうか。\
+;　いや、……本当にそうなのだろうか。\
+`　No, ......Maybe she really was.`\
 
-　僕は初め、何らかの理由で世界中から忘れられてしまった森谷毬枝が、@自分の存在を思い出して欲しくてこの写真に写ったのではないかと考えていた。@
+;　僕は初め、何らかの理由で世界中から忘れられてしまった森谷毬枝が、@自分の存在を思い出して欲しくてこの写真に写ったのではないかと考えていた。@
+`　For the first time, I thought Moriya Marie, who had been completely forgotten for some reason by the entire world, `@`wanting to be remembered, she might have then developed on this still image.`@
 br
 ;　しかし、彼女の表情は、曖昧なものだった。\
-` However, her expression was ambiguous.`\
+` However, her expression was unclear.`\
 bg black,0
 mono 1
 ld c,MAR_def3,22
 
 ;　それは、はっきりと助けを求めたいという表情ではない。@
-` It was a look that clearly wasn't seeking assistance.`@`
+` She look as if she clearly wanted to be saved.`@`
 br
-　クラス全員が揃わなければならないから、嫌々と写真に収まったとでもいうような、@……そんな覇気のない表情だった。\
+;　クラス全員が揃わなければならないから、嫌々と写真に収まったとでもいうような、@……そんな覇気のない表情だった。\
+`　It was as if everyone in class had to be there, so she was unwillingly placed in the photo. `@`...It was a resigned sort of expression.`\
 
-　今になって、少しだけ思う。@あの、森谷毬枝の母親の錯乱を見てからはっきり思う。@
+;　今になって、少しだけ思う。@あの、森谷毬枝の母親の錯乱を見てからはっきり思う。@
+`　Now I began to wonder. `@`After seeing Moriya Marie's mother's insanity I began to think clearly.`@
 br
-　僕は、写してはならない写真を、撮ってしまったのではないだろうか。\
+;　僕は、写してはならない写真を、撮ってしまったのではないだろうか。\
+`　Did I take a picture that had to be taken I wonder?`\
 
-　そしてその写真は、どんなカメラでも撮れるものではない。@部室の魔境とまで呼ばれる雑然とした荷物の山々の中に、隠されるように眠っていたものを、@僕がわざわざ発掘してきて、それで撮ったのだ。\
+;　そしてその写真は、どんなカメラでも撮れるものではない。@部室の魔境とまで呼ばれる雑然とした荷物の山々の中に、隠されるように眠っていたものを、@僕がわざわざ発掘してきて、それで撮ったのだ。\
+`　And that photo wasn't something that could be taken with just any camera. `@`I had discovered something that was hidden as if asleep from within the jumbled piles of baggage in that place called our clubroom's nest of demons, `@`and on a whim I had taken that picture.`\
 
 bg black,22
 mono 0
 bg roji_03,22
 
-「……いや。@……考え過ぎだ。@……みんなに忘れられて嬉しい人間なんて、いるわけがない。@………彼女は、思い出してほしかったんだ。みんなに。@…………自分の家族にまで、自分の名前を忘れられたら、きっと悲しいさ。@……だから僕はきっと、…彼女の望んだことをしたんだ。@…そうさ、……間違いない。」\
+;「……いや。@……考え過ぎだ。@……みんなに忘れられて嬉しい人間なんて、いるわけがない。@………彼女は、思い出してほしかったんだ。みんなに。@…………自分の家族にまで、自分の名前を忘れられたら、きっと悲しいさ。@……だから僕はきっと、…彼女の望んだことをしたんだ。@…そうさ、……間違いない。」\
+`"...No. `@`...I'm overthinking it. `@`...There was no way someone could rejoice at being forgotten by everyone. `@`......She wanted to be remember -- by everyone. `@`......Because even having your own family forget your own name, that had to be heartbreaking. `@`...And so I had to... I had to do as she wanted. `@`...That's right, absolutely right."`\
 
-　自己弁護だったかもしれない。@
+;　自己弁護だったかもしれない。@
+`　It might have been an excuse.`@
 br
-　でも、そうだと思わないと、心が落ち着かなかった。\
+;　でも、そうだと思わないと、心が落ち着かなかった。\
+`　But if I didn't think like that, then my mind wouldn't have calmed down.`\
 
-　帰ろう。@
-　帰ってお風呂に入って、……それからせめて夕食まで毛布に包まっていよう。@
+;　帰ろう。@
+`　I'll head home.`@
+;　帰ってお風呂に入って、……それからせめて夕食まで毛布に包まっていよう。@
+`　I'll go home, get in the bath, ...and then I'll at least have dinner, and wrap myself in my futon.`@
 br
-　きっと落ち着く。@どうすればいいか、思いつく。@……あるいは、何をしなくても大丈夫だと安心できるかもしれない。\
+;　きっと落ち着く。@どうすればいいか、思いつく。@……あるいは、何をしなくても大丈夫だと安心できるかもしれない。\
+`　I had to calm down. `@`I had to think what I should do. `@`...Or perhaps if I did nothing things would be fine and I could rest easy.`\
 
 bg black,22
 bg roji_02,22
 
-　路地の谷間の向こうの空に、@この辺では道標に使われることもある、清掃工場の高い煙突が見える。@
+;　路地の谷間の向こうの空に、@この辺では道標に使われることもある、清掃工場の高い煙突が見える。@
+`　In the skyline from across the alleyway, `@`I could see the tall smoke stack of the recycling recycling plant that was also used as a landmark for this area.`@ 
 br
 　あっちに向かって歩けば、知っている道か土手に出られるはずだ。\
 
