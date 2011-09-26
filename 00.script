@@ -127,6 +127,7 @@ effect 31,18,300,":c;Bmp\Efe\2.bmp"
 ; 使用変数名
 
 numalias UMINEKOEND,2901     ;終了フラグ
+numalias EN_GLOSSARY_UNLOCK,2902	;true or false depending on whether or not the glossary was unlocked
 numalias savemodePage,3001         ;セーブ画面ページ収得エリア
 
 numalias savedataTime,3100          ;セーブデータ用時間データ文字エリア

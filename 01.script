@@ -70,6 +70,8 @@ bg black,42
 
 wait 4000
 
+mov %EN_GLOSSARY_UNLOCK,1
+
 bgm1 5
 
 bg kyou_01,42

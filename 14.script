@@ -9904,6 +9904,19 @@ if %UMINEKOEND >= 11 : lsph t_logo_lsp,"bmp\title\title_c2.bmp",0,0
 ;----------------------
 ;ボタンの配置
 
+;superior north american goto coding
+
+if %EN_GLOSSARY_UNLOCK = 1 goto *EN_menu_glossary
+
+	lsph t_btn_start_lsp,":a/2,0,3;bmp\title\title_menu\start.bmp",474,156	;146
+	lsph t_btn_web_lsp,":a/2,0,3;bmp\title\title_menu\web.bmp",474,188 + 8	;178
+	if %UMINEKOEND < 10 lsph t_btn_exit_lsp,":a/2,0,3;bmp\title\title_menu\exit.bmp",474,237	;210
+	if %UMINEKOEND = 11 lsph t_btn_exit_lsp,":a/2,0,3;bmp\title\title_menu\exit2.bmp",474,355	;242
+	if %UMINEKOEND = 12 lsph t_btn_exit_lsp,":a/2,0,3;bmp\title\title_menu\exit3.bmp",474,355	;274
+	if %UMINEKOEND >=13  lsph t_btn_exit_lsp,":a/2,0,3;bmp\title\title_menu\exit4.bmp",474,355	;306
+goto *EN_menu_setup_end
+
+*EN_menu_glossary
 	;exitボタン。クリア前は通常。
 	lsph t_btn_start_lsp,":a/2,0,3;bmp\title\title_menu\start.bmp",474,156	;146
 	lsph t_btn_web_lsp,":a/2,0,3;bmp\title\title_menu\web.bmp",474,188 + 8	;178
@@ -9915,6 +9928,8 @@ if %UMINEKOEND >= 11 : lsph t_logo_lsp,"bmp\title\title_c2.bmp",0,0
 
 	;クリアフラグによってボタンの表示、非表示、EXITの高さを行う。
 	if %UMINEKOEND >= 12 lsph t_btn_music_lsp,":a/2,0,3;bmp\title\title_menu\music.bmp",474,315	;306
+
+*EN_menu_setup_end
 
 ;----------------------
 lr_trap *b_title_shunkan             ;クリックに反応して瞬間表示を行う
