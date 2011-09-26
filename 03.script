@@ -2466,7 +2466,7 @@ bgm1 14
 `　Since I ran in confusion, I couldn't tell how many wrong alleyways I went down.`@
 br
 ;　でも、自分が町内のどの辺にいるのかは理解していたので、@僕はさして気にも留めず、滅多に歩かない細い路地を歩いていた。\
-`　But since I had an idea of where I was in the neighborhood, `@`without letting my guard down, I walked down a narrow alley that I had seldom walked down before.`\ 
+`　But since I had I knew I was somewhere in the neighborhood, `@`without noticing it, I walked down a narrow alley that I had never walked down before.`\ 
 
 ;　今の僕には、往来の激しい太い通りよりも、@誰にも姿を見られずに済む、こんな忘れられた細い路地の方が心地良かった。@
 `　Rather than going down a crowded wide avenue, `@`I felt more comfortable in a forgotten narrow alley where no one would see me.`@
@@ -2545,9 +2545,11 @@ bg roji_02,22
 ;　路地の谷間の向こうの空に、@この辺では道標に使われることもある、清掃工場の高い煙突が見える。@
 `　In the skyline from across the alleyway, `@`I could see the tall smoke stack of the recycling recycling plant that was also used as a landmark for this area.`@ 
 br
-　あっちに向かって歩けば、知っている道か土手に出られるはずだ。\
+;　あっちに向かって歩けば、知っている道か土手に出られるはずだ。\
+`　If I walk that way, I should see a street I know or a levee.`\
 
-　初めて歩く路地だったが、方向感覚は失わなかったので、@僕はそれほどの不安を抱かず、そちらへ歩き出す。\
+;　初めて歩く路地だったが、方向感覚は失わなかったので、@僕はそれほどの不安を抱かず、そちらへ歩き出す。\
+`　It was the first time I had walked down that street, but although I had lost my sense of direction, `@`without letting that anxiety get to me, I walked down the alley.`\
 
 bg black,23
 bg roji_02,23
@@ -2562,9 +2564,11 @@ wait 2000
 bg black,23
 bg roji_02,23
 
-　しかし、好き勝手に曲がりくねる路地は、時に迷路のように枝分かれをし、意地悪な袋小路を作っては僕をからかった。@
+;　しかし、好き勝手に曲がりくねる路地は、時に迷路のように枝分かれをし、意地悪な袋小路を作っては僕をからかった。@
+`　But, the alley had many turned and bended in many places. Sometimes like a maze it would branch off, and as if the alleys were playing tricks on me they would end in mischievous dead ends. 
 br
-　知っている道になかなか出られない苛立ちは、あのマンションでの出来事をわずかながら忘れさせてくれたので、@悪態をつくのも決して不快ではなかった……。\
+;　知っている道になかなか出られない苛立ちは、あのマンションでの出来事をわずかながら忘れさせてくれたので、@悪態をつくのも決して不快ではなかった……。\
+`　The irritation of not finding a street I knew, since it let me briefly forgetting what happened at the apartment building, `@`I didn't feel uncomfortable cursing out loud......`\
 
 
 
@@ -2581,58 +2585,81 @@ me1v 5,50
 
 wait 2000
 
-　こんな狭い路地に。@………前方に、立ち塞がるように人影があったのを見て、ぎょっとする。\
+;　こんな狭い路地に。@………前方に、立ち塞がるように人影があったのを見て、ぎょっとする。\
+`　In such a narrow alley. `@`......I was startled to find in front of me a looming figure standing in my path.`\ 
 
-　肩をぶつけずには通り抜けることもできないような細い路地だ。@好き好んで通る物好きがいるわけもない。@
+;　肩をぶつけずには通り抜けることもできないような細い路地だ。@好き好んで通る物好きがいるわけもない。@
+`　The alleyway was so thin that I wasn't possible to pass him without bumping into his shoulders. `@`I wasn't curious to try doing it either.`@
 br
-　にも関わらず、前方の人影はこの細い路地にぼんやりと立ち、路地を塞いでいた。\
+;　にも関わらず、前方の人影はこの細い路地にぼんやりと立ち、路地を塞いでいた。\
+`　Regardless, the figure in front of me stood idly in this narrow alley, blocking the way.`\
 
-　その人影は、@……パンクした自転車や風雨に汚れた洗濯機、手入れのされていない盆栽の並ぶこの路地には、あまりに不釣合いな姿をしていた。\
+;　その人影は、@……パンクした自転車や風雨に汚れた洗濯機、手入れのされていない盆栽の並ぶこの路地には、あまりに不釣合いな姿をしていた。\
+`　That figure, `@`...in contrast with the broken bicycle, the rain stained washing machine, and the mistreated plants that lined the alleyway, he didn't seem like he belonged here.`\
 
 bg black,22
 
-　第一印象は、………一世紀も前の英国の老紳士、という感じだった。@
+;　第一印象は、………一世紀も前の英国の老紳士、という感じだった。@
+`　My first impression ......I felt he was an old British gentleman from a century ago.`@
 br
-　如何にも英国紳士的な帽子を深々と被り、ちょっと小洒落たスーツを着て、ステッキまで持っていた。@帽子を深く被っているせいで人相までは見えないが、@きっと口ひげを蓄えた上に、片眼鏡までしているに違いないと思った。\
+;　如何にも英国紳士的な帽子を深々と被り、ちょっと小洒落たスーツを着て、ステッキまで持っていた。@帽子を深く被っているせいで人相までは見えないが、@きっと口ひげを蓄えた上に、片眼鏡までしているに違いないと思った。\
+`　With a British gentleman's style he had a top hat on his head, and a suit of some refined taste, and he even had a cane. `@`I exactly make out his features from under his hat, `@`but I could clearly see that he had a well grown beard and even a monocle.`\
 
 bg roji_02,22
 
-　……それは、この路地裏にはあまりに不釣合いな身なりだった。@
+;　……それは、この路地裏にはあまりに不釣合いな身なりだった。@
+`　...He didn't look like he belonged in this back alley at all.`@
 br
-　その人影は、何をするわけでもなく、ぼんやりとこの路地に立ち塞がっていた。\
+;　その人影は、何をするわけでもなく、ぼんやりとこの路地に立ち塞がっていた。\
+`　And it wasn't as if he was doing anything aside from merely standing -- idly blocking the street.`\
 
-　散歩をするわけでもなく、夕涼みをしているようにも見えない。@
+;　散歩をするわけでもなく、夕涼みをしているようにも見えない。@
+`　He didn't seem like he was out for a stroll or out to cool off for the evening.`\
 br
-　いやむしろ、……こちらを向きながらじっと立ち尽くすその様子は、@まるで僕を待ち受けていたようにも見えて、ちょっぴりだけ薄気味悪かった。\
+;　いやむしろ、……こちらを向きながらじっと立ち尽くすその様子は、@まるで僕を待ち受けていたようにも見えて、ちょっぴりだけ薄気味悪かった。\
+`　No. ...Rather he stood fixed facing my direction, `@`looking as if he was expecting me -- I started to feel a bit uneasy.`\
 
 mcl c,0
 bg black,23
 bg roji_01,23
 
-　……幸い、横に逸れる路地もあった。@
+;　……幸い、横に逸れる路地もあった。@
+`　...Thankfully, there was another street nearby.`@
 br
-　その不気味な人影に、無理に近付きたくなかった僕は、さも初めからそちらへ進む風だったかのように装いながら、路地を曲がる。@
+;　その不気味な人影に、無理に近付きたくなかった僕は、さも初めからそちらへ進む風だったかのように装いながら、路地を曲がる。@
+`　Since I didn't want to pointlesly get near that strange person, pretending as if the wind had somehow carried me onwards, I then turned down the other alley.`@
 br
-　清掃工場の煙突の方角を目指せばいいだけなのだから、何もこの路地に固執することはない…。\
+;　清掃工場の煙突の方角を目指せばいいだけなのだから、何もこの路地に固執することはない…。\
+`　As long as I could see the recycling plant's smokestack and use it like a compass, there was no need to adhere to a specific path...`\
 
-　……何だったんだろう、あの人は。@
+;　……何だったんだろう、あの人は。@
+`　...Who was he though? -- that man?`@
 br
-　いっそ、ステテコに腹巻姿でもしててくれたなら、この雑多な裏路地に実によく馴染み、僕も不必要な不気味さを感じなかっただろう。@
+;　いっそ、ステテコに腹巻姿でもしててくれたなら、この雑多な裏路地に実によく馴染み、僕も不必要な不気味さを感じなかっただろう。@
+`　Rather, if I had seen someone out walking around in their underwear, which would have seemed more natural in this sloppy back alley, then maybe I wouldn't have felt so uncomfortable.`@
 br
-　あんなところに立ち尽くして、まったくにもって邪魔な……。\
+;　あんなところに立ち尽くして、まったくにもって邪魔な……。\
+`　But for him to be standing stil like that, and to be so utterly obstructive...`\
 
-　しかし、結局はその出来事すらも、さっきのことを一時的に忘れるにはちょうどいい。@
+;　しかし、結局はその出来事すらも、さっきのことを一時的に忘れるにはちょうどいい。@
+`　But just like what I did earlier, forgetting what happened just now might be for the best.`@
 br
-　ひと時の悪態を楽しみ、ようやく煙突の方角へ進むことのできる路地を見つけ、そちらへ曲がった。\
+;　ひと時の悪態を楽しみ、ようやく煙突の方角へ進むことのできる路地を見つけ、そちらへ曲がった。\
+`　Once I was satisfied cursing, at last I found an alley heading in the direction of the smokestack -- I turned that way.`\
 
-　辺りは暗くなり始め、家々から灯りが漏れるようになってきた。@……夕食の準備だろうか、換気扇の音や、揚げ物の匂いなどが漂ってくる。@
+;　辺りは暗くなり始め、家々から灯りが漏れるようになってきた。@……夕食の準備だろうか、換気扇の音や、揚げ物の匂いなどが漂ってくる。@
+`　The neighborhood was beginning to darken and lights began to glow from inside the houses.` @`...Perhaps some were preparing dinner, with the sound of vents the smell of fried food hung in the air.`@
 br
-　しかしそれでも、………人の気配を感じることができない、寂しい路地だった。\
+;　しかしそれでも、………人の気配を感じることができない、寂しい路地だった。\
+`　But even so, .......without any signs of anyone's presence, this alley was a lonely one.`\
 
-　僕は、ずいぶんと遠回りしてしまい、時間を無駄にしてしまっているのを感じていた。@
+;　僕は、ずいぶんと遠回りしてしまい、時間を無駄にしてしまっているのを感じていた。@
+`　I had taken quite a detour, and I felt I had wasted a lot of time.`@
 br
-　学校帰りにちょっと寄り道しただけのつもりだった。@なのにもう、こんなに暗い。@
-　……学校を出た時間も、決して早い時間ではなかった。@当然と言えば当然なのだが、…それでも、暗くなるのが少し早いように感じた。\
+;　学校帰りにちょっと寄り道しただけのつもりだった。@なのにもう、こんなに暗い。@
+`　I had intended just to make a quick stop on the way home from school. `@`But now it was already getting this dark.`@
+;　……学校を出た時間も、決して早い時間ではなかった。@当然と言えば当然なのだが、…それでも、暗くなるのが少し早いように感じた。\
+`　...Even by the time I left the school it wasn't particularly early either. `@`Saying it was expected made sense, ...but even so, I felt it was a little early to be getting dark.`\
 
 ld r,KOU_Def2,42
 
@@ -2644,50 +2671,70 @@ ld l,NON_Def5a,80
 
 bgm1 9
 
-「…………………………ぅ…。」@
+;「…………………………ぅ…。」@
+`"............ng..."@
 br
-　前方に立ち塞がる人影を再び見た時。@………それが、見間違うわけもない、あの特徴的な服装で、僕は驚きを隠せなかった。@
+;　前方に立ち塞がる人影を再び見た時。@………それが、見間違うわけもない、あの特徴的な服装で、僕は驚きを隠せなかった。@
+`　When I saw that figure once again blocking the way, `@`......there was no way I was seeing things -- it was those characteristic clothes -- and I couldn't hide my surprise
 br
-　……あの、英国紳士風の老人が、…再び、立ち塞がっていたのだ。\
+;　……あの、英国紳士風の老人が、…再び、立ち塞がっていたのだ。\
+`　...That elderly British gentleman, ...once again blocked the way.`\
 
-　あんなおかしな格好をしている老人が二人もいるわけがない。@…だとしたら、さっきと同じ人物なのだ。@
+;　あんなおかしな格好をしている老人が二人もいるわけがない。@…だとしたら、さっきと同じ人物なのだ。@
+`　There was no way there was more than one elderly man wearing a strange outfit like that. `@`...So then this had to be the man.`@
 br
-　でも、そんなことあるだろうか。@僕はあの老人をよけて、路地をひとつ迂回した。@にも関わらず、再びあの老人に出くわしてしまうなんて、ありうるだろうか？\
+;　でも、そんなことあるだろうか。@僕はあの老人をよけて、路地をひとつ迂回した。@にも関わらず、再びあの老人に出くわしてしまうなんて、ありうるだろうか？\
+`　But is this even possible? `@`I avoided the old man and took a detour through another alley. `@`Even then, what are the odds of coming across the same old man yet again?`\
 
-　老人は、さっき出会ったときとまったく同じように…、@じっと立ち尽くし、僕がやって来るのを待ち構えているかのように路地に立ち塞がっている。@
+;　老人は、さっき出会ったときとまったく同じように…、@じっと立ち尽くし、僕がやって来るのを待ち構えているかのように路地に立ち塞がっている。@
+`　The old man stood the same as when I had met him earlier... `@`As if he were expecting me, he stood perfectly still blocking the alley.`@
 br
-　…深く被っている帽子のせいで目どころか表情も見えない。@……なのになぜか、老人は僕をじっと見ている、……あるいは睨んでいるように感じられた。\
+;　…深く被っている帽子のせいで目どころか表情も見えない。@……なのになぜか、老人は僕をじっと見ている、……あるいは睨んでいるように感じられた。\
+`　...Because of the wide hat he wore, I couldn't make out his expression. `@`...But for some reason, he was looking at me -- ...no, I felt he was staring at me.`\
 
-　気のせいであってほしい。@……あの老人は、僕を待ち構えているとしか思えない。@
+;　気のせいであってほしい。@……あの老人は、僕を待ち構えているとしか思えない。@
+`　I wanted it just to be my imagination. `@`...I couldn't imagine that old man was waiting for me.`@
 br
-　さっきはたまたま脇に逸れる路地があったから逃げられた。@しかし今度はない。@進むか、引き返すかだけだ。\
+;　さっきはたまたま脇に逸れる路地があったから逃げられた。@しかし今度はない。@進むか、引き返すかだけだ。\
+`　Earlier there were sometimes alleys with room enough elbow room to squeeze by. `@`But this time there was none. `@`To go forward or go back? Those were my only choices.`\
 
 ;mcl c,0
 bg roji_06,22
 
-　………退いて下さいと言って、脇を通らせてもらうか…？@
+;　………退いて下さいと言って、脇を通らせてもらうか…？@
+`　......If I asked him to please step aside, would he let me pass?`@
 br
-　…………………………………。@
-　たまたま偶然、老人と二度出くわしただけに過ぎないのかもしれない。@
+;　…………………………………。@
+`　...............`@
+;　たまたま偶然、老人と二度出くわしただけに過ぎないのかもしれない。@
+`　By sheer coincidence, I might have just come across the same old man twice.`@
 br
-　いや、でもあるいは老人は本当に僕を待ち受けていて………。\
+;　いや、でもあるいは老人は本当に僕を待ち受けていて………。\
+`　Or perhaps that old man truly was waiting for me......`\
 
-　それを確かめ、…そしてこの不気味さから逃れる簡単な方法は、ひとつだった。@
+;　それを確かめ、…そしてこの不気味さから逃れる簡単な方法は、ひとつだった。@
+`　To know for sure, ...and to escape this strange scenario, there was one simple solution.`@
 br
-　引き返し、別の路地を探すこと。@
-　もしも三度、あの老人が僕の前に立ち塞がることがあったなら、@それは僕に話があるという明白な意思だろう。\
+;　引き返し、別の路地を探すこと。@
+`　I could go back, and search for a different avenue.`@
+;　もしも三度、あの老人が僕の前に立ち塞がることがあったなら、@それは僕に話があるという明白な意思だろう。\
+`　If I met him a third time, and that old man blocked my way, `@`then that would mean he obviously wanted to speak to me.`\
 
 mcl r,0
 bg black,23
 bg roji_02,23
 quakex 2,200
 
-　あの不気味な老人に話し掛けるくらいなら、今来た道を引き返す方がよっぽどマシだった。@
-　臆すことなく、いやあるいは存分に臆しながら、踵を返す。@
+;　あの不気味な老人に話し掛けるくらいなら、今来た道を引き返す方がよっぽどマシだった。@
+`　If I had to share words with that mysterious old man, I'd much rather head back the way I came again.`@
+;　臆すことなく、いやあるいは存分に臆しながら、踵を返す。@
+`　Without hesitation, or rather as hesistant as I could be, I turned back.`@
 br
-　そして、ちらちらと後を振り返って、老人が追ってこないことを確かめた後、@僕は小走りで駆け出した。\
+;　そして、ちらちらと後を振り返って、老人が追ってこないことを確かめた後、@僕は小走りで駆け出した。\
+`　And after looking over my should to make sure the old man wouldn't follow me, `@`I began to hurry away from there.`\
 
-　もうこのへんてこな路地はごめんだ。@もう本当に暗くなってしまった。@早く帰りたい。帰りたい…！\
+;　もうこのへんてこな路地はごめんだ。@もう本当に暗くなってしまった。@早く帰りたい。帰りたい…！\
+`　Sorry but I can't stay in this alley. `@`It's already getting dark. `@`I want to get home quick. I want to go home...!`\
 
 E_A
 
@@ -2700,12 +2747,14 @@ mld l,NON_s1,26
 quakey 2,200
 
 ;「……………………えッ？！」@
-`"........what?!"`@`
+`"........EHHH?!"`@`
 br
-　目で見たものを脳が理解する前に、……僕の背中にはぞわりとしたものが込み上げた。@
+;　目で見たものを脳が理解する前に、……僕の背中にはぞわりとしたものが込み上げた。@
+`　When I my mind understood what was in front of my eyes, ...chills jumped up my spine.`@
 bgm1 10
 br
-　なぜなら、………僕は老人に背を向け、踵を返したはずなのに、@………再び老人が、立ち塞がっているのが見えたからだ。\
+;　なぜなら、………僕は老人に背を向け、踵を返したはずなのに、@………再び老人が、立ち塞がっているのが見えたからだ。\
+`　Because, ......even though I had turned my back on him and left, `@`......once again I could see the old man blocking my path.`\
 
 
 bg black,22
@@ -2713,9 +2762,10 @@ bg black,22
 ;bg Different_spiral_1a,22
 
 ;　こんなこと、……ありえないッ！@
-` This....this is unbelievable!`@`
+` This....this is impossible~!`@`
 br
-　老人が実は二人いて、僕を前後から追い詰めてからかっているのか？！@　そんな馬鹿なことをして何が楽しいんだ…？！\
+;　老人が実は二人いて、僕を前後から追い詰めてからかっているのか？！@　そんな馬鹿なことをして何が楽しいんだ…？！\
+`　There must have really been two of them -- did they intend to corner me from both sides?! `@`What enjoyment could they possibly derive from something so stupid...?!`\
 
 
 mcl a,0
@@ -2724,9 +2774,11 @@ mono 2
 bg Different_spiral_1b,0
 ld c,KOU_Def1,22
 
-　いや、でも……、二人とは思えない。@だって、前の老人も後の老人も、まったく同じ姿に見える。@同じ服装をした二人には到底思えないのだ。@
+;　いや、でも……、二人とは思えない。@だって、前の老人も後の老人も、まったく同じ姿に見える。@同じ服装をした二人には到底思えないのだ。@
+`　No, but..., I can't believe there are two of them. `@`Because the man in front of me and the man behind me looked the same. `@`I can't believe there'd be two of them dressed the same like that.`@
 br
-　そんなこと、むしろあるものか！@　たった今まで僕の後にいた老人が、光の速さで僕を追い抜いて先回りしたって言うのか？！@　そんなことできるものか！@　妖怪じゃあるまいし…！！\
+;　そんなこと、むしろあるものか！@　たった今まで僕の後にいた老人が、光の速さで僕を追い抜いて先回りしたって言うのか？！@　そんなことできるものか！@　妖怪じゃあるまいし…！！\
+`　Is there any other explanation?! `@`Am I supposed to believe that old man just flew past me from behind me at the speed of light?! `@`That's not possible! `@`He's not a youkai...!!`\
 
 bg black,22
 mono 0
@@ -2734,16 +2786,21 @@ bg roji_02,0
 ld r,KOU_Def2,0
 ld l,NON_Def7a,22
 
-　でも、真正面に再びいて、僕の進路を遮っているのは紛れもない事実だった。@
+;　でも、真正面に再びいて、僕の進路を遮っているのは紛れもない事実だった。@
+`　But the fact that he was once again directly in front of me obstructing my path was the undeniable truth.`@
 br
-　それを再び逆走しても意味はない。@理屈ではそうなのだが、すっかり恐怖に取り付かれてしまった僕は、再び踵を返すことを選んでしまった。\
+;　それを再び逆走しても意味はない。@理屈ではそうなのだが、すっかり恐怖に取り付かれてしまった僕は、再び踵を返すことを選んでしまった。\
+`　There was no point turning around and running from him again. `@`Even though that was my theory, I had been completely overtaken by fear, so I once again made the choice to turn and run away.`\
 
 ;　……だから、今度こそ本当に恐怖する。@
-`....that's why I now really feared it.`@`
+`....Because this time I was truly afraid.`@`
 br
-　振り返ったそこに、再び。@
-　そして今度は間近に。@
-　あの老人が立ちはだかっていたからだ…。\
+;　振り返ったそこに、再び。@
+`　There when I turned, he was there again.
+;　そして今度は間近に。@
+`　And this time he was closer.`@
+;　あの老人が立ちはだかっていたからだ…。\
+`　The old man continued to block my path...`\
 
 mbg roji_06,0
 mld l,KOU_Def2,24
@@ -2770,14 +2827,19 @@ wait 1000
 
 ;ld l,NON_Def1,80
 
-　もう疑わない。@…この不気味な老人は、僕の振り向いた先に、常に存在する…！@
+;　もう疑わない。@…この不気味な老人は、僕の振り向いた先に、常に存在する…！@
+`　There was no doubt any longer. `@`...Every time just as I turn around, he was always on the other side...!`@
 br
-　老人の目はこれほどの間近であっても、深く被った帽子の影でよく見えない。@……しかしそれでも、今、自分を凝視していることがよくわかった。\
+;　老人の目はこれほどの間近であっても、深く被った帽子の影でよく見えない。@……しかしそれでも、今、自分を凝視していることがよくわかった。\
+`　Even as close as the old man's eyes were, I couldn't see them well from under the shadow of his wide hat. `@`...But even so, I could tell he was glaring at me.`\
 
-　それはまさに、蛇に睨まれた蛙のようなもの…。@
-　こちらから話し掛けることが、何かの負けを意味するような気がして、@僕は何かが起こるまで指一本動かすことができずにいた……。@
+;　それはまさに、蛇に睨まれた蛙のようなもの…。@
+`　The way he looked at me seemed just like a snake watching a frog...`@
+;　こちらから話し掛けることが、何かの負けを意味するような気がして、@僕は何かが起こるまで指一本動かすことができずにいた……。@
+`　I felt that if I talked to him now, it would mean my defeat somehow, `@`but until I had an opportunity, I couldn't even lift a finger...`@
 br
-　だから、老人が先に口を開いた時、一瞬だけ安堵を感じたのだった…。\
+;　だから、老人が先に口を開いた時、一瞬だけ安堵を感じたのだった…。\
+`　And when the old man opened his mouth to speak first, I felt relief for a moment...`\
 
 textoff
 fede 0,1000
@@ -2796,67 +2858,87 @@ bgm1 14
 
 ld r,KOU_Def3,80
 
-「もう、こんにちは、の挨拶の時間ではないね。@こんばんは、の時間ではないかね…？」@
+;「もう、こんにちは、の挨拶の時間ではないね。@こんばんは、の時間ではないかね…？」@
+`"Well, I suppose, it's too late to say good afternoon. `@`Perhaps then now is a good time to say, good evening...?"`@
 
 ld l,NON_Def5a,80
 
-「え？@　あ、………はい。@……こんばんは。」\
+;「え？@　あ、………はい。@……こんばんは。」\
+`"Eh? `@`Oh ......Yes. `@`...Good evening."`\
 
 ld r,KOU_Def1,80
 
-「うむ。@こんばんは。」@
+;「うむ。@こんばんは。」@
+`"Yes. `@`Good evening."`@
 br
-　想像通りの老人の声だった。@…でも、声は流暢で、しゃべり慣れている健康な老人という印象だった。@
-　なぜか諭すような口調がどこか先生っぽく、ひょっとしたら、僕の学校の他の学年の先生なのではないかと感じた。\
+;　想像通りの老人の声だった。@…でも、声は流暢で、しゃべり慣れている健康な老人という印象だった。@
+`　His voice was like I thought an old man's voice should sound like. `@`...But he gave the impression of a coherent healthy old man who was easy to talk to.`@
+;　なぜか諭すような口調がどこか先生っぽく、ひょっとしたら、僕の学校の他の学年の先生なのではないかと感じた。\
+`　For some reason his warm tone seemed like a teacher's, and I sensed he might have been a teacher from one of the other classes in school.`\
 
 bg black,22
 
-　突拍子もない話だとは思う。@初対面の人なのに、勝手に先生だと思ってしまうなんて。@
+;　突拍子もない話だとは思う。@初対面の人なのに、勝手に先生だと思ってしまうなんて。@
+`　I thought that was a crazy idea. `@`Even though I had just met him, thinking he was a teacher or something like that~`@
 br
-　……でもとにかく。@ほんの少し言葉を交わしただけで感じた第一印象は「先生」、だった。\
+;　……でもとにかく。@ほんの少し言葉を交わしただけで感じた第一印象は「先生」、だった。\
+`　...Nonetheless. `@`Based on what little words we exchanged, he gave me the impression he was a "teacher".`\
 
-　でも、それは安心できることだった。@
+;　でも、それは安心できることだった。@
+`　That idea comforted me.`@
 br
-　こんな当り前の会話ができる直前まで、僕は彼のことを妖怪のように思っていた。@…妖怪と会話ができるわけもない。@……会話が成立するなら人間なのだ。@少なくとも、不必要に怯える必要はない…。\
+;　こんな当り前の会話ができる直前まで、僕は彼のことを妖怪のように思っていた。@…妖怪と会話ができるわけもない。@……会話が成立するなら人間なのだ。@少なくとも、不必要に怯える必要はない…。\
+`　Right before we exchanged such simple words, I had thought he was like a youkai. `@`...There's no way someone can talk to a youkai. `@`...Humans are the ones who need to talk. `@`At least there was no need to be needlessly afraid...`\
 
 bg roji_01,0
 ld l,KOU_Def3,22
 ld l,KOU_Def1,80
 
-「そうとは限らんよ。@おとぎ話や昔話で、人は時に、天狗やキツネや、鬼や妖怪と話を交わしているではないか。」@
+;「そうとは限らんよ。@おとぎ話や昔話で、人は時に、天狗やキツネや、鬼や妖怪と話を交わしているではないか。」@
+`"That's not so. `@`In fairy tales and old stories, on occasion didn't humans exchange words with spirits like tengu, foxes, oni, and even youkai?"`@
 
 ld r,NON_Def6,24
 ld r,NON_Def5a,80
 
-「………え？！@　あ、……え、……はい。」@
+;「………え？！@　あ、……え、……はい。」@
+`"......Eh?! `@`Oh, ...um, ...Yes."`@
 br
-　口に出して言ったはずはないのに…。@老人は僕の胸中に対し返事をするように答えた。\
+;　口に出して言ったはずはないのに…。@老人は僕の胸中に対し返事をするように答えた。\
+`　Even though I didn't say anything... `@`The old man replied as if in reponse to my inner thoughts.`\
 
 ld l,KOU_Def2,80
 
-「飼い犬と仲良くなって交流することもあるんじゃないかね？@　たとえ言葉が交わせなくても交流はできるわけだ。@…ならば、言葉が通じるという意味においては、@人は、動物以上に妖怪と交流できてもおかしくはないんじゃないかね？」\
+;「飼い犬と仲良くなって交流することもあるんじゃないかね？@　たとえ言葉が交わせなくても交流はできるわけだ。@…ならば、言葉が通じるという意味においては、@人は、動物以上に妖怪と交流できてもおかしくはないんじゃないかね？」\
+`"When being friendly with a pet dog, don't people talk to them as well is there? `@`Even if you can't exchange words, you can communicate with them. `@`...If you're talking about sharing words, `@`then there's nothing strange about humans communicating with, not just animals, but demons as well, is there?"`\
 
 ld r,NON_Def3a,80
 
-「そ、……そういうことに、…なりますね。@……すみません。」@
+;「そ、……そういうことに、…なりますね。@……すみません。」@
+`"I... suppose that's... possible. `@`...I'm sorry."`@
 br
-　なぜか謝ってしまう。@……妖怪と交流などできないと断じるのはいけないことだと、諭されたような気がしたからだ。\
+;　なぜか謝ってしまう。@……妖怪と交流などできないと断じるのはいけないことだと、諭されたような気がしたからだ。\
+`　For some reason I apologized. `@`...I felt as if I had been lectured for concluding that humans couldn't communicate with demons.`\
 
 ;ld r,NON_Def1,80
 
-　いや、……違う？@　老人は本当に妖怪で、……勝手に決め付けられたのを怒っている…？\
+;　いや、……違う？@　老人は本当に妖怪で、……勝手に決め付けられたのを怒っている…？\
+`　No, ...that wasn't it? `@`The old man was really a youkai, ...and he was upset that I had mislabeled him...?`\
 
 ld l,KOU_Def3,80
 
-「…はっはっはっはっはっは。@まぁ、いい。@それを論じるのは次の機会にしようじゃないかね。@もう遅い時間だ。@早くお家へ帰らないと、お母さんが心配するよ。」@
+;「…はっはっはっはっはっは。@まぁ、いい。@それを論じるのは次の機会にしようじゃないかね。@もう遅い時間だ。@早くお家へ帰らないと、お母さんが心配するよ。」@
+`"...Ha ha ha ha ha ha. `@`Well, that's fine. `@`That's a topic we can have another time, wouldn't you say? `@`It's getting late. `@`If you don't head home soon, your mother worry about you."`@
 br
-　老人は再び、僕が口に出していないはずの問いに応え、笑う。\
+;　老人は再び、僕が口に出していないはずの問いに応え、笑う。\
+`　The old man laughed, once again it seemed as if he was sensing my words before they left my mouth.`\
 
 ;ld r,NON_Def1,80
 
-　なぜか脳裏に、あの黄昏の廊下で出会った不思議な少女の姿が過ぎる。@………あの少女がもしも、人間以外のナニモノかだったなら、@………それはきっと、この老人の仲間に違いないと、漠然と思った。@
+;　なぜか脳裏に、あの黄昏の廊下で出会った不思議な少女の姿が過ぎる。@………あの少女がもしも、人間以外のナニモノかだったなら、@………それはきっと、この老人の仲間に違いないと、漠然と思った。@
+`　For some reason I recalled that mysterious girl I met in that orange tinted hallway in the back of my mind. `@`......If that girl was something  m o r e  than human, `@`......Then surely, she must be associated with this old man -- I wondered to myself. 
 br
-　その胸中の問いには、老人は答えなかった。@でも、考えてみればそれが当り前なのだが…。\
+;　その胸中の問いには、老人は答えなかった。@でも、考えてみればそれが当り前なのだが…。\
+`　The old man didn't answer that question in my mind. `@`But if I thought about it, maybe it was obvious...`\
 
 
 
@@ -2875,17 +2957,21 @@ ld c,KOU_Def1,23
 
 me1v 16,50
 
-「さて、野々宮くん。@………君は、不思議な写真機を持っているね？」@
+;「さて、野々宮くん。@………君は、不思議な写真機を持っているね？」@
+`"Now then, Nonomiya-kun. `@`......You have a strange camera, don't you?"`@
 br
-　ドキリとする。@
-　…なぜ老人がこのカメラのことを知っているかではない。\
+;　ドキリとする。@
+`　My heart skipped a beat.`@
+;　…なぜ老人がこのカメラのことを知っているかではない。\
+`　...It wasn't 'how' the old man knew about the camera.`\
 
-　だって、このカメラがこの世ならぬものであることは薄々気付いてる。@…そして、そのカメラのことを詳しく知るならば、@……その人物もまた、この世ならざる存在だからだ。\
+;　だって、このカメラがこの世ならぬものであることは薄々気付いてる。@…そして、そのカメラのことを詳しく知るならば、@……その人物もまた、この世ならざる存在だからだ。\
+`　After all, I was slowly realizing this camera wasn't of this world. `@`...And, the ones that would know best about this camera, `@`...were like him -- not of this world.`\
 
 ld r,NON_Def4a,80
 
 ;「は、………はい。@…持っています。」\
-`"Y-Yes....`@`..I have it."`\
+`"Y-....Yes. `@`..I have it."`\
 
 textoff
 bg black,22
@@ -2894,47 +2980,56 @@ bg shinbun_03,28
 bgcopy
 csp -1
 
-「それはどこで手に入れたのかね。@新聞部の部室で？」@
-「……はい。@部室の、本とか機材がごちゃごちゃ置かれている一番奥で。」\
+;「それはどこで手に入れたのかね。@新聞部の部室で？」@
+`"Where did you obtain it, I wonder? `@`In the Newspaper Club room?"`@
+;「……はい。@部室の、本とか機材がごちゃごちゃ置かれている一番奥で。」\
+`"...Yes. `@`In the deepest section of the club, where books and equipment are jumbled together."`\
 
 ;「……………ふーむ。@それはとても不思議なことだよ。」@
-`"......Hmm.`@`That's really strange."`@`
+`"......Hmmmmm.`@`That's really quite strange."`@`
 ;「え？」\
-`"What?"`\
+`"Eh?"`\
 bg black,22
 bg roji_02,0
 ld c,KOU_Def2,22
 ;ld c,KOU_Def1,80
 
-「あの写真機は、とてもとても厳重に封印していたものだ。@それはニンゲンに見つけられるようなものじゃない。@……それを君がどうして見つけられたのか、とても不思議でね。@………はてはて。」@
+;「あの写真機は、とてもとても厳重に封印していたものだ。@それはニンゲンに見つけられるようなものじゃない。@……それを君がどうして見つけられたのか、とても不思議でね。@………はてはて。」@
+`"That camera was oh so securely sealed away. `@`It's not something that is supposed to be found by 'humans'. `@`...Then how could you have found it? It's so very strange. `@`...Oh dear oh dear."`@
 br
-　この老人こそが、僕にとっては不思議側の存在だ。@…その彼が「不思議」と言い出すのだから、不安なことこの上ない…。\
+;　この老人こそが、僕にとっては不思議側の存在だ。@…その彼が「不思議」と言い出すのだから、不安なことこの上ない…。\
+`　I was also a strange existence to this old man as well. `@`...Because there was nothing stranger than being called "strange" by this kind of man...`\
 
 ld c,KOU_Def3,80
 
-「そう怯えなくてもいい。@私はお前さんを捕って喰おうとは思っちゃおらんよ。@君だって、朝食のお味噌汁にいちいち話し掛けたりはしないんじゃないかね？@　もしも私が君を食べるつもりだったなら、話し掛けたりなどせずにぺろりだよ。@……はっはっはっはっはっは。」@
+;「そう怯えなくてもいい。@私はお前さんを捕って喰おうとは思っちゃおらんよ。@君だって、朝食のお味噌汁にいちいち話し掛けたりはしないんじゃないかね？@　もしも私が君を食べるつもりだったなら、話し掛けたりなどせずにぺろりだよ。@……はっはっはっはっはっは。」@
+`"You don't need to be afraid. `@`I'm not thinking of catching and eating you, you see. `@`After all, you wouldn't have a conversation with your breakfast, would you? `@`If I intended to eat you, rather than talking I'd be eating! `@`...Ha ha ha ha ha ha!"`@
 br
-　僕の緊張を解すために笑ってくれたのだろうと思う。\
+;　僕の緊張を解すために笑ってくれたのだろうと思う。\
+`　I thought he was laughing in order to help unravel my nerves.`\
 
-　しかし僕には、話し掛けずにいきなり食べることもある、というように聞こえた。@
+;　しかし僕には、話し掛けずにいきなり食べることもある、というように聞こえた。@
+`　But to me, what I heard is that he would eat me rather than talk.`@
 br
-　……この老人の正体はわからず、どうして話し掛けて来たのかはまだわからないけれど、@……恐ろしい存在であることを忘れてはならないようだった。\
+;　……この老人の正体はわからず、どうして話し掛けて来たのかはまだわからないけれど、@……恐ろしい存在であることを忘れてはならないようだった。\
+`　...Without knowing who this old man was, I still didn't know wy he came to speak to me, `@`...but I wouldn't forget his terrifying presence.`\
 
 cl c,0
 ld r,KOU_Def2,23
 
-「……あまり時間は掛けられないから手っ取り早く話そう。@…その写真機を、返して欲しいのだ。」@
+;「……あまり時間は掛けられないから手っ取り早く話そう。@…その写真機を、返して欲しいのだ。」@
+`"...I don't want to take up too much of your time, so I'll speak quickly to the point. `@`...That camera -- I want it back."`@
 
 ld l,NON_Def4a,23
 ld l,NON_Def6a,80
 
 ;「え？@　あ、……これ、……あなたのカメラだったんですか。」\
-`"Huh?`@`Th....That's...your camera right?"`\
+`"Eh? `@`Um....This...is your camera then?"`\
 
 ld r,KOU_Def3,80
 
 ;「いいや、私のものではない。@しかし、君のものでもないんではないかね？」@
-`"No, it's not mine.`@`However, it's not yours either is it?"`@`
+`"Noo, it's not mine.`@`However, it's not yours either is it?"`@`
 ld l,NON_Def3a,80
 
 ;「それは、……そうですけど…。」\
@@ -2942,24 +3037,32 @@ ld l,NON_Def3a,80
 
 bg black,22
 
-　こんな不気味なカメラ、もうたくさんじゃないのか…？@
-　ならこれは好都合だ。@この老人に渡してしまえ……。@それで厄介払いできる…。\
+;　こんな不気味なカメラ、もうたくさんじゃないのか…？@
+`　Haven't I had enough of this mysterious camera...?`@
+;　ならこれは好都合だ。@この老人に渡してしまえ……。@それで厄介払いできる…。\
+`　Then this is convenient. `@`If I hand it over to this old man...... `@`then I can be rid of it...`\
 
-　でも、……老人が不思議がるほどの奇跡に恵まれて手にしたこの魔法のカメラを、あっさりと手放すのは、何だか惜しいような気がして、@つい、こう尋ねてしまう……。\
+;　でも、……老人が不思議がるほどの奇跡に恵まれて手にしたこの魔法のカメラを、あっさりと手放すのは、何だか惜しいような気がして、@つい、こう尋ねてしまう……。\
+`　However, ...handing over this magic camera that I had discovered miraculously so readily over to the old man, seemed wrong somehow, `@`so I had to ask this...`\
 
 bg roji_02,0
 ld r,KOU_Def3,0
 ld l,NON_Def6a,22
 ld l,NON_Def3a,80
 
-「あの、……もし渡さなかったら……？」@
+;「あの、……もし渡さなかったら……？」@
+`"Well, ...what if I don't hand it over...?"`@
 br
-　敢えてそう聞いてしまうのは、あまりに不敬なことだったかもしれない。\
+;　敢えてそう聞いてしまうのは、あまりに不敬なことだったかもしれない。\
+`　Hearing such challenging words, might have seemed pretty disrespectful to him.`\
 
-　相手は僕に下手に出てくれていたはずだ。@それを忘れて、ついつい友人感覚になってしまったかもしれない。@
-　……恐ろしい妖怪であることを、一瞬だけ失念してしまった。@
+;　相手は僕に下手に出てくれていたはずだ。@それを忘れて、ついつい友人感覚になってしまったかもしれない。@
+`　I should have been more polite. `@`But I forgot that, and unconsciously I treated him like a friend.`\
+;　……恐ろしい妖怪であることを、一瞬だけ失念してしまった。@
+`　...For just a moment, I had forgotten he was a terrifying demon.`@
 br
-　でも、ひょっとしたら、このカメラに負けないくらいに不思議な何かと交換してくれるのではないかと思い、@そう言ってしまったのだ。\
+;　でも、ひょっとしたら、このカメラに負けないくらいに不思議な何かと交換してくれるのではないかと思い、@そう言ってしまったのだ。\
+`　But perhaps thinking he'd be willing to barter something myysterious in exchange for the camera, `@`I had said those words.`\
 
 
 
@@ -2981,9 +3084,11 @@ bg roji_03,22
 fede 1,1000
 E_B
 
-「……ほお。@断るというのかね…？」@
+;「……ほお。@断るというのかね…？」@
+`"...Ho~? `@`Are you saying you refuse then...?"`@
 
-「あ、…いえ、その、………だって、このカメラは僕が見つけたんですから、@それが欲しいって言うなら、その、何か対価がもらえないとその…！@　遺失物だって、一割はもらえるわけだし…。」\
+;「あ、…いえ、その、………だって、このカメラは僕が見つけたんですから、@それが欲しいって言うなら、その、何か対価がもらえないとその…！@　遺失物だって、一割はもらえるわけだし…。」\
+`"Well, ...No, It's just... But because I found this camera, `@`if you say you want it then, well, you've got to give me something for it...! `@`It was a lost article y'know, I should at least get a 10% finder's fee..."`\
 
 
 　日が陰り出すと急に冷え込んだ感じがして、ぞくりと来ることがある。@…不敬な言葉を口にした時、まさにそれを感じた。@
