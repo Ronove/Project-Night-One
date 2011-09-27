@@ -1,4 +1,3 @@
-
 ;cl r,23
 
 bg black,2
@@ -8397,23 +8396,53 @@ add $Free1,".bmp"
 savescreenshot2 $Free1
 savetime %savedataNowNum,%Morth,%Day,%Hour,%Minute
 
-itoa2 $SaveTime,%Morth : add $SaveTime,"月"
-itoa2 $Free1,%Day : add $SaveTime,$Free1 : add $SaveTime,"日"
-itoa2 $Free1,%Hour : add $SaveTime,$Free1 : add $SaveTime,"時"
-itoa2 $Free1,%Minute : add $SaveTime,$Free1 : add $SaveTime,"分"
+;itoa2 $SaveTime,%Morth : add $SaveTime,"月"
+;itoa2 $Free1,%Day : add $SaveTime,$Free1 : add $SaveTime,"日"
+;itoa2 $Free1,%Hour : add $SaveTime,$Free1 : add $SaveTime,"時"
+;itoa2 $Free1,%Minute : add $SaveTime,$Free1 : add $SaveTime,"分"
+; Use abbrev. month name
+if %Morth = 1 mov $SaveTime,"Jan "
+if %Morth = 2 mov $SaveTime,"Feb "
+if %Morth = 3 mov $SaveTime,"Mar "
+if %Morth = 4 mov $SaveTime,"Apr "
+if %Morth = 5 mov $SaveTime,"May "
+if %Morth = 6 mov $SaveTime,"Jun "
+if %Morth = 7 mov $SaveTime,"Jul "
+if %Morth = 8 mov $SaveTime,"Aug "
+if %Morth = 9 mov $SaveTime,"Sep "
+if %Morth = 10 mov $SaveTime,"Oct "
+if %Morth = 11 mov $SaveTime,"Nov "
+if %Morth = 12 mov $SaveTime,"Dec "
+itoa $Free1,%Day : add $SaveTime,$Free1 : add $SaveTime,", "
+; Use 12-hour time (AM/PM)
+if %Hour = 0 mov $Free2," AM" : itoa $Free1,12
+if %Hour > 0 && %Hour < 12 mov $Free2," AM" : itoa $Free1,%Hour
+if %Hour = 12 mov $Free2," PM" : itoa $Free1,12
+if %Hour > 12 && %Hour < 24 mov $Free2," PM" : sub %Hour,12 : itoa $Free1,%Hour : add %Hour,12
+add $SaveTime,$Free1 : add $SaveTime,":"
+if %Minute < 10 add $SaveTime,"0"
+itoa $Free1,%Minute : add $SaveTime,$Free1 : add $SaveTime,$Free2
+
 
 mov %Free2,savedataTime       ;セーブデータタイムのエリア数の取得
 add %Free2,%savedataNowNum             ;保存エリアの確定
 mov $%Free2,$SaveTime
 
 ;mov $%Free2,":s/8,10,1;#FFFFFF"
-if %scenario_Number = 1 mov $%Free2,"第１話　" : add $%Free2,$SaveTime
-if %scenario_Number = 2 mov $%Free2,"第２話　" : add $%Free2,$SaveTime
-if %scenario_Number = 3 mov $%Free2,"第３話　" : add $%Free2,$SaveTime
-if %scenario_Number = 4 mov $%Free2,"第４話　" : add $%Free2,$SaveTime
-if %scenario_Number = 5 mov $%Free2,"第５話　" : add $%Free2,$SaveTime
-if %scenario_Number = 6 mov $%Free2,"第６話　" : add $%Free2,$SaveTime
-if %scenario_Number = 7 mov $%Free2,"第７話　" : add $%Free2,$SaveTime
+;if %scenario_Number = 1 mov $%Free2,"第１話　" : add $%Free2,$SaveTime
+;if %scenario_Number = 2 mov $%Free2,"第２話　" : add $%Free2,$SaveTime
+;if %scenario_Number = 3 mov $%Free2,"第３話　" : add $%Free2,$SaveTime
+;if %scenario_Number = 4 mov $%Free2,"第４話　" : add $%Free2,$SaveTime
+;if %scenario_Number = 5 mov $%Free2,"第５話　" : add $%Free2,$SaveTime
+;if %scenario_Number = 6 mov $%Free2,"第６話　" : add $%Free2,$SaveTime
+;if %scenario_Number = 7 mov $%Free2,"第７話　" : add $%Free2,$SaveTime
+if %scenario_Number = 1 mov $%Free2,"`Ch1; " : add $%Free2,$SaveTime
+if %scenario_Number = 2 mov $%Free2,"`Ch2; " : add $%Free2,$SaveTime
+if %scenario_Number = 3 mov $%Free2,"`Ch3; " : add $%Free2,$SaveTime
+if %scenario_Number = 4 mov $%Free2,"`Ch4; " : add $%Free2,$SaveTime
+if %scenario_Number = 5 mov $%Free2,"`Ch5; " : add $%Free2,$SaveTime
+if %scenario_Number = 6 mov $%Free2,"`Ch6; " : add $%Free2,$SaveTime
+if %scenario_Number = 7 mov $%Free2,"`Ch7; " : add $%Free2,$SaveTime
 
 ;セーブデータ作成時のコメント取得
 ;保存するグローバル変数の変数番号を取る
@@ -8427,8 +8456,11 @@ if %scenario_Number = 7 mov $%Free2,"第７話　" : add $%Free2,$SaveTime
 	~
 
 mov %Free2,savedataComment+%savedataNowNum
-mid $Free2,$TextlogNow,0,16
-add $Free2,"……"
+;mid $Free2,$TextlogNow,0,16
+;add $Free2,"……"
+mid $Free1,$TextlogNow,0,16
+mov $Free2,"` " : add $Free2,$Free1
+add $Free2,"…"
 mov $%Free2,$Free2
 
 
