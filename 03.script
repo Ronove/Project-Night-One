@@ -3062,7 +3062,7 @@ br
 `　...For just a moment, I had forgotten he was a terrifying demon.`@
 br
 ;　でも、ひょっとしたら、このカメラに負けないくらいに不思議な何かと交換してくれるのではないかと思い、@そう言ってしまったのだ。\
-`　But perhaps thinking he'd be willing to barter something myysterious in exchange for the camera, `@`I had said those words.`\
+`　But perhaps thinking he'd be willing to barter something mysterious in exchange for the camera, `@`I had said those words.`\
 
 
 
@@ -3088,21 +3088,26 @@ E_B
 `"...Ho~? `@`Are you saying you refuse then...?"`@
 
 ;「あ、…いえ、その、………だって、このカメラは僕が見つけたんですから、@それが欲しいって言うなら、その、何か対価がもらえないとその…！@　遺失物だって、一割はもらえるわけだし…。」\
-`"Well, ...No, It's just... But because I found this camera, `@`if you say you want it then, well, you've got to give me something for it...! `@`It was a lost article y'know, I should at least get a 10% finder's fee..."`\
+`"Well, ...No, It's just... Since I found this camera, `@`if ya say you want it, well, then ya gottta gimme somethin' for it...! `@`It's a lost article y'know, I should at least get a 10% finder's fee..."`\
 
 
-　日が陰り出すと急に冷え込んだ感じがして、ぞくりと来ることがある。@…不敬な言葉を口にした時、まさにそれを感じた。@
-　……ということは、僕は自ら理解しているのだ。@
+;　日が陰り出すと急に冷え込んだ感じがして、ぞくりと来ることがある。@…不敬な言葉を口にした時、まさにそれを感じた。@
+`　As the sky began to darken, I felt a chill and began to tremble from the sudden cold. `@`...I sensed it right when I said those rude words.`@
+;　……ということは、僕は自ら理解しているのだ。@
+`　...Then I realized it.`@
 br
-　今の言葉は、あまりに選ばないものだったと、理解しているのだ。\
+;　今の言葉は、あまりに選ばないものだったと、理解しているのだ。\
+`　I realized that I should have chosen my words more carefully.`\
 
 bg black,49
 
 
 
-　その時、沈み行く太陽がちょうど、老人の頭に掛かった。@……老人の顔が、真っ暗な闇で塗り潰される…。@
+;　その時、沈み行く太陽がちょうど、老人の頭に掛かった。@……老人の顔が、真っ暗な闇で塗り潰される…。@
+`　Exactly when the sun began to set, I looked to the old man. `@`...His face was completely covered in pure darkness...`@
 br
-　一瞬の沈黙が、かえってどんな怒声よりも恐ろしく感じられた。\
+;　一瞬の沈黙が、かえってどんな怒声よりも恐ろしく感じられた。\
+`　I felt that moment of silence would have been scarier than any scream.`\
 
 E_A
 
@@ -3113,40 +3118,48 @@ wait 2000
 
 bgm1 13
 
-「……最近の若い子はいかんね。@下手に出ると、すぐに対等な関係だと誤解する。@……やはり昔のように、目上には敬意を示すように、ちゃんと指導しないと駄目かね…？@　野々宮武くん………？」\
+;「……最近の若い子はいかんね。@下手に出ると、すぐに対等な関係だと誤解する。@……やはり昔のように、目上には敬意を示すように、ちゃんと指導しないと駄目かね…？@　野々宮武くん………？」\
+`"...Kids these days can't be helped can they. `@`If you speak modestly with them, they misunderstand themselves as equals. `@`...Perhaps like in the old days, I'll have to show you how to respect your elders hm...? `@`Nonomiya Takeshi-kun......?"`\
 
 me1v 17,50
 
 bg black,0
 ld c,KOU_Def5,6
 
-　それは不思議な錯覚。@自分が縮んでいくような、@……いや、自分の足がずぶずぶと沼に飲み込まれていくような感覚。@
+;　それは不思議な錯覚。@自分が縮んでいくような、@……いや、自分の足がずぶずぶと沼に飲み込まれていくような感覚。@
+`　Then I had this strange delusion. `@`I felt I was shrinking, `@`...No ― I felt as if my feet were being swallowed by the wet soil of a swamp.`@
 br
-　老人の背が、僕たちを挟む塀が、みるみる高くなり、その背の向こうに沈みかける太陽すらも隠してしまう…。\
+;　老人の背が、僕たちを挟む塀が、みるみる高くなり、その背の向こうに沈みかける太陽すらも隠してしまう…。\
+`　The old man ― the walls too ― I watched as they grew taller until even the sun finally disappeared behind the old man...
 
-　僕は言葉を誤ったことを今更知る。@……交渉の余地なんかなかったのに、生意気なことを……！！\
+;　僕は言葉を誤ったことを今更知る。@……交渉の余地なんかなかったのに、生意気なことを……！！\
+`　I realized the mistake I had made all too late. `@`...Even though I had no room to negociate or anything of the sort, I still said something so conceited...!!`\
 me2v 3,70
 
 ld c,KOU_U1,2
-;顔が真っ黒でモノクルだけのものをイメージしています。
+;;顔が真っ黒でモノクルだけのものをイメージしています。
 
-「野々宮くんには、少しお灸も必要かね…？@　もう少し、お利口な子だと思っていたんだがね…？@　野々宮くんん……？？？」\
+;「野々宮くんには、少しお灸も必要かね…？@　もう少し、お利口な子だと思っていたんだがね…？@　野々宮くんん……？？？」\
+`"Nonomiya Takeshi-kun, perhaps you need something to light your fire, hm...? `@`Or do you no longer think you're such a clever child, I wonder...?`@` Nonomiya Takeshi-kun~...???"`\
 
 se1 66
 
 bg black,48
 
-　逆光で真っ黒な影となった老人の巨大な頭が、僕の空一杯に覆い被さる…。\
+;　逆光で真っ黒な影となった老人の巨大な頭が、僕の空一杯に覆い被さる…。\
+`　The old man's gigantic head, with his face shadowed in complete darkness, completely blocked out the sky above me...`\ 
 
 me3v 17,70
 
 ld c,NON_s1,42
 
-　足が竦んでいるのか、それともアスファルトに沈んでいるのか、それすらもわからない……。@あああぁあぁあぁ、こんなカメラ、……見つけなければ……。@
+;　足が竦んでいるのか、それともアスファルトに沈んでいるのか、それすらもわからない……。@あああぁあぁあぁ、こんなカメラ、……見つけなければ……。@
+`　I didn't know whether my legs were shrinking or if I was sinking into the asphalt...... `@`AAAAAAaaaAAAAAAa, I've got to find... ....the camera...`@
 br
 ;ld c,NON_Def1,80
 
-　誰か、た、……助けて……………。\
+;　誰か、た、……助けて……………。\
+`　Someone, ...H- ...Help me.........`\
 
 E_A
 
@@ -3155,7 +3168,8 @@ se1v 13,50
 bg white,1
 bg black,22
 
-「ここは学校じゃないわよ。@……『校長先生』……？」\
+;「ここは学校じゃないわよ。@……『校長先生』……？」\
+`"This isn't the school you know. `@`...'Headmaster'...?"`\
 
 bg white,1
 bg black,22
@@ -3181,11 +3195,14 @@ print 2
 ld c,KOU_Def5,2
 ld c,KOU_Def2,80
 
-「……………………。@…おや、彼岸花くんかね。」@
+;「……………………。@…おや、彼岸花くんかね。」@
+`"............ `@`...Oh my, Higanbana-kun, hm."`@
 br
-　その声が聞こえた時、僕に掛けられていた呪縛は多分、解けた。\
+;　その声が聞こえた時、僕に掛けられていた呪縛は多分、解けた。\
+`　When I heard that voice, the spell that had been cast on me disappeared.`\
 
-　老人の目線は僕の後に注がれている。@……振り返ると、塀の上に優雅に立つ、あの黄昏の廊下で出会った少女の姿があった。\
+;　老人の目線は僕の後に注がれている。@……振り返ると、塀の上に優雅に立つ、あの黄昏の廊下で出会った少女の姿があった。\
+`　The old man's gaze locked on something behind me. `@`...I looked behind me, and sitting gracefully atop the wall was that girl I met in that twilight hallway.`\
 
 
 bg black,23
@@ -3194,41 +3211,50 @@ ld r,HIG_w3,2
 
 me1v 16,50
 
-　涼しい風にそよぐ美しい髪と贅沢なスカート。@それはまるで、命を得た西洋人形のように見えた。@……しかし同時に、この老人と同じく、@この雑多な路地裏にはあまりに違和感を覚えさせる存在でもあった。\
+;　涼しい風にそよぐ美しい髪と贅沢なスカート。@それはまるで、命を得た西洋人形のように見えた。@……しかし同時に、この老人と同じく、@この雑多な路地裏にはあまりに違和感を覚えさせる存在でもあった。\
+`　A cool breeze rustled her beautiful hair and her extravagant skirt. `@`She looked like a Western doll had been brought to life. `@`But at the same time, just like the old man, `@`her being here reminded me of how out of place they seemed in this dirty back alley.`\
 
-　あぁ、もう違和感なんてさっきからいっぱいだ。@……僕は多分、この期に及んでも誤解している。@
-　彼らが違和感なんじゃない。@……きっと、今のこの場では、何も状況がわかっておらず、@自らの身すら守れない僕の方が、よっぽど違和感、場違いなのだ。\
+;　あぁ、もう違和感なんてさっきからいっぱいだ。@……僕は多分、この期に及んでも誤解している。@
+`　Well, I just had a heaping dose of 'out of place' moments ago. `@`...Now I'm probably just misunderstanding things.`@
+;　彼らが違和感なんじゃない。@……きっと、今のこの場では、何も状況がわかっておらず、@自らの身すら守れない僕の方が、よっぽど違和感、場違いなのだ。\
+`　They're not out of place. `@`...Surely, under these circumstances, `@`I'm the one who can't even protect himself, and I'm the one who is out of place here.`\
 
 ld r,HIG_Def2,80
 
-「私、野々宮くんのお友達なの。@………くすくすくす。」\
+;「私、野々宮くんのお友達なの。@………くすくすくす。」\
+`"I am Nonomiya Takeshi-kun's friend. `@`...*giggle giggle*"`\
 
 bg black,24
 bg roji_02,0
 ld c,KOU_Def4,24
 ;ld l,KOU_Def1,80
 
-「……おや、そうかね？@　友達は大切にしないといけないよ。」\
+;「……おや、そうかね？@　友達は大切にしないといけないよ。」\
+`"...Oh my, is that so? `@`One must take good care of their friends."`\
 
 ;bg white,23
 bg roji_03,0
 ld r,HIG_w3,23
 ld r,HIG_w4,80
 
-「彼に指一本でも触れるつもりなら、…この彼岸花がお相手になるけれど……？」\
+;「彼に指一本でも触れるつもりなら、…この彼岸花がお相手になるけれど……？」\
+`"Do you intend to lay a finger on him, ...if I, Higanbana, will become your opponent?..."`\
 
 ;bg black,24
 bg roji_02,0
 ld c,KOU_Def4,24
 ld c,KOU_Def5,80
 
-「…………………………そうかね？」@
+;「…………………………そうかね？」@
+`"............Is that so?"`@
 br
-　校長先生と呼ばれた老人と、彼岸花と呼ばれた少女は、口調こそ穏やかだが、@明らかに険悪な関係にあるようだった。@……そして、彼岸花という少女は自分の味方であるらしかった。\
+;　校長先生と呼ばれた老人と、彼岸花と呼ばれた少女は、口調こそ穏やかだが、@明らかに険悪な関係にあるようだった。@……そして、彼岸花という少女は自分の味方であるらしかった。\
+`　The old man called 'Headmaster' and the girl called 'Higanbana' had gentle tones in their voices, `@`but it seemed they clearly had bad blood between them. `@`...And that girl called Higanbana might have made herself my ally.`\
 
 bg black,22
 
-「野々宮くん、下がって。@……飲み込まれるわよ。」\
+;「野々宮くん、下がって。@……飲み込まれるわよ。」\
+`"Nonomiya Takeshi-kun, move. `@`...Or you'll be swallowed up."`\
 
 
 
@@ -3250,7 +3276,8 @@ mld c,NON_s2,80
 
 bgm1 15
 
-「……え？@　………う、……うわッ…！」/
+;「……え？@　………う、……うわッ…！」/
+`"......Eh? `@`......U- ...UWAH~!"`\
 
 me1v 17,70
 
@@ -3258,17 +3285,21 @@ se1 38
 quakey 2,200
 @
 br
-　それは言葉通りの意味だった。@僕の足は再び、沼に沈む感触を感じる。\
+;　それは言葉通りの意味だった。@僕の足は再び、沼に沈む感触を感じる。\
+`　Just as she said. `@`Once again I felt my legs sinking into a swamp.`\
 
 se2 38
 se3 66
 bg black,6
 
-　それは沼ではない。@校長先生と呼ばれた老人の足元から滲み出し広がる、真っ黒な影だった。@
+;　それは沼ではない。@校長先生と呼ばれた老人の足元から滲み出し広がる、真っ黒な影だった。@
+`　But it wasn't a swamp. `@`Oozing and expanding from the feet of the old man known as Headmaster was a pure black shadow.`@ 
 br
-　それはコールタールのようで、@きっとそれに飲み込まれた人間を、この世ならざるところへ引きずりこんでしまうのだろう。\
+;　それはコールタールのようで、@きっとそれに飲み込まれた人間を、この世ならざるところへ引きずりこんでしまうのだろう。\
+`　It was like tar, `@`and the humans it swallowed must be pulled into the next world.`\
 
-　さっきまで感じていたあの感覚は、気のせいでも何でもなく、@まさに飲み込まれている最中だったのだ。\
+;　さっきまで感じていたあの感覚は、気のせいでも何でもなく、@まさに飲み込まれている最中だったのだ。\
+`　That feeling I had moments ago wasn't just my imagination. `@`I was truly in the middle of being 'swallowed'.`\
 
 mcl c,0
 bg white,23
@@ -3281,48 +3312,61 @@ se1v 13,50
 quakey 2,200
 mld c,HIG_Def2,80
 
-　僕は彼岸花と名乗った少女のところまで駆け戻る。@
-　彼女は僕の前にひらりと舞い降りると、校長先生の前に立ち塞がった。\
+;　僕は彼岸花と名乗った少女のところまで駆け戻る。@
+`　I ran back to the girl named Higanbana.`@
+;　彼女は僕の前にひらりと舞い降りると、校長先生の前に立ち塞がった。\
+`　She dropped in front of me and stood in front of the Headmaster, blocking his path.`\
 
-　……一瞬だけ頼もしいと思ったが、彼女も恐らく、人ならざる存在だ。@その背中には畏怖すべき気配が滲み出ている。@…でもとりあえず、今この瞬間は少なくとも味方だった。\
+;　……一瞬だけ頼もしいと思ったが、彼女も恐らく、人ならざる存在だ。@その背中には畏怖すべき気配が滲み出ている。@…でもとりあえず、今この瞬間は少なくとも味方だった。\
+`　...For a moment I felt I trusted her, but she was also a terrifying otherwordly creature. `@`I could sense a terrifying aura seeping from her back. `@`...But for now at least she was my ally.`\
 
-　でも、だからといって信頼したいという気持ちにはならない。@僕という獲物を巡って、キツネとタヌキが争い合っているだけかもしれないのだから……。\
+;　でも、だからといって信頼したいという気持ちにはならない。@僕という獲物を巡って、キツネとタヌキが争い合っているだけかもしれないのだから……。\
+`　But because of that, I didn't feel I could trust her. `@`Because they might just be fighting like a fox and a badger over me ― their prey...`\
 
 mld c,HIG_Def5,80
 
-「失礼ね。@守ってくれてありがとうという気持ちにはならないのかしら…？」@
+;「失礼ね。@守ってくれてありがとうという気持ちにはならないのかしら…？」@
+`"How rude. `@`Why you can't just think 'thanks so much for protecting me', I wonder...?"`@
 
 ld r,NON_Def5a,80
 
-「え、う、ご、ごめんなさい…！」@
+;「え、う、ご、ごめんなさい…！」@
+`"Eh, er, I, I'm sorry...!!"`@
 br
-　いい加減、理解しよう。@……彼らは僕の心を読めるのだ。@
-　もはや、“かもしれない”はない。@彼らは本当に、人間ではないのだ。\
+;　いい加減、理解しよう。@……彼らは僕の心を読めるのだ。@
+`　I've got to think carefully. `@`...They can read my thoughts.`@
+;　もはや、“かもしれない”はない。@彼らは本当に、人間ではないのだ。\
+`　There was no 'maybe' about it any longer. `@`They were truly not human.`\
 
 mcl c,0
 bg black,24
 bg roji_02,0
 ld r,KOU_Def4,24
 
-「………無益な争いとは思わんかね…？」@
+;「………無益な争いとは思わんかね…？」@
+`"......Don't you think it'll be a futile battle? Hm...?"`@
 
 mld l,HIG_w3,23
 
-「そう？@　私は争いだとも思っていないけれど……？」\
+;「そう？@　私は争いだとも思っていないけれど……？」\
+`"Oh? `@`Can you really call it a fight though...?"`\
 
 ld r,KOU_Def5,80
 
-「…………………君の遊びに、この歳で付き合わされるのは疲れるよ。」@
+;「…………………君の遊びに、この歳で付き合わされるのは疲れるよ。」@
+`"..........Taking you on at my age ― with the way you play ― it's exhausting you know."`@
 
 mld l,HIG_w4,80
 
-「なら帰って休んだら？@　寝たきりのあんたに相応しいお粥を、あとで一口分だけ届けてあげるわ。@くすくすくすくすくす…！」\
+;「なら帰って休んだら？@　寝たきりのあんたに相応しいお粥を、あとで一口分だけ届けてあげるわ。@くすくすくすくすくす…！」\
+`"Then how about you go home and rest? `@`I'll even spoon feed you some gruel befitting a bedridden man like yourself. @`*giggle giggle giggle giggle*...!"`\
 
 mcl l,0
 cl r,0
 ld c,KOU_Def5,24
 
-「………君にもお灸が必要かね？@　怪談はやはり七つの方が私には馴染むね。」\
+;「………君にもお灸が必要かね？@　怪談はやはり七つの方が私には馴染むね。」\
+`"...Perhaps you need something to light your fire, hm? `@`I'm familiar with the legend of the seven, you see."`\
 
 ;mcl a,0
 bg black,23
@@ -3331,7 +3375,8 @@ ld r,NON_Def5a,0
 mld c,HIG_w3,23
 mld c,HIG_w6,80
 
-「そうね。@学校の七不思議という方が、やはり語呂はいいものね。@くすくすくすくすくす…！」\
+;「そうね。@学校の七不思議という方が、やはり語呂はいいものね。@くすくすくすくすくす…！」\
+`"That's right. `@`The school's Seven Mysteries, it has a nice ring to it doesn't it? `@`*giggle giggle giggle*...!"`\
 
 
 mcl c,0
@@ -3375,12 +3420,16 @@ print 26
 
 me2v 17,90
 
-　校長先生の足から滲み出した黒い影のような沼は、こちらまでじわりと迫り、さらに左右の塀を登り、@まるで彼を中心に真っ黒な世界で塗り潰していくかのようだった。@
-　……そして、その黒い沼は徐々に彼岸花の足元にも迫ってくる…。\
+;　校長先生の足から滲み出した黒い影のような沼は、こちらまでじわりと迫り、さらに左右の塀を登り、@まるで彼を中心に真っ黒な世界で塗り潰していくかのようだった。@
+`　The bog that seeped out like a black shadow from the Headmaster's feet oozed over towards us and even climbed over the walls. `@`It was as if he was spilling out a world of darkness from the center of where he stood.`@
+;　……そして、その黒い沼は徐々に彼岸花の足元にも迫ってくる…。\
+`　...And that black bog gradually came to Higanbana's feet...`\
 
-　それはきっと、彼岸花であっても恐ろしいものであるに違いない。@そうでなければ、校長先生は沼で迫ったりはしない。@
+;　それはきっと、彼岸花であっても恐ろしいものであるに違いない。@そうでなければ、校長先生は沼で迫ったりはしない。@
+`　That must have been something that was truly terrifying even for Higanbana. `@`If not, then the Headmaster wouldn't have pressed his bog forward and the like.`@
 br
-　しかし、彼岸花は悠然と笑い、無策に立ち呆けているだけに見えた。\
+;　しかし、彼岸花は悠然と笑い、無策に立ち呆けているだけに見えた。\
+`　But Higanbana calmly laughed without making a move. She seemed to be standing there like a fool.`\ 
 
 csp -1
 bg black,22
@@ -3392,13 +3441,18 @@ mld c,KOU_Def6,26
 
 
 
-「…………飲むが、いいのかね…？」@
+;「…………飲むが、いいのかね…？」@
+`"......Is it all right... if I eat you?... Hm?"`@`
 br
-　多分、それはチェックメイトの宣言だ。@
-　気付けば、黒い沼はすでに彼岸花の足元を覆っていた。@
-　……いや少し違う。@彼岸花の足元にマンホールの蓋程度だけ、猶予を残して覆い囲んでいる。\
+;　多分、それはチェックメイトの宣言だ。@
+`　That was probably the <checkmate> declaration.
+;　気付けば、黒い沼はすでに彼岸花の足元を覆っていた。@
+`　Once I noticed it, the black mud was already at her feet.`@
+;　……いや少し違う。@彼岸花の足元にマンホールの蓋程度だけ、猶予を残して覆い囲んでいる。\
+`　...No, not quite 'at; her feet. `@`It was surrounding her on a space about the size of a manhole.`\
 
-　彼岸花があくまでも降参するつもりがないならば、容赦なく飲み込んでしまおうということに違いない……。\
+;　彼岸花があくまでも降参するつもりがないならば、容赦なく飲み込んでしまおうということに違いない……。\
+`　That means that if Higanbana didn't finally surrender, she would be swallowed up without a second thought...`\
 
 csp -1
 
@@ -3407,13 +3461,17 @@ bg black,22
 mono 2
 bg Different_spiral_1a,22
 
-　彼女はさんざん挑発したのだ。@きっと校長先生は声こそ穏やかだが怒り狂っているだろう。@
-　……彼女がやられたら、そのまま僕まで飲み込みに来るに違いない。\
+;　彼女はさんざん挑発したのだ。@きっと校長先生は声こそ穏やかだが怒り狂っているだろう。@
+`　She had seriously provoked him. `@`Even though the Headmaster's voice is calm, I think he's mad with rage.`@
+;　……彼女がやられたら、そのまま僕まで飲み込みに来るに違いない。\
+`　...After he gets her, just like that he'll surely come and eat me.`\
 
 
-　…逃げなきゃ…。@今の内にここから逃げなきゃ…。@
+;　…逃げなきゃ…。@今の内にここから逃げなきゃ…。@
+`　...If I don't run away... `@`If I don't run away right now...`@
 br
-　でも、腰がすっかり抜けてしまって、地面からお尻を剥がすことすらできなかった。\
+;　でも、腰がすっかり抜けてしまって、地面からお尻を剥がすことすらできなかった。\
+`　But my legs had slipped out from under me, and I couldn't even lift myself up from the ground.`\
 
 bg black,22
 mono 0
@@ -3424,9 +3482,11 @@ lsp bgsp2,":a;bmp\background\efe\black1.bmp",0,0,255
 ld c,NON_s1,22
 ;ld c,NON_Def1,80
 
-　………それに、もう逃げることだって、できやしないかもしれない。@
+;　………それに、もう逃げることだって、できやしないかもしれない。@
+`　......And I might not even be able to run away any longer.`@`
 br
-　だってほら、……日が沈み、夕闇が全てを影に閉ざすかのように。@……僕の回りだって、マンホールの蓋一枚分を残して、@…全て黒い沼に覆われてしまっているのだから…。\
+;　だってほら、……日が沈み、夕闇が全てを影に閉ざすかのように。@……僕の回りだって、マンホールの蓋一枚分を残して、@…全て黒い沼に覆われてしまっているのだから…。\
+`　I mean, look... The sun has set as if to close everything within the shadow of darkness. `@`...And around me all that was left was the space the size of a manhole, `@`because everything had been concealed by the black swamp...`\
 
 
 csp -1
@@ -3440,29 +3500,37 @@ csp -1
 ld r,KOU_Def5,22
 
 
-「…………もう一度は聞かんよ？@　飲むが、いいのかね……？」@
+;「…………もう一度は聞かんよ？@　飲むが、いいのかね……？」@
+`"...I won't ask again you know? `@`Is it all right...if I eat you?......"`@
 
 ld l,HIG_Def5,23
 ld l,HIG_w3,80
 
-「うふふふふふふふふふふふ。@……私を飲み込む前に、校長先生が“保健室送り”になる方が早いと思うけれど……？」\
+;「うふふふふふふふふふふふ。@……私を飲み込む前に、校長先生が“保健室送り”になる方が早いと思うけれど……？」\
+`"Hehehehehehehehehehe. `@`...Before you eat me, what if I think I'll be 'seeing you off to the infirmary' sooner, Headmaster......?"`\
 
 ld r,KOU_Def4,80
 
-「……………………ほぅ。」@
+;「……………………ほぅ。」@
+`".........Ho~"`@`
 br
-　彼岸花はさっきから、笑いを堪えるのに必死なようだ。@……多分、こんなやり取りすらも、彼女にとってはきっと、何かの遊びの延長なのだろう。\
+;　彼岸花はさっきから、笑いを堪えるのに必死なようだ。@……多分、こんなやり取りすらも、彼女にとってはきっと、何かの遊びの延長なのだろう。\
+`　Higanbana standing there laughing seemed like certain death. `@`...And this exchange between them must have been just her way of somehow extending her playtime.`\
 
-　しかしその遊びはきっと、日の当たる時間にしか学校にいない身には、わかりかねる……。@
-　日の沈みきった時間の学校を支配する者たちの、遊びなのだ。\
+;　しかしその遊びはきっと、日の当たる時間にしか学校にいない身には、わかりかねる……。@
+`　But as to why she was playing a game that would only make sense during the day at school was hard to understand......`@
+;　日の沈みきった時間の学校を支配する者たちの、遊びなのだ。\
+`　This is a game played played by those who control the time after the sun has set on the school.`\
 
 ld l,HIG_w1,80
 
-「……あなたののろまな沼は、私を取り囲むのにずいぶん時間が掛かるのね。@退屈しちゃったわ。@………私は早いわよ？@　注意一秒怪我一生って、保健室にも貼ってあるじゃない。」\
+;「……あなたののろまな沼は、私を取り囲むのにずいぶん時間が掛かるのね。@退屈しちゃったわ。@………私は早いわよ？@　注意一秒怪我一生って、保健室にも貼ってあるじゃない。」\
+`"...Your lazy swamp sure is taking quite some time to get to me, isn't it? `@`I'm bored. `@`...I'm faster, you see? `@`'Warned for a moment, injured for a lifetime.' They won't even be able to put you in the infirmary."`\
 
 ld r,KOU_Def5,80
 
-「ふむ。@いい標語だね。@………一生ものの大怪我も、わずか一瞬の不注意で起こってしまうものだよ。」\
+;「ふむ。@いい標語だね。@………一生ものの大怪我も、わずか一瞬の不注意で起こってしまうものだよ。」\
+`"I see. `@`A good slogan, indeed. `@`...Even a lifetime of injury can result from a moment of carelessness, you see."`\
 
 textoff
 
@@ -3494,7 +3562,8 @@ wait 1000
 
 ld r,KOU_Def4,22
 
-「………むぅ……。」@
+;「………むぅ……。」@
+`"...Mm..."`@
 
 me1v 17,50
 
@@ -3502,38 +3571,52 @@ mld l,HIG_Def4,22
 ;mld l,HIG_Def1,80
 
 
-「でしょう？@　私は、一瞬なの。」@
+;「でしょう？@　私は、一瞬なの。」@
+`"See? `@`I, am that moment."`@
 br
-　それは、彼女が称する通り、一瞬の出来事だった。\
+;　それは、彼女が称する通り、一瞬の出来事だった。\
+`　It happened in a moment just as she had boasted.`\
 
-　校長先生を挟む、路地の左右の塀が、それぞれ内側から膨れ上がって破裂したかに見えた。@
+;　校長先生を挟む、路地の左右の塀が、それぞれ内側から膨れ上がって破裂したかに見えた。@
+`　The inner walls on either side of the Headmaster swelled up and erupted from all sides.`@`
 br
-　……爆発した、というのとは違う。@膨れ上がって破裂し、@その破裂した歪な先端が、まるで怪物の爪のように延び、左右から校長先生を包み込んでしまった。@
-　それはまるで、内側に棘を伸ばす鳥篭に瞬時に閉じ込めたようにも見えた。\
+;　……爆発した、というのとは違う。@膨れ上がって破裂し、@その破裂した歪な先端が、まるで怪物の爪のように延び、左右から校長先生を包み込んでしまった。@
+`　...It was different from an explosion. `@`Swelling up and rupturing free, `@`warped spearheads grew like a monster's claws and wrapped around the Headmaster.`@`
+;　それはまるで、内側に棘を伸ばす鳥篭に瞬時に閉じ込めたようにも見えた。\
+`　It seemed for the moment that he was like a bird trapped in a cage of thorns.`\
 
-　……よくよく見ればそれらは、ブロック塀の中に通っている補強の鉄棒だった。@それらが、歪に曲がりながら伸び、しかも先端を槍のように尖らせて、@何本もの槍が取り囲み、その喉を狙っているのだ。\
+;　……よくよく見ればそれらは、ブロック塀の中に通っている補強の鉄棒だった。@それらが、歪に曲がりながら伸び、しかも先端を槍のように尖らせて、@何本もの槍が取り囲み、その喉を狙っているのだ。\
+`　...When I looked closer, I saw they were the iron rods that were inside the concrete walls. `@`And they had curved outward and extended even sharpening their tips into spears. `@`Countless spears surrounded him aiming at his throat.`@
 
-　直立している今は、害はないかもしれない。@…でも、もし何かの理由でちょっと躓いたり、少し体を傾けてみたりしたら、@たちまち槍は喉に突き刺さるだろう。@……つまり、わずかな身動きも出来ない程に、歪なる槍に囲まれているのだ…。\
+;　直立している今は、害はないかもしれない。@…でも、もし何かの理由でちょっと躓いたり、少し体を傾けてみたりしたら、@たちまち槍は喉に突き刺さるだろう。@……つまり、わずかな身動きも出来ない程に、歪なる槍に囲まれているのだ…。\
+`　Maybe now there was no harm in standing up. `@`...But, for some reason if I tripped or fell over somewhat, `@`I might land throat first into one of those spears. `@`...In other words I was so completely surrounded by warped spears that I couldn't even move...`\
 
-　もちろんそれは彼岸花の足元を見ても同じ話だ。@……かつて、マンホールの蓋程に残っていた足場はもうない。@多分、足の裏一枚分をきっかり残しているだけ。@……彼岸花だって、わずかほども姿勢を崩せば、すぐにも沼に飲み込まれてしまう瀬戸際なのだ。@
+;　もちろんそれは彼岸花の足元を見ても同じ話だ。@……かつて、マンホールの蓋程に残っていた足場はもうない。@多分、足の裏一枚分をきっかり残しているだけ。@……彼岸花だって、わずかほども姿勢を崩せば、すぐにも沼に飲み込まれてしまう瀬戸際なのだ。@
+`　Of course, looking around Higanbana's feet it seemed like the same for her. `@`...The manhole sized space that she once around her feet was gone. `@`Perhaps there was just enough there to surround the soles of her feet. `@`......This was a critical moment for Higanbana. If she changed her stance even slightly, she would be immediately swallowed by the bog.`@
 br
-　彼女たちは間違いなくこの瞬間、すれすれの命のやり取りをしていた。\
+;　彼女たちは間違いなくこの瞬間、すれすれの命のやり取りをしていた。\
+`　There was no doubt that they were both on the verge of taking each other's life at this moment.
 
 ld r,KOU_Def5,80
 
-「…………ふむ。@…相変わらずだね。@……君には困ったものだ。」@
+;「…………ふむ。@…相変わらずだね。@……君には困ったものだ。」@
+`"......Hmm. `@`...How like you, indeed. `@`......You're a troublesome one."`@
 
 mld l,HIG_w4,80
 
-「とっとと隠居なさいよ。@その花道は私が作ってあげてもいいんだけれど……？」\
+;「とっとと隠居なさいよ。@その花道は私が作ってあげてもいいんだけれど……？」\
+;(Translator's Note) Hanamichi is the place in Kabuki theater where characters say their final words at the climax.
+`"Look for an early retirement, okay. `@`But how about I make this your farewell address...?"`\
 
 ld r,KOU_Def4,80
 
-「……………言葉を選ばんね。@…しなくてもいい苦労を、きっとすることになるよ…？」@
+;「……………言葉を選ばんね。@…しなくてもいい苦労を、きっとすることになるよ…？」@
+`"......Watch your language, hm? `@`...Otherwise you'll surely just bring unecessary hardships on yourself, won't you...?"`@
 
 mld l,HIG_w3,80
 
-「そう？@　ぜひその苦労というのを、味わわせてほしいんだけれど…？@　くすくすくすくすくす、校長先生には無理かしら？@　なら、言葉を選ぶ必要はなさそうね。」\
+;「そう？@　ぜひその苦労というのを、味わわせてほしいんだけれど…？@　くすくすくすくすくす、校長先生には無理かしら？@　なら、言葉を選ぶ必要はなさそうね。」\
+`"Oh? `@`And what if I want to gladly let you make me taste those 'hardships'...? `@`*giggle giggle giggle*, perhaps you can't? `@`Well then there's no need to watch what I say, is there?"`\
 
 textoff
 ld r,KOU_Def3,22
@@ -3546,11 +3629,13 @@ ld r,KOU_Def2,22
 
 me1v 5,50
 
-「………やれやれ。@…………因果応報。@全ては輪の如し。@自らの放ったものは、必ず自らに帰る。」@
+;「………やれやれ。@…………因果応報。@全ては輪の如し。@自らの放ったものは、必ず自らに帰る。」@
+`"...Oh dear oh dear. `@`......Karma. `@`Everything is like the wheel. `@`What you unleash will certainly come back to you."`@
 
 mld l,HIG_Def5,80
 
-「なら問題ないわ。@輪廻ってヤツから外れてるのが、私たちじゃない。」\
+;「なら問題ないわ。@輪廻ってヤツから外れてるのが、私たちじゃない。」\
+`"Then there's no problem. `@`Aren't 'we' the ones free from those in that cycle of life and death?"`\
 
 textoff
 
@@ -3563,7 +3648,8 @@ wait 1000
 
 ld r,KOU_Def1,22
 
-「ふ……。@……………野々宮くん。@君に聞こう。@……君は、真実と安息の、どちらを尊ぶかね…？」\
+;「ふ……。@……………野々宮くん。@君に聞こう。@……君は、真実と安息の、どちらを尊ぶかね…？」\
+`"Hm... `@`......Nonomiya Takeshi-kun. `@`Let's ask you. `@`...Truth or peace, which do you value more...?"`\
 
 mcl a,0
 ;csp -1
@@ -3576,10 +3662,13 @@ ld c,NON_Def7a,80
 ;bgcopy
 ;csp -1
 
-「ぇ……？@　あ、…え？！」@
+;「ぇ……？@　あ、…え？！」@
+`"Eh...? `@`Uh, ...huh?!"`@`
 br
-　まさか急に自分に話が振られるとは思わなかった。@心臓が飛び跳ねる。@
-　このような異常な光景を見せられた今、彼らが妖怪変化であることはもう疑いようもない事実だ。@……その妖怪に、僕は再び話し掛けられたのだから。\
+;　まさか急に自分に話が振られるとは思わなかった。@心臓が飛び跳ねる。@
+`　I hadn't thought I would suddenly be dropped into the conversation. `@`My heart began leaping in my chest.`@`
+;　このような異常な光景を見せられた今、彼らが妖怪変化であることはもう疑いようもない事実だ。@……その妖怪に、僕は再び話し掛けられたのだから。\
+`　Now after seeing that otherwordly scene, there was no doubting the truth that they were youkai. `@`...And that youkai was once again talking to me.`\
 
 bg black,24
 bg roji_01,0
@@ -3587,23 +3676,27 @@ ld r,KOU_Def1,24
 
 ld r,KOU_Def2,80
 
-「君が選ぶといいだろう。@……真実と、安息と。@…どちらを尊ぶかね？」@
+;「君が選ぶといいだろう。@……真実と、安息と。@…どちらを尊ぶかね？」@
+`"Perhaps you should choose. `@`...Truth. Peace. `@`...Which do you value more, hm?"`@
 
 ld l,HIG_Def4,80
 
-「……耳を貸しちゃ駄目よ。@安息なんて答えたらどうなるか、……想像がつくでしょ？」@
+;「……耳を貸しちゃ駄目よ。@安息なんて答えたらどうなるか、……想像がつくでしょ？」@
+`"...Don't lend him your ear. `@`If you replied with 'Peace,' ...what do you think would happen?"`@
 
 ;bg black,23
 ;bg roji_02,0
 ;ld c,NON_Def5a,23
 
-「う………。」\
+;「う………。」\
+`"Er......"`\
 
 ;bg black,28
 ld r,KOU_Def3,80
 ;ld c,KOU_Def1,80
 
-「彼岸花くん、誑かすのは止めたまえ。@私は彼に聞いている。@………さぁ、野々宮くん。@君が尊ぶのはどちらかね…？」\
+;「彼岸花くん、誑かすのは止めたまえ。@私は彼に聞いている。@………さぁ、野々宮くん。@君が尊ぶのはどちらかね…？」\
+`"Higanbana-kun, cease your trickery. `@`I'm asking him. `@`...Well, Nonomiya Takeshi-kun. `@`Which do you value more...?"`\
 
 ;bg black,22
 ;mono 2
@@ -3614,21 +3707,28 @@ bg black,23
 bg roji_02,0
 ld c,NON_Def5a,23
 
-　真実と、安息。@
-　真実の対にある安息とはどういう意味なのか。@
+;　真実と、安息。@
+`　Truth and peace. `@`
+;　真実の対にある安息とはどういう意味なのか。@
+`　What does he mean by having peace in opposition to truth?`@`
 br
-　それはつまり、真実を拒否する、無知ゆえの安息の日々、という意味ではないのか。\
+;　それはつまり、真実を拒否する、無知ゆえの安息の日々、という意味ではないのか。\
+`　Perhaps he means denying the truth, therefore having peaceful days through ignorance?`\ 
 
 ;bg Different_spiral_1b,22
 
-　……確かに、知らないがゆえに安穏とできるということはある。@
+;　……確かに、知らないがゆえに安穏とできるということはある。@
+`　...Surely, ignorance can be bliss.`@`
 br
-　でも、それは良いことではないはずだ。@
-　人は、嫌でも知らなければならない真実がある。\
+;　でも、それは良いことではないはずだ。@
+`　But that can't be a good thing.`@`
+;　人は、嫌でも知らなければならない真実がある。\
+`　For humans, even if we don't want to, there are truths that we must know.`\
 
 bg black,22
 
-　例えば環境問題がいい例だ。@それを議論すれば、必ずや僕たちの生活はある種の制限を受ける。@……しかし、だからといって知らないふりをして安穏と暮らし続ければ、@そのツケは必ずや将来、人間社会に降りかかるだろう。\
+;　例えば環境問題がいい例だ。@それを議論すれば、必ずや僕たちの生活はある種の制限を受ける。@……しかし、だからといって知らないふりをして安穏と暮らし続ければ、@そのツケは必ずや将来、人間社会に降りかかるだろう。\
+`　For instance, an environmental problem is a good example. `@`If I were to discuss it, surely we'll have to face some restrictions in our lifestyles. `@`...But, nonetheless if we pretend we don't know about it and continue living peacefully, `@`the price will certainly befall the future of humanity.`\
 
 ;textoff
 ;bg black,22
@@ -3642,11 +3742,14 @@ bg black,22
 
 ld r,NON_def4a,22
 
-　……新聞部の活動で、僕はそれを学んだんじゃないのか？@
+;　……新聞部の活動で、僕はそれを学んだんじゃないのか？@
+`　...Haven't I learned that from life in the Newspaper Club?`@`
 br
-　人々が目を逸らそうとしている事実を、僕たちは突きつけ、問題を提起しなくてはならない。\
+;　人々が目を逸らそうとしている事実を、僕たちは突きつけ、問題を提起しなくてはならない。\
+`　If people avert their eyes from the truth, thrusting it at them, we must raise these questions.`\
 
-　森谷毬枝の写真は確かに不気味なものだった。@……でも、あの写真に写っていた森谷毬枝は実在していたクラスメートで、しかも誰からも忘れ去られていた。@母親にさえ。\
+;　森谷毬枝の写真は確かに不気味なものだった。@……でも、あの写真に写っていた森谷毬枝は実在していたクラスメートで、しかも誰からも忘れ去られていた。@母親にさえ。\
+`　Moriya Marie's photograph certainly was a strange thing. `@`...But, Marie who had been caught in that photograph was forgotten by her classmates and everyone else. `@`Even her own mother.`\
 
 lsp bgsp,":a;bmp\background\efe\a004.bmp",0,0
 print 0
@@ -3655,17 +3758,22 @@ ld c,MAR_Def3,22
 bgcopy
 csp -1
 
-　あの写真を見せることで、…彼女の母親は思い出した。@
+;　あの写真を見せることで、…彼女の母親は思い出した。@
+`　By showing her that photo ...her mother remembered.`@`
 br
-　確かにショッキングなものだったかもしれない。@今まで忘れていたことに衝撃を受け、一時的にパニックを起こしてしまったことも理解できる。\
+;　確かにショッキングなものだったかもしれない。@今まで忘れていたことに衝撃を受け、一時的にパニックを起こしてしまったことも理解できる。\
+`　Sure it might have been something shocking. `@`Undertaking the impact of what she'd forgotten until now, I can understand why she'd temporarily panic.`\
 
-　でも、森谷毬枝はきっとそれで嬉しかったはずだ。@思い出せてもらえて、きっとどこかで喜んでいるはずだ。\
+;　でも、森谷毬枝はきっとそれで嬉しかったはずだ。@思い出せてもらえて、きっとどこかで喜んでいるはずだ。\
+`　But, Moriya Marie must have been happy with that. `@`That I had let her remember. She must be rejoicing somewhere.`\
 
 bg black,22
 
-　……多分、彼女はこの「校長先生」という名の妖怪に飲み込まれ、存在まで消し去られてしまったのだ。@
+;　……多分、彼女はこの「校長先生」という名の妖怪に飲み込まれ、存在まで消し去られてしまったのだ。@
+`　...Perhaps she's been swalloed by this demon called "Headmaster," and her existence extinguished.`@` 
 br
-　そしてあのカメラは、森谷毬枝が確かに存在した「真実」を暴きだしたのだ。@……妖怪の力で消し去られていた存在を、暴きだしたのだ。\
+;　そしてあのカメラは、森谷毬枝が確かに存在した「真実」を暴きだしたのだ。@……妖怪の力で消し去られていた存在を、暴きだしたのだ。\
+`　And that camera dug up the 'truth' that Moriya Marie certainly did exist. `@`...It brought back her existence that had been extinguished with the power of a youkai.`\
 
 ;bg black,22
 ;bg roji_02,0
@@ -3679,19 +3787,24 @@ br
 bg roji_02,0
 ld c,NON_Def4a,22
 
-　そうさ。@……真実は、写真で写し出されてこそ、真実となる。@
-　そこにどのようなものが写っていたにせよ、…それが直視するべき真実なのだ。\
+;　そうさ。@……真実は、写真で写し出されてこそ、真実となる。@
+`　That's it. `@`...When revealed on film, it becomes the truth.`@`
+;　そこにどのようなものが写っていたにせよ、…それが直視するべき真実なのだ。\
+`　Regardless of what might be revealed there, ...just seeing it invokes that truth.`\
 
-　このカメラの不思議な力を目の当たりにした時、僕は確かに恐れてしまった。@
+;　このカメラの不思議な力を目の当たりにした時、僕は確かに恐れてしまった。@
+`　And when I saw the power of this mysterious camera with my own eyes, I was certainly terrified.`@`
 br
-　でも、よく考えれば、僕はおかしなことはしていない。@おかしなことと言えば、森谷毬枝の存在を消した方ではないか…！@　そちらの方がよっぽど悪いことだ。@
+;　でも、よく考えれば、僕はおかしなことはしていない。@おかしなことと言えば、森谷毬枝の存在を消した方ではないか…！@　そちらの方がよっぽど悪いことだ。@
+`　But if I think about it, I didn't do anything strange. `@`But what was strange was the disappearance of Moriya Marie's very existence! `@`That was much worse. `@`
 br
-　僕はあのカメラで虚実を破り、真実を暴いた。@森谷毬枝の名誉を、守った！\
+;　僕はあのカメラで虚実を破り、真実を暴いた。@森谷毬枝の名誉を、守った！\
+`　With that camera I tore through the doubt and revealed the truth. `@`I protected the name of Moriya Marie!`\
 
 ld c,NON_Def6a,22
 
 ;　……そしてそれは、口に出さずとも、僕の明白な返事となった。\
-`...And out of my mouth came a clear answer.`\
+`...And without even opening my mouth, I had created my clear answer.`\
 
 
 
@@ -3712,19 +3825,23 @@ ld l,HIG_w3,24
 
 bgm1 8
 
-「ということよ、校長先生。@……新聞部の野々宮くんは“真実”を選んだ。」@
+;「ということよ、校長先生。@……新聞部の野々宮くんは“真実”を選んだ。」@
+`"So he thinks, Headmaster. `@`...Nonomiya Takeshi-kun chose 'truth.'"`@`
 
 ld r,KOU_Def3,22
 
-「……………ふむ。@安息より真実を選ぶか。@……………若者らしいと言えば若者らしい。@…よかろう、彼岸花くん。@……この場はこれまでにしようじゃないかね。」\
+;「……………ふむ。@安息より真実を選ぶか。@……………若者らしいと言えば若者らしい。@…よかろう、彼岸花くん。@……この場はこれまでにしようじゃないかね。」\
+`"......Hmm. `@`To choose truth over peace? `@`......So like a youngster to say. `@`...Very well, Higanbana-kun. `@`...Perhaps we should stop here for now, hm?"`\
 
 ld l,HIG_w4,80
 
-「賢明ね。@私もお気に入りの靴を汚したくないもの。」@
+;「賢明ね。@私もお気に入りの靴を汚したくないもの。」@
+`"How wise. `@`After all I don't want to get my favorite shoes dirty."`@`
 
 ld r,KOU_Def1,80
 
-「同じだね。@私も、お気に入りの外套を穴だらけにしたくはないよ。」\
+;「同じだね。@私も、お気に入りの外套を穴だらけにしたくはないよ。」\
+`"I agree. `@`I also don't want my favorite overcoat to be full of holes, you see."`\
 
 ;csp bgsp2
 ;print 44
@@ -3735,6 +3852,7 @@ bg black,22
 ;bg roji_03,22
 
 　校長先生を取り囲んでいた歪なる槍が、延びてきた時とは正反対に、@……まるでビデオテープを巻き戻すかのように、破裂した塀に飲み込まれて縮んでいく。@そして膨らみに戻り、次第に平らになり、@………何事もなかったかのように、元の平らな、風雨に汚れた塀に戻った。\
+
 
 　同時に、辺り一面を真っ黒に染めていた黒い沼も、じわりじわりと退き、校長先生の足元に戻っていく。@……気付けば、辺りは元通りだった。@それは空の明るさまでも。@
 br
