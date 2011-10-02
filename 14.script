@@ -349,7 +349,242 @@ reset
 
 
 
+*glossary
+   E_A                                 ;現在演奏中の曲をストッ プする
+   setwindow 31,16,22,16,22,22,0,2,20,1,1,#ffffff,0,0,639,479
+   textclear
+   rmode 0                              ;右クリックメニューの無効化
+   erasetextwindow 0                    
+   csp -1                               ;スプライト画像の、メモリからの消去
+   btndef ""                            ;ボタン画像の、メモリからの消去
 
+   ;新規告知フラグを切る
+   if %END_TIPS_FLG < 2 : mov %END_TIPS_FLG,2
+
+   ;画面の入り方演出＋SE
+   seplay 9,82
+   seplay 10,82
+   bg black,4
+
+   ;データセット
+   mov %tips_cha_max,17 ;TIPSのキャラ数
+   mov %tips_cha_view,1 ;最初に表示するキャラ番号（キャラ番号はこのテキストにある*glossary_cha_modeのサブルーチン参照）
+
+	;ランダムでBGMを再生
+	rnd2 %ran,1,2
+	if %ran = 1 mov $BGM_Play,"bgm0\d_7.ogg": mov %Set_vol,85 : gosub *BGM_Play_Mord
+	if %ran = 2 mov $BGM_Play,"bgm0\d_10.ogg": mov %Set_vol,75  : gosub *BGM_Play_Mord
+;	if %ran = 3 mov $BGM_Play,"bgm0\d_25.ogg" : mov %Set_vol,75 : gosub *BGM_Play_Mord
+~
+
+*glossary_loop_1
+  ;基本ボタン画像の表示
+  mov %Free4,410
+  lsp 890,":c;bmp\r_click\r_back.bmp",-0,100,40 ;バックの画像
+  lsp 850,":c;bmp\r_click\text\txt_def.bmp",315,29 ;テキストバックの画像
+  lsp 101,":a/2,0,3;bmp\r_click\btn\Left.BMP",330,%Free4 -10 ;前の画像へ101
+  lsp 102,":a/2,0,3;bmp\r_click\btn\Right.BMP",400,%Free4 -10 ;次の画像へ102
+;  lsp 853,":c/2,0,3;bmp\r_click\btn\tips.BMP",460,%Free4 ;用語説明？853
+  lsp rmenu_btn_Exit,":a/2,0,3;bmp\r_click\btn\exit.BMP",480,%Free4 + 20,230 ;Exit
+  gosub *glossary_cha_mode ;表示画像などの読み込み
+
+	;ボタン初期化？
+	btndef ""
+	;スプライトをボタンにする
+	spbtn 101,1 ;back
+	spbtn 102,2 ;next
+;	spbtn 853,3 ;用語解説へ
+	spbtn rmenu_btn_Exit,4 ;exit
+
+	btnwait2 %BtnRes 
+		if %BtnRes = -1 : goto *glossary_mode_end ;右クリック
+		if %BtnRes = 0 : goto *glossary_loop_1 ;左クリック？
+		if %BtnRes = 1 se1v 1010,40 : gosub *glossary_back : gosub *glossary_cha_mode ;バック
+		if %BtnRes = 2 se1v 1010,40 : gosub *glossary_next : gosub *glossary_cha_mode ;ネクスト
+		if %BtnRes = 4  goto *glossary_mode_end ;exit
+
+  goto *glossary_loop_1 ;ループポイントへ戻る
+
+reset
+
+
+
+;*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-
+;バックが押された時の処理（サブルーチン
+;*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-
+*glossary_back
+	  dec %tips_cha_view ;表示キャラ番号をー１
+
+	 ;もし表示キャラが０になったら（最初に表示されるキャラでバックが押されたら）
+	 ;最後に表示するキャラの番号（%tips_cha_max）を入れる
+	  if %tips_cha_view = 0 : mov %tips_cha_view,%tips_cha_max
+return
+
+;*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-
+;ネクストが押された時の処理（サブルーチン
+;*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-
+*glossary_next
+	  inc %tips_cha_view ;表示キャラ番号を+１
+
+	 ;もし表示キャラが最大（%tips_cha_max＋１）になったら
+	 ;最初に表示するキャラの番号（１）を入れる
+	  if %tips_cha_view = %tips_cha_max + 1 : mov %tips_cha_view,1
+return
+
+
+
+
+
+;*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-
+*glossary_cha_mode ;キャラ切り替えルーチン
+;*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-
+
+  ;tips_cha_viewの順にキャラが切り変わっていきます。
+  ;新キャラを登録するときは、下のスクリプトにキャラとキャラテキストを足していって下さい。
+  ;（あと、上の方のキャラマックスを増やしておいてください。
+
+;座標設定
+  mov %Free1,0 ;キャラのY座標（共通。Xはデータによってまちまちなため、数値は直接入力）
+  mov %Free2,345 ;テキスト表示のX座標
+  mov %Free3,50 ;テキスト表示のY座標
+
+;TIPSで表示するキャラの登録及び表示のサブルーチン
+ notif %tips_cha_view = 1 jumpf
+
+	  lsp rmenu_back+1,":a;bmp\r_click\cha_tati\mar_face.bmp",-60,-100,70	
+
+	  lsp rmenu_btn1,":a;bmp\r_click\cha_tati\MAR.bmp",135,%Free1 ;毬枝
+	  lsp rmenu_back,":a;bmp\r_click\text\cha\mar_1.bmp",%Free2,%Free3 ;毬枝text
+	  ;（rmenu_btn1はキャラを右クリックでキャラする共通スプライト番号です）
+  ~
+   notif %tips_cha_view = 2 jumpf
+
+
+	  lsp rmenu_back+1,":a;bmp\r_click\cha_tati\hig_face.bmp",-315,-50,70	
+	  lsp rmenu_btn1,":a;bmp\r_click\cha_tati\HIG.bmp",35,%Free1 ;彼岸花
+	  lsp rmenu_back,":a;bmp\r_click\text\cha\hig_1.bmp",%Free2,%Free3 ;彼岸花text
+  ~
+  notif %tips_cha_view = 3 jumpf
+
+;	  lsp rmenu_back+1,":a;bmp\r_click\cha_tati\kan_face.bmp",-230,10,100	
+	  lsp rmenu_back+1,":a;bmp\r_click\cha_tati\kan_face.bmp",-180,0,60	
+	  lsp rmenu_btn1,":a;bmp\r_click\cha_tati\KAN.bmp",90,%Free1 ;金森義仁
+	  lsp rmenu_back,":a;bmp\r_click\text\cha\kan_1.bmp",%Free2,%Free3 ;金森義仁text
+  ~
+  notif %tips_cha_view = 4 jumpf
+
+	  lsp rmenu_back+1,":a;bmp\r_click\cha_tati\hok_face.bmp",-100,-90,60	
+	  lsp rmenu_btn1,":a;bmp\r_click\cha_tati\HOK.bmp",100,%Free1 ;保健の先生
+	  lsp rmenu_back,":a;bmp\r_click\text\cha\hok_1.bmp",%Free2,%Free3 ;保健の先生text
+  ~
+  notif %tips_cha_view = 5 jumpf
+
+	  lsp rmenu_back+1,":a;bmp\r_click\cha_tati\non_face.bmp",-50,-60,60	
+	  lsp rmenu_btn1,":a;bmp\r_click\cha_tati\NON.bmp",130,%Free1 ;野々宮武
+	  lsp rmenu_back,":a;bmp\r_click\text\cha\non_1.bmp",%Free2,%Free3 ;野々宮武text
+  ~
+  notif %tips_cha_view = 6 jumpf
+
+	  lsp rmenu_back+1,":a;bmp\r_click\cha_tati\kou_face.bmp",-300,-100,60	
+	  lsp rmenu_btn1,":a;bmp\r_click\cha_tati\KOU.bmp",60,%Free1 +1 ;校長先生
+	  lsp rmenu_back,":a;bmp\r_click\text\cha\kou_1.bmp",%Free2,%Free3 ;校長先生text
+  ~
+  notif %tips_cha_view = 7 jumpf
+
+	  lsp rmenu_back+1,":a;bmp\r_click\cha_tati\yo2_face.bmp",-230,0,70	
+	  lsp rmenu_btn1,":a;bmp\r_click\cha_tati\yo2.bmp",130,%Free1 ;沼田陽子（死亡ver.）
+	  lsp rmenu_back,":a;bmp\r_click\text\cha\yo2_1.bmp",%Free2,%Free3 ;沼田陽子（死亡ver.）text
+  ~
+  notif %tips_cha_view = 8 jumpf
+	  lsp rmenu_back+1,":a;bmp\r_click\cha_tati\mid_face.bmp",-160,-30,80	
+
+	  lsp rmenu_btn1,":a;bmp\r_click\cha_tati\mid.bmp",90,%Free1 ;楠木みどり
+	  lsp rmenu_back,":a;bmp\r_click\text\cha\mid_1.bmp",%Free2,%Free3 ;楠木みどり_text
+  ~
+  notif %tips_cha_view = 9 jumpf
+	  lsp rmenu_back+1,":a;bmp\r_click\cha_tati\sin_face.bmp",-200,-50,70	
+;	  lsp rmenu_btn1,":a;bmp\r_click\cha_tati\sin.bmp",55,%Free1 ;紅茶紳士
+	  lsp rmenu_btn1,":a;bmp\r_click\cha_tati\sin.bmp",100,%Free1 ;紅茶紳士
+	  lsp rmenu_back,":a;bmp\r_click\text\cha\sin_1.bmp",%Free2,%Free3 ;紅茶紳士_text
+  ~
+
+  notif %tips_cha_view = 10 jumpf
+
+	  lsp rmenu_back+1,":a;bmp\r_click\cha_tati\mit_face.bmp",-200,-120,50	
+	  lsp rmenu_btn1,":a;bmp\r_click\cha_tati\mit.bmp",70,%Free1 ;桜田みちる
+	  lsp rmenu_back,":a;bmp\r_click\text\cha\mit_1.bmp",%Free2,%Free3 ;桜田みちるtext
+  ~
+  notif %tips_cha_view = 11 jumpf
+
+	  lsp rmenu_back+1,":a;bmp\r_click\cha_tati\sak_face.bmp",-210,-200,70
+	 	lsp rmenu_btn1,":a;bmp\r_click\cha_tati\sak.bmp",45,%Free1 ;さくのしん
+	  lsp rmenu_back,":a;bmp\r_click\text\cha\sak_1.bmp",%Free2,%Free3 ;さくのしんtext
+  ~
+
+  notif %tips_cha_view = 12 jumpf
+
+	  lsp rmenu_back+1,":a;bmp\r_click\cha_tati\hik_face.bmp",-50,-120,70	
+	  lsp rmenu_btn1,":a;bmp\r_click\cha_tati\HIK.bmp",125,%Free1 ;二瓶ひかる
+	  lsp rmenu_back,":a;bmp\r_click\text\cha\hik_1.bmp",%Free2,%Free3 ;二瓶ひかるtext
+  ~
+
+  notif %tips_cha_view = 13 jumpf
+
+	  lsp rmenu_back+1,":a;bmp\r_click\cha_tati\ham_face.bmp",-210,-50,50	
+	  lsp rmenu_btn1,":a;bmp\r_click\cha_tati\HAM.bmp",55,%Free1 ;ハメルン
+	  lsp rmenu_back,":a;bmp\r_click\text\cha\ham_1.bmp",%Free2,%Free3 ;ハメルンtext
+  ~
+  notif %tips_cha_view = 14 jumpf
+
+	  lsp rmenu_back+1,":a;bmp\r_click\cha_tati\you_face.bmp",-150,-80,70	
+	  lsp rmenu_btn1,":a;bmp\r_click\cha_tati\YOU.bmp",90,%Free1 ;沼田陽子（生存ver.）
+	  lsp rmenu_back,":a;bmp\r_click\text\cha\you_1.bmp",%Free2,%Free3 ;沼田陽子（生存ver.）text
+  ~
+
+;**********************************************************************************
+  notif %tips_cha_view = 15 jumpf
+
+	  lsp rmenu_back+1,":a;bmp\r_click\cha_tati\yuk_face.bmp",-40,-90,70	
+	  lsp rmenu_btn1,":a;bmp\r_click\cha_tati\yuk.bmp",135,%Free1 ;榊由香里
+	  lsp rmenu_back,":a;bmp\r_click\text\cha\yuk_1.bmp",%Free2,%Free3 ;榊text
+  ~
+  notif %tips_cha_view = 16 jumpf
+
+	  lsp rmenu_back+1,":a;bmp\r_click\cha_tati\smi_face.bmp",-150,-90,70	
+	  lsp rmenu_btn1,":a;bmp\r_click\cha_tati\smi.bmp",86,%Free1 
+	  lsp rmenu_back,":a;bmp\r_click\text\cha\sum_1.bmp",%Free2,%Free3 
+  ~
+  notif %tips_cha_view = 17 jumpf
+
+	  lsp rmenu_back+1,":a;bmp\r_click\cha_tati\sm2_face.bmp",-450,-70,70		
+	  lsp rmenu_btn1,":a;bmp\r_click\cha_tati\sm2.bmp",42,%Free1 
+	  lsp rmenu_back,":a;bmp\r_click\text\cha\su2_1.bmp",%Free2,%Free3 
+  ~
+return
+
+;*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-
+*glossary_mode_end ;エンド処理
+;*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-
+   ;各設定の初期化
+   csp -1                               ;スプライト画像の、メモリからの消去
+   btndef ""                            ;ボタン画像の、メモリからの消去
+
+   setwindow 31,16,22,16,26,26,0,2,20,1,1,#999999,0,0,639,479
+   erasetextwindow 1
+   rmode 1
+   mono 0
+                                    ;右クリックメニューの有効化
+	E_A
+	seplay 9,82
+	print 1
+   	cl a,1
+	texton
+	if %monoflg = 1 mono 1
+	if %monoflg = 2 mono 2
+	wait 1000
+   mov %title_skip,1
+reset
+;*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-
 
 
 
@@ -9177,7 +9412,7 @@ return
 		if %ld_pass_number = HIG_Def2 mov $ld_pass,":a;bmp2\TATI\HIG\1\HIG_Def2.bmp" : mov $ld_pass2,":a;bmp2\TATI\hig\2\1.bmp"return ;顔、体データ
 		if %ld_pass_number = HIG_Def3 mov $ld_pass,":a;bmp2\TATI\HIG\1\HIG_Def3.bmp" : mov $ld_pass2,":a;bmp2\TATI\hig\2\1.bmp"return ;顔、体データ
 		if %ld_pass_number = HIG_Def4 mov $ld_pass,":a;bmp2\TATI\HIG\1\HIG_Def4.bmp" : mov $ld_pass2,":a;bmp2\TATI\hig\2\1.bmp"return ;顔、体データ
-		if %ld_pass_number = HIG_Def5 mov $ld_pass,":a;bmp2\TATI\HIG\1\HIG_Def5.bmp" : mov $ld_pass2,":a;bmp2\TATI\hig\2\1.bmp"return ;顔、体データ
+		if %ld_pass_number = HIG_Def5 mov $ld_pass,":a;bmp2\TATI\HIG\1\HIG_Def5.bmp" : mov $ld_pass2,":a;bmp2\TATI\hig\2\1.bmp"return ;顔、体???ータ
 		if %ld_pass_number = HIG_W1 mov $ld_pass,":a;bmp2\TATI\HIG\1\HIG_W1.bmp" : mov $ld_pass2,":a;bmp2\TATI\hig\2\1.bmp"return ;顔、体データ
 		if %ld_pass_number = HIG_W2 mov $ld_pass,":a;bmp2\TATI\HIG\1\HIG_W2.bmp" : mov $ld_pass2,":a;bmp2\TATI\hig\2\1.bmp"return ;顔、体データ
 		if %ld_pass_number = HIG_W3 mov $ld_pass,":a;bmp2\TATI\HIG\1\HIG_W3.bmp" : mov $ld_pass2,":a;bmp2\TATI\hig\2\1.bmp"return ;顔、体データ
@@ -10038,7 +10273,7 @@ print 0
 
 	if %BtnRes = t_btn_start_lsp : cell t_btn_start_lsp,1 : print 1:btndef "" : goto *start_sub_menu
 	if %BtnRes = t_btn_web_lsp seplay 9,80 : menu_window : shell "http://07th-expansion.net"
-	if %BtnRes = t_btn_glos_lsp cell t_btn_glos_lsp,1 : print 1:btndef "" : goto *tips
+	if %BtnRes = t_btn_glos_lsp cell t_btn_glos_lsp,1 : print 1:btndef "" : goto *glossary
 	if %BtnRes = t_btn_tips_lsp cell t_btn_tips_lsp,1 : print 1:btndef "" : goto *tips
 	if %BtnRes = t_btn_exit_lsp seplay 9,80 : seplay 9,79 : csp -1 : bg black,2 : wait 3000 : end
 	if %BtnRes = t_btn_music_lsp btndef "" : goto *bgm_mode
