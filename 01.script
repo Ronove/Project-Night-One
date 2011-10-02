@@ -223,7 +223,7 @@ bg black,22
 `　......Why did it have to turn out like this......?`@
 br
 ;　宙を泳ぐ金魚がいたならば、@水面で口をぱくぱくさせなければならないに違いないと思うほど、@酸素の薄れた空気の中で、私はぼんやりと考えていた……。\
-`　In this oxygen deprived air, `@`I idly thought to myself that even if there was a goldfish that could swim in midair, `@`it would have no choice but to stick its head in the water to beathe......`\
+`　In this oxygen deprived air, `@`I idly thought to myself that even if there was a goldfish that could swim in midair, `@`it would have no choice but to stick its head in the water to breathe......`\
 
 bg black,22
 
@@ -492,7 +492,7 @@ ld r,MAR_Def3n,22
 
 br
 ;　だからその時点で、その高潔な生い立ちに関係なく、@彼は最低の男であることに間違いなかった。\
-`　Because from that point forward his life lost its purity, `@`and he unmistakenly became the worst kind of man.`\
+`　Because from that point forward his life lost its purity, `@`and he unmistakably became the worst kind of man.`\
 
 
 ;bg black,22
@@ -1090,7 +1090,7 @@ br
 `　And yet, .........my stupid male nature.`@
 br
 ;　私は毬枝を奴隷化したつもりでいて、@…実は毬枝の奴隷となってしまっている。\
-`　I intended to make Marie my slave. `@`...In reality, I'm becoming her's.`\
+`　I intended to make Marie my slave. `@`...In reality, I'm becoming hers.`\
 
 ;bg e014,45
 
@@ -1388,13 +1388,13 @@ bg mansion_01,42
 `　Because even if I were to continue living like this, nothing good would come of it...`@
 br
 ;　社会に出ても、また先生のような男に囚われ、@抜け出せない日々に再び戻るだけに決まっているのだ……。\
-`　Even if I entered society, I'd be captured by another man like Sensei, `@`and once again I'd be fated to return to those days of being unable to break free......`\
+`　Even if I entered society, I'd be captured by another man like Sensei, `@`and once again I'd be fated to return to those days ― unable to break free......`\
 
 ;　……そこまで理解しながら、自ら死を選ぶだけの勇気が持てない。@
-`　......Even reasoning to that extent, naturally I didn't have the courage to just choose death.`@
+`　......While I understood that much, I didn't have the courage to simply choose death.`@
 br
 ;　だから、妖怪になって復讐したいなどという、@前向きなのか後向きなのかもわからない、妙な考えになってしまうのだ…。\
-`　Because becoming a Youkai and wanting revenge and the like, `@`I didn't know if it was positive thinking or negative thinking, and it was becoming a peculiar idea...`\
+`　After all, becoming a Youkai, wanting revenge and the like `@`― those were strange ideas, and I couldn't tell if they were positive or negative...`\
 
 bg black,2
 ;wait 3000
@@ -1405,10 +1405,10 @@ bg black,2
 ;　どうすれば、めそめそさんになれるのだろう……。@
 `　I wonder, could I become Mesomeso-san......?`@`
 ;　どうすれば、自分は学校に数多ある学校妖怪の一員に加われるのだろう……。@
-`　I wonder, could I join the ranks as one of the many school youkai......?@
+`　I wonder, could I join the ranks of the school youkai......?@
 br
 ;　みんなが噂するめそめそさんは、本当は自分なのだ。@でも、自分はみんなが噂するような妖怪ではない。\
-`　The Mesomeso-san that everyone gossipped about was truly me. `@`But I wasn't the kind of youkai everyone was talking about.`\
+`　I was truly the Mesomeso-san that everyone was gossiping about. `@`But I wasn't like that youkai everyone was talking about.`\
 
 bg tosho_05,22
 
@@ -1646,7 +1646,7 @@ ld l,HIG_Def4,23
 `　As if she were a beautiful doll surrounded by elegant furniture,`@` Higanbana laughed with a giggle.`@
 br
 ;　……だけれども、@動くはずのない人形が笑うかのような不気味さも同時に持ちながら、くすくすと笑う。\
-`　......And yet, `@`at the same time with the eerieness of a doll that shouldn't move, she giggled.`\
+`　......And yet, `@`at the same time with the eeriness of a doll that shouldn't move, she giggled.`\
 
 bg black,22
 
@@ -2059,7 +2059,7 @@ bg toire_03,0
 ld c,MAR_Def3,22
 
 ;　だがもし、彼女がさらに勇気を持ち、刺し違えてでも私を警察に突き出そうと思ったなら……。@
-`　But supposing she gets more courge, if she thought to turn me in to the police......`@
+`　But supposing she gets more courage, if she thought to turn me in to the police......`@
 ;　私はそれを防ぐことなど何もできない。@
 `　I have nothing to protect myself from that.@
 br
@@ -2936,7 +2936,7 @@ bgm1 7
 `"......Huhu, .........Hahahaha? `@` HAHAHAHAHAHAHAHAHA!!"`@
 br
 ;　笑う必要なんか何もなかったが、@…面倒臭い片付けごとが全て終わったような爽快な気分になり、意識せず笑いがこみ上げるのを感じた。@
-`　There wasn't any need to laugh, `@`...but I was exhilarated that the annoying cleanup job was all over, and felt like a fullfilling yet senseless laugh.`@
+`　There wasn't any need to laugh, `@`...but I was exhilarated that the annoying cleanup job was all over, and felt like a fulfilling yet senseless laugh.`@
 br
 ;　でも、笑いにまで至ったのは、それだけではないようだった。\
 `　But the cause of my laughter wasn't just that alone.`\
@@ -4790,7 +4790,7 @@ bgcopy
 csp -1
 
 ;　生徒の乱暴な使用により、それはややひしゃげていたが、@トイレットペーパーを都合のいい大きさに切る程度の役割は、まだ十分に果たせるようだった。@
-`　From its rough use by students it had been squashed somewhat, `@`but it seemed like it could still fufill its role in conveniently cutting large sheets of toilet paper.`@
+`　From its rough use by students it had been squashed somewhat, `@`but it seemed like it could still fufil its role in conveniently cutting large sheets of toilet paper.`@
 br
 ;　……その、…ペーパーホルダーの上に、………白い雫のようなものが一粒。\
 `　......And, ...above that paper dispenser, ......there was a pebble that looked like a white teardrop.`\ 
@@ -5780,7 +5780,7 @@ ld l,KAN_w1,23
 ld r,HIG_w4,80
 
 ;「そうね。@学校妖怪の末席を許すにはまだまだ役不足ね。@あなたの方が、むしろ邪悪でその任に相応しいと思ってよ。@あなたほどの人なら、@きっと学校妖怪に混じっても、見事にその席を守りきれるでしょうね。@あなたのような人が末席に加わったなら、私もうかうかしていられないわ。」\
-`"I see. `@`Allowing her the lowest seat among the school youkai is far too inappropriate. `@`I think someone like yourself, in your wickedness better fufills the role, you see. `@`If it's someone like you, `@`even among the school youkai you'll splendedly fill and protect that seat. `@`If a human like yourself joins us in the lowest rank, even I'll have to be careful."`\
+`"I see. `@`Allowing her the lowest seat among the school youkai is far too inappropriate. `@`I think someone like yourself, in your wickedness better fufils the role, you see. `@`If it's someone like you, `@`even among the school youkai you'll splendidly fill and protect that seat. `@`If a human like yourself joins us in the lowest rank, even I'll have to be careful."`\
 
 ld l,KAN_w3,80
 
@@ -5905,7 +5905,7 @@ csp -1
 `　GaAAH~!!!"`@
 br
 ;　今や、金森の両手首の骨を粉々に砕いた毬枝の両腕が、全身を抱擁するように抱きしめる。@
-`　Now both Marie's arms crushed the bones in Kanamori's hands, but they sought to wholey embrace him.`@
+`　Now both Marie's arms crushed the bones in Kanamori's hands, but they sought to wholly embrace him.`@
 ;　だがその抱擁は愛のなせるものではない。@
 `　But that embrace wasn't one of love.`@
 ;　全身の骨を粉々に砕いてしまおうという、悪意ある死の抱擁。\
@@ -6106,7 +6106,7 @@ br
 ld l,HIG_w3,80
 
 ;「そろそろみんなもあなたの自己紹介がほしいところのはず。@それに、あなたの新しいクラスになる私たちの教室にも案内しないとね。」\
-`"Evereyone is going to want you to introduce yourself pretty soon. `@`Also, I should probably direct you to 'our class.'"`\
+`"Everyone is going to want you to introduce yourself pretty soon. `@`Also, I should probably direct you to 'our class.'"`\
 
 ld r,MAR_Def4a,80
 
