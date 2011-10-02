@@ -4107,7 +4107,7 @@ ld c,HIG_Def2,22
 `"Exactly right. `@`I gave you that camera."`@`
 br
 ;　彼女は、納得してもらえたかしら？@　と念を押すと、もう一度くすりと笑った。\
-`　I wonder if I received her approval? `@`And then as if to confirm it, she giggled again.`\
+`　Would she let me keep it, I wonder? `@`And then as if to confirm it, she giggled again.`\
 
 bg black,2
 fede 0,2000
@@ -4127,61 +4127,77 @@ me1v 30,50
 ;bg white,23
 bg roji_04,42
 
-　あれだけ歩いても抜けられなかった路地なのに、@彼岸花と一緒に歩けば、すぐに人通りのある通りに出ることができた。@
+;　あれだけ歩いても抜けられなかった路地なのに、@彼岸花と一緒に歩けば、すぐに人通りのある通りに出ることができた。@
+`　Even though I couldn't escape that alley no matter how far I walked, `@`when I walked with Higanbana, we soon came upon an intersection bustling with people.`@`
 br
-　そこには車の往来があれば、家路を急ぐ人々の姿もある。@……間違いなく、人間の世界だった。\
+;　そこには車の往来があれば、家路を急ぐ人々の姿もある。@……間違いなく、人間の世界だった。\
+`　When the cars weren't coming and going, there were people quickly heading to their homes. `@`...Surely, this was the human world.`\
 
 mld l,NON_Def6,23
 mld l,NON_Def3a,80
 
-「あ、ありがとうございます。@ここまで案内してもらえれば充分です。」@
+;「あ、ありがとうございます。@ここまで案内してもらえれば充分です。」@
+`"Th- Thank you. `@`Now that you've taken me this far, I should be fine."`@`
 
 mld r,HIG_Def5,24
 
-「あら。@命の恩人に道案内をさせて、それであとは大丈夫だからさようなら、ってことかしら？@　酷いわね、くすくすくす。」\
+;「あら。@命の恩人に道案内をさせて、それであとは大丈夫だからさようなら、ってことかしら？@　酷いわね、くすくすくす。」\
+`"Oh? `@`You use the person who saves your life like a guidepost, and then after that you say 'I'm fine now, goodbye'? `@`How cruel. *giggle giggle*"`\
 
 mld l,NON_Def4a,80
 
-「えっと、それは…………、何か、お礼が必要という、その、…意味ですか。」@
+;「えっと、それは…………、何か、お礼が必要という、その、…意味ですか。」@
+`"Umm, well......, are you saying you need, well, something in return?"`@`
 br
-　少しだけ焦る。@
-　確かに僕は命を救われたかもしれない。@…しかし、それの対価として彼女のような妖怪が何を求めるのか、とても怖かった…。\
+;　少しだけ焦る。@
+`　I was a little worried.`@`
+;　確かに僕は命を救われたかもしれない。@…しかし、それの対価として彼女のような妖怪が何を求めるのか、とても怖かった…。\
+`　Surely she may have saved my life. `@`...Yet, the thought of what a youkai like her would want in exchange scared me...`\
 
 ;mbg Aka1,28
 mld r,HIG_w3,80
 
-「うふふふふふふふふふふふふ。@本当なら殺されていたんだもの。@たとえ、腕の一本をもがせてもらったって悪い話じゃないかもね…？」@
+;「うふふふふふふふふふふふふ。@本当なら殺されていたんだもの。@たとえ、腕の一本をもがせてもらったって悪い話じゃないかもね…？」@
+`"Hehehehehehehehehe. `@`If that's true, then I would have killed you. `@`For example, taking off one of your arms wouldn't be so bad would it...?"`@`
 br
-　ぞうっとする…。@それは人間が口にする話ならば冗談で済む。@……しかし妖怪である彼岸花が口にするならば、それはこの上なく恐ろしい言葉に変貌する…。\
+;　ぞうっとする…。@それは人間が口にする話ならば冗談で済む。@……しかし妖怪である彼岸花が口にするならば、それはこの上なく恐ろしい言葉に変貌する…。\
+`　I got goose bumps... `@`If those words came from a human, then they would just be a joke. `@`...But since they came from the mouth of Higanbana ― a youkai ― they transformed into the most terrifying of words...`\
 
 ;mcbg 29
 mld r,HIG_Def5,80
 
-「冗談よ。@……命の恩人にお茶くらい振舞えないのかしら？」@
+;「冗談よ。@……命の恩人にお茶くらい振舞えないのかしら？」@
+`"I'm joking. `@`...I wonder if you'd at least treat your savior to a cup of tea?"`@`
 
 mld l,NON_Def5a,80
 
-「え？@　あ、……でも僕、お金持ってないですし……。」\
+;「え？@　あ、……でも僕、お金持ってないですし……。」\
+`"Eh? `@`Um, ...but, well, I don't really have any money..."`\
 
 mld r,HIG_Def2,80
 
-「あらあら、情けない。@………じゃあ、お家でお茶をご馳走してよ。@…そうそう、あなたはカメラが趣味なんでしょう？@　あなたが撮ってきた写真のアルバムが見たい。@それをお礼代わりにしたいわ。」\
+;「あらあら、情けない。@………じゃあ、お家でお茶をご馳走してよ。@…そうそう、あなたはカメラが趣味なんでしょう？@　あなたが撮ってきた写真のアルバムが見たい。@それをお礼代わりにしたいわ。」\
+`"Oh my, you poor guy. `@`...Well then, let's have some tea at your place. `@`...Oh yeah, you're interested in the camera aren't you? `@`I'd like to come see the picture albums you've taken with it. `@`That is what I want in return."`\
 
 mld l,NON_Def1,80
 
-「ぼ、僕のアルバム、…ですか…？@　その辺の近所の下らないものを撮り溜めた程度の、本当に下らないアルバムなんですけど……。」\
+;「ぼ、僕のアルバム、…ですか…？@　その辺の近所の下らないものを撮り溜めた程度の、本当に下らないアルバムなんですけど……。」\
+`"M- My albums... you say? `@`But they're truly worthless albums filled with worthless pictures from around the neighborhood..."`\
 
 mcl a,22
 ;bg black,22
 ;mono 2
 ;bg Different_spiral_1a,22
 
-　妖怪を自宅になんか連れて行きたくない。@…あぁ、いけない。@こんなことを考えたら心を読まれてしまう…。\
+;　妖怪を自宅になんか連れて行きたくない。@…あぁ、いけない。@こんなことを考えたら心を読まれてしまう…。\
+`　I didn't want to take a youkai to my home. `@`...Oh shoot. `@`If I think like this she'll just read my thoughts...`\
 
 bg black,22
 
-　でも、これを断れば、本当に僕の腕を一本もいでいくかもしれない…。@………彼女が僕のこ???を、友達だと言ってくれている以上、僕もそれに合わさざるを得ない……。@
-　彼女の機嫌を損ねることは、今の僕には怖くてとてもできなかった。\
+;　でも、これを断れば、本当に僕の腕を一本もいでいくかもしれない…。@………彼女が僕のことを、友達だと言ってくれている以上、僕もそれに合わさざるを得ない……。@
+`　(?) But should I refuse, she'll probably really tear off one of my arms. `@`...Aside from when she said I was her friend, I didn't share the sentiment...`@`
+;　彼女の機嫌を損ねることは、今の僕には怖くてとてもできなかった。\
+`　But I was too scared now to displease her.`\
 
 
 bg roji_05,0
@@ -4190,27 +4206,35 @@ ld r,NON_Def6a,22
 
 ;ld l,NON_Def1,80
 
-　そうさ、腕一本に比べたら、アルバムを見せるのなんて、大したことじゃない…。\
+;　そうさ、腕一本に比べたら、アルバムを見せるのなんて、大したことじゃない…。\
+`　After all, compared to losing an arm, letting her see my albums was no big deal...`\
 
 ;bg white,23
 ;bg roji_05,0
 ld c,HIG_Def1,24
 ld c,HIG_w2,80
 
-「くすくすくすくすくすくす。@そういう性分だから、私に好かれるのよ。@さ、行きましょう。@学校の外へ出掛けるのはずいぶん久し振りだから、とても楽しいわ。」@
+;「くすくすくすくすくすくす。@そういう性分だから、私に好かれるのよ。@さ、行きましょう。@学校の外へ出掛けるのはずいぶん久し振りだから、とても楽しいわ。」@
+`"*giggle giggle giggle* `@`With that kind of attitude I could learn to like you. `@`Well, let's be off. `@`Since it's been a long time since I've been outside the school, I'm really enjoying this."`@`
 br
-　彼女は、僕の家がどこにあるかわかっているらしく、勝手に先を進み始める。\
+;　彼女は、僕の家がどこにあるかわかっているらしく、勝手に先を進み始める。\
+`　As if she knew where my house was, she started heading off on her own.`\
 
-　でもその歩き方はとても楽しそうで、@……少々強引な新しい友人だと思い込むことも、…できなくはなかった。@
+;　でもその歩き方はとても楽しそうで、@……少々強引な新しい友人だと思い込むことも、…できなくはなかった。@
+`　But with the way she walked looked like she was having fun, `@`...I couldn't help but think I had made a new, albiet somewhat overbearing, friend.`@`
 br
-　……妖怪の友達なんて、何だかカッコいいじゃないか。@……だったら、不必要に怖がったりしちゃ、かえって失礼だ。\
+;　……妖怪の友達なんて、何だかカッコいいじゃないか。@……だったら、不必要に怖がったりしちゃ、かえって失礼だ。\
+`　...Having something like a youkai for a friend, isn't that kinda cool? `@`...Then being scared of her and what not would be rude.`\
 
 bg black,22
 
-　助けてもらったのは間違いないし、……自慢できるようなものじゃないけれど、@アルバムを恩返しに見せてあげよう。@
-　ひょ???とすると、僕が気付いていないような心霊写真でも見つけてくれるかも。@
+;　助けてもらったのは間違いないし、……自慢できるようなものじゃないけれど、@アルバムを恩返しに見せてあげよう。@
+`　After all she saved me, ...although they're nothing to brag about, `@`I should at least let her see my albums.`@`
+;　ひょっとすると、僕が気付いていないような心霊写真でも見つけてくれるかも。@
+`　Perhaps, she might even show me some ghost photos I didn't notice before. `@`
 br
-　……無理にポジティブにそう考え、僕は慌てて彼岸花の後を追うのだった。\
+;　……無理にポジティブにそう考え、僕は慌てて彼岸花の後を追うのだった。\
+`　...I strained to think positively as I followed after Higanbana in my confused state.`\`
 
 fede 0,2000
 E_A
