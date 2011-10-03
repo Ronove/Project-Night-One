@@ -1,0 +1,239 @@
+*EN_glossary
+   E_A                                 ;Stop currently playing song
+   setwindow 31,16,22,16,22,22,0,2,20,1,1,#ffffff,0,0,639,479
+   textclear
+   rmode 0                              ;Setting right click's action
+   erasetextwindow 0                    
+   csp -1                               ;Clear sprite memory
+   btndef ""                            ;Clear buttons from memory
+
+   ;Sound effects and stuff upon entering
+   seplay 9,82
+   seplay 10,82
+   bg black,4
+
+   ;Dataset
+   mov %EN_glossary_page_max,1 ;Number of total pages
+   mov %EN_glossary_page_view,1 ;Page at which the glossary opens at
+
+	;Selects a random BGM from these choices and plays it
+	rnd2 %ran,1,2
+	if %ran = 1 mov $BGM_Play,"bgm0\d_7.ogg": mov %Set_vol,85 : gosub *BGM_Play_Mord
+	if %ran = 2 mov $BGM_Play,"bgm0\d_10.ogg": mov %Set_vol,75  : gosub *BGM_Play_Mord
+;	if %ran = 3 mov $BGM_Play,"bgm0\d_25.ogg" : mov %Set_vol,75 : gosub *BGM_Play_Mord
+~
+
+*EN_glossary_loop_1
+  ;Basic View button image
+  mov %Free4,410
+  lsp 890,":c;bmp\r_click\r_back.bmp",-0,100,40 ;Background image
+  lsp 850,":c;bmp\r_click\text\txt_def.bmp",315,29 ;Notebook image
+  lsp 101,":a/2,0,3;bmp\r_click\btn\Left.BMP",330,%Free4 -10 ;To the previous image^101
+  lsp 102,":a/2,0,3;bmp\r_click\btn\Right.BMP",400,%Free4 -10 ;To the next image^102
+  lsp rmenu_btn_Exit,":a/2,0,3;bmp\r_click\btn\exit.BMP",480,%Free4 + 20,230 ;Exit
+  gosub *EN_glossary_page_mode ;View images and read them or something
+
+	;Clear the last button in memory
+	btndef ""
+	;Define the buttons which will be used globally throughout the glossary
+	spbtn 101,1 ;back
+	spbtn 102,2 ;next
+	spbtn rmenu_btn_Exit,4 ;exit
+
+	btnwait2 %BtnRes 
+		if %BtnRes = -1 : goto *EN_glossary_mode_end ;Right click?
+		if %BtnRes = 0 : goto *EN_glossary_loop_1 ;Left click?
+		if %BtnRes = 1 se1v 1010,40 : gosub *EN_glossary_back : gosub *EN_glossary_page_mode ;Back
+		if %BtnRes = 2 se1v 1010,40 : gosub *EN_glossary_next : gosub *EN_glossary_page_mode ;Next
+		if %BtnRes = 4  goto *EN_glossary_mode_end ;exit
+
+  goto *EN_glossary_loop_1 ;Return to Loop Point
+
+reset
+
+
+
+;*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-
+;Subroutine for processing a back button push (going -1 page)
+;*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-
+*EN_glossary_back
+	  dec %EN_glossary_page_view ;Decrement current page by 1
+
+	; If we go past the beginning of the list, we go back to the last element.
+	  if %EN_glossary_page_view = 0 : mov %EN_glossary_page_view,%EN_glossary_page_max
+return
+
+;*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-
+;Subroutine for processing a next button push (going +1 page)
+;*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-
+*EN_glossary_next
+	  inc %EN_glossary_page_view ;Increment current page by 1
+
+	 ;If we go further than the end of the list, we go back to the beginning.
+	  if %EN_glossary_page_view = %EN_glossary_page_max + 1 : mov %EN_glossary_page_view,1
+return
+
+
+
+
+
+;*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-
+*EN_glossary_page_mode ;Page switch routine
+;*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-
+
+  ;Will update what the buttons look like depending on the page
+  ;Note that each buttton has different text on it.
+
+;Coordinate setting
+  mov %Free2,345 ;X coordinate of text
+  mov %Free3,50 ;Y coordinate of text
+
+ notif %tips_cha_view = 1 jumpf
+
+	  lsp rmenu_back+1,":a;bmp\r_click\cha_tati\mar_face.bmp",-60,-100,70	
+
+	  lsp rmenu_btn1,":a;bmp\r_click\cha_tati\MAR.bmp",135,%Free1 ;ü{é}
+	  lsp rmenu_back,":a;bmp\r_click\text\cha\mar_1.bmp",%Free2,%Free3 ;ü{é}text
+	  ;Åirmenu_btn1ÇÕÉLÉÉÉâÇâEÉNÉäÉbÉNÇ≈ÉLÉÉÉâÇ∑ÇÈã§í ÉXÉvÉâÉCÉgî‘çÜÇ≈Ç∑Åj
+  ~
+   notif %tips_cha_view = 2 jumpf
+
+
+	  lsp rmenu_back+1,":a;bmp\r_click\cha_tati\hig_face.bmp",-315,-50,70	
+	  lsp rmenu_btn1,":a;bmp\r_click\cha_tati\HIG.bmp",35,%Free1 ;îﬁä›â‘
+	  lsp rmenu_back,":a;bmp\r_click\text\cha\hig_1.bmp",%Free2,%Free3 ;îﬁä›â‘text
+  ~
+  notif %tips_cha_view = 3 jumpf
+
+;	  lsp rmenu_back+1,":a;bmp\r_click\cha_tati\kan_face.bmp",-230,10,100	
+	  lsp rmenu_back+1,":a;bmp\r_click\cha_tati\kan_face.bmp",-180,0,60	
+	  lsp rmenu_btn1,":a;bmp\r_click\cha_tati\KAN.bmp",90,%Free1 ;ã‡êXã`êm
+	  lsp rmenu_back,":a;bmp\r_click\text\cha\kan_1.bmp",%Free2,%Free3 ;ã‡êXã`êmtext
+  ~
+  notif %tips_cha_view = 4 jumpf
+
+	  lsp rmenu_back+1,":a;bmp\r_click\cha_tati\hok_face.bmp",-100,-90,60	
+	  lsp rmenu_btn1,":a;bmp\r_click\cha_tati\HOK.bmp",100,%Free1 ;ï€åíÇÃêÊê∂
+	  lsp rmenu_back,":a;bmp\r_click\text\cha\hok_1.bmp",%Free2,%Free3 ;ï€åíÇÃêÊê∂text
+  ~
+  notif %tips_cha_view = 5 jumpf
+
+	  lsp rmenu_back+1,":a;bmp\r_click\cha_tati\non_face.bmp",-50,-60,60	
+	  lsp rmenu_btn1,":a;bmp\r_click\cha_tati\NON.bmp",130,%Free1 ;ñÏÅXã{ïê
+	  lsp rmenu_back,":a;bmp\r_click\text\cha\non_1.bmp",%Free2,%Free3 ;ñÏÅXã{ïêtext
+  ~
+  notif %tips_cha_view = 6 jumpf
+
+	  lsp rmenu_back+1,":a;bmp\r_click\cha_tati\kou_face.bmp",-300,-100,60	
+	  lsp rmenu_btn1,":a;bmp\r_click\cha_tati\KOU.bmp",60,%Free1 +1 ;çZí∑êÊê∂
+	  lsp rmenu_back,":a;bmp\r_click\text\cha\kou_1.bmp",%Free2,%Free3 ;çZí∑êÊê∂text
+  ~
+  notif %tips_cha_view = 7 jumpf
+
+	  lsp rmenu_back+1,":a;bmp\r_click\cha_tati\yo2_face.bmp",-230,0,70	
+	  lsp rmenu_btn1,":a;bmp\r_click\cha_tati\yo2.bmp",130,%Free1 ;è¿ìcózéqÅiéÄñSver.Åj
+	  lsp rmenu_back,":a;bmp\r_click\text\cha\yo2_1.bmp",%Free2,%Free3 ;è¿ìcózéqÅiéÄñSver.Åjtext
+  ~
+  notif %tips_cha_view = 8 jumpf
+	  lsp rmenu_back+1,":a;bmp\r_click\cha_tati\mid_face.bmp",-160,-30,80	
+
+	  lsp rmenu_btn1,":a;bmp\r_click\cha_tati\mid.bmp",90,%Free1 ;ìÌñÿÇ›Ç«ÇË
+	  lsp rmenu_back,":a;bmp\r_click\text\cha\mid_1.bmp",%Free2,%Free3 ;ìÌñÿÇ›Ç«ÇË_text
+  ~
+  notif %tips_cha_view = 9 jumpf
+	  lsp rmenu_back+1,":a;bmp\r_click\cha_tati\sin_face.bmp",-200,-50,70	
+;	  lsp rmenu_btn1,":a;bmp\r_click\cha_tati\sin.bmp",55,%Free1 ;çgíÉêaém
+	  lsp rmenu_btn1,":a;bmp\r_click\cha_tati\sin.bmp",100,%Free1 ;çgíÉêaém
+	  lsp rmenu_back,":a;bmp\r_click\text\cha\sin_1.bmp",%Free2,%Free3 ;çgíÉêaém_text
+  ~
+
+  notif %tips_cha_view = 10 jumpf
+
+	  lsp rmenu_back+1,":a;bmp\r_click\cha_tati\mit_face.bmp",-200,-120,50	
+	  lsp rmenu_btn1,":a;bmp\r_click\cha_tati\mit.bmp",70,%Free1 ;ç˜ìcÇ›ÇøÇÈ
+	  lsp rmenu_back,":a;bmp\r_click\text\cha\mit_1.bmp",%Free2,%Free3 ;ç˜ìcÇ›ÇøÇÈtext
+  ~
+  notif %tips_cha_view = 11 jumpf
+
+	  lsp rmenu_back+1,":a;bmp\r_click\cha_tati\sak_face.bmp",-210,-200,70
+	 	lsp rmenu_btn1,":a;bmp\r_click\cha_tati\sak.bmp",45,%Free1 ;Ç≥Ç≠ÇÃÇµÇÒ
+	  lsp rmenu_back,":a;bmp\r_click\text\cha\sak_1.bmp",%Free2,%Free3 ;Ç≥Ç≠ÇÃÇµÇÒtext
+  ~
+
+  notif %tips_cha_view = 12 jumpf
+
+	  lsp rmenu_back+1,":a;bmp\r_click\cha_tati\hik_face.bmp",-50,-120,70	
+	  lsp rmenu_btn1,":a;bmp\r_click\cha_tati\HIK.bmp",125,%Free1 ;ìÒïrÇ–Ç©ÇÈ
+	  lsp rmenu_back,":a;bmp\r_click\text\cha\hik_1.bmp",%Free2,%Free3 ;ìÒïrÇ–Ç©ÇÈtext
+  ~
+
+  notif %tips_cha_view = 13 jumpf
+
+	  lsp rmenu_back+1,":a;bmp\r_click\cha_tati\ham_face.bmp",-210,-50,50	
+	  lsp rmenu_btn1,":a;bmp\r_click\cha_tati\HAM.bmp",55,%Free1 ;ÉnÉÅÉãÉì
+	  lsp rmenu_back,":a;bmp\r_click\text\cha\ham_1.bmp",%Free2,%Free3 ;ÉnÉÅÉãÉìtext
+  ~
+  notif %tips_cha_view = 14 jumpf
+
+	  lsp rmenu_back+1,":a;bmp\r_click\cha_tati\you_face.bmp",-150,-80,70	
+	  lsp rmenu_btn1,":a;bmp\r_click\cha_tati\YOU.bmp",90,%Free1 ;è¿ìcózéqÅiê∂ë∂ver.Åj
+	  lsp rmenu_back,":a;bmp\r_click\text\cha\you_1.bmp",%Free2,%Free3 ;è¿ìcózéqÅiê∂ë∂ver.Åjtext
+  ~
+
+;**********************************************************************************
+  notif %tips_cha_view = 15 jumpf
+
+	  lsp rmenu_back+1,":a;bmp\r_click\cha_tati\yuk_face.bmp",-40,-90,70	
+	  lsp rmenu_btn1,":a;bmp\r_click\cha_tati\yuk.bmp",135,%Free1 ;çÂóRçÅó¢
+	  lsp rmenu_back,":a;bmp\r_click\text\cha\yuk_1.bmp",%Free2,%Free3 ;çÂtext
+  ~
+  notif %tips_cha_view = 16 jumpf
+
+	  lsp rmenu_back+1,":a;bmp\r_click\cha_tati\smi_face.bmp",-150,-90,70	
+	  lsp rmenu_btn1,":a;bmp\r_click\cha_tati\smi.bmp",86,%Free1 
+	  lsp rmenu_back,":a;bmp\r_click\text\cha\sum_1.bmp",%Free2,%Free3 
+  ~
+  notif %tips_cha_view = 17 jumpf
+
+	  lsp rmenu_back+1,":a;bmp\r_click\cha_tati\sm2_face.bmp",-450,-70,70		
+	  lsp rmenu_btn1,":a;bmp\r_click\cha_tati\sm2.bmp",42,%Free1 
+	  lsp rmenu_back,":a;bmp\r_click\text\cha\su2_1.bmp",%Free2,%Free3 
+  ~
+return
+
+; start pasting automatically generated glossary code here
+
+;*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-
+*EN_glossary_button_mode ;Button press handling routine
+;*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-
+
+; Depending on the current page and the last button pressed, will display the appropriate glossary term.
+
+
+return
+
+; end pasting automatically generated glossary code here
+
+;*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-
+*glossary_mode_end ;Post-processing
+;*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-
+   ;Let's clean up after ourselves
+   csp -1                               ;Clear sprite memory
+   btndef ""                            ;CLear button memory
+
+   setwindow 31,16,22,16,26,26,0,2,20,1,1,#999999,0,0,639,479
+   erasetextwindow 1
+   rmode 1
+   mono 0
+                                    
+	E_A
+	seplay 9,82
+	print 1
+   	cl a,1
+	texton
+	if %monoflg = 1 mono 1
+	if %monoflg = 2 mono 2
+	wait 1000
+   mov %title_skip,1
+reset
+;*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-

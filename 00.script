@@ -534,6 +534,10 @@ numalias RG_move_speed,%0 : inc %0
 numalias tips_cha_max,%0 : inc %0 ;TIPSのキャラ数
 numalias tips_cha_view,%0 : inc %0 ;TIPSのテキスト数
 
+;Glossary
+numalias EN_glossary_page_max,%0 : inc %0 ;Maximum number of pages in the glossary
+numalias EN_glossary_page_view,%0 : inc %0 ;Page at which glossary opens at
+
 
 
 ;flg
