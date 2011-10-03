@@ -14,3 +14,5 @@
 13 line29363to30856 CHAPTER 7
 14 line30857to44289 FOOTER
 compile.bat //Creates 0.txt, which can be turned into nscript.dat
+
+Add scripts in the order you want them compiled in scripts.txt.
