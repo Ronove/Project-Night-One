@@ -1,7 +1,7 @@
 @ECHO off
 
 ECHO Exporting scripts...
-export_scripts.exe scripts.txt compile_scripts.bat
+tools\export_scripts\export_scripts.exe scripts.txt tools\export_scripts\compile_scripts.bat
 
 ECHO Compiling scripts...
-compile_scripts.bat>NUL
+tools\export_scripts\compile_scripts.bat>NUL
