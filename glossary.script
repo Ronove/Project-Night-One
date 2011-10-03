@@ -1,5 +1,7 @@
 
 
+
+;a few line skips at the start are important to deal with people who don't put a newline at the end of their file.
 *EN_glossary
    E_A                                 ;Stop currently playing song
    setwindow 31,16,22,16,22,22,0,2,20,1,1,#ffffff,0,0,639,479
@@ -22,7 +24,6 @@
 	rnd2 %ran,1,2
 	if %ran = 1 mov $BGM_Play,"bgm0\d_7.ogg": mov %Set_vol,85 : gosub *BGM_Play_Mord
 	if %ran = 2 mov $BGM_Play,"bgm0\d_10.ogg": mov %Set_vol,75  : gosub *BGM_Play_Mord
-;	if %ran = 3 mov $BGM_Play,"bgm0\d_25.ogg" : mov %Set_vol,75 : gosub *BGM_Play_Mord
 ~
 
 *EN_glossary_loop_1
@@ -53,8 +54,6 @@
 
 reset
 
-
-
 ;*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-
 ;Subroutine for processing a back button push (going -1 page)
 ;*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-
@@ -75,10 +74,6 @@ return
 	  if %EN_glossary_page_view = %EN_glossary_page_max + 1 : mov %EN_glossary_page_view,1
 return
 
-
-
-
-
 ;*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-
 *EN_glossary_page_mode ;Page switch routine
 ;*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-
@@ -90,117 +85,7 @@ return
   mov %Free2,345 ;X coordinate of text
   mov %Free3,50 ;Y coordinate of text
 
- notif %tips_cha_view = 1 jumpf
-
-	  lsp rmenu_back+1,":a;bmp\r_click\cha_tati\mar_face.bmp",-60,-100,70	
-
-	  lsp rmenu_btn1,":a;bmp\r_click\cha_tati\MAR.bmp",135,%Free1 ;Ÿ{}
-	  lsp rmenu_back,":a;bmp\r_click\text\cha\mar_1.bmp",%Free2,%Free3 ;Ÿ{}text
-	  ;irmenu_btn1‚ÍƒLƒƒƒ‰‚ğ‰EƒNƒŠƒbƒN‚ÅƒLƒƒƒ‰‚·‚é‹¤’ÊƒXƒvƒ‰ƒCƒg”Ô†‚Å‚·j
-  ~
-   notif %tips_cha_view = 2 jumpf
-
-
-	  lsp rmenu_back+1,":a;bmp\r_click\cha_tati\hig_face.bmp",-315,-50,70	
-	  lsp rmenu_btn1,":a;bmp\r_click\cha_tati\HIG.bmp",35,%Free1 ;”ŞŠİ‰Ô
-	  lsp rmenu_back,":a;bmp\r_click\text\cha\hig_1.bmp",%Free2,%Free3 ;”ŞŠİ‰Ôtext
-  ~
-  notif %tips_cha_view = 3 jumpf
-
-;	  lsp rmenu_back+1,":a;bmp\r_click\cha_tati\kan_face.bmp",-230,10,100	
-	  lsp rmenu_back+1,":a;bmp\r_click\cha_tati\kan_face.bmp",-180,0,60	
-	  lsp rmenu_btn1,":a;bmp\r_click\cha_tati\KAN.bmp",90,%Free1 ;‹àX‹`m
-	  lsp rmenu_back,":a;bmp\r_click\text\cha\kan_1.bmp",%Free2,%Free3 ;‹àX‹`mtext
-  ~
-  notif %tips_cha_view = 4 jumpf
-
-	  lsp rmenu_back+1,":a;bmp\r_click\cha_tati\hok_face.bmp",-100,-90,60	
-	  lsp rmenu_btn1,":a;bmp\r_click\cha_tati\HOK.bmp",100,%Free1 ;•ÛŒ’‚Ìæ¶
-	  lsp rmenu_back,":a;bmp\r_click\text\cha\hok_1.bmp",%Free2,%Free3 ;•ÛŒ’‚Ìæ¶text
-  ~
-  notif %tips_cha_view = 5 jumpf
-
-	  lsp rmenu_back+1,":a;bmp\r_click\cha_tati\non_face.bmp",-50,-60,60	
-	  lsp rmenu_btn1,":a;bmp\r_click\cha_tati\NON.bmp",130,%Free1 ;–ìX‹{•
-	  lsp rmenu_back,":a;bmp\r_click\text\cha\non_1.bmp",%Free2,%Free3 ;–ìX‹{•text
-  ~
-  notif %tips_cha_view = 6 jumpf
-
-	  lsp rmenu_back+1,":a;bmp\r_click\cha_tati\kou_face.bmp",-300,-100,60	
-	  lsp rmenu_btn1,":a;bmp\r_click\cha_tati\KOU.bmp",60,%Free1 +1 ;Z’·æ¶
-	  lsp rmenu_back,":a;bmp\r_click\text\cha\kou_1.bmp",%Free2,%Free3 ;Z’·æ¶text
-  ~
-  notif %tips_cha_view = 7 jumpf
-
-	  lsp rmenu_back+1,":a;bmp\r_click\cha_tati\yo2_face.bmp",-230,0,70	
-	  lsp rmenu_btn1,":a;bmp\r_click\cha_tati\yo2.bmp",130,%Free1 ;À“c—zqi€–Sver.j
-	  lsp rmenu_back,":a;bmp\r_click\text\cha\yo2_1.bmp",%Free2,%Free3 ;À“c—zqi€–Sver.jtext
-  ~
-  notif %tips_cha_view = 8 jumpf
-	  lsp rmenu_back+1,":a;bmp\r_click\cha_tati\mid_face.bmp",-160,-30,80	
-
-	  lsp rmenu_btn1,":a;bmp\r_click\cha_tati\mid.bmp",90,%Free1 ;“í–Ø‚İ‚Ç‚è
-	  lsp rmenu_back,":a;bmp\r_click\text\cha\mid_1.bmp",%Free2,%Free3 ;“í–Ø‚İ‚Ç‚è_text
-  ~
-  notif %tips_cha_view = 9 jumpf
-	  lsp rmenu_back+1,":a;bmp\r_click\cha_tati\sin_face.bmp",-200,-50,70	
-;	  lsp rmenu_btn1,":a;bmp\r_click\cha_tati\sin.bmp",55,%Free1 ;g’ƒam
-	  lsp rmenu_btn1,":a;bmp\r_click\cha_tati\sin.bmp",100,%Free1 ;g’ƒam
-	  lsp rmenu_back,":a;bmp\r_click\text\cha\sin_1.bmp",%Free2,%Free3 ;g’ƒam_text
-  ~
-
-  notif %tips_cha_view = 10 jumpf
-
-	  lsp rmenu_back+1,":a;bmp\r_click\cha_tati\mit_face.bmp",-200,-120,50	
-	  lsp rmenu_btn1,":a;bmp\r_click\cha_tati\mit.bmp",70,%Free1 ;÷“c‚İ‚¿‚é
-	  lsp rmenu_back,":a;bmp\r_click\text\cha\mit_1.bmp",%Free2,%Free3 ;÷“c‚İ‚¿‚étext
-  ~
-  notif %tips_cha_view = 11 jumpf
-
-	  lsp rmenu_back+1,":a;bmp\r_click\cha_tati\sak_face.bmp",-210,-200,70
-	 	lsp rmenu_btn1,":a;bmp\r_click\cha_tati\sak.bmp",45,%Free1 ;‚³‚­‚Ì‚µ‚ñ
-	  lsp rmenu_back,":a;bmp\r_click\text\cha\sak_1.bmp",%Free2,%Free3 ;‚³‚­‚Ì‚µ‚ñtext
-  ~
-
-  notif %tips_cha_view = 12 jumpf
-
-	  lsp rmenu_back+1,":a;bmp\r_click\cha_tati\hik_face.bmp",-50,-120,70	
-	  lsp rmenu_btn1,":a;bmp\r_click\cha_tati\HIK.bmp",125,%Free1 ;“ñ•r‚Ğ‚©‚é
-	  lsp rmenu_back,":a;bmp\r_click\text\cha\hik_1.bmp",%Free2,%Free3 ;“ñ•r‚Ğ‚©‚étext
-  ~
-
-  notif %tips_cha_view = 13 jumpf
-
-	  lsp rmenu_back+1,":a;bmp\r_click\cha_tati\ham_face.bmp",-210,-50,50	
-	  lsp rmenu_btn1,":a;bmp\r_click\cha_tati\HAM.bmp",55,%Free1 ;ƒnƒƒ‹ƒ“
-	  lsp rmenu_back,":a;bmp\r_click\text\cha\ham_1.bmp",%Free2,%Free3 ;ƒnƒƒ‹ƒ“text
-  ~
-  notif %tips_cha_view = 14 jumpf
-
-	  lsp rmenu_back+1,":a;bmp\r_click\cha_tati\you_face.bmp",-150,-80,70	
-	  lsp rmenu_btn1,":a;bmp\r_click\cha_tati\YOU.bmp",90,%Free1 ;À“c—zqi¶‘¶ver.j
-	  lsp rmenu_back,":a;bmp\r_click\text\cha\you_1.bmp",%Free2,%Free3 ;À“c—zqi¶‘¶ver.jtext
-  ~
-
-;**********************************************************************************
-  notif %tips_cha_view = 15 jumpf
-
-	  lsp rmenu_back+1,":a;bmp\r_click\cha_tati\yuk_face.bmp",-40,-90,70	
-	  lsp rmenu_btn1,":a;bmp\r_click\cha_tati\yuk.bmp",135,%Free1 ;å—R—¢
-	  lsp rmenu_back,":a;bmp\r_click\text\cha\yuk_1.bmp",%Free2,%Free3 ;åtext
-  ~
-  notif %tips_cha_view = 16 jumpf
-
-	  lsp rmenu_back+1,":a;bmp\r_click\cha_tati\smi_face.bmp",-150,-90,70	
-	  lsp rmenu_btn1,":a;bmp\r_click\cha_tati\smi.bmp",86,%Free1 
-	  lsp rmenu_back,":a;bmp\r_click\text\cha\sum_1.bmp",%Free2,%Free3 
-  ~
-  notif %tips_cha_view = 17 jumpf
-
-	  lsp rmenu_back+1,":a;bmp\r_click\cha_tati\sm2_face.bmp",-450,-70,70		
-	  lsp rmenu_btn1,":a;bmp\r_click\cha_tati\sm2.bmp",42,%Free1 
-	  lsp rmenu_back,":a;bmp\r_click\text\cha\su2_1.bmp",%Free2,%Free3 
-  ~
+ 
 return
 
 ; start pasting automatically generated glossary code here
