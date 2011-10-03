@@ -21,6 +21,7 @@ ECHO.
 
 ECHO Copying nscript.dat into /export
 REM move the created nscript to the export directory
+del export\nscript.dat
 MOVE nscript.dat export\>NUL
 ECHO Done.
 ECHO.
