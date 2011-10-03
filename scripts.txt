@@ -7,4 +7,4 @@ Chapter5.script
 Chapter6.script
 Chapter7.script
 glossary.script
-last.script
+FOOTER.script
