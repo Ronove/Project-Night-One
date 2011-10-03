@@ -9917,7 +9917,7 @@ print 0
 
 	if %BtnRes = t_btn_start_lsp : cell t_btn_start_lsp,1 : print 1:btndef "" : goto *start_sub_menu
 	if %BtnRes = t_btn_web_lsp seplay 9,80 : menu_window : shell "http://07th-expansion.net"
-	if %BtnRes = t_btn_glos_lsp cell t_btn_glos_lsp,1 : print 1:btndef "" : goto *glossary
+	if %BtnRes = t_btn_glos_lsp cell t_btn_glos_lsp,1 : print 1:btndef "" : goto *EN_glossary
 	if %BtnRes = t_btn_tips_lsp cell t_btn_tips_lsp,1 : print 1:btndef "" : goto *tips
 	if %BtnRes = t_btn_exit_lsp seplay 9,80 : seplay 9,79 : csp -1 : bg black,2 : wait 3000 : end
 	if %BtnRes = t_btn_music_lsp btndef "" : goto *bgm_mode
