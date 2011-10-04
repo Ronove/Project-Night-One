@@ -4179,7 +4179,7 @@ mld l,NON_Def5a,80
 mld r,HIG_Def2,80
 
 ;「あらあら、情けない。@………じゃあ、お家でお茶をご馳走してよ。@…そうそう、あなたはカメラが趣味なんでしょう？@　あなたが撮ってきた写真のアルバムが見たい。@それをお礼代わりにしたいわ。」\
-`"Oh my, you poor guy. `@`...Well then, let's have some tea at your place. `@`...Oh yeah, you're interested in the camera aren't you? `@`I'd like to come see the picture albums you've taken with it. `@`That is what I want in return."`\
+`"Oh my, you poor guy. `@`...Well then, let's have some tea at your place. `@`...Oh yeah, you're interested in the camera aren't you? `@`I'd like to come see the photo albums you've taken with it. `@`That is what I want in return."`\
 
 mld l,NON_Def1,80
 
@@ -4616,7 +4616,7 @@ ld r,HIG_w3,80
 E_A
 
 ;「ふぅん。@………つまらないわね。」@
-`"Hmmm. `@`......How dull."`@`
+`"Hmmm. `@`......How boring."`@`
 
 ld l,NON_Def5,80
 
@@ -4632,38 +4632,48 @@ br
 bg black,22
 ;ld l,HIG_Def1,80
 
-「カメラを手にとったばかりの頃のあなたは、剃刀のように鋭くて、@触れるもの触れるものを皆、切り裂いてしまうような男の子だったのに。@あの頃のあなた、結構、私は気に入っていたのよ…？」@
+;「カメラを手にとったばかりの頃のあなたは、剃刀のように鋭くて、@触れるもの触れるものを皆、切り裂いてしまうような男の子だったのに。@あの頃のあなた、結構、私は気に入っていたのよ…？」@
+`"When you first took up your camera, like sharpening a razor, `@`you were a boy who slashed everything he touched and somehow. `@`That side of you greatly interests me...?"`@
 br
-　それはきっと、褒められたことにはなっていない。\
+;　それはきっと、褒められたことにはなっていない。\
+`　Surely, she wasn't praising me.`\
 
 ;ld r,NON_Def1,80
 
-「……それは…、…多分、あの事件の後だったんで、色々とイラついていたんだと思います。」\
+;「……それは…、…多分、あの事件の後だったんで、色々とイラついていたんだと思います。」\
+`"...Well... ...After that incident, I think I started to get fed up with all sorts of things."`\
 
 ;ld l,HIG_Def1,80
 
-「その怨嗟は、どうして収まったのかしら？」@
+;「その怨嗟は、どうして収まったのかしら？」@
+`"I wonder, how did that resentment go away?"`@
 
 ;ld r,NON_Def1,80
 
-「だから何度も言ってるように、……時間が解決してくれたわけで…。@いつの間にか、何となくどうでもいいことになって…。」\
+;「だから何度も言ってるように、……時間が解決してくれたわけで…。@いつの間にか、何となくどうでもいいことになって…。」\
+`"As I keep saying... in time it resolved itself... `@`Before I knew it, I didn't care anymore about it..."`\
 
 me1v 17,50
 
-「いつ頃、どんな風にしてどうでもいいことになったのか、……忘レチャッタノ…？」\
+;「いつ頃、どんな風にしてどうでもいいことになったのか、……忘レチャッタノ…？」\
+`"When, how, why did it no longer matter? ...Did you j u s t  f o r g e t ...?"`\
 
 ;bg black,24
 bg ie_02u,22
 ld c,HIG_Def2,6
 
-　彼岸花が、アルバムを持ったまま、ゆらりと立ち上がる……。@
+;　彼岸花が、アルバムを持ったまま、ゆらりと立ち上がる……。@
+`　Holding an album, Higanbana slowly stood up...`@`
 br
-　そして、ページを捲って広げ、そこにある何でもない写真の群を僕に見せつけた。\
+;　そして、ページを捲って広げ、そこにある何でもない写真の群を僕に見せつけた。\
+`　And spreading the pages before me, she called my attention to a group of unremarkable photos.`\
 
 ld c,HIG_Def3,80
 
-　いや、それははまるで、アルバムを開き切って左右に千切ろうとするかのよう。@
-　とあるページの狭間を引き千切らんばかりに僕に見せ付ける。\
+;　いや、それははまるで、アルバムを開き切って左右に千切ろうとするかのよう。@
+`　No, it was as if she were about to tear the album in half.`@
+;　とあるページの狭間を引き千切らんばかりに僕に見せ付ける。\
+`　She showed me the threshold of the pages as she tore the pages apart.`\
 
 se1 66
 
@@ -4679,14 +4689,16 @@ print 22
 
 me2v 28,90
 
-「……ここまでが、怨嗟に塗れて糸を引きそうな写真たち。@……そしてここからが、白昼夢に寝惚けたような鈍らな写真たち。」\
+;「……ここまでが、怨嗟に塗れて糸を引きそうな写真たち。@……そしてここからが、白昼夢に寝惚けたような鈍らな写真たち。」\
+`"...Up until this page, we have the lingering photos smeared with resentment. `@`...And from then on, we have the dull daydreaming photos."`\
 
 ld_p HIG_w6
 lsp2 2,$ld_pass,130,380,200,200,0
 lsp2 3,$ld_pass2,130,380,200,200,0
 print 80
 
-「………ねぇ、このページとこのページの間に、何があったの…？@　忘　レ　チ　ャ　ッ　タ　ノ　…？」\
+;「………ねぇ、このページとこのページの間に、何があったの…？@　忘　レ　チ　ャ　ッ　タ　ノ　…？」\
+`"...Hey~, what was in these pages, I wonder...? `@` D i d  y o u  f o r g e t  ...?"`\
 
 csp2 -1
 ;bg black,28
@@ -4696,12 +4708,16 @@ se1v 84,90
 bg aka1,1
 quake 5,500
 
-　くすくすくすくすくすくす、くすくすくすくすくすくす…！@
+;　くすくすくすくすくすくす、くすくすくすくすくすくす…！@
+`　Hahahahahahahaha, hahahahahahahahaha...!`@`
 br
-　ぎりぎりぎりぎりぎりぎり、ぎりぎりぎりぎりぎりぎり…！\
+;　ぎりぎりぎりぎりぎりぎり、ぎりぎりぎりぎりぎりぎり…！\
+`　Huhuhuhuhuhuhuhu, huhuhuhuhuhuhuhu...!`\
 
-　彼岸花の笑い声が、幾層にも幾層にも重なって聞こえる…。@アルバムが引き千切られそうになってあげる悲鳴が重なって聞こえる。@
-　それはまるで、伽藍の中で反響する鐘の音に翻弄されるような気持ちだった。\
+;　彼岸花の笑い声が、幾層にも幾層にも重なって聞こえる…。@アルバムが引き千切られそうになってあげる悲鳴が重なって聞こえる。@
+`　I could feel the weight of Higanbana's laughter piling up layer upon layer... `@`I could hear my own scream from having my album torn apart stacked up as well.`@`
+;　それはまるで、伽藍の中で反響する鐘の音に翻弄されるような気持ちだった。\
+`　It felt like a reverberation not unlike someone playing with the bell tolls in a temple.`\
 
 bg black,0
 
@@ -4714,16 +4730,19 @@ print 99,2000,"trvswave.dll/l"
 
 me3v 3,90
 
-　なぜか体がぐらりと揺れて、部屋全体もまるで、水の中で見たような感じにぐにゃりと歪む…。@
+;　なぜか体がぐらりと揺れて、部屋全体もまるで、水の中で見たような感じにぐにゃりと歪む…。@
+`　For some reason my body shook, and it felt like I was seeing the whole room from underwater as my vision blurred into mud...`@`
 br
-　そんなぐにゃぐにゃの世界にいて、自身もぐにゃぐにゃのはずなのに、@姿勢を崩しもせず優雅に立ったままの彼女は言う。@……いや、嗤う。\
+;　そんなぐにゃぐにゃの世界にいて、自身もぐにゃぐにゃのはずなのに、@姿勢を崩しもせず優雅に立ったままの彼女は言う。@……いや、嗤う。\
+`　Even within that blurred reality, `@`her form unaltered, with grace she stood and spoke. `@`...No, laughed.`\
 
 ld c,HIG_w6,0
 print 99,2000,"trvswave.dll/l"
 
 ;ld c,HIG_Def1,80
 
-「あんなにも怒りの怨嗟を吼え猛ったあなたが、どうやってそれを忘れられたというの…？@　忘れられたはずもない。@それをどうして忘れることができたのか、……。@……ねぇ、あなたも写真を見ないと、思　イ　出　セ　ナ　イ　ノ　…？」\
+;「あんなにも怒りの怨嗟を吼え猛ったあなたが、どうやってそれを忘れられたというの…？@　忘れられたはずもない。@それをどうして忘れることができたのか、……。@……ねぇ、あなたも写真を見ないと、思　イ　出　セ　ナ　イ　ノ　…？」\
+`"Even after you howling with such rage, how could you forget...? `@`There's no way you could forget. `@`So how did you forget? ...`@` ...Well? If you don't look at your own photos, how will you r e m e m b e r ...?"\
 
 
 
@@ -4740,12 +4759,16 @@ print 99,2000,"trvswave.dll/l"
 se1v 13,50
 quakey 1,100
 
-　ばさり。@
+;　ばさり。@
+`　Crash.`@`
 br
-　彼女が開いたままにして突きつけているそのアルバムから、……何枚かの写真が零れ落ちた。@
-　どこのページから零れ落ちたものかはわからない。\
+;　彼女が開いたままにして突きつけているそのアルバムから、……何枚かの写真が零れ落ちた。@
+`　As she opened it, from the albums she thrust at me... countless photos spilled out.`@`
+;　どこのページから零れ落ちたものかはわからない。\
+`　I couldn't tell from which pages they fell from.`\
 
-　そして、彼女はただアルバムを持っているだけで、振ったりしているわけでもないのに、@……まるで湧き出して溢れる泉のように、ばさり、ばさりと、どこかのページの隙間から写真が次々と零れ落ちていく。\
+;　そして、彼女はただアルバムを持っているだけで、振ったりしているわけでもないのに、@……まるで湧き出して溢れる泉のように、ばさり、ばさりと、どこかのページの隙間から写真が次々と零れ落ちていく。\
+`　Even though she wasn't swinging it around the album she held, `@`...it was as if a spring were gushing forth, crash crash spilled forth the pages one after another from pages unknown.`\
 
 se1v 13,50
 quakey 2,200
@@ -4755,19 +4778,25 @@ se2v 13,50
 quakey 2,200
 se3v 13,70
 quakey 3,200
-　ばさり、ばさりばさり。@
+;　ばさり、ばさりばさり。@
+`　Crash, crash crash.`@`
 br
-　それらの写真はまるで、滴り落ちた水滴が床に水溜りを作るかのように、……写真の水溜りを作っていく…。\
+;　それらの写真はまるで、滴り落ちた水滴が床に水溜りを作るかのように、……写真の水溜りを作っていく…。\
+`　Just like a leak would make a puddle of water on the floor, ...it was as if the photos began to make their own pool...`\
 
 
 
-　その写真は、……一見しただけでわかる。@
+;　その写真は、……一見しただけでわかる。@
+`　Those photos... with a single glance I knew what they were.`@`
 br
-　そうさ、断じて、僕が撮影したものではない。\
+;　そうさ、断じて、僕が撮影したものではない。\
+`　Of course, none of those photos were things I had taken photos of.`\
 
-　だって、僕は撮影した写真は、全て全て、覚　エ　テ　イ　ル。@
+;　だって、僕は撮影した写真は、全て全て、覚　エ　テ　イ　ル。@
+`　I mean, the photos I did take, I remember every s i n g l e  o n e.`@`
 br
-　覚えていない写真ならば、僕が撮ったものではないのだ…！\
+;　覚えていない写真ならば、僕が撮ったものではないのだ…！\
+`　If I didn't remember them, then they weren't my photos...!`\
 
 se2v 13,50
 quakey 2,200
@@ -4776,29 +4805,35 @@ quakey 3,200
 
 ;ld c,HIG_Def1,80
 
-　なのに彼岸花はそんな僕を嘲笑いながら、なおも、アルバムから写真を零し続けている。@
+;　なのに彼岸花はそんな僕を嘲笑いながら、なおも、アルバムから写真を零し続けている。@
+`　And yet, while Higanbana sneered at me, she kept spilling even more photos from the album.`@`
 br
-　まだ思い出せないの？@　と呟きながら、不気味に笑って……。\
+;　まだ思い出せないの？@　と呟きながら、不気味に笑って……。\
+`　Do you still not remember? `@`she muttered with an ominous smile...`\
 
 ld c,HIG_w4,80
 
-「悔しかったのよね、あなたは。@自らに過失のあることだったなら、いくらでも受け容れることはできたでしょう。@でも、身に覚えがないばかりか、明らかに犯人は目の前にいたのに、@その濡れ衣を着せられたことは、腸が煮えくり返るほどに悔しかったのよね…？@　だからあなたは憎くて憎くて、悔しくて悔しくて、恨めしくて恨めしくて。@カメラを凶器に、その怒りを晴らしたいと思ったのよね。@それで、あなたはどうしたんだったかしら…？」\
+;「悔しかったのよね、あなたは。@自らに過失のあることだったなら、いくらでも受け容れることはできたでしょう。@でも、身に覚えがないばかりか、明らかに犯人は目の前にいたのに、@その濡れ衣を着せられたことは、腸が煮えくり返るほどに悔しかったのよね…？@　だからあなたは憎くて憎くて、悔しくて悔しくて、恨めしくて恨めしくて。@カメラを凶器に、その怒りを晴らしたいと思ったのよね。@それで、あなたはどうしたんだったかしら…？」\
+`"How painful for you. `@`If you had faults, no matter the number you came to accept them didn't you? `@`You might not remember, but the culprit was clearly right before your eyes and yet, `@`when you were framed, didn't it boil your guts in frustration...? `@`All the while you were hatefully, painfully, bitterly, `@`taking your camera as a weapon, you thought to release that rage didn't you. `@`And then what did you do...?"`\ 
 
 ld l,NON_Def5a,26
 ;ld l,NON_Def1,80
 
-「ど、…どうしたって、……僕が、……何を…！」\
+;「ど、…どうしたって、……僕が、……何を…！」\
+`"...Wh, what do you mean by what did I do? ...I didn't do anything..!!"`\
 
 
 ld c,HIG_w6,80
 
-「くすくすくすくす。@あなたは安息より真実を選ぶと、そう校長に言ったわよね？@　ほら、その真実ならここに溢れているわよ。@御覧なさいよ、あなたの目で。@思い出しなさいよ、あなたの記憶を。@さぁ、ほら。」\
+;「くすくすくすくす。@あなたは安息より真実を選ぶと、そう校長に言ったわよね？@　ほら、その真実ならここに溢れているわよ。@御覧なさいよ、あなたの目で。@思い出しなさいよ、あなたの記憶を。@さぁ、ほら。」\
+`"*giggle giggle giggle*. `@`Didn't you tell the headmaster you'd choose truth over peace? `@`Behold, that truth is overflowing right here. `@`Please take a look with your own eyes. `@`Stir those memories inside you. `@`Well, go on."`\
 
 
 cl c,25
 bg black,22
 
-　彼岸花は足元に広がる写真の水溜りに両手を突っ込むと、@まるで僕に水を掛けるかのように、その写真をばしゃりと掛ける。\
+;　彼岸花は足元に広がる写真の水溜りに両手を突っ込むと、@まるで僕に水を掛けるかのように、その写真をばしゃりと掛ける。\
+`　Higanbana thrust her hands in the pool of photographs stretching around her feet, `@`she tossed them up as if she were splashing water at me.`\
 
 bg white,22
 ;lsp bgsp,":a;bmp\background\efe\a004.bmp",0,0
@@ -4807,12 +4842,16 @@ bg white,22
 ;bgcopy
 ;csp -1
 
-　……僕は、何かを恐れ、それらの写真を正視できない。@
+;　……僕は、何かを恐れ、それらの写真を正視できない。@
+`　...I was afraid of something, I couldn't look directly at those photos.`\
 br
-　でも、それらの写真は、断じて自分のものではない。\
+;　でも、それらの写真は、断じて自分のものではない。\
+`　But those photos couldn't have been mine.`\
 
-　だって、僕はその写真を、覚　エ　テ　イ　ナ　イ　のだから、@僕には何の関係もあるはずはないのだ。@
-　なのに僕は、これを見ることを恐れている…！\
+;　だって、僕はその写真を、覚　エ　テ　イ　ナ　イ　のだから、@僕には何の関係もあるはずはないのだ。@
+`　I mean, I  d o  n o t  r e m e m b e r  them, `@`so they have nothing to do with me.`@`
+;　なのに僕は、これを見ることを恐れている…！\
+`　And yet, I was afraid to look at them...!`\
 
 ;bg black,23
 lsp bgsp,":a;bmp\background\efe\a004.bmp",0,0
@@ -4822,70 +4861,90 @@ ld c,MAR_Def3,22
 bgcopy
 csp -1
 
-　そうさ、あの写真の森谷毬枝は、誰も覚えていなかった。@彼女は確かに存在したのに、誰も覚えていなかった。@
+;　そうさ、あの写真の森谷毬枝は、誰も覚えていなかった。@彼女は確かに存在したのに、誰も覚えていなかった。@
+`　After all, no one remembered Moriya Marie in that photo. `@`Even though she existed, no one remembered her.`@`
 br
-　でも、僕や森谷毬枝の母親は、あの写真を見ることで、彼女の存在を思い出した。\
+;　でも、僕や森谷毬枝の母親は、あの写真を見ることで、彼女の存在を思い出した。\
+`　But whenever anyone like me or Moriya Marie's mother saw the photo, they remembered her.`\
 
 bg black,22
 
-　存在しなかったはずのものが、蘇ったのだ。@
-　それをすでに目の当たりにしているにも関わらず、@……その写真を覚えていないから僕に関係がないと？@
+;　存在しなかったはずのものが、蘇ったのだ。@
+`　It brought back that which shouldn't exist.`@`
+;　それをすでに目の当たりにしているにも関わらず、@……その写真を覚えていないから僕に関係がないと？@
+`　Regardless of already being in front of my eyes, `@`...since I don't remember these photos don't they have nothing to do with me?`@`
 br
-　覚　エ　テ　イ　ナ　イ　なんて、何も当てにならないというのに？！\
+;　覚　エ　テ　イ　ナ　イ　なんて、何も当てにならないというのに？！\
+`　I  d o  n o t  r e m e m b e r, so it doesn't even apply to me?!`\
 
 bg ie_03,22
 ld c,HIG_w5,26
 ;ld c,HIG_Def1,80
 
-「……憎くて悔しくて恨めしくて。@あなたは何をしたんだったか、思い出した…？@　自分の無実を晴らせないなら、@どうやってその怨嗟を晴らすというのかしら…？@　そうよ、あなたは濡れ衣を着せた彼女に仕返しがしたかった。@ねぇ、理科準備室で、あなたの目の前で、@人体解剖模型を倒した彼女をあなたは、覚　エ　テ　ル　？」\
+;「……憎くて悔しくて恨めしくて。@あなたは何をしたんだったか、思い出した…？@　自分の無実を晴らせないなら、@どうやってその怨嗟を晴らすというのかしら…？@　そうよ、あなたは濡れ衣を着せた彼女に仕返しがしたかった。@ねぇ、理科準備室で、あなたの目の前で、@人体解剖模型を倒した彼女をあなたは、覚　エ　テ　ル　？」\
+`"...Hatefully, painfully, bitterly. `@`Do you remember now? What you did...? `@`If you won't dispell your denial, `@`how do you intend to rid yourself of that resentment, I wonder...? `@`That's right, you wanted revenge against that girl who framed you. `@`Hey~, in that science prep room, in front of your very eyes, `@`do you  r e m e m b e r  that girl who knocked down that human dummy?"`\
 
-　……とてもとても悔しかったことは覚えてる。@
+;　……とてもとても悔しかったことは覚えてる。@
+`　...I remember being very very bitter.`@`
 br
-　少女たちが駆け抜けて、人体解剖模型に肩をぶつけて倒して、……彼女と目が合って…。\
+;　少女たちが駆け抜けて、人体解剖模型に肩をぶつけて倒して、……彼女と目が合って…。\
+`　The girls ran away, knocked the dumby's shoulder and it fell over ...then the girl's eyes and mine met...`\
 
 ld c,HIG_w6,80
 
-「彼女の顔、覚　エ　テ　ル　？」\
+;「彼女の顔、覚　エ　テ　ル　？」\
+`"Do you  r e m e m b e r  her face?"`\
 
 bg black,22
 
-　………………覚えていない。@
+;　………………覚えていない。@
+`　......I don't remember.`@`
 
 me4v 16,70
 
 br
-　それが、忘却の彼方に沈んだ為に思い出せないのか、@……森谷毬枝を思い出せなかったように、存在したはずのものを、思　イ　出　セ　ナ　イ　のか、わからない………！\
+;　それが、忘却の彼方に沈んだ為に思い出せないのか、@……森谷毬枝を思い出せなかったように、存在したはずのものを、思　イ　出　セ　ナ　イ　のか、わからない………！\
+`　Maybe because it's because it's sunk into my subconscious, `@`... or perhaps it's like Moriya Marie's case, and it's something that cannot be  r e m e m b e r e d, I don't know anymore......!`\
 
 mono 1
 bg rika_01,28
 
-　確かに理科準備室で僕は彼女と目が合ったんだ…！@
+;　確かに理科準備室で僕は彼女と目が合ったんだ…！@
+`　I'm sure that our eyes met in that science prep room...!`@`
 br
-　彼女は一瞬、しまったという顔をしたんだ。@それはつまり、自分の過失だったことを真っ先に理解したはずなんだ。@
-　なのになのに、しゃあしゃあと僕のせいだと言い出したんだ…！！\
+;　彼女は一瞬、しまったという顔をしたんだ。@それはつまり、自分の過失だったことを真っ先に理解したはずなんだ。@
+`　That moment she made a face as if to say 'oh shoot.' `@`In other words, from the outset she understood she made a mistake.`@`
+;　なのになのに、しゃあしゃあと僕のせいだと言い出したんだ…！！\
+`　And yet, and yet, she shamelessly said I was the one who did it!!...`\
 
-　そしてあんなにも悔しくて悔しくて！@　枕を涙で濡らし、布団を何度も何度も噛んだはずなのに、………でも、思い出せないッ！\
+;　そしてあんなにも悔しくて悔しくて！@　枕を涙で濡らし、布団を何度も何度も噛んだはずなのに、………でも、思い出せないッ！\
+`　And yet it was so frustrating, so frustrating! `@`Soaking my pillow in tears, over and over again I sunk my teeth into my blanket, `@`...and yet, I can't remember!~`\
 
 ;bg black,22
 mono 0
 bg Different_spiral_1a,22
 
-　そんなそんなまさかまさか、じゃあじゃあ、僕はどうして思い出せないんだ？！@　あんなにも憎んでいた相手なら忘れられるわけがないんだ！！@　なのに、僕はどうしてその顔を、………いや、…顔だけなのか？@　名前…、……え？@　あの当時、同じクラスの子じゃなかったっけ……。\
+;　そんなそんなまさかまさか、じゃあじゃあ、僕はどうして思い出せないんだ？！@　あんなにも憎んでいた相手なら忘れられるわけがないんだ！！@　なのに、僕はどうしてその顔を、………いや、…顔だけなのか？@　名前…、……え？@　あの当時、同じクラスの子じゃなかったっけ……。\
+`　It can't be it can't be, but but, why can't I remember?! `@`I had hated her so much, and yet I can't even remember!! `@`How did I forget her face, ...No, ...not just her face? `@`Her name was ... ...eh? `@`Wasn't she a girl from my class? Was she?...`\
 
 ;bg Different_spiral_1b,22
 
-　……え？@　………名前、………………思い出せない……………。@忘れたのか、覚えてないのか、森谷毬枝を忘れていたように、記憶から消されてしまったのか、わからない……ッ！！\
+;　……え？@　………名前、………………思い出せない……………。@忘れたのか、覚えてないのか、森谷毬枝を忘れていたように、記憶から消されてしまったのか、わからない……ッ！！\
+`　...Eh? `@`...Her name was.........I can't remember... `@`Did I forget it? Can I just not remember it? Or maybe just like the way Moriya Marie was forgotten she was erased from my memeory? I just don't know~!!`\
 
-　足元に散らばった、記憶にナイ写真たちが、僕を取り囲み、嘲笑う。@
+;　足元に散らばった、記憶にナイ写真たちが、僕を取り囲み、嘲笑う。@
+`　The photos I DO NOT remember littered at my feet, crowded around me, mocking me.`@`
 br
-　それらの写真は……、……見ちゃ駄目だ…。@だって、こんなにもボケたわけのわからない写真ばかりじゃないか………！！\
+;　それらの写真は……、……見ちゃ駄目だ…。@だって、こんなにもボケたわけのわからない写真ばかりじゃないか………！！\
+`　I mustn't... I musn't look at those photos... `@`I mean, they're nothing but photos that I've stupidly forgotten aren't they...?!!`\
 
 ;bg black,22
 mono 0
 ld c,HIG_Def3,22
 ;ld c,HIG_Def1,80
 
-「彼女のことも、どうか思い出してあげてほしいの。@……彼女の名前は、沼田陽子。@ほら。@……ほらほら、思い出したでしょう？@　ほらほら。@ほらほらほらほらほら。@くすくす。@くすくすくすくすくす。」\
+;「彼女のことも、どうか思い出してあげてほしいの。@……彼女の名前は、沼田陽子。@ほら。@……ほらほら、思い出したでしょう？@　ほらほら。@ほらほらほらほらほら。@くすくす。@くすくすくすくすくす。」\
+`"I'm sure she wants you to remember who she is too. `@`...Her name is Numata Youko (沼田陽子). `@`Come on. `@`Come on come on, you remember now don't you? `@`Come on come on. `@`C'mon c'mon c'mon c'mon. `@`*giggle* `@`*giggle giggle giggle*"`\
 
 se1v 84,100
 
@@ -4894,13 +4953,16 @@ bg aka1,22
 ;ld c,NON_Def1,28
 ;quake 8,800
 
-　沼田陽子の名を聞いた時、@……僕は今日、森谷毬枝の母親がしたのとまったく同じ絶叫をする…。\
+;　沼田陽子の名を聞いた時、@……僕は今日、森谷毬枝の母親がしたのとまったく同じ絶叫をする…。\
+`　When I heard the name Numata Youko, `@`...In the exact same way that Moriya Marie's mother had done so today, I screamed...`\
 ;quake 3,300
 ld c,NON_s1,22
 
-　そうだ…、そういう名だった。@そういう名だった…！！@
+;　そうだ…、そういう名だった。@そういう名だった…！！@
+`　That was it..., that name. `@`It was that name...!!`@`
 br
-　聞いただけで、あの日の怒りが蘇りそうになる…！@　あぁあぁ、こんなにも恨めしいと心に刻み込んだ名前なのに、@……どうしてどうして、今の今まで僕は思い出せなかったというのかッ！！\
+;　聞いただけで、あの日の怒りが蘇りそうになる…！@　あぁあぁ、こんなにも恨めしいと心に刻み込んだ名前なのに、@……どうしてどうして、今の今まで僕は思い出せなかったというのかッ！！\
+`　Just hearing that name seemed to bring back the rage from that day...! `@`AaAaAa, even though that name had etched with such hatred in my heart, `@`...how, how could I have forgotten it until NOW~?!!`\
 
 ;quake 3,300
 ld c,NON_s2,22
