@@ -1,8 +1,28 @@
 Character Trait Translations
-	Japanese	Meaning				Translation
-Higanbana
-	くすくす		Signature Laughter	*giggle*
-	踊る人形		Nickname			"The Doll That Dances"
+	Japanese	Meaning	
+	Translation
+	
 Marie
-	めそめそ		Signature Sobbing	Mesomeso
+	めそめそ		Signature Sobbing
+	Mesomeso
+	
+Higanbana
+	Higanbana has a certain style to the way she talks.
+	Her sentences often end in the femenine style, as well as 'keredo.'
+	Although it's mostly context sensitive, so it's hard to maintain a
+	matching theme to her words.
+	
+	くすくす		Signature Laughter
+	*giggle*	Teehee
+	
+	けれど		Signature sentence ending
+	<Undecided>
+	
+	
+	「踊る人形」		Nickname
+	"The Doll That Dances"
+	
+Headmaster (校長先生)
+	かね			Signature sentence ending
+	Hm?
 	

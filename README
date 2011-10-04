@@ -15,4 +15,4 @@
 14 line30857to44289 FOOTER
 compile.bat //Creates 0.txt, which can be turned into nscript.dat
 
-Add scripts in the order you want them compiled in scripts.txt.
+Editing scripts.txt changes the order and can add more files to the full nscript.
