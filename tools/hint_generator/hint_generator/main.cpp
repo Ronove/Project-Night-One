@@ -1,41 +1,27 @@
-#include <SDL.h>
-#include <SDL_main.h>
-#include <SDL_ttf.h>
-
-#include <fstream>
+#include <iostream>
 #include <string>
-#include <boost/lexical_cast.hpp>
+#include <SDL.h>
 
-#include "Rectangle.h"
-#include "HintPageFactory.h"
-#include "Bitmap.h"
-#include "BitmapSaver.h"
+#include "HintGenerator.h"
 
 int main(int argc, char* argv[])
 {
-	if(argc != 2)
+	try
 	{
-		return -1;
+		if(argc != 2)
+		{
+			throw "Wrong number of arguments";
+		}
+
+		higan::HintGenerator hintGenerator(argv[1]);
+		hintGenerator.process();
+	}
+	catch(std::string errorMsg)
+	{
+		std::cerr << "Fatal error: " << errorMsg << std::endl;
 	}
 
-	std::ifstream inputFile(argv[1]);
-
-	const higan::iRectangle hintPageDimensions(0,0,472/2,386);
-
-	higan::HintPageFactory pageFactory(hintPageDimensions);
-	higan::BitmapSaver bitmapSaver;
-
-	while(!inputFile.eof())
-	{
-		std::string currentLine;
-		std::getline(inputFile,currentLine);
-
-		higan::pBitmap currentBitmap = pageFactory.createHintPage(currentLine);
-		// TODO: grab output filenames from a csv table
-		// bitmapSaver.SaveBitmapToFile(currentBitmap, OUTPUT_FILE_NAME_HERE);
-	}
-
-	bitmapSaver.SaveLog("hint_generator_log.txt");
+	std::cout << "Program ended normally." << std::endl;
 
 	return 0;
 }

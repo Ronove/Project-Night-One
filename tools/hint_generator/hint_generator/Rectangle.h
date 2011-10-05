@@ -12,7 +12,16 @@ namespace higan
 		y(y),
 		w(w),
 		h(h)
-	{	}
+		{	}
+
+		template<class K>
+		Rectangle(const Rectangle<K>& other)
+		{
+			x = other.x;
+			y = other.y;
+			w = other.w;
+			h = other.h;
+		}
 
 		T x;
 		T y;

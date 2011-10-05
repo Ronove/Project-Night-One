@@ -45,9 +45,12 @@
     <ClCompile>
       <WarningLevel>Level3</WarningLevel>
       <Optimization>Disabled</Optimization>
+      <RuntimeLibrary>MultiThreadedDLL</RuntimeLibrary>
     </ClCompile>
     <Link>
       <GenerateDebugInformation>true</GenerateDebugInformation>
+      <IgnoreAllDefaultLibraries>
+      </IgnoreAllDefaultLibraries>
     </Link>
   </ItemDefinitionGroup>
   <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">
@@ -64,13 +67,23 @@
     </Link>
   </ItemDefinitionGroup>
   <ItemGroup>
+    <ClCompile Include="BitmapSaver.cpp" />
+    <ClCompile Include="CSVReader.cpp" />
+    <ClCompile Include="csv_parser.cpp" />
+    <ClCompile Include="HintGenerator.cpp" />
+    <ClCompile Include="HintPageFactory.cpp" />
     <ClCompile Include="main.cpp" />
+    <ClCompile Include="TextReader.cpp" />
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="Bitmap.h" />
     <ClInclude Include="BitmapSaver.h" />
+    <ClInclude Include="CSVReader.h" />
+    <ClInclude Include="csv_parser\csv_parser.hpp" />
+    <ClInclude Include="HintGenerator.h" />
     <ClInclude Include="Rectangle.h" />
     <ClInclude Include="HintPageFactory.h" />
+    <ClInclude Include="TextReader.h" />
   </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
   <ImportGroup Label="ExtensionTargets">

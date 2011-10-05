@@ -10,9 +10,10 @@ namespace higan
 {
 	class HintPageFactory
 	{
+		iRectangle dimensions;
 	public:
 		HintPageFactory(const iRectangle& dimensions);
-		pBitmap createHintPage(const std::string& textInputFilename);
+		pBitmap createBitmap(const std::string& textInputFilename);
 	};
 }
 

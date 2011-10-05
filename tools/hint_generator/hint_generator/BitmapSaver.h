@@ -12,10 +12,7 @@ namespace higan
 	class BitmapSaver
 	{
 	public:
-		void SaveBitmapToFile(pBitmap bitmap, const std::string& filename);
-		void SaveLog(const std::string& filename);
-	protected:
-		std::list<std::pair<std::string,bool> > m_log;
+		void saveBitmapToFile(pBitmap bitmap, const std::string& filename);
 	};
 }
 
