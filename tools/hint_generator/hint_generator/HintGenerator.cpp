@@ -2,6 +2,7 @@
 #include <string>
 
 #include "HintGenerator.h"
+#include "GraphicsContext.h"
 #include "Rectangle.h"
 #include "HintPageFactory.h"
 #include "Bitmap.h"
@@ -17,6 +18,7 @@ namespace higan
 	filename(inputFilename),
 	pageFactory(HintPageDimensions)
 	{
+		GraphicsContext::getSingleton().initScreen(ImageWidth,ImageHeight,"Higanbana Hint Generator",GraphicsContext::SOFTWARE);
 	}
 
 	higan::pBitmap HintGenerator::createBitmap(const std::string& textinput)

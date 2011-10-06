@@ -39,6 +39,15 @@
     <ClCompile Include="csv_parser.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
+    <ClCompile Include="Bitmap.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="GraphicsContext.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="Screen.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="HintPageFactory.h">
@@ -64,6 +73,12 @@
     </ClInclude>
     <ClInclude Include="csv_parser\csv_parser.hpp">
       <Filter>Header Files\csv_parser</Filter>
+    </ClInclude>
+    <ClInclude Include="GraphicsContext.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="Screen.h">
+      <Filter>Header Files</Filter>
     </ClInclude>
   </ItemGroup>
 </Project>

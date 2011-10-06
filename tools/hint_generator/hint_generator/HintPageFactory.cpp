@@ -13,6 +13,8 @@ namespace higan
 	// TODO: Implement routine which creates the actual bitmap from text input
 	pBitmap HintPageFactory::createBitmap(const std::string& textInputFilename)
 	{
-		return pBitmap();
+		pBitmap bitmap(new Bitmap(dimensions));
+
+		return bitmap;
 	}
 }

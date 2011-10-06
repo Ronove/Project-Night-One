@@ -67,12 +67,15 @@
     </Link>
   </ItemDefinitionGroup>
   <ItemGroup>
+    <ClCompile Include="Bitmap.cpp" />
     <ClCompile Include="BitmapSaver.cpp" />
     <ClCompile Include="CSVReader.cpp" />
     <ClCompile Include="csv_parser.cpp" />
+    <ClCompile Include="GraphicsContext.cpp" />
     <ClCompile Include="HintGenerator.cpp" />
     <ClCompile Include="HintPageFactory.cpp" />
     <ClCompile Include="main.cpp" />
+    <ClCompile Include="Screen.cpp" />
     <ClCompile Include="TextReader.cpp" />
   </ItemGroup>
   <ItemGroup>
@@ -80,9 +83,11 @@
     <ClInclude Include="BitmapSaver.h" />
     <ClInclude Include="CSVReader.h" />
     <ClInclude Include="csv_parser\csv_parser.hpp" />
+    <ClInclude Include="GraphicsContext.h" />
     <ClInclude Include="HintGenerator.h" />
     <ClInclude Include="Rectangle.h" />
     <ClInclude Include="HintPageFactory.h" />
+    <ClInclude Include="Screen.h" />
     <ClInclude Include="TextReader.h" />
   </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />

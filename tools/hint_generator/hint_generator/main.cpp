@@ -1,6 +1,6 @@
 #include <iostream>
 #include <string>
-#include <SDL.h>
+#include <SDL_main.h>
 
 #include "HintGenerator.h"
 
@@ -16,7 +16,11 @@ int main(int argc, char* argv[])
 		higan::HintGenerator hintGenerator(argv[1]);
 		hintGenerator.process();
 	}
-	catch(std::string errorMsg)
+	catch(char const* errorMsg)
+	{
+		std::cerr << "Fatal error: " << errorMsg << std::endl;
+	}
+	catch(const std::string& errorMsg)
 	{
 		std::cerr << "Fatal error: " << errorMsg << std::endl;
 	}
