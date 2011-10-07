@@ -6,8 +6,8 @@
 #include "Rectangle.h"
 #include "Bitmap.h"
 
+#include "BitmapGenerator.h"
 #include "HintPageFactory.h"
-#include "BitmapSaver.h"
 #include "CSVReader.h"
 #include "TextReader.h"
 
@@ -19,11 +19,10 @@ namespace higan
 		std::string outputFilename;
 	};
 
-	class HintGenerator
+	class HintGenerator : public BitmapGenerator
 	{
 		std::string filename;
 		higan::HintPageFactory pageFactory;
-		higan::BitmapSaver bitmapSaver;
 		higan::CSVReader csvReader;
 		higan::TextReader textReader;
 

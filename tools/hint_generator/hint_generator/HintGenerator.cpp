@@ -1,12 +1,12 @@
 #include <fstream>
 #include <string>
+#include <cassert>
 
 #include "HintGenerator.h"
 #include "GraphicsContext.h"
 #include "Rectangle.h"
 #include "HintPageFactory.h"
 #include "Bitmap.h"
-#include "BitmapSaver.h"
 
 namespace higan
 {	
@@ -36,12 +36,13 @@ namespace higan
 
 			if(currentLine.size() != 2)
 			{
-				throw "Invalid row size in csv file: " + filename + ". Should be [text input filename, bitmap output filename].";
+				std::string error = "Invalid row size in csv file: " + filename + ". Should be [text input filename, bitmap output filename].";
+				assert(false);
 			}
 
 			std::string textInput = textReader.fileToString(currentLine.at(0));
 			higan::pBitmap bitmap = createBitmap(textInput);
-			bitmapSaver.saveBitmapToFile(bitmap,currentLine.at(1));
+			bitmap->to_BMP(currentLine.at(1));
 		}
 
 		csvReader.closeFile();

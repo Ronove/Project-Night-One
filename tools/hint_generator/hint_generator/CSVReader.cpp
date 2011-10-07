@@ -1,5 +1,7 @@
 #include "csv_parser/csv_parser.hpp"
 
+#include <cassert>
+
 #include "CSVReader.h"
 
 namespace higan
@@ -12,7 +14,8 @@ namespace higan
 
 		if(!success)
 		{
-			throw "Failed to open file: " + filename;
+			std::string error = "Failed to open file: " + filename;
+			assert(false);
 		}
 
 		pParser->set_field_term_char(',');
@@ -29,23 +32,24 @@ namespace higan
 	{
 		if(!pParser)
 		{
-			throw "Tried to get row from an unopened csv file.";
+			std::string error = "Tried to get row from an unopened csv file.";
+			assert(false);
 		}
 		else if(!hasMoreRows())
 		{
-			throw "Tried to get a row from outside a csv file's bounds.";
+			std::string error = "Tried to get a row from outside a csv file's bounds.";
+			assert(false);
 		}
-		else
-		{
-			return pParser->get_row();
-		}
+
+		return pParser->get_row();
 	}
 
 	bool CSVReader::hasMoreRows() const
 	{
 		if(!pParser)
 		{
-			throw "Tried to check if an unopened csv file had more rows";
+			std::string error = "Tried to check if an unopened csv file had more rows";
+			assert(false);
 		}
 
 		return pParser->has_more_rows();

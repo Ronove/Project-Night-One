@@ -5,7 +5,7 @@
 
 #include "GraphicsContext.h"
 
-class SDL_Surface;
+struct SDL_Surface;
 
 namespace higan
 {

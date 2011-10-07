@@ -22,7 +22,10 @@ namespace higan
 
 		screen = SDL_SetVideoMode(width,height,32,videoflags);
 		if(!screen)
-			throw SDL_GetError();
+		{
+			const char* error = SDL_GetError();
+			assert(false);
+		}
 
 		SDL_WM_SetCaption(title.c_str(),0);
 	}

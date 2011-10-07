@@ -1,7 +1,7 @@
 #include "GraphicsContext.h"
 
 #include <SDL.h>
-
+#include <cassert>
 #include "Screen.h"
 
 namespace higan
@@ -31,8 +31,11 @@ namespace higan
 	GraphicsContext::GraphicsContext():
 	pScreen(0)
 	{
-		if( !SDL_Init(SDL_INIT_EVERYTHING) )
-			throw SDL_GetError();
+		if( SDL_Init(SDL_INIT_EVERYTHING) )
+		{
+			const char* error = SDL_GetError();
+			assert(false);
+		}
 	}
 
 	GraphicsContext::~GraphicsContext()

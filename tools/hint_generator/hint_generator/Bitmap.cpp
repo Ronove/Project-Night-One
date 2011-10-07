@@ -1,8 +1,11 @@
 #include "Bitmap.h"
 
 #include <SDL_image.h>
+#include <cassert>
 
 #include "GraphicsContext.h"
+#include "RGBAColor.h"
+#include "Rectangle.h"
 #include "Screen.h"
 
 namespace higan
@@ -12,7 +15,10 @@ namespace higan
 		surface = IMG_Load(filename.c_str());
 
 		if(!surface)
-			throw IMG_GetError();
+		{
+			const char* error = IMG_GetError();
+			assert(false);
+		}
 	}
 
 	Bitmap::Bitmap(const iRectangle& rect)
@@ -22,11 +28,29 @@ namespace higan
 		surface = SDL_CreateRGBSurface(screen.flags(),rect.w,rect.h,screen.depth(),screen.Rmask(),screen.Gmask(),screen.Bmask(),screen.Amask());
 
 		if(!surface)
-			throw SDL_GetError();
+		{
+			const char* error = SDL_GetError();
+			assert(false);
+		}
 	}
 
 	Bitmap::~Bitmap()
 	{
 		SDL_FreeSurface(surface);
+	}
+
+	void Bitmap::Paint(const iRectangle& rect, const RGBAColor& color)
+	{
+		SDL_Rect sdlrect = { (Sint16)rect.x, (Sint16)rect.y, (Uint16)rect.w, (Uint16)rect.h };
+		SDL_FillRect(surface, &sdlrect, color.to_ulong());
+	}
+	
+	void Bitmap::to_BMP(const std::string& filename)
+	{
+		if( !SDL_SaveBMP(surface,filename.c_str()) )
+		{
+			const char* error = SDL_GetError();
+			assert(false);
+		}
 	}
 }

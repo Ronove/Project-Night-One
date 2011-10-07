@@ -2,6 +2,7 @@
 
 #include "Rectangle.h"
 #include "Bitmap.h"
+#include "RGBAColor.h"
 
 namespace higan
 {
@@ -10,10 +11,15 @@ namespace higan
 	{
 	}
 
-	// TODO: Implement routine which creates the actual bitmap from text input
 	pBitmap HintPageFactory::createBitmap(const std::string& textInputFilename)
 	{
 		pBitmap bitmap(new Bitmap(dimensions));
+
+		iRectangle firstHalf(0,0,dimensions.w/2,dimensions.h);
+		iRectangle secondHalf(dimensions.w/2,0,dimensions.w/2,dimensions.h);
+
+		bitmap->Paint(firstHalf,RGBAColor::Black);
+		bitmap->Paint(secondHalf,RGBAColor::White);
 
 		return bitmap;
 	}

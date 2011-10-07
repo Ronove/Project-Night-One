@@ -7,7 +7,7 @@
 
 #include "Bitmap.h"
 
-class SDL_Surface;
+struct SDL_Surface;
 
 namespace higan
 {
@@ -29,11 +29,12 @@ namespace higan
 
 		void initScreen(int width, int height, const std::string& title, const RenderFormat& format);
 		Screen* getScreen() const;
+
+		~GraphicsContext();
 	private:
 		static void allocateSingleton();
 		static boost::scoped_ptr<GraphicsContext> pSingleton;
 		GraphicsContext();
-		~GraphicsContext();
 
 		Screen* pScreen;
 	};
