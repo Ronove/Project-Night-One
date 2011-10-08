@@ -7,12 +7,14 @@
 #include "Rectangle.h"
 #include "HintPageFactory.h"
 #include "Bitmap.h"
+#include "Vector.h"
 
 namespace higan
 {	
 	const int higan::HintGenerator::ImageWidth = 472;
 	const int higan::HintGenerator::ImageHeight = 386;
 	const iRectangle higan::HintGenerator::HintPageDimensions = iRectangle(0,0,ImageWidth/2,ImageHeight);
+	const Vector2i higan::HintGenerator::TopLeft = Vector2i(18,73);
 
 	HintGenerator::HintGenerator(const std::string& inputFilename):
 	filename(inputFilename),
@@ -40,7 +42,7 @@ namespace higan
 				assert(false);
 			}
 
-			std::string textInput = textReader.fileToString(currentLine.at(0));
+			std::string textInput = TextReader::fileToString(currentLine.at(0));
 			higan::pBitmap bitmap = createBitmap(textInput);
 			bitmap->to_BMP(currentLine.at(1));
 		}

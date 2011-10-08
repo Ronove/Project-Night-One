@@ -8,7 +8,7 @@ namespace higan
 	class TextReader
 	{
 	public:
-		std::string fileToString(const std::string& filename);
+		static std::string fileToString(const std::string& filename);
 	};
 }
 

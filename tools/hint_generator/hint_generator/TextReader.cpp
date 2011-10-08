@@ -17,7 +17,7 @@ namespace higan
 		}
 
 		std::stringstream outputStream;
-		outputStream << inputStream;
+		outputStream << inputStream.rdbuf();
 		
 		return outputStream.str();
 	}

@@ -37,20 +37,6 @@ namespace higan
 	Bitmap::~Bitmap()
 	{
 		SDL_FreeSurface(surface);
-	}
-
-	void Bitmap::Paint(const iRectangle& rect, const RGBAColor& color)
-	{
-		SDL_Rect sdlrect = { (Sint16)rect.x, (Sint16)rect.y, (Uint16)rect.w, (Uint16)rect.h };
-		SDL_FillRect(surface, &sdlrect, color.to_ulong());
-	}
-	
-	void Bitmap::to_BMP(const std::string& filename)
-	{
-		if( !SDL_SaveBMP(surface,filename.c_str()) )
-		{
-			const char* error = SDL_GetError();
-			assert(false);
-		}
+		surface = 0;
 	}
 }

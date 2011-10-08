@@ -1,6 +1,9 @@
 #include "GraphicsContext.h"
 
 #include <SDL.h>
+#include <SDL_image.h>
+#include <SDL_ttf.h>
+
 #include <cassert>
 #include "Screen.h"
 
@@ -36,11 +39,25 @@ namespace higan
 			const char* error = SDL_GetError();
 			assert(false);
 		}
+
+		unsigned long imginitflags = IMG_INIT_JPG|IMG_INIT_PNG|IMG_INIT_TIF;
+		if( imginitflags != IMG_Init(imginitflags) )
+		{
+			const char* error = IMG_GetError();
+			assert(false);
+		}
+		if( TTF_Init() )
+		{
+			const char* error = TTF_GetError();
+			assert(false);
+		}
 	}
 
 	GraphicsContext::~GraphicsContext()
 	{
 		delete pScreen;
+		TTF_Quit();
+		IMG_Quit();
 		SDL_Quit();
 	}
 

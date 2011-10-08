@@ -4,15 +4,18 @@
 #include <string>
 
 #include "GraphicsContext.h"
+#include "Surface.h"
 
 struct SDL_Surface;
 
 namespace higan
 {
-	class Screen
+	class Screen : public Surface
 	{
 	public:
 		friend class GraphicsContext;
+		
+		void flip();
 
 		unsigned long flags() const;
 		unsigned char depth() const;
@@ -23,7 +26,6 @@ namespace higan
 
 	private:
 		Screen(int width, int height, const std::string& title, const GraphicsContext::RenderFormat& format);
-		SDL_Surface* screen;
 	};
 }
 

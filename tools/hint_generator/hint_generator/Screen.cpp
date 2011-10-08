@@ -20,8 +20,8 @@ namespace higan
 			videoflags |= SDL_HWSURFACE;
 		}
 
-		screen = SDL_SetVideoMode(width,height,32,videoflags);
-		if(!screen)
+		surface = SDL_SetVideoMode(width,height,32,videoflags);
+		if(!surface)
 		{
 			const char* error = SDL_GetError();
 			assert(false);
@@ -30,34 +30,39 @@ namespace higan
 		SDL_WM_SetCaption(title.c_str(),0);
 	}
 
+	void Screen::flip()
+	{
+		SDL_Flip(surface);
+	}
+
 	unsigned long Screen::flags() const
 	{
-		return screen->flags;
+		return surface->flags;
 	}
 
 	unsigned char Screen::depth() const
 	{
-		return screen->format->BitsPerPixel;
+		return surface->format->BitsPerPixel;
 	}
 
 	unsigned long Screen::Rmask() const
 	{
-		return screen->format->Rmask;
+		return surface->format->Rmask;
 	}
 
 	unsigned long Screen::Gmask() const
 	{
-		return screen->format->Gmask;
+		return surface->format->Gmask;
 	}
 
 	unsigned long Screen::Bmask() const
 	{
-		return screen->format->Bmask;
+		return surface->format->Bmask;
 	}
 
 	unsigned long Screen::Amask() const
 	{
-		return screen->format->Amask;
+		return surface->format->Amask;
 	}
 
 }

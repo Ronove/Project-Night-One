@@ -6,6 +6,9 @@
 #include <string>
 
 #include "Rectangle.h"
+#include "Surface.h"
+#include "Text.h"
+#include "Vector.h"
 
 struct SDL_Surface;
 
@@ -13,7 +16,7 @@ namespace higan
 {
 	class RGBAColor;
 
-	class Bitmap
+	class Bitmap : public Surface
 	{
 	public:
 		// Create bitmap from file
@@ -21,12 +24,6 @@ namespace higan
 		// Create empty bitmap
 		Bitmap(const iRectangle& rect);
 		~Bitmap();
-
-		void Paint(const iRectangle& rect, const RGBAColor& color);
-		
-		void to_BMP(const std::string& filename);
-	protected:
-		SDL_Surface* surface;
 	};
 
 	typedef boost::shared_ptr<Bitmap> pBitmap;

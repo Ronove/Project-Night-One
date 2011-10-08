@@ -10,27 +10,22 @@
 #include "HintPageFactory.h"
 #include "CSVReader.h"
 #include "TextReader.h"
+#include "Vector.h"
 
 namespace higan
 {
-	struct HintData
-	{
-		std::string textInput;
-		std::string outputFilename;
-	};
-
 	class HintGenerator : public BitmapGenerator
 	{
 		std::string filename;
 		higan::HintPageFactory pageFactory;
 		higan::CSVReader csvReader;
-		higan::TextReader textReader;
 
 		higan::pBitmap createBitmap(const std::string& textinput);
 	public:
 		static const int ImageWidth;
 		static const int ImageHeight;
 		static const higan::iRectangle HintPageDimensions;
+		static const Vector2i TopLeft;
 
 		HintGenerator(const std::string& inputFilename);
 		void process();
