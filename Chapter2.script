@@ -1,4 +1,3 @@
-
 ;Chapter 2
 ;　これは、近隣の学校の統廃合に伴い、大きなマンモス校になって大勢の生徒数を誇り、@のみならず、学校の七不思議が、さらにもう一つ多いという不思議な学校の物語…。\
 `　This is the strange story of how, with the re-organization of their local school the students took pride in the new, larger building, `@`as well as how the resident seven school mysteries also grew by one...`\
@@ -5011,17 +5010,20 @@ ld r,HIG_w6,22
 bg black,23
 bg kaidan_01,23
 
-　あなたは彼女の後を付け回すようになったわ。@
+;　あなたは彼女の後を付け回すようになったわ。@
+` You began to hover around after her.`@`
 br
-　彼女をずっと監視していれば、きっと同じような事件を再び起こすに違いないと思った。@最初はね？\
-
-　でも、そんな都合よく新しい事件が起こるはずもない。@
+;　彼女をずっと監視していれば、きっと同じような事件を再び起こすに違いないと思った。@最初はね？\
+` If you monitored her closely enough, surely a similar incident would happen again.`@`Initially?`\
+;　でも、そんな都合よく新しい事件が起こるはずもない。@
+` But no new incidents would occur so conviniently.`@`
 br
 　彼女をしつこく監視し続けたあなたは、次第に不愉快になっていく。@あなたが期待するような出来事が起こらないから、@どんどんやり場のない怒りを蓄積していった。\
 
 bg black,22
 
-　そんなあなただから、彼女に期待するような悪事も、どんどん微細なものになっていく。@
+;　そんなあなただから、彼女に期待するような悪事も、どんどん微細なものになっていく。@
+` But from you, since you expected her to be evil, it became more and more subtle.`@`
 　その撮影対象は、@自分の時のような大きな事件から、日常のささやかなルール違反、ちょっとしたミス等にまでその裾野を広げていく。\
 
 textoff
@@ -5041,8 +5043,8 @@ csp -1
 ld r,HIG_def3,22
 
 　そしてある日、あなたは気付くの。@それらを事細かに撮影し、@それを追及するだけでも充分に復讐になり得ることに。@
-　……いえいえ、ただただ悪意をもって付け回すだけで、充分な復讐になることに。\
-
+;　……いえいえ、ただただ悪意をもって付け回すだけで、充分な復讐になることに。\
+` ....no, no. Just hovering around maliciously would be revenge enough.`\
 ld r,HIG_w4,80
 
 　あなたは彼女の日常のささやかなことを隠し撮りしては、それをこっそり彼女に送り続けた。@
@@ -5111,8 +5113,8 @@ br
 ld c,HIG_w6,22
 ;ld c,HIG_Def1,80
 
-　………いえ、少し違うかしら。@それ以上の形で復讐を“続けた”が正しいのかしら。\
-
+;　………いえ、少し違うかしら。@それ以上の形で復讐を“続けた”が正しいのかしら。\
+` ......no, still I wonder if it's slightly different.`@`Whether such a form of higher, continuous revenge was correct.`\
 ld c,HIG_w5,80
 
 　なぜなら、冤罪を晴らすなら、明確な目的があり終わりがある。@
