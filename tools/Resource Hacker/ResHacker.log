@@ -1,0 +1,6 @@
+[09 Oct 2011, 01:49:36]
+"tools\Resource Hacker\ResHacker.exe"  -modify onscripter-en/onscripter-en.exe, build/onscripter-en.exe, icon\icon.ico, icon, 101,
+Warning: Icon images cannot be manipulated directly, assumes IconGroup.
+  Modified: ICONGROUP,101,1033
+
+Commands completed
