@@ -4,7 +4,7 @@
 #include <string>
 
 #include "Rectangle.h"
-#include "Bitmap.h"
+#include "Surface.h"
 
 namespace higan
 {
@@ -14,7 +14,7 @@ namespace higan
 		iRectangle twoPageDimensions;
 	public:
 		HintPageFactory(const iRectangle& pageDimensions);
-		pBitmap createBitmap(const std::string& textInput);
+		pSurface createBitmap(const std::string& textInput);
 	};
 }
 

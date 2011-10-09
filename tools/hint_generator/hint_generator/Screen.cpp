@@ -7,8 +7,11 @@
 
 namespace higan
 {
-	Screen::Screen(int width, int height, const std::string& title, const GraphicsContext::RenderFormat& format)
+	Screen::Screen(int width, int height, const std::string& title, const GraphicsContext::RenderFormat& format):
+	Surface()
 	{
+		setMemoryManaged(false);
+
 		unsigned long videoflags = 0;
 
 		if(format == GraphicsContext::SOFTWARE)

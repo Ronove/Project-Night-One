@@ -8,16 +8,19 @@ namespace higan
 {
 	class Font
 	{
-	protected:
-		TTF_Font* font;
 	public:
 		Font();
 		Font(const std::string& file, int ptsize);
+		Font(const Font& other);
+		Font& operator=(const Font& other);
+
 		~Font();
 
 		friend class Text;
 
 		void load(const std::string& file, int ptsize);
+		std::string getFontName() const;
+		int getPtSize() const;
 
 		enum FontStyle
 		{
@@ -47,6 +50,24 @@ namespace higan
 
 		void setKerning(bool enabled);
 		bool getKerning() const;
+
+		int getLineSkip() const;
+
+		void getLATIN1Size(const std::string& text, int* width, int* height) const;
+		void getUTF8Size(const std::string& text, int* width, int* height) const;
+		void getUNICODESize(const std::string& text, int* width, int* height) const;
+
+	protected:
+		TTF_Font* font;
+
+		void defaultValues();
+
+		std::string fontName;
+		int ptSize;
+		FontStyle style;
+		int outline;
+		FontHinting hinting;
+		bool kerning;
 	};
 }
 

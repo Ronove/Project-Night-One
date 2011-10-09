@@ -3,7 +3,7 @@
 #include <string>
 
 #include "Rectangle.h"
-#include "Bitmap.h"
+#include "Surface.h"
 #include "RGBAColor.h"
 #include "Font.h"
 #include "Text.h"
@@ -18,20 +18,38 @@ namespace higan
 	{
 	}
 
-	pBitmap HintPageFactory::createBitmap(const std::string& textInput)
+	pSurface HintPageFactory::createBitmap(const std::string& textInput)
 	{
-		pBitmap bitmap(new Bitmap(twoPageDimensions));
+		pSurface bitmap(new Surface());
+		bitmap->fromRect(twoPageDimensions,RGBAColor::White);
 
-		iRectangle firstHalf(0,0,twoPageDimensions.w/2,twoPageDimensions.h);
-		iRectangle secondHalf(twoPageDimensions.w/2,0,twoPageDimensions.w/2,twoPageDimensions.h);
+		iRectangle firstHalf(0, 0, twoPageDimensions.w/2, twoPageDimensions.h);
+		iRectangle secondHalf(twoPageDimensions.w/2, 0, twoPageDimensions.w/2, twoPageDimensions.h);
 
-		bitmap->paint(firstHalf,RGBAColor::Black);
-		bitmap->paint(secondHalf,RGBAColor::White);
+		bitmap->paint(firstHalf, RGBAColor::Black);
+		bitmap->paint(secondHalf, RGBAColor::White);
 
-		Font font("Arial.ttf",14);
-		Text text(font,textInput);
+		std::string fontName = TextReader::fileToString("config/fontToUse.txt");
 
-		bitmap->blit(text,HintGenerator::TopLeft);
+		Font leftFont( "font/" + fontName,14);
+		Text leftText(leftFont, textInput);
+		leftText.setEncoding(Text::UTF8);
+		leftText.setRenderMode(Text::Blended);
+		bitmap->blit(leftText, HintGenerator::TopLeft);
+
+		Font rightFont( "font/" + fontName,14);
+		//rightFont.setOutline(5); TODO: Fix
+		Text rightText(rightFont, textInput);
+		rightText.setColor(RGBAColor::Black);
+		rightText.setEncoding(Text::UTF8);
+		rightText.setRenderMode(Text::Blended);
+
+		// Stupid way of doing glow
+		bitmap->blit(rightText, HintGenerator::TopLeft + Vector2i(secondHalf.x, secondHalf.y));
+		bitmap->blit(rightText, HintGenerator::TopLeft + Vector2i(secondHalf.x+1, secondHalf.y));
+		bitmap->blit(rightText, HintGenerator::TopLeft + Vector2i(secondHalf.x-1, secondHalf.y));
+		bitmap->blit(rightText, HintGenerator::TopLeft + Vector2i(secondHalf.x, secondHalf.y+1));
+		bitmap->blit(rightText, HintGenerator::TopLeft + Vector2i(secondHalf.x, secondHalf.y-1));
 
 		return bitmap;
 	}

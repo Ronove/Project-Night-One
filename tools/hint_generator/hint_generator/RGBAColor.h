@@ -16,8 +16,10 @@ namespace higan
 
 		unsigned long to_ulong() const;
 
+		static const RGBAColor Transparent;
 		static const RGBAColor White;
 		static const RGBAColor Black;
+		static const RGBAColor Red;
 	};
 }
 #endif

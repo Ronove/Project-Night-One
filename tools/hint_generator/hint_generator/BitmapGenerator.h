@@ -2,7 +2,6 @@
 #define HIGANBITMAPGENERATOR_H
 
 #include <boost/shared_ptr.hpp>
-#include "Bitmap.h"
 
 namespace higan
 {

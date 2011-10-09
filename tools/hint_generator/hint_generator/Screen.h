@@ -6,8 +6,6 @@
 #include "GraphicsContext.h"
 #include "Surface.h"
 
-struct SDL_Surface;
-
 namespace higan
 {
 	class Screen : public Surface

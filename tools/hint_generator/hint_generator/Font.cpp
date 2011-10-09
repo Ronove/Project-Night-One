@@ -1,23 +1,55 @@
 #include "Font.h"
 
 #include <cassert>
+#include "Text.h"
 
 namespace higan
 {
-	Font::Font():
-	font(0)
+	Font::Font()
 	{
+		defaultValues();
 	}
 
-	Font::Font(const std::string& file, int ptsize):
-	font(0)
+	Font::Font(const std::string& file, int ptsize)
 	{
+		defaultValues();
 		load(file,ptsize);
+	}
+
+	Font::Font(const Font& other)
+	{
+		*this = other;
+	}
+
+	Font& Font::operator=(const Font& other)
+	{
+		if(this != &other)
+		{
+			defaultValues();
+			load(other.fontName,other.ptSize);
+			setStyle(other.style);
+			setOutline(other.outline);
+			setHinting(other.hinting);
+			setKerning(other.kerning);
+		}
+
+		return *this;
 	}
 
 	Font::~Font()
 	{
 		TTF_CloseFont(font);
+	}
+
+	void Font::defaultValues()
+	{
+		font = 0;
+		fontName = "";
+		ptSize = 0;
+		style = NormalStyle;
+		outline = 0;
+		hinting = NormalHinting;
+		kerning = false;
 	}
 
 	void Font::load(const std::string& file, int ptsize)
@@ -31,12 +63,26 @@ namespace higan
 			const char* errorMsg = TTF_GetError();
 			assert(false);
 		}
+
+		ptSize = ptsize;
+		fontName = file;
+	}
+
+	std::string Font::getFontName() const
+	{
+		return fontName;
+	}
+
+	int Font::getPtSize() const
+	{
+		return ptSize;
 	}
 
 	void Font::setStyle(FontStyle style)
 	{
 		assert(font);
 		TTF_SetFontStyle(font,style);
+		this->style = style;
 	}
 
 	Font::FontStyle Font::getStyle() const
@@ -49,6 +95,7 @@ namespace higan
 	{
 		assert(font);
 		TTF_SetFontOutline(font,px);
+		outline = px;
 	}
 
 	int Font::getOutline() const
@@ -61,6 +108,7 @@ namespace higan
 	{
 		assert(font);
 		TTF_SetFontHinting(font,hinting);
+		this->hinting = hinting;
 	}
 
 	Font::FontHinting Font::getHinting() const
@@ -73,11 +121,35 @@ namespace higan
 	{
 		assert(font);
 		TTF_SetFontKerning(font,enabled);
+		kerning = enabled;
 	}
 
 	bool Font::getKerning() const
 	{
 		assert(font);
-		return TTF_GetFontKerning(font);
+		return TTF_GetFontKerning(font) ? true:false ;
+	}
+
+	int Font::getLineSkip() const
+	{
+		assert(font);
+		return TTF_FontLineSkip(font);
+	}
+
+	void Font::getLATIN1Size(const std::string& text, int* width, int* height) const
+	{
+		TTF_SizeText(font,text.c_str(),width,height);
+	}
+
+	void Font::getUTF8Size(const std::string& text, int* width, int* height) const
+	{
+		TTF_SizeUTF8(font,text.c_str(),width,height);
+	}
+
+	void Font::getUNICODESize(const std::string& text, int* width, int* height) const
+	{
+		// Not supported
+		assert(false);
+		// TTF_SizeUNICODE(font,text.c_str(),width,height);
 	}
 }

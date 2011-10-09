@@ -6,8 +6,12 @@
 #include "GraphicsContext.h"
 #include "Rectangle.h"
 #include "HintPageFactory.h"
-#include "Bitmap.h"
+#include "Surface.h"
 #include "Vector.h"
+#include "Screen.h"
+#include "Timer.h"
+#include "Font.h"
+#include "Text.h"
 
 namespace higan
 {	
@@ -16,35 +20,39 @@ namespace higan
 	const iRectangle higan::HintGenerator::HintPageDimensions = iRectangle(0,0,ImageWidth/2,ImageHeight);
 	const Vector2i higan::HintGenerator::TopLeft = Vector2i(18,73);
 
-	HintGenerator::HintGenerator(const std::string& inputFilename):
-	filename(inputFilename),
+	HintGenerator::HintGenerator():
+	filename("dataset.csv"),
 	pageFactory(HintPageDimensions)
 	{
 		GraphicsContext::getSingleton().initScreen(ImageWidth,ImageHeight,"Higanbana Hint Generator",GraphicsContext::SOFTWARE);
 	}
 
-	higan::pBitmap HintGenerator::createBitmap(const std::string& textinput)
+	higan::pSurface HintGenerator::createBitmap(const std::string& textinput)
 	{
 		return pageFactory.createBitmap(textinput);
 	}
 
 	void HintGenerator::process()
 	{
-		csvReader.openFile(filename);
-
+		csvReader.openFile( "config/" + filename);
+		Screen& screen = *GraphicsContext::getSingleton().getScreen();
 		while(csvReader.hasMoreRows())
 		{
 			std::vector<std::string> currentLine = csvReader.getRow();
 
-			if(currentLine.size() != 2)
+			if(currentLine.size() < 2)
 			{
 				std::string error = "Invalid row size in csv file: " + filename + ". Should be [text input filename, bitmap output filename].";
 				assert(false);
 			}
+			
+			std::string textInput = TextReader::fileToString( "input/" + currentLine.at(0));
+			higan::pSurface bitmap = createBitmap(textInput);
 
-			std::string textInput = TextReader::fileToString(currentLine.at(0));
-			higan::pBitmap bitmap = createBitmap(textInput);
-			bitmap->to_BMP(currentLine.at(1));
+			screen.blit(*bitmap,Vector2i(0,0));			
+			screen.flip();
+
+			bitmap->to_BMP( "output/" + currentLine.at(1));
 		}
 
 		csvReader.closeFile();

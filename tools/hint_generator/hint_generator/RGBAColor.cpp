@@ -2,8 +2,10 @@
 
 namespace higan
 {
+	const RGBAColor RGBAColor::Transparent(0,0,0,0);
 	const RGBAColor RGBAColor::White(255,255,255,255);
 	const RGBAColor RGBAColor::Black(0,0,0,255);
+	const RGBAColor RGBAColor::Red(255,0,0,255);
 
 	RGBAColor::RGBAColor(unsigned char red, unsigned char green, unsigned char blue, unsigned char alpha):
 	red(red),

@@ -5,8 +5,6 @@
 
 #include <string>
 
-#include "Bitmap.h"
-
 struct SDL_Surface;
 
 namespace higan

@@ -7,13 +7,7 @@ namespace higan
 {
 	MainApp::MainApp(int argc, char* argv[])
 	{
-		if(argc != 2)
-		{
-			std::string error = "Wrong number of arguments";
-			assert(false);
-		}
-
-		bitmapGenerator.reset(new HintGenerator(argv[1]));
+		bitmapGenerator.reset(new HintGenerator());
 	}
 
 	MainApp::~MainApp()

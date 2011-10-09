@@ -20,6 +20,38 @@ namespace higan
 		{
 		}
 
+		template<class K>
+		Vector2& operator+=(const Vector2<K>& v)
+		{
+			x += v.x;
+			y += v.y;
+			return *this;
+		}
+
+		template<class K>
+		const Vector2 operator+(const Vector2<K>& v) const
+		{
+			Vector2 copy = *this;
+			copy += v;
+			return copy;
+		}
+
+		template<class K>
+		Vector2& operator-=(const Vector2<K>& v)
+		{
+			x -= v.x;
+			y -= v.y;
+			return *this;
+		}
+
+		template<class K>
+		const Vector2 operator-(const Vector2<K>& v) const
+		{
+			Vector2 copy = *this;
+			copy -= v;
+			return copy;
+		}
+
 		T x;
 		T y;
 	};
