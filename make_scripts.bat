@@ -20,6 +20,6 @@ ECHO.
 ECHO Copying nscript.dat into /build
 REM move the created nscript to the export directory
 del build\nscript.dat
-MOVE nscript.dat build\
+MOVE nscript.dat build\HiganbanaEnglish
 ECHO Done.
 ECHO.

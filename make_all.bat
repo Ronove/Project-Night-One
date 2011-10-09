@@ -1,5 +1,10 @@
 @ECHO OFF
 
+MKDIR build
+cd build
+MKDIR HiganbanaEnglish
+cd ..
+
 REM Graphics processing
 CALL make_hints.bat
 CALL make_graphics.bat
