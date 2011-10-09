@@ -1,0 +1,16 @@
+﻿うみねこのなく頃に
+
+Lorem ipsum dolor sit amet, 
+consectetur adipiscing elit.
+Integer rutrum, enim eu 
+vulputate faucibus, lorem
+lacus viverra lacus,
+sit amet malesuada nisi
+odio sed metus.
+Morbi vel diam posuere 
+lectus posuere blandit.
+Suspendisse placerat metus
+id leo tincidunt feugiat.
+Sed turpis dolor, 
+gravida eu aliquam 
+at, porta nec sapien.
