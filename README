@@ -1,7 +1,145 @@
-Higanbana no saku yoru ni English translation project
+Higanbana no Saku Yoru Ni - The First Night
+Translation Project Readme File
+10/11/2011 Last Updated
 
-make_all.bat: Exports all resources and creates a patch in build/HiganbanaEnglish
+** Welcome to the project translation soldier!
 
-scripts.txt: defines the .script files to use when compiling the script into nscript.dat
+** If you're translating or doing quality checkwork, 
+   open up the various .script files with a text editor of your choice
+   to view the code.
+   
+** CAUTION:
+** The scripts are littered with various special characters, but make sure
+   your encoding is set to <Shift-JIS> to avoid scrambled/misleading characters.
 
-For any questions, comments... contact Nicolas at nicolasg@uvic.ca
+*************************************************************************************
+** Project File Notes
+*************************************************************************************
+* make_all.bat		: Exports all resources and creates a patch in the
+					  build/HiganbanaEnglish folder.
+				
+					  *Extended note:
+					   Put this entire folder (HiganbanaEnglish) into your
+					   Higanbana Folder (default C:\Program Files(x86)\07th Expansion\Higanbana)
+					   Then run onscripter-en.exe to start reading the translated novel.
+
+* scripts.txt		:Defines the .script files to use when compiling the
+					 script into nscript.dat.
+				  
+					  *Extended note:
+					   nscript.dat holds all the game text, and it's what our project
+					   modifies. scripts.txt is primarily for advanced purposes of 
+					   organizing the order of the script files. Also all files
+					   themselves must have several empty lines at the top and
+					   bottom to prevent a rare exception from occuring which
+					   could foul up the order of the nscript.dat file.
+					   Which leads to potentially disastrous results.
+
+For any questions, comments on the bat files / scripts.txt (if something doesn't work/etc)
+Contact our programmer, Nicolas, his email is nicolasg AT uvic DOT ca
+
+* continuity.txt	: This is useful information on previous translated issues if someone
+					  wants to maintain consistancy with said translation.
+					  
+*************************************************************************************
+** Project Folder Notes
+*************************************************************************************
+* /build			: This is where everything from make_all.bat is generated.
+
+					 *Extended Note
+					   Put this entire folder (HiganbanaEnglish) into your
+					   Higanbana Folder (default C:\Program Files(x86)\07th Expansion\Higanbana)
+					   Then run onscripter-en.exe to start reading the translated novel.					 
+
+* /graphics			: Holds all files generated when creating the arc.nsa file.
+
+					 *Extended Note
+					   NSA files are where all the art assets are held.
+					   For the purposes of our project, our arc file simply 'overrides'
+					   without 'replacing' the default files. So our patch can be
+					   superimposed in a subdirectory of a legal copy of Higanbana
+					   no Saku Yoru Ni. Thus requiring the original game, and not
+					   requiring all the graphics from the original game when making the files.
+
+* /design			: This is where supplemental images / concepts are stored.
+					  e.g. Mockups for the glossary, splash screens, logos.
+
+* /export			: Stores a generated nscript.dat file that can be replaced
+					  inside your HiganbanaEnglish folder for the latest script
+					  rather than generating an entirely new build.
+					
+* /font				: Holds the default font file used in the translation.
+					  Currently we use: Sazanami Gothic Regular (さざなみゴシックRegular)
+					  
+* /icon				: Holds the icon file that's generated with the make_all / make_icon.bat files
+					  This icon is then applied to the onscripter-en.exe.
+
+* /notepad++		: This holds a userdefined language for nscripter in notepad++.
+					  Completely optional and purely aesthetic. Look up your operating
+					  system and how to apply it online (Sorry, no instructions here!).
+					  
+* /onscripter-en	: Contains the latest build of onscripter-en.exe. Can be replaced with
+					  newer versions as they come along.
+					  
+* /SDL				: Contains the SDL libraries.
+
+* /tools			: Contains tools for the project's bat files. Some are currently WIP,
+					  (Work in Progress), so please avoid playing around with them just yet!
+
+
+*************************************************************************************
+** .Script Special Character Notes
+
+		Here's some instructions on the special characters
+		you'll find in the .script files. Be sure to give a quick read before
+		diving into the editing process.
+*************************************************************************************
+
+; (Semicolon)		: 'Comments' out a line. This prevents text from being
+					  displayed inside the novel as someone reads along. Usually
+					  we comment out lines that are written in Japanese, so we add
+					  a semicolon in front of them to prevent the reader from seeing
+					  the Japanese lines. Then we add translations below said lines
+					  to make it easier to refer to the original text.
+Example...
+;読めない所 (This can't be read normally)
+`Translation here.
+
+-------------------------------------------------------------------------------------
+　 (Paragraph space)	: These are copied over from the Japanese lines.
+					  They act as supplemental spaces for the beginning of paragraphs
+					  and visual space. Be sure to include them on non-quote lines.
+Example...
+　Like this.
+
+-------------------------------------------------------------------------------------
+` (Tildes)			: Represent closed statements of text rendered in English.
+					  If text is run without these tildes enclosing them, there is
+					  potential for misrendered text (e.g. textwithoutspaces). So
+					  be sure to enclose all text, even if it's in quotes already. 
+Example...
+`"Like this!"`
+
+-------------------------------------------------------------------------------------
+@ (At symbols)		: These are used as continuation markers. In essense they force
+					  the reader to click to continue reading a line. If there's text
+					  before or after it, make sure to add tildes to enclose the English
+					  text that doesn't include the @ symbols.
+Example...
+`　For example, `@`something like this.`
+
+-------------------------------------------------------------------------------------
+\ (Backslash)		: This causes the screen to clear after a line.
+
+Example...
+`　For example, `@`something like this.`\ 
+;((The screen clears))
+`　That was easy!`
+-------------------------------------------------------------------------------------
+/ (Forward slash)	: The purpose of this is somewhat unknown. It seems to function
+					  almost like both a continuation and a music clearer.
+					  If these are in the line, it's best not to remove them.
+					  
+Example...
+
+
