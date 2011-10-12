@@ -1,6 +1,10 @@
-Higanbana no Saku Yoru Ni - The First Night
-Translation Project Readme File
-10/11/2011 Last Updated
+****************************************************************************************************
+
+								Higanbana no Saku Yoru Ni - The First Night
+									Translation Project Readme File
+										10/11/2011 Last Updated
+
+****************************************************************************************************
 
 ** Welcome to the project translation soldier!
 
@@ -12,9 +16,9 @@ Translation Project Readme File
 ** The scripts are littered with various special characters, but make sure
    your encoding is set to <Shift-JIS> to avoid scrambled/misleading characters.
 
-*************************************************************************************
+****************************************************************************************************
 ** Project File Notes
-*************************************************************************************
+****************************************************************************************************
 * make_all.bat		
 					 Exports all resources and creates a patch in the
 					 build/HiganbanaEnglish folder.
@@ -44,9 +48,9 @@ Contact our programmer, Nicolas, his email is nicolasg AT uvic DOT ca
 					 This is useful information on previous translated issues if someone
 					 wants to maintain consistancy with said translation.
 					  
-*************************************************************************************
+****************************************************************************************************
 ** Project Folder Notes
-*************************************************************************************
+****************************************************************************************************
 * /build			
 					 This is where everything from make_all.bat is generated.
 
@@ -100,13 +104,13 @@ Contact our programmer, Nicolas, his email is nicolasg AT uvic DOT ca
 					 (Work in Progress), so please avoid playing around with them just yet!
 
 
-*************************************************************************************
+****************************************************************************************************
 ** .Script Special Character Notes
 
 		Here's some instructions on the special characters
 		you'll find in the .script files. Be sure to give a quick read before
 		diving into the editing process.
-*************************************************************************************
+****************************************************************************************************
 
 ; (Semicolon)		
 					 'Comments' out a line. This prevents text from being
@@ -119,7 +123,7 @@ Example...
 ;読めない所 (This can't be read normally)
 `Translation here.
 
--------------------------------------------------------------------------------------
+----------------------------------------------------------------------------------------------------
 　 (Paragraph space)	
 					 These are copied over from the Japanese lines.
 					 They act as supplemental spaces for the beginning of paragraphs
@@ -127,7 +131,7 @@ Example...
 Example...
 　Like this.
 
--------------------------------------------------------------------------------------
+----------------------------------------------------------------------------------------------------
 ` (Tildes)			
 					 Represent closed statements of text rendered in English.
 					 If text is run without these tildes enclosing them, there is
@@ -136,7 +140,7 @@ Example...
 Example...
 `"Like this!"`
 
--------------------------------------------------------------------------------------
+----------------------------------------------------------------------------------------------------
 @ (At symbols)		
 					 These are used as continuation markers. In essense they force
 					 the reader to click to continue reading a line. If there's text
@@ -145,7 +149,7 @@ Example...
 Example...
 `　For example, `@`something like this.`
 
--------------------------------------------------------------------------------------
+----------------------------------------------------------------------------------------------------
 \ (Backslash)		
 					 This causes the screen to clear after a line.
 
@@ -153,7 +157,7 @@ Example...
 `　For example, `@`something like this.`\ 
 ;((The screen clears))
 `　That was easy!`
--------------------------------------------------------------------------------------
+----------------------------------------------------------------------------------------------------
 / (Forward slash)	
 					 The purpose of this is somewhat unknown. It seems to function
 					 almost like both a continuation and a music clearer.
@@ -163,4 +167,6 @@ Example...
 `"So you're saying`/
 `...you're Mesomeso-san?"`\
 ((This all comes out as one line, with a music break))
+----------------------------------------------------------------------------------------------------
 
+More to come.
