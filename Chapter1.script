@@ -70,8 +70,22 @@ movie "movie\higan_op1.mpg",click
 
 bg black,42
 
-wait 4000
+; TODO: Play with the delays here, as they may be too long
+; We also might instead want to wait for the user to press any key
 
+wait 2000
+
+; new menu elements unlocked background image
+bg "bmp\background\efe\text006.bmp",22
+wait 4000
+bg black,22
+
+; glossary unlocked background image
+bg "bmp\background\efe\text007.bmp",22
+wait 4000
+bg black,22
+
+; Unlocks glossary
 mov %EN_GLOSSARY_UNLOCK,1
 
 bgm1 5
@@ -5013,7 +5027,7 @@ csp -1
 bgm1 10
 
 br
-;「………そこの人、……どうか哀れな私の話を聞いてください……。」@
+;「………そ???の人、……どうか哀れな私の話を聞いてください……。」@
 `"......You there, ......Please listen to my pitiful story......"`@
 br
 ;　……ッッ！！！！\
