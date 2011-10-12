@@ -5319,29 +5319,36 @@ bg black,22
 `　...Aah..., somehow, ...I understood...`@
 br
 ;　彼岸花の言葉は全て詭弁、全てまやかし。\
-`　All of Higanbana's words had been a deception.`\
+`　Everything Higanbana said until now was all a ruse.`\
 
-　彼女の獲物は、最初から僕だったのだ。@
-　復讐が行き過ぎて自殺に追い込んでしまった僕は、@きっと己の罪に震え上がっただろう。@……そんな僕はきっと彼岸花にとって…、\
+;　彼女の獲物は、最初から僕だったのだ。@
+`　From the very beginning I was her prey.`@
+;　復讐が行き過ぎて自殺に追い込んでしまった僕は、@きっと己の罪に震え上がっただろう。@……そんな僕はきっと彼岸花にとって…、\
+`　She has violently stirred up my sin`@` that I went too far in my own revenge and drove Youko to suicide. `@`...So to Higanbana... I'm...`\
 
 bg ie_02u,22
 ld r,HIG_w5,22
 ;ld c,HIG_Def1,80
 
-「えぇ。@この上なく美味しそうな魂だった。@すぐにいただこうと思ったのよ…？@　でも、その直前に、校長は陽子の記憶を消し去ってしまった。@あなたの中から罪の意識も消え、@あなたの魂はまるで、食べ頃を逃して干からびた果物のよう。@私はあともう一歩のところで、お預けを喰らってしまって、ずっとずっと悔しかったの。」\
+;「えぇ。@この上なく美味しそうな魂だった。@すぐにいただこうと思ったのよ…？@　でも、その直前に、校長は陽子の記憶を消し去ってしまった。@あなたの中から罪の意識も消え、@あなたの魂はまるで、食べ頃を逃して干からびた果物のよう。@私はあともう一歩のところで、お預けを喰らってしまって、ずっとずっと悔しかったの。」\
+`"Yes. `@`No soul seemed more delicious than yours. `@`I thought to eat you right away, you know...? `@`But just before that, the headmaster erased the memory of Youko. `@`And erased your consciousnous of your sin from within, `@`it was as if your ripe soul was left out too long and turned to stale fruit. `@`The fact that I was just a step away from devouring you and forced to wait vexed me for aaaaaages."`\
 
 ld r,HIG_w6,80
 
-「何とかあなたの魂を、もう一度あの味付けにして、@今度こそ喰らってやろうと、ずっとずっと機会をうかがっていたのよ。@…………わかる？@　うふふふふふふふふふふふふふふふ！！」\
+;「何とかあなたの魂を、もう一度あの味付けにして、@今度こそ喰らってやろうと、ずっとずっと機会をうかがっていたのよ。@…………わかる？@　うふふふふふふふふふふふふふふふ！！」\
+`"I wanted to add that something to your soul for flavor. `@`I've waited sooooo long to have a chance to eat you again like this, you see. `@`......Understand? `@`Huhuhuhuhuhuhuhuhuhu!!"`\
 
 bg black,22
 
-　彼女が、白く細い指で顎を触ろうとする。@
-　……それに怯えた僕の腰は抜け、@だらしなく部屋の真ん中に、…写真の海の中に尻餅をつく。\
+;　彼女が、白く細い指で顎を触ろうとする。@
+`　She put her slender white fingers to her chin.`@`
+;　……それに怯えた僕の腰は抜け、@だらしなく部屋の真ん中に、…写真の海の中に尻餅をつく。\
+`　...And then in terror I my legs caved in. `@`In the middle of my messy room, ...I fell backwards into the sea of photographs.`\
 
 ld r,HIG_Def3,22
 
-「さぁ、いらっしゃいな、陽子。@今こそ復讐の時。@あなたがどれほど悲しく辛い思いをしたか、@思い知らせる、永久の時間の中でただ一度の機会よ。」\
+;「さぁ、いらっしゃいな、陽子。@今こそ復讐の時。@あなたがどれほど悲しく辛い思いをしたか、@思い知らせる、永久の時間の中でただ一度の機会よ。」\
+`"Well, come on then Youko. `@`Now is the time for revenge. `@`How long and how much have you suffered in sorrow? `@`Teach him a lesson, because this is your only single chance in eternity to do so."`\
 
 bg black,22
 
@@ -5352,9 +5359,11 @@ E_B
 
 se1v 38,85
 
-　……彼岸花の後に、影がある。@
+;　……彼岸花の後に、影がある。@
+`　...There's a shadow behind Higanbana.`@`
 br
-　……ぐにゃりと歪んだ、影がある。\
+;　……ぐにゃりと歪んだ、影がある。\
+`　...A mushy warped silhouette.`\
 
 E_A
 wait 2000
@@ -5368,37 +5377,49 @@ bgm1 16
 
 ld c,YOU_Def1,42
 
-　それはまるで、眩しさを嫌い、彼女の背中に隠れる影のよう。@
-　その影から、…ぬらりと腕が伸び、彼岸花の肩を借りるようにして、……姿を現す。@
+;　それはまるで、眩しさを嫌い、彼女の背中に隠れる影のよう。@
+`　It was as if it was a shadow that detested the brightness and hid behind her back.`@`
+;　その影から、…ぬらりと腕が伸び、彼岸花の肩を借りるようにして、……姿を現す。@
+`　That shadow ...slimely grew arms, using Higanbana's shoulders to steady itself, ...it revealed its form.`@`
 br
-　……あぁ、思い出す。@そうだ、………沼田陽子は、……こんな顔の子だった……。\
+;　……あぁ、思い出す。@そうだ、………沼田陽子は、……こんな顔の子だった……。\
+`　...Ahh, I remember. `@`That's right ...Numata Youko ...looked like this...`\
 
-　彼女は一体、どんな形で死を迎えたのだろう。@
-　……彼女が身に着ける着衣は、確かに学校で何度か見たことのあるものだったが、@…それはまるで、ぼろぼろの頭陀袋のよう。@
-　汚れ、擦り切れ、あまりに無惨なものだった。\
+;　彼女は一体、どんな形で死を迎えたのだろう。@
+`　I wonder, what in the world kind of body she must have met her end with.`\
+;　……彼女が身に着ける着衣は、確かに学校で何度か見たことのあるものだったが、@…それはまるで、ぼろぼろの頭陀袋のよう。@
+`　...The clothes that clung to her were just like the ones I'd seen countless times at school before, `@`...but they were like worn out rags.`@`
+;　汚れ、擦り切れ、あまりに無惨なものだった。\
+`　Dirty, worn out, and quite miserable rags.`\
 
 se1 38
 
 ld c,YOU_Def2,2
 
-「………野々宮……くぅ……・c……、」@
+;「………野々宮……くぅ……・c……、」@
+`"...Nonomiya...Ku........."`@
 
 ;quakex 1,100
 ld r,NON_n1a,2
 ld r,NON_s1,22
 
-「ぬ、……沼田さん…………。」\
+;「ぬ、……沼田さん…………。」\
+`"Nu- ...Numata-san......"`\
 
-　蝋燭のように真っ白で、そして着衣と同じようにぼろぼろの皮膚に覆われた彼女の姿は、@生前の姿を思い出した今の僕にとっては、気の毒という域を超えて醜悪なくらいだ…。\
+;　蝋燭のように真っ白で、そして着衣と同じようにぼろぼろの皮膚に覆われた彼女の姿は、@生前の姿を思い出した今の僕にとっては、気の毒という域を超えて醜悪なくらいだ…。\
+`　Pure white like candle wax, just like her worn out clothes her skin hung loosely in the same way. `@`Now that I remembered her when she was alive, her ugliness was beyond pitiful...`\
 
-　その姿がそれほどまでに酷いのは多分、@……僕の犯した罪を、姿で表そうというつもりなのかもしれない。@
-　……そう思えるほどに、その哀れで無惨な姿は僕の心を抉る。\
+;　その姿がそれほどまでに酷いのは多分、@……僕の犯した罪を、姿で表そうというつもりなのかもしれない。@
+`　Appearing with such an atrocious body, `@`...her figure might have represented my sins.`@`
+;　……そう思えるほどに、その哀れで無惨な姿は僕の心を抉る。\
+`　...The more I thought, that pitiful atrocity gouged my heart.`\
 
 ;cl c,24
 ld l,HIG_w4,22
 ;ld l,HIG_Def1,80
 
-「ねぇ、陽子。@あなたは死の際に願ったんですって？@　自分の命と引き換えに、自分を付け回した張本人に復讐がしたいって。@……あなたを死に誘った妖怪は無慈悲だったけれども、@この踊る彼岸花はとても慈悲深いの。@あなたをわざわざ蘇らせ、その機会を与えたこの慈愛に、感謝をなさい？@　うっふふふふふふふふふふふふふ！」\
+;「ねぇ、陽子。@あなたは死の際に願ったんですって？@　自分の命と引き換えに、自分を付け回した張本人に復讐がしたいって。@……あなたを死に誘った妖怪は無慈悲だったけれども、@この踊る彼岸花はとても慈悲深いの。@あなたをわざわざ蘇らせ、その機会を与えたこの慈愛に、感謝をなさい？@　うっふふふふふふふふふふふふふ！」\
+`"Hey~, Youko. `@`You said you wanted to cross into death? `@`In exchange for your life, you said you wanted to have revenge on the ringleader. `@`...Despite the ruthlessness of that youkai who invited you to die, `@`this dancing Higanbana is deeply compassionate. `@`I've expressly brought you back and given you your chance, so how about some gratitude for this kindness? `@`Huhuhuhuhuhuhuhuhuhuhuhu!"`\
 
 cl r,0
 cl l,2
@@ -5411,50 +5432,62 @@ se1 38
 
 ld c,YOU_Def1,22
 
-「………野々宮く……が、…………………ぅを……？」@
+;「………野々宮く……が、…………………ぅを……？」@
+`"...Nonomiya-ku... di..........to...?"`@
 br
-　彼女の体は、腐っているのか凍えているのか。@…まるで、冷蔵庫の中の腐肉が解凍されたような、……あまりに無惨なものだった。@そんな彼女は、ただそこに居続けるだけでも辛いように震え、言葉さえ不自由にしている。\
+;　彼女の体は、腐っているのか凍えているのか。@…まるで、冷蔵庫の中の腐肉が解凍されたような、……あまりに無惨なものだった。@そんな彼女は、ただそこに居続けるだけでも辛いように震え、言葉さえ不自由にしている。\
+`　Her body might have been rotting or frozen. `@`It was like tainted meat left in the refrigerator, ...an extremely horrible thing. `@`She just stood there trembling painfully ― struggling even to speak.`\
 
-　でも、彼女が何を言っているのか、……その澱んだ目が全て語っていた。\
+;　でも、彼女が何を言っているのか、……その澱んだ目が全て語っていた。\
+`　But what she was trying to say ...those quivering eyes said it all.`\
 
 se1 38
 
 cl c,0
 mld c,YOU_Def2,22
 
-「………野々宮くんが、……………私を……？」@
+;「………野々宮くんが、……………私を……？」@
+`"...Nonomiyakun did ......to me?"`@
 
 quakex 1,100
 
-「………………ぅ、……うううぅうぅ…！！」@
+;「………………ぅ、……うううぅうぅ…！！」@
+`".....oo ...Ooooooooo...!!"`@`
 br
-　彼女が僕に触れようと、……一歩、歩む度に、僕はそれと同じだけ、尻餅のまま後退る。\
+;　彼女が僕に触れようと、……一歩、歩む度に、僕はそれと同じだけ、尻餅のまま後退る。\
+`　She moved to touch me ...and with each step she walked, at the same time I retreated backwards on the ground.`\
 
 ld r,HIG_w6,22
 
-「くすくすくすくす、うふふふふふふふふふふふふふふ…！！@　どうしたのかしら、野々宮くん。@あなただって一方的に非があるわけじゃないでしょう？@　陽子があなたに濡れ衣を被せるような卑怯を働かなければ、@そもそもあなたはあんなことをしなかった。」\
+;「くすくすくすくす、うふふふふふふふふふふふふふふ…！！@　どうしたのかしら、野々宮くん。@あなただって一方的に非があるわけじゃないでしょう？@　陽子があなたに濡れ衣を被せるような卑怯を働かなければ、@そもそもあなたはあんなことをしなかった。」\
+`"*giggle giggle* Huhuhuhuhuhuhhuhuhuhu~!! `@`I wonder what's the matter, Nonomiya Takeshi-kun. `@`It's not entirely your fault is it? `@`If Youko hadn't cowardly worked to frame you, `@`none of this would have happened in the first place."`\
 
 ld r,HIG_w5,80
 
-「つまりこれは陽子の自業自得。@自らの罪を擦り付けたさらなる罪が招いた、自業自得。@だから野々宮くんが、一方的に非を認める必要もないんじゃないかしら。」\
+;「つまりこれは陽子の自業自得。@自らの罪を擦り付けたさらなる罪が招いた、自業自得。@だから野々宮くんが、一方的に非を認める必要もないんじゃないかしら。」\
+`"Basically, Youko is suffering the consequences for her actions. `@`Passing your sins to another invites more sin, and she is paying the price. `@`So I wonder if Nonomiya-kun needs to point out the onesidedness."`\
 
 ld r,HIG_Def3,80
 
-「あなたには言い返す権利がある。@抗う権利がある。@人間はね、何があろうとも死ねば無力、死ねば皆無…！@　常に生きている人間がもっとも強いの。@だから生き続けなければならない。@なのに軽々しく命を手放す人間は、骨の髄まで私たちにしゃぶり尽くされて当然…！」\
+;「あなたには言い返す権利がある。@抗う権利がある。@人間はね、何があろうとも死ねば無力、死ねば皆無…！@　常に生きている人間がもっとも強いの。@だから生き続けなければならない。@なのに軽々しく命を手放す人間は、骨の髄まで私たちにしゃぶり尽くされて当然…！」\
+`"You have the right to speak. `@`You have the right to remain silent. `@`When humans die, you see, they're powerless. If they die, they're nothing! `@`Humans that continue to live are much stronger. `@`So they must continue to live. `@`And humans that frivolously part with their lives, naturally, we'll suck their bones dry!"`\
 
 ld r,HIG_w4,80
 
-「それを慈悲深い私が蘇らせたわ。@陽子は無力な死者の分際で、自らの困難を自ら戦い抜く権利を軽々しく手放・ｵて命を捨てた分際で、@私によって復讐の機会が与えられた。@だからこうして、生きている野々宮くんの前に再び現れることができる。」\
+;「それを慈悲深い私が蘇らせたわ。@陽子は無力な死者の分際で、自らの困難を自ら戦い抜く権利を軽々しく手放・ｵて命を捨てた分際で、@私によって復讐の機会が与えられた。@だからこうして、生きている野々宮くんの前に再び現れることができる。」\
+`"In my deep compassion I brought her back. `@`Youko in her powerless deceased state, and in her distress she frivolously gave up her right to fight to the bitter end when she threw her life away. `@`I've given her that chance of revenge. `@`So now she can reveal herself once again before the still living Nonomiya Takeshi-kun."`\
 
 cl r,0
 
 ld l,HIG_w3,24
 
-「……ねぇ、陽子。@自らの命を自ら手放した者が、@魂をしゃぶり尽くされてどんな地獄を彷徨うことになるのか、彼に教えてあげたら…？@　戻りたくはないでしょう？@　ならば復讐を成し遂げなさい？」\
+;「……ねぇ、陽子。@自らの命を自ら手放した者が、@魂をしゃぶり尽くされてどんな地獄を彷徨うことになるのか、彼に教えてあげたら…？@　戻りたくはないでしょう？@　ならば復讐を成し遂げなさい？」\
+`"...Hey~, Youko. `@`How about you tell him `@`what kind of hell souls can crawl around after they've been sucked dry...? `@`You don't want to go back do you? `@`Then how about fufilling that revenge?`\
 
 ld l,HIG_def3,80
 
-「彼の魂を奪うことができたなら、わずかばかりをあなたにも分けてあげる。@そうしたなら、あなたはあの地獄へもう戻らなくて済むのよ。@私の僕として、ほどほどの扱いで飼ってあげる。@その方がいいでしょう？@　あの寒い寒い、凍えるような地獄に再び帰ることを考えたら、その方が絶対にいいでしょう？」\
+;「彼の魂を奪うことができたなら、わずかばかりをあなたにも分けてあげる。@そうしたなら、あなたはあの地獄へもう戻らなくて済むのよ。@私の僕として、ほどほどの扱いで飼ってあげる。@その方がいいでしょう？@　あの寒い寒い、凍えるような地獄に再び帰ることを考えたら、その方が絶対にいいでしょう？」\
+`"After you take his soul, I'll let you have a bit of it. `@`After that, you'll never return to that hell again. `@`As my servent I'll treat you and feed you fairly. `@`Sounds good doesn't it? `@`If you think about it, it's much better than returning to that cold cold, freezing hell, isn't it?"`\
 
 textoff
 
@@ -5473,33 +5506,43 @@ se2 84
 
 ld l,HIG_w5,80
 
-「さぁ、陽子。@野々宮くんの命を奪いなさい。@そして、野々宮くん。@あなたは自らが生き永らえる為に、@陽子を再び、元の地獄へ送り返してやりなさい。」\
+;「さぁ、陽子。@野々宮くんの命を奪いなさい。@そして、野々宮くん。@あなたは自らが生き永らえる為に、@陽子を再び、元の地獄へ送り返してやりなさい。」\
+`"Well, Youko. `@`Take Nonomiya-kun's life. `@`And, Nonomiya-kun. `@`If you want to live a long life, `@`send Youko back to the hell she came from."`\
 
 mcl c,0
 bg black,22
 
 me2v 17,70
 
-　陽子の姿は一見、不気味なものかもしれないけれど、@そんな姿でしか蘇れないくらいに哀れな存在でしかない。@
-　野々宮くんが思っているよりも、はるかに簡単に息の根を止めてしまえる相手よ。\
+;　陽子の姿は一見、不気味なものかもしれないけれど、@そんな姿でしか蘇れないくらいに哀れな存在でしかない。@
+`　At a glance, Youko's body might have seemed unpleasant. `@`But hers was a form that shouldn't have been able to come back to life.`@
+;　野々宮くんが思っているよりも、はるかに簡単に息の根を止めてしまえる相手よ。\
+`　Strangling your opponent to death isn't as hard as Nonomiya-kun thinks it is.`\
 
-　何しろ、同じ辛い思いをした時、彼女は安易に自殺を選んだけれど、@あなたは復讐を選び生き続ける力強さを見せた。@
-　自ら死を選ぶ者には尊厳も機会も何もない！@　常に生き延びた者が正しいの。\
+;　何しろ、同じ辛い思いをした時、彼女は安易に自殺を選んだけれど、@あなたは復讐を選び生き続ける力強さを見せた。@
+`　At any rate, with the same bitterness you had, she chose a simple suicide. `@`You showed me you power of continuing to live through revenge.`@
+;　自ら死を選ぶ者には尊厳も機会も何もない！@　常に生き延びた者が正しいの。\
+`　For those who choose death there is no dignity, no second chance, nothing!`@` The ones that survive are the right ones.`\
 
 ld r,HIG_w6,22
 
-「さぁ、陽子の首に手を掛けなさい？@　ジャムの瓶の蓋を開ける要領で捻ってやるといい。@それで陽子はおしまい。@元の地獄へ逆落としよ。」\
+;「さぁ、陽子の首に手を掛けなさい？@　ジャムの瓶の蓋を開ける要領で捻ってやるといい。@それで陽子はおしまい。@元の地獄へ逆落としよ。」\
+`"Well, how about you take Youko's neck in your hands? `@`Twist it like a stuck lid on a jar of jam. `@`And then that'll be the end of Youko. `@`She'll plunge back to hell again."`\
 
 ld r,HIG_w5,80
 
-「それが嫌なら陽子。@あなたがそうされるより先に野々宮くんの首を捻じ切ってやりなさい。@今のあなたには、その程度の力は与えられているのだから。」\
+;「それが嫌なら陽子。@あなたがそうされるより先に野々宮くんの首を捻じ切ってやりなさい。@今のあなたには、その程度の力は与えられているのだから。」\
+`"If you don't want that Youko. `@`Then before that happens snap Nonomiya-kun's neck. `@`Because, as you are now, I've granted you the power to do as much."`\
 
-　彼岸花は、僕たちをそう焚き付けると、優雅そうに、……いや、今こそわかる。@これ以上ないくらい邪悪に、くすくすと笑い転げる。@
+;　彼岸花は、僕たちをそう焚き付けると、優雅そうに、……いや、今こそわかる。@これ以上ないくらい邪悪に、くすくすと笑い転げる。@
+`　Higanbana stirred us up like so, and in her elegence ... no. This time I knew. `@`She was bursting with giggles of laughter from which there was no greater evil.`@
 se1 84
 br
-　僕と沼田さんは、彼岸花の笑いを互いに理解しているようだった。@そして、じり…じり…と互いの間合いを詰め合う。\
+;　僕と沼田さんは、彼岸花の笑いを互いに理解しているようだった。@そして、じり…じり…と互いの間合いを詰め合う。\
+`　It was like Numata-san and I both understood Higanbana's laughter at the same time. `@`And slowly, ...slowly... we inched towards one another.`\
 
-　彼岸花が言うように、沼田さんが堕ちた地獄というのは、辛いものに違いない。@……彼女の体の、気の毒な有様は、@その地獄の恐ろしさを如実に物語るものなのだ。\
+;　彼岸花が言うように、沼田さんが堕ちた地獄というのは、辛いものに違いない。@……彼女の体の、気の毒な有様は、@その地獄の恐ろしさを如実に物語るものなのだ。\
+`　As Higanbana said, for Numata-san to return to hell must be a horribly cruel thing. `@`...Her body, that pitiful state. `@`It gave a graphic detail of the terrors of that hell.`\
 
 ;mcl r,0
 bg black,22
@@ -5508,26 +5551,35 @@ bg black,22
 
 ld l,NON_N1,22
 
-　彼女は、僕を殺せば、その地獄へ戻らなくて済むと彼岸花に約束された。@……そうでなくても、彼女を自殺に追い込んだ元凶は僕だ。@彼女には、僕を殺してやりたい百億の怨嗟があるはず。\
+;　彼女は、僕を殺せば、その地獄へ戻らなくて済むと彼岸花に約束された。@……そうでなくても、彼女を自殺に追い込んだ元凶は僕だ。@彼女には、僕を殺してやりたい百億の怨嗟があるはず。\
+`　If she kills me, Higanbana promised she wouldn't have to go back to that hell. `@`...Even so, `@`the fact that I was the ringleader that drove her to suicide probably made her want to kill me ten billion times over.`\
 
-　でも、それは僕も同じだった。@彼女に濡れ衣を被せられ、@彼女が死の際に胸中を満たしたであろう怒りと悲しみに負けないくらいの辛さを、僕だって味わった。@
+;　でも、それは僕も同じだった。@彼女に濡れ衣を被せられ、@彼女が死の際に胸中を満たしたであろう怒りと悲しみに負けないくらいの辛さを、僕だって味わった。@
+`　It was the same for me however. `@`She had falsely accused me, `@`and I had tasted a bitterness that couldn't lose to her rage and sadness from taking her own life.`@
 br
-　いや、……同じ辛さだったなんて言えるだろうか。\
+;　いや、……同じ辛さだったなんて言えるだろうか。\
+`　No... how can I say we've felt the same pain?`\
 
 ;bg Different_spiral_1b,22
 ld l,NON_N1a,22
 
-　僕は先生に怒られただけだ。@でも彼女はクラス中にいじめられた。@その辛さが、まるで違う。@
+;　僕は先生に怒られただけだ。@でも彼女はクラス中にいじめられた。@その辛さが、まるで違う。@
+`　I just got yelled at by a teacher. `@`But she was bullied by the entire class. `@`Her pain was completely different.`@
 br
-　僕の辛さなど、怒りに身を焦がす程度で、自ら死を選びたくなるほどのものではなかった。@
-　……しかし彼女の辛さは、それを思い切らせるほどだった。\
+;　僕の辛さなど、怒りに身を焦がす程度で、自ら死を選びたくなるほどのものではなかった。@
+`　The pain I felt just drove me to burn with rage but it didn't lead me to taking my own life.`@
+;　……しかし彼女の辛さは、それを思い切らせるほどだった。\
+`　...But her pain couldn't be dissuaded.`\
 
 ld l,NON_s3,80
 
-「……………なら、………僕が、……悪いのか………？」@
+;「……………なら、………僕が、……悪いのか………？」@
+`"......What if ......I'm .......wrong?"`@
 br
-　じゃあどうすれば良かったんだ？！@
-　僕は濡れ衣に甘んじて泣き寝入りをしていればよかったというのか？！\
+;　じゃあどうすれば良かったんだ？！@
+`　Then what should I have done?!`@
+;　僕は濡れ衣に甘んじて泣き寝入りをしていればよかったというのか？！\
+`　Does that mean I should have just been content with crying myself to sleep at night because of those accusations?!`\
 
 ;bg black,24
 ;mono 0
@@ -5535,37 +5587,45 @@ br
 ld r,HIG_Def4,24
 ;ld r,HIG_Def1,80
 
-「えぇ、そんなことはないわ。@因果は巡る。@目には目を、悪意には悪意を。@あなたは正当な復讐をしただけよ。@その結果、彼女が勝手に死を選んだに過ぎない。」\
+;「えぇ、そんなことはないわ。@因果は巡る。@目には目を、悪意には悪意を。@あなたは正当な復讐をしただけよ。@その結果、彼女が勝手に死を選んだに過ぎない。」\
+`"Noo, that's not it at all. `@`What goes around comes around. `@`An eye for an eye, an evil for an evil. `@`You merely had your just revenge. `@`As a result, she merely chose to take her own life."`\
 
 ld r,HIG_w4,80
 
-「自ら死を認めるのは、人間が選べる屈服の方法の中でもっとも貧しく惨めよ。@だからあなたには同情する必要などまるでない。@生きる力を持ち続けられなかった弱者を、その手で元の地獄へ送り返す正当な権利がある。」\
+;「自ら死を認めるのは、人間が選べる屈服の方法の中でもっとも貧しく惨めよ。@だからあなたには同情する必要などまるでない。@生きる力を持ち続けられなかった弱者を、その手で元の地獄へ送り返す正当な権利がある。」\
+`"Allowing their own deaths is the most terribly wretched way humans can choose to admit defeat. `@`So there's no need to feel sorry for her. `@`You have the justifiable right to send that weakling who lacked the strength to continue living back to hell with your own hands."`\
 
 ld l,NON_s2,26
 ;ld l,NON_Def1,80
 
-「……ひ、彼岸花さんが何を言いたいのかわからない！！@　あなたは、沼田さんに復讐をさせたいのか？@　それとも沼田さんを僕に殺させたいのか？！@　それすらわからない！！」\
+;「……ひ、彼岸花さんが何を言いたいのかわからない！！@　あなたは、沼田さんに復讐をさせたいのか？@　それとも沼田さんを僕に殺させたいのか？！@　それすらわからない！！」\
+`"...I- I don't know what you're trying to say Higanbana-san!! `@`Do you want to take revenge for Numata-san?`@` Or do you want to make me kill her?! `@`It makes no sense!!"`\
 
 ld r,HIG_w3,80
 
-「どっちでもいいの。」@
+;「どっちでもいいの。」@
+`"Either is fine."`@
 
 ld l,NON_s3,80
 
-「それはどういう意味だよ？！」\
+;「それはどういう意味だよ？！」\
+`"The hell do you mean by that?!"`\
 
 ld r,HIG_w6,80
 
-「くすくすくすくすくすくすくす！@　あなたを殺せればそれでいいし、@あなたが反撃して、ひ弱な亡者が奈落に再び叩き落とされたとしても、@それはそれで楽しいし。@どっちでもいいの。@うふふふふふふふふふふふ、面白いもの！」\
+;「くすくすくすくすくすくすくす！@　あなたを殺せればそれでいいし、@あなたが反撃して、ひ弱な亡者が奈落に再び叩き落とされたとしても、@それはそれで楽しいし。@どっちでもいいの。@うふふふふふふふふふふふ、面白いもの！」\
+`"Teeheeheeheeheeheehee! `@`If you're killed, that's fine, `@`and even if you counterattack and send that weakling corpse once again back to hades, `@`that's fun too. `@`Either is fine. `@`Huhuhuhuhuhuhuhhu, it's amusing you see!"`\
 
 ld r,HIG_w5,80
 
-「学校妖怪はね、退屈なの。@だから生徒たちが諍いを起こしてくれるのが一番嬉しい。@いじめや喧嘩が大好きなのよ。@あなたたちがそうして睨み合っているのを見ているだけで、@楽しくて楽しくて、全身が粟立ちそうになるわ。@この気持ち、わかるかしら？」\
+;「学校妖怪はね、退屈なの。@だから生徒たちが諍いを起こしてくれるのが一番嬉しい。@いじめや喧嘩が大好きなのよ。@あなたたちがそうして睨み合っているのを見ているだけで、@楽しくて楽しくて、全身が粟立ちそうになるわ。@この気持ち、わかるかしら？」\
+`"It's quite boring, you know? Being a school youkai that is. `@`So I find pitting students against each other makes me the happiest. `@`I love bullying and fighting, you see. `@`Just by watching you two glare at each other like that `@`is so exciting ― so exciting ― I get goosebumbs all over. `@`Do you know what that feels like, I wonder?"`\
 
 bg black,0
 mld r,HIG_w6,22
 
-「くすくすくすくす！@　さぁ、殺し合いなさい、二人とも。@どちらが勝ってもいいの。@いじめたりいじめられたり！@　あぁ本当に愉快な学校生活。@くすくすくすくすくすくす！」\
+;「くすくすくすくす！@　さぁ、殺し合いなさい、二人とも。@どちらが勝ってもいいの。@いじめたりいじめられたり！@　あぁ本当に愉快な学校生活。@くすくすくすくすくすくす！」\
+`"Heeheeheehee! `@`Well, kill each other you two. `@`I don't care who wins. `@`Bully and be bullied! `@`Aah what a pleasant school life. `@`Ahahahahahahahaha!"`\
 
 se1v 84,100
 
@@ -5590,22 +5650,28 @@ ld l,YOU_Def1,2
 se1v 38,50
 ld l,YOU_Def3,22
 
-「…………………野々宮……く……・c。」@
+;「…………………野々宮……く……・c。」@
+`"..........Nonomiya...ku......"`@
 br
-　沼田さんが、苦しげに言う。@
-　今の僕にはもう、無惨な彼女の姿に恐怖は感じなかった。@……ただただ、痛々しいとだけ思った。\
+;　沼田さんが、苦しげに言う。@
+`　Numata-san pained to speak.`@
+;　今の僕にはもう、無惨な彼女の姿に恐怖は感じなかった。@……ただただ、痛々しいとだけ思った。\
+`　Now I no longer felt fear towards her miserable body. `@`...I only felt pity.`\
 
 ld r,NON_N1a,22
 
-「………な、…………何…………。」@
+;「………な、…………何…………。」@
+`"...Wh-......What......"`@
 
 ld l,YOU_Def1,22
 
-「…どうして、………あんなに、…………酷いことをいっぱいしたの……。」\
+;「…どうして、………あんなに、…………酷いことをいっぱいしたの……。」\
+`"...Why ......did you ......do so many horrible things..."`\
 
 ld r,NON_s3,80
 
-「そ、………それは、…先にそっちがやったからだよッ！！@　あの日、理科準備室で人体模型を倒したのは君だったじゃないか！@　君だってわかってたはずだ。@それなのに、君は嘘を吐いた！！」\
+;「そ、………それは、…先にそっちがやったからだよッ！！@　あの日、理科準備室で人体模型を倒したのは君だったじゃないか！@　君だってわかってたはずだ。@それなのに、君は嘘を吐いた！！」\
+`"B- ...Because y- ...you did it to me first~!! `@`That day, in the science prep room you knocked over that anatomy dummy didn't you! `@`You should know. `@`Even then, you lied!!"`\
 
 
 textoff
@@ -5625,46 +5691,59 @@ ld l,YOU_Def1,80
 
 bgm1 17
 
-「……うん。@……嘘を、……吐いた。@……でも、……ここまで酷い仕返しをされるほど、@…………そこまで私は、……酷いことを、……したのかな………。」\
+;「……うん。@……嘘を、……吐いた。@……でも、……ここまで酷い仕返しをされるほど、@…………そこまで私は、……酷いことを、……したのかな………。」\
+`"...Yes. `@`...I ......lied. `@`...But ...taking your revenge so far, `@`......Did I really ...do such ...a bad thing...?"`\
 
 ld r,NON_N1a,22
 
-「………………。」@
+;「………………。」@
+`"........."`@
 br
-　彼女の表情に怒りはない。@……ただただ、憐れなまでの悲しみ。@
-　そして、僕もきっと同じ表情をしているだろう。\
+;　彼女の表情に怒りはない。@……ただただ、憐れなまでの悲しみ。@
+`　Her expression showed no anger. `@`...Just pitiable sorrow.`@
+;　そして、僕もきっと同じ表情をしているだろう。\
+`　And I must have had the same expression.`\
 
 bg black,22
 bg ie_04,22
 
-　……彼女に言われるままなのだ。@
+;　……彼女に言われるままなのだ。@
+`　...It was like she was saying.`@
 br
-　僕は確かに悔しい思いをしたけれど、@……彼女を殺したいと願うほどではなかった。@ちょっと仕返しができればいいだけだった。\
+;　僕は確かに悔しい思いをしたけれど、@……彼女を殺したいと願うほどではなかった。@ちょっと仕返しができればいいだけだった。\
+`　I really had my share of pain, `@`...but it wasn't enought that I wanted her to kill herself. `@`I would have been satisfied with just getting even.`\
 
-　なのに、その歯止めが効かなくて、……いつの間にかどんどんエスカレートしていって、@僕が被った濡れ衣よりも、遥かに大きな復讐に膨らんだ。\
+;　なのに、その歯止めが効かなくて、……いつの間にかどんどんエスカレートしていって、@僕が被った濡れ衣よりも、遥かに大きな復讐に膨らんだ。\
+`　However, those breaks didn't work, and before I knew it... it escalated out of control. `@`My revenge grew far beyond my initial framing.`\
 
-　もしも、正当な復讐が存在したとして。@受けた苦しみに応じた正当な復讐が許されていたとしても、@………僕のしたことは過剰だ。@その過剰な分は、言い逃れの断じてできぬ、僕の罪だ…………。\
+;　もしも、正当な復讐が存在したとして。@受けた苦しみに応じた正当な復讐が許されていたとしても、@………僕のしたことは過剰だ。@その過剰な分は、言い逃れの断じてできぬ、僕の罪だ…………。\
+`　Perhaps, if I had made it a just revenge. `@`Even if I had been allowed just the right amount of revenge, `@`...what I did went beyond that. `@`There was no excuse for it. No words to escape my sin.........`\
 
 bg black,22
 
-「…………多分、……僕が悪いんだ。@……確かに僕は君を憎んださ。@君だって憎まれることをした自覚はあるはずだ…！@　……でも、それにしたって、……僕は君を殺すつもりなんてなかった。@死ぬまで永遠に復讐を続けるつもりなんてなかったんだ。@充分足りたと思ったら、そこで止めるつもり………、だったんだ。@……でも、クラス全体でのふざけた雰囲気になっていって…、@どんどんエスカレートしていった。」\
+;「…………多分、……僕が悪いんだ。@……確かに僕は君を憎んださ。@君だって憎まれることをした自覚はあるはずだ…！@　……でも、それにしたって、……僕は君を殺すつもりなんてなかった。@死ぬまで永遠に復讐を続けるつもりなんてなかったんだ。@充分足りたと思ったら、そこで止めるつもり………、だったんだ。@……でも、クラス全体でのふざけた雰囲気になっていって…、@どんどんエスカレートしていった。」\
+`"...Perhaps, ...I was wrong. `@`...I certainly hated you. `@`You were probably aware that I hated you...! `@`...But, even so, ...I didn't intend to kill you. `@`I didn't intend to have my revenge until you died or anything like that. `@`After I thought it was enough, I would have stopped then...... that's all. `@`...But, I got caught up in the atmosphere of the class... `@`and it escalated out of control."`\
 
 bg black,23
 bg ie_03,0
 ld r,HIG_Def3,23
 ld r,HIG_w4,80
 
-「くすくすくすくす、そうねぇ。@濡れ衣の復讐が後を付け回して、執拗に監視することだなんて、やり過ぎにもほどがある。」\
+;「くすくすくすくす、そうねぇ。@濡れ衣の復讐が後を付け回して、執拗に監視することだなんて、やり過ぎにもほどがある。」\
+`"Heeheeheehee, that's riiight. `@`There's even a limit to how much you can persistantly stalk someone around after taking revenge for being falsely accused, apparently."`\
 
 ld r,HIG_w5,80
 
-「そうそう、あなたの罪は、もはや明らかじゃないの。@あなたがやり過ぎた。@彼女を死へ追い込んだ。@野々宮くんが沼田陽子を殺した…！」\
+;「そうそう、あなたの罪は、もはや明らかじゃないの。@あなたがやり過ぎた。@彼女を死へ追い込んだ。@野々宮くんが沼田陽子を殺した…！」\
+`"Sure sure, isn't your crime obvious by now? `@`You went too far. `@`You drove her to die. `@`Nonomiya-kun killed Numata Youko!"`\
 
 se1 84
 
-　彼岸花がけたけたと邪悪な笑い声で僕を追い詰める。@……でも、それは多分正論で、僕は何を言い返すこともできなかった。@
+;　彼岸花がけたけたと邪悪な笑い声で僕を追い詰める。@……でも、それは多分正論で、僕は何を言い返すこともできなかった。@
+`　Higanbana's cackles of wicked laughter challenged me to respond. `@`...However it seemed she had a point, so I said nothing in return.`@
 br
-　…すると、……沼田さんが彼岸花の方を向いて、言った。\
+;　…すると、……沼田さんが彼岸花の方を向いて、言った。\
+`　...Then, ...Numata-san faced Higanbana and spoke.`\
 
 ld l,YOU_Def1,22
 
@@ -5672,64 +5751,83 @@ wait 1000
 
 ld l,YOU_Def3,22
 
-「………だとしても…。@……私という元凶がなかったら、@……野々宮くんはきっと、…そんなことを、……しませんでした。@…………やっぱり、………私には、彼が悪いなんて、……言い切れない。」\
+;「………だとしても…。@……私という元凶がなかったら、@……野々宮くんはきっと、…そんなことを、……しませんでした。@…………やっぱり、………私には、彼が悪いなんて、……言い切れない。」\
+`"...Even so... `@`...If I didn't do what I did, `@`...Nonomiya-kun ...wouldn't have... done it. `@`......In the end, ...I can't say ...he's wrong."`\
 
 ld r,HIG_w6,80
 
-「うふふふふふふふふふふふふ。@なら、やっぱり陽子が自業自得なのかしら。@なら、永久に凍えて過ごさなければならないあの地獄は、@やっぱりあなたにはお似合いの地獄だってことになるわよ？@　あなたは、あの地獄へ再び戻りたいのかしら…？」\
+;「うふふふふふふふふふふふふ。@なら、やっぱり陽子が自業自得なのかしら。@なら、永久に凍えて過ごさなければならないあの地獄は、@やっぱりあなたにはお似合いの地獄だってことになるわよ？@　あなたは、あの地獄へ再び戻りたいのかしら…？」\
+`"Uhuhuhuhuhuhuhuhuhu~. `@`Then, in the end, do you think you're paying for your own mistakes? `@`Then, in the end, do you think that being trapped for eternity in that freezing hell suits you? `@`Do you want to go back to that hell once again, I wonder?..."`\
 
 ld l,YOU_Def1,22
 
-「……………………………。」@
+;「……………………………。」@
+`".................."`@
 br
-　沼田さんは、自分の両腕を抱き締めるような仕草をして震える。@…それが、恐怖によるものか、@…それとも、それを思い出させられるだけで震えが来るほどの寒さなのか、…僕にはわからない。\
+;　沼田さんは、自分の両腕を抱き締めるような仕草をして震える。@…それが、恐怖によるものか、@…それとも、それを思い出させられるだけで震えが来るほどの寒さなのか、…僕にはわからない。\
+`　Numata-san shivered as she wrapped herself with both her arms. `@`..It might have been in fear, `@`or it might have been just from the memory of the cold coming back to her, ...I couldn't tell.`\
 
-　ただひとつわかるのは、@……自分の命を蔑ろにした者が堕ちる地獄の、恐ろしさだけだ…。\
+;　ただひとつわかるのは、@……自分の命を蔑ろにした者が堕ちる地獄の、恐ろしさだけだ…。\
+`　The only thing I could tell `@`...was her own terror of being dropped into hell...`\
 
 bg ie_02u,24
 ld l,NON_N1a,22
 
-「僕たちには、………等しく、……罪があることが、わかったよ。@沼田さんには、僕に濡れ衣を被せた罪が。@僕には、君を死に追い込んだ罪が。」\
+;「僕たちには、………等しく、……罪があることが、わかったよ。@沼田さんには、僕に濡れ衣を被せた罪が。@僕には、君を死に追い込んだ罪が。」\
+`"We both know ...we each equally ...have our sins. `@`Numata-san has the crime of framing me, `@`and I have the crime of driving her to death."`\
 
 ld r,YOU_Def1,22
 
-「………そんなこと、…………ない…よ……。@…私さえ……嘘を………吐かなければ………。」\
+;「………そんなこと、…………ない…よ……。@…私さえ……嘘を………吐かなければ………。」\
+`"...That's .........not true... `@`...If I hadn't... ...hadn't lied..."`\
 
 cl l,0
 ld c,NON_N1a,23
 ;ld c,NON_Def1,80
 
-「うん。@だから沼田さんも、……僕も悪いんだ。@…悪い人間が堕ちる地獄があるのならば、それは僕たち二人が等しく堕ちるべきだ…。」\
+;「うん。@だから沼田さんも、……僕も悪いんだ。@…悪い人間が堕ちる地獄があるのならば、それは僕たち二人が等しく堕ちるべきだ…。」\
+`"Yeah. `@`We're both bad people. `@`...Since there are hells for bad people like us, then we should both fall into them..."`\
 
 ld c,NON_s1,80
 
-「そして、沼田さんはその地獄で、もう充分に凍えたんだ！@　……なら、…今度は僕がそこに堕ちる番なんだ。@…だから沼田さん。@…………君には今この場で、……僕に復讐する、権利がある！」\
+;「そして、沼田さんはその地獄で、もう充分に凍えたんだ！@　……なら、…今度は僕がそこに堕ちる番なんだ。@…だから沼田さん。@…………君には今この場で、……僕に復讐する、権利がある！」\
+`"But you've frozen in that hell long enough! `@`...So ...this time it's my turn to fall. `@`...Because Numata-san. `@`.......Right here, ...you deserve to have your revenge on me, right now!"`\
 
 ld r,YOU_Def3,80
 
-「…………………野々宮…く……………………。」\
+;「…………………野々宮…く……………………。」\
+`".........Nonomiya..ku............"`\
 
-　僕たちは多分、親しい友人たちが近付きあうより、身近な距離にいた。@
-　互いが互いの肩を抱き合えて、@……互いが互いの首を絞め合える、そんな間近にいた。\
+;　僕たちは多分、親しい友人たちが近付きあうより、身近な距離にいた。@
+`　We were probably at a distance closer than the best of friends.`@
+;　互いが互いの肩を抱き合えて、@……互いが互いの首を絞め合える、そんな間近にいた。\
+`　We were close enough so we could each embrace one another `@`...or we could each strangle one another.`\ 
 
-　彼岸花は、僕たちに相手の首を絞めろと囃し立てる。@……しかし僕らはそれをしなかった。@そしてそれが、彼女にとってもっともつまらないことだったのだろう。@彼岸花は僕たちを馬鹿にし、嘲笑する。\
+;　彼岸花は、僕たちに相手の首を絞めろと囃し立てる。@……しかし僕らはそれをしなかった。@そしてそれが、彼女にとってもっともつまらないことだったのだろう。@彼岸花は僕たちを馬鹿にし、嘲笑する。\
+`　Higanbana was egging us on to strangle each other. `@`...But we did not. `@`It must have terribly bored her so. `@`Higanbana made fools of us and ridiculed us.`\
 
-　そして、このまま互いが何もしないのなら、@沼田さんがこの世に留まることができる時間が切れて、@そのまま元の地獄へ堕ちることになるとさらに焚き付ける。@
-　……確かに、彼女の体から力がどんどん抜けていくのを、気配で感じることができた。\
+;　そして、このまま互いが何もしないのなら、@沼田さんがこの世に留まることができる時間が切れて、@そのまま元の地獄へ堕ちることになるとさらに焚き付ける。@
+`　So if we each do nothing like this, `@`Numata-san's time on this earth will run out, `@`and then she'll plummet back to burn in hell.`@`
+;　……確かに、彼女の体から力がどんどん抜けていくのを、気配で感じることができた。\
+`　...I realized the signs that her body's power was beginning to dissipate.`\
 
 bg black,22
 ;bg ie_04,26
 
-　このまま彼女が僕に復讐をしないのなら、彼女はその権利を永遠に失うのだ。@……その分だけ、僕に状況は有利で、そして卑怯だった。\
+;　このまま彼女が僕に復讐をしないのなら、彼女はその権利を永遠に失うのだ。@……その分だけ、僕に状況は有利で、そして卑怯だった。\
+`　At this rate if she doesn't take her revenge, then she'll forever lose her chance. `@`...At that moment, I had the advantage and she was afraid.`\
 
-　僕はこのまま立ち尽くし、彼女の中のある種の感情に訴え掛けるだけで、@安易に生き残ることができるかもしれない。@
+;　僕はこのまま立ち尽くし、彼女の中のある種の感情に訴え掛けるだけで、@安易に生き残ることができるかもしれない。@
+`　By standing still and appealing to what emotions she has within her, `@`I could safely remain alive.`@
 br
-　だから、僕は、口を閉ざしていることが許されないのだ。@僕は、口にしなければならない…！\
+;　だから、僕は、口を閉ざしていることが許されないのだ。@僕は、口にしなければならない…！\
+`　Because of that, I couldn't allow myself to remain silent. `@`I had to speak!`\
 
 bg ie_03,0
 ld r,HIG_W6,22
 
-　思えば、学校妖怪たちの悪戯がなければ、僕たちは再会できなかった。@こうして言葉を掛け合う機会にも恵まれなかった。@だから、その奇跡を、僕は見過ごしてはならない。\
+;　思えば、学校妖怪たちの悪戯がなければ、僕たちは再会できなかった。@こうして言葉を掛け合う機会にも恵まれなかった。@だから、その奇跡を、僕は見過ごしてはならない。\
+`　If I thought, without the aid of some school youkai mischeif we wouldn't be able to meet again. `@`We wouldn't have a chance to negociate like this again. `@`I couldn't let a miracle pass me by.`\
 
 bg white,22
 
@@ -5738,63 +5836,78 @@ ld l,NON_s3,1
 
 quakey 2,200
 
-「…ぬ、…………沼田さん…！@　ごめんッ！！」@
+;「…ぬ、…………沼田さん…！@　ごめんッ！！」@
+`"...Nu- ......Numata-san! `@`I'm sorry~!!"`@
 
 ld r,YOU_Def3,22
 
-「………………………ぇ。」\
+;「………………………ぇ。」\
+`"...............eh."`\
 
 ld l,NON_N1a,80
 
-「君にされたことは確かに悔しかったけど、@……でも、だからってあんな陰湿な仕返しをするなんて、僕がどうかしてたんだ！@　もしも記憶が消されなかったら、僕は生涯を後悔して過ごしたと思う。@でも、僕の記憶は消されて、こうして今日まで安穏と暮らしてきた。」\
+;「君にされたことは確かに悔しかったけど、@……でも、だからってあんな陰湿な仕返しをするなんて、僕がどうかしてたんだ！@　もしも記憶が消されなかったら、僕は生涯を後悔して過ごしたと思う。@でも、僕の記憶は消されて、こうして今日まで安穏と暮らしてきた。」\
+`"What I did to you was painful, however. `@`...It was all because I did such devious things to get even! `@`If my memory of you hadn't been erased, I think I would have certainly lived to regret it. `@`But my memory was erased, and so until today I've lived a peaceful life."`\
 
 ld l,NON_s3,80
 
-「……それを思い出すことができて、僕はこの機会に感謝してる！@　だからもう一度言うよ！@　沼田さん、…本当に、……ごめんッ！！」\
+;「……それを思い出すことができて、僕はこの機会に感謝してる！@　だからもう一度言うよ！@　沼田さん、…本当に、……ごめんッ！！」\
+`"...Being able to remember, I wanted to thank you for this opportunity. `@`So I'll say it again! `@`Numata-san, I am... truly ...sorry~!!"\
 
 ld r,YOU_Def1,80
 
-「…………………野々宮く…。@………私こそ、………………ごめんね…。@…その場の雰囲気で、…ついあんなことを……。@……あなたが、……そんなにも傷付いたなんて、…考えもしなくて………。@………ごめんね…ごめんね……。」\
+;「…………………野々宮く…。@………私こそ、………………ごめんね…。@…その場の雰囲気で、…ついあんなことを……。@……あなたが、……そんなにも傷付いたなんて、…考えもしなくて………。@………ごめんね…ごめんね……。」\
+`"..........Nonomiya-ku... `@`...Me too .......I'm sorry... `@`...I got ...swepped up in the mood... and did that... `@`...I didn't think... what I did ...would hurt you... `@`......I'm sorry...I'm sorry......"`\
 
 ld l,NON_s2,80
 
-「僕が悪いんだ！！@　ごめん、本当にごめん！！@　僕が君を殺した！@　だから君には僕を殺す権利がある！@　だから僕を殺して！@　君だけが地獄に落ちる必要なんてない！！」\
+;「僕が悪いんだ！！@　ごめん、本当にごめん！！@　僕が君を殺した！@　だから君には僕を殺す権利がある！@　だから僕を殺して！@　君だけが地獄に落ちる必要なんてない！！」\
+`"I'm the one who's wrong!! `@`I'm sorry, truly sorry!! `@`I killed you! `@`So you have the right to kill me! `@`So kill me! `@`There's no need for you to go to hell alone!!"\
 
 ld r,YOU_Def3,80
 
-「野々宮くん……。@君は誰も殺してない…よ………。@……だって、…死んだのは、……私の心が弱かったからだもん…。」\
+;「野々宮くん……。@君は誰も殺してない…よ………。@……だって、…死んだのは、……私の心が弱かったからだもん…。」\
+`"Nonomiya-kun... `@`You didn't kill anyone... you see... `@`...After all, ...I died ...because my heart wasn't strong enough..."`\
 
 mbg black,22
 
-　…………死ぬ前に、色々な選択肢があったはず。@誰かに相談したりとか、色々、色々。@
+;　…………死ぬ前に、色々な選択肢があったはず。@誰かに相談したりとか、色々、色々。@
+`　......Before dying, there was probably a lot of alternatives. `@`Such as turning to someone for help, all kinds of things.`@
 br
-　野々宮くんだって辛かったのに、自殺なんて考えなかった。@……自ら死を選ぶのが、どれだけ罪深くて悲しいことか、……死んでから、……わかったの。\
+;　野々宮くんだって辛かったのに、自殺なんて考えなかった。@……自ら死を選ぶのが、どれだけ罪深くて悲しいことか、……死んでから、……わかったの。\
+`　Even though you were in pain Nonomiya-kun, you didn't think of suicide. `@`...Choosing to die, knowing the depth and sadness of your sin, ...after you die ...you realize it.`\
 
 mcbg 22
 ld l,NON_s3,80
 
-「それでも、自殺に追い込んだのは僕の責任だ！！@　僕が、悪いんだ…！！」@
+;「それでも、自殺に追い込んだのは僕の責任だ！！@　僕が、悪いんだ…！！」@
+`"Even so, I'm responsible for driving you to suicide!! `@`IT'S MY FAULT~~!!"`@
 br
-　……そんな僕たちのそれを、茶番だと吐き捨てるかのように、彼岸花が舌打ちをした。\
+;　……そんな僕たちのそれを、茶番だと吐き捨てるかのように、彼岸花が舌打ちをした。\
+`　...As if she were about to vomit thinking we were putting on a farce, Higanbana clicked her tongue.`\
 
 mld c,HIG_w5,22
 ;mld c,HIG_Def1,80
 
-「………………………あなたたち、さっきから何を言っているの？@　野々宮くんも陽子も。@……何で互いを罵り合わないの？@　いじめたりいじめられたり。@やらなきゃやられる、いじめなきゃいじめられるのが学校の掟なんでしょう？@　それを何で二人して謝り合っているの？@　何だか滑稽だけれど、……つまらないわっ。」\
+;「………………………あなたたち、さっきから何を言っているの？@　野々宮くんも陽子も。@……何で互いを罵り合わないの？@　いじめたりいじめられたり。@やらなきゃやられる、いじめなきゃいじめられるのが学校の掟なんでしょう？@　それを何で二人して謝り合っているの？@　何だか滑稽だけれど、……つまらないわっ。」\
+`"......You guys, what did I say earlier? `@`Nonomiya-kun, Youko. `@`...Why won't you curse each other? `@`Bully and be bullied. `@`Either do or don't, bully or be bullied, those are the laws of school aren't they? `@`So why are you apologizing to each other? `@`Sure it's kinda funny ......but it's boring~."\
 
 ld r,YOU_Def1,80
 
 me1v 16,50
 
-「…………彼岸花…さ………………。@……私、………これで、いいです。@…このまま、………地獄へ、……帰ります。」@
+;「…………彼岸花…さ………………。@……私、………これで、いいです。@…このまま、………地獄へ、……帰ります。」@
+`"......Higanbana..-sa....... `@`...I ......am satis-...fied. `@`...I will ......return to hell... like this."`@
 
 ld l,NON_N1a,80
 
-「ぬ、…沼田さん……。」\
+;「ぬ、…沼田さん……。」\
+`"Nu- ...Numata-san..."`\
 
 mld c,HIG_w6,80
 
-「本当にそれでいいの、陽子？@　この世に戻ってきて、日向の暖かさを再び思い出してしまったあなたが、どうしてあの地獄に再び戻りたいなんて言い出せるのかしら？@　およしなさいよ、そういう偽善は。@ほら、もう時間がないわよ。@今すぐ、野々宮くんの首を絞めたなら、@あなたを地獄に堕とさないであげるわ。」\
+;「本当にそれでいいの、陽子？@　この世に戻ってきて、日向の暖かさを再び思い出してしまったあなたが、どうしてあの地獄に再び戻りたいなんて言い出せるのかしら？@　およしなさいよ、そういう偽善は。@ほら、もう時間がないわよ。@今すぐ、野々宮くんの首を絞めたなら、@あなたを地獄に堕とさないであげるわ。」\
+`"Are you really alright with that Youko? `@`After returning to this world, and once again coming remember the warmth of the sunlight, why are you saying you want to go back to that hell I wonder? `@`Please stop pretending. `@`Look, it's almost time. `@`If you quickly strangle Nonomiya-kun's neck, `@`I'll prevent you from lapsing back into that hell."`\
 
 mcl c,0
 bg black,22
@@ -5802,24 +5915,31 @@ bg black,22
 ;ld l,YOU_Def1,23
 ;ld l,YOU_Def1,80
 
-「………………これで、………いいです。@…………私は濡れ衣を着せました。@……野々宮くんは、…復讐しました。@………私がそれに復讐したら、………また野々宮くんは復讐を……？@　………そんなの、…もう嫌です。@………私たちは、…いじめたりいじめられたりするために、……学校に来てたんじゃ、ないんです…。」\
+;「………………これで、………いいです。@…………私は濡れ衣を着せました。@……野々宮くんは、…復讐しました。@………私がそれに復讐したら、………また野々宮くんは復讐を……？@　………そんなの、…もう嫌です。@………私たちは、…いじめたりいじめられたりするために、……学校に来てたんじゃ、ないんです…。」\
+`".........I'm fine ......with this. `@`......I framed him. `@`...Nonomiya-kun ...took his revenge. `@`...And when I take revenge for that ...Nonomiya-kun will take revenge on me again...? `@` .......I want it ... to end. `@`...We ...didn't come to school ......to bully and be bullied..."`\
 
 ld c,YOU_Def3,22
 
-　結果的に野々宮くんに迷惑を掛けてしまったけれど、@……あの日、理科室をくるくる回って、友達みんなではしゃいでいた時は本当に楽しかったもの。@
-　勉強したり、遊んだり、友達を作ったり。@……そういうものの為に、私たちは学校へ来ているんだもの。@
+;　結果的に野々宮くんに迷惑を掛けてしまったけれど、@……あの日、理科室をくるくる回って、友達みんなではしゃいでいた時は本当に楽しかったもの。@
+`　I might have caused Nonomiya more trouble as a result, but, `@`...that day running around the science room, all my friends were enjoying themselves, and I truly had fun.`@`
+;　勉強したり、遊んだり、友達を作ったり。@……そういうものの為に、私たちは学校へ来ているんだもの。@
+`　Studying, playing, making friends. `@`...That's why. That's why we came to school.`@
 br
-　誰かを騙したりとかいじめたりとか、そんなことの為じゃ、なかったはず……。\
+;　誰かを騙したりとかいじめたりとか、そんなことの為じゃ、なかったはず……。\
+`　It wasn't in order to deceive each other, or hurt each other...`\
 
 bg ie_03,0
 ld c,YOU_Def3,22
 
-「………いじめたりいじめ返したり。@…そういうものが連鎖するんだとしたら…。@…………それは、……私で、……終わりにさせて下さい…。@………………………校長先生。@私を、みんなから、忘れさせて下さい…。@……もう、……休ませて……………。」\
+;「………いじめたりいじめ返したり。@…そういうものが連鎖するんだとしたら…。@…………それは、……私で、……終わりにさせて下さい…。@………………………校長先生。@私を、みんなから、忘れさせて下さい…。@……もう、……休ませて……………。」\
+`"...Hurting and hurting back. `@`...If that makes a chain... `@`.........Then ...please ...let it end with me... `@`.........Headmaster. `@`Take me away from everyone's memories... please... `@`...Please ...let me rest........."`\
 
 bg black,22
 
-「……残念だったな、彼岸花くん。@復讐は、亡者の眠りを妨げるほどの蜜になりはしなかったようだ。」@
-「あら、校長先生。@いつの間に。」\
+;「……残念だったな、彼岸花くん。@復讐は、亡者の眠りを妨げるほどの蜜になりはしなかったようだ。」@
+`"...Too bad, Higanbana-kun. `@`It seems that revenge isn't the honey needed to stir the dead from their sleep."`@
+;「あら、校長先生。@いつの間に。」\
+`"Oh, Headmaster. `@`When did you arrive?"`\
 
 bg ie_03,0
 ld l,YOU_Def1,22
