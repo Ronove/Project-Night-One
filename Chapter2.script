@@ -3278,7 +3278,7 @@ mld c,NON_s2,80
 bgm1 15
 
 ;「……え？@　………う、……うわッ…！」/
-`"......Eh? `@`......U- ...UWAH~!"`\
+`"......Eh? `@`......U- ...UWAH~!"`/
 
 me1v 17,70
 
@@ -4298,7 +4298,7 @@ bg black,22
 
 ;ld l,HIG_Def1,80
 
-;(Translator's Note) This line refers to 住む to reside/live, and いる to be. I figured a metaphorical comparison between 'house' and 'home' sounded better.
+;(Translator's Note) This line refers to 住む to reside\live, and いる to be. I figured a metaphorical comparison between 'house' and 'home' sounded better.
 ;「学校に住んでるに決まってるじゃない。@……でも多分、住んでいるという意味とは違うわね。@住む、というのはそこに安らぎがあるという意味でしょう？@　私たちの場合は、“い”るというのが正しいかもしれない。」\
 `"Isn't it obvious? Our home is in the school. `@`...Although I suppose it's different than home in that sense, you could say. `@`Home means somewhere safe and peaceful, right? `@`For us, perhaps it's better to say it's just a house, not a home."`\
 
@@ -4541,13 +4541,13 @@ br
 `　Yet it was like she said.`@`
 br
 ;　僕は、全ての写真を覚えている。@……それはつまり、写真を見れば、それを撮影した時の心情までも思い出せるという意味だ。\
-`　I remembered every photograph. `@`...In other words, looking at a photos meant I could remember the emotion I felt when I took them.`\
+`　I remembered every photograph. `@`...In other words, looking at the photos meant I could remember the emotion I felt when I took them.`\
 
 bg black,22
 mono 0
 
 ;　だからわかる。@………カメラを手にするようになった最初の頃は、@僕と同じような冤罪を暴こうと、日々、目を鋭く光らせていた。\
-`　(?) So I understood. `@`......From the first moment I took a camera in my hands, `@`in that same way I sharpened my eyes, day by day, as if to prove my innocence.`\
+`　(?) So I understood. `@`......From the first moment I took a camera in my hands, `@`during those days my eyes were lit with a rage seeking to prove my innocence.`\
 
 ;　でも、僕の事件はもう、冤罪として断定されて終わってしまった。@今からカメラを構えたところで、@僕が犯人ということで決まった、あの理科準備室での事件を覆すことはできない。\
 `　However my incident has long since been decided in my false accusation. `@`I had been decided as the culprit, and I couldn't overturn the verdict of what took place in that science prep room.`\
@@ -4670,9 +4670,9 @@ br
 ld c,HIG_Def3,80
 
 ;　いや、それははまるで、アルバムを開き切って左右に千切ろうとするかのよう。@
-`　No, it was as if she were about to tear the album in half.`@
+`　No, it was as if she were about to tear the album apart.`@
 ;　とあるページの狭間を引き千切らんばかりに僕に見せ付ける。\
-`　She showed me the threshold of the pages as she tore the pages apart.`\
+`　She showed me the threshold between the pages and tore it in half.`\
 
 se1 66
 
@@ -4689,7 +4689,7 @@ print 22
 me2v 28,90
 
 ;「……ここまでが、怨嗟に塗れて糸を引きそうな写真たち。@……そしてここからが、白昼夢に寝惚けたような鈍らな写真たち。」\
-`"...Up until this page, we have the lingering photos smeared with resentment. `@`...And from then on, we have the dull daydreaming photos."`\
+`"...Up until this page, we have the lingering photos smeared with resentment. `@`...And from here on, we have the dull daydreaming photos."`\
 
 ld_p HIG_w6
 lsp2 2,$ld_pass,130,380,200,200,0
@@ -4711,12 +4711,12 @@ quake 5,500
 `　Hahahahahahahaha, hahahahahahahahaha...!`@`
 br
 ;　ぎりぎりぎりぎりぎりぎり、ぎりぎりぎりぎりぎりぎり…！\
-`　Huhuhuhuhuhuhuhu, huhuhuhuhuhuhuhu...!`\
+`　Gwahahahaha, ghuhuhuhuhuhuhuhu...!`\
 
 ;　彼岸花の笑い声が、幾層にも幾層にも重なって聞こえる…。@アルバムが引き千切られそうになってあげる悲鳴が重なって聞こえる。@
-`　I could feel the weight of Higanbana's laughter piling up layer upon layer... `@`I could hear my own scream from having my album torn apart stacked up as well.`@`
+`　I could feel the weight of Higanbana's laughter piling up layer upon layer... `@`I could hear my own scream from having my album torn apart among them.`@`
 ;　それはまるで、伽藍の中で反響する鐘の音に翻弄されるような気持ちだった。\
-`　It felt like a reverberation not unlike someone playing with the bell tolls in a temple.`\
+`　It felt like a reverberation not unlike someone tolling the bells in a temple for fun.`\
 
 bg black,0
 
@@ -4730,10 +4730,10 @@ print 99,2000,"trvswave.dll/l"
 me3v 3,90
 
 ;　なぜか体がぐらりと揺れて、部屋全体もまるで、水の中で見たような感じにぐにゃりと歪む…。@
-`　For some reason my body shook, and it felt like I was seeing the whole room from underwater as my vision blurred into mud...`@`
+`　For some reason my body shook, and it felt like I was seeing the whole room from under water as my vision blurred...`@`
 br
 ;　そんなぐにゃぐにゃの世界にいて、自身もぐにゃぐにゃのはずなのに、@姿勢を崩しもせず優雅に立ったままの彼女は言う。@……いや、嗤う。\
-`　Even within that blurred reality, `@`her form unaltered, with grace she stood and spoke. `@`...No, laughed.`\
+`　Even within that blurred reality, `@`her form unaltered, she stood with grace and spoke to me. `@`...No, ridiculed me.`\
 
 ld c,HIG_w6,0
 print 99,2000,"trvswave.dll/l"
@@ -4759,7 +4759,7 @@ se1v 13,50
 quakey 1,100
 
 ;　ばさり。@
-`　Crash.`@`
+`　Thud.`@`
 br
 ;　彼女が開いたままにして突きつけているそのアルバムから、……何枚かの写真が零れ落ちた。@
 `　As she opened it, from the albums she thrust at me... countless photos spilled out.`@`
@@ -4767,7 +4767,7 @@ br
 `　I couldn't tell from which pages they fell from.`\
 
 ;　そして、彼女はただアルバムを持っているだけで、振ったりしているわけでもないのに、@……まるで湧き出して溢れる泉のように、ばさり、ばさりと、どこかのページの隙間から写真が次々と零れ落ちていく。\
-`　Even though she wasn't swinging it around the album she held, `@`...it was as if a spring were gushing forth, crash crash spilled forth the pages one after another from pages unknown.`\
+`　Even though she wasn't swinging it around the album she held, `@`...it was as if a spring were gushing forth, crash, crash spilled the pages one after another from pages unknown.`\
 
 se1v 13,50
 quakey 2,200
@@ -4871,10 +4871,10 @@ bg black,22
 ;　存在しなかったはずのものが、蘇ったのだ。@
 `　It brought back that which shouldn't exist.`@`
 ;　それをすでに目の当たりにしているにも関わらず、@……その写真を覚えていないから僕に関係がないと？@
-`　Regardless of already being in front of my eyes, `@`...since I don't remember these photos don't they have nothing to do with me?`@`
+`　Regardless of already being in front of my eyes, `@`...I don't remember those photos, so they have nothing to do with me?`@`
 br
 ;　覚　エ　テ　イ　ナ　イ　なんて、何も当てにならないというのに？！\
-`　I  d o  n o t  r e m e m b e r, so it doesn't even apply to me?!`\
+`　I  d o  n o t  r e m e m b e r, so I've got nothing to do with them?!`\
 
 bg ie_03,22
 ld c,HIG_w5,26
@@ -4892,32 +4892,32 @@ br
 ld c,HIG_w6,80
 
 ;「彼女の顔、覚　エ　テ　ル　？」\
-`"Do you  r e m e m b e r  her face?"`\
+`"Her face. Do you  r e m e m b e r?"`\
 
 bg black,22
 
 ;　………………覚えていない。@
-`　......I don't remember.`@`
+`　......I don't.`@`
 
 me4v 16,70
 
 br
 ;　それが、忘却の彼方に沈んだ為に思い出せないのか、@……森谷毬枝を思い出せなかったように、存在したはずのものを、思　イ　出　セ　ナ　イ　のか、わからない………！\
-`　Maybe because it's because it's sunk into my subconscious, `@`... or perhaps it's like Moriya Marie's case, and it's something that cannot be  r e m e m b e r e d, I don't know anymore......!`\
+`　Maybe because it's sunk into my subconscious, `@`... or perhaps like Moriya Marie, it's something that cannot be  r e m e m b e r e d? ......I don't know anymore!`\
 
 mono 1
 bg rika_01,28
 
 ;　確かに理科準備室で僕は彼女と目が合ったんだ…！@
-`　I'm sure that our eyes met in that science prep room...!`@`
+`　But I am sure that our eyes met in that science prep room...!`@`
 br
 ;　彼女は一瞬、しまったという顔をしたんだ。@それはつまり、自分の過失だったことを真っ先に理解したはずなんだ。@
-`　That moment she made a face as if to say 'oh shoot.' `@`In other words, from the outset she understood she made a mistake.`@`
+`　That moment she made a face as if to say 'oh shoot.' `@`In other words, from the outset she understood it was her fault.`@`
 ;　なのになのに、しゃあしゃあと僕のせいだと言い出したんだ…！！\
 `　And yet, and yet, she shamelessly said I was the one who did it!!...`\
 
 ;　そしてあんなにも悔しくて悔しくて！@　枕を涙で濡らし、布団を何度も何度も噛んだはずなのに、………でも、思い出せないッ！\
-`　And yet it was so frustrating, so frustrating! `@`Soaking my pillow in tears, over and over again I sunk my teeth into my blanket, `@`...and yet, I can't remember!~`\
+`　And yet it was so frustrating, so frustrating! `@`Over and over again I sunk my teeth into my blanket. I soaked my pillow in tears, `@`...and yet, I can't remember!~`\
 
 ;bg black,22
 mono 0
@@ -4932,7 +4932,7 @@ bg Different_spiral_1a,22
 `　...Eh? `@`...Her name was.........I can't remember... `@`Did I forget it? Can I just not remember it? Or maybe just like the way Moriya Marie was forgotten she was erased from my memeory? I just don't know~!!`\
 
 ;　足元に散らばった、記憶にナイ写真たちが、僕を取り囲み、嘲笑う。@
-`　The photos I DO NOT remember littered at my feet, crowded around me, mocking me.`@`
+`　Littered around my feet the UNKNOWN photos surrounded me. Mocking me.`@`
 br
 ;　それらの写真は……、……見ちゃ駄目だ…。@だって、こんなにもボケたわけのわからない写真ばかりじゃないか………！！\
 `　I mustn't... I musn't look at those photos... `@`I mean, they're nothing but photos that I've stupidly forgotten aren't they...?!!`\
@@ -4953,28 +4953,30 @@ bg aka1,22
 ;quake 8,800
 
 ;　沼田陽子の名を聞いた時、@……僕は今日、森谷毬枝の母親がしたのとまったく同じ絶叫をする…。\
-`　When I heard the name Numata Youko, `@`...In the exact same way that Moriya Marie's mother had done so today, I screamed...`\
+`　When I heard the name Numata Youko, `@`...In the exact same way Moriya Marie's mother had done so, I screamed...`\
 ;quake 3,300
 ld c,NON_s1,22
 
 ;　そうだ…、そういう名だった。@そういう名だった…！！@
-`　That was it..., that name. `@`It was that name...!!`@`
+`　That was it... That name. `@`THAT was her name...!!`@`
 br
 ;　聞いただけで、あの日の怒りが蘇りそうになる…！@　あぁあぁ、こんなにも恨めしいと心に刻み込んだ名前なのに、@……どうしてどうして、今の今まで僕は思い出せなかったというのかッ！！\
-`　Just hearing that name seemed to bring back the rage from that day...! `@`AaAaAa, even though that name had etched with such hatred in my heart, `@`...how, how could I have forgotten it until NOW~?!!`\
+`　Just hearing that name brought back the rage. The rage from that day! `@`AAAaaAAH, even though that name etched so much hate in my heart, `@`...how, how could I have forgotten it UNTIL NOW~?!!`\
 
 ;quake 3,300
 ld c,NON_s2,22
 
 me5v 20,90
 
-　そうさ、あいつだ。@あの不気味な老人「校長先生」が、@世界から沼田陽子の名と記憶、存在を全て消し去ったからだ…！！\
+;　そうさ、あいつだ。@あの不気味な老人「校長先生」が、@世界から沼田陽子の名と記憶、存在を全て消し去ったからだ…！！\
+`　That's right, it's that bastard. `@`That weird old man, "The Headmaster." `@`It's because he completely erased the name and memory of Numata Youko from the world!!`\
 ;quake 3,300
 ;ld c,NON_Def1,80
 
 cl c,22
 
-　なら、彼女はあいつの犠牲になったということなのか…？@　…いや、違う、違う違う違うッ！！@　僕の胸を抉るこの痛みは、明確な罪の意識…！@　あぁあぁ、思い出しちゃ駄目なんだ、思い出しちゃ駄目なんだ…！！\
+;　なら、彼女はあいつの犠牲になったということなのか…？@　…いや、違う、違う違う違うッ！！@　僕の胸を抉るこの痛みは、明確な罪の意識…！@　あぁあぁ、思い出しちゃ駄目なんだ、思い出しちゃ駄目なんだ…！！\
+`　Well does that mean one of his victims? `@` ...No, that's not it, NO NO NO~~!! `@`This pain hollowing my heart, my guilty conscience...! `@`AAAAAAA I MUSTN'T REMEMBER, I MUST NOT REMEMBER!!`\
 
 bg white,2
 fedexx 0,100,100,100,100,100,2000
@@ -5001,30 +5003,34 @@ bg kyou_02,0
 ld r,HIG_w3,2
 ld r,HIG_w4,22
 
-「陽子はいつもはしゃいでいたから。@……だからあなたは思ったわ。@彼女をずっと観察していれば、きっと同じような事件をもう一度起こし、@そしてもう一度、同じようなことを口にして誰かにその罪を被せようとするだろう。@それを握り、暴いて、間接的に自分の濡れ衣を晴らそうと思ったのよね。」\
+;「陽子はいつもはしゃいでいたから。@……だからあなたは思ったわ。@彼女をずっと観察していれば、きっと同じような事件をもう一度起こし、@そしてもう一度、同じようなことを口にして誰かにその罪を被せようとするだろう。@それを握り、暴いて、間接的に自分の濡れ衣を晴らそうと思ったのよね。」\
+`"Youko was always having fun. `@`...So you thought. `@`If you always kept an eye on her, surely she'd do something else like before, `@`and once again she'd probably pass the blame onto someone else. `@`You thought to seize that opportunity, expose her, and indirectly restore your good name, right?"`\
 
 ld r,HIG_w6,22
 
-「…くすくす！@　でもそれすらも欺瞞ね。@そんな高尚な目的が、怒りに塗り潰されたあなたの心の中にあったわけもない。@あなたがしたかったのは濡れ衣を晴らすことじゃない。@彼女に復讐したかった、嫌がらせをしたかっただけ。」\
+;「…くすくす！@　でもそれすらも欺瞞ね。@そんな高尚な目的が、怒りに塗り潰されたあなたの心の中にあったわけもない。@あなたがしたかったのは濡れ衣を晴らすことじゃない。@彼女に復讐したかった、嫌がらせをしたかっただけ。」\
+`"...*giggle*! `@`But even that was deceitful. `@`With your mind overflowing with hate, there was no room for that sort of noble goal. `@`What you wanted wasn't to clear your name. `@`But you only wanted revenge on her, to hurt her."`\
 
 bg black,23
 bg kaidan_01,23
 
 ;　あなたは彼女の後を付け回すようになったわ。@
-` You began to hover around after her.`@`
+` You began to stalk her.`@`
 br
 ;　彼女をずっと監視していれば、きっと同じような事件を再び起こすに違いないと思った。@最初はね？\
-` If you monitored her closely enough, surely a similar incident would happen again.`@`Initially?`\
+` You thought if you monitored her closely enough, surely a similar incident would happen again.`@` That's how it started, right?`\
 ;　でも、そんな都合よく新しい事件が起こるはずもない。@
-` But no new incidents would occur so conviniently.`@`
+` But no convinient new incidents occured.`@`
 br
-　彼女をしつこく監視し続けたあなたは、次第に不愉快になっていく。@あなたが期待するような出来事が起こらないから、@どんどんやり場のない怒りを蓄積していった。\
+;　彼女をしつこく監視し続けたあなたは、次第に不愉快になっていく。@あなたが期待するような出来事が起こらないから、@どんどんやり場のない怒りを蓄積していった。\
+`　As you continued to persistantly stalk her, you started getting irritated. `@`Because that event you were expecting wasn't happening, `@`a rage began to began to bubble up inside you with no place to go.`\
 
 bg black,22
 
 ;　そんなあなただから、彼女に期待するような悪事も、どんどん微細なものになっていく。@
-` But from you, since you expected her to be evil, it became more and more subtle.`@`
-　その撮影対象は、@自分の時のような大きな事件から、日常のささやかなルール違反、ちょっとしたミス等にまでその裾野を広げていく。\
+` Because of the way you were, even the evils you expected her to commit became far more minute and subtle.`@`
+;　その撮影対象は、@自分の時のような大きな事件から、日常のささやかなルール違反、ちょっとしたミス等にまでその裾野を広げていく。\
+`　Because that incident seemed to eat up your time, even simple mistakes in her day began to expand like a foot of a mountain as the targets of your photographs.`\ 
 
 textoff
 
@@ -5042,27 +5048,33 @@ csp -1
 
 ld r,HIG_def3,22
 
-　そしてある日、あなたは気付くの。@それらを事細かに撮影し、@それを追及するだけでも充分に復讐になり得ることに。@
+;　そしてある日、あなたは気付くの。@それらを事細かに撮影し、@それを追及するだけでも充分に復讐になり得ることに。@
+`　And then one day you realized it. `@`That you were taking photos of those minute details, `@`and those were more than enough to catch her and take your revenge.`@`
 ;　……いえいえ、ただただ悪意をもって付け回すだけで、充分な復讐になることに。\
-` ....no, no. Just hovering around maliciously would be revenge enough.`\
+` ....No no. With just that malicious mindset, stalking her would be revenge enough.`\
 ld r,HIG_w4,80
 
-　あなたは彼女の日常のささやかなことを隠し撮りしては、それをこっそり彼女に送り続けた。@
-　それらの内容は本当に下らないものばかり。@彼女の日常を寝惚けたピントで綴り続ける程度のものだった。\
+;　あなたは彼女の日常のささやかなことを隠し撮りしては、それをこっそり彼女に送り続けた。@
+`　As you secretly took pictures of her daily mistakes, you'd send secretly send them to her.`@`
+;　それらの内容は本当に下らないものばかり。@彼女の日常を寝惚けたピントで綴り続ける程度のものだった。\
+`　And their contents were completely worthless. `@`You continued framing blurred photos of her daily routine.`\
 
 ;bg black,22
 bg aka3,0
 ld r,HIG_w5,22
 
-　でも、彼女にとってそれは大きなショック。@四六時中、何者かに見張られていて、@しかもそれを撮影されているかもしれないという恐怖は、@彼女に計り知れない衝撃を与えた。\
+;　でも、彼女にとってそれは大きなショック。@四六時中、何者かに見張られていて、@しかもそれを撮影されているかもしれないという恐怖は、@彼女に計り知れない衝撃を与えた。\
+`　But to her it came as a huge shock. `@`24 hours a day, someone was watching her. `@`And that fear that someone might be photographing her, `@`caused an unfathomable impact on her.`\
 
 
 bg black,22
 bg kyou_01,22
 
-　彼女はたまたまその頃、親しくしていたグループとトラブルを起こしていて疎遠になっていた。@……たまたま敵・ｪ多い時期だったのね。@
+;　彼女はたまたまその頃、親しくしていたグループとトラブルを起こしていて疎遠になっていた。@……たまたま敵・ｪ多い時期だったのね。@
+`　Around that time, by chance, she had some trouble with her close group of friends and grew estranged. `@`...By chance she also had a lot of enemies, you see.`@`
 br
-　相談する相手もなく、隠し撮りを疑える人間も少なくなかった。@あなたはそんな気配を敏感に感じ取り、@彼女に対し執拗な付け回しと隠し撮りを重ねたわ。\
+;　相談する相手もなく、隠し撮りを疑える人間も少なくなかった。@あなたはそんな気配を敏感に感じ取り、@彼女に対し執拗な付け回しと隠し撮りを重ねたわ。\
+`　With no one to go to, there were few she didn't suspect of secretly taking pictures of her. `@`You recognized the time was right `@`and you relentlessly followed her and piled up secret photos.`\
 
 se1 81
 bg white,1
@@ -5083,48 +5095,62 @@ csp -1
 
 ld r,HIG_def4,22
 
-　彼女の写真を面白おかしく脚色しては、@それを号外だのスクープだのと称してクラスで閲覧したりした。@
+;　彼女の写真を面白おかしく脚色しては、@それを号外だのスクープだのと称してクラスで閲覧したりした。@
+`　You made humorous dramatizations of her photos, `@`pretending it was news or a scoop to get the class to look at them.`@`
 br
-　残酷な年頃のクラスメートたちは、それを面白がった。@大好きだもんね、ニンゲンは。@弱った個体をみんなで袋叩きにするのがだぁい好きだもの！\
+;　残酷な年頃のクラスメートたちは、それを面白がった。@大好きだもんね、ニンゲンは。@弱った個体をみんなで袋叩きにするのがだぁい好きだもの！\
+`　At their cruel age your classmates thought that was amusing. `@`Humans love that sort of thing, really. `@`They loooove to gang up on a weakling!`\
 
 ld r,HIG_w3,80
 
-　普通はそういう時、女子同士は連帯して助けてくれるものなんだけどね。@彼女は本当に運悪く、その時期、そういったグループから孤立していた。@本当にお気の毒だった。@
+;　普通はそういう時、女子同士は連帯して助けてくれるものなんだけどね。@彼女は本当に運悪く、その時期、そういったグループから孤立していた。@本当にお気の毒だった。@
+`　You'd think normally around that time the girls would all get together and save her but... `@`But she was truly unlucky, because she had isolated herself from that gorup. `@`Truly unfortunate.`@`
 br
-　学校という砂漠で友達がひとりもいないなんて、水も与えられずに砂漠に放り出されるより酷いこと。@……いえいえ、サメの海に浮き輪もなく放り込むようなものかしら。\
+;　学校という砂漠で友達がひとりもいないなんて、水も与えられずに砂漠に放り出されるより酷いこと。@……いえいえ、サメの海に浮き輪もなく放り込むようなものかしら。\
+`　Not having a friend in that school was crueler than being cast into a desert without water to drink. `@`...No. It might be like being cast into a sea of sharks without a life raft.`\
 
 bg black,29
 bg kyou_04,29
 
-　彼女は男女の区別なく、クラス全体から攻撃される対象に祭り上げられたわ。@
+;　彼女は男女の区別なく、クラス全体から攻撃される対象に祭り上げられたわ。@
+`　With no distinction between men or women, the entire class picked her as their target.`@`
 br
-　あなたの復讐は、当初の想定とは全く違う形だけれど、信じられないくらいに効果的に成し遂げられていったの。\
+;　あなたの復讐は、当初の想定とは全く違う形だけれど、信じられないくらいに効果的に成し遂げられていったの。\
+`　It was completely different than your original plan for revenge, and it had greatly exceeded your expectations in its success.`@`
 
-　学校にカメラを持ち込み、彼女の後を付け回すのだから、@一部のクラスメートはあなたがその犯人だと知っていたかもしれない。@でも、面白がっていたからあなたを擁護したわ。\
+;　学校にカメラを持ち込み、彼女の後を付け回すのだから、@一部のクラスメートはあなたがその犯人だと知っていたかもしれない。@でも、面白がっていたからあなたを擁護したわ。\
+`　Since you followed after her holding your camera, `@`some of your classmates might have known you were the culprit. `@`But because they were enjoying it they protected you.`\
 
-　皮肉にも、かつてあなたに濡れ衣を被せた時、彼女に同調して口裏を合わせていた女子たちも、@あなたが犯人ではないと口裏を合わせて擁護してくれた。\
+;　皮肉にも、かつてあなたに濡れ衣を被せた時、彼女に同調して口裏を合わせていた女子たちも、@あなたが犯人ではないと口裏を合わせて擁護してくれた。\
+`　Ironically, even the girls who agreed with her story when you were framed, `@`confessed that you were not the culprit.`\
 
 bg black,22
 
-　さぞや素敵な気分だったでしょうね。@
+;　さぞや素敵な気分だったでしょうね。@
+`　What a wonderful feeling it must have been.`@`
 br
-　悔しい冤罪は晴らせなかったけれど、それ以上の形で復讐を成し遂げることができた。\
+;　悔しい冤罪は晴らせなかったけれど、それ以上の形で復讐を成し遂げることができた。\
+`　You were cleared of your vexing false accusations, and on top of that you also had your revenge.`\
 
 ld c,HIG_w6,22
 ;ld c,HIG_Def1,80
 
 ;　………いえ、少し違うかしら。@それ以上の形で復讐を“続けた”が正しいのかしら。\
-` ......no, still I wonder if it's slightly different.`@`Whether such a form of higher, continuous revenge was correct.`\
+` ......No, I don't think that's quite right. `@`On top of that you also "continued" your revenge, makes more sense I think.`\
 ld c,HIG_w5,80
 
-　なぜなら、冤罪を晴らすなら、明確な目的があり終わりがある。@
-　でも、復讐には明確な目的も終わりもない。@あなたはどんどん面白がって彼女を追い詰めていくだけ。@
+;　なぜなら、冤罪を晴らすなら、明確な目的があり終わりがある。@
+`　Because if you were to clear your name, the goal was clear, and it had to end.`@`
+;　でも、復讐には明確な目的も終わりもない。@あなたはどんどん面白がって彼女を追い詰めていくだけ。@
+`　But that revenge had no clear goal nor end. `@`You continued to chase her for your amusement.`@`
 br
-　到達点など設けてないから、最終的な結末は必然だった。\
+;　到達点など設けてないから、最終的な結末は必然だった。\
+`　Since you had no end in sight, the result was inevitable.`\
 
 ld c,HIG_w6,80
 
-　彼女は結局、誰にも相談できず、ひとりで全てを抱え込み、自らの死を願ったの。\
+;　彼女は結局、誰にも相談できず、ひとりで全てを抱え込み、自らの死を願ったの。\
+`　In the end, with no one to turn to, she took everything you had alone and wanted to end her life.`\
 
 bg black,22
 
@@ -5134,49 +5160,67 @@ se2v 38,100
 bg blood_1aR,1
 quakey 3,300
 
-　自殺よ。@
+;　自殺よ。@
+`　Suicide.`@`
 br
-　……彼女にとって自殺は、@死後に自分を追い込んだ犯人を探し出して仕返しして欲しいという唯一のメッセージだったはずなの。\
+;　……彼女にとって自殺は、@死後に自分を追い込んだ犯人を探し出して仕返しして欲しいという唯一のメッセージだったはずなの。\
+`　...Her suicide had one message she wanted to send in revenge to that culprit who drove her to it.`\
 
-　まずいでしょう？@　いじめていた相手が自殺なんかしちゃったら、本当にまずいでしょう？@
+;　まずいでしょう？@　いじめていた相手が自殺なんかしちゃったら、本当にまずいでしょう？@
+`　Unpleasant, no? `@`Your bullying target went and killed herself, truly unpleasant, no?`@`
 br
-　ここであなたに、とても幸運なことが起こったの。\
+;　ここであなたに、とても幸運なことが起こったの。\
+`　And here you had been so fortunate.`\
 
 bg black,22
 bg k_rouka_03,22
 
 me1v 16,70
 
-　自ら死を選びたいなんていう、落ちぶれた魂をね？@　好物にする学校妖怪が、私たちのクラスにはいるのよ。@
+;　自ら死を選びたいなんていう、落ちぶれた魂をね？@　好物にする学校妖怪が、私たちのクラスにはいるのよ。@
+`　Saying you want to die means that your soul has been ruined, right? `@`Among our class there are school youkai who find that a delicacy, you see.`@`
 br
-　そいつが彼女を唆し、自殺に追い込んで、……ぺろりと食べてしまったのよ。\
+;　そいつが彼女を唆し、自殺に追い込んで、……ぺろりと食べてしまったのよ。\
+`　He enticed her, drove her to kill herself, ...and with a slurp he ate her up.`\
 
 bg BITE,1
 bg black,2
 
-　妖怪が人間を喰らうなんて、信じられないでしょう？\
+;　妖怪が人間を喰らうなんて、信じられないでしょう？\
+`　Youkai eating people and the like. Unbelievable isn't it?`\
 
-　それもそのはず。@だって、突然、人が行方不明になったりしたら、大騒ぎになるものね。@
-　でも、そんなの新聞でもテレビでも報じてない、だからあるはずがない。\
+;　それもそのはず。@だって、突然、人が行方不明になったりしたら、大騒ぎになるものね。@
+`　It should be. `@`After all, when people suddenly go missing like that it would be a big deal.`@`
+;　でも、そんなの新聞でもテレビでも報じてない、だからあるはずがない。\
+`　But there's nothing reported in the newspapers or on the TV like that, so it can't be true.`\
 
 bg gakkou_01u,22
 
-　私たちだって、人間たちに大騒ぎされたらとても迷惑。@
-　人間たちが怖がって、学校に近寄らなくなっちゃったら、食事にありつけないものね。\
+;　私たちだって、人間たちに大騒ぎされたらとても迷惑。@
+`　If we caused a riot among you humans it would be extremely bothersome.`@`
+;　人間たちが怖がって、学校に近寄らなくなっちゃったら、食事にありつけないものね。\
+`　Humans would become afraid. They wouldn't come to school, and we couldn't feed, right?`\
 
-　だから私たち学校妖怪は、人間を喰らった時、その人間が存在した記憶を全世界から消してもらうのよ。@陽子や毬枝のようにね？@　あたかも初めからいなかったかのように、消し去ってもらうの。@
+;　だから私たち学校妖怪は、人間を喰らった時、その人間が存在した記憶を全世界から消してもらうのよ。@陽子や毬枝のようにね？@　あたかも初めからいなかったかのように、消し去ってもらうの。@
+`　So when we school youkai eat humans, we also erase the memories of their existence from the entire world. `@` Just like Marie and Youko, no? `@`We erase them as if they had never existed from the beginning.`@`
 br
-　こんな恐ろしい力を持った妖怪はそうそういない。@
-　……そして、うちの学校にはたった一人だけいる。\
+;　こんな恐ろしい力を持った妖怪はそうそういない。@
+`　There aren't many youkai with this terrifying power.`@`
+;　……そして、うちの学校にはたった一人だけいる。\
+`　...In our school there is only one.`\
 
 bg black,0
 ld c,KOU_U1,22
 
-　それが、あの『校長先生』なのよ。@
-　校長は、私たちが人間の魂を刈り取った時、@その一部を上納することで、哀れな犠牲者が存在した記憶を、世界から消し去ってくれるの。\
+;　それが、あの『校長先生』なのよ。@
+`　He is the "Headmaster."`@`
+;　校長は、私たちが人間の魂を刈り取った時、@その一部を上納することで、哀れな犠牲者が存在した記憶を、世界から消し去ってくれるの。\
+`　When the time comes for us to harvest a human soul, `@`we give some of that soul to the headmaster, who wipes the pitiful sacrifices' memory of existence from the world.`\
 
-　……あいつはちっぽけな老いぼれのくせに、@この力を持っているお陰で、学校妖怪序列第１位に堂々と収まってるの。@
-　この力さえなかったら、とっくに私が八つ裂きにしてその座を奪っているというのにね。\
+;　……あいつはちっぽけな老いぼれのくせに、@この力を持っているお陰で、学校妖怪序列第１位に堂々と収まってるの。@
+`　...Since he's a bit of a senile old fool, `@`because of this power he's remained established as the first rank among the school youkai order.`@`
+;　この力さえなかったら、とっくに私が八つ裂きにしてその座を奪っているというのにね。\
+`　If he didn't have that power, I would have torn him from limb from limb and taken his seat myself.`\
 
 
 bg black,22
@@ -5184,23 +5228,28 @@ bg ie_03,0
 ld r,HIG_Def2,22
 ld r,HIG_w4,80
 
-「……もっとも、校長は自ら狩りをする力はほとんどない。@私たちに狩らせてその上納を得ることで食い繋ぐしかない、哀れなものなんだけれど。」\
+;「……もっとも、校長は自ら狩りをする力はほとんどない。@私たちに狩らせてその上納を得ることで食い繋ぐしかない、哀れなものなんだけれど。」\
+`"...More and more the headmaster is losing his ability to hunt. `@`He has us hunt, and he can't eat without skimming some off the top of our prey. He's a pitiful creature..."`\
 
 ld l,NON_Def5a,22
 
-「………じゃあ、…そのせいで、……僕は、彼女の記憶を…………。」\
+;「………じゃあ、…そのせいで、……僕は、彼女の記憶を…………。」\
+`"...Well, ...because of that, ...I erased her....."`\
 
 ld r,HIG_Def3,80
 
-「そうよ。@もしも彼女が普通に自殺しただけなら、@きっと大騒ぎになって、あなたにも学校や警察の追及が及んだかもしれない。@でも、たまたま運良く、@彼女は学校妖怪の餌食になったものだから、この自殺はなかったことになった。」\
+;「そうよ。@もしも彼女が普通に自殺しただけなら、@きっと大騒ぎになって、あなたにも学校や警察の追及が及んだかもしれない。@でも、たまたま運良く、@彼女は学校妖怪の餌食になったものだから、この自殺はなかったことになった。」\
+`"That's right. `@`If she had normally committed suicide, `@`it would have been a big deal, and you and the school might have been investigated by the police. `@`But you were lucky. `@`Because she fell prey to a school youkai, it was as if that suicide never happened."`\
 
 ld r,HIG_w6,80
 
-「だからあなたは、“いつの間にか怒りを忘れて”、@ピンボケした写真ばかりを撮るお間抜けに自分も気付かぬ内に成り下がっていたわけよ。@うふふふふふふふふふふふふふふふふふ…！」\
+;「だからあなたは、“いつの間にか怒りを忘れて”、@ピンボケした写真ばかりを撮るお間抜けに自分も気付かぬ内に成り下がっていたわけよ。@うふふふふふふふふふふふふふふふふふ…！」\
+`"That's how you "suddenly forgot your rage." `@`That's how those completely blurred stupid photos you took and never noticed came to be, you see! `@`Heeheeheeheeheeheeheeheehee...!"`\
 
 ld l,NON_N1a,80
 
-「…こ、このカメラを、……どうして僕に？！」\
+;「…こ、このカメラを、……どうして僕に？！」\
+`"...W- why did you... give me this camera?!"`\
 
 bg black,22
 lsp bgsp,":a;bmp\background\efe\a004.bmp",0,0
@@ -5210,12 +5259,14 @@ bg kyou_02,22
 bgcopy
 csp -1
 
-「２つ目的があったわ。@そのカメラは、校長の力を打ち破る力があるの。@それをあなたに持たせて、あちこちで写真を撮ってもらい、忘れられた犠牲者たちを思い出させて回ってほしかった。」\
+;「２つ目的があったわ。@そのカメラは、校長の力を打ち破る力があるの。@それをあなたに持たせて、あちこちで写真を撮ってもらい、忘れられた犠牲者たちを思い出させて回ってほしかった。」\
+`"I had two reasons. `@`That camera has a power to take down the headmaster. `@`I entrusted it to you and had you take pictures here and there. I wanted you to reveal his forgotten victims that surrounded you."`\
 
 bg black,23
 bg mansion_03,23
 
-「………毬枝の母の記憶を、あなたは蘇らせてくれた。@遠くない内に錯乱して、私好みの味付けの良い魂になるでしょうね。@その後はきっと、何かの拍子にベランダから転落して事故とも自殺とも付かない形で亡くなってしまうのかしら…？@　錯乱しての自殺なら妖怪の仕業とは思われない。@校長に上納を渡す必要もなく、丸ごと美味しく魂がいただけるわ。」\
+;「………毬枝の母の記憶を、あなたは蘇らせてくれた。@遠くない内に錯乱して、私好みの味付けの良い魂になるでしょうね。@その後はきっと、何かの拍子にベランダから転落して事故とも自殺とも付かない形で亡くなってしまうのかしら…？@　錯乱しての自殺なら妖怪の仕業とは思われない。@校長に上納を渡す必要もなく、丸ごと美味しく魂がいただけるわ。」\
+`"...You restored Marie's memory to her mother. `@`And in her confusion, her soul seemed like it would suit my tastes. `@`I wonder if she perhaps somehow flipped over the veranda and died of an accident somehow...?`@` If she committed suicide in her confusion, it couldn't be thought of as the work of a youkai. `@`There was no need to give any to the headmaster, I wholey devoured her delicious soul."`\
 
 bg black,23
 bg ie_03,0
@@ -5224,39 +5275,51 @@ ld l,NON_Def5a,23
 
 ld r,HIG_w6,80
 
-「……本当は、もっともっとあっちこちのクラスで写真を撮って欲しかったのよ？@　学年に、どれだけの忘れ去られた犠牲者がいるか、ぜひ知ってほしかったのに。@くすくすくす！」\
+;「……本当は、もっともっとあっちこちのクラスで写真を撮って欲しかったのよ？@　学年に、どれだけの忘れ去られた犠牲者がいるか、ぜひ知ってほしかったのに。@くすくすくす！」\
+`"...The truth was, I wanted you to take many many more photos here and there around the classes, you see? `@`I really wanted you to know just how many in your age group have become forgotten sacrifices. `@`*giggle giggle*!"`\
 
-　もう、……僕は、疑わない。@
+;　もう、……僕は、疑わない。@
+`　It was too late. ...I couldn't doub it anymore.`\
 br
-　彼岸花は優雅なフランス人形を思わせるような少女の心などまったくない。@……それを装う、無慈悲で残酷な存在なのだ。\
+;　彼岸花は優雅なフランス人形を思わせるような少女の心などまったくない。@……それを装う、無慈悲で残酷な存在なのだ。\
+`　Higanbana had no girl's heart to make me think of a refined french doll at all. `@`...She pretended to be that, and she was cruel and merciless.`\
 
-　彼女の笑いはまるで、@昆虫か何かを捕らえて、足を一本ずつ切断しながら面白がっている無邪気な子供の残酷さが感じられた……。\
+;　彼女の笑いはまるで、@昆虫か何かを捕らえて、足を一本ずつ切断しながら面白がっている無邪気な子供の残酷さが感じられた……。\
+`　Her laughter `@`felt like the cruel innocence of a child enjoying itself after picking up a bug and plucking its legs off one by one...`\
 
 ld r,HIG_w3,80
 
-「もう１つの目的は、私の友達に、チャンスをあげたかったのよ。」\
+;「もう１つの目的は、私の友達に、チャンスをあげたかったのよ。」\
+`"The other goal was I wanted to give my friend a chance, you see.`\
 
 ld l,NON_Def7a,80
 
-「友達…？@　…チャンス……？」@
+;「友達…？@　…チャンス……？」@
+`"Friend...? `@`...Chance?..."`@`
 br
-　そう言えば、彼岸花は森谷毬枝のことを友達だと言っていなかったっけ…？@　間接的にとは言え、@彼女の母親を死に追いやってしまうことになる僕を恨んで……。\
+;　そう言えば、彼岸花は森谷毬枝のことを友達だと言っていなかったっけ…？@　間接的にとは言え、@彼女の母親を死に追いやってしまうことになる僕を恨んで……。\
+`　Now that she mentions it, didn't Higanbana say Moriya Marie was her friend...? `@`Doesn't that mean indirectly, `@`she would resent me for driving her mother to her death...`\
 
 ld r,HIG_w6,80
 
-「毬枝じゃないわ。@/
+;「毬枝じゃないわ。@/
+`"Not Marie.`@/
 E_A
-陽子よ。@/
+;陽子よ。@/
+`Youko.`@/
 se1 84
-………くすくすくすくすくすくすくすくすくす！！」\
+;………くすくすくすくすくすくすくすくすくす！！」\
+`......TeeheeheeheeheeHEEHEEHEEHEE!!"`\
 
 bgm1 6
 
 bg black,22
 
-　……あぁ……、何となく、……わかってた……。@
+;　……あぁ……、何となく、……わかってた……。@
+`　...Aah..., somehow, ...I understood...`@
 br
-　彼岸花の言葉は全て詭弁、全てまやかし。\
+;　彼岸花の言葉は全て詭弁、全てまやかし。\
+`　All of Higanbana's words had been a deception.`\
 
 　彼女の獲物は、最初から僕だったのだ。@
 　復讐が行き過ぎて自殺に追い込んでしまった僕は、@きっと己の罪に震え上がっただろう。@……そんな僕はきっと彼岸花にとって…、\
