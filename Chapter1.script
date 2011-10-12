@@ -79,13 +79,13 @@ bgm1 5
 bg kyou_01,42
 
 ;　学校には大勢の生徒がいて、女子だってその半分を占める。@
-`　In the school there is a large crowd of students ― with girls making up around half of them.`@
+`　There are large numbers of students in this school. Girls make up half the crowd.`@
 br
 ;　……だから、この“少女”のことをいつまでも少女と呼称するのは適当ではないだろう。@
-`　......And so perhaps it's no longer appropriate to keep calling this girl, "the girl."`@
+`　......And so, perhaps it's no longer appropriate to keep calling the girl in our story, "the girl."`@
 br
 ;　だから、彼女の名誉やプライバシーを、私たちの好奇心だけで引き裂くならば、@その名はあっさりとここに明かすことができる。\
-`　Also if we can tear into her privacy and dignity to satisfy our own curiosity, `@`then her name can easily be revealed here as well.`\
+`　Also, if we can tear into her privacy and dignity to satisfy our own curiosity, `@`then her name can easily be revealed here as well.`\
 
 textoff
 
@@ -122,7 +122,7 @@ cl r,2
 `　.....And yet, if she had been able to change herself by thought alone, no one would have had to suffer.`@
 br
 ;　だから毬枝は、自分すら愛せぬまま、今日という袋小路を迎えていたのだった……。\
-`　And so Marie, without love for herself, headed down the dark alley called today......`\
+`　And so, without love for herself, Marie headed down the dark alley called today......`\
 
 bg black,2
 
@@ -143,7 +143,7 @@ bg k_kyou_03,2
 me1v 16,50
 
 ;　どうしてこのような悲しい運命に迷い込んでしまったのか。@最初の切っ掛けは本当にささやかで下らないものだった気がする。@
-`　Why has she gone astray into this sad fate? `@`One might muse at the excuses for why she was so meagre and worthless.`@
+`　How had she strayed into this sad fate? `@`One might muse about the excuses for why she was so meagre and worthless.`@
 br
 ;　ああするしかなかった。@他に方法がなかった。@断る術がなかった。@それが常に、最善だった。@
 `　She had no choice but to be like that. `@`There was no other way. `@`No way to refuse it. `@`That it was always for the best.`@
@@ -157,7 +157,7 @@ br
 `　Wanting something in order to make up for one weakness is to invite another weakness. `@`And payment to make up for that weakness again results in the search for another something to compensate.`@  
 br
 ;　……蟻地獄にも似た、終わりなき悪意の螺旋だった。@
-`　......It seemed like an ant lion pit, a spiral of malice without end.`@
+`　......It seemed like an ant lion pit; a spiral of malice without end.`@
 br
 ;　すでに毬枝は多くの弱みを男に握られ、@口にするのもおぞましいような数々の辱めを断ることもできなくなっている。\
 `　Already, many of Marie's weaknesses had been gripped by a man, `@`and she couldn't put into words her refusal to do the many shameless things he asked of her.`\
@@ -173,7 +173,7 @@ bg black,22
 bg mansion_01,22
 
 ;　森谷家には子供は３人いたが、毬枝以外の姉たちはとても優秀だった。@
-`　In the Moriya family there were three children, but Marie's sisters were far superior.`@
+`　There were three children in the Moriya family, but Marie's sisters were far more talented.`@
 
 br
 ;　自分だけがいつも底辺で、@ただ生きているだけでも、日々、姉たちの優秀さと自分の無能さを突きつけられた。\
@@ -188,7 +188,7 @@ br
 `　In her distress, if she were to ask for help, she feared she would doubtlessly be compared to the greatness of her sisters and suffer for it.`@
 br
 ;　……だから、このような蟻地獄に落とされた時、@家族も含め、相談する相手が誰一人思いつかなかったのだ…。\
-`　......And so, when she was dropped into this ant lion pit, `@`within her family she could think of no one to ask for help...`\
+`　......And so, when she was dropped into this ant lion pit, `@`Marie couldn't think of anyone in her family to ask for help...`\
 
 bg black,22
 
@@ -198,7 +198,7 @@ bg black,22
 `　To her, a girl who couldn't even refuse joining the animal raising committee when pressed, `@`how could she escape this malicious trap?`@
 br
 ;　……だからこれはつまり、…彼女にはとてもとても気の毒なのだが…、当然の結果だった。\
-`　.....Therefore this is basically, ...even though it's very very pitiful for her... an expected result.`\
+`　.....Therefore, this is basically, ...even though it's very very pitiful for her... an expected result.`\
 
 fede 1,2000
 E_B
@@ -210,12 +210,12 @@ me2 26
 bg toire_08,42
 
 ;　毬枝はのろのろと衣服を身につけると、再びランドセルを背負う。@
-`　Marie slowly put on her clothes, and once again donned the backpack.`@
+`　Marie slowly put on her clothes and once again donned the backpack.`@
 ;　……その背負う重みに、先ほどまで強要されていた数々の辱めが思い出された。@
 `　......And with its weight, she was reminded of the many disgraceful things she was forced to do mere moments ago.`@ 
 br
 ;　だから毬枝は、いつの頃からかランドセルを背負うだけでも、@あの男の支配を受けているように感じるのだった…。\
-`　And so for Marie, from the moment she adorned the backpack, `@`she felt she was being controlled by that man.`\
+`　And so, for Marie, from the moment she adorned the backpack, `@`she felt as though she was being controlled by that man.`\
 
 
 bg black,22
@@ -240,7 +240,7 @@ mono 1
 bg kyou_02,2
 
 ;　一番最初、悪かったのは確かに自分だった。@
-`　From the very beginning, clearly I was the one who was wrong.`@
+`　From the very beginning, I was clearly the one who was wrong.`@
 br
 ;　私はしてはいけないことをしてしまい、それを先生に見つかって咎められた。\
 `　I went and did something I wasn't supposed to, and Sensei found out and blamed me for it.`\
@@ -249,7 +249,7 @@ br
 `　That was something very very wrong, `@`and if my classmates found out, there's no mistake I would surely be bullied again. `@`...It was that kind of thing.`\
 
 ;　だから、それを内緒にしてもいいと先生が言ってくれたとき、@……私は少なからず先生に感謝の念を感じたのだ。\
-`　And so when Sensei said it was all right to keep it a secret, `@`......I felt very grateful to Sensei.`\
+`　So when Sensei said it was all right to keep it a secret, `@`......I felt very grateful to Sensei.`\
 
 bg black,22
 mono 0
@@ -263,10 +263,10 @@ bg e008,22
 ;quakey 2,300
 
 ;　私は長いこと、ずっと虐められてきた。@
-`　For a long time I've been bullied.`@
+`　I've been bullied for a very long time.`@
 br
 ;　幸いにして今は虐められていないが、@それは、クラスに私よりも虐められている子がいてくれるからというだけのこと。\
-`　To my joy, I'm no longer being picked on, `@` but that's because my class has found another child more worthy of bullying than me.`\
+`　For now I'm happy that I'm no longer being picked on, `@`but that's only because my class has found someone else more worthy of bullying than me.`\
 
 bg e009,22
 ;quakey 2,300
@@ -277,7 +277,7 @@ bg e009,22
 `　......Because the role of the scapegoat was a painful one......`@
 br
 ;　だからこそ、初めの内は、どんなことを求められても耐えられた。\
-`　And so from the beginning I was willing to endure whatever he wanted.`\
+`　And so, from the beginning, I was willing to endure whatever he wanted.`\
 
 bg e010,22
 ;quakey 2,300
@@ -303,10 +303,10 @@ bg e020,22
 `　Yes.`@` Even though Sensei forced me to disgrace myself, he was protecting me.`@
 br
 ;　だから私は、身を守ってくれる恩返しに、@先生の望むことをしてあげるのは当然の奉仕だと思って耐えてきたのだ。\
-`　And so in return for protecting me, `@`I have begun to think that giving Sensei whatever he wants is a natural service and I endure it.`\
+`　And so, in return for protecting me, `@`I have begun to think that giving Sensei whatever he wants is a natural service and I endure it.`\
 
 ;　先生の求める行為に罪悪感を覚えるのは私の問題で、@先生自身はそれらの行為にいつもとても満足し褒めてさえくれた。@
-`　Feeling guilty about the deeds Sensei wants is my problem, `@` while Sensei himself is always very satisfied with them and goes so far as to praise me.`@
+`　Feeling guilty about the deeds Sensei wants is my problem, `@`while Sensei himself is always very satisfied with them and goes so far as to praise me.`@
 br
 ;　……だから、私は良いことをしているのだと思い込もうとがんばってきた。@
 `　......So, I've come to endure it ― thinking that what I'm doing is good.`@
@@ -331,7 +331,7 @@ mono 0
 `　He'll do things like order me to feign illness so he can take me away during class, `@`or order me to come to school on days off.`@
 br
 ;　今では学校生活は副次的なものとなり、@私は平日も休日も、先生が望んだ時、望んだことを捧げなければならない身となり果てている。\
-`　Until now school life had been secondary. `@`Now on weekdays and weekends, when Sensei wants me I must do as he desires, and it's exhausting me.`\
+`　Until now school life had been secondary. `@`Now when Sensei wants me on weekdays and weekends, I must do as he desires, and it's exhausting me.`\
 
 ;bg Different_spiral_1b,22
 
@@ -346,7 +346,7 @@ E_M3
 bg kyou_04,22
 
 ;　……でも、先生は確かに私をいじめっ子たちから守ってくれる。@
-`　......But, there's no doubt Sensei helped protect me from those bullies.`@
+`　......However, there's no doubt Sensei helped protect me from those bullies.`@
 br
 ;　今日だって、私の教科書をいたずらしようとした男子たちを全員廊下に並べて、@真っ赤になるくらいに平手を打ってくれた。@そして私に謝罪させてくれた。\
 `　Like today, a bunch of boys who wanted to pull a prank with my textbook were all lined up out in the hall for me, `@`and he smacked them with an open palm until they were red all over. `@`He even made them apologize to me.`\
@@ -365,7 +365,7 @@ me2v 17,70
 `　......And so heeding Sensei's desires is the natural way of showing my gratitude for that......`@
 br
 ;　それに対し、不快に感じるのはつまり、@私が感謝の気持ちを忘れかけているということで……。\
-`　On the other hand, my feeling unpleasant is basically proof `@`that I'm beginning to forget my feelings of gratitude......`\
+`　On the other hand, `@`feeling uncomfortable means that I'm beginning to forget that gratitude......`\
 
 
 bg toire_08,2
@@ -375,7 +375,7 @@ bg toire_08,2
 
 me3v 3,70
 ;……ただただ今日もいいなりになり、下着姿にランドセルを背負うよう命じられ、@……先生の日頃の疲れを労うよう命じられただけだった……。@
-`　......Just today, I did exactly as he said. Sensei ordered me to put on a backpack while in my underwear, `@`...... and his order seemed as if it was meant to be in thanks for his day's work......`@
+`　......Just today, I did exactly as he said. Sensei ordered me to put on a backpack while in my underwear. `@`...... His order seemed as if he wanted me to thank him for his day's work......`@
 br
 ;　それが辛く感じるのは、私に感謝の気持ちがないからなのだ。\
 `　And that pain I felt was because I had no feelings of gratitude.`\
