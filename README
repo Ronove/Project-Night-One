@@ -15,15 +15,17 @@ Translation Project Readme File
 *************************************************************************************
 ** Project File Notes
 *************************************************************************************
-* make_all.bat		: Exports all resources and creates a patch in the
-					  build/HiganbanaEnglish folder.
+* make_all.bat		
+					 Exports all resources and creates a patch in the
+					 build/HiganbanaEnglish folder.
 				
 					  *Extended note:
 					   Put this entire folder (HiganbanaEnglish) into your
 					   Higanbana Folder (default C:\Program Files(x86)\07th Expansion\Higanbana)
 					   Then run onscripter-en.exe to start reading the translated novel.
 
-* scripts.txt		:Defines the .script files to use when compiling the
+* scripts.txt		
+					 Defines the .script files to use when compiling the
 					 script into nscript.dat.
 				  
 					  *Extended note:
@@ -38,20 +40,23 @@ Translation Project Readme File
 For any questions, comments on the bat files / scripts.txt (if something doesn't work/etc)
 Contact our programmer, Nicolas, his email is nicolasg AT uvic DOT ca
 
-* continuity.txt	: This is useful information on previous translated issues if someone
-					  wants to maintain consistancy with said translation.
+* continuity.txt	
+					 This is useful information on previous translated issues if someone
+					 wants to maintain consistancy with said translation.
 					  
 *************************************************************************************
 ** Project Folder Notes
 *************************************************************************************
-* /build			: This is where everything from make_all.bat is generated.
+* /build			
+					 This is where everything from make_all.bat is generated.
 
 					 *Extended Note
 					   Put this entire folder (HiganbanaEnglish) into your
 					   Higanbana Folder (default C:\Program Files(x86)\07th Expansion\Higanbana)
 					   Then run onscripter-en.exe to start reading the translated novel.					 
 
-* /graphics			: Holds all files generated when creating the arc.nsa file.
+* /graphics			
+					 Holds all files generated when creating the arc.nsa file.
 
 					 *Extended Note
 					   NSA files are where all the art assets are held.
@@ -61,30 +66,38 @@ Contact our programmer, Nicolas, his email is nicolasg AT uvic DOT ca
 					   no Saku Yoru Ni. Thus requiring the original game, and not
 					   requiring all the graphics from the original game when making the files.
 
-* /design			: This is where supplemental images / concepts are stored.
-					  e.g. Mockups for the glossary, splash screens, logos.
+* /design			
+					 This is where supplemental images / concepts are stored.
+					 e.g. Mockups for the glossary, splash screens, logos.
 
-* /export			: Stores a generated nscript.dat file that can be replaced
-					  inside your HiganbanaEnglish folder for the latest script
-					  rather than generating an entirely new build.
+* /export			
+					 Stores a generated nscript.dat file that can be replaced
+					 inside your HiganbanaEnglish folder for the latest script
+					 rather than generating an entirely new build.
 					
-* /font				: Holds the default font file used in the translation.
-					  Currently we use: Sazanami Gothic Regular (さざなみゴシックRegular)
+* /font				
+					 Holds the default font file used in the translation.
+					 Currently we use: Sazanami Gothic Regular (さざなみゴシックRegular)
 					  
-* /icon				: Holds the icon file that's generated with the make_all / make_icon.bat files
-					  This icon is then applied to the onscripter-en.exe.
+* /icon				
+					 Holds the icon file that's generated with the make_all / make_icon.bat files
+					 This icon is then applied to the onscripter-en.exe.
 
-* /notepad++		: This holds a userdefined language for nscripter in notepad++.
-					  Completely optional and purely aesthetic. Look up your operating
-					  system and how to apply it online (Sorry, no instructions here!).
+* /notepad++		
+					 This holds a userdefined language for nscripter in notepad++.
+					 Completely optional and purely aesthetic. Look up your operating
+					 system and how to apply it online (Sorry, no instructions here!).
 					  
-* /onscripter-en	: Contains the latest build of onscripter-en.exe. Can be replaced with
-					  newer versions as they come along.
+* /onscripter-en	
+					 Contains the latest build of onscripter-en.exe. Can be replaced with
+					 newer versions as they come along.
 					  
-* /SDL				: Contains the SDL libraries.
+* /SDL				
+					 Contains the SDL libraries.
 
-* /tools			: Contains tools for the project's bat files. Some are currently WIP,
-					  (Work in Progress), so please avoid playing around with them just yet!
+* /tools			
+					 Contains tools for the project's bat files. Some are currently WIP,
+					 (Work in Progress), so please avoid playing around with them just yet!
 
 
 *************************************************************************************
@@ -95,51 +108,59 @@ Contact our programmer, Nicolas, his email is nicolasg AT uvic DOT ca
 		diving into the editing process.
 *************************************************************************************
 
-; (Semicolon)		: 'Comments' out a line. This prevents text from being
-					  displayed inside the novel as someone reads along. Usually
-					  we comment out lines that are written in Japanese, so we add
-					  a semicolon in front of them to prevent the reader from seeing
-					  the Japanese lines. Then we add translations below said lines
-					  to make it easier to refer to the original text.
+; (Semicolon)		
+					 'Comments' out a line. This prevents text from being
+					 displayed inside the novel as someone reads along. Usually
+					 we comment out lines that are written in Japanese, so we add
+					 a semicolon in front of them to prevent the reader from seeing
+					 the Japanese lines. Then we add translations below said lines
+					 to make it easier to refer to the original text.
 Example...
 ;読めない所 (This can't be read normally)
 `Translation here.
 
 -------------------------------------------------------------------------------------
-　 (Paragraph space)	: These are copied over from the Japanese lines.
-					  They act as supplemental spaces for the beginning of paragraphs
-					  and visual space. Be sure to include them on non-quote lines.
+　 (Paragraph space)	
+					 These are copied over from the Japanese lines.
+					 They act as supplemental spaces for the beginning of paragraphs
+					 and visual space. Be sure to include them on non-quote lines.
 Example...
 　Like this.
 
 -------------------------------------------------------------------------------------
-` (Tildes)			: Represent closed statements of text rendered in English.
-					  If text is run without these tildes enclosing them, there is
-					  potential for misrendered text (e.g. textwithoutspaces). So
-					  be sure to enclose all text, even if it's in quotes already. 
+` (Tildes)			
+					 Represent closed statements of text rendered in English.
+					 If text is run without these tildes enclosing them, there is
+					 potential for misrendered text (e.g. textwithoutspaces). So
+					 be sure to enclose all text, even if it's in quotes already. 
 Example...
 `"Like this!"`
 
 -------------------------------------------------------------------------------------
-@ (At symbols)		: These are used as continuation markers. In essense they force
-					  the reader to click to continue reading a line. If there's text
-					  before or after it, make sure to add tildes to enclose the English
-					  text that doesn't include the @ symbols.
+@ (At symbols)		
+					 These are used as continuation markers. In essense they force
+					 the reader to click to continue reading a line. If there's text
+					 before or after it, make sure to add tildes to enclose the English
+					 text that doesn't include the @ symbols.
 Example...
 `　For example, `@`something like this.`
 
 -------------------------------------------------------------------------------------
-\ (Backslash)		: This causes the screen to clear after a line.
+\ (Backslash)		
+					 This causes the screen to clear after a line.
 
 Example...
 `　For example, `@`something like this.`\ 
 ;((The screen clears))
 `　That was easy!`
 -------------------------------------------------------------------------------------
-/ (Forward slash)	: The purpose of this is somewhat unknown. It seems to function
-					  almost like both a continuation and a music clearer.
-					  If these are in the line, it's best not to remove them.
+/ (Forward slash)	
+					 The purpose of this is somewhat unknown. It seems to function
+					 almost like both a continuation and a music clearer.
+					 If these are in the line, it's best not to remove them.
 					  
 Example...
-
+`"So you're saying`/
+`...you're Mesomeso-san?"`\
+((This all comes out as one line, with a music break))
 
