@@ -5932,7 +5932,7 @@ bg ie_03,0
 ld c,YOU_Def3,22
 
 ;「………いじめたりいじめ返したり。@…そういうものが連鎖するんだとしたら…。@…………それは、……私で、……終わりにさせて下さい…。@………………………校長先生。@私を、みんなから、忘れさせて下さい…。@……もう、……休ませて……………。」\
-`"...Hurting and hurting back. `@`...If that makes a chain... `@`.........Then ...please ...let it end with me... `@`.........Headmaster. `@`Take me away from everyone's memories... please... `@`...Please ...let me rest........."`\
+`"...Hurting and hurting back. `@`...If it makes a chain like that... `@`.........Then ...please ...let it end with me... `@`.........Headmaster. `@`Take me away from everyone's memories... please... `@`...Please ...let me rest........."`\
 
 bg black,22
 
@@ -5945,124 +5945,155 @@ bg ie_03,0
 ld l,YOU_Def1,22
 ld c,KOU_Def2,42
 
-　校長先生が、いつの間にか部屋にいた。@そして、沼田さんの肩に、そっと手を乗せる……。\
+;　校長先生が、いつの間にか部屋にいた。@そして、沼田さんの肩に、そっと手を乗せる……。\
+`　The Headmaster was in the room before anyone noticed. `@`And he gently placed his hand on Numata-san's shoulder...`\
 
 ld c,KOU_Def5,80
 
-「君は地獄へ戻る。@そして全ての人に忘れ去られる。@……その代わり、君が凍えるような寒ささえも忘れていられるように、私が全てを安らかに眠らせよう。」\
+;「君は地獄へ戻る。@そして全ての人に忘れ去られる。@……その代わり、君が凍えるような寒ささえも忘れていられるように、私が全てを安らかに眠らせよう。」\
+(?)`"You will return to hell. `@`And you will be forgotten by everyone. `@`...In exchange, I'll put everything to rest with the chill of your forgotten shivers."`\
 
 ld l,YOU_Def5,80
 
-「………………はい……。@…お願い…します………。@……みんな忘れて、…安らかに眠れば、……憎しみの連鎖は、続かないのだから……。」\
+;「………………はい……。@…お願い…します………。@……みんな忘れて、…安らかに眠れば、……憎しみの連鎖は、続かないのだから……。」\
+`".......Yes... `@`...P-...Please...`@` ...If everyone forgets... and rests easy ... the chain of hate will end..."`\
 
-　もう彼女は、自らの力で立ち続けるのも辛いようだった。@……なのに多分、彼女は膝を付くことも許されていない。@膝を付いた時が、彼女がこの世にいられる力を失う時なのだと、理解した。\
+;　もう彼女は、自らの力で立ち続けるのも辛いようだった。@……なのに多分、彼女は膝を付くことも許されていない。@膝を付いた時が、彼女がこの世にいられる力を失う時なのだと、理解した。\
+`　She was already pained just by standing up by herself. `@`...Something might have been preventing her from falling to her knees. `@`I realized that while she stood at the same time she was losing her power to remain in this world.`\
 
 bg black,22
 bg ie_02u,0
 ld l,NON_N1a,22
 
-「………沼田さん……、僕を許して……。」@
+;「………沼田さん……、僕を許して……。」@
+`"...Numata-san... Please forgive me..."`@
 
 ld r,YOU_Def5,22
 
-「……野々宮くんが、……私を許してくれるなら…。」\
+;「……野々宮くんが、……私を許してくれるなら…。」\
+`"...If you... will forgive me..."`\
 
 ld l,NON_s3,80
 
-「許すよっ。@……僕はあの日のことを、許す。@…だからどうか、僕を許して…。」\
+;「許すよっ。@……僕はあの日のことを、許す。@…だからどうか、僕を許して…。」\
+`"I forgive you! `@`...For what you did that day. I forgive you. `@`...So please, somehow. Please forgive me..."`\
 
 ld r,YOU_Def4,80
 
-「…………うん。@……ありがとう。@……これで、本当に心残りなく、……さよならができる。@…彼岸花さん、ありがとう。」\
+;「…………うん。@……ありがとう。@……これで、本当に心残りなく、……さよならができる。@…彼岸花さん、ありがとう。」\
+`".......Yes. `@`...Thank you. `@`...Now... without any regrets... I can say goodbye. `@`...Thank you, Higanbana-san."`\
 
 bg black,23
 bg ie_03,0
 ld l,HIG_w5,23
 
-「ありがとう…？@　どうして礼を？」\
+;「ありがとう…？@　どうして礼を？」\
+`"Thank you...? `@`Why are you thanking me?"`\
 
 ld r,YOU_Def3,22
 
-「……復讐の機会がもらえると、私は愚かな理由で蘇らせてもらったけれど…。@………でも、そのお陰で、@私は野々宮くんに、………謝ることができた。」@
+;「……復讐の機会がもらえると、私は愚かな理由で蘇らせてもらったけれど…。@………でも、そのお陰で、@私は野々宮くんに、………謝ることができた。」@
+`"...I might have been brought back to foolishly take my revenge but... `@`...But thanks to you, `@`I was able to apologize... to Nonomiya-kun."`@
 
 ld c,NON_s1,24
 
-「僕も、沼田さんに謝ることができた…！」\
+;「僕も、沼田さんに謝ることができた…！」\
+`"And I was also able to apologize to Numata-san~!"`\
 
 cl l,0
 
 mld l,HIG_W5a,22
 ;mld c,HIG_Def1,80
 
-「何なの、それ。@……つまらない。@つまらないつまらない！」@
+;「何なの、それ。@……つまらない。@つまらないつまらない！」@
+`"What is that? `@`...How boring. `@`How dull how stupid!"`@
 br
-　彼岸花は、初めて見せるもっとも不愉快そうな顔で、@それでもなお優雅に髪を散らしながら憤慨した。\
+;　彼岸花は、初めて見せるもっとも不愉快そうな顔で、@それでもなお優雅に髪を散らしながら憤慨した。\
+`　This was the first time I had seen Higanbana so upset, `@`and she was even trashing her elegent hair around in anger.`\
 
 mcl l,0
 bg black,22
 bg ie_04,22
 
 
-「………さぁ、沼田くん。@そろそろお別れの時間だよ。」@
+;「………さぁ、沼田くん。@そろそろお別れの時間だよ。」@
+`"...Well, Numata-kun. `@`It's about time to say your goodbyes."`@
 br
-　校長先生が、最期の時が来たことをそっと伝える。@……それは、本当に慈悲ある言葉だった。@
-　最後の最後に、何かをする機会を与えてくれたのだから。\
+;　校長先生が、最期の時が来たことをそっと伝える。@……それは、本当に慈悲ある言葉だった。@
+`　The Headmaster gently informed her that her time was at an end. `@`...Those words were truly spoken in compassion.`@
+;　最後の最後に、何かをする機会を与えてくれたのだから。\
+`　Because at the very end of it all, he was giving her the chance to do something.`\
 
 bg black,24
 bg ie_03,0
 ld l,YOU_Def3,24
 
-　その最後の機会を、@……沼田さんは、右腕を僕に差し出すことに費やした…。\
+;　その最後の機会を、@……沼田さんは、右腕を僕に差し出すことに費やした…。\
+`　With that last chance, `@`...Numata-san spent it stretching out her right hand to me...`\
 
 ld r,NON_Def5a,22
 
-「………沼田さん……。」@
+;「………沼田さん……。」@
+`"...Numata-san..."`@
 
 ;ld l,YOU_Def1,23
 ld l,YOU_Def4,80
 
-「野々宮く……。@…………仲直りの、……握手、………しよ………。」@
+;「野々宮く……。@…………仲直りの、……握手、………しよ………。」@
+`"Nonomiya-ku... `@`......Let's ...shake ......hands..."`@
 
 ld r,NON_s3,80
 
-「ぅ、…………うん…！！！」\
+;「ぅ、…………うん…！！！」\
+`"A- .......All right~!!"`\
 
-　彼女の、雪のように真っ白で、そして冷え切った手を、ぎゅうっと握り締める…。@
+;　彼女の、雪のように真っ白で、そして冷え切った手を、ぎゅうっと握り締める…。@
+`　I firmly grasped her snow white and ice cold hand...`@
 br
-　その力が強すぎたのか、…それとも僕の手が熱かったのか。@…彼女は一瞬だけ苦しそうな顔をした後、@………微笑むような表情を最後に見せた…。\
+;　その力が強すぎたのか、…それとも僕の手が熱かったのか。@…彼女は一瞬だけ苦しそうな顔をした後、@………微笑むような表情を最後に見せた…。\
+`　Perhaps I was too strong, ...or perhaps my hand was too warm. `@`...But after her expression showed a moment of pain, `@`...in the end she showed me a smiling face...`\
 
 ld l,YOU_Def5,22
 
-「……私、@…………何であんな嘘を、……吐いちゃったのかなぁ……。@……馬鹿だった。@…あなたに、言い返して欲しかったのかな…。@……喧嘩がしたいだけだったのに、……こんなに傷付けて。@…………本当に馬鹿だった。」\
+;「……私、@…………何であんな嘘を、……吐いちゃったのかなぁ……。@……馬鹿だった。@…あなたに、言い返して欲しかったのかな…。@……喧嘩がしたいだけだったのに、……こんなに傷付けて。@…………本当に馬鹿だった。」\
+`"...Why, `@`.......Why did I have to... go and tell such a lie... I wonder? `@`...I was a fool. `@`...Maybe I wanted to see what you would do... `@`...Even though I just wanted a little conflict ...I've caused this much pain. `@`...I was truly, a fool."`\ 
 
 se1v 22,50
 
 cl l,0
 print 99,5000,"breakup.dll/llb"
 
-　ごめんなさい。@
+;　ごめんなさい。@
+`　I'm sorry.`@
 br
-　ありがとう。@
+;　ありがとう。@
+`　Thank you.`@
 br
-　さようなら。@
+;　さようなら。@
+`　And goodbye.`@
 br
-　その三つの言葉が、…沼田さんが遺してくれた最後の言葉になった…。\
+;　その三つの言葉が、…沼田さんが遺してくれた最後の言葉になった…。\
+`　And those were the last three things that Numata-san left behind...`\
 
 ld l,KOU_Def3,23
 
-　校長先生は目深に被った帽子を、さらに深く被り直すと咳払いをひとつする。\
+;　校長先生は目深に被った帽子を、さらに深く被り直すと咳払いをひとつする。\
+`　The Headmaster finally adjusted his top hat that hung over his brow and cleared his throat.`\
 
 ld l,KOU_Def5,80
 
-「……それでは、私はこれで失礼しよう。@…彼岸花くんの悪戯の後始末があるのでね。@……だが野々宮くん。@……君の記憶だけは、消さないでおこう。@……それとも、君は再び記憶を消されることを望むかね？」\
+;「……それでは、私はこれで失礼しよう。@…彼岸花くんの悪戯の後始末があるのでね。@……だが野々宮くん。@……君の記憶だけは、消さないでおこう。@……それとも、君は再び記憶を消されることを望むかね？」\
+`"...Well then, if you'll excuse me. `@`...I have to clean up Higanbana-kun's mischief, hm. `@`...However, Nonomiya-kun. `@`...You alone will have your memory spared. `@`...Or would you rather I erased those memories again, perhaps?"`\
 
 ld r,NON_Def7a,80
 
-「……………いいえ。@彼女と僕の罪は同じで、…そして互いにそれを許し合いました。@……僕はその証として、彼女のことを、生涯忘れない。@……同じ過ちを、二度と繰り返さない為に。」\
+;「……………いいえ。@彼女と僕の罪は同じで、…そして互いにそれを許し合いました。@……僕はその証として、彼女のことを、生涯忘れない。@……同じ過ちを、二度と繰り返さない為に。」\
+`"......No. `@`Our crimes are the same, ... so we should be allowed the same. `@`...To prove it, I'll never forget her as long as I live. `@`...I'll make sure the same mistakes aren't made again."`\
 
 ld l,KOU_Def1,80
 
-「それが良かろう。@…………それでは失礼するよ。」\
+;「それが良かろう。@…………それでは失礼するよ。」\
+`"Very well. `@`......Then I'll excuse myself."`\
 
 
 
@@ -6083,28 +6114,34 @@ E_A
 
 me1v 16,50
 
-　校長先生も、すぅっと空気に溶けるように姿を消す。@
-　あとには、僕と彼岸花が残された。\
+;　校長先生も、すぅっと空気に溶けるように姿を消す。@
+`　The Headmaster also disintigrated into the air with a hiss.`@
+;　あとには、僕と彼岸花が残された。\
+`　After that, Higanbana and I were all who remained.`\
 
 bg black,22
 
-　彼岸花は、想像もしなかった展開に、不愉快さが隠せないという感じだった。\
+;　彼岸花は、想像もしなかった展開に、不愉快さが隠せないという感じだった。\
+`　I could tell Higanbana couldn't hide how upset she was at this unimaginable development.`\
 
 bg ie_02u,0
 ld r,HIG_w5a,22
 ld r,HIG_w6,80
 
-「つまらないつまらない。@つまらないつまらないつまらないつまらないつまらない！！@　なぁにこれは、どういうことなのかしら、あぁ退屈退屈！@　生き残れておめでとう、野々宮くん。@無事に復讐を全て成し遂げた気分はどうかしら？」\
+;「つまらないつまらない。@つまらないつまらないつまらないつまらないつまらない！！@　なぁにこれは、どういうことなのかしら、あぁ退屈退屈！@　生き残れておめでとう、野々宮くん。@無事に復讐を全て成し遂げた気分はどうかしら？」\
+`"How dull! How lame! `@`LAME! LAME! LAME! LAME! LAAAME~!! `@`Whyyy did it have to turn out like this? Oh how uninteresting! How dull! `@`Congratulations on staying alive Nonomiya-kun. `@`How does it feel to complete your revenge uninjured I wonder?"`\
 
 ld l,NON_Def7a,23
 
-「復讐なんか何もないです。@僕たちは互いを許し合った。@ただ、それだけです。@……………彼岸花さん。@僕の家でお茶をご馳走する分で、お世話になったご恩返しは充分のはずです。」\
+;「復讐なんか何もないです。@僕たちは互いを許し合った。@ただ、それだけです。@……………彼岸花さん。@僕の家でお茶をご馳走する分で、お世話になったご恩返しは充分のはずです。」\
+`"There was no revenge or anything of the sort. `@`We both forgave each other. `@`That's all. `@`......Higanbana-san. `@`While you're enjoying your tea in my house, you should show a little respect."`\
 
 ld r,HIG_w5,80
 
 me2v 17,50
 
-「あら、これで私は用無しだとでも言うおつもりかしら…？@　うふふふふふふふふふふふふ、まだよ、まだまだ。@この私に、…この踊る彼岸花に、学校妖怪序列第３位の彼岸花に、ここまでの手間を掛けさせて、@何の収穫もなしだなんて、これは何の冗談なのかしらぁ？！@　私を見くびらないでいただけるかしら、野々宮くぅん……？！」\
+;「あら、これで私は用無しだとでも言うおつもりかしら…？@　うふふふふふふふふふふふふ、まだよ、まだまだ。@この私に、…この踊る彼岸花に、学校妖怪序列第３位の彼岸花に、ここまでの手間を掛けさせて、@何の収穫もなしだなんて、これは何の冗談なのかしらぁ？！@　私を見くびらないでいただけるかしら、野々宮くぅん……？！」\
+`"Oh my, do you intend to suggest I'm going to remain idle...? `@`Uhuhuhuhuhuhuhu, we're not done yet. Not just yet. `@`Do you suggest that I, ... The Dancing Higanbana of the Third Ranked Seat of the School Youkai, who has let you have this much of her time,`@` isn't going to do any harvesting? Are you kidding meee?! `@`Could I please ask you to cease underestimating, I wonder, Nonomiya-KUUUUN?!"`\
 
 
 
@@ -6127,13 +6164,17 @@ E_MA
 
 ld r,HIG_w6,22
 
-　窓を背負った彼岸花は、夜の闇の紫に染まり、@その爛々と光る真っ赤な瞳以外が漆黒で塗り潰されていた。@
+;　窓を背負った彼岸花は、夜の闇の紫に染まり、@その爛々と光る真っ赤な瞳以外が漆黒で塗り潰されていた。@
+`　With her back to the window, Higanbana was infected with the violet darkness of the night, `@`and aside from the bright red lights glaring from her eyes, everything else turned pitch black.`\
 br
-　彼女の怒りの感情で部屋中がキシキシと歪むのが聞こえる。@…あぁ、駄目だ…。@……僕はこの場で、……殺されるだろう…。\
+;　彼女の怒りの感情で部屋中がキシキシと歪むのが聞こえる。@…あぁ、駄目だ…。@……僕はこの場で、……殺されるだろう…。\
+`　I could hear the room creak and bend with her rage. `@`...Well, it's over... `@`...I'm probably ...going to be killed in this place...`\
 
-　でも、………構うものか。@
+;　でも、………構うものか。@
+`　But ...I don't care`@
 br
-　沼田さんがひとり凍える地獄に、僕も行って寄り添おう。@……彼女にたったひとりで、地獄を背負わせたりなんかするものか…！\
+;　沼田さんがひとり凍える地獄に、僕も行って寄り添おう。@……彼女にたったひとりで、地獄を背負わせたりなんかするものか…！\
+`　I'll rest alongside Numata-san in that freezing hell. `@`...I won't leave her to face that hell all by herself!`\
 
 me1v 17,70
 
@@ -6144,13 +6185,15 @@ ld r,HIG_w6,22
 
 ld r,HIG_w5,80
 
-「何てやりにくいニンゲンなのかしら…。@軽々しく地獄を語る愚か者ッ！！@　あの寒くて孤独な世界の恐ろしさも知らないくせにね…！！@　誰もね、迎えに来てくれないのよ？@　いつも知らない人が勝手に遊びに来て、勝手に下校していって、@二度と遊びに来てくれない！@　私はいっつも寒くて孤独な保健室にひとりぼっち！！」\
+;「何てやりにくいニンゲンなのかしら…。@軽々しく地獄を語る愚か者ッ！！@　あの寒くて孤独な世界の恐ろしさも知らないくせにね…！！@　誰もね、迎えに来てくれないのよ？@　いつも知らない人が勝手に遊びに来て、勝手に下校していって、@二度と遊びに来てくれない！@　私はいっつも寒くて孤独な保健室にひとりぼっち！！」\
+`"You might be quite a tricky human... `@`What a fool to speak so lightly of HELL~!! `@`You don't even know the fear of that world of solitude!! `@`No one will come to greet you there, you see? `@`People you don't know will come to play when they want and leave when they want, `@`but they'll never come to play with you again! `@`I was all alone in that cold lonely infirmary!!"`\
 
 me2v 28,70
 
 bg Aka3,22
 
-「くすくす、うふふふふふふふふふふふふふふふふふ！！@　そんな地獄をまったく恐れないなんて、野々宮くんはなんて面白い人なのかしら。@あなたは期待していた人とは全然違ったけれど、別の興味が湧いてきたわ、@やっぱり面白い人だったわッ！！@　陽子じゃ役不足ね、あなたを私のお人形にしてあげるわ、@私がいつ遊んでくれるのかと、永遠にそれだけを待ち望みながら、@永久の闇の中で待ち惚けをさせてあげる…！！」\
+;「くすくす、うふふふふふふふふふふふふふふふふふ！！@　そんな地獄をまったく恐れないなんて、野々宮くんはなんて面白い人なのかしら。@あなたは期待していた人とは全然違ったけれど、別の興味が湧いてきたわ、@やっぱり面白い人だったわッ！！@　陽子じゃ役不足ね、あなたを私のお人形にしてあげるわ、@私がいつ遊んでくれるのかと、永遠にそれだけを待ち望みながら、@永久の闇の中で待ち惚けをさせてあげる…！！」\
+`"Teeheehee, UhuhuhuhuHUHUHUHUHU!! `@`Saying that kind of hell isn't scary at all, you're quite an entertaining individual, Nonomiya-kun. `@`It's totally different than the person you're expecting, but I've got a different idea. `@`Like I said, you're truly amusing~!! `@`Youko was unappealing yeah? I'll make you my doll, `@`and if you want to spend eternity for whenever I feel like playing with you, `@`then I can send you into eternal darkness where you can wait in vain!!"`\
 
 se1v 1006,100
 
@@ -6158,10 +6201,13 @@ bg white,1
 bg ie_02u,0
 ld l,NON_s1,22
 
-　鋭い破裂音は彼岸花が背負った窓ガラスが砕け散る音だった。@
-　それらの破片が無数の歪で透明なナイフとなって、僕の喉元を一直線に目指す。@
+;　鋭い破裂音は彼岸花が背負った窓ガラスが砕け散る音だった。@
+`　There was an explosive crash as the glass window behind Higanbana's back burst to pieces.`@
+;　それらの破片が無数の歪で透明なナイフとなって、僕の喉元を一直線に目指す。@
+`　Those sharpened fragments turned into transparent knives and went directly for my throat.`@
 br
-　……あぁ、それらに貫かれて、僕は死ぬなと、…直感した。\
+;　……あぁ、それらに貫かれて、僕は死ぬなと、…直感した。\
+`　...Ahh. I had a feeling they were going to pierce into me ...and I would die.`\
 
 cl l,0
 lsp bgsp2,":a;bmp\background\efe\a002.bmp",0,0,100
@@ -6180,9 +6226,11 @@ E_B
 E_M1
 E_M2
 
-　それと同時に、僕は後から物凄い力で襟首を引っ張られてた。@そうされなかったら、僕はガラスの破片で滅多刺しにされていただろう。@
+;　それと同時に、僕は後から物凄い力で襟首を引っ張られてた。@そうされなかったら、僕はガラスの破片で滅多刺しにされていただろう。@
+`　At the same time, a strong force pulled me down from the nape of my neck from behind. `@`If that hadn't happened, those glass fragments would have probably completely cut me to bits.`@
 br
-　誰が僕の襟首を？@　振り返り、……初めて会う少女なのに、でもその顔を知っていて驚いた…。\
+;　誰が僕の襟首を？@　振り返り、……初めて会う少女なのに、でもその顔を知っていて驚いた…。\
+`　Who grabbed my shirt? `@`As I turned around ...even though it was the first time I met her, somehow I was surprised that I knew her face...`\
 
 textoff
 
@@ -6197,53 +6245,66 @@ wait 2000
 ld l,HIG_Def5,22
 ld l,HIG_w4,80
 
-「あら、毬枝じゃない。@人の狩りを邪魔するなんて酷いわね。@……なぁに？@　怒ったような顔をして。@あなたの可愛い、見たら七日七晩は引き裂きたくなるような笑顔が台無しよ…？」\
+;「あら、毬枝じゃない。@人の狩りを邪魔するなんて酷いわね。@……なぁに？@　怒ったような顔をして。@あなたの可愛い、見たら七日七晩は引き裂きたくなるような笑顔が台無しよ…？」\
+`"Why isn't it Marie? `@`How crude of you to barge in on someone else's manhunt. `@`...Whaaat? `@`You look mad. `@`Your face looks like it's going to ruin that cute smile of yours for at least a week, you know?"`\
 
 ld r,MAR_i1,80
 
-「……彼岸花さん。@二人の問題は、二人が解決しました。@……もう、私たち妖怪の出番じゃないはずです。」\
+;「……彼岸花さん。@二人の問題は、二人が解決しました。@……もう、私たち妖怪の出番じゃないはずです。」\
+`"...Higanbana-san. `@`Both problems have both been resolved. `@`...This isn't the time for us youkai to intervene."`\
 
 ld l,HIG_Def5,80
 
-「二人の問題？@　どちらが先に罪を作ったか？@　鶏が先か卵が先か？@　怨嗟の輪廻は誰にも断ち切れず、@いじめはいじめを生み、上級生は下級生をいじめ学校に永遠に悲しみを受け継がせていく。@その輪廻の中のたった二人が、おかしな感傷でおかしな別れを交わしただけで、@何が何を解決したっていうの？」\
+;「二人の問題？@　どちらが先に罪を作ったか？@　鶏が先か卵が先か？@　怨嗟の輪廻は誰にも断ち切れず、@いじめはいじめを生み、上級生は下級生をいじめ学校に永遠に悲しみを受け継がせていく。@その輪廻の中のたった二人が、おかしな感傷でおかしな別れを交わしただけで、@何が何を解決したっていうの？」\
+`"Both problems? `@`Who started the sinning? `@`The chicken or the egg? `@`The cycle of hatred can't be stopped. `@`Bullying leads to more bullying, and the school of upperclassmen who bully underclassmen will inherit sadness for eternity. `@`Just what are you suggesting two people in that cycle exchanging a strange farewell with strange expressions `@`are going to accomplish anyway?"`\
 
 ld l,HIG_w6,80
 
-「くすくすくすくす、あっははははははははははははははは！@　おっかしい。@私は陽子に復讐の機会をあげただけよ？@　かつてあなたにもその機会をあげたように！」\
+;「くすくすくすくす、あっははははははははははははははは！@　おっかしい。@私は陽子に復讐の機会をあげただけよ？@　かつてあなたにもその機会をあげたように！」\
+`"Teeheeheehee, AhahhahahahahahAHAHAHAHAHAHAHA! `@`Hi-larious. `@I just gave Youko her chance for revenge, no? `@`Just like I once gave you your chance!"`\
 
 ld r,MAR_i3,80
 
-「……………私は最初、あなたに感謝しました。@死んでも死に切れぬ亡者の気持ちを汲み取ってくれたと感謝しました。@…でも、それは多分、誤りだった。@あなたは亡者の気持ちを嘲笑い面白半分に弄んだだけ。@………私は沼田さんがどれだけの力強さを見せたかわかる。@だから、彼女のことを今、心から尊敬するし、@あなたがしようとしていたことに怒りすら覚えます！」\
+;「……………私は最初、あなたに感謝しました。@死んでも死に切れぬ亡者の気持ちを汲み取ってくれたと感謝しました。@…でも、それは多分、誤りだった。@あなたは亡者の気持ちを嘲笑い面白半分に弄んだだけ。@………私は沼田さんがどれだけの力強さを見せたかわかる。@だから、彼女のことを今、心から尊敬するし、@あなたがしようとしていたことに怒りすら覚えます！」\
+`"......I was grateful at first. `@`I was grateful that you let me absolve my feelings that couldn't be erased by death alone. `@`...And yet, maybe that was my mistake. `@`You just toy with the feelings of the dead with your cruel laughter for fun. `@`Numata-san showed me her strength and I understood. `@`Because now I respect her from my heart, `@`and I even remember her rage from what you did to her!"`\
 
 ld l,HIG_w5,80
 
-「あっはははははははははははは、くすくすくすくすくすくす！！@　あぁ毬枝、あなたはそんな表情もできるのね、@あぁあぁ、本当に可愛らしいわ。@それでこそあなたを学校妖怪の序列第８位に招いた甲斐があるというもの。@あなたが私を楽しませてくれるというの？@　この踊る彼岸花に、どうやって抗ってみせるというの？！@　そのひ弱なニンゲンをこの私からどうやって守ってみせるというのッ！！」\
+;「あっはははははははははははは、くすくすくすくすくすくす！！@　あぁ毬枝、あなたはそんな表情もできるのね、@あぁあぁ、本当に可愛らしいわ。@それでこそあなたを学校妖怪の序列第８位に招いた甲斐があるというもの。@あなたが私を楽しませてくれるというの？@　この踊る彼岸花に、どうやって抗ってみせるというの？！@　そのひ弱なニンゲンをこの私からどうやって守ってみせるというのッ！！」\
+`"Ahahahahahahahaha, Heeheeheeheeheehee!! `@`Ooh Marie, you can make that expression too, can't you? `@`Ahhhhh, you're so adorable you know. `@`Maybe that's saying there was some value in inviting you to become the School Youkai of the Eighth Rank. `@`Didn't you say you were going to entertain me? `@`Are you saying you're going to oppose me, The Dancing Higanbana?! `@`Are you saying you're going to try and protect that fragile human from meeee?!!"\
 
-　森谷さんは僕を庇い、邪悪な笑みを浮かべる彼岸花の前に立ち塞がる。@
-　……それはとても健気で、@……悪く言えば、抗いようのない相手を前にしているようにも見えた。\
+;　森谷さんは僕を庇い、邪悪な笑みを浮かべる彼岸花の前に立ち塞がる。@
+`　Protecting me, Moriya-san stood in front of the Higanbana who had a wicked smile on her face.`@
+;　……それはとても健気で、@……悪く言えば、抗いようのない相手を前にしているようにも見えた。\
+`　...That was very brave. `@`...Unfortunately, it looked as if an unstoppable foe stood before her.`\
 
 bg black,24
 bg ie_02u,0
 ld r,NON_N1a,24
 ;ld r,NON_Def1,80
 
-「あ、……あなたは、………も、…森谷毬枝さん……！@　ごめんなさい！！@　僕はあなたのお母さんを…、」@
+;「あ、……あなたは、………も、…森谷毬枝さん……！@　ごめんなさい！！@　僕はあなたのお母さんを…、」@
+`"Y- ...You ...Mo- ...Moriya Marie-san! `@`I'm sorry!! `@`I, about your mother..."`@
 
 ld l,MAR_i1,23
 
-「大丈夫です。@校長先生が、私のお母さんの記憶を再び消してくれました。@もう大丈夫です。」\
+;「大丈夫です。@校長先生が、私のお母さんの記憶を再び消してくれました。@もう大丈夫です。」\
+`"It's all right. `@`The Headmaster wiped my mothers memories again. `@`It's fine now."`\
 
 ld r,NON_s3,80
 
-「………僕は、あの不思議なカメラで、@あなたが存在したことを思い出させるのは、真実を追い求めることになって、良いことなのではないかと思ってました。@……でも、それが本当に正しかったのか、僕にはわからない…！」\
+;「………僕は、あの不思議なカメラで、@あなたが存在したことを思い出させるのは、真実を追い求めることになって、良いことなのではないかと思ってました。@……でも、それが本当に正しかったのか、僕にはわからない…！」\
+`"...When I brought back the memories that you existed `@`with that mysterious camera, I sought after the truth and I thought I was doing the right thing. `@`...But was it the right thing? I don't know!"`\
 
 ld l,MAR_i4,80
 
-「野々宮くん。@忘却はとても残酷だけれど、誰にも等しく平等で、慈しみがあるの。@……私は、その力がこの世にあるお陰で、@人は怨嗟の連鎖を打ち破れるのではないかと思う。@……私はこんな醜い姿でこうしてここに残っているけれど、@……私も消えるべきだった。@今はね、そう思うの。」\
+;「野々宮くん。@忘却はとても残酷だけれど、誰にも等しく平等で、慈しみがあるの。@……私は、その力がこの世にあるお陰で、@人は怨嗟の連鎖を打ち破れるのではないかと思う。@……私はこんな醜い姿でこうしてここに残っているけれど、@……私も消えるべきだった。@今はね、そう思うの。」\
+`"Nonomiya-kun. `@`Being forgotten is a terribly cruel thing, and I have compassion for all things equally. `@`...I think that with that power I could destroy that chain of hatred in this world. `@`...I might linger here in this detestable body like this, but `@`...I should have been forgotten too. `@`That's what I think now."`\
 
 bg black,23
 
-　あっはははははははははは！@　それを笑い捨てるのは彼岸花…。\
+;　あっはははははははははは！@　それを笑い捨てるのは彼岸花…。\
+`　Ahahahahahahahahaha! `@`Higanbana cast her laughter at that notion...`\
 
 se1 84
 
@@ -6251,29 +6312,35 @@ bg ie_03,0
 mld c,HIG_w4,23
 mld c,HIG_w5,80
 
-「なぁになぁに？@　金森に絞め殺されて、亡骸を便槽に投げ捨てられた子が、@復讐なんかするべきじゃなかった、泣き寝入りをするべきだったというのかしら？@　あなたはそんなにも寛大で単純でつまらない子だったのかしら？？？」\
+;「なぁになぁに？@　金森に絞め殺されて、亡骸を便槽に投げ捨てられた子が、@復讐なんかするべきじゃなかった、泣き寝入りをするべきだったというのかしら？@　あなたはそんなにも寛大で単純でつまらない子だったのかしら？？？」\
+`"Whaaat Whaaat? `@`Are you saying that child who was strangled to death by Kanamori and tossed in a tub of feces, `@`shouldn't have had her revenge or anything of the sort, but rather should have meekly given up? `@`Are you really that kind of intolerably simplistic dull child, I wonder???"\
 
 ld r,MAR_i1,22
 ;ld r,MAR_Def1,80
 
-「……はい。@泣き寝入りはそんな私たちを嘲笑う悪魔の甘言でした。@…私たちは怨嗟を受け継いではいけない。@引き継いではいけない！@　そんな感情は早く忘れ去り、@もっと楽しくて豊かな実りある他の感情で心を満たさなくてはならない！@　私はそれを忘れた。@でも、だからこそ、私にはできることがあるんです！」\
+;「……はい。@泣き寝入りはそんな私たちを嘲笑う悪魔の甘言でした。@…私たちは怨嗟を受け継いではいけない。@引き継いではいけない！@　そんな感情は早く忘れ去り、@もっと楽しくて豊かな実りある他の感情で心を満たさなくてはならない！@　私はそれを忘れた。@でも、だからこそ、私にはできることがあるんです！」\
+`"...Yes. `@`We gave up meekly when we took to the sweet talk of a sneering demon. `@`...We must not spread our hatred. `@`We must not let it be passed on! `@`We soon forgot those emotions. `@`We have to satisfy ourselves with other more fun and luxuriously rewarding emotions! `@`I had forgotten. `@`Yet, even so, there's still something I can do!"\
 
 mcl c,0
 mld l,HIG_w4,24
 
-「くすくす。@それは何かしら…？」@
+;「くすくす。@それは何かしら…？」@
+`"*giggle*. `@`And what is that, I wonder...?"`@
 
 ld r,MAR_i3a,80
 
-「人の不幸を嘲笑い弄ぶあなたのような人の暴挙を、食い止めることですッ！！」\
+;「人の不幸を嘲笑い弄ぶあなたのような人の暴挙を、食い止めることですッ！！」\
+`"You with your sneering and toying with the misfortune of others. I can stop you with your own kind of violence~!!"`\
 
 mld l,HIG_w6,80
 
 ;se1 84
 
-「あっはははっははっはっは！！@　さぁさ、私と踊りましょうよ、毬枝！@　最近、あなたが遊んでくれなかったから退屈をしていたの。@あなたが私といつも遊んでくれたなら、@こんな退屈な狩りなんてしなくて済んだかもしれないのに。@じゃあこれはあなたの罪でもあるのね、@/
+;「あっはははっははっはっは！！@　さぁさ、私と踊りましょうよ、毬枝！@　最近、あなたが遊んでくれなかったから退屈をしていたの。@あなたが私といつも遊んでくれたなら、@こんな退屈な狩りなんてしなくて済んだかもしれないのに。@じゃあこれはあなたの罪でもあるのね、@/
+`"AH HAH HA HA HA HA HA HA!! `@`Well then, come dance with me Marie! `@`Since you haven't played with me lately, it's been boring. `@`I mean if you would always play with me, `@`then maybe I would finally stop this lame hunting. `@`Because this is also your fault, you see, `@/
 ;se2 84
-くすくす、うふふふふふふふふふふふふふふふふふ…！！」\
+;くすくす、うふふふふふふふふふふふふふふふふふ…！！」\
+`TEEHEEHEE, UHUHUHUHUHUHUHUHUHU~~!!"\
 
 se1 1006
 se2 57
@@ -6288,8 +6355,10 @@ print 22
 me2v 17,70
 me2v 5,70
 
-　部屋中が戦慄き、軋み、割れて、砕けてその無数の刃で毬枝を貫こうとする。@
-　それは悪意ある刃の旋風、暴風、まるで竜巻。@それらの渦が、彼岸花を中心に渦巻く。\
+;　部屋中が戦慄き、軋み、割れて、砕けてその無数の刃で毬枝を貫こうとする。@
+`　The room shook, creaked, cracked, and broke into countless blades that sought to pierce Marie.`@
+;　それは悪意ある刃の旋風、暴風、まるで竜巻。@それらの渦が、彼岸花を中心に渦巻く。\
+`　It was a whirlwind of viscious blades. A storm almost like a tornado. `@`That spiral whirled around with Higanbana in its center.`\
 
 ;ld r,MAR_Def1,80
 csp -1
@@ -6322,8 +6391,10 @@ ld r,MAR_i2,2
 
 se1 39
 
-　毬枝はそれを両の手で乱暴に払い除ける。@
-　華奢そうな少女なのに、@腕を振るうその瞬間だけ、その腕が丸太のような太さを持つ、凶暴な怪物のそれに見えた。\
+;　毬枝はそれを両の手で乱暴に払い除ける。@
+`　Marie violently warded it off with both her arms.`@
+;　華奢そうな少女なのに、@腕を振るうその瞬間だけ、その腕が丸太のような太さを持つ、凶暴な怪物のそれに見えた。\
+`　Even though she appeared a delicate girl, `@`for just a moment when she threw up her arms, they became as thick as tree trunks, and she looked like a ferocious monster.`\
 
 se2 12
 quakey 2,200
@@ -6337,18 +6408,21 @@ ld r,MAR_i4a,80
 
 me3v 28,90
 
-　しかし、毬枝は彼岸花の悪意ある攻撃の数々を払い除けるのがやっとだ。@それらは彼女の腕に無数に突き刺さり、引き裂き、@彼女の鮮血を部屋中に撒き散らす。\
+;　しかし、毬枝は彼岸花の悪意ある攻撃の数々を払い除けるのがやっとだ。@それらは彼女の腕に無数に突き刺さり、引き裂き、@彼女の鮮血を部屋中に撒き散らす。\
+`　However she held against countless malicious attacks from Higanbana. `@`Her arms were pierced and slashed countless times. `@`Her fresh blood splattered across the room.`\ 
 
 bg black,23
 bg ie_02u,0
 ld r,NON_s1,23
 
-「も、…森谷さん…！！@　血が、……血が……ッ！！」@
+;「も、…森谷さん…！！@　血が、……血が……ッ！！」@
+`"M- ...Moriya-san!! `@`You ...you're bleeding~!!"`@
 
 ld l,MAR_i1a,23
 ;ld l,MAR_Def1,80
 
-「…わ、…私は平気です…！@　それより、……私が隙を作りますから、廊下へ逃げて下さい。」\
+;「…わ、…私は平気です…！@　それより、……私が隙を作りますから、廊下へ逃げて下さい。」\
+`"...I ...I'm fine! `@`More importantly ...I'll make room for you, so please run out the hallway."`\
 
 bg black,23
 
@@ -6356,11 +6430,15 @@ me4v 3,90
 
 fedexx 70,90,90,90,90,90,2000
 
-　部屋中を砕いて、鋭い破片の刃の暴風にしてしまう彼岸花は、@その暴風の中心で円舞を踊るよう。@
-　……それは優雅で、彼女が口にした自らの通り名、踊る彼岸花を間違いなく連想させた。\
+;　部屋中を砕いて、鋭い破片の刃の暴風にしてしまう彼岸花は、@その暴風の中心で円舞を踊るよう。@
+`　Higanbana, who had completely broken the room in sharpened fragments, `@`seemed to be dancing a waltz in the middle of the storm.`@
+;　……それは優雅で、彼女が口にした自らの通り名、踊る彼岸花を間違いなく連想させた。\
+`　...With that grace, that must be why she calls herself the Dancing Higanbana.`\
 
-　しかし、そのような、死と暴力の円舞曲を、@廊下に逃れたくらいで逃げ延びることができるのか…。@
-　しかし、今は議論の余地はない。@頷き返すしか彼にはできなかった。\
+;　しかし、そのような、死と暴力の円舞曲を、@廊下に逃れたくらいで逃げ延びることができるのか…。@
+`　But could I escape into the hallway `@`and from that brutal waltz of death?
+;　しかし、今は議論の余地はない。@頷き返すしか彼にはできなかった。\
+`　But now was no time to argue. `@`All I could do was nod in agreement.`\
 
 se1 1010
 bg white,1
