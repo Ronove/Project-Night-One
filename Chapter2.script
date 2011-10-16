@@ -6462,7 +6462,8 @@ se1v 1010,100
 bg white,1
 bg black,80
 
-　彼女の暴風は、大量の写真を木の葉のように回し、砕いて粉々に破砕していく…。@……あぁ、それでいいのかもしれない。@何も残す必要はない。@…過去を臆すことなく次々に忘れ、そして新しい日々を重ねていけばいいのだ。\
+;　彼女の暴風は、大量の写真を木の葉のように回し、砕いて粉々に破砕していく…。@……あぁ、それでいいのかもしれない。@何も残す必要はない。@…過去を臆すことなく次々に忘れ、そして新しい日々を重ねていけばいいのだ。\
+`　Her whirlwind picked up the pile of photos and crumpled them like leaves into bits. `@`...That might be for the best. `@`I don't need to leave anything behind. `@`...I should lose those memories of the past one by one and make a new future for myself.`\ 
 
 bg white,23
 bg black,23
@@ -6471,30 +6472,35 @@ ld l,NON_N1a,0
 ld c,MAR_i2a,23
 ld c,MAR_i3a,80
 
-「今です、廊下へッ！！！」@
+;「今です、廊下へッ！！！」@
+`"Now! To the hallway~!!!"`@
 br
 
 se1 20
 cl c,1
 quakey 2,200
 
-　毬枝が捨て身の覚悟で彼岸花の円舞曲に飛び込む…！！@　それを合図に野々宮は部屋を飛び出す。\
+;　毬枝が捨て身の覚悟で彼岸花の円舞曲に飛び込む…！！@　それを合図に野々宮は部屋を飛び出す。\
+`　Prepared to risk her life, Marie jumped into Higanbana's waltz!! `@`Taking that as his cue, Nonomiya ran out the room.`\
 
 cl l,22
 ;quakex 1,100
 
-「う、うわあああああああああああぁあああぁ！！」\
+;「う、うわあああああああああああぁあああぁ！！」\
+`"U-, UWAAAAAAAAAAAAAAAAAAAaaaaAAAAAaaa!!"\
 
 bg black,29
 bg ie_03,29
 
-「それでいい！　生き延びて！！@　沼田さんが奪わなかったあなたの命を、あなたは粗末にしてはいけない！！」\
+;「それでいい！　生き延びて！！@　沼田さんが奪わなかったあなたの命を、あなたは粗末にしてはいけない！！」\
+`"That's fine with me! Live a long life!! `@`You mustn't waste your life that even Youko-san couldn't snatch away from you!!"`\
 
 bg black,23
 ld c,HIG_w5,23
 ld c,HIG_w6,80
 
-「毬枝には、私のダンスの相手はまだ少し早いようよ？@　うっふふふふふふふふふふ！」\
+;「毬枝には、私のダンスの相手はまだ少し早いようよ？@　うっふふふふふふふふふふ！」\
+`"Isn't it a bit soon for you to be my dance partner, Marie? `@`HuHUHUHUHUHUHU!"`\
 
 se1v 57,100
 se2v 2,100
@@ -6503,8 +6509,10 @@ bg white,1
 bg e020,28
 quakey 2,200
 
-　彼岸花を取り囲む暴風の円舞は、毬枝に組みかかることさえ許さなかった。@
-　その体が渦に飲み込まれた木の葉のようにぐるぐると舞い、@廊下へ逃げた野々宮のその背中に向けて吹き飛ばされる。\
+;　彼岸花を取り囲む暴風の円舞は、毬枝に組みかかることさえ許さなかった。@
+`　The storm that swirled around Higanbana's waltz seized Marie.`@
+;　その体が渦に飲み込まれた木の葉のようにぐるぐると舞い、@廊下へ逃げた野々宮のその背中に向けて吹き飛ばされる。\
+`　Her body was swallowed by the wind and swirled around like a leaf, `@`and she was blown into the hallway where Nonomiya fled and into his back.`\
 
 bg white,23
 bg ie_05,23
@@ -6514,7 +6522,8 @@ se2 13
 
 quakex 2,200
 
-　二人はもつれるようにしながら、廊下に転げ出す。\
+;　二人はもつれるようにしながら、廊下に転げ出す。\
+`　Tangling together, they both rolled down the hallway.`\
 
 bg black,23
 ld_p HIG_w5
@@ -6526,7 +6535,8 @@ lsp2 4,$ld_pass,480,370,200,200,0
 lsp2 5,$ld_pass2,480,370,200,200,0
 print 80
 
-「そんなだからいつまでも序列が８位なのよ、毬枝？@　もう少し上品に。@もう少し優雅に。@そしてたっぷり残酷にならなくっちゃ、夜の社交界には程遠いわ？@　そんな程度じゃ、やっぱり私は退屈よ。@野々宮くんの生き胆でも引っ張り出さなきゃ、退屈で死んでしまいそうよ。@ねぇ、あなたにも半分わけてあげるわよ。@それで手を打ちなさいよ、私のお友達の毬枝ちゃん。」\
+;「そんなだからいつまでも序列が８位なのよ、毬枝？@　もう少し上品に。@もう少し優雅に。@そしてたっぷり残酷にならなくっちゃ、夜の社交界には程遠いわ？@　そんな程度じゃ、やっぱり私は退屈よ。@野々宮くんの生き胆でも引っ張り出さなきゃ、退屈で死んでしまいそうよ。@ねぇ、あなたにも半分わけてあげるわよ。@それで手を打ちなさいよ、私のお友達の毬枝ちゃん。」\
+`"Since you're like that, you're always going to be Eighth Rank, right Marie? `@`If you're not a little more refined, `@`a bit more elegent, `@`and completely ruthless, how do you intend to make it in the high society of the night? `@`If that's all you have, I'll get bored. `@`If I can't at least tear out Nonomiya-kun's liver I'll die of boredom. `@`Hey I know, I'll even split it with you if you want. `@`So end his life with your hand, my good friend Marie-chan."`\
 ld_p MAR_i4a
 lsp2 2,$ld_pass,180,450,-200,200,0
 lsp2 3,$ld_pass2,180,450,-200,200,0
@@ -6536,28 +6546,32 @@ lsp2 2,$ld_pass,180,450,-200,200,0
 lsp2 3,$ld_pass2,180,450,-200,200,0
 print 80
 
-「結構です。@でも、大人しく引き下がってくれたら、@代わりにあなたの保健室にちゃんと遊びに行ってあげます。」\
+;「結構です。@でも、大人しく引き下がってくれたら、@代わりにあなたの保健室にちゃんと遊びに行ってあげます。」\
+`"No thanks. `@`But if you would politely withdraw, `@`in exchange I'll be sure to come play with you in your infirmary."`\
 
 ld_p HIG_w5
 lsp2 4,$ld_pass,480,370,200,200,0
 lsp2 5,$ld_pass2,480,370,200,200,0
 print 80
 
-「……馬鹿にして。@そんなのが、私の狩りを邪魔する代償になると思ってるの？」@
+;「……馬鹿にして。@そんなのが、私の狩りを邪魔する代償になると思ってるの？」@
+`"...Don't toy with me. `@`You think something like that will suffice for intruding on my hunt?"`@
 
 ld_p MAR_i1
 lsp2 2,$ld_pass,180,450,-200,200,0
 lsp2 3,$ld_pass2,180,450,-200,200,0
 print 80
 
-「お茶も淹れてあげます。@宿直室においしい大福があったので一緒に食べましょう。」\
+;「お茶も淹れてあげます。@宿直室においしい大福があったので一緒に食べましょう。」\
+`"I'll even serve tea. `@`The night duty room has some delicious rice cakes, let's eat them together."`\
 
 ld_p HIG_w6
 lsp2 4,$ld_pass,480,370,200,200,0
 lsp2 5,$ld_pass2,480,370,200,200,0
 print 80
 
-「……お茶ぁ？@　大福ぅ？@　……くすくすくすくす、うふふふふふふふふふふふふふ！！@　あぁ、それは素敵な夜のお茶会ね。@でも、乾杯には彼の赤い血の杯が似合うんじゃないかしら？！@　彼は足を挫いたようね、@年貢の納め時よ、毬枝ッ、野々宮くんん！！！」\
+;「……お茶ぁ？@　大福ぅ？@　……くすくすくすくす、うふふふふふふふふふふふふふ！！@　あぁ、それは素敵な夜のお茶会ね。@でも、乾杯には彼の赤い血の杯が似合うんじゃないかしら？！@　彼は足を挫いたようね、@年貢の納め時よ、毬枝ッ、野々宮くんん！！！」\
+`"...Teeea? `@`Rice caaake? `@`...Heeheehee Pfwahahahahahahaha!! `@`Oh that would be a splendid evening tea party. `@`But don't you think we should toast with his red blood in our cups?! `@`Looks like he broke a leg. `@`It's time to pay the piper, MARIE~ NONOMIYA-KUNN~!!!"`\
 
 csp2 -1
 
@@ -6568,7 +6582,8 @@ bg ie_05,0
 ld c,MAR_i4a,23
 ld c,MAR_i1a,80
 
-「まったく、彼岸花さんはいつも聞き分けがなくて困ります！！@　閉じろよ扉ッ！！」\
+;「まったく、彼岸花さんはいつも聞き分けがなくて困ります！！@　閉じろよ扉ッ！！」\
+`"Geez, why won't you ever listen to me Higanbana-san!! `@`Door! SHUT YOURSELF~!!"`\
 
 bg white,64
 bg black,64
@@ -6578,38 +6593,46 @@ se1 15
 bg ie_02y,1
 quakex 2,200
 
-　毬枝が閉じろと命じると、部屋と廊下を隔てる扉が力強く閉まる。@
+;　毬枝が閉じろと命じると、部屋と廊下を隔てる扉が力強く閉まる。@
+`　When Marie ordered it, the door between the room and the hallway shut with great force.`@
 br
-　それを見て、彼岸花はきょとんとした後、邪悪に笑い転げる。\
+;　それを見て、彼岸花はきょとんとした後、邪悪に笑い転げる。\
+`　After seeing that and spacing out for a moment, Higanbana rolled on the floor in laughter.`\
 
 ld c,HIG_w5,22
 ;ld c,HIG_Def1,80
 
 
-「うふふふふふふふふふふふふ！！@　なぁに、こんな薄い扉一枚で、@この学校妖怪序列第３位の踊る彼岸花を食い止めようというの？！」\
+;「うふふふふふふふふふふふふ！！@　なぁに、こんな薄い扉一枚で、@この学校妖怪序列第３位の踊る彼岸花を食い止めようというの？！」\
+`"PFWAHAHAHAHAHAHAHAHAHA!! `@`Whaat? `@`You think a single thin door will stop me, The Dancing Higanbana of the Third Ranked Seat of the School Youkai, from feeding on my prey?!"`\
 
 mbg black,22
 
-「はい！@　学校妖怪序列第８位、めそめその毬枝が、彼岸花さんを食い止めます！！」\
+;「はい！@　学校妖怪序列第８位、めそめその毬枝が、彼岸花さんを食い止めます！！」\
+`"Yes! `@`Mesomeso Marie, The Eighth Rank of the School Youkai, will stop you from feeding!!"`\
 
 mcbg 22
 
 ld c,HIG_w6,80
 
-「妖怪のくせに、ニンゲンの肩を持つとはね？！@　魂も食わずに、空腹で干乾びてるくせにッ！！@　こんな薄っぺらい扉、粉々に砕いてあげるわッ！！」\
+;「妖怪のくせに、ニンゲンの肩を持つとはね？！@　魂も食わずに、空腹で干乾びてるくせにッ！！@　こんな薄っぺらい扉、粉々に砕いてあげるわッ！！」\
+`"Even though you're a youkai you're siding with a HUMAN? `@`Even though if you don't feed on souls you'll dry and shrivel uuup~!! `@`I'll smash this flimsy door to bits for you~!!"`\
 
 bg black,22
 ld c,MAR_i1,22
 ;ld c,MAR_Def1,80
 
-「いいえ、あなたにこの扉は開けません。@聞けよ扉ッ！@　“めそめそ、めそめそ、そこのあなた、哀れな私の話を聞いて下さいな。”！！」\
+;「いいえ、あなたにこの扉は開けません。@聞けよ扉ッ！@　“めそめそ、めそめそ、そこのあなた、哀れな私の話を聞いて下さいな。”！！」\
+`"No, you cannot open this door. `@`Door! Listen to me~! `@`'Mesomeso, mesomeso, you there. Won't you listen to my pitiful story'!!"`\
 
 bg black,22
 
 br
-“めそめそ、めそめそ。@そこのあなた、哀れな私の話を聞いて下さいな。@”
+;“めそめそ、めそめそ。@そこのあなた、哀れな私の話を聞いて下さいな。@”
+`'Mesomeso, mesomeso, `@`you there. Won't you listen to my pitiful story.`@`"`
 br
-　その言葉が、イミを持ち扉に込められ、扉が鈍く重い重い赤い光を宿す。\
+;　その言葉が、イミを持ち扉に込められ、扉が鈍く重い重い赤い光を宿す。\
+`　Taking the meaning of those words, the door grew thicker, heavier and heavier, imbuned with red light.`\
 
 textoff
 
@@ -6626,11 +6649,14 @@ bg toire_01,28
 bgcopy
 csp -1
 
-　そうさ、その言葉を僕は知っている！@　それは、最近、学校の怪談の８つ目になったとかいう新しい怪談。@
+;　そうさ、その言葉を僕は知っている！@　それは、最近、学校の怪談の８つ目になったとかいう新しい怪談。@
+`　That's right, I know those words! `@`Recently there's been a new story going around about the 8th school youkai.`@
 br
-　旧校舎のトイレにはめそめそさんという妖怪が住み着き、個室の中で夜な夜な泣いているという。@その妖怪は人が訪れると、必ずそう問い掛けるというのだ。\
+;　旧校舎のトイレにはめそめそさんという妖怪が住み着き、個室の中で夜な夜な泣いているという。@その妖怪は人が訪れると、必ずそう問い掛けるというのだ。\
+`　It's said that each night in the former school building's bathroom stall a youkai called Mesomeso-san appears. `@`That's how that youkai invites people inside the stall.`\
 
-　その怪談のルールによれば、@その問い掛けに答えてはならないし、扉　ヲ　開　ケ　テ　モ　ナ　ラ　ナ　イ　！！@　開ければ恐ろしいめそめそさんに、全身の骨を粉々に砕いて殺される…！！\
+;　その怪談のルールによれば、@その問い掛けに答えてはならないし、扉　ヲ　開　ケ　テ　モ　ナ　ラ　ナ　イ　！！@　開ければ恐ろしいめそめそさんに、全身の骨を粉々に砕いて殺される…！！\
+`　According to the rules in that story, `@`you must not respond to that question, and you MUST NOT OPEN THE DOOR!! `@`If you open it, the terrifying Mesomeso-san will kill you by crushing every bone in your body!!"`\
 
 bg black,22
 bg ie_05,0
@@ -6638,37 +6664,46 @@ ld c,MAR_i4,22
 
 me1v 17,90
 
-「めそめそさんが怖ければ。@決して扉を開けてはならぬ。@……開ければ恐ろしいめそめそさんに、体の骨を砕かれるぞ…。」@
+;「めそめそさんが怖ければ。@決して扉を開けてはならぬ。@……開ければ恐ろしいめそめそさんに、体の骨を砕かれるぞ…。」@
+`"If you're afraid of Mesomeso-san. `@`Then you can't open that door. `@`...Because if you dare open that door, the horrifying Mesomeso-san will crush your bones..."`@
 br
-　めそめそさんの怪談を、……めそめそさん自身がゆっくりと扉越しに彼岸花に語り掛ける…。\
+;　めそめそさんの怪談を、……めそめそさん自身がゆっくりと扉越しに彼岸花に語り掛ける…。\
+`　The Mesomeso-san from those ghost stories ...the Mesomeso-san herself was leisurely addressing Higanbana, who was just beyond the doorway...`\
 
-　その毬枝の体が、……廊下のか細いとはいえ、灯りの真下にいるはずなのに、@……漆黒の影で塗り潰されていく…。@
+;　その毬枝の体が、……廊下のか細いとはいえ、灯りの真下にいるはずなのに、@……漆黒の影で塗り潰されていく…。@
+`　Even though she was directly under the lights in that thin hallway, `@`...Marie's body began blotting out everything with a deep black shadow...`@
 
 bg black,22
 
-　………それは、影の形だけを見るならば、確かにさっきまでの毬枝と同じなのに、@……今はまったく異形の、………まさに学校妖怪と呼ぶに相応しい、@恐ろしくおぞましいものの姿をしていたに違いない…。\
+;　………それは、影の形だけを見るならば、確かにさっきまでの毬枝と同じなのに、@……今はまったく異形の、………まさに学校妖怪と呼ぶに相応しい、@恐ろしくおぞましいものの姿をしていたに違いない…。\
+`　...Looking at that shadow, one would surely think it be the same Marie from moments ago, `@`...but it was completely different ...It looked like a real school youkai would. `@`Its form was as terrifying as it was repulsive...`\
 
 bg ie_02y,0
 ld r,HIG_w6,23
 
 
-　扉の向こうの彼岸花は、@扉一枚を隔てて、歪んだ笑いを浮かべながら、ドアノブに手を伸ばす…。@
- ノブに手を触れようとして……、@そのぎりぎりのところで、躊躇する…。\
+;　扉の向こうの彼岸花は、@扉一枚を隔てて、歪んだ笑いを浮かべながら、ドアノブに手を伸ばす…。@
+`　On the other side of the door, `@`Higanbana was being held back by a solitary doorway, and with a twisted smile on her face, she reached with a hand for the doorknob...`@
+; ノブに手を触れようとして……、@そのぎりぎりのところで、躊躇する…。\
+`As she was about to touch the knob... `@`she hesitated right before it met her hand...`\
 
 ld r,HIG_w5,22
 
-「………くすくす…。@……何よそれ。@…この踊る彼岸花が、…めそめそさんを恐れるとでも……？」\
+;「………くすくす…。@……何よそれ。@…この踊る彼岸花が、…めそめそさんを恐れるとでも……？」\
+`"......Hehehe... `@`...What is this. `@`...Can it be that this Dancing Higanbana ...is afraid of Mesomeso-san......?"`\
 
 bg black,22
 
-「なら、………この扉を開けて下さい。@…………本当の私が、お相手します。」\
+;「なら、………この扉を開けて下さい。@…………本当の私が、お相手します。」\
+`"If not, ...then open the door please. `@`......I'll face you with my true form."`\
 
 textoff
 ld c,HIG_w6,22
 wait 1000
 ld c,HIG_w6a,22
 
-「くすくすくすくす…………！@　毬枝ぇぇ……。」\
+;「くすくすくすくす…………！@　毬枝ぇぇ……。」\
+`"Hehehehehehe.......! `@`Marieee~..."`\
 
 ;bg black,22
 
@@ -6677,16 +6712,21 @@ me2v 16,70
 bg Aka3,22
 ld c,MAR_O1,2
 
-　……………開けられない。@
+;　……………開けられない。@
+`　......She can't open it.`@
 br
-　扉を開けられない…！！@　いくら彼岸花でも、とてもとても！\
+;　扉を開けられない…！！@　いくら彼岸花でも、とてもとても！\
+`　She can't open the door!! `@`No matter how many Higanbanas there are, it wouldn't be enough!`\
 
-　開ければめそめそさんに全身の骨を砕かれる。@それがめそめそさんの怪談！@　だから開けられない！@
-　踊る彼岸花であっても、@“扉の向こうにいる”めそめそさんは、躊躇に値する恐ろしい存在！\
+;　開ければめそめそさんに全身の骨を砕かれる。@それがめそめそさんの怪談！@　だから開けられない！@
+`　If she opens the door, Mesomeso-san will crush every bone in her body. `@`That's the Mesomeso story! `@`So she can't open it!`@
+;　踊る彼岸花であっても、@“扉の向こうにいる”めそめそさんは、躊躇に値する恐ろしい存在！\
+`　Even the Dancing Higanbana `@`gives pause to that terrifying Mesomeso-san that lies just beyond the doorway!`\
 
 ld r,HIG_W6,22
 
-「………くすくすくすくす、うふふふふあははははは。@…そうでなくっちゃ、私のお友達とは言えないわね、毬枝。@……素敵よ、本当に素敵よ。@あぁ、本当に楽しいわ。@ここがどうして学校じゃないのかしら。@どうして教室や保健室じゃないのかしら。@ここは狭くて空気が合わない。@どうして私たちはこんな狭いところで遊んでいるのかしらね。」\
+;「………くすくすくすくす、うふふふふあははははは。@…そうでなくっちゃ、私のお友達とは言えないわね、毬枝。@……素敵よ、本当に素敵よ。@あぁ、本当に楽しいわ。@ここがどうして学校じゃないのかしら。@どうして教室や保健室じゃないのかしら。@ここは狭くて空気が合わない。@どうして私たちはこんな狭いところで遊んでいるのかしらね。」\
+`"...Teeheeheehee, Fwahahahahahahaha. `@`...If you didn't do that, then I couldn't call you my friend, Marie. `@`...You're wonderful, truly wonderful. `@`Oh what real fun this is! `@`I wonder why this doesn't happen at school. `@`Why doesn't this happen in classrooms or the infimary I wonder. `@`This enclosed atmosphere just doesn't work. `@`I wonder why we have to play in such a confined place, y'know?"`\
 
 ;bg aka1,22
 
@@ -6695,9 +6735,11 @@ mld c,MAR_O1,22
 
 me3v 28,90
 
-「……………………彼岸花さん。@私と、…言葉を交わしています。@…めそめそさんのルールに、………反していますよ。」@
+;「……………………彼岸花さん。@私と、…言葉を交わしています。@…めそめそさんのルールに、………反していますよ。」@
+`"......Higanbana-san. `@`...You're talking to me. `@`...You're breaking the rules of Mesomeso-san."`@
 br
-　めそめそさんの怪談のルールでは、@めそめそさんと会話を交わすことも本来は禁じられている。@彼岸花はこうして言葉を交わしているだけですでに、@めそめそさんの怪談に取り込まれつつある…。\
+;　めそめそさんの怪談のルールでは、@めそめそさんと会話を交わすことも本来は禁じられている。@彼岸花はこうして言葉を交わしているだけですでに、@めそめそさんの怪談に取り込まれつつある…。\
+`　According to the rules of the Mesomeso-san story, `@`engaging in conversation with her is forbidden. `@`Since Higanbana was speaking with her like that, `@`she's already being pulled into Mesomeso-san's horror story...`\
 
 mcl c,0
 
@@ -6705,8 +6747,10 @@ bg black,0
 lsp bgsp2,":a;bmp\background\efe\black1.bmp",0,0,255
 print 6
 
-　もはや毬枝の影は、毬枝の形をしているかも怪しい……。@
-　その異形の影は、確かに毬枝の声を発するのだが、@……目の前で全てを見届けている野々宮でさえ、@それが毬枝であることを、わずかでも気を抜くと忘れてしまいそうになる…。\
+;　もはや毬枝の影は、毬枝の形をしているかも怪しい……。@
+`　The way Marie's shadow was already affecting her was strange...`@
+;　その異形の影は、確かに毬枝の声を発するのだが、@……目の前で全てを見届けている野々宮でさえ、@それが毬枝であることを、わずかでも気を抜くと忘れてしまいそうになる…。\
+`　That grotesque shadow had Marie's voice but... `@`even Nonomiya began to forget ever so slightly that the figure standing before his very eyes was actually Marie...`\
 
 ;bg black,29
 ;ld_p MAR_Def1
@@ -6720,7 +6764,8 @@ print 6
 
 se1 38
 
-「彼岸花さん。@……そんなに、物騒な遊びが大好きなら、……遊んであげます。@この扉を開いて下さい。」\
+;「彼岸花さん。@……そんなに、物騒な遊びが大好きなら、……遊んであげます。@この扉を開いて下さい。」\
+`"Higanbana-san. `@`...If you like to play such risky games ...I'll play with you. `@`Please, open this door."`\
 
 ld_p HIG_w5
 lsp2 4,$ld_pass,480,370,200,200,0
@@ -6731,7 +6776,8 @@ lsp2 4,$ld_pass,480,370,200,200,0
 lsp2 5,$ld_pass2,480,370,200,200,0
 print 80
 
-「……くすくすくすくす！@　昼行灯のような森谷毬枝じゃない、@学校妖怪第８位に席を勝ち取り、そして怖くてその座を誰も奪おうとできない、めそめそさんのあなたの本当の力、@……あぁ、見てみたいわ、ぞくぞくするもの！@　あなたが私の友達でよかった、@あなたに友達って言ってもらえて本当によかった！！」\
+;「……くすくすくすくす！@　昼行灯のような森谷毬枝じゃない、@学校妖怪第８位に席を勝ち取り、そして怖くてその座を誰も奪おうとできない、めそめそさんのあなたの本当の力、@……あぁ、見てみたいわ、ぞくぞくするもの！@　あなたが私の友達でよかった、@あなたに友達って言ってもらえて本当によかった！！」\
+`"...Heeheeheehee! `@`Well if it isn't the ordinary Moriya Marie. `@`This true power of Mesomeso-san's, who earned the Eighth Rank and everyone was too scared to steal it away from her, `@`... ahhh, I want to see it. It gives me chills! `@`I'm glad you're my friend, `@`I'm truly glad that you offered to be my friend!!"`\ 
 
 ld_p MAR_i4
 lsp2 2,$ld_pass,180,450,-200,200,0
@@ -6739,28 +6785,32 @@ lsp2 3,$ld_pass2,180,450,-200,200,0
 print 22
 
 
-「私もです、あなたは大切なお友達ですよ、彼岸花さん。@…………だから、続きは学校で遊びましょう。」\
+;「私もです、あなたは大切なお友達ですよ、彼岸花さん。@…………だから、続きは学校で遊びましょう。」\
+`"I am too, and you're a friend I treasure, Higanbana-san. `@`...So let's play at school again."`\
 
 ld_p HIG_w4
 lsp2 4,$ld_pass,480,370,200,200,0
 lsp2 5,$ld_pass2,480,370,200,200,0
 print 80
 
-「そうね。@ここは狭いし空気が湿っぽいわ。@あなたが久し振りに遊んでくれるなら、@もっともっと素敵な場所で、素敵なことがして遊びたいもの。@こんなところでこんなにも狭々となんて、馬鹿みたい！」\
+;「そうね。@ここは狭いし空気が湿っぽいわ。@あなたが久し振りに遊んでくれるなら、@もっともっと素敵な場所で、素敵なことがして遊びたいもの。@こんなところでこんなにも狭々となんて、馬鹿みたい！」\
+`"You're right. `@`This confined space is too doom and gloom. `@`If you'll come play with me once in a while, `@`I want to play in a much much more wonderful place and do something splendid with you. `@`Being so limited in a place like this seems silly to me!"`\
 
 ld_p MAR_i3
 lsp2 2,$ld_pass,180,450,-200,200,0
 lsp2 3,$ld_pass2,180,450,-200,200,0
 print 80
 
-「帰りましょう。@学校妖怪は、学校へ。」\
+;「帰りましょう。@学校妖怪は、学校へ。」\
+`"Let's go home. `@`School youkai belong in school."`\
 
 ld_p HIG_w6
 lsp2 4,$ld_pass,480,370,200,200,0
 lsp2 5,$ld_pass2,480,370,200,200,0
 print 80
 
-「えぇ、いいわよ、そうしましょう。@やっぱり私の友達はあなただけなのね。@あっははははははははははははははははははは…！！」\
+;「えぇ、いいわよ、そうしましょう。@やっぱり私の友達はあなただけなのね。@あっははははははははははははははははははは…！！」\
+`"Sure, fine with me, let's do it. `@`I knew you were my only friend! `@`AhahaAHAHAHAHAHHAHAHAHAHA~!!"`\
 
 csp -1
 csp2 -1
@@ -6773,51 +6823,66 @@ bg ie_05,42
 
 me1v 35,50
 
-　彼岸花の笑い声と暴風の円舞曲は、次第に遠退いていく…。@
-　やがて、完全に聞こえなくなり、夜の沈黙が支配した。@
+;　彼岸花の笑い声と暴風の円舞曲は、次第に遠退いていく…。@
+`　Higanbana's laughter and her windstorm waltz gradually grew distant...`@
+;　やがて、完全に聞こえなくなり、夜の沈黙が支配した。@
+`　Finally it could no longer be heard, and the night's silence took hold.`@
 br
-　気付けば、毬枝は写真の中の森谷毬枝の姿に戻っていた。\
+;　気付けば、毬枝は写真の中の森谷毬枝の姿に戻っていた。\
+`　When I realized it, Marie had returned to her original form like the Moriya Marie in the photograph.`\
 
 ld r,MAR_w1,2
 ;ld r,MAR_Def1,80
 
 bgm1 5
 
-「……もう大丈夫。@彼岸花さんは学校へ帰りました。@……彼女は飽きっぽいから、もう野々宮くんにちょっかいを出してくることはないでしょう。」\
+;「……もう大丈夫。@彼岸花さんは学校へ帰りました。@……彼女は飽きっぽいから、もう野々宮くんにちょっかいを出してくることはないでしょう。」\
+`"...It's all right now. `@`Higanbana-san has gone back to school. `@`...Because she's a fickle one, I would think she won't come out to bother you anymore."`\
 
 ld l,NON_n1a,22
 
-「…………………………………。」@
+;「…………………………………。」@
+`"..............."`@
 br
-　僕は未だに腰が抜けたままだった……。\
+;　僕は未だに腰が抜けたままだった……。\
+`　I was had been lying on the floor...`\
 
 bg black,23
 bg ie_03,23
 
-　恐る恐る自分の部屋の扉を開ける。@
-　……すると、………信じられないことに、@部屋は静寂どころか、何事もなかったように綺麗なままだった。\
+;　恐る恐る自分の部屋の扉を開ける。@
+`　Carefully, carefully, I opened the door to my room.`@
+;　……すると、………信じられないことに、@部屋は静寂どころか、何事もなかったように綺麗なままだった。\
+`　...When I did ...I couldn't believe it. `@`The room was silent, or rather it was clean, as if nothing had happened.`\
 
-　あんなに荒れ狂った暴風が全てを砕いていたのに、その痕跡は何もない。@…彼岸花など初めからいなかったかのようだった。@
+;　あんなに荒れ狂った暴風が全てを砕いていたのに、その痕跡は何もない。@…彼岸花など初めからいなかったかのようだった。@
+`　Even though everything had been destroyed by that raging tornado, there was no trace of it at all. `@`...As if Higanbana and the like had never been there from the beginning.`@
 br
-　でも、彼女のために出した座布団とマグカップは、@確かにそこに残っていた…。\
+;　でも、彼女のために出した座布団とマグカップは、@確かにそこに残っていた…。\
+`　However, the mug and cushion I had put out for Higanbana, `@`those were still there...`\
 
 ld l,MAR_w1,22
 ;ld l,MAR_Def1,80
 
-「それでは、私もこれで帰ります。@……今の私は学校の妖怪ですから。@学校の外に出ることはとても疲れることですので。」@
+;「それでは、私もこれで帰ります。@……今の私は学校の妖怪ですから。@学校の外に出ることはとても疲れることですので。」@
+`"Well then, I'll also be heading back now. `@`...I'm a school youkai now after all. `@`Leaving the school is a really tiring affair as well."`@
 
 ld r,NON_n1a,24
 ;ld r,NON_Def1,80
 
-「その、……あ、……ありがとうございました…。」\
+;「その、……あ、……ありがとうございました…。」\
+`"Umm, ...Th- ...Thank you very much..."`\
 
 ld l,MAR_w2,80
 
-「感謝は、怨嗟の連鎖を断ち切る勇気を見せた、沼田さんに。@……そして、沼田さんを許す勇気を見せた、あなたに。@…それが彼女が生きている内に見せられたならよかったのだけれど、@…………それでも手遅れなわけじゃない。@……だって、生と死の境を跨いでいたにしたって、@…二人は許し合えたのだから。」\
+;「感謝は、怨嗟の連鎖を断ち切る勇気を見せた、沼田さんに。@……そして、沼田さんを許す勇気を見せた、あなたに。@…それが彼女が生きている内に見せられたならよかったのだけれど、@…………それでも手遅れなわけじゃない。@……だって、生と死の境を跨いでいたにしたって、@…二人は許し合えたのだから。」\
+`"Your gratitude should be for Youko-san, who showed her courage to end that cycle of hatred. `@`...And to you, who showed the courage to forgive Youko-san. `@`...You might not have been able to show it to her while she was alive, `@`......but even so you weren't too late. `@`...After all, even though you were both on the border of life and death, `@`...you both were able to forgive each other."`\
 
-　森谷さんは疲労の残る笑顔で、そう言った。@
+;　森谷さんは疲労の残る笑顔で、そう言った。@
+`　Moriya-san said with a fatigued smile.`@
 br
-　…そうであれば良いと、…僕も願うしかない。\
+;　…そうであれば良いと、…僕も願うしかない。\
+`　...It might have been fine to end it there... but I had to ask.`\
 
 mbg black,22
 
@@ -6826,78 +6891,97 @@ E_MA
 
 ;ld r,NON_Def1,80
 
-「……そうだ、……あの。@……このカメラ。@…お返しします。」\
+;「……そうだ、……あの。@……このカメラ。@…お返しします。」\
+`"...That's right ...Ummm. `@`...About this camera. `@`...I'm taking it back."`\
 
-　全ての発端になった、あの不思議なカメラを、僕は森谷さんに渡そうとする。@
+;　全ての発端になった、あの不思議なカメラを、僕は森谷さんに渡そうとする。@
+`　I decided to give Moriya-san that mysterious camera that started everything.`@
 br
-　すると彼女は困った顔をした。\
+;　すると彼女は困った顔をした。\
+`　When I did, she had a troubled expression on her face.`\
 
 mcbg 22
 
 ld l,MAR_Def4a,80
 
-「……ごめんなさい。@それは私のものじゃないし、@……私にはそれをどうすればいいか、わからないの。@彼岸花さんが詳しそうだけど、今は機嫌を悪くしてるだろうから聞けないし。」\
+;「……ごめんなさい。@それは私のものじゃないし、@……私にはそれをどうすればいいか、わからないの。@彼岸花さんが詳しそうだけど、今は機嫌を悪くしてるだろうから聞けないし。」\
+`"...I'm sorry. `@`That's not really mine, `@`...and I don't know what I'd really do with it. `@`Higanbana-san knows the details but she's in a bad mood right now so I don't really want to ask..."`\
 
 ld r,NON_Def3a,80
 
-「捨ててしまった方がいいですよね？@　あと１枚分ですけど、フィルムも残ってるので。」\
+;「捨ててしまった方がいいですよね？@　あと１枚分ですけど、フィルムも残ってるので。」\
+`"So I should just get rid of it then? `@`Because there's only one shot's worth of film left on here."`\
 
 ld l,MAR_w1,80
 
-「……どうしたらいいか、校長先生に聞いてみます。@彼にとっても、これは迷惑なものだろうから、@きっとどうすればいいか教えてくれると思うので。」\
+;「……どうしたらいいか、校長先生に聞いてみます。@彼にとっても、これは迷惑なものだろうから、@きっとどうすればいいか教えてくれると思うので。」\
+`"...I'll ask the Headmaster what we should do. `@`Because this camera is causing him trouble, `@`so I'd think he would surely tell us what to do."`\
 
 ld r,NON_n1a,80
 
-「お、…お願いします。@………………もう絶対に、あのカメラは使いません。@……安らかに眠る亡者を、起こしちゃいけない。@……沼田さんは、凍える寒さの地獄に、永遠に閉じ込められている。@……彼女をさらに苦しめないためにも、………僕は………。」\
+;「お、…お願いします。@………………もう絶対に、あのカメラは使いません。@……安らかに眠る亡者を、起こしちゃいけない。@……沼田さんは、凍える寒さの地獄に、永遠に閉じ込められている。@……彼女をさらに苦しめないためにも、………僕は………。」\
+`"P- ...Please do. `@`......I won't use that camera anymore ― no matter what. `@`...I don't want to wake the dead if they're sleeping peacefully. `@`...Numata-san is now trapped in that freezing cold hell for eternity. `@`...And so that... I... don't cause her any more suffering."`\
 
 bg black,22
 bg ie_04,22
 
 ;ld l,MAR_Def1,80
 
-「彼女は、きっともう大丈夫だと思うの。」@
+;「彼女は、きっともう大丈夫だと思うの。」@
+`"I think she's fine now."`@
 
 ;ld r,NON_Def1,80
 
-「……そうでしょうか…。」\
+;「……そうでしょうか…。」\
+`"...Are you sure?..."`\
 
 ;ld l,MAR_Def1,80
 
-「うん。@………彼女も初めは、あなたと同じで、@怒りの炎に燃やされて復讐のことだけしか考えなかったかもしれない。@……でも、互いを許し合うことで、ようやく彼女は心の平穏を得ることができた。@……彼女はきっと、安らかだと思うの。」\
+;「うん。@………彼女も初めは、あなたと同じで、@怒りの炎に燃やされて復讐のことだけしか考えなかったかもしれない。@……でも、互いを許し合うことで、ようやく彼女は心の平穏を得ることができた。@……彼女はきっと、安らかだと思うの。」\
+`"Yes. `@`...At first she was just like you, `@`and all that she thought about might have been the fury of revenge that set her soul on fire. `@`...But since you both forgave each other, perhaps she was able to achieve peace of mind. `@`...I think she has to be resting in peace now."`\
 
 bg black,22
 
 bg ie_03,0
 ld c,NON_n1,22
 
-「そうだと、……………いいのですが。」@
+;「そうだと、……………いいのですが。」@
+`"Well it would be great if that's true ...but..."`@
 
 ld l,MAR_w2,22
 
-「うぅん、思うじゃないです。@彼女は安らかになりました。@……妖怪の私が、ちゃんと断言します。」\
+;「うぅん、思うじゃないです。@彼女は安らかになりました。@……妖怪の私が、ちゃんと断言します。」\
+`"No, it's not just my opinion. `@`She has achieved peace. `@`...Since I'm a youkai, I know it to be true."`\
 
 bg black,22
 ;ld c,YOU_Def1,22
 
-「………………………………。」@
+;「………………………………。」@
+`"............."`@
 br
-　沼田さんのあの惨めな姿が脳裏に蘇る……。@
-　本当に、安らかになったのだろうか。@
-　彼女が、怨嗟の連鎖から解放され、今は何にも苛まれていないという、証拠が欲しかった。\
+;　沼田さんのあの惨めな姿が脳裏に蘇る……。@
+`　Having her mind revived in that despicable form...`@
+;　本当に、安らかになったのだろうか。@
+`　Could Numata-san really be at peace... I wonder?`@
+;　彼女が、怨嗟の連鎖から解放され、今は何にも苛まれていないという、証拠が欲しかった。\
+`　I wanted some kind of proof that now she wasn't being tortured anymore after being freed from that cycle of hatred.`\
 
 ;bg black,24
 bg ie_03,0
 ld r,MAR_w2,22
 
-　すると森谷さんがポンと手を打った。\
+;　すると森谷さんがポンと手を打った。\
+`　And then Marie clapped her hands.`\
 
 ld r,MAR_w1,80
 
-「そうだ。@そのカメラ、フィルムはあと１枚分だと言いましたね。@使い切ってしまえば、もうおかしな悪戯に使われることもないと思うんです。」@
+;「そうだ。@そのカメラ、フィルムはあと１枚分だと言いましたね。@使い切ってしまえば、もうおかしな悪戯に使われることもないと思うんです。」@
+`"That's right. `@`You said that camera still has one shot of film left, right? `@`If we use it, I don't think it can be used for any strange mischief after that."`@
 
 ld l,NON_Def5a,23
 
-「あ、……なるほど。@……でも、何を撮れば。」\
+;「あ、……なるほど。@……でも、何を撮れば。」\
+`"Oh, ...I see. `@`...But what do we shoot?"`\
 
 textoff
 fede 0,1000
@@ -6907,22 +6991,28 @@ ld r,MAR_w2,22
 
 me1v 35,50
 
-「洗面所に行って、鏡に映る自分を撮って下さい。」@
+;「洗面所に行って、鏡に映る自分を撮って下さい。」@
+`"Go to the bathroom and please take a picture of your own reflection."`@
 
 ld l,NON_Def6a,80
 
-「……え？」\
+;「……え？」\
+`"...Eh?"`@
 
 ld r,MAR_w1,80
 
-「大丈夫。@何も怖いことはありません。@そして彼女も今、それを望んでいます。」@
+;「大丈夫。@何も怖いことはありません。@そして彼女も今、それを望んでいます。」@
+`"It's all right. `@`There's nothing to be afraid of anymore. `@`And I'm sure, even now, she wants you to do it too."`@
 br
-　その時、玄関の扉がガチャガチャ言うのが聞こえた。@
-　ようやく、母が戻ってきたのだ。\
+;　その時、玄関の扉がガチャガチャ言うのが聞こえた。@
+`　At that moment, I could hear someone chattering away outside the doorway. `@`
+;　ようやく、母が戻ってきたのだ。\
+`　Mom had finally come home.`\
 
 ld r,MAR_w2,80
 
-「では、私はこれで。@………もう二度とお目に掛からないでしょう。@そして思い出すこともできなくなるでしょう。@でも、私たちはいつもあなたたちの側にいますよ。@たまに、隣の席にこっそり座っているかも。@…………それでは、さようなら。」\
+;「では、私はこれで。@………もう二度とお目に掛からないでしょう。@そして思い出すこともできなくなるでしょう。@でも、私たちはいつもあなたたちの側にいますよ。@たまに、隣の席にこっそり座っているかも。@…………それでは、さようなら。」\
+`"Well, I'll be going. `@`...We probably won't meet again. `@`And you'll probably forget about me. `@`But we'll always be by your side. `@`Maybe even quietly sitting right next to you. `@`...Well then, goodbye."`\
 
 ld l,NON_Def5a,22
 cl r,42
@@ -6930,28 +7020,38 @@ cl r,42
 bg black,22
 bg ie_04,22
 
-「武ぃ～、帰ってるぅー？！@　遅くなっちゃってごめんねぇ！！」@
+;「武ぃ～、帰ってるぅー？！@　遅くなっちゃってごめんねぇ！！」@
+`"Takeshiii~ are you hooome?! `@`Sorry for being laaate!!"`@
 br
-　階下の母に返事をするために振り返る。@
-　それから森谷さんの方に振り返るが、……その時にはもう姿が消えていた……。\
+;　階下の母に返事をするために振り返る。@
+`　I turned around to give my reply to my mom downstairs.`@
+;　それから森谷さんの方に振り返るが、……その時にはもう姿が消えていた……。\
+`　Then I turned back towards Moriya-san, ...but she had already disappeared...`\
 
 bg black,22
 bgm1 4
 
-　……別れ際に彼女は、洗面所で自分の姿を撮れと言った。@
+;　……別れ際に彼女は、洗面所で自分の姿を撮れと言った。@
+`　...When she left, she told me to take a picture of myself in the bathroom.`@
 br
-　あの不気味なカメラで自分の姿を撮るなど、……何とも言えず不気味だ。\
+;　あの不気味なカメラで自分の姿を撮るなど、……何とも言えず不気味だ。\
+`　No matter how you put it, taking a picture of myself with that mysterious camera was ...unsettling.`\
 
-　でも、森谷さんはそうしろと言った。@悪意があるようには感じられなかった。@
-　………彼女もそれを望んでいると、言わなかったっけ…。@…彼女って……？\
+;　でも、森谷さんはそうしろと言った。@悪意があるようには感じられなかった。@
+`　However, Marie had said to do that. `@`And I couldn't feel any malice from her.`@
+;　………彼女もそれを望んでいると、言わなかったっけ…。@…彼女って……？\
+`　...Didn't she say that she was wanting me to do that too... `@`...Did she......?`\
 
 bg ie_05,22
 ld c,NON_Def1,22
 
-　僕は洗面所へ行く。@あのカメラを持って。@
-　そして、……薄暗い洗面所を写し出す鏡の中の自分を、ファインダー越しに見る。@
+;　僕は洗面所へ行く。@あのカメラを持って。@
+`　I went to the bathroom. `@`I brought that camera with me.`@
+;　そして、……薄暗い洗面所を写し出す鏡の中の自分を、ファインダー越しに見る。@
+`　Then ...in the dimly lit bathroom I looked down the scope at my reflection in the mirror.`@
 br
-　…………ちょっとだけ怖かったが、シャッターを切った。\
+;　…………ちょっとだけ怖かったが、シャッターを切った。\
+`　......I was a bit scared, but I took the picture with a click of the shutter.`\
 
 se1 81
 
@@ -6959,24 +7059,31 @@ mbg white,1
 ld c,NON_Def6a,0
 mcbg 2
 
-　バシャリ。@
+;　バシャリ。@
+`　Flash.`@
 br
-　機械音がして、最後の一枚の写真をその場で現像してくれた。\
+;　機械音がして、最後の一枚の写真をその場で現像してくれた。\
+`　Making its mechanical noise, the final photograph developed right there.`\
 
 ;bg white,45
 ;ld c,YOU_Def1,42
 
 bg black,22
 
-　そこには、……カメラを構えた僕だけが写ってはいなかった。@
+;　そこには、……カメラを構えた僕だけが写ってはいなかった。@
+`　But I wasn't the only one caught on the photograph.`@
 br
-　そこには、…沼田陽子さんの、姿が。\
+;　そこには、…沼田陽子さんの、姿が。\
+`　Numata Youko-san's figure... was also there`\
 
-　でもそれは醜かったり惨たらしかったりしたあの姿ではなく、@……元気に理科準備室を駆け抜けていた頃に、@当り前のように浮かべていた笑顔で、服装で。\
+;　でもそれは醜かったり惨たらしかったりしたあの姿ではなく、@……元気に理科準備室を駆け抜けていた頃に、@当り前のように浮かべていた笑顔で、服装で。\
+`　But she didn't appear hideous or gorey. `@`...With her usual smile on her face, her normal clothes, `@`she looked just like she did when she was running around the science prep room.`\
 
-　フィルムを全て使い切り、不思議なカメラはその役目を終える。@
+;　フィルムを全て使い切り、不思議なカメラはその役目を終える。@
+`　I had used up all the film, and I've ended the uses of this eerie camera.`@
 br
-　誰も名前を知らない、だけれども、安らかに微笑む少女と一緒に、@洗面所の鏡越しに撮った写真が一枚、残るだけだった……。\
+;　誰も名前を知らない、だけれども、安らかに微笑む少女と一緒に、@洗面所の鏡越しに撮った写真が一枚、残るだけだった……。\
+`　No one knew her name, even so, all that was left on that photograph of the bathroom mirror, `@`was a happily smiling girl next to me......`\
 
 textoff
 
@@ -7011,78 +7118,96 @@ ld r,HIG_W4,22
 
 bgm1 1
 
-「毬枝の淹れてくれるお茶は本当に美味しいわね。@茶道室の妖怪にもなれそうよ。」@
+;「毬枝の淹れてくれるお茶は本当に美味しいわね。@茶道室の妖怪にもなれそうよ。」@
+`"The tea you made for me is really quite tastey Marie. `@`This might be the work of a tea ceremony youkai."`@
 
 ld l,MAR_W2,22
 
-「茶釜にタヌキの尻尾が生えたりするんですか？@　うふふふ、たまにはそういう怪談もいいかもしれませんね。」\
+;「茶釜にタヌキの尻尾が生えたりするんですか？@　うふふふ、たまにはそういう怪談もいいかもしれませんね。」\
+`"Does that mean I have to snip the tail off a racoon and put it in the kettle? `@`Hehehe, a youkai tale like that would be good once in a while, don't you think?"`\
 
-　真っ白な月の明かりが差し込む永遠の夜の保健室に。@妖怪の影が二つ。@
-　保健室の真っ白なベッドに仲良く腰掛けながら、@湯飲みを傾け、大福に噛り付く。\
+;　真っ白な月の明かりが差し込む永遠の夜の保健室に。@妖怪の影が二つ。@
+`　The moon's pure white light shined down on the infirmary of eternal night. `@`The shadows of two youkai sat within.`@
+;　保健室の真っ白なベッドに仲良く腰掛けながら、@湯飲みを傾け、大福に噛り付く。\
+`　As they sat like friends atop a white bed in the infirmary, `@`they drank tea and ate rice cakes.`\
 
 bg black,22
 bg hoken_03,22
 ld r,MAR_def4,22
 ld r,MAR_def2a,80
 
-「保健室が住処なんて、羨ましいです。@私なんかトイレですよ、旧校舎の汚いトイレ。」\
+;「保健室が住処なんて、羨ましいです。@私なんかトイレですよ、旧校舎の汚いトイレ。」\
+`"Getting to live in the infirmary, I envy you. `@`I have to live in a bathroom! That disgusting old building's bathroom."`\ 
 
 ld l,HIG_w2,22
 
-「死ぬ場所を選ばないからよ。@まぁ、おっちょこちょいの毬枝にはぴったりだと思うけれど。」@
+;「死ぬ場所を選ばないからよ。@まぁ、おっちょこちょいの毬枝にはぴったりだと思うけれど。」@
+`"It's because we don't choose where we die. `@`Well, I think it suits airhead Marie though."`\ 
 
 ld r,MAR_i4a,80
 
-「そういう酷いことを言うと、もう遊びに来てあげませんよ？」\
+;「そういう酷いことを言うと、もう遊びに来てあげませんよ？」\
+`"If you're going say such crude things, I won't come over anymore, you know?"`\
 
 ld l,HIG_w1,80
 
-「嘘よ冗談よ。@……毬枝しか遊んでくれないの。@遊んでもらえない人形は、ただの木偶だもの。」@
+;「嘘よ冗談よ。@……毬枝しか遊んでくれないの。@遊んでもらえない人形は、ただの木偶だもの。」@
+`"I'm kidding. It's a joke. `@`...You're the only one who comes to play. `@`After all, a doll that no one plays with is just a figurine."`@
 br
-　彼岸花は饅頭を齧ったまま、頭を垂れる。\
+;　彼岸花は饅頭を齧ったまま、頭を垂れる。\
+`　As she took a bean paste bun in her mouth, Higanbana hung her head.`\
 
 bg black,22
 ;bg hoken_04,22
 
 ;ld r,MAR_Def1,80
 
-「……今回の件は、実に彼岸花さんらしいと思いました。」@
+;「……今回の件は、実に彼岸花さんらしいと思いました。」@
+`"...I thought this incident was truly typical of you, Higanbana-san."`@
 
 ;ld l,HIG_Def1,80
 
-「何がかしら。」\
+;「何がかしら。」\
+`"What do you mean?"`\
 
 ;bg black,22
 bg hoken_02,22
 ld l,MAR_Def2,22
 
-「とてもとても回りくどくて、私まで騙されちゃいましたが。@……でも結局、これで彼岸花さんの思い通りになったんじゃないかと思います。@そして、それがどうしてもっと、素直な形で出来ないのか、@……そこがとにかくもう、彼岸花さんらしいと思いました。」\
+;「とてもとても回りくどくて、私まで騙されちゃいましたが。@……でも結局、これで彼岸花さんの思い通りになったんじゃないかと思います。@そして、それがどうしてもっと、素直な形で出来ないのか、@……そこがとにかくもう、彼岸花さんらしいと思いました。」\
+`"Although you tricked me in a really really roundabout way. `@`...In the end, I think everything turned out just as you wanted it. `@`And I thought why can't she just be more straightforeward, `@`...but I realized that was just your way of doing things."`\
 
 ld r,HIG_w3,22
 
-「何がよ。@馬鹿にしてるでしょう。@失礼しちゃうわ。」@
+;「何がよ。@馬鹿にしてるでしょう。@失礼しちゃうわ。」@
+`"What are you talking about. `@`You're making fun of me aren't you. `@`I'll leave."`@
 
 ld l,MAR_w2,80
 
-「くすくす。@……彼岸花さんのそういうところが、少しだけ可愛らしいと思いました。」\
+;「くすくす。@……彼岸花さんのそういうところが、少しだけ可愛らしいと思いました。」\
+`"Teeheehee. `@`...I think you're a bit cute when you put it like that."`\
 
 ld r,HIG_w5,80
 
-「可愛らしい？@　この踊る彼岸花が？@　この冷酷非道、@残虐無比の学校妖怪序列第３位の踊る彼岸花が可愛らしいって？@　くすくす、あはははははは。@お生憎ね、私はそういう子じゃないの。@…………さぁて、次は何をして遊ぼうかしら？@　どの子にちょっかいを出してあげようかしら…？」\
+;「可愛らしい？@　この踊る彼岸花が？@　この冷酷非道、@残虐無比の学校妖怪序列第３位の踊る彼岸花が可愛らしいって？@　くすくす、あはははははは。@お生憎ね、私はそういう子じゃないの。@…………さぁて、次は何をして遊ぼうかしら？@　どの子にちょっかいを出してあげようかしら…？」\
+`"Cute? `@`This Dancing Higanbana? `@`Are you saying that the Dancing Higanbana, School Youkai of the Third Rank, `@`for whom there is no equal in cruelty, inhumanity, and brutality is cute? `@`Heehee, Ahahahaha. `@`Sorry, but I'm not that kind of girl. `@`...Well then, who should we play with next? `@`Which child should we toy with, I wonder...?"`\
 
 ld l,MAR_Def2a,80
 
-「もう…！@　私がちゃんと遊んであげますから、@当分は生徒にちょっかいはなしです。」\
+;「もう…！@　私がちゃんと遊んであげますから、@当分は生徒にちょっかいはなしです。」\
+`"Jeez..! `@`Because I'll be the one who plays with you, `@`let's not meddle with any of the students."`\
 
 cl r,0
 ld c,HIG_w6,24
 
-「くすくすうふふふふふふふふ！@　たとえ毬枝でも、この彼岸花は飼い慣らせないわよ。@………私は踊る彼岸花、保健室の主。@さぁて、次は誰を呪ったり祟ったりしてあげようかしら。@誰を保健室の虜にしてあげようかしら。@あぁ、それを考えながら、@回り続けるのに永遠に夜明けを差さない時計を眺めるのも乙なものかもしれない。」\
+;「くすくすうふふふふふふふふ！@　たとえ毬枝でも、この彼岸花は飼い慣らせないわよ。@………私は踊る彼岸花、保健室の主。@さぁて、次は誰を呪ったり祟ったりしてあげようかしら。@誰を保健室の虜にしてあげようかしら。@あぁ、それを考えながら、@回り続けるのに永遠に夜明けを差さない時計を眺めるのも乙なものかもしれない。」\
+`"Teeheehee Fwahahahahaha! `@`It seems this Higanbana can't even keep simple Marie as her pet. `@`...I am The Dancing Higanbana, master of the infirmary. `@`So then, who will I curse and cast a spell on next I wonder. `@`I wonder who I'll imprison in this infirmary. `@`While I think about that, `@`perhaps I'll gaze at the clock that spins for eternity never once receiving the rays of dawn."`\
 
 bg hoken_01,2
 ld r,HIG_w3,22
 
-「でもまぁ、しばらくは狩りもお休みしてあげてもいいかもだわ。@……この大福に免じてね。@明日はお煎餅がいいわ。@絶対に調達してきてちょうだい。@待ってるわよ。くすくすくすくす…！」
+;「でもまぁ、しばらくは狩りもお休みしてあげてもいいかもだわ。@……この大福に免じてね。@明日はお煎餅がいいわ。@絶対に調達してきてちょうだい。@待ってるわよ。くすくすくすくす…！」
+`"Then again, maybe I'll give myself a little break from hunting. `@`...Instead I'll have these rice cakes. `@`Tomorrow I'd like some rice crackers. `@`You simply must bring me some. `@`I'll wait for you. Teeheeheehee~!"
 
 
 ;＜おしまい＞
