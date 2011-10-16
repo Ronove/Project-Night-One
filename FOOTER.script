@@ -9695,6 +9695,7 @@ goto *b_title_botun_loop
 	vsp t_btn_start_lsp,0
 	vsp t_btn_web_lsp,0
 	vsp t_btn_tips_lsp,0
+	vsp t_btn_glos_lsp,0
 	vsp t_btn_exit_lsp,0
 	vsp t_btn_music_lsp,0
 	vsp t_logo_lsp,0
