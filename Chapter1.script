@@ -430,13 +430,13 @@ wait 1000
 ld c,KAN_Def2,80
 
 ;　すでに少女の独白でも明かされている通り、男は毬枝の担任だった。@
-`　Just as divulged in the girl's monologue, the man is Marie's homeroom teacher.`@
+`　Just as divulged in the girl's monologue, this man is Marie's homeroom teacher.`@
 br
 ;　名は、金森義仁（かなもりよしひと）。\
 `　His name is Kanamori Yoshihito (金森義仁).`\
 
 ;　若くて線が細く、落ち着いた振る舞いの中にもユーモアを忘れない、@憧れる女子も多い人気のある教師だった。\
-`　Young with a slender figure, in his calm composure he hadn't lost his humor. `@`He was a popular teacher who many girls longed for.`\
+`　Young with a slender figure, even in his calm composure, he hadn't lost his humor. `@`He was a popular teacher who many girls longed for.`\
 
 bg black,0
 ld c,KAN_w2,22
@@ -465,7 +465,7 @@ ld c,KAN_i1,22
 `　But the pressure of the real world dispersed his unrealistic dreams.`@
 br
 ;　……やがて彼は、多忙かつ報われない日々に対し、@理不尽な怒りを抱くようになっていった。\
-`　Before long, coupled with the pressure of work and rewardless days, `@`he began to embrace an irrational anger.`\
+`　Before long, coupled with the pressure of work and unrewarding days, `@`he began to embrace an irrational anger.`\
 
 ;bg e015,45
 
@@ -477,7 +477,7 @@ ld r,KAN_K3,22
 `　All he had was the trickling of his meaningless sweat.`@
 br
 ;　……なのに、世の中にはそんな自分の苦労の上にさも当り前のようにあぐらをかき、@うまい汁だけを吸っている連中がたくさんいるのだ。\
-`　......And yet there were a lot of people in this world who would stand on his shoulders,`@` and just sip his delicious sweat.`\
+`　......And yet there were a lot of people in this world who would stand on his shoulders`@` and just sip his delicious sweat.`\
 
 ;bg e016,45
 
@@ -508,7 +508,7 @@ ld r,MAR_Def3n,22
 
 br
 ;　だからその時点で、その高潔な生い立ちに関係なく、@彼は最低の男であることに間違いなかった。\
-`　Because from that point forward his life lost its purity, `@`and he unmistakably became the worst kind of man.`\
+`　Because from that point forward, his life lost its purity, `@`and he unmistakably became the worst kind of man.`\
 
 
 ;bg black,22
@@ -573,7 +573,7 @@ br
 bg black,22
 
 ;　そんな滑稽な格好も、私が命じて準備させれば、翌日の放課後には実現でき、@何一つ逆らうことのできない少女に好きなだけ妄想をぶつけることができるのだ。\
-`　Even that kind of ridiculous outfit, if I made her prepare for it, the next day it could become a reality. `@`And the girl who could never refuse anyone would indulge in my fantasies.`\
+`　If I made her prepare for it, even that kind of ridiculous outfit could become a reality the next day. `@`And the girl who could never refuse anyone would indulge in my fantasies.`\
 
 
 fede 10,1000
@@ -602,7 +602,7 @@ bg k_kyou_03,22
 `　But the solution tumbled right under my nose.`@
 br
 ;　誰かを支配し、その上に立つ。@
-`　To control someone, and to stand above them.`@
+`　To control someone and to stand above them.`@
 br
 ;　それだけのことで、私は子供の頃から拭えなかったコンプレックスを克服することができたのだ。\
 `　By only doing just that, I was able to conquer a complex that had vexed me since childhood.`\
@@ -637,7 +637,7 @@ bg toire_01,22
 `　......And yet, for it to continue into next year, the year after that, and even ten years from now is impossible.`@
 br
 ;　森谷毬枝が一生徒に過ぎない限り、やがて進級し、卒業する。@彼女を取り巻く環境は変化し、いつしか私の支配が及ばなくなる時が来るだろう。\
-`　Moriya Marie, not unlike other students, would soon change schools ― graduate. `@` The world she surrounds herself with will change, and before I know it a time may come when she'll be beyond my control.`\
+`　Moriya Marie, not unlike other students, would soon change schools ― graduate. `@` The world she surrounds herself with will change, and before I know it, a time may come when she'll be beyond my control.`\
 
 ;bg Different_spiral_1b,22
 
@@ -681,7 +681,7 @@ br
 `　Until that day comes when they are released, `@`they can only look to lessen their oppression.`@
 br
 ;　森谷毬枝は、いつかきっと自分を裏切る。\
-`　Someday Moriya Marie will surely betray me.`\
+`　Someday, Moriya Marie will surely betray me.`\
 
 
 bg black,22
@@ -697,13 +697,13 @@ bg shokuin_04,26
 bg shokuin_02,22
 
 ;　始めに思いついたのは、彼女が卒業してからも支配を続け、永遠に私を裏切らないようにすること。\
-`　The first thing I thought of was what I could do to extend my power over her after she graduated, and how without her betrayal we could continue forever.`\
+`　The first thing I thought of was how I could extend my power over her after she graduated. How could I control her without being betrayed for eternity?`\
 
 ;　……だが、永遠を維持することなど人の身にできることではない。@
-`　......But keeping something like that going forever wasn't humanly possible.`@
+`　......But our bodies can't last forever.`@
 br
 ;　となれば、この日々が必ず終わることを前提に、@綺麗に終わらせることを考えなければならないのだ。\
-`　If that's the case, supposing these days will certainly end, `@`I must think of a way to make it end cleanly.`\
+`　If that's the case, assuming these days have to end, `@`I must think of a way to make them end as cleanly as possible.`\
 
 bg shokuin_03,0
 ld r,KAN_K1,22
@@ -712,7 +712,7 @@ ld r,KAN_K1,22
 `　But what resolution would be a clean ending?`@
 br
 ;　永遠に裏切らない保証がない相手を、@永遠に裏切らないと信用できるよう終わらせるのはどのようなものなのか。\
-`　Since there was no guarantee she couldn't betray me forever, `@`how could I end this so I could trust that she wouldn't ever betray me?`\
+`　Since there was no guarantee she would never betray me, `@`how could I end this so I could trust her not to stab me in the back?`\
 
 ;　それを突き詰めた時、…行き着いた答えは非常にシンプルだった。@
 `　After following this chain of logic ...the resulting solution was exceedingly simple.`@
@@ -790,7 +790,7 @@ br
 ld r,KAN_K3,80
 
 ;　世の中、うまくやったヤツだけがのさばれる。@うまくやれないヤツはいつまでも利用され続けてくたばって死ぬ。\
-`　In this world, the guys who have done well can do as they want. `@`And guys who can't, end up always getting used until they drop dead.`\
+`　In this world, the guys who have done well can do as they want. `@`And guys who can't end up always getting used until they drop dead.`\
 
 bg black,0
 ld r,KAN_K3,22
@@ -827,7 +827,7 @@ bg shokuin_03,22
 me1v 11,90
 
 ;　今日はどのようにして欲望を吐き出してやろう。@卑猥な妄想に再び頭の中が満たされていく……。@
-`　What kind of pleasure shall I indulge in today? `@`I begin to once again let my mind fill with perverted fantasies.......`@
+`　What kind of pleasure shall I indulge in today? `@`Once again, I began to let my mind fill with perverted fantasies.......`@
 ;　その妄想は、予鈴によって教頭が長話を打ち切るまで、ずっと続くのだった。\
 `　And until the long speech by the vice principal ended at first bell, for a long time, those fantasies continued.`\
 
@@ -842,7 +842,7 @@ E_A
 ;「めそめそさんが出たんだって。」@
 `"They say Mesomeso-san came out."`@
 ;「めそめそって泣いてたのを聞いたんだって。」\
-`"They said they heard it crying, 'mesomeso'"`\
+`"They said they heard it crying 'mesomeso'"`\
 
 bgm1 8
 
@@ -868,7 +868,7 @@ br
 bg black,22
 
 ;　この学校ではどんなものが七不思議の妖怪なのかはよく知らないが、@どうせどこかで聞いたことがあるようなものばかりだろう。\
-`　I don't really know what kind of youkai the Seven Mysteries are at this school, `@`but at any rate it seems like I've just heard about them.`\
+`　I don't really know what kind of youkai make up the Seven Mysteries at this school, `@`but at any rate it seems like I've just heard about them.`\
 
 bg rouka_02,22
 
@@ -887,7 +887,7 @@ bg rouka_03,24
 me1v 24,50
 
 ;「うん。@めそめそさんはね、旧校舎の女子トイレに出るんだよ。@そしてね、個室の中で、めそめそ、めそめそと泣いてるの。@誰が泣いてるんだろうって思ってね、個室のドアを叩くと、@中からこう聞こえてくるの。」\
-`"Yeah. `@`That Mesomeso-san right? Apparently it comes out of the old school building's girl's bathroom! `@`And then, inside the stall it cries `mesomeso`. `@`If you think it might be somebody crying and knock on the door, `@`you'll start to hear it from inside."`\
+`"Yeah. `@`That Mesomeso-san right? Apparently it comes out of the old school building's girl's bathroom! `@`And then, inside the stall, it cries `mesomeso`. `@`If you think it might be somebody crying and knock on the door, `@`you'll start to hear it from inside."`\
 
 ;locate 0,5
 
@@ -942,7 +942,7 @@ br
 ld c,MAR_def3n,22
 
 ;　二人で一緒にいるところを誰かに見られたら、無用の勘ぐりを受けることもあるかと思い、@いつも放課後の逢瀬を終えた後は、私が先に出て、@その後に時間をおいてから出るように言っている。\
-`　If someone were to see us together there, we might be under some futile suspicion. `@`Like always after we end our after school rendezvous, I'd leave first, `@`and she would probably leave sometime after.`\
+`　If someone were to see us together there, we might be under some futile suspicion. `@`Like always, after we'd end our after school rendezvous, I'd leave first, `@`and she would probably leave some time afterwards.`\
 
 bg toire_02,22
 
@@ -984,7 +984,7 @@ E_MA
 bg rouka_03,22
 
 ;「でね。@めそめそさんに話し掛けられてもね、決して話をしちゃいけないんだって。@もしもね、めそめそさんと話をしたり、その正体を見ようとして扉を開けたりしちゃったらね、@…………………大変なんだって。」@
-`"Right. `@`But they say if you listen to Mesomeso-san, you must not speak to it. `@`Well if you do speak to Mesomeso-san, and after opening the door if you see its true form, `@`............I've heard then it gets horrific."`@
+`"Right. `@`But they say if you listen to Mesomeso-san, you must not speak to it. `@`Well if you do speak to Mesomeso-san, and if you see its true form after opening the door, `@`............I've heard then it gets horrific."`@
 ;「大変って…？」\
 `"Horrific...?"`\
 
@@ -1040,7 +1040,7 @@ mono 1
 bg toire_07,22
 
 ;　森谷毬枝の泣き声を誰かが聞き怪談にしてしまった。@そこまでは危険な誤算だった。@
-`　Someone who had heard Moriya Marie's cries made a ghost story. `@`Up until that point this had been a dangerous miscalculation.`@
+`　Someone who had heard Moriya Marie's cries made a ghost story. `@`Up until that point, this had been a dangerous miscalculation.`@
 br
 ;　……だが、だからそのトイレには近付かない方がいい、という論法になるとは夢にも思わなかった。@
 `　......But, I would never in my dreams have imagined for them to advise against going near that stall.`@ 
@@ -1126,7 +1126,7 @@ br
 ld r,KAN_K4,22
 
 ;　だから私は、あのトイレにもう呼び出すべきではないという緊急性を感じていながら、@でも今日の呼び出しはキャンセルしたくないという矛盾を持っていた。\
-`　And so while feeling a pressing conscience to not invite her to that bathroom, `@`I also held the contradiction that I didn't want to cancel today's invitation.`\
+`　And so, while feeling a pressing conscience to not invite her to that bathroom, `@`I also held the contradiction that I didn't want to cancel today's invitation.`\
 
 ;　今日、如何にして彼女を蹂躙するか、そのことで朝から頭がいっぱいだった。@
 `　Today, how will I violate her? That occupied my thoughts since this morning.`@
@@ -1139,10 +1139,10 @@ cl r,0
 ld c,KAN_K3,24
 
 ;　だから、危険を承知で、今日も私は毬枝を呼び出す。@
-`　And so, knowing the dangers, today I also called upon Marie.`@
+`　And so, aware of the dangers, I called upon Marie again today.`@
 br
 ;　しばらくの間、呼び出せなくなってしまうのだから、@今日は心ゆくまで思い切り、いつまでもいつまでも楽しんでやるのだ……。\
-`　Because I won't be able summon her for some time, `@`today I'll absolutely enjoy her to my heart's content for a long long time.`\
+`　Before long, I won't be able to call her up anymore, `@`so I'll absolutely enjoy her to my heart's content, and I'll make today last forever ― forever and ever.`\
 
 ld c,KAN_K5,80
 
@@ -1172,7 +1172,7 @@ me1v 24,50
 `　......Of course, Mesomeso-san's story even reached Marie's ears.`@
 br
 ;　めそめそさんの話は毬枝の８組の、噂好きな女子たちの間でも持ちきりになっていた。\
-`　Mesomeso-san's story had become the hot topic for the rumor loving girls of Marie's class 8.`\
+`　Mesomeso-san's story had become the hot topic for the rumor-loving girls of Marie's class 8.`\
 
 bg kyou_02,22
 
@@ -1205,7 +1205,7 @@ bg toire_07,22
 `　Marie also realized it. `@`...That it was probably about her.`@
 br
 ;　よく覚えていないが、以前、@それまでに一度も要求されたことのない酷い事を強いられた時、@…辛くて悲しくて、解放された後に涙が止まらなかったことがあった。\
-` She didn't remember it well, but earlier `@`she was forced to do something horrible that she had never done before, `@`...it was bitter, painful, and after she was released she couldn't hold back the tears.`\
+` She didn't remember it well, but earlier `@`she was forced to do something horrible that she had never done before. `@`...It was hard for her ― painful, and after she had been released, she couldn't hold back the tears.`\
 
 ;　…その時、トイレに誰かがやってきて、……あまりの悲しさから助けを求めたくて、@そんな風に語り掛けたことがあった気がするのだ。\
 `　...At that time, someone came to the bathroom. ......She wanted them to help save her from her terrible sadness. `@`And she had a feeling that she had said something like that.`\
@@ -1293,7 +1293,7 @@ bg toire_08,0
 ld l,KAN_W1,22
 
 ;　先生は、私に強いた数々の行為の一部をホームビデオで撮影していたことがあった。@…そして、もし自分を裏切るようなことがあればそれをばら撒くとも言っていた。\
-`　Sensei recorded home videos of the many acts he forces me to do for him. `@`...And so, if I betrayed him he said he'd distribute them.`\
+`　Sensei recorded home videos of the many acts he forces me to do for him. `@`...And he said if betrayed him, he'd distribute them.`\
 
 ;bg black,22
 ;mono 0
@@ -1322,7 +1322,7 @@ bg mansion_03,2
 `　If I can't escape no matter how I try, all that's left is suicide.`@
 br
 ;　……でも、できることなら死にたくない。@
-`　......And yet, if possible I don't want to die.`@
+`　......But if there's another way, I don't want to die.`@
 ;　死なずに復讐することはできないものか……。@
 `　Can't I have my revenge without dying......?`@
 br
@@ -1404,7 +1404,7 @@ bg mansion_01,42
 `　Because even if I were to continue living like this, nothing good would come of it...`@
 br
 ;　社会に出ても、また先生のような男に囚われ、@抜け出せない日々に再び戻るだけに決まっているのだ……。\
-`　Even if I entered society, I'd be captured by another man like Sensei, `@`and once again I'd be fated to return to those days ― unable to break free......`\
+`　Even if I entered society, I'd be captured by another man like Sensei, `@`and I'd be fated to return to those days once again ― unable to break free......`\
 
 ;　……そこまで理解しながら、自ら死を選ぶだけの勇気が持てない。@
 `　......While I understood that much, I didn't have the courage to simply choose death.`@
@@ -1464,7 +1464,7 @@ bg tosho_02,42
 ld c,HIG_w3,42
 
 ;　毬枝の前には、いつの間にかひとりの少女がいた。@
-`　Suddenly in front of Marie, there was a girl.`@
+`　Suddenly, there was a girl in front of Marie.`@
 ;　もちろん面識のない子だった。\
 `　Of course, the girl was someone Marie didn't know.`\
 
@@ -1480,7 +1480,7 @@ bg black,0
 ld c,HIG_def2,22
 
 ;　まるでピアノの発表会でもあるかのような、綺麗で豪華な身なり。@…まるで、美しいドレスを着たお人形がそのまま人間になったような、そんな身なりだった。\
-`　She had a pristine and elegant figure as if she were at a piano recital. `@`...She looked like a doll wearing a beautiful dress that had turned into a human being.`\
+`　As if she were at a piano recital, the girl had a pristine and elegant figure. `@`...She looked like a doll wearing a beautiful dress that had turned into a human being.`\
 
 ;　それはもちろん顔立ちや髪型もだ。@手入れだけでも相当の時間を掛けて丁寧にしていることがすぐにわかった。@
 `　Of course, the same could be said for her face and hair. `@`It was obvious that properly maintaining them must have taken a lot of time.`@
@@ -1539,7 +1539,7 @@ ld r,HIG_w1,80
 `"A child from class 8 right? `@`Because this school has so many students, I can't say I know it very well. `@`Ufufufufufufu."`@
 br
 ;　その少女は、毬枝が８組の生徒だとわかって満足そうだったが、@毬枝には少女の名札がぼやけていてよく読めない。\
-`　The girl seemed satisfied to know that Marie was a student in class 8, `@`but for Marie the girl's nametag was obscured and she couldn't read it well.`\
+`　The girl seemed satisfied to know that Marie was a student in class 8, `@`but for Marie, the girl's nametag was obscured and she couldn't read it well.`\
 
 ;ld r,MAR_Def1,80
 
@@ -1611,7 +1611,7 @@ br
 bg tosho_04,22
 
 ;　おそらく、めそめそさんの怪談の原因は自分にあるから、その意味では自分は間違いなくめそめそさんだろう。@
-`　After all, because she was the cause of the ghost story, in that meaning there was no doubt she was Mesomeso-san.`@
+`　After all, because she was the cause of the ghost story, with that in mind, there was no doubt she was Mesomeso-san.`@
 ;　……でも、生徒たちが噂するような妖怪ではない。@
 `　......But, Marie wasn't like the youkai the students were spreading rumors about.@`
 br
@@ -1638,7 +1638,7 @@ bg black,0
 ld c,HIG_Def4,22
 
 ;「あなただって知ってるでしょ？@　学校の七不思議。@学校に住まう七大妖怪。@普通の規模の学校なら七つも席があれば充分なんだけれど。@これくらいの大きな学校だと、七席以上があってもいいとは思わない？」\
-`"You know don't you? `@`The School's Seven Mysteries. `@`The seven youkai that reside in this school. `@`Having seven seats would have been plenty for a normal school. `@`But for a school this big, don't you think there'd be room for more than seven?"`\
+`"You know, don't you? `@`The School's Seven Mysteries. `@`The seven youkai that reside in this school. `@`Having seven seats would have been plenty for a normal school. `@`But for a school this big, don't you think there'd be room for more than seven?"`\
 
 ld c,HIG_w2,80
 
@@ -1687,7 +1687,7 @@ ld l,MAR_Def4a,23
 ld r,HIG_def3,24
 
 ;「えぇ。@クラスでは“踊る彼岸花”って呼ばれてる、七席の序列第３位。@一応、保健委員もやってるのよ。@保健室になぜか置いてあるお人形。@あれが夜中にひとりでに踊り出すっていう怪談、聞いたことない？」\
-`"Yeah. `@`In class I'm called "The Dancing Higanbana," the third rank of the seven seats. `@`Once in a while I'm mentioned by a nurse as well. `@`A doll that for some reason had been left in the infirmary. `@`Have you heard the tale about it dancing alone in the depth of the night?"`\
+`"Yeah. `@`In class, I'm called "The Dancing Higanbana," the third rank of the seven seats. `@`Once in a while, I'm mentioned by a nurse as well. `@`A doll that for some reason had been left in the infirmary. `@`Have you heard the tale about it dancing alone in the depth of the night?"`\
 
 ld l,MAR_Def2a,80
 
@@ -1864,7 +1864,7 @@ me1v 17,70
 `　......The resolution to cease being human. `@`The resolution to throw away all of her life up until today.`@
 br
 ;　それを自覚した時。@……毬枝は心の中に、ほんのわずかに灯った感情があった。\
-`　At the time, she became aware of it. `@`......In Marie's heart she had a spark of emotion.`\
+`　And when she realized that, `@`......there was a spark of emotion in Marie's heart.`\
 
 bg black,22
 
@@ -1980,12 +1980,12 @@ br
 `　Marie had the courage to speak the words that would end it. `@`...Moreover, while putting it into words, she was gaining more and more courage in what she had to say.`@
 br
 ;　こういう手合いはまずい。@丸め込もうとすればするほど、@かえって頑固になっていってしまう…。\
-`　This was bad. `@`The more he was trying to calm her down, `@`instead the more stubborn she was getting...`\
+`　This was bad. `@`The more he was trying to calm her down, `@`the more stubborn she would get instead...`\
 
 ld l,KAN_K1,80
 
 ;　……しかし、あれほど内気で従順だった毬枝が、@なぜこれほどの勇気を突然に持ったのか。\
-`　......But for Marie who had been that shy and submissive, `@`why did she suddenly have this much courage?`\
+`　......But for Marie, who had been that shy and submissive, `@`why did she suddenly have this much courage?`\
 
 bg black,22
 
@@ -1995,7 +1995,7 @@ bgm1 10
 
 
 ;　……ま、まさか、@誰かに打ち明けて相談したのか…？@
-`　......It, it couldn't be, `@`had she told someone and asked for help...?`@
+`　......It, it couldn't be. `@`Had she told someone and asked for help...?`@
 br
 ;　それは自らの破滅を意味する。@……そうなるリスクと背中合わせの日々であることは、@誰より自分が知っていたはずだ。@
 `　That would be the end of me. `@`......The risk of those days leading two lives, `@`I should have known the risks more than anyone.`@
@@ -2067,7 +2067,7 @@ me1v 17,90
 `　But, ...even so, could Marie keep her mouth shut forever...?`@
 br
 ;　……今はまだ私のことを恐れていてくれているからいい。@互角の立場くらいにしか思っていないからいい。\
-`　......It's fine now because she's still afraid of me. `@`It's okay because she doesn't think she's on equal ground.`\
+`　......It's fine now because she's still afraid of me. `@`It's fine as long as she just thinks that we're on equal ground.`\
 
 ;nega 1
 ;print 1
@@ -2080,18 +2080,18 @@ ld c,MAR_Def3,22
 `　I have nothing to protect myself from that.@
 br
 ;　警察は瞬く間に私を取り押さえ、@アキレス腱であるテープをばら撒かせる時間など与えないに決まっているのだ。\
-`　In the blink of an eye, the police would arrest me, `@`and it'd be decided that the tapes that are her Achilles' heel wouldn't be distributed.`\
+`　In the blink of an eye, the police would arrest me, `@`and they'd decide that her Achilles' heel, the tapes, wouldn't be distributed.`\
 
 ;　第一、彼女を脅す時、私がいつも繰り返し口にしてきたテープのばら撒き。@…それに実際はどれくらいの時間と手間が掛かるというのか。@
-`　First off, when I threaten her, I always keep saying I'll broadcast the tapes. `@`... How much time will that really buy me?`@
+`　First of all, whenever I threaten her, I always keep saying I'll broadcast the tapes. `@`... How much time will that really buy me?`@
 br
 ;　無理だ。@ポケットに忍ばせたスイッチひとつで彼女が破滅させられるほど簡単ではないのだ。@
-`　It's pointless. `@`This isn't as simple as a hidden switchblade concealed in her pocket that would bring my ruin with one blow.`@
+`　It's pointless. `@`This isn't as simple as a hidden switchblade concealed in her pocket that would bring my ruin with a single strike.`@
 ;　それに比べたら、警察に駆け込んで事情を話すほうがはるかに容易…！\
 `　Compared to that, running to the police is far far simpler...!`\
 
 ;　……毬枝が立場を互角だと誤解してくれている今だけが均衡状態なのであって、@……もし、立場が圧倒的に違うことに気付いたなら、@すぐにでもその均衡は破れるだろう。@しかもそれは、自分の努力ではもう防ぐことができない…！\
-`　......Since it's only now that Marie is kindly misunderstanding that we're standing on par. `@`...If she realizes the overwhelming difference, `@`she'll probably quickly destroy that balance. `@`Furthermore, my great work can't be protected anymore...!`\
+`　......Thankfully, Marie believes that we're on equal ground for now. `@`...If she realized the overwhelming difference, `@`that would quickly be the tie breaker. `@`In addition to that, none of my efforts could protect me...!`\
 
 mbg black,22
 
