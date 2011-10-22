@@ -1,9 +1,3 @@
-
-
-
-;a few line skips at the start are important to deal with people who don't put a newline at the end of their file.
-
-
 *EN_glossary
    E_A                                 ;Stop currently playing song
    setwindow 31,16,22,16,22,22,0,2,20,1,1,#ffffff,0,0,639,479
@@ -20,7 +14,8 @@
 
    ;Dataset
    mov %EN_glossary_page_max,1 ;Number of total pages
-   mov %EN_glossary_page_view,1 ;Page at which the glossary opens at
+   mov %EN_glossary_page_view,1 ;Page at which the glossary opens at/current page
+   mov %EN_glossary_current_hint,0 ;Current hint displayed
 
 	;Selects a random BGM from these choices and plays it
 	rnd2 %ran,1,2
@@ -36,7 +31,7 @@
   lsp 101,":a/2,0,3;bmp\r_click\btn\Left.BMP",330,%Free4 -10 ;To the previous image^101
   lsp 102,":a/2,0,3;bmp\r_click\btn\Right.BMP",400,%Free4 -10 ;To the next image^102
   lsp rmenu_btn_Exit,":a/2,0,3;bmp\r_click\btn\exit.BMP",480,%Free4 + 20,230 ;Exit
-  gosub *EN_glossary_page_mode ;View images and read them or something
+  gosub *EN_glossary_page_mode ;Set page's buttons to their default state
 
 	;Clear the last button in memory
 	btndef ""
@@ -44,6 +39,15 @@
 	spbtn 101,1 ;back
 	spbtn 102,2 ;next
 	spbtn rmenu_btn_Exit,4 ;exit
+	spbtn EN_hint_button_0,5 ;hint button start
+	spbtn EN_hint_button_1,6
+	spbtn EN_hint_button_2,7
+	spbtn EN_hint_button_3,8
+	spbtn EN_hint_button_4,9
+	spbtn EN_hint_button_5,10
+	spbtn EN_hint_button_6,11
+	spbtn EN_hint_button_7,12 ;hint button end
+	
 
 	btnwait2 %BtnRes 
 		if %BtnRes = -1 : goto *EN_glossary_mode_end ;Right click?
@@ -51,6 +55,15 @@
 		if %BtnRes = 1 se1v 1010,40 : gosub *EN_glossary_back : gosub *EN_glossary_page_mode ;Back
 		if %BtnRes = 2 se1v 1010,40 : gosub *EN_glossary_next : gosub *EN_glossary_page_mode ;Next
 		if %BtnRes = 4  goto *EN_glossary_mode_end ;exit
+
+		if %BtnRes = 5 mov %EN_glossary_current_hint, 0 : gosub *EN_glossary_button_mode
+		if %BtnRes = 6 mov %EN_glossary_current_hint, 1 : gosub *EN_glossary_button_mode
+		if %BtnRes = 7 mov %EN_glossary_current_hint, 2 : gosub *EN_glossary_button_mode
+		if %BtnRes = 8 mov %EN_glossary_current_hint, 3 : gosub *EN_glossary_button_mode
+		if %BtnRes = 9 mov %EN_glossary_current_hint, 4 : gosub *EN_glossary_button_mode
+		if %BtnRes = 10 mov %EN_glossary_current_hint, 5 : gosub *EN_glossary_button_mode
+		if %BtnRes = 11 mov %EN_glossary_current_hint, 6 : gosub *EN_glossary_button_mode
+		if %BtnRes = 12 mov %EN_glossary_current_hint, 7 : gosub *EN_glossary_button_mode
 
   goto *EN_glossary_loop_1 ;Return to Loop Point
 
@@ -83,14 +96,23 @@ return
   ;Will update what the buttons look like depending on the page
   ;Note that each buttton has different text on it.
 
-;Coordinate setting
-  mov %Free2,345 ;X coordinate of text
-  mov %Free3,50 ;Y coordinate of text
-
+;Coordinate setting 
+  mov %Free4,24 ;X coordinate of top left button
+  mov %Free5,129 ;Y coordinate of top left button
+  mov %Free6,42 ;dY between two buttons
  
-return
+notif %EN_glosssary_page_view = 1 jumpf
+  lsp EN_hint_button_0,":a/2,0,3;bmp\r_click\r_btn_system.bmp, %Free4, %Free5 : add %Free5, %Free6
+  lsp EN_hint_button_1,":a/2,0,3;bmp\r_click\r_btn_system.bmp", %Free4, %Free5 : add %Free5, %Free6
+  lsp EN_hint_button_2,":a/2,0,3;bmp\r_click\r_btn_system.bmp", %Free4, %Free5 : add %Free5, %Free6
+  lsp EN_hint_button_3,":a/2,0,3;bmp\r_click\r_btn_system.bmp", %Free4, %Free5 : add %Free5, %Free6
+  lsp EN_hint_button_4,":a/2,0,3;bmp\r_click\r_btn_system.bmp", %Free4, %Free5 : add %Free5, %Free6
+  lsp EN_hint_button_5,":a/2,0,3;bmp\r_click\r_btn_system.bmp", %Free4, %Free5 : add %Free5, %Free6
+  lsp EN_hint_button_6,":a/2,0,3;bmp\r_click\r_btn_system.bmp", %Free4, %Free5 : add %Free5, %Free6
+  lsp EN_hint_button_7,":a/2,0,3;bmp\r_click\r_btn_system.bmp", %Free4, %Free5 : add %Free5, %Free6
+~
 
-; start pasting automatically generated glossary code here
+return
 
 ;*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-
 *EN_glossary_button_mode ;Button press handling routine
@@ -98,10 +120,16 @@ return
 
 ; Depending on the current page and the last button pressed, will display the appropriate glossary term.
 
+;Coordinate setting
+  mov %Free2,345 ;X coordinate of text
+  mov %Free3,50 ;Y coordinate of text
+
+notif %EN_glossary_page_view = 1 &&  %EN_glossary_current_hint = 0 jumpf
+	lsp rmenu_back, ":a;bmp\r_click\text\cha\ham_1.bmp",%Free2,%Free3
+~
+
 
 return
-
-; end pasting automatically generated glossary code here
 
 ;*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-
 *EN_glossary_mode_end ;Post-processing
