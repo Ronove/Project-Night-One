@@ -16,6 +16,10 @@ Last Readme Update: 10/11/2011
 ** CAUTION:
 ** The scripts are littered with various special characters, but make sure
    your encoding is set to <Shift-JIS> to avoid scrambled/misleading characters.
+   
+** IF MAIN SCREEN LAYOUT IS MESSED UP ([Library] instead of [Leave], etc)
+** Go into ProgramData and delete the HiganbanaEnglish and any/all OnScripter folders therein.
+   These hold previous saves, and chances are that they've been messed up due to script changes.
 
 ****************************************************************************************************
 ** Project File Notes
