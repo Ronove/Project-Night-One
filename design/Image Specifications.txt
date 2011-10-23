@@ -1,0 +1,10 @@
+Image Notes
+
+button-37 (3).bmp
+Font: Disney Simple
+Font specifications:
+ - color: #FFFFFF
+ - centered to button
+ - size: 25
+ - horizontal spacing: 25 (probably not very noticeable)
+ - stroke: 1 px #000000 outer stroke
