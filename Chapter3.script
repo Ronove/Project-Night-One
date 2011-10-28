@@ -1,177 +1,243 @@
 
 ;Chapter 3
-　扉を開けると、いつもの様にクラスメート全員が私を振り返った。\
+;　扉を開けると、いつもの様にクラスメート全員が私を振り返った。\
+`　As I opened the door, everyone in the class turned around to look at me as usual.`\
 
 mld c,MID_def1,22
 
-「おはよう、みんな。」@
+;「おはよう、みんな。」@
+`"Good morning everyone."`@
 br
-　私が挨拶すると、みんなも一番の笑顔の挨拶で返してくれる。\
+;　私が挨拶すると、みんなも一番の笑顔の挨拶で返してくれる。\
+`　And with my greeting I was met with everyone's wide smiles.`\
 
-　私を迎える感情は、敬愛、尊敬。@そして、憧れ。@
+;　私を迎える感情は、敬愛、尊敬。@そして、憧れ。@
+`　They showed feelings of affection, respect, `@`and desire.`@
 br
-　毎朝、教室に入るこの瞬間、@自覚してはいけないのだけれど、私は優越感に包まれるのだ。\
+;　毎朝、教室に入るこの瞬間、@自覚してはいけないのだけれど、私は優越感に包まれるのだ。\
+`　From the moment I step through that classroom door, `@`although I might not be aware of it, every morning I'm enveloped with a sense of superiority.`\
 
-「おはよう、みどり。」@
+;「おはよう、みどり。」@
+`"Good morning Midori."`@
 
 mld c,MID_def3,80
 
-「おはよう。」\
+;「おはよう。」\
+`"Good morning."`\
 
-「おはよう、みどり姫っ。」@
+;「おはよう、みどり姫っ。」@
+`"Good morning, Princess Midori~"`@
 
 mld c,MID_def1,80
 
-「おはよう。@くす、姫はやめてね。」@
+;「おはよう。@くす、姫はやめてね。」@
+`"Good morning. `@`Hehe, stop with the 'princess' alright?"`@
 br
-　でも、みんなは私のことを敬愛を込めて“姫”と呼ぶ。\
+;　でも、みんなは私のことを敬愛を込めて“姫”と呼ぶ。\
+`　Everyone lovingly refers to me as 'Princess.'`\
 
-　そう呼ばれると、みんなとは身分が違うみたいな気持ちになって、@ちょっぴりの疎外感を覚えてしまう。@
+;　そう呼ばれると、みんなとは身分が違うみたいな気持ちになって、@ちょっぴりの疎外感を覚えてしまう。@
+`　When they call me that, it makes me feel different than the rest, `@`and just a tad alienated.`@
 br
-　でも、みんなが温かにそう呼んでくれるのは、決して悪い気持ちのするものではない。@だから、恥ずかしがりながらも、その呼び名を受け入れている。\
+;　でも、みんなが温かにそう呼んでくれるのは、決して悪い気持ちのするものではない。@だから、恥ずかしがりながらも、その呼び名を受け入れている。\
+`　But it's not like anyone has any ill will in warmly referring to me as that. `@`So even though it's a bit embarassing to admit it, I'm starting to accept being called that.`\
 
 bg black,22
 
-　彼女の名は楠木みどり（くすのき　みどり）。@
+;　彼女の名は楠木みどり（くすのき　みどり）。@
+`　This girl's name is Kusunoki Midori　（楠木みどり）.`@
 br
-　クラスメートたちが姫の愛称で呼んで敬愛する、このクラスのお姫様だった。\
+;　クラスメートたちが姫の愛称で呼んで敬愛する、このクラスのお姫様だった。\
+`　Her classmates have lovingly given her the pet name princess. She was the princess of this class.`\
 
 mcl c,0
 bg black,22
 bg kyou_02,22
 
-「おはよう、姫。」@
+;「おはよう、姫。」@
+`"Good morning princess."`@
 br
-　隣の席のサキエが挨拶をしてくる。@何気なく声を掛けたつもりだろうが、その声は少し緊張しているようだ。\
+;　隣の席のサキエが挨拶をしてくる。@何気なく声を掛けたつもりだろうが、その声は少し緊張しているようだ。\
+`　Sakie from the seat next to me was greeting me. `@`She might have intended to express a calm voice, but her voice seemed a bit nervous.`\
 
 ld r,MID_Def1,24
 
-「あぁ、おはよう。サキエ。」@
+;「あぁ、おはよう。サキエ。」@
+`"Oh, good morning Sakie."`@
 br
-　名前を呼ばれ、サキエの顔がパッと明るくなる。@
-　私は気さくに接しているつもりだけれど、友人たちは少し畏まり過ぎているのだ。\
+;　名前を呼ばれ、サキエの顔がパッと明るくなる。@
+`　After I called her name, Sakie's face suddenly brightened up.`@
+;　私は気さくに接しているつもりだけれど、友人たちは少し畏まり過ぎているのだ。\
+`　I intended to be really casual, but my friends were being far too humble.`\
 
-「今朝も素敵なお洋服ね。@みどりって本当にセンスいいっ。」@
+;「今朝も素敵なお洋服ね。@みどりって本当にセンスいいっ。」@
+`"I see you have a lovely dress this morning as well. `@`Midori, you have some real fashion sense."`@
 
 ld r,MID_Def5,80
 
-「くす、ありがとう。@ママにおねだりして、やっと買ってもらったお気に入りなの。@……良かったら、今度、譲ってあげるね。」\
+;「くす、ありがとう。@ママにおねだりして、やっと買ってもらったお気に入りなの。@……良かったら、今度、譲ってあげるね。」\
+`"Hehe, thank you. `@`I begged mom for it. When she bought it for me it became my favorite. `@`...If you want, I'll let you have it next time."`\
 
-「ほ、本当っ？@　う、嬉しいけど、わ、悪いよっ。」@
+;「ほ、本当っ？@　う、嬉しいけど、わ、悪いよっ。」@
+`"R- Really~? `@`I- I'd be happy but... I- I can't do that."`@
 
 ld r,MID_Def3,80
 
-「うぅん。@素敵って褒めてくれたサキエに着てもらったら、この服もきっと喜ぶと思うよ。」\
+;「うぅん。@素敵って褒めてくれたサキエに着てもらったら、この服もきっと喜ぶと思うよ。」\
+`"No no. `@`I think even this dress that you complimented as 'lovely' would be happy if I let you wear it, Sakie."`\
 
-「ち、違うのっ。@それは姫が着てるからこそ素敵なんだよっ。@私なんかが着ても、ダメダメダメ…！！」\
+;「ち、違うのっ。@それは姫が着てるからこそ素敵なんだよっ。@私なんかが着ても、ダメダメダメ…！！」\
+`"T- That's not it~. `@`It's lovely because a princess is wearing it~! `@`For someone like me to wear something like that... I can't do it, I can't~!!"`\
 
 bg black,22
 
-　サキエは慌てて固辞する。@
+;　サキエは慌てて固辞する。@
+`　Sakie politely and nervously declines.`@ 
 br
-　みどりは裕福な家の子だった。@だから、綺麗なお洋服などたくさん持っているのだ。@
+;　みどりは裕福な家の子だった。@だから、綺麗なお洋服などたくさん持っているのだ。@
+`　Midori was a child from a wealthy household. `@`So she had lots of beautiful Western-style dresses.`@
 br
-　しかし、姫のお召し物をもらえるなんて、とても嬉しいことだけれど、逆に畏れ多くて。@サキエにはとてももらえない。\
+;　しかし、姫のお召し物をもらえるなんて、とても嬉しいことだけれど、逆に畏れ多くて。@サキエにはとてももらえない。\
+`　Although receiving the princess' clothes and the like might have made Sakie really happy, but it also filled her with anxiety. `@`Sakie really couldn't take her clothes.`\
 
 bg kyou_01,22
 ld c,MID_Def1,24
 
-「長袖だと今の季節にはもう暑いかな。@……私は肌がすぐ焼けちゃうから、夏でも長袖じゃないと駄目なんだけどね。」\
+;「長袖だと今の季節にはもう暑いかな。@……私は肌がすぐ焼けちゃうから、夏でも長袖じゃないと駄目なんだけどね。」\
+`"Maybe these long sleeves are a bit too long for this season. `@`...But even in the summer I have to wear long sleeves or else my skin will get sunburned real quick."`\
 
-「みどり姫の白磁の肌は、袖で大切に守らなくちゃねっ。」@
+;「みどり姫の白磁の肌は、袖で大切に守らなくちゃねっ。」@
+`"With your procelein white skin, you have to be keep those sleeves in mind Princess Midori."`@
 
 ld c,MID_Def5,80
 
-「ありがとう。@でも、サキエの肌だって綺麗だよ。」\
+;「ありがとう。@でも、サキエの肌だって綺麗だよ。」\
+`"Thank you. `@`But Sakie, your skin is also fair."`\
 
-「そ、そんなっ。@ご謙遜をご謙遜をッ。@……あ、あーそのッ、こ、国語の宿題、やって来た？！」@
+;「そ、そんなっ。@ご謙遜をご謙遜をッ。@……あ、あーそのッ、こ、国語の宿題、やって来た？！」@
+`"N- No way. `@`You're too nice, too nice~ `@`...Um, Ohh. Did you do your Japanese homework?!"`@
 br
-　みどりに肌を綺麗だと褒められてよほど浮かれたのか、サキエは真っ赤になって慌てる。@そして何の脈絡もなく、国語の宿題の話を切り出してしまった。\
+;　みどりに肌を綺麗だと褒められてよほど浮かれたのか、サキエは真っ赤になって慌てる。@そして何の脈絡もなく、国語の宿題の話を切り出してしまった。\
+`　It might have been because Midori had complimented how fair her skin was, and so Sakie turned bright red. `@`And so without any rhyme or reason, she changed the topic to Japanese homework.`\
 
 bg black,22
 bg kyou_03,22
 
 ;ld c,MID_Def1,24
 
-「……国語の宿題？@　……いけない。@あれって今日までだったのね…。@昨夜は遅くまで台詞を覚えていたから、すっかり忘れてしまってて……。」\
+;「……国語の宿題？@　……いけない。@あれって今日までだったのね…。@昨夜は遅くまで台詞を覚えていたから、すっかり忘れてしまってて……。」\
+`"...Japanese homework? `@`...Oh no. `@`That was due today...? `@`I was memorizing my lines late last night, so I completely forgot about the homework..."`\
 
-「あ！@　じゃあ、良かったら私の写して！」@
+;「あ！@　じゃあ、良かったら私の写して！」@
+`"Ah! `@`Then if you'd like, you can copy mine!"`@
 
 ;ld c,MID_Def1,80
 
-「いいの？」\
+;「いいの？」\
+`"Can I?"`\
 
-「姫は演劇の台詞覚えたりで大変なんだしっ。@お隣なんだからこれくらいさせてよっ。」@
+;「姫は演劇の台詞覚えたりで大変なんだしっ。@お隣なんだからこれくらいさせてよっ。」@
+`"It must be hard for you to memorize those stage lines. `@`I'll let you copy it 'cause it's the neighborly thing to do ."`@
 br
-　サキエは自分のノートを開いて、まるで賞状授与みたいに畏まって差し出す。\
+;　サキエは自分のノートを開いて、まるで賞状授与みたいに畏まって差し出す。\
+`　Sakie opened her own notebook, and then she respectfully handed it over as if it was a diploma.`\ 
 
 bg kyou_02,0
 ld l,MID_Def5,22
 ld l,MID_Def3,80
 
-「ありがとう。@……私、サキエが友達でいてくれて本当に嬉しいよ。」@
-「……そっ、そんな！@　お、ぉ、大袈裟だよっ、このくらいで…！！」\
+;「ありがとう。@……私、サキエが友達でいてくれて本当に嬉しいよ。」@
+`"Thank you. `@`...I'm really happy we're friends, Sakie."`@
+;「……そっ、そんな！@　お、ぉ、大袈裟だよっ、このくらいで…！！」\
+`"...O- Oh no! `@`T- This is all t- too much~!!"`\
 
-　サキエは耳まで真っ赤にして照れ笑いする。@
+;　サキエは耳まで真っ赤にして照れ笑いする。@
+`　Even Sakie's ears turned bright red as she grinned in embarassment.`@
 br
-　みどり姫に“友達”と呼んでもらえるほどの名誉は、このクラスには存在しないのだから。\
+;　みどり姫に“友達”と呼んでもらえるほどの名誉は、このクラスには存在しないのだから。\
+`　After all, no one in this class had the honor of being called Princess Midori's 'friend.'
 
 se1v 82,100
 
 bg white,24
 bg kyou_01,24
 
-「おはよ、みどり！」@
+;「おはよ、みどり！」@
+`"Good morning Midori!"`@
 br
-　遅刻ぎりぎりでやって来たのはフミエだった。@
-　彼女もサキエと同じ、みどり姫の取り巻きの一人だ。\
+;　遅刻ぎりぎりでやって来たのはフミエだった。@
+`　Fumie finally showed up just before class was about to start.`@
+;　彼女もサキエと同じ、みどり姫の取り巻きの一人だ。\
+`　Just like Sakie, Fumie was also one of Princess Midori's followers.`\
 
-「ねぇねぇ、今月号の『シーキャット』見た？」@
-「うん。すごかったね。@急展開って感じで。」\
+;「ねぇねぇ、今月号の『シーキャット』見た？」@
+`"Hey, did you see this month's issue of 'Sea Cats'?"`@
+;「うん。すごかったね。@急展開って感じで。」\
+`"Yep. It was awesome, right? `@`I felt it was a dramatic development."`\
 
-　『シーキャット』は今、このクラスで人気のある連載漫画だ。@かなりダークな描写があるので、親達や学校には問題視されているが、@クラスの子の大半は隠れて読んでいる。@
+;　『シーキャット』は今、このクラスで人気のある連載漫画だ。@かなりダークな描写があるので、親達や学校には問題視されているが、@クラスの子の大半は隠れて読んでいる。@
+`　`Sea cats` is a popular serial manga in this class. `@`It's pretty dark themes are seen as a bit of a problem by the parents and the school, `@`however the majority of students in this class are secretly reading it.`@
 br
-　もちろんみどりもファンの一人で、毎月号欠かさず雑誌を買っている。\
+;　もちろんみどりもファンの一人で、毎月号欠かさず雑誌を買っている。\
+`　Of course, as one of those fans, Midori doesn't miss an issue and buys it every month.`\
 
-「来月からアニメもスタートだしねっ。@すっごい楽しみ！」@
+;「来月からアニメもスタートだしねっ。@すっごい楽しみ！」@
+`"It seems like there's gonna be an anime starting next month too. `@`I'm soo excited!"`@
 
 ld c,MID_Def1,22
 
-「へぇ、本当なの？@　知らなかった。」\
+;「へぇ、本当なの？@　知らなかった。」\
+`"Ohh, is that true? `@`I didn't know."`\
 
-「えーッ、みどり、知らなかったのー？！」@
+;「えーッ、みどり、知らなかったのー？！」@
+`"Whaaat? Midori, you didn't know~?!"`@
 br
-　フミエは素っ頓狂な声をあげて、驚き喜ぶ。\
+;　フミエは素っ頓狂な声をあげて、驚き喜ぶ。\
+`　Fumie shouted hysterically in astonishment and delight.`\
 
-　喜ぶ、とは、みどり姫に初耳の情報を提供できたことを喜んでいるのだ。@
+;　喜ぶ、とは、みどり姫に初耳の情報を提供できたことを喜んでいるのだ。@
+`　That delight was in regards that she had new gossip to offer Princess Midori.`@
 br
-　でも、これは実はみどりのサービス。@
-　本当はアニメ化されることはもう、本で読んで知ってる。@初耳を装ってあげたら、フミエが喜んでくれるかなと思って、そう言ったのだ。\
+;　でも、これは実はみどりのサービス。@
+`　But this was a service from Midori.`@
+;　本当はアニメ化されることはもう、本で読んで知ってる。@初耳を装ってあげたら、フミエが喜んでくれるかなと思って、そう言ったのだ。\
+`　Truthfully she had already read that an anime version was being made. `@`By pretending that she hadn't heard about it before, she was letting Fumie feel happy.`\
 
-　彼女も、ただちやほやされてるわけではない。@自分に好意を寄せてくれる人たちに、少しでも喜んでもらおうと、@ささやかな気遣いを忘れないようにしている。\
+;　彼女も、ただちやほやされてるわけではない。@自分に好意を寄せてくれる人たちに、少しでも喜んでもらおうと、@ささやかな気遣いを忘れないようにしている。\
+`　(?) It wasn't as if she was just be favored by them. `@`By spreading a bit of good will to those around her, `@`she was being modestly considerate of others.`\
 
-　フミエは嬉しそうに、聞いてもないアニメ化情報を次々に説明し出す。@
+;　フミエは嬉しそうに、聞いてもないアニメ化情報を次々に説明し出す。@
+`　Fumie was happily giving explaination after explaination about the anime version they hadn't heard about.`@
 br
-　主要キャラクターの声優から、制作会社がどこだの、監督は誰だの。@……みどりにそれを話せるのが、よほど嬉しいか光栄なのだろう。\
+;　主要キャラクターの声優から、制作会社がどこだの、監督は誰だの。@……みどりにそれを話せるのが、よほど嬉しいか光栄なのだろう。\
+`　From who the main character voice actors were, to what studio was in charge of it, and who was directing it. `@`...Fumie might have been happy - perhaps even honored to talk to Midori like that.`\
 
 ld c,MID_Def5,80
 
-「ふうん、すごいね。@……でも、演劇部のお稽古が始まっちゃったら、@毎週見るのは難しいかもしれないな…。」\
+;「ふうん、すごいね。@……でも、演劇部のお稽古が始まっちゃったら、@毎週見るのは難しいかもしれないな…。」\
+`"Hmmm, that's neat. `@`...But since it starts after drama club practice, `@`watching it every week would be hard to do...`"\
 
-「放送されるの結構遅い時間みたいだよ？@　あ、でも、もし見れない時は言ってね！@　私、録画しといてあげるから！」@
+;「放送されるの結構遅い時間みたいだよ？@　あ、でも、もし見れない時は言ってね！@　私、録画しといてあげるから！」@
+`"It's on pretty late at night isn't it? `@`Oh, but just say if you can't watch it okay?! `@`I'll... record it for you!"`@
 
 ld c,MID_Def3,80
 
-「ありがとう、フミエ。@あなたがお友達で、本当に嬉しいよ。」\
+;「ありがとう、フミエ。@あなたがお友達で、本当に嬉しいよ。」\
+`"Thank you Fumie. `@`I'm truly happy you're my friend."`\
 
-「とッ、当然でしょ！！@　と、友達だもんね、あはははははは！！」@
+;「とッ、当然でしょ！！@　と、友達だもんね、あはははははは！！」@
+`"O- Of course!! `@`W- We're friends after all, right? Ahahahahaha!!"`@
 br
-　フミエもまた、サキエと同じように真っ赤になって舞い上がる。@
-　みどりに感謝の言葉をもらえて舞い上がらない子など、このクラスには存在しないのだから。\
+;　フミエもまた、サキエと同じように真っ赤になって舞い上がる。@
+`　Fumie blushed just like Sakie.`@
+;　みどりに感謝の言葉をもらえて舞い上がらない子など、このクラスには存在しないのだから。\
+`　Because no other blushing girl in this class had ever received words of gratitude from Midori.`\
 
-　楠木みどり。@クラス中の女子の誰もが憧れる、姫と呼ばれる少女。@
+;　楠木みどり。@クラス中の女子の誰もが憧れる、姫と呼ばれる少女。@
+`　Kusunoki Midori. `@`The girl called princess who every girl in the class yearned after.`@
 br
-　彼女は何の不足もなく、満ち足りた学校生活を送っていた……。\
+;　彼女は何の不足もなく、満ち足りた学校生活を送っていた……。\
+`　Without any insecurities, she lived a completely satisfying school life...`\
 
 bg black,22
 
@@ -193,11 +259,14 @@ E_B
 
 bg kyou_03,22
 
-「…………ねえ、姫。@あいつ、またこっち見てるよ…。」@
+;「…………ねえ、姫。@あいつ、またこっち見てるよ…。」@
+`"......Hey, Princess. `@`That girl, she's looking over here again..."`@
 br
-　ノートを写させてもらっている私に、サキエが囁く。\
+;　ノートを写させてもらっている私に、サキエが囁く。\
+`　Sakie, who was letting me copy her paper, whispered to me.`\
 
-　あいつって？@　私は、サキエが不愉快に睨む教室後方に目を向ける。\
+;　あいつって？@　私は、サキエが不愉快に睨む教室後方に目を向ける。\
+`　That girl? `@`I followed Sakie's uncomfortably glare towards the back of the classroom.`\
 
 
 
@@ -211,146 +280,204 @@ bg kyou_02,24
 
 bgm1 8
 
-　すると、サキエの言う通り、@川田のぞみがこちらの様子をじっとうかがっているのがわかった。\
+;　すると、サキエの言う通り、@川田のぞみがこちらの様子をじっとうかがっているのがわかった。\
+`　Just as Sakie had said, `@`I noticed Kawada Nozomi was staring over this way.`\
 
-「……マジであの子、嫌な感じだよね。@いっつもジーッと姫のこと見ててさー。」@
-「みどりのこと妬んでんだよ。@前のクラスではあいつも、お姫様気取りだったらしいし。」@
+;「……マジであの子、嫌な感じだよね。@いっつもジーッと姫のこと見ててさー。」@
+`"...Seriously, I have a bad feeling about that girl. `@`She's allllways staring at the princess."`@
+;「みどりのこと妬んでんだよ。@前のクラスではあいつも、お姫様気取りだったらしいし。」@
+`"She's just jealous of Midori. `@`In her last class, it seems she was treated like a princess."`@
 br
-　サキエとフミエは顔をしかめて囁きあう。\
+;　サキエとフミエは顔をしかめて囁きあう。\
+`　Sakie and Fumie scowled and whispered.`\
 
 mbg black,22
 
-　川田のぞみも、裕福な家の子らしい。@
+;　川田のぞみも、裕福な家の子らしい。@
+`　It seemed Kawada Nozomi was also a child of a wealthy household.
 br
-　しかし、みどりとはまったく正反対の扱いを受けていた。\
+;　しかし、みどりとはまったく正反対の扱いを受けていた。\
+`　However she was receiving the exact opposite treatment that Midori was.`\
 
-　のぞみは家が裕福であることを鼻にかけ、威張っていた。@
+;　のぞみは家が裕福であることを鼻にかけ、威張っていた。@
+`　Nozomi took pride in her family's wealth and flaunted it.`@
 br
-　しかしみどりは、威張ったりなどせず、誰にでもやさしかった。\
+;　しかしみどりは、威張ったりなどせず、誰にでもやさしかった。\
+`　But Midori wasn't boastful, and she was kind to everyone.`\
 
-　当然の結果として、みどりは姫と呼ばれて誰からも慕われた。@
+;　当然の結果として、みどりは姫と呼ばれて誰からも慕われた。@
+`　As a natural result, Midori was called princess and adored by everyone.`@
 br
-　そして逆にのぞみは、@今ではクラスの女子のほとんどから無視され、あるいはいじめられている……。\
+;　そして逆にのぞみは、@今ではクラスの女子のほとんどから無視され、あるいはいじめられている……。\
+`　Conversely, `@`now Nozomi was almost completely ignored by the girls in class, or rather was being bullied...`\
 
 mcbg 22
 
-　去年のクラスでは、金持ち自慢で姫と祭り上げられて、ちやほやされていたらしい。@
+;　去年のクラスでは、金持ち自慢で姫と祭り上げられて、ちやほやされていたらしい。@
+`　In last year's class, it seems she was pampered and set up as the pridefully rich princess.`@
 br
-　それが今年は正反対の扱いで、かつて自分が座っていた姫の座にはみどりが座っていて。\
+;　それが今年は正反対の扱いで、かつて自分が座っていた姫の座にはみどりが座っていて。\
+`　This year with the complete opposite treatment, the seat she once occupied as princess now belonged to Midori.`\
 
-　きっと、妬ましくて妬ましくて仕方がないのだ。@
+;　きっと、妬ましくて妬ましくて仕方がないのだ。@
+`　Undoubtedly, she felt jealous and being jealous was all she could do.`@
 br
-　それがありありとわかるから、サキエもフミエも不快そうに睨み返している。\
+;　それがありありとわかるから、サキエもフミエも不快そうに睨み返している。\
+`　Since it was clear to them, Sakie and Fumie returned that sharply unpleasant glare.`\
 
-「自分が姫と呼ばれるかと思ったら、それがみどりだったから面白くないんだよ。」@
-「ふんっ。@みどりとテメーじゃ姫の器が違うってんだよっ。」\
+;「自分が姫と呼ばれるかと思ったら、それがみどりだったから面白くないんだよ。」@
+`"If I thought I was called princess, I wouldn't like it if Midori was called that."`@
+;「ふんっ。@みどりとテメーじゃ姫の器が違うってんだよっ。」\
+`"Yeah~. `@`Midori is a different princess of a different caliber than her though~!"`\
 
-「あいつ、いつまでガンつけてるつもりなわけ？」@
-「本当だよねー。@……みどりも不愉快でしょ。@私、ちょっと言ってこようか？」@
+;「あいつ、いつまでガンつけてるつもりなわけ？」@
+`"Just how long does she intend to keep staring at her?"`@
+;「本当だよねー。@……みどりも不愉快でしょ。@私、ちょっと言ってこようか？」@
+`"I know right~. `@`...Midori is probably uncomfortable too. `@`Perhaps I should go talk to her?"`@
 br
-　フミエが物騒な強面で席をがたりと立ち上がる。@サキエも忠臣ぶりでは負けないとでも言わんばかりに、荒々しく立ち上がる。\
+;　フミエが物騒な強面で席をがたりと立ち上がる。@サキエも忠臣ぶりでは負けないとでも言わんばかりに、荒々しく立ち上がる。\
+`　With a scary look on her face, Fumie stood out of her chair with a crack. `@`As if wordlessly implying she wouldn't lose to her as Midori's loyal retainer, Sakie stood up hurriedly as well.`\
 
 ld r,MID_Def2,22
 
-「やめてよ、二人とも……。」@
+;「やめてよ、二人とも……。」@
+`"Stop it, the both of you..."`@
 br
-　のぞみは毎日、クラスの誰かから、酷い言葉を掛けられたり、あるいは酷い悪戯をされたりしている。\
+;　のぞみは毎日、クラスの誰かから、酷い言葉を掛けられたり、あるいは酷い悪戯をされたりしている。\
+`　Every day someone in class said terrible things about Nozomi or played terrible pranks on her.`\
 
-　今日だって、誰からどんないじめを受けるか、わかったものではない。@
-　みどりは、こんな朝から、さっそくいじめられるところを見たくはなかった……。\
+;　今日だって、誰からどんないじめを受けるか、わかったものではない。@
+`　Who knows what kind of abuse she's suffered today alone.`@
+;　みどりは、こんな朝から、さっそくいじめられるところを見たくはなかった……。\
+`　On this kind of morning, Midori didn't want to immediately look at the bullying taking place...`\
 
 
-　サキエとフミエは、一触即発の緊張感でのぞみを睨みつけている。\
+;　サキエとフミエは、一触即発の緊張感でのぞみを睨みつけている。\
+`　Sakie and Fumie were staring at Nozomi with an explosive tension.`\
 
 quakey 2,200
 
 mbg black,22
 
-「………あんた、さっきから誰にガンつけてんのよ。」@
-「文句あんなら言いなさいよっ。@聞いてんのッ？！」@
+;「………あんた、さっきから誰にガンつけてんのよ。」@
+`"...Hey you, just who do you think you're staring at anyway?"`@
+;「文句あんなら言いなさいよっ。@聞いてんのッ？！」@
+`"If you've got a problem, then say it~! `@`I'm listening?!"`@
 br
-「…………………………。」\
+;「…………………………。」\
+`"............"`\
 
-　一言でものぞみが言い返したら、それをきっかけに“キレる”つもりなのだろう。@
-　それがわかってるから、のぞみも一言も言い返さない。@……いや、言い返せない。\
+;　一言でものぞみが言い返したら、それをきっかけに“キレる”つもりなのだろう。@
+`　If Nozomi replied back with a single word, they might use that as an excuse to 'end it.'`@
+;　それがわかってるから、のぞみも一言も言い返さない。@……いや、言い返せない。\
+`　Even though Nozomi understood that, she didn't reply with a single word. `@`...No, she didn't reply at all.`\
 
 mcbg 22
 
 ld r,MID_K2,80
 
-「やめてっ、二人とも…！！」@
+;「やめてっ、二人とも…！！」@
+`"Stop it, the both of you!!"`@
 br
-　みどりは、少しだけ大きい声で言った。@
-　敬愛する姫の大声に、忠臣たちは飛び上がって驚く。\
+;　みどりは、少しだけ大きい声で言った。@
+`　Midori shouted a bit when she spoke.`@
+;　敬愛する姫の大声に、忠臣たちは飛び上がって驚く。\
+`　Her loyal subjects jumped with surprise at the loud voice of their beloved princess.`\
 
 ld r,MID_Def2,80
 
-「……朝からいじめなんて、見たくないの。@……だからやめて。@……ね？」\
+;「……朝からいじめなんて、見たくないの。@……だからやめて。@……ね？」\
+`"...I don't want to see bullying this morning. `@`...So stop it. `@`...Alright?"`\
 
-「姫………。」@
-「……ちっ。@川田ぁ、次、ガンつけたら容赦しねーからなっ。」@
+;「姫………。」@
+`"Princess..."`@
+;「……ちっ。@川田ぁ、次、ガンつけたら容赦しねーからなっ。」@
+`"...Tch. `@`Kawada, next time if you stare at her there'll be no mercy alright."`@
 br
-　とりあえず、この場は収まってくれた。@
-　しかし、川田のぞみがクラス中から嫌われているいじめられっこであることに、代わりはない。\
+;　とりあえず、この場は収まってくれた。@
+`　At least for now they've settled down.`@
+;　しかし、川田のぞみがクラス中から嫌われているいじめられっこであることに、代わりはない。\
+`　But it doesn't change the fact that Kawada Nozomi is still hated and bullied during class.`\
 
 bg black,22
 bg kyou_03,22
 
-　みどりが、いじめを見たくないと言ったから、@クラスメートたちは少なくとも、みどりの前だけでは、いじめをしないだろう。@
+;　みどりが、いじめを見たくないと言ったから、@クラスメートたちは少なくとも、みどりの前だけでは、いじめをしないだろう。@
+`　After hearing Midori say she didn't want to see any bullying, `@`for a little while, her classmates didn't do any bullying, at least not in front of her.`@
 br
-　もちろんそれは、いじめがなくなるという意味ではない。\
+;　もちろんそれは、いじめがなくなるという意味ではない。\
+`　Of course that doesn't mean the bullying stopped.`\
 
 bg black,22
 
-　みどりは、のぞみを救ってやれないことを、気の毒にも思う。@……庇ってあげるべきなのではと思うこともある。@
+;　みどりは、のぞみを救ってやれないことを、気の毒にも思う。@……庇ってあげるべきなのではと思うこともある。@
+`　Midori thought it was pitiful that she couldn't save Nozomi. `@`...She also thought she should stand up for her.`@
 br
-　しかし実際、川田のぞみは高慢で、自分の家の方が裕福であることを威張っている。@今でも、口を開くことを許されるなら、それを自慢して、みどりを見下したいのだ。\
+;　しかし実際、川田のぞみは高慢で、自分の家の方が裕福であることを威張っている。@今でも、口を開くことを許されるなら、それを自慢して、みどりを見下したいのだ。\
+`　But in reality, Kawada Nozomi was arrogant and took pride in her family's wealth. `@`Even now if they let her speak up, in her pride she wanted to look down on Midori.`\
 
 bg kyou_01,0
 ld r,MID_K1,22
 
-　……みどりも、世の中の不条理は理解している。@
+;　……みどりも、世の中の不条理は理解している。@
+`　...Even Midori realized the irrationality of this world.`@
 br
-　どんなに親しく接しようとしても、世の中には仲良くなれない人間もいる。@……それが、川田のぞみなのだ。\
+;　どんなに親しく接しようとしても、世の中には仲良くなれない人間もいる。@……それが、川田のぞみなのだ。\
+`　That no matter how friendly you are to them, there are people in this world you cannot get along with. `@`...And one of them was Kawada Nozomi.`\
 
-　だから、彼女へのいじめは、……辛いけれど、見て見ぬふりをするしかない。@
+;　だから、彼女へのいじめは、……辛いけれど、見て見ぬふりをするしかない。@
+`　Because the bullying against her ...might have been cruel, but all she could do was see it or pretend not to see it.`@
 br
-　彼女だって、みどりにだけは庇われたくないと思っているのだから……。\
+;　彼女だって、みどりにだけは庇われたくないと思っているのだから……。\
+`　Because after all, Midori thought that if Nozomi wanted protection, she didn't want to be protected by her...`\
 
 bg black,22
 
-　ごめんね……。@みどりは心の中で謝る。@
+;　ごめんね……。@みどりは心の中で謝る。@
+`　I'm sorry... `@`Midori apologized from her heart.`@
 br
-　でも、………こんなこと言ったら気の毒だけれど。@
-　私だって、みんなに好かれたくて、色々とがんばったり、気遣ったりしてることがあるんだよ。\
+;　でも、………こんなこと言ったら気の毒だけれど。@
+`　But, ...If I were to say that, it would be pitiful and yet...`@
+;　私だって、みんなに好かれたくて、色々とがんばったり、気遣ったりしてることがあるんだよ。\
+`　After all, everyone likes me, supports me with a lot, and is concerned for me.`\
 
-　川田さんだってそれをすればいいのに、……どうしてしないの？@
-　家が裕福だって自慢したって、誰もいい顔をしないのに……。@
+;　川田さんだってそれをすればいいのに、……どうしてしないの？@
+`　Kawada-san would be fine if only she would too ...but why doesn't she?`@
+;　家が裕福だって自慢したって、誰もいい顔をしないのに……。@
+`　She brags about her family's wealth, even though no one would be sympathetic...`@
 br
-　去年のクラスでは、それをちやほやしてもらえたかもしれないけれど、@……誰もがお金持ち自慢を持て囃してくれるわけじゃない。\
+;　去年のクラスでは、それをちやほやしてもらえたかもしれないけれど、@……誰もがお金持ち自慢を持て囃してくれるわけじゃない。\
+`　Last years class might have spoiler her by letting her get away with that, `@`...however, it's not like anyone will praise someone for having pride in being a rich person.`\
 
 bg kyou_03,22
 
 me1v 24,50
 
-　……いじめられてるのは気の毒に思う。@
+;　……いじめられてるのは気の毒に思う。@
+`　...I think being picked on is unfortunate.`@
 br
-　でも、……どうして自分がいじめられているのか、@……早くそれを受け入れて、……自分を直せるといいね。\
+;　でも、……どうして自分がいじめられているのか、@……早くそれを受け入れて、……自分を直せるといいね。\
+`　But, ...the sooner she realizes why she's being picked on, `@`...the sooner she can fix that problem herself.`\
 
-　ここまで彼女がクラス中に目の仇にされてしまっている以上、それは簡単なことではないだろう。@
+;　ここまで彼女がクラス中に目の仇にされてしまっている以上、それは簡単なことではないだろう。@
+`　Aside from staring at me in class until now, this isn't really a simple matter.`@
 br
-　でも、……お金持ち自慢の傲慢をやめて、……少しずつ、みんなへの接し方を変えて。@……心を少しずつ入れ替えていけば、……友達も、作れるんじゃないかな。\
+;　でも、……お金持ち自慢の傲慢をやめて、……少しずつ、みんなへの接し方を変えて。@……心を少しずつ入れ替えていけば、……友達も、作れるんじゃないかな。\
+`　However, ...if she stopped bragging about being rich, ...then over time, everyone's attitude towards her would change. `@`...And if they slowly change their minds, ...she might even be able to make some friends.`\
 
 bg black,22
 
-　そうしたらきっといつか、……いじめられっこじゃなくなると思う。@
+;　そうしたらきっといつか、……いじめられっこじゃなくなると思う。@
+`　If she did that, then someday ...I think she might stop being bullied.`@
 br
-　そしたらその時。@……私とも、友達になろうね。\
+;　そしたらその時。@……私とも、友達になろうね。\
+`　If she did that, `@`...then she might even become my friend.`\
 
 bg kyou_01,0
 ld c,MID_Def2,22
 
-　その思いが、……のぞみに届いたと信じて。@みどりは再びノートに目線を戻し、宿題の写しに勤しんだ。\
+;　その思いが、……のぞみに届いたと信じて。@みどりは再びノートに目線を戻し、宿題の写しに勤しんだ。\
+`　I believed... that thought reached Nozomi. `@`Once again I turned my gaze back to Midori's paper, and worked to copy her homework.`\
 
 
 
@@ -366,43 +493,56 @@ mbg "BMP\background\efe\red1.bmp",1
 mcbg 0
 ld c,MID_K2,22
 
-「……………痛ッ！@　……………。」\
+;「……………痛ッ！@　……………。」\
+`"......Ow~! `@`........."`\
 
 me1v 24,50
 
-　みどりは唐突な腕の痛みに顔をしかめる。@
+;　みどりは唐突な腕の痛みに顔をしかめる。@
+`　Midori grimaced as she felt a sudden pain on her arm.`@
 br
-　骨が痛んだとか、古傷が疼いたとか、そんな痛みではない。@
-　もっとはっきりとした、……例えるなら、透明人間に腕を叩かれでもしたかのような痛みだった。\
+;　骨が痛んだとか、古傷が疼いたとか、そんな痛みではない。@
+`　It wasn't a pain from a bone or the throbbing of an old wound or anything like that.`@
+;　もっとはっきりとした、……例えるなら、透明人間に腕を叩かれでもしたかのような痛みだった。\
+`　It was more direct, ...it was a pain as if an invisible man had struck her across the arm.`\
 
 bg black,24
 bg kyou_02,24
 
-　何事と思い、周りを見回すのだが、何事もない教室の光景が広がっているだけだ。@
+;　何事と思い、周りを見回すのだが、何事もない教室の光景が広がっているだけだ。@
+`　Wondering what happened, I looked around the room, but all that spread out before me was the scenery of an uneventful classroom.`@
 br
-　サキエもフミエも談笑している。@……誰かが私を叩きに来て、それに二人が気付かないわけはない。\
+;　サキエもフミエも談笑している。@……誰かが私を叩きに来て、それに二人が気付かないわけはない。\
+`　Sakie and Fumie were both having a friendly conversation. `@`...It's not possible for someone to just come by and hit me without those two noticing it.`\
 
 bg black,23
 bg kyou_01,0
 ld c,MID_K1,23
 
-　……それ以前に。@私はここでこうしてノートを取っているのだ。@その私に気取られずに、誰が私の腕を叩けると言うのだろう。@
+;　……それ以前に。@私はここでこうしてノートを取っているのだ。@その私に気取られずに、誰が私の腕を叩けると言うのだろう。@
+`　...Before that, `@`I was just finishing up my homework here like this. `@`Does that mean without them noticing me someone was able to hit my arm?`@
 br
-　何か物が飛んできてぶつかったのかとも考えたが、そういう感触ではなかったし、@第一、飛んできたらしき物体はどこにも転がっていなかった。\
+;　何か物が飛んできてぶつかったのかとも考えたが、そういう感触ではなかったし、@第一、飛んできたらしき物体はどこにも転がっていなかった。\
+`　I thought maybe something had flown and hit me, but it didn't really feel like that. `@`First of all, if something did, there was nothing rolling around to indicate that.`\
 
-「……どうしたの？」@
-「………大丈夫、みどり？」@
+;「……どうしたの？」@
+`"...What's wrong?"`@
+;「………大丈夫、みどり？」@
+`"...Are you alright, Midori?"`@
 br
-　私の様子に気付き、フミエとサキエが心配そうに覗き込んでいる。\
+;　私の様子に気付き、フミエとサキエが心配そうに覗き込んでいる。\
+`　When they took notice of me, Fumie and Sakie were looking at me with concern.`\
 
 ld c,MID_Def2,80
 
-「……うん、大丈夫。@何でもないよ……。」@
+;「……うん、大丈夫。@何でもないよ……。」@
+`"...Yeah, I'm fine. `@`It's nothing..."`@
 
 se1 69
 
 br
-　チャイムが鳴って、サキエとフミエがそれぞれ授業の準備にとりかかると、@私はもう一度自分の腕を見てみた。@やはり何もない。\
+;　チャイムが鳴って、サキエとフミエがそれぞれ授業の準備にとりかかると、@私はもう一度自分の腕を見てみた。@やはり何もない。\
+`　The bell sounded. Sakie and Fumie each started getting ready for class, `@`and I tried looked at my arm again. `@`It must have been nothing.`\
 
 bg black,22
 
@@ -423,25 +563,34 @@ bg kyou_03,22
 
 bgm1 14
 
-　実は、……これが初めてではない。@最近たまにこういうことが起こる。@
+;　実は、……これが初めてではない。@最近たまにこういうことが起こる。@
+`　The truth is ...this isn't the first time. `@`Lately every once in a while something like this has been happening.`@
 br
-　突然、身体のどこかに痛みを感じるのだ。\
+;　突然、身体のどこかに痛みを感じるのだ。\
+`　Suddenly, I'll feel a pain somewhere in my body.`\
 
-　それは、何かが触った程度にしか感じない時もあれば、@その場にうずくまってしまう程の激痛であることもある。@
+;　それは、何かが触った程度にしか感じない時もあれば、@その場にうずくまってしまう程の激痛であることもある。@
+`　There are times when I feel that something had to have touched me, `@`and during those times I've also felt a pain that sends me cowering.`@
 br
-　そしてその箇所も、今のように腕であったりお腹であったり背中であったり、一定ではない。\
+;　そしてその箇所も、今のように腕であったりお腹であったり背中であったり、一定ではない。\
+`　And like at that point too, like now I'd feel it in my arm, in my stomach, in my back -- it's not a specific place.`\
 
-　……最初の頃は、気のせいか何かだろうと考えていた。@
+;　……最初の頃は、気のせいか何かだろうと考えていた。@
+`　...From the beginning, I've thought about whether it's my imagination or something.`@
 br
-　しかし、最近、この不思議な痛みを感じる機会が増えた気がする。\
+;　しかし、最近、この不思議な痛みを感じる機会が増えた気がする。\
+`　But lately I feel those chance moments when I feel those mysterious pains are on the rise.`\
 
 mbg black,22
 
-　ひょっとするとこれは、……何か、とても悪い病気なのではないだろうか…？@
+;　ひょっとするとこれは、……何か、とても悪い病気なのではないだろうか…？@
+`　Perhaps this could be ...I don't know... some kind of really bad illness...?`@
 br
-　あまりに酷いようなら、両親に打ち明けて、ちゃんと病院で見てもらった方がいいのかもしれない。\
+;　あまりに酷いようなら、両親に打ち明けて、ちゃんと病院で見てもらった方がいいのかもしれない。\
+`　If it's so severe, I'll be honest with my parents, and if they think I should, they'll certainly take me to get looked at in the hospital.`\
 
-　……紅茶紳士さん。@……これって、何かの病気なの…？\
+;　……紅茶紳士さん。@……これって、何かの病気なの…？\
+`　...Mr. Earl Grey. `@`...Just... what kind of sickness is this...?`\
 
 fede 0,1000
 E_B
@@ -452,13 +601,17 @@ se1v 56,50
 mbg white,8
 mcbg 22
 
-　私が心の中でそう呟くと、@/
+;　私が心の中でそう呟くと、@/
+`　When I muttered that in my own mind, `@/
 me1v 28,70
-……………宙に浮くティーカップが現れる。@
+;……………宙に浮くティーカップが現れる。@
+`......a teacup appeared flying through the air.`@
 br
-　そして、宙に浮くティーポットも現れ、@………ティーカップになみなみと紅茶を注ぎ入れた。\
+;　そして、宙に浮くティーポットも現れ、@………ティーカップになみなみと紅茶を注ぎ入れた。\
+`　And then a teapot appeared floating in the air, `@`...and it poured ordinary black tea into the teacup.`\
 
-　そして、カップを持ち優雅に口にする男の姿が、ゆっくりと現れる……。\
+;　そして、カップを持ち優雅に口にする男の姿が、ゆっくりと現れる……。\
+`　And then a figure of an elegent man taking a cup elgently to his lips slowly appeared...`\
 
 bg black,22
 fede 10,1000
@@ -468,52 +621,66 @@ ld c,SIN_Def1,22
 
 bgm1 18
 
-　この不思議な男の人を、私は紅茶紳士さんと呼んでいる。@……いつも現れる時、紅茶を飲んでいるからだ。\
+;　この不思議な男の人を、私は紅茶紳士さんと呼んでいる。@……いつも現れる時、紅茶を飲んでいるからだ。\
+`　I call this mysterious man Mr. Earl Grey. `@`...Because whenever he appears, he's always drinking black tea.`\
 
-　みんなが談笑する教室の中で、@おかしなアレンジをしたタキシード風の格好で、立ったまま紅茶を嗜む謎の紳士。@
+;　みんなが談笑する教室の中で、@おかしなアレンジをしたタキシード風の格好で、立ったまま紅茶を嗜む謎の紳士。@
+`　In the middle of the classroom filled with idle chatter, `@`in a strangely arranged tuxedo outfit, he was a strange gentleman standing and tasting his tea.`@
 br
-　無論、その姿は私以外の誰にも見えていない。\
+;　無論、その姿は私以外の誰にも見えていない。\
+`　Of course, I was the only one who could see him.`\
 
 cl c,0
 ld r,SIN_Def3,23
 
-「今朝もアッサムがとても良い香りですねぇ。@………おや。@どうなさいましたかな？」@
+;「今朝もアッサムがとても良い香りですねぇ。@………おや。@どうなさいましたかな？」@
+`"This Assam tea smells wonderful this morning wouldn't you say? `@`...Oh my. `@`Whatever is the matter?"`@
 
 ld l,MID_K1,22
 
-「……最近、突然、体が痛むことがあるの。」\
+;「……最近、突然、体が痛むことがあるの。」\
+`"...Lately I've been getting these sudden pains."`\
 
 ld r,SIN_Def1,80
 
-「おや。@それはお稽古に差し支えるほどのものですかな？」@
+;「おや。@それはお稽古に差し支えるほどのものですかな？」@
+`"Oh my. `@`Do you think it's bad enough that it's going to interfere with your practice?"`@
 
 ld l,MID_Def2a,80
 
-「……それほどではないけれど…。@……でも、いつも突然でびっくりするし…。@何だか薄気味悪いし……。」\
+;「……それほどではないけれど…。@……でも、いつも突然でびっくりするし…。@何だか薄気味悪いし……。」\
+`"...It's not that bad but... `@`...It always suddenly frightens me and... `@`There's something weird about it..."`\
 
 ld r,SIN_Def2,80
 
-「ならば、気にしないことです。」@
+;「ならば、気にしないことです。」@
+`"Well, then it's nothing to worry about."`@
 br
-　紅茶紳士は、あっけらかんとそう言う。\
+;　紅茶紳士は、あっけらかんとそう言う。\
+`　Earl Grey said indifferently.`\
 
 ld l,MID_K1,80
 
-「……気にしなくて、いいの…？」\
+;「……気にしなくて、いいの…？」\
+`"...Is it alright... not to worry about it...?"`\
 
 ld r,SIN_Def1,80
 
-「はい。@……それに、そんなことを気にしている場合ではないのではありませんか？@　今度のお芝居は、とても重要な役ではありませんか。」\
+;「はい。@……それに、そんなことを気にしている場合ではないのではありませんか？@　今度のお芝居は、とても重要な役ではありませんか。」\
+`"Yes. `@`...Anyway, now isn't really the time to be worrying about that is it? `@`Don't you have an extremely important role in this upcoming play?"`\
 
 ld l,MID_Def2,80
 
-「はい…。@……台詞も、すごく多くて覚えるのも大変です。」\
+;「はい…。@……台詞も、すごく多くて覚えるのも大変です。」\
+`"Yes... `@`...And I have so many lines to remember, it's quite difficult."`\
 
 ld r,SIN_Def4,80
 
-「今はそれに集中すべき時期ではありませんか？@　他のことに気を取られるのは、集中力を削がれている証拠だと思いますがねぇ。」@
+;「今はそれに集中すべき時期ではありませんか？@　他のことに気を取られるのは、集中力を削がれている証拠だと思いますがねぇ。」@
+`"Then shouldn't you focus your time on that? `@`I think worrying about other things just shows you're losing your focus, wouldn't you say~?"`@
 br
-　それを言われると、言い返せない。\
+;　それを言われると、言い返せない。\
+`　When he said that, I didn't respond.`\
 
 bg black,22
 
