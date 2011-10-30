@@ -1,4 +1,3 @@
-
 *higan1_scroll
 saveoff
 skipoff
@@ -13067,29 +13066,3 @@ print 1
 	if %save_on_flg = on saveon
 return
 ;*************************************
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
