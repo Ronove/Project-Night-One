@@ -1,0 +1,23 @@
+;*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-
+*EN_glossary_mode_end ;Post-processing
+;*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-
+   ;Let's clean up after ourselves
+   csp -1                               ;Clear sprite memory
+   btndef ""                            ;CLear button memory
+
+   setwindow 31,16,22,16,26,26,0,2,20,1,1,#999999,0,0,639,479
+   erasetextwindow 1
+   rmode 1
+   mono 0
+                                    
+	E_A
+	seplay 9,82
+	print 1
+   	cl a,1
+	texton
+	if %monoflg = 1 mono 1
+	if %monoflg = 2 mono 2
+	wait 1000
+   mov %title_skip,1
+reset
+;*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-

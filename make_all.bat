@@ -10,6 +10,7 @@ CALL make_hints.bat
 CALL make_graphics.bat
 
 REM Script processing
+CALL make_glossary.bat
 CALL make_scripts.bat
 
 REM DLLs

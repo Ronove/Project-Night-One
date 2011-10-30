@@ -1,0 +1,16 @@
+*EN_glossary
+   E_A                                 ;Stop currently playing song
+   setwindow 31,16,22,16,22,22,0,2,20,1,1,#ffffff,0,0,639,479
+   textclear
+   rmode 0                              ;Setting right click's action
+   erasetextwindow 0                    
+   csp -1                               ;Clear sprite memory
+   btndef ""                            ;Clear buttons from memory
+
+   ;Sound effects and stuff upon entering
+   seplay 9,82
+   seplay 10,82
+   bg black,4
+
+   ;Dataset
+   mov %EN_glossary_page_max,

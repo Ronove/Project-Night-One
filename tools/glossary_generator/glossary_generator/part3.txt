@@ -1,0 +1,11 @@
+;*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-
+*EN_glossary_button_mode ;Button press handling routine
+;*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-
+
+; Depending on the current page and the last button pressed, will display the appropriate glossary term.
+
+;Coordinate setting
+  mov %Free2,345 ;X coordinate of text
+  mov %Free3,50 ;Y coordinate of text
+
+  

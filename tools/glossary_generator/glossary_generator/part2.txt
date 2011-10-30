@@ -1,0 +1,89 @@
+ ;Number of total pages
+   mov %EN_glossary_page_view,1 ;Page at which the glossary opens at/current page
+   mov %EN_glossary_current_hint,0 ;Current hint displayed
+
+	;Selects a random BGM from these choices and plays it
+	rnd2 %ran,1,2
+	if %ran = 1 mov $BGM_Play,"bgm0\d_7.ogg": mov %Set_vol,85 : gosub *BGM_Play_Mord
+	if %ran = 2 mov $BGM_Play,"bgm0\d_10.ogg": mov %Set_vol,75  : gosub *BGM_Play_Mord
+~
+
+*EN_glossary_loop_1
+  ;Basic View button image
+  mov %Free4,410
+  lsp 890,":c;bmp\r_click\r_back.bmp",-0,100,40 ;Background image
+  lsp 850,":c;bmp\r_click\text\txt_def.bmp",315,29 ;Notebook image
+  lsp 101,":a/2,0,3;bmp\r_click\btn\Left.BMP",330,%Free4 -10 ;To the previous image^101
+  lsp 102,":a/2,0,3;bmp\r_click\btn\Right.BMP",400,%Free4 -10 ;To the next image^102
+  lsp rmenu_btn_Exit,":a/2,0,3;bmp\r_click\btn\exit.BMP",480,%Free4 + 20,230 ;Exit
+  gosub *EN_glossary_page_mode ;Set page's buttons to their default state
+
+	;Clear the last button in memory
+	btndef ""
+	;Define the buttons which will be used globally throughout the glossary
+	spbtn 101,1 ;back
+	spbtn 102,2 ;next
+	spbtn rmenu_btn_Exit,4 ;exit
+	spbtn EN_hint_button_0,5 ;hint button start
+	spbtn EN_hint_button_1,6
+	spbtn EN_hint_button_2,7
+	spbtn EN_hint_button_3,8
+	spbtn EN_hint_button_4,9
+	spbtn EN_hint_button_5,10
+	spbtn EN_hint_button_6,11
+	spbtn EN_hint_button_7,12 ;hint button end
+	
+
+	btnwait2 %BtnRes 
+		if %BtnRes = -1 : goto *EN_glossary_mode_end ;Right click?
+		if %BtnRes = 0 : goto *EN_glossary_loop_1 ;Left click?
+		if %BtnRes = 1 se1v 1010,40 : gosub *EN_glossary_back : gosub *EN_glossary_page_mode ;Back
+		if %BtnRes = 2 se1v 1010,40 : gosub *EN_glossary_next : gosub *EN_glossary_page_mode ;Next
+		if %BtnRes = 4  goto *EN_glossary_mode_end ;exit
+
+		if %BtnRes = 5 mov %EN_glossary_current_hint, 0 : gosub *EN_glossary_button_mode
+		if %BtnRes = 6 mov %EN_glossary_current_hint, 1 : gosub *EN_glossary_button_mode
+		if %BtnRes = 7 mov %EN_glossary_current_hint, 2 : gosub *EN_glossary_button_mode
+		if %BtnRes = 8 mov %EN_glossary_current_hint, 3 : gosub *EN_glossary_button_mode
+		if %BtnRes = 9 mov %EN_glossary_current_hint, 4 : gosub *EN_glossary_button_mode
+		if %BtnRes = 10 mov %EN_glossary_current_hint, 5 : gosub *EN_glossary_button_mode
+		if %BtnRes = 11 mov %EN_glossary_current_hint, 6 : gosub *EN_glossary_button_mode
+		if %BtnRes = 12 mov %EN_glossary_current_hint, 7 : gosub *EN_glossary_button_mode
+
+  goto *EN_glossary_loop_1 ;Return to Loop Point
+
+reset
+
+;*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-
+;Subroutine for processing a back button push (going -1 page)
+;*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-
+*EN_glossary_back
+	  dec %EN_glossary_page_view ;Decrement current page by 1
+
+	; If we go past the beginning of the list, we go back to the last element.
+	  if %EN_glossary_page_view = 0 : mov %EN_glossary_page_view,%EN_glossary_page_max
+return
+
+;*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-
+;Subroutine for processing a next button push (going +1 page)
+;*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-
+*EN_glossary_next
+	  inc %EN_glossary_page_view ;Increment current page by 1
+
+	 ;If we go further than the end of the list, we go back to the beginning.
+	  if %EN_glossary_page_view = %EN_glossary_page_max + 1 : mov %EN_glossary_page_view,1
+return
+
+;*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-
+*EN_glossary_page_mode ;Page switch routine
+;*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-
+
+  ;Will update what the buttons look like depending on the page
+  ;Note that each buttton has different text on it.
+
+;Coordinate setting 
+  mov %Free4,24 ;X coordinate of top left button
+  mov %Free5,129 ;Y coordinate of top left button
+  mov %Free6,42 ;dY between two buttons
+ 
+ 
