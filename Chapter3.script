@@ -589,7 +589,7 @@ br
 `　If it's so severe, I'll be honest with my parents, and if they think I should, they'll certainly take me to get looked at in the hospital.`\
 
 ;　……紅茶紳士さん。@……これって、何かの病気なの…？\
-`　...Mr. Earl Grey. `@`...Just... what kind of sickness is this...?`\
+`　...Oh Tea Gentleman. `@`...Just... what kind of sickness is this...?`\
 
 fede 0,1000
 E_B
@@ -621,7 +621,7 @@ ld c,SIN_Def1,22
 bgm1 18
 
 ;　この不思議な男の人を、私は紅茶紳士さんと呼んでいる。@……いつも現れる時、紅茶を飲んでいるからだ。\
-`　I call this mysterious man Mr. Earl Grey. `@`...Because whenever he appears, he's always drinking black tea.`\
+`　I call this mysterious man the Tea Gentleman. `@`...Because whenever he appears, he's always drinking black tea.`\
 
 ;　みんなが談笑する教室の中で、@おかしなアレンジをしたタキシード風の格好で、立ったまま紅茶を嗜む謎の紳士。@
 `　In the middle of the classroom filled with idle chatter, `@`in a strangely arranged tuxedo outfit, he was a strange gentleman standing and tasting his tea.`@
@@ -656,7 +656,7 @@ ld r,SIN_Def2,80
 `"Well, then it's nothing to worry about."`@
 br
 ;　紅茶紳士は、あっけらかんとそう言う。\
-`　Earl Grey said indifferently.`\
+`　The Tea Gentleman said indifferently.`\
 
 ld l,MID_K1,80
 
@@ -683,42 +683,57 @@ br
 
 bg black,22
 
-　今度、演劇部で演じたい役は、とてもとても重要で大切な役。@
+;　今度、演劇部で演じたい役は、とてもとても重要で大切な役。@
+`　This upcoming role I want to play in the theater club is an extremely important role.`@
 br
-　自分が失敗すれば、お芝居の全てが駄目になるとさえ言っても過言ではないほどの、重要な役。\
+;　自分が失敗すれば、お芝居の全てが駄目になるとさえ言っても過言ではないほどの、重要な役。\
+`　This role was so important that if I were to mess it up the entire play would be ruined.`\
 
-　そんな私の緊張が、ありもしない痛みを感じさせるのかもしれない。@
+;　そんな私の緊張が、ありもしない痛みを感じさせるのかもしれない。@
+`　Maybe that kind of pressure caused me to feel some kind of imaginary pain.`@
 br
-　時に緊張が腹痛を引き起こすように、……これも、そういうものなのかもしれない。\
+;　時に緊張が腹痛を引き起こすように、……これも、そういうものなのかもしれない。\
+`　Perhaps... I'm just feeling occasional pains in my chest from the stress.`\
 
 bg kyou_02,0
 ld r,MID_Def2a,22
 ;ld r,MID_Def1,80
 
-「……そうですね。@気にしても、仕方ないかもしれませんね。」@
+;「……そうですね。@気にしても、仕方ないかもしれませんね。」@
+`"...You're right. `@`It bothers me but I suppose I have no choice, right?"`@
 
 ld l,SIN_Def2,22
 
-「そういうことですよ。@気になどしないことです。」@
+;「そういうことですよ。@気になどしないことです。」@
+`"That's how it is, you see. `@`Don't worry about it."`@
 br
-　気にするなと、重ねて言われる。@
-　……もう、腕の痛みも消えている。\
+;　気にするなと、重ねて言われる。@
+`　He kept saying not to worry about it.`@
+;　……もう、腕の痛みも消えている。\
+`　...And the pain in my arm was already fading away.`\
 
 ld l,SIN_Def1,80
 cl l,2
 
-　私が納得すると、紅茶紳士さんは姿を消す。\
+;　私が納得すると、紅茶紳士さんは姿を消す。\
+`　When I agreed with him, the Tea Gentleman disappeared.`\
 
 ld r,MID_k1,80
 
-　彼は当然、人間ではないだろう。@
-　なら、何？@　……オバケとか、……妖怪？@
-br
-　その正体について、深く考えても意味はない。\
+;　彼は当然、人間ではないだろう。@
+`　He's probably not human`@
 
-　彼は紅茶紳士さん。@私の前に現れた、不思議な人。@
+;　なら、何？@　……オバケとか、……妖怪？@
+`　Then what is he? `@`...A monster? ...a youkai?`@
 br
-　彼が、かつての私を、生まれ変わらせてくれたのだ。\
+;　その正体について、深く考えても意味はない。\
+`　There's no reason to think too much about his real identity.`\
+
+;　彼は紅茶紳士さん。@私の前に現れた、不思議な人。@
+`　He is the Tea Gentleman. `@`A mysterious figure who revealed himself to me.`@
+br
+;　彼が、かつての私を、生まれ変わらせてくれたのだ。\
+`　And he brought me a new life from who I once was.
 
 bg black,2
 
@@ -740,62 +755,87 @@ bg engeki_01,22
 
 bgm1 2
 
-　放課後、演劇部の部室に行くと、既に部活は始まっていた。@
+;　放課後、演劇部の部室に行くと、既に部活は始まっていた。@
+`　When I went to the drama clubroom after school, things were already underway.`@
 br
-　皆、部長の指示のもと、熱心にストレッチをしている。\
+;　皆、部長の指示のもと、熱心にストレッチをしている。\
+`　Under the direction of the club president, everyone was performing stretching exercises with enthusiasm.`\
 
 ld l,MID_Def1,23
 
-「ごめんなさい。@遅くなりました。」@
+;「ごめんなさい。@遅くなりました。」@
+`"I'm sorry. `@`I'm late."`@
 br
-　部室に入ると、誰もが一瞬手を止めて、私を見る。@
-　敬愛だったり、憧れだったり。@遅刻してきた身には、勿体無い眼差しだ。\
+;　部室に入ると、誰もが一瞬手を止めて、私を見る。@
+`　As I enter the room, everyone stops what they're doing and looks at me.`@
+;　敬愛だったり、憧れだったり。@遅刻してきた身には、勿体無い眼差しだ。\
+`　Adoration. Admiration. `@`They were improper glances to give to someone who was late.`\
 
 ;mbg white,1
 ;mcbg 22
 
-「………ほら、ストレッチの続き！」@
+;「………ほら、ストレッチの続き！」@
+`"...Hey, keep stretching!"`@
 br
-　部長が手を打ち鳴らす。@彼も、みどりの姿に一瞬、見惚れていたくせに。\
+;　部長が手を打ち鳴らす。@彼も、みどりの姿に一瞬、見惚れていたくせに。\
+`　The club president clapped his hands. `@`Even he had been enchanted by Midori for an instant.`\
 
-「楠木ー、お前、最近遅刻が多いぞー。」@
+;「楠木ー、お前、最近遅刻が多いぞー。」@
+`"Kusunoki~, you've been late a lot lately~"`@
 
 ld l,MID_Def5,80
 
-「すみません。@ちょっと着替えるのに手間取ってしまって……。@以後、気をつけますね。」@
+;「すみません。@ちょっと着替えるのに手間取ってしまって……。@以後、気をつけますね。」@
+`"Sorry. `@`I had some trouble getting changed... `@`I'll be more careful in the future."`@
 br
-　そう言って微笑みかけると、部長は分かり易いほど頬を赤くして俯いた。\
+;　そう言って微笑みかけると、部長は分かり易いほど頬を赤くして俯いた。\
+`　I said with a smile, and as the club president realized what that meant he turned red and looked away in embarassment.`\
 
-「……まあ、気をつけてくれればいいんだけどさ……。」@
+;「……まあ、気をつけてくれればいいんだけどさ……。」@
+`"...Well~. I'm sure you'll be fine as long as you're more careful..."`@
 br
-　上級生である部長は、先生たちからの信頼も厚く、女生徒達からもとても人気がある。@
-　だが、そんな彼でもみどりの笑顔一つでこの通りだ。\
+;　上級生である部長は、先生たちからの信頼も厚く、女生徒達からもとても人気がある。@
+`　Our upperclassman club president got along well with the teachers and was very popular among the girls at school.`@
+
+;　だが、そんな彼でもみどりの笑顔一つでこの通りだ。\
+`　But even someone like him would show Midori a smile like that.`\
 
 cl l,22
 
-　クラスのお姫様は、演劇部においてもお姫様だった。@
+;　クラスのお姫様は、演劇部においてもお姫様だった。@
+`　The princess of the classroom was also a princess even in the drama club.`@
 br
-　いや、厳密には逆か。@
-　演劇部でお姫様だからこそ、クラスでもお姫様なのだ。\
+;　いや、厳密には逆か。@
+`　No, perhaps it makes more sense the other way around?`@
+;　演劇部でお姫様だからこそ、クラスでもお姫様なのだ。\
+`　Because I was the princess in the drama club, I was a princess in the classroom.`\
 
-　舞台上の彼女が美しく輝くからこそ、彼女は姫と呼ばれ、@他のクラスどころか、他の学年の子にまで大勢慕われているのだ。\
+;　舞台上の彼女が美しく輝くからこそ、彼女は姫と呼ばれ、@他のクラスどころか、他の学年の子にまで大勢慕われているのだ。\
+`　She is called Princess because she shines beautifully on stage, `@`and she is loved by students from other classes and even different grades.`\
 
 bg black,23
 bg engeki_02,23
 
 
-　みどりがストレッチをする場所を探して歩くと、@それに合わせて、まるで花道でもつくるかのように他の部員達がスペースをあけてくれた。\
+;　みどりがストレッチをする場所を探して歩くと、@それに合わせて、まるで花道でもつくるかのように他の部員達がスペースをあけてくれた。\
+`　As Midori went looking for a place to stretch, `@`in response, the other club members made way as if she were passing through the audience to the stage.`\
 
 ld c,MID_Def1,23
 
-「ありがとう。」@
+;「ありがとう。」@
+`"Thank you."`@
 br
-　彼女が微笑んでお礼を言うと、みんな照れて俯いてしまう。@
-　みどり姫が微笑むだけで、花も恥らうというのは言葉通りの意味に違いなかった。\
+;　彼女が微笑んでお礼を言うと、みんな照れて俯いてしまう。@
+`　As she smiled and thanked them, everyone shyly looked away.`@
+;　みどり姫が微笑むだけで、花も恥らうというのは言葉通りの意味に違いなかった。\
+`　It was exactly as if even flowers would blush with just a smile from Princess Midori.`\
 
-　我が校の演劇部は、部員も多く、文化部なのにノリは完全に体育会系だった。\
+;　我が校の演劇部は、部員も多く、文化部なのにノリは完全に体育会系だった。\
+`　Our school drama club had a lot of members, and although it was a cultural club it was completely sport-oriented.`\
 
-　部活の時は全員体操着に着替える。@そして体力作りと称して学校の周りを走り込んだり、@近くの河原に行って大声で発声練習も行ったりもする。@ほとんど『ガラスの仮面』の世界だ。\
+;　部活の時は全員体操着に着替える。@そして体力作りと称して学校の周りを走り込んだり、@近くの河原に行って大声で発声練習も行ったりもする。@ほとんど『ガラスの仮面』の世界だ。\
+;　(Translator's Note) Reference made to Gurasu no Kamen, "Glass Mask." A manga from the 1960s.
+`　(?) During club hours everyone changes into gym outfits. `@`And in the name of improving our endurance we do things like running around the school `@`as well as heading down to the river bed and practicing our shouts for vocal exercises. `@`It's almost like the world in "Glass Mask."`\ 
 
 　そして、毎学期末には発表会があり、全校生徒の前で芝居を上演することになっている。@
 br
