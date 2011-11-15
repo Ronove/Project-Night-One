@@ -837,77 +837,108 @@ br
 ;　(Translator's Note) Reference made to Gurasu no Kamen, "Glass Mask." A manga from the 1960s.
 `　(?) During club hours everyone changes into gym outfits. `@`And in the name of improving our endurance we do things like running around the school `@`as well as heading down to the river bed and practicing our shouts for vocal exercises. `@`It's almost like the world in "Glass Mask."`\ 
 
-　そして、毎学期末には発表会があり、全校生徒の前で芝居を上演することになっている。@
+;　そして、毎学期末には発表会があり、全校生徒の前で芝居を上演することになっている。@
+`　And now it's become a tradition to have a recital at the end of every semester where we perform in front of all the students in school on stage.`@
 br
-　今日はその発表会の配役決めを行う重要な日だ。@部員達はいつもにも増して気合いが入っているようだった。\
+;　今日はその発表会の配役決めを行う重要な日だ。@部員達はいつもにも増して気合いが入っているようだった。\
+`　Today is a very important day where the roles of the recital will be decided. `@`It was as if all the club members were overflowing with excitement.`\
 
 mbg black,22
 
-　基本的に芝居の配役は、部員がやりたい役に立候補し、@顧問の先生と部長が問題ないと判断すればそれで決まる。@
-　一つの役に二人以上立候補者がいた場合は、みんなの前でオーディションとなる。\
+;　基本的に芝居の配役は、部員がやりたい役に立候補し、@顧問の先生と部長が問題ないと判断すればそれで決まる。@
+`　Basically, when it came to casting the play, members would start calling out the part they wanted to play, `@`and if the adivising teacher and club president saw no problems, then it was decided then and there.`\
+;　一つの役に二人以上立候補者がいた場合は、みんなの前でオーディションとなる。\
+`　When two or more people wanted the same role they would audition in front of everyone.`\
 
 
-　今回の発表会での演目は、『六軒島』という古典作品。@
+;　今回の発表会での演目は、『六軒島』という古典作品。@
+`　This time the play we're doing at the recital will be "Rokkenjima," a classic work.`@
 br
-　ファンタジーのようでもあり、ミステリーのようでもある不思議な作品だ。\
+;　ファンタジーのようでもあり、ミステリーのようでもある不思議な作品だ。\
+`　It's a mysterious play that is like a fantasy but also like a mystery.`\
 
-　かなり難解な内容で、役者が心情を充分に理解して演じなければ、@到底、メッセージを伝えることなど出来ない。@
+;　かなり難解な内容で、役者が心情を充分に理解して演じなければ、@到底、メッセージを伝えることなど出来ない。@
+`　With some very difficult contents to work with, if the actors don't understand the emotions they have to portray, `@`then they cannot transmit the message of the story.`@
 br
-　かなり難易度の高い演目だが、顧問の先生は敢えてこれを選んだのだ。\
+;　かなり難易度の高い演目だが、顧問の先生は敢えてこれを選んだのだ。\
+`　It's a really difficult play, but our advising teacher has chosen this as a challenge for us.`\
 
 ;ld c,MID_Def1,80
 
 mcbg 22
 
-　主演の魔女役に求められる演技力は、並大抵のものではない。@
+;　主演の魔女役に求められる演技力は、並大抵のものではない。@
+`　The leading role of the witch is no ordinary role and requires real acting ability.`@
 br
-　でも、それを見事射止めたい。@この演目を、そしてこの役を、@……私になら出来ると信じてくれた先生の期待に応えたいのだ。\
+;　でも、それを見事射止めたい。@この演目を、そしてこの役を、@……私になら出来ると信じてくれた先生の期待に応えたいのだ。\
+`　But I want to make that role mine. `@`This play, and this role, `@`...If I can do it, I want to realize the expectations of the teacher who believed in me.`\
 
 bg black,23
 bg engeki_01,23
 
-「……主役はみどりさんで決まりよね。」@
-「当然よ……。@魔女の役が出来るのは、彼女以外に誰もいないわ。」@
+;「……主役はみどりさんで決まりよね。」@
+`"...The leading actress has to be Midori-san."`@
+;「当然よ……。@魔女の役が出来るのは、彼女以外に誰もいないわ。」@
+`"Obviously... `@`she's the only one who can play the role of the witch."`@
 br
-　その魔女こそが、このお芝居の主人公。\
+;　その魔女こそが、このお芝居の主人公。\
+`　That witch was also the protagonist of this play.`\
 
-　他にも登場人物が出てくるけれど。@……もはや一人芝居と言ってもいいほど、魔女役の演技力がそのまま、お芝居の完成度を左右する大役なのだ。\
+;　他にも登場人物が出てくるけれど。@……もはや一人芝居と言ってもいいほど、魔女役の演技力がそのまま、お芝居の完成度を左右する大役なのだ。\
+`　There are other characters that are introduced. `@`...But pretty soon it turns into a one woman show, and the perfection of the play is controlled by the acting ability of the one playing the witch.`\
 
-　部員たちが、みどり以外の誰にも務まらないと囁き合っている。@
+;　部員たちが、みどり以外の誰にも務まらないと囁き合っている。@
+`　The club members whispered amongst themselves that no one else except Midori could fit the role.`@
 br
-　恐らく、みどり以外の誰も、魔女役には立候補しないだろう。\
+;　恐らく、みどり以外の誰も、魔女役には立候補しないだろう。\
+`　And it was most likely that no one else would announce their candidacy for the role of the witch.`\
 
-　彼女と演技力で張り合おうなんて、おこがましいにも程がある。@
+;　彼女と演技力で張り合おうなんて、おこがましいにも程がある。@
+`　To suggest that someone would compete with her on acting ability was beyond absurd.`@
 br
-　楠木みどりは、演劇部においては姫というより、女王の貫禄を持っていたのだ。\
+;　楠木みどりは、演劇部においては姫というより、女王の貫禄を持っていたのだ。\
+`　Kusunoki Midori was more than a princess in the drama club. She resembled a queen.`\
 
 ld r,MID_Def1,26
 
-　もちろん彼女も、自動的に魔女役をもらおうなどと甘えるつもりはない。@
-　そして自分の演技力を試す意味で、先生がこの演目を選んだことも理解している。@
+;　もちろん彼女も、自動的に魔女役をもらおうなどと甘えるつもりはない。@
+`　Of course, she wasn't so naiive as to think she would be given the part of the witch automatically.`@
+;　そして自分の演技力を試す意味で、先生がこの演目を選んだことも理解している。@
+`　She also knew that her teacher had chosen this play specifically to test her acting abilities.`@
 br
-　だから、今日に備えて、ずっと魔女役をレッスンしてきたのだ。\
+;　だから、今日に備えて、ずっと魔女役をレッスンしてきたのだ。\
+`　After all, he had been giving her lessons on the witch's role for ages now in preperation for today.`\
 
 bg black,24
 bg engeki_02,24
 
-　先生が厳しい眼差しでみどりを見ている。@
+;　先生が厳しい眼差しでみどりを見ている。@
+`　The teacher was staring intensely at Midori.`@
 br
-　……見事、魔女役を射止めてみなさいという、挑戦的な眼差し。\
+;　……見事、魔女役を射止めてみなさいという、挑戦的な眼差し。\
+`　...It was a look as if to say, magnificent, now make the role of the witch your own.`\
 
-　もしもみどりが、魔女役に不適ならば、この演目すらも撤回するつもりかもしれない。@
+;　もしもみどりが、魔女役に不適ならば、この演目すらも撤回するつもりかもしれない。@
+`　If for some reason Midori didn't prove to be a very good which, he might have even intended on cancelling the play altogether.`@
 br
-　それは即ち、……この『六軒島』という演目が、@みどりのためだけに選ばれたも同然であることを意味していた。\
+;　それは即ち、……この『六軒島』という演目が、@みどりのためだけに選ばれたも同然であることを意味していた。\
+`　In other words, ...this play on "Rokkenjima" `@`might as well have been chosen just for Midori's sake.`\
 
-　………先生、私を見て下さい。@絶対に、魔女役に相応しい演技をお見せします。@
+;　………先生、私を見て下さい。@絶対に、魔女役に相応しい演技をお見せします。@
+`　...Sensei, please look at me. `@`No matter what, I'll show you a fitting performance for the role of the witch.`@
 br
-　みどりもまた、決意を眼差しに込めて、先生にそれを返すのだった。\
+;　みどりもまた、決意を眼差しに込めて、先生にそれを返すのだった。\
+`　And then Midori's eyes filled with determination in response to her teacher.`\
 
-　ほぼ魔女役が内定しているみどりと違い、@その他の部員たちにとっては、無事に役を射止められるかどうか、まだまだ不安だった。\
+;　ほぼ魔女役が内定しているみどりと違い、@その他の部員たちにとっては、無事に役を射止められるかどうか、まだまだ不安だった。\
+`　Unlike Midori who was almost guaranteed to get the role, `@`the other club members were still worried whether or not they would so easily get their own parts.`\
 
-「あーあ、私、どの役にも就けなかったらどうしよう。」@
-「雑用係になったら大変だよね。@今回、小道具とかも多そうだし……。」@
-「くす。@それは心配しなくても大丈夫でしょ。@ほら、全部一人でやってくれそうな子がいるじゃない。」\
+;「あーあ、私、どの役にも就けなかったらどうしよう。」@
+`"Ah~ah, what should I do if I don't get any of the parts?"`@
+;「雑用係になったら大変だよね。@今回、小道具とかも多そうだし……。」@
+`"I would hate getting stuck doing the odd jobs. `@`This play seems to have a lot of props and what not too..."`@
+;「くす。@それは心配しなくても大丈夫でしょ。@ほら、全部一人でやってくれそうな子がいるじゃない。」\
+`"Heh. `@`You shouldn't worry about that. `@`I mean look, there's a kid who'll do it all for us."`\
 
 bg black,24
 fede 0,1000
@@ -925,75 +956,104 @@ bg engeki_03,24
 
 bgm1 8
 
-　彼女たちの目が部室の隅に向けられる。@
-　そこには、みんなから孤立して一人でストレッチを行っている子がいた。@
+;　彼女たちの目が部室の隅に向けられる。@
+`　Their eyes shifted to the corner of the clubroom.`@
+;　そこには、みんなから孤立して一人でストレッチを行っている子がいた。@
+`　There was a single girl isolated from everyone doing her stretches.`@
 br
-　………川田のぞみだった。\
+;　………川田のぞみだった。\
+`　...It was Kawada Nozomi.`\
 
-　そう言えば彼女も演劇部だった。@誰とも目を合わせない様に俯いたまま身体を伸ばしている。@
+;　そう言えば彼女も演劇部だった。@誰とも目を合わせない様に俯いたまま身体を伸ばしている。@
+`　On that note, she was also a member of the drama club. `@`She was stretching herself out with her head down while everyone avoided making eye contact with her.`@
 br
-　そんな彼女を見ながら、@他の部員たちは「ほんとブス」とか「キモい」などと口々に囁いている。\
+;　そんな彼女を見ながら、@他の部員たちは「ほんとブス」とか「キモい」などと口々に囁いている。\
+`　Looking at her like that, `@`all at once the other club members started whispering: 'Uuugly.' 'Disgusting.'`\
 
-　みどりのところにまで声が届いているのだから、当ののぞみに聞こえていないはずがない。@
-　しかし、彼女は全く気にしない様子で黙々とストレッチを続けていた。@おそらく必死に心を殺し、聞こえない振りをしているのだろう。\
+;　みどりのところにまで声が届いているのだから、当ののぞみに聞こえていないはずがない。@
+`　Their voices extended out to Nozomi. There was no doubt that she heard what they were saying.`@
+;　しかし、彼女は全く気にしない様子で黙々とストレッチを続けていた。@おそらく必死に心を殺し、聞こえない振りをしているのだろう。\
+`　And yet, silently she continued to stretch as if it didn't bother her one bit. `@`Perhaps she was silencing her heart and pretending not to hear.`\
 
-　クラスだけでなく、ここでもいじめられてるなんて。@みどりは気の毒に思う。@
+;　クラスだけでなく、ここでもいじめられてるなんて。@みどりは気の毒に思う。@
+`　She wasn't just bullied in the classroom, but here as well. `@`Midori felt sorry for her.`@
 br
-　のぞみは、みんなに陰口で言われるほどブスではない。@……むしろ、顔立ちは美人の部類に入るだろう。\
+;　のぞみは、みんなに陰口で言われるほどブスではない。@……むしろ、顔立ちは美人の部類に入るだろう。\
+`　It wasn't as if Naomi was as ugly as everyone was slandering her out to be. `@`...On the contrary, her face made her seem like a beautiful person.`\
 
-　金持ち自慢の傲慢な笑みでなく、……心の底からの朗らかな笑いを浮かべることが出来たなら、@もっともっと明るく輝くだろうに。\
+;　金持ち自慢の傲慢な笑みでなく、……心の底からの朗らかな笑いを浮かべることが出来たなら、@もっともっと明るく輝くだろうに。\
+`　Rather than a smile prideful of her wealth ...if she could smile from the bottom of her heart, `@`then her face would surely shine even brighter.`\
 
 bg black,22
 
-　……私もかつて、家の裕福さを無自覚に自慢していたことがある。@
+;　……私もかつて、家の裕福さを無自覚に自慢していたことがある。@
+`　...I too was once ignorantly took pride in my family's wealth.`@
 br
-　でも、幸いなことに、それが傲慢であると気付き、直すことが出来た。\
+;　でも、幸いなことに、それが傲慢であると気付き、直すことが出来た。\
+`　Thankfully, I realized my arrogance and I fixed myself.`\
 
-　それが出来なければ、……川田のぞみは、私だっただろう。@
+;　それが出来なければ、……川田のぞみは、私だっただろう。@
+`　If I hadn't done that... I would be Kawada Nozomi.`@
 br
-　彼女が時折、私をじっと見ているように。@
-　私もまた、……時折、じっと彼女を見てしまうのだ……。\
+;　彼女が時折、私をじっと見ているように。@
+`　Just as sometimes she's staring at me.`@
+;　私もまた、……時折、じっと彼女を見てしまうのだ……。\
+`　Sometimes... I'm also staring at her...`\
 
 bg engeki_01,22
 ld l,SIN_Def1,22
 
-「何をぼうっとされているのですか…？@　貴方の番ですよ。」@
+;「何をぼうっとされているのですか…？@　貴方の番ですよ。」@
+`"What are you daydreaming about...? `@`It's your turn."`@
 
 ld r,MID_K1,26
 
-「え？@　……あ、ありがとう。」@
+;「え？@　……あ、ありがとう。」@
+`"Eh? `@`...Oh, thank you."`@
 br
-　紅茶紳士が現れ、みどりに、番が来たことを教えてくれる。\
+;　紅茶紳士が現れ、みどりに、番が来たことを教えてくれる。\
+`　The Tea Gentleman appears and tells Midori that her time has come.`\
 
 cl r,23
 bg black,23
 bg engeki_01,23
 ld l,MID_Def1,23
 
-　先生の前に歩み出て、何役に立候補したいかを宣言し、その演技を見せなくてはならない。@
+;　先生の前に歩み出て、何役に立候補したいかを宣言し、その演技を見せなくてはならない。@
+`　Walking towards the teacher, I would announce what role I want to play, and I would demonstrate that performance.`@
 br
-　私は、部員たちが床に座って静まり返る中、立ち上がり、一人、前へ出る。\
+;　私は、部員たちが床に座って静まり返る中、立ち上がり、一人、前へ出る。\
+`　As silence fell on the other club members sitting on the floor, I stood up, alone, and stepped forward.`\
 
-「楠木さん。@希望する役は？」@
+;「楠木さん。@希望する役は？」@
+`"Kusunoki-san. `@`What part do you want?"`@
 br
-　先生が問う。@
-　私はその強い眼差しに負けないよう、力強く頷きながら答える。\
+;　先生が問う。@
+`　The teacher asked.`@
+;　私はその強い眼差しに負けないよう、力強く頷きながら答える。\
+`　Without losing that self-confidence, with a strong nod I replied.`\
 
 cl l,0
 ld c,MID_Def5,23
 
-「楠木みどり。@魔女役を希望します。」@
+;「楠木みどり。@魔女役を希望します。」@
+`"Kusunoki Midori. `@`I want the role of the witch."`@
 br
-　誰もが予想していた通りではあっても、みんなはおぉと低い声でどよめく。\
+;　誰もが予想していた通りではあっても、みんなはおぉと低い声でどよめく。\
+`　Even though it was what everyone expected, they all let out low gasps.`\
 
-「……結構。@それでは、演技をいくつか見せてもらいましょう。」@
+;「……結構。@それでは、演技をいくつか見せてもらいましょう。」@
+`"...Splendid. `@`Then how about you show us a performance."`@
 br
-　複雑な台詞、複雑な言い回し。@そして細やかな感情表現。@
-　今日までずっと頑張ってきた成果が問われる。\
+;　複雑な台詞、複雑な言い回し。@そして細やかな感情表現。@
+`　Complicated lines, complicated delivery, `@`and a tender expression.`@
+;　今日までずっと頑張ってきた成果が問われる。\
+`　He was asking to see the fruits of all my labors from so long ago until this day.
 
 ld c,MID_Def1,80
 
-　先生に演技を促され、……私は静かに精神を統一する。\
+;　先生に演技を促され、……私は静かに精神を統一する。\
+`　After being urged to perform by my teacher ...I quietly began to focus.`\
 
 
 
@@ -1011,41 +1071,55 @@ mbg "BMP\background\efe\red1.bmp",1
 ld c,MID_K2,0
 mcbg 22
 
-　その時、………また痛みが走った。@
+;　その時、………また痛みが走った。@
+`　At that moment, ...that pain ran through me once again.`@
 
 me1v 17,50
 
 br
-　……こんな時にまで、……また……。\
+;　……こんな時にまで、……また……。\
+`　...Even now at a time like this ... again...`\
 
-　今度は肩だった。@
-　もちろん、誰かが叩いたわけでもないし、何かが飛んできたわけでもない。@
+;　今度は肩だった。@
+`　This time it was my shoulder.`@
+;　もちろん、誰かが叩いたわけでもないし、何かが飛んできたわけでもない。@
+`　Of course it wasn't like anyone hit my shoulder or like anything flew and hit it.`@
 br
-　でも、何かにどんとぶつかられたような突然の痛み。\
+;　でも、何かにどんとぶつかられたような突然の痛み。\
+`　But it was a pain as if I had suddenly been hit by something.`\
 
-「楠木、どうかしたか？」@
+;「楠木、どうかしたか？」@
+`"Kusunoki, what's wrong?"`@
 br
-　部長が声を掛けてくる。\
+;　部長が声を掛けてくる。\
+`　The club president called out.`\
 
 ld c,MID_Def2,80
 
-「…………いいえ、何でもありません。」@
+;「…………いいえ、何でもありません。」@
+`"...No. It's nothing."`@
 br
-　一回、リラックスさせるように腕を回す。@……もう、何ともない。\
+;　一回、リラックスさせるように腕を回す。@……もう、何ともない。\
+`　Hoping it would help ease my mind I circled my arm around once. `@`...There wasn't any pain anymore.`\
 
 ld l,SIN_Def1,22
 
-「どうしました？@　いよいよ、今日までの成果を見せる時ですよ。」@
+;「どうしました？@　いよいよ、今日までの成果を見せる時ですよ。」@
+`"What's the matter? `@`It's finally time to show them what you've been working for until today, you know."`@
 br
-　紅茶紳士さんも励ましてくれる。\
+;　紅茶紳士さんも励ましてくれる。\
+`　Even the Tea Gentleman was cheering me on.`\
 
 ld c,MID_Def1,80
 
-　……やっぱり私、緊張してるのかな。@
+;　……やっぱり私、緊張してるのかな。@
+`　...Perhaps I'm just nervous`@
 br
-　それとも、川田のぞみを意識し過ぎてしまったせいだろうか。\
+;　それとも、川田のぞみを意識し過ぎてしまったせいだろうか。\
+`　Or perhaps it's because I was too worried about Kawada Nozomi.`\
 
-　蘇るのだ。@……彼女を見ていると、……生まれ変わる前の自分を見ているようで。@
+;　蘇るのだ。@……彼女を見ていると、……生まれ変わる前の自分を見ているようで。@
+`　She stirs my memory. `@`...When I look at her ...it's as if I'm looking at myself before I was born again.`@
 br
 　みどりは、魔女役の演技を見せながら、@……かつての、一学期の頃の自分を思い出していた………。\
 
