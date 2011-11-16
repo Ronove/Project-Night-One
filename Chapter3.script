@@ -684,7 +684,7 @@ br
 bg black,22
 
 ;　今度、演劇部で演じたい役は、とてもとても重要で大切な役。@
-`　This upcoming role I want to play in the theater club is an extremely important role.`@
+`　This upcoming role I want to play in the drama club is an extremely important role.`@
 br
 ;　自分が失敗すれば、お芝居の全てが駄目になるとさえ言っても過言ではないほどの、重要な役。\
 `　This role was so important that if I were to mess it up the entire play would be ruined.`\
@@ -1121,7 +1121,8 @@ br
 ;　蘇るのだ。@……彼女を見ていると、……生まれ変わる前の自分を見ているようで。@
 `　She stirs my memory. `@`...When I look at her ...it's as if I'm looking at myself before I was born again.`@
 br
-　みどりは、魔女役の演技を見せながら、@……かつての、一学期の頃の自分を思い出していた………。\
+;　みどりは、魔女役の演技を見せながら、@……かつての、一学期の頃の自分を思い出していた………。\
+`　As Midori was trying to perform the role of the witch `@`...she remembered herself as she was during one semester...`\
 
 bg black,2
 fede 0,2000
@@ -1137,27 +1138,36 @@ E_A
 
 bgm1 14
 
-　生まれ変わる以前のこと。\
+;　生まれ変わる以前のこと。\
+`　It was before I was born again.`\
 
-　それは私にとっては前世のように遠くて。@……そして時間的には、ほんの２ヶ月前の、一学期のことを指す。@
+;　それは私にとっては前世のように遠くて。@……そして時間的には、ほんの２ヶ月前の、一学期のことを指す。@
+`　For me, that time was as far away as a past life. `@`...But in terms of time, it was a reminder of the semester from a mere two months ago.`@
 br
-　私にとってはもう、思い返すのもおぼろげな、遠い記憶だ……。\
+;　私にとってはもう、思い返すのもおぼろげな、遠い記憶だ……。\
+`　Even trying to remember is hazy and the memory seems distant now...`\
 
 mono 1
 bg kyou_02,22
 
-「みどりちゃんてさ、何か高慢ちきだよね。@お金持ち自慢が過ぎるって言うかさ。」@
+;「みどりちゃんてさ、何か高慢ちきだよね。@お金持ち自慢が過ぎるって言うかさ。」@
+`"That Midori-chan, she's always so haughty. `@`It's like she's showing off way too much how rich she is."`@
 br
-　クラスメートの少女の一人が、みどりを指して唐突にそう言ったのだ。\
+;　クラスメートの少女の一人が、みどりを指して唐突にそう言ったのだ。\
+`　One of her female classmates suddenly pointed at Midori as she said that.`\
 
 
-　彼女は容姿もよくて成績優秀ということもあって、クラスでも人気のある、@当時の私よりヒエラルキーのはるかに高い子だった。\
+;　彼女は容姿もよくて成績優秀ということもあって、クラスでも人気のある、@当時の私よりヒエラルキーのはるかに高い子だった。\
+`　The girl had good looks, excellent grades, and even popularity among her classmates. `@`At the time, she stood far above me in terms of class hierarchy.`\
 
-　………そう。@私が姫などと呼ばれてちやほやされているのは、遠い過去からのことではない。@今学期になってからなのだ。\
+;　………そう。@私が姫などと呼ばれてちやほやされているのは、遠い過去からのことではない。@今学期になってからなのだ。\
+`　...That's right. `@`It wasn't far in the distant past when I started being pampered with the name princess. `@`It started this semester.`\
 
-　私にとっては、前世のことのように遠いけれど、……それはつい、前の学期のことなのだ。\
+;　私にとっては、前世のことのように遠いけれど、……それはつい、前の学期のことなのだ。\
+`　For me this seems as far away as a past life, ...but in reality it only happened just last semester.`\
 
-　その子のその指摘は、……瞬く間にクラスメートたちに共有された。\
+;　その子のその指摘は、……瞬く間にクラスメートたちに共有された。\
+`　As that girl began to point ...in a flash, my other classmates joined in.`\
 
 bg black,22
 mono 0
@@ -1166,39 +1176,52 @@ bg e010,2
 
 me1v 5,50
 
-　楠木みどりは、お金持ち自慢の高慢ちき。@
+;　楠木みどりは、お金持ち自慢の高慢ちき。@
+`　Kusunoki Midori is an arrogant and rich snob.`@
 br
-　そうレッテルが貼られ、三日と開けずに、クラス全員によるみどりへのいじめが始まったのだ。\
+;　そうレッテルが貼られ、三日と開けずに、クラス全員によるみどりへのいじめが始まったのだ。\
+`　When that label stuck, for three days straight, the entire class all began to bully Midori.`\
 
-　それは、思い返すだけでも辛い日々だった。@
+;　それは、思い返すだけでも辛い日々だった。@
+`　Those were painful days to remember.`@
 br
-　心が押し潰され、死んでしまいたいと思ったことも、一度や二度ではない。@
-　そしてそのいじめは、クラスだけでなく、演劇部にも伝染した。\
+;　心が押し潰され、死んでしまいたいと思ったことも、一度や二度ではない。@
+`　Her heart was crushed, and it didn't just cross her mind once or twice that she wanted to up and die.`@
+;　そしてそのいじめは、クラスだけでなく、演劇部にも伝染した。\
+`　And that bullying didn't just stay in the class, but it also spread to the drama club.`\
 
 bg black,22
 mono 1
 bg engeki_01,22
 
-　それまでは発表会の時には何かしらの役には付けていたのに、@雑用ばかりをやらされるようになった。@
+;　それまでは発表会の時には何かしらの役には付けていたのに、@雑用ばかりをやらされるようになった。@
+`　It even went as far as to affect her role in the recital at the time. `@`She was made to perform only the unwanted work.`@
 br
-　仲の良かった部員たちも次第にみどりと口をきかなくなり、@みどりはクラスでも演劇部でも孤立した。\
+;　仲の良かった部員たちも次第にみどりと口をきかなくなり、@みどりはクラスでも演劇部でも孤立した。\
+`　Even her fellow club members that she got along with began to backtalk Midori. `@`She was isolated both in the classroom and the clubroom.`\
 
 bg black,22
 mono 0
 
-　まさに、……今の川田のぞみのように。\
+;　まさに、……今の川田のぞみのように。\
+`　I was exactly ...like Kawada Nozomi is now.`\
 
-　あぁ、わかった。@だから、……彼女を見ていると、…………疼くんだ。@
+;　あぁ、わかった。@だから、……彼女を見ていると、…………疼くんだ。@
+`　Ohh, I get it. `@`Because ...when I'm looking at her ...it hurts.`@
 br
-　心の古傷が。@……前世の古傷が。\
+;　心の古傷が。@……前世の古傷が。\
+`　The scars on my heart. `@`...From my past life.`\
 
 fede 10,1000
 E_MA
 
-　そんな、ある日。@
+;　そんな、ある日。@
+`　Then one day.`@
 br
-　私は出会ったのだ。@
-　紅茶紳士と名乗る、人ならざる存在に。\
+;　私は出会ったのだ。@
+`　I met him.`@
+;　紅茶紳士と名乗る、人ならざる存在に。\
+`　That otherworldly man. The one known as the Tea Gentleman.`\
 
 fede 0,1000
 E_A
@@ -1219,11 +1242,14 @@ bg engeki_03,22
 
 bgm1 5
 
-　その日、みどりは演劇部の雑用を全て押し付けられ、@日が落ちてからも部室に残って小道具作りを行っていた。@
+;　その日、みどりは演劇部の雑用を全て押し付けられ、@日が落ちてからも部室に残って小道具作りを行っていた。@
+`　That day, Midori was forced to do all of the odd jobs for the drama club. `@`She was left in the clubroom after the sun went down, and she was making props for the play.`@
 br
-　段ボールに銀紙を貼った剣を作りながら、これが本物だったら、と思った。\
+;　段ボールに銀紙を貼った剣を作りながら、これが本物だったら、と思った。\
+`　As she was pasting silver paper on a cardboard sword, she thought 'if only this was real.'`\
 
-　部内でみどりを虐めるリーダー格の子は、今回の演目で主役を演じる。@ラストシーンで、彼女はこの剣で胸をついて自害するのだ。\
+;　部内でみどりを虐めるリーダー格の子は、今回の演目で主役を演じる。@ラストシーンで、彼女はこの剣で胸をついて自害するのだ。\
+`　The girl who was the ringleader of Midori's bullying was the leading actress in the upcoming play. `@`In the last scene, she would commit suicide by piercing her heart with this sword.`\
 
 ;mono 0
 ;print 0
@@ -1231,7 +1257,8 @@ br
 ;bg blood_1aR,22
 ;quakey 1,100
 
-　体育館のステージが彼女の血で真っ赤に染まることを、根暗に想像する。@だが、すぐにそれが、下らない妄想だと思い直した。\
+;　体育館のステージが彼女の血で真っ赤に染まることを、根暗に想像する。@だが、すぐにそれが、下らない妄想だと思い直した。\
+`　In her dark imagination she thought of seeing the gymnasium stage stain with her dark red blood. `@`But that kind of thinking was beneath her, so she quickly corrected herself.`\
 
 ;bg black,23
 ;mono 1
@@ -1243,22 +1270,31 @@ br
 bg black,22
 mono 0
 
-　演劇部に入ったのは、……舞台の上での輝かしい瞬間を求めてだった。@
+;　演劇部に入ったのは、……舞台の上での輝かしい瞬間を求めてだった。@
+`　When I joined the drama club, ...I wanted a moment in the spotlight atop the stage.`@
 br
-　なのに、今の自分は何の役にも就けず舞台にも上がれない。@……許されているのは、こんな時間までの、たった一人での小道具作り……。\
+;　なのに、今の自分は何の役にも就けず舞台にも上がれない。@……許されているのは、こんな時間までの、たった一人での小道具作り……。\
+`　Yet without any kind of role to play, I couldn't even go up on the stage. `@`...The only thing I'd been allowed to do until then was making props all by myself...`\
 
-　悲しくて悔しくて。@
-　でも、思い返してみれば、事の発端は全て、自業自得のような気もして。@
+;　悲しくて悔しくて。@
+`　I was sad. Frustrated.`@
+;　でも、思い返してみれば、事の発端は全て、自業自得のような気もして。@
+`　But as I try to remember, I felt I was paying for my mistakes.`@
 br
-　……お金持ち自慢の高慢ちき、というレッテルを貼られる前に戻ることが出来たらと、@ひとり悲しく夢想していた…。\
+;　……お金持ち自慢の高慢ちき、というレッテルを貼られる前に戻ることが出来たらと、@ひとり悲しく夢想していた…。\
+`　...As I tried to remember back before I was labeled a rich arrogant snob, `@`I day dreamed sadly -- alone...`\
 
-　涙を零したって、仕事は終わらない。@
+;　涙を零したって、仕事は終わらない。@
+`　Even though I shed my tears, the work didn't end.`@
 br
-　みどりは大きく深呼吸をした。@……薄暗い部室のカビと塗料の臭いが、鼻を通り抜けていった。\
+;　みどりは大きく深呼吸をした。@……薄暗い部室のカビと塗料の臭いが、鼻を通り抜けていった。\
+`　Midori took a deep breath. `@`...And the smell of the mold and paint in the gloomy clubroom passed through her nose.`\
 
-　……しかし、もう一度、深呼吸をした時。@みどりは不意に、香ばしい素敵な香りを嗅いだ気がした。@
+;　……しかし、もう一度、深呼吸をした時。@みどりは不意に、香ばしい素敵な香りを嗅いだ気がした。@
+`　...And yet when she took another deep breath, `@`suddenly, Midori caught the sweet fragrance of a wonderful smell.`@
 br
-　それはあまりにこの場には不似合いな、………紅茶の香りだった。\
+;　それはあまりにこの場には不似合いな、………紅茶の香りだった。\
+`　It was something totally unfitting for a place like this ...It was the smell of tea.`\
 
 fede 0,1000
 E_A
@@ -1281,41 +1317,55 @@ bg engeki_01,23
 
 me1v 11,90
 
-　思わず部室を見回したみどりの目は、ある一点に注がれた。@
+;　思わず部室を見回したみどりの目は、ある一点に注がれた。@
+`　Without realizing it, suddenly Midori's eyes eyes focused on a fixed location within the clubroom.`@
 br
-　………閉じられた窓の前に、湯気のたつティーカップが浮いていた。@……そう、浮いていたのだ。@何もない空中にふわふわと。\
+;　………閉じられた窓の前に、湯気のたつティーカップが浮いていた。@……そう、浮いていたのだ。@何もない空中にふわふわと。\
+`　...In front of a closed window, a steaming teacup was floating. `@`...Yes, it was floating. `@`Dangling in the middle of the air.`\ 
 
-　小道具作りに疲れ切っていたせいもあっただろう。@……みどりはただ呆然と、その不思議な光景を凝視していた。\
+;　小道具作りに疲れ切っていたせいもあっただろう。@……みどりはただ呆然と、その不思議な光景を凝視していた。\
+`　It might have been because she was exhausted from making all those props. `@`...Midori just blankly stared at that strange sight.`\
 
-　…………自分が見ているのは幻に違いない。@
+;　…………自分が見ているのは幻に違いない。@
+`　...She had to be seeing things.`@
 br
-　毎日のいじめと小道具作りの作業で、心身共に疲れきっていたみどりは、そう思い込もうとした。@
+;　毎日のいじめと小道具作りの作業で、心身共に疲れきっていたみどりは、そう思い込もうとした。@
+`　Being bullied every day into making props and exhausted both physically and mentally, Midori thought as much.
 E_A
-　だからそのティーカップがいきなりしゃべりだした時にも、大して驚きはしなかった……。\
+;　だからそのティーカップがいきなりしゃべりだした時にも、大して驚きはしなかった……。\
+`　Because she wasn't even that shocked when that very teacup suddenly spoke...`\
 
 bgm1 18
 
-「……このような時間まで部活動とは。@……熱心なお嬢さんですねぇ。」@
+;「……このような時間まで部活動とは。@……熱心なお嬢さんですねぇ。」@
+`"...Continuing club activities until a time like this~. `@`...You must be quite a dedicated young lady."`@
 br
-　成人男性の声だった。@若いのかお年寄りなのかすら分からない、@まるでエコーでもかかったのかの様な不思議な響きのある声だった。\
+;　成人男性の声だった。@若いのかお年寄りなのかすら分からない、@まるでエコーでもかかったのかの様な不思議な響きのある声だった。\
+`　It was the voice of a grown man. `@`I couldn't tell if he was young or old, `@`but it was a mysterious voice that seemed to resonate like an echo.`\
 
 mono 0
 print 2
 
-「失礼。@驚かせてしまいましたか……？」@
+;「失礼。@驚かせてしまいましたか……？」@
+`"I apologize. `@`Did I scare you...?"`@
 
 ld l,MID_Def2a,22
 
-「い、………いいえ。」\
+;「い、………いいえ。」\
+`"Er ...No."`\
 
-「ふむ。@……どうやら、お嬢さんの心のチャンネルと、@私の波長が偶然にも合ってしまったようですね。」@
+;「ふむ。@……どうやら、お嬢さんの心のチャンネルと、@私の波長が偶然にも合ってしまったようですね。」@
+`"Hmm. `@`...Somehow, it seems the channel to your mind has coincidentally met with my own wavelength."`@
 br
-　ティーカップが動きながら、そうしゃべる。\
+;　ティーカップが動きながら、そうしゃべる。\
+`　The teacup said as it moved about.`\
 
 
-　次第に、それが透明人間が手にティーカップを持っているのだと理解できるようになる。@
+;　次第に、それが透明人間が手にティーカップを持っているのだと理解できるようになる。@
+`　Gradually I began to tell that it was as if an invisible man was holding the teacup in his hand.`@
 br
-　すると、まるでカメラのピントが合うみたいに、@………ティーカップを持つ、男の姿が見えてくるようになる……。\
+;　すると、まるでカメラのピントが合うみたいに、@………ティーカップを持つ、男の姿が見えてくるようになる……。\
+`　Then, as if coming into focus, `@`...the man who held the teacup began to appear...`\
 
 se1v 56,50
 
@@ -1324,23 +1374,30 @@ bg engeki_01,0
 ld l,MID_Def2a,0
 ld r,SIN_Def1,22
 
-　それは、タキシード…？　をアレンジしたような、不思議な服を着た大人の男性だった。\
+;　それは、タキシード…？　をアレンジしたような、不思議な服を着た大人の男性だった。\
+`　He was a man wearing a strange outfit arranged with a ...tuxedo?`\
 
-　……先生には見えない。@もちろん生徒にも見えない。@
+;　……先生には見えない。@もちろん生徒にも見えない。@
+`　...He didn't look like a teacher. `@`Of course, he didn't look like a student either.`@
 br
-　しかしその奇抜な服装は、むしろ演劇部にぴったりのようにも思えた。\
+;　しかしその奇抜な服装は、むしろ演劇部にぴったりのようにも思えた。\
+`　But that eccentric attire seemed perfectly suited for the drama club.`\
 
 ld r,SIN_Def3,80
 
-「おや。@すっかり私の姿が見えるようになったみたいですねぇ。」@
+;「おや。@すっかり私の姿が見えるようになったみたいですねぇ。」@
+`"Oh my. `@`It seems you can now see all of me now."`@
 br
-　不思議な男は、にっこりと微笑みながらもう一度、紅茶をすする。\
+;　不思議な男は、にっこりと微笑みながらもう一度、紅茶をすする。\
+`　With a smile on his face, the mysterious man took another slurp of his tea.`\
 
 ld r,SIN_Def2,80
 
-「こんばんは、お嬢さん。@……部活動に熱心なのは良いことですが、@女の子には少々、遅過ぎる時間ですよ。」@
+;「こんばんは、お嬢さん。@……部活動に熱心なのは良いことですが、@女の子には少々、遅過ぎる時間ですよ。」@
+`"Good evening young lady. `@`...Being dedicated to your club activities is good, `@`but isn't it a bit too late for a girl like yourself to be out?"`@
 br
-　それが、みどりと紅茶紳士の、初めての出会いだった。\
+;　それが、みどりと紅茶紳士の、初めての出会いだった。\
+`　That was the first time that Midori met the Tea Gentleman.`\
 
 bg black,22
 
