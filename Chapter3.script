@@ -1622,11 +1622,13 @@ bg engeki_02,2
 
 bgm1 5
 
-　そして、紅茶紳士さんは約束を守った。@
+;　そして、紅茶紳士さんは約束を守った。@
+`And the Tea Man had kept his promise.`@
 br
-　次の演目で、私は大抜擢を受けたのだ。\
-
+;　次の演目で、私は大抜擢を受けたのだ。\
+`In the following performances, I received a big selection.`\
 　その役の子が本番の直前に部長と大喧嘩をして、部を飛び出してしまったのだ。@
+`The child who was playing the part had a big fight with the director and quit.`@
 br
 　私は偶然にも、彼女の不在の折に代役を務めるため、その台本を熟読していた。@だから、本当の代役が見つかるまで、@仮ではあるが大抜擢を受けることとなったのだ……。\
 
@@ -1636,11 +1638,12 @@ br
 
 bg black,22
 
-　………それは私が願って止まなかった、可憐な可憐な、……お姫様の役だった。\
-
+;　………それは私が願って止まなかった、可憐な可憐な、……お姫様の役だった。\
+`......I never stopped wishing to play the part of a pretty, pretty princess.`\
 　私など、突然の穴に抜擢された、あくまでも急場凌ぎ。@……先生も部長も、誰も期待などしていなかった。\
 
-　でも、私はその役に、全ての魂をぶつけた。@
+;　でも、私はその役に、全ての魂をぶつけた。@
+`But, in that role, everyone attacks me.`@
 br
 　紅茶紳士さんが与えてくれた、たった一度のチャンスに、@……いや、一度と知るからこそ、全てをぶつけたのだ。\
 
@@ -1648,18 +1651,21 @@ br
 bg white,22
 bg engeki_05,2
 
-　お稽古も舞台の上も、……頭の中は真っ白だった。@
+;　お稽古も舞台の上も、……頭の中は真っ白だった。@
+`Both lessons and stage performances.....in my head they were hollow.`@
 br
-　それは緊張していて真っ白だった、という意味じゃない。@
-　私の全てを、内側が空っぽになるくらいに、全て全て出し切ったという意味。\
-
+;　それは緊張していて真っ白だった、という意味じゃない。@
+`Not to say that they were hollow from tension and nervousness.`@
+;　私の全てを、内側が空っぽになるくらいに、全て全て出し切ったという意味。\
+` No, it became hollow on the inside, for I had done all I could.`\
 　全てが無我夢中。@……舞台が幕を下ろすまで、何も記憶に残ってはいなかった。\
 
 se1v 54,70
 wait 100
 se2v 54,70
 
-　……だから、全てが終わり、我に返った時。@
+;　……だから、全てが終わり、我に返った時。@
+`....That's why, everything ended when it returned to me.`@
 br
 　私は割れんばかりの歓声と拍手の中にいた。\
 
