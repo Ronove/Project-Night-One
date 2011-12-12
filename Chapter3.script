@@ -1401,9 +1401,11 @@ br
 
 bg black,22
 
-　紅茶紳士は、小道具作りを手伝ってくれたわけではない。@
+;　紅茶紳士は、小道具作りを手伝ってくれたわけではない。@
+`　The Tea Gentleman didn't offer to help her put together the props or anything like that.`@
 br
-　しかし、窓辺でティーカップを傾けながら、みどりの身の上話に静かに相槌を打ってくれた。\
+;　しかし、窓辺でティーカップを傾けながら、みどりの身の上話に静かに相槌を打ってくれた。\
+`　However, he did quietly listen to Midori tell her story while inclining his teacup by the window.`\
 
 bg engeki_03,0
 ld r,MID_K1,0
@@ -1411,38 +1413,48 @@ ld l,SIN_Def1,2
 
 ld l,SIN_Def3,80
 
-「……可哀想に。@クラスにも部活にも居場所がないとは、実に気の毒な限りです。」@
+;「……可哀想に。@クラスにも部活にも居場所がないとは、実に気の毒な限りです。」@
+`"...Your poor thing. `@`Being an outsider in your own classroom and even in the clubs is truly regretable."`@
 
 ld r,MID_Def2,80
 
-「クラスは、……別にいいんです。@元々、学校なんて、好きじゃなかったし。」\
+;「クラスは、……別にいいんです。@元々、学校なんて、好きじゃなかったし。」\
+`"Well class ... that's fine. `@`I didn't really like school since the very beginning."`\
 
 ld l,SIN_Def1,80
 
-「では、貴方が悲しんでいるのは、……演劇部のことなのですね。」\
+;「では、貴方が悲しんでいるのは、……演劇部のことなのですね。」\
+`"So what's troubling you must be the... drama club then?"`\
 
 ld r,MID_Def2a,80
 
-「私、……本当に演劇が好きなんです。@………舞台の上では、色んな自分になれる。@別の世界や、別の人生が体験できる。@それが好きで、演劇部に入ったんです。」\
+;「私、……本当に演劇が好きなんです。@………舞台の上では、色んな自分になれる。@別の世界や、別の人生が体験できる。@それが好きで、演劇部に入ったんです。」\
+`"I ...really love drama. `@`...On the stage I can become whatever I want. `@`I can experience different worlds - different lives. `@`Because I love that, I entered the drama club."`\
 
 ld l,SIN_Def2,80
 
-「……なのに、貴方は理不尽に扱われ、今や小道具作りを押し付けられるこの扱い。@……お気の毒なことです。」\
+;「……なのに、貴方は理不尽に扱われ、今や小道具作りを押し付けられるこの扱い。@……お気の毒なことです。」\
+`"...And yet you're treated unreasonably even now you're being forced into making props.  `@`...How regretable."`\
 
 ld r,MID_K2,80
 
-「………………………………。」@
+;「………………………………。」@
+`"........."`@
 br
-　みどりは手を止め、……しくしくと涙を零す。@
+;　みどりは手を止め、……しくしくと涙を零す。@
+`　Midori stopped working... And she began to sob.`@
 br
-　小道具作りがしたくて、演劇部に入ったわけではないのだ。\
+;　小道具作りがしたくて、演劇部に入ったわけではないのだ。\
+`　She hadn't joined the drama club because she wanted to make props.`\
 
 ;bg white,28
 bg black,22
 
-　輝きたかった。@声援を浴びたかった。@
+;　輝きたかった。@声援を浴びたかった。@
+`　She wanted to shine. `@`She wanted to be showered with applause.`@
 br
-　クラスでいじめられようとも、@……せめて舞台の上でだけでも輝けたなら、まだ堪えることは出来たのだ。\
+;　クラスでいじめられようとも、@……せめて舞台の上でだけでも輝けたなら、まだ堪えることは出来たのだ。\
+`　Even if she were bullied in class, `@`...she could endure as long as she could at least shine upon the stage.`\
 
 bg engeki_03,0
 ;ld r,MID_Def1,0
@@ -1450,40 +1462,51 @@ ld c,SIN_Def1,22
 
 ld c,SIN_Def3,80
 
-「………可哀想に。@……しかし、これも何かの縁です。」@
+;「………可哀想に。@……しかし、これも何かの縁です。」@
+`"...You poor thing. `@`...However, even this is connected to something else."`@
 
 ld l,MID_K1,80
 
-「縁、って……？」\
+;「縁、って……？」\
+`"Connected...?"`\
 
 cl c,0
 ld r,SIN_Def2,23
 
-「私たちが望まずして姿を見ることが出来るニンゲンは、なかなか存在しませんよ。@私と貴方のこの出会いは、とても奇跡的なのです。」@
+;「私たちが望まずして姿を見ることが出来るニンゲンは、なかなか存在しませんよ。@私と貴方のこの出会いは、とても奇跡的なのです。」@
+`"There are hardly any humans that exist who can see us unless we wish it to be so. `@`In other words, our meeting here is quite miraculous indeed."`@
 br
-　確かに奇跡だろう。@
-　人の人生において、人ならざる者と出会う機会など、普通、あるわけもないのだ。\
+;　確かに奇跡だろう。@
+`　It certainly is a miracle.`@
+;　人の人生において、人ならざる者と出会う機会など、普通、あるわけもないのだ。\
+`　Meeting an otherwordly creature in one's life is by no means ordinary.`\
 
 ld r,SIN_Def1,80
 
-「せっかくの機会です。@……私の力で、貴方のささやかな夢を一つ、叶えてあげましょう。」@
+;「せっかくの機会です。@……私の力で、貴方のささやかな夢を一つ、叶えてあげましょう。」@
+`"Now is your long awaited chance. `@`...With my power, allow me to make your dream come true."`@
 
 ld l,MID_K2,80
 
-「私の、……夢………。」\
+;「私の、……夢………。」\
+`"My ...dream...."`\
 
 cl r,0
 ld c,SIN_Def4,24
 
-「貴方は、クラスでどんなにいじめられようとも、@舞台の上で輝けたならそれで満足とまで仰いました。@……演劇部員として、実に見上げた根性です。@それに敬意を表し、……そんな貴方の夢を一つだけ、一度だけ叶えてあげましょう。」@
+;「貴方は、クラスでどんなにいじめられようとも、@舞台の上で輝けたならそれで満足とまで仰いました。@……演劇部員として、実に見上げた根性です。@それに敬意を表し、……そんな貴方の夢を一つだけ、一度だけ叶えてあげましょう。」@
+`"No matter how much you might be bullied in class, `@`as long as you can shine on top of the stage, you said you'd be satusfied. `@`...As a drama club member, that is truly an admirable spirit. `@`As a token of my respect, ...allow me to grant your one dream - your one wish."`@
 br
-　男はそう言うと、左手をツイと上げる。\
+;　男はそう言うと、左手をツイと上げる。\
+`　When he said that, the man quickly raised his left hand.`\
 
 se1v 56,50
 
-　すると、部室の隅に詰まれた、舞台脚本を詰めたダンボール箱がいくつも、ふわりと浮き上がる。@
+;　すると、部室の隅に詰まれた、舞台脚本を詰めたダンボール箱がいくつも、ふわりと浮き上がる。@
+`　Then, from the corners of the room, countless packed cardboard boxes filled with scripts gently began to float.`@ 
 br
-　そこから何冊もの舞台脚本が飛び出し、……私の周りを、ゆっくりと漂いながら回り始める。\
+;　そこから何冊もの舞台脚本が飛び出し、……私の周りを、ゆっくりと漂いながら回り始める。\
+`　From those boxes leaped out innumerous scripts sprung forth ...and they floated and began to twirl around me.`\
 
 me1v 17,70
 
@@ -1502,41 +1525,51 @@ bg engeki_01,0
 ld r,SIN_Def2,23
 ld r,SIN_Def1,80
 
-「お好きな役を選んで下さい。@貴方にその役を与えてあげましょう。」@
+;「お好きな役を選んで下さい。@貴方にその役を与えてあげましょう。」@
+`"Please pick the role you desire. `@`And I'll give you that role."`@
 
 ld l,MID_Def2a,22
 
-「ほ、本当に……？@　ど、どんな役でも……？！」\
+;「ほ、本当に……？@　ど、どんな役でも……？！」\
+`"R- Really...? `@`A- Any role?!"`\
 
 ld r,SIN_Def3,80
 
-「えぇ、どんな役でもですよ。@悪を倒すヒーローにも愛を囁かれるヒロインにも。@望むなら犬にも猫にも、背景の木の役にだってして差し上げますよ……。」\
+;「えぇ、どんな役でもですよ。@悪を倒すヒーローにも愛を囁かれるヒロインにも。@望むなら犬にも猫にも、背景の木の役にだってして差し上げますよ……。」\
+`"Yes, any role! `@`A hero who topples evil. A heroine who receieves whispers of love. `@`If you wish it - I'll give you the role of a dog, a cat, or even a tree in the background...."`\
 
 ;ld l,MID_Def1,80
 
 me2v 16,50
 
-　いくつもの素敵な舞台脚本がみどりの前を過ぎる。@
+;　いくつもの素敵な舞台脚本がみどりの前を過ぎる。@
+`　Countless wondrous scripts passed in front of Midori.`@
 br
-　どの脚本も、どの役も、……憧れて止まなかったものばかり。\
+;　どの脚本も、どの役も、……憧れて止まなかったものばかり。\
+`　Any script, any role ...she couldn't contain her excitement.`\
 
 ld r,SIN_Def1,80
 
-「一つだけ、選んで下さい。@それを以って、私たちの契約と致しましょう。」@
+;「一つだけ、選んで下さい。@それを以って、私たちの契約と致しましょう。」@
+`"Please, choose only one. `@`With that, we'll make our contract."`@
 
 ld l,MID_K1,80
 
-「……契約って……？」\
+;「……契約って……？」\
+`"...Contract...?"`\
 
 ld r,SIN_Def4,80
 
-「すでにご想像されていると思いますが。@私はニンゲンではありません。@……むしろ、ニンゲンの皆さんの魂のカケラを少々。@お裾分けしてもらって糊口を凌ぐ身です。」\
+;「すでにご想像されていると思いますが。@私はニンゲンではありません。@……むしろ、ニンゲンの皆さんの魂のカケラを少々。@お裾分けしてもらって糊口を凌ぐ身です。」\
+`"It may have already come to your attention, `@`but I am not human. `@`...Rather, I take a little off the top of fragments of souls of all you humans. `@`I am a creature that ekes out a living on what is given to me."`\
 
 bg black,22
 
-　みどりもすぐに察する。@
+;　みどりもすぐに察する。@
+`　Midori quickly realized it.`@
 br
-　どんな役でも。@一つ願いを叶える代わりに、……魂を渡すという契約をせよと言っているのだ。\
+;　どんな役でも。@一つ願いを叶える代わりに、……魂を渡すという契約をせよと言っているのだ。\
+`　No matter what role. `@`In exchange for granting a single wish, ...he was saying it was a contract in exchange for her soul.`\
 
 ;bg white,1
 bg engeki_02,0
@@ -1545,43 +1578,57 @@ ld c,SIN_Def1,22
 
 ld c,SIN_Def2,80
 
-「おっと。@誤解させてしまいましたね。@……私は決して、死神ではありません。@私と契約したからと言って、貴方のお命を頂戴するような物騒は致しません。@魂のカケラをほんの少々。@かじらせてもらう程度です。@貴方には自覚できない程度のわずかですので、どうぞご心配をなさいませんように……。」\
+;「おっと。@誤解させてしまいましたね。@……私は決して、死神ではありません。@私と契約したからと言って、貴方のお命を頂戴するような物騒は致しません。@魂のカケラをほんの少々。@かじらせてもらう程度です。@貴方には自覚できない程度のわずかですので、どうぞご心配をなさいませんように……。」\
+`"Oh. `@`It seems you've misunderstood me. `@`...I am most certainly not a god of death. `@`A contract with me doesn't mean you would be giving me your life in exchange. `@`Just a tiny sliver of your soul. `@`I'd take just enough to nibble on. `@`Since it'd be so little, you wouldn't even be able to notice, so please don't worry..."`\
 
-　男はそう言ってにこやかに笑う。@
+;　男はそう言ってにこやかに笑う。@
+`　The man said with a smile.`@
 br
-　……その笑いは確かに、命と引き換えに…、という物騒さは感じさせないものだった。\
+;　……その笑いは確かに、命と引き換えに…、という物騒さは感じさせないものだった。\
+`　...From a smile like that, she couldn't sense any danger of giving her life away.`\
 
 fede 10,1000
 E_MA
 
 ld l,MID_K5,80
 
-　みどりは、逡巡せず決断する。@
+;　みどりは、逡巡せず決断する。@
+`　Midori made her decision without hesitation.`@
 br
-　このままの日々を繰り返したって、……自分の心は日々、殺されていくだけなのだ。\
+;　このままの日々を繰り返したって、……自分の心は日々、殺されていくだけなのだ。\
+`　Repeating her days like this... she was slowly being killed with the passing of each day.`\
 
-　なら、彼と契約しよう。@
+;　なら、彼と契約しよう。@
+`　So she would make the contract with him.`@
 br
-　日々、緩慢に殺されていくくらいなら。@………自らの意思で魂のカケラを支払い、何かを切り開く方がずっとマシだ。\
+;　日々、緩慢に殺されていくくらいなら。@………自らの意思で魂のカケラを支払い、何かを切り開く方がずっとマシだ。\
+`　...Cutting off something, offering a piece of her soul, `@`seemed a much better option than being slowly killed.`\
 
 cl c,0
 ld r,SIN_Def4,23
 
-「素晴らしい。@……貴方の心の強さに敬意を表します。@……貴方は必ずや得るでしょう。@この貴重な機会を活かし、それを切っ掛けに、まったく別の人生を切り開けると。@……貴方は必ずや今夜の奇跡を活かし、生まれ変われるに違いありません。」\
+;「素晴らしい。@……貴方の心の強さに敬意を表します。@……貴方は必ずや得るでしょう。@この貴重な機会を活かし、それを切っ掛けに、まったく別の人生を切り開けると。@……貴方は必ずや今夜の奇跡を活かし、生まれ変われるに違いありません。」\
+`"Wonderful. `@`...I respect the strength of your spirit. `@`...Of course you will take the contract. `@`Take this precious opportunity - take advantage of it and start a whole new life. `@`...You will make the best of tonight's miracle, and you will be born again."`\
 
 bg black,22
 
-　時に、舞台の上での神秘体験が、……実生活にも影響を及ぼすことはある。@
+;　時に、舞台の上での神秘体験が、……実生活にも影響を及ぼすことはある。@
+`　Occasionally... I've had the mystical experience of being on stage affect my real life.`@ 
 br
-　そう。@これは私にとって、一度だけお芝居で抜擢してもらえるというだけの奇跡ではない。@
+;　そう。@これは私にとって、一度だけお芝居で抜擢してもらえるというだけの奇跡ではない。@
+`　That's right. `@`For me, this isn't a miracle that's just for a role in a play.`@
 br
-　これを機会に、……自分を、人生を、運命を、変えるのだ。\
+;　これを機会に、……自分を、人生を、運命を、変えるのだ。\
+`　This is a chance to... change myself, change my life, and change my fate.`\
 
-　彼はそのチャンスを与えてくれた。@……でも、掴むのは私なんだ。@
+;　彼はそのチャンスを与えてくれた。@……でも、掴むのは私なんだ。@
+`　He gave me that chance. `@`...But I am the one taking it.`@
 br
-　絶対に掴む。@……そして、変えるんだ……。@
+;　絶対に掴む。@……そして、変えるんだ……。@
+`　I will take it`@` ...And, change...`@
 br
-　そして私は、………役を、選んだ。\
+;　そして私は、………役を、選んだ。\
+`　So, I've chosen ...my role.`\
 
 bg engeki_01,22
 ;ld r,SIN_Def1,0
@@ -1589,11 +1636,13 @@ ld c,MID_Def2,22
 
 ;ld l,MID_Def1,80
 
-「……あなたのことは、何て呼べば……。」@
+;「……あなたのことは、何て呼べば……。」@
+`"...What should I call you...?"`@
 
 ld l,SIN_Def1,22
 
-「そうですね。@……では、私の大好きな紅茶にちなみ。@紅茶紳士とでも名乗るとしましょう。」\
+;「そうですね。@……では、私の大好きな紅茶にちなみ。@紅茶紳士とでも名乗るとしましょう。」\
+`"That's right. `@`...Well, since I do love tea, `@`you may refer to me as the Tea Gentleman."`\
 
 
 
@@ -1619,9 +1668,11 @@ bg engeki_02,2
 
 bgm1 5
 
-　そして、紅茶紳士さんは約束を守った。@
+;　そして、紅茶紳士さんは約束を守った。@
+`　So the Tea Gentleman kept his promise.`@
 br
-　次の演目で、私は大抜擢を受けたのだ。\
+;　次の演目で、私は大抜擢を受けたのだ。\
+`　For the next play, I was chosen for the important role.`\
 
 　その役の子が本番の直前に部長と大喧嘩をして、部を飛び出してしまったのだ。@
 br
