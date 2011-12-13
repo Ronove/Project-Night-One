@@ -1674,9 +1674,10 @@ br
 `　For the next play, I was chosen for the important role.`\
 
 ;　その役の子が本番の直前に部長と大喧嘩をして、部を飛び出してしまったのだ。@
-`　The child who was playing the part had a big fight with the director and quit.`@
+`　The girl who was playing the part had a big fight with the club president and ran out of the club.`@
 br
-　私は偶然にも、彼女の不在の折に代役を務めるため、その台本を熟読していた。@だから、本当の代役が見つかるまで、@仮ではあるが大抜擢を受けることとなったのだ……。\
+;　私は偶然にも、彼女の不在の折に代役を務めるため、その台本を熟読していた。@だから、本当の代役が見つかるまで、@仮ではあるが大抜擢を受けることとなったのだ……。\
+`　If by chance I could take up her role in her absence, I carefully read her script. `@`So until a real subsistute was found, `@`although it was temporary, I hadn't been selected for any major roles before...`\
 
 ;se1 01
 ;bg white,28
@@ -1685,39 +1686,45 @@ br
 bg black,22
 
 ;　………それは私が願って止まなかった、可憐な可憐な、……お姫様の役だった。\
-`......I never stopped wishing to play the part of a pretty, pretty princess.`\
-　私など、突然の穴に抜擢された、あくまでも急場凌ぎ。@……先生も部長も、誰も期待などしていなかった。\
+`　......I never stopped wanting it. ...The sweet sweet role of the princess.`\
+;　私など、突然の穴に抜擢された、あくまでも急場凌ぎ。@……先生も部長も、誰も期待などしていなかった。\
+`　That someone like me was chosen to fill a sudden opening in a last minute emergency `@`...My teacher, even the club president - no one expected it.`\
 
 ;　でも、私はその役に、全ての魂をぶつけた。@
-`But, in that role, everyone attacks me.`@
+`　But I thrust all of my soul into that role.`@
 br
-　紅茶紳士さんが与えてくれた、たった一度のチャンスに、@……いや、一度と知るからこそ、全てをぶつけたのだ。\
+;　紅茶紳士さんが与えてくれた、たった一度のチャンスに、@……いや、一度と知るからこそ、全てをぶつけたのだ。\
+`　Into that sole chance that the Tea Gentleman gave to me... `@`No, it was because I knew it was my only chance that I gave it everything I had.`\
 
 ;se1 77
 bg white,22
 bg engeki_05,2
 
 ;　お稽古も舞台の上も、……頭の中は真っ白だった。@
-`Both lessons and stage performances.....in my head they were hollow.`@
+`　In practice and on stage, ...my mind was empty.`@
 br
 ;　それは緊張していて真っ白だった、という意味じゃない。@
-`Not to say that they were hollow from tension and nervousness.`@
+`　I don't mean empty as if my mind went blank from nervousness.`@
 ;　私の全てを、内側が空っぽになるくらいに、全て全て出し切ったという意味。\
-` No, it became hollow on the inside, for I had done all I could.`\
-　全てが無我夢中。@……舞台が幕を下ろすまで、何も記憶に残ってはいなかった。\
+` I mean it was as if everything about me, everything inside of me, had been hallowed out and everything had been used up.`\
+;　全てが無我夢中。@……舞台が幕を下ろすまで、何も記憶に残ってはいなかった。\
+`　Everything was a dream. `@`...I have no memory of what happened until the curtain dropped.`\
 
 se1v 54,70
 wait 100
 se2v 54,70
 
 ;　……だから、全てが終わり、我に返った時。@
-`....That's why, everything ended when it returned to me.`@
+`....But when everything was over, I returned to my senses.`@
 br
-　私は割れんばかりの歓声と拍手の中にいた。\
+;　私は割れんばかりの歓声と拍手の中にいた。\
+`　I was surrounded by cheers and roaring applause.`\
 
-　何が何やら、わからない。@眩いスポットライトに照らし出され、目が眩んでしまい、何もわからない。@
+;　何が何やら、わからない。@眩いスポットライトに照らし出され、目が眩んでしまい、何もわからない。@
+`　I don't know what happened. `@`I was caught wide-eyed and confused in the dazzling spotlight, and I have no idea what happened.`@
 br
-　主演の部長が私の手を取って、………アンコールに応えてあげる。\
+;　主演の部長が私の手を取って、………アンコールに応えてあげる。\
+`　The club president who was playing the lead took my hand... and asked for an encore.`\
 
 se1v 54,100
 wait 100
@@ -1725,9 +1732,11 @@ se2v 54,100
 wait 100
 se3v 54,100
 
-　その時、私はようやく理解し、実感した。@
+;　その時、私はようやく理解し、実感した。@
+`　At that moment, I finally realized and experienced it.`@
 br
-　舞台は、……私のお姫様の役は、……大成功に終わったのだ……。\
+;　舞台は、……私のお姫様の役は、……大成功に終わったのだ……。\
+`　On that stage... my part as the princess,... was a massive success...`\
 
 bg black,23
 bg engeki_06,0
@@ -1740,34 +1749,42 @@ wait 500
 
 ld l,MID_Def2,22
 
-「紅茶……紳士さん…………。」@
+;「紅茶……紳士さん…………。」@
+`"Tea Gentleman..."`@
 
 ld r,SIN_Def2,80
 
-「お見事でしたね。@ここでずっと見ていましたよ。」@
+;「お見事でしたね。@ここでずっと見ていましたよ。」@
+`"You did wonderful. `@`I've been watching from here for some time."`@
 br
-　舞台袖のカーテンの陰で。@紅茶紳士さんもずっと手を叩いていてくれた。\
+;　舞台袖のカーテンの陰で。@紅茶紳士さんもずっと手を叩いていてくれた。\
+`　In the shadows behind the curtain. `@`The Tea Gentleman had been applauding for a while as well.`\
 
 ld l,MID_Def5,80
 
-「あなたの……お陰です……。@……私は、………最高の役を得ました……。」\
+;「あなたの……お陰です……。@……私は、………最高の役を得ました……。」\
+`"I... had the best role... `@`...And it's all thanks... to you..."`\
 
 ld r,SIN_Def3,80
 
-「えぇ。@私は貴方の望む最高の役を与えました。@しかし、それを演じ切ったのは貴方の力ですよ。@……この大歓声に讃えられるに相応しい、素晴らしい才能でしたよ。」\
+;「えぇ。@私は貴方の望む最高の役を与えました。@しかし、それを演じ切ったのは貴方の力ですよ。@……この大歓声に讃えられるに相応しい、素晴らしい才能でしたよ。」\
+`"Yes. `@`I gave you the best role that you wanted. `@`However, the role was played through your strength. `@`...Receiving roaring cheers was most befitting your wondrous talents."`\
 
 cl l,5
 ;ld l,MID_Def1,80
 
-「………嬉しい……。@……嬉しいです……。@……私、……眩し過ぎて、……何も見えない……。」\
+;「………嬉しい……。@……嬉しいです……。@……私、……眩し過ぎて、……何も見えない……。」\
+`"...I'm happy... `@`...I'm happy... `@`...It was so bright ...I couldn't see anything..."`\
 
 ld r,SIN_Def1,80
 
-「もう、貴方は生まれ変わったのです。@チャンスを得て、貴方が掴んだ。@……その力を忘れずに。@貴方の人生を切り開き、ますますに豊かなものにしてくれるでしょう。」\
+;「もう、貴方は生まれ変わったのです。@チャンスを得て、貴方が掴んだ。@……その力を忘れずに。@貴方の人生を切り開き、ますますに豊かなものにしてくれるでしょう。」\
+`"You've already been reborn. `@`You got your chance and took it. `@`...You mustn't forget that strength, `@`and since you've cleared your past life, you'll be much better for it, wouldn't you say?"`\
 
 ld l,MID_Def4a,26
 
-「忘れませんっ。@私、……今のこの気持ちを、絶対に……。」\
+;「忘れませんっ。@私、……今のこの気持ちを、絶対に……。」\
+`"I will not forget. `@`I will never... forget this feeling..."`\
 
 ld l,MID_Def3,80
 cl l,2
@@ -1776,11 +1793,13 @@ wait 1000
 
 ld r,SIN_Def4,80
 
-「それと、私との約束も、お忘れなく。」\
+;「それと、私との約束も、お忘れなく。」\
+`"And, do not forget our contract either."`\
 
 cl r,2
 
-　紅茶紳士はにやりと笑い、それだけを言い残すと姿を消す。\
+;　紅茶紳士はにやりと笑い、それだけを言い残すと姿を消す。\
+`　The Tea Gentleman said with a smile and with those words he disappeared.`\
 
 bg white,1
 bg engeki_05,22
@@ -1789,7 +1808,8 @@ wait 100
 se2v 54,70
 
 
-　でも、今この場で魂を抜き取られて殺されたとしても。@……構わないくらいに、彼女は絶頂の中にいた。\
+;　でも、今この場で魂を抜き取られて殺されたとしても。@……構わないくらいに、彼女は絶頂の中にいた。\
+`　Even if she were to be killed by having her soul torn out from her right there `@`...it no longer mattered, because she was on top of the world.`\
 
 fede 0,2000
 E_A
@@ -1808,43 +1828,60 @@ bg black,2
 
 bgm1 1
 
-　奇跡の大抜擢。@奇跡のお姫様。@
+;　奇跡の大抜擢。@奇跡のお姫様。@
+`　The miraculous choice. `@`The miraculous princess.`@
 br
-　彼女はその日より、みどり姫と呼ばれ、@学校中の女子から憧れられ、一目を置かれるようになったのだ……。\
+;　彼女はその日より、みどり姫と呼ばれ、@学校中の女子から憧れられ、一目を置かれるようになったのだ……。\
+`　From that day forward, she was called Princess Midori. `@`She was admired by the girls at school and became well respected...`\
 
 bg kyou_01,2
 
-　そして夏休みが終わって、新学期になると。@
+;　そして夏休みが終わって、新学期になると。@
+`　Summer vacation ended and a new semester began.`@
 br
-　一学期の頃が嘘だったかのように、みどりに対するいじめは、綺麗さっぱりなくなっていた。\
+;　一学期の頃が嘘だったかのように、みどりに対するいじめは、綺麗さっぱりなくなっていた。\
+`　As if that semester had never happened, the bullying of Midori stopped entirely.`\
 
-　かつて自分をいじめていた子たちは、皆、それがまるでなかったかのように振舞った。@
+;　かつて自分をいじめていた子たちは、皆、それがまるでなかったかのように振舞った。@
+`　Those that had once bullied her, everyone, acted almost as if it had never happened.`@
 br
-　みどりにちやほやし、姫と呼んで持て囃してくれた。\
+;　みどりにちやほやし、姫と呼んで持て囃してくれた。\
+`　They fussed over Midori, called her princess, and gave her praise.`\
 
-　最初はちょっぴり、何て調子のいい人たちとも思った。@
+;　最初はちょっぴり、何て調子のいい人たちとも思った。@
+`　At first she thought everyone was a little inconsistent.`@ 
 br
-　でも、手の平返しではあっても、………尊敬し、敬愛してもらえるのは悪い気持ちではない。\
+;　でも、手の平返しではあっても、………尊敬し、敬愛してもらえるのは悪い気持ちではない。\
+`　And yet on the other hand, ...it didn't feel bad to be respected and loved.`\
 
-　……そこで浮かれたくなる気持ちを、彼女はぐっと堪える。@
+;　……そこで浮かれたくなる気持ちを、彼女はぐっと堪える。@
+`　...It was then that a feeling of delight began to take hold of her.`@
 br
-　もう、お金持ち自慢の高慢ちきなんて、絶対に言われないようにしよう。@
-　あのお姫様のように、……可憐でやさしくて、誰からも愛される心の美しいお姫様になるんだ……。\
+;　もう、お金持ち自慢の高慢ちきなんて、絶対に言われないようにしよう。@
+`　She decided that she wouldn't flaunt her wealth anymore.`@
+;　あのお姫様のように、……可憐でやさしくて、誰からも愛される心の美しいお姫様になるんだ……。\
+`　Just like that princess ...she would become sweet, kind -- a beautiful princess with a heart loved by all...`\
 
 bg black,22
 bg kyou_03,22
 
-　あの舞台を機に、私は生まれ変わったのだ。@
+;　あの舞台を機に、私は生まれ変わったのだ。@
+`　From that chance on stage, I was reborn.`@
 br
-　今ではもう、一学期のことなんて、誰も覚えていない。\
+;　今ではもう、一学期のことなんて、誰も覚えていない。\
+`　Even now, no one remembers what happened that semester anymore.`\
 
-　男子なら、私が側を通り過ぎるだけで、見惚れて顔を赤くし。@
+;　男子なら、私が側を通り過ぎるだけで、見惚れて顔を赤くし。@
+`　As for the boys, their faces turn bright red just from seeing me walk past them.`@
 br
-　女子なら、私に憧れ、友達と呼んでもらいたがる。\
+;　女子なら、私に憧れ、友達と呼んでもらいたがる。\
+`　And the girls adore me and want to call me their friend.`\
 
-　私のわずかの振る舞いに、みんなは一喜一憂する。@
+;　私のわずかの振る舞いに、みんなは一喜一憂する。@
+`　Based on how I act, everyone is moved to joy or sorrow.`@
 br
-　私の何気ない仕草が、まるで偉人のように扱われ、学校の伝説になっていく。\
+;　私の何気ない仕草が、まるで偉人のように扱われ、学校の伝説になっていく。\
+`　It's as if my casual actions are treated like those of a celebrity, and I've started to become a legend at school.`\
 
 bg black,23
 bg rouka_03,0
@@ -1852,64 +1889,85 @@ ld r,MID_Def1,23
 
 cl r,2
 
-『みどりちゃんって凄いよね、かっこいいよね！@　私もあんな風になりたいっ。』@
-『みどり姫、マジ可憐……。@一度でいいから、名前呼んで微笑んでくれねぇかなぁ……。』@
-『みどり姫、主演の演劇、またやらないのかな！@　演劇部、目が離せな～い！』\
+;『みどりちゃんって凄いよね、かっこいいよね！@　私もあんな風になりたいっ。』@
+`"Midori-chan is awesome! She's so cute! `@`I want to be just like her!"`@
+;『みどり姫、マジ可憐……。@一度でいいから、名前呼んで微笑んでくれねぇかなぁ……。』@
+`"Princess Midori is so sweet... `@`It would be so nice if she would call my name just once and smile..."`@
+;『みどり姫、主演の演劇、またやらないのかな！@　演劇部、目が離せな～い！』\
+`"I wonder if Princess Midori is going to do another performance?! `@`Better keep an eye on that drama club~!"`\
 
 bg black,23
 bg engeki_01,23
 
-『さぁっ、レッスンレッスン！@　浮かれないで！@　基礎を忘れずに！』@
-『……楠木の実力を見誤ってたよ。@これまでを申し訳なく思う…。』\
+;『さぁっ、レッスンレッスン！@　浮かれないで！@　基礎を忘れずに！』@
+`"Alright, lesson time! `@`Don't get excited! `@`And don't forget what you've learned!"`@
+;『……楠木の実力を見誤ってたよ。@これまでを申し訳なく思う…。』\
+`"...I really misjudged Kusunogi's true potential. `@`I have no excuse for how I've acted lately..."`\
 
 ld r,MID_Def3,22
 
-『いいんですよ、部長。@私、これからもお稽古をがんばって、もっともっと素敵な演技が出来るように努力しますね。』\
+;『いいんですよ、部長。@私、これからもお稽古をがんばって、もっともっと素敵な演技が出来るように努力しますね。』\
+`"It's fine, club president. `@`I'm also going to do my best at practice, and I'm going to work hard to become an even better actress."`\
 
-『さすがみどり姫～……。@何であんな素敵な子が同じ部にいるのに、私たちはずっと気付かなかったの？』@
+;『さすがみどり姫～……。@何であんな素敵な子が同じ部にいるのに、私たちはずっと気付かなかったの？』@
+`"That's our Princess Midori~... `@`With such a wonderful girl in our class like her, how come we never noticed her before?"`@
 br
-　教室でも部室でも、みどりを賞賛する声が溢れる。\
+;　教室でも部室でも、みどりを賞賛する声が溢れる。\
+`　In the classroom and in the clubroom, voices of praise washed over Midori.`\
 
 bg black,22
 
-　それらはみどりに自信と勇気を与えた。@
+;　それらはみどりに自信と勇気を与えた。@
+`　Those voices gave Midori self-confidence and courage.`@
 br
-　そしてみどりも慢心することなく、稽古に励み。@何より、誰からも愛される自分になろうと、心を入れ替えた。\
+;　そしてみどりも慢心することなく、稽古に励み。@何より、誰からも愛される自分になろうと、心を入れ替えた。\
+`　And so without being conceited, Midori strived at practice. `@`Most of all, she changed her heart so she could become someone loved by all.`\
 
-　心が変われば、それは身体も変わる。\
+;　心が変われば、それは身体も変わる。\
+`　If one's heart changes, that changes the body as well.`\
 
 ;bg white,28
 bg black,0
 ld r,MID_Def1,22
 
-　いつも俯いて猫背だった背筋はピンと伸び、美しい姿勢に変わった。\
+;　いつも俯いて猫背だった背筋はピンと伸び、美しい姿勢に変わった。\
+`　Her slumped shoulders that had always hung her head in shame suddenly lifted and straightened, and her posture became exquisite.`\
 
 bg rouka_02,0
 ld r,MID_Def5,22
 
-　声にも凛とした響きが宿り、その声を聞いた人は思わず振り返らずにはいられなくなった。@
+;　声にも凛とした響きが宿り、その声を聞いた人は思わず振り返らずにはいられなくなった。@
+`　Even her voice held a dignified tone, and those that heard her voice couldn't help but turn their heads and to listen.`@ 
 br
-　顔も、誰もが溜め息を漏らしたくなるほどに美しく変わっていった。\
+;　顔も、誰もが溜め息を漏らしたくなるほどに美しく変わっていった。\
+`　Her face also changed beautifully -- making onlookers want to sigh.`\
 
 ld r,MID_Def3,22
 cl r,22
 
-　もう、一学期の彼女とはまるで別人。@
+;　もう、一学期の彼女とはまるで別人。@
+`　She was already a different person from the first semester.`@
 br
-　まさに、彼女は生まれ変わったのだ。\
+;　まさに、彼女は生まれ変わったのだ。\
+`　She had truly been reborn.`\
 
 bg black,22
 bg white,29
 bg air_02,2
 
-　今日もみどりは部活動に勤しんでいる。@
+;　今日もみどりは部活動に勤しんでいる。@
+`　Today too, Midori is working hard in the club activities.`@
 br
-　校庭を走り込んでの体力作り。@
-　他の部活の子たちが、みどりの姿が見える度に、手を振ったり声援を送ったりする。\
+;　校庭を走り込んでの体力作り。@
+`　She's running around the courtyard building her endurance.`@
+;　他の部活の子たちが、みどりの姿が見える度に、手を振ったり声援を送ったりする。\
+`　Each time the other club members see Midori, they throw out their hands and cheer.`\
 
-　………私、本当に幸せだ………。@
+;　………私、本当に幸せだ………。@
+`　......I, ...am truly happy......`@
 br
-　みどりはこうして、……誰からも愛される“姫”になったのだ……。\
+;　みどりはこうして、……誰からも愛される“姫”になったのだ……。\
+`　Like so, ...Midori became the 'princess' loved by all...`\
 
 
 
