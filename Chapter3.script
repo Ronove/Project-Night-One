@@ -3448,13 +3448,15 @@ ld c,MID_Def2a,24
 
 「………私が主役、……私が主役……。@……誰にも譲らない、……誰にも譲らないッ……。」@
 br
-　お気に入りのワンピースを脱ぐ。\
+;　お気に入りのワンピースを脱ぐ。\
+`　I took off my favorite dress.`\
 
 ;bg white,28
 
 bg black,1
 
 　その時、……鏡に映る自分の姿を見て、……みどりは息を呑んだ。\
+`　Just then, ...looking at herself reflected in the mirror, ...Midori's heart stopped.`\
 
 E_A
 
@@ -3468,50 +3470,63 @@ se1 24
 bg aka2,1
 quake 3,300
 
-「な、………何よ、………これ………。」@
+;「な、………何よ、………これ………。」@
+`"Wh, ...what is,...this..."`@`
 br
-　露になった二の腕に、シミの様なものがついていた。@鮮やかな色の何かが。\
+;　露になった二の腕に、シミの様なものがついていた。@鮮やかな色の何かが。\
+`　On both her exposed arms, something that looked like a moth was stuck.`@` A vivid something.`\
+;　絵の具だろうか……？@　そう思って顔を近づける。\
+`　Was it paint...?`@` Thinking that, she dres her face nearer.`\
 
-　絵の具だろうか……？@　そう思って顔を近づける。\
 
 bgm1 16
 
-「……………何よ、……これ……。」\
+;「……………何よ、……これ……。」\
+`"...What the hell,...is this..."`\
 
-　痣だった。@
+;　痣だった。@
+`　It was a bruise.`@`
 br
-　一つや二つではない。@
-　赤、青、紫…………………鮮やかな痣が腕一面に浮かんでいた。@
+;　一つや二つではない。@
+`　Not just one or two.`@`
+;　赤、青、紫…………………鮮やかな痣が腕一面に浮かんでいた。@
+`　Red, blue, purple, ...vibrant bruises were stuck all over her arms.`@`
 br
-　腕がガタガタと震えだした。\
-
+;　腕がガタガタと震えだした。\
+`　Her arms began to shake.`\
 me1v 17,70
 
-「……なんなのよ、これ。」@
+;「……なんなのよ、これ。」@
+`"...What is this."`@`
 br
-　服に覆われて隠れていた部分に、……背中にも、お腹にも。@いくつもの、いくつもの痣が。@内出血の痕が。\
-
+;　服に覆われて隠れていた部分に、……背中にも、お腹にも。@いくつもの、いくつもの痣が。@内出血の痕が。\
+`　The parts that were hidden by her clothes, ...on her back, on her stomach.`@` Countless, countless bruises.`@`Traces of internal bleeding.`\
 ;bg black,22
 bg engeki_04,0
 ld c,MID_U1,22
 
 me2v 3,70
 
-「何よ、………これ………、…………これ……ッ…！！！」@
+;「何よ、………これ………、…………これ……ッ…！！！」@
+`"What...what is this...this...!!!"`@`
 br
 　静寂の部室に、……みどりの悲鳴が木霊した……。\
+`　In the silent room...Midori's screams resounded.`\
 
 bg black,22
 bg engeki_01,22
 
-　部室の片隅に浮かぶティーカップが、くいっと傾く。@
+;　部室の片隅に浮かぶティーカップが、くいっと傾く。@
+`　A teacup floating in the corner of the clubroom tipped with a slurp.`@`
 br
-　衝撃を受けて放心しているみどりには、紅茶紳士の姿は見えていないようだった。\
+;　衝撃を受けて放心しているみどりには、紅茶紳士の姿は見えていないようだった。\
+`　Due to the shock on her peace of mind, it seemed like Midori couldn't see The Tea Gentleman's form.`\
 
 ld l,SIN_Def1,2
 ld l,SIN_Def4,22
 
-「気にしないことですよ、みどりさん。@………もっとも、それを口にしたところで、もう耳には届かないようですがねぇ。@……っくっくっくっくっくっく！」\
+;「気にしないことですよ、みどりさん。@………もっとも、それを口にしたところで、もう耳には届かないようですがねぇ。@……っくっくっくっくっくっく！」\
+`"It's nothing to worry about, Midori-san.`@`...But then, even if you were to speak of it, it seems it wouldn't reach anyone's ears.`@` ...Kukukukuku!"`\
 
 ;ld r,MAR_Def1,42
 
@@ -3519,21 +3534,27 @@ mbg black,22
 
 E_A
 
-「……その子を、そっとしてあげて下さい。」\
+;「……その子を、そっとしてあげて下さい。」\
+`"...Leave that girl alone."`\
 
 mcbg 22
 ld l,SIN_Def1,80
 
 me1v 17,50
 
-「………おや。」@
+;「………おや。」@
+`"...Hmm?"`@`
+
 br
-　紅茶紳士の前に、……毬枝が、ゆっくりと姿を現す。@
-　鋭い目線で、紅茶紳士を睨んでいた。\
+;　紅茶紳士の前に、……毬枝が、ゆっくりと姿を現す。@
+`　In front of The Tea Gentleman, ...Marie slowly showed herself.`@`
+;　鋭い目線で、紅茶紳士を睨んでいた。\
+`　She glared at The Tea Gentleman with a perceptive gaze.`\
 
 ld l,SIN_Def4,80
 
-「学校妖怪、序列第８位の。@……めそめその毬枝さんではありませんか。」\
+;「学校妖怪、序列第８位の。@……めそめその毬枝さんではありませんか。」\
+`"If it isn't our 8th Ranking School Youkai.`@` ...Meso-Meso Marie."`\
 
 E_A
 
@@ -3542,46 +3563,56 @@ bgm1 15
 ld r,MAR_i4,2
 ld r,MAR_i3,22
 
-「……妖怪ですね。@あなたも。」@
+;「……妖怪ですね。@あなたも。」@
+`"...A youkai.`@` You're one too."`@`
 
 ld l,SIN_Def2,80
 
-「えぇ。@ご同業ですよ。@……ニンゲンから魂のささやかなカケラをお譲りいただき、糊口を凌ぐささやかな存在です。」\
+;「えぇ。@ご同業ですよ。@……ニンゲンから魂のささやかなカケラをお譲りいただき、糊口を凌ぐささやかな存在です。」\
+`"Indeed.`@`We are in the same trade.`@`...I am a being who survives, by receiving a modest portion of a human's soul."`\
 
 ld r,MAR_i1,80
 
-「楠木みどりさんは、がんばり屋さんで、とても心の綺麗な女の子です。@……今も、発表会に向けて一生懸命、努力しています。」@
+;「楠木みどりさんは、がんばり屋さんで、とても心の綺麗な女の子です。@……今も、発表会に向けて一生懸命、努力しています。」@
+`"Midori Kusunoki is a hard worker, a girl with a beautiful heart.`@` ...Even now, she is endeavoring with all her might for the play.
 
 ld l,SIN_Def3,80
 
-「えぇ。@それは誰よりもよく承知しておりますよ……。」\
+;「えぇ。@それは誰よりもよく承知しておりますよ……。」\
+`"Yes.`@`I acknowledge that more than anyone..."`\
 
 bg black,22
 
 ;ld l,MAR_Def1,80
 
-「そんな彼女をいじめて、……楽しいですか。」@
+;「そんな彼女をいじめて、……楽しいですか。」@
+`"Is it fun, ...to bully that girl?"`@`
 
 ;ld r,SIN_Def1,80
 
-「それは誤解ですねぇ。@どうして私がみどりさんをいじめるのでしょうか。」\
+;「それは誤解ですねぇ。@どうして私がみどりさんをいじめるのでしょうか。」\
+`"Now that's a misunderstanding.`@` How am I bullying Midori-san?"`\
 
 bg engeki_03,22
 ld l,MAR_i3a,22
 
-「……彼女の魂を、あなたは食べています。@……これは、あなたの狩りです。」@
+;「……彼女の魂を、あなたは食べています。@……これは、あなたの狩りです。」@
+`"...You're consuming her soul.`@`...That's what you're hunting."`@`
 
 ld r,SIN_Def2,22
 
-「ささやかなものでしょう？@　強欲な学校妖怪たちと違い、私は命を奪うようなことは好みませんので。」\
+;「ささやかなものでしょう？@　強欲な学校妖怪たちと違い、私は命を奪うようなことは好みませんので。」\
+`"It's only a little bit, right?`@` Unlike the greedy School Youkai, it is not to my liking to steal one's life."`\ 
 
 ld l,MAR_i4,80
 
-「………はい。@だから、もうこれで。@……彼女を見逃してあげて下さい。」@
+;「………はい。@だから、もうこれで。@……彼女を見逃してあげて下さい。」@
+`"...Yes.`@`That's why, just with this.`@` ...Please overlook her."`@`
 
 ld r,SIN_Def3,80
 
-「見逃す、とは……？」\
+;「見逃す、とは……？」\
+`"Overlook, meaning...?"`\
 
 bg black,23
 bg engeki_01,0
@@ -3591,90 +3622,110 @@ wait 1000
 
 ;ld l,MAR_Def1,80
 
-「彼女をずっと見てきました。@……おかしな呪いは日増しに酷くなり、彼女を追い詰めています。@……彼女は発表会で最高の演技をしたいだけ。@あなたの呪いが、それを妨げようとしています。」\
+;「彼女をずっと見てきました。@……おかしな呪いは日増しに酷くなり、彼女を追い詰めています。@……彼女は発表会で最高の演技をしたいだけ。@あなたの呪いが、それを妨げようとしています。」\
+`"I have been watching her this whole time.`@`...This bizarre curse has been getting worse day by day and has driven her into a corner.`@` ...All she wants is to give the greatest performance at the play.`@` Your curse is preventing that."`\
 
 ;ld r,SIN_Def1,80
 
-「痛みとやらが気になるのは。@彼女の集中力が足らないからに他なりません。@……彼女が演技について本当に集中してくれたなら、気になるようなものではないのですが。」\
+;「痛みとやらが気になるのは。@彼女の集中力が足らないからに他なりません。@……彼女が演技について本当に集中してくれたなら、気になるようなものではないのですが。」\
+`"The reason she worries about pain and the like,`@` is due to none other than her lack of concentration.`@`...If she were truly concentrating on her performance, there would be nothing else on her mind."`\
 
 mld r,MAR_i3,22
 
-「………もう一度言います。@みどりさんを、見逃してあげて下さい。」@
+;「………もう一度言います。@みどりさんを、見逃してあげて下さい。」@
+`"...I'll say it one more time.`@` Let Midori-san go."`@`
 
 mld l,SIN_Def3,22
 
-「出来ませんね。@彼女は、私の獲物です。」\
+;「出来ませんね。@彼女は、私の獲物です。」\
+`"I can't do that.`@` She is my prey."`\
 
 ;bg black,24
 ;bg engeki_02,0
 mld r,MAR_i2a,80
 
-「………なら。@……学校妖怪のルールに、従わせてもらいます。」@
+;「………なら。@……学校妖怪のルールに、従わせてもらいます。」@
+`"Then,`@`...I shall abide by the school youkai's rules."`@`
 
 mld l,SIN_Def2,80
 
-「ルール？@　はて。@如何なる束縛も嫌う私たちが、何のルールを？」\
+;「ルール？@　はて。@如何なる束縛も嫌う私たちが、何のルールを？」\
+`"Rules?`@`Well then.`@`For ones who despise any kind of shackles like us, what rules?"
 
 mld r,MAR_i3a,80
 
-「誰を獲物とするも自由。@……そして、誰の獲物を奪うも、自由。」\
+;「誰を獲物とするも自由。@……そして、誰の獲物を奪うも、自由。」\
+`"We can make anyone our prey.`@`...And we can take anyone's prey."`\
 
 mld l,SIN_Def4,80
 
-「くっくくく。@っくっくくくくくくくくくくく！@　なるほどッ、確かに妖怪が従う、唯一のルールですねぇ。」@
+;「くっくくく。@っくっくくくくくくくくくくく！@　なるほどッ、確かに妖怪が従う、唯一のルールですねぇ。」@
+`"Kukukuku.`@`Kukukukukuku!`@` I see, indeed youkai do abide by just that one rule, don't we."`@`
 br
-　紅茶紳士は、一本取られたとでも言うように肩を揺すって笑う。\
+;　紅茶紳士は、一本取られたとでも言うように肩を揺すって笑う。\
+`　As if to say, 'You've got me there', The Tea Gentleman's shoulders shook with laughter.`\
 
 mcl a,0
 bg black,23
 bg engeki_02,23
 ld c,MAR_i4a,22
 
-「妖怪にも、生きるために魂を食らわねばならない都合があることはわかっています。@……だから、ここで引き下がってくれれば、私も事を荒立てません。」@
+;「妖怪にも、生きるために魂を食らわねばならない都合があることはわかっています。@……だから、ここで引き下がってくれれば、私も事を荒立てません。」@
+`"I understand that youkai are under the circumstances where we must consume souls to live.`@` ...Therefore, if you depart now, I will not exacerbate this."`@`
 br
-　毬枝は強い意思の宿る眼差しで、紅茶紳士を射抜く。\
+;　毬枝は強い意思の宿る眼差しで、紅茶紳士を射抜く。\
+`　Marie's strong will shot through The Tea Gentleman, just with her gaze.`\
 
 ld l,SIN_Def2,22
 
-「これは困りました。@学校妖怪八席のめそめそさんに凄まれては。@序列を持たぬ弱小妖怪の私など、塵にされてしまいますねぇ。」\
+;「これは困りました。@学校妖怪八席のめそめそさんに凄まれては。@序列を持たぬ弱小妖怪の私など、塵にされてしまいますねぇ。」\
+`"This is a problem.`@`Being threatened by MesoMeso-san of the 8th Seat of School Youkai.`@` A puny youkai with no ranking like myself, will surely be no match for you."`\
 
 ld c,MAR_i3,80
 
-「私だってしたくないし。@あなただって、されたくないはずです。」\
+;「私だってしたくないし。@あなただって、されたくないはずです。」\
+`"I don't want to do this.`@`And I'm sure you don't want this to be done to you."`\
 
 ld l,SIN_Def3,80
 
-「……しかし、みどりさんという素晴らしき茶葉をここで譲るには余りに惜しい。」@
+;「……しかし、みどりさんという素晴らしき茶葉をここで譲るには余りに惜しい。」@
+(?)`"...However, I don't believe there are any tea leaves worthy of Midori's brilliantness left to give."`@`
 
 cl c,0
 ld r,MAR_i4,23
 
-「………………わかってます。@妖怪同士が、話し合いで決着するわけもないと。」\
+;「………………わかってます。@妖怪同士が、話し合いで決着するわけもないと。」\
+`"...I know.`@` As a fellow youkai, I don't intend to settle this through talking."
 
 ld l,SIN_Def4,80
 
-「………………………たくましい。@元いじめられっことは思えませんね。」\
+;「………………………たくましい。@元いじめられっことは思えませんね。」\
+`"...How strong.`@`I would never have thought you were once bullied."`\
 
 ld r,MAR_i2,80
 
-「元いじめられっこだからこそ。@………私には人の心が、誰よりもわかるんです。@……あなたはがんばり屋の少女を蝕んでいる。@……そんな努力を蔑ろにしようとするあなたを、私は見過ごすわけには行きません。」\
+;「元いじめられっこだからこそ。@………私には人の心が、誰よりもわかるんです。@……あなたはがんばり屋の少女を蝕んでいる。@……そんな努力を蔑ろにしようとするあなたを、私は見過ごすわけには行きません。」\
+`"It is because I was once bullied.`@`...I understand people's hearts, more than anybody else.`@` ...You are consuming that hard-working girl.`@`...I have no intentions of letting it slide, that you would make light of that endeavor."`\
 
 cl l,0
 mld l,SIN_Def1,80
 
-「めそめそさんは、扉を挟んでこそ、真価を発揮する妖怪と聞きましたが…？」@
+;「めそめそさんは、扉を挟んでこそ、真価を発揮する妖怪と聞きましたが…？」@
+`"I've heard Mesomeso-san is a youkai who demonstrates her true worth -- with a door interposed."`@`
 
 ld r,MAR_i3a,80
 
 「……仮にも学校妖怪八席。@……あなたを、……この腕で、……駆逐しますッ。」\
+`"...Even as a joke, I am in the 8th Ranked Seat of School Youkai.`@` I will...with these hands...exterminate you."`\
 
 se1v 22,50
 bg white,8
 
-　いつの間にか、紅茶紳士のティーカップの湯気が、部室中に充満していた。@
+;　いつの間にか、紅茶紳士のティーカップの湯気が、部室中に充満していた。@
+`　At some point, the steam from The Tea Gentleman's cup, had filled the entire club room.`@`
 br
-　それは霧のようというより、@……まるでティーカップから、霧の腕が何本も生え出したかのよう。\
-
+;　それは霧のようというより、@……まるでティーカップから、霧の腕が何本も生え出したかのよう。\
+`　Rather than a mist,`@` ...it was as if from the teacup, countless arms of fog had sprung up.`\
 se2v 22,50
 
 mcl l,0
@@ -3692,9 +3743,11 @@ print 1
 ;quakex 1,100
 
 
-　それらが揺らめき、……爬虫類のように毬枝を睨みつけ、…………襲う。@
+;　それらが揺らめき、……爬虫類のように毬枝を睨みつけ、…………襲う。@
+`　They were swaying,...and scowling at Marie like reptiles,...and attacked.`@`
 br
-　何本もの霧の腕が毬枝に飛び掛る。@ぐるぐる巻きにして締め上げる。\
+;　何本もの霧の腕が毬枝に飛び掛る。@ぐるぐる巻きにして締め上げる。\
+`　Those countless arms of mist leapt at Marie.`@` They coiled around her and constricted her.`\
 
 mcbg 0
 
@@ -3718,28 +3771,34 @@ quakey 3,200
 
 ld l,SIN_Def1,22
 
-「……………………………。」@
+;「……………………………。」@
+`"..."`@`
 br
-　紅茶紳士は、ふっと笑う。\
+;　紅茶紳士は、ふっと笑う。\
+　The Tea Gentleman, laughed with a huff.
 
-　あっさりと決着がついたから？@　違う。@
+;　あっさりと決着がついたから？@　違う。@
+`　Because he settled things so quickly?`@` No.`@`　
 br
-　わかっているのだ。@仮にも、学校妖怪八席。@……この程度で、仕留められるわけもない。\
+;　わかっているのだ。@仮にも、学校妖怪八席。@……この程度で、仕留められるわけもない。\
+`　He knew.`@` The Eighth Ranked School Youkai, even for a time.`@`...There was no way this amount would take her down.`\
 
 
 mbg "BMP\background\efe\red1.bmp",1
 mcbg 22
 
-　毬枝をぐるぐる巻きにしている霧の腕が、……ぶるぶると震える。@
+;　毬枝をぐるぐる巻きにしている霧の腕が、……ぶるぶると震える。@
+`　The arms of mist that were constricting Marie all around, ...were shuddering.`@`
 br
-　そして、……内側から引き剥がすかのように、……一本一本、……千切られていく。\
-
+;　そして、……内側から引き剥がすかのように、……一本一本、……千切られていく。\
+`　And, ...As though tearing them apart from within, ...One by one...She tore them to shreds.`\
 ld l,SIN_Def3,80
 
-「……めそめそさんは豪腕怪力の妖怪だそうですね。@……なるほど、恐ろしい力です。」@
+;「……めそめそさんは豪腕怪力の妖怪だそうですね。@……なるほど、恐ろしい力です。」@
+`"...Mesomeso-san appears to be a youkai with superhuman strengths.`@` ...I see, what a dreadful power."`@`
 br
-　繭を内側から破るように。@……激しい音がして、霧の腕が霧散する。\
-
+;　繭を内側から破るように。@……激しい音がして、霧の腕が霧散する。\
+`　As though tearing apart a cocoon from within,`@` ...With a violent sound, the arms of mist dispersed.`\
 se1v 55,70
 
 bg white,28
@@ -3754,11 +3813,12 @@ mld c,MAR_i4,25
 se3v 13,50
 quakey 2,200
 
-　再び姿を見せた毬枝は、@……学校を代表する妖怪たちの末席を務める者に相応しい貫禄を見せていた。\
-
+;　再び姿を見せた毬枝は、@……学校を代表する妖怪たちの末席を務める者に相応しい貫禄を見せていた。\
+`　The figure of Marie was seen once more,`@` ..Marie displayed a presence befitting of one representing one who emplyed the school's lowest seat of youkai.`\
 mld c,MAR_i2,80
 
-「…………私は、まだ自分の力をよくわかっていません。@………私に抱き締められタラ、……手加減は、無理……デス……。」\
+;「…………私は、まだ自分の力をよくわかっていません。@………私に抱き締められタラ、……手加減は、無理……デス……。」\
+`"...I, still do not understand my own power.`@`...If you hoLD ME, ...holding back, will be...imposSIBLE..."`\
 
 me1v 16,70
 
@@ -3768,17 +3828,22 @@ mld c,MAR_o1,2
 
 me2v 28,90
 
-　毬枝の体から、重い冷気が噴出し、床を満たす……。@
+;　毬枝の体から、重い冷気が噴出し、床を満たす……。@
+`　From Marie's body, a heavy chill gushed out and covered the floor...`@`
+
 br
-　鉛のような質量を伴った両腕は、@まるで丸太を思わせるほどの太ささえ感じさせる威圧感を放っていた。\
+;　鉛のような質量を伴った両腕は、@まるで丸太を思わせるほどの太ささえ感じさせる威圧感を放っていた。\
+`　As though they were reinforced with lead,`@` both arms that were so large one could even think they were like logs gave off an intimidating air.`\
 mcl c,0
 bg engeki_01,0
 mld l,SIN_Def1,22
 ;ld l,SIN_Def1,80
 
-「やはり、……敵いませんか。@……では、最後に一花とさせていただきましょう。」@
+;「やはり、……敵いませんか。@……では、最後に一花とさせていただきましょう。」@
+`"I suppose,...it cannot be granted.`@` ...Then in conclusion, I shall take hold of my success."`@`
 br
-　紅茶紳士が手をかざすと、そこに霧の蛇が巻きつき、……槍のような鋭さを見せる。\
+;　紅茶紳士が手をかざすと、そこに霧の蛇が巻きつき、……槍のような鋭さを見せる。\
+`　The Tea Gentleman raised his hand, and a snake of mist twined around, ...sharp like a lance.`\
 
 se1v 22,50
 
@@ -3786,17 +3851,21 @@ bg white,8
 
 ld r,MAR_o1,2
 
-「…………………………………。」@
+;「…………………………………。」@
+`"......"`@`
 
 mld l,SIN_Def2,80
 
 「……おや。@足音が近付いてきますね。@……これ以上、ニンゲンが増えると居心地が良くありません。@この一撃で、決着とさせていただきましょう。」\
+`"...Hmm? `@`Some footsteps are coming closer`@`...If we go on, more HUMANS than I am comfortable with will be here.`@` Allow me to settle this with this one blow."`\
 
-　確かに、誰かの足音が近付いてくる。@
-　まっすぐ、この部室に近付いてくる。@
+;　確かに、誰かの足音が近付いてくる。@
+`　Indeed, someone's footsteps were nearing.`@`
+;　まっすぐ、この部室に近付いてくる。@
+`　They were coming closer, directly to this clubroom.`@`
 br
-　それが、二人の決闘の、秒読みとなる………。\
-
+;　それが、二人の決闘の、秒読みとなる………。\
+`　That was to be the countdown, to these two's duel...`\
 E_A
 
 se1v 82,100
@@ -3805,10 +3874,12 @@ mcl l,0
 bg white,64
 
 
-　がらりと部室の引き戸が開け放たれた瞬間。@/
-me1v 28,70
-……毬枝と紅茶紳士は、電光のような閃きで交差した。\
 
+;　がらりと部室の引き戸が開け放たれた瞬間。@/
+`　Suddenly, the moment the club's sliding door was thrown open.`@`/
+me1v 28,70
+;……毬枝と紅茶紳士は、電光のような閃きで交差した。\
+`...Marie and The Tea Gentleman, crossed paths with a flash like lightning.`\
 
 
 ld_p MAR_i2
@@ -3816,28 +3887,32 @@ lsp2 4,$ld_pass,130,550,200,200,0
 lsp2 5,$ld_pass2,130,550,200,200,0
 print 24
 
-「…………………………。」@
+;「…………………………。」@
+`"......"`@`
 
 ld_p SIN_Def3
 lsp2 2,$ld_pass,480,480,-200,200,0
 lsp2 3,$ld_pass2,480,480,-200,200,0
 print 23
 
-「………ですよねぇ…………。」\
+;「………ですよねぇ…………。」\
+`".....Isn't it..."`\
 
 ld_p MAR_i3
 lsp2 4,$ld_pass,130,550,200,200,0
 lsp2 5,$ld_pass2,130,550,200,200,0
 print 80
 
-「……負けを認めて下さい。@……手加減は、本当に難しいんです。」@
+;「……負けを認めて下さい。@……手加減は、本当に難しいんです。」@
+`"...Accept your defeat.`@` ...It truly is difficult to hold back."`@`
 
 ld_p SIN_Def1
 lsp2 2,$ld_pass,480,480,-200,200,0
 lsp2 3,$ld_pass2,480,480,-200,200,0
 print 80
 
-「恐ろしい。@……これで、………手加減と、……は………。」\
+;「恐ろしい。@……これで、………手加減と、……は………。」\
+`"How frightening.`@`...That this...is you going...easy..."`\
 
 textoff
 
@@ -3865,20 +3940,24 @@ quakey 2,300
 
 me1v 5,50
 
-　雷鳴のような音が轟き、……紅茶紳士の体は、豪腕によって殴り飛ばされたことを、思い出す。@
-　一番奥の壁まで吹き飛ばされ、大の字に叩き付けられた。@
+;　雷鳴のような音が轟き、……紅茶紳士の体は、豪腕によって殴り飛ばされたことを、思い出す。@
+`　A roar like the sound of thunder, ...And The Black Tea Gentleman's body, knocked off his feet by her strong arm, remembered.`@`
+;　一番奥の壁まで吹き飛ばされ、大の字に叩き付けられた。@
+`　He was blown away to the furthest wall, and struck it spread-eagled.`@`
 br
-　紅茶紳士は、見事な一撃です…、と言いながら、親指を立てる仕草をしてみせる…。\
-
+;　紅茶紳士は、見事な一撃です…、と言いながら、親指を立てる仕草をしてみせる…。\
+`　The Tea Gentleman made, a splendid strike...while saying this, he showed a thumbs up...`\
 se1v 1100,30
 mbg white,1
 mcbg 22
 
-　それと同時に、小さな割れる音。@
-　みどりに及んでいた紅茶紳士の力が砕け、彼女が解放されたことを示すものだった。@
+;　それと同時に、小さな割れる音。@
+`　At that same time, a small breaking sound.`@`
+;　みどりに及んでいた紅茶紳士の力が砕け、彼女が解放されたことを示すものだった。@
+`　It was to signify that with The Tea Gentleman's power broken, Midori was freed."`@`
 br
-　毬枝は安堵の溜め息を漏らしながら、ゆっくりと両拳の力を抜いていく………。\
-
+;　毬枝は安堵の溜め息を漏らしながら、ゆっくりと両拳の力を抜いていく………。\
+`　While letting out a sigh of relief, Marie drew back the power in both her fists...`\
 bg black,2
 
 fede 0,1000
@@ -3889,40 +3968,49 @@ bg engeki_04,22
 
 me1v 11,90
 
-「………何やってんの、あんた。」\
+;「………何やってんの、あんた。」\
+`"...What are YOU doing here?"`\
 
-　部室に入ってきたのは、……川田のぞみだった。@
+;　部室に入ってきたのは、……川田のぞみだった。@
+`　The one who entered the club room...was Nozomi Kawada.`@`
 br
-　そして、ドレスを着て鏡の前に立つみどりを睨み付けた。\
+;　そして、ドレスを着て鏡の前に立つみどりを睨み付けた。\
+`　And she scowled at Midori, who was standing in front of the mirror in a dress.`\
 
 ld c,MID_K2,22
 
-「………川田……さん……………？」@
-「………何、勝手に、………人の衣装、着てんのよ。」\
+;「………川田……さん……………？」@
+`"...Kawada...san...?"`@`
+;「………何、勝手に、………人の衣装、着てんのよ。」\
+`"...What, you think you can just...wear someone's costume?"`\
 
 ld c,MID_K1,80
 
 E_A
 
-「え……………………。」@
+;「え……………………。」@
+`"Wha...."`@`
 
 bgm1 7
 
 br
-　川田のぞみが、ぞっとするほど冷たい目でみどりを見下ろしていた。\
+;　川田のぞみが、ぞっとするほど冷たい目でみどりを見下ろしていた。\
+`　Nozomi Kawada looked down on Midori with eyes so cold it caused her to shiver.
 
-「ほら。@………さっさと脱ぎなさいよ。」@
+;「ほら。@………さっさと脱ぎなさいよ。」@
+`"Come on.`@`...Hurry and take it off."`@`
 br
-　みどりは困惑した。@のぞみがいきなり現れたこともそうだが、@彼女が何を言っているのか、心の底から理解できなかった。\
-
-　……人の衣装？@　人の衣装って何？@　だってこれは私のドレスじゃない。@主役である、私の衣装。\
-
+;　みどりは困惑した。@のぞみがいきなり現れたこともそうだが、@彼女が何を言っているのか、心の底から理解できなかった。\
+`　Midori was bewildered.`@` Certainly, Nozomi suddenly appeared, `@` but she couldn't honestly, from the bottom of her heart, could not comprehend what she was saying.`\
+;　……人の衣装？@　人の衣装って何？@　だってこれは私のドレスじゃない。@主役である、私の衣装。\
+`　...Someone's costume?`@` What does that mean, 'someone's costume?'`@` I mean, this is my dress.`@` This is my costume, as the main role.`\
 bg black,22
 
-「何ボーッとしてんのよ。@叩かれ過ぎて頭おかしくなった？」@
+;「何ボーッとしてんのよ。@叩かれ過ぎて頭おかしくなった？」@
+`"What are you spacing out for?`@` Did you get hit on the head too many times and lose it or something?"`@`
 br
-　川田さんは厳しい口調できびきびと私にそう言い放つ。\
-
+;　川田さんは厳しい口調できびきびと私にそう言い放つ。\
+`　Kawada-san snapped at me in such a strict tone of voice.`\
 me1v 17,50
 
 　……彼女って、こんなにもはっきりとしゃべる子だったっけ…？@
