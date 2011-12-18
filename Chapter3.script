@@ -1990,10 +1990,11 @@ bg gakkou_03,22
 
 me1v 17,50
 
-「…………たった一つの小さな切っ掛けで、ニンゲンはここまで変われるものなのですねぇ。」@
+;「…………たった一つの小さな切っ掛けで、ニンゲンはここまで変われるものなのですねぇ。」@
+`"............It seems that humans can change from just this one little chance."`@
 br
-　校舎の物陰で、誰にも見えないティーカップが、ツイっと傾く。\
-
+　;校舎の物陰で、誰にも見えないティーカップが、ツイっと傾く。\
+`Under cover of the school building, nobody could see a teacup tip back.`
 ld r,SIN_def2,22
 
 fede 1,1000
@@ -2003,9 +2004,11 @@ wait 1000
 
 ld r,SIN_def4,80
 
-「ですが、みどりさん？@　一応、これ。@……ギブアンドテイクですので、@その辺りだけは、お忘れないようお願いしますよ。@……っくっくっく。」@
+;「ですが、みどりさん？@　一応、これ。@……ギブアンドテイクですので、@その辺りだけは、お忘れないようお願いしますよ。@……っくっくっく。」@
+`"However, Midori?`@` Just in case, here. `@`......Since this is give and take, `@` or something like that, I ask that you do not forget. ......Kukuku."`@
 br
-　もう一度、ティーカップが、ツイっと傾いた。\
+;もう一度、ティーカップが、ツイっと傾いた。\
+`And once again, he took a sip from the teacup.`\
 
 cl r,22
 
@@ -2025,97 +2028,129 @@ E_A
 bg white,1
 bg engeki_01,22
 
-「結構ですっ。」@
+;「結構ですっ。」@
+`"That'll be all."`@`
 br
-　先生がパンと手を打つ。\
-
-　……私は魔女役の演技を止めた。@
+　;先生がパンと手を打つ。
+`The teacher clapped his hands together.`
+　;……私は魔女役の演技を止めた。@
+` ......I stopped my performance as the witch.`@`
 br
-　しばしの沈黙の後、先生と部長が無言で頷き合う。\
+　;しばしの沈黙の後、先生と部長が無言で頷き合う。\
+`In the brief silence, the teacher and the club leader nodded wordlessly.'\
+bgm1 
 
 bgm1 5
 
-「合格です。@楠木さん、あなたを『六軒島』の主役に決定します。」@
+;「合格です。@楠木さん、あなたを『六軒島』の主役に決定します。」@
+`"Congratulations. `@`Kusunoki-san, we have decided you will play the leading part in 'Rokkenjima.'"@
 
 ld c,MID_Def3,22
 ;ld c,MID_Def1,80
 
-「あ、ありがとうございますっ。」\
+;「あ、ありがとうございますっ。」\
+`"Th, thank you!"`\
 
-「みんなも楠木の演技をよく見て、各自、自己研鑽に励めよ…！！」@
+;「みんなも楠木の演技をよく見て、各自、自己研鑽に励めよ…！！」@
+`"Everybody, you should watch Kusunoki carefully and strive to improve yourselves as well...!!"` `@`
 
 ;quake 2,200
 
-「「「はいッ！！！」」」\
+;「「「はいッ！！！」」」\
+`"""Okay!!!"""`\
 
 bg black,24
 bg engeki_03,24
 se1v 54,70
 
-「みどりっ、魔女役おめでとう！！」@
+;「みどりっ、魔女役おめでとう！！」@
+`"Midori, congratulations on getting the witch's role!!` `@`
 br
-　温かな拍手が広がっていく。\
+;　温かな拍手が広がっていく。\
+`A warm applause began to spread.`\
 
-　そんなに思い切り叩いたら、手が痛くなるんじゃないのと、@こっちが心配してしまうほどの大きな拍手だった。\
+;そんなに思い切り叩いたら、手が痛くなるんじゃないのと、@こっちが心配してしまうほどの大きな拍手だった。\
+`If one claps with all their might, wouldn't their hands hurt? `@` This applause was so big it might cause one to worry thus.`\
+;「あの可憐なみどり姫が、今度はミステリアスな魔女役に挑戦なんて…。@すっごい反響がありそうだね！」@
+`"To think that lovely Midori-Hime will take on the role of a mysterious witch this time... `@` It sounds like it'll have an incredible reaction!`" `@`
+;「もちろんっ。@みどり姫が主演の大作だもん。@すごい話題になるよ！」\
+`"Of course. `@`With Princess Midori at the lead, it'll be huge. It'll be the talk of the town!"`\
+;「発表会、ものすごい盛り上がりそう！@　うわぁ、今から緊張するー！」@
+`"The performance sounds so incredibly exciting!`@` Uwaa, I'm already getting nervous--!"` `@`
+;「……わ、私たちも、足を引っ張らないようにしないとねー。」\
+`"......W-we should make sure we don't hold her back, too."` \
 
-「あの可憐なみどり姫が、今度はミステリアスな魔女役に挑戦なんて…。@すっごい反響がありそうだね！」@
-「もちろんっ。@みどり姫が主演の大作だもん。@すごい話題になるよ！」\
-
-「発表会、ものすごい盛り上がりそう！@　うわぁ、今から緊張するー！」@
-「……わ、私たちも、足を引っ張らないようにしないとねー。」\
 
 ld r,MID_Def1,24
 
-　拍手の中、花道を歩くかのような気持ちで、……私は自分の座る場所に戻る。\
+　;拍手の中、花道を歩くかのような気持ちで、……私は自分の座る場所に戻る。\
+`In the applause, with a feeling as though on a runway, ......I returned to my seat.`\
 
-　………前回は、突然の降板による穴埋めの抜擢だった。@
+　;………前回は、突然の降板による穴埋めの抜擢だった。@
+`.........Last time, I was chosen due to a sudden resignation.` `@`
 br
-　しかし今回は違う。@実力で役を掴み取った。@
-　たった一段だけれども、確実に踏み越えた。@そんな達成感があった。\
+　;しかし今回は違う。@実力で役を掴み取った。@
+`But this time is different. `@` I got the role with my own power.` `@`
+　;たった一段だけれども、確実に踏み越えた。@そんな達成感があった。\
+`It may be by just one step, but it's one I've definitely overcome. `@` It was that feeling of accomplishment.`\
 
-　………みんなの拍手に包まれながら、座る時。@
+　;………みんなの拍手に包まれながら、座る時。@
+`.........At the moment I sat down, enveloped by everyone's applause.` `@`
 br
-　また、………川田のぞみと目が合った。\
+　;また、………川田のぞみと目が合った。\
+`Once again.........I met Nozomi Kawada's gaze.`\
 
 bg black,22
 ;ld r,MID_Def1,80
 
-　みんなは満面の笑みで祝福してくれているのに、………彼女だけは違った。@
+　;みんなは満面の笑みで祝福してくれているのに、………彼女だけは違った。@
+`Even though everyone was blessing me with their full smiles, .........She was the only different one.` `@`
 br
-　ただ、ジッと私を見ていた。\
+　;ただ、ジッと私を見ていた。\
+`She just, stared at me.`\
 
-　その瞳からは何の感情も読み取れない。@わかるのは、祝福の気持ちがないということだけ。@
+　;その瞳からは何の感情も読み取れない。@わかるのは、祝福の気持ちがないということだけ。@
+`I couldn't read what kind of emotions those eyes had. `@`All I could say was that it was not a feeling of celebration.` `@`
 br
-　……そんな彼女の姿に、まるで一学期の頃の自分を見ているような、@……不安と焦燥を覚えてしまう。\
+　;……そんな彼女の姿に、まるで一学期の頃の自分を見ているような、@……不安と焦燥を覚えてしまう。\
+`......In that girl's figure, it was as if I was gazing upon myself from my first semester. `@`......It forced me to remember the anxiety and uneasiness.`\
 
 ;bg black,22
 mono 2
 bg Different_spiral_1a,22
 
-　何で、そんな嫌な目でずっと私を見ているの…？@
+　;何で、そんな嫌な目でずっと私を見ているの…？@
+`Why is she always watching me with such distaste in her eyes...?` `@`
 br
-　………わかってる。@……私が、妬ましいんだよね……？\
+
+　;………わかってる。@……私が、妬ましいんだよね……？\
+`.........I know. `@` ......She's, jealous of me, isn't she......?` \
 
 ;bg Different_spiral_1b,22
 
-　かつては自分がお姫様だとちやほやされてたのに、@……今ではお金持ち自慢の高慢ちきだと嫌われ、いじめられ。@
+　;かつては自分がお姫様だとちやほやされてたのに、@……今ではお金持ち自慢の高慢ちきだと嫌われ、いじめられ。@
+`Even though she once was pampered as a princess, `@`......Now, she is hated and bullied as proud, rich, and haughty.``@` 
 br
-　……それがかつての自分そのものだから、……痛いくらいに彼女の胸中がわかるのだ。\
-
+　;……それがかつての自分そのものだから、……痛いくらいに彼女の胸中がわかるのだ。\
+`......Because that was my former self, ......I understand her pain so well it hurt.`\
 bg black,22
 mono 0
 ;bg white,28
 
-　でもね、川田さん。@
+　;でもね、川田さん。@
+`But you know, Kawada-san.` `@`
 br
-　変われるよ、人間は。@
+　;変われるよ、人間は。@
+`Humans can change.` `@`
 br
-　あなたは、かつての私。\
+　;あなたは、かつての私。\
+`You are my former self.`\
 
-　その私も、たった一度のチャンスで、自分が生まれ変わるほどの変化を得た。@
+　;その私も、たった一度のチャンスで、自分が生まれ変わるほどの変化を得た。@
+`Even I, with just one chance, was able to transform so much, it was as though I was reborn.` `@`
 br
-　ならあなたにだってきっと。@そんなチャンスがやがてあるよ……。\
-
+　;ならあなたにだってきっと。@そんなチャンスがやがてあるよ……。\
+`So surely, for you as well. `@` That chance will come to you before long......` \
 
 
 
@@ -2137,37 +2172,51 @@ ld r,MID_K2,6
 
 me1v 28,70
 
-「…………痛ッ、…………………。」\
+;「…………痛ッ、…………………。」\
+`"............Ow...!............"`\
 
-　その時、何の前触れもなく、また、………痛みが走る。@
+;その時、何の前触れもなく、また、………痛みが走る。@
+`Just then, without any notice, another pain struck.` `@`
 br
-　足に、思わず身をよじってしまうような激痛が。\
+;　足に、思わず身をよじってしまうような激痛が。\
+`A severe pain in my foot, one that caused me to unconciously contort my body.` \
 
 bg black,23
 bg engeki_01,23
 
-「……ちょっと、みどり。@……大丈夫…？」@
-「顔色悪いよ？」@
+;「……ちょっと、みどり。@……大丈夫…？」@
+`"......Hold on, Midori. `@`......Are you okay...?` `@`
+;「顔色悪いよ？」@
+`"You don't look so good."` `@`
 
 ld c,MID_Def2a,22
 
-「………ん、……大…、丈夫…………。」\
+;「………ん、……大…、丈夫…………。」\
+`".........Rgh,......I'm...,I'm fi-............"`\
 
-「保健室行った方がいいよっ。@私、付き添うよっ。」@
+;「保健室行った方がいいよっ。@私、付き添うよっ。」@
+`"You should go to the nurse.`@` I'll escort you there."``@`
+
 br
-　みんながみどりの身を案じる。\
+;　みんながみどりの身を案じる。\
+`Everyone was concerned about Midori's health.`
 
 bg black,22
 
-　もう何度目になるかもわからない、突然の謎の痛み。@
+　;もう何度目になるかもわからない、突然の謎の痛み。@
+`A strange, sudden pain that has occured countless times.` `@`
 br
-　……良い機会かもしれない。@一度、保健室で見てもらおう。\
+　;……良い機会かもしれない。@一度、保健室で見てもらおう。\
+`......This might be a good chance. `@` I'll go to the infirmary.`\
 
-　きっと、緊張のし過ぎなんだ。@普通の人は腹痛に出る。@……私はきっと、それが体の痛みに出るタイプに違いない。\
+;　きっと、緊張のし過ぎなんだ。@普通の人は腹痛に出る。@……私はきっと、それが体の痛みに出るタイプに違いない。\
+`Surely, I'm just too nervous. `@` Most people would get a stomach-ache. `@` ......I must be the type that gets pains all over.`\
 
-　リラックスしてれば大丈夫と、保健の先生に太鼓判を押されれば、またがんばれる…。@
+;　リラックスしてれば大丈夫と、保健の先生に太鼓判を押されれば、またがんばれる…。@
+`If I relax, I should be okay. I'll get the nurse's seal of approval, then I'll be able to do my best again...` `@`
 br
-　みどりは部員の肩を借りて、保健室へ向かうのだった……。\
+;　みどりは部員の肩を借りて、保健室へ向かうのだった……。\
+`While leaning on the club member's shoulder, she headed toward the infirmary......`\
 
 fede 0,1000
 E_A
@@ -2189,34 +2238,46 @@ ld r,HOK_Def1,22
 
 me2v 11,90
 
-「特に異常はないみたいね。」@
+;「特に異常はないみたいね。」@
+`"It doesn't look like there's anything particularly wrong."` `@`
 br
-　保健室の先生はあっさりとした口調でそう言った。@
-　足に感じていた痛みは、保健室にくるまでに完全に消えていた。\
+;　保健室の先生はあっさりとした口調でそう言った。@
+`The school nurse expressed easily.`@
+
+;　足に感じていた痛みは、保健室にくるまでに完全に消えていた。\
+`The pain in her foot had completely disappeared when she'd come to the infirmary.'\
 
 ld r,HOK_Def4,80
 
-「何もないのに、突然、痛くなるなんて。@………もし、頻繁に繰り返すようなら、大きな病院で見てもらった方がいいわね。」\
+;「何もないのに、突然、痛くなるなんて。@………もし、頻繁に繰り返すようなら、大きな病院で見てもらった方がいいわね。」\
+`"Even though there's nothing wrong, suddenly getting hurt like that. `@`.........If it happens again more frequently, you should be seen by a bigger hospital."`\
 
 ld l,MID_Def2,22
 
-「い、いいえ、大丈夫です。@私、緊張したり疲れたりすると、痛みを感じるタイプなんだと思うので……。」@
+;「い、いいえ、大丈夫です。@私、緊張したり疲れたりすると、痛みを感じるタイプなんだと思うので……。」@
+`"N-no, I'm fine. `@`I'm think I'm just the type who feels pain when I get nervous or wear myself out......"` `@`
 br
-　それを友達が大袈裟がっちゃって。@……大騒ぎしちゃってすみませんでしたと、みどりは謝る。\
+;それを友達が大袈裟がっちゃって。@……大騒ぎしちゃってすみませんでしたと、みどりは謝る。\
+(?)`That her friends exaggerated, `@`......and having no excuse for their huge commotion, Midori apologized.`
 
 bg black,22
 
-　病院には行きたくなかった。@
+;　病院には行きたくなかった。@
+`She did not want to go to the hospital.`@
 br
-　もしも本当に何か悪い病気だとしたら、発表会に出られなくなるかもしれない。@
-　せっかく主役を演じることが決まったのに、それだけは絶対にごめんだった。\
+;　もしも本当に何か悪い病気だとしたら、発表会に出られなくなるかもしれない。@
+`If she really did have a terrible illness, she might not be able to appear in the performance.`@
+;　せっかく主役を演じることが決まったのに、それだけは絶対にごめんだった。\
+Since she'd just been chosen as the lead role, that was the one thing she absolutely couldn't accept.`\
 
 bg hoken_04,22
 ;ld r,HOK_Def1,80
 
-　もう平気だと言われては、保健の先生に何も出来ることはない。@不思議なこともあるものだと、鉛筆を鼻の下に挟んで小首を傾げる。\
+;　もう平気だと言われては、保健の先生に何も出来ることはない。@不思議なこともあるものだと、鉛筆を鼻の下に挟んで小首を傾げる。\
+`Once being told she's fine, the nurse cannot do anything. `@`Strange things happen sometimes, and with that she held her pencil between her nose and upper lip and tilted her head.\
 
-　特に異常はない。@……その言葉にみどりは少し安堵するが、@ならばこの痛みの正体は何なのかと、かえってもやもやした気持ちになるのだった。\
+;　特に異常はない。@……その言葉にみどりは少し安堵するが、@ならばこの痛みの正体は何なのかと、かえってもやもやした気持ちになるのだった。\
+`There's no abnormalities. `@`......Those words relieved Midori, but `@` wondering what the true meaning of the pain was made her feel all the more hazy.\
 
 fede 11,1000
 E_M1
@@ -2228,47 +2289,60 @@ E_M1
 
 bg black,22
 
-　かつては十日くらいに一度、唐突に痛む程度だった。@
+;かつては十日くらいに一度、唐突に痛む程度だった。@
+`Before, the pain would come once every ten days.`@`
 br
-　しかし、少しずつその頻度が増えてきた気がする。\
+;しかし、少しずつその頻度が増えてきた気がする。\
+`However, little by little she got the feeling they had become more frequent.`\
 
-　痛みも、かつては触る程度や、あるいは鈍痛程度だったのに、@最近は顔をしかめてしまうような激痛も多い。\
+;痛みも、かつては触る程度や、あるいは鈍痛程度だったのに、@最近は顔をしかめてしまうような激痛も多い。\
+`Even though the pain also used to just hurt when touched, or would just be a dull pain,`@`lately pain so intense it would show on her face were more frequent.`\
 
-　これからは、発表会に向けて、ますますにお稽古に集中していかなければならない。@
+;これからは、発表会に向けて、ますますにお稽古に集中していかなければならない。@
+`From here on, in preparation for the performance, she must focus on practicing more and more.`
 br
-　なのに、このおかしな痛みがどんどん酷くなっていったら、きっと差し支えるに違いない……。\
+;なのに、このおかしな痛みがどんどん酷くなっていったら、きっと差し支えるに違いない……。\
+`But still, if this strange pain gets worse and worse, it's definitely going to interfere ......\
 
 bg hoken_02,22
 ;ld l,SIN_Def1,24
 
 E_A
 
-「…………気にしないことですよ。@/
+;「…………気にしないことですよ。@/
+`".........It's something you don't need to worry about.`@`"`
 bgm1 18
-痛みなどに、かまけているほど貴方はお暇ではないでしょう。」@
+;痛みなどに、かまけているほど貴方はお暇ではないでしょう。」@
+`You don't have the time to become too busy with pain."``@`
 
 ld r,MID_K1,22
 
-「紅茶紳士さん……。」\
+;「紅茶紳士さん……。」\
+`"Tea Gentleman......"`\
 
 ld l,SIN_Def2,22
 
-「あの、舞台の上での集中力を忘れてしまいましたか？@　貴方は発表会に向けて、役作りに励まねばなりません。@それが疎かだから、痛みなどというものが気になってしまうのではありませんか？」@
+;「あの、舞台の上での集中力を忘れてしまいましたか？@　貴方は発表会に向けて、役作りに励まねばなりません。@それが疎かだから、痛みなどというものが気になってしまうのではありませんか？」@
+`"Have you forgotten about the concentration you'll need on stage? `@` You must stimulate character creation and face towards your performance. `@` It is also negligent to mind pain, is it not?"`@
 
 ld r,MID_Def2a,80
 
-「……………………。」\
+;「……………………。」\
+`".........."\
 
-　痛みのことなど気にするな。@
-　紅茶紳士さんは、いつもそう言う。\
-
+;　痛みのことなど気にするな。@
+`Don't worry about the pain.@
+;　紅茶紳士さんは、いつもそう言う。\
+`The Tea Gentleman is always saying that.`\
 ;ld r,MID_Def1,80
 
-　確かに、気にしても仕方がないのなら、彼の言う通りだ。@
+;　確かに、気にしても仕方がないのなら、彼の言う通りだ。@
+`Certainly, even if I worry about it, it's still as he says.` `@`
 br
-　結局は、自分の集中力が足りないから。@
-　舞台のことだけを考え、お稽古に専念したなら、こんな痛み、気にもならないはず……。\
-
+;　結局は、自分の集中力が足りないから。@
+;　舞台のことだけを考え、お稽古に専念したなら、こんな痛み、気にもならないはず……。\
+`In the end, my ability to concentrate isn't enough.`@`
+`Think only of the stage, and if I give my undivided attention to practice, then I shouldn't pay this pain any mind......`\
 bg black,23
 bg hoken_01,23
 ;ld r,HOK_Def1,23
@@ -2276,30 +2350,35 @@ bg hoken_01,23
 ;ld l,MID_Def1,80
 ;cl l,4
 
-　みどりはそう納得し、先生に頭を下げてから保健室を出る。\
+;　みどりはそう納得し、先生に頭を下げてから保健室を出る。\
+`After Midori gave her consent, she bowed her head to the nurse and left the infirmary.`\
 
 ;bg black,24
 ;bg hoken_02,0
 ;ld c,SIN_Def1,24
 
-　……紅茶紳士はそれを背中で見送りながら、紅茶のティーカップを傾ける。\
+;　……紅茶紳士はそれを背中で見送りながら、紅茶のティーカップを傾ける。\
+`......While The Tea Gentleman watched her go, he sipped his black tea.`\
 
 ld c,SIN_Def2,22
 
-「そうですか。@……痛みの頻度が、増しているのですか。@……っくっくっく、それは困りましたねぇ……。@っくっくっくっく……。」\
+;「そうですか。@……痛みの頻度が、増しているのですか。@……っくっくっく、それは困りましたねぇ……。@っくっくっくっく……。」\
+`"Is that so. `@`......It's that the frequency of your pain, has increased. `@`.......Kukuku, that is a dilemma, isn't it......`@`Kukukuku......`"\
 
 ld c,SIN_Def4,22
 
 cl c,2
 
-　人ならざる者にしか聞こえない笑い声を残し、紅茶紳士の姿は消える。\
-
+;　人ならざる者にしか聞こえない笑い声を残し、紅茶紳士の姿は消える。\
+`Leaving only a laugh heard by no people, The Tea Gentleman disappeared.`\
 fede 0,1000
 E_A
 
-　………人ならざる者にしか、聞こえない。@
+;　………人ならざる者にしか、聞こえない。@
+`.........It was something only people couldn't hear. `@`
 br
-　だから、それを人ならざる者が聞いていた。\
+;　だから、それを人ならざる者が聞いていた。\
+`So, those who weren't people heard it.`\
 
 bg black,22
 bg hoken_04,22
@@ -2315,19 +2394,26 @@ print 3
 
 bgm1 14
 
-「……………………。」@
-br
-　薬品棚の物陰から、恐る恐る毬枝が顔を覗かせる……。\
+;「……………………。」@
+"..........."@
 
-　その手には、職員室かどこかからちょろまかしてきた、栗饅頭が握られている。@
 br
-　……美味しそうなお茶菓子を見つけたので、彼岸花にお裾分けを持ってきたのだ。\
-
-　ちなみに、毬枝にはどういうわけか、お茶菓子を発見するという奇妙な才能が、……死後に発現したのだった。\
-
-　彼岸花は留守だった。@
+;　薬品棚の物陰から、恐る恐る毬枝が顔を覗かせる……。\
+`From the cover of medicine shelf, Marie timidly peeked her face......`\
+;　その手には、職員室かどこかからちょろまかしてきた、栗饅頭が握られている。@
+(?)`In her hand, perhaps from the staff room or somewhere, she gripped a chestnut steamed bun.`
 br
-　代わりに、………見慣れない男の姿を見てしまった。\
+;　……美味しそうなお茶菓子を見つけたので、彼岸花にお裾分けを持ってきたのだ。\
+`......Since she found a delicious teacake, she brought it to share with Higanbana.`\
+
+;　ちなみに、毬枝にはどういうわけか、お茶菓子を発見するという奇妙な才能が、……死後に発現したのだった。\
+`By the way, if one is wondering how Marie comes across these, it is due to a strange ability that allows her to spot out tea cakes. It revealed itself after death.
+
+;　彼岸花は留守だった。@
+`Higanbana was out.@
+br
+;　代わりに、………見慣れない男の姿を見てしまった。\
+`In her place,.......She saw the figure of a man she was not familiar with.`\
 
 csp2 -1
 
@@ -2338,13 +2424,17 @@ ld c,MAR_def4a,22
 ;lsp2 3,$ld_pass2,90,400,-100,100,0
 ;print 80
 
-「……誰、……だろう。@……今の人は……。」@
+;「……誰、……だろう。@……今の人は……。」@
+`"......Who,......in the world.@......Is that person......"@
 br
-　人ならざる者の直感が、紅茶紳士もまた同類であることを毬枝にも報せる。\
+;人ならざる者の直感が、紅茶紳士もまた同類であることを毬枝にも報せる。\
+`She had a hunch that he was not human, The Tea Gentleman cued in to Marie that he was the same as she.\
 
-　……妖怪だろうか。@
+;……妖怪だろうか。@
+`......Was he a youkai?@
 br
-　先に出て行った女の子に、取り憑いてるように見えた。\
+;先に出て行った女の子に、取り憑いてるように見えた。\
+`It looked to her that he was haunting the girl who had just left.\
 
 ;ld_p MAR_Def1
 ;lsp2 2,$ld_pass,90,400,-100,100,0
@@ -2353,7 +2443,8 @@ br
 
 ld c,MAR_def1,80
 
-「…………………………。」\
+;「…………………………。」\
+`"............"\
 
 bg black,2
 
@@ -2375,98 +2466,130 @@ bg engeki_01,22
 
 bgm1 5
 
-　翌週から始まった『六軒島』の稽古は想像以上に大変だった。@
+;　翌週から始まった『六軒島』の稽古は想像以上に大変だった。@
+`The following week began the practice on Rokkenjima, which was even more difficult than imagined.@
 br
-　まず、何よりも台詞が多い。@一人芝居と言っても過言ではないほどに、主役の台詞量が膨大なのだ。\
+;　まず、何よりも台詞が多い。@一人芝居と言っても過言ではないほどに、主役の台詞量が膨大なのだ。\
+`First, above all else the lines were numerous.@ Even to call it a one man show wasn't exaggerating, the leading part's roles were of an incredile volume.\
 
-　覚えるだけでも大変だし、@その一つ一つの言葉の意味をきちんと理解した上で、感情を込めねばならない。@
+;　覚えるだけでも大変だし、@その一つ一つの言葉の意味をきちんと理解した上で、感情を込めねばならない。@
+` Memorizing them was hard on its own, @ then she had to understand the meaning of each and every word, and place an emotion to it.@
 br
-　１シーンだけでも相当な集中力を必要とする。\
+;　１シーンだけでも相当な集中力を必要とする。\
+`Just one scene alone needed a considerable amount of concentration.\
 
-　相手役との呼吸が一つ合わなかったりするだけで、@途端に台詞が出てこなくなったり、小道具の扱いを間違えてしまったりする。\
+;　相手役との呼吸が一つ合わなかったりするだけで、@途端に台詞が出てこなくなったり、小道具の扱いを間違えてしまったりする。\
+(?)`Even just by not matching her fellow actors' breathing once, @ just by that act, one line may be left out, or a prop may be used the wrong way.\
 
 se1v 19,50
 
 mbg white,1
 mcbg 22
 
-「ほら、楠木さんッ。@体だけで演技しては駄目！@　心から演技しなさいッ！@　もう一度やり直し！！」\
+;「ほら、楠木さんッ。@体だけで演技しては駄目！@　心から演技しなさいッ！@　もう一度やり直し！！」\
+`"Come on, Kusunoki-san. @You can't just perform with your body! @ Perform from your heart! @ Do it over again!!"\
 
-「……みどり、すごいよね。@よく、あんな長い台詞、覚えられるよ…。」@
-「大変な役だよね…。@あんなのみどり姫以外には不可能だよ……。」\
+;「……みどり、すごいよね。@よく、あんな長い台詞、覚えられるよ…。」@
+`"......Midori is so amazing. @ She remembers all those good lines so well..."@
+;「大変な役だよね…。@あんなのみどり姫以外には不可能だよ……。」\
+`"What a tough role...@If anybody but Princess Midori did it, it would be impossible......"\
 
-　部員たちはみどりの演技を素晴らしいと褒めるが、先生は容赦ない。@
+;　部員たちはみどりの演技を素晴らしいと褒めるが、先生は容赦ない。@
+`Though the club members all praised Midori's performance as brilliant, the teacher was relentless.@
 br
-　無論、みどりも、その期待に応えるため、全力で稽古に臨んでいた。\
-
-　……かつては、好きな演劇のためとは言っても、体力作りや柔軟などは苦手だった。@
+;　無論、みどりも、その期待に応えるため、全力で稽古に臨んでいた。\
+`Of course, in order to live up to those expectations, Midori dealt with practice with all her might.\
+;　……かつては、好きな演劇のためとは言っても、体力作りや柔軟などは苦手だった。@
+`......Before, even if she said it was for her favorite play, she was not good at training or flexibility.@
 br
-　でも、今は全然、苦にならない。\
-
-　あの日の、舞台での感動が、眩しく記憶に焼きついている。@
-　あの感動をもう一度得られるなら、どんな苦しい稽古にだって耐えられる。@
-br
-　そんなみどりが流す汗は、透き通っていて輝いていた。\
-
+;　でも、今は全然、苦にならない。\
+`But now, she isn't bothered by it at all.\
+;　あの日の、舞台での感動が、眩しく記憶に焼きついている。@
+　`The deep emotion of that day on the stage, was vividly burned into her memory.@
+; あの感動をもう一度得られるなら、どんな苦しい稽古にだって耐えられる。@
+` In order to obtain that excitement once more, she was able to withstand any excrutiating practice.@
+ br
+;　そんなみどりが流す汗は、透き通っていて輝いていた。\
+` The sweat that flowed from Midori, was transparent and glistening.\
 bg black,24
 bg engeki_03,0
 ld r,MID_Def1,24
 
 me1v 11,90
 
-「…………ふぅっ……。」@
+;「…………ふぅっ……。」@
+`"......Phew......"@
 br
-　一息入れて汗を拭っていると。@………部室の片隅で衣装の綻びを直す、川田のぞみの姿が目に入った。\
-
+;　一息入れて汗を拭っていると。@………部室の片隅で衣装の綻びを直す、川田のぞみの姿が目に入った。\
+` She took a breath and wiped away the sweat. @......in the corner of the clubroom fixing a tear in the costumes, she caught sight of Nozomi Kawada.\
 mbg black,22
 
-　……彼女は今回も、何の役も得られなかった。@
+;　……彼女は今回も、何の役も得られなかった。@
+`......This time too, she was unable to obtain a role.@
 br
-　誰もが予想した通り、今回も雑用係を押し付けられた。\
+;　誰もが予想した通り、今回も雑用係を押し付けられた。\
+`Just as everyone expected, she was forced into being in charge of all the odd jobs.\
 
-　発声練習も柔軟体操も、何の役にも立たない。@
+;　発声練習も柔軟体操も、何の役にも立たない。@
+`Even during vocal warmups and stretching, she was of no use.@
 br
-　相変わらず、ひとり暗く孤立して、……時折、私に妬みの眼差しを向ける。\
+;　相変わらず、ひとり暗く孤立して、……時折、私に妬みの眼差しを向ける。\
+` Just as always, she was darkly isolated,......and sometimes, se would gaze at me enviously.
 
 ld r,MID_K1,0
 mcbg 22
 
-　……川田さん。@妬んだって、何も変わらないんだよ。@
+;　……川田さん。@妬んだって、何も変わらないんだよ。@
+` ......Kawada-san. @ Being jealous, won't change anything. @
 br
-　そうやって、押し付けられた仕事だけを、渋々とやっている内は、何も変われない。\
+;　そうやって、押し付けられた仕事だけを、渋々とやっている内は、何も変われない。\
+`If you do that, and reluctantly do the work pushed onto you, nothing will change.\
 
-　……私だって、かつては雑用係だった。@夜の遅くまで小道具作りをさせられた。@
+;　……私だって、かつては雑用係だった。@夜の遅くまで小道具作りをさせられた。@
+`......Because even I once was in charge of miscellaneous jobs. @ I was made to work until late at night making small props.@
 br
-　でも、夢は諦めなかった。\
+;　でも、夢は諦めなかった。\
+` But, I didn't given up my dream.\
 
-　こっそり台本を読み、お姫様役の台詞を全て頭に叩き込んだ。@
+;　こっそり台本を読み、お姫様役の台詞を全て頭に叩き込んだ。@
+` I would secretly read the script, and drove all of the princess' lines into my mind.@
 br
-　誰もいない薄暗い部室の鏡に向かって、たったひとりでずっとずっと稽古をしてきたのだ。\
+;　誰もいない薄暗い部室の鏡に向かって、たったひとりでずっとずっと稽古をしてきたのだ。\
+` In the gloomy clubroom with nobody around, I faced the mirror and practiced for hours and hours by myself.\
 
 ;bg white,28
 
 bg black,22
 
-　だからこそ、……突然の抜擢にも応えることが出来たのだ。\
-
-　……私だって、みんなを妬んだことはある。@でも、努力をしたんだよ。@
-　努力をしなきゃ、チャンスだって掴めないんだよ。@
+;　だからこそ、……突然の抜擢にも応えることが出来たのだ。\
+` And so,...I was able to live up to even that unexpected selection.\
+;　……私だって、みんなを妬んだことはある。@でも、努力をしたんだよ。@
+` ......Even I, have been jealous of everybody. @ But I gave it my all.@
+;　努力をしなきゃ、チャンスだって掴めないんだよ。@
+`You have to give it your all, or you can't seize your chance.@
 br
-　私は掴んだ。@だから手放さない。@全力で、……自分とその役を、全うするからね。\
+;　私は掴んだ。@だから手放さない。@全力で、……自分とその役を、全うするからね。\
+` I grasped mine. @That's why I won't let go.@ With all my strength, ......I will carry out my role.\
 
 ;bg black,28
 bg engeki_03,22
 ;ld r,MID_Def1,22
 
-　のぞみが顔を上げる。@……目が合った。@
+;　のぞみが顔を上げる。@……目が合った。@
+` Nozomi lifted her face. @ ......Our eyes met.@
+
 br
-　その目は、無気力で、相変わらず何を考えているかわからない。\
+;　その目は、無気力で、相変わらず何を考えているかわからない。\
+` Those eyes, were lethargic, and just as always, I couldn't tell what she was thinking.\
 
 ;ld r,MID_Def1,80
 
-　……でも、今日は何か違う。@
+;　……でも、今日は何か違う。@
+` ......But, today was different. @
+
 br
-　少し、ぞっとするものを感じさせた。\
+;　少し、ぞっとするものを感じさせた。\
+` Just a little, I felt something that made me shiver.\
 
 bg black,22
 
@@ -2481,13 +2604,18 @@ me1v 16,50
 
 
 
-　彼女が訴えるのだ。@……彼女の、目が。@
-br
-　………私だって、……ただ妬んでるだけじゃ、ないんだよ、……と。\
+;　彼女が訴えるのだ。@……彼女の、目が。@
+` She was making an appeal against me. @......Her eyes were.\
 
-　のぞみの傍らに、開いたままの『六軒島』の台本が、そのまま伏せて置かれている。@
 br
-　衣装の綻びを直す仕事に、台本が必要とは思えない。\
+;　………私だって、……ただ妬んでるだけじゃ、ないんだよ、……と。\
+`......Even I, ......am not just jealous....they said.\
+
+;　のぞみの傍らに、開いたままの『六軒島』の台本が、そのまま伏せて置かれている。@
+` Next to Nozomi, the script of "Rokkenjima", was laying upside down.@
+br
+;　衣装の綻びを直す仕事に、台本が必要とは思えない。\
+` I didn't think the script was needed, to repair tears in costumes.\
 
 bgm1 6
 
@@ -2501,15 +2629,18 @@ bg engeki_03,2
 
 
 
-　彼女は、ただ妬んでいるわけではない。@
+;　彼女は、ただ妬んでいるわけではない。@
+` She was, not only just jealous.@
 br
-　……うかがっているのだ。@……虎視、眈々と。@
-　誰もが私以外に適任はいないと言って、“諦める”魔女の役。\
-
-　もし、……私が、発表会の直前に、……体調不良か何かで、突然、降板するようなことになったなら。@……誰にも代役を務めることは出来ない。@
+;　……うかがっているのだ。@……虎視、眈々と。@
+`......She was watching me. @......She was lying in wait.@
+;　誰もが私以外に適任はいないと言って、“諦める”魔女の役。\
+`  As if saying there were none suitable but her, "abandon" the role of the witch.\
+;　もし、……私が、発表会の直前に、……体調不良か何かで、突然、降板するようなことになったなら。@……誰にも代役を務めることは出来ない。@
+` If,......just before the play, I......perhaps were to fall ill, and suddenly drop out. @......There wouldn't be anybody else to stand-in for the part.
 br
-　……私が、……落ちることを見越して、……耽々と台本を読んでいる彼女を除いて……。\
-
+;　……私が、……落ちることを見越して、……耽々と台本を読んでいる彼女を除いて……。\
+(?)`......She is,......anticipating my downfall,......lying in wait, reading the script until I am out of her way......\`
 bg black,22
 
 me2v 17,70
@@ -2517,24 +2648,31 @@ me2v 17,70
 mono 2
 bg Different_spiral_1a,22
 
-　そうか……、そういうことか………。@
+;　そうか……、そういうことか………。@
+` I see......, So that's what it is......@`
 br
-　みどりは根拠なく、理解する。\
+;　みどりは根拠なく、理解する。\
+` Midori understood, without any basis.\`
 
-　日ごとに増していく謎の痛み。@
+;　日ごとに増していく謎の痛み。@
+`The mysterious pain increasing daily.@`
 br
-　……きっとこれは、川田のぞみの呪いか何かなのだ。\
+;　……きっとこれは、川田のぞみの呪いか何かなのだ。\
+` Surely this was, something like Nozomi Kawada's curse.\`
 
 ;bg Different_spiral_1b,22
 
 ld r,MID_K2,22
 
-　私が突然のお姫様役の降板によって、大抜擢を受けたように。@……彼女も私が、突然降板することを願っているのだ。\
-
-　楠木みどりに出来たことなら、自分に出来ないはずはないとでも言うつもりだろうか。@
+;　私が突然のお姫様役の降板によって、大抜擢を受けたように。@……彼女も私が、突然降板することを願っているのだ。\
+` If suddenly I should drop the role of the princess, in order to receive the main role. @......She is also hoping I will suddenly drop out.\`
+;　楠木みどりに出来たことなら、自分に出来ないはずはないとでも言うつもりだろうか。@
+` If it was something Midori Kusunoki could do, there shouldn't be any reason I can't too, was probably what she was planning to say.`
 br
-　……無感情な、……見ているだけで不快になる、その眼差し。@
-　きっとそれが、……私に、おかしな痛みを送っているに違いないのだ……。\
+;　……無感情な、……見ているだけで不快になる、その眼差し。@
+` ......It was apathetic, ......that gaze was so that just by looking it would cause discomfort. @`
+;　きっとそれが、……私に、おかしな痛みを送っているに違いないのだ……。\
+` Surely that is, ......without a doubt, she is sending me those strange pains.......\`
 
 
 
@@ -2562,38 +2700,48 @@ fedexx 0,0,0,0,0,50,2000
 E_M1
 E_M2
 
-「みどり？@　どしたの？」@
+;「みどり？@　どしたの？」@
+`"Midori?@Are you okay?"@`
 
 bg white,1
 bg engeki_03,0
 ld r,MID_Def2a,22
 
-「………っ。」@
+;「………っ。」@
+`"......ah."@`
 br
-　友達に呼ばれ、我に返る。\
-
-　……川田さんが、私に呪いを送って、それで体が痛むなんて、@……私もおかしなことを考えてしまう。@……疲れてるのかな。\
-
-　でも。@
+;　友達に呼ばれ、我に返る。\
+` My friend called, and I returned to myself.\`
+;　……川田さんが、私に呪いを送って、それで体が痛むなんて、@……私もおかしなことを考えてしまう。@……疲れてるのかな。\
+` ......To think that Kawada-san is, sending me a curse, and causing my body pain, @......Even I am starting to think strange things. @ ......I wonder if I'm worn out.\`
+;　でも。@
+` But.@`
 br
-　私に、紅茶紳士さんという不思議な存在が現れて力を貸してくれたのだ。@
-　彼女にも、不思議な何かがあったとしても、おかしくはないのかもしれない。\
-
+;　私に、紅茶紳士さんという不思議な存在が現れて力を貸してくれたのだ。@
+` I was given this power by the mysterious Tea Gentleman who appeared before me.@`
+;彼女にも、不思議な何かがあったとしても、おかしくはないのかもしれない。\
+`If she also, were something mysterious, it might not be that strange.\`
 bg black,22
 
 ;ld r,MID_Def1,80
 
-　……うん。@紅茶紳士さんの言う通りなんだ。@
+;　……うん。@紅茶紳士さんの言う通りなんだ。@
+`......Yes.@It's just as The Tea Gentleman said.@`
 br
-　気にしたら負けだ。@彼女が私の代役を狙っているかどうかなんて、関係ない。@
+;　気にしたら負けだ。@彼女が私の代役を狙っているかどうかなんて、関係ない。@
+` If I worry about it, it's over.@It doesn't matter, if she's after my role.@`
 br
-　私が完璧な魔女役で、発表会に臨むだけのこと。@全ては、私個人の問題なのだ。\
+;　私が完璧な魔女役で、発表会に臨むだけのこと。@全ては、私個人の問題なのだ。\
+`I am the perfect person for the role of the witch, so I deal with the performance. @ Everything is my own personal problem.\`
 
 ;ld r,MID_Def1,80
 
-　……気にしたら負けだ。@……負けて、堪るか……。@
+;　……気にしたら負けだ。@……負けて、堪るか……。@
+`......If I worry, it's my loss. @ ......Like I'll, ever lose......@`
 br
-　そうとも、川田のぞみの不気味な眼差しに怯えている時間など、私にはないのだ。\
+
+;　そうとも、川田のぞみの不気味な眼差しに怯えている時間など、私にはないのだ。\
+`  And with that, the time to be afraid of Nozomi Kawada's ominous gaze, is no longer there for me.\`
 
 ;bg black,2
 
