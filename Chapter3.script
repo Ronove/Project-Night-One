@@ -2741,7 +2741,7 @@ br
 br
 
 ;　そうとも、川田のぞみの不気味な眼差しに怯えている時間など、私にはないのだ。\
-`　And with that, the time to be afraid of Nozomi Kawada's ominous gaze, is no longer there for me.`\
+`　And with that, the time to be afraid of Nozomi Kawada's ominous gaze, is gone.`\
 
 ;bg black,2
 
@@ -2774,7 +2774,7 @@ bg black,22
 bg Air_01,22
 
 ;　部活を終えて家に帰る頃にはいつも夜。@夕食もそこそこに済ませると、ベッドに倒れ込み泥の様に眠ってしまう。@それの繰り返しだった。@
-`　It was always night by the time the club ended and she went home.`@`She had to finish her dinner in a hurry, then collapse on the bed and sleep like mud.`@`It was that sort of cycle.`@`
+`(?)　It was always night by the time the club ended and she went home.`@`She had to finish her dinner in a hurry, splattered into bed like mud and slept.`@`It was that sort of cycle.`@`
 br
 ;　体力的には辛いけれど、……最高に充実した日々だった。\
 `　It was difficult on the body, ...but day after day was supremely productive.`\
@@ -2816,7 +2816,7 @@ me1v 16,50
 `　That intense pain...was the same as always.`@`
 br
 ;　相変わらず傷らしい傷はどこにもない。\
-`　Just as always, though it seemed like there would be an injury, there wasn't a scratch on her.`\
+`　Just as always, though it seemed like there would be a visible cause, there wasn't a scratch on her.`\
 
 
 ;　……もう、嫌になる。@
@@ -2843,7 +2843,7 @@ me2v 17,50
 `　...Just like I thought.`@`
 br
 ;　負けて堪るものか、……堪るものか……。\
-`　You think I'll give up and lose...Like I'll stand that...`\
+`　You think I'll give up and lose...Like I'll let that happen...`\
 
 ;　私は絶対に発表会に出る。@降板など絶対にしない。@
 `　I will definitely be in that play.`@` There's no way I'll step down.`@`
@@ -2867,7 +2867,7 @@ br
 ld r,SIN_Def4,22
 
 ;「気にしないことです。@そのようなことに、心を割く余裕など貴方にはないではありませんか。」@
-`"It's not something to worry about.@ You don't really have the time to let it tear you apart, do you?"`@
+`"It's not something to worry about.`@` You don't really have the time to let it tear you apart, do you?"`@
 br
 ;　紅茶紳士さんは繰り返す。@気にしないことですと。\
 `　The Tea Gentleman keeps repeating.`@` It's not something to worry about.`\
@@ -2878,7 +2878,7 @@ bg black,22
 `　...Don't worry, don't worry.`@`
 br
 ;　おかしな痛みなどに……、負けるものか………。\
-`　There's no way I'll give up...over things like bizarre pain...`\
+`　There's no way I'll give up...over this bizarre pain...`\
 
 fede 1,1000
 E_B
@@ -2915,7 +2915,7 @@ me1v 24,50
 `　Once I'd received my curry from the lunch lady and returned to my seat,`@` Sakie, Fumie, and all the other people I surround myself with simultaneously gathered.`@`
 br
 ;　囲まれながらの楽しい昼食。@……いつもの光景だった。\
-`　An enjoyable lunch surrounded by people.`@` ...It was the usual spectacle.`\
+`　An enjoyable lunch surrounded by friends.`@` ...It was a familiar scene.`\
 
 
 ;「姫、大丈夫？@　最近、顔色良くないみたいだけど……。」@
@@ -2937,7 +2937,7 @@ ld r,MID_K1,22
 `　It seemed that, the curse of my pain was wearing me out.`@`
 br
 ;　素振りを見せているつもりはないのだが、@いつも身近にいるサキエたちにはわかるようだった。\
-`　I hadn't intended it to show in my behavior,`@` but it seemed that Sakie and the others who were always around me knew.`\
+`　I hadn't intended it to show through my mannerisms,`@` but it seemed that Sakie and the others who were always around me could tell.`\
 
 ;　……お姫様が病気、なんてことになったらきっと、みんな大仰に大騒ぎする。@
 `　...If it were to be that their princess had fallen ill, everyone would exaggeratedly cause a huge uproar.`@`
@@ -2953,7 +2953,7 @@ bg black,22
 
 br
 ;　絶対に降りない。@……発表会で、舞台の中央でスポットライトを浴びるのは私なんだから。@
-`　I won't ever step down.`@` ...I'm the one who will stand in the middle of the stage, bathed in the spotlight during this play.`@`
+`　I won't ever step down.`@` ...I'm the one who will stand in the middle of the stage, bathed in the spotlight during this play.`@
 br
 ;　こんな呪いに、………川田のぞみに、………負けるものか……。\
 `　I will never lose...to a curse...or to Nozomi Kawada...`\
@@ -2968,30 +2968,38 @@ bg kyou_01,22
 ;「ってゆうか、声優みんなすごいよね！」@
 `"Speaking of, all of the voice actors were incredible, huh!"`@`
 ;「ねぇねぇ、みどりは誰が好き？！」\
-`"Hey, Midori, who do you like?!"`
+`"Hey, Midori, who do you like?!"`\
 ld r,MID_Def2a,22
 ;ld r,MID_Def1,80
 
 ;「……え？@　………あ、……うん。@私、帰るの遅いから、ほとんど見てないの。」@
-`"...Huh?`@` ...Oh, ...yeah.`@` Since I don't get home until late, I didn't get to see most of it."`@`
+`"...Huh?`@` ...Oh, ...yeah.`@` Since I don't get home until late, I didn't get to see most of it."`@
 br
-　毎日、遅くまで稽古なので、帰る頃にはとっくに放送が終わっているのだ。\
+;　毎日、遅くまで稽古なので、帰る頃にはとっくに放送が終わっているのだ。\
+`　Because I practice so late every day, by the time I go home the broadcast is already long over.`\
 
-　好きな作品だけれど、今はまったく興味ない。@……発表会に、集中しなきゃ。@
+;　好きな作品だけれど、今はまったく興味ない。@……発表会に、集中しなきゃ。@
+`　I like the show, but I'm not interested at all in it right now. `@`...I have to concentrate on the performance.`@
 br
-　サキエたちは、私が連日の稽古で疲れているのだろうと察し、自分たちだけで勝手に盛り上がってくれた。\
+;　サキエたちは、私が連日の稽古で疲れているのだろうと察し、自分たちだけで勝手に盛り上がってくれた。\
+`　Showing that they understood my exhaustion from my daily practice, Sakie and the rest left me alone and kept their excitement among themselves.`\
 
-　私はそれをぼんやりと聞きながら、作業の様に給食を口に運んだ。@
+;　私はそれをぼんやりと聞きながら、作業の様に給食を口に運んだ。@
+`　As I listened absent-mindedly, I mechanically transported some school lunch to my lips.`@
 br
-　安っぽいカレーの味が口の中に広がる。\
+;　安っぽいカレーの味が口の中に広がる。\
+`　The taste of cheap curry filled the inside of my mouth.`\
 
 ld r,MID_K1,22
 
-　食欲は全然なく、一口食べるのにもかなりの時間がかかった。@
+;　食欲は全然なく、一口食べるのにもかなりの時間がかかった。@
+`　I had no appetite for food, and even eating a mouthful took a long time.`@
 br
-　でも、無理矢理でも食べなければならない。\
+;　でも、無理矢理でも食べなければならない。\
+`　But I had to eat even if it it was against my own free will.`\
 
-　今週に入ってからは毎日のように本番用の衣装を着けて通し稽古をしている。@食べなければ身体が持たないのだ。\
+;　今週に入ってからは毎日のように本番用の衣装を着けて通し稽古をしている。@食べなければ身体が持たないのだ。\
+`　Starting this week we would wear the clothes for our parts every day while practicing. `@`If I don't eat, then my body won't be able to handle it.`\
 
 
 
@@ -3011,31 +3019,41 @@ ld r,MID_K2,80
 
 bgm1 11
 
-　その時、……またあの、呪いの痛み。@
+;　その時、……またあの、呪いの痛み。@
+`　At that moment, ...it was that pain again.`@
 br
-　今度は後頭部だった。@誰かに激しく叩かれたかのような痛み。\
+;　今度は後頭部だった。@誰かに激しく叩かれたかのような痛み。\
+`　This time it was the back of her head. `@`It hurt like someone just struck her violently.`\
 
-　どうせ振り返っても誰もいないので、もはや私は振り返りさえしない。@
+;　どうせ振り返っても誰もいないので、もはや私は振り返りさえしない。@
+`　Even if she turned around no one would be there, so she doesn't even turn around to check.`@
 br
-　代わりに、川田のぞみの背中を憎々しげに睨むのだ。\
+;　代わりに、川田のぞみの背中を憎々しげに睨むのだ。\
+`　Rather, she glared at Kawada Nozomi's back.`\
 
 
 mbg black,22
 
-　……悔しい。@
+;　……悔しい。@
+`　...How frustrating.`@
 br
-　何の証拠もない。@でも、絶対に川田さんのせいだって、わかってる。\
+;　何の証拠もない。@でも、絶対に川田さんのせいだって、わかってる。\
+`　I have no evidence. `@`But it has to be Kawada-san's fault. I know it.`\
 
-　でも、気にしたら負けだ。@
+;　でも、気にしたら負けだ。@
+`　But if I let it get to me, I'll lose it.`@
 br
-　こんな呪いで、私を妨害することが彼女には関の山なのだ。\
+;　こんな呪いで、私を妨害することが彼女には関の山なのだ。\
+`　For her using this kind of curse to disturb me is the best she can do.`\
 
 ld r,MID_K3,0
 mcbg 22
 
-　あんたなんかに、私の役は譲らない。@……負けるものか、絶対、絶対。@
+;　あんたなんかに、私の役は譲らない。@……負けるものか、絶対、絶対。@
+`　I won't give my role up to someone like you. `@`...I'll never give up, never.`@
 br
-　下唇を噛み締めながら、……目を給食に戻す。\
+;　下唇を噛み締めながら、……目を給食に戻す。\
+`　As she was biting her lower lip, ...she turned her gaze back to her lunch.`\
 
 mbg white,0
 print 99,2000,"trvswave.dll/l"
@@ -3043,17 +3061,22 @@ print 1
 
 me1v 17,50
 
-　すると。@……ゆらりと、……給食のカレーが、歪んだ気がした。@
+;　すると。@……ゆらりと、……給食のカレーが、歪んだ気がした。@
+`　When she did. `@`...The curry lunch began to sway ...and blur.`@
 br
-　湯気とか、そういう感じじゃない。@……疲れ目？@　……そんな感じだった。\
+;　湯気とか、そういう感じじゃない。@……疲れ目？@　……そんな感じだった。\
+`　It didn't seem like steam or anything like that. `@`...Tired eyes perhaps? `@`...It felt like that.`\
 
 cl r,0
 mcbg 22
 
-　私は霞んだ目を擦り、違和感を感じるそれを凝視する。@
+;　私は霞んだ目を擦り、違和感を感じるそれを凝視する。@
+`　I rubbed my hazey eyes, and I stared at something that made me feel uncomfortable.`@
 br
-　……たった今、自分が食べている、給食のカレー。@
-　そこに、……ゆらりと、………黒い物が混じるのだ。\
+;　……たった今、自分が食べている、給食のカレー。@
+`　...Just now I was eating the school's curry lunch.`@
+;　そこに、……ゆらりと、………黒い物が混じるのだ。\
+`　But now... swirling... it was mixed were these black things.`\
 
 ;ld r,MID_Def1,80
 
@@ -3062,44 +3085,60 @@ bg black,22
 fede 0,1000
 E_A
 
-　中から浮いてきた？@　……そんなはずない。@
+;　中から浮いてきた？@　……そんなはずない。@
+`　Did it float from the bottom? `@`...There's no way.`@
 br
-　でも……、……そのカレーには、……無数の、……/
+;　でも……、……そのカレーには、……無数の、……/
+`　But..., in that curry, ...were countless...`/
 se1 34
-虫の死骸があった……。\
+;虫の死骸があった……。\
+`dead insects...`\
 
 bg aka2,1
 quakey 3,200
 
-「ッ？！@/
+;「ッ？！@/
+`"?!`@/
 bgm1 12
-　……………………ッ！！！」@
+;　……………………ッ！！！」@
+`　..........!!!"`@
 br
-　あまりの驚愕に、窒息しそうになる。@
+;　あまりの驚愕に、窒息しそうになる。@
+`　She almost choked at the sudden shock.`@
 br
-　カレーの上には、……紛れもなく、それらがぶちまけられていた。\
+;　カレーの上には、……紛れもなく、それらがぶちまけられていた。\
+`　On top of the curry, ...there was no mistaking it, those things were strewn about.`\
 
-　私が川田さんを睨んでいる間に誰かが悪戯したとか、カレーの下から浮いてきたとか、@そんなことは断じてありえない。@
+;　私が川田さんを睨んでいる間に誰かが悪戯したとか、カレーの下から浮いてきたとか、@そんなことは断じてありえない。@
+`　That someone would pull a prank while I was staring at Kawada-san, or that they floated up from the bottom of the curry `@`- those things were impossible.`@
 br
-　私の目の前で。@それはゆらりと、現れたのだ……。\
+;　私の目の前で。@それはゆらりと、現れたのだ……。\
+`　Before my very eyes,`@` they had - swayed - into my vision...`\
 
 me1v 28,90
 
-　てらてらと黒光りする虫の背中。@節の様な足、髪の毛の様な触覚。@
+;　てらてらと黒光りする虫の背中。@節の様な足、髪の毛の様な触覚。@
+`　The glistening backs of their lustrous black husks. `@`Knotted legs. Hairlike feelers.`@
 br
-　それらが茶色いカレーのルーと白いライスに混じっている壮絶な光景。\
+;　それらが茶色いカレーのルーと白いライスに混じっている壮絶な光景。\
+`　They were mixed with the brown curry sauce and the white rice in a horrific display.`\
 
-　私の手はスプーンを握り、そこにずっと突き立てたままだった。@
+;　私の手はスプーンを握り、そこにずっと突き立てたままだった。@
+`　Gripping my spoon, I had been drawing from the bowl for some time.`@
 br
-　さっきまでそれは、カレーの中に突き立てられていたのだ。@
+;　さっきまでそれは、カレーの中に突き立てられていたのだ。@
+`　Until a moments ago, I had been driving my utensils into curry.`@
 br
-　しかし今は、カレーだけじゃない。\
+;　しかし今は、カレーだけじゃない。\
+`　But now, there wasn't just curry on them.`\
 
 me2v 3,90
 
-　……先割れスプーンは、……深々と、……黒い昆虫に、……突き刺さっていて。@
+;　……先割れスプーンは、……深々と、……黒い昆虫に、……突き刺さっていて。@
+`　...My fork and spoon were now deeply covered... stuck with ...black bugs.`@
 br
-　そこから、何色とも形容し難い、体液と内臓を溢れ出させているのだ……。\
+;　そこから、何色とも形容し難い、体液と内臓を溢れ出させているのだ……。\
+`　And there were all sorts of difficult to define colors of bodily fluids and guts that flowed out from them...`\
 
 ;bg black,22
 bg kyou_03,1
@@ -3107,152 +3146,192 @@ quakey 3,300
 
 me3v 16,90
 
-　私は食べていた物を全て吐き出しそうになり、慌てて口を押さえる。@
+;　私は食べていた物を全て吐き出しそうになり、慌てて口を押さえる。@
+`　I was about to throw up everything I had eaten, and I frantically covered my mouth.`@
 br
-　目の前にあるそれのせいだけで、嘔吐を覚えたわけじゃない。\
+;　目の前にあるそれのせいだけで、嘔吐を覚えたわけじゃない。\
+`　It wasn't just because of what I was seeing in front of me that I felt like vomiting.`\
 
-　……さっきまで食べていた物の中にも、……それが混じっていたのではないかと感じて、@……ぅ、……うぅううぅぅ……。\
+;　……さっきまで食べていた物の中にも、……それが混じっていたのではないかと感じて、@……ぅ、……うぅううぅぅ……。\
+`　...Inside what I had ate just now ...I sensed they had mixed in there as well, `@`...uhh ..UuUUuu...`\
 
 bg black,22
 
-「ちょっと、大丈夫？！」@
-「どうしたの、みどり？！@　気分悪いの？！」@
+;「ちょっと、大丈夫？！」@
+`"Hey, are you alright?!"`@
+;「どうしたの、みどり？！@　気分悪いの？！」@
+`"What's wrong, Midori?! `@`Are you sick?!"`
 br
-　みどりの様子にサキエたちが気付き、不安そうに声を掛ける。\
+;　みどりの様子にサキエたちが気付き、不安そうに声を掛ける。\
+`　Sakie and the others noticed Midori's behavior, and they uneasily called out to her.`\
 
-　……やっぱり。@彼女らには、このカレーの異常が見えていない。@
+;　……やっぱり。@彼女らには、このカレーの異常が見えていない。@
+`　...I knew it. `@`Those girls don't see what's wrong with this curry.`@
 br
-　痛みと同じ。@……私だけに感じられる、“呪い”なのだ。\
+;　痛みと同じ。@……私だけに感じられる、“呪い”なのだ。\
+`　It's the same as the pain. `@`...It's a 'curse' that only I can sense.`\
 
 
 bg kyou_01,22
 ld l,SIN_Def1,22
 
-「どうなさいましたか？」@
+;「どうなさいましたか？」@
+`"What's the matter?"`@
 
 ld r,MID_K2,22
 
-「……紅茶紳士さんにはこれ、……見えていますか。」\
+;「……紅茶紳士さんにはこれ、……見えていますか。」\
+`"...Tea Gentleman, ...are you seeing this?"`\
 
 ld l,SIN_Def2,80
 
-「…………………。@私から貴方に申し上げることはただ一つ。」@
+;「…………………。@私から貴方に申し上げることはただ一つ。」@
+`"......... `@`I have only one thing to tell you."`@
 
 ld r,MID_Def4a,80
 
-「気にしないことです…？」\
+;「気にしないことです…？」\
+`"Don't worry about it...?"`\
 
 ld l,SIN_Def4,80
 
-「っくっくっくっく。@その通りです。」@
+;「っくっくっくっく。@その通りです。」@
+"Kukukuku. `@`Exactly."`@
 br
-　紅茶紳士さんは他人事のようにくすくすと笑う。\
+;　紅茶紳士さんは他人事のようにくすくすと笑う。\
+`　The Tea Gentleman snickers as if it were someone else's problem.`\
 
-　……見えている。@
-　彼にも、このカレーの惨状が見えているのだ。@
+;　……見えている。@
+`　...He sees it.`@
+;　彼にも、このカレーの惨状が見えているのだ。@
+`　He's also seeing this terrifying curry.`@
 br
-　その時、……私の頭の中で、……嫌なピースが合わさり、一つの想像を形作る。\
+;　その時、……私の頭の中で、……嫌なピースが合わさり、一つの想像を形作る。\
+`　At that moment ...in my mind ...the puzzle pieces came together, and a detestable idea took shape in my mind.`\
 
 ld r,MID_K5,80
 
-「……紅茶紳士さん、ですね……。」@
+;「……紅茶紳士さん、ですね……。」@
+`"...You're the Tea Gentleman... right?"`@
 
 ld l,SIN_Def1,80
 
-「おや。@何の話ですかな？」\
+;「おや。@何の話ですかな？」\
+`"Oh my.`@` Whatever are you talking about?"`\
 
 bg black,22
 bg kyou_02,22
 
 ;ld r,MID_Def1,80
 
-「………惚けないで下さい。@……あのおかしな痛みも、このカレーも。@……紅茶紳士さんの力じゃないんですか。」@
+;「………惚けないで下さい。@……あのおかしな痛みも、このカレーも。@……紅茶紳士さんの力じゃないんですか。」@
+`"...Please don't act like a fool. `@`...That strange pain, this curry `@`- isn't this all your doing?"`@
 
 ;ld l,SIN_Def1,80
 
-「これはこれは。@心外ですねぇ。@どうして私がそのような真似をするのですか…？@　私は貴方の味方ではありませんか。」\
+;「これはこれは。@心外ですねぇ。@どうして私がそのような真似をするのですか…？@　私は貴方の味方ではありませんか。」\
+`"My oh my. `@`How unfortunate~ `@`Why do you think I'd do things like that...? `@`Am I not on your side?"`\
 
 ;ld r,MID_Def1,80
 
 mbg black,22
 
-「…………確かに、私の味方だと思います。@……でも、ひょっとして。@……他にも味方している子が、……いるんじゃありませんか？」@
+;「…………確かに、私の味方だと思います。@……でも、ひょっとして。@……他にも味方している子が、……いるんじゃありませんか？」@
+`"...Sure, I do think you're on my side. `@`...But, for some reason. `@`...Is there another girl ...who is on your side?"`@
 
 ;ld l,SIN_Def1,80
 
-「おや。@それはどういう意味ですかな…？」\
+;「おや。@それはどういう意味ですかな…？」\
+`"Oh my. `@`What do you mean by that I wonder...?"`\
 
 mcbg 22
 
 ld c,MID_K5,22
 
-「演劇部で。@……私に出会い、力を貸してくれたように。@………川田さんにも出会って。@……何かの力を貸したんじゃないですか。」\
+;「演劇部で。@……私に出会い、力を貸してくれたように。@………川田さんにも出会って。@……何かの力を貸したんじゃないですか。」\
+`"In the drama club. `@`...Just as you offered your power to me when we met. `@`...You met with Kawada-san. `@`...You lent her some kind of power didn't you?"`\
 
 ld r,SIN_Def4,22
 
-「なるほど。@……川田さんが主役の座に就けるよう、貴方を降板させようと私が企んでいると。@なるほどなるほど……、っくっくっく。」@
+;「なるほど。@……川田さんが主役の座に就けるよう、貴方を降板させようと私が企んでいると。@なるほどなるほど……、っくっくっく。」@
+`"I see. `@`...In order to become the lead role, Kawada-san entrusts me with causing you to resign. `@`I see, I see... Kukuku."`@
 br
-　紅茶紳士さんは意味深に笑う。\
+;　紅茶紳士さんは意味深に笑う。\
+`　The Tea Gentleman smiles widely.`\
 
 cl c,0
 ld l,MID_K5,24
 
-　……今まで、彼を恩人と思ってきたけれど。@彼は正体不明の、人ならざる者なのだ。@
+;　……今まで、彼を恩人と思ってきたけれど。@彼は正体不明の、人ならざる者なのだ。@
+`　...Until now, although I had thought of him as my benefactor, `@`he was an incomprehensible supernatural being.`@
 br
-　私に気紛れに力を貸してくれただけで、……味方のつもりなんて、初めからないのだ。\
+;　私に気紛れに力を貸してくれただけで、……味方のつもりなんて、初めからないのだ。\
+`　On a whim he had given his power to me, ...and he was never on my side from the very beginning.`\
 
 ld r,SIN_Def1,80
 
-「みどりさん。@それはとても心外な想像です。」@
+;「みどりさん。@それはとても心外な想像です。」@
+`"Midori-san. `@`That is a very upsetting thought."`@
 
 ld l,MID_U1,80
 
-「……だって、そうじゃなきゃ説明がつかないッ！」\
+;「……だって、そうじゃなきゃ説明がつかないッ！」\
+`"...But, if that's not it then what is it!!"`\
 
 ld r,SIN_Def3,80
 
-「みどりさん。@……私は貴方の味方です。@だからこそ、こうしていつも、貴方の側にいるのではありませんか。」\
+;「みどりさん。@……私は貴方の味方です。@だからこそ、こうしていつも、貴方の側にいるのではありませんか。」\
+`"Midori-san. `@`...I am your ally. `@`Therefore, I'll always be here with you like this."`\
 
 ld l,MID_K3,80
 
-「…………川田さんの呪いのために、……私に取り憑いてるのかもしれないです。」\
+;「…………川田さんの呪いのために、……私に取り憑いてるのかもしれないです。」\
+`"...You might just be clinging to me ...for the sake of Kawada-san's curse."`\
 
 ld r,SIN_Def2,80
 
-「………………………。@私は、貴方の味方です。@そして、貴方が耳を貸さないとしても、同じことを言いましょう。」@
+;「………………………。@私は、貴方の味方です。@そして、貴方が耳を貸さないとしても、同じことを言いましょう。」@
+`".........`@ `I am your ally. `@`And even if you won't lend me your ears to hear it, I'll say the same thing."`@
 
 ld l,MID_K5,80
 
-「“気にしないことです”？」\
+;「“気にしないことです”？」\
+`"`Don't worry about it`?"`\
 
 bg black,22
 
 ;ld l,SIN_Def1,80
 
-「その通りです。@そして、それ以上の何も申し上げるつもりはありません。」@
+;「その通りです。@そして、それ以上の何も申し上げるつもりはありません。」@
+`"Indeed. `@`Aside from that, I have no intense of telling you anything otherwise."`@
 
 ;ld r,MID_Def1,80
 
-「……おかしなことが起こっても、何も気にせず、発表会へのお稽古に励めと…？@　……こんなおかしなことが繰り返し起こるんじゃ、集中なんて出来ない！！」\
+;「……おかしなことが起こっても、何も気にせず、発表会へのお稽古に励めと…？@　……こんなおかしなことが繰り返し起こるんじゃ、集中なんて出来ない！！」\
+`"...Even if strange things happen, you're saying I should dedicate myself to practice without giving it a thought...?`@` ...If weird things like this keep happening, there's no way I can concentrate!!"`\
 
 ld c,SIN_Def2,22
 
-「ならばお稽古を止め、主役を川田さんに譲るのですか？」@
+;「ならばお稽古を止め、主役を川田さんに譲るのですか？」@
+`"Then you'll stop pracitcing and give the lead role to Kawada-san?"`@
 
 ;ld r,MID_Def1,80
 
-「そ、そんなことはさせない…！@　主役は私…！@　私が掴んだ役！@　絶対に私が演じてみせる…！」\
+;「そ、そんなことはさせない…！@　主役は私…！@　私が掴んだ役！@　絶対に私が演じてみせる…！」\
+`"I, I won't let that happen...! `@`I am the lead...! `@`The role is mine! `@`I will be the one...!"`\
 
 bg Aka1,0
 ld c,SIN_Def2,22
 
 ld c,SIN_Def4,80
 
-「っくっくくくくく……。@……良いことを仰います。@その通りです。@主役は貴方。@誰にも譲ってはなりません。」@
+;「っくっくくくくく……。@……良いことを仰います。@その通りです。@主役は貴方。@誰にも譲ってはなりません。」@
+`"Ku Kukukukuku... `@`...Well said. `@`Exactly. `@`You are the lead. `@`It will go to no one else."`@
 
 ;ld r,MID_Def1,80
 
-「あなたが、……何を考えているのか、私にはわからない…！」\
+;「あなたが、……何を考えているのか、私にはわからない…！」\
+`"Just what are you thinking? ...I can't tell...!"`\
 
 bg black,22
 
@@ -3275,16 +3354,20 @@ se1v 13,50
 bg kyou_03,1
 quakey 2,200
 
-　みどりは勢い良く立ち上がる。@
+;　みどりは勢い良く立ち上がる。@
+`　Midori flew up from her seat.`@
 
 me1v 24,50
 
 br
-　その荒々しさにみんなが驚くが、みどりは何も気にしない。\
+;　その荒々しさにみんなが驚くが、みどりは何も気にしない。\
+`　Her wildness startled everyone, but Midori didn't care.`\
 
-　食べ掛けの給食を乱暴に持つと、残飯入れの中に食器ごと突っ込む。@
+;　食べ掛けの給食を乱暴に持つと、残飯入れの中に食器ごと突っ込む。@
+`　Recklessly taking her school lunch tray, she threw it, silverware and all, in the garbage.`@
 br
-　そしてそのまま、教室を飛び出していった。\
+;　そしてそのまま、教室を飛び出していった。\
+`　And with that she flew out of the classroom.`\
 
 bg black,22
 
