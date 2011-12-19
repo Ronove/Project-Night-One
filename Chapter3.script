@@ -4429,25 +4429,29 @@ bg black,0
 ld c,MID_U2,0
 ld l,SIN_Def2,2
 
-　その手を、紅茶紳士が握っている。@
+;　その手を、紅茶紳士が握っている。@
+`　The Tea Gentleman took that hand.`@`
 br
-　毬枝もまた、その光景を呆然と見ている他なかった。\
+;　毬枝もまた、その光景を呆然と見ている他なかった。\
+`　Marie was also watching this spectacle in bewilderment.`\
 
 ld l,SIN_Def1,80
 
-「………こういうことです。@めそめその毬枝さん。@………私はそれでも、……みどりさんにお邪魔な存在ですかな…？\
-
+;「………こういうことです。@めそめその毬枝さん。@………私はそれでも、……みどりさんにお邪魔な存在ですかな…？\
+`"...That's how it is.`@` MesoMeso Marie-san.`@`...Am I still...such an obstructive existence?"`\
 ld r,MAR_i3a,22
 
-「…………………………。」@
+;「…………………………。」@
+`"......"`@`
 br
-　毬枝は絶句する。@何も言い返せない。\
+;　毬枝は絶句する。@何も言い返せない。\
+`　Marie was lost for words.`@` She could say nothing in return.`\
 
 cl l,0
 mld l,SIN_Def2,22
 
-「私は嘘を信じさせる妖怪です。@………嘘と聞けば、良からぬものにも思えるでしょう。@しかし。@痛み止めや麻酔薬のように。@人には生きていくために、忘れねばならぬ痛みもあるのではないでしょうか。@私はこの少女の痛みを、こうして和らげているのです。」\
-
+;「私は嘘を信じさせる妖怪です。@………嘘と聞けば、良からぬものにも思えるでしょう。@しかし。@痛み止めや麻酔薬のように。@人には生きていくために、忘れねばならぬ痛みもあるのではないでしょうか。@私はこの少女の痛みを、こうして和らげているのです。」\
+`"I am a youkai that allows one to believe lies.`@`...When you hear lie, you can only think it is not good, correct?`@` However.`@`The same way as painkillers or anesthetics,`@` Isn't there some pain that must be forgotten in order to keep living?`@`This is how I relieved this girl of her pain."`\
 ld r,MAR_i2a,22
 
 fede 1,1000
@@ -4460,28 +4464,33 @@ bg black,22
 
 E_A
 
-「……毬枝。@相手が悪いわ。@そのくらいになさい。」\
-
+;「……毬枝。@相手が悪いわ。@そのくらいになさい。」\
+`"...Marie.`@` You're out of your league.`@`Leave it at that."`\
 bg engeki_01,22
 ld l,MAR_i1,22
 
 bgm1 14
 
-「彼岸花さんっ。」@
+;「彼岸花さんっ。」@
+`"Higanbana-san...!"`@`
 br
-　いつの間にか彼岸花の姿もあった。\
+;　いつの間にか彼岸花の姿もあった。\
+`　Unbeknownst when she arrived, Higanbana was also there.`\
 
 ld r,HIG_Def2,22
 
-「元々。@………楠木みどりは私の獲物だった。」@
+;「元々。@………楠木みどりは私の獲物だった。」@
+`"Moreso,`@`...Midori Kusunoki was my prey."`@`
 
 ld l,MAR_i1a,80
 
 「え…？」\
+`"Huh...?"`\
 
 ld r,HIG_W3,80
 
-「お金持ち自慢が過ぎて、クラス中に嫌われていじめられて。@……私好みの美味しい魂になりそうだった。@……それを、そいつに掻っ攫われたの。」\
+;「お金持ち自慢が過ぎて、クラス中に嫌われていじめられて。@……私好みの美味しい魂になりそうだった。@……それを、そいつに掻っ攫われたの。」\
+`"Someone so proud of her money that she was hated in her class and bullied.`@`...That sounded like a delicious soul to my taste.`@`...Then this guy snatched it away."`\
 
 
 bg black,24
@@ -4491,39 +4500,47 @@ ld l,SIN_Def2,24
 
 ld l,SIN_Def1,80
 
-「私がみどりさんを獲物としなければ。@……今頃は彼岸花さんの甘言に耳を貸し。@……ひょっとしたら、自らの命を軽んじていたかもしれませんねぇ。」\
+;「私がみどりさんを獲物としなければ。@……今頃は彼岸花さんの甘言に耳を貸し。@……ひょっとしたら、自らの命を軽んじていたかもしれませんねぇ。」\
+`"If I make Midori-san my prey.`@`...I will lend my ear to Higanbana-san's cajolery.`@`...Could it be that I would be taking my own life lightly?"`\
 
 ld r,MAR_i1a,22
 
-「………………………………。」\
+;「………………………………。」\
+`"......"`\
 
 ld l,SIN_Def4,80
 
-「ニンゲンには、辛い現実から逃避する権利もあります。@そしてそれが当人にとって、幸せな夢を叶えるものに思えるならば。@……それは素敵なことではありませんか？」\
+;「ニンゲンには、辛い現実から逃避する権利もあります。@そしてそれが当人にとって、幸せな夢を叶えるものに思えるならば。@……それは素敵なことではありませんか？」\
+`"Humans have the right to run away from harsh realities.`@` And if you think of it as granting the person involved a happy dream,`@`...Is that not a beautiful thing?"`\
 
 bg black,24
 bg engeki_01,0
 ld c,HIG_W3,24
 ld c,HIG_Def5,80
 
-「詭弁だわ。@ニンゲンは現実に生きる。@……それから逃げたツケを、いつかは支払うことになるわ。」\
+;「詭弁だわ。@ニンゲンは現実に生きる。@……それから逃げたツケを、いつかは支払うことになるわ。」\
+`"How sophisticated.`@`Humans live in reality.`@`...If one runs away, they will have to pay for it dearly one day."`\
 ;＜彼岸花
 
 ld l,SIN_Def1,22
 
-「そうですね。@現実に戻る時、支払うことになるでしょう。@……しかし、戻らないならば、永遠に支払わなくても良い。」\
+;「そうですね。@現実に戻る時、支払うことになるでしょう。@……しかし、戻らないならば、永遠に支払わなくても良い。」\
+`"That's correct, isn't it?`@` Once they return to reality, they will have to pay for it.`@`...However, if they do not come back, they can also pay for it eternally."`\
 
 ld r,MAR_i3a,22
 
-「……そんなのが、……彼女にとって、……幸せなんですか……。」@
+;「……そんなのが、……彼女にとって、……幸せなんですか……。」@
+`"...Is that...what happiness...is to her...?"`@`
 
 ld l,SIN_Def4,80
 
-「元いじめられっこの貴方なら。@……彼女の今の気持ちも、察してあげて欲しいものですがねぇ。」\
+;「元いじめられっこの貴方なら。@……彼女の今の気持ちも、察してあげて欲しいものですがねぇ。」\
+`"If you were once bullied.`@`...Then you would want to sympathize with how she feels now."`\
 
 ld r,MAR_i2a,80
 
-「……………………………。」\
+;「……………………………。」\
+`"......"`\
 
 cl c,22
 
@@ -4531,32 +4548,40 @@ bg black,23
 bg engeki_02,23
 ld r,HIG_w3,22
 
-「もう毬枝に文句がないならば。@その子はそいつの獲物よ。@……行きましょう、毬枝。@どうせ、あんたには太刀打ち出来ない相手なのだから。」\
+;「もう毬枝に文句がないならば。@その子はそいつの獲物よ。@……行きましょう、毬枝。@どうせ、あんたには太刀打ち出来ない相手なのだから。」\
+`"If you have no more complaints, Marie.`@` That girl is his prey.`@`...Let's go, Marie.`@`He's not someone you can oppose anyway."`\
 
 ld l,MAR_i4a,22
 
-「彼は紅茶紳士と名乗りましたが、……一体、何者なんですか。」@
+;「彼は紅茶紳士と名乗りましたが、……一体、何者なんですか。」@
+`"The man used the name Tea Gentleman...but just who on earth is he?"`@`
 
 ld r,HIG_Def3,80
 
-「学校妖怪八席に序列は持たないわ。@……でも、実力はある。@そうね。@影の序列第２位ってところかしら。@………校長先生の右腕よ。@私たちは、“教頭先生”と呼んでる。」\
+;「学校妖怪八席に序列は持たないわ。@……でも、実力はある。@そうね。@影の序列第２位ってところかしら。@………校長先生の右腕よ。@私たちは、“教頭先生”と呼んでる。」\
+`"He does not have a rank in the 8 Seats of School Youkai.`@`...However, he has a real ability.`@`Well,`@` perhaps he would be about the second rank in the shadows?`@`...He's the Headmaster's right hand man. `@` We call him "Vice Principal."`\
 
 bg black,0
 ld c,SIN_Def1,22
 
-　学校妖怪序列第１位の校長先生の右腕、教頭先生。@
+;　学校妖怪序列第１位の校長先生の右腕、教頭先生。@
+` The first rank of the school youkai, the Headmaster's right-hand-man, the Vice Principal.`@`
 br
-　嘘を叶える力を持つ、恐ろしい妖怪。\
-
-　ただし、嘘は嘘。@いくら叶えても、それは気付けば虚ろな嘘に過ぎない。@
-　しかしそれはあまりに甘美で、……抗えるニンゲンなど、きっと誰もいない。@
+;　嘘を叶える力を持つ、恐ろしい妖怪。\
+`　A fearsome youkai who holds the power to make lies reality.`\
+;　ただし、嘘は嘘。@いくら叶えても、それは気付けば虚ろな嘘に過ぎない。@
+`　However, lies are lies.`@`No matter how make them true, once you realize this, it will be nothing more than an empty lie.`@`
+;　しかしそれはあまりに甘美で、……抗えるニンゲンなど、きっと誰もいない。@
+(?)`　But extremely sweet as it may be, ...I am sure there is not a human out there who would oppose it.`@`
 br
-　校長先生の手下という扱いなので、序列は持たないが、@その実力は影の序列第２位と囁かれている……。\
+;　校長先生の手下という扱いなので、序列は持たないが、@その実力は影の序列第２位と囁かれている……。\
+`　This is what the headmaster's underling handles,`@` the power of the shadow's second ranks, spoken of in whispers...`\
 
 bg engeki_01,0
 ld c,SIN_Def1,22
 
-「ご謙遜を。@私など、名も無い一妖怪に過ぎません。」\
+;「ご謙遜を。@私など、名も無い一妖怪に過ぎません。」\
+`"You flatter me.`@`I am nothing but a youkai with no name."`\
 
 bg black,22
 bg engeki_02,0
@@ -4565,22 +4590,26 @@ ld r,HIG_w3,22
 
 ld r,HIG_Def2,80
 
-「行きましょう、毬枝。@楠木みどりが、自ら望んだ顛末よ。@……現実を直視せず、嘘の世界を望み、ツケを払うことさえ拒んだ。@………あの子はもう、素敵な世界のお姫様。@……毎日が幸せでしょうから、自殺なんて金輪際、考えないでしょうし。@……残念ね、もう私好みの魂じゃないわ。」\
-
+;「行きましょう、毬枝。@楠木みどりが、自ら望んだ顛末よ。@……現実を直視せず、嘘の世界を望み、ツケを払うことさえ拒んだ。@………あの子はもう、素敵な世界のお姫様。@……毎日が幸せでしょうから、自殺なんて金輪際、考えないでしょうし。@……残念ね、もう私好みの魂じゃないわ。」\
+`"Let's go, Marie.`@` This is the circumstance Midori Kusunoki wished for.`@` ...unable to face reality, wishing for a world of lies, she refused to pay.`@`...That girl is still the princess of a beautiful world.`@`...Since every day should be happy, she would never possibly think of suicide.`@`...Pity, she's no longer my type of soul."`\
 
 cl r,2
 
-　彼岸花はくるりと姿を翻して姿を消す。@
+;　彼岸花はくるりと姿を翻して姿を消す。@
+`　Higanbana turned around, then disappeared.`@`
+
 br
-　毬枝は呆然と、……紅茶紳士とみどりのアンコールを見ていた……。\
+;　毬枝は呆然と、……紅茶紳士とみどりのアンコールを見ていた……。\
+`　Marie speechlessly,...watched The Tea Gentleman and Midori's encore...`\
 
 bg black,22
 ;bg engeki_03,0
 ;ld c,MID_Def1,24
 
-　川田のぞみも呆然としている。@……もう、みどりには誰の姿も目に入らない。@
-　彼女の瞳に浮かぶのは、……満場の観客席だけだ。\
-
+;　川田のぞみも呆然としている。@……もう、みどりには誰の姿も目に入らない。@
+`　Nozomi Kawada was also at a loss for words.`@`...Now, nobody would look at anyone but Midori.`@`
+;　彼女の瞳に浮かぶのは、……満場の観客席だけだ。\
+`　Reflected in her eyes, ...was every seat in the audience.`\
 se1v 77,70
 
 bg white,1
@@ -4598,10 +4627,11 @@ se3v 54,70
 ld c,MID_U2,22
 ld c,MID_def3,2
 
-「ありがとう、みんな。@ありがとう、みんな…。@この舞台を、私を愛してくれる皆さんに捧げます。@……ありがとう、……本当にありがとう……。」@
+;「ありがとう、みんな。@ありがとう、みんな…。@この舞台を、私を愛してくれる皆さんに捧げます。@……ありがとう、……本当にありがとう……。」@
+`"Thank you everybody.`@` Thank you everybody...`@` I offer this stage to everyone who has loved me.`@`...Thank you...thank you so much..."`@`
 br
-　いつまでもいつまでも。@割れんばかりの大歓声が、彼女を祝福し続けるのだった……。\
-
+;　いつまでもいつまでも。@割れんばかりの大歓声が、彼女を祝福し続けるのだった……。\
+`　Forever and ever.`@`The thunderous applause and cheering, continued to praise her...`\
 
 se1v 54,85
 
