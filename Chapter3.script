@@ -3379,29 +3379,38 @@ ld c,SIN_Def2,22
 
 bgm1 13
 
-「……っくっくくくくくくくく。@……やれやれ。@若々しいですねぇ。」@
+;「……っくっくくくくくくくく。@……やれやれ。@若々しいですねぇ。」@
+`"...Ku Ku kukukukukuku. `@`...Dear oh dear. `@`So very young."`@
 br
-　紅茶紳士は肩を竦めて笑う。\
+;　紅茶紳士は肩を竦めて笑う。\
+`　The Tea Gentleman shrugged his shoulders and laughted.`\
 
 se1v 22,50
 
 mbg white,9
 mcbg 22
 
-　……彼の目には、不思議なものが見えていた。@
+;　……彼の目には、不思議なものが見えていた。@
+`　...Something strange caught his eye.`@
 br
-　荒々しく席を立ち、教室から出て行ったみどりは、@全身からうっすらと、湯気かお線香の煙のようなものを棚引かせていた。\
-　それは人ならざる者の目にしか見えない。@
+;　荒々しく席を立ち、教室から出て行ったみどりは、@全身からうっすらと、湯気かお線香の煙のようなものを棚引かせていた。\
+`　Midori who roughly flew out her chair and out the classroom, `@`steam or smoke and trailed out from her body and hung in the air like steam or incense.`\
+;　それは人ならざる者の目にしか見えない。@
+`　That was something only a supernatural being could see.`@
 br
-　紅茶紳士は空のティーカップをふわりと持つと、@……その煙のようなものが、すぅっと集まり、カップに満たされていく。\
+;　紅茶紳士は空のティーカップをふわりと持つと、@……その煙のようなものが、すぅっと集まり、カップに満たされていく。\
+`　The Tea Gentleman gently held his teacup in the air, `@`...and that smokelike entity slowly gathered and began to fill his cup.`\
 
-　そしてそれは渦を巻きながら茶色く透き通り、@……彼好みの、鮮烈な香りを放つ、良い紅茶となった。@
+;　そしてそれは渦を巻きながら茶色く透き通り、@……彼好みの、鮮烈な香りを放つ、良い紅茶となった。@
+`　And as that swirl wound itself it turned brown. `@`...It held a pleasant fragrance, and became a delicious black tea.`@
 br
-　一口すすり、にんまりと笑う………。\
+;　一口すすり、にんまりと笑う………。\
+`　He took a sip and smiled peacefully...`\
 
 ld c,SIN_Def4,80
 
-「……実に初々しい味わいです。@……みどりさん。@貴方の魂は、……実に良い香りの紅茶になりますよ。@っくっくくくくくくくく………！」\
+;「……実に初々しい味わいです。@……みどりさん。@貴方の魂は、……実に良い香りの紅茶になりますよ。@っくっくくくくくくくく………！」\
+`"...It truly tastes of innocence. `@`...Midori-san. `@`Your soul ...will truly make a delightfully fragrant tea. `@`Ku Kukukukukukuku...!"`\
 
 bg black,2
 
@@ -3423,10 +3432,13 @@ bg rouka_02,22
 
 me1v 16,50
 
-　みどりは小走りで部室に向かった。@
+;　みどりは小走りで部室に向かった。@
+`　Midori ran towards the clubroom.`@
 br
-　まだ昼休みではあるけれど。@
-　稽古がしたかった。@演劇がしたかった。@誰か他の人間を演じたかった。\
+;　まだ昼休みではあるけれど。@
+`　It was still lunch break.`@
+;　稽古がしたかった。@演劇がしたかった。@誰か他の人間を演じたかった。\
+`　She wanted to practice. `@`She wanted the theater. `@`She wanted to be someone else.`\
 
 se1 82
 
@@ -3434,19 +3446,24 @@ bg white,63
 bg engeki_01,22
 ;quakex 1,100
 
-　部室へ飛び込む。@
+;　部室へ飛び込む。@
+`　She flew into the clubroom.`@
 br
-　教室の並びから離れているため、昼休みの喧騒が遠くて、それだけでも心地良かった。\
+;　教室の並びから離れているため、昼休みの喧騒が遠くて、それだけでも心地良かった。\
+`　Being seperated from the line and file of the classroom, the hustle and bustle of lunch break was far away, and with that she felt a bit better.`\
 
-　みどりは部室の奥にある衣装置き場にまっすぐ向かう。@
+;　みどりは部室の奥にある衣装置き場にまっすぐ向かう。@
+`　Midori headed straight for the costume storeroom in the clubroom.`@
 br
-　そして主役の衣装である、ドレスを手に取り、@まだ昼休みであるにも関わらず、着替え始める……。\
+;　そして主役の衣装である、ドレスを手に取り、@まだ昼休みであるにも関わらず、着替え始める……。\
+`　Then she took the dress of the lead role in her arms. `@`Regardless of the fact that it was still lunch break, she began changing her clothes...`\
 
 bg black,24
 bg engeki_04,0
 ld c,MID_Def2a,24
 
-「………私が主役、……私が主役……。@……誰にも譲らない、……誰にも譲らないッ……。」@
+;「………私が主役、……私が主役……。@……誰にも譲らない、……誰にも譲らないッ……。」@
+`"...I am the lead actress... I am the lead actress... `@`...I won't let anyone else, ...I won't let anyone elssse..."`@
 br
 ;　お気に入りのワンピースを脱ぐ。\
 `　I took off my favorite dress.`\
@@ -3455,7 +3472,7 @@ br
 
 bg black,1
 
-　その時、……鏡に映る自分の姿を見て、……みどりは息を呑んだ。\
+;　その時、……鏡に映る自分の姿を見て、……みどりは息を呑んだ。\
 `　Just then, ...looking at herself reflected in the mirror, ...Midori's heart stopped.`\
 
 E_A
@@ -3543,7 +3560,7 @@ ld l,SIN_Def1,80
 me1v 17,50
 
 ;「………おや。」@
-`"...Hmm?"`@`
+`"...Oh my."`@`
 
 br
 ;　紅茶紳士の前に、……毬枝が、ゆっくりと姿を現す。@
@@ -3579,7 +3596,7 @@ ld r,MAR_i1,80
 ld l,SIN_Def3,80
 
 ;「えぇ。@それは誰よりもよく承知しておりますよ……。」\
-`"Yes.`@`I acknowledge that more than anyone..."`\
+`"Yes.`@` I acknowledge that more than anyone..."`\
 
 bg black,22
 
@@ -3607,12 +3624,12 @@ ld r,SIN_Def2,22
 ld l,MAR_i4,80
 
 ;「………はい。@だから、もうこれで。@……彼女を見逃してあげて下さい。」@
-`"...Yes.`@`That's why, just with this.`@` ...Please overlook her."`@`
+`"...Yes.`@` So let's leave it at this.`@` ...Please leave her alone."`@`
 
 ld r,SIN_Def3,80
 
 ;「見逃す、とは……？」\
-`"Overlook, meaning...?"`\
+`"Leave her alone...?"`\
 
 bg black,23
 bg engeki_01,0
@@ -3633,7 +3650,7 @@ wait 1000
 mld r,MAR_i3,22
 
 ;「………もう一度言います。@みどりさんを、見逃してあげて下さい。」@
-`"...I'll say it one more time.`@` Let Midori-san go."`@`
+`"...I'll say it one more time.`@` Please let Midori-san go."`@`
 
 mld l,SIN_Def3,22
 
@@ -3645,12 +3662,12 @@ mld l,SIN_Def3,22
 mld r,MAR_i2a,80
 
 ;「………なら。@……学校妖怪のルールに、従わせてもらいます。」@
-`"Then,`@`...I shall abide by the school youkai's rules."`@`
+`"Then,`@` ...I'll ask you abide by the school youkai's rules."`@`
 
 mld l,SIN_Def2,80
 
 ;「ルール？@　はて。@如何なる束縛も嫌う私たちが、何のルールを？」\
-`"Rules?`@`Well then.`@`For ones who despise any kind of shackles like us, what rules?"
+`"Rules?`@` Well then.`@` For ones who despise any kind of shackles like us, what rules?"
 
 mld r,MAR_i3a,80
 
@@ -3660,7 +3677,7 @@ mld r,MAR_i3a,80
 mld l,SIN_Def4,80
 
 ;「くっくくく。@っくっくくくくくくくくくくく！@　なるほどッ、確かに妖怪が従う、唯一のルールですねぇ。」@
-`"Kukukuku.`@`Kukukukukuku!`@` I see, indeed youkai do abide by just that one rule, don't we."`@`
+`"Kukukuku.`@`KU KUKUKUKUKU!`@` I seeeee, youkai certainly do follow that one rule, don't we?"`@`
 br
 ;　紅茶紳士は、一本取られたとでも言うように肩を揺すって笑う。\
 `　As if to say, 'You've got me there', The Tea Gentleman's shoulders shook with laughter.`\
@@ -3679,7 +3696,7 @@ br
 ld l,SIN_Def2,22
 
 ;「これは困りました。@学校妖怪八席のめそめそさんに凄まれては。@序列を持たぬ弱小妖怪の私など、塵にされてしまいますねぇ。」\
-`"This is a problem.`@`Being threatened by MesoMeso-san of the 8th Seat of School Youkai.`@` A puny youkai with no ranking like myself, will surely be no match for you."`\
+`"This is a problem.`@`Being threatened by Mesomeso-san of the 8th Seat of School Youkai.`@` A puny youkai with no ranking like myself, will surely be no match for you."`\
 
 ld c,MAR_i3,80
 
@@ -3689,7 +3706,7 @@ ld c,MAR_i3,80
 ld l,SIN_Def3,80
 
 ;「……しかし、みどりさんという素晴らしき茶葉をここで譲るには余りに惜しい。」@
-(?)`"...However, I don't believe there are any tea leaves worthy of Midori's brilliantness left to give."`@`
+(?)`"...However, I think giving up Midori-san, who makes such brilliant tea leaves, right here would be truly regrettable."`@`
 
 cl c,0
 ld r,MAR_i4,23
