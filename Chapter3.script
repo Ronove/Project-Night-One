@@ -3717,23 +3717,23 @@ ld r,MAR_i4,23
 ld l,SIN_Def4,80
 
 ;「………………………たくましい。@元いじめられっことは思えませんね。」\
-`"...How strong.`@`I would never have thought you were once bullied."`\
+`"...How strong.`@`I would never have thought you were a bullied child once."`\
 
 ld r,MAR_i2,80
 
 ;「元いじめられっこだからこそ。@………私には人の心が、誰よりもわかるんです。@……あなたはがんばり屋の少女を蝕んでいる。@……そんな努力を蔑ろにしようとするあなたを、私は見過ごすわけには行きません。」\
-`"It is because I was once bullied.`@`...I understand people's hearts, more than anybody else.`@` ...You are consuming that hard-working girl.`@`...I have no intentions of letting it slide, that you would make light of that endeavor."`\
+`"It is because I was once bullied.`@`...I understand people's hearts, more than anybody else.`@` ...You are consuming that hard-working girl.`@`...I have no intentions of letting you, the man who toys with her struggles, get away with it."`\
 
 cl l,0
 mld l,SIN_Def1,80
 
 ;「めそめそさんは、扉を挟んでこそ、真価を発揮する妖怪と聞きましたが…？」@
-`"I've heard Mesomeso-san is a youkai who demonstrates her true worth -- with a door interposed."`@`
+`"I've heard Mesomeso-san is a youkai who demonstrates her true worth -- from behind a door?"`@`
 
 ld r,MAR_i3a,80
 
 「……仮にも学校妖怪八席。@……あなたを、……この腕で、……駆逐しますッ。」\
-`"...Even as a joke, I am in the 8th Ranked Seat of School Youkai.`@` I will...with these hands...exterminate you."`\
+`"...For the moment, I am in the 8th Ranked Seat of School Youkai.`@` With these hands...I will...destroy you."`\
 
 se1v 22,50
 bg white,8
@@ -3761,7 +3761,7 @@ print 1
 
 
 ;　それらが揺らめき、……爬虫類のように毬枝を睨みつけ、…………襲う。@
-`　They were swaying,...and scowling at Marie like reptiles,...and attacked.`@`
+`　They were swaying,... glaring at Marie like reptiles,...they attacked.`@`
 br
 ;　何本もの霧の腕が毬枝に飛び掛る。@ぐるぐる巻きにして締め上げる。\
 `　Those countless arms of mist leapt at Marie.`@` They coiled around her and constricted her.`\
@@ -3798,7 +3798,7 @@ br
 `　Because he settled things so quickly?`@` No.`@`　
 br
 ;　わかっているのだ。@仮にも、学校妖怪八席。@……この程度で、仕留められるわけもない。\
-`　He knew.`@` The Eighth Ranked School Youkai, even for a time.`@`...There was no way this amount would take her down.`\
+`　He knew.`@` The Eighth Ranked School Youkai, even if she was temporarily in that rank.`@`...There was no way this amount would take her down.`\
 
 
 mbg "BMP\background\efe\red1.bmp",1
@@ -3831,11 +3831,11 @@ se3v 13,50
 quakey 2,200
 
 ;　再び姿を見せた毬枝は、@……学校を代表する妖怪たちの末席を務める者に相応しい貫禄を見せていた。\
-`　The figure of Marie was seen once more,`@` ..Marie displayed a presence befitting of one representing one who emplyed the school's lowest seat of youkai.`\
+`　The figure of Marie was seen once more,`@` ..Marie displayed a presence befitting of one representing one who employed the school's lowest seat of youkai.`\
 mld c,MAR_i2,80
 
 ;「…………私は、まだ自分の力をよくわかっていません。@………私に抱き締められタラ、……手加減は、無理……デス……。」\
-`"...I, still do not understand my own power.`@`...If you hoLD ME, ...holding back, will be...imposSIBLE..."`\
+`"...I, still do not understand my own power.`@`...If you hoLD ME, ...I won't be able to ...HOLD BACK..."`\
 
 me1v 16,70
 
@@ -3850,14 +3850,14 @@ me2v 28,90
 
 br
 ;　鉛のような質量を伴った両腕は、@まるで丸太を思わせるほどの太ささえ感じさせる威圧感を放っていた。\
-`　As though they were reinforced with lead,`@` both arms that were so large one could even think they were like logs gave off an intimidating air.`\
+`　As though they were reinforced with lead,`@` both arms gave off an intimidating air and were so large one could even think they were like tree trunks.`\
 mcl c,0
 bg engeki_01,0
 mld l,SIN_Def1,22
 ;ld l,SIN_Def1,80
 
 ;「やはり、……敵いませんか。@……では、最後に一花とさせていただきましょう。」@
-`"I suppose,...it cannot be granted.`@` ...Then in conclusion, I shall take hold of my success."`@`
+`"I suppose,...that didn't take.`@` ...Then, let's continue until something succeeds."`@`
 br
 ;　紅茶紳士が手をかざすと、そこに霧の蛇が巻きつき、……槍のような鋭さを見せる。\
 `　The Tea Gentleman raised his hand, and a snake of mist twined around, ...sharp like a lance.`\
@@ -3874,7 +3874,7 @@ ld r,MAR_o1,2
 mld l,SIN_Def2,80
 
 「……おや。@足音が近付いてきますね。@……これ以上、ニンゲンが増えると居心地が良くありません。@この一撃で、決着とさせていただきましょう。」\
-`"...Hmm? `@`Some footsteps are coming closer`@`...If we go on, more HUMANS than I am comfortable with will be here.`@` Allow me to settle this with this one blow."`\
+`"...Oh my. `@`Some footsteps are coming closer`@`...If we go on, more 'humans' than I am comfortable with will be here.`@` Allow me to settle this with this one blow."`\
 
 ;　確かに、誰かの足音が近付いてくる。@
 `　Indeed, someone's footsteps were nearing.`@`
@@ -3882,7 +3882,7 @@ mld l,SIN_Def2,80
 `　They were coming closer, directly to this clubroom.`@`
 br
 ;　それが、二人の決闘の、秒読みとなる………。\
-`　That was to be the countdown, to these two's duel...`\
+`　That was to be the countdown for their duel...`\
 E_A
 
 se1v 82,100
@@ -3958,12 +3958,12 @@ quakey 2,300
 me1v 5,50
 
 ;　雷鳴のような音が轟き、……紅茶紳士の体は、豪腕によって殴り飛ばされたことを、思い出す。@
-`　A roar like the sound of thunder, ...And The Black Tea Gentleman's body, knocked off his feet by her strong arm, remembered.`@`
+`　With a roar like the sound of thunder, ...The Black Tea Gentleman's body was knocked off his feet by her strong arms.`@`
 ;　一番奥の壁まで吹き飛ばされ、大の字に叩き付けられた。@
-`　He was blown away to the furthest wall, and struck it spread-eagled.`@`
+`　He was blown clear across the room and strewn against the furthest wall.`@`
 br
 ;　紅茶紳士は、見事な一撃です…、と言いながら、親指を立てる仕草をしてみせる…。\
-`　The Tea Gentleman made, a splendid strike...while saying this, he showed a thumbs up...`\
+`　The Tea Gentleman said, "a splendid strike," and gave a thumbs up as he spoke...`\
 se1v 1100,30
 mbg white,1
 mcbg 22
@@ -4030,28 +4030,36 @@ br
 `　Kawada-san snapped at me in such a strict tone of voice.`\
 me1v 17,50
 
-　……彼女って、こんなにもはっきりとしゃべる子だったっけ…？@
+;　……彼女って、こんなにもはっきりとしゃべる子だったっけ…？@
+`　This girl - was it really even like her to speak so bluntly...?`@
 br
-　妬ましそうに、無言でじっと睨むくらいしか出来ない子だと思ってたのに……。\
+;　妬ましそうに、無言でじっと睨むくらいしか出来ない子だと思ってたのに……。\
+`　I thought she could only silently stare at me in jealousy...`\
 
-「とっとと脱げって言ってんのよ。@あんたの臭いニオイが染み付くでしょ。@あんたが私の衣装に触れていいのは、雑用係として手入れをする時だけよ。」\
+;「とっとと脱げって言ってんのよ。@あんたの臭いニオイが染み付くでしょ。@あんたが私の衣装に触れていいのは、雑用係として手入れをする時だけよ。」\
+`"I said hurry up, take it off. `@`Your stink is going to stick to it. `@`The only time you can touch my stuff is when you're doing your job as the chore girl."`\
 
 ld c,MID_Def4a,22
 
-　雑用係……？@
+;　雑用係……？@
+`　Chore girl...?`@
 br
-　それは、……川田さんのことじゃないの？@　……私は、……主役……。\
+;　それは、……川田さんのことじゃないの？@　……私は、……主役……。\
+`　Isn't that... Kawada-san's job? `@`...I'm ... the lead...`\
 
 bg engeki_01,1
 quakex 2,200
 
-「脱げって言ってんのよ…！@　あんたみたいな根暗な子が主役の衣装を着ようなんて、千年早いのよッ！」@
+;「脱げって言ってんのよ…！@　あんたみたいな根暗な子が主役の衣装を着ようなんて、千年早いのよッ！」@
+`"I said take it off! `@`It's a thousand years too early for some moody girl like you to wear the costume of the lead actress~!"`@
 
 ld c,MID_Def2a,22
 
-「な、………何を言ってるの、……あなた………。」\
+;「な、………何を言ってるの、……あなた………。」\
+`"Wh- ....What are you saying...?"`\
 
-「わけわかんねーこと言ってんのはテメーだろーが！@　脱げっツってんだよッ！！」@
+;「わけわかんねーこと言ってんのはテメーだろーが！@　脱げっツってんだよッ！！」@
+`"The one who doesn't fucking understand is YOU! `@`STRIP damn it!!"`@
 br
 
 se1v 8,50
@@ -4061,8 +4069,10 @@ se1 13
 
 quakey 2,200
 
-　川田さんは私をどんと突き飛ばす。@
-　私はふらりとよろめいて転び、……道具入れの木箱の角に激しく頭をぶつける。\
+;　川田さんは私をどんと突き飛ばす。@
+`　Kawada-san suddenly lunged at me.`@
+;　私はふらりとよろめいて転び、……道具入れの木箱の角に激しく頭をぶつける。\
+`　I fell over and rolled, ...I hit my head hard on the edge of the wooden toolbox.
 
 ;se1 1100
 
@@ -4071,25 +4081,31 @@ E_B
 mbg aka1,1
 mcbg 22
 
-　その時、……何かが、割れた。@
+;　その時、……何かが、割れた。@
+`　That instant ...something snapped.`@
 
 me2v 16,50
 
 br
-　頭蓋骨がじゃない。@……もっと胸の奥の、深いところにある頑丈な何かが、びしりと割れた。\
+;　頭蓋骨がじゃない。@……もっと胸の奥の、深いところにある頑丈な何かが、びしりと割れた。\
+`　It wasn't her skull. `@`...It was something by her chest, something deep inside had cleanly broken.`\
 
 bg black,22
 mono 1
 
 ld l,SIN_def4,22
 
-　紅茶紳士は、一つだけ願いを叶えようと言った。@
+;　紅茶紳士は、一つだけ願いを叶えようと言った。@
+`　The Tea Gentleman had said he would grant one wish.`@
 br
-　どんな役でも一つ、与えてあげようと言った。\
+;　どんな役でも一つ、与えてあげようと言った。\
+`　That he would give her any one role she wanted.`\
 
-　みどりが選んだ役は、“お姫様”ではなかった。@
+;　みどりが選んだ役は、“お姫様”ではなかった。@
+`　The role Midori had chosen was not 'the princess.'`@
 br
-　彼女が望んだ役は…………。\
+;　彼女が望んだ役は…………。\
+`　The role she chose was...`\
 
 
 
@@ -4128,9 +4144,11 @@ bg white,22
 
 bgm1 6
 
-　心の中の亀裂から、次々に、……“真実”が、溢れ出して来る。@
+;　心の中の亀裂から、次々に、……“真実”が、溢れ出して来る。@
+`　'Truths' from deep in the crevices of her mind began to come out... one after another.`@
 br
-　彼女が演じた虚偽ではなく、“本当”が、溢れ出す。\
+;　彼女が演じた虚偽ではなく、“本当”が、溢れ出す。\
+`　Not the pretend acting, but the 'truth' flows.`\
 
 bg black,28
 bg white,28
@@ -4145,25 +4163,34 @@ bg black,1
 bg white,22
 
 
-　それはまるで、録画した映像が巻き戻されるかのよう。@
+;　それはまるで、録画した映像が巻き戻されるかのよう。@
+`　It was almost like watching a movie on rewind.`@
 br
-　過去の記憶が鮮明に蘇る。@嘘で上書きされる前の、正しい“本当”の姿で。\
+;　過去の記憶が鮮明に蘇る。@嘘で上書きされる前の、正しい“本当”の姿で。\
+`　Memories of the past were clearly resurrected. `@`From the lies that had covered them before was the right 'truth'.`\
 
 bg kyou_02,2
 
 me1v 24,50
 
-　朝、教室に入る私を、クラスメート全員が見る。@そして笑いながら近寄ってくる。@
+;　朝、教室に入る私を、クラスメート全員が見る。@そして笑いながら近寄ってくる。@
+`　It's morning, I enter the classroom and my classmates look at me. `@`They laugh as they draw near.`@
 br
-　私を敬愛して、挨拶するためではない。\
+;　私を敬愛して、挨拶するためではない。\
+`　It wasn't because they wanted to greet me with love and respect.`\
 
-　私を、叩くために。@
-　笑いながら集まってきて、私を叩いて、叩いて、嘲笑う。\
+;　私を、叩くために。@
+`　It was to hit me.`@
+;　笑いながら集まってきて、私を叩いて、叩いて、嘲笑う。\
+`　They'd come and gather while laughing and beat me, beat me, and sneer.`\
 
-　宿題やってきたよね？@　サキエが言う。@
+;　宿題やってきたよね？@　サキエが言う。@
+`　You brought your homework? `@`Sakie would say.`@
 br
-　そして彼女が差し出すノートを受け取る。@
-　私のやってきた宿題を、彼女のノートに写すために。\
+;　そして彼女が差し出すノートを受け取る。@
+`　And then she'd give me her notebook and I would take it.`@
+;　私のやってきた宿題を、彼女のノートに写すために。\
+`　So I could copy my homework in her notebook.`\
 
 mbg "BMP\background\efe\red1.bmp",1
 se1 12
@@ -4171,9 +4198,11 @@ mcbg 22
 
 me2v 17,70
 
-　写している間。@サキエが定規を取り出し、私の腕を叩く。@フミエが私の顔面に上履きを投げつけてくる。@
+;　写している間。@サキエが定規を取り出し、私の腕を叩く。@フミエが私の顔面に上履きを投げつけてくる。@
+`　While I was copying, `@`Sakie would take out a ruler, and beat my arms. `@`Fumie would throw indoor slippers at my face.`@
 br
-　彼女らの宿題をしてあげてるのに、彼女たちは私に酷い仕打ちをするのだ。\
+;　彼女らの宿題をしてあげてるのに、彼女たちは私に酷い仕打ちをするのだ。\
+`　Even though I was doing their homework, they treated me terribly.`\
 
 bg black,22
 
@@ -4182,35 +4211,47 @@ E_M1
 
 bg engeki_01,22
 
-　放課後、部室に入る私に部長が言う。\
+;　放課後、部室に入る私に部長が言う。\
+`　After school, the club leader said to me after he got into the clubroom.`\
 
-「楠木、お前も最近遅刻が多いぞ。」@
+;「楠木、お前も最近遅刻が多いぞ。」@
+`"Kusunoki, you've been late quite a bit lately."`@
 br
-　着替えるのに手間取ってしまって。@私はそう言い訳した。\
+;　着替えるのに手間取ってしまって。@私はそう言い訳した。\
+`　I was delayed because I had to change clothes. `@`That was the excuse I gave.`\
 
-　……その私の着ている体操着はシミだらけ。@ついさっきまでゴミ箱にでも突っ込まれていたかのような悪臭がする。\
+;　……その私の着ている体操着はシミだらけ。@ついさっきまでゴミ箱にでも突っ込まれていたかのような悪臭がする。\
+`　...The gym outfit I was wearing was covered in stains. `@`It smelled just as if it had been pulled out of a garbage bin.`\
 
 bg black,22
 bg engeki_03,22
 
-　私がストレッチをする場所を探していると、みんなが「臭い」といって一斉によける。@
+;　私がストレッチをする場所を探していると、みんなが「臭い」といって一斉によける。@
+`　As I looked for a place to stretch, everyone said 'you stink' and moved away from me.`@
 br
-　ぽっかりとあけられた広すぎるスペース。\
+;　ぽっかりとあけられた広すぎるスペース。\
+`　They started to move away and created a vast distance of space.`\
 
 mbg "BMP\background\efe\red1.bmp",1
 se1 12
 mcbg 22
 
-　そこで身体を伸ばし始める私の肩を、部員たちが次々に踏みつけていく。\
+;　そこで身体を伸ばし始める私の肩を、部員たちが次々に踏みつけていく。\
+`　As I started to stretch my shoulders, the club members once after another began kicking me.`\
 
-　女子の部員たちのひそひそ話が聞こえてくる。\
+;　女子の部員たちのひそひそ話が聞こえてくる。\
+`　I could hear the club girls' whispers.`\
 
-「雑用係になったら大変だよね。@今回、小道具とかも多そうだし……。」@
-「くす。@それは心配しなくても大丈夫でしょ。@ほら、全部一人でやってくれそうな子がいるじゃない。」\
+;「雑用係になったら大変だよね。@今回、小道具とかも多そうだし……。」@
+`"I would hate being a chore girl. `@`This time there's a ton of props and what not..."`@
+;「くす。@それは心配しなくても大丈夫でしょ。@ほら、全部一人でやってくれそうな子がいるじゃない。」\
+`"Hehe. `@`Don't worry about it. `@`Look, we have a girl who'll do everything for us all by herself."`\
 
-　彼女たちが私を見る。@いくつもの醜い笑いが並んでいる。@
+;　彼女たちが私を見る。@いくつもの醜い笑いが並んでいる。@
+`　They look at me. `@`Many cruel smiles spread.`@
 br
-　私に役が与えられることなんてない。@……いつだって、万年雑用係なのだ。\
+;　私に役が与えられることなんてない。@……いつだって、万年雑用係なのだ。\
+`　It wasn't as if I was given the position. `@`...Since when did I become the eternal chore girl.`\
 
 E_MA
 
@@ -4218,66 +4259,89 @@ se1 1100
 bg white,1
 bg engeki_01,22
 
-「次。@川田のぞみさん。」@
+;「次。@川田のぞみさん。」@
+`"Next. `@`Nozomi Kawada-san."`@
 
 
 
-「はい。@川田のぞみ。@魔女役を希望します。」@
+;「はい。@川田のぞみ。@魔女役を希望します。」@
+`"Here. `@`Nozomi Kawada. `@`I want to be the witch."`@
 br
-　『六軒島』の主役を堂々と立候補する。@みんな拍手でそれを祝福した。\
+;　『六軒島』の主役を堂々と立候補する。@みんな拍手でそれを祝福した。\
+`　"She splendidly announced her candidicy for the role of lead actress of "Rokkenjima." `@`Everyone applauded their blessings.`\
 
-「のぞみ姫しかありえないよね！」@
-「のぞみーっ、がんばってねー！」\
+;「のぞみ姫しかありえないよね！」@
+`"It could only be Princess Nozomi!"`@
+;「のぞみーっ、がんばってねー！」\
+`"Nozomi~ do your best~!"`\
 
 ld r,MID_def4a,22
 
-「………………………。」@
+;「………………………。」@
+`"........."`@
 br
-　私はひとり、……その背中を、祝福でない眼差しで見つめていた…。\
+;　私はひとり、……その背中を、祝福でない眼差しで見つめていた…。\
+`　I looked at everyones backs ...I was the only one who wasn't cheering...`\
 
-　次々と配役が決まっていく。@
+;　次々と配役が決まっていく。@
+`　One after another the roles were being decided.`@
 br
-　私も勇気を出していくつかの役に立候補するのだが、@演技が硬い、感情表現がダメとさんざん言われ、どの役ももらえない。\
+;　私も勇気を出していくつかの役に立候補するのだが、@演技が硬い、感情表現がダメとさんざん言われ、どの役ももらえない。\
+`　I had the courage to announce my candidacy for all sorts of roles, `@`but acting is hard, and I was told my facial expressions were all wrong, so I couldn't get any role.`\
 
 bg black,22
 
-　結局、当然のように、……雑用係だった。\
+;　結局、当然のように、……雑用係だった。\
+`　In the end, just as I expected ...I was the chore girl.`\
 
 bg engeki_03,22
 mbg "BMP\background\efe\red1.bmp",1
 se1 12
 mcbg 22
 
-「あんたが余計な立候補したから、余計な時間を食ったじゃない。」@
-「あんたに一番お似合いの役が雑用係なのよ。@それくらいわかれよなー。」\
+;「あんたが余計な立候補したから、余計な時間を食ったじゃない。」@
+`"Since you kept stupidly nominating yourself, you wasted everyone's time."`@
+;「あんたに一番お似合いの役が雑用係なのよ。@それくらいわかれよなー。」\
+`"The role that suits you best is taking care of the odd jobs. `@`And with that we're out of here~"`\
 
-「がんばってね、万年雑用係～。」@
-「二度と立候補なんかしないでよね、ウザイから。」@
+;「がんばってね、万年雑用係～。」@
+`"Good luck, eternal chore girl~"`@
+;「二度と立候補なんかしないでよね、ウザイから。」@
+`"Don't ever nominate yourself again, you hear? It's ANNOYING."`@
 br
-　みんなが私の背中を蹴りながら言う。@体操着の背中に無数の足跡がついていく。\
+;　みんなが私の背中を蹴りながら言う。@体操着の背中に無数の足跡がついていく。\
+`　They said as they kicked my back. `@`Putting countless shoe stains on the back of my gym outfit.`\
 
 bg black,22
 
-　部活の後、私は部室に残ってたった一人で小道具を作り、衣装を縫った。@
+;　部活の後、私は部室に残ってたった一人で小道具を作り、衣装を縫った。@
+`　After the meeting, I was the only person left in the club. I worked on props and sewing clothes.`@
 br
-　その合間に、こっそり『六軒島』の台本を読み、主役の魔女の台詞を口に出して言う。@
-　最初は小さく、徐々に大きく。\
+;　その合間に、こっそり『六軒島』の台本を読み、主役の魔女の台詞を口に出して言う。@
+`　During that time, I'd secretly read "Rokkenjima"'s script, and practice the lines for the role of the witch.`@
+;　最初は小さく、徐々に大きく。\
+`　This practice started small at first, but gradually it grew larger.`\
 
 se1v 13,30
 
-　やがて私は、………こっそりと、主役のドレスを纏い、たった一人の通し稽古を始める。@
+;　やがて私は、………こっそりと、主役のドレスを纏い、たった一人の通し稽古を始める。@
+`　Before long, ...secretly, I began wearing the lead's dress and put on the entire rehearsal by myself.`@
 
 me1v 5,50
 
 br
-　相手はいない。@でも、私には見えていたし、聞こえていた。\
+;　相手はいない。@でも、私には見えていたし、聞こえていた。\
+`　I had no partner. `@`But I could see them, I could hear them.`\
 
 bg Different_spiral_1a,22
 
-　……だから毎日、家に帰る頃にはすっかり夜になっている。@
+;　……だから毎日、家に帰る頃にはすっかり夜になっている。@
+`　...So every day I returned home it would be in the complete darkness of night.`@
 br
-　『シーキャット』のアニメなんて、とっくに終わっている。@
-　そしてベッドに倒れ込むように横になり、……頭を空っぽにして、泥のように眠った。\
+;　『シーキャット』のアニメなんて、とっくに終わっている。@
+`　The anime "Seacats" was already long since over.`@
+;　そしてベッドに倒れ込むように横になり、……頭を空っぽにして、泥のように眠った。\
+`　So I'd tumble into bed and turn on my side ...empty my mind, and slept like a sack of potatos.`\
 
 bg black,22
 
@@ -4288,9 +4352,11 @@ bg kyou_01,2
 
 me1v 24,50
 
-　給食の時間。@……意地悪な誰かが、虫の死骸を私のカレーに入れた。@
+;　給食の時間。@……意地悪な誰かが、虫の死骸を私のカレーに入れた。@
+`　Time for lunch. `@`...Some horrible person put dead bugs in my curry.`@
 br
-　先生に見られないよう、意地悪な女子たちが私を囲むように座り、@……ちゃんと食べるかどうか、見張っていた。\
+;　先生に見られないよう、意地悪な女子たちが私を囲むように座り、@……ちゃんと食べるかどうか、見張っていた。\
+`　They sat around me in a circle so they wouldn't be seen by the teacher, `@`...they were watching me to see if I would eat it or not.`\
 
 mbg "BMP\background\efe\red1.bmp",1
 se1 12
@@ -4298,16 +4364,23 @@ mcbg 22
 
 me2v 28,70
 
-　いつまでも口にしない私の後頭部を、フミエがトレイで叩く。@痛かった。\
+;　いつまでも口にしない私の後頭部を、フミエがトレイで叩く。@痛かった。\
+`　Fumie was always hitting me in the back of the head with the tray while I kept quiet. `@`It hurt.`\
 
-「さっさと喰えよ、金持ち自慢のお嬢様。」@
-「良かったじゃん、みどりだけ特別カレーじゃん！」@
-「お金持ちなんだから、特別メニューじゃないとねー。」@
-「喰えよほら。@健康にいいと思うよー、マジで。」\
+;「さっさと喰えよ、金持ち自慢のお嬢様。」@
+`"Hurry up and eat, you haughty rich snobby princess."`@
+;「良かったじゃん、みどりだけ特別カレーじゃん！」@
+`"Aren't you happy? It's a special curry made just for you Midori!"`@
+;「お金持ちなんだから、特別メニューじゃないとねー。」@
+`"Since you're so rich, you get a special menu~!"`@
+;「喰えよほら。@健康にいいと思うよー、マジで。」\
+`"Look, eat it. `@`It's good for your health, seriously."`\
 
-　私へのいじめは、１学期と何も変わっていなかったのだ。@
+;　私へのいじめは、１学期と何も変わっていなかったのだ。@
+`　Nothing about the bullying towards me had changed since my first semester.`@
 br
-　何も、何も。\
+;　何も、何も。\
+`　Nothing, nothing.`\
 
 
 bg black,24
@@ -4315,20 +4388,26 @@ bg kyou_02,24
 
 me3v 16,70
 
-　そんな中、……川田のぞみは、お姫様だった。\
+;　そんな中、……川田のぞみは、お姫様だった。\
+`　In the middle of it all ...Nozomi Kawada was a princess.`\
 
-　“お姫様”役で、学校中で大人気でちやほやされてて。@
-　羨ましかった。@妬ましかった。@
+;　“お姫様”役で、学校中で大人気でちやほやされてて。@
+`　With the role of "the princess," she was being fussed over and had a lot of popularity all over school.`@
+;　羨ましかった。@妬ましかった。@
+`　I was envious. `@`Jealous.`@
 br
-　舞台の中央はいつも彼女のものだった！\
+;　舞台の中央はいつも彼女のものだった！\
+`　She was always on the center of the stage!`\
 
 bg black,22
 
 me4v 3,70
 
-　だから、紅茶紳士に何の役を演じたいのかと問われて、私は答えたんだ。@
+;　だから、紅茶紳士に何の役を演じたいのかと問われて、私は答えたんだ。@
+`　So when the Tea Gentleman asked what kind of role I wanted to play, I answered him.`@
 br
-　私は、川田のぞみになりたいって……！\
+;　私は、川田のぞみになりたいって……！\
+`　I said, I wanted to be Nozomi Kawada...!`\
 
 fede 10,2000
 E_MA
@@ -4336,9 +4415,11 @@ E_MA
 bg engeki_04,6
 ;ld c,MID_def1,6
 
-　後頭部から血を滴らせ、……魔女のドレスを血に染めながら。@みどりはゆっくりと立ち上がる。@
+;　後頭部から血を滴らせ、……魔女のドレスを血に染めながら。@みどりはゆっくりと立ち上がる。@
+`　The back of my head filled with blood, ... as she slowly stained the witch's dress with blood, `@`Midori slowly stood up.`@
 br
-　そして、壁に寄り掛かり、苦しそうにしている紅茶紳士の姿を見つけた。\
+;　そして、壁に寄り掛かり、苦しそうにしている紅茶紳士の姿を見つけた。\
+`　And she leaned against the wall, she saw the Tea Gentleman who seemed to be in anguish.`\
 
 bg black,24
 bg engeki_03,24
@@ -4349,19 +4430,23 @@ wait 1000
 
 ld r,MID_def4a,22
 
-「私は、……川田のぞみさんに、なりたい。」@
+;「私は、……川田のぞみさんに、なりたい。」@
+`"I... want to become Nozomi Kawada."`@
 
 ld l,SIN_Def1,22
 
-「……えぇ。@知っていますよ。」\
+;「……えぇ。@知っていますよ。」\
+`"...Yes. `@`I know."`\
 
 ld r,MID_def2a,80
 
-「姫と呼ばれて、……ちやほやされたい。@演劇部でも、素敵な役を与えられて、舞台の中央でスポットライトを浴びたい…。@私を、彼女にして。@……川田のぞみにして……。」\
+;「姫と呼ばれて、……ちやほやされたい。@演劇部でも、素敵な役を与えられて、舞台の中央でスポットライトを浴びたい…。@私を、彼女にして。@……川田のぞみにして……。」\
+`"I want to be called princess ...I want to be spoiled. `@`Even in the drama club, I want to earn a spectacular role, and bathe in the spotlight of the center stage... `@`Make me her. `@`...Make me Nozomi Kawada..."`\
 
 ld l,SIN_Def3,80
 
-「えぇ。@なれます。@……貴方が演じさえするならば、いつだって、これからだって、@……貴方は川田のぞみとなれるのですよ……。」\
+;「えぇ。@なれます。@……貴方が演じさえするならば、いつだって、これからだって、@……貴方は川田のぞみとなれるのですよ……。」\
+`"Yes. `@`You can become her. `@`...As long as you keep acting, you can always from henceforth, `@`...become Nozomi Kawada..."`\
 
 mbg black,22
 
@@ -4369,39 +4454,48 @@ me1v 16,70
 
 ;ld r,MID_def1,80
 
-「でも、……おかしいの……、おかしいの……。@……みんなが、みんなが……私をいじめるの……。@……川田さんもおかしいの……。@このドレス、私のじゃないって……、私のこと、……雑用係だって……！！」\
+;「でも、……おかしいの……、おかしいの……。@……みんなが、みんなが……私をいじめるの……。@……川田さんもおかしいの……。@このドレス、私のじゃないって……、私のこと、……雑用係だって……！！」\
+`"But... something is wrong... something is wrong... `@`...Everyone, everyone is bullying me... `@`...Even Kawada-san is wrong... `@`They're saying... this dress isn't mine -- they're saying... I'm the chore girl!!"`\
 
 ;ld l,SIN_Def1,80
 
-「みどりさん。@気にしないことです。」@
+;「みどりさん。@気にしないことです。」@
+`"Midori-san. `@`Please don't worry."`@
 
 ;ld r,MID_def1,80
 
-「気に、……しない…………。」\
+;「気に、……しない…………。」\
+`"Don't... worry...."`\
 
 cl a,0
 mcbg 22
 
 ld c,SIN_Def1,22
 
-「貴方は、川田のぞみさんのように演じて下さい。@何も気にせず、耳を傾けず。@演技に集中するのです。」\
+;「貴方は、川田のぞみさんのように演じて下さい。@何も気にせず、耳を傾けず。@演技に集中するのです。」\
+`"Please act as if you were Nozomi Kawada-san. `@`Don't pay heed to anything or listen to anyone. `@`You must focus on acting."`\
 
 bg black,0
 ld c,SIN_Def1,22
 
-「……貴方は川田さんがのぞみ姫と呼ばれているように、貴方もみどり姫と呼ばれている。@クラスメートたちの憧れを一心に浴び、サキエさんやフミエさんにも親しく接し。@演劇部では常に主役を与えられて祝福されるのです。」\
+;「……貴方は川田さんがのぞみ姫と呼ばれているように、貴方もみどり姫と呼ばれている。@クラスメートたちの憧れを一心に浴び、サキエさんやフミエさんにも親しく接し。@演劇部では常に主役を与えられて祝福されるのです。」\
+`"...Just as you call Kawada-san Princess Nozomi, you too shall be called Princess Midori. `@`You will bathe in the love of your classmates. Even Sakie-san and Fumie-san will become close to you. `@`You'll be showered with praise and always selected for the lead roles in the drama club".`\
 
 mld r,MID_def2a,22
 
-「………それが、……私……。@……私は、……姫……。@……みどり姫………。」\
+;「………それが、……私……。@……私は、……姫……。@……みどり姫………。」\
+`"...That...I could... `@`...Me... a princess... `@`...Princess Midori..."`\
 
 bg black,2
 
-　みどりの世界が、少しずつ薄暗くなっていく。@
+;　みどりの世界が、少しずつ薄暗くなっていく。@
+`　Midori's world began to dim little by little.`@
 br
-　まだ昼間だというのに、みどりの世界は暗くなっていく。\
+;　まだ昼間だというのに、みどりの世界は暗くなっていく。\
+`　Even though it was still daytime, Midori's world began turning dark.`\
 
-　当然だ。@舞台の上は薄暗い。@……そして、目立つべき人物に対し、鋭くスポットライトが浴びせられ、その姿を浮き立たせるのだ。\
+;　当然だ。@舞台の上は薄暗い。@……そして、目立つべき人物に対し、鋭くスポットライトが浴びせられ、その姿を浮き立たせるのだ。\
+`　It's only natural. `@`The top of the stage is dim. `@`...And with a striking person bathed in the sharp spotlight, their figure stands out.`\
 
 
 se1 77
@@ -4410,20 +4504,26 @@ mcl r,0
 bg white,1
 bg engeki_05,22
 
-　それは、主役のドレスを纏った、みどりの姿。@
+;　それは、主役のドレスを纏った、みどりの姿。@
+`　There she stood - Midori's figure clad in the dress of the lead actress.`@
 br
-　『六軒島』の舞台を最高の演技で締めくくり、盛大な拍手と歓声を独り占めにするところ。\
+;　『六軒島』の舞台を最高の演技で締めくくり、盛大な拍手と歓声を独り占めにするところ。\
+`　At the end of the supereme climax for the play "Rokkenjima," she would monopolize a grand cheer and applause.`\
 
-　ほら、聞こえてきた……。@聞こえてきた……。@拍手、歓声……。@私を姫と呼んで讃えるみんなの声…………。\
+;　ほら、聞こえてきた……。@聞こえてきた……。@拍手、歓声……。@私を姫と呼んで讃えるみんなの声…………。\
+`　See, I can hear it... `@`...I'm hearing it... `@`The applause, the cheers... `@`The praises of everyone's voices calling me Princess......`\
 
 bg black,22
 bg engeki_03,0
 ld c,MID_U2,22
 
-　何なのこいつ……。@川田のぞみは、呆然とする他ない。@
+;　何なのこいつ……。@川田のぞみは、呆然とする他ない。@
+`　What's with this girl... `@`Nozomi Kawada was dumbfounded.`@
 br
-　みどりは鏡に向かって一人、深々とお辞儀をしている。@
-　……誰かに手を取られるかのようにしながら。\
+;　みどりは鏡に向かって一人、深々とお辞儀をしている。@
+`　Midori faced the mirror and began deeply bowing to herself.`@
+;　……誰かに手を取られるかのようにしながら。\
+`　...Then she seemingly reached out to take someone's hand.`\
 
 bg black,0
 ld c,MID_U2,0
