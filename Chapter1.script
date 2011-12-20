@@ -108,7 +108,7 @@ wait 1000
 ld r,MAR_Def3,80
 
 ;　少女の名は、森谷毬枝（もりや　まりえ）。@
-`　The girl's name is Moriya Marie(森谷毬枝).`@
+`　The girl's name is Marie Moriya (森谷毬枝).`@
 br
 ;　＊年８組の生徒で、飼育委員を務める心やさしい少女だった。@
 `　An X year student in the 8th class. She was a kind hearted girl who worked as a member of the animal raising committee.`@
@@ -417,7 +417,7 @@ bgm1 7
 `　With only the victim's name revealed, the injustice of not disclosing the culprit's name is acceptable only in newspapers.`@
 br
 ;　だからここでは、森谷毬枝に理不尽な運命を強いる男についてもその名を明かすべきだと思う。\
-`　So here the name of the man who forced Moriya Marie's unreasonable destiny upon her should be revealed.`\
+`　So here the name of the man who forced Marie Moriya's unreasonable destiny upon her should be revealed.`\
 
 bg shokuin_01,2
 se1 14
@@ -636,7 +636,7 @@ bg toire_01,22
 `　......And yet, for it to continue into next year, the year after that, and even ten years from now is impossible.`@
 br
 ;　森谷毬枝が一生徒に過ぎない限り、やがて進級し、卒業する。@彼女を取り巻く環境は変化し、いつしか私の支配が及ばなくなる時が来るだろう。\
-`　Moriya Marie, not unlike other students, would soon change schools ― graduate. `@` The world she surrounds herself with will change, and before I know it, a time may come when she'll be beyond my control.`\
+`　Marie Moriya, not unlike other students, would soon change schools ― graduate. `@` The world she surrounds herself with will change, and before I know it, a time may come when she'll be beyond my control.`\
 
 ;bg Different_spiral_1b,22
 
@@ -680,7 +680,7 @@ br
 `　Until that day comes when they are released, `@`they can only look to lessen their oppression.`@
 br
 ;　森谷毬枝は、いつかきっと自分を裏切る。\
-`　Someday, Moriya Marie will surely betray me.`\
+`　Someday, Marie Moriya will surely betray me.`\
 
 
 bg black,22
@@ -727,7 +727,7 @@ mono 2
 bg e017,2
 
 ;　……この頃から、……私の心の中に、@……いつしか、森谷毬枝を殺サナケレバナラナイという考えが芽生えるようになってくる。\
-`　......From this point forward ......in my mind, `@`......unknowingly, the idea began to bloom that Moriya Marie   m u s t   b e     k i l l e d.`\
+`　......From this point forward ......in my mind, `@`......unknowingly, the idea began to bloom that Marie Moriya   m u s t   b e     k i l l e d.`\
 
 
 ;bg black,22
@@ -799,7 +799,7 @@ ld r,KAN_K3,22
 ;　ただそれだけのこと。@
 `　That's just it.`@
 ;　俺はその当り前の原理ってヤツを、森谷毬枝に特別授業で教えてやってるだけじゃないか。@
-`　Am I not just teaching the girl who aptly fits my reasoning, Moriya Marie, that special lesson?`@
+`　Am I not just teaching the girl who aptly fits my reasoning, Marie Moriya, that special lesson?`@
 br
 ;　……それに気付けないヤツは、生涯を誰かに支配され、屈服して生き続けていくしかない。@詐取され続けて当然なのだ。\
 `　......And the guys who don't notice can only spend their lives being controlled by someone. `@`It's natural for them to continue being exploited.`\
@@ -936,7 +936,7 @@ br
 `　......That wasn't some kind of youkai.`@
 br
 ;　毬枝。@………森谷毬枝のことなのではないのか。\
-　`Marie.`@`......It must have been Moriya Marie.`\
+　`Marie.`@`......It must have been Marie Moriya.`\
 
 ld c,MAR_def3n,22
 
@@ -1039,7 +1039,7 @@ mono 1
 bg toire_07,22
 
 ;　森谷毬枝の泣き声を誰かが聞き怪談にしてしまった。@そこまでは危険な誤算だった。@
-`　Someone who had heard Moriya Marie's cries made a ghost story. `@`Up until that point, this had been a dangerous miscalculation.`@
+`　Someone who had heard Marie Moriya's cries made a ghost story. `@`Up until that point, this had been a dangerous miscalculation.`@
 br
 ;　……だが、だからそのトイレには近付かない方がいい、という論法になるとは夢にも思わなかった。@
 `　......But, I would never in my dreams have imagined for them to advise against going near that stall.`@ 
@@ -1564,7 +1564,7 @@ bg tosho_03,23
 ld r,HIG_Def3,24
 
 ;「森谷毬枝さん？@　最近の子の名前は難しくなる一方ね。@…私の名前も負けないけれど。@彼岸花（ひがんばな）って呼んで頂戴。@よろしくね、毬枝？」\
-`"Moriya Marie-san? `@`The names of children these days are getting harder to read. `@`...But they can't beat my name. `@`Call me Higanbana (彼岸花) all right? `@`Nice to meet you, Marie?"`\
+`"Marie Moriya-san? `@`The names of children these days are getting harder to read. `@`...But they can't beat my name. `@`Call me Higanbana (彼岸花) all right? `@`Nice to meet you, Marie?"`\
 
 ld l,MAR_Def4a,23
 
@@ -3599,7 +3599,7 @@ bg gakkou_01,22
 me1v 24,50
 
 ;　森谷毬枝が自宅に帰らないという話はすぐに大騒ぎになった。@
-`　Talk about Moriya Marie not coming home last night quickly turned into an uproar.`@
+`　Talk about Marie Moriya not coming home last night quickly turned into an uproar.`@
 br
 ;　事故か、それとも事件に巻き込まれたのか。@
 `　Was it an accident? Or did she get involved in some trouble?`@
@@ -5693,7 +5693,7 @@ quakex 2,200
 quakey 3,200
 
 ;「さぁ、間違いなくもう一度死ねッ！！！@　森谷毬枝ぇええッ！！！」@
-`"Now, YOU WILL DIE AGAIN!!!`@`　MORIYA MARIEEeEEe~!!"`@
+`"Now, YOU WILL DIE AGAIN!!!`@`　MARIE MORIYAaAaAA~!!"`@
 
 quakex 3,200
 ;「……………………………ッッッ！！」\
@@ -6347,7 +6347,7 @@ wait 2000
 `　......At the end of the day, no one had seen Kanamori.`@
 br
 ;　もちろん、森谷毬枝の姿も。\
-`　Of course, neither had they seen Moriya Marie.`\
+`　Of course, neither had they seen Marie Moriya.`\
 
 bg hoken_04,22
 
