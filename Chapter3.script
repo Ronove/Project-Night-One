@@ -44,7 +44,7 @@ br
 bg black,22
 
 ;　彼女の名は楠木みどり（くすのき　みどり）。@
-`　This girl's name is Kusunoki Midori　（楠木みどり）.`@
+`　This girl's name is Midori Kusunoki　（楠木みどり）.`@
 br
 ;　クラスメートたちが姫の愛称で呼んで敬愛する、このクラスのお姫様だった。\
 `　Her classmates have lovingly given her the pet name princess. She was the princess of this class.`\
@@ -233,7 +233,7 @@ br
 `　Because no other blushing girl in this class had ever received words of gratitude from Midori.`\
 
 ;　楠木みどり。@クラス中の女子の誰もが憧れる、姫と呼ばれる少女。@
-`　Kusunoki Midori. `@`The girl called princess who every girl in the class yearned after.`@
+`　Midori Kusunoki. `@`The girl called princess who every girl in the class yearned after.`@
 br
 ;　彼女は何の不足もなく、満ち足りた学校生活を送っていた……。\
 `　Without any insecurities, she lived a completely satisfying school life...`\
@@ -280,7 +280,7 @@ bg kyou_02,24
 bgm1 8
 
 ;　すると、サキエの言う通り、@川田のぞみがこちらの様子をじっとうかがっているのがわかった。\
-`　Just as Sakie had said, `@`I noticed Kawada Nozomi was staring over this way.`\
+`　Just as Sakie had said, `@`I noticed Nozomi Kawada was staring over this way.`\
 
 ;「……マジであの子、嫌な感じだよね。@いっつもジーッと姫のこと見ててさー。」@
 `"...Seriously, I have a bad feeling about that girl. `@`She's allllways staring at the princess."`@
@@ -293,7 +293,7 @@ br
 mbg black,22
 
 ;　川田のぞみも、裕福な家の子らしい。@
-`　It seemed Kawada Nozomi was also a child of a wealthy household.
+`　It seemed Nozomi Kawada was also a child of a wealthy household.
 br
 ;　しかし、みどりとはまったく正反対の扱いを受けていた。\
 `　However she was receiving the exact opposite treatment that Midori was.`\
@@ -396,7 +396,7 @@ br
 ;　とりあえず、この場は収まってくれた。@
 `　At least for now they've settled down.`@
 ;　しかし、川田のぞみがクラス中から嫌われているいじめられっこであることに、代わりはない。\
-`　But it doesn't change the fact that Kawada Nozomi is still hated and bullied during class.`\
+`　But it doesn't change the fact that Nozomi Kawada is still hated and bullied during class.`\
 
 bg black,22
 bg kyou_03,22
@@ -413,7 +413,7 @@ bg black,22
 `　Midori thought it was pitiful that she couldn't save Nozomi. `@`...She also thought she should stand up for her.`@
 br
 ;　しかし実際、川田のぞみは高慢で、自分の家の方が裕福であることを威張っている。@今でも、口を開くことを許されるなら、それを自慢して、みどりを見下したいのだ。\
-`　But in reality, Kawada Nozomi was arrogant and took pride in her family's wealth. `@`Even now if they let her speak up, in her pride she wanted to look down on Midori.`\
+`　But in reality, Nozomi Kawada was arrogant and took pride in her family's wealth. `@`Even now if they let her speak up, in her pride she wanted to look down on Midori.`\
 
 bg kyou_01,0
 ld r,MID_K1,22
@@ -422,7 +422,7 @@ ld r,MID_K1,22
 `　...Even Midori realized the irrationality of this world.`@
 br
 ;　どんなに親しく接しようとしても、世の中には仲良くなれない人間もいる。@……それが、川田のぞみなのだ。\
-`　That no matter how friendly you are to them, there are people in this world you cannot get along with. `@`...And one of them was Kawada Nozomi.`\
+`　That no matter how friendly you are to them, there are people in this world you cannot get along with. `@`...And one of them was Nozomi Kawada.`\
 
 ;　だから、彼女へのいじめは、……辛いけれど、見て見ぬふりをするしかない。@
 `　Because the bullying against her ...might have been cruel, but all she could do was see it or pretend not to see it.`@
@@ -897,7 +897,7 @@ br
 `　To suggest that someone would compete with her on acting ability was beyond absurd.`@
 br
 ;　楠木みどりは、演劇部においては姫というより、女王の貫禄を持っていたのだ。\
-`　Kusunoki Midori was more than a princess in the drama club. She resembled a queen.`\
+`　Midori Kusunoki was more than a princess in the drama club. She resembled a queen.`\
 
 ld r,MID_Def1,26
 
@@ -962,7 +962,7 @@ bgm1 8
 `　There was a single girl isolated from everyone doing her stretches.`@
 br
 ;　………川田のぞみだった。\
-`　...It was Kawada Nozomi.`\
+`　...It was Nozomi Kawada.`\
 
 ;　そう言えば彼女も演劇部だった。@誰とも目を合わせない様に俯いたまま身体を伸ばしている。@
 `　On that note, she was also a member of the drama club. `@`She was stretching herself out with her head down while everyone avoided making eye contact with her.`@
@@ -993,7 +993,7 @@ br
 `　Thankfully, I realized my arrogance and I fixed myself.`\
 
 ;　それが出来なければ、……川田のぞみは、私だっただろう。@
-`　If I hadn't done that... I would be Kawada Nozomi.`@
+`　If I hadn't done that... I would be Nozomi Kawada.`@
 br
 ;　彼女が時折、私をじっと見ているように。@
 `　Just as sometimes she's staring at me.`@
@@ -1037,7 +1037,7 @@ cl l,0
 ld c,MID_Def5,23
 
 ;「楠木みどり。@魔女役を希望します。」@
-`"Kusunoki Midori. `@`I want the role of the witch."`@
+`"Midori Kusunoki. `@`I want the role of the witch."`@
 br
 ;　誰もが予想していた通りではあっても、みんなはおぉと低い声でどよめく。\
 `　Even though it was what everyone expected, they all let out low gasps.`\
@@ -1116,7 +1116,7 @@ ld c,MID_Def1,80
 `　...Perhaps I'm just nervous`@
 br
 ;　それとも、川田のぞみを意識し過ぎてしまったせいだろうか。\
-`　Or perhaps it's because I was too worried about Kawada Nozomi.`\
+`　Or perhaps it's because I was too worried about Nozomi Kawada.`\
 
 ;　蘇るのだ。@……彼女を見ていると、……生まれ変わる前の自分を見ているようで。@
 `　She stirs my memory. `@`...When I look at her ...it's as if I'm looking at myself before I was born again.`@
@@ -1177,7 +1177,7 @@ bg e010,2
 me1v 5,50
 
 ;　楠木みどりは、お金持ち自慢の高慢ちき。@
-`　Kusunoki Midori is an arrogant and rich snob.`@
+`　Midori Kusunoki is an arrogant and rich snob.`@
 br
 ;　そうレッテルが貼られ、三日と開けずに、クラス全員によるみどりへのいじめが始まったのだ。\
 `　When that label stuck, for three days straight, the entire class all began to bully Midori.`\
@@ -1204,7 +1204,7 @@ bg black,22
 mono 0
 
 ;　まさに、……今の川田のぞみのように。\
-`　I was exactly ...like Kawada Nozomi is now.`\
+`　I was exactly ...like Nozomi Kawada is now.`\
 
 ;　あぁ、わかった。@だから、……彼女を見ていると、…………疼くんだ。@
 `　Ohh, I get it. `@`Because ...when I'm looking at her ...it hurts.`@
@@ -1902,7 +1902,7 @@ bg engeki_01,23
 ;『さぁっ、レッスンレッスン！@　浮かれないで！@　基礎を忘れずに！』@
 `"Alright, lesson time! `@`Don't get excited! `@`And don't forget what you've learned!"`@
 ;『……楠木の実力を見誤ってたよ。@これまでを申し訳なく思う…。』\
-`"...I really misjudged Kusunogi's true potential. `@`I have no excuse for how I've acted lately..."`\
+`"...I really misjudged Kusunoki's true potential. `@`I have no excuse for how I've acted lately..."`\
 
 ld r,MID_Def3,22
 
@@ -2072,7 +2072,7 @@ br
 ;　そんなに思い切り叩いたら、手が痛くなるんじゃないのと、@こっちが心配してしまうほどの大きな拍手だった。\
 `　If one claps with all their might, wouldn't their hands hurt? `@` This applause was so big it might cause one to worry thus.`\
 ;「あの可憐なみどり姫が、今度はミステリアスな魔女役に挑戦なんて…。@すっごい反響がありそうだね！」@
-`"To think that lovely Midori-Hime will take on the role of a mysterious witch this time... `@` It sounds like it'll have an incredible reaction!`" `@`
+`"To think that lovely Princess Midori will take on the role of a mysterious witch this time... `@` It sounds like it'll have an incredible reaction!`" `@`
 ;「もちろんっ。@みどり姫が主演の大作だもん。@すごい話題になるよ！」\
 `"Of course. `@`With Princess Midori at the lead, it'll be huge. It'll be the talk of the town!"`\
 ;「発表会、ものすごい盛り上がりそう！@　うわぁ、今から緊張するー！」@
@@ -4538,7 +4538,7 @@ br
 ld l,SIN_Def1,80
 
 ;「………こういうことです。@めそめその毬枝さん。@………私はそれでも、……みどりさんにお邪魔な存在ですかな…？\
-`"...That's how it is.`@` MesoMeso Marie-san.`@`...Am I still...such an obstructive existence?"`\
+`"...That's how it is.`@` Mesomeso Marie-san.`@`...Am I still...such a hinderence to Midori-san?"`\
 ld r,MAR_i3a,22
 
 ;「…………………………。」@
@@ -4551,7 +4551,7 @@ cl l,0
 mld l,SIN_Def2,22
 
 ;「私は嘘を信じさせる妖怪です。@………嘘と聞けば、良からぬものにも思えるでしょう。@しかし。@痛み止めや麻酔薬のように。@人には生きていくために、忘れねばならぬ痛みもあるのではないでしょうか。@私はこの少女の痛みを、こうして和らげているのです。」\
-`"I am a youkai that allows one to believe lies.`@`...When you hear lie, you can only think it is not good, correct?`@` However.`@`The same way as painkillers or anesthetics,`@` Isn't there some pain that must be forgotten in order to keep living?`@`This is how I relieved this girl of her pain."`\
+`"I am a youkai that allows one to believe lies.`@`...When you hear lie, you can only think it is not good, correct?`@` However.`@`The same way as painkillers or anesthetics,`@` isn't there some pain that must be forgotten in order to keep living?`@` This is how I relieved this girl of her pain."`\
 ld r,MAR_i2a,22
 
 fede 1,1000
@@ -4565,7 +4565,7 @@ bg black,22
 E_A
 
 ;「……毬枝。@相手が悪いわ。@そのくらいになさい。」\
-`"...Marie.`@` You're out of your league.`@`Leave it at that."`\
+`"...Marie.`@` You're out of your league.`@` Leave it at that."`\
 bg engeki_01,22
 ld l,MAR_i1,22
 
@@ -4580,7 +4580,7 @@ br
 ld r,HIG_Def2,22
 
 ;「元々。@………楠木みどりは私の獲物だった。」@
-`"Moreso,`@`...Midori Kusunoki was my prey."`@`
+`"Furthermore,`@`Midori Kusunoki... was my prey."`@`
 
 ld l,MAR_i1a,80
 
@@ -4601,7 +4601,7 @@ ld l,SIN_Def2,24
 ld l,SIN_Def1,80
 
 ;「私がみどりさんを獲物としなければ。@……今頃は彼岸花さんの甘言に耳を貸し。@……ひょっとしたら、自らの命を軽んじていたかもしれませんねぇ。」\
-`"If I make Midori-san my prey.`@`...I will lend my ear to Higanbana-san's cajolery.`@`...Could it be that I would be taking my own life lightly?"`\
+`"If Midori-san hadn't been my prey.`@`...Well, listen to what Higanbana-san said just now.`@`...She would have probably had her life toyed with."`\
 
 ld r,MAR_i1a,22
 
@@ -4611,7 +4611,7 @@ ld r,MAR_i1a,22
 ld l,SIN_Def4,80
 
 ;「ニンゲンには、辛い現実から逃避する権利もあります。@そしてそれが当人にとって、幸せな夢を叶えるものに思えるならば。@……それは素敵なことではありませんか？」\
-`"Humans have the right to run away from harsh realities.`@` And if you think of it as granting the person involved a happy dream,`@`...Is that not a beautiful thing?"`\
+`"Humans have the right to run away from harsh realities.`@` And if you think of it as granting the person involved a happy dream,`@` ...is that not a beautiful thing?"`\
 
 bg black,24
 bg engeki_01,0
@@ -4625,7 +4625,7 @@ ld c,HIG_Def5,80
 ld l,SIN_Def1,22
 
 ;「そうですね。@現実に戻る時、支払うことになるでしょう。@……しかし、戻らないならば、永遠に支払わなくても良い。」\
-`"That's correct, isn't it?`@` Once they return to reality, they will have to pay for it.`@`...However, if they do not come back, they can also pay for it eternally."`\
+`"That's correct, isn't it?`@` Once they return to reality, they will have to pay for it.`@`...However, if they do not come back, they'd be fine never paying it back."`\
 
 ld r,MAR_i3a,22
 
@@ -4649,7 +4649,7 @@ bg engeki_02,23
 ld r,HIG_w3,22
 
 ;「もう毬枝に文句がないならば。@その子はそいつの獲物よ。@……行きましょう、毬枝。@どうせ、あんたには太刀打ち出来ない相手なのだから。」\
-`"If you have no more complaints, Marie.`@` That girl is his prey.`@`...Let's go, Marie.`@`He's not someone you can oppose anyway."`\
+`"If you have no more complaints, Marie.`@` That girl is his prey.`@`...Let's go, Marie.`@` He's not someone you can oppose anyway."`\
 
 ld l,MAR_i4a,22
 
@@ -4659,7 +4659,7 @@ ld l,MAR_i4a,22
 ld r,HIG_Def3,80
 
 ;「学校妖怪八席に序列は持たないわ。@……でも、実力はある。@そうね。@影の序列第２位ってところかしら。@………校長先生の右腕よ。@私たちは、“教頭先生”と呼んでる。」\
-`"He does not have a rank in the 8 Seats of School Youkai.`@`...However, he has a real ability.`@`Well,`@` perhaps he would be about the second rank in the shadows?`@`...He's the Headmaster's right hand man. `@` We call him "Vice Principal."`\
+`"He does not have a rank in the 8 Seats of School Youkai.`@`...However, he has a real ability.`@` Well,`@` perhaps he would be about the second rank in the shadows?`@`...He's the Headmaster's right hand man. `@` We call him "Vice Principal."`\
 
 bg black,0
 ld c,SIN_Def1,22
@@ -4670,12 +4670,12 @@ br
 ;　嘘を叶える力を持つ、恐ろしい妖怪。\
 `　A fearsome youkai who holds the power to make lies reality.`\
 ;　ただし、嘘は嘘。@いくら叶えても、それは気付けば虚ろな嘘に過ぎない。@
-`　However, lies are lies.`@`No matter how make them true, once you realize this, it will be nothing more than an empty lie.`@`
+`　However, lies are lies.`@` Once one realizes it's a lie, no matter how believable it is, it can be nothing else but a lie.`@`
 ;　しかしそれはあまりに甘美で、……抗えるニンゲンなど、きっと誰もいない。@
-(?)`　But extremely sweet as it may be, ...I am sure there is not a human out there who would oppose it.`@`
+`　But his power is extremely tempting, ...and surely no human can resist it.`@`
 br
 ;　校長先生の手下という扱いなので、序列は持たないが、@その実力は影の序列第２位と囁かれている……。\
-`　This is what the headmaster's underling handles,`@` the power of the shadow's second ranks, spoken of in whispers...`\
+`　This is what the Headmaster's underling handles,`@` the power of the shadow's second ranks, spoken of in whispers...`\
 
 bg engeki_01,0
 ld c,SIN_Def1,22
@@ -4691,7 +4691,7 @@ ld r,HIG_w3,22
 ld r,HIG_Def2,80
 
 ;「行きましょう、毬枝。@楠木みどりが、自ら望んだ顛末よ。@……現実を直視せず、嘘の世界を望み、ツケを払うことさえ拒んだ。@………あの子はもう、素敵な世界のお姫様。@……毎日が幸せでしょうから、自殺なんて金輪際、考えないでしょうし。@……残念ね、もう私好みの魂じゃないわ。」\
-`"Let's go, Marie.`@` This is the circumstance Midori Kusunoki wished for.`@` ...unable to face reality, wishing for a world of lies, she refused to pay.`@`...That girl is still the princess of a beautiful world.`@`...Since every day should be happy, she would never possibly think of suicide.`@`...Pity, she's no longer my type of soul."`\
+`"Let's go, Marie.`@` This is what Midori Kusunoki wished for.`@` ...unable to face reality, wishing for a world of lies, she refuses to pay the price.`@`...That girl is still the princess of a beautiful world.`@`...Since every day should be happy, she would never possibly think of suicide.`@`...Pity, she's no longer my type of soul."`\
 
 cl r,2
 
@@ -4707,9 +4707,9 @@ bg black,22
 ;ld c,MID_Def1,24
 
 ;　川田のぞみも呆然としている。@……もう、みどりには誰の姿も目に入らない。@
-`　Nozomi Kawada was also at a loss for words.`@`...Now, nobody would look at anyone but Midori.`@`
+`　Nozomi Kawada was also at a loss for words.`@`...For Midori, her eyes could no longer see anyone.`@`
 ;　彼女の瞳に浮かぶのは、……満場の観客席だけだ。\
-`　Reflected in her eyes, ...was every seat in the audience.`\
+`　But reflected in those eyes, ...was an auditorium full of spectators.`\
 se1v 77,70
 
 bg white,1
@@ -4728,7 +4728,7 @@ ld c,MID_U2,22
 ld c,MID_def3,2
 
 ;「ありがとう、みんな。@ありがとう、みんな…。@この舞台を、私を愛してくれる皆さんに捧げます。@……ありがとう、……本当にありがとう……。」@
-`"Thank you everybody.`@` Thank you everybody...`@` I offer this stage to everyone who has loved me.`@`...Thank you...thank you so much..."`@`
+`"Thank you, everyone.`@` Thank you, everyone...`@` I offer this stage to everyone who has loved me.`@`...Thank you...thank you so much..."`@`
 br
 ;　いつまでもいつまでも。@割れんばかりの大歓声が、彼女を祝福し続けるのだった……。\
 `　Forever and ever.`@`The thunderous applause and cheering, continued to praise her...`\
