@@ -153,99 +153,132 @@ br
 ;　いつもひとりぼっちで、小難しい本を読み、……何かをぶつぶつと呟いている。\
 `　Always alone and reading complicated books ...she'd mutter to herself.`\
 
-　クラスメートの女子に言わせると、“何か見えちゃってる、アブネーやつ”だった。@
+;　クラスメートの女子に言わせると、“何か見えちゃってる、アブネーやつ”だった。@
+`　If you ask her classmates about her, 'she stands out - she's a dangerous one.'`@
 br
-　しかし、……その表現はみちるにとって、……あながち、的外れなものではないと感じている。\
+;　しかし、……その表現はみちるにとって、……あながち、的外れなものではないと感じている。\
+`　But, ...as far as Michiru is concerned, ...that expression wasn't entirely off target.`\ 
 
 bg black,22
 bg gakkou_03,22
 
-　………みちるは一人、校舎裏にやって来る。@
+;　………みちるは一人、校舎裏にやって来る。@
+`　...Michiru comes alone to the back of the school building.`@
 br
-　そして、忘れ去られ雑草が生い茂った花壇の一角にやってくる。\
+;　そして、忘れ去られ雑草が生い茂った花壇の一角にやってくる。\
+`　And she comes to the forgotten flowerbed overgrown with weeds.`\
 
 bg black,22
 bg hokora_01,22
 ;ld c,MIC_Def1,22
 
-　そこには、古ぼけた木製の小さな祠があった……。\
+;　そこには、古ぼけた木製の小さな祠があった……。\
+`　And there is a tiny shrine of weathered wood...`\
 
-　風雨で埃まみれとなった祠は、手入れがされているとは言い難い。@
-　しかし、歳月を感じさせる貫禄は、確かにあった。\
+;　風雨で埃まみれとなった祠は、手入れがされているとは言い難い。@
+`　It's difficult to say that the shrine that had been covered in grit from wind and rain was being maintained or not.
+;　しかし、歳月を感じさせる貫禄は、確かにあった。\
+`　However, it did have a sense of serenity with its age.`\
 
 ;cl c,5
 ld r,MIC_Def2,22
 
-　みちるはその前に屈みこみ、小さく拍手を打って拝礼する……。\
+;　みちるはその前に屈みこみ、小さく拍手を打って拝礼する……。\
+`　Michiru leaned over in front of it, and she lightly clapped her hands and prayed...`\
 
 ld r,MIC_Def1,80
 
-「………鎮守神さま、鎮守神さま……。@……どうか、お怒りをお鎮め下さい……。」@
+;「………鎮守神さま、鎮守神さま……。@……どうか、お怒りをお鎮め下さい……。」@
+`"...Guardian deity, guardian deity... `@`...Somehow, please stop the festival..."`@
 br
-　小声で何度もそう呟きながら、……祠を見上げては、拝礼を繰り返す。\
+;　小声で何度もそう呟きながら、……祠を見上げては、拝礼を繰り返す。\
+`　As she whispered this in a low voice countless times, ...she'd look up at the shrine, and repeat her prayer.`\
 
-　その祠は、ご神体を収める木製の小さな扉が、……ひしゃげて壊れていた。@
+;　その祠は、ご神体を収める木製の小さな扉が、……ひしゃげて壊れていた。@
+`　The shrine's small wooden doors that housed the object of worship ...had been broken.`@
 br
-　ひしゃげ、ささくれ立った具合から、壊れたのはつい最近だと想像できる。\
+;　ひしゃげ、ささくれ立った具合から、壊れたのはつい最近だと想像できる。\
+`　Although crushed, from its standing splinters one can imagine it was broken just recently.`\
 
-　校舎裏でボール遊びをする子も少なくない。@……強いボールが飛んできて、ぶつかって壊してしまったのかもしれない。\
+;　校舎裏でボール遊びをする子も少なくない。@……強いボールが飛んできて、ぶつかって壊してしまったのかもしれない。\
+`　There are hardly any children who play ball behind the school. `@`...It might be possible a strong ball came flying, knocked into the doors, and demolished them.`\
 
 cl r,0
 ld c,MIC_Def5,24
 
-　みちるは立ち上がると、その扉を直そうとするかのような仕草で撫でる。\
+;　みちるは立ち上がると、その扉を直そうとするかのような仕草で撫でる。\
+`　Standing up straight, Michiru caressed those doors, acting as if she were to repair the damage done to them.`\
 
-　しかし、それで直るわけもない。@
+;　しかし、それで直るわけもない。@
+`　However, there was no way that would fix it.`@
 br
-　無残に壊れたまま、祠は放置されている……。\
+;　無残に壊れたまま、祠は放置されている……。\
+`　Tragically demolished, the shrine had been left in neglect...`\
 
 ld c,MIC_Def3,80
 
-「……………………………。@/
+;「……………………………。@/
+`"......... `@/
 E_A
-………………誰…？」@
+;………………誰…？」@
+`......Who's there...?"`@
 
 me1v 5,50
 
 br
-　不意にみちるは立ち上がり、ゆっくりと後ろを振り返る。\
+;　不意にみちるは立ち上がり、ゆっくりと後ろを振り返る。\
+`　Michiru stood up suddenly, and then slowly looked behind her.`\
 
 bg black,23
 bg usagi_01,23
 
-　……すると、用具小屋の陰にいた少女が、びくっと驚く。\
+;　……すると、用具小屋の陰にいた少女が、びくっと驚く。\
+`　...When she did, in the shadow of the toolshed a girl jumped in surprise.`\
 
-　その少女は、……あの、怪我をした少女の友人の一人。@
+;　その少女は、……あの、怪我をした少女の友人の一人。@
+`　The girl was... one of the friends of the injured girl.`@
 br
-　みちるが祟りだと警告した少女たちの内の一人だった。\
+;　みちるが祟りだと警告した少女たちの内の一人だった。\
+`　One of the girls who was told that Michiru the girl.`\
 
-「………こ、………こんにちは………。」@
+;「………こ、………こんにちは………。」@
+`"...G- ...Good afternoon...."`@
 
 ld r,MIC_Def1,22
 
-「…………こんにちは。」@
+;「…………こんにちは。」@
+`"...Good afternoon."`@
 br
-　少女はおずおずと頭を下げる。\
+;　少女はおずおずと頭を下げる。\
+`　The girl timidly bowed.`\
 
-　学校生活において、生徒同士でこんにちはと言うことなど、滅多にありえない。@
+;　学校生活において、生徒同士でこんにちはと言うことなど、滅多にありえない。@
+`　As far as life at school goes, students almost never say 'good afternoon' to each other.`@
 br
-　そのぎくしゃくとした挨拶が、二人が普段、如何に交流がないかを物語っている。\
+;　そのぎくしゃくとした挨拶が、二人が普段、如何に交流がないかを物語っている。\
+`　That awkward greeting suggests that these two haven't been making regular exchanges every day.`\
 
-　みちるは、瞬きすらしないかのように、不動のまま、じっと少女の目を見ていた。@
+;　みちるは、瞬きすらしないかのように、不動のまま、じっと少女の目を見ていた。@
+`　Michiru, without even blinking, stood and stared at the girl directly in the eyes.`@
 br
-　……少女は覚悟を決め、物陰から歩み出る。\
+;　……少女は覚悟を決め、物陰から歩み出る。\
+`　...The girl decides she is ready, and walks out from under the cover.`\
 
-「え、……っと。@………さっきはその、……ごめんね。@……博美はその、口が悪いから……。」@
+;「え、……っと。@………さっきはその、……ごめんね。@……博美はその、口が悪いから……。」@
+`"U- ....um. `@`...About earlier, I, er... I'm sorry. `@`...Hiromi has, well... a bit of a sharp tongue you see..."`@
 
 ld r,MIC_Def2,80
 
-「……いいよ。@全然気にしてないから。」@
+;「……いいよ。@全然気にしてないから。」@
+`"...It's fine. `@`I'm not worried about it at all."`@
 br
-　みちるはそう言うと、再び祠に向き直る。\
+;　みちるはそう言うと、再び祠に向き直る。\
+`　Michiru says, and turns back again to the shrine.`\
 
 cl r,22
 
-　少女も、その肩越しに祠を見て、……ごくりと唾を一度、飲み込んだ。\
+;　少女も、その肩越しに祠を見て、……ごくりと唾を一度、飲み込んだ。\
+`　The girl also looked at the shrine over Michiru's shoulder, ...and then she swallowed with a gulp.`\
 
 bg black,24
 
@@ -257,19 +290,24 @@ bg hokora_02,22
 
 bgm1 8
 
-「…………桜田さんってさ……。@その、………。@………あるの……？」\
+;「…………桜田さんってさ……。@その、………。@………あるの……？」\
+`"...About Sakurada-san... `@`Well, ... `@`...Do you have it...?"`\
 
 ld c,MIC_Def1,22
 
-「……何が？」@
+;「……何が？」@
+`"...Have what?"`@
 
-「あの、………霊感、……とか………。」\
+;「あの、………霊感、……とか………。」\
+`"Well, ...a sixth sense.... or something..."`\
 
 ld c,MIC_Def2,80
 
-「……………………。」@
+;「……………………。」@
+`"........."`@
 br
-　みちるは、小さく溜め息を漏らした後、ゆっくりと振り返る。\
+;　みちるは、小さく溜め息を漏らした後、ゆっくりと振り返る。\
+`　After Michiru let loose a short sigh, she slowly turned back around.`\
 
 ;ld c,MIC_Def1,80
 
