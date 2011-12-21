@@ -1,25 +1,33 @@
 ;Chapter 4
-　放課後。@
+;　放課後。@
+`　After school.`@
 br
-　さっきまで大雨が降っていたので、校庭で遊ぶ子の姿は、誰一人見えなかった。\
+;　さっきまで大雨が降っていたので、校庭で遊ぶ子の姿は、誰一人見えなかった。\
+`　Since moments ago there was a downpour of rain, not a single child could be playing in the courtyard.`\
 
 bg black,22
 bg shoukou_01,22
 
-　少女は昇降口で、上履きから靴に履き替える。@
+;　少女は昇降口で、上履きから靴に履き替える。@
+`　The girl changed from her slippers into her shoes by the entryway.`@
 br
-　今日は委員会の日だったので、下校が遅くなったのだ。\
+;　今日は委員会の日だったので、下校が遅くなったのだ。\
+`　Since today was a committee meeting, it was late when she started leaving school.`\ 
 
-　ここから見る限り、雨は止んでいるように見える。@……いや、ほんの少しだけ降っているだろうか…？@
+;　ここから見る限り、雨は止んでいるように見える。@……いや、ほんの少しだけ降っているだろうか…？@
+`　As far as we can see from here, it seems the rain has stopped. `@`...No, perhaps it was still raining just a bit...?`@
 br
-　少女は、傘を差そうかどうか迷いながら、ひさしを出て、空を見上げる仕草をする。\
+;　少女は、傘を差そうかどうか迷いながら、ひさしを出て、空を見上げる仕草をする。\
+`　As she wondered whether or not to unfurl her umbrella, she moved out from under the eaves and looked up at the sky.`\
 
 bg black,22
 bg gakkou_02,22
 
-　鉛色の曇天。@
+;　鉛色の曇天。@
+`　Blueish grey clouds.`@
 br
-　そして、椅子。\
+;　そして、椅子。\
+`　And, a chair.`\
 
 ;bg black,28
 bg "BMP\background\efe\red1.bmp",1
@@ -31,7 +39,8 @@ bg blood_1aR,8
 
 bgm1 7
 
-　……水溜りに、赤黒いものが広がっていった……。\
+;　……水溜りに、赤黒いものが広がっていった……。\
+`　...In a puddle, something dark red in color was spreading...`\
 
 bg black,2
 
@@ -43,16 +52,23 @@ bg kyou_01,22
 
 me1v 24,50
 
-「えー？！@　加奈がぁ？！@　ウソでしょー？！」@
-「椅子が降ってきたって。@……どこからともなく。」@
-「あと数ｃｍずれてたら、眼球が潰れてたかもだって……！」\
+;「えー？！@　加奈がぁ？！@　ウソでしょー？！」@
+`"Wha-? `@`Kana diid? `@`You're kidding right~?!"`@
+;「椅子が降ってきたって。@……どこからともなく。」@
+`"I heard a chair fell on her. `@`...Straight ouf of no where."`@
+;「あと数ｃｍずれてたら、眼球が潰れてたかもだって……！」\
+`"A few centimeters difference and they say it would have crushed her eyes...!"`\
 
-　翌日。@少女のクラスは大騒ぎだった。\
+;　翌日。@少女のクラスは大騒ぎだった。\
+`　The next day. `@`Her class was in an uproar.`\
 
-　単調な日常が繰り返される学校生活において、@クラスメートが怪我で入院するなんて大事件は、そうそう起こらない。@
-　皆、興奮した様子でおしゃべりを延々と繰り広げている……。@
+;　単調な日常が繰り返される学校生活において、@クラスメートが怪我で入院するなんて大事件は、そうそう起こらない。@
+`　For the average ever-repeating daily routine that was their school lives, `@`a big incident, like one of their classmates being injured and hospitalized, almost never happens.`@
+;　皆、興奮した様子でおしゃべりを延々と繰り広げている……。@
+`　They were all excited about this turn of events, and they continued talking without end......`@
 br
-　だが、……怪我をした少女の友人たちのそれは、ひそひそと辺りをうかがうかのようなものだった。\
+;　だが、……怪我をした少女の友人たちのそれは、ひそひそと辺りをうかがうかのようなものだった。\
+`　However, ...the injured girls friends were talking about the incident off to the side in whispers.`\
 
 bg black,24
 
@@ -63,26 +79,38 @@ bg kyou_02,24
 
 me1v 16,50
 
-「………ヤバいんじゃない……？」@
-「気にし過ぎだってー。@馬鹿馬鹿しい……。」@
-「……椅子なんて降って来る？@　フツー。」\
+;「………ヤバいんじゃない……？」@
+`"...This is bad isn't it...?"`@
+;「気にし過ぎだってー。@馬鹿馬鹿しい……。」@
+`"You're worrying too much~. `@`Don't be stupid..."`@
+;「……椅子なんて降って来る？@　フツー。」\
+`"...For a chair or something to come falling down? `@`It's not uncommon."`\
 
-「熱血上級生が、たまたま椅子を放り投げたのが当たっただけじゃない…？」@
-「んなこと、あるわけないじゃん……。」@
-「……………………………。」\
+;「熱血上級生が、たまたま椅子を放り投げたのが当たっただけじゃない…？」@
+`"I mean, maybe it was just some unbalanced upperclassman who tossed the chair out the window by chance...?"`@
+;「んなこと、あるわけないじゃん……。」@
+`"There's no way somethin' like that would happen..."`@
+;「……………………………。」\
+`"........."`\
 
-「……やっぱりさ…。@……あれの、……/
+;「……やっぱりさ…。@……あれの、……/
+`"...I thought so... `@`...Maybe it's that... `/
 E_A
-祟りとか……。」@
-「わけないじゃーん！！@　あはは、あはははははははは！！」@
+;祟りとか……。」@
+`curse..."`@
+;「わけないじゃーん！！@　あはは、あはははははははは！！」@
+`"No waaaaaaay! `@`Hahaha Ahahahahaha!!"`@
 
 me1v 24,50
 
 br
-　１人が馬鹿馬鹿しいと笑い転げる。@合わせるように、他の少女たちも笑うが、表情の曇りが拭われることはなかった。\
+;　１人が馬鹿馬鹿しいと笑い転げる。@合わせるように、他の少女たちも笑うが、表情の曇りが拭われることはなかった。\
+`　One began convulsing with laughter. `@`As if reaching the same conclusion, the other girls wiped their grim expressions from their faces and joined in the laughter.`\
 
-「……あの日以来さ。@……おかしいことばっかじゃん。@……言ったでしょ？@　石つぶてが降ってきたって…。」@
-「誰かの悪戯でしょ？@　まさか天狗の仕業だとか言うわけ？！」\
+;「……あの日以来さ。@……おかしいことばっかじゃん。@……言ったでしょ？@　石つぶてが降ってきたって…。」@
+`"...You know since that day. `@`...Nothing but strange things have happened. `@`...Didn't I tell you? `@`A pebble came flying at me..."`@
+;「誰かの悪戯でしょ？@　まさか天狗の仕業だとか言うわけ？！」\
+`"Someone must be pulling a practical joke? `@`Or are you saying it's the work of a tengu?!"`\
 
 E_A
 
@@ -91,30 +119,39 @@ ld c,MIC_Def1,2
 
 bgm1 18
 
-「それも、………鎮守神さまの祟りだよ……。」@
+;「それも、………鎮守神さまの祟りだよ……。」@
+`"That's also... the curse of the guardian deity..."`@
 ;＜みちる
 br
-　ぬぅっと姿を現わした、眼帯の少女が、そう呟く。\
+;　ぬぅっと姿を現わした、眼帯の少女が、そう呟く。\
+`　A girl with an eyepatch popped out and muttered so much.`\
 
-「う、……うっせぇよ、お前に意見なんか求めてねーよ！@　あっち行けよ、根暗女！！」\
+;「う、……うっせぇよ、お前に意見なんか求めてねーよ！@　あっち行けよ、根暗女！！」\
+`"Sh- ...shut up, no one asked you your opinion!`@` Go somewhere else, emo girl!!"`\
 
 ;mbg white,63
 ;mcbg 23
 ;bg kyou_01,0
 ld c,MIC_Def2,80
 
-「…………………………。」@
+;「…………………………。」@
+`"........."`@
 ;＜みちる
 br
-　少女たちのリーダー格が、不愉快そうに立ち去ると、@他の少女たちも両者の顔を見比べてから、おずおずと退場する。@
+;　少女たちのリーダー格が、不愉快そうに立ち去ると、@他の少女たちも両者の顔を見比べてから、おずおずと退場する。@
+`　As the leader of the girls uncomfortably gets up to leave, `@`the other girls look at each another and take their leave one after another.`@
 br
-　後には、眼帯の少女の姿だけが残った……。\
+;　後には、眼帯の少女の姿だけが残った……。\
+`　Afterwards, the girl with an eyepatch was all that was left...`\
 
-　少女の名は、……桜田みちる（さくらだ　みちる）。\
+;　少女の名は、……桜田みちる（さくらだ　みちる）。\
+`　The girl's name ...Michiru Sakurada （桜田みちる）.`\
 
-　陰鬱な雰囲気が示す通り、友達はいない。@
+;　陰鬱な雰囲気が示す通り、友達はいない。@
+`　As the gloomy atmosphere demonstrates, she has no friends.`@
 br
-　いつもひとりぼっちで、小難しい本を読み、……何かをぶつぶつと呟いている。\
+;　いつもひとりぼっちで、小難しい本を読み、……何かをぶつぶつと呟いている。\
+`　Always alone and reading complicated books ...she'd mutter to herself.`\
 
 　クラスメートの女子に言わせると、“何か見えちゃってる、アブネーやつ”だった。@
 br
