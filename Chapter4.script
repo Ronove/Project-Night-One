@@ -610,14 +610,18 @@ br
 bg black,22
 bg hokora_01,22
 
-「……そ、そうだよね……。@みんなを説得してる間にも、祟りは起こるかもしれないよね……。@……次の祟りでは、……こ、今度こそ、……人が死ぬかも………。」\
+;「……そ、そうだよね……。@みんなを説得してる間にも、祟りは起こるかもしれないよね……。@……次の祟りでは、……こ、今度こそ、……人が死ぬかも………。」\
+`"...You're right...`@` In the time it takes to persuade everyone, the curse may strike again...`@` ...In the next curse...th, this time...someone might die..."`\
 
 ld l,MIC_Def1,22
 
-「……私は嫌だよ。@菊の花の飾ってある教室なんて。」@
-「ちょ、ちょっと止めてよ、笑えないよぉ…！」@
+;「……私は嫌だよ。@菊の花の飾ってある教室なんて。」@
+`"...I'm against it.`@` Decorating the classroom with chrysanthemums."`@`
+;「ちょ、ちょっと止めてよ、笑えないよぉ…！」@
+`"H, hang on, this is no laughing matter...!"`@`
 br
 　少女は泣き笑いのようなわけのわからない表情を浮かべながら、みちるの肩にすがり付く。\
+
 
 ld l,MIC_Def2,80
 
