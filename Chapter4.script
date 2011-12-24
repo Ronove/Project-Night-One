@@ -307,50 +307,66 @@ ld c,MIC_Def2,80
 `"........."`@
 br
 ;　みちるは、小さく溜め息を漏らした後、ゆっくりと振り返る。\
-`　After Michiru let loose a short sigh, she slowly turned back around.`\
+`　After Michiru let out a short sigh, she slowly turned around.`\
 
 ;ld c,MIC_Def1,80
 
-　そして、……仮にそうだと答えたなら、それを信じるのかと、無言で少女に問い掛ける…。@
+;　そして、……仮にそうだと答えたなら、それを信じるのかと、無言で少女に問い掛ける…。@
+`　And, ...she seemed to wordlessly inquire, 'if I said I did, would you believe it?'...`@
 br
-　だから少女は、沈黙に耐え切れなくて、苦笑いを始めてしまう…。\
+;　だから少女は、沈黙に耐え切れなくて、苦笑いを始めてしまう…。\
+`　So the girl, unable to stand the silence, began to cringe...`\
 
-「……クラスの子が噂してたの。@……桜田さんは、その、………霊感とか、そういう力があって…。@………霊とかそういうのが、……見えちゃう、って……。@わ、……私は全然見えないけどっ。@ふ、ふつーそうだよね…？@　はは、はは……。」@
+;「……クラスの子が噂してたの。@……桜田さんは、その、………霊感とか、そういう力があって…。@………霊とかそういうのが、……見えちゃう、って……。@わ、……私は全然見えないけどっ。@ふ、ふつーそうだよね…？@　はは、はは……。」@
+`"...Kids in class have spread rumors about it. `@`...They say you, well, ...have something like a sixth sense... `@`...They say that a sixth sense means... you can see... them...`@` I-... I can't see them at all but --`@` that's n- normal, right...? `@`Ha ha, ha ha..."`@
 br
-　みちるはもう一度、小さく溜め息を漏らしてから、……言った。\
+;　みちるはもう一度、小さく溜め息を漏らしてから、……言った。\
+`　After taking letting out another short sigh... Michiru spoke.`\
 
 ld c,MIC_Def1,80
 
-「………私にとって、それはとても当り前の光景だったの。@……私に見えるのだから、みんなにも見えてる。@小さい頃は、そう信じてた。」@
-「……………………っ。」\
+;「………私にとって、それはとても当り前の光景だったの。@……私に見えるのだから、みんなにも見えてる。@小さい頃は、そう信じてた。」@
+`"...For me, it's been a very natural sight. `@`...Because I can see them, everyone else must be seeing them too. `@` I've believed that since I was a child."`@
+;「……………………っ。」\
+`"........."`\
 
 ld c,MIC_Def3,80
 
-「小学校に入ったばかりくらいの頃に、ようやく理解したの。@……私には、みんなに見えないものが、見えているって。」\
+;「小学校に入ったばかりくらいの頃に、ようやく理解したの。@……私には、みんなに見えないものが、見えているって。」\
+`"When I first entered elementary school, I finally realized it. `@`...That I was seeing what no one else could."`\
 
-「じゃあ今も、………ひょっとして、……はは、……見えて、……る……？」@
+;「じゃあ今も、………ひょっとして、……はは、……見えて、……る……？」@
+`"Well, even now... does that mean you're... heheh.. seeing... them?"`@
 
 ld c,MIC_Def2,80
 
-「…………………………。」@
+;「…………………………。」@
+`"........."`@
 br
-　みちるは沈黙するが、……その目線がふわりと踊っている。@
-　まるで、すぐそこを飛ぶ虫か何かを目で追っているかのように。\
+;　みちるは沈黙するが、……その目線がふわりと踊っている。@
+`　Michiru was silent, ...but her gaze wandered.`@
+;　まるで、すぐそこを飛ぶ虫か何かを目で追っているかのように。\
+`　It was as if an insect or some such had darted out and her eyes were following it.`\
 
-　……しかし、そこには何もいないのだ。@
+;　……しかし、そこには何もいないのだ。@
+`　...But there was nothing there.`@
 br
 
 ld c,MIC_Def6,80
 
-　その、……みちるの目線の示す先が、………次第に少女に近付いていく………。\
+;　その、……みちるの目線の示す先が、………次第に少女に近付いていく………。\
+`　That focal point of Michiru's gaze... slowly neared the girl...`\
 
-「ひ、……ひぃ……？！」@
+;「ひ、……ひぃ……？！」@
+`"Ee- ...Eeep...?!"`@
 br
 
 quakex 2,200
 
-　少女は堪らず、頭を払う仕草をする。@
-　それを見て、みちるはようやく、くすりと笑った。\
+;　少女は堪らず、頭を払う仕草をする。@
+`　Unable to stand it, the girl covered her head.`@
+;　それを見て、みちるはようやく、くすりと笑った。\
+`　Michiru looked at her and giggled.`\
 
 
 
@@ -366,20 +382,27 @@ ld c,MIC_Def3,80
 
 me1v 16,50
 
-「…………冗談だよ。@……いつも見えてるわけじゃないの。@いえ、むしろ望んで、見えなくなるようにしたの。@……お陰で、最近は意識さえしなければ、ほとんど見えないようになった…。」\
+;「…………冗談だよ。@……いつも見えてるわけじゃないの。@いえ、むしろ望んで、見えなくなるようにしたの。@……お陰で、最近は意識さえしなければ、ほとんど見えないようになった…。」\
+`"...I'm joking. `@`...It's not like I can always see them. `@`No, rather only if I want to, so I made an effort to stop seeing them. `@`...Thanks to that, as long as I'm conscious then I almost never see them..."`\
 
-「どうして……、見えなくなるように…？」\
+;「どうして……、見えなくなるように…？」\
+`"Why ... stop seeing them...?"`\
 
 ld c,MIC_Def1,80
 
-「………霊が取り憑いて、事故に引き込もうとしているのが見えても。@……私には何も出来ないから。@………霊に憑かれているから気を付けてと言って、……誰が信じるの…？」\
+;「………霊が取り憑いて、事故に引き込もうとしているのが見えても。@……私には何も出来ないから。@………霊に憑かれているから気を付けてと言って、……誰が信じるの…？」\
+`"...By chance, even if I see someone posessed by a spirit, `@`...there's nothing I can do. `@`... If I tell someone to be careful of being posessed by a spirit.. who would believe me?"`\
 
-「……それは、………………。」@
+;「……それは、………………。」@
+`"...That's......"`@
 br
-　他者にはない能力が、必ずしも愉快なものとは限らない。@
-　ましてや、その能力によって他人の不幸を察知しても、それを救えないなら尚更のことだ……。\
+;　他者にはない能力が、必ずしも愉快なものとは限らない。@
+`　Having a unique ability all to yourself doesn't mean it's always a good thing.`@
+;　ましてや、その能力によって他人の不幸を察知しても、それを救えないなら尚更のことだ……。\
+`　Much less sensing others misfortunes with that ability, and furthermore being unable to tell them about it...`\ 
 
-「あの、さ。@……絶対に馬鹿にしないから、……信じるからっ。@………だから、………教えてくれない……？」@
+;「あの、さ。@……絶対に馬鹿にしないから、……信じるからっ。@………だから、………教えてくれない……？」@
+`"Um, well. `@`...I definitely won't make fun of you... because I believe you. `@`...So, ...would you tell me...?"`@
 
 ld c,MIC_Def2,80
 
@@ -401,7 +424,7 @@ E_B
 
 
 ;「……………っ。」@
-`"...!"`@`
+`"......!"`@`
 br
 ;　少女はごくりと、もう一度唾を飲み込む……。\
 `　The girl swallowed with a gulp once more...`\
@@ -510,10 +533,10 @@ bg black,22
 `　...However, she may have just grasped her first chance.`@`
 br
 ;　自分のその稀有な力が、誰かを救えるかもしれない機会を。\
-(?)`　A chance that she might be able to save anyone, a rare moment of self-support.`\
+`　A rare chance that she might be able to save someone with her own power.`\
 
 ;　みちるは、何度目かの溜め息を吐き出し、……覚悟を決めた眼差しで、少女を見る。\
-`　How many times, had Michiru sighed, ...gazing at her, preparing herself for the worst.`\
+`　Michiru sighed for the upteenth time, ...gazing at the girl, preparing herself for the worst.`\
 
 bg hokora_01,0
 ld c,MIC_Def3,22
@@ -542,13 +565,15 @@ cl c,0
 ld r,MIC_Def4,23
 
 ;「そう。@全員で。@……あなた一人が謝ったところで、鎮守神さまの心には多分、届かない。@………心の力は、一人一人では弱いけれど、束ねると強くなるから。@……縄と同じだよ。」@
-`"Yes.`@` All of you.`@` ...Even if you apologize on your own, it's likely it will not reach the Guardian Deity.`@` ...The power of your hearts are weak one by one, but when bound together they become strong. `@`...It is the same as with ropes."`\
+`"Yes.`@` All of you.`@` ...Even if you apologize on your own, it's likely that alone will not reach the Guardian Deity.`@` ...It's almost like rope. `@`The power of your hearts are weak one by one, but when tied together they become strong."`\
+;(CHANGE) Order changed to make it sound better in English. 
 ;「……………う、………うん…。」\
 `"...Y, ...Yeah..."`\
 
 ld r,MIC_Def1,80
 
-「あなたに出来ることは、みんなを説得して、ここへ連れて来ること。@……私に出来ることは、その時にするお参りの作法を教えてあげることと、@………その日まで、あなたの安全を守ること。」\
+;「あなたに出来ることは、みんなを説得して、ここへ連れて来ること。@……私に出来ることは、その時にするお参りの作法を教えてあげることと、@………その日まで、あなたの安全を守ること。」\
+`"What you can do is convince everyone and bring them here. `@`...What I can do is teach you how to pay your respects at the shrine, `@`...and I can protect you until the day you do."`\
 
 bg black,22
 
@@ -557,44 +582,60 @@ fede 1,1000
 E_B
 
 
-　全員を説得してここへ連れて来る。@
+;　全員を説得してここへ連れて来る。@
+`　Convince everyone and bring them here.`@
 br
-　それは容易なことではない。@日数をかけるだろう。\
+;　それは容易なことではない。@日数をかけるだろう。\
+`　That's not an easy thing to do. `@`It could take a few days.`\
 
 bg kyou_02,22
 
-　リーダー格の博美はオカルト紛いの話を、馬鹿馬鹿しいと吐き捨てて拒絶している。@説得は容易ではないに違いない。\
+;　リーダー格の博美はオカルト紛いの話を、馬鹿馬鹿しいと吐き捨てて拒絶している。@説得は容易ではないに違いない。\
+`　The leader-type, Hiromi, spat out flat rejection of talk of these events being related to the occult as stupid. `@`Convincing her would be no simple matter.`\
 
-　そして、椅子で怪我をした加奈は入院している。@
-　命に別状はないそうだが、いつ退院してくるかは、よくわからない……。@
+;　そして、椅子で怪我をした加奈は入院している。@
+`　And Kana is in the hospital after being injured by the chair.`@
+;　命に別状はないそうだが、いつ退院してくるかは、よくわからない……。@
+`　They say she's not in a serious condition, but they don't really know when she'll be able to leave...`@ 
 br
-　その数日間の間に、再び祟りが起こらない保証は、まったくないのだ。\
+;　その数日間の間に、再び祟りが起こらない保証は、まったくないのだ。\
+`　And during the next few days, there's no guarantee that the curse won't happen again.`\
 
 bg black,22
 bg hokora_01,22
 
-「……そ、そうだよね……。@みんなを説得してる間にも、祟りは起こるかもしれないよね……。@……次の祟りでは、……こ、今度こそ、……人が死ぬかも………。」\
+;「……そ、そうだよね……。@みんなを説得してる間にも、祟りは起こるかもしれないよね……。@……次の祟りでは、……こ、今度こそ、……人が死ぬかも………。」\
+`"...Y, You're right... `@`Even while I'm trying to convince everyone, the curse might happen again... `@`...The next curse ...th- this time someone... could... die..."`\
 
 ld l,MIC_Def1,22
 
-「……私は嫌だよ。@菊の花の飾ってある教室なんて。」@
-「ちょ、ちょっと止めてよ、笑えないよぉ…！」@
+;「……私は嫌だよ。@菊の花の飾ってある教室なんて。」@
+`"...I don't want that. `@`I don't want a classroom filled with chrysanthemums."`@
+;(Translator's Note): Culture note needed here.
+;「ちょ、ちょっと止めてよ、笑えないよぉ…！」@
+`"P, please stop, I can't laugh about this...!"`@
 br
-　少女は泣き笑いのようなわけのわからない表情を浮かべながら、みちるの肩にすがり付く。\
+;　少女は泣き笑いのようなわけのわからない表情を浮かべながら、みちるの肩にすがり付く。\
+`　While making a confused expression like laughing while crying, the girl grabbed hold of Michiru's shoulder.`\
 
 ld l,MIC_Def2,80
 
-「………とにかく。@あなたたちがここに全員揃うまでの間、@鎮守神さまの祟りが及ばないようにしないと。」\
+;「………とにかく。@あなたたちがここに全員揃うまでの間、@鎮守神さまの祟りが及ばないようにしないと。」\
+`"...Anyway. `@`Until you all have gathered here, `@`we have to make it so the Guardian Deity doesn't cast his spell again."`\
 
-「何かないの…？！@　御守りとか護符とかそういうの…！！」@
+;「何かないの…？！@　御守りとか護符とかそういうの…！！」@
+`"Isn't there anything...?! `@`Like a charm, talisman... something!!"`@
 
 ld l,MIC_Def3,80
 
-「……あるけれど、鎮守神さまはとても強い神様。@そんなのじゃ防げないよ。」\
+;「……あるけれど、鎮守神さまはとても強い神様。@そんなのじゃ防げないよ。」\
+`"...There is but, the Guardian Deity is very strong. `@`Something like that can't protect you."`\
 
-「じゃあ、どうすればいいの…？！@　絶対にみんなを説得してここで謝るから、@それまでの間、どうすれば祟りを防げるの？！」@
+;「じゃあ、どうすればいいの…？！@　絶対にみんなを説得してここで謝るから、@それまでの間、どうすれば祟りを防げるの？！」@
+`"Then, what should I do...?! `@`I absolutely will convince and bring everyone here, `@`so until then, how can we protect ourselves from the curse?!"`@
 br
-　みちるは髪を風になびかせながら、……祠を見やり、……そして大きな学校を見上げる。\
+;　みちるは髪を風になびかせながら、……祠を見やり、……そして大きな学校を見上げる。\
+`　Michiru, her hair blowing in the wind... looks to the shrine... and then looks up at the large school.`\
 
 bg black,22
 
@@ -602,8 +643,10 @@ me2v 16,50
 
 bg gakkou_02u,2
 
-「鎮守神さまは土地の神様。@……その神様の祟りを防ぐには、@……同じ土地に住む、同じくらい強い力を借りる必要がある。」@
-「う、うん。@……それは、どうやればいいの……？！」\
+;「鎮守神さまは土地の神様。@……その神様の祟りを防ぐには、@……同じ土地に住む、同じくらい強い力を借りる必要がある。」@
+`"The Guardian Deity is a god of this place. `@`...To protect against his curse, `@`...you must borrow similar power from those that live on these grounds."`@
+;「う、うん。@……それは、どうやればいいの……？！」\
+`"O, Okay. `@`...So how do I do that...?!"`\
 
 bg black,2
 
@@ -615,22 +658,28 @@ wait 2000
 me1v 35,50
 bg okujou_01y,2
 
-　月明かりが照らす、夜の学校……。@
+;　月明かりが照らす、夜の学校……。@
+`　Moonlight shines. The school at night...`@
 br
-　虫たちの合唱が、より一層、静寂を引き立たせる。\
+;　虫たちの合唱が、より一層、静寂を引き立たせる。\
+`　The cries of the insects further add to the stillness.`\
 
 bg black,22
 bg gakkou_08y,22
 
-　二人の人影は、……旧校舎の校舎の陰にあった。\
+;　二人の人影は、……旧校舎の校舎の陰にあった。\
+`　The shadows of two people... stood behind of the old school building.`\
 
-「こ、……こんなことして、……先生に見つかったら大変じゃない……？」\
+;「こ、……こんなことして、……先生に見つかったら大変じゃない……？」\
+`"If... If I teacher sees us doing something like this... we'll be in big trouble won't we...?"`\
 
 ld c,MIC_Def1,22
 ld c,MIC_Def2,80
 
-「……祟りに遭う方がいいというなら、引き返してもいいんだよ…。」@
-「や、やるよぉ、やるよぉ……！」\
+;「……祟りに遭う方がいいというなら、引き返してもいいんだよ…。」@
+`"...If you think meeting with a curse is better, then you should go back..."`@
+;「や、やるよぉ、やるよぉ……！」\
+`"I'll do it~ I'll do it~!"`\
 
 ;mbg white,1
 ;mcbg 22
@@ -649,42 +698,55 @@ quakex 2,200
 bg gakkou_08y,0
 ld c,MIC_Def2,22
 
-　少女は抱え上げた大きな石を、旧校舎の窓ガラスに打ち付ける。@
+;　少女は抱え上げた大きな石を、旧校舎の窓ガラスに打ち付ける。@
+`　The girl struck the glass of one of the windows with a large stone.`@
 br
-　何度か繰り返す内に、ガラスは蜘蛛の巣状に割れて、拳大の穴を開ける……。\
+;　何度か繰り返す内に、ガラスは蜘蛛の巣状に割れて、拳大の穴を開ける……。\
+`　After a few times, the glass cracked like a spider's web, and a fist-sized hole opened up...`\
 
-　みちるに懐中電灯で照らされながら、少女はそこより手を突っ込み、鍵を開ける……。@
+;　みちるに懐中電灯で照らされながら、少女はそこより手を突っ込み、鍵を開ける……。@
+`　While Michiru shined a light on it with a flashlight, the girl reached inside the hole and unlocked a door...`@
 br
-　二人はそこより旧校舎の中へ入り込んだ……。\
+;　二人はそこより旧校舎の中へ入り込んだ……。\
+`　And then the two stepped into the old school building...`\
 
 bg black,2
 bg k_rouka_03,2
 
 bgm1 8
 
-「きゅ、……旧校舎ってさ…。@オカルトスポットなんでしょ……？」@
+;「きゅ、……旧校舎ってさ…。@オカルトスポットなんでしょ……？」@
+`"A- ...About the old building... `@`It's an occult spot isn't it...?"`@
 
 ld r,MIC_Def3,22
 
-「……そういう話だね。@……まぁ、外れてないんだけれど。」\
+;「……そういう話だね。@……まぁ、外れてないんだけれど。」\
+`"...Talking about that eh?. `@`...Well we're not really alone."`\
 
-「い、……今も、その辺に、……うようよいて、……見えてたりする……？」\
+;「い、……今も、その辺に、……うようよいて、……見えてたりする……？」\
+`"E- ...Even now, in this place... can you see them...crawling about?"`\
 
 ld r,MIC_Def2,80
 
-「どんなのが見えてるか、……教えて欲しいなら。」@
-「え、……遠慮するよぉ……！」\
+;「どんなのが見えてるか、……教えて欲しいなら。」@
+`"What sort of things am I seeing? ......If you want to know, I'll tell you."`@
+;「え、……遠慮するよぉ……！」\
+`"Y- ...You don't have to...!!"`\
 
 ld r,MIC_Def1,80
 
-「人が大勢集まる学校には、それだけ多くの念と霊と、力が集まるの。@……そしてそれは、長い年月を経た、この旧校舎が一番強い。」\
+;「人が大勢集まる学校には、それだけ多くの念と霊と、力が集まるの。@……そしてそれは、長い年月を経た、この旧校舎が一番強い。」\
+`"In a school where a lot of people gather, a lot of memories, spirits, and power gathers there. `@`...And because of that, over many long years, this old building has become the strongest of all."`\
 
-「……ほ、本当に、……その力は私を守ってくれるの……？」\
+;「……ほ、本当に、……その力は私を守ってくれるの……？」\
+`"...Can, can that power... really protect me...?"`\
 
 ld r,MIC_Def3,80
 
-「それはあなたの心掛け次第だよ。@……そういう諸々の力に敬意を持って、守って欲しいと心から願えたなら、きっと力を貸してくれる。」@
-「う、うんうん……！@　願うよ、願うよぉおお！！」\
+;「それはあなたの心掛け次第だよ。@……そういう諸々の力に敬意を持って、守って欲しいと心から願えたなら、きっと力を貸してくれる。」@
+`"That depends on your intentions. `@`...If you have respect for those various powers, and have a heart that wishes to be granted protection, then they will surely give that to you."`@
+;「う、うんうん……！@　願うよ、願うよぉおお！！」\
+`"Y- Yes yes...! `@`That's my wish, that's what I want!!"`\
 
 bg black,22
 
@@ -696,35 +758,45 @@ ld c,MIC_Def1,26
 ;ld c,MIC_Def1,80
 
 
-「はい、数珠。@……これを持って。@そう。@……それからこれは御守りの護符。@悪い霊を遠ざけて、代わりに良い霊たちを集めてくれる。」\
+;「はい、数珠。@……これを持って。@そう。@……それからこれは御守りの護符。@悪い霊を遠ざけて、代わりに良い霊たちを集めてくれる。」\
+`"Here, prayer beads. `@`...Take this. `@`Yes. `@`...And here is a protective charm. `@`These will ward evil spirits, and they'll bring the good spirits to you."`\
 
 cl c,2
 
 bgm1 18
 
-　みちるたちは、数珠と護符と懐中電灯を持ち、………夜の旧校舎の中を歩き始める。@
+;　みちるたちは、数珠と護符と懐中電灯を持ち、………夜の旧校舎の中を歩き始める。@
+`　They took the prayer beads, charm, and holding the flashlight... they began walking through the old school building at night.`@
 br
-　みちるは不思議な呪文、あるいは祝詞を唱えながら。\
+;　みちるは不思議な呪文、あるいは祝詞を唱えながら。\
+`　Michiru was chanting some strange spell or perhaps a shinto prayer.`\
 
 bg black,22
 bg k_rouka_02,22
 
-　……少女には理解できないが、@それは、この旧校舎に住まう霊たちに加護を求める、霊たちへの言葉らしい。@
+;　……少女には理解できないが、@それは、この旧校舎に住まう霊たちに加護を求める、霊たちへの言葉らしい。@
+`　...The girl couldn't understand it but, `@`those words seemed like they were intended to seek protection from the spirits that lived in the old building.`@
 br
-　まったく理解できないが、とにかく見よう見真似で、その祝詞を同じように少女も唱える……。\
+;　まったく理解できないが、とにかく見よう見真似で、その祝詞を同じように少女も唱える……。\
+`　She couldn't understand it at all, but she tried to follow along, and like Michiru she started chanting as well...`\
 
-「………本当にこれで……、私たちの声、……霊たちに届いてるのかなぁ……。」\
+;「………本当にこれで……、私たちの声、……霊たちに届いてるのかなぁ……。」\
+`"...I wonder... are our voices really reaching the spirits?..."`\
 
 ld r,MIC_Def2,22
 
-「………うん。@いるよ。@すぐ近くにいて、私たちを見てる。」@
-「ひ、……ひぃぃぃ………！」\
+;「………うん。@いるよ。@すぐ近くにいて、私たちを見てる。」@
+`"...Yeah. `@`They're here. `@`They're really close and they're watching us."`@
+;「ひ、……ひぃぃぃ………！」\
+`"E, ...Eeeeeek...!"`\
 
 bg black,22
 
-　みちるのその言葉に偽りはなかった。@
+;　みちるのその言葉に偽りはなかった。@
+`　Michiru wasn't telling a lie with those words.`@
 br
-　なぜなら、確かに人ならざる存在はそこにいて、二人の少女を見ていたからだ。\
+;　なぜなら、確かに人ならざる存在はそこにいて、二人の少女を見ていたからだ。\
+`　Because the otherworldly being really is there, and it's watching the two girls.`\
 
 textoff
 
@@ -734,73 +806,98 @@ wait 2000
 
 ld r,MAR_Def4a,2
 
-「……何をしているのかな。@……こんな時間に、この二人は……。」@
+;「……何をしているのかな。@……こんな時間に、この二人は……。」@
+`"...You two. `@`...What are you doing... at this hour...?"`@
 br
-　それは、旧校舎の怪談の主、……第八怪談を司る、めそめその毬枝だった。\
+;　それは、旧校舎の怪談の主、……第八怪談を司る、めそめその毬枝だった。\
+`　It was the lead of the old school building's ghost story, ...ruler of the 8th Ghost Story, Mesomeso Marie.`\
 
-　稀に、肝試しと称して忍び込んでくる生徒はいる。@
-　しかし、こんなにも遅い時間に入ってくる生徒は本当に珍しい。@
+;　稀に、肝試しと称して忍び込んでくる生徒はいる。@
+`　Rarely, there are students who test their courage by creeping in here.`@
+;　しかし、こんなにも遅い時間に入ってくる生徒は本当に珍しい。@
+`　However, for students to come in here at this late an hour is particularly rare.`@
 br
-　毬枝は、暗がりで転んで怪我でもしなければいいのだけどと心配しながら、@少女たちと一緒に歩いていた。\
+;　毬枝は、暗がりで転んで怪我でもしなければいいのだけどと心配しながら、@少女たちと一緒に歩いていた。\
+`　Marie, worrying the girls might tumble in the darkness and get themselves hurt, `@`walked alongside them.`\
 
 bg black,22
 bg k_rouka_01,22
 
-　……実際、旧校舎の中には、低級な霊や妖怪がいっぱいいる。@
+;　……実際、旧校舎の中には、低級な霊や妖怪がいっぱいいる。@
+`　...In reality, the inside of the old school building was full of low class spirits and youkai.`@
 br
-　それらは夜に力を増幅し、@この珍客たちを、転ばせたり、何かに引っ掛けたりして、怪我をさせようとあちこちからうかがっているのだ。\
+;　それらは夜に力を増幅し、@この珍客たちを、転ばせたり、何かに引っ掛けたりして、怪我をさせようとあちこちからうかがっているのだ。\
+`　Their strength amplified by in the night, `@`they wait here and there looking to harm these rare visitors by making do things such as getting caught on things or tripping and falling.`\
 
 ld c,MAR_i4,24
 
-　しかし、それらは学校妖怪序列第８位の毬枝の姿を見ると、びくっと姿を隠してしまう。@
+;　しかし、それらは学校妖怪序列第８位の毬枝の姿を見ると、びくっと姿を隠してしまう。@
+`　However, when they see Marie, school youkai of the eighth rank, they jump and get out of sight.`@
 br
-　彼らにとって、学校妖怪八席は恐ろしい存在。@
-　だから、毬枝がみちるたちと一緒にこうしているだけで、立派な魔除けの効果があるのだった。\
+;　彼らにとって、学校妖怪八席は恐ろしい存在。@
+`　To them, the eighth ranked school youkai was a terrifying creature.`@
+;　だから、毬枝がみちるたちと一緒にこうしているだけで、立派な魔除けの効果があるのだった。\
+`　So just by walking alongside them, Marie had the effect of a great ward against evil spirits.`\
 
 bg black,22
 bg k_rouka_02,22
 
-「あぁ、どうか旧校舎の霊の皆さん…！@　私をしばらくの間、鎮守神さまの祟りからお守り下さいぃぃ！@　近々必ず、みんなで祠にお参りして謝りますからっ。@ボールをぶつけて壊して、そのまま逃げてすみませんでしたぁぁああぁ…！！」\
+;「あぁ、どうか旧校舎の霊の皆さん…！@　私をしばらくの間、鎮守神さまの祟りからお守り下さいぃぃ！@　近々必ず、みんなで祠にお参りして謝りますからっ。@ボールをぶつけて壊して、そのまま逃げてすみませんでしたぁぁああぁ…！！」\
+`"Ooh, spirits of the former school building...! `@`For just a short time, please grant me protection from the Guardian Deityyyy!`@` Because I must do the ritual and apologize with my friends~.`@` I kicked the ball in the shrine and broke it, and then I ran away.`@` Please forgive meeEeeEee...!!"`\
 
 ld r,MAR_Def4,22
 
-　毬枝は、少女の話をずっと聞いていた。@
+;　毬枝は、少女の話をずっと聞いていた。@
+`　Marie had been listening to the girl's story for some time.`@
 br
-　そして、何らかの存在の怒りに触れ、祟りを被っており、……すでに怪我人まで出ていることを知る。\
+;　そして、何らかの存在の怒りに触れ、祟りを被っており、……すでに怪我人まで出ていることを知る。\
+`　So Marie learned that the girl tapped into some creature's rage, suffered a curse, ...and that one of her friends had already been injured.`\
 
 ;ld l,MAR_Def1,80
 
-　………よく事情はわからないけれど。@ボールがぶつかっただけで、それを恨んで怪我をさせるなんて、@……学校に住まう者としては、ちょっと気が短すぎる。\
+;　………よく事情はわからないけれど。@ボールがぶつかっただけで、それを恨んで怪我をさせるなんて、@……学校に住まう者としては、ちょっと気が短すぎる。\
+`　...She didn't exactly understand the circumstances.`@` But resenting someone and hurting them just because they kicked a ball, `@`...thinking that something like that lived in the school, somewhat angered Marie.`\
 
-「お願いですぅ、旧校舎の霊の皆さぁん…！@　私をお守り下さぁあぁい…！！」\
+;「お願いですぅ、旧校舎の霊の皆さぁん…！@　私をお守り下さぁあぁい…！！」\
+`"Pleeease, spirits of the former school buildiiing...! `@`Please protect meeeee...!!"`\
 
 ld r,MAR_i4a,80
 
-　よしっ、わかりました。@別に私は霊じゃないけど、あなたの願い、聞き届けてあげましょう…！@
+;　よしっ、わかりました。@別に私は霊じゃないけど、あなたの願い、聞き届けてあげましょう…！@
+`　Alright, I understand. `@`I'm not really a spirit, but I'll grant your wish!`@
 br
-　毬枝は拳を握り締めて大きく頷く。\
+;　毬枝は拳を握り締めて大きく頷く。\
+`　Marie clentched her fist and gave a strong nod.`\
 
-　きっと、祟りをしている本人にとって、その祠は大事なものなんだろう。@それを壊されて怒る気持ちは確かにわかる。@
+;　きっと、祟りをしている本人にとって、その祠は大事なものなんだろう。@それを壊されて怒る気持ちは確かにわかる。@
+`　Surely, for the one cursing them, that shrine has to be pretty important. `@`I certainly understood it for getting mad that it was destroyed.`@
 br
-　でも、それに反省しているし、みんなで揃って謝りに行くとも言っている。@
+;　でも、それに反省しているし、みんなで揃って謝りに行くとも言っている。@
+`　But, thinking about it, it's saying it wants everyone to gather and apologize.`@
 br
-　その気持ちを汲み取って許してあげてもいいはずだ。\
+;　その気持ちを汲み取って許してあげてもいいはずだ。\
+`　I can forgive it for having those kinds of feelings.`\
 
 bg black,22
 
-　鎮守神さま、という妖怪に会ったことはない。@
+;　鎮守神さま、という妖怪に会ったことはない。@
+`　I haven't met this youkai called the Guardian Deity.`@
 br
-　でも、同じ学校内に住む存在なのだから、私の話だって聞いてくれるはずだ。\
+;　でも、同じ学校内に住む存在なのだから、私の話だって聞いてくれるはずだ。\
+`　But since it's something that lives on the same school grounds that I do, it should listen to what I have to say.`\
 
 fede 10,1000
 E_MA
 
 bg gakkou_05,2
 
-　翌日。@
+;　翌日。@
+`　The next day.`@
 br
-　生徒たちがはしゃぎ回る昼休み。@
-　校舎裏には、ニンゲンのように姿を現わした毬枝の姿があった。\
+;　生徒たちがはしゃぎ回る昼休み。@
+`　The students are going around having fun during recess.`@
+;　校舎裏には、ニンゲンのように姿を現わした毬枝の姿があった。\
+`　Marie appeared behind the school building in her human-like form.`\
 
 bg black,2
 
@@ -816,26 +913,35 @@ wait 2000
 ld c,MAR_Def4,22
 ;ld c,MAR_Def1,80
 
-「………確か、この辺りにあるって言ってたけれど……。」@
+;「………確か、この辺りにあるって言ってたけれど……。」@
+`"...I'm sure they said it had to be around here but..."`@
 br
-　正直なところ、毬枝もその祠の存在は知らなかった。@
-　広大で歪な巨大学校だ。@知らない場所があっても、何の不思議もない…。\
+;　正直なところ、毬枝もその祠の存在は知らなかった。@
+`　Being honest, Marie didn't even know that shrine existed.`@
+;　広大で歪な巨大学校だ。@知らない場所があっても、何の不思議もない…。\
+`　The school is vast and gigantic. `@`There was nothing unusual about going to a place she didn't know about...`\
 
-　すると、……トントン、カンカンと、釘を打つ音が聞こえた。\
+;　すると、……トントン、カンカンと、釘を打つ音が聞こえた。\
+`　Then ...with clang clang and tap tap, she heard the sound of someone hitting metal.`\
 
 bg black,24
 bg hokora_01,24
 
-　何事かと近付いてみると。@
-　……雑草の茂る一角に、確かに祠があった。@
+;　何事かと近付いてみると。@
+`　When she moved closed to see what was going on,`@
+;　……雑草の茂る一角に、確かに祠があった。@
+`　...out of a corner of the thickly overgrown weeds, there was a shrine.`@
 br
-　そこに、白衣の先生がしゃがみ込んで、何やらやっている。\
+;　そこに、白衣の先生がしゃがみ込んで、何やらやっている。\
+`　There was someone in a teacher's white robe crouched down there, and she was doing something.`\
 
 ld r,MAR_Def4a,24
 
-「……え、っと……。@……こ、………こんにちは……。」@
+;「……え、っと……。@……こ、………こんにちは……。」@
+`"...Ah hem... `@`..G- ...Good afternoon..."`@
 br
-　毬枝は、ニンゲンと交流できるように、自身の波長を相手に合わせる……。\
+;　毬枝は、ニンゲンと交流できるように、自身の波長を相手に合わせる……。\
+`　So that she could communicate with this human, Marie adjusted her own wavelength to match the woman's...`\
 
 E_A
 
@@ -844,44 +950,56 @@ ld l,HOK_Def2,80
 
 bgm1 2
 
-「んー？@　どうしたの？@　怪我？」\
+;「んー？@　どうしたの？@　怪我？」\
+`"Hmmm?`@` What's wrong?`@` Are you hurt?"`\
 
-　振り返ったのは、……何と、保健室の先生だった。@
-　先生は日曜大工の趣味でもあるのだろうか。@
+;　振り返ったのは、……何と、保健室の先生だった。@
+`　The one who turned around, ...surprisingly, was the infirmary nurse.`@
+;　先生は日曜大工の趣味でもあるのだろうか。@
+`　Perhaps she had a hobby as a weekend carpenter.`@
 br
-　見ると、祠の扉を取り外して、蝶番を付け直しているところだった。\
+;　見ると、祠の扉を取り外して、蝶番を付け直しているところだった。\
+`　Looking at the shrine, she had taken off the gates and was just now repairing the hinges.`\
 
 ld r,MAR_Def4,80
 
-「何をしているんですか……？」@
+;「何をしているんですか……？」@
+`"What are you doing...?"`@
 
 ld l,HOK_Def3,80
 
-「うん。@なんかねー、ムシが騒いでねー。」@
+;「うん。@なんかねー、ムシが騒いでねー。」@
+`"Well.`@`You see~ the bugs make a lot of noise~"`@
 
 ld r,MAR_def4a,80
 
-「ムシが騒ぐって？」\
+;「ムシが騒ぐって？」\
+`"What do you mean bugs make noise?"`\
 
 ld l,HOK_Def4,80
 
-「あはははははは。@まぁ、先生の第六感かな？@　何だか気になって来てみたらね。@この祠の扉が壊れてたんだよ。@ボールか何かがぶつかったのかもね。@これじゃ、祠の神様が可哀想だからと思ってね。@先生、こう見えても、こういうのの修理、得意だったりするの。」\
+;「あはははははは。@まぁ、先生の第六感かな？@　何だか気になって来てみたらね。@この祠の扉が壊れてたんだよ。@ボールか何かがぶつかったのかもね。@これじゃ、祠の神様が可哀想だからと思ってね。@先生、こう見えても、こういうのの修理、得意だったりするの。」\
+`"Ahahahahahaha. `@`Well, perhaps it's just my sixth sense? `@`For some reason it just bothered me, and I went out to look, right? `@`This shrine's gates were broken. `@`A ball or something must have crashed into it. `@`And then I thought about the poor spirit in the shrine, ya know? `@`If you can, look at it this way -- as a nurse mending is my forte."`\
 
 cl l,25
 
-　そう言って笑いながら、器用に扉を修理している。\
+;　そう言って笑いながら、器用に扉を修理している。\
+`　She said as she laughed, and skillfully continued repairing the gates.`\
 
 ld l,HIG_Def5,22
 
-「霊感あるのよ、その先生。」@
+;「霊感あるのよ、その先生。」@
+`"She can sense us, that nurse."`@
 
 ld r,MAR_Def4,80
 
-「え？@　彼岸花さん……。」\
+;「え？@　彼岸花さん……。」\
+`"Eh? `@`Higanbana-san..."`\
 
 ld l,HIG_w3,80
 
-「たまにいるのよね。@私たちを知覚できるニンゲンが。@……たまに私の気配に気付いてるわ。@私の近くにずっといたものだから、おかしな妖力でも染み付いちゃったのかしらね。@くすくすくす。」\
+;「たまにいるのよね。@私たちを知覚できるニンゲンが。@……たまに私の気配に気付いてるわ。@私の近くにずっといたものだから、おかしな妖力でも染み付いちゃったのかしらね。@くすくすくす。」\
+`"Once in a while there is one, you see. `@`A human who can sense us that is. `@`...Sometimes she's aware of my presence. `@`She's always been by my side, so perhaps some of my magic has rubbed off on her. `@`*giggle giggle*"`\
 
 　保健の先生の霊感が、この祠の主の怒りを察知したに違いない。@
 br
