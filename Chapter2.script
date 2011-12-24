@@ -17,7 +17,7 @@ wait 1000
 ld r,NON_Def2,2
 
 ;　野々宮武（ののみや　たけし）がカメラを手に取るようになったのは、@何年か前の理科準備室での事件が切っ掛けだった。\
-`　The tale of how Nonomiya Takeshi got his hands on a camera, `@` begins many years ago with an incident that happened in the science prep room.`\
+`　The tale of how Takeshi Nonomiya got his hands on a camera, `@` begins many years ago with an incident that happened in the science prep room.`\
 
 ld r,NON_Def1,22
 
@@ -76,7 +76,7 @@ ld l,NON_def5a,22
 `　She and he paused for a moment, dumbfounded by what had happened, `@`... then their eyes met. `\
 
 ;　野々宮武にとってみれば、それは目の前で起きた事故。@騒ぐつもりも囃し立てるつもりもない。@
-`　To Nonomiya Takeshi it was just an accident that had occured right before his eyes. `@`He had no desire to cheer or panic.`@`
+`　To Takeshi Nonomiya it was just an accident that had occured right before his eyes. `@`He had no desire to cheer or panic.`@`
 br
 ;　少なくとも自分は当事者ではないわけで、@彼女がどう先生に謝るのか、どう怒られるのか、それを気の毒に思うだけだった。\
 `　At the very least, since he wasn't the culprit himself, `@`he felt pity on the girl, considering how she would apologize to the teachers and how angry they would be.`\
@@ -115,7 +115,7 @@ br
 `　Despite his insistence that she had broken the anatomy dummy, `@`the girl and her friends claimed she had done no such thing. `@`No, in fact, they even went so far as to say none of them had gone near the science prep room.`\
 
 ;　野々宮武は、自分の目の前で彼女が人体模型を弾き飛ばした光景をはっきり目に焼き付けている。@
-`　But the image of the girl knocking over the anatomy dummy right before his eyes was burned into Nonomiya Takeshi's mind.`@`
+`　But the image of the girl knocking over the anatomy dummy right before his eyes was burned into Takeshi's Nonomiya mind.`@`
 br
 ;　もしも可能ならば現像したいと思うくらいにはっきりと焼き付けていた。\
 `　It was fixed there so clearly that, if he could, he would have printed and developed it like film.`\
@@ -138,7 +138,7 @@ bg rika_02,0
 ld r,NON_def5a,22
 
 ;　結果、何としたことか、@………先生は、野々宮武が嘘を吐いていると断定したのだ。@
-`　As a result, no matter what he did, `@` ... the teacher decided Nonomiya Takeshi was lying. `@`
+`　As a result, no matter what he did, `@` ... the teacher decided Takeshi Nonomiya was lying. `@`
 br
 ;　別にゲンコツをもらったわけではないが、こっぴどく叱られた。@……とても悔しかった。@
 `　It wasn't like he was beaten for it, only harshly scolded. `@`...but it was so very frustrating. `@`
@@ -1714,7 +1714,7 @@ E_A
 
 br
 ;　森谷毬枝なんて、……知らないって。@
-`　I said I don't know anyone named, ... Moriya Marie.`@
+`　I said I don't know anyone named, ... Marie Moriya.`@
 ;　その言葉を口にしただけなのに、………すぅっと空気の臭いが変わっていくような気がした。\
 `　Even though I had said those words, ...I felt as if the smell in the air was beginning to change.`\
 
@@ -1734,7 +1734,7 @@ locate 7,6
 me1v 13,50
 
 ;　森谷、毬枝。\
-`　Moriya, Marie.`\
+`　Marie, Moriya.`\
 
 dllefe 1,1
 bg gakkou_03,22
@@ -1798,7 +1798,7 @@ ld c,NON_Def5a,2
 ;ld c,NON_Def1,80
 
 ;　そうだ。@あの子が、……森谷毬枝、……だ…。\
-`　That's right. `@`That girl was... Moriya... Marie...`\
+`　That's right. `@`That girl was... Marie... Moriya...`\
 
 ;　僕がそれを思い出すのを、多分、その名前シールはずっと待っていた。@
 `　That nametag, perhaps, had been waiting a long time for me to remember that.
@@ -1845,7 +1845,7 @@ bg kyou_01,2
 `　This time it wasn't a hiss. `@`With a woosh, it was as if a huge wind had blown in. `@`The scent in the air in the classroom changed dramatically.`@
 br
 ;　何かが変わった。@さっきまでの、森谷毬枝の名を知らなかった僕にはわからなかった何かが変わった…！\
-`　Something had changed. `@`For I, who had no idea what the name Moriya Marie meant until moments ago, didn't know what it was, but something had changed...!"`\
+`　Something had changed. `@`For I, who had no idea what the name Marie Moriya meant until moments ago, didn't know what it was, but something had changed...!"`\
 
 bg black,24
 
@@ -1863,7 +1863,7 @@ br
 `　Th― ...There it is. `@`Moriya, ...Marie...!!`\
 
 ;　ポケットからあの写真を取り出す。@森谷毬枝の写っている辺りの席を探す。@
-`　I pulled that photograph from my pocket. `@`I searched near the desk where Moriya Marie had been photographed.`@
+`　I pulled that photograph from my pocket. `@`I searched near the desk where Marie Moriya had been photographed.`@
 br
 ;　すると、……その場所には酷く歪な席があった。\
 `　And, ...In that place was a terribly warped desk.`\
@@ -1885,7 +1885,7 @@ bg black,22
 E_B
 
 ;『森谷毬枝』@
-`『 Moriya Marie 』`@
+`『 Marie Moriya 』`@
 br
 ;　そこにははっきりと、そう記入されていた……。\
 `　It was clearly written there just like that...`\
@@ -1922,7 +1922,7 @@ br
 `　In the classroom shelf was the same field trip guidebook I read last night in my house.`@ 
 br
 ;　もしやと思い開いてみると案の定、@…そこには、昨夜はいくら探しても見つけられなかった森谷毬枝の名前が記されていた。@
-`　By chance I thought to open it, and just as I thought `@`... inside was Moriya Marie's name that I had struggled so hard over and over again to find last night.`@
+`　By chance I thought to open it, and just as I thought `@`... inside was Marie Moriya's name that I had struggled so hard over and over again to find last night.`@
 br
 ;　そして、緊急連絡網には電話番号と、……そして住所まで書かれていた。\
 `　And in her emergency contact information was a phone number... and even an address had been written down.`\
@@ -1947,7 +1947,7 @@ br
 `　That's it. `@`There was no room for doubt anymore. `@`And I remember...`@
 br
 ;　森谷毬枝は間違いなく実在した、僕らのクラスメートだった。@
-`　Moriya Marie really had existed, she was our classmate.`@
+`　Marie Moriya really had existed, she was our classmate.`@
 ;　確かに実在し、そしてこうして自宅まである…！\
 `　She really did exist, and she even had a home here...!`\
 
@@ -1999,7 +1999,7 @@ br
 bg mansion_02,22
 
 ;　しかし、それは曖昧な怪談などでは断じてない。@なぜならこうして、森谷毬枝が存在した痕跡は存在して、@その自宅までこうして存在するからだ。\
-`　But, this wasn't like a vague ghost story or anything of the sort. `@`After all, the traces of Moriya Marie's existence are still here, `@`because even her home is still here.`\
+`　But, this wasn't like a vague ghost story or anything of the sort. `@`After all, the traces of Marie Moriya's existence are still here, `@`because even her home is still here.`\
 
 ;　いつまでもここでこうしていても、真実は明かされない。@意を決し、エレベータを呼ぶ。@
 `　Even though it had always been here like this, the truth hadn't been revealed. `@`I steeled myself, and I called the elevator.`@
@@ -2011,7 +2011,7 @@ br
 `　I had come this far. `@`...I'll confirm it for myself.`\
 
 ;　多分、僕があのカメラを見つけ、クラスの写真を撮り、………森谷毬枝を思い出し、@ここまでやって来たのは偶然ではないのだ。@
-`　Probably, finding that camera, taking the picture of the class, ......remembering Moriya Marie, `@`and finally coming here, was no mere coincidence.`@
+`　Probably, finding that camera, taking the picture of the class, ......remembering Marie Moriya, `@`and finally coming here, was no mere coincidence.`@
 br
 ;　誰が、何のためにかはわからないが、……僕をここへ、導いた。\
 `　Someone, for some reason I don't know, ...led me here.`\
@@ -2068,7 +2068,7 @@ bg black,22
 ;bg mansion_03,22
 
 ;「……森谷、………毬枝…。」@
-`"...Moriya, ......Marie..."`@
+`"...Marie, ......Moriya..."`@
 br
 ;　彼女の名前だけが風化してしまっていたかのように。@……そして、シールが彼女の名前を思い出したかのように。@……四人家族の名前の末尾にぼんやりと、@…“毬枝”と、浮かび上がる……。\
 `　It was as if her name alone had been weathered. `@`...And, as if the nameplate remembered her name, `@`...at the end of the four names in the family, vaguely `@`..."Marie" began to surface......`\
@@ -2097,7 +2097,7 @@ br
 bg mansion_03,22
 
 ;　やがて、@どちら様ァ？　という中年女性の声が聞こえてきた。@……森谷毬枝の母親だと考えていいだろう。@
-`　Finally, `@`I heard the voice of a middle-aged woman say, 'Who is it?' `@`...Perhaps it's Moriya Marie's mother.`@
+`　Finally, `@`I heard the voice of a middle-aged woman say, 'Who is it?' `@`...Perhaps it's Marie Moriya's mother.`@
 br
 ;　玄関前でサンダルを履き、覗き穴からこちらを見ている気配がする。\
 `　I sensed her put on sandals in the entrance and then looking through the peephole.`\
@@ -2139,7 +2139,7 @@ br
 ld c,NON_Def5a,80
 
 ;「えっと、……森谷、……毬枝さんのことなんですけど…。」@
-`"Ummm, ...Well, it's about Moriya, ....Marie..."`@
+`"Ummm, ...Well, it's about Marie, ....Moriya..."`@
 
 
 ;「え？@　どっち？」@
@@ -2155,12 +2155,12 @@ br
 `　But, I had anticipated that reaction as well.`\
 
 ;　……僕の想像通りなら、………僕たちは普通では森谷毬枝のことを思い出せない。@あのカメラで撮ったあの写真を見てでしか、思い出せないのだ。@
-`　...If I'm guessing right, ......normally we can't remember Moriya Marie. `@`Without seeing that photograph I took with that camera, we can't remember her.`@
+`　...If I'm guessing right, ......normally we can't remember Marie Moriya. `@`Without seeing that photograph I took with that camera, we can't remember her.`@
 br
 ;　だから僕は、ポケットから写真を取り出す。@
 `　So I took that photo from my pocket.`@
 ;　そして母親に見せながら、森谷毬枝を指差した。\
-`　And while showing it to her mother, I pointed at Moriya Marie.`\
+`　And while showing it to her mother, I pointed at Marie Moriya.`\
 
 textoff
 bg black,22
@@ -2437,7 +2437,7 @@ bg mansion_01,22
 
 
 ;　野々宮武は、二度とここには近付くまいと、マンションを飛び出していく…。@
-`　Nonomiya Takeshi began to run away from the apartment complex, never to return again.
+`　Takeshi Nonomiya began to run away from the apartment complex, never to return again.
 br
 ;　それでもまだ、母親が毬枝の名を叫ぶのが聞こえる。@……それはマンションの谷間で残響して、この世ならざる世界からの叫びに聞こえるのだった……。\
 `　And yet he could still hear the mother's screams for Marie. `@`...Her screams echoed in the chasm of the complex, and they were screams that sounded as if they came from another world...`\
@@ -2496,7 +2496,7 @@ br
 `　No, ......Maybe she really was.`\
 
 ;　僕は初め、何らかの理由で世界中から忘れられてしまった森谷毬枝が、@自分の存在を思い出して欲しくてこの写真に写ったのではないかと考えていた。@
-`　For the first time, I thought Moriya Marie, who had been completely forgotten for some reason by the entire world, `@`wanting to be remembered, she might have then developed on this still image.`@
+`　For the first time, I thought Marie Moriya, who had been completely forgotten for some reason by the entire world, `@`wanting to be remembered, she might have then developed on this still image.`@
 br
 ;　しかし、彼女の表情は、曖昧なものだった。\
 ` However, her expression was unclear.`\
@@ -2511,7 +2511,7 @@ br
 `　It was as if everyone in class had to be there, so she was unwillingly placed in the photo. `@`...It was a resigned sort of expression.`\
 
 ;　今になって、少しだけ思う。@あの、森谷毬枝の母親の錯乱を見てからはっきり思う。@
-`　Now I began to wonder. `@`After seeing Moriya Marie's mother's insanity, I began to think clearly.`@
+`　Now I began to wonder. `@`After seeing Marie Moriya's mother's insanity, I began to think clearly.`@
 br
 ;　僕は、写してはならない写真を、撮ってしまったのではないだろうか。\
 `　Did I take a picture that had to be taken, I wonder?`\
@@ -3120,7 +3120,7 @@ wait 2000
 bgm1 13
 
 ;「……最近の若い子はいかんね。@下手に出ると、すぐに対等な関係だと誤解する。@……やはり昔のように、目上には敬意を示すように、ちゃんと指導しないと駄目かね…？@　野々宮武くん………？」\
-`"...Kids these days can't be helped, can they. `@`If you speak modestly with them, they misunderstand themselves as equals. `@`...Perhaps like in the old days, I'll have to show you how to respect your elders hm...? `@`Nonomiya Takeshi-kun......?"`\
+`"...Kids these days can't be helped, can they. `@`If you speak modestly with them, they misunderstand themselves as equals. `@`...Perhaps like in the old days, I'll have to show you how to respect your elders hm...? `@`Takeshi Nonomiya-kun......?"`\
 
 me1v 17,50
 
@@ -3141,7 +3141,7 @@ ld c,KOU_U1,2
 ;;顔が真っ黒でモノクルだけのものをイメージしています。
 
 ;「野々宮くんには、少しお灸も必要かね…？@　もう少し、お利口な子だと思っていたんだがね…？@　野々宮くんん……？？？」\
-`"Nonomiya Takeshi-kun, perhaps you need something to light your fire, hm...? `@`Or do you no longer think you're such a clever child, I wonder...?`@` Nonomiya Takeshi-kun~...???"`\
+`"Takeshi Nonomiya-kun, perhaps you need something to light your fire, hm...? `@`Or do you no longer think you're such a clever child, I wonder...?`@` Takeshi Nonomiya-kun~...???"`\
 
 se1 66
 
@@ -3223,7 +3223,7 @@ me1v 16,50
 ld r,HIG_Def2,80
 
 ;「私、野々宮くんのお友達なの。@………くすくすくす。」\
-`"I am Nonomiya Takeshi-kun's friend. `@`...*giggle giggle*"`\
+`"I am Takeshi Nonomiya-kun's friend. `@`...*giggle giggle*"`\
 
 bg black,24
 bg roji_02,0
@@ -3255,7 +3255,7 @@ br
 bg black,22
 
 ;「野々宮くん、下がって。@……飲み込まれるわよ。」\
-`"Nonomiya Takeshi-kun, move. `@`...Or you'll be swallowed up."`\
+`"Takeshi Nonomiya-kun, move. `@`...Or you'll be swallowed up."`\
 
 
 
@@ -3650,7 +3650,7 @@ wait 1000
 ld r,KOU_Def1,22
 
 ;「ふ……。@……………野々宮くん。@君に聞こう。@……君は、真実と安息の、どちらを尊ぶかね…？」\
-`"Hm... `@`......Nonomiya Takeshi-kun. `@`Let's ask you. `@`...Truth or peace, which do you value more...?"`\
+`"Hm... `@`......Takeshi Nonomiya-kun. `@`Let's ask you. `@`...Truth or peace, which do you value more...?"`\
 
 mcl a,0
 ;csp -1
@@ -3697,7 +3697,7 @@ ld r,KOU_Def3,80
 ;ld c,KOU_Def1,80
 
 ;「彼岸花くん、誑かすのは止めたまえ。@私は彼に聞いている。@………さぁ、野々宮くん。@君が尊ぶのはどちらかね…？」\
-`"Higanbana-kun, cease your trickery. `@`I'm asking him. `@`...Well, Nonomiya Takeshi-kun. `@`Which do you value more...?"`\
+`"Higanbana-kun, cease your trickery. `@`I'm asking him. `@`...Well, Takeshi Nonomiya-kun. `@`Which do you value more...?"`\
 
 ;bg black,22
 ;mono 2
@@ -3750,7 +3750,7 @@ br
 `　If people avert their eyes from the truth, thrusting it at them, we must raise these questions.`\
 
 ;　森谷毬枝の写真は確かに不気味なものだった。@……でも、あの写真に写っていた森谷毬枝は実在していたクラスメートで、しかも誰からも忘れ去られていた。@母親にさえ。\
-`　Moriya Marie's photograph certainly was a strange thing. `@`...But, Marie who had been caught in that photograph was forgotten by her classmates and everyone else. `@`Even her own mother.`\
+`　Marie Moriya's photograph certainly was a strange thing. `@`...But, Marie who had been caught in that photograph was forgotten by her classmates and everyone else. `@`Even her own mother.`\
 
 lsp bgsp,":a;bmp\background\efe\a004.bmp",0,0
 print 0
@@ -3766,7 +3766,7 @@ br
 `　Sure it might have been something shocking. `@`Undertaking the impact of what she'd forgotten until now, I can understand why she'd temporarily panic.`\
 
 ;　でも、森谷毬枝はきっとそれで嬉しかったはずだ。@思い出せてもらえて、きっとどこかで喜んでいるはずだ。\
-`　But, Moriya Marie must have been happy with that. `@`That I had let her remember. She must be rejoicing somewhere.`\
+`　But, Marie Moriya must have been happy with that. `@`That I had let her remember. She must be rejoicing somewhere.`\
 
 bg black,22
 
@@ -3774,7 +3774,7 @@ bg black,22
 `　...Perhaps she's been swalloed by this demon called "Headmaster," and her existence extinguished.`@` 
 br
 ;　そしてあのカメラは、森谷毬枝が確かに存在した「真実」を暴きだしたのだ。@……妖怪の力で消し去られていた存在を、暴きだしたのだ。\
-`　And that camera dug up the 'truth' that Moriya Marie certainly did exist. `@`...It brought back her existence that had been extinguished with the power of a youkai.`\
+`　And that camera dug up the 'truth' that Marie Moriya certainly did exist. `@`...It brought back her existence that had been extinguished with the power of a youkai.`\
 
 ;bg black,22
 ;bg roji_02,0
@@ -3797,10 +3797,10 @@ ld c,NON_Def4a,22
 `　And when I saw the power of this mysterious camera with my own eyes, I was certainly terrified.`@`
 br
 ;　でも、よく考えれば、僕はおかしなことはしていない。@おかしなことと言えば、森谷毬枝の存在を消した方ではないか…！@　そちらの方がよっぽど悪いことだ。@
-`　But if I think about it, I didn't do anything strange. `@`But what was strange was the disappearance of Moriya Marie's very existence! `@`That was much worse. `@`
+`　But if I think about it, I didn't do anything strange. `@`But what was strange was the disappearance of Marie Moriya's very existence! `@`That was much worse. `@`
 br
 ;　僕はあのカメラで虚実を破り、真実を暴いた。@森谷毬枝の名誉を、守った！\
-`　With that camera I tore through the doubt and revealed the truth. `@`I protected the name of Moriya Marie!`\
+`　With that camera I tore through the doubt and revealed the truth. `@`I protected the name of Marie Moriya!`\
 
 ld c,NON_Def6a,22
 
@@ -3827,7 +3827,7 @@ ld l,HIG_w3,24
 bgm1 8
 
 ;「ということよ、校長先生。@……新聞部の野々宮くんは“真実”を選んだ。」@
-`"So he thinks, Headmaster. `@`...Nonomiya Takeshi-kun chose 'truth.'"`@`
+`"So he thinks, Headmaster. `@`...Takeshi Nonomiya-kun chose 'truth.'"`@`
 
 ld r,KOU_Def3,22
 
@@ -3879,7 +3879,7 @@ ld l,KOU_Def3,23
 ;ld l,KOU_Def1,80
 
 ;「では、私はこれで失礼しようかね。@…………野々宮くん。@邪魔をしたね。@真っ直ぐお家に帰りたまえ。@…………それでは彼岸花くん。@またいずれ。」\
-`"Well then, I suppose I'll excuse myself then, shall I? `@`......Nonomiya Takeshi-kun. `@`I've been keeping you, haven't I? `@`Head straight home. `@`......Well then, Higanbana-kun. `@`Some other time."`\
+`"Well then, I suppose I'll excuse myself then, shall I? `@`......Takeshi Nonomiya-kun. `@`I've been keeping you, haven't I? `@`Head straight home. `@`......Well then, Higanbana-kun. `@`Some other time."`\
 
 ld r,HIG_w3,24
 ld r,HIG_Def1,80
@@ -3947,7 +3947,7 @@ br
 `....A moment longer and I would have been sucked into that pure black pond.`@`
 br
 ;　そうしたら、森谷毬枝がそうだったように、僕の存在した記憶すらもこの世界から消え去ってしまったに違いない。@そして、この不思議なカメラで写した写真でしか、思い出してしもらえない存在になってしまう…。\
-`　And then like Moriya Marie, even memories of my existence will surely disappear from the face of the earth. `@`And aside from photographs this mysterious camera captured, my existence would be completely forgotten...`\
+`　And then like Marie Moriya, even memories of my existence will surely disappear from the face of the earth. `@`And aside from photographs this mysterious camera captured, my existence would be completely forgotten...`\
 
 ld r,HIG_Def2,80
 
@@ -3989,7 +3989,7 @@ ld r,NON_Def4a,24
 ld l,HIG_w3,80
 
 ;「そう怯えなくてもいいわ。@今の野々宮くんの魂は、そんなに美味しそうじゃないの。@まだ食指は動かないわね。@くすくす。@私はこう見えても、味にはうるさいんだから。」@
-`"There's no need to be so afraid you see. `@`Right now the soul of Nonomiya Takeshi-kun just doesn't look that tasty. `@`I don't have the urge yet, you see. `@`*giggle*. `@`Looking at it now, all the fuss would ruin the flavor."`@`
+`"There's no need to be so afraid you see. `@`Right now the soul of Takeshi Nonomiya-kun just doesn't look that tasty. `@`I don't have the urge yet, you see. `@`*giggle*. `@`Looking at it now, all the fuss would ruin the flavor."`@`
 br
 ;　と言われても、全然安心などできない。@彼女と僕の食物連鎖の優位性はすでに明らかなのだから。\
 `　Which means I can't relax at all. `@`Because now I clearly understand who's dominant on the food chain between us.`\
@@ -4036,7 +4036,7 @@ bgcopy
 csp -1
 
 ;「あ、……森谷毬枝、…さんの…？」@
-`"Oh, ...of Moriya Marie-san...?"`@
+`"Oh, ...of Marie Moriya-san...?"`@
 ;「えぇ。@毬枝は私の友人よ。@……そして、あいつが彼女の存在を消し去ったの。」@
 `"Yes. `@`Marie is my friend. `@`...And he erased her existence."`@`
 
@@ -4861,10 +4861,10 @@ bgcopy
 csp -1
 
 ;　そうさ、あの写真の森谷毬枝は、誰も覚えていなかった。@彼女は確かに存在したのに、誰も覚えていなかった。@
-`　After all, no one remembered Moriya Marie in that photo. `@`Even though she existed, no one remembered her.`@`
+`　After all, no one remembered Marie Moriya in that photo. `@`Even though she existed, no one remembered her.`@`
 br
 ;　でも、僕や森谷毬枝の母親は、あの写真を見ることで、彼女の存在を思い出した。\
-`　But whenever anyone like me or Moriya Marie's mother saw the photo, they remembered her.`\
+`　But whenever anyone like me or Marie Moriya's mother saw the photo, they remembered her.`\
 
 bg black,22
 
@@ -4903,7 +4903,7 @@ me4v 16,70
 
 br
 ;　それが、忘却の彼方に沈んだ為に思い出せないのか、@……森谷毬枝を思い出せなかったように、存在したはずのものを、思　イ　出　セ　ナ　イ　のか、わからない………！\
-`　Maybe because it's sunk into my subconscious, `@`... or perhaps like Moriya Marie, it's something that cannot be  r e m e m b e r e d? ......I don't know anymore!`\
+`　Maybe because it's sunk into my subconscious, `@`... or perhaps like Marie Moriya, it's something that cannot be  r e m e m b e r e d? ......I don't know anymore!`\
 
 mono 1
 bg rika_01,28
@@ -4929,7 +4929,7 @@ bg Different_spiral_1a,22
 ;bg Different_spiral_1b,22
 
 ;　……え？@　………名前、………………思い出せない……………。@忘れたのか、覚えてないのか、森谷毬枝を忘れていたように、記憶から消されてしまったのか、わからない……ッ！！\
-`　...Eh? `@`...Her name was.........I can't remember... `@`Did I forget it? Can I just not remember it? Or maybe just like the way Moriya Marie was forgotten she was erased from my memeory? I just don't know~!!`\
+`　...Eh? `@`...Her name was.........I can't remember... `@`Did I forget it? Can I just not remember it? Or maybe just like the way Marie Moriya was forgotten she was erased from my memeory? I just don't know~!!`\
 
 ;　足元に散らばった、記憶にナイ写真たちが、僕を取り囲み、嘲笑う。@
 `　Littered around my feet the UNKNOWN photos surrounded me. Mocking me.`@`
@@ -4953,7 +4953,7 @@ bg aka1,22
 ;quake 8,800
 
 ;　沼田陽子の名を聞いた時、@……僕は今日、森谷毬枝の母親がしたのとまったく同じ絶叫をする…。\
-`　When I heard the name Numata Youko, `@`...In the exact same way Moriya Marie's mother had done so, I screamed...`\
+`　When I heard the name Numata Youko, `@`...In the exact same way Marie Moriya's mother had done so, I screamed...`\
 ;quake 3,300
 ld c,NON_s1,22
 
@@ -5298,7 +5298,7 @@ ld l,NON_Def7a,80
 `"Friend...? `@`...Chance?..."`@`
 br
 ;　そう言えば、彼岸花は森谷毬枝のことを友達だと言っていなかったっけ…？@　間接的にとは言え、@彼女の母親を死に追いやってしまうことになる僕を恨んで……。\
-`　Now that she mentions it, didn't Higanbana say Moriya Marie was her friend...? `@`Doesn't that mean indirectly, `@`she would resent me for driving her mother to her death...`\
+`　Now that she mentions it, didn't Higanbana say Marie Moriya was her friend...? `@`Doesn't that mean indirectly, `@`she would resent me for driving her mother to her death...`\
 
 ld r,HIG_w6,80
 
@@ -5447,7 +5447,7 @@ cl c,0
 mld c,YOU_Def2,22
 
 ;「………野々宮くんが、……………私を……？」@
-`"...Nonomiyakun did ......to me?"`@
+`"...Nonomiya-kun did ......to me?"`@
 
 quakex 1,100
 
@@ -5460,7 +5460,7 @@ br
 ld r,HIG_w6,22
 
 ;「くすくすくすくす、うふふふふふふふふふふふふふふ…！！@　どうしたのかしら、野々宮くん。@あなただって一方的に非があるわけじゃないでしょう？@　陽子があなたに濡れ衣を被せるような卑怯を働かなければ、@そもそもあなたはあんなことをしなかった。」\
-`"*giggle giggle* Huhuhuhuhuhuhhuhuhuhu~!! `@`I wonder what's the matter, Nonomiya Takeshi-kun. `@`It's not entirely your fault is it? `@`If Youko hadn't cowardly worked to frame you, `@`none of this would have happened in the first place."`\
+`"*giggle giggle* Huhuhuhuhuhuhhuhuhuhu~!! `@`I wonder what's the matter, Takeshi Nonomiya-kun. `@`It's not entirely your fault is it? `@`If Youko hadn't cowardly worked to frame you, `@`none of this would have happened in the first place."`\
 
 ld r,HIG_w5,80
 
@@ -5475,7 +5475,7 @@ ld r,HIG_Def3,80
 ld r,HIG_w4,80
 
 ;「それを慈悲深い私が蘇らせたわ。@陽子は無力な死者の分際で、自らの困難を自ら戦い抜く権利を軽々しく手放・ｵて命を捨てた分際で、@私によって復讐の機会が与えられた。@だからこうして、生きている野々宮くんの前に再び現れることができる。」\
-`"In my deep compassion I brought her back. `@`Youko in her powerless deceased state, and in her distress, she frivolously gave up her right to fight to the bitter end when she threw her life away. `@`I've given her that chance of revenge. `@`So now she can reveal herself once again before the still living Nonomiya Takeshi-kun."`\
+`"In my deep compassion I brought her back. `@`Youko in her powerless deceased state, and in her distress, she frivolously gave up her right to fight to the bitter end when she threw her life away. `@`I've given her that chance of revenge. `@`So now she can reveal herself once again before the still living Takeshi Nonomiya-kun."`\
 
 cl r,0
 
@@ -6284,7 +6284,7 @@ ld r,NON_N1a,24
 ;ld r,NON_Def1,80
 
 ;「あ、……あなたは、………も、…森谷毬枝さん……！@　ごめんなさい！！@　僕はあなたのお母さんを…、」@
-`"Y- ...You ...Mo- ...Moriya Marie-san! `@`I'm sorry!! `@`I, about your mother..."`@
+`"Y- ...You ...Mo- ...Marie Moriya-san! `@`I'm sorry!! `@`I, about your mother..."`@
 
 ld l,MAR_i1,23
 
@@ -6777,7 +6777,7 @@ lsp2 5,$ld_pass2,480,370,200,200,0
 print 80
 
 ;「……くすくすくすくす！@　昼行灯のような森谷毬枝じゃない、@学校妖怪第８位に席を勝ち取り、そして怖くてその座を誰も奪おうとできない、めそめそさんのあなたの本当の力、@……あぁ、見てみたいわ、ぞくぞくするもの！@　あなたが私の友達でよかった、@あなたに友達って言ってもらえて本当によかった！！」\
-`"...Heeheeheehee! `@`Well if it isn't the ordinary Moriya Marie. `@`This true power of Mesomeso-san's, who earned the Eighth Rank and everyone was too scared to steal it away from her, `@`... ahhh, I want to see it. It gives me chills! `@`I'm glad you're my friend, `@`I'm truly glad that you offered to be my friend!!"`\ 
+`"...Heeheeheehee! `@`Well if it isn't the ordinary Marie Moriya. `@`This true power of Mesomeso-san's, who earned the Eighth Rank and everyone was too scared to steal it away from her, `@`... ahhh, I want to see it. It gives me chills! `@`I'm glad you're my friend, `@`I'm truly glad that you offered to be my friend!!"`\ 
 
 ld_p MAR_i4
 lsp2 2,$ld_pass,180,450,-200,200,0
@@ -6829,7 +6829,7 @@ me1v 35,50
 `　Finally it could no longer be heard, and the night's silence took hold.`@
 br
 ;　気付けば、毬枝は写真の中の森谷毬枝の姿に戻っていた。\
-`　When I realized it, Marie had returned to her original form like the Moriya Marie in the photograph.`\
+`　When I realized it, Marie had returned to her original form like the Marie Moriya in the photograph.`\
 
 ld r,MAR_w1,2
 ;ld r,MAR_Def1,80
