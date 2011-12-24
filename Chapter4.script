@@ -577,7 +577,8 @@ ld r,MIC_Def4,23
 
 ld r,MIC_Def1,80
 
-「あなたに出来ることは、みんなを説得して、ここへ連れて来ること。@……私に出来ることは、その時にするお参りの作法を教えてあげることと、@………その日まで、あなたの安全を守ること。」\
+;「あなたに出来ることは、みんなを説得して、ここへ連れて来ること。@……私に出来ることは、その時にするお参りの作法を教えてあげることと、@………その日まで、あなたの安全を守ること。」\
+`"What you can do, is persuade everyone, and bring them here.`@` ...What I can do is to teach you the etiquette of worship,`@`...and ensure your security until that day."`\
 
 bg black,22
 
@@ -586,18 +587,25 @@ fede 1,1000
 E_B
 
 
-　全員を説得してここへ連れて来る。@
+;　全員を説得してここへ連れて来る。@
+`　Persuade everyone involved and bring them here.`@`
+
 br
-　それは容易なことではない。@日数をかけるだろう。\
+;　それは容易なことではない。@日数をかけるだろう。\
+`　That was not an easy task.`@` It could take days.`\
 
 bg kyou_02,22
 
-　リーダー格の博美はオカルト紛いの話を、馬鹿馬鹿しいと吐き捨てて拒絶している。@説得は容易ではないに違いない。\
+;　リーダー格の博美はオカルト紛いの話を、馬鹿馬鹿しいと吐き捨てて拒絶している。@説得は容易ではないに違いない。\
+`　The leader Hiromi would spit out stories of the occult, refusing them and calling them foolish.`@` There's no doubt that persuading her would be difficult.
 
-　そして、椅子で怪我をした加奈は入院している。@
-　命に別状はないそうだが、いつ退院してくるかは、よくわからない……。@
+;　そして、椅子で怪我をした加奈は入院している。@
+`　And, Kana was injured by a chair and had been hospitalized.`@`
+;　命に別状はないそうだが、いつ退院してくるかは、よくわからない……。@
+`　There didn't seem to be anything life-threatening, but they still are unsure of when she will be discharged...`@`
 br
-　その数日間の間に、再び祟りが起こらない保証は、まったくないのだ。\
+;　その数日間の間に、再び祟りが起こらない保証は、まったくないのだ。\
+`　During that several day period, there was absolutely no guarantee that the curse could strike once again.`\
 
 bg black,22
 bg hokora_01,22
