@@ -1,30 +1,30 @@
 ;Chapter 4
 ;　放課後。@
-`　After school.`@
+`　After school.`@`
 br
 ;　さっきまで大雨が降っていたので、校庭で遊ぶ子の姿は、誰一人見えなかった。\
-`　Since moments ago there was a downpour of rain, not a single child could be playing in the courtyard.`\
-
+　Since up until recently it had been raining heavily, not a single kid could be seen playing in the courtyard.`\
 bg black,22
 bg shoukou_01,22
 
 ;　少女は昇降口で、上履きから靴に履き替える。@
-`　The girl changed from her slippers into her shoes by the entryway.`@
+`　The girl was changing from her indoor slippers into shoes in the entrance.`@`
 br
 ;　今日は委員会の日だったので、下校が遅くなったのだ。\
-`　Since today was a committee meeting, it was late when she started leaving school.`\ 
+`　Today there was a student council meeting, so she was late coming home.`\
 
 ;　ここから見る限り、雨は止んでいるように見える。@……いや、ほんの少しだけ降っているだろうか…？@
-`　As far as we can see from here, it seems the rain has stopped. `@`...No, perhaps it was still raining just a bit...?`@
+`　Looking from here, it seemed that the rain had stopped.`@`...No, maybe it was falling just a tiny bit...?`@`
+
 br
 ;　少女は、傘を差そうかどうか迷いながら、ひさしを出て、空を見上げる仕草をする。\
-`　As she wondered whether or not to unfurl her umbrella, she moved out from under the eaves and looked up at the sky.`\
+`　The girl, while hesitating on whether to hold up her umbrella, she stepped out onto the eaves of the roof and looked up to the sky.
 
 bg black,22
 bg gakkou_02,22
 
 ;　鉛色の曇天。@
-`　Blueish grey clouds.`@
+`　Dull weather, the color of lead.`@`
 br
 ;　そして、椅子。\
 `　And, a chair.`\
@@ -40,7 +40,7 @@ bg blood_1aR,8
 bgm1 7
 
 ;　……水溜りに、赤黒いものが広がっていった……。\
-`　...In a puddle, something dark red in color was spreading...`\
+`　In a puddle, something dark red began to spread...`\
 
 bg black,2
 
@@ -383,9 +383,11 @@ br
 
 ld c,MIC_Def2,80
 
-「……あなたたちが壊した、この鎮守神さまの祠のことを……？」\
+;「……あなたたちが壊した、この鎮守神さまの祠のことを……？」\
+`"...About the shrine to the guardian diety that you broke...?"`\
 
-「う、…………うん…。@加奈の怪我って、やっぱりその、……祟りなの…？」\
+;「う、…………うん…。@加奈の怪我って、やっぱりその、……祟りなの…？」\
+`"Y,...yeah...`@` Is Kana's injury...that curse after all...?"`\
 
 textoff
 
@@ -394,12 +396,15 @@ ld c,MIC_Def3,80
 fede 1,1000
 E_B
 
-「…………そうだよ。」\
+;「…………そうだよ。」\
+`"...That's right."`\
 
 
-「……………っ。」@
+;「……………っ。」@
+`"...!"`@`
 br
-　少女はごくりと、もう一度唾を飲み込む……。\
+;　少女はごくりと、もう一度唾を飲み込む……。\
+`　The girl swallowed with a gulp once more...`\
 
 bg black,22
 
@@ -412,39 +417,49 @@ bg gakkou_06,22
 
 bgm1 18
 
-「この辺りは、地脈がとても悪いの。@……悪い気や、良くない霊。@そういうものが、この辺りの土地には集まりやすい傾向があるの。」@
-「……じゃあ、加奈の祟りって、……その良くない霊の……？」\
+;「この辺りは、地脈がとても悪いの。@……悪い気や、良くない霊。@そういうものが、この辺りの土地には集まりやすい傾向があるの。」@
+`"Something foul runs in the veins of the earth around here.`@`...Evil intents, bad spirits.`@` Those sorts of things, have a tendency to gather around this ground."`@`
+;「……じゃあ、加奈の祟りって、……その良くない霊の……？」\
+`"...Then, Kana's curse is...one of those bad spirits...?"`\
 
 ;ld l,MIC_Def1,80
 
-「違うよ。@………鎮守神さまは、そんな悪い気や霊を、この祠で鎮めて来たんだよ。@……はるか昔からここにいて、@敬う人間がいなくなっても、ずっとずっとここに留まって、……土地を守り続けてきた。」\
+;「違うよ。@………鎮守神さまは、そんな悪い気や霊を、この祠で鎮めて来たんだよ。@……はるか昔からここにいて、@敬う人間がいなくなっても、ずっとずっとここに留まって、……土地を守り続けてきた。」\
+`"No. `@`...The Guardian Diety came here to appease the evil will and bad spirits, using this shrine. `@`...Long, long ago,`@` even after the people who honored Him were gone, he remained for ages and ages,...continuing to protect this land."`\
 
 ;ld l,MIC_Def1,80
 
 bg hokora_01,22
 
-「…………鎮守神さまは寂しかったんだよ。@こんなにも長い間、土地を守ってきたのに、……誰からも感謝されなくて。@だから、……鎮守神さまも、きっと少し、@拗ねていたところがあったのかもしれないね…。」\
+;「…………鎮守神さまは寂しかったんだよ。@こんなにも長い間、土地を守ってきたのに、……誰からも感謝されなくて。@だから、……鎮守神さまも、きっと少し、@拗ねていたところがあったのかもしれないね…。」\
+`"...The deity was lonely.`@` During these good times, even though He was protecting this land, ...he received no thanks.`@` Because of this, ...I'm sure that the deity,`@` might have had times where even he would sulk."`\
 
-「そ、……そこに、……私たちがボールをぶつけて、……こ、壊してしまったから……？」\
+;「そ、……そこに、……私たちがボールをぶつけて、……こ、壊してしまったから……？」\
+`"Th, ...then there, ...since we hit it with the ball, ...and b, broke it...?"`\
 
 ;ld l,MIC_Def1,80
 
 bg black,22
 me1v 5,50
 
-「………そうだよ。@それで、鎮守神さまは怒ってしまった。@………あなたたちだけが悪いわけじゃない。@……長い年月の中で、祠を放置して敬わなかった、何代もの積み重ね。@……その鬱積が、あなたたちに祠を壊されたことで、一気に噴き出してしまった…。」\
+;「………そうだよ。@それで、鎮守神さまは怒ってしまった。@………あなたたちだけが悪いわけじゃない。@……長い年月の中で、祠を放置して敬わなかった、何代もの積み重ね。@……その鬱積が、あなたたちに祠を壊されたことで、一気に噴き出してしまった…。」\
+`"...That's right. `@` The Guardian Deity became angry.`@` ...It's not just like you were in the wrong. `@`...In the midst of these good months and years, the shrine was left alone and was not honored. For many generations this built up. `@` ...This accumulation, when you all broke the shrine, all came bursting forth."`\
 
-「鎮守神さまの、……祟り………。」\
+;「鎮守神さまの、……祟り………。」\
+`"The Guardian Deity's...curse..."`\
 
 bg hokora_01,22
 ld r,MIC_Def1,80
 
-「……そう。@………鎮守神さまは、今もすごく怒っている。」@
-「ど、……どうしたらその怒りを鎮めてもらえるの…？」\
+;「……そう。@………鎮守神さまは、今もすごく怒っている。」@
+`"...Yes.`@`...The Guardian Deity, is incredibly angry now."`@`
+;「ど、……どうしたらその怒りを鎮めてもらえるの…？」\
+`"H,...How are we supposed to calm him...?"`\
 
 ld r,MIC_Def2,80
 
-「……………一番いいのは。@ボールをぶつけたその時、みんなですぐに祠に謝れば良かった。@……そうすれば、@鎮守神さまも、これが偶然の事故なんだと割り切ることがきっと出来た……。」\
+;「……………一番いいのは。@ボールをぶつけたその時、みんなですぐに祠に謝れば良かった。@……そうすれば、@鎮守神さまも、これが偶然の事故なんだと割り切ることがきっと出来た……。」\
+`"...The best thing to do,`@` would have been for all of you to have apologized to the shrine the moment you broke it with the ball.`@`...If you had done that,`@` the Guardian Deity would surely have been able to see it as a simple coincidental accident."`\
 
 bg black,22
 
@@ -454,10 +469,13 @@ E_MA
 mono 1
 bg hokora_02,22
 
-　少女たちのボール遊びの時、たまたま、みちるもこの場にいた。@
-　そして、少女たちが祠を壊してしまったのを見て、@………すぐに祠に謝らないと、大変なことになると忠告したのだ。@
+;　少女たちのボール遊びの時、たまたま、みちるもこの場にいた。@
+`　When the girls were playing with the ball, by chance, Michiru also was there. `@`
+;　そして、少女たちが祠を壊してしまったのを見て、@………すぐに祠に謝らないと、大変なことになると忠告したのだ。@
+`　And, she saw when the girls broke the shrine,`@`...she had warned them that if they did not apologize to the shrine, something terrible would happen.`@`
 br
-　……しかし、そんな馬鹿なことがあるかと嘲笑われ、少女たちはそのまま行ってしまった。\
+;　……しかし、そんな馬鹿なことがあるかと嘲笑われ、少女たちはそのまま行ってしまった。\
+`　...But, they ridiculed the thought of something so stupid, and left it that way.`\
 
 bg black,22
 mono 0
@@ -465,53 +483,68 @@ bg hokora_01,0
 ld r,MIC_Def1,22
 ld r,MIC_Def3,80
 
-「……それで、鎮守神さまは人間たちの不敬に怒り狂ってしまったの。@………私の忠告を聞いていれば、……誰も不幸にならなかった。」\
+;「……それで、鎮守神さまは人間たちの不敬に怒り狂ってしまったの。@………私の忠告を聞いていれば、……誰も不幸にならなかった。」\
+`"...And so, the Guardian Deity became encompassed in rage at humans' disrespect.`@` ....If you had listened to my warning, ...Nobody would have experienced this misfortune."`\
 
-「ご、ごめんなさい…！@　あの時は私たちも動揺してて、その……。」@
+;「ご、ごめんなさい…！@　あの時は私たちも動揺してて、その……。」@
+`"I, I'm sorry...!`@` At that time, we were in such a panic, we just..."`@`
 
 ld r,MIC_Def2,80
 
-「………いいんだよ。@少なくとも、あなただけは、鎮守神さまへの敬いの気持ちを持ってくれた。@……それが、お怒りを鎮める第一歩になるんだよ。」\
+;「………いいんだよ。@少なくとも、あなただけは、鎮守神さまへの敬いの気持ちを持ってくれた。@……それが、お怒りを鎮める第一歩になるんだよ。」\
+`"...It's fine.`@` At the very least, The Guardian Deity has received your feelings of reverence. `@`...That, will become the first step towards quelling his rage."`\
 
 quakey 1,100
 
-「お願い、桜田さん…！@　私ッ、怖いの…！！@　加奈の事故だけじゃない…！@　博美も若菜も、みんな身の回りで何かおかしいことが起こってるの…！@　最初は誰かの悪戯かなって程度だったけど、@だんだんおかしくなっていって、……それでとうとう加奈は……！@　これ以上、祟りが酷くなったら、私たちはどうなるの？@　どうなっちゃうの？！@　怖いよッ、助けてよッ、桜田さん！！」\
+;「お願い、桜田さん…！@　私ッ、怖いの…！！@　加奈の事故だけじゃない…！@　博美も若菜も、みんな身の回りで何かおかしいことが起こってるの…！@　最初は誰かの悪戯かなって程度だったけど、@だんだんおかしくなっていって、……それでとうとう加奈は……！@　これ以上、祟りが酷くなったら、私たちはどうなるの？@　どうなっちゃうの？！@　怖いよッ、助けてよッ、桜田さん！！」\
+`"Please, Sakurada-san...!`@` I, I'm scared...!!`@` Not just of the accidents with the chairs...!`@` Hiromi, Wakana, and everyone around them...Something strange is happening to them...!`@` At first, I wondered if maybe it was just someone pulling my leg,`@` but then things got worse and worse, ...and then finally the chairs...!`@` If this curse gets any worse than this, what will happen to us?`@` What's going to happen?!`@` I'm scared...! Save us, Sakurada-san!!"`\
 
-　少女は蒼ざめながら、目に涙を溜めて懇願する。\
-
+;　少女は蒼ざめながら、目に涙を溜めて懇願する。\
+`　As the girl became more pale, tears welled up in her eyes and she pleaded.`\
 bg black,22
 
-　その力ゆえに、薄気味悪いとクラスメートたちからずっと敬遠されてきたみちるにとって、@都合のいい時だけ頼られるのは、良い気持ちのするものではない。\
+;　その力ゆえに、薄気味悪いとクラスメートたちからずっと敬遠されてきたみちるにとって、@都合のいい時だけ頼られるのは、良い気持ちのするものではない。\
+`　Because of that power, to eerie Michiru, who was always distanced from her classmates, `@`she was being relied upon only when it became convenient for them -- a feeling that was hardly good.`\ 
 
-　……しかし、彼女は初めて機会を得たのかもしれない。@
+;　……しかし、彼女は初めて機会を得たのかもしれない。@
+`　...However, she may have just grasped her first chance.`@`
 br
-　自分のその稀有な力が、誰かを救えるかもしれない機会を。\
+;　自分のその稀有な力が、誰かを救えるかもしれない機会を。\
+(?)`　A chance that she might be able to save anyone, a rare moment of self-support.`\
 
-　みちるは、何度目かの溜め息を吐き出し、……覚悟を決めた眼差しで、少女を見る。\
+;　みちるは、何度目かの溜め息を吐き出し、……覚悟を決めた眼差しで、少女を見る。\
+`　How many times, had Michiru sighed, ...gazing at her, preparing herself for the worst.`\
 
 bg hokora_01,0
 ld c,MIC_Def3,22
 ld c,MIC_Def4,80
 
-「……私に出来ることは多くないよ。@まず、私に鎮守神さまの怒りを鎮めることは出来ない。」@
+;「……私に出来ることは多くないよ。@まず、私に鎮守神さまの怒りを鎮めることは出来ない。」@
+`"...The things I can do are very few.`@` First off, I cannot quell the Guardian Deity's rage.`@`
 「そ、そんな……。@じゃあ、誰が怒りを鎮めるの…？！」\
+`"N, no...`@`Then, who can appease it...?!"`\
 
 ld c,MIC_Def2,80
 
-「それが出来るのは、あなたたちだけ。」@
+;「それが出来るのは、あなたたちだけ。」@
+`"The only ones who can do that, are all of you."`@`
 br
-　道理だ。@少女は閉口して、ごくりと唾を飲み込む。\
-
+;　道理だ。@少女は閉口して、ごくりと唾を飲み込む。\
+`　It was the truth.`@` She was dumbfounded, and she swallowed with a gulp.`\
 ld c,MIC_Def3,80
 
-「この祠の前で。@ボール遊びをしていた全員が揃ってお参りして、鎮守神さまに謝れば。@……どうにかなるかもしれない。」@
-「私たち、全員で……？」\
+;「この祠の前で。@ボール遊びをしていた全員が揃ってお参りして、鎮守神さまに謝れば。@……どうにかなるかもしれない。」@
+`"In front of this shrine. `@`Gather all who were playing ball that day, and if you all apologize,`@`...perhaps it will do something."`@`
+;「私たち、全員で……？」\
+`"All, of us...?"`\
 
 cl c,0
 ld r,MIC_Def4,23
 
-「そう。@全員で。@……あなた一人が謝ったところで、鎮守神さまの心には多分、届かない。@………心の力は、一人一人では弱いけれど、束ねると強くなるから。@……縄と同じだよ。」@
-「……………う、………うん…。」\
+;「そう。@全員で。@……あなた一人が謝ったところで、鎮守神さまの心には多分、届かない。@………心の力は、一人一人では弱いけれど、束ねると強くなるから。@……縄と同じだよ。」@
+`"Yes.`@` All of you.`@` ...Even if you apologize on your own, it's likely it will not reach the Guardian Deity.`@` ...The power of your hearts are weak one by one, but when bound together they become strong. `@`...It is the same as with ropes."`\
+;「……………う、………うん…。」\
+`"...Y, ...Yeah..."`\
 
 ld r,MIC_Def1,80
 
