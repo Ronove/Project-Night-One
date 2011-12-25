@@ -339,8 +339,8 @@ bg rouka_03,24
 
 　一刻も早くうさぎ小屋に行きたかった。@
 br
-　……この学校で唯一自分を慰めてくれる、あのうさぎたちのところへ。\
-
+;　……この学校で唯一自分を慰めてくれる、あのうさぎたちのところへ。\
+`　...In this school, if you wanted to forget your worries the one place to go, was to the rabbits.`\
 bg black,2
 
 fede 1,2000
@@ -360,65 +360,87 @@ E_A
 
 bgm1 8
 
-「お待たせ。@みんな元気だった…？」@
+;「お待たせ。@みんな元気だった…？」@
+`"Thanks for waiting.`@` How have all of you been...?"`@`
 br
-　うさぎ小屋の扉を開けながら、ひかるは話し掛ける。@
-　その顔はさっきまでの無表情が嘘のように生気に満ちていた。@声も随分と上機嫌な様子だ。\
+;　うさぎ小屋の扉を開けながら、ひかるは話し掛ける。@
+`　While opening the door to their cage, Hikaru spoke to them.`@`
+;　その顔はさっきまでの無表情が嘘のように生気に満ちていた。@声も随分と上機嫌な様子だ。\
+`　That face which had been expressionless until now, was filled with such spirit it was hard to believe.`@` Her voice also seemed to become extremely good-humored.`\
 
 ;ld c,HIK_Def1,80
 ;quakey 1,200
 
-　背負っていた鞄を小屋の隅の方に放り投げる。@ドサッという音と共に、乾いた土が舞い上がる。@
+;　背負っていた鞄を小屋の隅の方に放り投げる。@ドサッという音と共に、乾いた土が舞い上がる。@
+`　She tossed the bag she'd been burdened with towards the corner of the cage.`@` Along with a thud, the dried earth whirled up.`@`
 br
-　その音に反応したのか、穴に隠れていたうさぎたちが顔を出した。\
+;　その音に反応したのか、穴に隠れていたうさぎたちが顔を出した。\
+`　Whether they'd reacted to the sound or not, the rabbits that had hidden in holes poked their faces out.`\
 
-　赤くて大きな目。@ぴんと立てた耳。@愛らしい仕草。@
+;　赤くて大きな目。@ぴんと立てた耳。@愛らしい仕草。@
+`　Large, red eyes.`@` Ears that stood up straight.`@` Those adorable gestures.`@`
 br
-　身体はあちこち土で汚れているが、そんなものは少し払ってやれば真っ白になる。\
-
+;　身体はあちこち土で汚れているが、そんなものは少し払ってやれば真っ白になる。\
+`　Their bodies had been dirtied here and there, but if one wiped it away a little, they'd become snow white.`\
 
 ld r,HIK_def1,22
 
-　ひかるは飼育委員だ。@
+;　ひかるは飼育委員だ。@
+`　Hikaru was a member of the animal raising committee.`@`
 br
-　２組の飼育委員はうさぎ小屋の世話が割り振られており、@毎日餌をあげなければならないし、週に２回は小屋の掃除もしなければならない。\
+;　２組の飼育委員はうさぎ小屋の世話が割り振られており、@毎日餌をあげなければならないし、週に２回は小屋の掃除もしなければならない。\
+`　Class 2's committee had been assigned to taking care of the rabbits' cage. `@`They had to feed them each day, and twice a week they'd have to clean the cage.`\  
 
-　他の委員や係と比べてもかなり大変なため、みんなから敬遠されてきた役職だった。@
+;　他の委員や係と比べてもかなり大変なため、みんなから敬遠されてきた役職だった。@
+`　Compared to the other members and those involved, it was quite a difficult task, so it had been a position everyone distanced themselves from.`@`
 br
-　今学期が始まった時、ひかるは他のクラスメートたちにこの役職を半ば強制的に押し付けられたのだ。\
-
-　しかし、結果的には良かったと思っている。@
+;　今学期が始まった時、ひかるは他のクラスメートたちにこの役職を半ば強制的に押し付けられたのだ。\
+`　From the start of this semester, Hikaru had been forced into this role by the rest of her classmates.`\
+;　しかし、結果的には良かったと思っている。@
+`　But, in the end she thought it was good.`@`
 br
-　このうさぎたちに会えていなければ、ひかるの学校生活は本当にどん底だったのだから。\
+;　このうさぎたちに会えていなければ、ひかるの学校生活は本当にどん底だったのだから。\
+`　Had she not met these rabbits, Hikaru's school life would truly have been the lowest of the low.`\
 
 ld r,HIK_Def4,80
 
-「また駄目にされちゃったよ、……ノート。」@
+;「また駄目にされちゃったよ、……ノート。」@
+`"It was ruined again, ...my notebook."`@`
+
 br
-　うさぎに手を伸ばし、そっと触れる。@
-　短くて柔らかい毛の感触が指に心地良い。\
+
+;　うさぎに手を伸ばし、そっと触れる。@
+`　She held her hand out to the rabbit, softly petting it.`@`
+;　短くて柔らかい毛の感触が指に心地良い。\
+`　The texture of its short, soft fur was pleasant to the touch.`\
 
 ld r,HIK_Def3,80
 
-「そんな高いものじゃないけどさ、@こんなにしょっちゅう捨てられるんなら、もう授業のノートなんかとらないでやろうかなって思うよ。」\
-
-　そうだ。@ノートなんかとらなくたって、テストでいい点くらい取れる。@
+;「そんな高いものじゃないけどさ、@こんなにしょっちゅう捨てられるんなら、もう授業のノートなんかとらないでやろうかなって思うよ。」\
+`"It's not all that expensive, but,`@` if it's constantly getting thrown away, I wonder if it'd be better to just not take my class notebook anymore."`\
+;　そうだ。@ノートなんかとらなくたって、テストでいい点くらい取れる。@
+`　That's right.`@` Even if she doesn't bring her notebook, she could still get a good score on her tests.`@`
 br
-　ひかるは頭が良い。@クラスの誰よりも頭がいい。@
-　クラスメートたちもそれを知っている。\
+;　ひかるは頭が良い。@クラスの誰よりも頭がいい。@
+`　Hikaru was smart.`@` She was smarter than any in her class.`@`
+;　クラスメートたちもそれを知っている。\
+`　Her classmates also knew this.`\
 
-　二瓶ひかるはおとなしくて頭が良い。@
-　だから腹が立つ。@だから、虐められる。\
+;　二瓶ひかるはおとなしくて頭が良い。@
+`　Hikaru Nihei was quiet and smart.`@`
+;　だから腹が立つ。@だから、虐められる。\
+`　That's why they were offended.`@` That's why she was bullied.`\
 
 ld r,HIK_Def2,80
 
-「……理不尽だろ、そんなの。」\
-
+;「……理不尽だろ、そんなの。」\
+`"...Isn't it unreasonable, all of that?"`\
 bg black,22
 mono 1
 bg kyou_03,22
 
-　ひかるの持ち物が捨てられはじめたのはいつからだったろう。@
+;　ひかるの持ち物が捨てられはじめたのはいつからだったろう。@
+`　
 br
 　全教科で百点をとって先生に褒められてから？@　厚意からみんなにノートをまとめるコツを教えてあげてから？\
 
