@@ -1549,11 +1549,12 @@ br
 `　She was already far away from the entrance.`@` Now, if she dropped the fire extinguisher, Hiromi wouldn't even notice it.`\
 
 ;　みちるはタイミングを逃したことを知り、……その重い塊を、ゴトリと置いた…。\
-`　
+`　Michiru knew she'd lost her timing, ...she dropped the heavy mass with a thump...`\
 
 ld c,MAR_Def3,80
 
-「……教えて下さい。@どうして、こんなことをするんですか。」\
+;「……教えて下さい。@どうして、こんなことをするんですか。」\
+`"...Tell me.`@` Why, are you doing these things?"`\
 
 bg black,22
 
@@ -1561,17 +1562,22 @@ bg kyou_01,0
 ld l,MIC_Def5,22
 
 「……………………………。」\
+"..."`\
 
 ld r,MAR_i1a,24
 
-「あなたは妖怪じゃない。@ましてや、祟りを下す側でもないはず。」\
+;「あなたは妖怪じゃない。@ましてや、祟りを下す側でもないはず。」\
+`"You are not a youkai.`@` Much less, someone who can curse, or pass judgement on anyone."`\
 
 ld l,MIC_def3,80
 
-「…………だって……………。」@
+;「…………だって……………。」@
+`"...Because...."`@`
 br
-　みちるは両拳を握り締め、……小さく震えながら俯く。@
-　そして、……涙をぼろぼろ零しながら……、叫んだ。\
+;　みちるは両拳を握り締め、……小さく震えながら俯く。@
+`　Michiru gripped both fists tightly, ...while trembling slightly she hung her head.`@`
+;　そして、……涙をぼろぼろ零しながら……、叫んだ。\
+`　And then, ...As tears began to spill out..., she screamed.`\
 
 
 cl l,0
@@ -1579,8 +1585,8 @@ mld c,MIC_n3n,23
 
 E_A
 
-「……誰も、………信じてくれないんだもんッ……！！」\
-
+;「……誰も、………信じてくれないんだもんッ……！！」\
+`"...Nobody, ...would believe me...!!!"`\
 
 
 
@@ -1594,17 +1600,23 @@ mono 1
 
 bgm1 20
 
-　誰も、信じてくれなかった。\
+;　誰も、信じてくれなかった。\
+`　Nobody believed her.`\
 
 bg kyou_01,0
 mld r,MIC_Def2,22
 
-　彼女には生まれつき、霊感という異能の力があった。\
+;　彼女には生まれつき、霊感という異能の力があった。\
+`　Since she was born, she had the strange power known as a sixth sense.`\
 
-　しかし、……誰もそれを信じてくれなかった。@
-　疎外感から孤立し、誰にも心を許せない。@
+;　しかし、……誰もそれを信じてくれなかった。@
+`　But, ...nobody believed that.`@`
+;　疎外感から孤立し、誰にも心を許せない。@
+`　Feeling alienated and alone, she couldn't trust anybody.`@`
+
 br
-　だから、……いつもひとりぼっちだった。\
+;　だから、……いつもひとりぼっちだった。\
+`　So, ...she was always alone.`\
 
 mld r,MIC_n1,80
 
@@ -1618,24 +1630,29 @@ ld c,MIC_n3,22
 ;ld r,MAR_Def1,22
 ld c,MIC_n3n,80
 
-「あの祠が壊された時…！@　私は確かに感じたの！@　強い力を持った存在が、ものすごく悲しんで驚いて…！@　その激しい感情を確かに受け取ったの！！@　だから、彼女たちに伝えた。@すぐに謝らないと、きっと大変な祟りがあるよ、って！@　でも、……誰も信じてくれなかった…！！」\
+;「あの祠が壊された時…！@　私は確かに感じたの！@　強い力を持った存在が、ものすごく悲しんで驚いて…！@　その激しい感情を確かに受け取ったの！！@　だから、彼女たちに伝えた。@すぐに謝らないと、きっと大変な祟りがあるよ、って！@　でも、……誰も信じてくれなかった…！！」\
+`"When the shrine broke...!`@` I know I felt it!`@` Something with strong powers, something extremely sorrowful and astonishing...!`@` I'm sure I received those violent feelings!!`@` That's why, I told them.`@` That if they didn't apologize right away, a curse would befall them!`@` But...nobody believed me!!"`\
 
 ld c,MIC_n2n,80
 
-「………なら、……ならッ、……いっそ、……祟りを起こしてくれればいいのに、@……何も起こらない…！@　あんなにも、……激しい感情を破裂させたのに、……何も起こらないなんて…！@　……だから私が祟りを代わろうと思ったの…！@　そうすればきっと、あの祠のッ、鎮守神さまに謝ろうって気持ちにみんななってくれると思って！！」\
-
+;「………なら、……ならッ、……いっそ、……祟りを起こしてくれればいいのに、@……何も起こらない…！@　あんなにも、……激しい感情を破裂させたのに、……何も起こらないなんて…！@　……だから私が祟りを代わろうと思ったの…！@　そうすればきっと、あの祠のッ、鎮守神さまに謝ろうって気持ちにみんななってくれると思って！！」\
+`"...So, ...in that case, ...even though...it would have been better for a curse to occur, `@`...Nothing happened...!`@` Even after, ...that violent explosion of emotion, ...nothing happened...!`@` So I thought I'd substitute for the curse...!`@` If I did that then, I thought everybody would change their minds and apologize to the Guardian Deity of that shrine!!"`\
 cl c,25
 quakey 1,100
 
-　みちるは、そこまでを一気に吐き出すと、……両手で顔を覆って号泣した。\
+;　みちるは、そこまでを一気に吐き出すと、……両手で顔を覆って号泣した。\
+`　Michiru spit everything out in one breath, ...and covered her face with both hands while lamenting aloud.`\
 
 bg black,22
 
-　彼女の霊感は紛れもなく本物だろう。\
+;　彼女の霊感は紛れもなく本物だろう。\
+`　Her 6th sense was not confused and could have been the real thing.`\
 
-　あの祠の主の驚愕の感情をしっかりと受け取れた。@
+;　あの祠の主の驚愕の感情をしっかりと受け取れた。@
+`　She firmly understood the feeling of shock from the master of the shrine.`@`
 br
-　……しかし、それ以上を理解するには、彼女の霊感は至らなかった。\
+;　……しかし、それ以上を理解するには、彼女の霊感は至らなかった。\
+`　However, her sixth sense had not come to understand any more.`\
 
 bg hokora_02,0
 ld c,SAK_k1,22
@@ -1645,46 +1662,55 @@ quakey 2,200
 cl c,23
 quakex 1,100
 
-　まさか、あの祠の主がものすごく臆病な子で、@ずっと保健室のベッドの下で震えていたなんて、想像も出来なかったろう。\
+;　まさか、あの祠の主がものすごく臆病な子で、@ずっと保健室のベッドの下で震えていたなんて、想像も出来なかったろう。\
+`　By no means could she imagine that the master of that shrine was a cowardly child,`@` who had been hiding under the bed in the infirmary the entire time.`\ 
 
 bg black,22
 bg k_kyou_02,0
 ld l,MAR_Def2,22
 ld l,MAR_Def1,80
 
-「あの祠は、保健室の先生が修理してくれました。@祠の主も、それをとても喜んでいます。@祟りどころか、怒ってさえいません。@……でも、あの子の名を騙る祟りで誰かが傷付いたら、きっととても悲しむと思います。」\
-
+;「あの祠は、保健室の先生が修理してくれました。@祠の主も、それをとても喜んでいます。@祟りどころか、怒ってさえいません。@……でも、あの子の名を騙る祟りで誰かが傷付いたら、きっととても悲しむと思います。」\
+`"That shrine, was repaired by the school nurse.`@` The master of that shrine is thrilled by this.`@` He was far from cursing, or getting angry.`@` ...But I think, using his name to curse and injure somebody, he would certainly be very sad."`\
 ld l,MAR_def3,80
 
-「だから、もう。@……あなたの祟りを止めて下さい。@あの子たちはもう、心を決めています。@きっとみんなで揃って、祠に謝りに行くでしょう。@あなたはそれを信じて、見守っていて下さい。」\
+;「だから、もう。@……あなたの祟りを止めて下さい。@あの子たちはもう、心を決めています。@きっとみんなで揃って、祠に謝りに行くでしょう。@あなたはそれを信じて、見守っていて下さい。」\
+`"So please.`@` ...Stop your curse.`@` Those girls, have already decided.`@` I'm sure they will gather everyone and apologize at the shrine.`@` Believe in that, and watch over them please."`\
 
 ld r,MIC_n2n,22
 
-「………はいっ、………はいっ。@………本当に……ごめんなさぃっ……。」@
+;「………はいっ、………はいっ。@………本当に……ごめんなさぃっ……。」@
+`"...Yes, ...Yes.`@`...I'm really...very sorry..."`@`
+
 br
-　みちるは泣き続ける。@涙をぼろぼろと零しながら。@
-　その涙が本当に透き通っていることを認め、毬枝も表情をわずかに和らげる。\
+;　みちるは泣き続ける。@涙をぼろぼろと零しながら。@
+`　Michiru continued to cry.`@` Her tears spilled out one by one.`@`
+;　その涙が本当に透き通っていることを認め、毬枝も表情をわずかに和らげる。\
+(?)`　Accepting that those tears truly were her transparent feelings, Marie softened her emotions.`\
 
 ld l,MAR_w1,80
 
-「……あなたが、祠のことを本当に心配してくれたことは、さくのしんちゃんも喜んでました。@……あ、さくのしんちゃんっていうのは、祠の主のことです。@……だから今度。@祠に行ってみて下さい。@今のあなたにならきっと、あの子が喜んでいるのを感じ取れるはずです。」\
-
+;「……あなたが、祠のことを本当に心配してくれたことは、さくのしんちゃんも喜んでました。@……あ、さくのしんちゃんっていうのは、祠の主のことです。@……だから今度。@祠に行ってみて下さい。@今のあなたにならきっと、あの子が喜んでいるのを感じ取れるはずです。」\
+`"...The fact that, you were truly worried for the shrine, made Sakunoshin-chan very happy.`@` ...Ah, Sakunoshin-chan is the master of that shrine.`@` ...So this time.`@` Go look at the shrine, please.`@` If you go as you are now, you will surely feel his joy."`\
 ld r,MIC_n1,80
 
-「……本当に、……私には感じ取れるでしょうか…。@……私には、本当に霊感なんて、……あるんでしょうか……。」@
-
+;「……本当に、……私には感じ取れるでしょうか…。@……私には、本当に霊感なんて、……あるんでしょうか……。」@
+`"...Will I, ...really feel it...`@` ...Do I, really have, ...a sixth sense...?"`@`
 ld l,MAR_w2,80
 
-「ありますよ。」\
+;「ありますよ。」\
+`"You do."`\
 
 mbg black,22
 ;ld r,MIC_Def5,80
 
-「………祠の主の、本当の気持ちも感じ取れなかったのに…。@……本当に霊感なんて、あるんでしょうか……。」@
+;「………祠の主の、本当の気持ちも感じ取れなかったのに…。@……本当に霊感なんて、あるんでしょうか……。」@
+`"...Even though, I couldn't feel the master of the shrine's real emotions...`@` ...do I actually have that sixth sense...?"`@`
 
 ;ld l,MAR_w1,80
 
-「だって、私が見えてるじゃないですか。」\
+;「だって、私が見えてるじゃないですか。」\
+`"Because, you can see me, can't you?"`\
 
 ;mbg black,25
 cl a,0
@@ -1692,23 +1718,29 @@ ld c,MIC_Def6,0
 mcbg 22
 ;bg kyou_02,0
 
-「…………………っ。」@
+;「…………………っ。」@
+`"....!"`@`
 br
-　毬枝の姿は、みちるが瞬きをした次の瞬間には、もう消えていた……。@
+;　毬枝の姿は、みちるが瞬きをした次の瞬間には、もう消えていた……。@
+`　The next moment that Michiru blinked, Marie's form, had already disappeared...`@`
 
 me1v 16,50
 
 br
-　みちるは辺りを見渡すが、もうその姿を見つけることは出来ない。\
+;　みちるは辺りを見渡すが、もうその姿を見つけることは出来ない。\
+`　Michiru surveyed the area around her, but she could not find that figure.`\
 
 ;cl r,24
 ;ld c,MIC_Def6,24
 
-　しかし、確かに聞いた。@確かに聞こえた。@
+;　しかし、確かに聞いた。@確かに聞こえた。@
+`　However, she was sure she heard it.`@` She was certain she was able to hear it.`@`
 br
-　毬枝の声が、最後にもう一度だけ聞こえた。\
+;　毬枝の声が、最後にもう一度だけ聞こえた。\
+`　Marie's voice, was heard one last time.`\
 
-『その消火器。@元のところにちゃんと戻しておいて下さいね。』\
+;『その消火器。@元のところにちゃんと戻しておいて下さいね。』\
+`"That fire extinguisher.`@` Put it right back where you found it, alright?"`\
 
 textoff
 
@@ -1720,8 +1752,8 @@ wait 2000
 
 ld c,MIC_def6,80
 
-「………はいっ。」\
-
+;「………はいっ。」\
+`"...Yes."`\
 
 bg e022,42
 
