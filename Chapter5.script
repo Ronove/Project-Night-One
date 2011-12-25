@@ -340,7 +340,7 @@ bg rouka_03,24
 　一刻も早くうさぎ小屋に行きたかった。@
 br
 ;　……この学校で唯一自分を慰めてくれる、あのうさぎたちのところへ。\
-`　...In this school, if you wanted to forget your worries the one place to go, was to the rabbits.`\
+`　...In this school, Hikaru's unique place to go forget her worries, was to the rabbits.`\
 bg black,2
 
 fede 1,2000
@@ -440,28 +440,37 @@ mono 1
 bg kyou_03,22
 
 ;　ひかるの持ち物が捨てられはじめたのはいつからだったろう。@
-`　
+`　How long had it been since Hikaru's posessions had started being thrown away?`@`
 br
-　全教科で百点をとって先生に褒められてから？@　厚意からみんなにノートをまとめるコツを教えてあげてから？\
+;　全教科で百点をとって先生に褒められてから？@　厚意からみんなにノートをまとめるコツを教えてあげてから？\
+`　Since she receieved 100% in all of her classes and was praised by her teachers?`@` From when she kindly taught everyone her trick to taking notes?`\
 
-　何が原因だったのかは分からない。@もしくはそれら全部の積み重ねだったのか。@
+;　何が原因だったのかは分からない。@もしくはそれら全部の積み重ねだったのか。@
+`　She did not know what the cause was.`@` Or if it was an accumulation of everything.`@`
 br
-　とにかくある日を境にひかるは「調子に乗ってる」と陰口を叩かれるようになり、@やがてそれは無視に変わり、持ち物がゴミ箱に投げ込まれるようになった……。\
-
+;　とにかくある日を境にひかるは「調子に乗ってる」と陰口を叩かれるようになり、@やがてそれは無視に変わり、持ち物がゴミ箱に投げ込まれるようになった……。\
+`　In any case, one day it seemed that Hikaru had been badmouthed as being 'too cocky.'`@` and finally when she'd moved on to ignoring it, it turned into having her personal items thrown into the garbage bin...`\
 bg black,22
 mono 0
 bg usagi_02,22
 ld c,HIK_Def2,22
 ld c,HIK_Def3,80
 
-「………なんで僕が。」@
-br
-　口の中だけでそう呟くと、ひかるは近くにいたうさぎに手を伸ばし、そっと抱きしめた。\
+;「………なんで僕が。」@
+`"...Why me?"`@`
 
-　柔らかくて、温かい。@
 br
-　その体温をもっと感じたくて、抱きしめる腕に力を込める。@
-　……心を溶かすような温度が腕を通して伝わってくる。\
+;　口の中だけでそう呟くと、ひかるは近くにいたうさぎに手を伸ばし、そっと抱きしめた。\
+`　She muttered this to herself, Hikaru reached out her hand to a nearby rabbit, and softly hugged it.`\
+
+;　柔らかくて、温かい。@
+`　It was soft, and warm.`@`
+
+br
+;　その体温をもっと感じたくて、抱きしめる腕に力を込める。@
+`　She wanted to feel that body warmth more, so she put more strength into the arm that was holding it.`@`
+;　……心を溶かすような温度が腕を通して伝わってくる。\
+`　...The temperature transmitted through her arms was enough to melt her heart.`\
 
 textoff
 
@@ -471,26 +480,34 @@ E_A
 ld c,HIK_i1,80
 quakey 1,200
 
-「…………なんで、僕がこんな目に…。」\
+;「…………なんで、僕がこんな目に…。」\
+`"...Why, does this happen to me..."\
 
 me1v 16,50
 
 bg black,22
 
-　更に力を込める。@更に力を。@更に。@
+;　更に力を込める。@更に力を。@更に。@
+`　She used even more strength.`@` And more strength.`@` And more.`@`
 br
-　……グエッ、とうさぎの口から奇妙な音が漏れた。\
+;　……グエッ、とうさぎの口から奇妙な音が漏れた。\
+`　...Gwehh, a strange sound escaped the rabbit's mouth.`\
 
 me2v 17,50
 
-　今やうさぎはひかるの腕の中で苦しそうに暴れている。@
+;　今やうさぎはひかるの腕の中で苦しそうに暴れている。@
+`　By now, the rabbit in Hikaru's arms looked to be in agonizing pain as it struggled.`@`
 br
-　だが、ひかるは離そうとしない。@
-　うさぎがもがく様子をじっと見つめ、更に力を入れて身体全体を締めあげる……。\
+;　だが、ひかるは離そうとしない。@
+`　But, Hikaru did not make to let go.`@`
+;　うさぎがもがく様子をじっと見つめ、更に力を入れて身体全体を締めあげる……。\
+`　She stared at the rabbit's squirming state, putting more power from her entire body into strangling...`\
 
-　うさぎが首をブンブンとすごい勢いで振り、@ぴんと立った耳がひかるの顔にぺちぺちと当たった。@
+;　うさぎが首をブンブンとすごい勢いで振り、@ぴんと立った耳がひかるの顔にぺちぺちと当たった。@
+`　The rabbit's neck droned and shook with great vigor,`@` and the ears that stood up straight hit Hikaru's face.`@`
 br
-　ひかるはうさぎを睨みつける。\
+;　ひかるはうさぎを睨みつける。\
+`　Hikaru glared at the rabbit.`\
 
 bg black,26
 bg usagi_03,26
@@ -502,7 +519,7 @@ quakey 2,200
 
 bgm1 6
 
-　そして、片手でうさぎを掴んだまま高々と持ち上げると、@隅で固まっていた他のうさぎたちの上に思い切り投げつけた。\
+;　そして、片手でうさぎを掴んだまま高々と持ち上げると、@隅で固まっていた他のうさぎたちの上に思い切り投げつけた。\
 
 　投げられたうさぎはぐったりと仰向けになり、@他のうさぎたちはパニックになって小屋の中を駆け回った。\
 
