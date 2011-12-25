@@ -1593,37 +1593,46 @@ me2v 28,90
 bg gakkou_02u,2
 
 ;　そして、……ゆっくりと、……消火器が持ち上がる……。@
+`　Then, ...slowly...lifting the fire extinguisher...`@`
 
 br
-　その無骨で重い金属の塊が、………博美が姿を現すのを待ち受ける………。\
+;　その無骨で重い金属の塊が、………博美が姿を現すのを待ち受ける………。\
+`　That boorish, heavy, metallic lump, ...awaited for Hiromi's form to appear...`\
 
 bg black,22
 
 E_B
 E_M2
 
-「止めましょう。@桜田みちるさん。」\
-
+;「止めましょう。@桜田みちるさん。」\
+`"Let's stop this.`@` Michiru Sakurada-san."`\
 bg kyou_02,0
 ld c,MIC_Def6,23
 ;ld c,MIC_Def1,80
 quakey 2,200
 
-「…………ッ！！」@
+;「…………ッ！！」@
+`"...!!!"`@`
 br
-　その声は唐突だった。@気配もなかった。@
-　しかし、みちるがゆっくりと振り返ると、……そこには確かに人影があった。\
+;　その声は唐突だった。@気配もなかった。@
+`　The voice was abrupt.`@` She did not sense its presence.`@`
+;　しかし、みちるがゆっくりと振り返ると、……そこには確かに人影があった。\
+`　However, when Michiru slowly turned, ...there certainly was the figure of a person.`\
 
 bg black,22
 bg kyou_04,0
 ld c,MAR_Def1,2
 
-　毬枝だった。@
+;　毬枝だった。@
+`　It was Marie.`@`
 br
-　眼下には、校門まで一目散に駆けていく博美の姿があった。@
-　もう、昇降口からは遠く離れている。@今、消火器を落としたところで、博美はそれに気付くまい。\
+;　眼下には、校門まで一目散に駆けていく博美の姿があった。@
+`　Below her, Hiromi was running full speed towards the school gate.`@`
+;　もう、昇降口からは遠く離れている。@今、消火器を落としたところで、博美はそれに気付くまい。\
+`　She was already far away from the entrance.`@` Now, if she dropped the fire extinguisher, Hiromi wouldn't even notice it.`\
 
-　みちるはタイミングを逃したことを知り、……その重い塊を、ゴトリと置いた…。\
+;　みちるはタイミングを逃したことを知り、……その重い塊を、ゴトリと置いた…。\
+`　
 
 ld c,MAR_Def3,80
 
