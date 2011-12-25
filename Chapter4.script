@@ -1,46 +1,17 @@
 ;Chapter 4
 ;　放課後。@
-<<<<<<< HEAD
-<<<<<<< HEAD
-`　After school.`@`
-br
-;　さっきまで大雨が降っていたので、校庭で遊ぶ子の姿は、誰一人見えなかった。\
-　Since up until recently it had been raining heavily, not a single kid could be seen playing in the courtyard.`\
-=======
-`　After school.`@
-br
-;　さっきまで大雨が降っていたので、校庭で遊ぶ子の姿は、誰一人見えなかった。\
-`　Since moments ago there was a downpour of rain, not a single child could be playing in the courtyard.`\
 
->>>>>>> origin/master
-=======
 `　After school.`@`
 br
 ;　さっきまで大雨が降っていたので、校庭で遊ぶ子の姿は、誰一人見えなかった。\
 　Since up until recently it had been raining heavily, not a single kid could be seen playing in the courtyard.`\
->>>>>>> origin/master
+
+
 bg black,22
 bg shoukou_01,22
 
 ;　少女は昇降口で、上履きから靴に履き替える。@
-<<<<<<< HEAD
-<<<<<<< HEAD
-`　The girl was changing from her indoor slippers into shoes in the entrance.`@`
-br
-;　今日は委員会の日だったので、下校が遅くなったのだ。\
-`　Today there was a student council meeting, so she was late coming home.`\
-
-;　ここから見る限り、雨は止んでいるように見える。@……いや、ほんの少しだけ降っているだろうか…？@
-`　Looking from here, it seemed that the rain had stopped.`@`...No, maybe it was falling just a tiny bit...?`@`
-
-br
-;　少女は、傘を差そうかどうか迷いながら、ひさしを出て、空を見上げる仕草をする。\
-`　The girl, while hesitating on whether to hold up her umbrella, she stepped out onto the eaves of the roof and looked up to the sky.
-=======
 `　The girl changed from her slippers into her shoes by the entryway.`@
-=======
-`　The girl was changing from her indoor slippers into shoes in the entrance.`@`
->>>>>>> origin/master
 br
 ;　今日は委員会の日だったので、下校が遅くなったのだ。\
 `　Since today was a committee meeting, it was late when she started leaving school.`\ 
@@ -49,26 +20,13 @@ br
 `　As far as we can see from here, it seems the rain has stopped. `@`...No, perhaps it was still raining just a bit...?`@
 br
 ;　少女は、傘を差そうかどうか迷いながら、ひさしを出て、空を見上げる仕草をする。\
-<<<<<<< HEAD
-`　As she wondered whether or not to unfurl her umbrella, she moved out from under the eaves and looked up at the sky.`\
->>>>>>> origin/master
-=======
-`　The girl, while hesitating on whether to hold up her umbrella, she stepped out onto the eaves of the roof and looked up to the sky.
->>>>>>> origin/master
+`　The girl, while hesitating on whether to hold up her umbrella, moved out from under the eaves and looked up at the sky.`\
 
 bg black,22
 bg gakkou_02,22
 
 ;　鉛色の曇天。@
-<<<<<<< HEAD
-<<<<<<< HEAD
 `　Dull weather, the color of lead.`@`
-=======
-`　Blueish grey clouds.`@
->>>>>>> origin/master
-=======
-`　Dull weather, the color of lead.`@`
->>>>>>> origin/master
 br
 ;　そして、椅子。\
 `　And, a chair.`\
@@ -84,15 +42,7 @@ bg blood_1aR,8
 bgm1 7
 
 ;　……水溜りに、赤黒いものが広がっていった……。\
-<<<<<<< HEAD
-<<<<<<< HEAD
 `　In a puddle, something dark red began to spread...`\
-=======
-`　...In a puddle, something dark red in color was spreading...`\
->>>>>>> origin/master
-=======
-`　In a puddle, something dark red began to spread...`\
->>>>>>> origin/master
 
 bg black,2
 
@@ -105,7 +55,7 @@ bg kyou_01,22
 me1v 24,50
 
 ;「えー？！@　加奈がぁ？！@　ウソでしょー？！」@
-`"Wha-? `@`Kana diid? `@`You're kidding right~?!"`@
+`"Wha-? `@`Kana did~? `@`You're kidding right~?!"`@
 ;「椅子が降ってきたって。@……どこからともなく。」@
 `"I heard a chair fell on her. `@`...Straight ouf of no where."`@
 ;「あと数ｃｍずれてたら、眼球が潰れてたかもだって……！」\
@@ -625,11 +575,7 @@ ld r,MIC_Def4,23
 ld r,MIC_Def1,80
 
 ;「あなたに出来ることは、みんなを説得して、ここへ連れて来ること。@……私に出来ることは、その時にするお参りの作法を教えてあげることと、@………その日まで、あなたの安全を守ること。」\
-<<<<<<< HEAD
-`"What you can do, is persuade everyone, and bring them here.`@` ...What I can do is to teach you the etiquette of worship,`@`...and ensure your security until that day."`\
-=======
 `"What you can do is convince everyone and bring them here. `@`...What I can do is teach you how to pay your respects at the shrine, `@`...and I can protect you until the day you do."`\
->>>>>>> origin/master
 
 bg black,22
 
@@ -639,33 +585,15 @@ E_B
 
 
 ;　全員を説得してここへ連れて来る。@
-<<<<<<< HEAD
-`　Persuade everyone involved and bring them here.`@`
+`　Convincing everyone and bringing them here.`@`
 
 br
 ;　それは容易なことではない。@日数をかけるだろう。\
 `　That was not an easy task.`@` It could take days.`\
-=======
-`　Convince everyone and bring them here.`@
-br
-;　それは容易なことではない。@日数をかけるだろう。\
-`　That's not an easy thing to do. `@`It could take a few days.`\
->>>>>>> origin/master
 
 bg kyou_02,22
 
 ;　リーダー格の博美はオカルト紛いの話を、馬鹿馬鹿しいと吐き捨てて拒絶している。@説得は容易ではないに違いない。\
-<<<<<<< HEAD
-`　The leader Hiromi would spit out stories of the occult, refusing them and calling them foolish.`@` There's no doubt that persuading her would be difficult.
-
-;　そして、椅子で怪我をした加奈は入院している。@
-`　And, Kana was injured by a chair and had been hospitalized.`@`
-;　命に別状はないそうだが、いつ退院してくるかは、よくわからない……。@
-`　There didn't seem to be anything life-threatening, but they still are unsure of when she will be discharged...`@`
-br
-;　その数日間の間に、再び祟りが起こらない保証は、まったくないのだ。\
-`　During that several day period, there was absolutely no guarantee that the curse could strike once again.`\
-=======
 `　The leader-type, Hiromi, spat out flat rejection of talk of these events being related to the occult as stupid. `@`Convincing her would be no simple matter.`\
 
 ;　そして、椅子で怪我をした加奈は入院している。@
@@ -675,31 +603,20 @@ br
 br
 ;　その数日間の間に、再び祟りが起こらない保証は、まったくないのだ。\
 `　And during the next few days, there's no guarantee that the curse won't happen again.`\
->>>>>>> origin/master
 
 bg black,22
 bg hokora_01,22
 
 ;「……そ、そうだよね……。@みんなを説得してる間にも、祟りは起こるかもしれないよね……。@……次の祟りでは、……こ、今度こそ、……人が死ぬかも………。」\
-<<<<<<< HEAD
-`"...You're right...`@` In the time it takes to persuade everyone, the curse may strike again...`@` ...In the next curse...th, this time...someone might die..."`\
-=======
 `"...Y, You're right... `@`Even while I'm trying to convince everyone, the curse might happen again... `@`...The next curse ...th- this time someone... could... die..."`\
->>>>>>> origin/master
 
 ld l,MIC_Def1,22
 
 ;「……私は嫌だよ。@菊の花の飾ってある教室なんて。」@
-<<<<<<< HEAD
-`"...I'm against it.`@` Decorating the classroom with chrysanthemums."`@`
-;「ちょ、ちょっと止めてよ、笑えないよぉ…！」@
-`"H, hang on, this is no laughing matter...!"`@`
-=======
 `"...I don't want that. `@`I don't want a classroom filled with chrysanthemums."`@
 ;(Translator's Note): Culture note needed here.
 ;「ちょ、ちょっと止めてよ、笑えないよぉ…！」@
-`"P, please stop, I can't laugh about this...!"`@
->>>>>>> origin/master
+`"H, hang on, this is no laughing matter...!"`@`
 br
 ;　少女は泣き笑いのようなわけのわからない表情を浮かべながら、みちるの肩にすがり付く。\
 `　While making a confused expression like laughing while crying, the girl grabbed hold of Michiru's shoulder.`\
