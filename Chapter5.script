@@ -1,36 +1,48 @@
 ;Chapter 5
-　午前８時５０分。@
+;　午前８時５０分。@
+`　8:50AM`@
 br
-　普段なら登校してきた生徒たちはまっすぐ教室に向かい、@始業のベルと共に担任が入ってくるまで、クラスメートたちとのおしゃべりに盛り上がる。@そんな時間。\
+;　普段なら登校してきた生徒たちはまっすぐ教室に向かい、@始業のベルと共に担任が入ってくるまで、クラスメートたちとのおしゃべりに盛り上がる。@そんな時間。\
+`　Normally, attending students would be heading straight for their classrooms, `@`and until the start of the first bell, they'd strike up conversation with their fellow classmates. `@`It was that time of the day.`\
 
 bg black,22
 bg usagi_01,2
 
-　しかしこの日のこの時間は少し様子が違った。@
+;　しかしこの日のこの時間は少し様子が違った。@
+`　However, at this hour things were a little different today.`@
 br
-　かなりの数の生徒たちが、校舎に入ろうとはせず、@校舎裏にあるうさぎ小屋の前に集まっていたのだ。\
+;　かなりの数の生徒たちが、校舎に入ろうとはせず、@校舎裏にあるうさぎ小屋の前に集まっていたのだ。\
+`　Instead of a lot of students gathering to enter the school building, `@`they gathered in front of some rabbit cages behind the building.`\
 
 bg black,22
 
 me2v 17,70
 
-　悲鳴を上げる子、呆然と立ち尽くす子、近くの排水溝に嘔吐する子。@
-　……目の前の光景に対し、彼らがとった行動は実に様々だった。@
+;　悲鳴を上げる子、呆然と立ち尽くす子、近くの排水溝に嘔吐する子。@
+`　Some were screaming, some stood dumbfounded, and some were vomiting in the nearby storm drain.`@
+;　……目の前の光景に対し、彼らがとった行動は実に様々だった。@
+`　...Their reactions to the spectacle that lay before them was of all varities.`@
 br
-　しかし、よくよく観察してみれば、@彼らの瞳の奥に同じ色が浮かんでいることが分かっただろう。\
+;　しかし、よくよく観察してみれば、@彼らの瞳の奥に同じ色が浮かんでいることが分かっただろう。\
+`　However, if one carefully observes, `@`they would be able to tell that in the depths of their eyes they all had the same look.`\
 mono 2
 
 bg Different_spiral_1a,22
 
-　それは「好奇」の色。@
+;　それは「好奇」の色。@
+`　That was the look of 'curiosity.'`@
 br
-　息を呑んで目を見開く男子生徒も、@友人同士で身を寄せ合い、今にも泣きだしそうな女生徒たちも、実は同じことを思っていた。\
+;　息を呑んで目を見開く男子生徒も、@友人同士で身を寄せ合い、今にも泣きだしそうな女生徒たちも、実は同じことを思っていた。\
+`　For the male students who caught their breath and opened their eyes, `@`they huddled with their friends, and even the girls who seemed about to cry, were really thinking the same thing.`\
 
-　……これって…………なんかスゴイ。@
+;　……これって…………なんかスゴイ。@
+`　...This was ...somehow amazing.`@
 br
-　こんなにも残酷な光景を見るのは、彼らにとって初めてのことだったからだ。@
+;　こんなにも残酷な光景を見るのは、彼らにとって初めてのことだったからだ。@
+`　After all, this was the first time they had seen such a cruel spectacle before.`@
 br
-　ドラマでも、アニメでも、ましてや漫画でもない。@現実世界で。@しかも自分たちが毎日通う学校で。\
+;　ドラマでも、アニメでも、ましてや漫画でもない。@現実世界で。@しかも自分たちが毎日通う学校で。\
+`　It wasn't in a drama, anime, or even manga. `@`It was in the real world. `@`Moreover, at the school they go to every day.`\
 
 textoff
 
@@ -45,29 +57,39 @@ bg blood_1aR,22
 
 bgm1 13
 
-　…………小屋の中は、一面の赤黒い血の海だった。\
+;　…………小屋の中は、一面の赤黒い血の海だった。\
+`　......Inside the pen, the bottom was a sea of dark red blood.`\
 
-　耳を力任せに引き千切られたうさぎ。@
+;　耳を力任せに引き千切られたうさぎ。@
+`　Rabbits that have had their ears torn apart.`@
 br
-　しっぽ、前足、後ろ足……鋭利な刃物か何かで、@胴体からすべての器官を切り取られたうさぎ。@
+;　しっぽ、前足、後ろ足……鋭利な刃物か何かで、@胴体からすべての器官を切り取られたうさぎ。@
+`　Tails, front legs, back legs, and all their organs from their torsos --`@` Rabbits diced up with some kind of sharp instrument... 
 br
-　全身が紫に変色するほど殴られ、短い手足がありえない方向に折れ曲がっているうさぎ。\
+;　全身が紫に変色するほど殴られ、短い手足がありえない方向に折れ曲がっているうさぎ。\
+`　Rabbits with their whole bodies turned purple from being beaten, and their tiny limbs bent in impossible directions.`\
 
 
-　「残酷」という言葉がぴったりと当てはまる、この上なく凄惨な光景だった。@
+;　「残酷」という言葉がぴったりと当てはまる、この上なく凄惨な光景だった。@
+`　There had never been such a gruesome scene more befitting of the word "cruel."
 br
-　しかも何匹かのうさぎはそんな状態であるにも関わらず、まだ生きていた。@
-　血を流し、震えながらも、弱々しく息をしていた。@
+;　しかも何匹かのうさぎはそんな状態であるにも関わらず、まだ生きていた。@
+`　Furthermore, regardless of how many rabbits were in that state, they were still alive.`@
+;　血を流し、震えながらも、弱々しく息をしていた。@
+`　Blood flowing, as they shivered, they let out shallow breaths.`@
 br
-　しかし、誰一人として手当てをしようとする生徒はいない。\
+;　しかし、誰一人として手当てをしようとする生徒はいない。\
+`　But there was no one among the students who could treat them.`\
 
 bg black,22
 
 me1v 5,50
 
-　いくら幼い彼らでも理解していたのだ。@どんな処置をしたところでこのうさぎたちは助からない。@
+;　いくら幼い彼らでも理解していたのだ。@どんな処置をしたところでこのうさぎたちは助からない。@
+`　Despite how young they were, they understood. `@`No matter what kind of measures they took, these rabbits could not be saved.`@
 br
-　いや……、こんな状態で助かってしまったら、その方がよっぽど悲劇だということを。\
+;　いや……、こんな状態で助かってしまったら、その方がよっぽど悲劇だということを。\
+`　Rather... they realized that if they saved the rabbits as they were, then that would be even more cruel.`\
 
 bg usagi_01,22
 
