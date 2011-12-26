@@ -1562,17 +1562,17 @@ bg kyou_01,0
 ld l,MIC_Def5,22
 
 「……………………………。」\
-"..."`\
+"........."`\
 
 ld r,MAR_i1a,24
 
 ;「あなたは妖怪じゃない。@ましてや、祟りを下す側でもないはず。」\
-`"You are not a youkai.`@` Much less, someone who can curse, or pass judgement on anyone."`\
+`"You are not a youkai.`@` Much less, someone who can curse or pass judgement on anyone."`\
 
 ld l,MIC_def3,80
 
 ;「…………だって……………。」@
-`"...Because...."`@`
+`"...But...."`@`
 br
 ;　みちるは両拳を握り締め、……小さく震えながら俯く。@
 `　Michiru gripped both fists tightly, ...while trembling slightly she hung her head.`@`
@@ -1601,7 +1601,7 @@ mono 1
 bgm1 20
 
 ;　誰も、信じてくれなかった。\
-`　Nobody believed her.`\
+`　No one believed her.`\
 
 bg kyou_01,0
 mld r,MIC_Def2,22
@@ -1610,7 +1610,7 @@ mld r,MIC_Def2,22
 `　Since she was born, she had the strange power known as a sixth sense.`\
 
 ;　しかし、……誰もそれを信じてくれなかった。@
-`　But, ...nobody believed that.`@`
+`　But, ...no one believed that.`@`
 ;　疎外感から孤立し、誰にも心を許せない。@
 `　Feeling alienated and alone, she couldn't trust anybody.`@`
 
@@ -1636,7 +1636,7 @@ ld c,MIC_n3n,80
 ld c,MIC_n2n,80
 
 ;「………なら、……ならッ、……いっそ、……祟りを起こしてくれればいいのに、@……何も起こらない…！@　あんなにも、……激しい感情を破裂させたのに、……何も起こらないなんて…！@　……だから私が祟りを代わろうと思ったの…！@　そうすればきっと、あの祠のッ、鎮守神さまに謝ろうって気持ちにみんななってくれると思って！！」\
-`"...So, ...in that case, ...even though...it would have been better for a curse to occur, `@`...Nothing happened...!`@` Even after, ...that violent explosion of emotion, ...nothing happened...!`@` So I thought I'd substitute for the curse...!`@` If I did that then, I thought everybody would change their minds and apologize to the Guardian Deity of that shrine!!"`\
+`"...So, ...in that case, ...even though a curse should have occured... `@`Nothing happened...!`@` Even after, ...that violent explosion of emotion, ...nothing happened...!`@` So I thought I'd substitute for the curse...!`@` If I did that then, I thought everybody would change their minds and apologize to the guardian deity of that shrine!!"`\
 cl c,25
 quakey 1,100
 
@@ -1686,7 +1686,7 @@ br
 ;　みちるは泣き続ける。@涙をぼろぼろと零しながら。@
 `　Michiru continued to cry.`@` Her tears spilled out one by one.`@`
 ;　その涙が本当に透き通っていることを認め、毬枝も表情をわずかに和らげる。\
-(?)`　Accepting that those tears truly were her transparent feelings, Marie softened her emotions.`\
+`　Acknowleding the feeling those tears were showing through, Marie was slightly relieved.`\
 
 ld l,MAR_w1,80
 
