@@ -520,32 +520,39 @@ quakey 2,200
 bgm1 6
 
 ;　そして、片手でうさぎを掴んだまま高々と持ち上げると、@隅で固まっていた他のうさぎたちの上に思い切り投げつけた。\
-
-　投げられたうさぎはぐったりと仰向けになり、@他のうさぎたちはパニックになって小屋の中を駆け回った。\
-
+`　Then, raising the rabbit with one hand as high as she could, `@`she threw it towards the other rabbits that had huddled together in the corner.`\
+;　投げられたうさぎはぐったりと仰向けになり、@他のうさぎたちはパニックになって小屋の中を駆け回った。\
+`　The rabbit that had been thrown turned its head up, having been completely exhausted,`@` and the other rabbits became panicked and fled around the cage.`\
 ld l,HIK_w1,6
 ld l,HIK_w2,22
 
-「おいおい死んだ振りなんかするなよー。@このくらいもう慣れっこだろ？」\
+;「おいおい死んだ振りなんかするなよー。@このくらいもう慣れっこだろ？」\
+`"Oh, come on, don't act like you're dead now.`@` You should be used to this much, right?"`\
 
-　大丈夫。@動物はこのくらいで死んだりはしない。@
-　なにしろ毎日やってるのだ。@どこまでなら大丈夫かちゃんと加減は心得てる…。\
+;　大丈夫。@動物はこのくらいで死んだりはしない。@
+`　It's okay.`@` Animals won't die with just that.`@`
+;　なにしろ毎日やってるのだ。@どこまでなら大丈夫かちゃんと加減は心得てる…。\
+`　She's been doing it every day.`@` She understood perfectly to what extent they're able to withstand.
 
 se1v 10,50
 quakex 2,200
 
-　つま先で倒れているうさぎを蹴りあげながら、ひかるは感謝する。@
+;　つま先で倒れているうさぎを蹴りあげながら、ひかるは感謝する。@
+`　She tiptoed over to the rabbit that had collapsed, and while kicking it up, Hikaru was grateful.`@`
 br
-　このうさぎたちがいてくれて本当に良かった。@飼育委員になって本当に良かった。@
-　こいつらとの遊ぶ時間がなかったら、いじめの日々に、自分はどうにかなっていたかもしれない。\
+;　このうさぎたちがいてくれて本当に良かった。@飼育委員になって本当に良かった。@
+`　Thank goodness these rabbits are here.`@` Thank goodness I became a member of the animal raising committee.`@`
+;　こいつらとの遊ぶ時間がなかったら、いじめの日々に、自分はどうにかなっていたかもしれない。\
+`　If you I didn't have the time to play with you guys, I don't know what would happen to me during these days of being bullied.`\
 
-　かろうじて起き上がったうさぎは、穴の中に隠れようとした。@
+;　かろうじて起き上がったうさぎは、穴の中に隠れようとした。@
+`　The rabbit who could barely even stand, had gone to hide in a hole.`@`
 br
 
 quakex 2,200
 
-　だが、ひかるはその後ろ足を鷲のように掴み、無造作に引きずり戻す。\
-
+;　だが、ひかるはその後ろ足を鷲のように掴み、無造作に引きずり戻す。\
+`　
 quakex 1,100
 
 　遠ざけられたうさぎは、また這うようにして穴に向かうが、@穴に辿り着く直前で再び引きずり戻す。@それを何度も繰り返す。\
