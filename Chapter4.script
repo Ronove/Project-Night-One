@@ -1,24 +1,26 @@
 ;Chapter 4
 ;　放課後。@
+
 `　After school.`@`
 br
 ;　さっきまで大雨が降っていたので、校庭で遊ぶ子の姿は、誰一人見えなかった。\
 　Since up until recently it had been raining heavily, not a single kid could be seen playing in the courtyard.`\
+
+
 bg black,22
 bg shoukou_01,22
 
 ;　少女は昇降口で、上履きから靴に履き替える。@
-`　The girl was changing from her indoor slippers into shoes in the entrance.`@`
+`　The girl changed from her slippers into her shoes by the entryway.`@
 br
 ;　今日は委員会の日だったので、下校が遅くなったのだ。\
-`　Today there was a student council meeting, so she was late coming home.`\
+`　Since today was a committee meeting, it was late when she started leaving school.`\ 
 
 ;　ここから見る限り、雨は止んでいるように見える。@……いや、ほんの少しだけ降っているだろうか…？@
-`　Looking from here, it seemed that the rain had stopped.`@`...No, maybe it was falling just a tiny bit...?`@`
-
+`　As far as we can see from here, it seems the rain has stopped. `@`...No, perhaps it was still raining just a bit...?`@
 br
 ;　少女は、傘を差そうかどうか迷いながら、ひさしを出て、空を見上げる仕草をする。\
-`　The girl, while hesitating on whether to hold up her umbrella, she stepped out onto the eaves of the roof and looked up to the sky.
+`　The girl, while hesitating on whether to hold up her umbrella, moved out from under the eaves and looked up at the sky.`\
 
 bg black,22
 bg gakkou_02,22
@@ -53,7 +55,7 @@ bg kyou_01,22
 me1v 24,50
 
 ;「えー？！@　加奈がぁ？！@　ウソでしょー？！」@
-`"Wha-? `@`Kana diid? `@`You're kidding right~?!"`@
+`"Wha-? `@`Kana did~? `@`You're kidding right~?!"`@
 ;「椅子が降ってきたって。@……どこからともなく。」@
 `"I heard a chair fell on her. `@`...Straight ouf of no where."`@
 ;「あと数ｃｍずれてたら、眼球が潰れてたかもだって……！」\
@@ -583,10 +585,11 @@ E_B
 
 
 ;　全員を説得してここへ連れて来る。@
-`　Convince everyone and bring them here.`@
+`　Convincing everyone and bringing them here.`@`
+
 br
 ;　それは容易なことではない。@日数をかけるだろう。\
-`　That's not an easy thing to do. `@`It could take a few days.`\
+`　That was not an easy task.`@` It could take days.`\
 
 bg kyou_02,22
 
@@ -613,10 +616,11 @@ ld l,MIC_Def1,22
 `"...I don't want that. `@`I don't want a classroom filled with chrysanthemums."`@
 ;(Translator's Note): Culture note needed here.
 ;「ちょ、ちょっと止めてよ、笑えないよぉ…！」@
-`"P, please stop, I can't laugh about this...!"`@
+`"H, hang on, this is no laughing matter...!"`@`
 br
 ;　少女は泣き笑いのようなわけのわからない表情を浮かべながら、みちるの肩にすがり付く。\
 `　While making a confused expression like laughing while crying, the girl grabbed hold of Michiru's shoulder.`\
+
 
 ld l,MIC_Def2,80
 
@@ -671,7 +675,7 @@ bg gakkou_08y,22
 `　The shadows of two people... stood behind of the old school building.`\
 
 ;「こ、……こんなことして、……先生に見つかったら大変じゃない……？」\
-`"If... If I teacher sees us doing something like this... we'll be in big trouble won't we...?"`\
+`"If... If our teacher sees us doing something like this... we'll be in big trouble won't we...?"`\
 
 ld c,MIC_Def1,22
 ld c,MIC_Def2,80
@@ -999,15 +1003,19 @@ ld r,MAR_Def4,80
 ld l,HIG_w3,80
 
 ;「たまにいるのよね。@私たちを知覚できるニンゲンが。@……たまに私の気配に気付いてるわ。@私の近くにずっといたものだから、おかしな妖力でも染み付いちゃったのかしらね。@くすくすくす。」\
-`"Once in a while there is one, you see. `@`A human who can sense us that is. `@`...Sometimes she's aware of my presence. `@`She's always been by my side, so perhaps some of my magic has rubbed off on her. `@`*giggle giggle*"`\
+`"Once in a while there is one, you see. `@`A human who can sense us, that is. `@`...Sometimes she's aware of my presence. `@`She's always been by my side, so perhaps some of my magic has rubbed off on her. `@`*giggle giggle*"`\
 
-　保健の先生の霊感が、この祠の主の怒りを察知したに違いない。@
+;　保健の先生の霊感が、この祠の主の怒りを察知したに違いない。@
+`　The school nurse's sixth sense, must have sensed the rage of this shrine's master.`@`
+
 br
-　それでここへやってきて、壊れているのを見つけたのだ。\
+;　それでここへやってきて、壊れているのを見つけたのだ。\
+`　Then she came here, and found that the shrine was broken.`\
 
 ld r,MAR_Def3,80
 
-「……彼岸花さん。@この祠には、どなたか住んでるんですよね…？」\
+;「……彼岸花さん。@この祠には、どなたか住んでるんですよね…？」\
+`"...Higanbana-san.`@` Somebody is, living in this shrine, right...?"
 
 textoff
 ld l,HIG_def5,80
@@ -1018,26 +1026,33 @@ E_A
 ld l,HIG_def3,22
 me1v 5,50
 
-「えぇ、住んでるわよ。@住まいが壊されちゃったんで、困ってたわ。」\
+;「えぇ、住んでるわよ。@住まいが壊されちゃったんで、困ってたわ。」\
+`"Yes, someone does.`@` Their home was broken, so it's been problematic."`\
 
 ld r,MAR_Def2a,80
 
-「その、……すごく、怒ってるんですよね…？」@
+;「その、……すごく、怒ってるんですよね…？」@
+`"Er, ...they must be, quite angry, huh...?"`@`
 
 ld l,HIG_Def5,80
 
-「まぁ、そうなんじゃない？@　突然、自分の家が壊されて、怒らない人もいないもんだと思うけれど。」\
+;「まぁ、そうなんじゃない？@　突然、自分の家が壊されて、怒らない人もいないもんだと思うけれど。」\
+`"Well, wouldn't you?`@` Suddenly having your home broken, I don't think there's a person out there who wouldn't be upset."`\
+
 
 bg black,22
 
-　至極当然の話だ。@
+;　至極当然の話だ。@
+`　It was an exceedingly obvious story.`@`
 br
-　とにかく、少女たちがやがて謝りに来るので、それまで祟りを待って欲しいとお願いするしかない。\
+;　とにかく、少女たちがやがて謝りに来るので、それまで祟りを待って欲しいとお願いするしかない。\
+(?)`　Anyway, before long the girls would have to come apologize, so until then they had no choice but to ask someone to halt the curse.`\
 
-　……あの少女たちの話を聞く限り、相当強力な妖力を持つ存在らしい。@ということは、その格もきっと高いだろう。@
+;　……あの少女たちの話を聞く限り、相当強力な妖力を持つ存在らしい。@ということは、その格もきっと高いだろう。@
+`　...According to what she heard from the girl's story, it seemed this presence held considerably strong spiritual power.`@` I'll bet it's high ranked.`@`
 br
-　序列第８位の、非力な自分の話を聞いてくれるだろうか…。\
-
+;　序列第８位の、非力な自分の話を聞いてくれるだろうか…。\
+`　I wonder if, it will listen to this powerless, eighth ranked youkai's story...`\
 
 
 
@@ -1056,32 +1071,42 @@ ld l,MAR_Def2a,22
 
 ld r,HIG_Def5,80
 
-「どうしたの、毬枝？@　さっきから黙り込んじゃって？」@
+;「どうしたの、毬枝？@　さっきから黙り込んじゃって？」@
+`"What's the matter, Marie?`@` You've gotten quiet."`@`
 
 ld l,MAR_Def3a,22
 
-「あの、………実は……。」@
+;「あの、………実は……。」@
+`"Um...the truth is..."`@`
+
 br
-　毬枝は事情を話す。@それは彼岸花にとって唐突な話のようだった。\
+;　毬枝は事情を話す。@それは彼岸花にとって唐突な話のようだった。\
+`　Marie explained the situation.`@` It seemed this was quite a sudden story for Higanbana.`\
 
 bg usagi_01,22
 ;ld l,HIG_Def1,80
 
-「この祠の主が、怒って祟りで、……女の子が大怪我？」@
+;「この祠の主が、怒って祟りで、……女の子が大怪我？」@
+`"The master of this shrine, seriously injured a girl, ...by his curse, out of rage?"`@`
 
 ;ld r,MAR_Def1,80
 
-「は、はい。」\
+;「は、はい。」\
+`"Y, yes."`\
 
 ld l,HIG_w4,22
 
-「この祠の主が、怒って祟りで、……？」@
+;「この祠の主が、怒って祟りで、……？」@
+`"The master of this shrine, got angry, and then with a curse...?"`@`
+
 br
-　彼岸花は同じことをもう一度、口にし、毬枝と祠を交互に見る。\
+;　彼岸花は同じことをもう一度、口にし、毬枝と祠を交互に見る。\
+`　Higanbana said the same thing again, alternating her gaze between the shrine and Marie.`\
 
 ld l,HIG_Def5,80
 
-「………そんなことしたの？」\
+;「………そんなことしたの？」\
+`"...Did you do that?"`\
 
 bg black,23
 bg hokora_01,23
@@ -1101,94 +1126,123 @@ mld c,SAK_n3,26
 
 bgm1 19
 
-「うりゅー！@　ぼくはそんなことしないよー！」\
+;「うりゅー！@　ぼくはそんなことしないよー！」\
+`"Uryuu!`@` I didn't do anything like that~!"`\
 ;＜さくのしん
 
 ld r,MAR_def4a,22
 
-「え？！@　えッ？！」@
+;「え？！@　えッ？！」@
+"Eh?!`@` Huh?!"`@`
 br
-　ぽんっ、と音がして、土煙をあげながら、……小さな男の子が足元から飛び出してくる。\
+;　ぽんっ、と音がして、土煙をあげながら、……小さな男の子が足元から飛び出してくる。\
+`　With a popping sound, while raising a cloud of dust...A small boy jumped out at their feet.`\
 
-　毬枝の背よりも頭一つ分は低い。@
-　……狐か何かを思わせる耳が生えていて、@……その、鎮守神さまなんて呼ばれてたような厳つさは微塵も感じられない。@
+
+;　毬枝の背よりも頭一つ分は低い。@
+`　He was about one head shorter than Marie.`@`
+;　……狐か何かを思わせる耳が生えていて、@……その、鎮守神さまなんて呼ばれてたような厳つさは微塵も感じられない。@
+`　...He had ears that made one think of a fox or something,`@` ...He didn't seem one tiny bit like what one would call a stern Guardian Deity.`@`
 br
-　……どちらかというと、……可愛い男の子のように見えた。\
+;　……どちらかというと、……可愛い男の子のように見えた。\
+`　...If she had to say, ...he looked like an adorable young boy.`\
 
 mld c,SAK_n2,80
 
-「うりゅー。@ぼくはしないよ、人を怪我させたりなんてしないんだよー！@　ひどいよひどいよー、うりゅー！」@
-
+;「うりゅー。@ぼくはしないよ、人を怪我させたりなんてしないんだよー！@　ひどいよひどいよー、うりゅー！」@
+`"Uryuu~.`@` I wouldn't do that, I wouldn't ever hurt anyone~!`@` That's so mean, so mean~, uryuu~!"`@`
 ld r,MAR_Def3a,80
 
-「えっと、……え？@　……え？」@
+;「えっと、……え？@　……え？」@
+"Um, ...huh?`@` ...what?"`@`
+
 br
-　拗ねた仕草で抗議され、毬枝は目を白黒させる。@
-　……もっとその、恐ろしい容姿を想像していたのだが。\
+;　拗ねた仕草で抗議され、毬枝は目を白黒させる。@
+`　Marie was flustered by his sulking gestures and protests.`@`
+;　……もっとその、恐ろしい容姿を想像していたのだが。\
+`　...More so, she had been imagining a terrifying appearance, but...`\
 
 ld l,HIG_w3,22
 
-「この祠に住んでる、動物霊のさくのしんよ。」@
+;「この祠に住んでる、動物霊のさくのしんよ。」@
+`"This is the animal spirit who lives in this shrine, Sakunoshin."`@`
 
 mld c,SAK_Def4,80
 
-「うりゅー！/
+;「うりゅー！/
+`"Uryuu~!`/
 se1 47
 quakey 2,200
 @　ぼくの名前は、さくのしん！」\
+`@`　My name is Sakunoshin!"`\
 
 ld r,MAR_Def4a,80
 
-「さ、……さくのしんさん……？@　こ、こんにちは…。@毬枝と言います……。」@
+;「さ、……さくのしんさん……？@　こ、こんにちは…。@毬枝と言います……。」@
+`"S, ...Sakunoshin-san...?`@` G, good afternoon...`@` I am Marie..."`@`
 br
-　ぺこり、ぺこり。@ご挨拶。\
+;　ぺこり、ぺこり。@ご挨拶。\
+`　They quickly bowed their heads,`@` and greeted each other.`\ 
 
 ld l,HIG_Def4,80
 
-「この子は、この学校の動物霊の長よ。@こう見えて、とっても偉いんだから。」@
+;「この子は、この学校の動物霊の長よ。@こう見えて、とっても偉いんだから。」@
+`"This kid is the leader of the animal spirits at this school.`@` As you can see, he is quite remarkable."`@` 
 
 mld c,SAK_Def2,80
 
-「うりゅー！@　ぼくは動物の王様なのー！@　らいおんなのー！」@
+;「うりゅー！@　ぼくは動物の王様なのー！@　らいおんなのー！」@
+`"Uryuu~!`@` I am the king of animals~!`@` I'm a lion~!"`@`
 
 ld r,MAR_Def3a,80
 
-「……ら、らいおん…？@　……てっきり、狐か何かだと……。」\
+;「……ら、らいおん…？@　……てっきり、狐か何かだと……。」\
+`"...L, Lion...?`@`...I thought, for sure you were a fox or something..."`\
 
 mld c,SAK_n2,80
 
-「うりゅー、ひどいよー、らいおんなのにー。@らいおんなのにーっ。」@
+;「うりゅー、ひどいよー、らいおんなのにー。@らいおんなのにーっ。」@
+`"Uryuu~, that's so mean~, even though I'm a lion~.`@` Even though I'm a lion~!"`@`
 br
-　今度はわんわん泣き始める。@
-　その感情の起伏の激しさは、まるで幼稚園児そのものだ……。\
+;　今度はわんわん泣き始める。@
+`　This time, he began crying loudly.`@`
+;　その感情の起伏の激しさは、まるで幼稚園児そのものだ……。\
+`　The way his emotions fluxuated so acutely, was exactly like a kindergartener's...`\
 
 ld l,HIG_Def2,80
 
-「この子は、突然、ボールが飛んできて、大切な家を壊されちゃったんで、@驚いて怖がって、ずっと怯えてたのよ？@　怒るどころか、ついさっきまで保健室のベッドの下に隠れて震えてたんだから。」\
+;「この子は、突然、ボールが飛んできて、大切な家を壊されちゃったんで、@驚いて怖がって、ずっと怯えてたのよ？@　怒るどころか、ついさっきまで保健室のベッドの下に隠れて震えてたんだから。」\
+`"He suddenly had a ball come flying, which broke his precious home.`@` It surprised him and frightened him, so he's been scared away for a while now."`@` He may have been upset, but until just a little while ago he had been hiding and trembling under the bed in the school infirmary."`\
 
 mld c,SAK_n3,80
 
-「震えてないよー、うりゅーうりゅー、うわぁーーーん！！」\
+;「震えてないよー、うりゅーうりゅー、うわぁーーーん！！」\
+`"I wasn't shivering~, uryuu uryuu~, Waaaa~~~~h!!!"`\
 
 ld l,HIG_Def5,80
 
-「さくのしんは、とっても怖がりな子なの。@仮にも長をやってるんだから、もっとどっしり構えてればいいのにねぇ。」\
+;「さくのしんは、とっても怖がりな子なの。@仮にも長をやってるんだから、もっとどっしり構えてればいいのにねぇ。」\
+`"Sakunoshin is a very easily frightened child.`@` Though even for an instant he is still the head, so it'd be better if he'd bulk up and be more prepared."`\
 
 mld c,SAK_n2,80
 
-「だってー、だってぇ！@　ぽかぽかお昼寝してたらっ、急にボールが、どーん、ぐしゃーん、ばりーん、うりゅー！！@　うわぁあああんん！！」\
+;「だってー、だってぇ！@　ぽかぽかお昼寝してたらっ、急にボールが、どーん、ぐしゃーん、ばりーん、うりゅー！！@　うわぁあああんん！！」\
+`"But~ but~!`@` I was just going to have a warm nap, and suddenly a ball came bam, crash, screech, uryuu~!!`@` Uwaaaaaaahhhh!!"`\
 
 ld l,HIG_w3,80
 
-「おお、よしよし、怖かったのね、怖かったのね。@……………と、こんな感じよ、毬枝？@　この子が一体、何の祟りをしたんですって…？」\
+;「おお、よしよし、怖かったのね、怖かったのね。@……………と、こんな感じよ、毬枝？@　この子が一体、何の祟りをしたんですって…？」\
+`"Yes, there we are, you were pretty scared, weren't you?`@`...So, it's sort of like this, Marie.`@` What on earth kind of curse could this child have done...?"`\
 
 ld r,MAR_i4a,80
 
-「ほ、本当に、………誰にも祟りをしてないんですか……？」@
+;「ほ、本当に、………誰にも祟りをしてないんですか……？」@
+`"You really, ...aren't cursing anybody...?"`@`
 
 mld c,SAK_n3,80
 
-「僕は知らないよー！@　うりゅーうりゅー、うわぁーーん！！」\
+;「僕は知らないよー！@　うりゅーうりゅー、うわぁーーん！！」\
+`"I don't know anything about it~!`@` Uryuu~ Uryuu~ Uwaaaaaaaaaaaahhhh!!"`\
 
 mcl c,0
 bg black,26
@@ -1196,9 +1250,11 @@ bg air_02,22
 
 ld l,HOK_def2,26
 
-「……よぃしょっとォ。@……さぁ、直った！」@
+;「……よぃしょっとォ。@……さぁ、直った！」@
+`"...Aaaand there we are.`@`...There, all better!"`@`
 br
-　手をぱんぱんと叩きながら、保健の先生が立ち上がる。\
+;　手をぱんぱんと叩きながら、保健の先生が立ち上がる。\
+`　While clapping her hands together, the school nurse stood up.`\
 
 bg white,29
 
@@ -1206,83 +1262,108 @@ se1v 1,50
 
 bg hokora_01,9
 
-　仮ではあるが、新しい扉が取り付けられ、@さくのしんの家は、しっかりと戸締りが出来るようになった。\
+;　仮ではあるが、新しい扉が取り付けられ、@さくのしんの家は、しっかりと戸締りが出来るようになった。\
+`　Rather than just a provisional fix-up, a new door had been placed,`@` And Sakunoshin's house had become ready to close its doors again.
 
 ld r,HIG_Def1,22
 ;ld r,HIG_Def1,80
 
-「ほら。@お家が直ったわよ。」@
+;「ほら。@お家が直ったわよ。」@
+`"Look.`@` Your house is all better now."`@`
 
 ld l,SAK_n1,26
 ld l,SAK_Def4,80
 quakey 1,100
 
-「わああぁい！！@　先生ぇ、ありがとー！！@　うりゅーーー！！！」@
+;「わああぁい！！@　先生ぇ、ありがとー！！@　うりゅーーー！！！」@
+`"Yaaaaay!!`@` Thank you, Sensei~!!`@` Uryuu~~~!!!"`@`
 br
-　泣いたカラスがもう笑った、とはよく言ったもの。@さくのしんは飛び跳ねて喜んでいる。@
+;　泣いたカラスがもう笑った、とはよく言ったもの。@さくのしんは飛び跳ねて喜んでいる。@
+`　The raven that cried finally laughed, was quite the accurate saying.`@` Sakunoshin was jumping up in down in delight.`@`
 br
-　……その無邪気な様子を見る限り、祟りで人に危害を加えるような子には、到底見えない。\
-
+;　……その無邪気な様子を見る限り、祟りで人に危害を加えるような子には、到底見えない。\
+`　...While seeing such an innocent display, it was clear that this child could not possibly curse or harm anyone.`\
 bg black,22
 
 me1v 5,50
 
-　しかし、祟りはあったのだ。@
+;　しかし、祟りはあったのだ。@
+`　However, there was a curse.`@`
+
 br
-　祠にボールをぶつけた少女たちの身に、色々と不審なことが起こった。@
+;　祠にボールをぶつけた少女たちの身に、色々と不審なことが起こった。@
+`　To the girls who hit the shrine with the ball, many things were happening that were beyond comprehension .`@`
+
 br
-　そして、椅子が降ってきて……。\
+;　そして、椅子が降ってきて……。\
+`　And, then that chair fell...`\
 
 fede 1,2000
 E_B
 
 bg kyou_04,2
 
-「……ちょっとぉ！@　聞いてよ、博美ぃ！」\
+;「……ちょっとぉ！@　聞いてよ、博美ぃ！」\
+`"...Wait!`@` Listen, Hiromi~!`\
 
-「馬鹿馬鹿しいったらありゃしないね！@　祟りぃ？@　そんなのあるわけないでしょ？！@　加奈のはただの事故だって！」@
-「で、でも、犯人とかわかってないんでしょ…？」\
-
-「犯人わかんないからって、祟りって決め付けるあんたたちの脳みそはどーいう構造になってるわけぇ？！@　私は祟りなんて信じないねッ、絶対に絶対に！@　じゃあねッ、私、部活あるから！」\
+;「馬鹿馬鹿しいったらありゃしないね！@　祟りぃ？@　そんなのあるわけないでしょ？！@　加奈のはただの事故だって！」@
+`"If you're going to act stupid then I'm not going to!`@` Curses?`@` There's no way it's something like that!!`@` What happened to Kana was just an accident!"`@`
+;「で、でも、犯人とかわかってないんでしょ…？」\
+`"B, but, we still don't know the culprit, right...?"`\
+;「犯人わかんないからって、祟りって決め付けるあんたたちの脳みそはどーいう構造になってるわけぇ？！@　私は祟りなんて信じないねッ、絶対に絶対に！@　じゃあねッ、私、部活あるから！」\
+(?)`"Since you don't know the culprit, you suddenly decided it was a curse? What kind of crap is your brain even made of?!`@` I don't believe in curses, never have, never will!`@` So see you. I have clubs to attend!"`\
 
 se1v 82,90
 
 mbg white,63
 mcbg 22
 
-「待ってよッ、博美ぃ！！」@
+;「待ってよッ、博美ぃ！！」@
+`"Wait, Hiromi!!"`@`
 br
-　博美はずかずかと踵を鳴らしながら教室を出て行く。@
-　少女たちは途方に暮れて俯くのだった。\
+;　博美はずかずかと踵を鳴らしながら教室を出て行く。@
+`　Hiromi rudely stormed from the classroom, her heels clicking.`@`
+;　少女たちは途方に暮れて俯くのだった。\
+`　The girls were bewildered and hung their heads in shame.`\
 
-　博美以外は、祟りを認め、祠に謝りに行こうということで納得したらしかった。@
+;　博美以外は、祟りを認め、祠に謝りに行こうということで納得したらしかった。@
+`　Other than Hiromi, everyone had agreed it was a curse, and settled on going to the shrine and apologizing.`@`
+
 br
-　少女たちの輪に、みちるがそっと近付く。\
+;　少女たちの輪に、みちるがそっと近付く。\
+`　Michiru softly came closer to the ring of friends.`\
 
 ld r,MIC_def1,22
 ;ld r,MIC_def2,80
 
-「…………駄目だった？」\
+;「…………駄目だった？」\
+`"...Was it no good?"`\
 
-「う、うん。@……でも、必ず説得するから！@　じゃないと鎮守神さまの祟りがまた誰かに…！」@
+;「う、うん。@……でも、必ず説得するから！@　じゃないと鎮守神さまの祟りがまた誰かに…！」@
+`"Y, yes.`@`...But I'll definitely persuade her!`@` If I don't, the Guardian Deity will curse someone again...!"`@`
 
 ld r,MIC_def2,80
 
-「………それが、あの博美ちゃんじゃないといいんだけれどね。」\
+;「………それが、あの博美ちゃんじゃないといいんだけれどね。」\
+`"...That is, if that someone isn't Hiromi-chan, though."`\
 
-「そ、そうだよね……！@　博美のためにも説得しなきゃ…！」@
+;「そ、そうだよね……！@　博美のためにも説得しなきゃ…！」@
+`"T, that's right...!`@` We have to convince her for her own sake...!"`@`
 
 ld r,MIC_def3,80
 
-「……そうしてね。@……じゃ、私は帰るから。」\
+;「……そうしてね。@……じゃ、私は帰るから。」\
+`"...Go do that.`@`...Well, I'm going home."`\
 
 cl r,2
 
-　みちるも教室を出る。@
+;　みちるも教室を出る。@
+`　Michiru also left the classroom.`@`
 br
-　少女たちは放課後の教室でも、まだまだおしゃべりを続けていた。\
-
-　……彼女らの身に起こった不審な出来事は全て、ひとりぼっちの時に起こっていた。@だからみんな、下校してひとりぼっちになりたくないのだ。\
+;　少女たちは放課後の教室でも、まだまだおしゃべりを続けていた。\
+`　The girls continued speaking in the classroom after school.`\
+;　……彼女らの身に起こった不審な出来事は全て、ひとりぼっちの時に起こっていた。@だからみんな、下校してひとりぼっちになりたくないのだ。\
+`　...The unexplainable things that had happened to the girls, all happened when they were alone.`@` So nobody wanted to be alone when going home.`\
 
 bg black,22
 
@@ -1293,24 +1374,36 @@ bg kyou_01,22
 
 bgm1 8
 
-「博美もそうだけど、加奈も説得しないとね……。」@
-「私たち、昨日、お見舞い行ってきたよっ。@加奈もね、祟りかもしれないから御祓いしたいーって言ってた。」\
+;「博美もそうだけど、加奈も説得しないとね……。」@
+`"Hiromi's that way, but we have to convince Kana too..."`@`
+;「私たち、昨日、お見舞い行ってきたよっ。@加奈もね、祟りかもしれないから御祓いしたいーって言ってた。」\
+`"We went to visit her yesterday.`@` Kana also said it could be a curse and wanted to purify it."`\
 
-「だったら、誘ったらきっと一緒に祠に行ってくれるよね…！」@
-「良かったぁ…！！」\
+;「だったら、誘ったらきっと一緒に祠に行ってくれるよね…！」@
+`"In that case, if we invite her, she'll definitely come with us to the shrine...!"`@`
+;「良かったぁ…！！」\
+`"Thank goodness..!!"`\
 
-「あとね。@入院は怪我じゃなくて盲腸なんだってさ。@病院で手当てしてもらってたら、突然、お腹が痛くなったとかで。」\
+;「あとね。@入院は怪我じゃなくて盲腸なんだってさ。@病院で手当てしてもらってたら、突然、お腹が痛くなったとかで。」\
+`"And also.`@`They said she's not hospitalized because of her injuries, but because she actually had appendicitis.`@` Once she'd received medical care at the hospital, suddenly her stomach started to hurt and stuff!"`\
 
-「盲腸ー？！@　椅子と関係ないの？！」@
-「頭の怪我は全然、かすり傷だって。」@
-「そーなんだぁ！@　良かったぁ！！」\
+;「盲腸ー？！@　椅子と関係ないの？！」@
+`"Appendicitis~?!`@` It doesn't have anything to do with the chair?!"`@`
+;「頭の怪我は全然、かすり傷だって。」@
+`"They said her head injury was just a graze."`@`
+;「そーなんだぁ！@　良かったぁ！！」\
+`"Is that so!`@` Well, thank goodness!!"`\
 
-「あとは博美だけだね！@　……博美も祟りに遭う前に、気が変わってくれるといいんだけど……。」\
+;「あとは博美だけだね！@　……博美も祟りに遭う前に、気が変わってくれるといいんだけど……。」\
+`"So all that's left is Hiromi, right?`@` ...It'd be nice if she changed how she felt before a curse befell Hiromi too, but..."`\
 
-「……何か、ガツーンと来ないと駄目かもねー…。」@
-「やだよ、今度は消火器とかが降ってきて、今度こそ人が死んじゃったら絶対に嫌だよー！！」@
+;「……何か、ガツーンと来ないと駄目かもねー…。」@
+`"...If we don't do something fast, it might be too late..."`@`
+;「やだよ、今度は消火器とかが降ってきて、今度こそ人が死んじゃったら絶対に嫌だよー！！」@
+`"No! This time a fire extinguisher or something could fall! I can't handle it if somebody dies this time~!!"`@`
 br
-　少女たちは、見回りの教師に帰れと怒鳴られるまで、@そこでいつまでもおしゃべりをしているのだった……。\
+;　少女たちは、見回りの教師に帰れと怒鳴られるまで、@そこでいつまでもおしゃべりをしているのだった……。\
+`　Until the teacher doing his rounds yelled at them to go home,`@` the girls talked there for ages...`\
 
 bg black,2
 
@@ -1323,67 +1416,92 @@ bg Air_01,22
 
 me1v 16,50
 
-　そして、空が朱色に染まる。@
+;　そして、空が朱色に染まる。@
+`　Then, the sky was dyed scarlet.`@`
+
 br
-　カラスたちがねぐらに帰る為に群を成して飛んでいる。\
+;　カラスたちがねぐらに帰る為に群を成して飛んでいる。\
+`　The crows flocked together from their nesting place and flew to go back home.`\
 
 bg black,22
 bg shoukou_01,22
 
-　部活を終えた博美も、昇降口で靴に履き替えていた。@
-br
-　……この昇降口には、自分ひとり。@
-　校舎はシンと静まり返り、……ちょっぴり薄気味悪かった。\
+;　部活を終えた博美も、昇降口で靴に履き替えていた。@
+`　Hiromi, whose club meet had finished, also was in the entrance changing her shoes.`@`
 
-　………加奈は、委員会で帰りが遅くなり、……ひとりで帰る時、@………そこで、……降ってきた椅子に………。@
 br
-　私、……強がったことばかり言っちゃったけど……。@……祟りとかあったら、……嫌だな……。\
+;　……この昇降口には、自分ひとり。@
+`　...In the entrance, she was alone.`@`
+;　校舎はシンと静まり返り、……ちょっぴり薄気味悪かった。\
+`　The school building fell deathly silent, ...and was slightly eerie.`\
 
-　博美は小さく身震いをする。@
-　みんなの前では強がっているが、彼女も本当は怖いのだ。@
-br
-　……渋々とみんなに付き合ったということにして……、@私もあの祠に、……謝りに行った方がいいかな。\
+;　………加奈は、委員会で帰りが遅くなり、……ひとりで帰る時、@………そこで、……降ってきた椅子に………。@
+`　...Kana, left late due to the student council meeting...and when she went home alone,`@` ...there...she was hit by a falling chair...`@`
 
-　博美は、何となく怖くて、昇降口を出られない。@
 br
-　自分がそのひさしを出た瞬間に、………上から何か、@……もっと致命的なものが降って来るのではないかと怯えてしまう。\
+;　私、……強がったことばかり言っちゃったけど……。@……祟りとかあったら、……嫌だな……。\
+`　I, ...have only talked big but...`@`...If there were a curse, ...It'd be awful...`\
 
-　……私は強がってるから、……椅子じゃなくて、……今度は消火器、とか……。@
+;　博美は小さく身震いをする。@
+`　Hiromi was slightly trembling.`@`
+;　みんなの前では強がっているが、彼女も本当は怖いのだ。@
+`　In front of everyone she acted strong, but she also was truly scared.`@`
 br
-　そんなの当たったら、……今度こそ死んじゃうよ……。\
+;　……渋々とみんなに付き合ったということにして……、@私もあの祠に、……謝りに行った方がいいかな。\
+(?) `　...Even though she was reluctant to meet up with everyone...`@` I also wonder, ...if it would be best to go and apologize.`\
+
+;　博美は、何となく怖くて、昇降口を出られない。@
+`　Hiromi was so afraid, she couldn't leave the entrance.`@`
+br
+;　自分がそのひさしを出た瞬間に、………上から何か、@……もっと致命的なものが降って来るのではないかと怯えてしまう。\
+(?)`　That moment that she were to leave the eaves, ...maybe something from above,`@` ...maybe something more lethal would come falling down on her? The thought frightened her.`\
+
+;　……私は強がってるから、……椅子じゃなくて、……今度は消火器、とか……。@
+`　...Since I'm acting tough, ...maybe it won't be a chair, ...but this time it could be a fire extinguisher or something...`@`
+br
+;　そんなの当たったら、……今度こそ死んじゃうよ……。\
+`　If that happened, ...this time she would die...`\
 
 bg black,22
 
 E_A
 
-　………ゴト……………。@
+;　………ゴト……………。@
+`　...*Grind*...`@`
 
 bgm1 10
 
 br
-　その音が、博美の耳に届くわけもない。\
+;　その音が、博美の耳に届くわけもない。\
+`　There was no way that sound could reach Hiromi's ears.`\
 
 bg gakkou_02u,22
 
-　なぜならその音は、………昇降口を出てすぐの遥か頭上。@……３階にある教室の、ベランダの内側でしたのだから。\
+;　なぜならその音は、………昇降口を出てすぐの遥か頭上。@……３階にある教室の、ベランダの内側でしたのだから。\
+`　Because that sound, ...was immediately outside the entrance and far overheard.`@` ...And it was from inside the veranda off the 3rd floor classroom.`\
 
 bg black,22
 
-　それは、……彼女の想像を裏切らない。@
+;　それは、……彼女の想像を裏切らない。@
+`　What it was... did not betray her imagination.`@`
 br
-　……少し煤けて錆びた、………真っ赤な真っ赤な、………重い重い、@………消火器。@
-
+;　……少し煤けて錆びた、………真っ赤な真っ赤な、………重い重い、@………消火器。@
+`　...A little bit sooty and rusted, ...a deep red, ...extremely heavy, `@`...fire extinguisher.`@`
 me1v 5,50
 
 br
-　それが、ゴトリ、……ズルリと、……ベランダの床のコンクリートを這う……。\
+;　それが、ゴトリ、……ズルリと、……ベランダの床のコンクリートを這う……。\
+`　It went on grinding, ...scraping, ...dragging across the concrete of the veranda's alcove...`\
 
 bg shoukou_01,22
 
-　博美は、最悪の想像を笑い捨て、馬鹿馬鹿しいと苦笑いしながらゆっくりと歩き始める。@
+;　博美は、最悪の想像を笑い捨て、馬鹿馬鹿しいと苦笑いしながらゆっくりと歩き始める。@
+`　Hiromi, threw away the worst possible situation with a laugh, thinking it absurd and with a bitter smile she slowly began to walk.`@`
 br
-　一歩、二歩、@……三歩。@
-　もう数歩をあるけば、昇降口を出る。@ひさしを出る。\
+;　一歩、二歩、@……三歩。@
+`　One step, two steps,`@` ...three steps.`@`
+;　もう数歩をあるけば、昇降口を出る。@ひさしを出る。\
+`　If she walks several steps, she leaves the entrance.`@` She leaves the eaves.`\
 
 ;bg black,22
 
@@ -1391,41 +1509,52 @@ me2v 28,90
 
 bg gakkou_02u,2
 
-　そして、……ゆっくりと、……消火器が持ち上がる……。@
+;　そして、……ゆっくりと、……消火器が持ち上がる……。@
+`　Then, ...slowly...lifting the fire extinguisher...`@`
+
 br
-　その無骨で重い金属の塊が、………博美が姿を現すのを待ち受ける………。\
+;　その無骨で重い金属の塊が、………博美が姿を現すのを待ち受ける………。\
+`　That clunky, heavy hunk of metal, ...waited for Hiromi's form to appear...`\
 
 bg black,22
 
 E_B
 E_M2
 
-「止めましょう。@桜田みちるさん。」\
-
+;「止めましょう。@桜田みちるさん。」\
+`"Let's stop this.`@` Michiru Sakurada-san."`\
 bg kyou_02,0
 ld c,MIC_Def6,23
 ;ld c,MIC_Def1,80
 quakey 2,200
 
-「…………ッ！！」@
+;「…………ッ！！」@
+`"...!!!"`@`
 br
-　その声は唐突だった。@気配もなかった。@
-　しかし、みちるがゆっくりと振り返ると、……そこには確かに人影があった。\
+;　その声は唐突だった。@気配もなかった。@
+`　The voice was abrupt.`@` She did not sense its presence.`@`
+;　しかし、みちるがゆっくりと振り返ると、……そこには確かに人影があった。\
+`　However, when Michiru slowly turned, ...there certainly was the figure of a person.`\
 
 bg black,22
 bg kyou_04,0
 ld c,MAR_Def1,2
 
-　毬枝だった。@
+;　毬枝だった。@
+`　It was Marie.`@`
 br
-　眼下には、校門まで一目散に駆けていく博美の姿があった。@
-　もう、昇降口からは遠く離れている。@今、消火器を落としたところで、博美はそれに気付くまい。\
+;　眼下には、校門まで一目散に駆けていく博美の姿があった。@
+`　Below her, Hiromi was running full speed towards the school gate.`@`
+;　もう、昇降口からは遠く離れている。@今、消火器を落としたところで、博美はそれに気付くまい。\
+`　She was already far away from the entrance.`@` Now, if she dropped the fire extinguisher, Hiromi wouldn't even notice it.`\
 
-　みちるはタイミングを逃したことを知り、……その重い塊を、ゴトリと置いた…。\
+;　みちるはタイミングを逃したことを知り、……その重い塊を、ゴトリと置いた…。\
+`　Michiru knew she'd lost her timing, ...she dropped the heavy mass with a thump...`\
 
 ld c,MAR_Def3,80
 
-「……教えて下さい。@どうして、こんなことをするんですか。」\
+;「……教えて下さい。@どうして、こんなことをするんですか。」\
+`"...Tell me.`@` Why, are you doing these things?"`\
 
 bg black,22
 
@@ -1433,17 +1562,22 @@ bg kyou_01,0
 ld l,MIC_Def5,22
 
 「……………………………。」\
+"..."`\
 
 ld r,MAR_i1a,24
 
-「あなたは妖怪じゃない。@ましてや、祟りを下す側でもないはず。」\
+;「あなたは妖怪じゃない。@ましてや、祟りを下す側でもないはず。」\
+`"You are not a youkai.`@` Much less, someone who can curse, or pass judgement on anyone."`\
 
 ld l,MIC_def3,80
 
-「…………だって……………。」@
+;「…………だって……………。」@
+`"...Because...."`@`
 br
-　みちるは両拳を握り締め、……小さく震えながら俯く。@
-　そして、……涙をぼろぼろ零しながら……、叫んだ。\
+;　みちるは両拳を握り締め、……小さく震えながら俯く。@
+`　Michiru gripped both fists tightly, ...while trembling slightly she hung her head.`@`
+;　そして、……涙をぼろぼろ零しながら……、叫んだ。\
+`　And then, ...As tears began to spill out..., she screamed.`\
 
 
 cl l,0
@@ -1451,8 +1585,8 @@ mld c,MIC_n3n,23
 
 E_A
 
-「……誰も、………信じてくれないんだもんッ……！！」\
-
+;「……誰も、………信じてくれないんだもんッ……！！」\
+`"...Nobody, ...would believe me...!!!"`\
 
 
 
@@ -1466,17 +1600,23 @@ mono 1
 
 bgm1 20
 
-　誰も、信じてくれなかった。\
+;　誰も、信じてくれなかった。\
+`　Nobody believed her.`\
 
 bg kyou_01,0
 mld r,MIC_Def2,22
 
-　彼女には生まれつき、霊感という異能の力があった。\
+;　彼女には生まれつき、霊感という異能の力があった。\
+`　Since she was born, she had the strange power known as a sixth sense.`\
 
-　しかし、……誰もそれを信じてくれなかった。@
-　疎外感から孤立し、誰にも心を許せない。@
+;　しかし、……誰もそれを信じてくれなかった。@
+`　But, ...nobody believed that.`@`
+;　疎外感から孤立し、誰にも心を許せない。@
+`　Feeling alienated and alone, she couldn't trust anybody.`@`
+
 br
-　だから、……いつもひとりぼっちだった。\
+;　だから、……いつもひとりぼっちだった。\
+`　So, ...she was always alone.`\
 
 mld r,MIC_n1,80
 
@@ -1490,24 +1630,29 @@ ld c,MIC_n3,22
 ;ld r,MAR_Def1,22
 ld c,MIC_n3n,80
 
-「あの祠が壊された時…！@　私は確かに感じたの！@　強い力を持った存在が、ものすごく悲しんで驚いて…！@　その激しい感情を確かに受け取ったの！！@　だから、彼女たちに伝えた。@すぐに謝らないと、きっと大変な祟りがあるよ、って！@　でも、……誰も信じてくれなかった…！！」\
+;「あの祠が壊された時…！@　私は確かに感じたの！@　強い力を持った存在が、ものすごく悲しんで驚いて…！@　その激しい感情を確かに受け取ったの！！@　だから、彼女たちに伝えた。@すぐに謝らないと、きっと大変な祟りがあるよ、って！@　でも、……誰も信じてくれなかった…！！」\
+`"When the shrine broke...!`@` I know I felt it!`@` Something with strong powers, something extremely sorrowful and astonishing...!`@` I'm sure I received those violent feelings!!`@` That's why, I told them.`@` That if they didn't apologize right away, a curse would befall them!`@` But...nobody believed me!!"`\
 
 ld c,MIC_n2n,80
 
-「………なら、……ならッ、……いっそ、……祟りを起こしてくれればいいのに、@……何も起こらない…！@　あんなにも、……激しい感情を破裂させたのに、……何も起こらないなんて…！@　……だから私が祟りを代わろうと思ったの…！@　そうすればきっと、あの祠のッ、鎮守神さまに謝ろうって気持ちにみんななってくれると思って！！」\
-
+;「………なら、……ならッ、……いっそ、……祟りを起こしてくれればいいのに、@……何も起こらない…！@　あんなにも、……激しい感情を破裂させたのに、……何も起こらないなんて…！@　……だから私が祟りを代わろうと思ったの…！@　そうすればきっと、あの祠のッ、鎮守神さまに謝ろうって気持ちにみんななってくれると思って！！」\
+`"...So, ...in that case, ...even though...it would have been better for a curse to occur, `@`...Nothing happened...!`@` Even after, ...that violent explosion of emotion, ...nothing happened...!`@` So I thought I'd substitute for the curse...!`@` If I did that then, I thought everybody would change their minds and apologize to the Guardian Deity of that shrine!!"`\
 cl c,25
 quakey 1,100
 
-　みちるは、そこまでを一気に吐き出すと、……両手で顔を覆って号泣した。\
+;　みちるは、そこまでを一気に吐き出すと、……両手で顔を覆って号泣した。\
+`　Michiru spit everything out in one breath, ...and covered her face with both hands while lamenting aloud.`\
 
 bg black,22
 
-　彼女の霊感は紛れもなく本物だろう。\
+;　彼女の霊感は紛れもなく本物だろう。\
+`　Her 6th sense was not confused and could have been the real thing.`\
 
-　あの祠の主の驚愕の感情をしっかりと受け取れた。@
+;　あの祠の主の驚愕の感情をしっかりと受け取れた。@
+`　She firmly understood the feeling of shock from the master of the shrine.`@`
 br
-　……しかし、それ以上を理解するには、彼女の霊感は至らなかった。\
+;　……しかし、それ以上を理解するには、彼女の霊感は至らなかった。\
+`　However, her sixth sense had not come to understand any more.`\
 
 bg hokora_02,0
 ld c,SAK_k1,22
@@ -1517,46 +1662,55 @@ quakey 2,200
 cl c,23
 quakex 1,100
 
-　まさか、あの祠の主がものすごく臆病な子で、@ずっと保健室のベッドの下で震えていたなんて、想像も出来なかったろう。\
+;　まさか、あの祠の主がものすごく臆病な子で、@ずっと保健室のベッドの下で震えていたなんて、想像も出来なかったろう。\
+`　By no means could she imagine that the master of that shrine was a cowardly child,`@` who had been hiding under the bed in the infirmary the entire time.`\ 
 
 bg black,22
 bg k_kyou_02,0
 ld l,MAR_Def2,22
 ld l,MAR_Def1,80
 
-「あの祠は、保健室の先生が修理してくれました。@祠の主も、それをとても喜んでいます。@祟りどころか、怒ってさえいません。@……でも、あの子の名を騙る祟りで誰かが傷付いたら、きっととても悲しむと思います。」\
-
+;「あの祠は、保健室の先生が修理してくれました。@祠の主も、それをとても喜んでいます。@祟りどころか、怒ってさえいません。@……でも、あの子の名を騙る祟りで誰かが傷付いたら、きっととても悲しむと思います。」\
+`"That shrine, was repaired by the school nurse.`@` The master of that shrine is thrilled by this.`@` He was far from cursing, or getting angry.`@` ...But I think, using his name to curse and injure somebody, he would certainly be very sad."`\
 ld l,MAR_def3,80
 
-「だから、もう。@……あなたの祟りを止めて下さい。@あの子たちはもう、心を決めています。@きっとみんなで揃って、祠に謝りに行くでしょう。@あなたはそれを信じて、見守っていて下さい。」\
+;「だから、もう。@……あなたの祟りを止めて下さい。@あの子たちはもう、心を決めています。@きっとみんなで揃って、祠に謝りに行くでしょう。@あなたはそれを信じて、見守っていて下さい。」\
+`"So please.`@` ...Stop your curse.`@` Those girls, have already decided.`@` I'm sure they will gather everyone and apologize at the shrine.`@` Believe in that, and watch over them please."`\
 
 ld r,MIC_n2n,22
 
-「………はいっ、………はいっ。@………本当に……ごめんなさぃっ……。」@
+;「………はいっ、………はいっ。@………本当に……ごめんなさぃっ……。」@
+`"...Yes, ...Yes.`@`...I'm really...very sorry..."`@`
+
 br
-　みちるは泣き続ける。@涙をぼろぼろと零しながら。@
-　その涙が本当に透き通っていることを認め、毬枝も表情をわずかに和らげる。\
+;　みちるは泣き続ける。@涙をぼろぼろと零しながら。@
+`　Michiru continued to cry.`@` Her tears spilled out one by one.`@`
+;　その涙が本当に透き通っていることを認め、毬枝も表情をわずかに和らげる。\
+(?)`　Accepting that those tears truly were her transparent feelings, Marie softened her emotions.`\
 
 ld l,MAR_w1,80
 
-「……あなたが、祠のことを本当に心配してくれたことは、さくのしんちゃんも喜んでました。@……あ、さくのしんちゃんっていうのは、祠の主のことです。@……だから今度。@祠に行ってみて下さい。@今のあなたにならきっと、あの子が喜んでいるのを感じ取れるはずです。」\
-
+;「……あなたが、祠のことを本当に心配してくれたことは、さくのしんちゃんも喜んでました。@……あ、さくのしんちゃんっていうのは、祠の主のことです。@……だから今度。@祠に行ってみて下さい。@今のあなたにならきっと、あの子が喜んでいるのを感じ取れるはずです。」\
+`"...The fact that, you were truly worried for the shrine, made Sakunoshin-chan very happy.`@` ...Ah, Sakunoshin-chan is the master of that shrine.`@` ...So this time.`@` Go look at the shrine, please.`@` If you go as you are now, you will surely feel his joy."`\
 ld r,MIC_n1,80
 
-「……本当に、……私には感じ取れるでしょうか…。@……私には、本当に霊感なんて、……あるんでしょうか……。」@
-
+;「……本当に、……私には感じ取れるでしょうか…。@……私には、本当に霊感なんて、……あるんでしょうか……。」@
+`"...Will I, ...really feel it...`@` ...Do I, really have, ...a sixth sense...?"`@`
 ld l,MAR_w2,80
 
-「ありますよ。」\
+;「ありますよ。」\
+`"You do."`\
 
 mbg black,22
 ;ld r,MIC_Def5,80
 
-「………祠の主の、本当の気持ちも感じ取れなかったのに…。@……本当に霊感なんて、あるんでしょうか……。」@
+;「………祠の主の、本当の気持ちも感じ取れなかったのに…。@……本当に霊感なんて、あるんでしょうか……。」@
+`"...Even though, I couldn't feel the master of the shrine's real emotions...`@` ...do I actually have that sixth sense...?"`@`
 
 ;ld l,MAR_w1,80
 
-「だって、私が見えてるじゃないですか。」\
+;「だって、私が見えてるじゃないですか。」\
+`"Because, you can see me, can't you?"`\
 
 ;mbg black,25
 cl a,0
@@ -1564,23 +1718,29 @@ ld c,MIC_Def6,0
 mcbg 22
 ;bg kyou_02,0
 
-「…………………っ。」@
+;「…………………っ。」@
+`"....!"`@`
 br
-　毬枝の姿は、みちるが瞬きをした次の瞬間には、もう消えていた……。@
+;　毬枝の姿は、みちるが瞬きをした次の瞬間には、もう消えていた……。@
+`　The next moment that Michiru blinked, Marie's form, had already disappeared...`@`
 
 me1v 16,50
 
 br
-　みちるは辺りを見渡すが、もうその姿を見つけることは出来ない。\
+;　みちるは辺りを見渡すが、もうその姿を見つけることは出来ない。\
+`　Michiru surveyed the area around her, but she could not find that figure.`\
 
 ;cl r,24
 ;ld c,MIC_Def6,24
 
-　しかし、確かに聞いた。@確かに聞こえた。@
+;　しかし、確かに聞いた。@確かに聞こえた。@
+`　However, she was sure she heard it.`@` She was certain she was able to hear it.`@`
 br
-　毬枝の声が、最後にもう一度だけ聞こえた。\
+;　毬枝の声が、最後にもう一度だけ聞こえた。\
+`　Marie's voice, was heard one last time.`\
 
-『その消火器。@元のところにちゃんと戻しておいて下さいね。』\
+;『その消火器。@元のところにちゃんと戻しておいて下さいね。』\
+`"That fire extinguisher.`@` Put it right back where you found it, alright?"`\
 
 textoff
 
@@ -1592,8 +1752,8 @@ wait 2000
 
 ld c,MIC_def6,80
 
-「………はいっ。」\
-
+;「………はいっ。」\
+`"...Yes."`\
 
 bg e022,42
 
