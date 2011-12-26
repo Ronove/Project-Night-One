@@ -93,25 +93,33 @@ br
 
 bg usagi_01,22
 
-　騒ぎを聞きつけ、職員室から教師たちが駆けつけた。@
+;　騒ぎを聞きつけ、職員室から教師たちが駆けつけた。@
+`　Hearing the commotion, the teachers ran out of the staff room.`@
 br
-　彼らもうさぎ小屋を覗き込むと一様に青褪めて絶句したが、@かろうじて平静を取り戻すと生徒たちに教室で待機するよう指示を出した。\
+;　彼らもうさぎ小屋を覗き込むと一様に青褪めて絶句したが、@かろうじて平静を取り戻すと生徒たちに教室で待機するよう指示を出した。\
+`　Although they all too turned pale and were at a loss for words after taking a look at the rabbit pens, `@`they managed to restore some order and directed the students to wait in their classrooms.`\
 
-　しかし、子供たちがいなくなってからも、教師たちはしばらく動けず、@惨殺されたうさぎたちをただただ痛々しく見つめ続けた。\
+;　しかし、子供たちがいなくなってからも、教師たちはしばらく動けず、@惨殺されたうさぎたちをただただ痛々しく見つめ続けた。\
+`　However, even after the children had gone, the teachers didn't move for some time, `@`they merely painfully continued to watch the massacred rabbits.`\
 
 ;mbg white,1
 ;mcbg 22
 
 se1v 13,40
 
-　その時、小屋の隅の方で、何かが動いた気がした。@
+;　その時、小屋の隅の方で、何かが動いた気がした。@
+`　At that moment, they sensed that something moved from the corner of the pen.`@
 br
-　そこにはうさぎたちが掘った穴があった。@その中から、恐る恐るこちらの様子を伺うように一匹のうさぎが顔を出したのだ。\
+;　そこにはうさぎたちが掘った穴があった。@その中から、恐る恐るこちらの様子を伺うように一匹のうさぎが顔を出したのだ。\
+`　There was a hole that the rabbits had dug. `@`And from inside, the head of one terrified rabbit looking on at the scene popped out.`\
 
-「……不幸中の幸い、だな。」@
+;「……不幸中の幸い、だな。」@
+`"...Someone was granted mercy, wouldn't you say."`@
 br
-　教師の一人が呟いた。@
-　すると、それが合図かのように、穴の中から次々にうさぎたちが現れた。\
+;　教師の一人が呟いた。@
+`　One of the teachers muttered.`@
+;　すると、それが合図かのように、穴の中から次々にうさぎたちが現れた。\
+`　
 
 　多少足を引きずっているものもいるが、どのうさぎも大きな怪我はしていないようだった。@
 br
