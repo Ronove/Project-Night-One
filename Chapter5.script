@@ -552,39 +552,48 @@ br
 quakex 2,200
 
 ;　だが、ひかるはその後ろ足を鷲のように掴み、無造作に引きずり戻す。\
-`　
+`　However, like an eagle, Hikaru caught it with her back leg, and casually dragged it back.`\
+
 quakex 1,100
 
-　遠ざけられたうさぎは、また這うようにして穴に向かうが、@穴に辿り着く直前で再び引きずり戻す。@それを何度も繰り返す。\
+;　遠ざけられたうさぎは、また這うようにして穴に向かうが、@穴に辿り着く直前で再び引きずり戻す。@それを何度も繰り返す。\
+`　The rabbit who had mannaged to keep away tried to crawl back into the hole but, `@`just as it was about to reach the hole, it was pulled back again.`@` This repeated many times.`\ 
 
 bg black,23
 bg usagi_02,23
 ld c,HIK_Def2,22
 
 
-「……あいつら、手は出さないんだ。」@
+;「……あいつら、手は出さないんだ。」@
+`"...Those guys just won't pull back."`@`
 br
-　後ろ足をひねるようにして引きずりながら、ひかるは無表情のままで呟く…。\
+;　後ろ足をひねるようにして引きずりながら、ひかるは無表情のままで呟く…。\
+`　Twisting her back leg back while pulling it back again, Hikaru expressionlessly murmured...`\
 
 ld c,HIK_w2a,80
 
-「教材は捨てるし、靴は隠すし、体操着は破くし。@掃除当番も班の仕事も全部僕に押し付ける。@……そういうことするのは全然平気なくせに、絶対に殴ったり蹴ったりはしてこないんだ。」\
+;「教材は捨てるし、靴は隠すし、体操着は破くし。@掃除当番も班の仕事も全部僕に押し付ける。@……そういうことするのは全然平気なくせに、絶対に殴ったり蹴ったりはしてこないんだ。」\
+`"They throw away my school supplies, hide my shoes, tear up my gym uniform.`@` They force me to do all of the work during cleaning duty.`@` ...Even though doing those things is entirely not okay, I still haven't come to hit them or kick them."`\
 
-　殴らない。@蹴らない。@身体に痕を残さない。@ひかるはそれを心底軽蔑する。@
+;　殴らない。@蹴らない。@身体に痕を残さない。@ひかるはそれを心底軽蔑する。@
+`　I won't hit them.`@` I won't kick them.`@` I won't leave any marks.`@` Hikaru scorned this from the bottom of her heart.`@`
 br
-　もし、ひかるが自殺をしたらきっと彼らはこう言うだろう。\
+;　もし、ひかるが自殺をしたらきっと彼らはこう言うだろう。\
+`　If Hikaru were to commit suicide, surely they all would say this.`\
 
-　自分たちはイジメなんかしてません。@あいつに手を出したことなんて一度もありません。@一度も。@……一度も……。\
-
+;　自分たちはイジメなんかしてません。@あいつに手を出したことなんて一度もありません。@一度も。@……一度も……。\
+`　Well, we didn't bully her or anything!`@` We've never once laid a finger on her.`@` Not once...`@`...not even once...`\
 cl c,0
 ld r,HIK_i1,23
 se1v 10,50
 quakex 2,200
 
-「……ふざけるなよ。」@
+;「……ふざけるなよ。」@
+`"...Don't fuck with me."`@`
 br
-　彼らには、本当にひかるを虐めているという実感がないのかもしれない。@
-　だとしたら許せなかった。\
+;　彼らには、本当にひかるを虐めているという実感がないのかもしれない。@
+`　
+;　だとしたら許せなかった。\
 
 bg black,22
 ;bg aka3,28
