@@ -576,7 +576,7 @@ ld c,HIK_Def2,22
 `"...Those guys just won't pull back."`@`
 br
 ;　後ろ足をひねるようにして引きずりながら、ひかるは無表情のままで呟く…。\
-`　Twisting her back leg back while pulling it back again, Hikaru expressionlessly murmured...`\
+`　Twisting her back leg back while pulling it to her again, Hikaru expressionlessly murmured...`\
 
 ld c,HIK_w2a,80
 
@@ -948,44 +948,58 @@ br
 
 me2v 17,50
 
-　み、見られていた……。@
-　誰にも知られないよう警戒してきたつもりだったのに……！@
+;　み、見られていた……。@
+`　I, I was seen...`@`
+;　誰にも知られないよう警戒してきたつもりだったのに……！@
+`　Even though I had planned cautiously to not be found out...!`@`
 br
-　彼はどうする気なのだろうか？@　先生に言いつける？@　親に知らせる？@　それともまさか、警察に………、\
+;　彼はどうする気なのだろうか？@　先生に言いつける？@　親に知らせる？@　それともまさか、警察に………、\
+`　What in the world did he come here for?`@` To talk to the teacher?`@` To let his parents know?`@` Or maybe even, to the police...`\
 
 ld l,HAM_Def2,22
 
-「ははは、安心していいよ。@そんなことしないから。」@
+;「ははは、安心していいよ。@そんなことしないから。」@
+`"Hahaha, don't worry.`@` I won't do that, after all."`@`
 br
-　青年は屈託なく笑った。@
+;　青年は屈託なく笑った。@
+`　The youth laughed without a care.`@`
 br
-　……本当に？@　本当に誰にも言わない？\
-
+;　……本当に？@　本当に誰にも言わない？\
+`　...Really?`@` He really won't tell anyone?`\
 ld l,HAM_Def1,80
 
-「うん、約束する。」@
+;「うん、約束する。」@
+`"Yes, I promise."`@`
 br
-　果たしてこの言葉を信用していいのだろうか……。@…………あれ？\
+;　果たしてこの言葉を信用していいのだろうか……。@…………あれ？\
+`　Is it really, honestly okay to have faith in these words...`@` ...Hmm?`\
 
 mbg black,22
 
 ;ld l,HIK_Def1,80
 
-　ひかるは不意に違和感を感じ、自分の口を押さえる。@
+;　ひかるは不意に違和感を感じ、自分の口を押さえる。@
+`　Hikaru suddenly felt uncomfortable, and held her tongue.`@`
 br
-　僕は今、無意識に自分の考えを声に出していただろうか？\
+;　僕は今、無意識に自分の考えを声に出していただろうか？\
+`　Did I just, unconciously say what I was thinking?`\
 
-　……いや、そんなことはない。@
-　なのに、彼は僕の心の中の言葉に対し、返事をしている……。@
+;　……いや、そんなことはない。@
+`　...No, I didn't.`@`
+;　なのに、彼は僕の心の中の言葉に対し、返事をしている……。@
+`　Yet, he regarded the words in my mind, and is replying to them...`@`
 br
-　ひかるの口は干上がったかのようにカラカラに乾いている。\
+;　ひかるの口は干上がったかのようにカラカラに乾いている。\
+`　Hikaru's mouth became dry as though she were parched.`\
 
 cl l,0
 mcbg 22
 ;bg usagi_03,22
 
-　……では、これはどういうことなのだろうか？@
-　この人が僕の心を読んだとでも……そんな馬鹿な。@それじゃあまるで本物の……、\
+;　……では、これはどういうことなのだろうか？@
+`　...but, then what does that make this?`@`
+;　この人が僕の心を読んだとでも……そんな馬鹿な。@それじゃあまるで本物の……、\
+`　This person read my thoughts, but...that's ridiculous.`@` If that were the case, he'd have to be a real...`\
 
 ld l,HAM_Def1,22
 ;ld l,HAM_Def4,80
@@ -995,25 +1009,30 @@ E_MA
 ld l,HAM_Def2,80
 
 「……妖怪じゃないか？」@
+`"...You're a Youkai, aren't you?"`@`
 br
-　青年がまるで先回りでもするようにひかるの考えを口にする。\
+;　青年がまるで先回りでもするようにひかるの考えを口にする。\
+`　The young man, as though anticipating it, spoke what Hikaru was thinking.`\
 
 ld l,HAM_Def3,80
 
-「ひかる君は頭が良いんだね。@正解を出すのが早い。」@
-
+;「ひかる君は頭が良いんだね。@正解を出すのが早い。」@
+`"Hikaru-kun, you're rather smart, aren't you?`@` You're quick to get the right answer."`@`
 ld r,HIK_Def4a,24
 
-「…………じゃ、じゃあ………。」\
+;「…………じゃ、じゃあ………。」\
+`"...Th, then..."`\
 
-　ひかるは早々に観念する。@
+;　ひかるは早々に観念する。@
+`　Hikaru quickly formed a notion.`@`
 br
-　出会ってから本当にわずかな時間しか経っていないにも関わらず、@目の前に立っているこの青年が、ただの人間でないということを受け入れる。\
+;　出会ってから本当にわずかな時間しか経っていないにも関わらず、@目の前に立っているこの青年が、ただの人間でないということを受け入れる。\
+`　In spite of the fact that only a miniscule amount of time had passed since they'd met,`@` she was able to accept that the young man standing in front of her, was not any ordinary human.`\
+;　何者かは分からないが、彼は自分とは違う、何か特別な存在なのだと。@ひかるは全身の感覚でそれを感じ取った。@
 
-　何者かは分からないが、彼は自分とは違う、何か特別な存在なのだと。@ひかるは全身の感覚でそれを感じ取った。@
 br
-　そうだ。@……そもそも彼は、ひかるがうさぎ小屋から出ようとした瞬間、@そのすぐ背後、うさぎ小屋の中にいきなり現れたのだ。\
-
+;　そうだ。@……そもそも彼は、ひかるがうさぎ小屋から出ようとした瞬間、@そのすぐ背後、うさぎ小屋の中にいきなり現れたのだ。\
+`　
 　普通の人間には、そんなこと絶対に不可能だ。@金網をすり抜けることが出来ない限りは。\
 
 ld l,HAM_Def1,80
