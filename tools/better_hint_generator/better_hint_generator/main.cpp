@@ -61,10 +61,17 @@ int main()
 		for(int i = 1; csv_reader.hasMoreRows(); ++i)
 		{
 			std::vector<std::string> row = csv_reader.getRow();
-			if(row.size() < 2)
+			if(row.size() < 2 || row.size() > 3)
 			{
 				std::stringstream ss;
-				ss << "Invalid number of entries in row number " << i << " in dataset.csv." << std::endl <<  "Expects 2 entries per line.";
+				ss << "Invalid number of entries in row number " << i << " in dataset.csv." << std::endl;
+				ss << "Expects 2 entries per line, but got " << row.size() << std::endl;
+				ss << "The infringing line's contents were: " << std::endl;
+				for(unsigned j = 0; j < row.size(); ++j)
+				{
+					ss << "Entry " << j+1 << ": " << row[j] << std::endl;
+				}
+				ss << std::endl;
 				throw std::string(ss.str());
 			}
 			data_entries.push_back(DatasetEntry(row[0],row[1]));
