@@ -114,34 +114,41 @@ br
 `　There was a hole that the rabbits had dug. `@`And from inside, the head of one terrified rabbit looking on at the scene popped out.`\
 
 ;「……不幸中の幸い、だな。」@
-`"...Someone was granted mercy, wouldn't you say."`@
+`"...Every cloud has a silver lining, apparently.`@
 br
 ;　教師の一人が呟いた。@
 `　One of the teachers muttered.`@
 ;　すると、それが合図かのように、穴の中から次々にうさぎたちが現れた。\
-`　
+`　And, as if that was their signal, one after another rabbits began to come out of the hole.`\
 
-　多少足を引きずっているものもいるが、どのうさぎも大きな怪我はしていないようだった。@
+;　多少足を引きずっているものもいるが、どのうさぎも大きな怪我はしていないようだった。@
+`　Although some were dragging their legs, none of them seemed to have any major injuries.`@
 br
-　赤い血の海の中を動き回る真っ白なうさぎたち……。@何とも現実離れしたその光景に、再び言葉をなくす教師たち。\
+;　赤い血の海の中を動き回る真っ白なうさぎたち……。@何とも現実離れしたその光景に、再び言葉をなくす教師たち。\
+`　The white rabbits move around the sea of red blood... `@`Caught in the scene disconnected from reality, once again the teachers were at a loss for words.`\
 
-　しかし、不意にその沈黙を破り、一人の若い教師が疑問を口にした。@
+;　しかし、不意にその沈黙を破り、一人の若い教師が疑問を口にした。@
+`　However, the silence was abruptly cut short when one of the young teachers decided to ask a question.`@
 br
-　恐る恐る。@……だけれども、あまりに素朴に。\
+;　恐る恐る。@……だけれども、あまりに素朴に。\
+`　Timidly, timidly. `@`...Though, incredibly bluntly.`\
 
 bg black,22
 
 fede 0,1000
 E_A
 
-「あの……、うちって、こんなにたくさん、うさぎ飼ってましたっけ……？」@
+;「あの……、うちって、こんなにたくさん、うさぎ飼ってましたっけ……？」@
+`"Um... did we, really, even keep this many rabbits in the pens...?"`@
 
 me1v 17,70
 
 br
-　生きているうさぎと、うさぎの死骸。@
+;　生きているうさぎと、うさぎの死骸。@
+`　The live rabbits and rabbit corpses.`@
 br
-　その合計数が、彼らが飼っていると認識していたそれを、上回っていたのだ。\
+;　その合計数が、彼らが飼っていると認識していたそれを、上回っていたのだ。\
+`　Their total numbers far exceeded the number of rabbits they had all thought were in the cages.`\
 
 bg black,22
 
@@ -159,22 +166,30 @@ bg rouka_02,2
 
 bgm1 8
 
-　午前９時２０分。@
+;　午前９時２０分。@
+`　9:20AM.`@
 br
-　２組の担任である井俣は教室に向かいながら、@うさぎ小屋の件を生徒たちにどう説明すべきか考えていた。\
+;　２組の担任である井俣は教室に向かいながら、@うさぎ小屋の件を生徒たちにどう説明すべきか考えていた。\
+`　Imata, the person in charge of the 2nd group, was heading for the classroom, `@`and was thinking about how he should explain the rabbit pen incident to the students.`\
 
-　不意に先日聞いたあるニュースを思い出す。@
+;　不意に先日聞いたあるニュースを思い出す。@
+`　Suddenly he recalls news he heard the other day.`@
 br
-　隣町の小中学校で、@予算カットのため動物の飼育小屋を全てなくすことが決まったという内容だった。\
+;　隣町の小中学校で、@予算カットのため動物の飼育小屋を全てなくすことが決まったという内容だった。\
+`　At the elementary school in the neighboring town, `@`it was talking about how they had to get rid of their animal pens due to budget cuts.`\
 
-　餌代やら維持費を節約するために、@子供たちが動物と触れ合う機会を取りやめるなんて随分とケチくさいな、とその時は思った。@
+;　餌代やら維持費を節約するために、@子供たちが動物と触れ合う機会を取りやめるなんて随分とケチくさいな、とその時は思った。@
+`　It was in order to save on maitainance and food costs, `@`and he remembered how cheap they seemed to rob those children of the chance to pet and play with those animals.`@
 br
-　しかし今になって思う。@予算カットと言うのは建前だったのではないだろうか。@あれはこういう事態に備えてのことだったのではないだろうか、と。\
+;　しかし今になって思う。@予算カットと言うのは建前だったのではないだろうか。@あれはこういう事態に備えてのことだったのではないだろうか、と。\
+`　But now that he thinks about it. `@`Perhaps that talk about budget cuts was just to save face. `@`Perhaps it might have been to dress up an incident like this one.`\
 
 bg black,22
 
-　物騒な時代だ。子供たちの心も荒んでる。@
-　動物を飼うことが、情操教育の一環になると信じられた時代は、@すでに遠い過去の話なのかもしれない……。\
+;　物騒な時代だ。子供たちの心も荒んでる。@
+`　It's a dangerous age. The hearts of children are going wild.`@
+;　動物を飼うことが、情操教育の一環になると信じられた時代は、@すでに遠い過去の話なのかもしれない……。\
+`　The idea that taking care of pets was part of a good education,`@` might already be a thing of the past...`\
 
 
 
@@ -185,49 +200,68 @@ bg usagi_01,22
 bgcopy
 csp -1
 
-　あのうさぎ小屋はどうなるのだろう。@
+;　あのうさぎ小屋はどうなるのだろう。@
+`　What will happen with those rabbit pens?`@
 br
-　何匹か生き残っていたとは言え、@あの小屋であのまま飼育を続けるのは難しいだろうな、と思う。\
+;　何匹か生き残っていたとは言え、@あの小屋であのまま飼育を続けるのは難しいだろうな、と思う。\
+`　Although many were left alive, `@`it would probably be hard to keep raising aniamls in those pens as they are now, so he thought.`\
 
-　うさぎの死骸を全部拾い集めても、夥しい血を洗い流しても。@あの腐った肉のような臭いや、むせ返るような鉄の匂いは、多分なかなか落ちない。\
+;　うさぎの死骸を全部拾い集めても、夥しい血を洗い流しても。@あの腐った肉のような臭いや、むせ返るような鉄の匂いは、多分なかなか落ちない。\
+`　Even if all the bodies of the rabbits were gathered, and all the vast amounts of blood washed away,`@` that smell like rotten meat, and that choking odor of iron, probably won't really go away.`\
 
-　……まあ、そもそもあのうさぎ小屋に近づく生徒は少なかったしな。@
+;　……まあ、そもそもあのうさぎ小屋に近づく生徒は少なかったしな。@
+`　...Well, there have been few students going near the rabbit pens since the beginning.`@
 br
-　うさぎなんて珍しいものでもないし、@わざわざ職員室に鍵を借りに来てまで触れ合おうとする生徒はほとんどゼロに近かった。\
+;　うさぎなんて珍しいものでもないし、@わざわざ職員室に鍵を借りに来てまで触れ合おうとする生徒はほとんどゼロに近かった。\
+`　It wasn't uncommon for the rabbits and the like, `@`there was almost zero students who would go as far as to expressly ask to borrow the key to the pens in the staff room to pet them.`\
 
-　それは井俣や他の教師たちも同じで、小屋の中を覗き込むことすら滅多になかった。@
+;　それは井俣や他の教師たちも同じで、小屋の中を覗き込むことすら滅多になかった。@
+`　It was the same for Imata and the other teachers -- they rarely even checked inside those pens.`@
 br
-　鍵を借りに来たのはうちのクラスの飼育委員の生徒だけだ。\
+;　鍵を借りに来たのはうちのクラスの飼育委員の生徒だけだ。\
+`　Just a student, one of our class's animal rearing committee members, came to borrow a key.`\
 
 bg black,22
 ;ld c,HIK_Def1,22
 
 
-　いつも無表情なあの子。@学年でもトップクラスの成績を持つあの男子生徒。@
+;　いつも無表情なあの子。@学年でもトップクラスの成績を持つあの男子生徒。@
+`　That ever expressionless kid. `@`That boy with the top grades in his age bracket.`@
 br
-　さっきうさぎ小屋を囲んでいた集団の中にあの子はいたのだろうか。@
-　いたとしたら、……さぞショックを受けたことだろう。\
+;　さっきうさぎ小屋を囲んでいた集団の中にあの子はいたのだろうか。@
+`　I wonder if he was among that group of kids circling the rabbit pens just now?`@
+;　いたとしたら、……さぞショックを受けたことだろう。\
+`　If he was there, ...it must have given him quite a shock.`\
 
 bg kyou_04,22
 
 me1v 24,50
 
-　教室の前まで辿り着き、井俣は立ち止まった。@教室内からがやがやと騒がしい話声が聞こえる。\
+;　教室の前まで辿り着き、井俣は立ち止まった。@教室内からがやがやと騒がしい話声が聞こえる。\
+`　Finally arriving at the classroom, Imata came to a stop. `@`From inside the classroom he could hear a crowd of students making loud conversation.`\
 
-『マジで、すごかったんだぜ。』@『血がさ。』@『ドバーってさ。』@
+;『マジで、すごかったんだぜ。』@『血がさ。』@『ドバーってさ。』@
+`(?) "Seriosly, it was awesome!"`@` "The blood, see."`@` "It was gushing"`@
 br
-　興奮して語る生徒たちの声を聞きながら、井俣は溜め息をついた。\
+;　興奮して語る生徒たちの声を聞きながら、井俣は溜め息をついた。\
+`　As he listened to the excited voices of the students talking, Imata let out a sigh.`\
 
-　間もなく警察も来るだろう。@どの程度の扱いになるかは分からないがテレビでニュースも流れるかもしれない。@地方紙には大きく取り上げられるだろうし、ＰＴＡとの緊急集会も開かれるはずだ。\
+;　間もなく警察も来るだろう。@どの程度の扱いになるかは分からないがテレビでニュースも流れるかもしれない。@地方紙には大きく取り上げられるだろうし、ＰＴＡとの緊急集会も開かれるはずだ。\
+`　Before long the police should come. `@`He doesn't know what level of assistance he can provide, but the news might leak onto the television. `@`The local newspaper will likely pick up on it, and the PTA should open up an emergency meeting.`\
 
-　まったく……、何だって昨日からこんなに問題ばかり続くんだ……。@
+;　まったく……、何だって昨日からこんなに問題ばかり続くんだ……。@
+`　Geez... we've had nothing but problems like these since yesterday...`@
 br
-　昨日、井俣のクラスの生徒が行方不明になった。@しかも同時に４人。@
-　夜遅くになってそれぞれの親から、まだ学校から帰ってこない、と連絡が入ったのだ。\
+;　昨日、井俣のクラスの生徒が行方不明になった。@しかも同時に４人。@
+`　Yesterday, some studens in Imata's class were unaccounted for. `@`Furthermore, 4 people at the same time.`@
+;　夜遅くになってそれぞれの親から、まだ学校から帰ってこない、と連絡が入ったのだ。\
+`　He had gotten word that from several parents after it had gotten late at night that their students hadn't come home yet from school.`\
 
-　普段から学校をサボることが多く、@何かと素行の悪い生徒たちだったので、井俣は正直そこまで心配はしていなかった。@
+;　普段から学校をサボることが多く、@何かと素行の悪い生徒たちだったので、井俣は正直そこまで心配はしていなかった。@
+`　Normally it wasn't uncommon for students to skip school, `@`and for some reason those students were a particularly ill-mannered bunch, so Imata wasn't honestly that worried about them.`@
 br
-　……しかし一晩あけてもまだ見つかっていないとなると、さすがに楽観視はできなかった。\
+;　……しかし一晩あけてもまだ見つかっていないとなると、さすがに楽観視はできなかった。\
+`　...However, when they still weren't found a day later, he obviously couldn't remain optimistic.`\
 
 se1v 82,100
 
@@ -236,12 +270,16 @@ E_MA
 bg white,64
 bg kyou_01,22
 
-　ふぅっ、ともう一度重い溜息を吐いて、井俣は教室の扉を開けた。@
+;　ふぅっ、ともう一度重い溜息を吐いて、井俣は教室の扉を開けた。@
+`　*Phew*, Imata let out another heavy sigh and opened the classroom door.`@
 br
-　生徒たちがおしゃべりをやめて一斉にこちらを向く。\
+;　生徒たちがおしゃべりをやめて一斉にこちらを向く。\
+`　The students stopped chatting and all at once turned to face his way.`\
 
-　最前列に座っていた生徒と目が合った。@
-　毎日うさぎ小屋に通っていた飼育委員、@二瓶ひかる（にへい　ひかる）は、相変わらず無表情だった。\
+;　最前列に座っていた生徒と目が合った。@
+`　He met eyes with a student sitting in the front row.`@
+;　毎日うさぎ小屋に通っていた飼育委員、@二瓶ひかる（にへい　ひかる）は、相変わらず無表情だった。\
+`　An animal raising committee member who went to the rabbit pens every day, `@`Hikaru Nihei (二瓶ひかる), was as expressionless as always.`\
 
 textoff
 
@@ -253,72 +291,100 @@ ld r,HIK_Def2,22
 
 cl r,22
 
-　井俣は改めて教室を見渡す。@
+;　井俣は改めて教室を見渡す。@
+`　Once again Imata looks over the classroom.`@
 br
-　一つ、二つ、三つ、四つ。@
-　うさぎの事件の影に隠れてしまったが、@……昨日から行方不明になっている生徒の席は、依然、空席のまま点在していた……。\
+;　一つ、二つ、三つ、四つ。@
+`　One, two, three, four.`@
+;　うさぎの事件の影に隠れてしまったが、@……昨日から行方不明になっている生徒の席は、依然、空席のまま点在していた……。\
+`　It might have been hidden under the shadow of the rabbit incident, `@`...but since yesterday the missing students seats still dotted the classroom, empty...`\
 
 bg black,0
 ld c,HIK_Def2,22
 
-　二瓶ひかるはその無表情っぷりに相応しく、とてもおとなしい生徒だった。@
+;　二瓶ひかるはその無表情っぷりに相応しく、とてもおとなしい生徒だった。@
+`　Hikaru Nihei was appropriately expressionless, a very quiet student.`@
 br
-　しかし、クラスでの彼の様子を見ていれば、性格的におとなしい、と言うわけではなく、@誰も口を利くクラスメートがいない、ということに気付くはずだ。\
+;　しかし、クラスでの彼の様子を見ていれば、性格的におとなしい、と言うわけではなく、@誰も口を利くクラスメートがいない、ということに気付くはずだ。\
+`　However, looking him in this class, it wasn't that his personality was quiet, `@`but he didn't have classmates to talk to -- so it seemed.`\
 
-　ひかるには話し相手がいない。@
+;　ひかるには話し相手がいない。@
+`　Hikaru didn't have anyone to talk to.`@
 br
-　……つまり友達がいない。\
+;　……つまり友達がいない。\
+`　...In other words, he had no friends.`\
 
 bg black,2
 bg kyou_03,22
 
 me1v 24,50
 
-「……で、旧校舎の女子トイレから聞こえてくるんだってさ。@“めそめそ……めそめそ……そこの人、@どうか哀れな私の話を聞いてください”って女の子の声が……。」\
+;「……で、旧校舎の女子トイレから聞こえてくるんだってさ。@“めそめそ……めそめそ……そこの人、@どうか哀れな私の話を聞いてください”って女の子の声が……。」\
+`"...So, they say you can hear it from the former school building girl's bathroom. `A girl's voice would say...`@` "Mesomeso...mesomeso...you there, `@`please listen to my pitiful story~"`\
 
-「え、男じゃないの？@　なんか男の悲鳴や絶叫が聞こえるって。」@
-「だーかーらー。@それは、めそめそさんに祟り殺された先生の声で。」\
+;「え、男じゃないの？@　なんか男の悲鳴や絶叫が聞こえるって。」@
+`"Eh, it's not a guy? `@`I heard someone say they heard a guy screaming and shouting."`@
+;「だーかーらー。@それは、めそめそさんに祟り殺された先生の声で。」\
+`"As - I - was - saying. `@`That's the voice of the teacher that was killed by Mesomeso-san's curse."`\
 
-　帰りのホームルームが終わった後、教室の隅でクラスメートたちが話をしていた。@
+;　帰りのホームルームが終わった後、教室の隅でクラスメートたちが話をしていた。@
+`　After returning to their home room, his classmates were talking in the corner of the room.`@
 br
-　すぐ近くにひかるが座っているのに、会話に混ぜようとする気配は全くない。\
+;　すぐ近くにひかるが座っているのに、会話に混ぜようとする気配は全くない。\
+`　Even though they were sitting right next to him, there was no sign at all of him getting into the conversation.`\
 
-　それどころか視線にすら入れようとせず、ひかるの存在を完全に無視していた。@
-　こんなやつは最初からいない。@そんな態度だった。\
+;　それどころか視線にすら入れようとせず、ひかるの存在を完全に無視していた。@
+`　They wouldn't even let him enter their gaze, and they completely ignored Hikaru's existence.`@
+;　こんなやつは最初からいない。@そんな態度だった。\
+`　That kind of guy wasn't there from the beginning. `@`It was that kind of attitude.`\
 
-　ひかるはさっさと教室を出たかった。@
+;　ひかるはさっさと教室を出たかった。@
+`　Hikaru wanted to quickly leave the classroom.`@
 br
-　学校はもう終わったのだ。@自分をまるでいない者として扱う連中と一緒にいるのは苦痛でしかなかった。\
+;　学校はもう終わったのだ。@自分をまるでいない者として扱う連中と一緒にいるのは苦痛でしかなかった。\
+`　School was already over. `@`Staying around people who acted like he didn't exist was only agonizing.`\
 
 bg black,22
 
-　だが、帰ろうとしたひかるは、自分の鞄が余りにも軽いことに気付く。@
+;　だが、帰ろうとしたひかるは、自分の鞄が余りにも軽いことに気付く。@
+`　However, when Hikaru decided to go home, he noticed his bag was extremely light.`\
 br
-　……教科書やノートはホームルームが始まる前に全部しまったはずなのに。\
+;　……教科書やノートはホームルームが始まる前に全部しまったはずなのに。\
+`　...Even though he should have had his notebook and textbook since the beginning of homeroom period.`\
 
-　机の中やロッカーを探していると、@ついさっきまで徹底してひかるを無視していたクラスメートたちが、@いつの間にか話すのをやめてニヤニヤとこちらを見ているのが目に入った。\
+;　机の中やロッカーを探していると、@ついさっきまで徹底してひかるを無視していたクラスメートたちが、@いつの間にか話すのをやめてニヤニヤとこちらを見ているのが目に入った。\
+`　Looking through inside his desk and locker, `@`his classmates who had been completely ignoring Hikaru until moments ago, `@`suddenly stopped talking and he caught sight of them grinning his way.`\
 
 bg kyou_02,22
 ld r,HIK_def2,22
 
-　……またかよ。@
+;　……またかよ。@
+`　...Not again.`@
 br
-　そう思ってゴミ箱を見に行くと、案の定ひかるの教材道具は全部そこに投げ込まれていた。@
-　……ご丁寧に給食の飲み残しの牛乳がまんべんなくかけられて。\
+;　そう思ってゴミ箱を見に行くと、案の定ひかるの教材道具は全部そこに投げ込まれていた。@
+`　Thinking so, he went to look in the garbage can, and as he thought, Hikaru's class materials had all been thrown inside.`@
+;　……ご丁寧に給食の飲み残しの牛乳がまんべんなくかけられて。\
+`　...He carefully moved the leftover milks that covered them.`\
 
-　ぐっしょり、べったりと汚されたそれに、@自分の名前が書かれていることを認めるのは、それだけで苦痛だった。@
+;　ぐっしょり、べったりと汚されたそれに、@自分の名前が書かれていることを認めるのは、それだけで苦痛だった。@
+`　They were soaking wet and thickly soiled `@`and recognizing these were his things with his name written on them -- that alone was painful.`@
 br
-　教科書はともかく、ノートは捨てるしかないだろう。@先週同じことをされて買い替えたばかりなのに。\
+;　教科書はともかく、ノートは捨てるしかないだろう。@先週同じことをされて買い替えたばかりなのに。\
+`　He could make use of the textbook, but he probably had to throw away the notebook. `@`Even though he had just gotten it exchanged last week for the same reason...`\
 
-　何とも言えない悔しさと情けなさがこみ上げてきて、一瞬視界がふるっと揺れる。@
+;　何とも言えない悔しさと情けなさがこみ上げてきて、一瞬視界がふるっと揺れる。@
+`　A feeling of frustration and shame that could not be put into words welled his heart, and for an instant his vision blurred.`@
 br
-　ひかるは俯いたまま、しばらく顔を上げなかった。@クラスメートたちが自分のことをじっと見ているのを感じたからだ。\
+;　ひかるは俯いたまま、しばらく顔を上げなかった。@クラスメートたちが自分のことをじっと見ているのを感じたからだ。\
+`　As Hikaru held his head in shame, he didn't raise his face for some time. `@`Because he felt his classmates starting at him.`\
 
 ld r,HIK_Def3,22
 
-　そのままの姿勢で深呼吸をし、唇を噛んでいつもの無表情を作る。@そうしてゴミ箱から教科書を拾うと、牛乳にまみれた教科書をそのまま鞄の中に突っこんだ。@
+;　そのままの姿勢で深呼吸をし、唇を噛んでいつもの無表情を作る。@そうしてゴミ箱から教科書を拾うと、牛乳にまみれた教科書をそのまま鞄の中に突っこんだ。@
+`　Keeping his posture, he took a deep breath, bit his upper lip, and made his usual expressionless face. `@`With that, he took up his textbook from the garbage can, and stuffed that milk-stained textbook in his bag.`@
 br
-　家に帰るまでこの鞄を開けることはないだろう。@学校の中で教科書を洗って乾かしている惨めな姿なんて、誰にも見せたくはなかった。\
+;　家に帰るまでこの鞄を開けることはないだろう。@学校の中で教科書を洗って乾かしている惨めな姿なんて、誰にも見せたくはなかった。\
+`　He probably wouldn't open that bag until he got home.`@` He didn't want anyone to see him pathetically cleaning and drying out his textbook at school.`\
 
 ld r,HIK_Def2,80
 
@@ -332,12 +398,15 @@ bg white,63
 bg kyou_04,22
 quakex 1,100
 
-　その場から逃げるように教室を出る。@扉を閉めると同時に、大袈裟なほど下品な笑い声が聞こえてきた。\
+;　その場から逃げるように教室を出る。@扉を閉めると同時に、大袈裟なほど下品な笑い声が聞こえてきた。\
+`　He left the classroom as if he were running away from that scenario. `@`As he shut the door, he heard a grandoise vulgar laughter.`\
 
 
-「…………………………。」@
+;「…………………………。」@
+`"........."`@
 br
-　ひかるはもう一度唇を噛み締める。@そして教室に背を向けて歩き出す。\
+;　ひかるはもう一度唇を噛み締める。@そして教室に背を向けて歩き出す。\
+`　Hikaru once again bit his lower lip.`@` Then he turns away from the classroom and walks off.`\
 
 bg black,24
 
@@ -345,7 +414,8 @@ me1v 16,50
 
 bg rouka_03,24
 
-　一刻も早くうさぎ小屋に行きたかった。@
+;　一刻も早くうさぎ小屋に行きたかった。@
+`　He wanted to quickly head to the rabbit pens.`@
 br
 ;　……この学校で唯一自分を慰めてくれる、あのうさぎたちのところへ。\
 `　...In this school, Hikaru's unique place to go forget her worries, was to the rabbits.`\
@@ -374,13 +444,13 @@ br
 ;　うさぎ小屋の扉を開けながら、ひかるは話し掛ける。@
 `　While opening the door to their cage, Hikaru spoke to them.`@`
 ;　その顔はさっきまでの無表情が嘘のように生気に満ちていた。@声も随分と上機嫌な様子だ。\
-`　That face which had been expressionless until now, was filled with such spirit it was hard to believe.`@` Her voice also seemed to become extremely good-humored.`\
+`　That face which had been expressionless until now, was filled with such spirit it was hard to believe.`@` His voice also seemed to become extremely good-humored.`\
 
 ;ld c,HIK_Def1,80
 ;quakey 1,200
 
 ;　背負っていた鞄を小屋の隅の方に放り投げる。@ドサッという音と共に、乾いた土が舞い上がる。@
-`　She tossed the bag she'd been burdened with towards the corner of the cage.`@` Along with a thud, the dried earth whirled up.`@`
+`　He tossed the bag he'd been burdened with towards the corner of the cage.`@` Along with a thud, the dried earth whirled up.`@`
 br
 ;　その音に反応したのか、穴に隠れていたうさぎたちが顔を出した。\
 `　Whether they'd reacted to the sound or not, the rabbits that had hidden in holes poked their faces out.`\
@@ -403,12 +473,12 @@ br
 `　Compared to the other members and those involved, it was quite a difficult task, so it had been a position everyone distanced themselves from.`@`
 br
 ;　今学期が始まった時、ひかるは他のクラスメートたちにこの役職を半ば強制的に押し付けられたのだ。\
-`　From the start of this semester, Hikaru had been forced into this role by the rest of her classmates.`\
+`　From the start of this semester, Hikaru had been forced into this role by the rest of his classmates.`\
 ;　しかし、結果的には良かったと思っている。@
-`　But, in the end she thought it was good.`@`
+`　But, in the end he thought it was good.`@`
 br
 ;　このうさぎたちに会えていなければ、ひかるの学校生活は本当にどん底だったのだから。\
-`　Had she not met these rabbits, Hikaru's school life would truly have been the lowest of the low.`\
+`　Had he not met these rabbits, Hikaru's school life would truly have been the lowest of the low.`\
 
 ld r,HIK_Def4,80
 
@@ -425,24 +495,24 @@ br
 ld r,HIK_Def3,80
 
 ;「そんな高いものじゃないけどさ、@こんなにしょっちゅう捨てられるんなら、もう授業のノートなんかとらないでやろうかなって思うよ。」\
-`"It's not all that expensive, but,`@` if it's constantly getting thrown away, I wonder if it'd be better to just not take my class notebook anymore."`\
+`"It's not all that expensive, but,`@` if it's constantly getting thrown away, I wonder if it'd be better to just not take notes in class anymore."`\
 ;　そうだ。@ノートなんかとらなくたって、テストでいい点くらい取れる。@
-`　That's right.`@` Even if she doesn't bring her notebook, she could still get a good score on her tests.`@`
+`　That's right.`@` Even if he doesn't bring her notebook, he could still get a good score on his tests.`@`
 br
 ;　ひかるは頭が良い。@クラスの誰よりも頭がいい。@
-`　Hikaru was smart.`@` She was smarter than any in her class.`@`
+`　Hikaru was smart.`@` He was smarter than any in his class.`@`
 ;　クラスメートたちもそれを知っている。\
-`　Her classmates also knew this.`\
+`　His classmates also knew this.`\
 
 ;　二瓶ひかるはおとなしくて頭が良い。@
 `　Hikaru Nihei was quiet and smart.`@`
 ;　だから腹が立つ。@だから、虐められる。\
-`　That's why they were offended.`@` That's why she was bullied.`\
+`　So that made them jealous.`@` So he was bullied.`\
 
 ld r,HIK_Def2,80
 
 ;「……理不尽だろ、そんなの。」\
-`"...Isn't it unreasonable, all of that?"`\
+`"...Outrageous, isn't it?"`\
 bg black,22
 mono 1
 bg kyou_03,22
@@ -451,13 +521,13 @@ bg kyou_03,22
 `　How long had it been since Hikaru's posessions had started being thrown away?`@`
 br
 ;　全教科で百点をとって先生に褒められてから？@　厚意からみんなにノートをまとめるコツを教えてあげてから？\
-`　Since she receieved 100% in all of her classes and was praised by her teachers?`@` From when she kindly taught everyone her trick to taking notes?`\
+`　Was it because he receieved 100% in all of his classes and was praised by her teachers?`@` Was it because he kindly taught everyone his trick to taking notes?`\
 
 ;　何が原因だったのかは分からない。@もしくはそれら全部の積み重ねだったのか。@
-`　She did not know what the cause was.`@` Or if it was an accumulation of everything.`@`
+`　He did not know what the cause was.`@` Or if it was an accumulation of everything.`@`
 br
 ;　とにかくある日を境にひかるは「調子に乗ってる」と陰口を叩かれるようになり、@やがてそれは無視に変わり、持ち物がゴミ箱に投げ込まれるようになった……。\
-`　In any case, one day it seemed that Hikaru had been badmouthed as being 'too cocky.'`@` and finally when she'd moved on to ignoring it, it turned into having her personal items thrown into the garbage bin...`\
+`　In any case, one day it seemed that Hikaru had been badmouthed as being 'full of himself.'`@` and finally when he had moved on to ignoring it, it turned into having his personal items thrown into the garbage bin...`\
 bg black,22
 mono 0
 bg usagi_02,22
@@ -469,16 +539,16 @@ ld c,HIK_Def3,80
 
 br
 ;　口の中だけでそう呟くと、ひかるは近くにいたうさぎに手を伸ばし、そっと抱きしめた。\
-`　She muttered this to herself, Hikaru reached out her hand to a nearby rabbit, and softly hugged it.`\
+`　He muttered this to himself, and Hikaru reached out her hand to a nearby rabbit -- softly hugging it.`\
 
 ;　柔らかくて、温かい。@
 `　It was soft, and warm.`@`
 
 br
 ;　その体温をもっと感じたくて、抱きしめる腕に力を込める。@
-`　She wanted to feel that body warmth more, so she put more strength into the arm that was holding it.`@`
+`　He wanted to feel that body warmth more, so he put more strength into the arm that was holding it.`@`
 ;　……心を溶かすような温度が腕を通して伝わってくる。\
-`　...The temperature transmitted through her arms was enough to melt her heart.`\
+`　...The warmth transmitted through his arms was enough to melt his heart.`\
 
 textoff
 
@@ -496,7 +566,7 @@ me1v 16,50
 bg black,22
 
 ;　更に力を込める。@更に力を。@更に。@
-`　She used even more strength.`@` And more strength.`@` And more.`@`
+`　He used even more strength.`@` And more strength.`@` And more.`@`
 br
 ;　……グエッ、とうさぎの口から奇妙な音が漏れた。\
 `　...Gwehh, a strange sound escaped the rabbit's mouth.`\
@@ -509,7 +579,7 @@ br
 ;　だが、ひかるは離そうとしない。@
 `　But, Hikaru did not make to let go.`@`
 ;　うさぎがもがく様子をじっと見つめ、更に力を入れて身体全体を締めあげる……。\
-`　She stared at the rabbit's squirming state, putting more power from her entire body into strangling...`\
+`　He stared at the rabbit's squirming state, putting more power from his entire body into strangling...`\
 
 ;　うさぎが首をブンブンとすごい勢いで振り、@ぴんと立った耳がひかるの顔にぺちぺちと当たった。@
 `　The rabbit's neck droned and shook with great vigor,`@` and the ears that stood up straight hit Hikaru's face.`@`
@@ -528,9 +598,9 @@ quakey 2,200
 bgm1 6
 
 ;　そして、片手でうさぎを掴んだまま高々と持ち上げると、@隅で固まっていた他のうさぎたちの上に思い切り投げつけた。\
-`　Then, raising the rabbit with one hand as high as she could, `@`she threw it towards the other rabbits that had huddled together in the corner.`\
+`　Then, raising the rabbit with one hand as high as she could, `@`he threw it towards the other rabbits that had huddled together in the corner.`\
 ;　投げられたうさぎはぐったりと仰向けになり、@他のうさぎたちはパニックになって小屋の中を駆け回った。\
-`　The rabbit that had been thrown turned its head up, having been completely exhausted,`@` and the other rabbits became panicked and fled around the cage.`\
+`　The thrown rabbit went face up -- limp,`@` and the other rabbits became panicked and fled around the cage.`\
 ld l,HIK_w1,6
 ld l,HIK_w2,22
 
@@ -540,13 +610,13 @@ ld l,HIK_w2,22
 ;　大丈夫。@動物はこのくらいで死んだりはしない。@
 `　It's okay.`@` Animals won't die with just that.`@`
 ;　なにしろ毎日やってるのだ。@どこまでなら大丈夫かちゃんと加減は心得てる…。\
-`　She's been doing it every day.`@` She understood perfectly to what extent they're able to withstand.
+`　He has been doing it every day.`@` He understood perfectly to what extent they're able to withstand.
 
 se1v 10,50
 quakex 2,200
 
 ;　つま先で倒れているうさぎを蹴りあげながら、ひかるは感謝する。@
-`　She tiptoed over to the rabbit that had collapsed, and while kicking it up, Hikaru was grateful.`@`
+`　As he kicked up the fallen rabbit with the tip of his shoe, Hikaru felt grateful.`@`
 br
 ;　このうさぎたちがいてくれて本当に良かった。@飼育委員になって本当に良かった。@
 `　Thank goodness these rabbits are here.`@` Thank goodness I became a member of the animal raising committee.`@`
@@ -554,18 +624,18 @@ br
 `　If you I didn't have the time to play with you guys, I don't know what would happen to me during these days of being bullied.`\
 
 ;　かろうじて起き上がったうさぎは、穴の中に隠れようとした。@
-`　The rabbit who could barely even stand, had gone to hide in a hole.`@`
+`　The rabbit who could barely even stand, went to go hide in a hole.`@`
 br
 
 quakex 2,200
 
 ;　だが、ひかるはその後ろ足を鷲のように掴み、無造作に引きずり戻す。\
-`　However, like an eagle, Hikaru caught it with her back leg, and casually dragged it back.`\
+`　However, like an eagle, Hikaru caught its back leg, and casually dragged it back.`\
 
 quakex 1,100
 
 ;　遠ざけられたうさぎは、また這うようにして穴に向かうが、@穴に辿り着く直前で再び引きずり戻す。@それを何度も繰り返す。\
-`　The rabbit who had mannaged to keep away tried to crawl back into the hole but, `@`just as it was about to reach the hole, it was pulled back again.`@` This repeated many times.`\ 
+`　The rabbit mannaged to get away and tried to crawl back into the hole again, `@`but just as it was about to reach the hole, it was pulled back again.`@` This repeated many times.`\ 
 
 bg black,23
 bg usagi_02,23
@@ -573,24 +643,24 @@ ld c,HIK_Def2,22
 
 
 ;「……あいつら、手は出さないんだ。」@
-`"...Those guys just won't pull back."`@`
+`"...Those guys, just don't hit me."`@`
 br
 ;　後ろ足をひねるようにして引きずりながら、ひかるは無表情のままで呟く…。\
-`　Twisting her back leg back while pulling it to her again, Hikaru expressionlessly murmured...`\
+`　Twisting its back leg back and pulling it towards him again, Hikaru murmured with his expressionless face...`\
 
 ld c,HIK_w2a,80
 
 ;「教材は捨てるし、靴は隠すし、体操着は破くし。@掃除当番も班の仕事も全部僕に押し付ける。@……そういうことするのは全然平気なくせに、絶対に殴ったり蹴ったりはしてこないんだ。」\
-`"They throw away my school supplies, hide my shoes, tear up my gym uniform.`@` They force me to do all of the work during cleaning duty.`@` ...Even though doing those things is entirely not okay, I still haven't come to hit them or kick them."`\
+`"They throw away my school supplies, hide my shoes, tear up my gym uniform.`@` They force me to do all of the work during classroom cleaning duty.`@` ...I'm totally fine with that, but they still haven't punched me or kicked me."`\
 
 ;　殴らない。@蹴らない。@身体に痕を残さない。@ひかるはそれを心底軽蔑する。@
-`　I won't hit them.`@` I won't kick them.`@` I won't leave any marks.`@` Hikaru scorned this from the bottom of her heart.`@`
+`　They don't hit him.`@` They don't kick him.`@` They don't leave any marks.`@` Hikaru hated this from the bottom of his heart.`@`
 br
 ;　もし、ひかるが自殺をしたらきっと彼らはこう言うだろう。\
 `　If Hikaru were to commit suicide, surely they all would say this.`\
 
 ;　自分たちはイジメなんかしてません。@あいつに手を出したことなんて一度もありません。@一度も。@……一度も……。\
-`　Well, we didn't bully her or anything!`@` We've never once laid a finger on her.`@` Not once...`@`...not even once...`\
+`　Well, we didn't bully him or anything!`@` We've never once laid a finger on him.`@` Not once...`@`...not even once...`\
 cl c,0
 ld r,HIK_i1,23
 se1v 10,50
