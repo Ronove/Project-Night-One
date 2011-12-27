@@ -670,19 +670,24 @@ quakex 2,200
 `"...Don't fuck with me."`@`
 br
 ;　彼らには、本当にひかるを虐めているという実感がないのかもしれない。@
-`　
+`　To them, they might not have really felt they were bullying Hikaru.`@
 ;　だとしたら許せなかった。\
+`　If that was the case, he couldn't forgive them.`\
 
 bg black,22
 ;bg aka3,28
 
-　殴ってみろよ。@蹴り飛ばしてみろよ。@
+;　殴ってみろよ。@蹴り飛ばしてみろよ。@
+`　Try hitting me!`@` Try kicking me in the air!`@
 br
-　なぁ、知っているか？@　何度も持ち物がなくなるあの絶望感を。@親に靴をなくした言い訳をする時の情けなさを。\
+;　なぁ、知っているか？@　何度も持ち物がなくなるあの絶望感を。@親に靴をなくした言い訳をする時の情けなさを。\
+`　Heeyy, do you know?`@` Do you know that feeling of having your things gone over and over?`@` That feeling of making excuses to your parents when your shoes disappear?`\
 
-　あれが暴力じゃないなんて絶対に言わせない。@
+;　あれが暴力じゃないなんて絶対に言わせない。@
+`　Since it's not physical violence I can't tell anyone anything.`@
 br
-　目に見える傷をつけなきゃ実感できないと言うなら殴ればいい。@歯を折ればいい。@顎を割ればいい。@どれだけ自分が傷ついてるか彼らに分からせるためなら、進んで袋叩きにされたかった。\
+;　目に見える傷をつけなきゃ実感できないと言うなら殴ればいい。@歯を折ればいい。@顎を割ればいい。@どれだけ自分が傷ついてるか彼らに分からせるためなら、進んで袋叩きにされたかった。\
+`　Because they'll say it didn't happen if I don't have a scratch on me, they should hit me. `@`Knock out my teeth. `@`Break my jaw. `@`I want them to beat me up until I can make someone recognize how much they've hurt me.`\
 
 bg usagi_01,23
 
@@ -690,18 +695,25 @@ se1v 11,50
 
 quakex 2,200
 
-「殴ってみろってんだッ！！」@
+;「殴ってみろってんだッ！！」@
+`"I said hit me dammit!!"`@
 br
-　吐き捨てるように言って、掴んでいたうさぎを金網に投げつける。@ガシャンと派手な音がするが、彼の心を慰めはしない。\
+;　吐き捨てるように言って、掴んでいたうさぎを金網に投げつける。@ガシャンと派手な音がするが、彼の心を慰めはしない。\
+`　He spat out, and threw the rabbit he held against the wire screen. `@`Although the loud crashing sound did not divert his thoughts.`\ 
 
-　ひかるは実感している。@
+;　ひかるは実感している。@
+`　Hikaru understood.`@
 br
-　自分はこのうさぎたちを虐めている。@抵抗できない、鳴くことすらできない小さな動物を毎日毎日虐待している。\
+;　自分はこのうさぎたちを虐めている。@抵抗できない、鳴くことすらできない小さな動物を毎日毎日虐待している。\
+`　He was bullying these rabbits. `@`He was abusing tiny animals -- that couldn't fight back -- that could only cry each and every day.`\
 
-　ひどいことをしている。@それをよく分かってる。@
-　でも、そのひどいことが堪らなく心地良い。@それをきちんと認め、実感しているのだ。@
+;　ひどいことをしている。@それをよく分かってる。@
+`　He was doing something cruel. `@`He knew that well.`@
+;　でも、そのひどいことが堪らなく心地良い。@それをきちんと認め、実感しているのだ。@
+`　But, those cruel things felt irresistably soothing.`@` He readily accepted and felt it.`@
 br
-　ひかるはもう一度掴み上げようとうさぎに手を伸ばす。\
+;　ひかるはもう一度掴み上げようとうさぎに手を伸ばす。\
+`　Once again Hikaru put out his hand to take up another rabbit.`\
 
 
 
@@ -720,7 +732,8 @@ br
 bg black,1
 E_A
 
-「……こんにちは。」\
+;「……こんにちは。」\
+`"...Hello."`\
 
 lsp bgsp2,":a;bmp\background\efe\a003.bmp",0,0
 print 0
@@ -730,41 +743,56 @@ quakey 2,200
 
 me1v 16,50
 
-「…………ッ！！」@
+;「…………ッ！！」@
+`"...!!"`@
 br
-　唐突に声を掛けられ、ひかるはビクッと振り返る。\
+;　唐突に声を掛けられ、ひかるはビクッと振り返る。\
+`　Having suddenly heard a voice, Hikaru looks back with a jump.`\
 
 mld r,MAR_Def1,42
 
-　見ると、うさぎ小屋の金網の向こうに、小柄な眼鏡姿の少女が立っていた。\
+;　見ると、うさぎ小屋の金網の向こうに、小柄な眼鏡姿の少女が立っていた。\
+`　When he looked, on the other side of the rabbit pen wire stood a small girl wearing glasses.`\
 
-　……見られた？@　うさぎたちと戯れる、至福の時間を……？@
-　というか、誰だこいつ、とっとと消えろ……。@
+;　……見られた？@　うさぎたちと戯れる、至福の時間を……？@
+`　...Did she see me?`@` My amusements with the rabbits, my moment of bliss...?`@`
+;　というか、誰だこいつ、とっとと消えろ……。@
+`　Speaking of -- who is this girl? Hurry up and disappear...`@
 br
-　そんな感情がそのままひかるの目に浮かんだのだろう。@少女は萎縮してしまう。\
+;　そんな感情がそのままひかるの目に浮かんだのだろう。@少女は萎縮してしまう。\
+`　Perhaps those emotions welled up into Hikaru's eyes. `@`The girl shriveled.`\
 
 mld r,MAR_def4a,80
 
-「ご、……ごめんなさい。@いきなり声を掛けて、……驚かせちゃったね。」@
+;「ご、……ごめんなさい。@いきなり声を掛けて、……驚かせちゃったね。」@
+`"I- ...I'm sorry.`@` For suddenly speaking like that ...and scaring you."`\
 br
-　そう言って、取り繕うように笑う。\
+;　そう言って、取り繕うように笑う。\
+`　Saying that, she smiled as if to smooth things over.`\
 
-　いつの間にそこにいたのだろう。@
+;　いつの間にそこにいたのだろう。@
+`　When did she get here?`@
 br
-　ひかるはこの小屋でうさぎたちと“遊ぶ”時は、常に誰かがやって来ないか警戒している。\
+;　ひかるはこの小屋でうさぎたちと“遊ぶ”時は、常に誰かがやって来ないか警戒している。\
+`　When Hikaru was "playing" with the rabbits in the pen, he was always cautious of whether or not someone was coming.`\
 
-　うさぎ小屋の中からは、校舎の昇降口も校庭も全て見渡せる。@誰かがうさぎ小屋に近付いてきたら、すぐに気付くはずだ。@
-　だが、少女の接近には今の今まで気がつかなかった。@
+;　うさぎ小屋の中からは、校舎の昇降口も校庭も全て見渡せる。@誰かがうさぎ小屋に近付いてきたら、すぐに気付くはずだ。@
+`　The inside of the rabbit pens looks over the school entrance, courtyard, everything. `@`If someone were to near the rabbit pens, he would quickly notice.`@
+;　だが、少女の接近には今の今まで気がつかなかった。@
+`　However, he hadn't noticed her approach until this very second.`@
 br
-　ひかるは立ち上がり、少女の視線からうさぎたちを隠すように間に入った。\
+;　ひかるは立ち上がり、少女の視線からうさぎたちを隠すように間に入った。\
+`　Hikaru stood, as if to hide the rabbits from her gaze.`\
 
 
 ld l,HIK_Def4a,26
 ;ld l,HIK_Def3,80
 
-「……何か用？」@
+;「……何か用？」@
+`"...Need something?"`@
 br
 　無表情を崩さずにぶっきらぼうに答えたが、内心はかなりドキドキしていた。@
+
 　うさぎとの戯れを、見られたかもしれない。\
 
 ld l,HIK_Def1,80
