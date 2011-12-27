@@ -160,7 +160,7 @@ int main()
 			}
 			else
 			{
-				std::cout << "Successfully created image " << data_entries[i].output_filename << std::endl;
+				std::cout << "Created " << data_entries[i].output_filename << " from " << data_entries[i].input_string << std::endl;
 			}
 
 			window.Display();
