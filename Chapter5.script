@@ -1077,7 +1077,7 @@ mbg black,22
 ;ld l,HIK_Def1,80
 
 ;　ひかるは不意に違和感を感じ、自分の口を押さえる。@
-`　Hikaru suddenly felt uncomfortable, and held her tongue.`@`
+`　Hikaru suddenly felt uncomfortable, and held his tongue.`@`
 br
 ;　僕は今、無意識に自分の考えを声に出していただろうか？\
 `　Did I just, unconciously say what I was thinking?`\
@@ -1088,7 +1088,7 @@ br
 `　Yet, he regarded the words in my mind, and is replying to them...`@`
 br
 ;　ひかるの口は干上がったかのようにカラカラに乾いている。\
-`　Hikaru's mouth became dry as though she were parched.`\
+`　Hikaru's mouth became dry as though he were parched.`\
 
 cl l,0
 mcbg 22
@@ -1127,69 +1127,83 @@ br
 ;　出会ってから本当にわずかな時間しか経っていないにも関わらず、@目の前に立っているこの青年が、ただの人間でないということを受け入れる。\
 `　In spite of the fact that only a miniscule amount of time had passed since they'd met,`@` she was able to accept that the young man standing in front of her, was not any ordinary human.`\
 ;　何者かは分からないが、彼は自分とは違う、何か特別な存在なのだと。@ひかるは全身の感覚でそれを感じ取った。@
-`　I don't know what he is, just that he is different from me, some sort of special existence.`@` 
+`　I don't know what he is, just that he is different from me, some sort of special existence.`@` Hikaru sensed this feeling through his entire body.`@`
 br
 ;　そうだ。@……そもそも彼は、ひかるがうさぎ小屋から出ようとした瞬間、@そのすぐ背後、うさぎ小屋の中にいきなり現れたのだ。\
-`　
-　普通の人間には、そんなこと絶対に不可能だ。@金網をすり抜けることが出来ない限りは。\
-
+`　That's right.`@`...In the first place, the moment Hikaru went to leave the rabbit cage,`@` he suddenly appeared immediately behind Hikaru inside the rabbit cage.`\
+;　普通の人間には、そんなこと絶対に不可能だ。@金網をすり抜けることが出来ない限りは。\
+`　For a normal human, that sort of thing is absolutely impossible.`@` As long as one could not slip through the wire mesh.`\
+ 
 ld l,HAM_Def1,80
 
-「理解が早くて助かるよ。@最近は、僕らみたいな存在を頭から否定してて、@どんなに証明しても受け入れてくれない子供が多いんだ。」\
+;「理解が早くて助かるよ。@最近は、僕らみたいな存在を頭から否定してて、@どんなに証明しても受け入れてくれない子供が多いんだ。」\
+`"It's a big help you understood so quickly.`@` These days, there are plenty of children out there who start out denying us,`@` and won't accept any proof we give them."`\
 
 ld r,HIK_Def4,80
 
-「あなたは……その、妖怪なんですか……？」@
+;「あなたは……その、妖怪なんですか……？」@
+`"You're...er, a youkai, right...?"`@~
+
 br
-　上擦った声で尋ねると、青年はニッコリ笑って言った。\
+;　上擦った声で尋ねると、青年はニッコリ笑って言った。\
+`　He asked in a nervous voice, which made the young man grin broadly as he replied.`\
 
 ld l,HAM_Def2,80
 
-「ハメルン。@それが僕の名前。@……みんなには“音楽室のハメルン”って呼ばれたいね。」@
+;「ハメルン。@それが僕の名前。@……みんなには“音楽室のハメルン”って呼ばれたいね。」@
+`"Hameln.`@` That is my name.`@`...Everybody calls me 'Hameln of the Music Room,' correct?"`@`
 
 ld r,HIK_Def2,80
 
-「……音楽室？」\
+;「……音楽室？」\
+`"...The music room?"`\
 
 ;ld l,HAM_Def3,80
 
 bg black,22
 bg gakkou_03,22
 
-「ほら、あそこ。@……このうさぎ小屋の向かいの教室だよ。@僕はいつもあそこにいてね。@あの窓から毎日ここに通う君をこっそり覗いてたってわけさ。」@
+;「ほら、あそこ。@……このうさぎ小屋の向かいの教室だよ。@僕はいつもあそこにいてね。@あの窓から毎日ここに通う君をこっそり覗いてたってわけさ。」@
+`"See, over there.`@`...It's the classroom facing this rabbits' cage.`@` I am always over there.`@` The truth is, from that window, I have secretly spied you come here every day."`@`
 br
-　そう言うと、ハメルンと名乗った青年は、自分の手をひかるの目の前に差し出した。\
-
+;　そう言うと、ハメルンと名乗った青年は、自分の手をひかるの目の前に差し出した。\
+`　Saying this, the young man called Hameln, presented his hand in front of Hikaru's eyes.`\
 bg black,22
 ;bg usagi_01,26
 
 me1v 16,50
 
-　その手には何かが握られている。@ハメルンは勿体ぶるようにゆっくりとその指を広げる……。@
+;　その手には何かが握られている。@ハメルンは勿体ぶるようにゆっくりとその指を広げる……。@
+`　That hand was grasping something.`@` Hameln seemed to put an air of importance as he slowly spread his fingers...`@`
 br
-　……それは、何……？@
-　次第に見えてきたそれは……、カスタネットだった。\
+;　……それは、何……？@
+`　...What is that...?`@`
+;　次第に見えてきたそれは……、カスタネットだった。\
+`　The next thing he could see were..., castanets.`\
 
 ld r,HAM_Def1,22
 
-「……『ハメルンのカスタネット』っていう怪談を聞いたことある？」@
-「いえ、僕はそういうのはあんまり詳しくないです……。@……でも多分、学校の八不思議の中に入ってるんじゃないかと……。」\
-
+;「……『ハメルンのカスタネット』っていう怪談を聞いたことある？」@
+`"...Have you heard the ghost story called, 'The Castanets of Hameln?`"`@`
+;「いえ、僕はそういうのはあんまり詳しくないです……。@……でも多分、学校の八不思議の中に入ってるんじゃないかと……。」\
+`"No, I'm not all that well-versed in that sort of thing...`@`...But perhaps, you might be one of the school's eight mysteries..."`\
 
 ;bg black,24
 bg usagi_02,0
 ld r,HAM_Def1,22
 ld r,HAM_Def2,80
 
-「あぁ、僕のは八不思議にはまだ入ってないんだよ。@この学校に来てから、まだ日が浅いからね。@……う～ん、そうか残念。@まだまだ怪談も僕も無名みたいだ。」\
+;「あぁ、僕のは八不思議にはまだ入ってないんだよ。@この学校に来てから、まだ日が浅いからね。@……う～ん、そうか残念。@まだまだ怪談も僕も無名みたいだ。」\
+`"Ah, I have not become one of the Eight Mysteries.`@` After all, it hasn't been very long since I came to this school.`@`...Yes, it is unfortunate.`@` It seems I am still but a nameless ghost story."`\
 
 ld l,HIK_Def2,23
 
-「……ハメルンのカスタネット…。@……聞いたことないです、そんな怪談。」@
-
+;「……ハメルンのカスタネット…。@……聞いたことないです、そんな怪談。」@
+`"...The Castanets of Hameln...`@` ...I haven't heard of that ghost story."`@` 
 ld r,HAM_Def1,80
 
-「僕のはね、こんな話なんだ……。」\
+;「僕のはね、こんな話なんだ……。」\
+;"Mine is a story like such..."`\
 
 bg black,22
 
@@ -1203,29 +1217,37 @@ wait 2000
 bg black,22
 bg ongaku_01,2
 
-　……夜、音楽室にいると、カチ、カチ、カチというカスタネットの音が聞こえてくる。@
+;　……夜、音楽室にいると、カチ、カチ、カチというカスタネットの音が聞こえてくる。@
+`　...At night, if you are in the music room, you can hear the sound of castanets go click, click, click.`@`
 br
-　しかし、辺りを見回しても誰もいない……。\
+;　しかし、辺りを見回しても誰もいない……。\
+`　But if you look around you, there is nobody there...`\
 
-　カチ、カチ、カチ……。@
+;　カチ、カチ、カチ……。@
+`　Click, click, click...`@`
 br
-　音は段々大きくなってくる。\
+;　音は段々大きくなってくる。\
+`　The sound gradually becomes louder.`\
 
 me2v 28,70
 
 ;bg black,22
 bg ongaku_03,2
 
-　……そこで気付くんだ。@自分の姿がいつの間にか小さなねずみに変わっていることに……。@
+;　……そこで気付くんだ。@自分の姿がいつの間にか小さなねずみに変わっていることに……。@
+`　...And that's when you notice.`@` Your form has become that of a small rat while you were unaware...`@`
 br
-　カチ、カチ、カチ、というその音は、ねずみになった自分が歯を打ち鳴らしている音なんだって。\
-
+;　カチ、カチ、カチ、というその音は、ねずみになった自分が歯を打ち鳴らしている音なんだって。\
+`　They say that click, click, clicking sound, was really the sound of your mousey teeth clicking together.`\
 ld c,HAM_Def1,22
 
-　……すると、いつの間にか音楽室の中に、カスタネットを持った男が立っている。@
-　彼は自分を“ハメルン”と名乗る。\
+;　……すると、いつの間にか音楽室の中に、カスタネットを持った男が立っている。@
+`　...And then, before you know it a man is standing in the music room holding castanets.`@`
+;　彼は自分を“ハメルン”と名乗る。\
+`　He calls himself, "Hameln."`\
 
-　そして、ねずみに姿を変えられた子供達は、@ハメルンの鳴らすカスタネットの音に導かれ、闇の中へと消えていくらしい……。\
+;　そして、ねずみに姿を変えられた子供達は、@ハメルンの鳴らすカスタネットの音に導かれ、闇の中へと消えていくらしい……。\
+`　Then, the children who turned into rats, `@` seem to disappear into the darkness, guided by the sound of Hameln's beating castanets...`\
 
 bg black,2
 
@@ -1238,10 +1260,12 @@ ld c,HAM_Def2,80
 
 bgm1 14
 
-「と、こんな怪談なのさ。@ぜひ君にも広めて欲しいね。」@
-br
-　……初めて聞く話だった。@噂好きのクラスメートたちが話しているのも聞いたことがない。\
+;「と、こんな怪談なのさ。@ぜひ君にも広めて欲しいね。」@
+`"And, that's the kind of story it is.`@` I would love it if you also would spread it around."`@`
 
+br
+;　……初めて聞く話だった。@噂好きのクラスメートたちが話しているのも聞いたことがない。\
+`　...That's the first time I've heard it.`@` I haven't even heard it from my rumor-loving classmates when they talk.`\
 ;bg black,23
 ;bg usagi_03,0
 ;ld l,HAM_Def2,23
@@ -1250,31 +1274,39 @@ cl c,0
 
 ld l,HAM_Def1,24
 
-「だから言ったろ？@　まだ日が浅いって。@だけどそのうち、みんな嫌でもこの怪談を噂するようになるよ。@この学校の名物になるくらいね。」\
-
+;「だから言ったろ？@　まだ日が浅いって。@だけどそのうち、みんな嫌でもこの怪談を噂するようになるよ。@この学校の名物になるくらいね。」\
+`"Well, I told you, didn't I?`@` I haven't been here long.`@` But in that time, even if it's detestable, everybody seems to be gossiping about it.`@` It has gotten to the point of becoming this school's famous product."`\
 ld r,HIK_Def4,22
 ;ld r,HIK_Def4,80
 
-「その……。@それで、そのハメルンさんが僕に何の用ですか……？」@
+;「その……。@それで、そのハメルンさんが僕に何の用ですか……？」@
+`"Er...`@` Then, is there something you want from me, Hameln-san...?"`@`
 br
-　犠牲者をねずみに姿を変えてしまうという物騒な妖怪が、……自分に何の用があるというのか。@
-　まさか、自分をねずみにするつもりじゃ………。\
+
+;　犠牲者をねずみに姿を変えてしまうという物騒な妖怪が、……自分に何の用があるというのか。@
+`　What could a dangerous Youkai who turns his victims into rats...what could he want with me?`@`
+;　まさか、自分をねずみにするつもりじゃ………。\
+`　He couldn't be, planning on turning me into a rat...`\
 
 ld l,HAM_Def2,80
 
-「フフフ、そんなに身構えなくてもいいよ。@僕は君を助けてあげに来たんだから。」@
+;「フフフ、そんなに身構えなくてもいいよ。@僕は君を助けてあげに来たんだから。」@
+`"Hu, hu, hu, you don't need to be so on guard.`@` After all, I came here to help you."`@`
 
 ld r,HIK_Def4a,80
 
-「助ける？@　……僕を？」\
+;「助ける？@　……僕を？」\
+`"Help?`@`...Help me?"`\
 
 ld l,HAM_Def3,80
 
-「そう。@……ひかる君さ。@いつまで、こうやってうさぎたちに八つ当たり続けるつもり？」@
+;「そう。@……ひかる君さ。@いつまで、こうやってうさぎたちに八つ当たり続けるつもり？」@
+`"Yes.`@`...Hikaru-kun.`@` How long do you plan on letting out your anger on the rabbits like this?"`@`
 
 ld r,HIK_i1,80
 
-「…………っ。」\
+;「…………っ。」\
+`"....!"`\
 
 bg black,24
 bg usagi_02,24
@@ -1282,30 +1314,39 @@ bg usagi_02,24
 
 me1v 5,50
 
-　ハメルンは、金網の隅に怯えるように群がっているうさぎたちを見ながら笑う。\
-
+;　ハメルンは、金網の隅に怯えるように群がっているうさぎたちを見ながら笑う。\
+`　Hameln smiled as he looked at the frightened rabbits, all huddled in the corner of the wire mesh.`\
 ld r,HAM_Def1,22
 
-「これって動物虐待って言うんだろ？@　随分と残酷なことするよね。@罪もないうさぎたちを、いじめるなんて。」@
+;「これって動物虐待って言うんだろ？@　随分と残酷なことするよね。@罪もないうさぎたちを、いじめるなんて。」@
+`"This is called animal abuse, right?`@` It is a particularly cruel sort of thing.`@` To torture these innocent rabbits.`@`
 br
-　それを言われると、……何も言い返せない。\
+;　それを言われると、……何も言い返せない。\
+`　Being told that, ...I am unable to retort.`\
 
-　僕という弱者をいじめることが社会の摂理ならば。@……うさぎという弱者を僕がいじめることだって、同じ摂理のはずなのだ。@
+;　僕という弱者をいじめることが社会の摂理ならば。@……うさぎという弱者を僕がいじめることだって、同じ摂理のはずなのだ。@
+`　If a weak person like me is persecuted as allotted by society,`@`... then a weak creature like a rabbit should have the same courtesy.`@`
 br
-　……僕がいじめられるように、より弱者のうさぎたちだって、いじめられる義務がある。@そして僕には権利がある。@……そう思っていた。\
+;　……僕がいじめられるように、より弱者のうさぎたちだって、いじめられる義務がある。@そして僕には権利がある。@……そう思っていた。\
+`　...These rabbits that are weaker than I am bear the responsibility to be tormented the same way I am.`@` And I have that right.`@`...That's what I thought.`\
 
-　しかし、それはあくまで僕の中だけで成立するルールだ。@
+;　しかし、それはあくまで僕の中だけで成立するルールだ。@
+`　But in the end, that was just a rule established only by me.`@`
+
 br
-　うさぎたちには、何の罪もない。@
-　僕にいじめられる、どんな理由も存在しない……。\
+;　うさぎたちには、何の罪もない。@
+`　These rabbits are innocent.`@`
+;　僕にいじめられる、どんな理由も存在しない……。\
+`　There is no reason why they should tormented by me...`\
 
 ld r,HAM_Def2,80
 
-「うさぎたちに責任があるならばともかく。@……何の罪もないのに虐めるなんて。@それはおかしいことじゃないかい？」@
-
+;「うさぎたちに責任があるならばともかく。@……何の罪もないのに虐めるなんて。@それはおかしいことじゃないかい？」@
+`"Regardless of whether these rabbits hold any responsibility.`@`...To torture something that is innocent.`@` Isn't that just ridiculous?"`@`
 ld l,HIK_Def4a,23
 
-「…………………………。」\
+;「…………………………。」\
+"......."`\
 
 bg black,22
 mono 2
@@ -1313,20 +1354,26 @@ bg Different_spiral_1a,22
 
 me2v 17,50
 
-　そうさ。@僕がいじめられっこだからといって、@……より弱いモノをいじめる理由になどなりはしない。@
+;　そうさ。@僕がいじめられっこだからといって、@……より弱いモノをいじめる理由になどなりはしない。@
+`　That's right.`@`Saying it was all because I was tormented,`@` ...was no excuse for abusing things that were weaker.`@`
+
 br
-　多分、心のどこかで理解はしていた。@
+;　多分、心のどこかで理解はしていた。@
+`　I think, somewhere in my heart I understood that.`@`
 br
-　でも、……じゃあ、僕の悲しみや怒りは、どこへ吐き出せばいいんだよ…？！\
+;　でも、……じゃあ、僕の悲しみや怒りは、どこへ吐き出せばいいんだよ…？！\
+`　But, ...then, where am I supposed to let out all of my sadness and anger...?!`\
 
 ;bg Different_spiral_1b,22
 
-　最近は色々と物騒だ。@動物虐待なんかでも、新聞や警察は大騒ぎする。@
+;　最近は色々と物騒だ。@動物虐待なんかでも、新聞や警察は大騒ぎする。@
+`　These days its been all kinds of dangerous.`@` Things like animal abuse would cause a huge stir with the newspaper and the police.`@`
 br
-　……僕という人間をいじめても、誰も咎めないのに、@……僕がうさぎをいじめると、……裁かれるというのか………。@
+;　……僕という人間をいじめても、誰も咎めないのに、@……僕がうさぎをいじめると、……裁かれるというのか………。@
+`　...Even if this human I call myself is being tortured, even though I cannot blame anyone,`@` ...I tortured rabbits, ...and am being judged...`@`
 br
-　この男は、……うさぎをいじめた僕を咎め、……裁こうというのか……。\
-
+;　この男は、……うさぎをいじめた僕を咎め、……裁こうというのか……。\
+`　This boy, ...I, who abused rabbits, will be rebuked...so let's judge him? Is that how it will be...?`\
 bg black,22
 mono 0
 
@@ -1338,87 +1385,100 @@ ld l,HAM_Def1,22
 ld l,HAM_Def2,1
 quakey 1,100
 
-「あははははははははははは！」@
+;「あははははははははははは！」@
+`"Ahahahahahaha!"`@`
 
 bgm1 7
 
 br
-　突然ハメルンが愉快そうに笑いだした。\
+;　突然ハメルンが愉快そうに笑いだした。\
+`　Suddenly, Hameln let out a pleasant laugh.`\
 
 ld l,HAM_Def3,80
 
-「ひかる君、人の話聞かないなぁ。@言っただろ？@　僕は君を助けてあげに来たんだって。@何だよ裁くって。@あははははは！」@
+;「ひかる君、人の話聞かないなぁ。@言っただろ？@　僕は君を助けてあげに来たんだって。@何だよ裁くって。@あははははは！」@
+`"Hikaru-kun, you don't listen to what people are saying, do you?`@` Remember?`@` I said I came here to help you.`@` What's all this about being judged?`@` Ahahahahaha!"`@`
 
 ld r,HIK_Def4a,22
 
-「………………。」\
-
+;「………………。」\
+"......."`\
 
 ld l,HAM_Def2,80
 
-「もしかして君、僕のことを小動物を愛する心やさしい妖怪…、とでも思ってる？」@
+;「もしかして君、僕のことを小動物を愛する心やさしい妖怪…、とでも思ってる？」@
+`"Could it be that you think I am a kind-hearted youkai...who loves small animals?"`@`
 
 ld r,HIK_Def2,80
 
-「……違うんですか。」\
+;「……違うんですか。」\
+`"...Is that wrong?"`\
 
 cl l,0
 ld c,HAM_Def1,23
 
-　ハメルンは、この上なく楽しそうに笑うと、その長い手をひかるの首に回し、@まるで口づけでもするくらいの至近距離でジッと目を覗き込んできた。\
-
+;　ハメルンは、この上なく楽しそうに笑うと、その長い手をひかるの首に回し、@まるで口づけでもするくらいの至近距離でジッと目を覗き込んできた。\
+`　Hameln laughed even harder than ever, waved his hand in dismissal at Hikaru, `@` and at a range close enough to kiss, he peered into Hikaru's eyes.`\
 
 ld r,HIK_Def4a,80
 
-「……な……なんですか！？」@
+;「……な……なんですか！？」@
+`"...Wh...what is this?!"`@`
 br
-　ハメルンの目は吸い込まれるような赤い色をしていた。@まるでうさぎの瞳のように。\
+;　ハメルンの目は吸い込まれるような赤い色をしていた。@まるでうさぎの瞳のように。\
+`　Hameln's eyes were stunningly red.`@` It was exactly like a rabbit's eyes.`\
 
 ld c,HAM_Def3,80
 
-「……君は傷ついてる。@あのクラスメートたちの仕打ちに、心の底から傷ついてる。@関係ないうさぎに当たり散らしたところで、そんなのは所詮その場しのぎだ。@君の傷は決して癒えることはない。@……違うかい？」\
-
+;「……君は傷ついてる。@あのクラスメートたちの仕打ちに、心の底から傷ついてる。@関係ないうさぎに当たり散らしたところで、そんなのは所詮その場しのぎだ。@君の傷は決して癒えることはない。@……違うかい？」\
+`"...You are hurting.`@` You are hurting from the bottom of your heart due to the poor treatment from your classmates.`@` You made do with a makeshift measure of striking these rabbits of no relation to you.`@` But your pain could not be healed.`@` Am I wrong?"`\
 bg black,23
 bg gakkou_02u,23
 
-　そう言って、ハメルンは視線をひかるから校舎の方に移した。@
-　２階の廊下に、さっき教室にいたひかるのクラスメートたちがいるのが見えた。\
-
+;　そう言って、ハメルンは視線をひかるから校舎の方に移した。@
+`　And saying this, Hameln's gaze shifted from Hikaru to the school building.`@`
+;　２階の廊下に、さっき教室にいたひかるのクラスメートたちがいるのが見えた。\
+`　On the second floor hallway, he could see Hikaru's classmates, who had earlier been in the classroom.`\
 me1v 16,50
 
-　……またくだらないおしゃべりをしているのだろう。@大袈裟に身振り手振りをつけながら笑い合っているのが見える。@
+;　……またくだらないおしゃべりをしているのだろう。@大袈裟に身振り手振りをつけながら笑い合っているのが見える。@
+`　...Probably having another worthless conversation.`@` He could see them laughing with each other, gesturing exaggeratedly.`@`
 br
-　それを見た瞬間、ひかるは自分の頭にカッと血がのぼるのが分かった。\
-
+;　それを見た瞬間、ひかるは自分の頭にカッと血がのぼるのが分かった。\
+`　The moment he saw that, Hikaru understood his extreme hatred.
 bg black,22
 
-　……そうだ。@自分は傷ついている。@こんなにも傷ついている。@
-　なのにあいつらは……。\
-
+;　……そうだ。@自分は傷ついている。@こんなにも傷ついている。@
+`　...That's right.`@` I'm in pain.`@` I'm suffering so much.`@`
+;　なのにあいつらは……。\
+`　But still, those guys are...`\
 bg usagi_02,0
 ld c,HAM_Def1,0
 ld r,HIK_i1,22
 
 ld c,HAM_Def2,80
 
-「ねぇ、ひかる君……“ハメルンのカスタネット”で変えられるのは、ねずみだけじゃないんだ。@小さな動物になら、どんな姿にも変えることができるんだよ。」@
+;「ねぇ、ひかる君……“ハメルンのカスタネット”で変えられるのは、ねずみだけじゃないんだ。@小さな動物になら、どんな姿にも変えることができるんだよ。」@
+`"You know, Hikaru-kun...`Hameln's Castanets` can change things into more than just rats.`@` As long as it's a small animal, it can change them into anything."`@`
 br
-　ハメルンはひかるの耳元に口を近づけ、この上なくやさしい声で囁いた。\
+;　ハメルンはひかるの耳元に口を近づけ、この上なくやさしい声で囁いた。\
+`　Hameln placed his mouth near Hikaru's ear and whispered this softly.`\
 
 cl c,0
 mld c,HAM_Def1,22
 
-「僕は、うさぎを虐めちゃいけないって言いに来たんじゃない。@……罪もないうさぎを虐めるなら、………罪深いうさぎをいじめる方が、道理に適ってるんじゃないかな、って。@……そう言いたいのさ。」\
-
+;「僕は、うさぎを虐めちゃいけないって言いに来たんじゃない。@……罪もないうさぎを虐めるなら、………罪深いうさぎをいじめる方が、道理に適ってるんじゃないかな、って。@……そう言いたいのさ。」\
+`"I didn't come to tell you, that torturing rabbits is wrong.`@` ...If they're innocent, at least...but they are full of sin, it might be more reasonable.`@` That's what I wanted to say."`\
 ld r,HIK_Def4a,80
 
-「……罪深い、うさぎって……。」\
-
+;「……罪深い、うさぎって……。」\
+`"...Sinful, rabbits...?"`\
 mld c,HAM_Def3,80
 
 me2v 17,50
 
-「君の傷を癒すことが出来る、……本当の罪を背負ったうさぎだよ。@……そんなうさぎたちを、思いのままに出来たなら。@……ようやく、君の心のぱっくり開いた傷は、@……縫い閉じることが出来るんじゃないかな……。」\
+;「君の傷を癒すことが出来る、……本当の罪を背負ったうさぎだよ。@……そんなうさぎたちを、思いのままに出来たなら。@……ようやく、君の心のぱっくり開いた傷は、@……縫い閉じることが出来るんじゃないかな……。」\
+`"I can heal all your wounds, ...rabbits truly burdened with sins.`@`...If you do to those sorts of rabbits as you have before.`@` ...Couldn't those wounds that have bitten into your heart,`@` ...finally be sewn shut...?"`\
 
 mcl c,0
 bg black,2
