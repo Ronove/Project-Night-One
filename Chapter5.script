@@ -1976,9 +1976,11 @@ bg ongaku_01,22
 `　In doing that, ...once word get out about the mysterious sound of castanets coming from the music room,`@` ..."The Castanets of Hameln" will become a standard ghost story.`\
 
 ;　僕をいじめたクラスメートたちは、その怪談の犠牲者であり、……僕がその立会人になるんだ。@
-`　
+`　The classmates who tortured me will be the victims of that tale, ...and I will be the sole witness.`@`
+
 br
-　そうさ。@彼らは怪談に飲み込まれて消えたんだ。\
+;　そうさ。@彼らは怪談に飲み込まれて消えたんだ。\
+`　That's right.`@` They all will be swallowed up by this sordid story and disappear.`\
 
 ;bg black,23
 ;bg rouka_02,0
@@ -1987,31 +1989,38 @@ bg blood_1a,22
 
 me1v 16,50
 
-　僕を殺人者と罵るかい？@　悪いけれど、それは的外れだ。@
+;　僕を殺人者と罵るかい？@　悪いけれど、それは的外れだ。@
+`　Would you say I am a murderer?`@` Apologies, but that's off the mark.`@`
 br
-　……僕は誰も殺しちゃいない。@僕が殺したのは、罪深いうさぎだけさ。\
+;　……僕は誰も殺しちゃいない。@僕が殺したのは、罪深いうさぎだけさ。\
+`　...I haven't killed anybody.`@` I only kill immoral rabbits.`\
 
 ;ld c,HIK_Def1,80
 
-　万が一、僕がうさぎを殺しているところを誰かに見られたとしても。@
+;　万が一、僕がうさぎを殺しているところを誰かに見られたとしても。@
+`　Even in the worst case that I were caught by someone while killing them.`@`
 br
-　僕を逮捕できるのかい？@　うさぎ殺人罪という罪でもあるのかい？\
+;　僕を逮捕できるのかい？@　うさぎ殺人罪という罪でもあるのかい？\
+`　Could anyone arrest me?`@` Is there a crime out there, like a rabbit assassin?`\
 
-　動物虐待で児童相談所に連絡、とやらがせいぜいさ。@僕のプライバシーも人権もばっちり保護されるし、@健全な社会生活を送るためのバックアップだって完璧さ。@……何も恐れることなんてない。\
-
+;　動物虐待で児童相談所に連絡、とやらがせいぜいさ。@僕のプライバシーも人権もばっちり保護されるし、@健全な社会生活を送るためのバックアップだって完璧さ。@……何も恐れることなんてない。\
+`　Even as animal cruelty, the worse they'd do is contact a child consultation center.`@` My privacy and human right would be perfectly protected,`@` and they'd even provide backup to seamlessly bring me back to a healthy social life.`@` ...That's nothing to be afraid of.`\
 bg Aka2,0
 ld c,HIK_w2,22
 
-　……そうして、やがて『ハメルンのカスタネット』は、誰もが震え上がる、本物の怪談になる。@
-br
-　その怪談の犠牲者を決めるのは、……僕なんだ。@
-　僕をいじめるヤツや、……気に入らないヤツは、……ハメルンの力でみんなうさぎにしてやる。\
+;　……そうして、やがて『ハメルンのカスタネット』は、誰もが震え上がる、本物の怪談になる。@
+`　...And before long, "The Castanets of Hameln," will become a true ghost story, one that anybody would shiver to think about.`@`
 
+br
+;　その怪談の犠牲者を決めるのは、……僕なんだ。@
+`　The one who chooses the victims to this tale, ...is me.`@`
+;　僕をいじめるヤツや、……気に入らないヤツは、……ハメルンの力でみんなうさぎにしてやる。\
+`　Those who abused me, ...guys I just plain don't like, ...all of them will become rabbits by Hameln's power.`\
 ld c,HIK_w3,80
 quakey 1,100
 
-　ふふ、っふふふふっふっふっふっふ、あっははははははははは…！！\
-
+;　ふふ、っふふふふっふっふっふっふ、あっははははははははは…！！\
+`　Huhu, huhuhuhuh, Ahahahahahahahaha...!!!`\
 bg black,22
 
 E_A
@@ -2030,17 +2039,20 @@ E_A
 
 
 
-「くすくす。@……随分、機嫌が良さそうね。」\
-
+;「くすくす。@……随分、機嫌が良さそうね。」\
+`"Teehee.`@` ...You seem to be in considerably good spirits."`\
 me1v 5,50
 
 bg rouka_03,24
 
-　背後からいきなり声がした。@反射的に声の方向を振り返る。@
-　そして、……驚いた。@
-br
-　そこには、まるで舞台からそのまま抜け出してきたような豪奢な服を着た少女が立っていた。\
+;　背後からいきなり声がした。@反射的に声の方向を振り返る。@
+`　He suddenly heard a voice from behind him.`@` He reflexively turned towards the voice.`@` 
+;　そして、……驚いた。@
+`　And, ...was astonished.`@`
 
+br
+;　そこには、まるで舞台からそのまま抜け出してきたような豪奢な服を着た少女が立っていた。\
+`　A girl clad so extravagently that it looked as though she'd just slipped away from a play was there.`\
 ld c,HIG_Def2,22
 fede 0,1000
 E_A
@@ -2048,70 +2060,92 @@ ld c,HIG_w3,80
 
 bgm1 5
 
-　ぞっとするほど色の白い肌と、それと対照的な漆黒の長い髪。@思わずたじろいでしまうほど美しい少女だった。\
+;　ぞっとするほど色の白い肌と、それと対照的な漆黒の長い髪。@思わずたじろいでしまうほど美しい少女だった。\
+`　Skin so pale it would make one shudder, and long, jet black hair in contrast.`@` A girl so beautiful it made him hesitate without thinking.`\
 
-　上級生だろうか。@いくら生徒数が多いと言っても、@同じ学年に彼女のような人間がいたらさすがに覚えているはずだ……。\
-
+;　上級生だろうか。@いくら生徒数が多いと言っても、@同じ学年に彼女のような人間がいたらさすがに覚えているはずだ……。\
+`　Was she an upperclassman?`@` Even knowing that the number of students in the school was high,`@` he knew that if a human like her were at the same school as him, he would certainly remember her...`\
 ld c,HIG_Def4,80
 
-「あなた。@すごい邪悪に笑うのね。@……まるで、学校の妖怪みたいな笑い方だったわよ。@……くすくすくすくすくすくす。」@
+;「あなた。@すごい邪悪に笑うのね。@……まるで、学校の妖怪みたいな笑い方だったわよ。@……くすくすくすくすくすくす。」@
+`"You.`@` You have an incredibly wicked laugh.`@` ...It's exactly the same kind of laugh as one of the school's youkai.`@` ...Teehee, heehee hee."`@`
 br
-　妖怪、という言葉にひかるは一瞬ビクッとする。\
+;　妖怪、という言葉にひかるは一瞬ビクッとする。\
+`　Hearing the word 'youkai' startled Hikaru for a moment.`\
 
-　……ハメルンのことを、ニンゲン風情に理解できるわけがない。@……怪談は、まだまだこれからなのだから。\
+;　……ハメルンのことを、ニンゲン風情に理解できるわけがない。@……怪談は、まだまだこれからなのだから。\
+`　...H u m a n s should not be able to even appear to grasp anything about Hameln.`@`...The story, is still not finished.`\
 
 bg black,22
 bg k_rouka_03,22
 ld l,HIG_def3,22
 
-「何がそんなにもご機嫌なのかしら…？@　良かったら、私にも教えてくれないかしら。」@
+;「何がそんなにもご機嫌なのかしら…？@　良かったら、私にも教えてくれないかしら。」@
+`"What has you in such high spirits...?`@` If you'd like, perhaps you could tell me?"`@`
 
 ld r,HIK_Def4a,22
 
-「あ、いえ、何でもないんです……。@ちょっとその……、思い出し笑いをしちゃっただけで……。」\
+;「あ、いえ、何でもないんです……。@ちょっとその……、思い出し笑いをしちゃっただけで……。」\
+`"Ah, n-no, it's nothing...`@`It's just...I remembered something and it made me laugh, that's all..."`\
 
 ld l,HIG_w4,80
 
-「くすくす。@……児童失踪事件に、今日は動物の虐殺事件なのに。@こんな状況で思い出し笑いなんて、随分と不謹慎なのね。」@
+;「くすくす。@……児童失踪事件に、今日は動物の虐殺事件なのに。@こんな状況で思い出し笑いなんて、随分と不謹慎なのね。」@
+`"Ehehe.`@` Even though there's been the missing children's case and the animal slaying case today.`@` It's rather imprudent of one to suddenly remember something and laugh in these circumstances."`@`
 br
-　そう言いながらも、彼女も笑う。\
+;　そう言いながらも、彼女も笑う。\
+`　While saying this, she laughed too.`\
 
-　……それは、ぞっとするほどの冷たさを感じる笑い。@
+;　……それは、ぞっとするほどの冷たさを感じる笑い。@
+`　...It was a laugh so cold it made him shudder.`@`
 br
 
-　思わず目を逸らしたくなるほどに、冷え切った眼光の笑いだった。\
+;　思わず目を逸らしたくなるほどに、冷え切った眼光の笑いだった。\
+`　A smile with such an icy gleam in her eye it made him avert his eyes inadvertantly.`\
 
 ld r,HIK_Def3,80
 
-「そ、……そうですよね。@こんな酷い事件が起きてるってのに……。」\
+;「そ、……そうですよね。@こんな酷い事件が起きてるってのに……。」\
+`"Th, ...that's right.`@` Even though such terrible events are happening..."`\
 
 ld l,HIG_Def4,80
 
-「くすくす、冗談よ。@どんな悲劇が起きたからって、笑っちゃいけないなんてことはないわ。@自分にとっては悲劇でも他人にとっては娯楽なんてこと、よくあることだもの……。」\
+;「くすくす、冗談よ。@どんな悲劇が起きたからって、笑っちゃいけないなんてことはないわ。@自分にとっては悲劇でも他人にとっては娯楽なんてこと、よくあることだもの……。」\
+`"Ehehe, it's a joke.`@` No matter what kind of tragedies occur, there's none that are impossible to laugh at.`@` One man's pain is another man's pleasure -- that sort of thing happens frequently..."`\
 
-　彼女は長い髪に自分の指を通すと、弄ぶようにくるくると絡めた。@
+;　彼女は長い髪に自分の指を通すと、弄ぶようにくるくると絡めた。@
+`　She passed her finger through her long hair, idly spinning it around the digit.`@`
+
 br
-　その一つ一つの仕草が余りにも優雅で、なんだかよく出来た人形のように見えた…。\
+;　その一つ一つの仕草が余りにも優雅で、なんだかよく出来た人形のように見えた…。\
+`　Those detailed movements were excessively elegant, and made it look as though she were a very well made doll...`\
 
 bg black,22
 
-　自分にとっては悲劇でも、他人にとっては娯楽。@
+;　自分にとっては悲劇でも、他人にとっては娯楽。@
+`　One man's pain, is another man's pleasure.`@`
 br
-　それは学校で、ひかるが常々感じていることだった。\
+;　それは学校で、ひかるが常々感じていることだった。\
+`　In this school, this was something Hikaru usually felt.`\
 
-　無視され、持ち物を捨てられ、どこまでも沈んでいく毎日。@しかし、ひかるが傷つけば傷つくほどクラスメートたちの笑い声は大きくなっていく……。\
+;　無視され、持ち物を捨てられ、どこまでも沈んでいく毎日。@しかし、ひかるが傷つけば傷つくほどクラスメートたちの笑い声は大きくなっていく……。\
+`　Being ignored, having his things thrown away, feeling awful every day.`@` And yet, the more pain Hikaru was in, the louder his classmates' laughter would get...`\
 
 bg k_rouka_03,0
 ld c,HIG_w3,22
 
-「……もちろん、娯楽だと思っていたことが悲劇に変わってしまうこともよくあることだけどね。@……くすくすくすくすくす。」\
+;「……もちろん、娯楽だと思っていたことが悲劇に変わってしまうこともよくあることだけどね。@……くすくすくすくすくす。」\
+`"...Of course, there are times when pleasure turns to disaster as well.`@` Heehehehehe."`\
 
 ;bg black,22
 
-　……そうだ。@今や、クラスメートたちにとって娯楽は悲劇へと変わったのだ。@
+;　……そうだ。@今や、クラスメートたちにとって娯楽は悲劇へと変わったのだ。@
+`　...That's right.`@` Right now, those classmates' pleasure has turned to misery.`@`
 br
-　自分たちのした行為が、因果応報。@
-　僕を傷つけて楽しんだヤツらが、今度は僕に傷つけられて楽しませるのだ。\
+;　自分たちのした行為が、因果応報。@
+`　The retribution for their deeds.`@`
+;　僕を傷つけて楽しんだヤツらが、今度は僕に傷つけられて楽しませるのだ。\
+`　The assholes who enjoyed my suffering, now I can enjoy theirs.`\
 
 ;ld_p HIK_Def1
 ;lsp2 2,$ld_pass,320,240,100,100,0
@@ -2121,9 +2155,11 @@ br
 bg black,22
 ld r,HIK_w2,22
 
-　いや、僕は彼らを傷つけなどしない。@
+;　いや、僕は彼らを傷つけなどしない。@
+`　No, I am not hurting them.`@`
 br
-　僕はうさぎを殺すだけ。\
+;　僕はうさぎを殺すだけ。\
+`　I'm just killing a couple of rabbits.`\
 
 ;ld_p HAM_Def2
 ;lsp2 4,$ld_pass,420,240,100,100,0
@@ -2133,9 +2169,12 @@ bg aka3,0
 ld c,HAM_def3,0
 ld r,HIK_w2,22
 
-　彼らはハメルンの怪談に飲み込まれるだけ。@
+;　彼らはハメルンの怪談に飲み込まれるだけ。@
+`　They're simply being swallowed up by Hameln's legacy.`@`
+
 br
-　僕の手は、誰の血にも汚れないのだ。\
+;　僕の手は、誰の血にも汚れないのだ。\
+`　My hands are not stained with anyone's blood.`\
 
 se1 84
 
@@ -2145,31 +2184,39 @@ bg rouka_02,0
 ld r,HIG_w3,22
 ld r,HIG_Def5,80
 
-「……ふぅん。@そういう考えなのね。」@
-
+;「……ふぅん。@そういう考えなのね。」@
+`"...Hmm.`@` Is that how you're thinking?"`@`
 ld l,HIK_Def4a,23
 
-「………何ですか、突然…。」\
+;「………何ですか、突然…。」\
+`"...What are you talking about all of a sudden..."`\
 
-　何も口にしていないはずなのに、……彼女は唐突に、「そういう考えなのね」と、相槌を打つ。@
+;　何も口にしていないはずなのに、……彼女は唐突に、「そういう考えなのね」と、相槌を打つ。@
+`　Even though I don't believe I said anything, ...she abruptly threw in an appropriate word with, "That's how you're thinking."`@`
 br
-　……この、口にしていないはずなのに、会話になってしまう感覚は……、まさか……。\
+;　……この、口にしていないはずなのに、会話になってしまう感覚は……、まさか……。\
+`　...This feeling, creating a conversation when I hadn't said anything...it can't be...`\
 
 ld r,HIG_Def2,80
 
-「時に非力な妖怪は、残酷なニンゲンを手駒にすることがあるわ。@……自分の力だけでは狩りが出来ないものだから、@ニンゲンを唆し、その手を借りようとする。@……情けない狩りよね。@くすくすくすくす……。」\
+;「時に非力な妖怪は、残酷なニンゲンを手駒にすることがあるわ。@……自分の力だけでは狩りが出来ないものだから、@ニンゲンを唆し、その手を借りようとする。@……情けない狩りよね。@くすくすくすくす……。」\
+`"Sometimes a powerless youkai will make a pawn out of a pitiless human.`@` ...They can't hunt by their own power.`@` So they tempt HUMANS and use them.`@` ...Truly a deplorable hunt.`@` Teeheehee..."`\
 
 ld l,HIK_Def3,80
 
-「……そ、それが何ですか。@……何を言ってるのか、わかりません。」\
+;「……そ、それが何ですか。@……何を言ってるのか、わかりません。」\
+`"...A, and what of it?`@` ...I don't understand what you're saying."`\
 
 ld r,HIG_w4,80
 
-「同じことが、駒にされるニンゲンにも言えるわ。@……自ら手を下す勇気のない子が、妖怪と怪談を免罪符に、@自分の手は汚れていないんだ…、などと言い出したりね？」\
+;「同じことが、駒にされるニンゲンにも言えるわ。@……自ら手を下す勇気のない子が、妖怪と怪談を免罪符に、@自分の手は汚れていないんだ…、などと言い出したりね？」\
+`"That's the sort of thing a HUMAN pawn would say.`@`...Someone without the bravery to do things by their own hands can indulge in a ghost story, `@`that way their own hands don't get dirty, ...is also the sort of thing they might say."`\
 
-　それは、……紛れもなく、ひかるのことだ。@
+;　それは、……紛れもなく、ひかるのことだ。@
+`　That's, ...without any doubt, about Hikaru.`@`
 br
-　やはり、この少女はハメルンと同じ。@……ニンゲンではない。@心を、読んでいる……。\
+;　やはり、この少女はハメルンと同じ。@……ニンゲンではない。@心を、読んでいる……。\
+`　Just like he thought, this girl was the same as Hameln.`@` ...She was not h u m a n.`@` She's reading his thoughts...`\
 
 ld r,HIG_Def5,80
 
@@ -2183,66 +2230,80 @@ bg black,22
 
 
 
-「あなたは、殺す、ということを理解していないんだわ。」@
+;「あなたは、殺す、ということを理解していないんだわ。」@
+`"You don't seem to understand that you are killing."`@`
 
 ;ld l,HIK_Def1,80
 
-「………それはどういう意味ですか？」\
+;「………それはどういう意味ですか？」\
+`"...What do you mean by that?"`\
 
 bg k_rouka_03,0
 ld c,HIG_Def3,22
 ld c,HIG_Def4,80
 
-「缶詰の中の牛肉はどうやって作るか知っているの？@　まさか、小麦粉を混ぜて練り上げると牛肉になるなんて、@信じてるわけじゃないわよね…？」\
+;「缶詰の中の牛肉はどうやって作るか知っているの？@　まさか、小麦粉を混ぜて練り上げると牛肉になるなんて、@信じてるわけじゃないわよね…？」\
+`"Do you know how ground meat is made?`@` Don't tell me you think they mixed up some wheat flour and made beef.`@` There's no way you'd believe that, right...?"`\
 
-　……最近の子供は、食肉が動物の死の上に生み出していることを、理解していないとよく言われる。@
+;　……最近の子供は、食肉が動物の死の上に生み出していることを、理解していないとよく言われる。@
+`　...Many kids these days say that they didn't understand that animals were born for more than just to die for meat.`@`
 br
-　肉に限らない。@僕たちの食卓には、“死”が積み上げられている。\
+;　肉に限らない。@僕たちの食卓には、“死”が積み上げられている。\
+`　They're not restricted to meat.`@` D E A T H  is piled up on our dining tables.`\
 
 ;mbg black,22
 
-　だが、僕たちはそれに目を逸らし、暴食の限りを尽くす。@
+;　だが、僕たちはそれに目を逸らし、暴食の限りを尽くす。@
+`　But, we avert our eyes, relying on our surfeit.`@`
 br
-　自分たちの食卓を生み出す、“死”そのものについては、知らぬ存ぜぬ見たくもない、とくる。\
+;　自分たちの食卓を生み出す、“死”そのものについては、知らぬ存ぜぬ見たくもない、とくる。\
+`　We don't want to look at, or even know that the very thing brought forth to our dining tables is D E A T H.`\
 
-　フライドチキンを頬張る子供たちの内、@一体、何人が、自らの手で鶏を絞め殺せるというのだろう？@
+;　フライドチキンを頬張る子供たちの内、@一体、何人が、自らの手で鶏を絞め殺せるというのだろう？@
+`　I wonder how many of those children stuffing their faces with fried chicken,`@` have it in them to strangle a chicken with their own hands?`@`
 br
-　そういう光景に目を逸らし、忌避するくせに。@僕たちは暴食と飽食を繰り返している……。\
+;　そういう光景に目を逸らし、忌避するくせに。@僕たちは暴食と飽食を繰り返している……。\
+`　Even though we look away from such a spectacle, though we avoid it.`@` We still repeat our cycle of gluttony and overindulgence...`\
 
 ;mcbg 22
 
 cl c,0
 ld r,HIG_w4,23
 
-「………その通りよ。@肉を食うとは即ち、殺して肉を剥ぐということ。@その罪を理解せぬ者には、肉を食らう資格なんて、ありはしない。」\
-
+;「………その通りよ。@肉を食うとは即ち、殺して肉を剥ぐということ。@その罪を理解せぬ者には、肉を食らう資格なんて、ありはしない。」\
+`"...That's right.`@` To eat meat is namely, to tear off the flesh of the dead.`@` Those who do not understand that sin, don't have any right to eat meat."`\
 ld l,HIK_Def2,80
 
-「僕に、………肉を食らう資格がないと、……言いたいんですか…？」\
-
+;「僕に、………肉を食らう資格がないと、……言いたいんですか…？」\
+`"Are you, ...trying to tell me, ...that I have no right to eat meat...?"`\
 ld r,HIG_Def5,80
 
-「“僕の手は、誰の血にも汚れないのだ”、なんて、得意気に言ってしまうあなたに。@……一体、誰の肉を食らう資格があるというのかしら……？」@
+;「“僕の手は、誰の血にも汚れないのだ”、なんて、得意気に言ってしまうあなたに。@……一体、誰の肉を食らう資格があるというのかしら……？」@
+`"I ask this you, who proudly said, 'I have not stained my hands with anyone's blood.'`@`...Whose meat do you have the right to partake of...?"`@`
 
 ld l,HIK_Def4a,80
 
-「…………………………………。」\
+;「…………………………………。」\
+`"......"`\
 
 ld r,HIG_Def2,80
 
-「ニンゲンがニンゲンを殺す、というのは、重いことよ？」@
+;「ニンゲンがニンゲンを殺す、というのは、重いことよ？」@
+`"HUMANS killing HUMANS, is awfully heavy to say."`@`
 
 ld l,HIK_Def3,80
 
-「……僕はニンゲンなんて、殺しませんよ。」\
-
+;「……僕はニンゲンなんて、殺しませんよ。」\
+`"...I have not killed any human."`\
 ld r,HIG_w4,80
 
-「くすくすくす。@……フライドチキンを食べながら、鶏なんて殺しませんって言うわけよね。」@
+;「くすくすくす。@……フライドチキンを食べながら、鶏なんて殺しませんって言うわけよね。」@
+`"Teeheehee.`@` ...So you're saying that you haven't killed a chicken while you eat fried chicken?"`@`
 br
-　……何も言い返せない。@
-　誰なんだ、この少女は……。@……やっぱり、ニンゲンじゃ、ない………。\
-
+;　……何も言い返せない。@
+`　...He couldn't respond.`@`
+;　誰なんだ、この少女は……。@……やっぱり、ニンゲンじゃ、ない………。\
+`　Who the hell, is this girl...?`@` ...Just as he thought, she's not, h u m a n...`\
 
 
 
@@ -2265,10 +2326,11 @@ me1v 5,50
 fede 1,1000
 E_B
 
-　その時、廊下に設置されたスピーカーから放送が流れ出した。\
+;　その時、廊下に設置されたスピーカーから放送が流れ出した。\
+`　Just then, the speaker installed in the hallway began broadcasting.`\
 
-『……＊年２組の二瓶ひかるくん。@井俣先生がお呼びです。@職員室まで来てください。@繰り返します。@＊年２組の二瓶ひかるくん……、』\
-
+;『……＊年２組の二瓶ひかるくん。@井俣先生がお呼びです。@職員室まで来てください。@繰り返します。@＊年２組の二瓶ひかるくん……、』\
+`"...Hikaru Nihei of Class 2, Year ***.`@` You have a call from Inomata-sensei. `@` Please come to the staff room.`@` I repeat.`@` Hikaru Nihei of Class 2, Year  ***....."`\
 bg black,24
 bg rouka_03,0
 ld r,HIK_Def3,24
