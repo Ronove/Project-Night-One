@@ -791,27 +791,36 @@ ld l,HIK_Def4a,26
 ;「……何か用？」@
 `"...Need something?"`@
 br
-　無表情を崩さずにぶっきらぼうに答えたが、内心はかなりドキドキしていた。@
+;　無表情を崩さずにぶっきらぼうに答えたが、内心はかなりドキドキしていた。@
+`　He kept his expressionless demenour from dissolving with his question, but his heart was beating fairly rapidly.`@
 
-　うさぎとの戯れを、見られたかもしれない。\
+;　うさぎとの戯れを、見られたかもしれない。\
+`　She might have seen him -- having fun with the rabbits.`\
 
 ld l,HIK_Def1,80
 
-　……ひかるは改めて少女を観察してみる。@
+;　……ひかるは改めて少女を観察してみる。@
+`　...Hikaru tried looking over the girl again.`@
 br
-　地味で目立たない顔つき。@同じクラスにいても名前を忘れられてしまいそうな、@ぼんやりとした雰囲気の女の子。\
+;　地味で目立たない顔つき。@同じクラスにいても名前を忘れられてしまいそうな、@ぼんやりとした雰囲気の女の子。\
+`　Simple, inconspicuous facial features.`@`Despite being in the same class she seemed like a girl whose name would be forgotten -- `@`a girl with an air of absentmindedness about her.`\
 
-　彼女と会うのもこれが初めてなのかどうかさえ自信がない。@
+;　彼女と会うのもこれが初めてなのかどうかさえ自信がない。@
+`　He didn't even have any confidence that this was the first time he had met her or not.`@
 br
-　たとえ以前会話したことがあったとしても、おそらく自分は覚えてないだろう。@そのくらい少女の存在感は希薄だった。\
+;　たとえ以前会話したことがあったとしても、おそらく自分は覚えてないだろう。@そのくらい少女の存在感は希薄だった。\
+`　Supposing they had spoken before, he probably wouldn't remember.`@` That's how thin her presence felt.`\
 
 mld r,MAR_w1,80
 
-「このうさぎ小屋に人がいるなんて、珍しいですね。@……ここにうさぎ小屋があるって、知らない人も多いみたいだし……。」\
+;「このうさぎ小屋に人がいるなんて、珍しいですね。@……ここにうさぎ小屋があるって、知らない人も多いみたいだし……。」\
+`"It's rare for someone to come to these rabbit pens.`@` ...It seems a lot of people don't even know there are rabbit pens here either..."`\
 
-　動物好きの少女が、たまたまうさぎ小屋に人影を見つけて近寄ってきただけのように見えた。@
+;　動物好きの少女が、たまたまうさぎ小屋に人影を見つけて近寄ってきただけのように見えた。@
+`　She seemed like a girl who discovered someone's shadow by the rabbit pens and decided to approach them.`@
 br
-　それを察し、ひかるはとりあえずホッと息をつく。@先ほどの自分の行為を見られていた訳ではないようだ。\
+;　それを察し、ひかるはとりあえずホッと息をつく。@先ほどの自分の行為を見られていた訳ではないようだ。\
+`　Guessing as much for now, Hikaru took a breath. `@`It didn't seem as if she saw how he was behaving moments ago.`\
 
 csp -1
 print 0
@@ -819,19 +828,25 @@ mcl r,0
 bg black,24
 bg usagi_01,24
 
-　その安堵を、気を許してくれたようにでも勘違いしたのか。@少女は愛想笑いを浮かべながら、小屋の中に入ってくる…。@
+;　その安堵を、気を許してくれたようにでも勘違いしたのか。@少女は愛想笑いを浮かべながら、小屋の中に入ってくる…。@
+`　That relief might have just been a wrong guess that left him with his guard down `@`Forcing a smile to her face, the girl comes into the pen...`@
 br
-　……どこの誰だか知らないけれど、自分だけの聖域に土足で踏み入ってくることが、許せない。\
+;　……どこの誰だか知らないけれど、自分だけの聖域に土足で踏み入ってくることが、許せない。\
+`　...He didn't know who she was but, stepping foot inside his sanctuary was something he couldn't allow.`\
 
-　それに、下手をしたら、明日からもひょこひょことここへ通い出すのではないだろうか…？\
+;　それに、下手をしたら、明日からもひょこひょことここへ通い出すのではないだろうか…？\
+`　Furthermore, if I goof up, she'll probably timidly come this way tomorrow too...?`\
 
 bg black,22
 
-　………ふざけるな。@
+;　………ふざけるな。@
+`　...Don't fuck with me.`@
 br
-　ここは僕だけの聖域なんだ。@お前みたいな、見るからにうさぎ以外に友達がいなさそうなヤツが、のこのこ来ていいところじゃないんだ。\
+;　ここは僕だけの聖域なんだ。@お前みたいな、見るからにうさぎ以外に友達がいなさそうなヤツが、のこのこ来ていいところじゃないんだ。\
+`　This sanctuary is mine alone. `@`This isn't a place for someone like you, who from the looks of it has no one else but rabbits for friends, to just nonchalantly come in.`\
 
-　そんなひかるの胸中になど、少女が気付けるわけもない。@
+;　そんなひかるの胸中になど、少女が気付けるわけもない。@
+`　
 br
 　しゃがみ込み、ひとり、ほくほくとうさぎを撫でている。\
 
