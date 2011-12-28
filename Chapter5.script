@@ -1862,58 +1862,82 @@ bg kyou_03,22
 
 bgm1 9
 
-「……ほんと、酷過ぎるよね。」@
-「うさぎとか殺して、何が面白いのかしらね……。」@
-「こういうのって、猟奇殺人の前兆なんだろ。@……怖ぇよなぁ…！」\
+;「……ほんと、酷過ぎるよね。」@
+`"...Really, it's too cruel."`@`
+;「うさぎとか殺して、何が面白いのかしらね……。」@
+`"I wonder what the hell is so fun about killing rabbits..."`@`
+;「こういうのって、猟奇殺人の前兆なんだろ。@……怖ぇよなぁ…！」\
+`"I wonder if this could be the warning signs of some psycho killer.`@`...That's freaky as hell...!"
 
-「例の、４人が行方不明になったってのも未解決なんだろ？」@
-「やだぁ、学校、怖ぁい…！！」\
+;「例の、４人が行方不明になったってのも未解決なんだろ？」@
+`"And those 4 missing people still haven't been found, right?"`@`
+;「やだぁ、学校、怖ぁい…！！」\
+"Noooo, school is creepy...!!!"`\
 
 bg black,22
 bg rouka_02,0
 ld r,HIK_Def2,22
 
-　学校は今、先日起きた二つの事件の話題で持ち切りだった。\
+;　学校は今、先日起きた二つの事件の話題で持ち切りだった。\
+`　At school, all anybody talked about now were the two incidents that occured the other day.`\
 
-「うさぎ小屋の虐殺」。@そして、「行方不明になった４人の生徒」。\
+;「うさぎ小屋の虐殺」。@そして、「行方不明になった４人の生徒」。\
+`"The Mass Killing in the Rabbit Cage."`@` And, "The Missing 4 Students."`\
 
-　うさぎ小屋の周りには立ち入り禁止のテープが引かれ、誰も入れなくなっている。@
-　いなくなった生徒たちは警察に失踪届けが出され、今も捜索は続いている。@
+
+;　うさぎ小屋の周りには立ち入り禁止のテープが引かれ、誰も入れなくなっている。@
+`　The area around the rabbit cage was closed off by No Trespassing tape, and nobody was allowed in.`@`
+;　いなくなった生徒たちは警察に失踪届けが出され、今も捜索は続いている。@
+`　The police released a missing persons' report for the missing students, and the search was still continuing.`@`
 br
-　しかし、絶対に４人が見つかることはないだろう。\
+;　しかし、絶対に４人が見つかることはないだろう。\
+`　But, the 4 people would never be found.`\
 
 ld r,HIK_w1,22
 
-　ひかるだけが“彼らは絶対に見つからない”ということを知っている。@
+;　ひかるだけが“彼らは絶対に見つからない”ということを知っている。@
+`　The only one who knew 'they would not be found,' was Hikaru.`@`
 br
-　いや、正確には“見つかっているのに気付いてもらえない”ということになるのだが……。\
+;　いや、正確には“見つかっているのに気付いてもらえない”ということになるのだが……。\
+`　No, to say, "Even though they were found, nobody realized it," would be more accurate, but...\
 
 cl r,22
 
-　二つの怪事件に繋がりがあるのではと訝しがる者は多い。@
+;　二つの怪事件に繋がりがあるのではと訝しがる者は多い。@
+`　There were many who doubted the two incidents were connected.`@`
 br
-　また、特に勘のいい者は、@うさぎ小屋の死骸の数と行方不明の生徒の数が合致することに気付いてもいるようだった。\
+;　また、特に勘のいい者は、@うさぎ小屋の死骸の数と行方不明の生徒の数が合致することに気付いてもいるようだった。\
+`　There were also more perceptive people,`@` who seemed to realize that the number of corpses in the rabbit cage were the same as the number of students missing.`\
 
-　これは、４人を殺すというメッセージなのでは、犯行予告なのでは……。@
+;　これは、４人を殺すというメッセージなのでは、犯行予告なのでは……。@
+`　'Do you think this was an advanced notice of the crime, that they would kill 4 people...?'`@`
 br
-　何人かの先生たちがそう囁いているのを聞いた。\
+;　何人かの先生たちがそう囁いているのを聞いた。\
+`　The teachers heard countless people whispering like that.`\
 
 ;ld l,HIK_Def1,80
 bg rouka_04,22
 
-　……的外れな話だ。@
-　その死骸が、まさに行方不明の彼らだなどと、誰も気付けはしまい。\
+;　……的外れな話だ。@
+`　...What a muddled up tale.`@`
+;　その死骸が、まさに行方不明の彼らだなどと、誰も気付けはしまい。\
+`　Nobody can realize that those corpses, all really were the four missing people.`\
 
-　死骸の数を含めると、うさぎ小屋のうさぎの数が、本来よりも多いことには、@誰も違和感を覚えなかった。@
+;　死骸の数を含めると、うさぎ小屋のうさぎの数が、本来よりも多いことには、@誰も違和感を覚えなかった。@
+`　Nobody picked up that if one added the number of corpses to the number of rabbits in the cage,`@` that the number was higher than before.`@`
 br
-　うさぎは生殖本能が強いから、気付かない間に勝手に繁殖して増えていたのだろう。@……そのくらいにしか考えていないらしい。\
+;　うさぎは生殖本能が強いから、気付かない間に勝手に繁殖して増えていたのだろう。@……そのくらいにしか考えていないらしい。\
+`　Rabbits have a strong instinct to reproduce, and bred on their own while nobody was paying attention.`@`...It seems that's as far as anybody was thinking.`\
 
 bg black,22
 
-　今はそれでいい。@噂が膨れ上がるのはこれからだ。@
-　昨日、ハメルンはうさぎ小屋で言った。@
+;　今はそれでいい。@噂が膨れ上がるのはこれからだ。@
+`　And for now, that was fine.`@` That was as far as the rumors swelled.`@`
+;　昨日、ハメルンはうさぎ小屋で言った。@
+`　Yesterday, Hameln said in the rabbit cage,`@`
 br
-「怪談になるのはゆっくりでなくちゃいけない。」、と。\
+;「怪談になるのはゆっくりでなくちゃいけない。」、と。\
+`That, "You must work slowly to become a ghost story."`\
 
 bg black,29
 lsp bgsp,":a;bmp\background\efe\red_waku.bmp",0,0
@@ -1924,11 +1948,13 @@ bgcopy
 csp -1
 
 
-「何しろ、簡単に知れ渡ってしまったら、@誰も怖がって音楽室には近づかなくなっちゃうじゃないか。@……ひかる君が仕返ししたい奴らは、この子たち以外にもまだまだたくさんいるんだろ？@　噂になるのは、君が殺したい連中をみーんなうさぎに変えてからさ。」\
+;「何しろ、簡単に知れ渡ってしまったら、@誰も怖がって音楽室には近づかなくなっちゃうじゃないか。@……ひかる君が仕返ししたい奴らは、この子たち以外にもまだまだたくさんいるんだろ？@　噂になるのは、君が殺したい連中をみーんなうさぎに変えてからさ。」\
+`"At any rate, if I were to be well-known too easily,`@` everybody would get scared, and nobody would go near the music room.`@` ...There are still plenty of those that you want to get even with other than these kids, right Hikaru-kun?`@` To become common talk, I'll turn all of your colleagues you wish to kill into rabbits."`\
 
 bg black,22
 
-　ひかるは頷いた。@
+;　ひかるは頷いた。@
+`　Hikaru nodded.`@`
 br
 　そうだ。@こいつらだけじゃない。@
 　僕を無視した奴ら。@虐めを見て見ぬ振りした奴ら。@クラスメート全員がひかるの標的なのだ。\
