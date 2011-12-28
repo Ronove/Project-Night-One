@@ -1956,21 +1956,27 @@ bg black,22
 ;　ひかるは頷いた。@
 `　Hikaru nodded.`@`
 br
-　そうだ。@こいつらだけじゃない。@
-　僕を無視した奴ら。@虐めを見て見ぬ振りした奴ら。@クラスメート全員がひかるの標的なのだ。\
+;　そうだ。@こいつらだけじゃない。@
+`　That's right.`@` It's not just them.`@`
+;　僕を無視した奴ら。@虐めを見て見ぬ振りした奴ら。@クラスメート全員がひかるの標的なのだ。\
+`　Those bastards who ignored me.`@` The ones who pretended not to see my persecution.`@` Every one of Hikaru's classmates were his targets.`\
 
 ;bg gakkou_01,22
 
-　これからも、学校のあちこちでうさぎの死骸が見つかるだろう。@
+;　これからも、学校のあちこちでうさぎの死骸が見つかるだろう。@
+`　From here on out, rabbit corpses will be found all throughout the school.`@`
 br
-　行方不明になった生徒の数だけ。\
+;　行方不明になった生徒の数だけ。\
+`　Only the same amount as missing students.`\
 
 ;bg black,23
 bg ongaku_01,22
 
-　そうして、……音楽室から聞こえる不思議なカスタネットのことが次第に知られるようになり、@…………『ハメルンのカスタネット』は、定番の怪談となる。\
+;　そうして、……音楽室から聞こえる不思議なカスタネットのことが次第に知られるようになり、@…………『ハメルンのカスタネット』は、定番の怪談となる。\
+`　In doing that, ...once word get out about the mysterious sound of castanets coming from the music room,`@` ..."The Castanets of Hameln" will become a standard ghost story.`\
 
-　僕をいじめたクラスメートたちは、その怪談の犠牲者であり、……僕がその立会人になるんだ。@
+;　僕をいじめたクラスメートたちは、その怪談の犠牲者であり、……僕がその立会人になるんだ。@
+`　
 br
 　そうさ。@彼らは怪談に飲み込まれて消えたんだ。\
 
