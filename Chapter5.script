@@ -1992,14 +1992,15 @@ quake 5,500
 ;　出来るのは、ただがむしゃらに走り回って、壁や金網に突進して頭をぶつけることだけ。@
 `　All they could do was just run around in circles recklessly, charging at the walls and fencing only to bump their heads.`@
 ;　見ているのが哀れなくらい愚かで無駄な抵抗だった。\
-`　Looking at them, they seemed patheticly foolish in their pointless resistence.
+`　Looking at them, they seemed patheticly foolish in their pointless resistence.`\
 
 ;　金網に負けて爪が剥がれ、あちこちに頭をぶつけ血を滲ませると、@……とうとう彼らも諦めたのか、身を寄せ合って、懇願するようにひかるを見上げる。\
-`　
+`　Their claws would loosen and break against the wire mesh, here and there blood flowed from heads butting, `@`...perhaps they had given up, as they huddled together and looked up as if to beg Hikaru.`\
 mcl c,0
 bg black,22
 mono 0
-　お願いします。@許して下さい。@助けてください。@どうか、どうか、頼むから。\
+;　お願いします。@許して下さい。@助けてください。@どうか、どうか、頼むから。\
+`　Please. `@`Forgive us. `@`Please save us. `@`Please, please, we beg you.`\
 
 mono 2
 bg usagi_03,0
@@ -2009,9 +2010,11 @@ wait 2000
 
 ld c,HIK_w2,2
 
-　ひかるはそんなうさぎたち、いやクラスメートたちの瞳をジッと覗き込むと、@冴え冴えとした笑みを浮かべる。@
+;　ひかるはそんなうさぎたち、いやクラスメートたちの瞳をジッと覗き込むと、@冴え冴えとした笑みを浮かべる。@
+`　Hikaru looked at the rabbits, peered into the pupils of his detestable classmates, `@`and a cheerful smile rose to his face.`@
 br
-　両手に握り締める無情の文房具の数々が、ただぎらぎらと酷薄な煌きを浮かべるだけだった………\
+;　両手に握り締める無情の文房具の数々が、ただぎらぎらと酷薄な煌きを浮かべるだけだった………\
+`　The heartless objects held tightly in both his hands were many, but all they did was express a inhuman gleam...`\
 
 
 
@@ -2093,13 +2096,13 @@ bg rouka_04,22
 ;　……的外れな話だ。@
 `　...What a muddled up tale.`@`
 ;　その死骸が、まさに行方不明の彼らだなどと、誰も気付けはしまい。\
-`　Nobody can realize that those corpses, all really were the four missing people.`\
+`　Nobody can understand that those dead bodies really were the four missing people.`\
 
 ;　死骸の数を含めると、うさぎ小屋のうさぎの数が、本来よりも多いことには、@誰も違和感を覚えなかった。@
 `　Nobody picked up that if one added the number of corpses to the number of rabbits in the cage,`@` that the number was higher than before.`@`
 br
 ;　うさぎは生殖本能が強いから、気付かない間に勝手に繁殖して増えていたのだろう。@……そのくらいにしか考えていないらしい。\
-`　Rabbits have a strong instinct to reproduce, and bred on their own while nobody was paying attention.`@`...It seems that's as far as anybody was thinking.`\
+`　Rabbits have a strong instinct to reproduce, and bred on their own while nobody was paying attention. `@`...It seems that's as far as anybody was thinking.`\
 
 bg black,22
 
@@ -2109,7 +2112,7 @@ bg black,22
 `　Yesterday, Hameln said in the rabbit cage,`@`
 br
 ;「怪談になるのはゆっくりでなくちゃいけない。」、と。\
-`That, "You must work slowly to become a ghost story."`\
+`"You must work slowly to become a ghost story."`\
 
 bg black,29
 lsp bgsp,":a;bmp\background\efe\red_waku.bmp",0,0
@@ -2173,15 +2176,15 @@ br
 `　Even in the worst case that I were caught by someone while killing them.`@`
 br
 ;　僕を逮捕できるのかい？@　うさぎ殺人罪という罪でもあるのかい？\
-`　Could anyone arrest me?`@` Is there a crime out there, like a rabbit assassin?`\
+`　Could anyone arrest me?`@` Is there any sin in the crime of killing rabbits?`\
 
 ;　動物虐待で児童相談所に連絡、とやらがせいぜいさ。@僕のプライバシーも人権もばっちり保護されるし、@健全な社会生活を送るためのバックアップだって完璧さ。@……何も恐れることなんてない。\
-`　Even as animal cruelty, the worse they'd do is contact a child consultation center.`@` My privacy and human right would be perfectly protected,`@` and they'd even provide backup to seamlessly bring me back to a healthy social life.`@` ...That's nothing to be afraid of.`\
+`　In the case of animal cruelty, the worse they'd do is contact a child consultation center.`@` My privacy and human rights would be perfectly protected,`@` and they'd even provide backup to seamlessly bring me back to a healthy social life.`@` ...That's nothing to be afraid of.`\
 bg Aka2,0
 ld c,HIK_w2,22
 
 ;　……そうして、やがて『ハメルンのカスタネット』は、誰もが震え上がる、本物の怪談になる。@
-`　...And before long, "The Castanets of Hameln," will become a true ghost story, one that anybody would shiver to think about.`@`
+`　...And before long, "The Castanets of Hameln," will become a true ghost story, one that anyone would shiver to think about.`@`
 
 br
 ;　その怪談の犠牲者を決めるのは、……僕なんだ。@
@@ -2236,7 +2239,7 @@ bgm1 5
 `　Skin so pale it would make one shudder, and long, jet black hair in contrast.`@` A girl so beautiful it made him hesitate without thinking.`\
 
 ;　上級生だろうか。@いくら生徒数が多いと言っても、@同じ学年に彼女のような人間がいたらさすがに覚えているはずだ……。\
-`　Was she an upperclassman?`@` Even knowing that the number of students in the school was high,`@` he knew that if a human like her were at the same school as him, he would certainly remember her...`\
+`　Was she an upperclassman?`@` Even knowing that there were a lot of students in the school,`@` he knew that if a human like her were at the same school as him, he would certainly remember her...`\
 ld c,HIG_Def4,80
 
 ;「あなた。@すごい邪悪に笑うのね。@……まるで、学校の妖怪みたいな笑い方だったわよ。@……くすくすくすくすくすくす。」@
@@ -2246,7 +2249,7 @@ br
 `　Hearing the word 'youkai' startled Hikaru for a moment.`\
 
 ;　……ハメルンのことを、ニンゲン風情に理解できるわけがない。@……怪談は、まだまだこれからなのだから。\
-`　...H u m a n s should not be able to even appear to grasp anything about Hameln.`@`...The story, is still not finished.`\
+`　...Humans should not be able to even appear to grasp anything about Hameln.`@`...His story is still far from finished.`\
 
 bg black,22
 bg k_rouka_03,22
@@ -2283,7 +2286,7 @@ ld r,HIK_Def3,80
 ld l,HIG_Def4,80
 
 ;「くすくす、冗談よ。@どんな悲劇が起きたからって、笑っちゃいけないなんてことはないわ。@自分にとっては悲劇でも他人にとっては娯楽なんてこと、よくあることだもの……。」\
-`"Ehehe, it's a joke.`@` No matter what kind of tragedies occur, there's none that are impossible to laugh at.`@` One man's pain is another man's pleasure -- that sort of thing happens frequently..."`\
+`"Ehehe, it's a joke.`@` No matter what kind of tragedies occur, there are none that are impossible to laugh at.`@` One man's pain is another man's pleasure -- that sort of thing happens a lot..."`\
 
 ;　彼女は長い髪に自分の指を通すと、弄ぶようにくるくると絡めた。@
 `　She passed her finger through her long hair, idly spinning it around the digit.`@`
@@ -2295,7 +2298,7 @@ br
 bg black,22
 
 ;　自分にとっては悲劇でも、他人にとっては娯楽。@
-`　One man's pain, is another man's pleasure.`@`
+`　One man's pain is another man's pleasure.`@`
 br
 ;　それは学校で、ひかるが常々感じていることだった。\
 `　In this school, this was something Hikaru usually felt.`\
@@ -2357,17 +2360,17 @@ ld r,HIG_w3,22
 ld r,HIG_Def5,80
 
 ;「……ふぅん。@そういう考えなのね。」@
-`"...Hmm.`@` Is that how you're thinking?"`@`
+`"...Hmm.`@` So that's what you think."`@`
 ld l,HIK_Def4a,23
 
 ;「………何ですか、突然…。」\
 `"...What are you talking about all of a sudden..."`\
 
 ;　何も口にしていないはずなのに、……彼女は唐突に、「そういう考えなのね」と、相槌を打つ。@
-`　Even though I don't believe I said anything, ...she abruptly threw in an appropriate word with, "That's how you're thinking."`@`
+`　Even though I don't believe I said anything, ...she abruptly responded with, "So that's what you think."`@`
 br
 ;　……この、口にしていないはずなのに、会話になってしまう感覚は……、まさか……。\
-`　...This feeling, creating a conversation when I hadn't said anything...it can't be...`\
+`　...This feeling, carrying on a conversation when I have't said anything...it can't be...`\
 
 ld r,HIG_Def2,80
 
