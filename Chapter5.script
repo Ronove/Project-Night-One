@@ -2808,13 +2808,17 @@ br
 cl c,0
 mld c,HIK_w2a,22
 
-　あのうさぎたちを殺したのは誰だと思う？@　町の変質者？@　ストレスを抱えたキレやすい大学生？@
+;　あのうさぎたちを殺したのは誰だと思う？@　町の変質者？@　ストレスを抱えたキレやすい大学生？@
+`　Who do you think killed those rabbits?`@` Some degenerate in town?`@` Some college student who snaps easily under stress?`@`
 br
-　違う！@　僕だ！@　目の前にいる子供だっ！！@　そして僕をそこまで追いつめたのもみんな子供だっ！！！\
+;　違う！@　僕だ！@　目の前にいる子供だっ！！@　そして僕をそこまで追いつめたのもみんな子供だっ！！！\
+`　You're wrong!`@` It's me!`@` The kid standing right in front of your eyes!!`@` And the ones who cornered me into doing this were children too!!!`\
 
-　子供は悪意なんてとっくに知ってる。@
+;　子供は悪意なんてとっくに知ってる。@
+`　Children already understand malice.`@`
 br
-　大人のあんたたちよりも遥かに鮮烈な悪意の中で毎日生きてるんだ。@そんなことも分からないのかこの無能教師はッ。\
+;　大人のあんたたちよりも遥かに鮮烈な悪意の中で毎日生きてるんだ。@そんなことも分からないのかこの無能教師はッ。\
+`　Every day, they live with ill will far more spectacularly than you adults do.`@` Do you not understand that, you incompetent twit?!`\
 
 bg black,22
 
@@ -2823,43 +2827,58 @@ ld c,HIK_def2,0
 
 bg shokuin_02,22
 
-「………先生は、ほとんど毎日お前がうさぎ小屋に通ってたのを知ってる。@飼育委員だからってそうそうできることじゃない。@ずっと偉いなって思ってたんだ。@……俺は、お前が本当はやさしい子だってことを知ってる。@だからな……？」\
+;「………先生は、ほとんど毎日お前がうさぎ小屋に通ってたのを知ってる。@飼育委員だからってそうそうできることじゃない。@ずっと偉いなって思ってたんだ。@……俺は、お前が本当はやさしい子だってことを知ってる。@だからな……？」\
+`"...I knew that you went almost every day to the rabbit pen.`@` Since you were a member of the animal rearing club, it couldn't just be that you said, 'Yeah, sure, I'll do it.'`@` I always thought you were so admirable.`@` I knew you actually were a kind person.`@` Therefore...."`\
 
 　ひかるは思わず笑いそうになる。@
+`　Hikaru just about laughed.`@`
 br
-　確かにうさぎ小屋に通ってたのは知ってるだろう。@うさぎ小屋の鍵はあんたに言わなきゃ借りられないんだから。\
+;　確かにうさぎ小屋に通ってたのは知ってるだろう。@うさぎ小屋の鍵はあんたに言わなきゃ借りられないんだから。\
+`　Sure, you would know I go by the rabbit cage.`@` I can't borrow the key to get in unless I talk to you.`\
 
 ld c,HIK_w1,22
 
-　でも、それだけだ。@借りに来た僕に、事務的にただ渡していただけ。@僕のことを、ましてうさぎのことを気にかけていたわけじゃない。@
+;　でも、それだけだ。@借りに来た僕に、事務的にただ渡していただけ。@僕のことを、ましてうさぎのことを気にかけていたわけじゃない。@
+`　But, that's all.`@` He only handed it over to me for business.`@` It's not like he was concerned about me, much less about the rabbits.`@`
 br
-　なのに、今になってよくそんな取って付けたようなことが言えたものだ。@
+;　なのに、今になってよくそんな取って付けたようなことが言えたものだ。@
+`　Yet, now you're saying such a far-fetched thing so well.`@`
 br
-　うさぎ小屋で僕が本当は何をしてたのかあんたは知らないだろ？@　あそこにだって悪意はあった。@あんたが気付いてなかっただけだ。\
+;　うさぎ小屋で僕が本当は何をしてたのかあんたは知らないだろ？@　あそこにだって悪意はあった。@あんたが気付いてなかっただけだ。\
+`　You don't know what I was actually doing in those cages, right?`@` There was evil intent there, too.`@` You just didn't notice it.`\
 
-「だから……。@もっとみんなに歩み寄って、……仲良くやれるよな？」@
+;「だから……。@もっとみんなに歩み寄って、……仲良くやれるよな？」@
+`"So...`@` You can step up a bit more, ...and make some friends, right?"`@`
 br
-　探るような目つきでひかるの顔を覗き込む。@今すぐこの目を潰してやりたかった。\
+;　探るような目つきでひかるの顔を覗き込む。@今すぐこの目を潰してやりたかった。\
+`　His expression as he peered at Hikaru's face was that of probing.`@` I wanted to crush those eyes into a pulp.`\
 
 ;ld c,HIK_Def3,22
 ld c,HIK_Def2,80
 
-「…………はい。@がんばってみます。@色々すみませんでした。」@
+;「…………はい。@がんばってみます。@色々すみませんでした。」@
+`"...Yes.`@` I'll do my best.`@` My apologies."`@`
 br
-　ひかるの全く心のこもってない返事に、それでも無能教師は満面の笑みを浮かべた。\
+;　ひかるの全く心のこもってない返事に、それでも無能教師は満面の笑みを浮かべた。\
+`　Hikaru's entirely half-hearted response, still elicited a broad grin from the incompetent professor.`\
 
 quakey 1,100
 
 「そうか、良かった。@二瓶なら分かってくれると思ったんだよ。」@
+`"Oh, that's great.`@` I thought you'd understand."`@`
+
 br
-　嬉しそうに背中をバンバンと叩く。@
-　この手を力任せにもぎ取ってやりたい。\
+;　嬉しそうに背中をバンバンと叩く。@
+`　He happily slapped my back.`@`
+;　この手を力任せにもぎ取ってやりたい。\
+`　I wanted to rip that hand off with all my strength.`\
 
-「あ、そうだ。@今日は先生、宿直当番で遅くまで学校にいるんだ。@だから、放課後になってあのうさぎたちに会いたくなったら、@いつでもここに来ていいからな。@あと何日も会えないかもしれないしな。」\
-
+;「あ、そうだ。@今日は先生、宿直当番で遅くまで学校にいるんだ。@だから、放課後になってあのうさぎたちに会いたくなったら、@いつでもここに来ていいからな。@あと何日も会えないかもしれないしな。」\
+`"Oh, that's right.`@` Today, I'm on night watch and will be at the school late.`@` So if, after school, you feel like seeing those rabbits,`@` you can come here anytime.`@` We don't know how long it will be until you can see them again."`\
 ld c,HIK_Def3,80
 
-「……ありがとうございます。@井俣先生。」\
+;「……ありがとうございます。@井俣先生。」\
+`"...Thank you very much,`@` Imata-sensei."`\
 
 cl c,22
 
@@ -2869,71 +2888,89 @@ se1v 82,100
 bg black,63
 bg shokuin_01,22
 
-　ひかるは早足で職員室を出た。\
+;　ひかるは早足で職員室を出た。\
+`　Hikaru briskly left the staff room.`\
 
-　これ以上この茶番に付き合うのは耐えられなかった。@
-　扉を閉めると同時に廊下にしゃがみこみ、歯を食いしばる。@軋む音が聞こえるほどに。@
+;　これ以上この茶番に付き合うのは耐えられなかった。@
+`　He couldn't handle any more of that mockery of a meeting.`@`
+;　扉を閉めると同時に廊下にしゃがみこみ、歯を食いしばる。@軋む音が聞こえるほどに。@
+`　At the same time as he closed the door, he crouched down in the corridor clenching his teeth.`@` To the point that one could hear a grating sound.`@`
 br
-　そうやって口の中から漏れだしそうになる声を必死に抑え込む。\
+;　そうやって口の中から漏れだしそうになる声を必死に抑え込む。\
+`　Doing that, he desperately repressed a voice from bursting out.`\
 
 bgm1 10
 
 quakey 1,100
 
-　無能教師ッ、無能教師ッ、無能教師ッ、無能教師！！！\
+;　無能教師ッ、無能教師ッ、無能教師ッ、無能教師！！！\
+`　That incompetent, inept, clumsy dumbass of a professor!!!`\
 
-　あんな無能が担任だから、……うちのクラスは落ち零れ扱い！@　僕が理不尽ないじめを受けてるのに気付きもせずッ。@なのに、泣き言をいう女子にだけは耳を貸して僕に説教までするッ！！\
+;　あんな無能が担任だから、……うちのクラスは落ち零れ扱い！@　僕が理不尽ないじめを受けてるのに気付きもせずッ。@なのに、泣き言をいう女子にだけは耳を貸して僕に説教までするッ！！\
+`　It's because that simpleminded dope is our homeroom teacher...that our class is falling behind!`@` He didn't even realize that I was meaninglessly being tormented...!`@` Yet he'd listen to some girl complain and go so far as to lecture me...!!!`\ 
 
 bg black,24
 bg rouka_02,24
 
-「……次のうさぎが、決まったようだね。」\
+;「……次のうさぎが、決まったようだね。」\
+`"...Looks like, the next rabbit is already decided."`\
 
 ld r,HAM_Def1,2
 ld r,HAM_Def3,80
 
-　誰もいない廊下に、さも当然のように、涼しげな顔のハメルンが立っていた。@
-　ひかるは、掴み掛かるかのようにハメルンに詰め寄る。\
+;　誰もいない廊下に、さも当然のように、涼しげな顔のハメルンが立っていた。@
+`　In the hall with nobody around, as though it were perfectly natural, the cool-faced Hameln stood.`@`
+;　ひかるは、掴み掛かるかのようにハメルンに詰め寄る。\
+`　Hikaru drew closer to Hameln as if to grab at him.`\
 
 ld l,HIK_i1,23
 quakex 1,100
 ld l,HIK_i2,80
 
-「今すぐ！@　今すぐあいつをうさぎに変えてくれッ、あの職員室の無能教師を！！」\
+;「今すぐ！@　今すぐあいつをうさぎに変えてくれッ、あの職員室の無能教師を！！」\
+`"Right now!`@` Turn that bastard into a rabbit, that brainless teacher in the staff room!!!"`\
 
 ld r,HAM_Def2,80
 
-「君の頼みなら、誰だって何人だって、うさぎに変えてあげるよ。@だけれども、君の今の頼みは聞けないね。」\
+;「君の頼みなら、誰だって何人だって、うさぎに変えてあげるよ。@だけれども、君の今の頼みは聞けないね。」\
+`"If it's your desire, I can turn any number of people into rabbits.`@` However, I cannot listen to your current request."`\
 
 ld l,HIK_i1,80
 quakey 2,200
 
-「どうしてっ。」\
+;「どうしてっ。」\
+`"Why...!"`\
 
 ld r,HAM_Def3,80
 
-「忘れたのかい？@　だって、僕は“音楽室のハメルン”じゃないか。」@
+;「忘れたのかい？@　だって、僕は“音楽室のハメルン”じゃないか。」@
+`"Have you forgotten?`@` It's because I am, 'Hameln of the Music Room,' am I not?"`@`
 
 ld l,HIK_w1,80
 
-「………あ、……あぁ、そうだったっけ。」\
+;「………あ、……あぁ、そうだったっけ。」\
+`"...Oh, ...Ah, that's right."`\
 
 cl r,0
 ld c,HAM_Def3,24
 
-「音楽室の中でなら。@誰だってうさぎにしてあげるよ。@でも、それ以外の場所では、僕のカスタネットを聞かせたくないね。@夜の音楽室に拘るのが、僕のポリシーなんだ。」\
+;「音楽室の中でなら。@誰だってうさぎにしてあげるよ。@でも、それ以外の場所では、僕のカスタネットを聞かせたくないね。@夜の音楽室に拘るのが、僕のポリシーなんだ。」\
+`"If they're in the music room.`@` I can turn anyone into a rabbit.`@` But, in any other location, people won't want to listen to my castanets.`@` It's my policy to be connected with the music room, at night."`\
 
 bg black,22
 
-　なら幸いだ。@あいつは今日、当直だとか言ってた。@夜遅くまでいるだろう。\
+;　なら幸いだ。@あいつは今日、当直だとか言ってた。@夜遅くまでいるだろう。\
+`　Then we're in luck.`@` Today, he said he'll be on duty.`@` He should be here until late this night.`\
 
 lsp bgsp,":a;bmp\background\efe\red_waku.bmp",0,0
 bg ongaku_01,22
 bgcopy
 csp -1
 
-「それで、あいつを、……音楽室へ連れ込めば……。」@
-「『ハメルンのカスタネット』の怪談、再びというわけさ。@……君の望む相手を、何人でも何十人でも、うさぎに変えてあげるよ。」\
+;「それで、あいつを、……音楽室へ連れ込めば……。」@
+`"Then, if I, ...bring him to the music room..."`@`
+;「『ハメルンのカスタネット』の怪談、再びというわけさ。@……君の望む相手を、何人でも何十人でも、うさぎに変えてあげるよ。」\
+`"`Then the story of 'Hameln's Castanets' shall repeat.`@` ...I will turn any tens of hundreds of your enemies into rabbits if it is your desire."`\
 
 bg black,22
 
