@@ -1573,72 +1573,98 @@ me1v 5,50
 
 ;　しかし思った以上に学校の敷地は広い。@
 `　However the school grounds were much larger than they thought.`@
-　まだ半分も確認していないというのに、@既に夕陽は沈みかけ、校舎の中を格子状の影で覆おうとしていた。\
+;　まだ半分も確認していないというのに、@既に夕陽は沈みかけ、校舎の中を格子状の影で覆おうとしていた。\
+`　Even though they hadn't even checked half of the building, `@`the sun was already setting, and the interior was already covered in grid patterned shadows.`\
 
 bg black,23
 bg rouka_02,23
 
-「て言うかさ、普通、学校の怪談って七不思議じゃねぇの？@　なんでうちだけ八不思議なんだろ？」@
-「そりゃ、この学校がとんでもなくでかいからだろ？@　八不思議でも少ないくらいだって。@普通の学校の何倍もあるんだからさ。」\
+;「て言うかさ、普通、学校の怪談って七不思議じゃねぇの？@　なんでうちだけ八不思議なんだろ？」@
+`"Speaking of -- normally, don't school ghost stories -- don't they have Seven Mysteries? `@`Why is it only our school that has Eight?"`@
+;「そりゃ、この学校がとんでもなくでかいからだろ？@　八不思議でも少ないくらいだって。@普通の学校の何倍もあるんだからさ。」\
+`"Well, isn't it because our school is rediculously huge? `@`They say Eight Mysteries aren't even enough. `@`I've heard we're got way more stories than normal schools."`\
 
-　そんな何でもない会話をしながら、少年たちはだらだらと歩いていく。@
+;　そんな何でもない会話をしながら、少年たちはだらだらと歩いていく。@
+`　Making that sort of idle conversation, the boys sluggishly continued walking.`@
 br
-　すると、廊下の先、階段の踊り場の陰から、不意に人影が現れた。\
+;　すると、廊下の先、階段の踊り場の陰から、不意に人影が現れた。\
+`　And, at the end of the hall, from the shadow of the stairwell, suddenly they see someone's figure.`\
 
 ld c,HIK_Def1,2
 
-「ん？」@
-「……何だよ、お前かよ。@泣いて帰ったんじゃなかったのかよ？」\
+;「ん？」@
+`"Hm?"`@
+;「……何だよ、お前かよ。@泣いて帰ったんじゃなかったのかよ？」\
+`"...What the hell, you? `@`Didn't you cry and run home already?"`\
 
-　その人影は二瓶ひかるだった。@
+;　その人影は二瓶ひかるだった。@
+`　That figure was HIkaru Nihei.`@
 
-　少年たちはさっき、彼が逃げ出すように教室を出て行ったのを見たばかりだった。@
+;　少年たちはさっき、彼が逃げ出すように教室を出て行ったのを見たばかりだった。@
+`　They boys had only just seen him head out the classroom like he was running away.`@
 br
-　しかし、今のひかるは何も言わず、無表情のままジッと少年たちを睨みつけている。\
+;　しかし、今のひかるは何も言わず、無表情のままジッと少年たちを睨みつけている。\
+`　However, now Hikaru said nothing and with his expressionless face, and he glared -- his eyes fixed upon them.`\
 
 bgm1 9
 
 bg rouka_03,22
 
-「うぇ……。@何かこいつ睨んできてんだけど。」@
-「何か用？@　まさか、俺たちと一緒に遊びたいとか？」@
-「えー。@ちょっとそれ冗談でもきついって。@俺、こいつと友達とか死んでも無理！」@
+;「うぇ……。@何かこいつ睨んできてんだけど。」@
+`"Umm... `@`For some reason this guy's staring at us."`@
+;「何か用？@　まさか、俺たちと一緒に遊びたいとか？」@
+`"What do you want? `@`Don't tell me you want to play with us?"`@
+;「えー。@ちょっとそれ冗談でもきついって。@俺、こいつと友達とか死んでも無理！」@
+`"Yeah. `@`That's a bit much even as a joke. `@`I'd rather die than be friends with this guy!"`@
 br
 
 ;quakey 2,200
 
-　少年の一人が大袈裟に顔をしかめ、それを見て他の少年たちも豪快に笑った。\
+;　少年の一人が大袈裟に顔をしかめ、それを見て他の少年たちも豪快に笑った。\
+`　One of the boys showed an exagerated grimace, and seeing that, the others burst into laughter.`\
 
-「ほら、さっさと帰れよ。@じゃないと今度はゴミ箱じゃなくて焼却炉に鞄ごとぶち込むぞ。」@
+;「ほら、さっさと帰れよ。@じゃないと今度はゴミ箱じゃなくて焼却炉に鞄ごとぶち込むぞ。」@
+`"Look, hurry up and go home. `@`Otherwise next time it won't be in the garbage, but we'll stuff your bag in the incinerator."`@
 br
-　少年たちは凄むと、ひかるに向かってゆっくりと近付いて行く……。@
-　と、次の瞬間……。\
+;　少年たちは凄むと、ひかるに向かってゆっくりと近付いて行く……。@
+`　The boys threatened, and then they slowly began walking towards Hikaru...`@
+;　と、次の瞬間……。\
+`　But, in the next instant...`\
 
 E_MA
 
 mbg white,1
 mcbg 22
 
-「……痛っ！」@
+;「……痛っ！」@
+`"...Ow!"`@
 br
-　少年たちの顔に何かが当たった。@
-　ひかるが何かをばらばらと投げつけたのだ。\
+;　少年たちの顔に何かが当たった。@
+`　Something hit the boys in their faces.`@
+;　ひかるが何かをばらばらと投げつけたのだ。\
+`　Hikaru had thrown those somethings at them in a burst.`\
 
 bg rouka_04,22
 
-　それは……、うさぎの糞だった。@
+;　それは……、うさぎの糞だった。@
+`　It was... rabbit feces.`@
 br
-　少年たちには、それが糞であることは理解できなかったが、挑発的な行為であることは充分に理解できた。\
+;　少年たちには、それが糞であることは理解できなかったが、挑発的な行為であることは充分に理解できた。\
+`　The boys might not have realized that was feces, but they clearly understood it was to provoke them.`\
 
 ;cl c,23
 
-　ひかるは呆然とする彼らを尻目に、それこそ脱兎のごとく逃げ出す。@
+;　ひかるは呆然とする彼らを尻目に、それこそ脱兎のごとく逃げ出す。@
+`　Hikaru glanced back at the dumbfounded boys as he ran off at full speed.`@
 br
-　感情が、呆然から怒りに変わり、少年たちの耳はみるみる真っ赤になる。\
+;　感情が、呆然から怒りに変わり、少年たちの耳はみるみる真っ赤になる。\
+`　Their feelings changed from astonishment to rage -- their ears flushed red.`\
 
-「お前ッ、ふざけるなよ！！！」@「待てコラ！」@「ブッ殺してやる！！」@
+;「お前ッ、ふざけるなよ！！！」@「待てコラ！」@「ブッ殺してやる！！」@
+`"You bastard! Don't fuck with us!!!" `@`"Wait up dammit!" `@`"I'm gonna kill you!!"`@
 br
-　一斉にひかるの後を追う。\
+;　一斉にひかるの後を追う。\
+`　They all gave chase after Hikaru.`\
 
 bg black,23
 bg k_rouka_03,23
@@ -1655,7 +1681,8 @@ bg kaidan_02,23
 ;bg rouka_01,23
 
 
-　廊下を走り抜け、階段を２、３段飛ばして駆け下りる。@すると前を走るひかるが１階の奥の教室に逃げ込むのが見えた。\
+;　廊下を走り抜け、階段を２、３段飛ばして駆け下りる。@すると前を走るひかるが１階の奥の教室に逃げ込むのが見えた。\
+`　Running out the hall, they flew down the third floor to the second. `@`And they saw Hikaru who was running in front of them dive into a classroom on the first floor.`\
 
 se1v 82,100
 
@@ -1663,27 +1690,37 @@ bg white,64
 bg ongaku_03,24
 quakex 1,100
 
-　勢い良く扉を開け、少年たちもそこに飛び込む。@
-　しかし、教室の中にひかるの姿はなかった。@どこか物陰にでも隠れているのだろうか。\
+;　勢い良く扉を開け、少年たちもそこに飛び込む。@
+`　Throwing open the door, the boys also ran inside.`@
+;　しかし、教室の中にひかるの姿はなかった。@どこか物陰にでも隠れているのだろうか。\
+`　However, Hikaru wasn't inside the classroom. `@`They wondered what he could be hiding under.`\
 
-「おい、出てこいよッ！！」@
+;「おい、出てこいよッ！！」@
+`"Hey, come out!!"`@
 br
-　少年たちは怒りに任せて叫ぶ。@
+;　少年たちは怒りに任せて叫ぶ。@
+`　The boys shout with rage.`@
 br
-「あいつ、やっぱり一回本気でシメようぜ。@あれだけやったのに全然反省してねぇじゃん。」\
+;「あいつ、やっぱり一回本気でシメようぜ。@あれだけやったのに全然反省してねぇじゃん。」\
+`"That bastard, I'm gonna wring his neck. `@`For what he did, I don't need to think twice."`\
 
 bg black,23
 bg ongaku_01,23
 
 me1v 11,90
 
-　少年たちは教室の中を探し始める。@
+;　少年たちは教室の中を探し始める。@
+`　The boys began searching inside the classroom.`@
 br
-　ここはどうやら、音楽室のようだった。@日が落ち、明かりがついていないこともあって、とても薄暗かった。@
-　音楽室の象徴とも言うべきグランドピアノが、薄暗闇の中で黒い大きな動物のように見える。\
+;　ここはどうやら、音楽室のようだった。@日が落ち、明かりがついていないこともあって、とても薄暗かった。@
+`　For some reason, this place seemed like the music room. `@`The sun was setting, there weren't any lights on either, so it was very dim.`@
+;　音楽室の象徴とも言うべきグランドピアノが、薄暗闇の中で黒い大きな動物のように見える。\
+`　Even the symbol of the music room, the grand piano, seemed like a large black animal in the twilight.`\
 
-　一体、どこに隠れた？@　ここにいることはわかってるんだ。@
-　見つけ出して、ギタギタにしてやる………。\
+;　一体、どこに隠れた？@　ここにいることはわかってるんだ。@
+`　Where in the world did he hide? `@`I know he's here somewhere.`@
+;　見つけ出して、ギタギタにしてやる………。\
+`(?)　When I find him, I'm gonna cover him in oil...`\
 
 bg black,22
 fede 0,2000
@@ -1700,12 +1737,14 @@ E_A
 
 se1v 85,100
 
-　……その時、音楽室の中に、……カチ、カチ、カチ、という音が響いた。@
+;　……その時、音楽室の中に、……カチ、カチ、カチ、という音が響いた。@
+`　...At that moment, ...the sound of click click click... echoed through the music room.`@
 
 se2v 85,100
 
 br
-　それが、……懐かしいカスタネットの音であると、すぐに気が付く。\
+;　それが、……懐かしいカスタネットの音であると、すぐに気が付く。\
+`　Quickly,... they realized it was the familiar sound of a castanet.
 
 bg ongaku_02,22
 
@@ -1713,71 +1752,93 @@ me2v 17,50
 
 se3v 85,100
 
-「おい……何の音だ？」@
-「……カスタネット……、……だよな……？」\
+;「おい……何の音だ？」@
+`"Hey... what's that noise?"`@
+;「……カスタネット……、……だよな……？」\
+`"...It's a castanet... isn't it?"`\
 
 se1v 85,70
 
-　少年たちは辺りを見回すが誰もいない。@
+;　少年たちは辺りを見回すが誰もいない。@
+`　The boys looked around them, but no one was there.`@
 br
-　壁にかかった肖像画の音楽家たちとは目が合ったが、現実の人間の姿はどこにもない。@しかし音は止まらない。\
+;　壁にかかった肖像画の音楽家たちとは目が合ったが、現実の人間の姿はどこにもない。@しかし音は止まらない。\
+`　They met the eyes of the portraits of the musicians on the walls, but there were no real human beings to be found. `@`But the sound continued.`\
 
 se2v 85,70
 
-「おい！@　ふざけてないで出て来いよ！」@
+;「おい！@　ふざけてないで出て来いよ！」@
+`"Hey! `@`Stop messing around and show yourself!"`@
 br
-　少年たちは叫ぶ。@だがその声には恐れが滲んでいた。\
+;　少年たちは叫ぶ。@だがその声には恐れが滲んでいた。\
+`　The boys shout. `@`But their voices oozed with fear.`\
 
 se3v 85,100
 
-　ひかるがカスタネットを叩いているに違いないと、理屈ではわかっているのだが。@……しかしさっきから、@この音楽室には自分たち以外の気配が感じられないのだ。\
+;　ひかるがカスタネットを叩いているに違いないと、理屈ではわかっているのだが。@……しかしさっきから、@この音楽室には自分たち以外の気配が感じられないのだ。\
+`　They thought it was reasonable that it had to be Hikaru playing the castanet, `@`...but from moments ago, `@`they couldn't sense anyone else in the room but themselves.`\
 
 bg black,22
 
 se1v 85,50
-　なのに、カスタネットの音がする。@
+;　なのに、カスタネットの音がする。@
+`　And yet, the sound of the castanet continues.`@
 se2v 85,70
-　なのに、カスタネットの音が近付いてくる。@
+;　なのに、カスタネットの音が近付いてくる。@
+`　And yet, the sound of the castanet draws closer.`@
 br
 se3v 85,85
-　………カチ、カチ、カチ……。@
+;　………カチ、カチ、カチ……。@
+`　...click click click...`@
 se1v 85,100
-　カチ、カチ、カチ、カチ、カチ、カチ………。\
+;　カチ、カチ、カチ、カチ、カチ、カチ………。\
+`　click click click click click click...`\
 
 me3v 16,50
 
-　少年たちは狼狽し、互いの顔を見合わせる。@もはや誰も自分の恐怖を隠そうともしない。@
+;　少年たちは狼狽し、互いの顔を見合わせる。@もはや誰も自分の恐怖を隠そうともしない。@
+`　The boys were panicking, and they looked at each other's faces. `@`It seemed no one was hiding their fear any longer.`@
 br
-　……絶対おかしいだろ？@　……何なんだよこの音！@
-　一体どこから聞こえてくるんだよ！？@　だって、これじゃ、まるですぐ後ろから……。\
+;　……絶対おかしいだろ？@　……何なんだよこの音！@
+`　...Something is seriously wrong right? `@`...What the hell is that sound!`@
+;　一体どこから聞こえてくるんだよ！？@　だって、これじゃ、まるですぐ後ろから……。\
+`　Where the heck is it coming from?! `@`I mean, it's like it's right behind us...`\
 
 se1v 85,100
 wait 300
 se2v 85,100
 
-　少年たちは、姿なく近付いてくるその音が、今、自分たちのすぐ後ろまで来ていることを悟る。@
+;　少年たちは、姿なく近付いてくるその音が、今、自分たちのすぐ後ろまで来ていることを悟る。@
+`　The boys realized that the formless sound was coming up right behind them.`@
 br
-　そして、恐る恐る、だけれども一斉に振り返る。\
+;　そして、恐る恐る、だけれども一斉に振り返る。\
+`　And so, timidly, fearfully, everyone turned around simultaneously.`\
 
 bg black,24
 bg ongaku_01,24
 
 E_A
 
-「……え。」@
+;「……え。」@
+`"...Huh."`@
 
 me1v 11,90
 
-「……………………。」@
-「は、……はは。@……誰もいねぇじゃん。」\
+;「……………………。」@
+`"........."`@
+;「は、……はは。@……誰もいねぇじゃん。」\
+`"Ha... haha. `@`...There's nobody here!"`\
 
-　そこには……、誰もいなかった。@
+;　そこには……、誰もいなかった。@
+`　There was... no one there.`@
 br
 
 E_A
 
-　しかし、少年たちを不思議な感覚が襲う。@
-　……何だか、視界がおかしい。\
+;　しかし、少年たちを不思議な感覚が襲う。@
+`　However, the boys were assaulted by a strange sensation.`@
+;　……何だか、視界がおかしい。\
+`　...Something about what they were seeing was odd.`\
 
 bgm1 11
 
@@ -1788,25 +1849,33 @@ print 26
 bg ongaku_03,0
 print 99,2000,"trvswave.dll/l"
 
-　ぐにゃりと歪み、……眩暈を覚える。@
+;　ぐにゃりと歪み、……眩暈を覚える。@
+`　They felt dizzy... as things warped.`@
 br
-　何だか、急に部屋が広くなったような気がした。@
-　見上げる天井が異様に高い。@
-　このピアノはこんなに大きかっただろうか？@　鍵盤が手の届かないほど高い位置にある。\
+;　何だか、急に部屋が広くなったような気がした。@
+`　For some reason, they felt the room had suddenly gotten much bigger.`@
+;　見上げる天井が異様に高い。@
+`　The ceiling above them looked bizarrely further away.`@
+;　このピアノはこんなに大きかっただろうか？@　鍵盤が手の届かないほど高い位置にある。\
+`　Was this piano this large? `@`The keys were so high that their hands couldn't reach them.`\
 
 me1v 28,70
 
-　少年たちは気付く。@部屋が大きくなったんじゃない。@自分たちが小さくなったんだと。\
+;　少年たちは気付く。@部屋が大きくなったんじゃない。@自分たちが小さくなったんだと。\
+`　The boys realized. `@`It wasn't that the room had become larger. `@`It was that they had become smaller.`\
 
 bg black,22
 bg aka3,1
 quake 5,300
 
-　パニックになった少年たちは悲鳴を上げようとした。@だが声が出ない。\
+;　パニックになった少年たちは悲鳴を上げようとした。@だが声が出ない。\
+`　The panicked boys tried to cast their desperate scream. `@`But their voices didn't come out.`\
 
-　どうして？@　それにさっきから周りの音がやたらと大きく聞こえるような……。@あれ、俺の手足ってこんなに短かったか？！@
+;　どうして？@　それにさっきから周りの音がやたらと大きく聞こえるような……。@あれ、俺の手足ってこんなに短かったか？！@
+`　Why? `@`And for some reason I can hear everything around me much better... `@`What the, were my hands and legs this short?!`@
 br
-　その時、すぐ近くから誰かの囁くような声が聞こえてきた。\
+;　その時、すぐ近くから誰かの囁くような声が聞こえてきた。\
+`　At that moment, they could hear someone's whisper-like voice right next to them.`\
 
 bg black,22
 
@@ -1816,37 +1885,48 @@ bg ongaku_02,0
 ld c,HAM_Def1,22
 ld c,HAM_Def3,80
 
-「“夜、音楽室にいると、カチ、カチ、カチ、というカスタネットの音が聞こえてくる。@しかし、辺りを見回しても誰もいない。@カチ、カチ、カチ…。@音は段々大きくなってくる。@そこで気付く。@自分たちの姿が小さなうさぎに変わっていることに……。”」\
+;「“夜、音楽室にいると、カチ、カチ、カチ、というカスタネットの音が聞こえてくる。@しかし、辺りを見回しても誰もいない。@カチ、カチ、カチ…。@音は段々大きくなってくる。@そこで気付く。@自分たちの姿が小さなうさぎに変わっていることに……。”」\
+`"'　...At night, if you are in the music room, you can hear the sound of castanets go click, click, click. `@`　But if you look around you, there is nobody there...`@`　Click, click, click...`@`　The sound gradually becomes louder.`@`　...And that's when you notice.`@` Your form has become that of a small rabbit...'`@`
 
-　そこにはおかしな衣装を纏った長髪の青年が立っていた。@そして、その手にはカスタネットが。\
+;　そこにはおかしな衣装を纏った長髪の青年が立っていた。@そして、その手にはカスタネットが。\
+`　There was a strangely attired long-haired young man standing there, `@`and in his hand was a castanet.`\
 
-　しかし、今の彼らにとって、……その青年は見上げるほどの巨人のような背丈があった。@
+;　しかし、今の彼らにとって、……その青年は見上げるほどの巨人のような背丈があった。@
+`　However, to the boys now... as they looked up at the young man he seemed to have a stature like a giant.`@
 br
-　彼らは理解する。@自分たちがどれほど小さくなってしまったかを理解する。@
+;　彼らは理解する。@自分たちがどれほど小さくなってしまったかを理解する。@
+`　They realized it. `@`They realized how small they had finally been reduced into.`@
 br
-　青年は、整ったその顔で笑顔をつくると、ぶるぶると震える少年たち…、@いや、うさぎたちに笑いかけた。\
+;　青年は、整ったその顔で笑顔をつくると、ぶるぶると震える少年たち…、@いや、うさぎたちに笑いかけた。\
+`　The young man put a smile on his elegent face, then looking at the boys, `@`no, the rabbits -- and laughed.`\
 
 ld c,HAM_Def6,80
 
 me2v 17,70
 
-「おめでとう！@　君たちが僕の怪談、『ハメルンのカスタネット』の初めての犠牲者だよ。」@
+;「おめでとう！@　君たちが僕の怪談、『ハメルンのカスタネット』の初めての犠牲者だよ。」@
+`"Congratulations! `@`You se, you're the first victims of my ghost story, 'Hameln's Castanets'"`@
 se1 85
 br
-　青年はなおもリズミカルにカスタネットを鳴らす。@するとうさぎたちはまるでその音に操られるかのように一列に並んだ。\
+;　青年はなおもリズミカルにカスタネットを鳴らす。@するとうさぎたちはまるでその音に操られるかのように一列に並んだ。\
+`　The young man even began to play the castanets to a rythym. `@`As if they were being manipulated by that sound, the rabbits formed a line.`\
 
 ld c,HAM_Def3,80
 
-「ふふふ、それじゃあ、いよいよ怪談のラストだ。」\
+;「ふふふ、それじゃあ、いよいよ怪談のラストだ。」\
+`"Hu hu hu, well then, it's time for the end of the story."`\
 
-“……動物に姿を変えられた子供達は、ハメルンの鳴らすカスタネットの音に導かれ、闇の中へと消えていったのでした……。”\
+;“……動物に姿を変えられた子供達は、ハメルンの鳴らすカスタネットの音に導かれ、闇の中へと消えていったのでした……。”\
+`'...Then, the children who turned into rats, seem to disappear into the darkness, guided by the sound of Hameln's beating castanets...'`\
 
 ld c,HAM_Def4,80
 
-「さぁ、君たちをとっておきの“闇”へとお連れするよ。」@
+;「さぁ、君たちをとっておきの“闇”へとお連れするよ。」@
+`"Well then, now I will guide you all into the much awaited 'darkness.'"`@
 br
 se1 85
-　夜の音楽室の中に、ハメルンのカスタネットが鳴り響く……。\
+;　夜の音楽室の中に、ハメルンのカスタネットが鳴り響く……。\
+`　The sound of Hameln's castanet echoes in the music room...`\
 
 bg black,2
 
@@ -1856,16 +1936,21 @@ bg usagi_01,2
 
 me1v 16,50
 
-　気がつくとうさぎたちは校舎裏のうさぎ小屋の中にいた。@
+;　気がつくとうさぎたちは校舎裏のうさぎ小屋の中にいた。@
+`　When they came to, the rabbits realized they were in the rabbit cages behind the school.`@
 br
-　ハメルンがカスタネットを鳴らすのをやめると同時に、うさぎたちは自分の意志で動けるようになる。@
-　しかし、うさぎの手足は人間のそれとは感覚が違うのか、うまく歩くことすらままならない。\
+;　ハメルンがカスタネットを鳴らすのをやめると同時に、うさぎたちは自分の意志で動けるようになる。@
+`　When Hameln stopped playing his castanet, the rabbits could move freely by their own will.`@
+;　しかし、うさぎの手足は人間のそれとは感覚が違うのか、うまく歩くことすらままならない。\
+`　However, because the feeling of a rabbit's legs were different than a human's, they couldn't even walk properly.`\
 
 ld r,HAM_Def2,2
 
-「……さあ、ひかる君。@後はどうぞご自由に。」@
+;「……さあ、ひかる君。@後はどうぞご自由に。」@
+`"...Well then, Hikaru-kun. `@`The rest is up to you."`@
 br
-　軽やかなハメルンの声を合図に、うさぎ小屋の扉がギィーという錆びた金属の音と共に開いた。\
+;　軽やかなハメルンの声を合図に、うさぎ小屋の扉がギィーという錆びた金属の音と共に開いた。\
+`　At the signal of Hameln's relaxed voice, the rabbit cage door opened with a rusty screech.`\
 
 mld c,HIK_Def2,2
 bg black,2
@@ -1873,16 +1958,21 @@ bg black,2
 bg usagi_02,2
 ;ld c,HIK_Def1,2
 
-　うさぎたちは赤い目を見開く。@そこには、………ひかるが立っていた。@
+;　うさぎたちは赤い目を見開く。@そこには、………ひかるが立っていた。@
+`　The rabbits open their red eyes. `@`In front of them... stood Hikaru.`@
 br
-　もちろん、見上げるような巨人の背丈がある。\
+;　もちろん、見上げるような巨人の背丈がある。\
+`　Of course, as they looked up at him, he had the stature of a giant.`\
 
-　そして、……彼が両手に握り締めるものが、不気味な銀の輝きを放つ。@
+;　そして、……彼が両手に握り締めるものが、不気味な銀の輝きを放つ。@
+`　And... what he gripped in both his hands, gave off a strange silver shine.`@
 br
 E_A
-　ひかるの両手には、無数の文房具が。@
+;　ひかるの両手には、無数の文房具が。@
+`　In his arms, he held countless supplies.`@
 bgm1 16
-　ハサミ、コンパス、カッターナイフ……。@……それらは月の光に反射し、冷たい輝きを放っている。\
+;　ハサミ、コンパス、カッターナイフ……。@……それらは月の光に反射し、冷たい輝きを放っている。\
+`　Scissors, drafting compasses, box cutters... `@`...They were reflecting the moonlight, and giving off a cold metal shine.`\
 
 bg black,22
 mono 2
@@ -1891,16 +1981,21 @@ quake 5,500
 
 me1v 28,70
 
-　うさぎたちはこれから起こることを直感し、必死になって逃げ出そうとする。@
+;　うさぎたちはこれから起こることを直感し、必死になって逃げ出そうとする。@
+`　The rabbits had a feeling about what was going to happen, and then they desperately tried to escape.`@
 br
-　しかし、金網を引き千切れるわけもなく、そのわずかな隙間から外へ逃れ出ることも出来はしない。\
+;　しかし、金網を引き千切れるわけもなく、そのわずかな隙間から外へ逃れ出ることも出来はしない。\
+`　However, they couldn't cut through the wire mesh, and aside from escaping from a chance hole in the wire mesh, they can't escape.`\
 
 quake 5,500
 
-　出来るのは、ただがむしゃらに走り回って、壁や金網に突進して頭をぶつけることだけ。@
-　見ているのが哀れなくらい愚かで無駄な抵抗だった。\
+;　出来るのは、ただがむしゃらに走り回って、壁や金網に突進して頭をぶつけることだけ。@
+`　All they could do was just run around in circles recklessly, charging at the walls and fencing only to bump their heads.`@
+;　見ているのが哀れなくらい愚かで無駄な抵抗だった。\
+`　Looking at them, they seemed patheticly foolish in their pointless resistence.
 
-　金網に負けて爪が剥がれ、あちこちに頭をぶつけ血を滲ませると、@……とうとう彼らも諦めたのか、身を寄せ合って、懇願するようにひかるを見上げる。\
+;　金網に負けて爪が剥がれ、あちこちに頭をぶつけ血を滲ませると、@……とうとう彼らも諦めたのか、身を寄せ合って、懇願するようにひかるを見上げる。\
+`　
 mcl c,0
 bg black,22
 mono 0
