@@ -2713,13 +2713,17 @@ br
 cl c,0
 mld c,HIK_w2a,22
 
-　あのうさぎたちを殺したのは誰だと思う？@　町の変質者？@　ストレスを抱えたキレやすい大学生？@
+;　あのうさぎたちを殺したのは誰だと思う？@　町の変質者？@　ストレスを抱えたキレやすい大学生？@
+`　Who do you think killed those rabbits?`@` Some degenerate in town?`@` Some college student who snaps easily under stress?`@`
 br
-　違う！@　僕だ！@　目の前にいる子供だっ！！@　そして僕をそこまで追いつめたのもみんな子供だっ！！！\
+;　違う！@　僕だ！@　目の前にいる子供だっ！！@　そして僕をそこまで追いつめたのもみんな子供だっ！！！\
+`　You're wrong!`@` It's me!`@` The kid standing right in front of your eyes!!`@` And the ones who cornered me into doing this were children too!!!`\
 
-　子供は悪意なんてとっくに知ってる。@
+;　子供は悪意なんてとっくに知ってる。@
+`　Children already understand malice.`@`
 br
-　大人のあんたたちよりも遥かに鮮烈な悪意の中で毎日生きてるんだ。@そんなことも分からないのかこの無能教師はッ。\
+;　大人のあんたたちよりも遥かに鮮烈な悪意の中で毎日生きてるんだ。@そんなことも分からないのかこの無能教師はッ。\
+`　Every day, they live with ill will far more spectacularly than you adults do.`@` Do you not understand that, you incompetent twit?!`\
 
 bg black,22
 
@@ -2728,28 +2732,37 @@ ld c,HIK_def2,0
 
 bg shokuin_02,22
 
-「………先生は、ほとんど毎日お前がうさぎ小屋に通ってたのを知ってる。@飼育委員だからってそうそうできることじゃない。@ずっと偉いなって思ってたんだ。@……俺は、お前が本当はやさしい子だってことを知ってる。@だからな……？」\
+;「………先生は、ほとんど毎日お前がうさぎ小屋に通ってたのを知ってる。@飼育委員だからってそうそうできることじゃない。@ずっと偉いなって思ってたんだ。@……俺は、お前が本当はやさしい子だってことを知ってる。@だからな……？」\
+`"...I knew that you went almost every day to the rabbit pen.`@` Since you were a member of the animal rearing club, it couldn't just be that you said, 'Yeah, sure, I'll do it.'`@` I always thought you were so admirable.`@` I knew you actually were a kind person.`@` Therefore...."`\
 
 　ひかるは思わず笑いそうになる。@
+`　Hikaru just about laughed.`@`
 br
-　確かにうさぎ小屋に通ってたのは知ってるだろう。@うさぎ小屋の鍵はあんたに言わなきゃ借りられないんだから。\
+;　確かにうさぎ小屋に通ってたのは知ってるだろう。@うさぎ小屋の鍵はあんたに言わなきゃ借りられないんだから。\
+`　Sure, you would know I go by the rabbit cage.`@` I can't borrow the key to get in unless I talk to you.`\
 
 ld c,HIK_w1,22
 
-　でも、それだけだ。@借りに来た僕に、事務的にただ渡していただけ。@僕のことを、ましてうさぎのことを気にかけていたわけじゃない。@
+;　でも、それだけだ。@借りに来た僕に、事務的にただ渡していただけ。@僕のことを、ましてうさぎのことを気にかけていたわけじゃない。@
+`　But, that's all.`@` He only handed it over to me for business.`@` It's not like he was concerned about me, much less about the rabbits.`@`
 br
-　なのに、今になってよくそんな取って付けたようなことが言えたものだ。@
+;　なのに、今になってよくそんな取って付けたようなことが言えたものだ。@
+`　Yet, now you're saying such a far-fetched thing so well.`@`
 br
-　うさぎ小屋で僕が本当は何をしてたのかあんたは知らないだろ？@　あそこにだって悪意はあった。@あんたが気付いてなかっただけだ。\
+;　うさぎ小屋で僕が本当は何をしてたのかあんたは知らないだろ？@　あそこにだって悪意はあった。@あんたが気付いてなかっただけだ。\
+`　You don't know what I was actually doing in those cages, right?`@` There was evil intent there, too.`@` You just didn't notice it.`\
 
-「だから……。@もっとみんなに歩み寄って、……仲良くやれるよな？」@
+;「だから……。@もっとみんなに歩み寄って、……仲良くやれるよな？」@
+`"So...`@` You can step up a bit more, ...and make some friends, right?"`@`
 br
-　探るような目つきでひかるの顔を覗き込む。@今すぐこの目を潰してやりたかった。\
+;　探るような目つきでひかるの顔を覗き込む。@今すぐこの目を潰してやりたかった。\
+`　His expression as he peered at Hikaru's face was that of probing.`@` I wanted to crush those eyes into a pulp.`\
 
 ;ld c,HIK_Def3,22
 ld c,HIK_Def2,80
 
-「…………はい。@がんばってみます。@色々すみませんでした。」@
+;「…………はい。@がんばってみます。@色々すみませんでした。」@
+`"...Yes.`@` I'll do my best.`@` My apologies."`@`
 br
 　ひかるの全く心のこもってない返事に、それでも無能教師は満面の笑みを浮かべた。\
 
