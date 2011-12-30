@@ -2879,10 +2879,11 @@ csp -1
 
 bg black,22
 
-　……ひかるは考えを巡らせる。@
+;　……ひかるは考えを巡らせる。@
+`　...Hikaru started thinking.`@`
 br
-　夕陽が沈むまではまだしばらく時間がある。@夜まで待つのはいいとして、はたして井俣をうまく音楽室に誘い込むことができるだろうか。\
-
+;　夕陽が沈むまではまだしばらく時間がある。@夜まで待つのはいいとして、はたして井俣をうまく音楽室に誘い込むことができるだろうか。\
+`　It would be some time until the sun would set.`@` As long as he was okay waiting until night, he could easily entice Inomata into the music room.`\
 
 
 lsp bgsp,":a;bmp\background\efe\red_waku.bmp",0,0
@@ -3317,17 +3318,20 @@ bg black,22
 
 　ハメルンはまるで、大量の書類で作られた、巨大な張子の虎のような姿にされていた……。@
 br
-　辛うじて首だけは覗かせているが、……首から下は完全に、大量の書類に拘束されてしまっている。\
+;　辛うじて首だけは覗かせているが、……首から下は完全に、大量の書類に拘束されてしまっている。\
+`　With only his neck peeking out, ...underneath his neck was completely restricted by the tremendous amount of paperwork.`\
 
 bg black,23
 
-「……う、ぐ、ぐ……。」@
+;「……う、ぐ、ぐ……。」@
+`"...Urg, gh, ggh...."`@`
 
 ;bg shokuin_02,0
 ;ld l,HIG_Def1,23
 ;ld l,HIG_Def1,80
 
-「“音楽室のハメルン”を名乗る分際で、職員室でこの踊る彼岸花に喧嘩を…？@　くすくすくす、笑わせるわ。」\
+;「“音楽室のハメルン”を名乗る分際で、職員室でこの踊る彼岸花に喧嘩を…？@　くすくすくす、笑わせるわ。」\
+`"Someone under the title of `Hameln of the Music Room,` picking a fight with I, the Dancing Higanbana of the Staff Room...?`@` Teeheehee, you crack me up."`\
 
 
 bg black,24
@@ -3336,35 +3340,41 @@ ld r,HIK_n1,24
 ;ld r,HIK_Def1,80
 quakey 1,100
 
-「ハ、ハメルン……！！」\
+;「ハ、ハメルン……！！」\
+`"H, Hameln...!!"`\
 
 ;bg black,23
 ;bg shokuin_04,0
 ld l,HIG_def5,22
 ;ld c,HIG_Def5,80
 
-「他人の心配より自分の心配をしたら…？@　二瓶ひかる君……？」@
+;「他人の心配より自分の心配をしたら…？@　二瓶ひかる君……？」@
+`"Why don't you try worrying about yourself rather than others...?`@` Hikaru Nihei-kun...?"`@`
 br
-　彼岸花の冷酷な瞳が、ひかるを射抜く。\
+;　彼岸花の冷酷な瞳が、ひかるを射抜く。\
+`　Higanbana's ruthless eyes shot through Hikaru.`\
 
 cl l,0
 mld c,HIG_Def3,23
 
-「……ハメルンをけしかけておいて、自分は蚊帳の外のつもりだったの？@　……ハメルンに私をうさぎに変えさせようとしたということは。@……あなたが、私を殺そうとしたのと同じことよ。@人を殺そうとするなら、……自分も殺される覚悟を持つことね。」\
+;「……ハメルンをけしかけておいて、自分は蚊帳の外のつもりだったの？@　……ハメルンに私をうさぎに変えさせようとしたということは。@……あなたが、私を殺そうとしたのと同じことよ。@人を殺そうとするなら、……自分も殺される覚悟を持つことね。」\
+`"...Were you planning on siccing Hameln on me and removing yourself from the situation?`@` ...To try and ask Hameln to turn me into a rabbit.`@` That is the same as you trying to kill me.`@` If you try to kill me, ...then you must be prepared to be killed."`\
 
 ;bg black,24
 ;bg shokuin_03,0
 ;ld r,HIK_i2,24
 ld r,HIK_n1,80
 
-「う、………わ、……………。@た、……助けて…………、」\
+;「う、………わ、……………。@た、……助けて…………、」\
+`"U, ...ag, ....`@` H-help, ...me..."`\
 
 ;bg black,23
 ;bg shokuin_02,0
 mld c,HIG_Def5,80
 ;ld l,HIG_Def1,80
 
-「そんな様じゃ、殺すということの意味を、まだ理解できていないようね。@………私の話を、ちゃんと聞いていた？@　殺すということの意味を。@……覚悟や、背負うものを。@あなたは考えることが出来た……？」\
+;「そんな様じゃ、殺すということの意味を、まだ理解できていないようね。@………私の話を、ちゃんと聞いていた？@　殺すということの意味を。@……覚悟や、背負うものを。@あなたは考えることが出来た……？」\
+`"If you're still like this, it seems you still don't understand what it means to kill.`@` ...Did you properly listen to what I said?`@` The meaning of killing.`@` ...Having the resolution, and the burdens.`@` Have you thought about it yet...?"`\
 
 mcl c,0
 bg black,0
@@ -3375,46 +3385,55 @@ ld r,HIK_n1,22
 
 me3v 17,70
 
-　ゆっくりと、……ゆっくりと彼岸花が近付いてくる。@
+;　ゆっくりと、……ゆっくりと彼岸花が近付いてくる。@
+`　Slowly, ...Slowly, Higanbana drew nearer.`@`
 br
-　ひかるの足は、凍り付いて床に貼り付いてしまったかのよう。@
-　真っ白な紙吹雪の旋風を纏いながら、一歩一歩近付いてくる妖怪を前に、尻餅すらつけない。\
-
+;　ひかるの足は、凍り付いて床に貼り付いてしまったかのよう。@
+`　Hikaru's legs were frozen, as though stuck to the ground.`@`
+;　真っ白な紙吹雪の旋風を纏いながら、一歩一歩近付いてくる妖怪を前に、尻餅すらつけない。\
+`　Surrounded in the commotion of a pure white paper maelstrom, in front of the youkai nearing step by step, he couldn't so much as fall on his backside.`\
 ;mbg white,28
 ;mcbg 22
 ;ld r,HIK_Def1,80
 ;ld l,HIG_Def3,2
 ld l,HIG_w3,2
 
-「……………………………。@そう。@……理解したつもりで、いるのね。」@
+;「……………………………。@そう。@……理解したつもりで、いるのね。」@
+`"......`@` That's right.`@` You were here, planning to understand."`@`
 br
-　彼岸花は、ひかるの心の声を完全に読み取っている。@
-　ひかるが至った、彼なりの殺人の覚悟を読み取り、……せせら笑っている。\
-
+;　彼岸花は、ひかるの心の声を完全に読み取っている。@
+`　Higanbana, was perfectly reading Hikaru's mind.`@`
+;　ひかるが至った、彼なりの殺人の覚悟を読み取り、……せせら笑っている。\
+`　Once she'd come to Hikaru, and read how prepared this particular murder was, ...she laughed sardonically.`\
 bg Aka2,22
 ;ld r,HIK_Def1,80
 
 me4v 16,70
 
-　僕には、食らう資格がある。@
+;　僕には、食らう資格がある。@
+`　I have the qualifications to eat.`@`
 
 ;ld r,HIK_Def1,80
 
-　僕は憎み、復讐するために、……殺す覚悟がある。@
+;　僕は憎み、復讐するために、……殺す覚悟がある。@
+`　I have the resolution to kill...out of revenge, and hatred.`@`
 br
-　その為に、殺すということを、五感の全てで、実感して理解してやるよ。\
+;　その為に、殺すということを、五感の全てで、実感して理解してやるよ。\
+`　Hence, I can personally understand with all of my five senses what it means to kill.`\
 
 ;ld r,HIK_Def1,80
 
-　……顔を踏みつける感触、耳を切り裂くハサミの震え、目玉に突き破る時のコンパスのあの手応え。@
+;　……顔を踏みつける感触、耳を切り裂くハサミの震え、目玉に突き破る時のコンパスのあの手応え。@
+(?)`　The sensation of trampling someone's face, the trembling of scissors cutting off an ear, that feedback from piercing an eyeball with a compass.`@`
 br
-　それら全てを実感して、理解してやる。\
+;　それら全てを実感して、理解してやる。\
+`　He knew that all of those, were real feelings.`\
 
 ld c,HIG_w4,22
 
 
-「それがあなたの覚悟？@　殺すということの理解？@　……………くすくす、うふふ、うっふふふふふふふふふふふふふふ！！@　何を実感したというの？@　……うさぎの皮を裂いた実感しか記憶に留めていないくせに。@……そんなあなたが、何を実感して、何を覚悟しているって言うの？@　くすくす、……くっすくすくすくすくすくすくすくすくすくすくすッ！！！」\
-
+;「それがあなたの覚悟？@　殺すということの理解？@　……………くすくす、うふふ、うっふふふふふふふふふふふふふふ！！@　何を実感したというの？@　……うさぎの皮を裂いた実感しか記憶に留めていないくせに。@……そんなあなたが、何を実感して、何を覚悟しているって言うの？@　くすくす、……くっすくすくすくすくすくすくすくすくすくすくすッ！！！」\
+`"That's your resolve?`@` That's how you understand killing?`@` ....Hehe, Ehehehehehe!!`@` What are you saying is an actual feeling?`@` ...Even though you can't even remember the actual feeling of tearing up a rabbit's skin.`@` ...So what on earth are you saying like that, what actual feeling? What kind of readiness is that?`@` Teeheehee, ...Ehehehehehehehehehe!`\
 se1v 66,100
 
 me5v 5,90
@@ -3422,10 +3441,13 @@ me5v 5,90
 bg white,23
 bg black,23
 
-　彼女の笑いと旋風が、共に激しくなる。@
-　そして、その旋風が爆ぜて、ひかるを飲み込んだ。@
+;　彼女の笑いと旋風が、共に激しくなる。@
+`　Her laugh and the whirlwind simultaneously became tempestuous.`@`
+;　そして、その旋風が爆ぜて、ひかるを飲み込んだ。@
+`　And, as the commotion blew open, Hikaru swallowed.`@`
 br
-　その瞬間、彼の世界は静寂の暗闇に包まれた。\
+;　その瞬間、彼の世界は静寂の暗闇に包まれた。\
+`　In that instant, his world was wrapped in a silent darkness.`\
 
 ;ld c,HIG_Def1,2
 ;ld c,HIG_Def1,80
@@ -3441,41 +3463,54 @@ bg e015,2
 
 bgm1 13
 
-　……あなたは人間を殺したのよ？@　本当にそれを理解できているのかしら？\
+;　……あなたは人間を殺したのよ？@　本当にそれを理解できているのかしら？\
+`　...You killed a human.`@` Have you truly come to understand that?`\
 
-　目の前でしゃべっているはずなのに、彼岸花の声は、どこか、ものすごく遠くから聞こえてくるようだ。@
+;　目の前でしゃべっているはずなのに、彼岸花の声は、どこか、ものすごく遠くから聞こえてくるようだ。@
+`　Even though she should have been talking in front of his eyes, he heard Higanbana's voice from what seemed like somewhere far, far away.`@`
 br
-　そしてそれは恐ろしく静かで透明感に満ちた、電子音のような声に変わっていた。\
+;　そしてそれは恐ろしく静かで透明感に満ちた、電子音のような声に変わっていた。\
+`　And it was dreadfully quiet, fraught with transparency, and had changed to sound like it were electronic.`\
 
 bg white,1
 bg black,22
 
 me1v 16,50
 
-　肌が粟立ち、気持ちが戦慄する……。@
+;　肌が粟立ち、気持ちが戦慄する……。@
+`　His skin was covered in goosebumps, and he trembled with fear...`@`
 br
-　不意にひかるは、自分の右手が何かを握っている気がした。\
+;　不意にひかるは、自分の右手が何かを握っている気がした。\
+`　Suddenly, Hikaru realized his right hand was clasping something.
 
 bg aka3,1
 quakey 2,200
 
-　それは……、文房具。@
+;　それは……、文房具。@
+`　That was...a stationery set.`@`
 me2v 17,50
-　ハサミ、コンパス、カッターナイフ。@
+;　ハサミ、コンパス、カッターナイフ。@
+`　Scissors, a compass, a box cutter.`@`
 br
-　それはうさぎたちを虐殺した、処刑道具。\
+;　それはうさぎたちを虐殺した、処刑道具。\
+`　They were the tools he'd executed the rabbits with during the atrocity.`\
 
-　ここにあるはずがない。@だって捨てたはずだ。@
-　あの日、彼らを殺した後、血を洗い流し、コンビニのゴミ箱の中へ放り込んだ。@それなのに何故……。\
+;　ここにあるはずがない。@だって捨てたはずだ。@
+`　They shouldn't be here.`@` I swear I threw them out.`@`
+;　あの日、彼らを殺した後、血を洗い流し、コンビニのゴミ箱の中へ放り込んだ。@それなのに何故……。\
+`　That day, after I killed them all and washed the blood, I'd tossed them into a bin at a convenience store.`@` So then why...`\
 
 bg white,1
 bg black,22
 
 
-　その時、土の匂いを嗅いだ気がした。@それに混じる獣の臭い……。@
+;　その時、土の匂いを嗅いだ気がした。@それに混じる獣の臭い……。@
+`　At that time, he realized the smell of the earth.`@` And mixed in was the stink of beasts....`@`
 br
-　え……ここって……。@
-　ゆっくりと、……真っ暗だった世界が薄れていく……。\
+;　え……ここって……。@
+`　Eh...this is...`@`
+;　ゆっくりと、……真っ暗だった世界が薄れていく……。\
+`　Slowly, ...the pitch black world faded away...`\
 
 fede 0,2000
 E_A
@@ -3489,39 +3524,50 @@ csp -1
 
 me1v 5,50
 
-　頬に感じる風。@外気。@……むわっとする獣の臭い。@
+;　頬に感じる風。@外気。@……むわっとする獣の臭い。@
+`　The wind on his cheeks.`@` Open air.`@` ...And the striking stink of animals.`@`
 br
-　辺りを見回して驚く。@そこはさっきまでいた職員室じゃなかった。@
-　錆び付いた金網に取り囲まれたその場所は……、うさぎ小屋だった。\
+;　辺りを見回して驚く。@そこはさっきまでいた職員室じゃなかった。@
+`　He was astonished by looking around the area.`@` It was not the staff room they'd been in until now.`@`
+;　錆び付いた金網に取り囲まれたその場所は……、うさぎ小屋だった。\
+`　The place surrounded by rusted over wire mesh..., was the rabbit cage.`\
 
-　そんな…………、馬鹿な。@
+;　そんな…………、馬鹿な。@
+`　No..., it can't be.`@`
 br
-　うさぎ小屋は立ち入り禁止のはずだ。@しかし、小屋の周りには貼られているはずのテープもない。\
+;　うさぎ小屋は立ち入り禁止のはずだ。@しかし、小屋の周りには貼られているはずのテープもない。\
+`　The rabbits' pen should be off limits.`@` Yet even the tape that should be around the cage wasn't there.`\
 
-　すると……、うさぎ小屋の隅に、何かの影が見えた。@
+;　すると……、うさぎ小屋の隅に、何かの影が見えた。@
+`　And then..., in the corner of the rabbit pen, he could see the shadow of something.`@`
 br
-　一瞬うさぎかと思ったが、そうじゃない。@もっとずっとずっと大きな影。\
+;　一瞬うさぎかと思ったが、そうじゃない。@もっとずっとずっと大きな影。\
+`　Though for an instant he thought it was a rabbit, that was incorrect.`@` It was a shadow far, far larger.`\
 
-　…………え……？@　………ぅ、………うわ…………。\
-
+;　…………え……？@　………ぅ、………うわ…………。\
+`　...What...?`@` ...u...uwa...`\
 E_A
 quakey 1,100
 
 bgm1 10
 
-　薄闇に目を凝らしたひかるは、その正体に気付いて叫びそうになった。@
-　それは、あの夜ひかるが殺したはずのクラスメートたちだった。\
+;　薄闇に目を凝らしたひかるは、その正体に気付いて叫びそうになった。@
+`　Staring into the dim light, Hikaru realized what its true form was and nearly screamed.`@`
+;　それは、あの夜ひかるが殺したはずのクラスメートたちだった。\
+`　That was, the classmates that Hikaru supposedly killed that night.`\
 
 ld r,HIG_Def3,2
 ld r,HIG_w4,22
 
-「くすくす。@あらあら、クラスメートたち、なんて括り方はいけないわ。@実感して、理解して殺すのが、あなたの決めた、殺人の覚悟なんでしょう？@　なら、一人ずつちゃんと思い出してあげなくちゃ。」@
+;「くすくす。@あらあら、クラスメートたち、なんて括り方はいけないわ。@実感して、理解して殺すのが、あなたの決めた、殺人の覚悟なんでしょう？@　なら、一人ずつちゃんと思い出してあげなくちゃ。」@
+`"Teehee.`@` My my, everybody, we mustn't be so restrained.`@` To experience, and understand killing, that's your resolution towards murder, isn't it?`@` Thus, we must properly help you remember it, one person at a time."`@`
 br
-　……ひかるはようやく気付きはじめる。@これから彼岸花が何をしようとしているのかを。\
-
+;　……ひかるはようやく気付きはじめる。@これから彼岸花が何をしようとしているのかを。\
+`　...Hikaru finally began to realize.`@` What it was that Higanbana was trying to do from here on.`\
 ld r,HIG_w6,80
 
-「……くすくすくすくす。@そうよ、これは過去の光景。@あなたが彼らを殺したあの夜の光景。@……だけど一つだけ違っているところがあるわ。@それは、これからあなたが虐殺する彼らが、うさぎじゃなくて、本当の姿をしているということよ。」\
+;「……くすくすくすくす。@そうよ、これは過去の光景。@あなたが彼らを殺したあの夜の光景。@……だけど一つだけ違っているところがあるわ。@それは、これからあなたが虐殺する彼らが、うさぎじゃなくて、本当の姿をしているということよ。」\
+`"...Teehee, teehee.`@` That's right, this is a scene from your past.`@` The scene of when you killed them that night.`@` ...However, there is only one difference.`@` That is, from here on the ones you will slaughter will be, not as rabbits, but as their true form."`\
 
 bg black,29
 lsp bgsp,":a;bmp\background\efe\red_waku.bmp",0,0
@@ -3532,16 +3578,19 @@ csp -1
 
 me1v 5,50
 
-　唐突にクラスメートたちの名前を思い出す。\
+;　唐突にクラスメートたちの名前を思い出す。\
+`　Suddenly, he remembered his classmates' names.`\
 
-　田渕修、@槙島新一、@西藤庸介、@良島俊輔。\
+;　田渕修、@槙島新一、@西藤庸介、@良島俊輔。\
+`　Osamu Tabuchi,`@` Shinichi Makishima,`@` Yousuke Nishitou,`@` Shunsuke Nagashima.`\
 
-　彼らは土の上に這いつくばり、許しを請うような目でジッとひかるを見上げていた。@
+;　彼らは土の上に這いつくばり、許しを請うような目でジッとひかるを見上げていた。@
+`　They crouched and groveled on the ground, begging for forgiveness with their eyes and staring at Hikaru from below.`@`
 br
-　その瞳は黒かった。@あの夜見たうさぎの赤い瞳ではなく、ひかると同じ黒い瞳をしていた。\
-
-「さあ、実感なさい。@あなたが言ったんだわ。@くすくす。@五感で、実感するってね。」\
-
+;　その瞳は黒かった。@あの夜見たうさぎの赤い瞳ではなく、ひかると同じ黒い瞳をしていた。\
+`　Those eyes were black.`@` On that night, the eyes he saw were not a rabbits' red eyes, but the same black eyes as Hikaru's.`\
+;「さあ、実感なさい。@あなたが言ったんだわ。@くすくす。@五感で、実感するってね。」\
+`"Come, experience it now.`@` You said it yourself.`@` Teehee.`@` Experience it, with all five senses.`"`\
 
 
 
@@ -3567,11 +3616,14 @@ mcbg 22
 fede 1,2000
 E_B
 
-　ひかるの手が、自分の意思と無関係に、……コンパスを握り締める。@
+;　ひかるの手が、自分の意思と無関係に、……コンパスを握り締める。@
+`　Regardless of Hikaru's will, his hand, ...grasped the compass tightly.`@`
 br
-　まるで、操り人形になったような気分。@自分の体なのに、何も抗えない。\
+;　まるで、操り人形になったような気分。@自分の体なのに、何も抗えない。\
+`　It was the same feeling as a marionette.`@` Even though it was his own body, he could not fight against anything.`\
 
-　当然だ。@何故ならこれは過去の光景だから。@既に起こってしまった光景だから。@ひかるの身体はそれを忠実に再現するだけ……。\
+;　当然だ。@何故ならこれは過去の光景だから。@既に起こってしまった光景だから。@ひかるの身体はそれを忠実に再現するだけ……。\
+`　Of course.`@` Because this is a scene of the past.`@` It's a scene that has already happened.`@` Hikaru's body was only faithfully reproducing it...`\
 
 E_A
 
@@ -3579,26 +3631,32 @@ quakex 1,100
 
 bgm1 16
 
-　ひかるは、田渕修の顔を押さえつけた。@
+;　ひかるは、田渕修の顔を押さえつけた。@
+`　Hikaru, pinned down Osamu Tabuchi's face.`@`
 br
-　彼は教室では、タブチンというあだ名で呼ばれていた。@
-　その彼の、懇願する眼差しの、ど真ん中に。@……眼球に深々とコンパスの針を突き立てる。\
+;　彼は教室では、タブチンというあだ名で呼ばれていた。@
+`　In class, he was known by his nickname, Tabuchin.`@`
+;　その彼の、懇願する眼差しの、ど真ん中に。@……眼球に深々とコンパスの針を突き立てる。\
+`　And into that man's pleading gaze, right in the middle.`@` ...He thrust the needle of the compass deeply into his eyeball.`\
 
 bg white,25
 bg "BMP\background\efe\red1.bmp",1
 bg blood_2a,1
 quakey 2,200
 
-　凄まじい悲鳴が田渕修の喉から放たれる。@聞くもおぞましい、絶叫。@
+;　凄まじい悲鳴が田渕修の喉から放たれる。@聞くもおぞましい、絶叫。@
+`　A terrible scream was fired from Osamu Tabuchi's throat.`@` It was a repulsive shriek to hear.`@`
+
 br
 
 quake 5,600
 
-　しかしひかるには、耳を塞ぐことも許されない。@
-　それが、殺人を実感するということ。\
-
-　みんなが、タブチン、タブチンと呼び掛けるが、……当の本人は目を押さえて転げ回るだけだ。\
-
+;　しかしひかるには、耳を塞ぐことも許されない。@
+`　Yet Hikaru could not forgive him even if he plugged his ears.`@`
+;　それが、殺人を実感するということ。\
+`　That, is what is called experiencing murder.`\
+;　みんなが、タブチン、タブチンと呼び掛けるが、……当の本人は目を押さえて転げ回るだけだ。\
+`　The one everyone called Tabuchin, Tabuchin...was now writhing about clutching his eye.`\
 bg black,8
 lsp bgsp,":a;bmp\background\efe\red_waku.bmp",0,0
 print 0
@@ -3608,12 +3666,14 @@ csp -1
 
 
 
-　次にひかるは、カッターナイフで西藤庸介の右手の指を切り落とそうとする。@
+;　次にひかるは、カッターナイフで西藤庸介の右手の指を切り落とそうとする。@
+`　Next, Hikaru went to cut off the fingers on Yousuke Nishitou's right hand.`@`
 br
-　あだ名はニシヤン。@女子にも友達の多いタイプだった。\
+;　あだ名はニシヤン。@女子にも友達の多いタイプだった。\
+`　His nickname was Nishiyan.`@` The type who had many female friends.`\
 
-
-　……指をカッターナイフで切断しようとするのは、かなり骨の折れることだ。\
+;　……指をカッターナイフで切断しようとするのは、かなり骨の折れることだ。\
+`　...Cutting the fingers with a box cutter, was a considerably laborious task.`\
 
 mbg black,25
 mono 2
@@ -3621,35 +3681,40 @@ mcbg 25
 quakey 1,100
 
 
-　刃がぬめり、欠ける度にカチカチと刃を繰り出して、ようやく……、ぞりりと……切り落とす。@
+;　刃がぬめり、欠ける度にカチカチと刃を繰り出して、ようやく……、ぞりりと……切り落とす。@
+`　The blade was damaged by the viscuous liquid, and each time he would stubbornly draw it out, finally...with a squish, ...he'd lop it off.`@`
 br
-　その、ぞりりという感触がそのまま、ひかるの背中を這い上がる……。\
+;　その、ぞりりという感触がそのまま、ひかるの背中を這い上がる……。\
+`　That, squishy sensation as it was, creeped up Hikaru's back...`\
 
-　もちろん、あの晩のひかるは、指一本程度では満足しない。@……そのまま、他の指も……。@…………ぞり、………ぞりり………。\
+;　もちろん、あの晩のひかるは、指一本程度では満足しない。@……そのまま、他の指も……。@…………ぞり、………ぞりり………。\
+`　Of course, on that evening, Hikaru was not satisfied with just one finger.`@`...Just like that, with the other fingers...`@` ...squish, ...squissshhhhh...`\
 
 quakex 2,200
 
-　そして、良島俊輔を蹴り上げる。@踏みつける。@腹を、背中を、顔面を。@
+;　そして、良島俊輔を蹴り上げる。@踏みつける。@腹を、背中を、顔面を。@
+`　And, he kicked up Shunsuke Nagashima.`@` He trampled him.`@` His stomach, his back, and his face.`@`
 br
-　同じ名前のサッカー選手がいるとかで、サッカーが好きなヤツだった。\
-
+;　同じ名前のサッカー選手がいるとかで、サッカーが好きなヤツだった。\
+`　There was a soccer player with the same name as him, so he also likes soccer.`\
 quakey 2,200
 
-　だから、サッカーボールのように扱ってやった。@
+;　だから、サッカーボールのように扱ってやった。@
+`　That's why I dealt with him like a soccer ball.`@`
 br
-　全身が紫に変色しても、尚も踏みつける。\
-
+;　全身が紫に変色しても、尚も踏みつける。\
+`　Even if his entire body turns purple, I still trampled him.`\
 quakex 2,200
 
-　もはや虫の息になった良島俊輔の腹を何度も蹴り、踏む。@それを何度も何度も繰り返す。@やがて何かが潰れるような感触が足を通して伝わってきた。\
-
+;　もはや虫の息になった良島俊輔の腹を何度も蹴り、踏む。@それを何度も何度も繰り返す。@やがて何かが潰れるような感触が足を通して伝わってきた。\
+`　I kicked and trampled the nearly dead Shunsuke Nagashima's stomach.`@` I repeated this over and over again.`@` After a while, I had the feeling he wouldn't get back up and transmitted that to my legs.`\
 bg black,22
 mono 0
 bg blood_1aR,22
 quakey 1,100
 
-　腹を蹴飛ばす度に、……ごぷり、ごぷりと、口からどろりとしたものが溢れ出す…。\
-
+;　腹を蹴飛ばす度に、……ごぷり、ごぷりと、口からどろりとしたものが溢れ出す…。\
+`　Every time I kicked his stomach, ...blub, blub...a thick something came overflowing from his mouth...`\
 bg black,28
 lsp bgsp,":a;bmp\background\efe\red_waku.bmp",0,0
 mono 2
@@ -3657,19 +3722,23 @@ bg usagi_01,22
 bgcopy
 csp -1
 
-　槙島新一のあだ名は、シンイッちゃんだった。@
+;　槙島新一のあだ名は、シンイッちゃんだった。@
+`　Makishima's nickname was Shinicchan.`@`
 br
-　そのシンイッちゃんの耳に、ハサミを当てる。\
+;　そのシンイッちゃんの耳に、ハサミを当てる。\
+`　I put the scissors to Shinicchan's ears.`\
 
 quakey 1,100
 
-　ぞぎ、………ぞぎぎ…り……。@
+;　ぞぎ、………ぞぎぎ…り……。@
+`　Snip, ...snnniiiiip....`@`
 br
-　もう一息というところまで切断したが、刃がこぼれてハサミは駄目になる。@だから、切れ掛かってぷらぷらしている耳をむんずと掴み、@/
-
+;　もう一息というところまで切断したが、刃がこぼれてハサミは駄目になる。@だから、切れ掛かってぷらぷらしている耳をむんずと掴み、@/
+`　After one go of cutting, the blades of the scissors became worthless.`@` So I violently grabbed the dangling ear that had been cut,`@`/
 quakex 1,100
 
-……びりびりびちびちと引き千切ってやった。\
+;……びりびりびちびちと引き千切ってやった。\
+`...and I ripped and tore it off.`\
 
 textoff
 bg black,29
@@ -3683,13 +3752,16 @@ csp -1
 
 me1v 5,70
 
-　そして、……あの夜の僕は、笑うのだ。@
+;　そして、……あの夜の僕は、笑うのだ。@
+`　And, ...on that night, I laughed.`@`
 br
-　血に染まったうさぎ小屋を見渡し、@……処刑はまだまだこれからだと、邪悪な笑みで、笑い転げるのだ………。\
+;　血に染まったうさぎ小屋を見渡し、@……処刑はまだまだこれからだと、邪悪な笑みで、笑い転げるのだ………。\
+`　Viewing the blood-stained cage,`@` ...Thinking that there would be still more executions to come, with an wicked grin, I convulsed with laughter...`\
 
 bg black,2
 
-　出来た？@　殺人の実感。\
+;　出来た？@　殺人の実感。\
+`　Is this it?`@` My experience of murder.`\
 
 bg white,23
 bg shokuin_03,23
@@ -3700,23 +3772,27 @@ se1v 13,50
 
 quakey 2,200
 
-　その途端、ひかるは職員室の冷たい床に投げ出される。@紙吹雪の乱れ飛ぶ、ついさっきまでの職員室の床に。\
-
+;　その途端、ひかるは職員室の冷たい床に投げ出される。@紙吹雪の乱れ飛ぶ、ついさっきまでの職員室の床に。\
+`　Just then, Hikaru was thrown down on the cold floor of the staff room.`@` The confetti that had been flying wildly about until just moments ago was now on the floor.`\
 bg black,26
 bg shokuin_04,26
 quakex 2,200
 
 bgm1 12
 
-「ぎ、ゃあああぁああああああああぁああぁあああああああぁああぁぁぁッ！！！」\
+;「ぎ、ゃあああぁああああああああぁああぁあああああああぁああぁぁぁッ！！！」\
+`"G, GyaaaaaaaAAAAAaaaaAaaAAaAAAAAAAAAAaAAAAAaaaaAAh!!!"`\
 
-　ひかるは床をのたうち回りながら、声の限りに叫んだ。\
-
+;　ひかるは床をのたうち回りながら、声の限りに叫んだ。\
+`　While tumbling on the floor, Hikaru screamed as loud as his voice would allow.`\
 quakey 1,100
 
-　自分でもおかしくなるんじゃないかと思うくらい腹の底から絶叫した。@
+;　自分でもおかしくなるんじゃないかと思うくらい腹の底から絶叫した。@
+`　A shriek from the pit of his gut that made even him wonder whether he had lost it.`@`
+
 br
-　もはやひかるの精神はめちゃくちゃになりそうだった。@自分自身のしている行いの残虐さを悔い、獣のように声をあげ続けた。@やがてその声は謝罪へと変わる。\
+;　もはやひかるの精神はめちゃくちゃになりそうだった。@自分自身のしている行いの残虐さを悔い、獣のように声をあげ続けた。@やがてその声は謝罪へと変わる。\
+`　Already now, Hikaru's spirit seemed to be spoiled.`@` The horrendous acts he performed with his own hands filled him with regret, and he continued screaming like a beast.`@` Soon, that voice changed to an apology.`\
 
 bg black,24
 bg shokuin_02,24
@@ -3724,24 +3800,28 @@ ld c,HIK_n2,26
 ld c,HIK_n1,80
 
 
-「ごめんなさいッ！！」@
+;「ごめんなさいッ！！」@
+`"I'm sorry...!!!"`@`
 br
-　それが、殺したクラスメートたちに対してなのか、これから殺そうとしていた先生に対してなのか、@それとも虐待を続けてきたうさぎたちに対しての言葉なのか。@……ひかるは自分でも分からなかった。\
-
-　それを言って何かが許されるとも思っていなかった。@だけど言いたかった。\
+;　それが、殺したクラスメートたちに対してなのか、これから殺そうとしていた先生に対してなのか、@それとも虐待を続けてきたうさぎたちに対しての言葉なのか。@……ひかるは自分でも分からなかった。\
+`　Whether these words were directed at the classmates he had killed, or the teacher he planned to kill,`@` or even the rabbits he continued to abuse,`@` ...even Hikaru didn't know.`\
+;　それを言って何かが許されるとも思っていなかった。@だけど言いたかった。\
+`　Even saying this, he didn't think he would be forgiven.`@` But he wanted to say it.`\
 
 ld c,HIK_n2,80
 quakey 1,100
 
-「ごめんなさい！@　ごめんなさい！@　ごめんなさいぃッ！！！@　うぐぉ、……うげぇ、……うげええぇええええぇえええッ！！」\
+;「ごめんなさい！@　ごめんなさい！@　ごめんなさいぃッ！！！@　うぐぉ、……うげぇ、……うげええぇええええぇえええッ！！」\
+`"I'm sorry!`@` I'm sorry!`@` I'm so sorry...!!!`@` Uggh, ...ugeehhh, ...UgehhhhhhhHhHhHHhhh...!!!"`\
 
 cl c,25
 quakey 1,100
 
-　嗚咽はとうとう嘔吐にまでなる。@
+;　嗚咽はとうとう嘔吐にまでなる。@
+`　His weeping at last made him vomit.`@`
 br
-　内臓を吐き出すかと思うほどに、……ひかるはビチビチと嘔吐を続ける。\
-
+;　内臓を吐き出すかと思うほどに、……ひかるはビチビチと嘔吐を続ける。\
+`　To the point of thinking he were spitting out his own intestines...Hikaru continued to vomit.`\
 ld l,HIG_w3,22
 ld l,HIG_w4,80
 
