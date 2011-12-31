@@ -1,8 +1,11 @@
 ;Chapter 7
-　転んで膝を擦り剥いた。@
-　その上、遅刻した。@
+;　転んで膝を擦り剥いた。@
+`　I tripped and skinned my knee.`@`
+;　その上、遅刻した。@
+`　And on top of that, I was late.`@`
 br
-　楽しかった。\
+;　楽しかった。\
+`　It was fun.`\
 
 bgm1 1
 
@@ -10,62 +13,84 @@ bg white,2
 bg roji_03a,42
 
 
-　私は走っている。@
-　学校で走るなんてこと、三つしか考えられない。\
-
-　一つ。体育の時間。@
+;　私は走っている。@
+`　I was running.`@`
+;　学校で走るなんてこと、三つしか考えられない。\
+`　There have only been three times I can think of that I've run at school.`\
+;　一つ。体育の時間。@
+`　First, was for gym.`@`
 br
-　体操が終わった後、校庭を何周も周らせられるのが、いつもとにかく苦手だった。@
-　でも、今は体操服を着ていないから、体育の時間じゃない。\
+;　体操が終わった後、校庭を何周も周らせられるのが、いつもとにかく苦手だった。@
+`　After physical exercises were over, they would make us run tons and tons of laps around the campus, and I was always bad at it.`@`
+;　でも、今は体操服を着ていないから、体育の時間じゃない。\
+`　But, now I'm not wearing a gym uniform, so it's not gym class.`\
 
-　一つ。休み時間。@
+;　一つ。休み時間。@
+`　Second. During break.`@`
 br
-　友達とふざけていて、はしゃぎながら追いかけたり、追いかけられたり。@こっちは楽しい。@大好き。@
-　でも、今はランドセルを背負っているから、休み時間じゃない。\
+;　友達とふざけていて、はしゃぎながら追いかけたり、追いかけられたり。@こっちは楽しい。@大好き。@
+`　I was messing around with my friends while causing a commotion, chasing and being chased by them.`@` This was fun.`@` I loved it.`@`
+;　でも、今はランドセルを背負っているから、休み時間じゃない。\
+`　But right now I'm carrying a backpack, so it's not during break.`\
 
 me1 33
 
 bg black,22
 
-　ということは、最後の一つ。@
+;　ということは、最後の一つ。@
+`　Which means, it must be the last one.`@`
 br
-　あぁ、何てこと。@こんな悠長な思考が現実逃避だったなんてっ。\
+;　あぁ、何てこと。@こんな悠長な思考が現実逃避だったなんてっ。\
+`　Oh, how awful.`@` This easygoing thinking was just a form of escapism.`\
 
 ;bg "bmp\background\town\roji_02.bmp",25
 bg roji_04a,23
 
-　私のように、走っている生徒の姿さえない。@
-　あぁ、何てことっ、遅刻なんて絶対に嫌っ！\
-
-　そこの曲がり角を曲がって、最後の直線を駆け抜ければ校門だ。@
+;　私のように、走っている生徒の姿さえない。@
+`　There weren't any other students running like me.`@`
+;　あぁ、何てことっ、遅刻なんて絶対に嫌っ！\
+`　Aah, this is awful, being late it the absolute worse!!`\
+;　そこの曲がり角を曲がって、最後の直線を駆け抜ければ校門だ。@
+`　I'll turn at that corner, and make the last straight line into the school gate.`@`
 br
-　曲がってッ、ラストスパート…！！@
+;　曲がってッ、ラストスパート…！！@
+`　Turn, now for the home stretch...!!!`@`
 br
-　……きゃあッ？！\
+;　……きゃあッ？！\
+`　...Kyaa?!`\
 
 se1 13
 bg roji_03a,1
 quakey 3,300
 
-　その時、私は見えない何かに躓いた。@
+;　その時、私は見えない何かに躓いた。@
+`　Just then, I stumbled over something I couldn't see.`@`
 br
-　まぁ、見えていたなら躓かない。@……躓いたということは見えなかったということなのだから。\
+;　まぁ、見えていたなら躓かない。@……躓いたということは見えなかったということなのだから。\
+`　Well, if I could've seen it I wouldn't have tripped.`@` ...The fact that I tripped over something pretty much means that I didn't see it.`\
 
-　私は盛大に転んで、膝を擦り剥く。@
-　……痛たたたたたたたた……。@
+;　私は盛大に転んで、膝を擦り剥く。@
+`　I took a tremendous fall, and skinned my knee.`@`
+;　……痛たたたたたたたた……。@
+`　...Owwwwowowowowow...`@`
 br
-　膝がカーッと熱くなって、ジンジンと痛み出す。\
+;　膝がカーッと熱くなって、ジンジンと痛み出す。\
+`　My knee started burning hot, and a throbbing pain began.`\
 
-　じわっと、血がほんのり滲み出した。@
-　……それをそっと、人差し指でなぞる。@
+;　じわっと、血がほんのり滲み出した。@
+(?)`　At the wrinkles, blood started oozing out slightly.`@`
+;　……それをそっと、人差し指でなぞる。@
+`　...I gently, traced it with my index finger.`@`
 br
-　ほんのり、指先が赤く汚れた。\
+;　ほんのり、指先が赤く汚れた。\
+`　My fingertip was slightly stained red.`\
 
 bg black,22
 
-　……………………。@
-　あはは、面白い。\
-
+;　……………………。@
+`　............`@`
+;　あはは、面白い。\
+`　Ahaha, how interesting.`\
 
 ;bg "bmp\background\town\roji_02.bmp",0
 
@@ -74,23 +99,28 @@ bg roji_03a,22
 ;ld l,hig_def1,0
 ;ld r,mar_def1,22
 
-　そんな彼女を、塀の上から見下ろす学校妖怪が二人……。\
+;　そんな彼女を、塀の上から見下ろす学校妖怪が二人……。\
+`　Looking down on her from the top of a wall, were two school youkai...`\
 
 ld c,mar_def2a,22
 
-「……彼岸花さん、酷いです。@何も転ばすことは……。」\
+;「……彼岸花さん、酷いです。@何も転ばすことは……。」\
+`"...Higanbana-san, that wasn't nice.`@` There was no reason to trip her..."`\
 
 ld r,hig_def3,22
 ld r,hig_w3,80
 
-「いいじゃない。@遅刻しそうで走って転んで、膝を擦り剥いて。@誰もが懐かしい日に、一度は体験しておきたいことだと思うけれど？」\
-
-　くすくすと笑う、彼岸花。@
-　もちろん、その姿が少女に見えることはない。\
+;「いいじゃない。@遅刻しそうで走って転んで、膝を擦り剥いて。@誰もが懐かしい日に、一度は体験しておきたいことだと思うけれど？」\
+`"It's fine.`@` Running because it looks like you'll be late, tripping and skinning your knee.`@` I think it's a day that everybody should want to experience at least once."`\
+;　くすくすと笑う、彼岸花。@
+`　Higanbana giggled.`@`
+;　もちろん、その姿が少女に見えることはない。\
+`　Of course, the girl could not see those figures.`\
 
 bg black,22
 
-「……あ痛たたた……。@……ふふ。」\
+;「……あ痛たたた……。@……ふふ。」\
+`"...Aahh, ow ow ow ow...`@` ...Hehe."`\
 
 textoff
 bg roji_04a,26
@@ -99,38 +129,49 @@ wait 1000
 
 bg gakkou_01a,22
 
-　私は立ち上がり、彼方の校門を見る。@
-　そこで無情のチャイム。@
+;　私は立ち上がり、彼方の校門を見る。@
+`　I got up, and looked at the other side of the school gate.`@`
+;　そこで無情のチャイム。@
+`　And then, that ruthless chime.`@`
 br
 se1 69
 
-　校門がガラガラと閉められ、駆け込む生徒たちと締め出される生徒たちの悲喜劇が繰り広げられている。\
-
+;　校門がガラガラと閉められ、駆け込む生徒たちと締め出される生徒たちの悲喜劇が繰り広げられている。\
+`　The gates rattled closed, and the tragicomedy of shutting out the students who rushed by at the last minute unfolded.`\
 bg roji_04a,22
 
-　というわけで、ここから見ている自分は、……１００％の遅刻決定。@
-　ということは、今さら走っても仕方ないってこと。\
+;　というわけで、ここから見ている自分は、……１００％の遅刻決定。@
+`　Which means, that looking at myself here, ...it's 100% decided that I'm late.`@`
+;　ということは、今さら走っても仕方ないってこと。\
+`　Which means, that even if I run now, it's no use.`\
 
-「なら、歩こっ。@もう遅刻してるのに、走るなんて馬鹿馬鹿しいもんっ。」@
+;「なら、歩こっ。@もう遅刻してるのに、走るなんて馬鹿馬鹿しいもんっ。」@
+`"Then, I'll walk.`@` Even if I'm already late, running now would just be ridiculous."`@`
 br
-　私はあっけらかんと笑いながら、悠然と歩き出す。\
+;　私はあっけらかんと笑いながら、悠然と歩き出す。\
+`　While laughing indifferently, I calmly began to walk.`\
 
 bg roji_03a,22
 
-　向こうでは生活指導の先生が、早くしろと急き立てている。@
+;　向こうでは生活指導の先生が、早くしろと急き立てている。@
+`　From afar, the educational guidance instructors, were urging us to hurry it up.`@`
 br
-　急いでも急がなくても、どーせ遅刻で怒られるわけじゃん？\
-
-　じゃあせめて、怒られることと引き換えに、@校門まで１００ｍほどの、朝の散歩をのんびりと楽しませてもらわなくちゃ。\
-
+;　急いでも急がなくても、どーせ遅刻で怒られるわけじゃん？\
+`　Even if we hurry or not, what's it matter if you're gonna get mad at us for being late anyway?`\
+;　じゃあせめて、怒られることと引き換えに、@校門まで１００ｍほどの、朝の散歩をのんびりと楽しませてもらわなくちゃ。\
+`　So at the very least, in exchange for you getting mad at us,`@` you have to let us enjoy the leisurely morning 100 meter stroll to the gate.`\
 bg "bmp\background\school\Air_02.bmp",22
 
-　いい季節だった。@
+;　いい季節だった。@
+`　This was a good season.`@`
 br
-　さっきまで全力疾走だったから汗だく。@
-　そんな汗を涼しく癒してくれる風が、すっごく気持ちいい。@
+;　さっきまで全力疾走だったから汗だく。@
+`　I was dripping with sweat from sprinting with all my might up until now.`@`
+;　そんな汗を涼しく癒してくれる風が、すっごく気持ちいい。@
+`　The wind that cooled my sweat and rejuvenated me, felt incredibly good.`@`
 br
-　私はたっぷりと新鮮な朝を満喫してから、悠然と校門に辿り着く。\
+;　私はたっぷりと新鮮な朝を満喫してから、悠然と校門に辿り着く。\
+`　Now that I'd had my fill of this refreshing morning, I calmly arrived at the school gate.`\
 
 ;se1 10
 
@@ -143,39 +184,56 @@ bg black,22
 bg gakkou_01a,1
 quakey 3,300
 
-　ごつん。@先生にゲンコツをもらう。@
+;　ごつん。@先生にゲンコツをもらう。@
+`　Thump.`@` I got hit by the teacher's fist.`@`
 br
-「何をちんたら歩いてるんだッ。@遅刻だぞ、遅刻！！」@
-「知ってまーす。@間に合うなら走りましたけど、もう遅刻確定だったんで。」@
-「屁理屈を言うなッ。@走るのが嫌なら、明日からはもっと早く家を出ろ！」\
+;「何をちんたら歩いてるんだッ。@遅刻だぞ、遅刻！！」@
+`"What are you walkin' so slowly for!?`@` You're late, you know! Late!!"`@`
+;「知ってまーす。@間に合うなら走りましたけど、もう遅刻確定だったんで。」@
+`"Yeah, I knoooow.`@` I'll run if I can make it, but it was already settled I was late."`@`
+;「屁理屈を言うなッ。@走るのが嫌なら、明日からはもっと早く家を出ろ！」\
+`"Enough with the excuses.`@` If you don't like running, you can start leaving your house earlier tomorrow!"`\
 
 ;mbg white,1
 ;quakey 2,400
 ;mcbg 22
 
-　ごつん。@割と容赦ない角度で脳天にもう一発もらう。@
-　痛てて。@ジンジンする。@
+;　ごつん。@割と容赦ない角度で脳天にもう一発もらう。@
+`　Thud.`@` I took another relentless blow to the crown of my head.`@`
+;　痛てて。@ジンジンする。@
+`　Owowow.`@` It's throbbing now.`@`
 br
-　……………。@
-　あはは、面白い。\
+;　……………。@
+`　.......`@`
+;　あはは、面白い。\
+`　Ahaha, how fun.`\
 
 ;bg gakkou_01,22
 
-「ほら、早く入って教室へ急げッ。@明日からはもう遅刻するんじゃないぞ！」@
-「はーーーい！」@
-「やれやれ…、返事だけはいいんだがなー。@ほら、早く行けっ。@廊下は走っちゃいかんぞっ。」\
+;「ほら、早く入って教室へ急げッ。@明日からはもう遅刻するんじゃないぞ！」@
+`"Alright, get your butt in gear and hurry to your class.`@` You'd better not be late again after today!"`@`
+;「はーーーい！」@
+`"Got iiiiit!"`@`
+;「やれやれ…、返事だけはいいんだがなー。@ほら、早く行けっ。@廊下は走っちゃいかんぞっ。」\
+`"Geez..., just your response is decent.`@` Alright, get going.`@` Don't run in the halls."`\
 
-　と言いつつ、先生もまんざらでない感じ。@
-　笑顔と素直な返事は、何にも勝る子供の武器なんだから。@
+;　と言いつつ、先生もまんざらでない感じ。@
+`　And with that, the teacher was satisfied.`@`
+;　笑顔と素直な返事は、何にも勝る子供の武器なんだから。@
+`　Because a smile and honest response, was a child's best weapon.`@`
+
 br
-　そんなやりとりも、何だかちょっぴり面白い。\
+;　そんなやりとりも、何だかちょっぴり面白い。\
+`　That kind of exchange, was also a little bit interesting.`\
 
 ;bg white,24
 mbg black,22
 
-　先生に開けてもらった校門の隙間を通り、私は駆け出していく。@
+;　先生に開けてもらった校門の隙間を通り、私は駆け出していく。@
+`　I went through the gap that the teacher had opened in the gate, and broke into a run.`@`
 br
-　うん。@今日は素敵なことがありそうな一日だった。\
+;　うん。@今日は素敵なことがありそうな一日だった。\
+`　Yes.`@` Today felt like a day that something wonderful would happen.`\
 
 textoff
 
@@ -185,19 +243,23 @@ wait 1000
 
 ld r,hig_def2,22
 
-「転んで遅刻して、先生にゲンコツまでもらって、素敵な一日…？　くすくすくすくす、前向きな子ねぇ。」@
+;「転んで遅刻して、先生にゲンコツまでもらって、素敵な一日…？　くすくすくすくす、前向きな子ねぇ。」@
+`"Tripping, being late, and getting smacked by your teacher, and that's a wonderful day...? Teeheehee, what an optimistic kid."`@`
 
 ld c,mar_def4a,22
 
-「や、やめましょうよ。@こんな悪戯。」\
+;「や、やめましょうよ。@こんな悪戯。」\
+`"L, let's stop.`@` This kind of teasing."`\ 
 
 ld r,hig_def4,80
 
-「いいじゃない。@試してみたくなったわ。@あの子が、どこまでされても、今日を素敵な一日って言えるかをね。@……くす、くすくすくすくすくすくすくす。」\
+;「いいじゃない。@試してみたくなったわ。@あの子が、どこまでされても、今日を素敵な一日って言えるかをね。@……くす、くすくすくすくすくすくすくす。」\
+`"Oh, it's fine.`@` I just wanted to try it out.`@` Whether that kid would say it was a wonderful day no matter what is done to her.`@` ...Teehee, heehehehehe."`\
 
 cl a,22
 
-　彼岸花はニヤリと笑って、校舎を見上げる。@
+;　彼岸花はニヤリと笑って、校舎を見上げる。@
+
 br
 　毬枝は、悪戯好きな妖怪に好かれてしまった気の毒な犠牲者の今日一日を、心より同情するのだった……。\
 
