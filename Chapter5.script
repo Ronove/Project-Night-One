@@ -2424,21 +2424,21 @@ ld c,HIG_Def4,80
 `　...Many kids these days say that they didn't understand that animals were born for more than just to die for meat.`@`
 br
 ;　肉に限らない。@僕たちの食卓には、“死”が積み上げられている。\
-`　They're not restricted to meat.`@` D E A T H  is piled up on our dining tables.`\
+`　It's not just meat.`@` "Death"  is being set on our dining tables.`\
 
 ;mbg black,22
 
 ;　だが、僕たちはそれに目を逸らし、暴食の限りを尽くす。@
-`　But, we avert our eyes, relying on our surfeit.`@`
+`　But, we avert our eyes to that fact, and we eat until we can't eat any more.`@`
 br
 ;　自分たちの食卓を生み出す、“死”そのものについては、知らぬ存ぜぬ見たくもない、とくる。\
-`　We don't want to look at, or even know that the very thing brought forth to our dining tables is D E A T H.`\
+`　We don't want to look at, or even know that the very thing brought forth to our dining tables is "death".`\
 
 ;　フライドチキンを頬張る子供たちの内、@一体、何人が、自らの手で鶏を絞め殺せるというのだろう？@
-`　I wonder how many of those children stuffing their faces with fried chicken,`@` have it in them to strangle a chicken with their own hands?`@`
+`　I wonder how many of those children stuffing their faces with fried chicken,`@` have it in them to strangle a chicken to death with their own hands?`@`
 br
 ;　そういう光景に目を逸らし、忌避するくせに。@僕たちは暴食と飽食を繰り返している……。\
-`　Even though we look away from such a spectacle, though we avoid it.`@` We still repeat our cycle of gluttony and overindulgence...`\
+`　Even though we'd look away from such a spectacle -- despite avoiding it, `@` we still repeat our cycle of gluttony and overindulgence...`\
 
 ;mcbg 22
 
@@ -2454,7 +2454,7 @@ ld l,HIK_Def2,80
 ld r,HIG_Def5,80
 
 ;「“僕の手は、誰の血にも汚れないのだ”、なんて、得意気に言ってしまうあなたに。@……一体、誰の肉を食らう資格があるというのかしら……？」@
-`"I ask this you, who proudly said, 'I have not stained my hands with anyone's blood.'`@`...Whose meat do you have the right to partake of...?"`@`
+`"I ask this of you, who proudly said, 'I have not stained my hands with anyone's blood.'`@`...Whose meat do you have the right to partake in...?"`@`
 
 ld l,HIK_Def4a,80
 
@@ -2464,16 +2464,16 @@ ld l,HIK_Def4a,80
 ld r,HIG_Def2,80
 
 ;「ニンゲンがニンゲンを殺す、というのは、重いことよ？」@
-`"HUMANS killing HUMANS, is awfully heavy to say."`@`
+`"Humans killing humans. That is awfully serious."`@`
 
 ld l,HIK_Def3,80
 
 ;「……僕はニンゲンなんて、殺しませんよ。」\
-`"...I have not killed any human."`\
+`"...I have not killed any humans."`\
 ld r,HIG_w4,80
 
 ;「くすくすくす。@……フライドチキンを食べながら、鶏なんて殺しませんって言うわけよね。」@
-`"Teeheehee.`@` ...So you're saying that you haven't killed a chicken while you eat fried chicken?"`@`
+`"Teeheehee.`@` ...So while you eat fried chicken, you would say that you haven't killed a chicken?"`@`
 br
 ;　……何も言い返せない。@
 `　...He couldn't respond.`@`
@@ -2505,45 +2505,58 @@ E_B
 `　Just then, the speaker installed in the hallway began broadcasting.`\
 
 ;『……＊年２組の二瓶ひかるくん。@井俣先生がお呼びです。@職員室まで来てください。@繰り返します。@＊年２組の二瓶ひかるくん……、』\
-`"...Hikaru Nihei of Class 2, Year ***.`@` You have a call from Inomata-sensei. `@` Please come to the staff room.`@` I repeat.`@` Hikaru Nihei of Class 2, Year  ***....."`\
+`"...Hikaru Nihei of Class 2, Year ***.`@` You have a call from Imata-sensei. `@` Please come to the staff room.`@` I repeat.`@` Hikaru Nihei of Class 2, Year  ***....."`\
 bg black,24
 bg rouka_03,0
 ld r,HIK_Def3,24
 
-「……あ、すみません。@僕、行かないと。」\
+;「……あ、すみません。@僕、行かないと。」\
+`"...Oh, sorry. `@`I have to go."`\
 
-　先生が僕に何の用だろうという気持ちより、@……この不気味な少女から逃げ出す口実に出来る……という気持ちの方がはるかに勝っていた。\
+;　先生が僕に何の用だろうという気持ちより、@……この不気味な少女から逃げ出す口実に出来る……という気持ちの方がはるかに勝っていた。\
+`　More than the feeling of concern I had for what the teacher wanted with me, `@`...that feeling of having an excuse to get away from this strange girl was much more potent.`\
 
 ld l,HIG_w3,22
 
-「ええ、またね。@………くすくすくす。」\
+;「ええ、またね。@………くすくすくす。」\
+`"Yes, later then. `@`...Teeheehee"`\
 
 cl r,23
 
-　ひかるは、彼女に背を向けると、そこから逃げ出すように職員室に向かう。\
+;　ひかるは、彼女に背を向けると、そこから逃げ出すように職員室に向かう。\
+`　Turning his back to the girl, Hikaru ran from there and headed towards the staff room.`\
 
 bg black,23
 bg rouka_02,23
 
-　その背中に、少女は言葉を投げ掛けた。\
+;　その背中に、少女は言葉を投げ掛けた。\
+`　The girl threw some words at his back.`\
 
-「もしも。@あなたに再び、人の命を奪う機会が訪れたなら。@……殺す、ということの重みを、今一度噛み締めてみることよ。@……もし、何の覚悟もなく、何も背負うことなく、@……人の命を、手を汚さずに奪おうなんて再び考えたなら。」@
+;「もしも。@あなたに再び、人の命を奪う機会が訪れたなら。@……殺す、ということの重みを、今一度噛み締めてみることよ。@……もし、何の覚悟もなく、何も背負うことなく、@……人の命を、手を汚さずに奪おうなんて再び考えたなら。」@
+`"If. `@`You have another chance to snatch away someone's life, `@`...try chewing over the idea of the seriousness of murder again first. `@`...If you're not resolved, if you're haven't prepared to bear the responsibility, `@`...if you thought you could take someone's life without getting your hands dirty."`@
 br
-　………考えたなら………。\
+;　………考えたなら………。\
+`　...If you thought...`\
 
-「あなたにとっての娯楽が、……再び悲劇になってしまう、なんてことも、……あるかもね……？@　……くす、………くすくすくすくすくすくすくす……。」\
+;「あなたにとっての娯楽が、……再び悲劇になってしまう、なんてことも、……あるかもね……？@　……くす、………くすくすくすくすくすくすくす……。」\
+`"There's a chance... that your pleasure... might once again turn into tragedy... wouldn't you say...? `@`...Hehe... Teeheeheeheeheeheehee..."`\
 
 bg black,22
 
-　ひかるは逃げ出すように足を速める。@
+;　ひかるは逃げ出すように足を速める。@
+`　Hikaru quickened his pace as if he were running from something.`@
 br
-　……あいつは何を言ってるんだ…？@
+;　……あいつは何を言ってるんだ…？@
+`　...What is that girl talking about...?`@
 br
-　ちょっとおかしい、イカれた上級生の電波話に付き合わされただけさ……。\
+;　ちょっとおかしい、イカれた上級生の電波話に付き合わされただけさ……。\
+`　I only just had a telepathic conversation with a somewhat strange, deranged upperclassman is all...`\
 
-　忘れろ忘れろ、忘れてしまえ。@僕が、……殺してること、……知られてるわけがない……。@
+;　忘れろ忘れろ、忘れてしまえ。@僕が、……殺してること、……知られてるわけがない……。@
+`　Forget it. Forget it. Forget about it! `@`I... don't know anything... about killing people...`@
 br
-　しかし、殺すことの重みを噛み締めろという、少女の言葉は、@……抜けない棘のように、ひかるの胸を苛むのだった…。\
+;　しかし、殺すことの重みを噛み締めろという、少女の言葉は、@……抜けない棘のように、ひかるの胸を苛むのだった…。\
+`　However, the girl's words telling him to think about the seriousness of killing others, `@`...tormented Hikaru like a thorn that he couldn't pull off his chest...`\
 
 fede 0,2000
 E_A
@@ -2560,65 +2573,93 @@ bg shokuin_01,24
 
 bgm1 8
 
-　職員室の扉を開ける。@
+;　職員室の扉を開ける。@
+`　He opens the staff room door.`@
 br
-　井俣先生以外にも数人の教師がいたが、みんな一様に覇気のない疲れた顔をしていた。\
+;　井俣先生以外にも数人の教師がいたが、みんな一様に覇気のない疲れた顔をしていた。\
+`　There were other teachers there aside from Imata-sensei, but they were all showing fatigued faces with low spirits.`\
 
-　そのうちの何人かは電話応対で忙しそうだった。@
+;　そのうちの何人かは電話応対で忙しそうだった。@
+`　Among them, many seemed busy dealing with phone calls.`@
 br
-　安否を気にする行方不明の生徒の親だけでなく、他の保護者たちからの苦情や心配の声も絶えず、@地方紙やマスコミからの問い合わせなども殺到しているらしい。\
+;　安否を気にする行方不明の生徒の親だけでなく、他の保護者たちからの苦情や心配の声も絶えず、@地方紙やマスコミからの問い合わせなども殺到しているらしい。\
+`　They weren't just easing the minds of the missing children's parents, but they were constantly flooded with the concerned and complaining voices of other guardians. `@`And it seemed they also had to deal with answering questions from the mass media among other things.`\
 
 bg black,22
 
-　ふと目をやると、職員室の隅に生き残ったうさぎたち、@というか元々小屋にいた本物のうさぎたちがいた。@
+;　ふと目をやると、職員室の隅に生き残ったうさぎたち、@というか元々小屋にいた本物のうさぎたちがいた。@
+`　Suddenly catching his eye, in the corner of the staff room were the remaining live rabbits, `@`or rather, the real rabbits from the cages.`@
 br
-　いくつかのダンボールで組み上げた簡易的な柵。@そこに新聞紙が敷かれて、とりあえずの彼らの住処が出来上がっていた。\
+;　いくつかのダンボールで組み上げた簡易的な柵。@そこに新聞紙が敷かれて、とりあえずの彼らの住処が出来上がっていた。\
+`　A simple fort made from many stacked carboard boxes. `@`Newspapers were spread out inside, and that completed the temporary living space for the rabbits.`\
 
-　そう言えば、事件の後、一時的に職員室に移されることになった、@と誰かが言っていた気がする。@
+;　そう言えば、事件の後、一時的に職員室に移されることになった、@と誰かが言っていた気がする。@
+`　That reminded him, `@`he felt he had heard that after the incident, they were temporarily moved to the staff room.`@
+;(Translator's Note) Liberty taken with line reading order.
 br
-　ひかるはうさぎたちを一瞥すると、それ以上は気にせずに井俣先生の席に向かった。\
+;　ひかるはうさぎたちを一瞥すると、それ以上は気にせずに井俣先生の席に向かった。\
+`　After glancing at the rabbits, without another thought, Hikaru went over to Imata-sensei's chair.`\
 
 bg shokuin_02,22
 ld c,HIK_Def1,22
 
-「何ですか、先生。」\
+;「何ですか、先生。」\
+`"What is it, sensei?"`\
 
-　先生は顔をあげた。@やはり疲れた顔をしている。@あまり寝ていないのかもしれない。\
+;　先生は顔をあげた。@やはり疲れた顔をしている。@あまり寝ていないのかもしれない。\
+`　The teacher raised his head. `@`As I thought -- I can tell by his face that he's tired. `@`He might not have gotten much sleep either.`\
 
-「あぁ。@あのうさぎ小屋のことなんだけどな……。」@
+;「あぁ。@あのうさぎ小屋のことなんだけどな……。」@
+`"Well. `@`It's about this rabbit cage thing..."`@
 br
-　心臓が大きく跳ねる。@
-　……知られているはずはない。@うさぎ小屋のことが、……知られているわけ………。\
+;　心臓が大きく跳ねる。@
+`　My heart leaped out of my chest.`@
+;　……知られているはずはない。@うさぎ小屋のことが、……知られているわけ………。\
+`　...There's no way he could know. `@`There's no way he could know... about what happened at the rabbit cage...`\
 
-「ショックだったろうな……。@あんなに可愛がっていたんだからな……。@あまり、気に病みすぎないようにな？」\
+;「ショックだったろうな……。@あんなに可愛がっていたんだからな……。@あまり、気に病みすぎないようにな？」\
+`"It must have been a shock... `@`since you cared so much for them... `@`It's enough to make you sick, right?"`\
 
 ld c,HIK_Def4a,80
 
-　ひかるは一瞬身構えた緊張を解く。@
-　そうさ、当然だ。@自分の仕業だと、気付かれているわけもない。\
+;　ひかるは一瞬身構えた緊張を解く。@
+`　In an instant Hikaru's defenses drop and his nerves melt away.`@
+;　そうさ、当然だ。@自分の仕業だと、気付かれているわけもない。\
+`　Right, of course. `@`There's no way he would have been able to tell what I did.`\
 
 ld c,HIK_Def2,80
 
-「……はい。@本当にひどいです。@なんであんなことが出来るんだろうって思います。」@
+;「……はい。@本当にひどいです。@なんであんなことが出来るんだろうって思います。」@
+`"...Yes. `@`It's truly cruel. `@`I wonder how someone could do something like that."`@
 br
-　ひかるは特に表情は作らずに言った。\
+;　ひかるは特に表情は作らずに言った。\
+`　Hikaru said without making any particular expression.`\
+;(Could be better...)
 
-　こういう時は無表情のままでいい。@後は相手の方で勝手に想像してくれる。@傷ついてるだろう、とか、本当は泣きたいのだろう、とか。@
-　先生は、まったく想定どおりの言葉をひかるに掛ける。@
+;　こういう時は無表情のままでいい。@後は相手の方で勝手に想像してくれる。@傷ついてるだろう、とか、本当は泣きたいのだろう、とか。@
+`　At a time like this, it's best to keep a straight face. `@`Afterwards, he'll leave it Imata to figure out what it means. `@`'He must be hurting' or 'in reality he probably wants to cry' and the like.`@
+;　先生は、まったく想定どおりの言葉をひかるに掛ける。@
+`　The teacher's words were completely following Hikaru's hypothesis.`@
 br
-　ひかるは、失笑したくなるのを抑えるので精一杯だった。\
+;　ひかるは、失笑したくなるのを抑えるので精一杯だった。\
+`　Hikaru was holding back from bursting into laughter with everything he had.`\
 
-「それでな二瓶、これはまだ決まったわけじゃないんだが……。@多分、近い内にあのうさぎ小屋はなくなると思う。」\
+;「それでな二瓶、これはまだ決まったわけじゃないんだが……。@多分、近い内にあのうさぎ小屋はなくなると思う。」\
+`"Well then Nihei, this hasn't exactly been decided yet... `@`but I think that rabbit cage is going to be removed before long."`\ 
 
 ld c,HIK_Def3,80
 
-「……そうですか。」@
+;「……そうですか。」@
+`"...Is that so?"`@
 br
-　それはひかるも予測していたことだ。@別に構わない。\
+;　それはひかるも予測していたことだ。@別に構わない。\
+`　That was also something Hikaru predicted. `@`It didn't matter to him.`\
 
-　散々気晴らしに使わせてもらってきた場所だったが、@自分にはもうあのうさぎ小屋も、本物のうさぎたちも必要ない。@
+;　散々気晴らしに使わせてもらってきた場所だったが、@自分にはもうあのうさぎ小屋も、本物のうさぎたちも必要ない。@
+`　It was a place that they let me utilize for my extreme recreation, `@`but I no longer had any use for the real rabbits nor their cage.`@
 br
-　今や、僕にとって、@……いや、僕たちにとって、この学校自体が巨大なうさぎ小屋なのだから。\
+;　今や、僕にとって、@……いや、僕たちにとって、この学校自体が巨大なうさぎ小屋なのだから。\
+`　Because now, for me, `@`...No, for us, the school itself had become one giant rabbit cage.`\
 
 「二瓶には気の毒と思うが、……早く、うさぎ小屋がなくなってくれた方が、@ショックを受けた児童が、忘れてくれるのも早くていいだろうと思う。」\
 
