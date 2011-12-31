@@ -3924,29 +3924,36 @@ ld l,HIG_w3,22
 ld l,HIG_w4,80
 
 
-「くすくすくすくす。@随分と可愛らしくなっちゃって。@……でも悪いけれど、謝る相手が少し違うみたいね。@その程度じゃ、あなたの罪には、見合わない。」\
-
-　彼岸花の形相は、なおも邪悪な笑みに歪む。@
-　ひかるは、殺すという本当の覚悟がなかったことを、今こそ本当に思い知るのだ……。\
+;「くすくすくすくす。@随分と可愛らしくなっちゃって。@……でも悪いけれど、謝る相手が少し違うみたいね。@その程度じゃ、あなたの罪には、見合わない。」\
+`"Teehee, teehhee.`@` You've gotten quite adorable.`@`...I apologize, but you seem to be apologizing to the wrong person.`@` With only that, it cannot correspond with your crime."`\
+;　彼岸花の形相は、なおも邪悪な笑みに歪む。@
+`　Higanbana's expression warped into a wicked smirk.`@`
+;　ひかるは、殺すという本当の覚悟がなかったことを、今こそ本当に思い知るのだ……。\
+`　Hikaru will now truly realize his own unreadiness to kill...`\
 
 ld r,HAM_Def2,22
 ld r,HAM_Def4,80
 
-「……さすがは彼岸花先輩です。@僕の、可愛いパートナーを、こんなにもあっさり、壊してくれるなんて。」@
+;「……さすがは彼岸花先輩です。@僕の、可愛いパートナーを、こんなにもあっさり、壊してくれるなんて。」@
+`"...Just as expected from Higanbana-sempai.`@` To be able to break my adorable partner so easily."`@`
 
 ld l,HIG_Def5,80
 
-「くすくす。@こんな華奢で愚かな子が手駒だなんて笑えるわ。」\
+;「くすくす。@こんな華奢で愚かな子が手駒だなんて笑えるわ。」\
+`"Teehee.`@` It makes me laugh that you'd play with such a stupid and delicate kid."`\
 
 ld r,HAM_Def3,80
 
-「ひかる君は僕の妖力と波長の合う、僕の手足に相応しい子だったのに……。@彼ほどの駒になってくれる子を探すには、ずいぶんと骨を折りそうです。」\
+;「ひかる君は僕の妖力と波長の合う、僕の手足に相応しい子だったのに……。@彼ほどの駒になってくれる子を探すには、ずいぶんと骨を折りそうです。」\
+`"Even though Hikaru-kun was a perfect fit to my spiritual wavelength, and was suitable as my limbs...`@` It's quite the menial task to find a child willing to become my pawn."`\
 
 ld l,HIG_w6,80
 
-「それがお望み？@　なら、私があんたをこのまま、ぼきぼきに折って砕いてあげるわ。」@
+;「それがお望み？@　なら、私があんたをこのまま、ぼきぼきに折って砕いてあげるわ。」@
+`"Is what you desire?`@` Then, I can rip and tear you to pieces right here."`@`
 br
-　彼岸花は妖艶に笑い、拘束されたままのハメルンを睨む。\
+;　彼岸花は妖艶に笑い、拘束されたままのハメルンを睨む。\
+`　Higanbana's bewitching smile, was judging the restrained Hameln.`\
 
 se1v 11,50
 
@@ -3961,22 +3968,27 @@ se3v 20,50
 mbg white,23
 mcbg 23
 
-　その時。@バリリと音がして、……ハメルンを拘束する書類の一部が千切れ飛ぶ。@
+;　その時。@バリリと音がして、……ハメルンを拘束する書類の一部が千切れ飛ぶ。@
+`　Just then.`@` With a ripping, crackling sound, ...One section of the documents that had been restraining Hameln were torn up into pieces.`@`
 br
-　彼の右腕が、拘束を破ったのだ。\
+;　彼の右腕が、拘束を破ったのだ。\
+`　The restriction on his right arm was destroyed.`\
 
 ld l,HIG_Def5,80
 
-「あら、驚いたわ。@まさか腕一本とはいえ、私の拘束を逃れるなんて。」\
+;「あら、驚いたわ。@まさか腕一本とはいえ、私の拘束を逃れるなんて。」\
+`"Oh my, you surprised me.`@` I didn't think even one arm could escape my binding."`\
 
 bg black,23
 bg shokuin_04,23
 ld c,HAM_Def2,26
 ld c,HAM_Def4,80
 
-「余裕ぶり過ぎましたね、先輩。@ぼきぼきと骨を折られるのは、あなたのようです。」@
+;「余裕ぶり過ぎましたね、先輩。@ぼきぼきと骨を折られるのは、あなたのようです。」@
+`"Too much time has passed, Sempai.`@` It seems the one who will be ripped and torn into pieces, will be you."`@`
 br
-　その手には、カスタネットが。\
+;　その手には、カスタネットが。\
+`　In his hand, was a castanet.`\
 
 se1 85
 
@@ -3989,55 +4001,67 @@ se2v 85,85
 mbg white,1
 mcbg 22
 
-　カチ。@/
+;　カチ。@/
+`　Click.`@`/
 se3v 85,100
-……カチ、カチ、カチ、カチ！\
+;……カチ、カチ、カチ、カチ！\
+`...Click, clack, click, clack!`\
 
 bg shokuin_04,22
 
 ld r,HIG_Def2,24
 ;ld r,HIG_Def2,80
 
-「…………何の真似？@　ここは職員室よ。@あんたのカスタネットは、音楽室じゃないと力を発揮しないんじゃないの？」\
+;「…………何の真似？@　ここは職員室よ。@あんたのカスタネットは、音楽室じゃないと力を発揮しないんじゃないの？」\
+`"...And what kind of farc is this?`@` This is the staff room.`@` Your castanets' powers are not supposed to manifest outside of the music room, correct?"`\
 
 ld l,HAM_Def4,26
 
-「えぇ、そうです。@ですが今、私たちがいるこの部屋は、どこだと思います？！」@
+;「えぇ、そうです。@ですが今、私たちがいるこの部屋は、どこだと思います？！」@
+`"Yes, that's correct.`@` But now, where do you think the room we're in now is?!"`@`
 
 ld r,HIG_Def5,80
 
-「職員室でしょ。」\
+;「職員室でしょ。」\
+`"It should be the staff room."`\
 
 ld l,HAM_Def6,80
 quakey 2,200
 
-「ふ、ふははははははははははは！！@　そう思うなら、表札をご覧になられてはどうです？！」\
+;「ふ、ふははははははははははは！！@　そう思うなら、表札をご覧になられてはどうです？！」\
+`"Pf, pfahahahahahaha!!`@` If you think that, why don't you take a look at the name plate?!"`\
 
 bg black,23
 bg shokuin_01,23
 
-「………………………。@……くす。@くすくす、そんな冗談みたいなことで、あなたは力を発揮できるわけ？@　本当にいい加減な妖怪だわ。」@
+;「………………………。@……くす。@くすくす、そんな冗談みたいなことで、あなたは力を発揮できるわけ？@　本当にいい加減な妖怪だわ。」@
+`".......`@` ...Teehee.`@` Teeheehee, you're saying your powers will be shown just by what looks like a joke?`@` You're quite the half-hearted youkai."`@`
 br
-　彼岸花は、職員室の引き戸の隙間から見える、表札を見て苦笑する。\
+;　彼岸花は、職員室の引き戸の隙間から見える、表札を見て苦笑する。\
+`　From a crevice in the sliding door, Higanbana could see the nameplate, and she gave a bitter smile.`\
 
 bg black,22
 
-　そこには本来、「職員室」と書かれた表札が下がっているはずだ。@
+;　そこには本来、「職員室」と書かれた表札が下がっているはずだ。@
+`　Previously, a nameplate that had read 'Staff Room' had been hanging.`@`
 br
-　なのにそれが、どういうわけか、「音楽室」と書かれた表札に変わっているのだ。\
+;　なのにそれが、どういうわけか、「音楽室」と書かれた表札に変わっているのだ。\
+`　But that, inexplicably, had changed to a sign that read 'Music Room.'`\
 
 bg shokuin_04,0
 mld c,HAM_Def2,26
 mld c,HAM_Def4,80
 
-「これはひかる君のアイデアでしてね。@……井俣先生を音楽室に誘き寄せるのが難しいなら、@職員室を音楽室にしてしまえばいいとね…！」@
+;「これはひかる君のアイデアでしてね。@……井俣先生を音楽室に誘き寄せるのが難しいなら、@職員室を音楽室にしてしまえばいいとね…！」@
+`"This was Hikaru-kun's idea.`@`...In case it were difficult to lure Inomata-sensei,`@` it should be enough to change the staff room into the music room...!"`@`
 br
-　ひかるは職員室を訪れる時、音楽室より取り外した表札と入れ替えていたのだ。\
+;　ひかるは職員室を訪れる時、音楽室より取り外した表札と入れ替えていたのだ。\
+`　When Hikaru visited the staff room, he dismantled the sign from the music room and changed it out.`\
 
 mld c,HAM_Def5,80
 
-「よってッ、ここは音楽室です！@　僕のテリトリーです！！@　おなりなさいッ、僕の可愛いうさぎにねッ！！@　『ハメルンのッ、カスタネット』ォオォッ！！！」\
-
+;「よってッ、ここは音楽室です！@　僕のテリトリーです！！@　おなりなさいッ、僕の可愛いうさぎにねッ！！@　『ハメルンのッ、カスタネット』ォオォッ！！！」\
+`"According to that, this is the music room!`@` This is my territory!!`@` Now become one, with my adorable rabbits!!!`@` 'Hameln's CastaneeEeEeEts!!!'"`\
 se1v 85,100
 
 quakey 1,00
@@ -4070,10 +4094,11 @@ se3v 56,50
 
 cl c,5
 
-　カチカチ、カチカチ、カチカチカチカチッ！！@
+;　カチカチ、カチカチ、カチカチカチカチッ！！@
+`　Click clack, clickety clack, clickety clack, clack, clack...!!!`@`
 br
-　呪いのカスタネットの魔力が、彼岸花を凝縮する。\
-
+;　呪いのカスタネットの魔力が、彼岸花を凝縮する。\
+`　The cursed castanets' magic powers, condensed around Higanbana.`\
 ;cl c,45
 
 se1v 56,50
@@ -4081,80 +4106,100 @@ se1v 56,50
 mbg white,25
 mbg black,25
 
-　まるで背丈が縮む薬を飲んだアリスのように、……彼岸花の体がみるみる縮んでいく。@
+;　まるで背丈が縮む薬を飲んだアリスのように、……彼岸花の体がみるみる縮んでいく。@
+`　Just like Alice who drank the shrinking potion, ...Higanbana's body shrank before their eyes.`@`
 br
-　やがて、その姿は、彼女と同じ赤い目をしたうさぎに変わり果ててしまう……。\
+;　やがて、その姿は、彼女と同じ赤い目をしたうさぎに変わり果ててしまう……。\
+`　Finally, that form, was completely changed to a rabbit with the same red eyes as her...`\
 
 mbg white,22
 mcbg 22
 quakey 1,100
 
-　それと同時にハメルンの拘束は解け、書類の束がバサバサと崩れ落ちる。\
+;　それと同時にハメルンの拘束は解け、書類の束がバサバサと崩れ落ちる。\
+`　At the same time, the restraints around Hameln came apart, and the bundle of documents crumbled down with a rustle.`\
 
 ld c,HAM_Def3,22
 ;ld c,HAM_Def1,80
 
-　ハメルンは自由になった両腕をぶらぶらと振ると、@うさぎになった彼岸花を軽々と片手で掴み上げる。\
+;　ハメルンは自由になった両腕をぶらぶらと振ると、@うさぎになった彼岸花を軽々と片手で掴み上げる。\
+`　Hameln's newly freed arms dangled heavily,`@` and he gripped the rabbit Higanbana with one hand.`\
 
 ld c,HAM_Def4,80
 
-「こうなってしまっては、序列第３位の踊る彼岸花先輩も形無しですね。@……いつの間にかここが、音楽室になってしまっていたことに気付かなかったことが、@あなたの敗因です。」\
+;「こうなってしまっては、序列第３位の踊る彼岸花先輩も形無しですね。@……いつの間にかここが、音楽室になってしまっていたことに気付かなかったことが、@あなたの敗因です。」\
+`"Now that you're like this, the Third Ranked Dancing Higanbana-sempai is ruined.`@` ...You didn't realize this had become the music room,`@` and that was your downfall."`\
 
 ;ld c,HAM_Def1,80
 
-　掴み上げるその耳を、ぎゅうっと、さらに強く握り締める。@
+;　掴み上げるその耳を、ぎゅうっと、さらに強く握り締める。@
+`　He put even more power into squeezing the ears he'd picked her up by.`@`
 br
-　そして、未だに這いつくばって、嘔吐物に塗れているひかるを見て、小さく舌打ちする。\
+;　そして、未だに這いつくばって、嘔吐物に塗れているひかるを見て、小さく舌打ちする。\
+`　Then, as she groveled, he looked at Hikaru, who was covered in vomit, and smacked his lips.`\
 
 ld c,HAM_Def3,80
 
-「やれやれ。@……せっかく扱いやすい人間を見つけたってのに。@……あそこまで完璧に壊されたら捨てるしかないよなぁ。@……ごめんねー、ひかるくーん。@くっくくくくくくくくく…！」\
+;「やれやれ。@……せっかく扱いやすい人間を見つけたってのに。@……あそこまで完璧に壊されたら捨てるしかないよなぁ。@……ごめんねー、ひかるくーん。@くっくくくくくくくくく…！」\
+`"How disappointing.`@` ...Even though I found such a tractable human.`@`...It looks like I have no choice but to throw you out after you've been broken that perfectly.`@` ...So sorry, Hikaru-kun~.`@` Kukukukuku...!"`\
 
-　その言葉はひかるの耳には届かない。@
+;　その言葉はひかるの耳には届かない。@
+`　Those words did not reach Hikaru's ears.`@`
 br
-　ひかるは頭の中まで嘔吐物でいっぱいになったかのような吐き気の中で、@……誰でもいいから自分を殺してくれと願っていた…。\
+;　ひかるは頭の中まで嘔吐物でいっぱいになったかのような吐き気の中で、@……誰でもいいから自分を殺してくれと願っていた…。\
+`　Hikaru was nauseous with what felt like vomit up to his head, and inside that,`@` ...He was praying for somebody, anybody to kill him...`\
 
 ld c,HAM_Def2,80
 
-「いいとも。@君の要望には極力応えてあげることにするよ。@……結果的には感謝してるしね。@君の働きがなければ、踊る彼岸花先輩を倒すことは出来なかったのだから。@……お陰でこうして、序列第３位の座を手に入れることが出来たんだ。」@
+;「いいとも。@君の要望には極力応えてあげることにするよ。@……結果的には感謝してるしね。@君の働きがなければ、踊る彼岸花先輩を倒すことは出来なかったのだから。@……お陰でこうして、序列第３位の座を手に入れることが出来たんだ。」@
+`"Very well then.`@` I shall grant your wish to the utmost of my ability.`@` ...This is my gratitude in regards to these results.`@` If it weren't for your work, I would not have been able to knock out the Dancing Higanbana-sempai.`@` Thus thanks to you, I was able to claim the Third Ranked Seat."`@`
 br
-　ハメルンは、ますますに邪悪な笑いを浮かべながら、うさぎの彼岸花を高く掲げる。\
+;　ハメルンは、ますますに邪悪な笑いを浮かべながら、うさぎの彼岸花を高く掲げる。\
+`　While Hameln's smile became more and more wicked, he raised the Rabbit Higanbana higher.`\
 
 bg black,26
 bg shokuin_04,22
 
-「このままうさぎ小屋に放ってしまおうかとも思ったけれど、何しろ彼岸花先輩のこと。@いつ妖力を取り戻して、元の姿を取り戻されるかわかったものじゃありませんからね。@……手も足も出ない、このみすぼらしい姿の内に、@しっかりトドメを刺させていただきましょう。」\
+;「このままうさぎ小屋に放ってしまおうかとも思ったけれど、何しろ彼岸花先輩のこと。@いつ妖力を取り戻して、元の姿を取り戻されるかわかったものじゃありませんからね。@……手も足も出ない、このみすぼらしい姿の内に、@しっかりトドメを刺させていただきましょう。」\
+`"I had planned on releasing the rabbits from their cage, but what can I do with Higanbana-sempai.`@` I don't know if you'll turn back to your original form when your power comes back.`@`...While you can't do a thing in this shabby form,`@` I should firmly finish you off."`\
 
 ld r,HAM_Def5,26
 
-「……僕はひかる君のように残酷ではありませんよ。@ただ一口に。@べろりとあなたを飲み込んで胃袋に放り込んでしまうだけです。」\
+;「……僕はひかる君のように残酷ではありませんよ。@ただ一口に。@べろりとあなたを飲み込んで胃袋に放り込んでしまうだけです。」\
+`"...I am not cruel like Hikaru-kun.`@` In just a word,`@` I'm only going to swallow you and toss you into my stomach."`\
 
-　……高く掲げたうさぎの彼岸花を見上げ、@……ハメルンの口が、ぎょぷりと裂けて、頭でさえ易々と飲み込んでしまうような大口となる。\
+;　……高く掲げたうさぎの彼岸花を見上げ、@……ハメルンの口が、ぎょぷりと裂けて、頭でさえ易々と飲み込んでしまうような大口となる。\
+`　...Looking up at the Rabbit Higanbana he'd lifted up,`@` ...Hameln's mouth burst open with a splitting sound, and became a huge mouth able to easily swallow her from head to toe.`\
 
 bg black,22
 
-『…………手も足も出せない？@　この踊る彼岸花が…？』\
-
+;『…………手も足も出せない？@　この踊る彼岸花が…？』\
+`"'......I can't move my arms and legs?`@` I, the Dancing Higanbana...?"'`\
 ;bg shokuin_03,0
 ld c,HAM_Def2,22
 ld c,HAM_Def4,80
 
-「おや。@うさぎに変えられてもしゃべることが出来るとは。@ふっふふふふふふ、驚きです。@ですが、それ以上の何も、あなたには出来ませんがね。」\
+;「おや。@うさぎに変えられてもしゃべることが出来るとは。@ふっふふふふふふ、驚きです。@ですが、それ以上の何も、あなたには出来ませんがね。」\
+`"Oh?`@` Even as a rabbit, you're able to talk?`@` Pffhahaha, I'm surprised.`@` However, you are unable to do anything."`\
 
-『そうね。@動かせるのはせいぜい、この口だけ。』\
-
+;『そうね。@動かせるのはせいぜい、この口だけ。』\
+`"'You're right.`@` The most I am able to move is just my mouth."'`\
 ld c,HAM_Def2,80
 
-「ならばせめて。@その口で断末魔くらい聞かせて下さい。@……それではご機嫌よう、彼岸花先輩。」\
+;「ならばせめて。@その口で断末魔くらい聞かせて下さい。@……それではご機嫌よう、彼岸花先輩。」\
+`"Well then.`@` At least allow me to hear your death screams.`@`...Well then, fare thee well, Higanbana-sempai."`\
 
 bg black,22
 
-『ご機嫌よう？@　……もう勝ったつもりでいるの？@　あなた程度、口だけ動かせれば充分よ。』\
+;『ご機嫌よう？@　……もう勝ったつもりでいるの？@　あなた程度、口だけ動かせれば充分よ。』\
+`"'Fare thee well?`@` ...Do you really think you've won?`@` Against you, it's enough to just move my mouth."'`\
 
 
-　ハメルンは、その手を開く。@
+;　ハメルンは、その手を開く。@
+`　Hameln opened his hand.`@`
 br
-　うさぎは、……眼下に開くハメルンの大口へ真っ逆さま……。\
+;　うさぎは、……眼下に開くハメルンの大口へ真っ逆さま……。\
+`　The rabbit, ...leapt headlong into Hameln's open wide mouth...`\
 
 se3 66
 
@@ -4171,20 +4216,25 @@ bg shokuin_04,22
 
 bgm1 21
 
-「ひぎゃッ、…ああぁああああぁあああッああああッあああぁあああッ！！！」\
+;「ひぎゃッ、…ああぁああああぁあああッああああッあああぁあああッ！！！」\
+`"Hi, gya, ...AAAAAAAaAAAaaAAAaAAaAAAaaaaaAAAAA!!!!"`\
 
-　その悲鳴が一体誰のものなのか、一瞬分からなかった。@
-　彼岸花の断末魔でないことだけは、確かだった。\
-
+;　その悲鳴が一体誰のものなのか、一瞬分からなかった。@
+`　For a moment, it was unknown whose scream it was.`@`
+;　彼岸花の断末魔でないことだけは、確かだった。\
+`　The only thing that was certain, was that it was not Higanbana's death scream.`\
 ;bg black,24
 bg blood_1aR,24
 se1 38
 quakex 2,100
 
-　一条の鮮血が、職員室の壁を走る。@
+;　一条の鮮血が、職員室の壁を走る。@
+`　There was one long stream of fresh blood running from the wall of the staff room.`@`
 br
-　それは異様な光景だった。@
-　大口を開けて、うさぎの彼岸花を飲み込もうとするハメルンが、@………両目を見開いて、呻き声をあげながら、痙攣しているのだ。\
+;　それは異様な光景だった。@
+`　That was a bizarre spectacle.`@`
+;　大口を開けて、うさぎの彼岸花を飲み込もうとするハメルンが、@………両目を見開いて、呻き声をあげながら、痙攣しているのだ。\
+`　Hameln, whose mouth had opened wide to swallow the Rabbit Higanbana, `@` ...was convulsing with his eyes wide open, and groaning.`\
 
 quakey 2,200
 quakex 3,300
@@ -4203,15 +4253,21 @@ quakey 1,100
 
 me1v 16,50
 
-　その口から、うさぎが飛び出す。@……何かを咥えて、引きずり出して。@
-br
-　それは、………ハメルンの舌だった。@
-br
-　鮮血に塗れたうさぎの彼岸花が、……ハメルンの舌に噛み付き、……引きずり出したのだ。\
+;　その口から、うさぎが飛び出す。@……何かを咥えて、引きずり出して。@
+`　From that mouth, a rabbit jumped out.`@` ...It was dragging something out in its mouth.`@`
 
-　もっとも、舌と呼ぶべきは、彼岸花が噛み付いている上端部分のわずかだけ。@……それより先は、……不気味にのたうつ、ハメルンの内臓なのだ。@
 br
-　ハメルンは彼岸花に、……舌ごと、……内臓ごと、ずるりと引きずり出されたのだ。\
+;　それは、………ハメルンの舌だった。@
+`　That was, ...Hameln's tongue.`@`
+br
+;　鮮血に塗れたうさぎの彼岸花が、……ハメルンの舌に噛み付き、……引きずり出したのだ。\
+`　Covered in fresh blood, the rabbit Higanbana, ...bit Hameln's tongue, ...and ripped it out with her.`\
+
+;　もっとも、舌と呼ぶべきは、彼岸花が噛み付いている上端部分のわずかだけ。@……それより先は、……不気味にのたうつ、ハメルンの内臓なのだ。@
+`　Moreover, the only thing that could be called a tongue, was the top portion of what Higanbana was holding.`@` ...The rest of it, ...was Hameln's inner organs, writhing ominously.`@`
+br
+;　ハメルンは彼岸花に、……舌ごと、……内臓ごと、ずるりと引きずり出されたのだ。\
+`　Hameln, had his tongue...and his intestines...torn out easily by Higanbana.`\
 
 mbg "BMP\background\efe\aka1.bmp",1
 mcbg 22
@@ -4220,34 +4276,41 @@ quakey 2,200
 
 me2v 17,70
 
-「ぉごおぉおおおおっぉおおぉ…ぉおお……ぉぉぉ……！！！！」@
+;「ぉごおぉおおおおっぉおおぉ…ぉおお……ぉぉぉ……！！！！」@
+`"UghhhooOoOOooooOOooOooOoooOOOoo...ooo..oo!!!!`@`
 br
-　ハメルンは白目を剥きながら、びくびくと全身を震わせる。\
+;　ハメルンは白目を剥きながら、びくびくと全身を震わせる。\
+`　Hameln's eyes were wide, and his entire body trembled with fear.`\
 
 bg black,23
 
 mono 0
 
-『……毬枝を追い落として第８位になると言ってみたり、私を倒して第３位になると言ってみたり。@くすくす、うふふふふふ、それだけの大口を叩くだけあって、実に立派な舌だわ。@くすくすくすくすくすくす…！！』\
+;『……毬枝を追い落として第８位になると言ってみたり、私を倒して第３位になると言ってみたり。@くすくす、うふふふふふ、それだけの大口を叩くだけあって、実に立派な舌だわ。@くすくすくすくすくすくす…！！』\
+`"'...Saying you want to chase after Marie to become the 8th Rank, saying you'd try to knock me out to become 3rd Rank.`@` Teehee, Pffahahaha, as to be expected from such a boastful man, your tongue was truly splendid...!! Teeheeheeheehee...!!"'`\
 
 bg shokuin_04,22
 se1 38
 quakey 1,100
 
 
-「ご……くく……ごごご……ごっ、……ぉお………！！！」\
+;「ご……くく……ごごご……ごっ、……ぉお………！！！」\
+`"Gg...guh...gggg...gg...guoh....!!!"`\
 
-『最後に教えてご覧なさい。@あんたをこの学校に呼び寄せたのは誰……？@　毬枝は私の大切なオトモダチなのよ…？@　それを追い払おうとするなんて、許せないヤツだわ。@……そいつの名を教えてご覧なさい…？@　……………………。@……あぁ、無理よね。@こんなにも舌も内臓も引きずり出されちゃ、返事も満足に出来ないわね。』\
+;『最後に教えてご覧なさい。@あんたをこの学校に呼び寄せたのは誰……？@　毬枝は私の大切なオトモダチなのよ…？@　それを追い払おうとするなんて、許せないヤツだわ。@……そいつの名を教えてご覧なさい…？@　……………………。@……あぁ、無理よね。@こんなにも舌も内臓も引きずり出されちゃ、返事も満足に出来ないわね。』\
+`"'Please tell me one last thing.`@` Who called you to this school...?`@` Marie is my very important friend...`@` I won't forgive anybody who would try to drive her away.`@` ...Tell me that name.`@` ..........`@`...Ahh, it's impossible.`@` Since you had your tongue and organs ripped out, you can't reply to my satisfaction."'`\
 
 se2 38
 
 quakey 2,200
 
-「んごごごッ、………こ…ぉおぉ……ッッッ……！！！」\
+;「んごごごッ、………こ…ぉおぉ……ッッッ……！！！」\
+`"Nghoo, ...guooOoOo.....!!!"`\
 
 bg black,22
 
-『さようなら、ハメルン。@あんたの怪談なんて、……この学校に残させてやらない。@くす、くすくすくすくすくすくす、あっははははははははははははははははははははは！！！』\
+;『さようなら、ハメルン。@あんたの怪談なんて、……この学校に残させてやらない。@くす、くすくすくすくすくすくす、あっははははははははははははははははははははは！！！』\
+`"'Fare thee well, Hameln.`@` Your story, ...will never remain in this school.`@` Teehee, Teeheeheehee, Ahhahahahahahahahahahahaha!!!"'`\
 
 se3v 84,100
 
@@ -4256,7 +4319,8 @@ bg aka3,22
 quakex 2,200
 quakey 2,200
 
-　ごきゅり、ぶちぶちぶちぶちッ…、………ブチィッ！！\
+;　ごきゅり、ぶちぶちぶちぶちッ…、………ブチィッ！！\
+`　Schlick, Rrrip, rip rip......Snap...!!!`\
 
 se1 36
 
@@ -4270,50 +4334,61 @@ wait 2000
 
 ld l,HIG_w4,46
 
-　机の影で、……不気味な音と共に鮮血が飛び散る。@
+;　机の影で、……不気味な音と共に鮮血が飛び散る。@
+`　In the shadow of a desk, ...A terrible sound came as fresh blood splattered out.`@`
 br
-　……そこから、彼岸花がゆっくりと立ち上がり、姿を見せる。@
-　それは元の西洋人形のような姿。@……そして、ハメルンの姿はもう、どこにもなかった。\
-
+;　……そこから、彼岸花がゆっくりと立ち上がり、姿を見せる。@
+`　...From there, Higanbana slowly rose and showed herself.`@`
+;　それは元の西洋人形のような姿。@……そして、ハメルンの姿はもう、どこにもなかった。\
+`　It was the look of a western doll.`@` ...and Hameln, was no longer anywhere.`\
 ld l,HIG_Def2,80
 
-「お生憎様。@……うさぎって、食欲もすごく旺盛なの。@……知らなかった？」@
+;「お生憎様。@……うさぎって、食欲もすごく旺盛なの。@……知らなかった？」@
+`"How unfortunate.`@` ...Rabbits have quite a large appetite.`@` ...Did you not know that?"`@`
 br
-　悠然と笑う彼岸花は、未だに床を這いつくばるひかるを見る。\
+;　悠然と笑う彼岸花は、未だに床を這いつくばるひかるを見る。\
+`　Higanbana laughed with an air of composure, while staring at Hikaru who was still on the floor.`\
 
-「……ぁ、………ぅ……………。」\
+;「……ぁ、………ぅ……………。」\
+`"...Ah, ...u...."`\
 
 ld l,HIG_w3,80
 
-「あなたの顔。@悪夢に怯えて目を覚ました寝ぼすけみたいだわ。@………でもね。@本当の悪夢は、これからじゃないかしら。@……私は踊る彼岸花。@学校妖怪八席の中でも、……特に残酷な妖怪なのよ…？@　あなたをそのまま見逃して、私が立ち去るとでも思ったかしら……？」\
+;「あなたの顔。@悪夢に怯えて目を覚ました寝ぼすけみたいだわ。@………でもね。@本当の悪夢は、これからじゃないかしら。@……私は踊る彼岸花。@学校妖怪八席の中でも、……特に残酷な妖怪なのよ…？@　あなたをそのまま見逃して、私が立ち去るとでも思ったかしら……？」\
+`"Your face.`@` It looks just like one half awake after a nightmare.`@`...But you know.`@` A true nightmare has yet to begin. `@` ...I am the Dancing Higanbana.`@` I am the 8th Rank of the School Youkai, ...and I am a particularly cruel youkai...`@` Did you think that I would overlook you, and take my leave of you...?"`\
 
 ld r,HIK_n1,26
 ld r,HIK_n2,80
 quakex 1,100
 
-「ひ、……ひぃ………！！@　こ、……これ以上、………ぼ、……僕に……、な、何を………！」\
+;「ひ、……ひぃ………！！@　こ、……これ以上、………ぼ、……僕に……、な、何を………！」\
+`"Ee, ...Eeeeee...!!!`@` W, ...what more...d,...do you....plan....!"`\
 
 ld l,HIG_Def5,80
 
-「人を殺すということを、まさか、あれっぽっちで全て実感できたと思っているの…？@　あなたが実感したのは、ニンゲン側だけじゃない。」\
+;「人を殺すということを、まさか、あれっぽっちで全て実感できたと思っているの…？@　あなたが実感したのは、ニンゲン側だけじゃない。」\
+(?)`"Do you think that killing someone would be something you could fully experience with no interest..?`@` What you actually felt was only a h u m a n's side."`\
 
 ld r,HIK_n1,80
 
-「それって、……どういう…………。@……………ッ？！@　そ、……それ…は…………、」\
+;「それって、……どういう…………。@……………ッ？！@　そ、……それ…は…………、」\
+`"What do, ...you mean...`@`....?!`@` Th, ...that's..."`\
 
 se1v 85,100
 
 mbg white,1
 mcbg 22
 
-　カチ。@
+;　カチ。@
+`　Click.`@`
 br
-　それは、ハメルンが持っていた、カスタネット。@今は彼岸花の手に……。\
-
+;　それは、ハメルンが持っていた、カスタネット。@今は彼岸花の手に……。\
+`　Those were, the castanets, that Hameln had.`@` Now in Higanbana's hands...`\
 cl l,0
 ld c,HIG_Def3,23
 
-「どうしたの？@　何を怯えているの？@　これは、音楽室で鳴らさないと意味がないんでしょう…？@　あぁ、でも今はこの職員室、音楽室なんだったっけね。@くすくすくすくす……！」@
+;「どうしたの？@　何を怯えているの？@　これは、音楽室で鳴らさないと意味がないんでしょう…？@　あぁ、でも今はこの職員室、音楽室なんだったっけね。@くすくすくすくす……！」@
+`"What's the matter?`@` What are you so afraid of?`@` These shouldn't mean anything outside of the music room, right...?`@` Oh, but now this staff room, is a music room, isn't it!`@` Teehee, teehee...!"`@`
 br
 
 se2 85
@@ -4326,8 +4401,8 @@ se3v 85,100
 mbg white,1
 mcbg 22
 
-　カチ。@カチ、カチ、カチ、カチ…！\
-
+;　カチ。@カチ、カチ、カチ、カチ…！\
+`　Click.`@` Click, click, click, click...!`\
 se1v 56,50
 
 mbg "BMP\background\efe\red1.bmp",28
@@ -4335,16 +4410,17 @@ mcbg 28
 
 ld r,HIK_n2,80
 
-　彼岸花が何を企んでいるのかを理解し、@ひかるは、先ほどの悪夢など、まだまだ序の口であったことを理解する。\
-
-　ひかるは、ニンゲンとして殺すことしか、まだ実感していない。@
+;　彼岸花が何を企んでいるのかを理解し、@ひかるは、先ほどの悪夢など、まだまだ序の口であったことを理解する。\
+`　Understanding what Higanbana was scheming,`@` Hikaru understood, that the nightmare he'd had, was only beginning.`\
+;　ひかるは、ニンゲンとして殺すことしか、まだ実感していない。@
+`　Hikaru only experienced what it felt to kill as a human.`@`
 br
-　うさぎとして、……殺されることを、まだ実感していない…！\
-
+;　うさぎとして、……殺されることを、まだ実感していない…！\
+`　He still hadn't experienced, ...being killed, ...as a rabbit...!`\
 ld c,HIG_Def4,80
 
-「安心なさい。@あんたの魂は私の好みじゃないの。@だから命は奪わない。@だから、殺されることを実感はさせないわ。@……あなたに実感させるのは、いじめられる、ということよ。」\
-
+;「安心なさい。@あんたの魂は私の好みじゃないの。@だから命は奪わない。@だから、殺されることを実感はさせないわ。@……あなたに実感させるのは、いじめられる、ということよ。」\
+`"Oh don't worry.`@` Your soul isn't to my liking.`@` That's why I won't take your life.`@` That's why, I won't allow you to experience being killed.`@` ...What I will allow you to experience, is what is called, being abused."`\
 se1v 56,50
 se2 66
 
@@ -4353,50 +4429,62 @@ bg black,26
 bg shokuin_04,6
 
 
-　そう語る彼岸花の姿が、見上げるほどの大きなものになっていく。\
-
-　机はみるみる巨大になり、……まるで巨大な建物のようだ。\
+;　そう語る彼岸花の姿が、見上げるほどの大きなものになっていく。\
+`　As Higanbana spoke, she grew large enough that he had to look up to her.`\
+;　机はみるみる巨大になり、……まるで巨大な建物のようだ。\
+`　The desks became huge, ...exactly like a humongous building.`\
 bg black,26
 bg shokuin_02,0
 ld c,HIG_Def3,26
 
-　彼岸花は、うさぎのひかるを、ひょいと掴み上げる。@
-　そして、職員室の隅へと連れて行く。@
+;　彼岸花は、うさぎのひかるを、ひょいと掴み上げる。@
+`　Higanbana suddenly grabbed the rabbit Hikaru and raised him up.`@`
+;　そして、職員室の隅へと連れて行く。@
+`　Then, he was taken to the corner of the staff room.`@`
 br
-　そこには、うさぎ小屋から移された、生き残りのうさぎたちのダンボールでできた住処があった。\
+;　そこには、うさぎ小屋から移された、生き残りのうさぎたちのダンボールでできた住処があった。\
+`　And it became the rabbit cage, where the remaining rabbits' cardboard home was.`\
 
 ld c,HIG_Def5,80
 
-「あなたはうさぎをいじめることを、たくさん実感したわ。@……なら今度は、その逆を実感するのはどうかしら。」\
+;「あなたはうさぎをいじめることを、たくさん実感したわ。@……なら今度は、その逆を実感するのはどうかしら。」\
+`"You had plenty of experience abusing rabbits.`@`...So this time, how about we let you experience the reverse?"`\
 
-『………や、……やめて……、ゆ、許して…………！！』\
-
+;『………や、……やめて……、ゆ、許して…………！！』\
+`"...S, ...stop it...please, forgive me...!!!"`\
 ld c,HIG_Def3,80
 
-「それを許さないから、私は飛びきり残酷な妖怪なのよ。@…………でも、いいわ。@……特別に、一度だけチャンスをあげる。」@
+;「それを許さないから、私は飛びきり残酷な妖怪なのよ。@…………でも、いいわ。@……特別に、一度だけチャンスをあげる。」@
+`"I can't forgive you, because I am an exceptionally cruel youkai.`@` ...But, very well.`@` ...Specially for you, I'll give you one chance."`@`
 br
-　掴み上げたうさぎのひかるを、本物のうさぎたちの群の上に高々と掲げる。\
+;　掴み上げたうさぎのひかるを、本物のうさぎたちの群の上に高々と掲げる。\
+`　The raised up rabbit Hikaru, rose up above the real rabbits.`\
 
-『チャ、……チャンス………。』@
+;『チャ、……チャンス………。』@
+`"Ch, ...chance..."`@`
 
 ld c,HIG_w3,80
 
-「そうよ。@チャンス。」\
-
-『そ、それは何です…？！』@
+;「そうよ。@チャンス。」\
+`"That's right.`@` A chance."`\
+;『そ、それは何です…？！』@
+`"What kind of chance...?!"`@`
 
 cl c,0
 ld r,HIG_Def2,23
 
-「謝りなさい。」@
+;「謝りなさい。」@
+`"Apologize."`@`
 
-『……ご、ごめんなさいッ、ごめんなさいッ！！』\
+;『……ご、ごめんなさいッ、ごめんなさいッ！！』\
+`"...I, I'm sorry, I'm sorry...!!!"`\
 
 ld r,HIG_Def5,80
 
-「それは、誰に向かって何を謝ったの？」@
-
-『そ、それは、……彼岸花さんに、その……ッ、……あッ！！』\
+;「それは、誰に向かって何を謝ったの？」@
+`"To whom are you apologizing, and what for?"`@`
+;『そ、それは、……彼岸花さんに、その……ッ、……あッ！！』\
+`"Th, that's, ...to Higanbana-san, and..., ...ah...!!!"`\
 
 E_MA
 
@@ -4407,31 +4495,36 @@ se1v 13,50
 
 quakey 1,100
 
-　彼岸花は掴んでいた手を放し、……うさぎのひかるを、うさぎたちの群に落とした。\
+;　彼岸花は掴んでいた手を放し、……うさぎのひかるを、うさぎたちの群に落とした。\
+`　Higanbana released her hand, ...and dropped the rabbit Hikaru, on top of all the other rabbits.`\
 
 cl r,0
 ld c,HIG_w4,24
 ;ld c,HIG_w4,80
 
-「ハズレ。@………じゃあね、さようなら。@二瓶ひかる君。@これであなたは大好きなうさぎ小屋で、死ぬまで過ごせるわね。@……どこの動物園に送られるか知らないけど、@意地悪な飼育係に当たらないといいわね。@くすくすくすくすくすくすくすくす…！」\
-
+;「ハズレ。@………じゃあね、さようなら。@二瓶ひかる君。@これであなたは大好きなうさぎ小屋で、死ぬまで過ごせるわね。@……どこの動物園に送られるか知らないけど、@意地悪な飼育係に当たらないといいわね。@くすくすくすくすくすくすくすくす…！」\
+`"Wrong.`@` ...See you, farewell.`@` Hikaru Nihei-kun.`@` This way you can stay with your beloved rabbits until you die.`@` ...I don't know which zoo you'll be sent to,`@`  but hopefully it isn't with an ill-tempered animal raising committee member.`@` Teehee, teeheeheeheehee...!!"`\
 se1v 84,100
 
 bg black,22
 bg shokuin_04,22
 quakey 2,200
 
-『ま、……待って………、待って………！！』@
+;『ま、……待って………、待って………！！』@
+`"W, ...wait..., wait...!!!"`@`
 br
-　ひかるはダンボールの柵を出ようと足掻くが、今のうさぎの身体では、それは到底、叶わない。\
-
-　待って、………待って……ッ！！@　………………！！！@
+;　ひかるはダンボールの柵を出ようと足掻くが、今のうさぎの身体では、それは到底、叶わない。\
+`　Hikaru pawed at the cardboard 'railing' trying to get out, but in this rabbits' body, it was impossible.`\
+;　待って、………待って……ッ！！@　………………！！！@
+`　Wait, ....wait...!!!`@` ........!!!!!`@`
 br
-　次第にひかるの言葉も失われていく。\
-
-　うさぎは、鳴けない。@人の言葉など、しゃべれるわけもない。@
+;　次第にひかるの言葉も失われていく。\
+`　Hikaru's words gradually began to fade away.`\
+;　うさぎは、鳴けない。@人の言葉など、しゃべれるわけもない。@
+`　Rabbits, cannot cry out.`@` There's no way they can speak human words.`@`
 br
-　それでも必死に彼岸花に、待って待ってと叫び続ける。\
+;　それでも必死に彼岸花に、待って待ってと叫び続ける。\
+`　But still he desperately continued to scream, 'Wait, wait!' at Higanbana.\
 
 bg black,22
 ;wait 1000
@@ -4439,63 +4532,80 @@ bg e006,2
 
 me1v 28,70
 
-　……するとその時、自分を見つめる、いくつもの視線に気が付いた…。@
+;　……するとその時、自分を見つめる、いくつもの視線に気が付いた…。@
+`　...And then at that time, he realized he felt the gaze of countless somethings...`@`
 br
-　視線の主は、…………………うさぎたちだった。\
+;　視線の主は、…………………うさぎたちだった。\
+`　And the owners of those gazes...were rabbits.`\
 
-　ひかるが虐待し続けてきたうさぎたち。@
+;　ひかるが虐待し続けてきたうさぎたち。@
+`　The rabbits that Hikaru continued to abuse.`@`
 br
-　彼らは身動き一つせず、その無数の赤い瞳を、ひかるに向けていた。\
+;　彼らは身動き一つせず、その無数の赤い瞳を、ひかるに向けていた。\
+`　Not a single of them was stirring around, and countless red eyes were turned to Hikaru.`\
 
 me2v 16,70
 
-　…………な、何なんだよ、こいつら……？！@
+;　…………な、何なんだよ、こいつら……？！@
+`　...Wh, what is with these guys...?!`@`
 br
-　やがて、うさぎたちはゆっくりとひかるに歩み寄ってくる。@
-　取り囲むように、ゆっくりと、ゆっくりと……。\
+;　やがて、うさぎたちはゆっくりとひかるに歩み寄ってくる。@
+`　Finally, the rabbits slowly began to step up to Hikaru.`@`
+;　取り囲むように、ゆっくりと、ゆっくりと……。\
+`　Slowly, slowly, as though surrounding him...`\
 
-　ひかるは後ずさろうとするが、ダンボールの隅に追い詰められている。@
+;　ひかるは後ずさろうとするが、ダンボールの隅に追い詰められている。@
+`　Hikaru attempted to back away, but was cornered into the corner of the cardboard.`@`
 br
-　………こ、…こいつら一体何をする気だ……？！@
-　その問いに、彼岸花は答えてくれた。\
+;　………こ、…こいつら一体何をする気だ……？！@
+`　...Wh, ...what the hell are these guys trying to do...?!`@`
+;　その問いに、彼岸花は答えてくれた。\
+`　And in that time, Higanbana gave him an answer.`\
 
 bg black,23
 bg shokuin_03,0
 ld c,HIG_Def5,6
 ld c,HIG_w3,80
 
-「くすくすくすくす。@………みんな歓迎しているのよ。@……あなたみたいな可愛い子が入ってきて、興奮してるみたい。」\
-
-　……こ、……興奮って………？\
+;「くすくすくすくす。@………みんな歓迎しているのよ。@……あなたみたいな可愛い子が入ってきて、興奮してるみたい。」\
+`"Teeheehee.`@` ... Everybody is welcoming you.`@` ...Looks like they're excited that such a cute little guy like you has joined them."`\
+;　……こ、……興奮って………？\
+`　...E, ...excited...?`\
 
 ld c,HIG_Def3,80
 
-「知ってる？@　うさぎってね。@………同性同士でも、交尾をするんですって。」\
-
+;「知ってる？@　うさぎってね。@………同性同士でも、交尾をするんですって。」\
+`"Did you know?`@` About rabbits.`@` ...They will copulate with the same sex as well."`\
 bg black,22
 
-　……そ、…………そん…な…………。@
+;　……そ、…………そん…な…………。@
+`　...Th, ...that's...not....`@`
 br
-　ひかるの大きくなった耳に、うさぎたちの荒く熱っぽい息が吹きかかる。@
-　ひかるは、真っ赤な目を見開いて凍りつく……。\
+;　ひかるの大きくなった耳に、うさぎたちの荒く熱っぽい息が吹きかかる。@
+`　Hikaru's now large ears, were being blown about by the feverish, enthusiastic breath of the rabbits.`@`
+;　ひかるは、真っ赤な目を見開いて凍りつく……。\
+`　Hikaru was frozen by those wide open crimson eyes...`\
 
 ld c,HIG_w6,22
 
-「くすくすくすくすくす。@……うさぎって、性欲がすごく強いって聞くんだけれど。@……本当かしらね…。@……くす、………くすくすくすくすくすくすくすくすくすくす！！」\
+;「くすくすくすくすくす。@……うさぎって、性欲がすごく強いって聞くんだけれど。@……本当かしらね…。@……くす、………くすくすくすくすくすくすくすくすくすくす！！」\
+`"Teeheeheehee.`@`...I hear that rabbits have quite a strong libido.`@` ...I wonder if that's true...`@` ...Teehee, ....Teeheeheeheeheehee!!"`\
 
 cl c,2
 
-　軽やかな笑い声と共に、彼岸花は廊下の闇の中へと消えていった……。\
+;　軽やかな笑い声と共に、彼岸花は廊下の闇の中へと消えていった……。\
+`　Higanbana disappeared into the darkness of the hallway, along with a light laughter...`\
 
 se1v 82,100
 
 bg white,63
 bg black,23
 
-　開け放たれていた職員室の扉がひとりでに閉まる。@
+;　開け放たれていた職員室の扉がひとりでに閉まる。@
+`　The door to the staff room was thrown open, then closed on its own.`@`
 br
-　その音と同時に、うさぎたちが一斉にひかるに飛びかかった……。\
-
+;　その音と同時に、うさぎたちが一斉にひかるに飛びかかった……。\
+`　At the same time as that sound, the rabbits all simultaneously leapt upon Hikaru...`\
 bg e006,22
 bg e007,22
 
@@ -4506,12 +4616,16 @@ quakey 3,300
 
 me3v 3,70
 
-　…………！@　………………ッ！！！\
+;　…………！@　………………ッ！！！\
+`　....!`@` ........!!!!`\
 
-　うさぎは鳴けない。@
-　悲鳴をあげることさえできない。@
+;　うさぎは鳴けない。@
+`　Rabbits cannot cry.`@`
+;　悲鳴をあげることさえできない。@
+`　He could not even scream.`@`
 br
-　だから、ひかるは好んでいじめてたんじゃないか。\
+;　だから、ひかるは好んでいじめてたんじゃないか。\
+`　Therefore, it was just the kind of torment Hikaru preferred.`\
 
 bg black,2
 fede 0,2000
@@ -4539,29 +4653,35 @@ bg black,22
 bg okujou_01y,22
 
 
-　すっかり夜の闇に包まれた学校は、@まるで生きてる者は誰もいないかのような沈黙に支配されているのだった………。\
-
+;　すっかり夜の闇に包まれた学校は、@まるで生きてる者は誰もいないかのような沈黙に支配されているのだった………。\
+`　When the school had been completely enveloped in the darkness of the night,`@` and the silence dominated as though not a living soul were around...`\
 ;ld c,HIG_w3,2
 
-　彼岸花の姿は、大きな月を眺めることの出来る屋上にあった。\
+;　彼岸花の姿は、大きな月を眺めることの出来る屋上にあった。\
+`　Higanbana's form could be found gazing up at the large moon from the rooftop.`\
 
 ld c,HIG_Def5,2
 
-「誰に謝れば許してあげたかって…？」@
+;「誰に謝れば許してあげたかって…？」@
+`"If someone apologizes, you should forgive them, hmm...?"`@`
 br
-　誰に問われたわけでもないのに、彼岸花はそう呟く。\
+;　誰に問われたわけでもないのに、彼岸花はそう呟く。\
+`　Even though it wasn't as if she were asking anyone, Higanbana muttered this.`\
 
 ld c,HIG_Def4,80
 
-「………さぁね。@地獄で考えてみたら？@　あなたのせいで、私は服を涙と鼻水でぐしゃぐしゃにされたんだから。」\
+;「………さぁね。@地獄で考えてみたら？@　あなたのせいで、私は服を涙と鼻水でぐしゃぐしゃにされたんだから。」\
+`"...Who knows.`@` Why don't you try thinking about hell?`@` It's because of you, that my clothes got all ruined with snot and tears."`\
 
 cl c,2
 
-　彼岸花は笑う。@
+;　彼岸花は笑う。@
+`　Higanbana laughed.`@`
 br
-　月は酷薄なまでに白い。@
-　温かみなどなく、ただただ寒々しいだけだった……。\
-
+;　月は酷薄なまでに白い。@
+`　The moon was so white it was cruel.`@`
+;　温かみなどなく、ただただ寒々しいだけだった……。\
+`　There was no warmth, only the cold remained...`\
 
 ;bg black,42
 
