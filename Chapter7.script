@@ -930,18 +930,25 @@ ld c,HOK_def4,22
 
 ld c,HOK_def2,80
 
-「大丈夫だってっ。@子供はね、そんなヤワじゃないの！@　たくさん血が出たのを見ちゃったから、ちょっとびっくりしちゃったんでしょ。@しばらく休ませて様子を見ましょう。@担任の先生に、しばらく休ませると伝えてもらえます？」@
-「あ、はい、わかりましたっ。」\
+;「大丈夫だってっ。@子供はね、そんなヤワじゃないの！@　たくさん血が出たのを見ちゃったから、ちょっとびっくりしちゃったんでしょ。@しばらく休ませて様子を見ましょう。@担任の先生に、しばらく休ませると伝えてもらえます？」@
+`"She's just fine.`@` Kids aren't that breakable!`@` She probably was just a bit surprised when she saw a lot of blood coming out.`@` Let's just let her rest for a while and keep an eye on her condition.`@` Could you let her homeroom teacher know that she'll be resting for a while?"`@`
+;「あ、はい、わかりましたっ。」\
+`"Ah, yes, I understand."`\
 
 bg hoken_03,24
 
-　幸いにも、見た目ほどの大怪我ではないらしい。@
+;　幸いにも、見た目ほどの大怪我ではないらしい。@
+`　Fortunately, it didn't seem to be as bad of an injury as it looked.`@`
 br
-　少女は包帯を頭にぐるぐる巻きにして、ベッドで横になっている。@
-　確かにその姿は痛々しいが、……表情を見る限り、確かに穏やかそうだった。\
+;　少女は包帯を頭にぐるぐる巻きにして、ベッドで横になっている。@
+`　A bandage had been wrapped all around the girl's head, and she was lying down on the bed.`@`
+;　確かにその姿は痛々しいが、……表情を見る限り、確かに穏やかそうだった。\
+`　Certainly, her appearance was painful to look at but, ...according to her expression, she looked rather serene.`\
 
-　実際、少女自身も、そう深刻な怪我をしたとは思っていない。@
-　意識は少し遠いがちゃんとある。@先生たちには眠っているように見えているが、実際は少しだけ周りの様子が聞き取れていた。\
+;　実際、少女自身も、そう深刻な怪我をしたとは思っていない。@
+`　In actuality, she also didn't think that she'd sustained that serious of an injury.`@`
+;　意識は少し遠いがちゃんとある。@先生たちには眠っているように見えているが、実際は少しだけ周りの様子が聞き取れていた。\
+`　My consciousness is a little far off, but it's still there.`@` From what the teachers could tell, I was sleeping, but in reality I was just listening in on what was happening around me.`\
 
 bg black,22
 
@@ -950,47 +957,67 @@ E_A
 
 bgm1 4
 
-　……良かった。@大した怪我じゃ、ないみたい。@
+;　……良かった。@大した怪我じゃ、ないみたい。@
+`　...Thank goodness.`@` It looks like it's not, a serious injury.`@`
 br
-　安堵するけれど、……ちょっと残念な気持ちにもなる。\
+;　安堵するけれど、……ちょっと残念な気持ちにもなる。\
+`　It's a relief, but...it also feels a bit disappointing.`\
 
-　こんなお天気のいい日に、チャイムと同時に教室を駆け出して、……目一杯遊ぶつもりだったのに。@
-　下駄箱に頭をぶつけて、……台無し。@
+;　こんなお天気のいい日に、チャイムと同時に教室を駆け出して、……目一杯遊ぶつもりだったのに。@
+`　On a day with such nice weather like this, when the chime went off we simultaneously dashed out of the classroom, ...I was planning on playing like crazy.`@`
+;　下駄箱に頭をぶつけて、……台無し。@
+`　And it was ruined, ...by hitting my head on a shoe rack.`@`
 br
-　……たんこぶくらいで済むと思ったのにな。@まさか、倒れちゃうなんて……。\
+;　……たんこぶくらいで済むと思ったのにな。@まさか、倒れちゃうなんて……。\
+`　...Still, I thought I'd at least end up with a bump.`@` By no means, did I think I would collapse...`\
 
-　はぁ。@……………今日は、何かツイてないな。@
+;　はぁ。@……………今日は、何かツイてないな。@
+`　Haa.`@` .....Today, just isn't really going along with me.`@`
 br
-　でも、……ま、……いいか。@
-　保健室のベッドって、……一度、寝てみたいと思ってたし。@
-　その夢が叶ったから、よしとする……か。\
-
+;　でも、……ま、……いいか。@
+`　But, ...well, ...I guess it's fine.`@`
+;　保健室のベッドって、……一度、寝てみたいと思ってたし。@
+`　I was thinking, ...I wanted to sleep in the infirmary bed at least once.`@`
+;　その夢が叶ったから、よしとする……か。\
+`　Thinking that that wish came true, I thought I'd leave it at that...`\
 se1v 69,20
 bg hoken_01,2
 wait 2000
 
-　遠くで、昼休みの終わりを告げるチャイムが聞こえる。@
-　……５時間目、何だっけ。\
+;　遠くで、昼休みの終わりを告げるチャイムが聞こえる。@
+`　From far away, I could hear the chime that signaled the end of the lunch break.`@`
+;　……５時間目、何だっけ。\
+`　...I think, it's fifth period.`\
 
-　そうだ。体育だ。@
-　今からすぐ起き上がれれば、昼休みに遊べなかった分、思い切り体を動かせるかも。@
+;　そうだ。体育だ。@
+`　That's right. P.E.`@`
+;　今からすぐ起き上がれれば、昼休みに遊べなかった分、思い切り体を動かせるかも。@
+`　If I get up right now, I could use the fact that I didn't play during my lunch break, and exercise with all my might.`@`
 br
-　……………………………。@
+;　……………………………。@
+`　...............`@`
 br
-　気持ちはもう元気なのに、……体が、まるで寝惚けてるみたいに重くて、言うことを聞かない。\
+;　気持ちはもう元気なのに、……体が、まるで寝惚けてるみたいに重くて、言うことを聞かない。\
+`　Even though I feel more energetic, ...my body feels heavy like it was half asleep, and won't listen to what I tell it to do.`\
 
 bg hoken_03,22
 
-　……あーあ……。@
-　今日という、○月○日○曜日という素晴らしい一日は、もう二度とないというのに。@
-　何でその貴重な学校生活の一日を、……こんなところで寝て過ごしてるんだろ。\
+;　……あーあ……。@
+`　...Man...`@`
+;　今日という、○月○日○曜日という素晴らしい一日は、もう二度とないというのに。@
+`　Even though this spectacular looking day, Xmonth, Xdate, Xday, will never happen another time.`@`
+;　何でその貴重な学校生活の一日を、……こんなところで寝て過ごしてるんだろ。\
+`　Why am I spending this precious school day, ...sleeping in this place.`\
 
-　…………転んだり。@忘れ物をしたり。@
-　はぁ。@
+;　…………転んだり。@忘れ物をしたり。@
+`　....I tripped and fell.`@` Forgot my things.`@`
+;　はぁ。@
+`　Ugh.`@`
 br
-　………やっぱり、……今日はツイてないや……。\
-
-　保健室のベッドで寝る夢が叶ったと、精一杯プラス思考で考えていた少女も、@……重なる不運に、さすがに落胆する。\
+;　………やっぱり、……今日はツイてないや……。\
+`　...Seriously, ...today just isn't so great...`\
+'　保健室のベッドで寝る夢が叶ったと、精一杯プラス思考で考えていた少女も、@……重なる不運に、さすがに落胆する。\
+`　
 
 bg hoken_01,22
 
