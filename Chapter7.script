@@ -648,16 +648,20 @@ bg gakkou_02,22
 `　When I was drinking my milk, it suddenly went up my nose and a humongous sneeze came out!`@`
 br
 ;　幸いにも誰の顔にもブチまけずに済んだけど、私の鼻からは牛乳の雫がたらりと糸を引いて、クラス中が大笑い。\
-`　
+(?)`　Fortunately, I was able to save face, but then a little string of milk stretched out from my nose, and everyone in the class cracked up.`\
 
-　それにつられたのか、数人の男子が同じように牛乳を噴き出したものだから、もうクラス中、大パニックの大爆笑。@
+;　それにつられたのか、数人の男子が同じように牛乳を噴き出したものだから、もうクラス中、大パニックの大爆笑。@
+`　It must have been infectious, because countless boys started spurting out milk in the same way, and the whole class erupted in explosive laughter.`@`
 br
-　私も、みんなも、牛乳まみれになって笑い転げた。\
+;　私も、みんなも、牛乳まみれになって笑い転げた。\
+`　I, and everybody else, was reeking of milk and rolling in laughter.`\
 
 bg black,22
 
-　酷い目に遭ったけど、こんな大笑いの給食は、きっとどんな素敵な献立にも負けない。@
-　だから私は、ハンカチで顔を拭いながらも、まだ笑いが止まらないのだった。\
+;　酷い目に遭ったけど、こんな大笑いの給食は、きっとどんな素敵な献立にも負けない。@
+(?)`　Even though I suffered through that, during this lunch filled with raucous laughter, I couldn't lose no matter what was on the menu.`@`
+;　だから私は、ハンカチで顔を拭いながらも、まだ笑いが止まらないのだった。\
+`　That's why, as I wiped my face with my handkerchief, I still couldn't stop laughing.`\
 
 ;bg rouka_02,0
 bg kyou_02,0
@@ -665,22 +669,25 @@ bg kyou_02,0
 ld r,mar_def4a,22
 ld r,mar_def2a,80
 
-「さ、さすがに牛乳飲んでる時は可哀想ですよ……。」@
+;「さ、さすがに牛乳飲んでる時は可哀想ですよ……。」@
+`"Y, you know, maybe while she's drinking milk is going too far..."`@`
 
 ld c,hig_w4,22
 
-「……こんな目に遭っても楽しいっての？　なかなか手強いじゃない。@もう、意地でもあの子の泣き顔を見たくなったわ。」\
-
+;「……こんな目に遭っても楽しいっての？　なかなか手強いじゃない。@もう、意地でもあの子の泣き顔を見たくなったわ。」\
+`"...Even after that, she still thinks it's fun? She's pretty tough after all.`@` Oh, she's making me want to see her cry no matter what it takes."`\
 ld c,hig_w6,80
 
-「泣かすッ、/
+;「泣かすッ、/
+`"I'll make you cry,`/
 se1 2
 quakey 4,300
-絶対に泣かしてやるんだからっ！@　学校妖怪序列第３位、踊る彼岸花の名にかけてっ。」@
-
+;絶対に泣かしてやるんだからっ！@　学校妖怪序列第３位、踊る彼岸花の名にかけてっ。」@
+`I'll definitely make you cry!!`@` I bet my title of the Dancing Higanbana, the number three school youkai on it."`@`
 ld r,mar_def3a,80
 
-「そんなことに名をかけないで下さい……。」\
+;「そんなことに名をかけないで下さい……。」\
+`"Please don't bet your name on that..."`\
 
 bg white,23
 
@@ -689,21 +696,28 @@ me1 31
 bg "bmp\background\school\Air_02.bmp",0
 print 22
 
-　給食の後は楽しい昼休み。@学校で一番楽しい時間だ。@
-　男子たちが一斉に教室を飛び出していく。@こんな天気のいい日に校庭を元気一杯に走り回ったら、さぞや楽しいだろう。@
+;　給食の後は楽しい昼休み。@学校で一番楽しい時間だ。@
+`　After lunch was a fun afternoon break.`@` It's the most fun time at school.`@`
+;　男子たちが一斉に教室を飛び出していく。@こんな天気のいい日に校庭を元気一杯に走り回ったら、さぞや楽しいだろう。@
+`　The boys all dashed out of their classrooms at once.`@` Running around the court yard brimming with energy on a day with weather like this, would surely be fun.`@`
 br
-　私も友達と一緒に教室を飛び出す。\
+;　私も友達と一緒に教室を飛び出す。\
+`　I also dashed out of the class with my friends.`\
 
 se1v 82,90
 bg rouka_02,1
 quakex 3,300
 
-「早く行こ行こ…！@　また男子にボールを全部取られちゃうよ…！」@
-「遅れると、空気の抜けたボールしか残らないもんねー。」@
-「どこで遊ぶ？！」@
-「百葉箱のところは？　あそこの芝生は気持ちいいよねー！」\
-
-　数人で集まって、温かい芝生の上でボールが一つあれば。@それだけで、昼休みのひと時は虹色に輝くのだ。\
+;「早く行こ行こ…！@　また男子にボールを全部取られちゃうよ…！」@
+`"Hurry, let's go, let's go...!`@` The boys are gonna take all the balls from us again...!"`@`
+;「遅れると、空気の抜けたボールしか残らないもんねー。」@
+`"If we're late, only the flat balls will be left~"`@`
+;「どこで遊ぶ？！」@
+`"Where should we play?!"`@`
+;「百葉箱のところは？　あそこの芝生は気持ちいいよねー！」\
+`"Over by the Stevenson Screen? The grass over there feels so good~!"`\
+;　数人で集まって、温かい芝生の上でボールが一つあれば。@それだけで、昼休みのひと時は虹色に輝くのだ。\
+`　If you get a bunch of people together and you have a ball and the warm grass.`@` Just by that, the afternoon break glittered vividly.`\
 
 bg white,23
 bg k_kaidan_01,23
@@ -731,22 +745,29 @@ bg black,22
 
 
 
-　あッ。/
+;　あッ。/
+`　Ah./
 se3v 13,50
 quakey 2,200
-@
+`@`
 br
-　興奮気味に走っていた為、前方が不注意だった。@
-　下駄箱の陰にいた子に、激しく左肩をぶつけてしまう。@
-　……多分、上級生の女子だろう。@髪が長くてとても綺麗なのが印象的だった。\
+;　興奮気味に走っていた為、前方が不注意だった。@
+`　Because I was running around excitedly, I wasn't paying attention to what was in front of me.`@`
+;　下駄箱の陰にいた子に、激しく左肩をぶつけてしまう。@
+`　There was a girl hiding by the shoe rack, and I violently slammed into her with my right shoulder.`@`
+;　……多分、上級生の女子だろう。@髪が長くてとても綺麗なのが印象的だった。\
+`　...She was, probably an upperclassman.`@` Her hair was long, beautiful, and incredibly impressive.`\
 
 me1 28
 
 bg different_spiral_1a,22
-「ごッ、ごめんなさい…？！@　…………あッ……、」@
+;「ごッ、ごめんなさい…？！@　…………あッ……、」@
+`"I, I'm sorry...!!`@` ...Ah..."`@`
 br
-　あまりに勢いよく片方の肩をぶつけたので、私はぐるぐるとコマのように回りながら転んでいく。@
-　あははは、思い切り回した、遊園地のコーヒーカップみたい……。\
+;　あまりに勢いよく片方の肩をぶつけたので、私はぐるぐるとコマのように回りながら転んでいく。@
+`　I moved the side of my busted up shoulder too much, and started spinning round and round like something out of a comic, then fell over.`@`
+;　あははは、思い切り回した、遊園地のコーヒーカップみたい……。\
+`　Ahahaha, I'm spinning like crazy, like a tea cup at an amusement park...`\
 
 ;se1 35
 se1 12
@@ -758,15 +779,19 @@ mono 2
 mcbg 22
 
 
-　そんな気持ちは、激しい痛みの衝撃で粉々に吹き飛んだ。@
-　まるで斧の分厚い刃を額にざっくりと打ち付けられたような激痛。\
+;　そんな気持ちは、激しい痛みの衝撃で粉々に吹き飛んだ。@
+`　That feeling, was likely coming in small pieces due to the shock of that intense pain.`@`
+;　まるで斧の分厚い刃を額にざっくりと打ち付けられたような激痛。\
+`　It was a pain so sharp that it felt like the bulky blade of an axe was splitting apart my forehead.`\
 
 ;bg different_spiral_1b,22
 
 me2 16
 
-　転んで下駄箱の角に、激しく打ち付けたに違いない。@
-　私は下駄箱に寄りかかりながら、……ずるりとしゃがみ込む。\
+;　転んで下駄箱の角に、激しく打ち付けたに違いない。@
+`　I must've hit myself hard against the corner of the shoe rack.`@`
+;　私は下駄箱に寄りかかりながら、……ずるりとしゃがみ込む。\
+`　While I stopped at the shoe rack, ...I spun around and squatted down.`\
 
 bg black,22
 mono 0
@@ -778,24 +803,34 @@ print 0
 ld c,hig_W1,6
 ld c,hig_W4,80
 
-「……廊下は走っちゃいけないわ。@くすくすくすくす……。」@
+;「……廊下は走っちゃいけないわ。@くすくすくすくす……。」@
+`"...You shouldn't run in the hallways.`@` Teeheeheehee..."`@`
 ;＜彼岸花
-「ご、………ごめん……な……さい…………。」@
+;「ご、………ごめん……な……さい…………。」@
+`"I, ...I'm so...rr...y..."`@`
 br
-　努めて平静を装って笑顔で、私はそう言う。@
-　でも、あまりの痛みと眩暈で、目を開けることさえ出来ない……。\
+;　努めて平静を装って笑顔で、私はそう言う。@
+`　She said this, while putting on a pretend serene smile.`@`
+;　でも、あまりの痛みと眩暈で、目を開けることさえ出来ない……。\
+`　But, because the pain had made me dizzy, I couldn't even open my eyes...`\
 
 lsp 4,":c;bmp\efe\down.bmp",0,0,240
 print 2
 
-「だ、大丈夫ッ？！」@
-「きゃ、きゃーーッ！！@　血、血がすごい出てるよ？！」@
-「………そ、………そ…う………？　………ぅ……く………。」\
+;「だ、大丈夫ッ？！」@
+`"A, Are you okay?!"`@`
+;「きゃ、きゃーーッ！！@　血、血がすごい出てるよ？！」@
+`"Kyaa, kyaaaaaa!!!!`@` That's, that's so much blood!!"`@`
+;「………そ、………そ…う………？　………ぅ……く………。」\
+`"...R, ...rea...lly...? ....u....kkkghh...."`\
 
-　そんな大袈裟な怪我のつもりなんてない。@
-　それより、早くボールを取りに行かないと、……また全部、男子に取られちゃう……。@
+;　そんな大袈裟な怪我のつもりなんてない。@
+`　I didn't mean to get such a terrible injury.`@`
+;　それより、早くボールを取りに行かないと、……また全部、男子に取られちゃう……。@
+`　More importantly, if we don't go and get a ball, ...they'll all be taken by the boys...`@`
 br
-　……私のことはいいから……、みんな早…く……、ボール……、………取って来て………。\
+;　……私のことはいいから……、みんな早…く……、ボール……、………取って来て………。\
+`　...I'm fine, so...., everyone hurr...y...and go...get a ball......`\
 
 bg black,25
 csp 4
@@ -804,56 +839,73 @@ print 25
 E_M1
 se1 13
 
-　…………ぅ、……………ぁぅ………………。@
+;　…………ぅ、……………ぁぅ………………。@
+`　...Ng, ....aghh....`@`
 br
-　きゃーー、しっかりしてーー、先生ぇー、誰か先生を呼んでーー………。@
+;　きゃーー、しっかりしてーー、先生ぇー、誰か先生を呼んでーー………。@
+`　Kyaa~~!!! Hang in there, somebody, somebody call a teacher~~~~.....`@`
 br
-　……………………………………。\
+;　……………………………………。\
+`　...................`\
 
 bg e014,5
 
-　少女は意識を失い、ずるりと姿勢を崩して床に倒れる。@
-　彼女がずるりと額でなぞった下駄箱には、血の帯がべっとりと付いている。@
+;　少女は意識を失い、ずるりと姿勢を崩して床に倒れる。@
+`　She lost her consciousness, and ungracefully her stance collapsed to the floor.`@`
+;　彼女がずるりと額でなぞった下駄箱には、血の帯がべっとりと付いている。@
+`　On the shoe rack that she had clumsily gone over with her forehead, a slash of blood was thickly plastered.`@`
 br
-　それを見て、女子たちが絹を裂くような悲鳴をあげる。\
+;　それを見て、女子たちが絹を裂くような悲鳴をあげる。\
+`　Look at that, the girls let out a blood-curdling scream.`\
 
 bg black,22
 
-　それを聞き付け、生徒たちが集まってくる。@何事かと先生たちが駆けて来る。@
-　その人だかりの輪の中で、……少女は鮮血を零し続けながら、意識を失う。\
+;　それを聞き付け、生徒たちが集まってくる。@何事かと先生たちが駆けて来る。@
+`　Hearing that, the students began to gather near.`@` The teachers, thinking something was wrong, also came dashing.`@`
+;　その人だかりの輪の中で、……少女は鮮血を零し続けながら、意識を失う。\
+`　In the middle of the circled crowd, ...the girl whose fresh blood continued to spill, lost consciousness.`\
 
 se1 83
 ;ld r,hig_def1,0
 ;ld c,mar_def1,3
 
-　その輪を抜けて、平然と歩み去る上級生らしい女子の姿は、ニンゲンたちには見えていないようだった……。\
+;　その輪を抜けて、平然と歩み去る上級生らしい女子の姿は、ニンゲンたちには見えていないようだった……。\
+`　Breaking out from that circle, what looked like the figure of an upperclassman calmly walked. It looked as though the h u m a n s could not see her...`\
 
 bg shoukou_01,22
 
 ld c,mar_i2a,24
 
-「い、いくら何でもやり過ぎですっ！」@
+;「い、いくら何でもやり過ぎですっ！」@
+`"N, no matter how you look at this, this is taking it too far!"`@`
 
 ld r,hig_def2,22
 
-「保健室程度の怪我だからいいじゃない。@命に別状があるわけじゃないし。」\
+;「保健室程度の怪我だからいいじゃない。@命に別状があるわけじゃないし。」\
+`"It's fine, it's just enough of an injury to send her to the nurse's office.`@` It's not like it's life-threatening or anything."`\
 
 ld c,mar_i3a,80
 
-「度合いの問題じゃないですっ、怪我をさせるなんてやり過ぎだって言ってるんですっ。」\
+;「度合いの問題じゃないですっ、怪我をさせるなんてやり過ぎだって言ってるんですっ。」\
+`"It's not a matter of the degree, I'm telling you hurting someone is taking it too far."`\
 
 ld r,hig_w3,80
 
-「……何を甘えてるのよ、毬枝？　私は妖怪よ？@　気に入った生徒を保健室へと引きずり込む、踊る彼岸花。@……その私が気に入ってしまったのよ？@　転んでも遅刻しても、忘れ物をしても抓られても、@何をやっても楽しい楽しいと言ってしまうあの子を、私は何が何でも泣かせてやりたいのよ。@くす、くすくすくすくすくすくすくす。」\
+;「……何を甘えてるのよ、毬枝？　私は妖怪よ？@　気に入った生徒を保健室へと引きずり込む、踊る彼岸花。@……その私が気に入ってしまったのよ？@　転んでも遅刻しても、忘れ物をしても抓られても、@何をやっても楽しい楽しいと言ってしまうあの子を、私は何が何でも泣かせてやりたいのよ。@くす、くすくすくすくすくすくすくす。」\
+`"...Why're you being so spoiled, Marie? I'm a youkai, aren't I?`@` I'm the Dancing Higanbana, that drags the students I take interest in to the infirmary.`@` ...She's someone I took interest in, right?`@` Even if she falls down, or she's late, she forgets something, or gets pinched,`@` no matter what happens to her she just keeps saying it's so much fun, and I wanted to make her cry no matter what it took.`@` Teehee, Teeheeheeheeheehee."`\
 
 ;bg black,22
 ;wait 1000
 bg rouka_02,22
 
-　少女は保健室へ担ぎ込まれていく。@
+;　少女は保健室へ担ぎ込まれていく。@
+`　The girl was carried to the school infirmary.`@`
+
 br
-　心配そうに友人たちも付いてくるが、保健室の中までは入れてもらえない。@
-　無事を祈り、すごすごと引き上げる他なかった。\
+;　心配そうに友人たちも付いてくるが、保健室の中までは入れてもらえない。@
+`　Although her worried friends stuck by her side, they were not allowed in the infirmary.`@`
+;　無事を祈り、すごすごと引き上げる他なかった。\
+`　There was nothing to do, but pray for her well-being and dejectedly return home.`\
 
 bg black,22
 fede 0,2000
@@ -863,14 +915,18 @@ bg hoken_01,22
 
 me1v 11,90
 
-　保健室の中では、保健の先生たちが容態を見ている。@
+;　保健室の中では、保健の先生たちが容態を見ている。@
+`　In the infirmary, the nurses were watching her condition.`@`
 br
-「どうですか、先生っ。@救急車を呼んだ方がいいですか…。」\
+;「どうですか、先生っ。@救急車を呼んだ方がいいですか…。」\
+"What do you think, nurse?`@` Would it be best for us to call an ambulance...?"`\
 
 ld c,HOK_def4,22
 
-「大丈夫っ。@額を綺麗に切っちゃっただけでしょ。」@
-「で、でも、意識を失ってますし……。」\
+;「大丈夫っ。@額を綺麗に切っちゃっただけでしょ。」@
+`"It's fine.`@` She cut her forehead quite cleanly."`@`
+;「で、でも、意識を失ってますし……。」\
+`"B, but, she's been passing out..."`\
 
 ld c,HOK_def2,80
 
