@@ -1017,42 +1017,58 @@ br
 ;　………やっぱり、……今日はツイてないや……。\
 `　...Seriously, ...today just isn't so great...`\
 '　保健室のベッドで寝る夢が叶ったと、精一杯プラス思考で考えていた少女も、@……重なる不運に、さすがに落胆する。\
-`　
+`　The girl who was trying with all her might to think of her dream of sleeping in the infirmary bed as a plus,`@` ...as could be expected with all these misfortunes piling up, was getting discouraged.`\
 
 bg hoken_01,22
 
-「…………はぁ…………。」@
-「起きた？」@
+;「…………はぁ…………。」@
+`"....Sigh...."`@`
+;「起きた？」@
+`"Oh, you're awake?"`@`
 br
-　保健の先生が気付く。\
+;　保健の先生が気付く。\
+`　The nurse noticed.`\
 
 ;「……………はぃ……。」@
+`"....Yes..."`@`
 
 ld l,HOK_def3,23
 
-「具合はどう？　頭痛とかある？」@
-「……全然へっちゃらです。」@
+;「具合はどう？　頭痛とかある？」@
+`"How do you feel? Do you have a headache or anything?"`@`
+;「……全然へっちゃらです。」@
+`"...Nothing to be concerned about."`@`
 
 ld l,HOK_def2,80
 
-「ふむ。@判決っ、もうちょっと寝てなさい。」\
+;「ふむ。@判決っ、もうちょっと寝てなさい。」\
+`"Hmm.`@` By my decree, you should sleep a bit longer."`\
 
-　保健の先生の表情は明るい。@大怪我じゃないことがわかって嬉しかった。@
+;　保健の先生の表情は明るい。@大怪我じゃないことがわかって嬉しかった。@
+`　The nurse had a bright expression.`@` She was glad that it wasn't a serious injury.`@`
+
 br
-　……なら、すぐにも授業に戻りたい。@
-　今日という日の５時間目という授業は、今日にしかない。@
-　その、たった一度の今日という日の授業を、こんなところで寝て過ごしたくなんかない…。\
+;　……なら、すぐにも授業に戻りたい。@
+`　...Then, I just want to go back to class soon.`@`
+;　今日という日の５時間目という授業は、今日にしかない。@
+`　The only day I can attend today's fifth period class is today.`@`
+;　その、たった一度の今日という日の授業を、こんなところで寝て過ごしたくなんかない…。\
+`　I don't want to waste my one chance of going to today's fifth period class sleeping in a place like this...`\
 
 bg black,22
 se1 82
 bg hoken_04,24
 
-「大丈夫ですか？！@　廊下を走ったりするからこういうことになるんですよ、もうっ。」@
+;「大丈夫ですか？！@　廊下を走ったりするからこういうことになるんですよ、もうっ。」@
+`"Are you okay?!`@` It's because you were running in the halls that you wound up like this, really."`@`
 br
-　担任の先生がやってきて、怒られた。@
-　保健の先生が、まぁまぁと庇ってくれる。\
+;　担任の先生がやってきて、怒られた。@
+`　My homeroom teacher came and got mad at me.`@`
+;　保健の先生が、まぁまぁと庇ってくれる。\
+`　The school nurse, saying 'there, there', was standing up for me.`\
 
-「走ってはいけないということは、本人もガツンと痛い思いをして勉強したでしょうから。@ね？@　もう走ったりしないわよね～？」@
+;「走ってはいけないということは、本人もガツンと痛い思いをして勉強したでしょうから。@ね？@　もう走ったりしないわよね～？」@
+`
 「………はい。」@
 br
 　私が頷き返すと、先生たちも安堵の微笑みを浮かべる。\
