@@ -1702,7 +1702,7 @@ br
 `　The boys shout with rage.`@
 br
 ;「あいつ、やっぱり一回本気でシメようぜ。@あれだけやったのに全然反省してねぇじゃん。」\
-`"That bastard, I'm gonna wring his neck. `@`For what he did, I don't need to think twice."`\
+`"That bastard, I'm gonna wring his neck. `@`Even after doing what he did that one time, he still isn't sorry at all!"`\
 
 bg black,23
 bg ongaku_01,23
@@ -2661,50 +2661,65 @@ br
 ;　今や、僕にとって、@……いや、僕たちにとって、この学校自体が巨大なうさぎ小屋なのだから。\
 `　Because now, for me, `@`...No, for us, the school itself had become one giant rabbit cage.`\
 
-「二瓶には気の毒と思うが、……早く、うさぎ小屋がなくなってくれた方が、@ショックを受けた児童が、忘れてくれるのも早くていいだろうと思う。」\
+;「二瓶には気の毒と思うが、……早く、うさぎ小屋がなくなってくれた方が、@ショックを受けた児童が、忘れてくれるのも早くていいだろうと思う。」\
+`"I know it's unfortunate for you Nihei, ...but I think the sooner we get rid of the rabbit pens, `@`the sooner the shocked children can forget what happened."`\
 
 ld c,HIK_Def4,80
 
-「………あんな無残に殺されてたんですからね。」@
+;「………あんな無残に殺されてたんですからね。」@
+`"...Because they were killed so terribly like that."`@
 
-「まぁ、それもあるんだが。@…………………何て言うのかなぁ。@……先生たちも、うまく説明が出来ないんだよ。」\
+;「まぁ、それもあるんだが。@…………………何て言うのかなぁ。@……先生たちも、うまく説明が出来ないんだよ。」\
+`"Well, that may be, `@`......but how should I put it. `@`...We teachers can't really explain it well either you see."`\
 
 ld c,HIK_Def1,80
 
-「説明って、何の話ですか…？」@
+;「説明って、何の話ですか…？」@
+`"Explanation? What are you talking about...?"`@
 br
-　先生は頭の後ろで両腕を組み、う～んと唸りながら天井を見上げる。\
+;　先生は頭の後ろで両腕を組み、う～んと唸りながら天井を見上げる。\
+`　His teacher put his arms behind his head, groaned, and stared up at the ceiling.`\
 
 bg shokuin_04,22
 
 me1v 11,90
 
-「………低学年の子たちにさ。@各担任が質問攻めにされてるらしいんだよ。」\
+;「………低学年の子たちにさ。@各担任が質問攻めにされてるらしいんだよ。」\
+`"...The students in the lower grades, well. `@`They're flooding their teachers with questions."`\
 ;ld l,HIK_Def1,80
-「犯人は誰かって…？」@
+;「犯人は誰かって…？」@
+`"Like who the culprit is...?"`@
 
-「いや違う。@……どうして、うさぎをあんな無残に殺したのか。@……まだ幼い子たちには、それがまったく理解できないんだ。@……つまるところ、“人間の悪意”ってヤツを説明できないんだ。」\
+;「いや違う。@……どうして、うさぎをあんな無残に殺したのか。@……まだ幼い子たちには、それがまったく理解できないんだ。@……つまるところ、“人間の悪意”ってヤツを説明できないんだ。」\
+`"No, that's not it. `@`...But why the rabbits were killed like so monstrously like that. `@`...Children that young can't possibly understand why it happened. `@`...In other words, we can't explain to them what 'men of evil intent' are."`\
 
 ;ld l,HIK_Def1,80
 
 bg black,22
 
-「人間の、……悪意？」\
+;「人間の、……悪意？」\
+`"Men of... evil intent?"`\
 
-「俺たち教師は、人間には生まれついてのやさしい心があり、お互い助け合って生きてるんだって、@ずっと繰り返し説いてきたんだ。@それを信じてきた幼い子たちにとって、@………うさぎを惨たらしく殺す“悪意”というものが、まったく理解できないんだ。」\
+;「俺たち教師は、人間には生まれついてのやさしい心があり、お互い助け合って生きてるんだって、@ずっと繰り返し説いてきたんだ。@それを信じてきた幼い子たちにとって、@………うさぎを惨たらしく殺す“悪意”というものが、まったく理解できないんだ。」\
+`"It's said we teachers were born with kind hearts as human beings, and we live and help one another. `@`That has been said over and over for ages. `@`To those very young children who have come to believe in that... `@`...they can't understand this "evil intent" that led someone to gruesomely murder rabbits."`\
 
 ;ld l,HIK_Def1,80
 
-「………………………。」@
-「誰が、どうしてこんな酷いことをしたんですか。@どうしてこんな惨たらしいことが出来るんですか。@……そう聞かれると、先生たちは何も答えることが出来ない。」\
+;「………………………。」@
+`"........."`@
+;「誰が、どうしてこんな酷いことをしたんですか。@どうしてこんな惨たらしいことが出来るんですか。@……そう聞かれると、先生たちは何も答えることが出来ない。」\
+`"Who, and why would someone do something this cruel? `@`How can someone do something so brutal? `@`...When they ask us these questions, even we teachers can't answer them."`\
 
 bg shokuin_03,22
 
-　先生にすら答えられない、……悪意という不条理。@
+;　先生にすら答えられない、……悪意という不条理。@
+`　The irrationality of evil intent... something not even the teachers can answer.`@
 br
-　家族の愛情と、友達との友情に囲まれて、健やかに日々を過ごしてきた幼い子たちにとって。@………不条理なる“悪意”という毒は、あまりに早過ぎるのだ。\
+;　家族の愛情と、友達との友情に囲まれて、健やかに日々を過ごしてきた幼い子たちにとって。@………不条理なる“悪意”という毒は、あまりに早過ぎるのだ。\
+`　For young children passing their days happily surrounded by the love of their parents and the affection of their friends, `@`...it's far too early for them to conceptualize the irrationality of 'evil intent'.`\
 
-「……世の中、良い人間ばかりじゃない。@悪い人間だっているし、……まったく理解も説明もできない、不条理な悪意だってたくさんある。@………大人になったって理解できないんだ。@それを、唐突に突きつけられた。@……子供たちは、理解不能な恐怖に直面し、大勢が酷いショック状態に陥ってるんだよ。@………俺たちは無力だ。@“人間の悪意”というものすら、……子供たちに説明できない。」\
+;「……世の中、良い人間ばかりじゃない。@悪い人間だっているし、……まったく理解も説明もできない、不条理な悪意だってたくさんある。@………大人になったって理解できないんだ。@それを、唐突に突きつけられた。@……子供たちは、理解不能な恐怖に直面し、大勢が酷いショック状態に陥ってるんだよ。@………俺たちは無力だ。@“人間の悪意”というものすら、……子供たちに説明できない。」\
+`"...This world isn't just full of good people. `@`There are bad people too, ...and there's a lot of irrational evil intent that can't be explained nor understood. `@`...Even after becoming adults, they won't understand. `@`...And they have this thrust upon them. `@`...These children have a confrontation with something that is incomprehensibly terrifying, and many collapse from the terrible mental shock. `@`...We're powerless. `@`...We can't even explain... "evil intent"... to these kids."`\
 
 ;bg black,22
 ;mono 2
@@ -2712,107 +2727,145 @@ br
 
 ld r,HIK_Def1,22
 
-　ひかるはなんだか呆れてしまった。@
+;　ひかるはなんだか呆れてしまった。@
+`　Hikaru was somewhat amazed.`@
 br
-　この世が善と悪で出来ているなら、悪意は世界の半分を構成する要素だ。@
-　それを説明できないと公言することは即ち、@世の中の半分すらも理解していないと言うも同然ではないか。\
+;　この世が善と悪で出来ているなら、悪意は世界の半分を構成する要素だ。@
+`　If this world is made of good and evil, then evil intent is a component that makes up half of it.`@
+;　それを説明できないと公言することは即ち、@世の中の半分すらも理解していないと言うも同然ではないか。\
+`　Doesn't being unable to explain that basically mean --`@` being unable to understand half the world?`\
 
 ;bg Different_spiral_1a,22
 ld r,HIK_Def2,80
 
-　教室には、理不尽な悪意なんて、いくらでも渦巻いている。@
-　損得勘定などで説明できない、純粋かつ単純で、そして理不尽な、悪意。@
+;　教室には、理不尽な悪意なんて、いくらでも渦巻いている。@
+`　Countless unreasonable evil intentions whirled around inside the classrooms.`@ 
+;　損得勘定などで説明できない、純粋かつ単純で、そして理不尽な、悪意。@
+`　An outsider can't understand this pure, simple, and unreasonable -- evil intent.`@
 br
-　そんなものも理解できないで、よくも教壇で担任面が出来たものだ。\
+;　そんなものも理解できないで、よくも教壇で担任面が出来たものだ。\
+`　Unable to understand that, how dare they put thesmelves on the lecturne.`\
 
 bg black,23
 bg shokuin_02,23
 
-「……まぁ、うさぎ小屋の話はこれくらいで、話を変えるが。@………二瓶、お前、もう少し何とかならないのか？」\
+;「……まぁ、うさぎ小屋の話はこれくらいで、話を変えるが。@………二瓶、お前、もう少し何とかならないのか？」\
+`"...Well, that's enough talk about the rabbit cages, I have something else to talk about. `@`...Nihei, did you want to do a little something else?"`\
 
 fede 1,1000
 E_B
 
 ld r,HIK_Def1,22
 
-「……はい？」\
+;「……はい？」\
+`"...Yes?"`\
 
-　唐突に話題が変わり、ついていけない。@……何の話だ？\
+;　唐突に話題が変わり、ついていけない。@……何の話だ？\
+`　I get that we're changing the topic. `@`...But what could it be about?`\
 
-　先生は言い辛そうに頭を掻きながら、曖昧に笑っている。@
-　その仕草を見る限り、……どうもこっちの話題が本題と見える。\
+;　先生は言い辛そうに頭を掻きながら、曖昧に笑っている。@
+`　While scratching his head as if it was hard to talk about, my teacher has a smile that is hard to read.`@
+;　その仕草を見る限り、……どうもこっちの話題が本題と見える。\
+`　Just by looking at that... I could see that this was going to be his real topic of concern.`\
 
 E_A
 bgm1 14
 
-「……その、もう少し、クラスのみんなとうまくやれないか？」\
+;「……その、もう少し、クラスのみんなとうまくやれないか？」\
+`"...Well, would you mind getting along with the rest of your class, a bit more?"`\
 
 ld r,HIK_Def4,80
 
-　……は？@
-　………うまく、やれ？@
-　それって僕に言うことなのか？@　僕を虐めるクラスメートたちじゃなくて？\
+;　……は？@
+`　...Huh?`@
+;　………うまく、やれ？@
+`　......getting, along?`@
+;　それって僕に言うことなのか？@　僕を虐めるクラスメートたちじゃなくて？\
+`　Is that directed at me? `@`Not to my classmates that bully me?`\
 
-「お前、木下のノートを捨てたそうじゃないか。」@
+;「お前、木下のノートを捨てたそうじゃないか。」@
+`"Didn't you throw away Kinoshita's notebook?"`@
 
 ld r,HIK_Def3,80
 
-「…………。」\
+;「…………。」\
+`"......"`\
 
 bg note1,22
 
-「“頭の悪いヤツにこんなの必要ないだろ”って言って、@みんなの前でゴミ箱に捨てたんだって？@　……木下のやつ、泣きながら先生のところに来たんだぞ。」@
+;「“頭の悪いヤツにこんなの必要ないだろ”って言って、@みんなの前でゴミ箱に捨てたんだって？@　……木下のやつ、泣きながら先生のところに来たんだぞ。」@
+`"I heard you said, "someone this stupid doesn't need something like this," `@`and threw it in the garbage in front of everyone? `@`...That Kinoshita kid came to us in tears."`@
 br
-　………………。\
+;　………………。\
+`　......`\
 
-「しかもその後で、自分のノートのコピーをクラス全員に配ったそうじゃないか。@『ノートって言うのはこうやってまとめるんだ。@良かったら参考にしろよ』って言って。」\
+;「しかもその後で、自分のノートのコピーをクラス全員に配ったそうじゃないか。@『ノートって言うのはこうやってまとめるんだ。@良かったら参考にしろよ』って言って。」\
+`"Furthermore, after that, didn't you distribute copies of your notes to everyone in class? `@`Saying 'Notes should be done like this. `@`If you want, use them for reference.'"`\
 
 bg black,22
 
-　……先生は何を言ってるのだろうか。@
+;　……先生は何を言ってるのだろうか。@
+`　...What is he trying to say I wonder?`@
 br
-　それじゃまるで、僕が悪い奴みたいな言い方じゃないか。\
+;　それじゃまるで、僕が悪い奴みたいな言い方じゃないか。\
+`　It seems almost like he's making me sound like a bad guy.`\
 
 mono 1
 bg kyou_01,22
 
-　確かにひかるは木下裕子のノートを捨てた。@
+;　確かにひかるは木下裕子のノートを捨てた。@
+`　I really did throw away Yuuko Kinoshita's notebook.`@
 br
-　でもそれは、裕子が本当に勉強ができない馬鹿女で、@効率の良いノートの取り方を全く分かっていなかったからだ。\
+;　でもそれは、裕子が本当に勉強ができない馬鹿女で、@効率の良いノートの取り方を全く分かっていなかったからだ。\
+`　But that was because Yuuko was a stupid woman who couldn't study, `@`and because she didn't understand how to take efficient notes at all.`\
 
-　黒板に書かれたことの断片、教科書に太字で記された単語をただ書き連ねただけの、らくがき帳のようなお粗末さ。@あんなもの捨ててしまった方がよっぽど良い。@
+;　黒板に書かれたことの断片、教科書に太字で記された単語をただ書き連ねただけの、らくがき帳のようなお粗末さ。@あんなもの捨ててしまった方がよっぽど良い。@
+`　Making a list of snippets written on the blackboard, and just making a list of bold vocabulary written in the textbook, it was like a scribblebook and crude. `@`It was much better to throw that crap away.`@
 br
-　そう判断して、厚意からひかるは裕子のノートを捨てたのだ。\
+;　そう判断して、厚意からひかるは裕子のノートを捨てたのだ。\
+`　Judging it to be so, Hikaru threw away Yuuko's notebook as if doing her a favor.`\
 
-　もちろん、いくら厚意からとは言え、@ノートを捨てただけなら見ようによってはひかるが責められても仕方ないかもしれない。\
+;　もちろん、いくら厚意からとは言え、@ノートを捨てただけなら見ようによってはひかるが責められても仕方ないかもしれない。\
+`　Of course, no matter how kind it might have been, `@`Hikaru had no choice but to be condemned based on just throwing a notebook away.`\
 
-　だから、その後できちんと裕子のことを考え、@自分のノートのコピーを、模範的資料として提供したのだ。@
+;　だから、その後できちんと裕子のことを考え、@自分のノートのコピーを、模範的資料として提供したのだ。@
+`　Because after that he thought clearly about Yuuko, `@`copied his notes, and brought them as example materials.`@
 br
-　しかも、良い機会だからと裕子だけではなくクラスメート全員分をコピーして。\
+;　しかも、良い機会だからと裕子だけではなくクラスメート全員分をコピーして。\
+`　Furthermore, since it was a good opportunity, he didn't do it just for Yuuko, but made copies for the entire class.`\
 
 bg black,22
 bg kyou_03,22
 
-　うちは他のクラスの連中から駄目クラスと言われている。@他のクラスに比べて成績が極端に悪いからだ。@
+;　うちは他のクラスの連中から駄目クラスと言われている。@他のクラスに比べて成績が極端に悪いからだ。@
+`　Our classroom is called the worthless class by other classrooms. `@`Because compared to other classes, our grades are extremely bad.`@
 br
-　学年でもトップクラスのひかるがいるにも関わらず、クラス平均点は低迷している。\
+;　学年でもトップクラスのひかるがいるにも関わらず、クラス平均点は低迷している。\
+`　Regardless of being the top of his age grade in test scores, the class average was slumping.`\
 
-　ひかるはいつもそれを腹立たしいと思っていた。@だからクラスのために、みんなのために良かれと思って奮起してやったことなのだ。\
+;　ひかるはいつもそれを腹立たしいと思っていた。@だからクラスのために、みんなのために良かれと思って奮起してやったことなのだ。\
+`　Hikaru always thought that was annoying. `@`So this was something he was driven to do for the sake of the class and thinking for the good of everyone.`\
 
-　それなのにひかるは糾弾された。@“調子に乗ってる”と。@
+;　それなのにひかるは糾弾された。@“調子に乗ってる”と。@
+`　Even so, Hikaru was condemned. `@`Told he was "full of himself."`@
 br
-　ひかるの脳裏に、先日殺害したクラスメートの一人が言っていたことが思い出される。\
+;　ひかるの脳裏に、先日殺害したクラスメートの一人が言っていたことが思い出される。\
+`　In Hikaru's mind, he remembered something one of his classmates he murdered the other day said.`\
 
 bg black,22
 ;bg kyou_02,24
 
-『あいつ、やっぱり一回本気でシメようぜ。@あれだけやったのに全然反省してねぇじゃん。』@
+;『あいつ、やっぱり一回本気でシメようぜ。@あれだけやったのに全然反省してねぇじゃん。』@
+`""That bastard, I'm gonna wring his neck. `@`Even after doing what he did that one time, he still isn't sorry at all!""`\
 br
-　反省って何だ？\
+;　反省って何だ？\
+`　What did he mean by 'sorry'?`\
 
-　僕が木下裕子のノートを捨てたのは厚意だ。@
+;　僕が木下裕子のノートを捨てたのは厚意だ。@
+`　It was kind for me to throw away Yuuko Kinoshita's notes.`@
 br
-　でも、お前たちが僕のノートを捨てたのはただの嫌がらせ、虐めだ。@そんな理不尽なことをされて一体何を反省しろって言うんだ？\
+;　でも、お前たちが僕のノートを捨てたのはただの嫌がらせ、虐めだ。@そんな理不尽なことをされて一体何を反省しろって言うんだ？\
+`　But since you people don't like me throwing your notes away, it's bullying. `@`After doing something unreasonable like that, what the hell are you telling me to be sorry about?`\
 
 bg black,22
 mono 0
@@ -2824,13 +2877,17 @@ bg shokuin_03,22
 
 me1v 11,90
 
-　先生は諭すような口調で尚も続ける。\
+;　先生は諭すような口調で尚も続ける。\
+`　His teacher continued further with lecturing tone.`\
 
-「確かにお前は成績がいい。@だけどな、本当に頭がいいやつってのは、それを他の子にひけらかしたりしないもんだ。@……先生はそう思うぞ。」\
+;「確かにお前は成績がいい。@だけどな、本当に頭がいいやつってのは、それを他の子にひけらかしたりしないもんだ。@……先生はそう思うぞ。」\
+`"It's true you have good grades. `@`But, the smart ones don't do things like flaunting it in front of other students. `@`...That's what I think."`\
 
-　ひかるの頭は急速に冷めていった。@
+;　ひかるの頭は急速に冷めていった。@
+`　Hikaru's head suddenly froze over.`@
 br
-　本当に先生は……、こいつは何を言ってるんだろうか？\
+;　本当に先生は……、こいつは何を言ってるんだろうか？\
+`　What is my teacher..., this guy really talking about?`\
 
 E_A
 
@@ -2841,13 +2898,17 @@ ld c,HIK_i1,22
 
 bgm1 11
 
-　お前がどう思うとか、そんなのどうでもいいんだよ。@そもそもお前が無能だからあんな馬鹿ばっかりのクラスになったんだろうが。@
+;　お前がどう思うとか、そんなのどうでもいいんだよ。@そもそもお前が無能だからあんな馬鹿ばっかりのクラスになったんだろうが。@
+`　What you think? I don't really give a shit. `@`If you weren't so incompotent in the first place this class wouldn't have become so stupid right?`@
 br
-　それにお前、あれから僕がどんな目に遭ってきたか知ってるのか？@　クラスの中で行われているいじめに何一つ気付きもしなかったくせに。@見ようともしなかったくせに。\
+;　それにお前、あれから僕がどんな目に遭ってきたか知ってるのか？@　クラスの中で行われているいじめに何一つ気付きもしなかったくせに。@見ようともしなかったくせに。\
+`　And since then, do you even know what I've been through? `@`Despite not noticing those incidents of bullying in class at all. `@`Despite not even looking.`\
 
-　なのに、泣きつかれた木下裕子の言い分だけを聞いて、状況を把握した気になっている。@何て浅はかなんだこいつは。@
+;　なのに、泣きつかれた木下裕子の言い分だけを聞いて、状況を把握した気になっている。@何て浅はかなんだこいつは。@
+`　Furthermore, just by listening to Yuuko Kinoshita's wailing, he feels he understand the situation. `@`What a stupid bastard.`@
 br
-　さっきこいつは“子供に悪意を説明できない”と言った。@その発言こそがこいつの無能を証明している。\
+;　さっきこいつは“子供に悪意を説明できない”と言った。@その発言こそがこいつの無能を証明している。\
+`　This guy just said he "couldn't explain evil intentions to kids". `@`Those words are just proof of this guy's incompotence.`\
 
 cl c,0
 mld c,HIK_w2a,22
@@ -2856,7 +2917,7 @@ mld c,HIK_w2a,22
 `　Who do you think killed those rabbits?`@` Some degenerate in town?`@` Some college student who snaps easily under stress?`@`
 br
 ;　違う！@　僕だ！@　目の前にいる子供だっ！！@　そして僕をそこまで追いつめたのもみんな子供だっ！！！\
-`　You're wrong!`@` It's me!`@` The kid standing right in front of your eyes!!`@` And the ones who cornered me into doing this were children too!!!`\
+`　You're wrong!`@` It's me!`@` The kid standing right in front of your eyes!!`@` And the ones who cornered me into doing this were kids too!!!`\
 
 ;　子供は悪意なんてとっくに知ってる。@
 `　Children already understand malice.`@`
@@ -2872,7 +2933,7 @@ ld c,HIK_def2,0
 bg shokuin_02,22
 
 ;「………先生は、ほとんど毎日お前がうさぎ小屋に通ってたのを知ってる。@飼育委員だからってそうそうできることじゃない。@ずっと偉いなって思ってたんだ。@……俺は、お前が本当はやさしい子だってことを知ってる。@だからな……？」\
-`"...I knew that you went almost every day to the rabbit pen.`@` Since you were a member of the animal rearing club, it couldn't just be that you said, 'Yeah, sure, I'll do it.'`@` I always thought you were so admirable.`@` I knew you actually were a kind person.`@` Therefore...."`\
+`"...I knew that you went almost every day to the rabbit pen.`@` Since you were a member of the animal raising committee, it couldn't just be that you said, 'Yeah, sure, I'll do it.'`@` I always thought you were so admirable.`@` I knew you actually were a kind person.`@` You know that?...."`\
 
 　ひかるは思わず笑いそうになる。@
 `　Hikaru just about laughed.`@`
@@ -2901,10 +2962,10 @@ br
 ld c,HIK_Def2,80
 
 ;「…………はい。@がんばってみます。@色々すみませんでした。」@
-`"...Yes.`@` I'll do my best.`@` My apologies."`@`
+`"...Yes.`@` I'll try my best.`@` I'm sorry for a lot of things."`@`
 br
 ;　ひかるの全く心のこもってない返事に、それでも無能教師は満面の笑みを浮かべた。\
-`　Hikaru's entirely half-hearted response, still elicited a broad grin from the incompetent professor.`\
+`　Hikaru's entirely half-hearted response, still elicited a broad grin from the incompetent teacher.`\
 
 quakey 1,100
 
@@ -2948,7 +3009,7 @@ bgm1 10
 quakey 1,100
 
 ;　無能教師ッ、無能教師ッ、無能教師ッ、無能教師！！！\
-`　That incompetent, inept, clumsy dumbass of a professor!!!`\
+`　That incompetent, inept, clumsy dumbass of a teacher!!!`\
 
 ;　あんな無能が担任だから、……うちのクラスは落ち零れ扱い！@　僕が理不尽ないじめを受けてるのに気付きもせずッ。@なのに、泣き言をいう女子にだけは耳を貸して僕に説教までするッ！！\
 `　It's because that simpleminded dope is our homeroom teacher...that our class is falling behind!`@` He didn't even realize that I was meaninglessly being tormented...!`@` Yet he'd listen to some girl complain and go so far as to lecture me...!!!`\ 
@@ -2999,7 +3060,7 @@ cl r,0
 ld c,HAM_Def3,24
 
 ;「音楽室の中でなら。@誰だってうさぎにしてあげるよ。@でも、それ以外の場所では、僕のカスタネットを聞かせたくないね。@夜の音楽室に拘るのが、僕のポリシーなんだ。」\
-`"If they're in the music room.`@` I can turn anyone into a rabbit.`@` But, in any other location, people won't want to listen to my castanets.`@` It's my policy to be connected with the music room, at night."`\
+`"If they're in the music room.`@` I can turn anyone into a rabbit.`@` But, in any other location, people won't want to listen to my castanets.`@` It's my policy to be connected with the music room at night."`\
 
 bg black,22
 
@@ -3014,7 +3075,7 @@ csp -1
 ;「それで、あいつを、……音楽室へ連れ込めば……。」@
 `"Then, if I, ...bring him to the music room..."`@`
 ;「『ハメルンのカスタネット』の怪談、再びというわけさ。@……君の望む相手を、何人でも何十人でも、うさぎに変えてあげるよ。」\
-`"`Then the story of 'Hameln's Castanets' shall repeat.`@` ...I will turn any tens of hundreds of your enemies into rabbits if it is your desire."`\
+`"`Then the story of 'Hameln's Castanets' shall repeat once again.`@` ...I will turn any tens of hundreds of your enemies into rabbits if it is your desire."`\
 
 bg black,22
 
@@ -3022,28 +3083,35 @@ bg black,22
 `　...Hikaru started thinking.`@`
 br
 ;　夕陽が沈むまではまだしばらく時間がある。@夜まで待つのはいいとして、はたして井俣をうまく音楽室に誘い込むことができるだろうか。\
-`　It would be some time until the sun would set.`@` As long as he was okay waiting until night, he could easily entice Inomata into the music room.`\
+`　It would be some time until the sun would set.`@` As long as Imata was staying until night, Hikaru could easily entice him into the music room.`\
 
 
 lsp bgsp,":a;bmp\background\efe\red_waku.bmp",0,0
 bg shokuin_02,22
 bgcopy
 csp -1
-　この職員室からあそこまではかなり離れているし、@夜に音楽室に呼び出すと言うのも何とも不自然だ。@
+;　この職員室からあそこまではかなり離れているし、@夜に音楽室に呼び出すと言うのも何とも不自然だ。@
+`　It's pretty far removed from that staff room until here, `@`and calling him to the music room at night would be quite unnatural.`@
 br
-　真っ暗な時間になっても校内にいれば、早く帰りなさいと言われるのがせいぜいだ。\
+;　真っ暗な時間になっても校内にいれば、早く帰りなさいと言われるのがせいぜいだ。\
+`　At worst he would be told to hurry home for being in school when it's pitch black out.`\
 
-　ハメルンは、夜の音楽室でしか仕事をするつもりはない。@
+;　ハメルンは、夜の音楽室でしか仕事をするつもりはない。@
+`　Hameln has no intention of doing his work anywhere but in the music room.`@
 br
-　どうやって犠牲者を音楽室に……。@
-　恐らく、職員室に篭り切りで日誌でも書いてるだろうあの無能教師を、どうやって音楽室に……。\
+;　どうやって犠牲者を音楽室に……。@
+`　So how would I lure my victim into the music room...`@
+;　恐らく、職員室に篭り切りで日誌でも書いてるだろうあの無能教師を、どうやって音楽室に……。\
+`　I wonder, how would I lure that incompetent teacher secluded in the staff room probably writing logs -- into the music room...`\
 
 bg white,1
 bg black,22
 
-　しかし、僕は賢い。@
+;　しかし、僕は賢い。@
+`　Oh I'm clever.`@
 br
-　……職員室に居るだろう無能教師を、@……ハメルンのポリシーとやらを破らずに、……如何にうさぎに変えてやるか。@それを閃く。\
+;　……職員室に居るだろう無能教師を、@……ハメルンのポリシーとやらを破らずに、……如何にうさぎに変えてやるか。@それを閃く。\
+`　...Without breaking Hameln's policy, `@`how can I turn that teacher in the staff room into a rabbit? `@`An idea flashed into my mind.`\
 
 bg shokuin_01,0
 ld l,HIK_w1,0
@@ -3051,16 +3119,20 @@ ld r,HAM_Def2,22
 ld r,HAM_Def5,80
 quakey 2,200
 
-　ハメルンにそれを話すと、彼は愉快そうに笑い声をあげた。\
+;　ハメルンにそれを話すと、彼は愉快そうに笑い声をあげた。\
+`　I told Hameln my idea, and he let out a happy voice.`\
 
 ld r,HAM_Def4,80
 
-「ははははは。@君は実に面白いことを思い付くね。@……なるほど、それならば、僕も力を貸さないわけには行かないようだ。@……やっぱり僕のパートナーに君を選んで正解だったよ。@ひかる君は本当に頭が良い。」\
+;「ははははは。@君は実に面白いことを思い付くね。@……なるほど、それならば、僕も力を貸さないわけには行かないようだ。@……やっぱり僕のパートナーに君を選んで正解だったよ。@ひかる君は本当に頭が良い。」\
+`"Hahahaha! `@`You've struck upon a really fun idea. `@`...I see, if you do that, then I'm going to have to lend you my powers. `@`...I knew I was right in choosing you as my partner. `@`You really are a smart one, Hikaru-kun."`\
 
 ld l,HIK_w2,80
 
-　それを聞いてひかるも満足そうに笑う。@
-　そうだよ、僕は本当に頭が良いんだ。\
+;　それを聞いてひかるも満足そうに笑う。@
+`　Hearing that, Hikaru let out a satisfied smile.`@
+;　そうだよ、僕は本当に頭が良いんだ。\
+`　That's right, I really am smart.`\
 
 bg black,2
 
@@ -3079,65 +3151,91 @@ bg gakkou_01u,22
 
 me1v 5,50
 
-　放課後になった。@間もなく夕陽が沈む。@
+;　放課後になった。@間もなく夕陽が沈む。@
+`　It's after school. `@`The sun will set before long.`@
 br
-　図書室が閉まるギリギリまで時間を潰したひかるは、まっすぐ職員室に向かった。\
+;　図書室が閉まるギリギリまで時間を潰したひかるは、まっすぐ職員室に向かった。\
+`　Until about the last minute the library room was about to close, Hikaru headed straight for the staff room.`\
 
 bg rouka_01,22
 
-　夜の学校は、昼とはまったく違って見える。@
+;　夜の学校は、昼とはまったく違って見える。@
+`　The school at night looked completely different than it did in the day.`@
 br
-　明るさとか雰囲気とかそんな程度の違いではなく、まるで建物ごと別の次元に迷い込んでしまったかのようだ。\
+;　明るさとか雰囲気とかそんな程度の違いではなく、まるで建物ごと別の次元に迷い込んでしまったかのようだ。\
+`　It wasn't just the lighting or atmosphere that was different, but it was as if each building had wandered into their own seperate worlds.`\
 
-　そんな薄暗い廊下を、早足で歩いていく。@気持ちが急くのを抑えきれない…。@
-　カツカツ、と反響する自分の足音を聞きながら、ひかるは思い出していた。@
+;　そんな薄暗い廊下を、早足で歩いていく。@気持ちが急くのを抑えきれない…。@
+`　He walks quickly down the dim hallway. `@`He can't hold back his need to hurry...`@
+;　カツカツ、と反響する自分の足音を聞きながら、ひかるは思い出していた。@
+`　As he was listening to the sound of the echos of his own footsteps going tap tap tap, Hikaru remembered.`@
 br
-　……命を奪うに相応しい、覚悟が自分にあるのかどうかを。\
+;　……命を奪うに相応しい、覚悟が自分にあるのかどうかを。\
+`　...Whether or not he was properly prepared to take someone's life.`\
 
 bg black,22
 
-『あなたは、殺す、ということを理解していないんだわ。』@
+;『あなたは、殺す、ということを理解していないんだわ。』@
+`""You don't seem to understand that you are killing.""`@`
 br
-　それは、あの謎の、黒髪の少女の言葉だ。\
+;　それは、あの謎の、黒髪の少女の言葉だ。\
+`　Those were the words of that, strange, raven-haired girl.`\
 
-　僕は今夜、うさぎをまた一匹、殺す。@
+;　僕は今夜、うさぎをまた一匹、殺す。@
+`　Tonight, I will once again kill a single rabbit.`@
 br
-　そして教師が一人、ハメルンの怪談に飲み込まれて、消える。\
+;　そして教師が一人、ハメルンの怪談に飲み込まれて、消える。\
+`　And the teacher will be swalloed by Hameln's ghost story and disappear.`\
 
-　……僕が、ハメルンにあいつをうさぎに変えろと頼んだ。@
+;　……僕が、ハメルンにあいつをうさぎに変えろと頼んだ。@
+`　...I asked Hameln to turn him into a rabbit.`@
 br
-　それは、…………限りなく、あいつを殺せと言ったのと同じことだ。\
+;　それは、…………限りなく、あいつを殺せと言ったのと同じことだ。\
+`　That was... the same as saying 'kill him.'`\
 
 ld r,HIG_w4,22
 
-『……自ら手を下す勇気のない子が、妖怪と怪談を免罪符に、@自分の手は汚れていないんだ…、などと言い出したりね？』\
+;『……自ら手を下す勇気のない子が、妖怪と怪談を免罪符に、@自分の手は汚れていないんだ…、などと言い出したりね？』\
+`""...Someone without the bravery to do things by their own hands can indulge in a ghost story, `@`that way their own hands don't get dirty, ...is also the sort of thing they might say.""`\
 
-　………………………。@
+;　………………………。@
+`　.........`@
 br
-　僕が、臆病者だと言うのか。@
-　殺すことの重みを、理解していないとでも言うのか。\
+;　僕が、臆病者だと言うのか。@
+`　Are you calling me a coward?`@
+;　殺すことの重みを、理解していないとでも言うのか。\
+`　Are you saying I don't know what it means to kill?`\
 
-　あんたはこう言いたいのか。@
+;　あんたはこう言いたいのか。@
+`　Is that what you want to say?`@
 br
-　ニンゲンがニンゲンの命を奪うなら。@……相応の覚悟や、背負うべきものが必要だと。\
+;　ニンゲンがニンゲンの命を奪うなら。@……相応の覚悟や、背負うべきものが必要だと。\
+`　If humans are going to take human lives. `@`...that they need to be properly prepared and should be ready to bear the responsibility?`\
 
 bg black,0
 mld l,HIK_W1,22
 
-　僕は臆病者じゃない。@
+;　僕は臆病者じゃない。@
+`　I'm not a coward.`@
 br
-　僕があいつらを、うさぎをいたぶるように殺すのは、@……あいつらが僕をニンゲン扱いしないのと同じにしたいからだ。@
-　ニンゲンを殺しているという事実から逃げたくて、うさぎにして殺してるんじゃない。\
+;　僕があいつらを、うさぎをいたぶるように殺すのは、@……あいつらが僕をニンゲン扱いしないのと同じにしたいからだ。@
+`　When I torture those bastards, those rabbits to death, `@`...is because I don't want to treat them the same as human beings.`@
+;　ニンゲンを殺しているという事実から逃げたくて、うさぎにして殺してるんじゃない。\
+`　It's not like I want to run away from the fact I'm killing humans, and thus kill rabbits or anything like that.`\
 
-　ニンゲン扱いすらせずに、殺す。@
+;　ニンゲン扱いすらせずに、殺す。@
+`　I kill without even treating them like humans.`@
 br
-　それが僕なりの、……殺人すらも超えた、究極の復讐なんだ。\
+;　それが僕なりの、……殺人すらも超えた、究極の復讐なんだ。\
+`　That is my way... going beyond even murder -- this is my ultimate revenge.`\
 
 mld l,HIK_W2a,22
 
-　そう。@これは僕にとって、大きな意味のある行為なんだ。@
+;　そう。@これは僕にとって、大きな意味のある行為なんだ。@
+`　That's right. `@`That act has significant meaning for me.`@
 br
-　……なるほど。@なら、その大きな意味に相応しい何かを、僕は心に留めるべきだろう。\
+;　……なるほど。@なら、その大きな意味に相応しい何かを、僕は心に留めるべきだろう。\
+`　...I get it. `@`Then I should bear in mind I have to do something befitting that significant meaning.`\
 
 ;bg black,22
 ;mono 2
@@ -3145,20 +3243,26 @@ bg Different_spiral_1a,22
 
 me2v 17,70
 
-　殺すということを、僕が理解していない、……だって？@
+;　殺すということを、僕が理解していない、……だって？@
+`　Are you saying... I don't understand what killing means?`@
 br
-　じゃあ、理解してやるよ。@
-　殺すということを、五感の全てで、実感して理解してやるよ。\
+;　じゃあ、理解してやるよ。@
+`　Well I understand.`@
+;　殺すということを、五感の全てで、実感して理解してやるよ。\
+`　I understand, with all five senses, what it means to kill.`\
 
 ;bg Different_spiral_1b,22
 mcl l,0
 mld c,HIK_W3,23
 
-　泣き声をあげることすら出来ないうさぎに変え、@……顔を踏みつける感触、耳を切り裂くハサミの震え、目玉を突き破る時のコンパスのあの手応え。@
+;　泣き声をあげることすら出来ないうさぎに変え、@……顔を踏みつける感触、耳を切り裂くハサミの震え、目玉を突き破る時のコンパスのあの手応え。@
+`　I've changed people into rabbits that can't even cry. `@`...I've had that feeling of stepping on their faces, the trembling cutting off their ears with scissors, and that feedback when piercing their eyes with a drafting compass.`@ 
 br
-　それら全てを実感して、理解してやる。@
+;　それら全てを実感して、理解してやる。@
+`　I've felt everything, and I understand.`@
 br
-　それが、僕が本気で“理不尽な悪意”を憎んでいることの、証。\
+;　それが、僕が本気で“理不尽な悪意”を憎んでいることの、証。\
+`　That was proof that I truly hated "irrational evil intent."`\
 
 mcl c,0
 bg black,22
@@ -3169,142 +3273,175 @@ se1v 82,100
 bg white,64
 bg shokuin_01,24
 
-　………あるとも。@
+;　………あるとも。@
+`　...I had it.`@`
 br
-　僕には、食らう資格がある。@
+;　僕には、食らう資格がある。@
+`　I had the right to feast.`@
 br
-　僕は憎み、復讐するために、……殺す覚悟がある。\
+;　僕は憎み、復讐するために、……殺す覚悟がある。\
+`　I'm prepared... with hatred, and in the name of revenge, to kill.`\
 
 bg black,22
 
 E_A
 
-「……くすくすくすくす。@本当にそうかしら？」@
+;「……くすくすくすくす。@本当にそうかしら？」@
+`"...Teeheeheehee. `@`Is that really so, I wonder?"`@
 
 bgm1 6
 
 br
-　不意に笑い声が聞こえた。@
-　……あいつだ。@あの、……上級生の女の姿をした、……妖怪だ。\
+;　不意に笑い声が聞こえた。@
+`　Suddenly I heard a laughing voice.`@
+;　……あいつだ。@あの、……上級生の女の姿をした、……妖怪だ。\
+`　...It's her. `@`That thing that took on an upperclasswoman's form... a youkai.`\
 
 bg shokuin_04,0
 ld c,HIG_w3,2
 ld c,HIG_def4,22
 
-　彼女は、……職員室で僕を待ち構えていた。@
+;　彼女は、……職員室で僕を待ち構えていた。@
+`　She was... waiting for me in the staff room.`@
 br
-　肝心の井俣はいない。@どこかの見回りにでも行っているのだろうか。\
+;　肝心の井俣はいない。@どこかの見回りにでも行っているのだろうか。\
+`　The vital Imata wasn't here. `@`I wonder where he's wandered off to?`\
 
 ld c,HIG_def2,80
 
-「邪魔だからしばらく見回りに行ってもらったわ。@当分は戻って来ないわよ。@くすくすくす……。」@
+;「邪魔だからしばらく見回りに行ってもらったわ。@当分は戻って来ないわよ。@くすくすくす……。」@
+`"He was in my way, so I sent him off to wander a bit. `@`He won't come back for now. `@`*giggle giggle*..."`@
 br
-　まるで心を読んだかのように言う。\
+;　まるで心を読んだかのように言う。\
+`　She talks like she just read my mind.`\
 
 bg black,22
 bg shokuin_02,0
 
 ld r,HIK_Def4a,22
 
-「君は、……一体何者なんだ。」@
+;「君は、……一体何者なんだ。」@
+`"Just... what are you?"`@
 br
-　ようやく出た言葉は自分でも情けないほど震えていた。\
+;　ようやく出た言葉は自分でも情けないほど震えていた。\
+`　The words that finally escaped my mouth trembled and seemed pathetic even to me.`\
 
 ld l,HIG_w4,22
 
-「うふふふふ。@……そう言えばまだ名乗ってなかったわね。@でも、きっとあなたも聞いたことのある名前よ。@………くすくすくす。」\
+;「うふふふふ。@……そう言えばまだ名乗ってなかったわね。@でも、きっとあなたも聞いたことのある名前よ。@………くすくすくす。」\
+`"Uhuhuhuhu. `@`...Now that you mention it, I haven't given my name. `@`But I'm sure it's a name you've heard before. `@`...*giggle giggle*"`\
 
 bg black,24
 bg shokuin_03,0
 ld r,HAM_Def1,24
 ld r,HAM_Def2,80
 
-「これは、どういうつもりですか。@学校妖怪序列第３位の、踊る彼岸花先輩。」\
+;「これは、どういうつもりですか。@学校妖怪序列第３位の、踊る彼岸花先輩。」\
+`"Excuse me, what are your intentions? `@`School Youkai of the Third Rank, Dancing Higanbana-senpai?"`\
 
-　背後からの声に振り返ると、そこにはいつの間にかハメルンが立っていた。\
+;　背後からの声に振り返ると、そこにはいつの間にかハメルンが立っていた。\
+`　I turned around to the voice at my back, and suddenly Hameln was standing there.`\
 
 ld r,HAM_Def1,80
 
-「……これは私たちの狩り。@井俣先生は彼岸花さんの獲物ではないはずですが……？」@
+;「……これは私たちの狩り。@井俣先生は彼岸花さんの獲物ではないはずですが……？」@
+`"...This is our prey. `@`Imata-sensei isn't your pray is he...?"`@
 
 ld l,HIG_Def2,23
 
-「えぇ、そうね。@私の獲物じゃないわ。」\
+;「えぇ、そうね。@私の獲物じゃないわ。」\
+`"Yes, that's true. `@`He's not my prey."`\
 
 ld r,HAM_Def2,80
 
-「なら、何の御用でしょう？@　何しろ私は非力な妖怪。@学校妖怪八席はおろか、生徒たちにさえ未だ覚えられていない怪談の身ですから。@彼岸花先輩が、じきじきにお出でになられるような心当たりが何もありません。」\
+;「なら、何の御用でしょう？@　何しろ私は非力な妖怪。@学校妖怪八席はおろか、生徒たちにさえ未だ覚えられていない怪談の身ですから。@彼岸花先輩が、じきじきにお出でになられるような心当たりが何もありません。」\
+`"Then what is your business? `@`At any rate, I am a powerless youkai. `@`Unlike The 8th Ranking School Youkai, I'm a being whose story still hasn't caught on in the minds of the students yet. `@`I have no direct knowledge at all of your comings and goings."`\
 
 ld l,HIG_Def5,80
 
-「えぇ、まったく。@……あなた如き低級妖怪の狩りなんて、微塵も関心はないのだけれど。@………でも、少し派手にやり過ぎたわね。」\
+;「えぇ、まったく。@……あなた如き低級妖怪の狩りなんて、微塵も関心はないのだけれど。@………でも、少し派手にやり過ぎたわね。」\
+`"Well, jeez. `@`...I don't have a speck of interest in the hunt of a bottom tier youkai like you. `@`...But, you've been a bit too flashy, you see."`\
 
 ld r,HAM_Def3,80
 
-「これは驚きましたよ。@……夜の闇をさらに濃く深く染め上げるのが、@学校の妖怪の務めだとばかり思っていましたのに。@派手にやり過ぎたと咎められるとは。」\
+;「これは驚きましたよ。@……夜の闇をさらに濃く深く染め上げるのが、@学校の妖怪の務めだとばかり思っていましたのに。@派手にやり過ぎたと咎められるとは。」\
+`"This is surprising. `@`...The night has finally been dyed in darkness, `@`and I just thought of doing my duty as a youkai. `@`Yet you find I'm being too flashy~?"`\
 
 bg black,22
 
 ;ld l,HIG_w3,80
 
-「そうよ。@それこそが私たちの唯一の務め。@………でも、私たちには私たちの不文律がある。@そして私にも私の不文律がある。@……新参者の妖怪の分際で、少しそれを蔑ろにし過ぎたわね…？」\
+;「そうよ。@それこそが私たちの唯一の務め。@………でも、私たちには私たちの不文律がある。@そして私にも私の不文律がある。@……新参者の妖怪の分際で、少しそれを蔑ろにし過ぎたわね…？」\
+`"That's right. `@`That is also our only duty. `@`...But we have unwritten laws. `@`And I haev my own unwritten laws. `@`...And you've gone a bit over that law as a newcomer youkai... understand?"`\
 
 ld r,HAM_Def1,80
 
-「……おやおや。@私たちの何があなたの逆鱗に触れたやら。@……新参者の分際で、派手にやり過ぎた、ということでしょうか。@ふっふふふふふ。」\
+;「……おやおや。@私たちの何があなたの逆鱗に触れたやら。@……新参者の分際で、派手にやり過ぎた、ということでしょうか。@ふっふふふふふ。」\
+`"...Dear oh dear. `@`What is it we have have to upset you so? `@`...A newcomer being too flashy, is that it? `@`Hu huhuhuhuhu."`\
 
 bg shokuin_02,22
 ld r,HIG_Def4,22
 
-「それよ。@………新参者の分際で、学校妖怪八席に対し、少し敬意が欠けたみたいね。」\
+;「それよ。@………新参者の分際で、学校妖怪八席に対し、少し敬意が欠けたみたいね。」\
+`"That's it. `@`...Someone with the status of a newcomer needs to learn a little respect."`\
 
 ld l,HAM_Def5,22
 
-「はっ、……はっはっははははははははははは！！@　これは失礼しました、先輩っ。@……ですが、このハメルン。@こう見えても、ずいぶんと長いこと、敬意を示し大人しくさせていただいたつもりですよ。」\
+;「はっ、……はっはっははははははははははは！！@　これは失礼しました、先輩っ。@……ですが、このハメルン。@こう見えても、ずいぶんと長いこと、敬意を示し大人しくさせていただいたつもりですよ。」\
+`"Ha, ...hahhahHAHAHHAHAHA!! `@`I'm terribly sorry, senpai~. `@`...By the way, I'm Hameln. `@`If you look at it this way, for a very long time, I've wanted to politely pay my respects."`\
 
 ld r,HIG_Def2,80
 
-「あら、そう……？」\
+;「あら、そう……？」\
+`"Oh, is that so...?"`\
 
 ld l,HAM_Def1,80
 
-「身分も弁えずに申し上げて恐縮ですが。@……学校妖怪八席の皆様は、少々、お甘いのではないですか？」@
+;「身分も弁えずに申し上げて恐縮ですが。@……学校妖怪八席の皆様は、少々、お甘いのではないですか？」@
+`"I'm sorry to say this despite my social standing, `@`...but everyone in the eight seats of the school youkai, aren't they a little, soft?"`@
 
 ld r,HIG_Def5,80
 
-「甘い？@　私が？」\
+;「甘い？@　私が？」\
+`"Soft? `@`Me?"`\
 
 ld l,HAM_Def2,80
 
-「八席の皆様方がです。@私はずっとこの学校の夕闇に隠れ、皆さんの狩りを拝見させていただきました。@……その狩りの、何と慎ましやかで奥ゆかしくて情けないものかッ。」\
+;「八席の皆様方がです。@私はずっとこの学校の夕闇に隠れ、皆さんの狩りを拝見させていただきました。@……その狩りの、何と慎ましやかで奥ゆかしくて情けないものかッ。」\
+`"Every one of the eight ranks. `@`I've been watching this school under the cover of night for a long time, and I've watched everyone hunt. `@`...Those hunts are quite reserved, weak, and pitiful."`\
 
 ld r,HIG_w4,80
 
-「くすくす。@……なかなか言うわね、後輩さん…？」\
+;「くすくす。@……なかなか言うわね、後輩さん…？」\
+`"*giggle* `@`...You sure can talk can't you, Mr. Underclass...?"`\
 
 bg black,22
 bg shokuin_04,22
 quakey 2,200
 
-「なぜに、学校を闇と恐怖で覆い尽さないのか？！@　皆様方にはそれだけの力が充分におありのはずだ！@　なのに、事故のふりをしたり病気のふりをしたり。@……皆様方の狩りの、あぁ何と慎ましやかなことか！！@　学校妖怪への畏怖と敬意はどこへ？！@　八つもの怪談がありながら、まったく子供たちに恐れられているとは思えない！！」\
+;「なぜに、学校を闇と恐怖で覆い尽さないのか？！@　皆様方にはそれだけの力が充分におありのはずだ！@　なのに、事故のふりをしたり病気のふりをしたり。@……皆様方の狩りの、あぁ何と慎ましやかなことか！！@　学校妖怪への畏怖と敬意はどこへ？！@　八つもの怪談がありながら、まったく子供たちに恐れられているとは思えない！！」\
+`"Why don't you shroud this school in the fear of darkness and drain it?! `@`You all should have the power to do that! `@`...You can even pretend they were accidents, sickness and the sort. `@`...All of your hunts, Aaah how pathetic they are!! `@`Where did the respect and fear for the school youkai go to?! `@`With eight ghost stories, I don't think you can make these children scared at all!"`\
 
 ;bg black,24
 ;bg shokuin_02,0
 ld r,HIG_w3,22
 ld r,HIG_w4,80
 
-「…………………くす。」\
+;「…………………くす。」\
+`"......Hehe."`\
 
 ld l,HAM_Def4,22
 ld l,HAM_Def2,80
 
 
-「ですから。@このハメルンが、学校妖怪と学校の夜の闇に再び畏怖を取り戻すため、立ち上がったのです。@……如何ですか？！@　たった一度の狩りで、もう学校中が恐怖に支配されている！@　そして今夜にも新たな犠牲者が増えるでしょう！@　いえいえ、まだまだ犠牲者は増えていく！@　ひかる君は憎しみの限りを尽くし、僕の音楽室に次々犠牲者を連れ込んでくれる！！」\
+;「ですから。@このハメルンが、学校妖怪と学校の夜の闇に再び畏怖を取り戻すため、立ち上がったのです。@……如何ですか？！@　たった一度の狩りで、もう学校中が恐怖に支配されている！@　そして今夜にも新たな犠牲者が増えるでしょう！@　いえいえ、まだまだ犠牲者は増えていく！@　ひかる君は憎しみの限りを尽くし、僕の音楽室に次々犠牲者を連れ込んでくれる！！」\
+`"And so. `@`This Hameln, in order to restore fear back to the night of this school and its demons, has stood up. `@`...What do you think?! `@`In a single hunt, the school is already being ruled by fear! `@`And tonight the number of victims shall increase once more!`@` No no, we shall have more and more victims! `@`Exhausting the limits of Hikaru-kun's hatred, my music room will bring more victims one after another!"`\
 
 cl r,0
 ld c,HIG_def5,24
 
-「楽しい？@　妖怪ごっこは。」\
+;「楽しい？@　妖怪ごっこは。」\
+`"Is it fun? `@`Being with a youkai?"`\
 ;＜彼岸花
 
 bg black,24
@@ -3313,24 +3450,28 @@ ld r,HIK_Def4a,24
 
 me1v 16,50
 
-「…………………っ。」\
+;「…………………っ。」\
+`"........."`\
 ;＜ひかる
 
 ld c,HAM_Def5,22
 ;ld c,HAM_Def1,80
 
-「数日を経ずに、この怪異は学校に止まらず、町全体を恐怖のどん底に叩き込むでしょう！@　そしてやがて、音楽室より聞こえるカスタネットの音が、@その恐怖に彩りを加え、『ハメルンのカスタネット』という新たな怪談を生み出すのです！」\
+;「数日を経ずに、この怪異は学校に止まらず、町全体を恐怖のどん底に叩き込むでしょう！@　そしてやがて、音楽室より聞こえるカスタネットの音が、@その恐怖に彩りを加え、『ハメルンのカスタネット』という新たな怪談を生み出すのです！」\
+`"Before too many days pass, this terror will not stop at this school, but we will drive this entire city into the very depths of horror! `@`And eventually, the sound of castanets from the music room, `@`will be added to the palette of fear, and a new legend known as "Hameln's Castanets" will be born!"`\
 
 ld c,HAM_Def3,80
 
-「如何です？@　教師がたった一人だけ犠牲になったような、トイレのめそめそさんなどという、ぱっとしない怪談より、@ずっとずっと素晴らしくて恐ろしい怪談でしょう？！」\
+;「如何です？@　教師がたった一人だけ犠牲になったような、トイレのめそめそさんなどという、ぱっとしない怪談より、@ずっとずっと素晴らしくて恐ろしい怪談でしょう？！」\
+`"What do you think? `@`Rather than Mesomeso-san's unsatisfying tale about the victimization of a single teacher in a restroom, `@`mine will make a much more wonderful, and terrifying story, don't you think?!"`\
 
 bg black,23
 bg shokuin_03,0
 ld r,HIG_Def5,23
 ld r,HIG_w3,80
 
-「………誰が唆したやら。@……毬枝を蹴落として、序列第８位を奪い取れる気でいるのね。」\
+;「………誰が唆したやら。@……毬枝を蹴落として、序列第８位を奪い取れる気でいるのね。」\
+`"...I don't know who you're tempting. `@`...I think you intend to defeat Marie and take the eighth rank for yourself, yeah?"`\
 
 ;ld l,HAM_Def4,23
 ld l,HAM_Def5,26
@@ -3338,34 +3479,41 @@ quakey 1,100
 
 me2v 17,70
 
-「イエス、オフコースッ！！@　森谷毬枝を序列第８位に推薦しなかった妖怪たちが３人もいたことをお忘れなくっ。」\
+;「イエス、オフコースッ！！@　森谷毬枝を序列第８位に推薦しなかった妖怪たちが３人もいたことをお忘れなくっ。」\
+`"<Yes> <Of course~>!! `@`But let's not forget that three youkai did not endorse Marie Moriya for the eighth rank~"`\
 
 ld r,HIG_Def2,80
 
-「私たちのクラスで、@……毬枝より恐ろしい怪談が生まれたら、@毬枝と入れ替えて新しい第８位にしようという論調にしたがってる連中がいるわ。@……あなたは、その連中の中の誰かに招待されたわけね。この学校に。」\
+;「私たちのクラスで、@……毬枝より恐ろしい怪談が生まれたら、@毬枝と入れ替えて新しい第８位にしようという論調にしたがってる連中がいるわ。@……あなたは、その連中の中の誰かに招待されたわけね。この学校に。」\
+`"In our class, `@`...should a more terrifying tale arise than Marie's, `@`there are those who argue that they should switch Marie out with a new eighth rank. `@`...So you must have been invited by someone in that group, yeah? To this school."`\
 
 bg black,23
 bg shokuin_02,23
 ld c,HAM_Def3,23
 ld c,HAM_Def5,80
 
-「森谷毬枝は学校妖怪に相応しくありませんッ。@だから私が、新しい第八の怪談となりましょう！！@　『音楽室のハメルン』！@　『ハメルンのカスタネット』！！@　ふっははははっはっはっは！！@　この新しき怪談が、八つの怪談の頂点に躍り出るのですッ！@　充分な狩りによって私は力を増し、やがて実力でめそめそさんを駆逐する！@　その時こそ、私は本当の第八の怪談となるのです！」\
+;「森谷毬枝は学校妖怪に相応しくありませんッ。@だから私が、新しい第八の怪談となりましょう！！@　『音楽室のハメルン』！@　『ハメルンのカスタネット』！！@　ふっははははっはっはっは！！@　この新しき怪談が、八つの怪談の頂点に躍り出るのですッ！@　充分な狩りによって私は力を増し、やがて実力でめそめそさんを駆逐する！@　その時こそ、私は本当の第八の怪談となるのです！」\
+`"Marie Moriya isn't an appropriate youkai for this school~. `@`So make me the new eighth mystery of this school!! `@`""Hameln of the Music Room!"" `@`""Hameln's Castanets!!"" `@`Huhhahaha hah hah hah ha!! `@`This new tale will jump to the top of all eight stories~! `@`I'll greatly expand my power from hunting, and then before long I'll exterminate Mesomeso-san with true power! `@`And then, I will become the true eighth mystery!"`\
 
 ld r,HIK_Def4a,24
 ld r,HIK_w3a,80
 
-「……ハメルンは、……いや、……僕たちは、学校の新しい怪談になるんだ。@………僕たちの邪魔をするなら、@……例え、相手が妖怪だって、容赦はしない。@お前がどんな恐ろしい妖怪だったとしても、僕たちには敵わないんだ。@……ハメルンのカスタネットには、敵わない…！！」@
+;「……ハメルンは、……いや、……僕たちは、学校の新しい怪談になるんだ。@………僕たちの邪魔をするなら、@……例え、相手が妖怪だって、容赦はしない。@お前がどんな恐ろしい妖怪だったとしても、僕たちには敵わないんだ。@……ハメルンのカスタネットには、敵わない…！！」@
+`"...Hameln, ...No, ...We will become a new school horror story. `@`...If any gets in our way, `@`...even if it's a youkai, we won't show them mercy. `@`No matter how terrifying a youkai you might be, you're no match for us. `@`...No one can stand against Hameln's Castanets...!!"`@
 br
-　ひかるは精一杯の強がりを吐き出す。\
+;　ひかるは精一杯の強がりを吐き出す。\
+`　Hikaru spat out a show of courage with everything he had.`\
 
 bg black,23
 bg shokuin_04,0
 ld c,HIG_Def5,23
 ld c,HIG_w4,80
 
-「くす。」@
+;「くす。」@
+`"Hah."`@
 br
-　それに、彼岸花は堪え切れなくなる。\
+;　それに、彼岸花は堪え切れなくなる。\
+`　And then Higanbana could stand it no longer.`\
 
 E_A
 
@@ -3375,26 +3523,32 @@ se1v 84,70
 
 quakey 1,100
 
-「……くす、……くすくすくすくすくすくす…！！@/
+;「……くす、……くすくすくすくすくすくす…！！@/
+`"...Teehee, ...Teehehehehehe...!!`@/
 bgm1 12
-　うっふふふふふふっはっはははっはっはっはっはっはっは！！！」@
+;　うっふふふふふふっはっはははっはっはっはっはっはっは！！！」@
+`　UhhuhuhuhuHaHAhAhAHhaHAHAHAHHAHAHAHHA!!!"`@
 br
-　上品な笑いは最初だけ。@最後の方には、職員室全体を振るわせるような、地獄の底からの笑いとなっていた。\
+;　上品な笑いは最初だけ。@最後の方には、職員室全体を振るわせるような、地獄の底からの笑いとなっていた。\
+`　Her laughter started off elegently. `@`By the end of it, it turned into a laugh that shook the everything in the staff room as if it were from the depths of hell.`\
 
 bg black,23
 bg shokuin_03,0
 ld l,HIK_n1,23
 quakey 2,200
 
-　初めてそれを聞くひかるは、今さらのように震え上がった。@
+;　初めてそれを聞くひかるは、今さらのように震え上がった。@
+`　Hearing that for the first time, Hikaru began to tremble once more.`@
 br
-　それに打ち勝ちたくて、叫ぶ。\
+;　それに打ち勝ちたくて、叫ぶ。\
+`　Wanting to fight against it, he shouts.`\
 
 cl l,0
 ld c,HIK_i2,23
 quakex 2,200
 
-「……ハ、ハメルンッ…！！@　こいつをうさぎにしてしまえぇッ！！」\
+;「……ハ、ハメルンッ…！！@　こいつをうさぎにしてしまえぇッ！！」\
+`"...Ha-Hameln~!! `@`Turn this bitch into a rabbit~!!"`\
 
 ld r,HAM_Def4,23
 ld r,HAM_Def6,80
@@ -3403,7 +3557,8 @@ se1v 2,100
 
 quakey 1,100
 
-「イエェーースッ！！！@　『ハメルンのッ、カスタネット』ォオオォッ！！！」\
+;「イエェーースッ！！！@　『ハメルンのッ、カスタネット』ォオオォッ！！！」\
+`"<YEEEEEESS!!!> `@`""HAMELN'S CASTANETSSSssSSsS!!!""`\
 
 se1v 85,70
 
@@ -3426,7 +3581,8 @@ bg shokuin_04,0
 ld c,HIG_Def5,22
 ld c,HIG_Def4,80
 
-「ここは音楽室じゃなくってよ？@　くっすくすくすくすくすくすくす！！」\
+;「ここは音楽室じゃなくってよ？@　くっすくすくすくすくすくすくす！！」\
+`"This isn't the music room, you know? `@`Teeheeheeheehee!!"`\
 
 me1v 28,70
 me2v 3,70
@@ -3435,9 +3591,11 @@ bg e020,28
 quakey 1,100
 quakex 2,200
 
-　彼岸花の笑いにその長い髪が暴れ散る。@
+;　彼岸花の笑いにその長い髪が暴れ散る。@
+`(?)　Higanbana thew back her hair and laughed.`@
 br
-　彼女を中心に竜巻が湧き起こり、書類などを撒き散らして、まるで地獄の吹雪のような光景を見せた。\
+;　彼女を中心に竜巻が湧き起こり、書類などを撒き散らして、まるで地獄の吹雪のような光景を見せた。\
+`　A tornado burst from her center, scattering paperwork, and showed them a scene not unlike a blizzard from hell.`\
 
 bg black,24
 bg shokuin_03,0
@@ -3445,7 +3603,8 @@ mld c,HAM_Def4,0
 ld r,HIK_n1,24
 ld r,HIK_i2,80
 
-「ハメルンッ、何をやってる？！@　早くあいつをうさぎに……！@　………あッ…！！」\
+;「ハメルンッ、何をやってる？！@　早くあいつをうさぎに……！@　………あッ…！！」\
+`"Hameln~ what are doing?! `@`Hurry and turn her into...! `@`...Ahh...!!"`\
 
 se1 66
 
@@ -3453,9 +3612,11 @@ mcl c,0
 bg white,24
 bg black,22
 
-　職員室中に螺旋を描いて舞い散る書類の吹雪が、@うねる真っ白な大蛇のように、ハメルンに襲い掛かり、……ぐるぐる巻きに拘束してしまう。\
+;　職員室中に螺旋を描いて舞い散る書類の吹雪が、@うねる真っ白な大蛇のように、ハメルンに襲い掛かり、……ぐるぐる巻きに拘束してしまう。\
+`　The blizzard of dancing papers that drawing a spiral in the middle of the staff room, `@`rushed at Hameln like a giant white serpent, ...and wrapped around him -- constricting him.`\
 
-　ハメルンはまるで、大量の書類で作られた、巨大な張子の虎のような姿にされていた……。@
+;　ハメルンはまるで、大量の書類で作られた、巨大な張子の虎のような姿にされていた……。@
+`　Then Hameln turned himself into what seemed like a giant tiger formed from a large quantity of papers...`@
 br
 ;　辛うじて首だけは覗かせているが、……首から下は完全に、大量の書類に拘束されてしまっている。\
 `　With only his neck peeking out, ...underneath his neck was completely restricted by the tremendous amount of paperwork.`\
@@ -3513,7 +3674,7 @@ mld c,HIG_Def5,80
 ;ld l,HIG_Def1,80
 
 ;「そんな様じゃ、殺すということの意味を、まだ理解できていないようね。@………私の話を、ちゃんと聞いていた？@　殺すということの意味を。@……覚悟や、背負うものを。@あなたは考えることが出来た……？」\
-`"If you're still like this, it seems you still don't understand what it means to kill.`@` ...Did you properly listen to what I said?`@` The meaning of killing.`@` ...Having the resolution, and the burdens.`@` Have you thought about it yet...?"`\
+`"If you're still like this, it seems you still don't understand what it means to kill.`@` ...Did you properly listen to what I said?`@` The meaning of killing.`@` ...Having the resolution, and bearing the responsibility.`@` Have you thought about it yet...?"`\
 
 mcl c,0
 bg black,0
@@ -3538,12 +3699,12 @@ br
 ld l,HIG_w3,2
 
 ;「……………………………。@そう。@……理解したつもりで、いるのね。」@
-`"......`@` That's right.`@` You were here, planning to understand."`@`
+`"......`@` Right.`@` You think you understand."`@`
 br
 ;　彼岸花は、ひかるの心の声を完全に読み取っている。@
 `　Higanbana, was perfectly reading Hikaru's mind.`@`
 ;　ひかるが至った、彼なりの殺人の覚悟を読み取り、……せせら笑っている。\
-`　Once she'd come to Hikaru, and read how prepared this particular murder was, ...she laughed sardonically.`\
+`　Once she'd come to Hikaru, and read how prepared this particular murder was, ...she sneered with laughter.`\
 bg Aka2,22
 ;ld r,HIK_Def1,80
 
@@ -3558,21 +3719,21 @@ me4v 16,70
 `　I have the resolution to kill...out of revenge, and hatred.`@`
 br
 ;　その為に、殺すということを、五感の全てで、実感して理解してやるよ。\
-`　Hence, I can personally understand with all of my five senses what it means to kill.`\
+`　Hence, I　truly understand, with all five senses, what it means to kill.`\
 
 ;ld r,HIK_Def1,80
 
 ;　……顔を踏みつける感触、耳を切り裂くハサミの震え、目玉に突き破る時のコンパスのあの手応え。@
-(?)`　The sensation of trampling someone's face, the trembling of scissors cutting off an ear, that feedback from piercing an eyeball with a compass.`@`
+(?)`　...that feeling of stepping on a face, the the trembling of cutting off ears with scissors, and that moment of impact when you pierce eyes with a drafting compass.`@`
 br
 ;　それら全てを実感して、理解してやる。\
-`　He knew that all of those, were real feelings.`\
+`　I've felt everything, and I understand.`@
 
 ld c,HIG_w4,22
 
 
 ;「それがあなたの覚悟？@　殺すということの理解？@　……………くすくす、うふふ、うっふふふふふふふふふふふふふふ！！@　何を実感したというの？@　……うさぎの皮を裂いた実感しか記憶に留めていないくせに。@……そんなあなたが、何を実感して、何を覚悟しているって言うの？@　くすくす、……くっすくすくすくすくすくすくすくすくすくすくすッ！！！」\
-`"That's your resolve?`@` That's how you understand killing?`@` ....Hehe, Ehehehehehe!!`@` What are you saying is an actual feeling?`@` ...Even though you can't even remember the actual feeling of tearing up a rabbit's skin.`@` ...So what on earth are you saying like that, what actual feeling? What kind of readiness is that?`@` Teeheehee, ...Ehehehehehehehehehe!`\
+`"That's your resolve?`@` That's how you understand killing?`@` ....Hehe, Ehehehehehe!!`@` What are you saying you've experienced?`@` ...Even though you can't even remember the actual feeling of tearing up a rabbit's flesh.`@` ...So what on earth are you saying like that, what experience? What kind of readiness is that?`@` Teeheehee, ...Ehehehehehehehehehe!`\
 se1v 66,100
 
 me5v 5,90
@@ -3581,7 +3742,7 @@ bg white,23
 bg black,23
 
 ;　彼女の笑いと旋風が、共に激しくなる。@
-`　Her laugh and the whirlwind simultaneously became tempestuous.`@`
+`　Her laugh and the whirlwind simultaneously became like a tempest.`@`
 ;　そして、その旋風が爆ぜて、ひかるを飲み込んだ。@
 `　And, as the commotion blew open, Hikaru swallowed.`@`
 br
@@ -3603,13 +3764,13 @@ bg e015,2
 bgm1 13
 
 ;　……あなたは人間を殺したのよ？@　本当にそれを理解できているのかしら？\
-`　...You killed a human.`@` Have you truly come to understand that?`\
+`　...You killed people.`@` Have you truly come to understand that?`\
 
 ;　目の前でしゃべっているはずなのに、彼岸花の声は、どこか、ものすごく遠くから聞こえてくるようだ。@
 `　Even though she should have been talking in front of his eyes, he heard Higanbana's voice from what seemed like somewhere far, far away.`@`
 br
 ;　そしてそれは恐ろしく静かで透明感に満ちた、電子音のような声に変わっていた。\
-`　And it was dreadfully quiet, fraught with transparency, and had changed to sound like it were electronic.`\
+`　And it was dreadfully quiet, fraught with distortion, and had changed to sound like it was from a synthesizer.`\
 
 bg white,1
 bg black,22
@@ -3632,7 +3793,7 @@ me2v 17,50
 `　Scissors, a compass, a box cutter.`@`
 br
 ;　それはうさぎたちを虐殺した、処刑道具。\
-`　They were the tools he'd executed the rabbits with during the atrocity.`\
+`　They were the tools he'd executed the rabbits when he was killing the rabbits.`\
 
 ;　ここにあるはずがない。@だって捨てたはずだ。@
 `　They shouldn't be here.`@` I swear I threw them out.`@`
@@ -3644,7 +3805,7 @@ bg black,22
 
 
 ;　その時、土の匂いを嗅いだ気がした。@それに混じる獣の臭い……。@
-`　At that time, he realized the smell of the earth.`@` And mixed in was the stink of beasts....`@`
+`　At that time, he realized the smell of the earth.`@` And mixed in was the stink of animals....`@`
 br
 ;　え……ここって……。@
 `　Eh...this is...`@`
@@ -3727,7 +3888,7 @@ me1v 5,50
 `　They crouched and groveled on the ground, begging for forgiveness with their eyes and staring at Hikaru from below.`@`
 br
 ;　その瞳は黒かった。@あの夜見たうさぎの赤い瞳ではなく、ひかると同じ黒い瞳をしていた。\
-`　Those eyes were black.`@` On that night, the eyes he saw were not a rabbits' red eyes, but the same black eyes as Hikaru's.`\
+`　Their eyes were black.`@` On that night, the eyes he saw were not a rabbits' red eyes, but the same black eyes as Hikaru's.`\
 ;「さあ、実感なさい。@あなたが言ったんだわ。@くすくす。@五感で、実感するってね。」\
 `"Come, experience it now.`@` You said it yourself.`@` Teehee.`@` Experience it, with all five senses.`"`\
 
@@ -3960,7 +4121,7 @@ quakey 1,100
 `　His weeping at last made him vomit.`@`
 br
 ;　内臓を吐き出すかと思うほどに、……ひかるはビチビチと嘔吐を続ける。\
-`　To the point of thinking he were spitting out his own intestines...Hikaru continued to vomit.`\
+`　To the point of thinking he were spitting out his own intestines...Hikaru continued to throw up.`\
 ld l,HIG_w3,22
 ld l,HIG_w4,80
 
@@ -4026,7 +4187,7 @@ ld c,HAM_Def2,26
 ld c,HAM_Def4,80
 
 ;「余裕ぶり過ぎましたね、先輩。@ぼきぼきと骨を折られるのは、あなたのようです。」@
-`"Too much time has passed, Sempai.`@` It seems the one who will be ripped and torn into pieces, will be you."`@`
+`"Too much time has passed, Senpai.`@` It seems the one who will be ripped and torn into pieces, will be you."`@`
 br
 ;　その手には、カスタネットが。\
 `　In his hand, was a castanet.`\
@@ -4054,7 +4215,7 @@ ld r,HIG_Def2,24
 ;ld r,HIG_Def2,80
 
 ;「…………何の真似？@　ここは職員室よ。@あんたのカスタネットは、音楽室じゃないと力を発揮しないんじゃないの？」\
-`"...And what kind of farc is this?`@` This is the staff room.`@` Your castanets' powers are not supposed to manifest outside of the music room, correct?"`\
+`"...And what kind of farce is this?`@` This is the staff room.`@` Your castanets' powers are not supposed to manifest outside of the music room, correct?"`\
 
 ld l,HAM_Def4,26
 
@@ -4094,7 +4255,7 @@ mld c,HAM_Def2,26
 mld c,HAM_Def4,80
 
 ;「これはひかる君のアイデアでしてね。@……井俣先生を音楽室に誘き寄せるのが難しいなら、@職員室を音楽室にしてしまえばいいとね…！」@
-`"This was Hikaru-kun's idea.`@`...In case it were difficult to lure Inomata-sensei,`@` it should be enough to change the staff room into the music room...!"`@`
+`"This was Hikaru-kun's idea.`@`...In case it were difficult to lure Imata-sensei,`@` it should be enough to change the staff room into the music room...!"`@`
 br
 ;　ひかるは職員室を訪れる時、音楽室より取り外した表札と入れ替えていたのだ。\
 `　When Hikaru visited the staff room, he dismantled the sign from the music room and changed it out.`\
@@ -4169,7 +4330,7 @@ ld c,HAM_Def3,22
 ld c,HAM_Def4,80
 
 ;「こうなってしまっては、序列第３位の踊る彼岸花先輩も形無しですね。@……いつの間にかここが、音楽室になってしまっていたことに気付かなかったことが、@あなたの敗因です。」\
-`"Now that you're like this, the Third Ranked Dancing Higanbana-sempai is ruined.`@` ...You didn't realize this had become the music room,`@` and that was your downfall."`\
+`"Now that you're like this, the Third Ranked Dancing Higanbana-senpai is ruined.`@` ...You didn't realize this had become the music room,`@` and that was your downfall."`\
 
 ;ld c,HAM_Def1,80
 
@@ -4193,7 +4354,7 @@ br
 ld c,HAM_Def2,80
 
 ;「いいとも。@君の要望には極力応えてあげることにするよ。@……結果的には感謝してるしね。@君の働きがなければ、踊る彼岸花先輩を倒すことは出来なかったのだから。@……お陰でこうして、序列第３位の座を手に入れることが出来たんだ。」@
-`"Very well then.`@` I shall grant your wish to the utmost of my ability.`@` ...This is my gratitude in regards to these results.`@` If it weren't for your work, I would not have been able to knock out the Dancing Higanbana-sempai.`@` Thus thanks to you, I was able to claim the Third Ranked Seat."`@`
+`"Very well then.`@` I shall grant your wish to the utmost of my ability.`@` ...This is my gratitude in regards to these results.`@` If it weren't for your work, I would not have been able to knock out Dancing Higanbana-senpai.`@` Thus thanks to you, I was able to claim the Third Ranked Seat."`@`
 br
 ;　ハメルンは、ますますに邪悪な笑いを浮かべながら、うさぎの彼岸花を高く掲げる。\
 `　While Hameln's smile became more and more wicked, he raised the Rabbit Higanbana higher.`\
@@ -4302,10 +4463,10 @@ br
 `　That was, ...Hameln's tongue.`@`
 br
 ;　鮮血に塗れたうさぎの彼岸花が、……ハメルンの舌に噛み付き、……引きずり出したのだ。\
-`　Covered in fresh blood, the rabbit Higanbana, ...bit Hameln's tongue, ...and ripped it out with her.`\
+`　Covered in fresh blood, the rabbit Higanbana, ...sunk her teeth into Hameln's tongue, ...and ripped it out along with her.`\
 
 ;　もっとも、舌と呼ぶべきは、彼岸花が噛み付いている上端部分のわずかだけ。@……それより先は、……不気味にのたうつ、ハメルンの内臓なのだ。@
-`　Moreover, the only thing that could be called a tongue, was the top portion of what Higanbana was holding.`@` ...The rest of it, ...was Hameln's inner organs, writhing ominously.`@`
+`　Moreover, the only thing that could be called a tongue, was the top portion of what Higanbana was holding.`@` ...Along with his tongue, ...were Hameln's inner organs writhing ominously.`@`
 br
 ;　ハメルンは彼岸花に、……舌ごと、……内臓ごと、ずるりと引きずり出されたのだ。\
 `　Hameln, had his tongue...and his intestines...torn out easily by Higanbana.`\
@@ -4321,7 +4482,7 @@ me2v 17,70
 `"UghhhooOoOOooooOOooOooOoooOOOoo...ooo..oo!!!!`@`
 br
 ;　ハメルンは白目を剥きながら、びくびくと全身を震わせる。\
-`　Hameln's eyes were wide, and his entire body trembled with fear.`\
+`　Hameln's eyes were wide, and his entire body trembled violently.`\
 
 bg black,23
 
@@ -4339,7 +4500,7 @@ quakey 1,100
 `"Gg...guh...gggg...gg...guoh....!!!"`\
 
 ;『最後に教えてご覧なさい。@あんたをこの学校に呼び寄せたのは誰……？@　毬枝は私の大切なオトモダチなのよ…？@　それを追い払おうとするなんて、許せないヤツだわ。@……そいつの名を教えてご覧なさい…？@　……………………。@……あぁ、無理よね。@こんなにも舌も内臓も引きずり出されちゃ、返事も満足に出来ないわね。』\
-`"'Please tell me one last thing.`@` Who called you to this school...?`@` Marie is my very important friend...`@` I won't forgive anybody who would try to drive her away.`@` ...Tell me that name.`@` ..........`@`...Ahh, it's impossible.`@` Since you had your tongue and organs ripped out, you can't reply to my satisfaction."'`\
+`"'Please tell me one last thing.`@` Who called you to this school...?`@` Marie is my very important friend...`@` I won't forgive anybody who would try to drive her away.`@` ...Tell me that name.`@` ..........`@`...Ahh, it's impossible.`@` Since you had your tongue and organs ripped out, you can't even satisfy me with a reply."'`\
 
 se2 38
 
@@ -4351,7 +4512,7 @@ quakey 2,200
 bg black,22
 
 ;『さようなら、ハメルン。@あんたの怪談なんて、……この学校に残させてやらない。@くす、くすくすくすくすくすくす、あっははははははははははははははははははははは！！！』\
-`"'Fare thee well, Hameln.`@` Your story, ...will never remain in this school.`@` Teehee, Teeheeheehee, Ahhahahahahahahahahahahaha!!!"'`\
+`"'Fare thee well, Hameln.`@` Your story, ...will never remain in this school.`@` Teehee, Teeheeheehee, AhhahaHAHAHAHAHAHAHAHAHA!!!"'`\
 
 se3v 84,100
 
@@ -4403,12 +4564,12 @@ ld r,HIK_n2,80
 quakex 1,100
 
 ;「ひ、……ひぃ………！！@　こ、……これ以上、………ぼ、……僕に……、な、何を………！」\
-`"Ee, ...Eeeeee...!!!`@` W, ...what more...d,...do you....plan....!"`\
+`"Ee, ...Eeeeee...!!!`@` W, ...what more...d,...do you....want....!"`\
 
 ld l,HIG_Def5,80
 
 ;「人を殺すということを、まさか、あれっぽっちで全て実感できたと思っているの…？@　あなたが実感したのは、ニンゲン側だけじゃない。」\
-(?)`"Do you think that killing someone would be something you could fully experience with no interest..?`@` What you actually felt was only a h u m a n's side."`\
+(?)`"Do you think that killing someone would be something you could fully experience just like that..?`@` What you actually felt was only a  H U M A N' S  side."`\
 
 ld r,HIK_n1,80
 
@@ -4489,7 +4650,7 @@ br
 ld c,HIG_Def5,80
 
 ;「あなたはうさぎをいじめることを、たくさん実感したわ。@……なら今度は、その逆を実感するのはどうかしら。」\
-`"You had plenty of experience abusing rabbits.`@`...So this time, how about we let you experience the reverse?"`\
+`"You had plenty of experience abusing rabbits.`@`...So this time, how about we let you experience the other side?"`\
 
 ;『………や、……やめて……、ゆ、許して…………！！』\
 `"...S, ...stop it...please, forgive me...!!!"`\
@@ -4544,7 +4705,7 @@ ld c,HIG_w4,24
 ;ld c,HIG_w4,80
 
 ;「ハズレ。@………じゃあね、さようなら。@二瓶ひかる君。@これであなたは大好きなうさぎ小屋で、死ぬまで過ごせるわね。@……どこの動物園に送られるか知らないけど、@意地悪な飼育係に当たらないといいわね。@くすくすくすくすくすくすくすくす…！」\
-`"Wrong.`@` ...See you, farewell.`@` Hikaru Nihei-kun.`@` This way you can stay with your beloved rabbits until you die.`@` ...I don't know which zoo you'll be sent to,`@`  but hopefully it isn't with an ill-tempered animal raising committee member.`@` Teehee, teeheeheeheehee...!!"`\
+`"Wrong.`@` ...Well, goodbye.`@` Hikaru Nihei-kun.`@` This way you can stay with your beloved rabbits until you die.`@` ...I don't know which zoo you'll be sent to,`@`  but hopefully it isn't with an ill-tempered animal raising committee member.`@` Teehee, teeheeheeheehee...!!"`\
 se1v 84,100
 
 bg black,22
@@ -4663,7 +4824,7 @@ me3v 3,70
 ;　うさぎは鳴けない。@
 `　Rabbits cannot cry.`@`
 ;　悲鳴をあげることさえできない。@
-`　He could not even scream.`@`
+`　Rabbits cannot even scream.`@`
 br
 ;　だから、ひかるは好んでいじめてたんじゃないか。\
 `　Therefore, it was just the kind of torment Hikaru preferred.`\
