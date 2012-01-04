@@ -1076,7 +1076,7 @@ br
 `　I nodded in reply, and the nurse and my teacher smiled in relief.`\
 
 ;「もうしばらく寝かせてあげようと思います。@帰りのホームルームには多分、戻れると思います。」@
-`"I think we'll let her rest for a while. `@`I think I'll probably head back to homeroom."`@
+`(?) "I think we'll let her rest for a while. `@`I think I'll probably head back to homeroom."`@
 ;「そうですか、ありがとうございます。@じゃ、ゆっくり休んでね？　無理しちゃ駄目よっ。」\
 `"I see, thank you very much. `@`Well, rest easy okay? Don't strain yourself~"`\
 
@@ -1119,36 +1119,46 @@ me1v 31,40
 
 bg hoken_03,22
 
-　……あはは。@校庭を見ることは出来なくても、この保健室の中から耳を澄ますだけで、手に取るようにわかる。@
+;　……あはは。@校庭を見ることは出来なくても、この保健室の中から耳を澄ますだけで、手に取るようにわかる。@
+`　...Ahaha. `@`Even though i can't see the courtyard, just by listening carefully I can pick up what's happening out there from inside the infirmary.`@
 br
-　保健室は校庭に面しているのだから、校庭の声はとてもよく聞こえるのだ。@
-　だから、こうして保健室の天井を見上げることしか出来なくても、……こんなにもみんなのことがわかる。\
+;　保健室は校庭に面しているのだから、校庭の声はとてもよく聞こえるのだ。@
+`　Since the infirmary faced the courtyard, I could hear the voices on campus really well.`@
+;　だから、こうして保健室の天井を見上げることしか出来なくても、……こんなにもみんなのことがわかる。\
+`　So, even though all I could do was look up at the ceiling like this... even like this, I can tell what everyone is doing.`\
 
 bg black,22
 fede 10,1000
 E_MA
 
-　こんなにも、みんなのことがわかるくらい、すぐ近くなのに。@
-　……なのに、私にはみんなの姿が見えなくて。@……私だけが、みんなの中に加われない。@
+;　こんなにも、みんなのことがわかるくらい、すぐ近くなのに。@
+`　Even though I can tell what everyone is doing -- it's as if they are so close to me...`@
+;　……なのに、私にはみんなの姿が見えなくて。@……私だけが、みんなの中に加われない。@
+`　...But I can't see anyone, `@`...I'm the only one who can't be with them.`@
 br
-　そんな、とても近いのに、とても遠い世界に自分がいることが、…………悲しかった。\
+;　そんな、とても近いのに、とても遠い世界に自分がいることが、…………悲しかった。\
+`　Even though they are so close, feeling I was in a world far removed from everyone...... I was sad.`\
 
 bg hoken_02,2
 ld r,hig_w4,22
 
-「くすくすくすくすくす……。@……さすがに今度は堪えたようね。@私の勝ちだわ、うっふふふふふ……。」\
+;「くすくすくすくすくす……。@……さすがに今度は堪えたようね。@私の勝ちだわ、うっふふふふふ……。」\
+`"Teeheeheehee... `@`...I knew this would be the last of it. `@`Looks like I win, Uhhuhuhuhuhuhu..."`\
 
 ld c,mar_def2,22
 
-「……はぁっ。@こういう時の彼岸花さんは、ちょっと軽蔑します。」@
+;「……はぁっ。@こういう時の彼岸花さんは、ちょっと軽蔑します。」@
+`"...Haa. `@`I've lost a little respect for you Higanbana-san."`@
 
 ld r,hig_w3,80
 
-「いいじゃない。@保健室のベッドで寝てみたいという夢を、叶えてあげたのだし。」\
+;「いいじゃない。@保健室のベッドで寝てみたいという夢を、叶えてあげたのだし。」\
+`"It's fine. `@`After all I've given her the favor of sleeping on an infirmary bed."`\
 
 ld c,mar_def3,80
 
-「……可哀想に。@みんなと一緒に体育、したかったでしょうに。」\
+;「……可哀想に。@みんなと一緒に体育、したかったでしょうに。」\
+`"...How sad. `@`She just wanted to go do P.E. with everyone."`\
 
 bg hoken_05,22
 
@@ -1156,81 +1166,116 @@ me1v 31,0
 
 fedexx 70,40,0,0,0,0,3000
 
-「保健室はね、校庭の声がとてもよく聞こえるのよ。@……誰が、どんなことをして、どんな遊びをしているのか。@……とてもよくわかるのよ。」@
+;「保健室はね、校庭の声がとてもよく聞こえるのよ。@……誰が、どんなことをして、どんな遊びをしているのか。@……とてもよくわかるのよ。」@
+`"You see, when you're in the infirmary you can really hear voices from outside. `@`...Whoever it is, what they're doing, or what they're playing `@`...you can tell easily."`@
 br
-　保健室の主は、遠くを見るような目で、そう言った。\
+;　保健室の主は、遠くを見るような目で、そう言った。\
+`　The master of the infiramry said with her eyes staring into the distance.`\
 
-「……こんなにも、みんなが楽しそうにしているのをすぐ近くで感じることが出来るのに。@……その姿を見ることも、加わることも出来ない。」@
+;「……こんなにも、みんなが楽しそうにしているのをすぐ近くで感じることが出来るのに。@……その姿を見ることも、加わることも出来ない。」@
+`"...Even though you can feel everyone enjoying themselves as if they're right next to you. `@`...You can't see them, nor can you be with them."`\
 br
-「それは、……彼岸花さんのこと、ですか……？」\
+;「それは、……彼岸花さんのこと、ですか……？」\
+`"Could this be about... you, Higanbana-san?..."`\
 
-「…………………。@それが学校妖怪の、……いえ、人ならざる世界の話だというだけのことよ。」\
+;「…………………。@それが学校妖怪の、……いえ、人ならざる世界の話だというだけのことよ。」\
+`"...... `@`This is about all school youkai, ......or rather, non-human beings."`\
 
 bg black,22
 
 fede 10,1000
 E_MA
 
-　……死後の世界って、……こういうところなのかな。@
+;　……死後の世界って、……こういうところなのかな。@
+`　...Is that what it means... to have life after death... I wonder.`@
 br
-　少女も、同じことを思う。\
+;　少女も、同じことを思う。\
+`　The girl was thinking the same.`\
 
-　もし。@私が死んだなら。@
+;　もし。@私が死んだなら。@
+`　If. `@`If I died.`@
 br
-　……まだまだこの世に未練があるから、きっと成仏しないで、幽霊になりたいと願うだろう。\
+;　……まだまだこの世に未練があるから、きっと成仏しないで、幽霊になりたいと願うだろう。\
+`　...Since I still have many regrets in this world, I probably would wish to turn into a ghost without resting in peace.`\
 
-　幽霊になったら、私はどこにいるんだろう？@
+;　幽霊になったら、私はどこにいるんだろう？@
+`　After becoming a spirit, where would I go?`@
 br
-　私は学校が楽しいし。@
-　考えてみれば、家で過ごすより、学校で過ごす時間の方が多いと思う。@
+;　私は学校が楽しいし。@
+`　School is fun.`@
+;　考えてみれば、家で過ごすより、学校で過ごす時間の方が多いと思う。@
+`　If I think about it, I spend more time at school than I do at home.`@
 br
-　だからきっと、……私が幽霊になったら、学校に出る幽霊になると思う。@
+;　だからきっと、……私が幽霊になったら、学校に出る幽霊になると思う。@
+`　So definitely... if I were to become a ghost, I think I would become a school ghost.`@
 br
-　そんなことを、これまで漠然と考えてきた。\
+;　そんなことを、これまで漠然と考えてきた。\
+`(?)　I thought about that absentmindedly for a time.`\
 
-　……しかし、今、こうして保健室で横になり、@……校庭で楽しそうにしているみんなの声だけが聞こえていると。@
+;　……しかし、今、こうして保健室で横になり、@……校庭で楽しそうにしているみんなの声だけが聞こえていると。@
+`　...But, right now, next to this infirmary, `@`...all I could hear was the sound of everyone's voices seemingly having so much fun.`@
 br
-　それはちょっぴり、………寂しいことなのかなと、思えてしまうのだ。\
+;　それはちょっぴり、………寂しいことなのかなと、思えてしまうのだ。\
+`　I started to feel just a bit... lonely, I suppose?`\
 
-　私はこんなにもみんなの近くにいて。@
-　みんなが何をして遊んでいるのか、手に取るようにわかるのに。@
+;　私はこんなにもみんなの近くにいて。@
+`　I'm this close to everyone.`@
+;　みんなが何をして遊んでいるのか、手に取るようにわかるのに。@
+`　Even though I can tell what everyone is doing and what games they're playing.`@
 br
-　………でも、みんなに加わることは出来なくて。@その姿を見ることさえ、叶わない。\
+;　………でも、みんなに加わることは出来なくて。@その姿を見ることさえ、叶わない。\
+`　...I can't count myself as one of them. `@`My simple wish to even see their faces can't be granted.`\
 
 bg hoken_03,22
 
-「…………やだな。@………そんな幽霊。」@
+;「…………やだな。@………そんな幽霊。」@
+`"...I'd hate it. `@`...Being a ghost like that."`@
 br
-　でも、ここで寝ている自分は今、学校の幽霊なのだ。@
-　……私、……ひょっとして、さっき下駄箱で頭を打った時。@……実は死んでいて、……ベッドの上で、死体になっているんじゃないか。@
-　そんな妄想が過ぎる。\
+;　でも、ここで寝ている自分は今、学校の幽霊なのだ。@
+`　But, sleeping here now, I am a school ghost.`@
+;　……私、……ひょっとして、さっき下駄箱で頭を打った時。@……実は死んでいて、……ベッドの上で、死体になっているんじゃないか。@
+`　...Perhaps, ...when I hit my head on the shoe lockers, `@`...I really died, ...perhaps I've become a corpse on this bed?`@
+;　そんな妄想が過ぎる。\
+`　That strange idea crossed my mind.`\
 
-　それが怖くて、……両手の指をもぞもぞと動かす。@
-　……動く。@……私は、死体じゃない。\
+;　それが怖くて、……両手の指をもぞもぞと動かす。@
+`　It was scary, ...I concentrated on wiggling my fingers.`@
+;　……動く。@……私は、死体じゃない。\
+`　...They move. `@`...I'm not a corpse.`\
 
-　でも、ここで寝てる限り、………死体なんだ。@幽霊なんだ。@
+;　でも、ここで寝てる限り、………死体なんだ。@幽霊なんだ。@
+`　But as long as I'm sleeping here... I am a corpse. `@`I'm a ghost.`@
 br
-　……幽霊って、もっと楽しいものだと思ってた。@
-　好きに姿を消したり、不思議な悪戯をしたりして、……いつまでもみんなと一緒にいられるものだと思ってた。\
+;　……幽霊って、もっと楽しいものだと思ってた。@
+`　...I thought being a ghost would be more fun.`@
+;　好きに姿を消したり、不思議な悪戯をしたりして、……いつまでもみんなと一緒にいられるものだと思ってた。\
+`　Disappearing at will, pulling mysterious pranks, ...and I thought I'd could always be with everyone.`\
 
-　嫌だ。@
-　こんなの幽霊ですらない。@……嫌だ、こんな死体みたいな自分………。\
+;　嫌だ。@
+`　I hate this. `@`
+;　こんなの幽霊ですらない。@……嫌だ、こんな死体みたいな自分………。\
+`　I don't want to be a ghost like this. `@`...I hate this -- being like a corpse...`\
 
 bg black,22
 bg hoken_02,22
 se1v 69,20
 
-　チャイムが鳴り、５時間目の終わりを告げる。@
+;　チャイムが鳴り、５時間目の終わりを告げる。@
+`　The chime sounds, signalling the end of fifth period.`@
 me1v 23,20
-　すると、電話が鳴った。@
+;　すると、電話が鳴った。@
+`　Then the phone rang.`@
 br
 e_m1
 se1 53
-　保健の先生が受話器を取る。\
+;　保健の先生が受話器を取る。\
+`　The nurse picked up the receiver.`\
 
-　あーあー、お世話になってますー、えぇえぇ、どーもー。@
+;　あーあー、お世話になってますー、えぇえぇ、どーもー。@
+`　Mmmhmmm, you've been a great help, yeaaah, thank youuuu~`@
 br
-　そんなことを言いながら受話器を置くと、私の様子をちらりと見てから、保健室を出て行ってしまった。\
+;　そんなことを言いながら受話器を置くと、私の様子をちらりと見てから、保健室を出て行ってしまった。\
+`　Saying that, she put down the receiver, and after briefly checking my condition, she left the infirmary.`\
 
 bg black,22
 
@@ -1242,31 +1287,45 @@ bg hoken_03,2
 
 me1v 11,90
 
-　足音が遠ざかり、……保健室はシンと静まり返る。@
+;　足音が遠ざかり、……保健室はシンと静まり返る。@
+`　As her footsteps faded... silence fell over the infirmary.`@
 br
-　私はゆっくりと体を起こす。@
+;　私はゆっくりと体を起こす。@
+`　Slowly I began to get up.`@
 br
-　……あ、いつの間にか大丈夫。@
-　運びこまれた時は、あんなにも体が重かったのに。@今はもう、すっかり元通りだった。\
+;　……あ、いつの間にか大丈夫。@
+`　...Ah, suddenly I'm feeling better.`@
+;　運びこまれた時は、あんなにも体が重かったのに。@今はもう、すっかり元通りだった。\
+`　When I was carried in, my had felt so heavy. `@`But now I already felt completely better.`\
 
 
-「……私、いつまでここにいればいいのかな……。」@
+;「……私、いつまでここにいればいいのかな……。」@
+`"...I wonder how long I should wait here..."`@
 br
-　首を回したり、肩を回したりしてみる。@
-　恐る恐る頭の包帯にも触れてみる。@
-　…………………。\
+;　首を回したり、肩を回したりしてみる。@
+`　I tried rotating my neck and shoulders.`@
+;　恐る恐る頭の包帯にも触れてみる。@
+`　Fearfully, I tried touching the bandage on my head.`@
+;　…………………。\
+`　.........`\
 
-「うん。@へっちゃら。」@
+;「うん。@へっちゃら。」@
+`"Yeah. `@`It's good."`@
 br
-　……早く、保健の先生、戻ってこないかな。@
+;　……早く、保健の先生、戻ってこないかな。@
+`　...I wonder, will the nurse hurry back soon?`@
 br
-　今から戻れば、清掃の時間には間に合う。@
-　今日の学校生活で、今から参加可能な、最後の行事だ。\
+;　今から戻れば、清掃の時間には間に合う。@
+`　If I head back now, I might make it in time to help clean up the classroom.`@
+;　今日の学校生活で、今から参加可能な、最後の行事だ。\
+`　It's the last possible activity I can get involved in at school today.`\
 
 bg black,2
 
-　しばらく先生の帰りを待ってみたが、……一向に帰って来ない。@
-　……………………………。\
+;　しばらく先生の帰りを待ってみたが、……一向に帰って来ない。@
+`　I tried waiting for the nurse's return for a while... but she didn't come.`@
+;　……………………………。\
+`　..........`\
 
 bgm1 1
 
@@ -1274,35 +1333,48 @@ E_MA
 se1v 13,50
 bg hoken_01,26
 
-「もう、死体の役、やーめた。@……私、幽霊になっちゃおう。」@
+;「もう、死体の役、やーめた。@……私、幽霊になっちゃおう。」@
+`"Well, I've given up the role of corpse. `@`...I'll become a ghost."`@
 br
-　私はベッドから起き出し、上履きを履く。\
+;　私はベッドから起き出し、上履きを履く。\
+`　I got up out of bed and put on my indoor slippers.`\
 
-　私のなりたい幽霊というのは、自由に学校を闊歩して、みんなと一緒に色々と遊べる存在。@
+;　私のなりたい幽霊というのは、自由に学校を闊歩して、みんなと一緒に色々と遊べる存在。@
+`　The ghost I want to be, is one that can freely go around the school and play all sorts of games with everyone.`@
 br
-　今からそれになろう。\
+;　今からそれになろう。\
+`　I'll make myself one from now on.`\
 
 se2 82
 bg white,24
 bg "bmp\background\school\rouka_03.bmp",24
 
-　保健室の扉をそろりと開ける。@
+;　保健室の扉をそろりと開ける。@
+`　I smoothly opened the infirmary door.`@
 br
-　廊下は、たくさんの喧騒で溢れていた。@
-　はしゃぎ声や笑い声。@大勢が行き交う音や階段の音。@
-　人間の、確かに生きてることを示す、生活感に満ちた音が溢れていた。\
+;　廊下は、たくさんの喧騒で溢れていた。@
+`　The hallway was overflowing with noise.`@
+;　はしゃぎ声や笑い声。@大勢が行き交う音や階段の音。@
+`　Joyful voices. Laughing voices. `@`The sound of many going back and forth. The sound of them on stairwells.`@
+;　人間の、確かに生きてることを示す、生活感に満ちた音が溢れていた。\
+`　Showing signs of people, those who were certainly alive, were sounds overflowing with the sensation of life.`\
 
-　そうだ。@こっちが生きてる世界なんだ。@
+;　そうだ。@こっちが生きてる世界なんだ。@
+`　That's right. `@`This is the world of the living.`@
 br
-　私は保健室で死んでるのを止め、……廊下に出る。\
+;　私は保健室で死んでるのを止め、……廊下に出る。\
+`　I stopped being dead in the infirmary, ...and left into the hallway.`\
 
 bg white,23
 bg kaidan_01,23
 
-　帰ろう。@自分の教室へ。@
-　そして掃除に参加しよう。@
+;　帰ろう。@自分の教室へ。@
+`　I'm heading back. `@`I'm off to my classroom.`@
+;　そして掃除に参加しよう。@
+`　And I'll help with cleaning up.`@
 br
-　私はささっと抜け出し、教室へ戻る。\
+;　私はささっと抜け出し、教室へ戻る。\
+`　I quickly snuck off and returned to my class.`\
 
 bg kaidan_02,23
 wait 1000
@@ -1310,171 +1382,246 @@ bg kyou_04,25
 
 wait 2000
 
-「陽子ちゃん、大丈夫？！　その頭ぁ！」@
-「うん、もう全然平気。@包帯も痒いし。」@
-「勝手に取らない方がいいよー。」@
+;「陽子ちゃん、大丈夫？！　その頭ぁ！」@
+`"Youko-chan, are you alright?! Look at your head~!"`@
+;「うん、もう全然平気。@包帯も痒いし。」@
+`"Yeah, I'm completely fine now. `@`My bandage itches too."`@
+;「勝手に取らない方がいいよー。」@
+`"Just don't go and take it off~"`@
 br
-　包帯の頭にみんなが心配の声を掛けてくれる。\
+;　包帯の頭にみんなが心配の声を掛けてくれる。\
+`　Everyone voiced their concern for the bandage on my head.`\
 
-　普段、あまり縁のない子まで、大丈夫？と声を掛けてくれた。@
-　そういう気持ちがとても嬉しい。\
+;　普段、あまり縁のない子まで、大丈夫？と声を掛けてくれた。@
+`　Normally completely unconcerned people even asked me if I was alright.`@
+;　そういう気持ちがとても嬉しい。\
+`　Feeligns like those made me feel so happy.`\
 
 bg kyou_03,22
 
-　みんなは、掃除しないで休んでればと言ってくれたが、私はそれを断る。@
+;　みんなは、掃除しないで休んでればと言ってくれたが、私はそれを断る。@
+`　Everyone kindly asked me to rest instead of clean, but I refused.`@
 br
-　せめてお掃除くらい、みんなと一緒にしたい！@
-　だって、楽しいもの。@
+;　せめてお掃除くらい、みんなと一緒にしたい！@
+`　At the very least, I want to clean the room with everyone!`@
+;　だって、楽しいもの。@
+`　Because after all, it's fun.`@
 br
-　学校の一日の、最後の行事じゃない。\
+;　学校の一日の、最後の行事じゃない。\
+`　It's the very last thing in a school day.`\
 
 bg white,2
 bg rika_04,2
 
-　私の班は理科室の掃除。@
+;　私の班は理科室の掃除。@
+`　My job was cleaning the science room.`@
 br
-　椅子を机の上に上げ、みんなで箒を持って駆け回る。@
-　掃き掃除をしてるというより、追いかけっこをしてる感じ。\
+;　椅子を机の上に上げ、みんなで箒を持って駆け回る。@
+`　Putting the chairs on top of the desks, everyone began going around the room with brooms.`@
+;　掃き掃除をしてるというより、追いかけっこをしてる感じ。\
+`　More than sweeping the floors, it felt like we were chasing each other around.`\
 
-　だって、私は昼休みも体育の時間もやってない。@
-　だから、一日のエネルギーの全てをこの掃除の時間に吐き出すのだ。\
+;　だって、私は昼休みも体育の時間もやってない。@
+`　After all, I didn't get my P.E. in during recess.`@
+;　だから、一日のエネルギーの全てをこの掃除の時間に吐き出すのだ。\
+`　So I put out every bit of energy I had today into time I had to clean up.`\
 
 bg rika_03,24
 
-「あっはははははは…！@　待ちなさいよ、こらーっ。」@
-「やめてやめて、ちょっとやめてよ、陽子ー！@　あっはははははははは…！」\
+;「あっはははははは…！@　待ちなさいよ、こらーっ。」@
+`"Ahhahhahahaha...! `@`Wait up, hey~"`@
+;「やめてやめて、ちょっとやめてよ、陽子ー！@　あっはははははははは…！」\
+`"Stop stop, stop that~ Youko~! `@`Ahahhahahahaha...!"`\
 
-　どったんばったんと。@まるで猫が鼠を追い回す古いアニメみたいに、私たちははしゃぎ合う。@
+;　どったんばったんと。@まるで猫が鼠を追い回す古いアニメみたいに、私たちははしゃぎ合う。@
+`(?)　Leaping and pouncing. `@`Like old cartoons of cats chasing mice, we played.`@
 br
-　時に滑って転んだり、机の角に体をぶつけたりもするが、あまりに楽しくてへっちゃらだった。\
+;　時に滑って転んだり、机の角に体をぶつけたりもするが、あまりに楽しくてへっちゃらだった。\
+`　Sometimes we'd slip and fall, or bump into the corners of the desks, but we were having so much fun we didn't feel a thing.`\
 
 ld c,non_def6a,24
 
-「……何やってんのかな、女子は。@あれじゃあ、物を壊すぞ…。」@
+;「……何やってんのかな、女子は。@あれじゃあ、物を壊すぞ…。」@
+`"...What are you girls doing? `@`If you run around like that, you'll break something..."`@
 ;＜野々宮
 se1 3
-「ごめんね、野々宮くーん！@　そこどいてー！@/
+;「ごめんね、野々宮くーん！@　そこどいてー！@/
+`"Sorry, Takeshi Nonomiya-kuuun! `@`Out of the way!`@/
 cl c,0
 ld r,non_def6a,23
-　きゃー！@　あっはははははははは！」@
-「ちょこまかとー！@　こら待てー！@/
+;　きゃー！@　あっはははははははは！」@
+`　Kya~! `@`Ahahahahhahahaha!"`@
+;「ちょこまかとー！@　こら待てー！@/
+`"She's still going~! `@`Hey stop~!`@/
 se2 3
-　そりゃー！」\
+;　そりゃー！」\
+`　Take that~!"`\
 
 se3 7
 
-　理科準備室から理科室へ逃げる友達を追う私の箒が、何かを引っ掛けた。@
+;　理科準備室から理科室へ逃げる友達を追う私の箒が、何かを引っ掛けた。@
+`　The broom I was using to chase after my friends who ran from the science prep room to the labratory got caught on something.`@
 ;se1 1006
 se1 12
 quakey 2,300
 
-　え、何？　と思ったら、………ガッシャーンと大きな音。\
+;　え、何？　と思ったら、………ガッシャーンと大きな音。\
+`　Eh? What? I thought, ...and then came a loud splat.`\
 
-「ぅわ、…………ひゃあ…………。」@
+;「ぅわ、…………ひゃあ…………。」@
+`"uWah, ....HyAH..."`@
 
 ld r,non_def5a,80
 
-「……ほら。@言わんこっちゃない。」@
+;「……ほら。@言わんこっちゃない。」@
+`"...See! `@`Didn't I tell you?"`@
 ;＜野々宮
-「だ、大丈夫ぅ？　陽子ぉ……。」\
+;「だ、大丈夫ぅ？　陽子ぉ……。」\
+`"Are, are you okayy? Youko~?..."`\
 
 bg rika_04,22
 
-「私は大丈夫だけど……。@……こっちの人は、大丈夫じゃないみたい。」@
+;「私は大丈夫だけど……。@……こっちの人は、大丈夫じゃないみたい。」@
+`"I'm fine but... `@`...It doesn't look like this person is doing so well."`@
 br
-　私が引っ掛けたのは、……あの理科室でお馴染みの、グロテスクな人体標本。@
-　床に引っ繰り返って、いくつかの部品にばらけて壊れてしまった。\
+;　私が引っ掛けたのは、……あの理科室でお馴染みの、グロテスクな人体標本。@
+`　What I had caught on was... the science room's friendly, grotesque human anatomy dummy.`@
+;　床に引っ繰り返って、いくつかの部品にばらけて壊れてしまった。\
+`　He had been toppled to the floor, breaking into countless pieces.
 
-「だ、大丈夫……。@黙ってればバレないよ……。」@
+;「だ、大丈夫……。@黙ってればバレないよ……。」@
+`"It's... It's fine... `@`If we keep quiet, they won't think it was us..."`@
 
-「………………………………。」@
+;「………………………………。」@
+`"........."`@
 ;＜野々宮
-「行こ、陽子……。@……陽子？」\
+;「行こ、陽子……。@……陽子？」\
+`"Let's go, Youko... `@`...Youko?"`\
 
 bg black,22
 bg rika_02,0
 ld c,non_def4a,22
 
-　同じ班の、……眼鏡を掛けた男子と、目が合う。@
-　……えっと、確か、野々宮くん。@
-　あんまり話したことがない男子だけど、………………………。@
+;　同じ班の、……眼鏡を掛けた男子と、目が合う。@
+`　I met with the eyes of the boy with glasses, ...who had the same job I did.`@
+;　……えっと、確か、野々宮くん。@
+`　...Um, that's Takeshi Nonomiya-kun.`@
+;　あんまり話したことがない男子だけど、………………………。@
+`　He's not really a boy I've talked to much but.........`@
 br
-　呆れた顔をしてる。@
-　…………………。\
+;　呆れた顔をしてる。@
+`　He had a shocked look on his face.`@
+;　…………………。\
+`　......`\
 
-「ごめんね、野々宮くん。@……物を壊すぞって注意してくれたのに。ごめんね。」@
+;「ごめんね、野々宮くん。@……物を壊すぞって注意してくれたのに。ごめんね。」@
+`"Sorry, Takeshi Nonomiya-kun. `@`...Even though you warned me saying, 'Don't break anything!' I'm sorry."`@
 
 ld c,non_def5a,80
 
-「……僕に謝られても困るよ。@先生に謝ってよ。」\
+;「……僕に謝られても困るよ。@先生に謝ってよ。」\
+`"...Even if you apologize to me, I'll be in trouble. `@`Apologize to the teacher."`\
 
-「うん。@そうだね。@/
+;「うん。@そうだね。@/
+`"Yeah. `@`You're right.`@/
 se1 82
 bg white,23
 bg rouka_02,23
-………ごめーん、なっちゃーん。@私、先生に謝ってくるね！」@
-「えー、黙ってればわからないってー。」@
-「だーめ。@謝るのっ。@壊したのは私だし。@なっちゃんは関係ないから待ってて。」@
-「ちょっと、……陽子ぉ～！」\
+;………ごめーん、なっちゃーん。@私、先生に謝ってくるね！」@
+`...Sorry~, Nacchan~. `@`I'm gonna go apologize to the teacher, kay?!"`@
+;「えー、黙ってればわからないってー。」@
+`"Whaa, I said he won't know as long as you keep quiet about it~"`@
+;「だーめ。@謝るのっ。@壊したのは私だし。@なっちゃんは関係ないから待ってて。」@
+`"We can't do that. `@`I'm gonna apologize. `@`I'm the one who broke it. `@`Nacchan you had nothing to do with it, so wait here."`@
+;「ちょっと、……陽子ぉ～！」\
+`"Waaait ...Youko~!"`\
 
 bg black,23
 
-　私は野々宮くんの前を通り過ぎて、……職員室へ駆けていく。@
-　そこには保健の先生もいて、黙って帰らないようにとダブルで怒られた。\
+;　私は野々宮くんの前を通り過ぎて、……職員室へ駆けていく。@
+`　I went past Takeshi Nonomiya-kun, ...and ran to the staff room.`@
+;　そこには保健の先生もいて、黙って帰らないようにとダブルで怒られた。\
+`　The teacher from the infirmary was there as well, so I got double scolded to be quiet and not to leave.`\
 
-　……心の中にちょっぴり、黙ってればバレないかもって気持ちがあったのは事実。@
+;　……心の中にちょっぴり、黙ってればバレないかもって気持ちがあったのは事実。@
+`　...I did have the small thought of keeping quiet so I wouldn't be found out in my mind -- that much was true.`@
 br
-　でも、そんな気持ちのまま今日を終えたら、ずっと心にそれが残って、気分がすっきりしないに決まってる。@
+;　でも、そんな気持ちのまま今日を終えたら、ずっと心にそれが残って、気分がすっきりしないに決まってる。@
+`　But, if I ended a day like today with feelings like those, they'll stay on my conscience, and obviously, I'll feel bad.`@
 br
-　だから、先生には怒られたけれど、………心はとっても晴れやかだった。\
+;　だから、先生には怒られたけれど、………心はとっても晴れやかだった。\
+`　So I'll got yelled at by the teacher, ...but my mind was clear.`\
 
 bg white,2
 bg kyou_02,2
 
-　掃除の時間の悪ふざけをいっぱい満喫して。@
-　いよいよ帰りのホームルーム。@
-　先生から連絡事項を聞き、気を付けて帰るようにと念を押される。@
+;　掃除の時間の悪ふざけをいっぱい満喫して。@
+`　I've had my fill of plenty of hijinks during cleaning duty.`@
+;　いよいよ帰りのホームルーム。@
+`　Finally it was time to go back to home room.`@
+;　先生から連絡事項を聞き、気を付けて帰るようにと念を押される。@
+`　We listened to the teacher tell us to make sure to take care when going home.`@
 br
-　そして、起立。@
-　礼。\
+;　そして、起立。@
+`　Then we stood.`@
+;　礼。\
+`　Bowed.`\
 
 bg kyou_03,22
 
-「「「さよーならーーーー！！」」」@
+;「「「さよーならーーーー！！」」」@
+`"""Good-bye~~~~!!"""`@
 br
-　クラスメート全員での最後の大合唱。@
-　朝のおはようございますに比べ、開放感から、みんなが一番気持ちよく合唱できるのだ。\
+;　クラスメート全員での最後の大合唱。@
+`　All my classmates rang out in a great chorus.`@
+;　朝のおはようございますに比べ、開放感から、みんなが一番気持ちよく合唱できるのだ。\
+`　Compared to their greetings this morning, everyone called it out with pleasant feelings of liberation.`\
 
 se1v 82,90
 quakex 3,300
-　そして、がたがたと一斉に賑やかになって。@
-　帰ろー、一緒に帰ろー。@今日、帰り、誰々ん家に寄ってかね？　いーねー、いこいこ！@
-　なんて感じに賑やかになる。\
+;　そして、がたがたと一斉に賑やかになって。@
+`　Then everyone started hurriedly chatting all at once.`@
+;　帰ろー、一緒に帰ろー。@今日、帰り、誰々ん家に寄ってかね？　いーねー、いこいこ！@
+`　Let's go, let's walk together~. `@`Today, on the way back, want to stop by my place? Sounds good to me, let's go let's go!`@
+;　なんて感じに賑やかになる。\
+`　Suddenly everything feels so rushed.`\
 
-「陽子～、一緒に帰ろー！」@
+;「陽子～、一緒に帰ろー！」@
+`"Youko~ Let's go together~!"`@
 br
-　友達が声を掛けてくる。@
-　私は満面の笑顔で応えるのだ。\
+;　友達が声を掛けてくる。@
+`　My friend spoke.`@
+;　私は満面の笑顔で応えるのだ。\
+`　I answered with a wide smile.`\
 
-「ごめん。@今日はちょっと学校で用事があるの。@だから、みんなは先に帰ってて。」@
-「そう？　ふーん。@……じゃあね！@　また明日ね！@　ばいば～い！！」@
-「うんっ。@ばいばーい！@　また明日ねーっ。」\
+;「ごめん。@今日はちょっと学校で用事があるの。@だから、みんなは先に帰ってて。」@
+`"Sorry. `@`I have a bit of business to take care of at school. `@`So leave without me."`@
+;「そう？　ふーん。@……じゃあね！@　また明日ね！@　ばいば～い！！」@
+`"Oh? `@`Hmmmm. `@`...Later then! `@`See you tomorrow! `@`Bye bye~!!"`@
+;「うんっ。@ばいばーい！@　また明日ねーっ。」\
+`"Yeah. `@`Bye bye~! `@`See you tomorrow~!"`\
 
-　みんなは一斉に駆け出して教室を飛び出していく。@
-　他のクラスもそれぞれホームルームを終え、廊下は帰りを急ぐ子たちで大賑わいになる。\
+;　みんなは一斉に駆け出して教室を飛び出していく。@
+`　Everyone took off dashing together out of the classroom.`@
+;　他のクラスもそれぞれホームルームを終え、廊下は帰りを急ぐ子たちで大賑わいになる。\
+`　The other classes home room periods began to end one after another, the hallway was bustling with kids hurrying home.`\
 
-　その賑わいも、わいわいざわざわも、少しずつ遠退いていく。@
+;　その賑わいも、わいわいざわざわも、少しずつ遠退いていく。@
+`　Even that bustling, with its noise and chattering, began to fade away little by little.`@
 
 bg rouka_03,2
 wait 2000
 bg kaidan_01,2
 
 br
-　廊下から階段へ。@/
+;　廊下から階段へ。@/
+`　From the hallway, to the stairwell.`@/
 bg shoukou_01,22
-階段から昇降口へ。@
+;階段から昇降口へ。@
+`From the stairs, to the entrance.`@
 br
-　そして校庭へと散り、……学校は静寂に、満たされていく。\
+;　そして校庭へと散り、……学校は静寂に、満たされていく。\
+`　Then dispersing to the schoolyard, ...the school began to fill with silence.`\
 
 bg black,2
 
@@ -1487,29 +1634,41 @@ bg kyou_02u,42
 
 bgm1 4
 
-　日は少しずつ傾き、教室の中を黄昏色に染める。@
-　先生が閉め忘れた窓から、涼しい風が入って、わずかにカーテンを揺らした。@
+;　日は少しずつ傾き、教室の中を黄昏色に染める。@
+`　The sun slowly began to wane, painting the inside of the classroom orange.`@
+;　先生が閉め忘れた窓から、涼しい風が入って、わずかにカーテンを揺らした。@
+`　From the window the teacher forgot to close, a cool wind blew, causing the curtains to gently sway.`@
 br
-　その、風が膨らます白いカーテンの束が、……私が小さい頃に大好きだった、白いドレスのことを思い出させる。\
+;　その、風が膨らます白いカーテンの束が、……私が小さい頃に大好きだった、白いドレスのことを思い出させる。\
+`　And, the white bundle the wind expanded in the curtains, ...was something I loved seeing since I was a child, because it would remind me of white dresses.`\
 
-　また明日ね。@ばいばい、か。@
-　また明日、会えるから。@それまでばいばいって意味だよね。\
+;　また明日ね。@ばいばい、か。@
+`　See you tomorrow. `@`Bye bye, huh?`@
+;　また明日、会えるから。@それまでばいばいって意味だよね。\
+`　See you tomorrow, because we can meet again. `@`That's what farewell means, right?`\
 
 bg black,22
-　…………ばいばい、みんな。@
-　さよなら……。\
+;　…………ばいばい、みんな。@
+`　......Bye bye, everyone.`@
+;　さよなら……。\
+`　Goodbye...`\
 
-　私は黄昏色の教室をもう一度見渡す。@
-　それから、ゆっくりと立ち上がり、教室を後にする。\
+;　私は黄昏色の教室をもう一度見渡す。@
+`　I look over the orange classroom once more.`@
+;　それから、ゆっくりと立ち上がり、教室を後にする。\
+`　Then I slowly stand up and leave the classroom.`\
 
 bg kyou_04,3
 wait 1000
 bg kaidan_02,2
 
-　みんなは、昇降口へ向かうから階段を下へ。@
-　私は、上へ。@
+;　みんなは、昇降口へ向かうから階段を下へ。@
+`　Everyone went from the stairs to the entrance below.`@
+;　私は、上へ。@
+`　I'm heading up.`@
 br
-　一歩一歩を踏みしめながら、上へ、上へ。屋上へ。\
+;　一歩一歩を踏みしめながら、上へ、上へ。屋上へ。\
+`　With each step I took, up, up, to the roof.`\
 
 bg "bmp\background\school\kaidan_03u.bmp",5
 wait 2000
@@ -1527,9 +1686,11 @@ bg white,2
 
 bg "bmp\background\school\Air_01.bmp",6
 
-　屋上の扉を開けると、……素晴らしい夕日が私を迎えてくれた。@
+;　屋上の扉を開けると、……素晴らしい夕日が私を迎えてくれた。@
+`　Opening the door to the roof, ...I was greeted by the spectacular setting sun.`@
 br
-　その夕日を背負って、二人の人影が。\
+;　その夕日を背負って、二人の人影が。\
+`　There were two shadowed figures with that sun behind them.`\
 
 bg okujou_01u,42
 wait 2000
@@ -1542,60 +1703,80 @@ wait 2000
 
 
 ld c,mar_w2,80
-「…………どうでしたか。@沼田陽子さん。」\
+;「…………どうでしたか。@沼田陽子さん。」\
+`"......How was it? `@`Youko Numata-san?"`\
 
 bg "bmp\background\school\Air_01.bmp",3
 
 ld r,yo2_def1,24
-「はい。@……とっても楽しい一日でした。」@
+;「はい。@……とっても楽しい一日でした。」@
+`"Yes. `@`...It was a really fun day."`@
 
 ld l,hig_w2,22
-「くすくす。@色々と酷い目にも遭ったんじゃない？」\
+;「くすくす。@色々と酷い目にも遭ったんじゃない？」\
+`"*giggle*. `@`You met with all sorts of problems though, didn't you?"`\
 
 ld r,yo2_def2,80
-「はい。@転んだり、遅刻したり。@忘れ物をしたり怒られたり。@怪我をして保健室に運ばれたりもしたけれど。@………もう、色んなことがいっぱいいっぱいで、……とても、楽しかったです。」\
+;「はい。@転んだり、遅刻したり。@忘れ物をしたり怒られたり。@怪我をして保健室に運ばれたりもしたけれど。@………もう、色んなことがいっぱいいっぱいで、……とても、楽しかったです。」\
+`"Yes. `@`I tripped. I was late. `@`I forgot things. I got yelled at. `@`I hurt myself, and was sent to the infirmary. `@`...But, I have done so many many things, ...and it was... a lot of fun."`\
 
 ld l,hig_w1,80
-「………………くす。@負けたわ。@どう？　これで気が済んだ？」@
+;「………………くす。@負けたわ。@どう？　これで気が済んだ？」@
+`"......Eheh. `@`I lost. `@`Well? Satisfied now?"`@
 
 ld r,yo2_def1,80
-「はい。@……幽霊として居残るのは、やっぱりとても寂しいことです。@私には、ちょっと出来そうにありません。」\
+;「はい。@……幽霊として居残るのは、やっぱりとても寂しいことです。@私には、ちょっと出来そうにありません。」\
+`"Yes. `@`...Staying behind as a ghost seems really lonely. `@`I don't think I could quite handle it."`\
 
 ld l,hig_def1,80
-「私もそれがいいと思うわ。@幽霊なんて、楽しいことなんて何もないわよ。@……妖怪だってそう。@だって、私たちには下校はない。@……帰るところはないんだから。」\
+;「私もそれがいいと思うわ。@幽霊なんて、楽しいことなんて何もないわよ。@……妖怪だってそう。@だって、私たちには下校はない。@……帰るところはないんだから。」\
+`"I think that's fine too. `@`Being a spirit, there's nothing fun about it. `@`...The same for Youkai. `@`I mean, we can't leave school. `@`...Because we have no where to return to."`\
 
 ;bg "bmp\background\school\Air_01.bmp",6
 
 cl a,2
 
-「……はい。@……だからもう、帰ろうと思います。」\
+;「……はい。@……だからもう、帰ろうと思います。」\
+`"...Yes. `@`...So I think I'll head home."`\
 
-　私は夕日に照らされる校庭を見下ろす。@
-　部活に勤しむ子。@まだまだ遊び足りなくて遊具で遊んでる子。@色んな子が見えた。@
+;　私は夕日に照らされる校庭を見下ろす。@
+`　I looked down on the courtyard illuminated by the evening sun.`@
+;　部活に勤しむ子。@まだまだ遊び足りなくて遊具で遊んでる子。@色んな子が見えた。@
+`　Kids hard at work with club activities. `@`Kids that haven't had their fill of fun just yet playing with the equipment. `@`I can see all kinds of them.`@
 br
 
 
-　かつて、私もあの中の一人だったんだ。@
-　そして今日。@私は確かに、あの中の一人だったんだ。\
+;　かつて、私もあの中の一人だったんだ。@
+`　Once, I was one of them.`@
+;　そして今日。@私は確かに、あの中の一人だったんだ。\
+`　And today, `@`I surely was one of them.`\
 
-　もう。@思い残すことなんてない。@
-　今日の感想はたったの一言。\
+;　もう。@思い残すことなんてない。@
+`　Now. `@`I have no regrets.`@
+;　今日の感想はたったの一言。\
+`　I had only one thing to say about how I felt today.`\
 
 bg okujou_01u,22
 mld c,yo2_def3n,22
 
-「すごく、……楽しかったです。@学校って、……こんなにも楽しい一日だったんですね。@……生きてる内に、気付きたかったな。@はは、はははははははは……。」@
+;「すごく、……楽しかったです。@学校って、……こんなにも楽しい一日だったんですね。@……生きてる内に、気付きたかったな。@はは、はははははははは……。」@
+`"It was really ...a lot of fun. `@`In school, ...I had one fun day like this, didn't I? `@`...I wish that I had paid more attention, when I was alive. `@`Haha, hahahahahaha...."`@
 
 ld r,MAR_def4,22
 
-「……沼田さん……。」\ ;＜毬枝
+;「……沼田さん……。」\ ;＜毬枝
+`"...Numata-san..."`\
 
 mld c,yo2_def2n,80
 
-　私は笑い続けた。@
-　愉快だったから。@楽しかったから。@
-　こんな素敵な一日の終わりを、笑って終えられるなんて。@
-　それがとてもとても嬉しくて。@……いつまでもいつまでも、笑っていた…。\
+;　私は笑い続けた。@
+`　I continued to laugh.`@
+;　愉快だったから。@楽しかったから。@
+`　Because I was happy. `@`Because I had fun.`@
+;　こんな素敵な一日の終わりを、笑って終えられるなんて。@
+`　Being able to end such a wonderful day with a laugh...`@
+;　それがとてもとても嬉しくて。@……いつまでもいつまでも、笑っていた…。\
+`　That made me so, so happy. `@`...For the longest time, I laughed...`\
 
 mcl c,0
 bg "bmp\background\school\Air_01.bmp",42
@@ -1604,34 +1785,42 @@ bg "bmp\background\school\Air_01.bmp",42
 ld r,hig_w1,22
 ld r,hig_w3,80
 
-「約束。@……忘れてないわよね？」@
+;「約束。@……忘れてないわよね？」@
+`"Your promise. `@`...You haven't forgotten have you?"`@
 
 ld c,yo2_def1,24
 
-「はい。@よろしくお願いします。」\
+;「はい。@よろしくお願いします。」\
+`"No. `@`Please."`\
 
 ld l,mar_def4a,22
 
-「……彼岸花さん。@……どうしても、……食べるんですか。」\
+;「……彼岸花さん。@……どうしても、……食べるんですか。」\
+`"...Higanbana-san. `@`...Are you... going to eat her?"`\
 
 ;cl r,0
 ld r,hig_def2,80
 
-「そういう約束だから、今日という奇跡をプレゼントしたのよ。@……未だ生に未練のある魂に、もう一度学校生活を味わわせて、未練を強めて苦しめて、その去り際の魂をいただく。@……どんな味の魂に仕上がってくれたか、楽しみで舌なめずりしちゃうんだから。」@
+;「そういう約束だから、今日という奇跡をプレゼントしたのよ。@……未だ生に未練のある魂に、もう一度学校生活を味わわせて、未練を強めて苦しめて、その去り際の魂をいただく。@……どんな味の魂に仕上がってくれたか、楽しみで舌なめずりしちゃうんだから。」@
+`"Since it's that kidn of promise, I gave you the miracle of today as a present. `@`...So your soul still with lingering regrets could once again experience school life, and be exercised of your strong lingering and pain, so I could take it. `@`...It makes me lick my lips wondering what kind of taste your soul has been given."`\
 br
-　彼岸花はくすりと笑って、小さな舌で唇を拭う仕草を見せる。\
+;　彼岸花はくすりと笑って、小さな舌で唇を拭う仕草を見せる。\
+`　Higanbana giggled and put on a display of licking her lips with her tongue.`\
 
 bg okujou_01u,24
 
 ld r,mar_def3n,22
 
-「……ごめんね、沼田さん。@……私にもっと力があれば……。」@
+;「……ごめんね、沼田さん。@……私にもっと力があれば……。」@
+`"...I'm sorry, Numata-san. `@`...If I had more power..."`@
 
 ld c,yo2_def2n,22
 
-「いいんです。@ありがとう。@……二人ともお元気で。@ばいばい。@……さよなら。」@
+;「いいんです。@ありがとう。@……二人ともお元気で。@ばいばい。@……さよなら。」@
+`"It's okay. `@`Thank you. `@`...Take care you two. `@`See you. `@`...Goodbye."`@
 br
-　最後に、少女はそう言って。@……親しい友達と別れるように、手を振った。\
+;　最後に、少女はそう言って。@……親しい友達と別れるように、手を振った。\
+`　She said finally. `@`...And waved her hand, like saying goodbye to a close friend.`\
 
 cl c,0
 mld c,yo2_def3n,2
@@ -1650,17 +1839,21 @@ bg white,2
 csp 4
 print 0
 bg black,2
-　そして、……彼女の姿がゆっくりと崩れていく。@
+;　そして、……彼女の姿がゆっくりと崩れていく。@
+`　Then, ...her body slowly began to crumble.`@
 
-　ふわりと、………白い魂が、線香の煙のように、……そして風船のように、ゆっくりと風に棚引きながら浮かび上がっていく。\
+;　ふわりと、………白い魂が、線香の煙のように、……そして風船のように、ゆっくりと風に棚引きながら浮かび上がっていく。\
+`　Softly, ...her white soul, like the smoke from incense, ...and like a balloon, slowly trailing in the wind began to float upwards.`\
 lsp 4,"bmp\background\efe\punch_l1.bmp",0,0,60
 print 6
 wait 1000
 lsp 4,"bmp\background\efe\punch_r2.bmp",0,0,100
 print 6
 
-　それを彼岸花は白い指で、そっと摘んで捕まえる。@
-　そして、……小さな唇で、その尾を食む。\
+;　それを彼岸花は白い指で、そっと摘んで捕まえる。@
+`　Higanbana genly plucked and held it in her white fingers.`@
+;　そして、……小さな唇で、その尾を食む。\
+`　And, ...with her slender lips, she put its tail in her mouth.`\
 ;se1 9
 ;bg white,1
 csp -1
@@ -1672,69 +1865,85 @@ bg "bmp\background\school\Air_01.bmp",2
 
 ld r,mar_def1,22
 
-「…………………………………。」@
+;「…………………………………。」@
+`"............"`@
 ;＜毬枝
 
 ld l,HIG_def5,22
 
-「……何？　あげないわよ。@私の獲物だもの。」@
+;「……何？　あげないわよ。@私の獲物だもの。」@
+`"...What? I won't give you any. `@`It's my prey."`@
 
 ;bg okujou_01u,0
 ;ld r,mar_def1,0
 ;ld l,hig_def1,23
 ld r,mar_def2,80
 
-「欲しいなんて言ってません。@……じゃ、私は戻りますね。」\
+;「欲しいなんて言ってません。@……じゃ、私は戻りますね。」\
+`"I won't say I want it. `@`...Okay, I'm going to leave."`\
 
 cl r,22
 
 ld l,hig_def2,80
 
-「あら、嫌にあっさりね。@その子を見逃してあげて云々って、もう少し騒ぐかと思ったら。」@
-「騒いでも、私の言うことなんていつも聞いてくれないじゃないですか。」\
+;「あら、嫌にあっさりね。@その子を見逃してあげて云々って、もう少し騒ぐかと思ったら。」@
+`(?) "Oh, leaving already. `@`I thought you were going to stay and watch, complain, and make some noise a bit longer."`@
+;「騒いでも、私の言うことなんていつも聞いてくれないじゃないですか。」\
+`"Even if I made a big deal of it, you'd never listen what I have to say anyway, would you?"`\
 
 ;cl l,0
 ld l,hig_w3,80
 
-「それもそうだわ。@じゃあ確かに、言うだけ無駄というものね。」\
+;「それもそうだわ。@じゃあ確かに、言うだけ無駄というものね。」\
+`"That's true too I suppose. `@`Well then, just talking is pointless."`\
 
 ;bg black,22
 
-「私は戻って、ひとりでお茶にしようと思います。@昨日、職員室で美味しそうな苺入りの大福を見つけたので。」@
+;「私は戻って、ひとりでお茶にしようと思います。@昨日、職員室で美味しそうな苺入りの大福を見つけたので。」@
+`"I'll head back, I think I'll drink some tea by myself. `@`I found some delicious rice cakes stuffed with strawberrys in the staff room yesterday."`@
 
 cl l,0
 ld c,hig_def5,23
 
-「…………それ、当然、二つあるのよね？」\
+;「…………それ、当然、二つあるのよね？」\
+`"...Naturally, there were two, weren't there?"`\
 
 bg black,23
 bg kaidan_04u,0
 ld r,mar_Def2,23
 ld r,mar_Def4,80
 
-「ありますよ。@だから二つとも食べることにします。@彼岸花さんはこれからお食事で満腹でしょうから。」@
+;「ありますよ。@だから二つとも食べることにします。@彼岸花さんはこれからお食事で満腹でしょうから。」@
+`"There are. `@`So I'm going to eat both of them. `@`Since I'm sure Higanbana-san will be full from eating after this."`@
 br
 
 cl r,22
 
-　毬枝はそれだけを言い残すと、さっさと階段を降りていく。\
+;　毬枝はそれだけを言い残すと、さっさと階段を降りていく。\
+`　Marie left Higanbana with those words as she quickly went down the stairs.`\
 
-「ちょ、ちょっと待ちなさいよ、毬枝ぇーーっ。@もーー……！」\
+;「ちょ、ちょっと待ちなさいよ、毬枝ぇーーっ。@もーー……！」\
+`"Hey, hey hold on, Marie~~~. `@`Jeez~~...!"`\
 
 bg black,22
 
-　彼岸花は、毬枝の背中と、摘んでいる魂の双方を見比べる。@
-　そしてもう一度、魂の尾をぱくりと食んで、……悩み込むように眉をしかめる。\
+;　彼岸花は、毬枝の背中と、摘んでいる魂の双方を見比べる。@
+`　Higanbana looked back and forth between Marie's fleeting figure and the soul she held in her hand.`@
+;　そしてもう一度、魂の尾をぱくりと食んで、……悩み込むように眉をしかめる。\
+`(?)　And once again, she took a mouthful of the soul's tail, ...and her eyebrows waned in worry.`\
 
 bg okujou_01u,22
 ;ld c,hig_def5,2
 wait 2000
 ld c,hig_def5,22
 
-「……やっぱり、私の好みの味じゃないわ。」@
+;「……やっぱり、私の好みの味じゃないわ。」@
+`"...As I thought, your taste doesn't suit me."`@
 br
-　魂をプイっと吐き出すと、ハンカチを取り出して口元を拭う。@
-　その拍子に、……魂はするりと彼女の指先を潜り抜け、……ゆっくりと空へ昇っていく。\
+;　魂をプイっと吐き出すと、ハンカチを取り出して口元を拭う。@
+`　Spitting out the soul with a 'pweh', she wipes her mouth with a handkerchief.`@
+;　その拍子に、……魂はするりと彼女の指先を潜り抜け、……ゆっくりと空へ昇っていく。\
+`　In that instant, ...the soul slowly passed through her fingers, ...and gently rose to the sky.`\
 
 se1v 22,40
 
@@ -1748,15 +1957,19 @@ print 2
 csp 4
 print 42
 
-　あら、いけない。@……彼岸花は苦笑いしながらそれを見上げる。@
+;　あら、いけない。@……彼岸花は苦笑いしながらそれを見上げる。@
+`　Oh, what have I done. `@`...Higanbana smiled bitterly as she looked upwards.`@
 br
-　黄昏色の空に、それはどんどん吸い込まれるように、……遠く、小さくなっていく。\
+;　黄昏色の空に、それはどんどん吸い込まれるように、……遠く、小さくなっていく。\
+`　As if it were being sucked into the twilight colored sky, ...it shrank in the distance.`\
 
 ld r,hig_def2,22
 
-「……とんだタダ働きだわ。」@
+;「……とんだタダ働きだわ。」@
+`(?)"...It was just an easy job anyway."`@
 br
-　彼岸花は肩を竦め、ハンカチをしまう。\
+;　彼岸花は肩を竦め、ハンカチをしまう。\
+`　Higanbana shrugged her shoulders and put away her handkerchief.`\
 
 ;bg white,2
 ;bg kaidan_02,23
@@ -1764,10 +1977,12 @@ br
 
 cl r,22
 
-「毬枝っ。@まさか本気で独り占めするつもりじゃないわよね…？！@　一個は私にも寄越しなさい？！@/
+;「毬枝っ。@まさか本気で独り占めするつもりじゃないわよね…？！@　一個は私にも寄越しなさい？！@/
+`"Marie~. `@`You don't reall intend to keep everything for yourself...?! `@`Give me one okay?!`@/
 ;cl c,23
 ;ld r,hig_def1,23
-　じゃないともう、保健室のテレビ、見せてあげないわよ…！@　ねぇ、ちょっと聞こえてるかしらー？！」\
+;　じゃないともう、保健室のテレビ、見せてあげないわよ…！@　ねぇ、ちょっと聞こえてるかしらー？！」\
+`　If you don't, I won't let you watch TV in the infirmary...! `@`Heey, are you listening~?!"`\
 
 
 ;cl r,23
