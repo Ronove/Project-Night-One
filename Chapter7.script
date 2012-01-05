@@ -1,25 +1,34 @@
 ;Chapter 7
-　ひとりの少女が、階段を上っていた。\
+;　ひとりの少女が、階段を上っていた。\
+`　The girl went up the stairs all alone.`\
 
 bg kaidan_01,2
 
-　その足取りは、ゆっくり、……ゆっくり。@
+;　その足取りは、ゆっくり、……ゆっくり。@
+`　Her gait was slow, ...slow.`@`
 br
-　一段一段、踏みしめるかのように、ゆっくりだった。\
+;　一段一段、踏みしめるかのように、ゆっくりだった。\
+`　Step by step, as though hardening the stairs with each step, she was slow.`\
 
-　一段一段、それぞれの段に別れを告げるかのように、ゆっくり、ゆっくり。@
+;　一段一段、それぞれの段に別れを告げるかのように、ゆっくり、ゆっくり。@
+`　Step by step, as if to inform each and every step of their parting, slowly, slowly.`@`
 br
-　少女は階段を上る。\
+;　少女は階段を上る。\
+`　The girl climbed the stairs.`\
 
 bg black,22
 bg kaidan_03u,22
 
-　少女にとって、それぞれの段は。@
-　上れど、下ることのない階段なのだ。\
+;　少女にとって、それぞれの段は。@
+`　To this girl, each step,`@`
+;　上れど、下ることのない階段なのだ。\
+(?)`　was part of a stairway that could be climbed, but could not go back down.`\
 
-　校庭からは部活に汗を流す生徒たちの、元気な声が聞こえてくる。@
+;　校庭からは部活に汗を流す生徒たちの、元気な声が聞こえてくる。@
+`　She could hear the energetic voices of the students in the schoolyard, sweating during their club activities.`@`
 br
-　しかし、放課後の校内は、吐息さえ木霊してしまうのではないかと思うほどに静か。\
+;　しかし、放課後の校内は、吐息さえ木霊してしまうのではないかと思うほどに静か。\
+`　However, the inside the school after classes, were so silent that perhaps even a deep sigh would reverberate and echo.`\
 
 　だから、校庭からの元気な声がとても遠く聞こえ、@なのに自分のいる校内は、まるで別世界のように静まり返っていて。@
 br
