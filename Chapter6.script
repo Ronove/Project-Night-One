@@ -1802,7 +1802,7 @@ ld l,mar_def4a,22
 ld r,hig_def2,80
 
 ;「そういう約束だから、今日という奇跡をプレゼントしたのよ。@……未だ生に未練のある魂に、もう一度学校生活を味わわせて、未練を強めて苦しめて、その去り際の魂をいただく。@……どんな味の魂に仕上がってくれたか、楽しみで舌なめずりしちゃうんだから。」@
-`"Since it's that kidn of promise, I gave you the miracle of today as a present. `@`...So your soul still with lingering regrets could once again experience school life, and be exercised of your strong lingering and pain, so I could take it. `@`...It makes me lick my lips wondering what kind of taste your soul has been given."`\
+`"Since it's that kind of promise, I gave you the miracle of today as a present. `@`...So your soul still with lingering regrets could once again experience school life, and be exercised of your strong lingering and pain, so I could take it. `@`...It makes me lick my lips wondering what kind of taste your soul has been given."`\
 br
 ;　彼岸花はくすりと笑って、小さな舌で唇を拭う仕草を見せる。\
 `　Higanbana giggled and put on a display of licking her lips with her tongue.`\
