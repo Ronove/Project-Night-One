@@ -1,6 +1,6 @@
 ;Chapter 7
 ;　ひとりの少女が、階段を上っていた。\
-`　The girl went up the stairs all alone.`\
+`　A lone girl went up the stairs.`\
 
 bg kaidan_01,2
 
@@ -8,10 +8,10 @@ bg kaidan_01,2
 `　Her gait was slow, ...slow.`@`
 br
 ;　一段一段、踏みしめるかのように、ゆっくりだった。\
-`　Step by step, as though hardening the stairs with each step, she was slow.`\
+`　Step by step, firmly planting her feet on each step, she was slow.`\
 
 ;　一段一段、それぞれの段に別れを告げるかのように、ゆっくり、ゆっくり。@
-`　Step by step, as if to inform each and every step of their parting, slowly, slowly.`@`
+`　Step by step, as if imparting farewells to each step as she went, slowly, slowly.`@`
 br
 ;　少女は階段を上る。\
 `　The girl climbed the stairs.`\
@@ -20,40 +20,49 @@ bg black,22
 bg kaidan_03u,22
 
 ;　少女にとって、それぞれの段は。@
-`　To this girl, each step,`@`
+`　To this girl, each step of the stairway`@`
 ;　上れど、下ることのない階段なのだ。\
-(?)`　was part of a stairway that could be climbed, but could not go back down.`\
+(?)`　could be climbed up, but there was no going back down.`\
 
 ;　校庭からは部活に汗を流す生徒たちの、元気な声が聞こえてくる。@
-`　She could hear the energetic voices of the students in the schoolyard, sweating during their club activities.`@`
+`　She could hear the energetic voices of the students sweating during their club activities in the schoolyard.`@`
 br
 ;　しかし、放課後の校内は、吐息さえ木霊してしまうのではないかと思うほどに静か。\
-`　However, the inside the school after classes, were so silent that perhaps even a deep sigh would reverberate and echo.`\
+`　However, the inside of school after classes had ended was so silent that even a deep sigh would reverberate and echo.`\
 
-　だから、校庭からの元気な声がとても遠く聞こえ、@なのに自分のいる校内は、まるで別世界のように静まり返っていて。@
+;　だから、校庭からの元気な声がとても遠く聞こえ、@なのに自分のいる校内は、まるで別世界のように静まり返っていて。@
+`　So even though she could hear those distant energetic voices from the courtyard, `@`where she resided inside the school seemed like a different world shrouded in silence.`@
 br
-　それが、自分と彼らがどれほど遠く、@そして決して交わることのない世界にいるかを教えてくれた。\
+;　それが、自分と彼らがどれほど遠く、@そして決して交わることのない世界にいるかを教えてくれた。\
+`　That was how far she was seperated from them, `@`and it told her that they were in a world she could never cross back into again.`\
 
 bg black,22
 bg kaidan_04u,22
 
 me2v 5,50
 
-　上る階段は、最上階でとうとう行き止まる。@
+;　上る階段は、最上階でとうとう行き止まる。@
+`　She finally came to a halt at the top floor of the rising staircase.`@ 
 br
-　そこは、屋上の扉。\
+;　そこは、屋上の扉。\
+`　And there, the door to the rooftop.`\
 
-　屋上という名の行き止まりを意味するそこは、少女にとっての終着駅であり、@………でも彼女はそこを、新たな出発の場所だと信じていた。\
+;　屋上という名の行き止まりを意味するそこは、少女にとっての終着駅であり、@………でも彼女はそこを、新たな出発の場所だと信じていた。\
+`　That deadend place known as the rooftop was her last stop, `@`...but she believed that it was a point of a new departure.`\
 
 mbg black,22
 
-　少女は腕に痛々しく包帯を巻いていた。@
+;　少女は腕に痛々しく包帯を巻いていた。@
+`　The girl's arms were painfully wrapped in bandages.`\
 br
-　スカートの陰でわからないが、その足にも、ひどい傷痕が未だに残っている。\
+;　スカートの陰でわからないが、その足にも、ひどい傷痕が未だに残っている。\
+`　Although difficult to make out beneath the shadow of her skirt, even her legs had traces of terrible lingering scars.`\
 
-　それらの傷は、いじめや事故によるものではない。@
+;　それらの傷は、いじめや事故によるものではない。@
+`　Those scars weren't caused by bullying or by accident.`@
 br
-　全て、彼女が自ら望んで、自らを傷つけたものだ。\
+;　全て、彼女が自ら望んで、自らを傷つけたものだ。\
+`　She wanted all of them, and she inflicted them upon herself.`\
 
 ;bg white,1
 ;se1 35
@@ -61,9 +70,11 @@ br
 
 mcbg 22
 
-　なぜなら。@
+;　なぜなら。@
+`　Because.`@
 br
-　大きな怪我を負うと、@この煩わしくて、腹立たしい世界から、一時的に逃避できることを知ってしまったからだ。\
+;　大きな怪我を負うと、@この煩わしくて、腹立たしい世界から、一時的に逃避できることを知ってしまったからだ。\
+`　When she'd inflict these large wounds, `@`she knew that she could temporarily escape this complicated frustrating world.`\
 
 bg black,22
 
@@ -75,24 +86,33 @@ bg roji_01,22
 
 bgm1 14
 
-　家も学校も、煩わしかった。@
-　いや、世界そのものが煩わしい。\
+;　家も学校も、煩わしかった。@
+`　Home, school, both were complicated.`@
+;　いや、世界そのものが煩わしい。\
+`　No, the world itself was complicated.`\
 
-　誰も彼もが愚かしくて、馬鹿らしくて。@愚鈍で間抜けで生きる価値がなくて。@
+;　誰も彼もが愚かしくて、馬鹿らしくて。@愚鈍で間抜けで生きる価値がなくて。@
+`　Everyone was foolish, stupid, `@`and it's pointless to live in ignorance like idiots.`@
 br
-　どうして、自分のような知的な人間が、このような世界に産み落とされたのか、@ついに理解することが出来なかった。\
+;　どうして、自分のような知的な人間が、このような世界に産み落とされたのか、@ついに理解することが出来なかった。\
+`　Why had someone intelligent like her been born into a world like this? `@`In the end, she couldn't understand that.`\
 
 bg black,22
 mono 0
 
-　だから、少女の表情に、悲しみは一切なかった。@
-　あるのは、この世界と人間たち全てへの、蔑みと哀れみ、そして何より、怒り。@
+;　だから、少女の表情に、悲しみは一切なかった。@
+`　And so, the girl held no sadness at all in her expression.`@
+;　あるのは、この世界と人間たち全てへの、蔑みと哀れみ、そして何より、怒り。@
+`　But what she did have was contempt and pity for all the humans in this world, but most of all, anger.`@
 br
-　……自分という、特別な存在を、@このような間違った世界に産み落とした、天への怒りに、満ち溢れていた。\
+;　……自分という、特別な存在を、@このような間違った世界に産み落とした、天への怒りに、満ち溢れていた。\
+`　...For her unique soul, `@`being born into the wrong world -- a world like this, she overflowed with anger towards the heavens.`\
 
-　彼女にとって、自分を理解できないこの世界の無理解は全て、腹立たしいものだった。@
+;　彼女にとって、自分を理解できないこの世界の無理解は全て、腹立たしいものだった。@
+`　For her, everything she couldn't understand about this incomprehensible world was frustrating.`@
 br
-　それどころか、自分の知性を理解できず、自分を彼らと同じ存在として扱おうとする、@両親や教師、あるいはクラスメートたちと同じ空気を吸うことが、もはや我慢ならなかった。\
+;　それどころか、自分の知性を理解できず、自分を彼らと同じ存在として扱おうとする、@両親や教師、あるいはクラスメートたちと同じ空気を吸うことが、もはや我慢ならなかった。\
+`　Even worse, her parents, teachers, and her classmates, unable to understand her intelligence, treated her as the same as everyone else. `@`Before long, she could no longer stand breathing the same air as they did.`\
 
 
 ;bg black,22
@@ -106,15 +126,20 @@ bg hoken_01,22
 
 me1v 16,50
 
-　だから、自らを傷つけることを覚えた。\
+;　だから、自らを傷つけることを覚えた。\
+`　And so I learned to hurt myself.`\
 
-　大きな怪我は保健室や病院へと、一時だけ自分を守ってくれるのだ。\
+;　大きな怪我は保健室や病院へと、一時だけ自分を守ってくれるのだ。\
+`　Being sent to the infirmary and hospital for severe wounds offered me a moment of protection.`\
 
-　そして、保健室や病院は、自分の価値をわずかに理解し、@私に与えられるに相応しい待遇を、わずかにだけ与えてくれる。@
+;　そして、保健室や病院は、自分の価値をわずかに理解し、@私に与えられるに相応しい待遇を、わずかにだけ与えてくれる。@
+`　And those hospitals and infirmaries were able to somewhat recognize the value of my existence, `@`so they'd give me the appropriate treatment.`@
 br
-　それを繰り返す内に、……彼女はより大きな傷を求めるようになり。@
+;　それを繰り返す内に、……彼女はより大きな傷を求めるようになり。@
+`　As she was repeatedly doing this, ...she started seeking a way to really hurt herself.`@
 br
-　……最終的に、今日に至った。\
+;　……最終的に、今日に至った。\
+`　...Finally, she reached it today.\
 
 bg black,22
 
@@ -126,19 +151,26 @@ mono 0
 
 bg kaidan_04u,22
 
-　保健室も病院も、治療が終わると、彼女を再び、苛立たしい元の世界へ突き戻してしまう。@
+;　保健室も病院も、治療が終わると、彼女を再び、苛立たしい元の世界へ突き戻してしまう。@
+`　When her treatment at hospitals and infirmaries ends, once again she is thrust back into that irritating world.`@
 br
-　だから、絶対に突き戻されない傷を、彼女は求めた。@
-　それが傷では済まないかもしれないことも、もちろん理解している。\
+;　だから、絶対に突き戻されない傷を、彼女は求めた。@
+`　So she sought a wound that would never have her sent back out again.`@
+;　それが傷では済まないかもしれないことも、もちろん理解している。\
+`　She understood that it probably wouldn't stop at just a wound.`\
 
 ;bg Different_spiral_1b,22
 
-　しかし、それはそれで好都合だった。@
+;　しかし、それはそれで好都合だった。@
+`　However, that was convenient.`@
 br
-　なぜなら、永久にこの腹立たしい世界へ戻らなくて済むことを意味するのだから。\
+;　なぜなら、永久にこの腹立たしい世界へ戻らなくて済むことを意味するのだから。\
+`　Because it meant that things would end and she would never again return to this frustrating world for all eternity.`\
 
-　怪我でも、そうでなくても。@どちらでもいい。@
-　だから彼女は彼女なりに、……悠然とした表情を浮かべているのだ。\
+;　怪我でも、そうでなくても。@どちらでもいい。@
+`　Injured or worse. `@`Either way was fine.`@
+;　だから彼女は彼女なりに、……悠然とした表情を浮かべているのだ。\
+`　Then in her own way, ...a calm expression rose to her face.`\
 
 bg black,22
 mono 0
@@ -151,39 +183,54 @@ bg okujou_01u,22
 
 me1v 5,50
 
-　屋上に出ると、ざぁっと鋭い外気が少女の髪を乱暴に散らした。@
+;　屋上に出ると、ざぁっと鋭い外気が少女の髪を乱暴に散らした。@
+`　Heading out onto the rooftop, the sharp open air violently scattered her hair with a gush of wind.`@
 br
-　校庭では、部活の生徒たちが楽しげに汗を流しているのが見える。\
+;　校庭では、部活の生徒たちが楽しげに汗を流しているのが見える。\
+`　I could see the other students out doing their club sweating it out in the courtyard.`\
 
-「……馬鹿みたい。@どいつもこいつも、クズばっか。」@
+;「……馬鹿みたい。@どいつもこいつも、クズばっか。」@
+`"...Idiots. `@`Nothing but garbage, every single on of them."`
 br
-　低俗なことしか頭にない単細胞どもが、群れて笑って、下卑て、私を嘲笑う。\
+;　低俗なことしか頭にない単細胞どもが、群れて笑って、下卑て、私を嘲笑う。\
+`(?)　Those simpletons with their minds in the gutter, flocked and laughted, spread their vulgarity, and sneered at me.`\
 
-　どいつもこいつも、死んでしまえ。@
+;　どいつもこいつも、死んでしまえ。@
+`　They should all die.`@
 br
-　死んで、私が如何に優れた、お前たちとは違う存在だったかを、思い知るがいい。\
+;　死んで、私が如何に優れた、お前たちとは違う存在だったかを、思い知るがいい。\
+`　And when you die, maybe you'll realize how great I am and then realize how different my existence is to all of you.`\
 
 bg black,22
 
-　でも、私の明晰な頭脳が告げる。@
-　間違っているのはこの世界でも、この人間たちでもない。@
+;　でも、私の明晰な頭脳が告げる。@
+`　But, then my brilliant mind tells me.`@
+;　間違っているのはこの世界でも、この人間たちでもない。@
+`　What's wrong isn't this world nor these people.`@
 br
-　間違っているのは、……私がここに、産み落とされたことなのだ。\
+;　間違っているのは、……私がここに、産み落とされたことなのだ。\
+`　What's wrong... is that I was born here.`\
 
-　ここは、低俗なる者たちの住まう世界。@
-　それが天のミスで、私をここへ産み落とすというあってはならぬことを許したのだ。@
+;　ここは、低俗なる者たちの住まう世界。@
+`　This is a world where vulgar beings live.`@
+;　それが天のミスで、私をここへ産み落とすというあってはならぬことを許したのだ。@
+`　And by a mistake from the heavens, I was allowed to be born into this world hence I do not belong.`@
 br
-　つまり、私がここにいることが、間違っているのだ。\
+;　つまり、私がここにいることが、間違っているのだ。\
+`　In other words, the fact that I am here -- that's what's wrong.`\
 
 bg okujou_02,22
 
-　少女は唾を吐き捨てる。@
+;　少女は唾を吐き捨てる。@
+`　The girl spits out some saliva.`@
 br
-　フェンスをよじ登り、その上に腰掛ける。\
+;　フェンスをよじ登り、その上に腰掛ける。\
+`　She climbs and then sits on top of the fence.`\
 
 quakey 1,100
 
-　ここから、……ブランコからでも飛び降りるように、ひょいっと降りれば、@……この汚らわしい世界から、私は解放されるのだ。\
+;　ここから、……ブランコからでも飛び降りるように、ひょいっと降りれば、@……この汚らわしい世界から、私は解放されるのだ。\
+`　From here, ...if I take off just like swinging from a swing, `@`...I'll release myself from this repulsive world.`\
 
 bg black,22
 
