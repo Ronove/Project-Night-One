@@ -422,11 +422,12 @@ bg aka1,8
 me1v 16,50
 
 ;　歪な格好で横たわった少女の骸から、ゆっくりと、真っ赤な血の花が咲いて、広がっていく。@
-`　
+`　From the disfigured corpse of the girl, slowly, a red flower of blood bloomed and began to spread.`@`
 br
-　茂みの陰に落ちた彼女のことに、校庭の誰も、気が付かない。\
-
-　そして、じっとりと広がった血溜まりから、@……ゆっくりと真っ赤な蕾が首をもたげて、何本も生えていった。\
+;　茂みの陰に落ちた彼女のことに、校庭の誰も、気が付かない。\
+`　Nobody in the courtyard realized, the fact that she had fallen into a hidden thicket.`\
+;　そして、じっとりと広がった血溜まりから、@……ゆっくりと真っ赤な蕾が首をもたげて、何本も生えていった。\
+`　And, from the damp, growing puddle of blood,`@` ...slowly, countless buds began to spring up.`\
 
 bg black,6
 
@@ -434,18 +435,23 @@ se1v 22,50
 
 bg e013,46
 
-　それはゆっくりゆっくりと蕾を広げ、大きな特徴的な花を開く。@
-　血を吸い、真っ赤に染まった、……彼岸花だった。@
+;　それはゆっくりゆっくりと蕾を広げ、大きな特徴的な花を開く。@
+`　And those buds slowly, slowly spread, and opened into large characteristic flowers.`@`
+;　血を吸い、真っ赤に染まった、……彼岸花だった。@
+`　Sucking the blood, dyed a deep red, ...they were higanbana.`@`
 br
-　彼岸花が、次々に咲き乱れていく。@まるで、骸を飲み込んでしまうかのように。\
-
+;　彼岸花が、次々に咲き乱れていく。@まるで、骸を飲み込んでしまうかのように。\
+`　One after the other, the higanbana began blooming in profusion.`@` It was as if it were drinking from the corpse.`\
 
 mld c,HIG_W3,6
 
-　そして彼岸花の花の茂みから、……真っ白な腕が、すぅっと生えて。@
-　彼女の骸を抱き締める姿となった。@
+;　そして彼岸花の花の茂みから、……真っ白な腕が、すぅっと生えて。@
+`　And from the thicket of higanbana, ...a crimson arm, silently sprung up.`@`
+;　彼女の骸を抱き締める姿となった。@
+`　It became a form that embraced her corpse.`@`
 br
-　それは、咲き乱れる彼岸花を、自らの名とする、妖怪……。\
+;　それは、咲き乱れる彼岸花を、自らの名とする、妖怪……。\
+`　It was the youkai whose name was like the profusely blooming higanbana...`\
 
 bg black,22
 
@@ -455,14 +461,17 @@ E_MA
 bg gakkou_02u,2
 mld c,HIG_def3,80
 
-「くすくすくすくすくすくすくす……。@ずいぶんと待たせたわね、本当に。」\
+;「くすくすくすくすくすくすくす……。@ずいぶんと待たせたわね、本当に。」\
+`"Teeheeheehee...`@` You've waited quite a while, truly."`\
 ;＜彼岸花
 
-　彼岸花は笑う。@
-　骸の少女を抱き締めながら。@
+;　彼岸花は笑う。@
+`　Higanbana laughed.`@`
+;　骸の少女を抱き締めながら。@
+`　While holding the corpse of the girl tightly.`@`
 br
-　親友との、百年ぶりの再会を思わせるような、慈しみの表情を浮かべて。\
-
+;　親友との、百年ぶりの再会を思わせるような、慈しみの表情を浮かべて。\
+`　As though thinking of a reunion with her dear friend after a hundred years, an affectionate expression appeared on her face.`\
 
 mcl c,0
 bg black,2
@@ -471,11 +480,14 @@ print 6
 lsp 4,"bmp\background\efe\punch_r2.bmp",0,0,50
 print 6
 
-　やがて、骸の口から、……すぅっと、淡い煙のようなものが出てくる。@
-br
-　肉の檻より解放された、少女の魂だ。@
-　世界を愚かだと蔑み、自分に相応しい世界が他にあると信じた、哀れな魂。\
+;　やがて、骸の口から、……すぅっと、淡い煙のようなものが出てくる。@
+`　Finally, from the corpse's mouth, ...slowly, something like a pale smoke came out.`@`
 
+br
+;　肉の檻より解放された、少女の魂だ。@
+`　It was the girl's soul, that had been freed from its cage of flesh.`@`
+;　世界を愚かだと蔑み、自分に相応しい世界が他にあると信じた、哀れな魂。\
+`　A miserable soul, that despised this foolish world, and believed that there would be another more suitable world for her.`\
 
 ;se1 9
 ;bg white,1
@@ -483,7 +495,8 @@ br
 ;print 0
 ;bg black,22
 
-　彼岸花は、白く細い指で、天へ昇ろうとするその魂を、からかうように弄る。\
+;　彼岸花は、白く細い指で、天へ昇ろうとするその魂を、からかうように弄る。\
+`　With her slender, white finger, Higanbana tampered with the soul that attempted to ascend into heaven as though trying to tease it.`\
 
 csp -1
 
@@ -493,55 +506,68 @@ bg black,22
 ld c,HIG_W1,22
 ld c,HIG_def3,80
 
-「……あぁ、本当にみすぼらしい、哀れな魂だわ。@……本当に本当に私好みのね。@よくも、ここまで美味しく育ってくれたものだわ。@くす、くすくすくすくすくすくすくすくす…！！」\
+;「……あぁ、本当にみすぼらしい、哀れな魂だわ。@……本当に本当に私好みのね。@よくも、ここまで美味しく育ってくれたものだわ。@くす、くすくすくすくすくすくすくすくす…！！」\
+`"...Oh my, what a truly miserable, shabby soul.`@` ...It's really, truly to my liking.`@` How dare you raise such a delicious soul for me.`@` Ehe, Teeheeheeheeheehee...!!"`\
 ;＜彼岸花
 
-　魂は、弄ぶ彼女の指を逃れ、天へ昇ろうと足掻いている。@
+;　魂は、弄ぶ彼女の指を逃れ、天へ昇ろうと足掻いている。@
+`　Struggling to rise into heaven, the soul tried to escape from the girl's toying fingers.`@`
 br
-　それはまるで、ヘリウムの抜けた弱々しい風船を弄ぶのにそっくりだった。\
+;　それはまるで、ヘリウムの抜けた弱々しい風船を弄ぶのにそっくりだった。\
+`　It was exactly like playing with a delicate balloon after the helium has all come out.`\
 
 ;quakex 1,100
 
 bg black,22
 
-「彼岸花さんっ、……その子を、許してあげて下さいッ！」\
+;「彼岸花さんっ、……その子を、許してあげて下さいッ！」\
+`"Higanbana-san, ...please, forgive her!!"`\
 ;＜毬枝
 
 bg gakkou_02u,0
 ld l,HIG_W3,22
 ld l,HIG_W2,80
 
-「……あら、毬枝じゃない。@うっふふふふふふふふふふふ、御機嫌よう。」@
+;「……あら、毬枝じゃない。@うっふふふふふふふふふふふ、御機嫌よう。」@
+`"...Well, if it isn't Marie.`@` Mmhmhmhmhmhm, How do you do?"`@`
 ;＜彼岸花
 
 ld r,MAR_I4a,22
 ld r,MAR_I3a,80
 
-「その子は、……可哀想な子なんです…！@　きっといつか、自分の過ちに気付いてくれますから……、@だから許してあげて下さい…！」\
+;「その子は、……可哀想な子なんです…！@　きっといつか、自分の過ちに気付いてくれますから……、@だから許してあげて下さい…！」\
+`"It's just that, ...that girl is much too pitiful...!`@` I'm sure someday, she will realize the error of her ways...,`@` So please, forgive her...!"`\
 ;＜毬枝
 
 ld l,HIG_Def5,80
 
-「嫌ァよ。@こんなにも美味しそうに育て上げるのに、どれだけ時間を掛けたと思っているの？」\
+;「嫌ァよ。@こんなにも美味しそうに育て上げるのに、どれだけ時間を掛けたと思っているの？」\
+`"No way.`@` How long do you think it took to raise such a soul this delicious?"`\
 
 ld l,HIG_W4,80
 
-「自分が世界で一番優れていると、何の根拠もなく信じていて。@自分では何の努力もせず、ただ世界を呪うだけ。@自分は全知全能にして高潔と信じて疑わない、素敵で愚かなニンゲンを見つけ出し。@それを手間暇かけて、ゆっくりと料理してきたのよ……？」\
+;「自分が世界で一番優れていると、何の根拠もなく信じていて。@自分では何の努力もせず、ただ世界を呪うだけ。@自分は全知全能にして高潔と信じて疑わない、素敵で愚かなニンゲンを見つけ出し。@それを手間暇かけて、ゆっくりと料理してきたのよ……？」\
+`"Believing she surpassed the rest of the world with flying colors without any basis.`@` Without any great exertion, just cursing the world.`@` With a never-wavering belief that she was all-knowing and pure. I've discovered a beautifully foolish h u m a n.`@` That's a cuisine that takes a lot of time and effort, you know...?"`\
+
 ;＜彼岸花
 
 ld r,MAR_I1a,80
 
 「それは、彼岸花さんがそう唆したからで……。」@
+"That was, because she was tempted by you..."`@`
 ;＜毬枝
 
 cl l,0
 ld c,HIG_Def4,23
 
-「唆す？@　私が……？@　それは酷い勘違いだわ。@私は彼女が苦しんでいたから、それから解放される術を教えただけ。」\
+;「唆す？@　私が……？@　それは酷い勘違いだわ。@私は彼女が苦しんでいたから、それから解放される術を教えただけ。」\
+`"Tempted?`@` Who, me...?`@` That's a terrible misunderstanding.`@` Because she was suffering, I taught her the means to obtain freedom."`\
 
 ld c,HIG_W3,80
 
-「……それに毬枝。@あなたも話してみて思ったでしょう？@　この子は本当に高慢で己を省みない、思いあがりも甚だしい愚かな子。@世界の愚かさを嘲笑うことで、己の愚かさから目を逸らしていた。」\
+;「……それに毬枝。@あなたも話してみて思ったでしょう？@　この子は本当に高慢で己を省みない、思いあがりも甚だしい愚かな子。@世界の愚かさを嘲笑うことで、己の愚かさから目を逸らしていた。」\
+`"...And Marie.`@` 
+
 ;＜彼岸花
 
 
