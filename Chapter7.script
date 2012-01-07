@@ -681,32 +681,40 @@ ld r,MAR_Def3a,80
 ;　毬枝は言い返せない。@
 `　Marie could not respond.`@`
 ;　今さら、名も知らぬ少女が生の尊さを理解したところで、……もう取り返しはつかない。\
-`　
+`　Now, this girl whose name she didn't even know, who had just come to appreciate the gift of life, ...had no way of taking it back.`\
 
-　でも、それでもせめて、理解してもらいたかった。@
+;　でも、それでもせめて、理解してもらいたかった。@
+`　But, even still at the very least, she had wanted her to understand.`@`
 br
-　しかし、彼岸花の言うとおりなのだ。@もう、全ては遅い…。\
+;　しかし、彼岸花の言うとおりなのだ。@もう、全ては遅い…。\
+`　However, it was all as Higanbana said.`@` It was already all too late...`\
 
 bg black,22
 
-　輪廻転生があったなら、次の生では精一杯生きてほしいとも願える。@
+;　輪廻転生があったなら、次の生では精一杯生きてほしいとも願える。@
+`　If there were such a thing as rebirth, I would have hoped that in her next life she would live life to the fullest.`@`
 br
-　しかし、……死を越えた毬枝は、知ってしまっている。\
+;　しかし、……死を越えた毬枝は、知ってしまっている。\
+`　However, ...Marie, who'd already passed on knew.`\
 
-　輪廻転生などは、存在しない。@
+;　輪廻転生などは、存在しない。@
+`　The circle of transmigration does not exist.`@`
 br
-　人は死ねば、それで全て終わりなのだ…。\
+;　人は死ねば、それで全て終わりなのだ…。\
+`　When someone dies, that is the end to everything...`\
 
 bg gakkou_02u,0
 ld c,HIG_W1,22
 ld c,HIG_W2,80
 
-「だから、今さら彼女の魂に、理解も悟りも、ましてや安息さえ必要ない。@……でしょう？」@
+;「だから、今さら彼女の魂に、理解も悟りも、ましてや安息さえ必要ない。@……でしょう？」@
+`"That's why there's no need for understanding, appreciation, much less a repose, for her soul now.`@` ...Right?"`@`
 ;＜彼岸花
 
 ld l,MAR_Def3a,22
 
-「………………………。」\
+;「………………………。」\
+`"............."`\
 ;＜毬枝
 
 se1v 66,100
@@ -718,13 +726,17 @@ E_MA
 se2 36
 quakey 4,300
 
-　その時、一斉に彼岸花の茂みが、@/
+;　その時、一斉に彼岸花の茂みが、@/
+`　Then, the thicket of higanbana simultaneously,`@`/
 me1v 16,50
-……まるで爬虫類を思わせる機敏な動きで伸びて、天へ逃れようとする魂を捕らえ、花弁の口で飲み込んだ。@
+;……まるで爬虫類を思わせる機敏な動きで伸びて、天へ逃れようとする魂を捕らえ、花弁の口で飲み込んだ。@
+`...In a swift extending movement that made one think of reptiles, captured the soul that tried to escape to heaven, and swallowed it in the mouths of the petals.`@`
 br
-　それは花の姿を模した無数の蛇たちが、一斉に獲物に飛び掛かったように見えた…。\
+;　それは花の姿を模した無数の蛇たちが、一斉に獲物に飛び掛かったように見えた…。\
+`　Imitating the flowers' state, she could see what seemed to be countless insects leaping upon their prey all at once...`\
 
-　哀れで愚かな魂を、……ガツガツと引き千切り、花々の花弁に飲み込む。\
+;　哀れで愚かな魂を、……ガツガツと引き千切り、花々の花弁に飲み込む。\
+`　The foolish and pitiful soul, ...was greedily torn apart, and swallowed by the flowers' petals.`\
 
 ;bg white,26
 ;bg "BMP\background\efe\red1.bmp",26
@@ -744,35 +756,41 @@ bg gakkou_02u,2
 ld r,HIG_w4,6
 ;ld r,HIG_W6,80
 
-「ごちそうさま、愚かな子……。@……ごめんなさいね、私、ついにあなたの名前を覚えられなかったわ。@………くす、……くすくすくすくすくすくすくす。」@
+;「ごちそうさま、愚かな子……。@……ごめんなさいね、私、ついにあなたの名前を覚えられなかったわ。@………くす、……くすくすくすくすくすくすくす。」@
+`"Thank you for the meal, foolish girl...`@` ...Sorry about that, but I just couldn't remember your name.`@` ...Teehee, ...teeheeheeheeheehee."`@`
 ;＜彼岸花
 
 ld l,MAR_Def2n,22
 
-「…………………………。」\
+;「…………………………。」\
+`".........."`\
 ;＜毬枝
 
 ld r,HIG_Def3,80
 
 bgm1 14
 
-「毬枝。@これは愚かな少女の、自業自得の物語。@私はそのピリオドを打っただけ。@……妖怪がニンゲンを唆し、@それに耳を貸してしまう愚か者を食らうことに、何か問題が…？」@
+;「毬枝。@これは愚かな少女の、自業自得の物語。@私はそのピリオドを打っただけ。@……妖怪がニンゲンを唆し、@それに耳を貸してしまう愚か者を食らうことに、何か問題が…？」@
+`"Marie.`@` This is the story of a foolish girl suffering the consequences of her own actions.`@` I only put an end to it.`@` ...Youkai tempt h u m a n s,`@` and eat the fools who listen to us. Do you have a problem with that...?"`@`
 ;＜彼岸花
 
 ld l,MAR_Def3n,80
 
-「…………ありま……、せん。」\
+;「…………ありま……、せん。」\
+`"...N-No...I don't."`\
 ;＜毬枝
 
 bg black,22
 fede 10,1000
 E_MA
 
-　彼岸花の狩りは、妖怪のものとしては、慈愛に満ちたものだった。@
+;　彼岸花の狩りは、妖怪のものとしては、慈愛に満ちたものだった。@
+`　Higanbana's kill was something filled with affection for a youkai.`@`
 br
-　彼岸花は、囁いただけ。\
-
-　哀れな少女には、最後まで自らの意思で、死を拒むことが出来たのだ。@
+;　彼岸花は、囁いただけ。\
+`　Higanbana only whispered.`\
+;　哀れな少女には、最後まで自らの意思で、死を拒むことが出来たのだ。@
+`　
 br
 　少なくとも今回の狩りに関してだけは、……毬枝には何も言うことが出来ない。\
 
