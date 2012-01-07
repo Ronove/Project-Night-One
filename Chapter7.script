@@ -566,7 +566,7 @@ ld c,HIG_Def4,23
 ld c,HIG_W3,80
 
 ;「……それに毬枝。@あなたも話してみて思ったでしょう？@　この子は本当に高慢で己を省みない、思いあがりも甚だしい愚かな子。@世界の愚かさを嘲笑うことで、己の愚かさから目を逸らしていた。」\
-`"...And Marie.`@` 
+`"...Besides, Marie.`@` You thought you could try and talk to her?`@` This girl is truly arrogant and wouldn't concern herself with trash like you, a conceited and excessively foolish girl.`@` She who sneered at the world's stupidity, without looking at her own stupidity."`\
 
 ;＜彼岸花
 
@@ -582,32 +582,42 @@ bg black,22
 
 me1v 5,50
 
-　確かに彼女は高慢だった。@
+;　確かに彼女は高慢だった。@
+`　True, she was arrogant.`@`
 br
-　彼女が信じるほど、自身が全能であった事実はまったくない。\
+;　彼女が信じるほど、自身が全能であった事実はまったくない。\
+`　The reality she believed, where she were almighty, was completely false.`\
 
-　彼女は自身が信じるほど聡明ではなかったし、知性など何もなかった。@
+;　彼女は自身が信じるほど聡明ではなかったし、知性など何もなかった。@
+`　She was not as wise as she believed she was, nor was she as intelligent or anything.`@`
 br
-　あったのは、自分の意見が周囲に理解してもらえないのは、@自身が優れ過ぎているからだという自己弁護だけだ。\
+;　あったのは、自分の意見が周囲に理解してもらえないのは、@自身が優れ過ぎているからだという自己弁護だけだ。\
+(?)`　What was there, was the opinion that would not allow her to appreciate her surroundings,`@` and that her 'surpassing others' was only self-justification.`\
 
-
-　……彼女は、恐らくむしろ、愚かだったのだ。@
+;　……彼女は、恐らくむしろ、愚かだったのだ。@
+`　...So it was that she, was quite foolish.`@`
 br
-　自分の意見を、周囲に理解させるという能力の欠落した、愚かな少女だった…。\
+;　自分の意見を、周囲に理解させるという能力の欠落した、愚かな少女だった…。\
+`　She was a foolish girl whose own opinions made her lack the ability to appreciate her surroundings.
 
 ;bg black,22
 ;bg okujou_02,22
 bg e013,22
 
-　そんな少女に、怪我をする喜びを教えた。@
+;　そんな少女に、怪我をする喜びを教えた。@
+`　I only taught that kind of girl the joys of pain.`@`
 br
-　保健室通いを教え、病院通いを教え、自傷が束の間の逃避になることを教えた。\
+;　保健室通いを教え、病院通いを教え、自傷が束の間の逃避になることを教えた。\
+`　I taught her the way to the infirmary, the way to the hospital, and that self-mutilation could become an escape for a brief time.`\
 
-　そして、死を選ぶことが、全てからの解放であり安息であると教えた。@
+;　そして、死を選ぶことが、全てからの解放であり安息であると教えた。@
+`　And I taught her that to choose death, is to liberate herself from everything and rest.`@`
 br
-　じっくりとゆっくりと、か弱い魂を料理して、死に誘っていった。\
+;　じっくりとゆっくりと、か弱い魂を料理して、死に誘っていった。\
+`　Slowly and carefully, I prepared her delicate spirit, and invited her to death.`\
 
-　やがて少女は、……自らの意思で、その命を、捨てる。\
+;　やがて少女は、……自らの意思で、その命を、捨てる。\
+`　Finally, the girl, ...threw her life away with her own hands.`\
 
 ;se1 8
 ;quake 1,100
@@ -622,10 +632,11 @@ E_B
 
 ld c,HIG_def5,22
 
-　誘った妖怪は、ただ下で待ち受け、大きく口を開いていただけだった。@
+;　誘った妖怪は、ただ下で待ち受け、大きく口を開いていただけだった。@
+`　The youkai that invited her, was expecting her below, with her mouth open wide.`@`
 br
-　それが、学校妖怪序列第３位“踊る彼岸花”の、狩り。\
-
+;　それが、学校妖怪序列第３位“踊る彼岸花”の、狩り。\
+`　That is "The Dancing Higanbana," the third ranking school youkai's, prey.`\
 bg black,2
 
 fede 0,2000
@@ -638,30 +649,39 @@ ld l,HIG_W3,80
 
 bgm1 5
 
-　彼岸花は、くすりと笑うと、天へ逃れようとする魂を、指で弄ぶのを止める。@
+;　彼岸花は、くすりと笑うと、天へ逃れようとする魂を、指で弄ぶのを止める。@
+`　Higanbana stopped fiddling with the spirit that had been trying to flee to heaven with a giggle.`@`
 br
-　絡まりが解け、魂はほっとしたかのように、ゆっくりと天へ昇っていく……。\
+;　絡まりが解け、魂はほっとしたかのように、ゆっくりと天へ昇っていく……。\
+`　Being removed from the trap, as though it were relieved, the sould slowly started ascending to heaven...`\
 
-
-　……彼女の魂はやがて、理解してくれるだろう。@
+;　……彼女の魂はやがて、理解してくれるだろう。@
+`　...Her soul finally, may understand.`@`
 br
-　死は、何の解放にも、そして解決にもならないことを。@
-　そして、生がどれほど尊いものであったかを、理解して欲しいと思う…。@
+;　死は、何の解放にも、そして解決にもならないことを。@
+`　That death would not be a freedom, nor a solution.`@`
+;　そして、生がどれほど尊いものであったかを、理解して欲しいと思う…。@
+`　And I thought that she would want to appreciate that life is so very precious...`@`
 br
-　毬枝のその祈りを、彼岸花は笑う。\
+;　毬枝のその祈りを、彼岸花は笑う。\
+`　At Marie's prayer, Higanbana laughed.`\
 
 ld l,HIG_Def4,80
 
-「それは、生ある内に悟るべきものよ……？@　死んでからそれを悟るのも、酷な話だとは思わない…？」@
+;「それは、生ある内に悟るべきものよ……？@　死んでからそれを悟るのも、酷な話だとは思わない…？」@
+`"That's something you should realize while you're still living, right...?`@` Don't you think that it's unfair to understand that because you're dead...?"`@`
 ;＜彼岸花
 
 ld r,MAR_Def3a,80
 
-「……それは、………………。」\
+;「……それは、………………。」\
+`"...That's, ..."`\
 ;＜毬枝
 
-　毬枝は言い返せない。@
-　今さら、名も知らぬ少女が生の尊さを理解したところで、……もう取り返しはつかない。\
+;　毬枝は言い返せない。@
+`　Marie could not respond.`@`
+;　今さら、名も知らぬ少女が生の尊さを理解したところで、……もう取り返しはつかない。\
+`　
 
 　でも、それでもせめて、理解してもらいたかった。@
 br
