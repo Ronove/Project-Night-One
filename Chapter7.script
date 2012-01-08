@@ -239,139 +239,184 @@ E_A
 
 wait 1000
 
-　さぁ、おいで。@
+;　さぁ、おいで。@
+`　Well then, come on.`@
 
 bgm1 6
 
 br
-　声が、囁く。@
-　私に、この苦痛に満ちた世界から救われる道を教えてくれた、あの声が再び囁く。\
+;　声が、囁く。@
+`　A voice whispers. `@
+;　私に、この苦痛に満ちた世界から救われる道を教えてくれた、あの声が再び囁く。\
+`　That voice, that offered to save me from this world filled with pain, whispers again.`\
 
-　怖いの？@
+;　怖いの？@
+`　Are you scared?`@
 br
-　声が、くすりと笑い、私の決意を問う。\
+;　声が、くすりと笑い、私の決意を問う。\
+`(?)　The voice laughs, daring me on.`\
 
 bg okujou_02,22
 
 me1v 5,50
 
-　怖くなんかない。@
+;　怖くなんかない。@
+`　I'm not afraid or anything like that.`@
 br
-　そんな気持ち、とっくの昔に捨て去っている。\
+;　そんな気持ち、とっくの昔に捨て去っている。\
+`　I abandoned those kinds of feelings long ago.`\
 
 me2v 17,70
 
-　今の私にとって、明日を迎えてもなお、@この汚らわしく愚かしい世界に存在し続けなくてはならないことほど、恐ろしいものなんて、存在しないのだから。@
+;　今の私にとって、明日を迎えてもなお、@この汚らわしく愚かしい世界に存在し続けなくてはならないことほど、恐ろしいものなんて、存在しないのだから。@
+`　Even if I see tomorrow, `@`it's because I have to live in this ugly and rediculous world that nothing else can scare me.`@
 br
-　あの、愚か者たちによる蔑みに満ちた教室に、@再び通わなければならない恐怖に比べたら、こんなもの。\
+;　あの、愚か者たちによる蔑みに満ちた教室に、@再び通わなければならない恐怖に比べたら、こんなもの。\
+`　Compared with going back again to that classroom filled with idiots I despise, `@`something like this is...`\
 
 E_MA
 
 quakey 1,100
 
-「やめてっ。@考え直してください…！@　死は、解放なんかじゃありませんっ。」@
+;「やめてっ。@考え直してください…！@　死は、解放なんかじゃありませんっ。」@
+`"Stooop! `@`Think it over...! `@`Killing yourself isn't going to solve anything!"`@
 br
-　その声は唐突に、私の後ろから聞こえた。\
+;　その声は唐突に、私の後ろから聞こえた。\
+`　I heard that voice came suddenly from behind me.`\
 
-　……誰？@　この屋上には、私しかいないはず。@
+;　……誰？@　この屋上には、私しかいないはず。@
+`　...Who? `@`I should be the only one on the roof.`@
 br
-　それは、私を今日まで導いてくれた声と同様の、耳に聞こえる声ではない。@心だけに聞こえる声だった。@
+;　それは、私を今日まで導いてくれた声と同様の、耳に聞こえる声ではない。@心だけに聞こえる声だった。@
+`　That voice wasn't like the voices I could hear with my ears that led me to where I am today. `@`It was a voice I could hear only in my mind.`@
 br
-　であるにも関わらず、その声の主が、そこにいることを私は理解できる。\
+;　であるにも関わらず、その声の主が、そこにいることを私は理解できる。\
+`　Despite that, I knew that the owner of that voice was there.`\
 
 bg black,24
 bg okujou_01u,24
 ld c,MAR_Def3a,2
 
-　だから振り返ると、@……臆病そうな少女が、フェンスの上に座る私を見上げているのが見えた。\
+;　だから振り返ると、@……臆病そうな少女が、フェンスの上に座る私を見上げているのが見えた。\
+`　I turned around, `@`...and I saw a timid looking girl gazing up at me as I sat on the face.`\
 
 ld c,MAR_I1a,80
 
-「そこから降りて下さい。@そこは、危ないです……！」@
+;「そこから降りて下さい。@そこは、危ないです……！」@
+`"Please come down from there. `@`It's dangerous up there!......"`@
 br
-　無責任な言葉を繰り返し、私にここから降りろと命じるのだ。\
+;　無責任な言葉を繰り返し、私にここから降りろと命じるのだ。\
+`　Ordering me to get down from here, she reiterates her irresponsible words, .`\
 
-　……もう、命令はたくさん。@
+;　……もう、命令はたくさん。@
+`　...I've had enough orders.`@
 br
-　あんたたちの愚かしく意味もない命令に、私はどれだけ耳を我慢してきたと思ってるの？\
+;　あんたたちの愚かしく意味もない命令に、私はどれだけ耳を我慢してきたと思ってるの？\
+`　Just how many insipid meaningless orders from people like you do you think I've had to listen to?`\
 
-　もうたくさん。@
+;　もうたくさん。@
+`　I've had enough.`@
 br
-　私はもう、誰の言葉にも耳は貸さない。\
+;　私はもう、誰の言葉にも耳は貸さない。\
+`　I won't listen to what anyone has to say anymore.`\
 
 ld c,MAR_I3a,80
 
-「お願い、飛び降りないで下さい…！@　だって、死ぬ覚悟があるなら、出来ることがたくさんあるはずです！」@
+;「お願い、飛び降りないで下さい…！@　だって、死ぬ覚悟があるなら、出来ることがたくさんあるはずです！」@
+`"Please, don't jump...! `@`After all, if you're prepared to die, there are plenty of things you can do!"`@
 ;＜毬枝
-「………はっ。」\
+;「………はっ。」\
+`"......Huh~?"`\
 
 ;se1 8
 ;quakey 1,100
 
-　その眼鏡の少女の懇願に、私は馬鹿馬鹿しいと吐き捨てる。\
+;　その眼鏡の少女の懇願に、私は馬鹿馬鹿しいと吐き捨てる。\
+`　I spat dumbfounded at this girl with glasses and her plea.`\
 
-「死ぬ覚悟があるなら、出来ること。@………出来ることって何よ？」@
+;「死ぬ覚悟があるなら、出来ること。@………出来ることって何よ？」@
+`"If I'm prepared to die, there are things I can do. `@`...The hell do you mean 'things I can do'?"`@
 
 ld c,MAR_Def3a,80
 
-「そ、それはその……………、」\
+;「そ、それはその……………、」\
+`"W- Well... um......"`\
 
-「……ないのよ。@何も。@私にこの世界でしたいことなんて、何もないわ。@でも、必要なものはある。@……私の知性と高潔を理解できる世界よ。@そしてそれは、ここじゃない。@なら、私がすべきことは明々白々にしてたった一つだわ。@……この、私が居るべきでない世界から、一刻も早く立ち去ることよ。」\
+;「……ないのよ。@何も。@私にこの世界でしたいことなんて、何もないわ。@でも、必要なものはある。@……私の知性と高潔を理解できる世界よ。@そしてそれは、ここじゃない。@なら、私がすべきことは明々白々にしてたった一つだわ。@……この、私が居るべきでない世界から、一刻も早く立ち去ることよ。」\
+`"...There isn't. `@`There's nothing. `@`There is nothing left in this world that I want. `@`But I need something. `@`...A world that understands my intelligence and nobility. `@`And that isn't here. `@`Therefore, the only thing I should do has been made clear. `@`...And that's that I should leave this world I don't belong in as quickly as possible."`\
 
 ld c,MAR_I3a,80
 
-「立ち去るって、死ぬことじゃないですか…！」@
-「死ぬんじゃないわ。@この愚か者たちの世界から、私に相応しい世界に移るだけよ。@……“声”は、私を理解し、その世界へ移る方法を教えてくれたわ。」\
+;「立ち去るって、死ぬことじゃないですか…！」@
+`"Leave? You mean die!?"`@
+;「死ぬんじゃないわ。@この愚か者たちの世界から、私に相応しい世界に移るだけよ。@……“声”は、私を理解し、その世界へ移る方法を教えてくれたわ。」\
+`"I'm not dying. `@`I'm just moving from this world of fools to a place more appropriate for me. `@`...The 'voice' told me how to cross into that world."`\
 
 me1v 17,50
 
-　“声”。@
+;　“声”。@
+`　The 'voice'.`@
 br
-　私をここまで誘ってくれた、私を唯一理解してくれるもの。\
+;　私をここまで誘ってくれた、私を唯一理解してくれるもの。\
+`　It's what invited me here, and it's the only thing that understands me.`\
 
 ld c,MAR_I1a,80
 
-「その声は、あなたを死なせようとしているだけ！@　誑かしているだけなんですっ。@……どうか現実から目を背けないで！@　そして戦って！@　死は唯一の安息だなんて、勘違いをしないでっ！」\
+;「その声は、あなたを死なせようとしているだけ！@　誑かしているだけなんですっ。@……どうか現実から目を背けないで！@　そして戦って！@　死は唯一の安息だなんて、勘違いをしないでっ！」\
+`"That voice just wants you to die! `@`You're being deceived~. `@`...Don't avert your eyes from the truth! `@`Fight it! `@`Don't misunderstand death as your only way of finding peace!"`\
 
-「……誰よ、あんた。@……あんただって、死によって解放された存在のくせに。」@
+;「……誰よ、あんた。@……あんただって、死によって解放された存在のくせに。」@
+`"...And who are you? `@`...You, someone who was freed by death."`@
 
 ld c,MAR_Def3a,80
 
-「…………………っ。」\
+;「…………………っ。」\
+`"........."`\
 
-　私は、わかっていた。@
+;　私は、わかっていた。@
+`　I knew.`@
 br
-　無責任に捲くし立てて、私に死ぬなと絡む彼女の正体が、この世ならざる者であることを。\
+;　無責任に捲くし立てて、私に死ぬなと絡む彼女の正体が、この世ならざる者であることを。\
+`　The girl recklessly standing up and involving herself by telling me not to die was actually not of this world.`\
 
-　おっかしい。@
+;　おっかしい。@
+`　How funny.`@
 br
-　死神ってのは知ってたけど、生きろって絡んでくるヤツがいるなんて初めて知った。\
+;　死神ってのは知ってたけど、生きろって絡んでくるヤツがいるなんて初めて知った。\
+`　I knew about gods of death, but this is the first I've seen of a kind saying "Live."`\
 
 ld c,MAR_I3a,80
 
-「私は、……確かに、……死んでるかもしれませんっ。@でも、だからって、……何かから解放されたわけじゃありませんっ。」\
+;「私は、……確かに、……死んでるかもしれませんっ。@でも、だからって、……何かから解放されたわけじゃありませんっ。」\
+`"It's true... I... might already be dead. `@`But, I mean, ...it's not like I've been set free or anything like that!"`\
 
 se1v 8,50
 quakey 1,100
 
-「あんたがこの世界にいるのは、@死してなお、ここがあんたに相応しい世界だからということよ。@……あんたという、愚かで劣等な知性に相応しい、ね。」\
+;「あんたがこの世界にいるのは、@死してなお、ここがあんたに相応しい世界だからということよ。@……あんたという、愚かで劣等な知性に相応しい、ね。」\
+`"That you are in this world, `@`even after death, just means that this world is suitable for you! `@`...For a fool with an inferior mind like you, it's quite suitable, wouldn't you say?"`\
 
 mbg black,22
 
-「私は違うのよ。@……私は知的で高潔。@そう、私は天才なの。@それがあまりに逸脱してるから、この愚かな世界では理解されないだけ。@そう、ここは白黒テレビの世界なの。@テレビが白黒なんだもの、何を映したって、全て白黒。@私という総天然色の存在だって、この世界ではただの白黒にしか見えない。私には私に相応しい高貴な世界があるの。@死は、そんな私を、相応しい世界へ連れて行ってくれるだけの、@渡し舟でしかないのよ。」\
+;「私は違うのよ。@……私は知的で高潔。@そう、私は天才なの。@それがあまりに逸脱してるから、この愚かな世界では理解されないだけ。@そう、ここは白黒テレビの世界なの。@テレビが白黒なんだもの、何を映したって、全て白黒。@私という総天然色の存在だって、この世界ではただの白黒にしか見えない。私には私に相応しい高貴な世界があるの。@死は、そんな私を、相応しい世界へ連れて行ってくれるだけの、@渡し舟でしかないのよ。」\
+`"I'm different. `@`...I am intelligent and noble. `@`That's right, I'm a genius. `@`Since I'm so different, I just cannot be understood in this foolish world. `@`Yes, this is a world of black and white television. `@`Since the television is black and white, no matter what is projected, it all comes out monochrome. `@`For a full color being such as myself, I can only see black and white in this world. There is a high class world for me. Death, will take me to that world. It is only my ferry"`\
+;(Translator's note) Probably too long to fit on one page
 
 mcbg 22
 ld c,MAR_N1,80
 
-「………でも、……でも………！」\
+;「………でも、……でも………！」\
+"...But, ...but....!"`\
 ;＜毬枝
 
 bg black,23
 bg okujou_02,23
 
-「じゃあね、バイバイ。@さぁ、私を相応しい世界に連れてって……。」@
+;「じゃあね、バイバイ。@さぁ、私を相応しい世界に連れてって……。」@
+`"Later, bye bye. `@`Well then, take me to that world that suits me..."`@
 ld r,MAR_N1,24
-「待ってっ、…………あッ…！！」\
+;「待ってっ、…………あッ…！！」\
+`"Waaaaait!....Aahhh...!!"`\
 ;＜毬枝
 
 E_A
@@ -381,14 +426,19 @@ quakey 1,100
 bg white,28
 bg "BMP\background\school\air_01.bmp",22
 
-　フェンスの上の少女は両腕を広げ、空へ飛び立つ。@
+;　フェンスの上の少女は両腕を広げ、空へ飛び立つ。@
+`　The girl atop the fence spreads both her arms and leaps into the sky.`@
 br
-　眼下なんか見ない。@
-　大空を見上げたまま、その真っ青な世界に飛び込んでいった。\
+;　眼下なんか見ない。@
+`　She doesn't look below her.`@
+;　大空を見上げたまま、その真っ青な世界に飛び込んでいった。\
+`　While looking at the sky above, she flies into that deep blue world.`\
 
-　そのまま、彼女は大空へ飛んでいきたかったのだろう。@
+;　そのまま、彼女は大空へ飛んでいきたかったのだろう。@
+`　Or at least she probably wanted to fly into that sky like that.`@
 br
-　でも。\
+;　でも。\
+`　However.`\
 
 bg white,25
 bg black,25
@@ -403,12 +453,16 @@ bg black,42
 
 bgm1 8
 
-　すごくすごく当然に当り前に、……彼女は真下に転落した。\
+;　すごくすごく当然に当り前に、……彼女は真下に転落した。\
+`　In an extremely natural way of things, ...she fell straight down.`\
 
-　ドラマチックにスローモーションで、なんてことはまったくない。@
+;　ドラマチックにスローモーションで、なんてことはまったくない。@
+`　It wasn't in dramatic slow-motion or anything of the sort.`@
 br
-　ぽん、とフェンスから飛び降りて、ぐしゃり、ばきぽきと、打ち付けられて。@
-　ほんの、瞬き一つか二つの間に、あっさりとそれは終わってしまった。\
+;　ぽん、とフェンスから飛び降りて、ぐしゃり、ばきぽきと、打ち付けられて。@
+`(?)　Leaping from that fence with a woosh, she was hit with a splat and crack.`@
+;　ほんの、瞬き一つか二つの間に、あっさりとそれは終わってしまった。\
+`　In the span of one or two blinks of an eye, the whole thing was over quickly.`\
 
 ;　彼女にとっての一大イベントは、@……この世界にとって、それくらいに下らないことだった……。\
 `　The most important event to her,`@` ...was something pointless to the rest of the world...`\
@@ -425,7 +479,7 @@ me1v 16,50
 `　From the disfigured corpse of the girl, slowly, a red flower of blood bloomed and began to spread.`@`
 br
 ;　茂みの陰に落ちた彼女のことに、校庭の誰も、気が付かない。\
-`　Nobody in the courtyard realized, the fact that she had fallen into a hidden thicket.`\
+`　No one in the courtyard realized the fact that she had fallen into a hidden thicket.`\
 ;　そして、じっとりと広がった血溜まりから、@……ゆっくりと真っ赤な蕾が首をもたげて、何本も生えていった。\
 `　And, from the damp, growing puddle of blood,`@` ...slowly, countless buds began to spring up.`\
 
