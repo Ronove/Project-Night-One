@@ -858,29 +858,37 @@ ld r,HIG_W4,80
 cl r,2
 
 ;　それだけを一方的に告げ、彼岸花はふわりと姿を消す。@
+`　Higanbana said this alone to herself, then casually disappeared.`@`
 ;　後には、彼岸花の花びら一つない。@
+`　After that, there wasn't even a single higanbana petal left.`@`
 br
-　……真っ赤な血の大輪と、哀れな少女の骸が横たわるだけだった。\
+;　……真っ赤な血の大輪と、哀れな少女の骸が横たわるだけだった。\
+`　...The large flower of crimson blood, was all that was stretched out around the unfortunate girl's corpse.`\
 
 fede 1,1000
 E_B
 
 ld l,MAR_Def3n,22
 
-　彼岸花が囁かなくても、いつかは同じ道を辿る少女だった。@
+;　彼岸花が囁かなくても、いつかは同じ道を辿る少女だった。@
+`　Even if Higanbana hadn't whispered to her, this girl would have followed the same route someday.`@`
 br
-　しかしならば、@……もっと早くに気付いて、道を踏み外すことがないように、してあげられたかもしれない。\
+;　しかしならば、@……もっと早くに気付いて、道を踏み外すことがないように、してあげられたかもしれない。\
+`　However,`@` ...if I had realized it earlier, I might have been able to make sure she didn't leave the straight and narrow.`\
 
-　彼岸花はまた、彼女のような哀れな犠牲者を探し、死へと誘う。@
+;　彼岸花はまた、彼女のような哀れな犠牲者を探し、死へと誘う。@
+`　Higanbana would find another miserable victim like her and invite them to die.`@`
 br
-　……次は、か弱いいじめられっこを獲物にするとの、予告まで残して。\
-
+;　……次は、か弱いいじめられっこを獲物にするとの、予告まで残して。\
+(?)`　...Then, she would find another frail, bullied person, make a meal out of them, and go so far as to leave behind an advanced notice.
 ld l,MAR_Def2n,80
 
-「………私に彼岸花さんを止めることは出来ない。@……………でも。」@
+;「………私に彼岸花さんを止めることは出来ない。@……………でも。」@
+`"....I cannot stop Higanbana.`@` ...But."`@`
 ;＜毬枝
 br
-　彼女に誑かされそうな子を先に見つけて、@……道を誤らないように、助言することは出来るかもしれない。\
+;　彼女に誑かされそうな子を先に見つけて、@……道を誤らないように、助言することは出来るかもしれない。\
+`　If I find someone likely to be tricked by her first,`@` ...I may be able to advise them in order to keep them from being mislead.`\
 
 bg black,22
 ;bg blood_1aR,22
@@ -890,29 +898,37 @@ E_A
 
 bgm1 5
 
-「………死は何の解決にも、解放にもならない。@……それを、生きてる内に気付かせてあげることが出来なくて、@……ごめんね……。」@
+;「………死は何の解決にも、解放にもならない。@……それを、生きてる内に気付かせてあげることが出来なくて、@……ごめんね……。」@
+`"...Death will never be a resolution, nor a liberation.`@` ...I'm sorry...`@` ...I was unable to help you realize this while you were alive..."`@`
 ;＜毬枝
 br
-　毬枝は骸の近くに姿を現わし、そっと、その顔を撫でる。\
+;　毬枝は骸の近くに姿を現わし、そっと、その顔を撫でる。\
+`　Marie appeared close to the corpse, and softly stroked her face.`\
 
-　安らかな顔にはならなかったけれど。@
+;　安らかな顔にはならなかったけれど。@
+`　Though she was unable to make a serene face.`@`
 br
-　せめて瞼を閉じてやることは出来た。\
-
+;　せめて瞼を閉じてやることは出来た。\
+`　At the least, she was able to close her eyes.`\
 
 bg gakkou_02u,6
 ;ld c,MAR_Def2a,26
 ;ld c,MAR_I4a,80
 
-　そして立ち上がり、……巨大な校舎を見上げる。\
+;　そして立ち上がり、……巨大な校舎を見上げる。\
+`　Then she stood up, ...and raised her eyes towards the enormous school building.`\
 
-　彼女は毬枝。@
-　学校妖怪序列第８位。@めそめそさんの、毬枝。@
+;　彼女は毬枝。@
+`　She was Marie.
+;　学校妖怪序列第８位。@めそめそさんの、毬枝。@
+`　The School Youkai of the 8th Rank.`@` Mesomeso-san Marie.`@`
 br
-　死を経て、数奇な運命から学校の妖怪たちの末席に迎えられた少女。\
+;　死を経て、数奇な運命から学校の妖怪たちの末席に迎えられた少女。\
+`　A girl who passed into death, and was able to obtain the lowest seat of school youkai from her hapless fate.`\
 
 
-　これは、膨大なクラス数と生徒数を誇る、巨大な学校に住まう、@学校妖怪たちと、それに弄ばれるニンゲンたちの物語……。\
+;　これは、膨大なクラス数と生徒数を誇る、巨大な学校に住まう、@学校妖怪たちと、それに弄ばれるニンゲンたちの物語……。\
+`　This, was a tale of an enormous school, boasting a humongous amount of classes and students,`@` and the youkai who toy with h u m a n s...`\
 
 bg black,2
 
@@ -943,32 +959,39 @@ ld c,YUK_Def3,22
 
 bgm1 4
 
-　榊由香里（さかき　ゆかり）は、いじめられっこという概念を初めて知った時、@それが自分を指すものだとすぐに気が付いた。@
-　そして、そこから脱することが急務であると理解した。@
+;　榊由香里（さかき　ゆかり）は、いじめられっこという概念を初めて知った時、@それが自分を指すものだとすぐに気が付いた。@
+`　From the moment Yukari Sakaki first knew the concept of a bullied child,`@` she immediately became aware that she was a perfect nomination.`@`
+;　そして、そこから脱することが急務であると理解した。@
+`　And from there, she also understood it was something she urgently had to escape.`@`
 br
-　しかし、どうすれば、それが成し遂げられるのか、まだ幼かった彼女にはわからなかった。\
+;　しかし、どうすれば、それが成し遂げられるのか、まだ幼かった彼女にはわからなかった。\
+`　However, to her, who was still very young, did not know how she should go about accomplishing this.`\
 
-　だから、親や先生にそれを聞くと、決まって、こう教えられた。\
-
+;　だから、親や先生にそれを聞くと、決まって、こう教えられた。\
+`　So, she decided to ask her parents and teachers about it, and this is what they told her.`\
 bg black,22
 
-“やり返すと、相手はもっともっとやってくるよ。”@
+;“やり返すと、相手はもっともっとやってくるよ。”@
+`"If you retaliate, they'll just keep coming for you."`@`
 br
-“反応しちゃうから、相手が面白がるんだよ？”@
+;“反応しちゃうから、相手が面白がるんだよ？”@
+`"Your bullies think it's funny because you respond, right?"`@`
 br
-“無視しなさい、無視。@そうすれば、いじめられなくなるから。”\
-
+;“無視しなさい、無視。@そうすれば、いじめられなくなるから。”\
+`"Just ignore them, ignore them.`@` If you do that, they won't bully you anymore."`\
 bg kyou_02,22
 ;ld r,YUK_Def2,22
 
-　だから、彼女はそれを素直に信じ、それを実践した。@
+;　だから、彼女はそれを素直に信じ、それを実践した。@
+`　So she obediently believed this, and put it into practice.`@`
 br
-　しかしどうやら、……それが効果を示すには、かなりの時間と我慢が必要だったらしい。\
-
-　一朝一夕には、その努力は結実しようとしなかった。@
+;　しかしどうやら、……それが効果を示すには、かなりの時間と我慢が必要だったらしい。\
+`　But somehow, ...it seemed like in order to see results, she had to perservere for a considerable amount of time.`\
+;　一朝一夕には、その努力は結実しようとしなかった。@
+`　In a day, she was unable to exert that much power.`@`
 br
-　その結果、……今日も彼女は、いじめられっこのままだった。\
-
+;　その結果、……今日も彼女は、いじめられっこのままだった。\
+`　And the result, ...was that she would stay as a bullied child today.`\
 
 
 
@@ -990,28 +1013,38 @@ ld l,YUK_Def4a,80
 
 me1v 24,50
 
-「………………………っ。」@
+;「………………………っ。」@
+`".......!"`@`
 br
-　私の頭に、ぽつんと小さなものがぶつかる。@
+;　私の頭に、ぽつんと小さなものがぶつかる。@
+`　Something isolated and small hit my head.
 br
-　見ずともわかってる。@
-　それは、消しゴムのカスを丸めた玉だ。\
+;　見ずともわかってる。@
+`　Even without looking, I knew what it was.`@`
+;　それは、消しゴムのカスを丸めた玉だ。\
+`　It was a ball someone had torn off of their eraser.`\
 
-　それを振り払う仕草をすれば、私が反応したことを面白がって、@いじめっこたちは執拗にぶつけてくるだろう。@
+;　それを振り払う仕草をすれば、私が反応したことを面白がって、@いじめっこたちは執拗にぶつけてくるだろう。@
+`　If I acted like I was going to shake it off, they'd think my reaction was funny,`@` and a bullied child would keep getting hit relentlessly.`@`
 br
-　だから私は気付かないふりをする。\
-
-　消しゴムのカスが、私の髪にしがみついているのを見て、@クスクス笑っている声が聞こえる。@
+;　だから私は気付かないふりをする。\
+`　So I pretended I didn't notice it.`\
+;　消しゴムのカスが、私の髪にしがみついているのを見て、@クスクス笑っている声が聞こえる。@
+`　I could hear giggling voices,`@` as people saw the flecks of eraser stuck in my hair.`@`
 br
-　でも、それに反応すれば、……もっと執拗にいじめられるに違いないのだ。\
+;　でも、それに反応すれば、……もっと執拗にいじめられるに違いないのだ。\
+`　But, if I react, ...there's no doubt they'd tenaciously bully me more.`\
 
 ld l,YUK_Def2a,80
 cl l,22
 
-　だから私は、教えられた通りに無視する。@気付かないふりをする。@
+;　だから私は、教えられた通りに無視する。@気付かないふりをする。@
+`　So, just like I was told, I ignored them.`@` I pretended I didn't notice.`@`
 br
-　消しゴムのカスを、いくつも髪に散りばめながら。@
-　ずっとずっと、……気付かないふりをして、我慢している……。\
+;　消しゴムのカスを、いくつも髪に散りばめながら。@
+`　While countless flecks of eraser scattered throughout my hair.`@`
+;　ずっとずっと、……気付かないふりをして、我慢している……。\
+`　The whole, entire time, ...I pretended I didn't notice, and endured it...`\
 
 bg black,22
 
@@ -1033,22 +1066,29 @@ bg toire_05,22
 
 bgm1 8
 
-　私はトイレを使う時、教室から遠く離れた場所のを使うことにしていた。@
+;　私はトイレを使う時、教室から遠く離れた場所のを使うことにしていた。@
+`　When I had to use the bathroom, I decided to use one that was far away from the classroom.`@`
 br
-　……教室に近いと、いじめっこたちに、トイレで鉢合わせになるからだ。\
+;　……教室に近いと、いじめっこたちに、トイレで鉢合わせになるからだ。\
+`　...If I were close to the classroom, a bullied child, would certainly encounter someone else in the bathroom.`\
 
-　教室でさえ執拗なのに。@
+;　教室でさえ執拗なのに。@
+`　Even though they were so persistant in the class.`@`
 br
-　トイレなどという隔離された場所で出くわせば、……………考えたくもなかった。\
+;　トイレなどという隔離された場所で出くわせば、……………考えたくもなかった。\
+`　If I were to run into someone in this isolated place, ...I didn't even want to think about it.`\
 
-　だから私は、教室からもっとも近いトイレを嫌い、@こうして別の校舎まで来て、別の学年が使うトイレに通っている。\
+;　だから私は、教室からもっとも近いトイレを嫌い、@こうして別の校舎まで来て、別の学年が使うトイレに通っている。\
+`　So I disliked the bathrooms close to the classroom,`@` and just like this, I went to a different school building, and would use a different year's bathroom.`\
 
 bg black,22
 bg toire_07,22
 
-　学年やクラスごとに使うトイレが決められているわけではない。@
+;　学年やクラスごとに使うトイレが決められているわけではない。@
+`　It's not like I would decide which year or which class's bathroom I would use.`@`
 br
-　しかし、縄張りのような独特の空気があり、@……遠い教室の異郷から訪れている私を、温かく迎えてくれる雰囲気はわずかほどもなかった。\
+;　しかし、縄張りのような独特の空気があり、@……遠い教室の異郷から訪れている私を、温かく迎えてくれる雰囲気はわずかほどもなかった。\
+`　
 
 　………あの人だれ？@
 br
