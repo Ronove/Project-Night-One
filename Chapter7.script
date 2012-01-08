@@ -785,48 +785,60 @@ fede 10,1000
 E_MA
 
 ;　彼岸花の狩りは、妖怪のものとしては、慈愛に満ちたものだった。@
-`　Higanbana's kill was something filled with affection for a youkai.`@`
+`　Higanbana's kill was, as something for a youkai, something filled with love and affection.`@`
 br
 ;　彼岸花は、囁いただけ。\
 `　Higanbana only whispered.`\
 ;　哀れな少女には、最後まで自らの意思で、死を拒むことが出来たのだ。@
-`　
+`　This pitiful girl, was able to defy death up until the very end by her own will.`@`
 br
-　少なくとも今回の狩りに関してだけは、……毬枝には何も言うことが出来ない。\
+;　少なくとも今回の狩りに関してだけは、……毬枝には何も言うことが出来ない。\
+`　Marie could not say anything, ...in regards to this time's prey.
 
 bg AIR_01,22
 
 ;ld l,MAR_Def2n,80
 
-　毬枝が、愚かな少女の存在に気付いた時は、もう手遅れだった。@
-　彼女に愚行を思い留まるよう何度も囁き掛けたのだが、……それは届かなかった。@
+;　毬枝が、愚かな少女の存在に気付いた時は、もう手遅れだった。@
+`　The moment Marie had realized the existence of this foolish girl, it was already too late.`@`
+;　彼女に愚行を思い留まるよう何度も囁き掛けたのだが、……それは届かなかった。@
+`　Although she whispered to her countless times to stop her thoughts of this folly, ...it never reached her.`@`
 br
-　もっと早くから気付いていたら、……彼女に思い留まらせることも、出来たかもしれない……。\
+;　もっと早くから気付いていたら、……彼女に思い留まらせることも、出来たかもしれない……。\
+`　If only she had realized it sooner, ...maybe she could have stopped those thoughts...`\
 
 
 ld r,HIG_W4,22
 
-「私の狩りの、邪魔がしたいわけ……？」@
+;「私の狩りの、邪魔がしたいわけ……？」@
+`"Do you intend to interfere with my hunt...?"`@`
 ;＜彼岸花
 
 ld c,MAR_Def3a,22
 
-「………………………。」@
+;「………………………。」@
+`".........."`@`
 ;＜毬枝
 br
-　彼岸花が、笑みを浮かべたままの表情で、わずかに凄む。@
-　しかし、すぐにくすりと笑い、肩を竦めて見せる。\
+;　彼岸花が、笑みを浮かべたままの表情で、わずかに凄む。@
+`　With a smile on her face, Higanbana gave a small threat.`@`
+;　しかし、すぐにくすりと笑い、肩を竦めて見せる。\
+`　However, soon her shoulders shook with her giggling.`\
 
 ld r,HIG_W3,80
 
-「いいのよ。@同じ獲物を奪い合うことだって、私たちの世界ではよくあること。@……強い方が、獲物を得る。@私が毬枝より強かったから、私が獲物を得た。@……それだけのことよ。@毬枝は私のお友達でしょう？@　だから、こんなことで私は嫌いにならないから安心してちょうだい。@くすくすくす……。」\
+;「いいのよ。@同じ獲物を奪い合うことだって、私たちの世界ではよくあること。@……強い方が、獲物を得る。@私が毬枝より強かったから、私が獲物を得た。@……それだけのことよ。@毬枝は私のお友達でしょう？@　だから、こんなことで私は嫌いにならないから安心してちょうだい。@くすくすくす……。」\
+`"Oh, it's okay.`@` In our world, there are plenty of times when people go after the same prey.`@` ...The stronger ones will get the prey.`@` If I am stronger than you, it will be my meal.`@` ...It's only that.`@` You're my friend, right Marie?`@` So please, let me relax knowing you won't hate me over this.`@` Teeheehee."`\
 ;＜彼岸花
 
 cl r,22
 
-　彼岸花は、明らかに上機嫌だった。@
-　長い時間を掛けて料理した獲物を、ようやく収穫できたのだ。@
-　その魂の味は、恐らく格別なのだろう。\
+;　彼岸花は、明らかに上機嫌だった。@
+`　Higanbana was clearly in a good mood.`@`
+;　長い時間を掛けて料理した獲物を、ようやく収穫できたのだ。@
+`　She had finally harvested the spoils she'd prepared for so long.`@`
+;　その魂の味は、恐らく格別なのだろう。\
+`　The flavor of that spirit, was most likely exceptional.`\
 
 bg black,23
 bg gakkou_02u,23
@@ -835,17 +847,18 @@ ld r,HIG_Def4,22
 
 me1v 5,50
 
-「じゃあね、毬枝。@……さぁて、次の獲物の子を、また探さなくっちゃ。@次は、か弱いいじめられっこが食べてみたいわね。@……クラス中からいじめられていて、もう生きるのも嫌になっちゃった、なんて、可哀想な子を…。」\
-
+;「じゃあね、毬枝。@……さぁて、次の獲物の子を、また探さなくっちゃ。@次は、か弱いいじめられっこが食べてみたいわね。@……クラス中からいじめられていて、もう生きるのも嫌になっちゃった、なんて、可哀想な子を…。」\
+`"See you, Marie.`@` ...Well then, I need to find the next meal.`@` I want to try a frail, bullied kid this time.`@` ...Someone pitiful who's bullied within her class, and has become tired of living..."`\ 
 ld r,HIG_W4,80
 
-「くすくすくす、そんな子に甘く囁き掛けて、保健室へ逃げる喜びを教えてあげるの。@それから、ゆっくりと死へ誘ってあげるのよ。@……きっといるわ、そんな可哀想な子がね。@だって、この学校、とても大きくて広いもの。@………くすくすくすくすくすくす。」\
+;「くすくすくす、そんな子に甘く囁き掛けて、保健室へ逃げる喜びを教えてあげるの。@それから、ゆっくりと死へ誘ってあげるのよ。@……きっといるわ、そんな可哀想な子がね。@だって、この学校、とても大きくて広いもの。@………くすくすくすくすくすくす。」\
+`"Teeheehee, I'll sweetly whisper to that child, and teach them the delight in running to the school infirmary.`@` And from them, I'll slowly invite them to die.`@` ...I'm sure a pathetic girl like that is here.`@` Because this school is so very large and wide.`@` ...Teeheeheehee..."`\
 ;＜彼岸花
 
 cl r,2
 
-　それだけを一方的に告げ、彼岸花はふわりと姿を消す。@
-　後には、彼岸花の花びら一つない。@
+;　それだけを一方的に告げ、彼岸花はふわりと姿を消す。@
+;　後には、彼岸花の花びら一つない。@
 br
 　……真っ赤な血の大輪と、哀れな少女の骸が横たわるだけだった。\
 
