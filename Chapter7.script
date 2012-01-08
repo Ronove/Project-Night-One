@@ -550,7 +550,7 @@ br
 ;bg black,22
 
 ;　彼岸花は、白く細い指で、天へ昇ろうとするその魂を、からかうように弄る。\
-`　With her slender, white finger, Higanbana tampered with the soul that attempted to ascend into heaven as though trying to tease it.`\
+`　With her slender, white finger, Higanbana tampered with the soul that attempted to ascend into heaven as though teasing it.`\
 
 csp -1
 
@@ -601,26 +601,26 @@ ld l,HIG_Def5,80
 ld l,HIG_W4,80
 
 ;「自分が世界で一番優れていると、何の根拠もなく信じていて。@自分では何の努力もせず、ただ世界を呪うだけ。@自分は全知全能にして高潔と信じて疑わない、素敵で愚かなニンゲンを見つけ出し。@それを手間暇かけて、ゆっくりと料理してきたのよ……？」\
-`"Believing she surpassed the rest of the world with flying colors without any basis.`@` Without any great exertion, just cursing the world.`@` With a never-wavering belief that she was all-knowing and pure. I've discovered a beautifully foolish h u m a n.`@` That's a cuisine that takes a lot of time and effort, you know...?"`\
+`"Believing she surpassed the rest of the world with flying colors without any basis.`@` Without any great effort on her part and just cursing the world.`@` With a never-wavering belief that she was all-knowing and pure. I've discovered a beautifully foolish h u m a n.`@` That's a cuisine that takes a lot of time and effort, you know...?"`\
 
 ;＜彼岸花
 
 ld r,MAR_I1a,80
 
 「それは、彼岸花さんがそう唆したからで……。」@
-"That was, because she was tempted by you..."`@`
+"That was because you tempted her..."`@`
 ;＜毬枝
 
 cl l,0
 ld c,HIG_Def4,23
 
 ;「唆す？@　私が……？@　それは酷い勘違いだわ。@私は彼女が苦しんでいたから、それから解放される術を教えただけ。」\
-`"Tempted?`@` Who, me...?`@` That's a terrible misunderstanding.`@` Because she was suffering, I taught her the means to obtain freedom."`\
+`"Tempted?`@` Who, me...?`@` That's a serious misunderstanding.`@` Because I was worried about her, I taught her the means to obtain freedom."`\
 
 ld c,HIG_W3,80
 
 ;「……それに毬枝。@あなたも話してみて思ったでしょう？@　この子は本当に高慢で己を省みない、思いあがりも甚だしい愚かな子。@世界の愚かさを嘲笑うことで、己の愚かさから目を逸らしていた。」\
-`"...Besides, Marie.`@` You thought you could try and talk to her?`@` This girl is truly arrogant and wouldn't concern herself with trash like you, a conceited and excessively foolish girl.`@` She who sneered at the world's stupidity, without looking at her own stupidity."`\
+`"...Besides, Marie.`@` You thought you could try and talk to her?`@` This girl is truly arrogant and wouldn't concern herself with trash like you, a conceited and excessively foolish girl.`@` She who sneered at the stupidity of the world while ignoring her own."`\
 
 ;＜彼岸花
 
@@ -640,19 +640,19 @@ me1v 5,50
 `　True, she was arrogant.`@`
 br
 ;　彼女が信じるほど、自身が全能であった事実はまったくない。\
-`　The reality she believed, where she were almighty, was completely false.`\
+`　The reality she believed, where she was almighty, didn't exist.`\
 
 ;　彼女は自身が信じるほど聡明ではなかったし、知性など何もなかった。@
-`　She was not as wise as she believed she was, nor was she as intelligent or anything.`@`
+`　She was not as wise as she believed she was, nor was she as intelligent.`@`
 br
 ;　あったのは、自分の意見が周囲に理解してもらえないのは、@自身が優れ過ぎているからだという自己弁護だけだ。\
-(?)`　What was there, was the opinion that would not allow her to appreciate her surroundings,`@` and that her 'surpassing others' was only self-justification.`\
+(?)`　What happened was that others could not understand her view of herself,`@` so as a self defense mechanism, she would say she surpasses them.`\
 
 ;　……彼女は、恐らくむしろ、愚かだったのだ。@
-`　...So it was that she, was quite foolish.`@`
+`　...So perhaps it was she who was foolish.`@`
 br
 ;　自分の意見を、周囲に理解させるという能力の欠落した、愚かな少女だった…。\
-`　She was a foolish girl whose own opinions made her lack the ability to appreciate her surroundings.
+`　She was a foolish girl whose own opinions made her lack the power of being understood by those around her.
 
 ;bg black,22
 ;bg okujou_02,22
@@ -690,7 +690,7 @@ ld c,HIG_def5,22
 `　The youkai that invited her, was expecting her below, with her mouth open wide.`@`
 br
 ;　それが、学校妖怪序列第３位“踊る彼岸花”の、狩り。\
-`　That is "The Dancing Higanbana," the third ranking school youkai's, prey.`\
+`　That was "The Dancing Higanbana," the third ranking school youkai's, hunt.`\
 bg black,2
 
 fede 0,2000
@@ -707,15 +707,15 @@ bgm1 5
 `　Higanbana stopped fiddling with the spirit that had been trying to flee to heaven with a giggle.`@`
 br
 ;　絡まりが解け、魂はほっとしたかのように、ゆっくりと天へ昇っていく……。\
-`　Being removed from the trap, as though it were relieved, the sould slowly started ascending to heaven...`\
+`　Being removed from the trap, as though it were relieved, the soul slowly started ascending to heaven...`\
 
 ;　……彼女の魂はやがて、理解してくれるだろう。@
 `　...Her soul finally, may understand.`@`
 br
 ;　死は、何の解放にも、そして解決にもならないことを。@
-`　That death would not be a freedom, nor a solution.`@`
+`　Death would not be a freedom, nor a solution.`@`
 ;　そして、生がどれほど尊いものであったかを、理解して欲しいと思う…。@
-`　And I thought that she would want to appreciate that life is so very precious...`@`
+`　And I thought that she would want to appreciate how so very precious life is...`@`
 br
 ;　毬枝のその祈りを、彼岸花は笑う。\
 `　At Marie's prayer, Higanbana laughed.`\
@@ -781,13 +781,13 @@ se2 36
 quakey 4,300
 
 ;　その時、一斉に彼岸花の茂みが、@/
-`　Then, the thicket of higanbana simultaneously,`@`/
+`　Then all at once, the thicket of higanbana,`@`/
 me1v 16,50
 ;……まるで爬虫類を思わせる機敏な動きで伸びて、天へ逃れようとする魂を捕らえ、花弁の口で飲み込んだ。@
-`...In a swift extending movement that made one think of reptiles, captured the soul that tried to escape to heaven, and swallowed it in the mouths of the petals.`@`
+`...Like serpents, they shot out quickly and captured the soul that was trying to escape to the heavens and swallowed it in the mouths of their petals.`@`
 br
 ;　それは花の姿を模した無数の蛇たちが、一斉に獲物に飛び掛かったように見えた…。\
-`　Imitating the flowers' state, she could see what seemed to be countless insects leaping upon their prey all at once...`\
+`　I could see what looked like countless snakes immitating flowers leaping upon their prey all at once...`\
 
 ;　哀れで愚かな魂を、……ガツガツと引き千切り、花々の花弁に飲み込む。\
 `　The foolish and pitiful soul, ...was greedily torn apart, and swallowed by the flowers' petals.`\
@@ -811,7 +811,7 @@ ld r,HIG_w4,6
 ;ld r,HIG_W6,80
 
 ;「ごちそうさま、愚かな子……。@……ごめんなさいね、私、ついにあなたの名前を覚えられなかったわ。@………くす、……くすくすくすくすくすくすくす。」@
-`"Thank you for the meal, foolish girl...`@` ...Sorry about that, but I just couldn't remember your name.`@` ...Teehee, ...teeheeheeheeheehee."`@`
+`"Thank you for the meal, foolish girl...`@` ...Sorry, but I don't even remember your name.`@` ...Teehee, ...teeheeheeheeheehee."`@`
 ;＜彼岸花
 
 ld l,MAR_Def2n,22
@@ -847,7 +847,7 @@ br
 `　This pitiful girl, was able to defy death up until the very end by her own will.`@`
 br
 ;　少なくとも今回の狩りに関してだけは、……毬枝には何も言うことが出来ない。\
-`　Marie could not say anything, ...in regards to this time's prey.
+`　In regards to this hunt... Marie could not say anything.`\
 
 bg AIR_01,22
 
@@ -856,7 +856,7 @@ bg AIR_01,22
 ;　毬枝が、愚かな少女の存在に気付いた時は、もう手遅れだった。@
 `　The moment Marie had realized the existence of this foolish girl, it was already too late.`@`
 ;　彼女に愚行を思い留まるよう何度も囁き掛けたのだが、……それは届かなかった。@
-`　Although she whispered to her countless times to stop her thoughts of this folly, ...it never reached her.`@`
+`　Although she whispered to her countless times to stop her thoughts of this folly, ...she never reached her.`@`
 br
 ;　もっと早くから気付いていたら、……彼女に思い留まらせることも、出来たかもしれない……。\
 `　If only she had realized it sooner, ...maybe she could have stopped those thoughts...`\
@@ -877,12 +877,12 @@ br
 ;　彼岸花が、笑みを浮かべたままの表情で、わずかに凄む。@
 `　With a smile on her face, Higanbana gave a small threat.`@`
 ;　しかし、すぐにくすりと笑い、肩を竦めて見せる。\
-`　However, soon her shoulders shook with her giggling.`\
+`　However, soon her shoulders shook from her giggling.`\
 
 ld r,HIG_W3,80
 
 ;「いいのよ。@同じ獲物を奪い合うことだって、私たちの世界ではよくあること。@……強い方が、獲物を得る。@私が毬枝より強かったから、私が獲物を得た。@……それだけのことよ。@毬枝は私のお友達でしょう？@　だから、こんなことで私は嫌いにならないから安心してちょうだい。@くすくすくす……。」\
-`"Oh, it's okay.`@` In our world, there are plenty of times when people go after the same prey.`@` ...The stronger ones will get the prey.`@` If I am stronger than you, it will be my meal.`@` ...It's only that.`@` You're my friend, right Marie?`@` So please, let me relax knowing you won't hate me over this.`@` Teeheehee."`\
+`"Oh, it's okay.`@` In our world, there are plenty of times when people go after the same prey.`@` ...The stronger ones will get the prey.`@` If I am stronger than you, it will be my meal.`@` ...That's all it is.`@` You're my friend, right Marie?`@` So please, let me relax knowing you won't hate me over this.`@` Teeheehee."`\
 ;＜彼岸花
 
 cl r,22
@@ -902,7 +902,7 @@ ld r,HIG_Def4,22
 me1v 5,50
 
 ;「じゃあね、毬枝。@……さぁて、次の獲物の子を、また探さなくっちゃ。@次は、か弱いいじめられっこが食べてみたいわね。@……クラス中からいじめられていて、もう生きるのも嫌になっちゃった、なんて、可哀想な子を…。」\
-`"See you, Marie.`@` ...Well then, I need to find the next meal.`@` I want to try a frail, bullied kid this time.`@` ...Someone pitiful who's bullied within her class, and has become tired of living..."`\ 
+`"See you, Marie.`@` ...Well then, I need to find the next meal.`@` I want to try a frail, bullied kid this time.`@` ...Someone pitiful who's bullied within her class and has become tired of living..."`\ 
 ld r,HIG_W4,80
 
 ;「くすくすくす、そんな子に甘く囁き掛けて、保健室へ逃げる喜びを教えてあげるの。@それから、ゆっくりと死へ誘ってあげるのよ。@……きっといるわ、そんな可哀想な子がね。@だって、この学校、とても大きくて広いもの。@………くすくすくすくすくすくす。」\
@@ -912,9 +912,12 @@ ld r,HIG_W4,80
 cl r,2
 
 ;　それだけを一方的に告げ、彼岸花はふわりと姿を消す。@
+`　Leaving that as one-way communication, Higanbana lightly disappears.`@
 ;　後には、彼岸花の花びら一つない。@
+`　After that, not a single higanbana flower remained.`@
 br
-　……真っ赤な血の大輪と、哀れな少女の骸が横たわるだけだった。\
+;　……真っ赤な血の大輪と、哀れな少女の骸が横たわるだけだった。\
+`　...Only a large flower of pure red blood and the shell of the foolish girl lay there.`\
 
 fede 1,1000
 E_B
