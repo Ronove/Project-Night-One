@@ -912,21 +912,12 @@ ld r,HIG_W4,80
 cl r,2
 
 ;　それだけを一方的に告げ、彼岸花はふわりと姿を消す。@
-<<<<<<< HEAD
-`　Higanbana said this alone to herself, then casually disappeared.`@`
-;　後には、彼岸花の花びら一つない。@
-`　After that, there wasn't even a single higanbana petal left.`@`
-br
-;　……真っ赤な血の大輪と、哀れな少女の骸が横たわるだけだった。\
-`　...The large flower of crimson blood, was all that was stretched out around the unfortunate girl's corpse.`\
-=======
-`　Leaving that as one-way communication, Higanbana lightly disappears.`@
+`　Leaving that as one-way communication, Higanbana casually disappears.`@
 ;　後には、彼岸花の花びら一つない。@
 `　After that, not a single higanbana flower remained.`@
 br
 ;　……真っ赤な血の大輪と、哀れな少女の骸が横たわるだけだった。\
-`　...Only a large flower of pure red blood and the shell of the foolish girl lay there.`\
->>>>>>> origin/master
+`　...The large flower of crimson blood, was all that was stretched out around the unfortunate girl's corpse.`\
 
 fede 1,1000
 E_B
@@ -940,10 +931,10 @@ br
 `　However,`@` ...if I had realized it earlier, I might have been able to make sure she didn't leave the straight and narrow.`\
 
 ;　彼岸花はまた、彼女のような哀れな犠牲者を探し、死へと誘う。@
-`　Higanbana would find another miserable victim like her and invite them to die.`@`
+`　Higanbana will find another miserable victim like her and invite them to die.`@`
 br
 ;　……次は、か弱いいじめられっこを獲物にするとの、予告まで残して。\
-(?)`　...Then, she would find another frail, bullied person, make a meal out of them, and go so far as to leave behind an advanced notice.
+(?)`　...She even gave a notice in advance that she would find another frail, bullied person, to turn into a meal.`\
 ld l,MAR_Def2n,80
 
 ;「………私に彼岸花さんを止めることは出来ない。@……………でも。」@
@@ -962,17 +953,17 @@ E_A
 bgm1 5
 
 ;「………死は何の解決にも、解放にもならない。@……それを、生きてる内に気付かせてあげることが出来なくて、@……ごめんね……。」@
-`"...Death will never be a resolution, nor a liberation.`@` ...I'm sorry...`@` ...I was unable to help you realize this while you were alive..."`@`
+`"...Death will never be a resolution, nor a liberation.`@` ...I was unable to help you realize this while you were alive...`@` ...I'm sorry..."`@`
 ;＜毬枝
 br
 ;　毬枝は骸の近くに姿を現わし、そっと、その顔を撫でる。\
-`　Marie appeared close to the corpse, and softly stroked her face.`\
+`　Marie shifted close to the husk of the girl, and softly stroked her face.`\
 
 ;　安らかな顔にはならなかったけれど。@
-`　Though she was unable to make a serene face.`@`
+`　Though she couldn't make that face peaceful.`@`
 br
 ;　せめて瞼を閉じてやることは出来た。\
-`　At the least, she was able to close her eyes.`\
+`　She was able to at least close her eyes.`\
 
 bg gakkou_02u,6
 ;ld c,MAR_Def2a,26
@@ -991,7 +982,7 @@ br
 
 
 ;　これは、膨大なクラス数と生徒数を誇る、巨大な学校に住まう、@学校妖怪たちと、それに弄ばれるニンゲンたちの物語……。\
-`　This, was a tale of an enormous school, boasting a humongous amount of classes and students,`@` and the youkai who toy with h u m a n s...`\
+`　This, was a tale of an enormous school, boasting a humongous amount of classes and students,`@` and the youkai who toys with h u m a n s...`\
 
 bg black,2
 
@@ -1028,7 +1019,7 @@ bgm1 4
 `　And from there, she also understood it was something she urgently had to escape.`@`
 br
 ;　しかし、どうすれば、それが成し遂げられるのか、まだ幼かった彼女にはわからなかった。\
-`　However, to her, who was still very young, did not know how she should go about accomplishing this.`\
+`　However, she was still very young and did not know how she should go about accomplishing that.`\
 
 ;　だから、親や先生にそれを聞くと、決まって、こう教えられた。\
 `　So, she decided to ask her parents and teachers about it, and this is what they told her.`\
@@ -1051,10 +1042,10 @@ br
 ;　しかしどうやら、……それが効果を示すには、かなりの時間と我慢が必要だったらしい。\
 `　But somehow, ...it seemed like in order to see results, she had to perservere for a considerable amount of time.`\
 ;　一朝一夕には、その努力は結実しようとしなかった。@
-`　In a day, she was unable to exert that much power.`@`
+`　She couldn't reap the fruits of that hard work in a short enough time.`@`
 br
 ;　その結果、……今日も彼女は、いじめられっこのままだった。\
-`　And the result, ...was that she would stay as a bullied child today.`\
+`　As a result, ...she is still a bullied child even today.`\
 
 
 
@@ -1080,7 +1071,7 @@ me1v 24,50
 `".......!"`@`
 br
 ;　私の頭に、ぽつんと小さなものがぶつかる。@
-`　Something isolated and small hit my head.
+`　Something small hit my head with a pat.`@
 br
 ;　見ずともわかってる。@
 `　Even without looking, I knew what it was.`@`
@@ -1088,7 +1079,7 @@ br
 `　It was a ball someone had torn off of their eraser.`\
 
 ;　それを振り払う仕草をすれば、私が反応したことを面白がって、@いじめっこたちは執拗にぶつけてくるだろう。@
-`　If I acted like I was going to shake it off, they'd think my reaction was funny,`@` and a bullied child would keep getting hit relentlessly.`@`
+`　If I acted like I was going to shake it off, they'd think my reaction was funny,`@` and the bullies would keep hitting me relentlessly.`@`
 br
 ;　だから私は気付かないふりをする。\
 `　So I pretended I didn't notice it.`\
@@ -1096,7 +1087,7 @@ br
 `　I could hear giggling voices,`@` as people saw the flecks of eraser stuck in my hair.`@`
 br
 ;　でも、それに反応すれば、……もっと執拗にいじめられるに違いないのだ。\
-`　But, if I react, ...there's no doubt they'd tenaciously bully me more.`\
+`　But, if I react, ...there's no doubt they'd tenaciously bully me even more.`\
 
 ld l,YUK_Def2a,80
 cl l,22
@@ -1105,7 +1096,7 @@ cl l,22
 `　So, just like I was told, I ignored them.`@` I pretended I didn't notice.`@`
 br
 ;　消しゴムのカスを、いくつも髪に散りばめながら。@
-`　While countless flecks of eraser scattered throughout my hair.`@`
+`　With countless flecks of eraser spread throughout my hair.`@`
 ;　ずっとずっと、……気付かないふりをして、我慢している……。\
 `　The whole, entire time, ...I pretended I didn't notice, and endured it...`\
 
@@ -1133,16 +1124,16 @@ bgm1 8
 `　When I had to use the bathroom, I decided to use one that was far away from the classroom.`@`
 br
 ;　……教室に近いと、いじめっこたちに、トイレで鉢合わせになるからだ。\
-`　...If I were close to the classroom, a bullied child, would certainly encounter someone else in the bathroom.`\
+`　...Because if I used one close to the classroom, I would bump into one of the bullies.`\
 
 ;　教室でさえ執拗なのに。@
-`　Even though they were so persistant in the class.`@`
+`　Even though they were only persistant in class.`@`
 br
 ;　トイレなどという隔離された場所で出くわせば、……………考えたくもなかった。\
-`　If I were to run into someone in this isolated place, ...I didn't even want to think about it.`\
+`　If I were to run into one of them in this isolated place, ...I didn't even want to think about it.`\
 
 ;　だから私は、教室からもっとも近いトイレを嫌い、@こうして別の校舎まで来て、別の学年が使うトイレに通っている。\
-`　So I disliked the bathrooms close to the classroom,`@` and just like this, I went to a different school building, and would use a different year's bathroom.`\
+`　So I disliked the restrooms close to class,`@` and just like this, I would go to a different school building and use a different year's bathroom.`\
 
 bg black,22
 bg toire_07,22
@@ -1151,7 +1142,7 @@ bg toire_07,22
 `　It's not like I would decide which year or which class's bathroom I would use.`@`
 br
 ;　しかし、縄張りのような独特の空気があり、@……遠い教室の異郷から訪れている私を、温かく迎えてくれる雰囲気はわずかほどもなかった。\
-`　However, a peculiar air that seemed territorial was there,`@` ...because the far classroom I was going to was a strange land, there wasn't even the slightest atmosphere of someone welcoming me warmly.`\
+`　However, it had a peculiar air that seemed territorial,`@` ...because the far classroom I came visiting from seemed like a foreign land, there wasn't even the slightest hint of a warm welcoming atmosphere.`\
 
 ;　………あの人だれ？@
 `　...Who is that?`@`
@@ -1170,12 +1161,12 @@ wait 1000
 ld c,YUK_Def3a,22
 
 ;　でも、こうして個室に入って、扉を閉めてしまえば、……私は全てから隔離される。@
-`　But if I go into the stall like this, and close the door, ...I can be isolated from everything.`@`
+`　But if I go into a stall like this and close the door... Then I can isolate myself from everything.`@`
 br
 ;　ここでなら、トイレの個室は本当の意味で安全地帯。@
-`　As long as I'm here, I can understand the true meaning of a bathroom stall being a safety zone.`@`
+`　When I'm here, the bathroom stall fits the definition of a sanctuary.`@`
 ;　上から、デッキブラシやバケツが放り込まれてくることはない。\
-`　There wouldn't be any deck brushes or buckets tossed at me from above.`\
+`　Furthermore, there wouldn't be any deck brushes or buckets tossed at me either.`\
 cl c,5
 
 ;　私は脱力するようにしゃがみ込むと、……小さく頭を振りながら、その顔を両手で覆った。\
@@ -1191,7 +1182,7 @@ br
 me1v 16,50
 
 ;「私、……何で、こんな学校生活してんだろ……。」@
-`"Why...I wonder why I'm living this kind of school life..."`@`
+`"Why...I wonder why my life at school is like this..."`@`
 
 br
 ;　私にはわからない。\
@@ -1200,18 +1191,18 @@ br
 bg black,22
 
 ;　学校って、何のために通うところなんだろう。@
-`　I wondered, for what purpose we go to a place like school.`@`
+`　I wondered, why do we go to a place like school.`@`
 br
 ;　お勉強を教わるため？@
 `　To be taught things?`@`
 br
 ;　掛け算や割り算や、漢字の読み方や書き方を習うため？\
-`　To practice things like multiplication and division, or how to read and write kanji?`\
+`　To practice things like multiplication and division or how to read and write kanji?`\
 ;　……そんなの、お家でも出来ると思うな。@
 `　...I think you could do that kind of thing at home.`@`
 br
 ;　どうして、それを、学　校　で習わなくちゃいけないんだろう。\
-`　Why, do we have to practice this at s c h o o l?`\
+`　Why, do we have to practice this at  s c h o o l?`\
 
 ld r,YUK_def2a,22
 
@@ -1229,12 +1220,12 @@ br
 ;　いや、居たくない。@
 `　No, I don't want to be here.`@`
 ;　そうすれば、痛くない。@
-`　If I'm not here, it won't hurt.`@`
+`　Then it won't hurt.`@`
 ;　私の心は、痛まずに済む…。\
 `　I can end the pain in my heart...`\
 
 ;　今日が終われば、学校から一時、逃げることは出来る。@
-`　Once the day is over, I can run away from school for a short period.`@`
+`　Once the day is over, I can run away from school for a short time.`@`
 ;　でも、日が昇れば、また明日は来る。@
 `　But when the sun rises, tomorrow comes again.`@`
 
@@ -1248,7 +1239,7 @@ br
 ld r,YUK_def4,22
 
 ;「……ないの？@　私に、どこか、……逃げ道は……。」@
-`"...Is there no way?`@` Isn't there anyway, anywhere...I can run to...?"`@`
+`"...Is there no way?`@` Somehow, isn't there anywhere...I can run to...?"`@`
 br
 ;　わかってる。@
 `　I know.`@`
@@ -1308,70 +1299,92 @@ bg toire_04,22
 `　However, I'm sure I heard it.`@` I feel like I did.`@`
 br
 ;　まるで、私の心の声が誰かに聞かれていて、@……それを嘲笑ったかのように感じられた。\
-`　It was a feeling just like somebody had heard the voice of my heart,`@` ...and was ridiculing it.`\
+`　It was a feeling just like somebody had heard the voice of my heart,`@` ...and sneered.`\
 
 ;　ここから逃れるために、自らに傷を負わせる。@
-`
+`(?)　To escape from here, I'll have to injure myself.`@
 br
-　それに、ようやく気付けたのかと、嘲笑うように。\
+;　それに、ようやく気付けたのかと、嘲笑うように。\
+`　Then there was mocking laughter as if to say, 'you finally realized?'`\
 
 bg black,22
 
 me2v 16,50
 
-　くす。@……くすくすくす。@
+;　くす。@……くすくすくす。@
+`　Heehee. `@`...Teeheehee.`@
 br
-　その誰かは私をいつまでも、くすくすと笑い続ける……。\
+;　その誰かは私をいつまでも、くすくすと笑い続ける……。\
+`　That someone continued giggling at me...`\
 
 bg toire_03,0
 ld c,YUK_Def4a,22
 
-「…………………………………。」@
+;「…………………………………。」@
+`"........."`@
 br
-　でも、………ありかもしれない。@
+;　でも、………ありかもしれない。@
+`　But... that might be it.`@
 br
-　逃げても隠れても、逃れられない学校なのだ。@
-　それから逃れようとしたら、何かの支払いはあって当然なんだ。\
+;　逃げても隠れても、逃れられない学校なのだ。@
+`　Even if I run, even if I hide, it's a school I cannot escape from.`@
+;　それから逃れようとしたら、何かの支払いはあって当然なんだ。\
+`　If I want to get away, then I'll obviously have to pay some kind of price for it.`\
 
 ;bg black,22
 ;bg toire_04,22
 
-　……支払いって、言い得てるかもしれない。@
+;　……支払いって、言い得てるかもしれない。@
+`　...Pay a price? Injuring myself might be what I have to do.`@
+;TL Note, added context
 br
-　私が、それを支払う覚悟の大きさに比例して、@……その期間だけ、私を学校から逃がしてくれる。\
+;　私が、それを支払う覚悟の大きさに比例して、@……その期間だけ、私を学校から逃がしてくれる。\
+`　I compared that with how ready I was to pay the price for it. `@`...For a time, it would let me escape from this school.`\
 bg black,22
 
-　その期間だけ？@
+;　その期間だけ？@
+`　For a time?`@
 br
-　じゃあ、どんなに支払いをしても、……いつかは必ず学校に連れ戻されてしまう…？\
+;　じゃあ、どんなに支払いをしても、……いつかは必ず学校に連れ戻されてしまう…？\
+`　Well, no matter what price I pay, ...I'll have to return to school again sometime...?`\
 
 me3v 17,50
 
-　なら、……永遠に学校に戻らなくていいだけ、支払えばいい。@
+;　なら、……永遠に学校に戻らなくていいだけ、支払えばいい。@
+`　Then, ...I'll pay just so that I'll never have to return to school again.`@
 br
-　それだけの、……私の体に許されている、一番大きな支払いをする覚悟があるならば。\
+;　それだけの、……私の体に許されている、一番大きな支払いをする覚悟があるならば。\
+`(?)　Just for that... as long as my body is willing I'm prepared to pay the greatest price.`\
 
 bg toire_03,0
 ld c,YUK_Def3a,22
 ld c,YUK_Def4a,80
 
-「…………でもそれって、………死、ぬ、……ってことだよね…。」@
+;「…………でもそれって、………死、ぬ、……ってことだよね…。」@
+`"...But that's.... death... isn't it...?"`@
 br
-　口に出して初めて、その忌避されるべき言葉の重みを知る。\
+;　口に出して初めて、その忌避されるべき言葉の重みを知る。\
+`　The first time I spoke, I felt the weight of the word that should make me recoil.`\
 
-　……死ねば、……もう学校に戻らなくていい。@
+;　……死ねば、……もう学校に戻らなくていい。@
+`　...If I die, ...I won't have to come back to school.`@
 br
-　永久に、学校から逃れられる……。\
+;　永久に、学校から逃れられる……。\
+`　I'll be free from school, forever...`\
 
 ld c,YUK_Def2a,80
 
-　私はようやく、指先が震えていることを自覚する。@
+;　私はようやく、指先が震えていることを自覚する。@
+`　I became aware at last that my fingertips were shaking.`@
 br
-　その指には、ねっとりとした汗が絡んで滴り、指先に雫を膨らませていた。\
+;　その指には、ねっとりとした汗が絡んで滴り、指先に雫を膨らませていた。\
+`　Those fingers were entwined with sticky sweat drops that bulged at my fingertips.`\ 
 
-　私は、死を怯えて震えているのではない。@
+;　私は、死を怯えて震えているのではない。@
+`　I wasn't shivering from the fear of death.`@
 br
-　自らの死と、学校からの開放を、天秤に掛けていたことに気付いて、戦慄しているのだ……。\
+;　自らの死と、学校からの開放を、天秤に掛けていたことに気付いて、戦慄しているのだ……。\
+`　I realized I was comparing my own death with freedom from school, and that made me tremble...`\
 
 bg black,22
 fede 0,2000
@@ -1391,42 +1404,56 @@ bgm1 6
 
 ;ld c,YUK_Def3,80
 
-　死ぬのはいけないことだと、どこかで習った。@誰かが言ってた。@テレビでよく聞く。@ドラマでも言ってる。@
+;　死ぬのはいけないことだと、どこかで習った。@誰かが言ってた。@テレビでよく聞く。@ドラマでも言ってる。@
+`　I learned somewhere, 'people shouldn't die.' `@`Someone said it. `@`I hear it a lot on television. `@`It's even said in dramas.`@
 br
-　そんな日々の累積が、いつの間にか私に、根拠なき価値観を植え付けていた。\
+;　そんな日々の累積が、いつの間にか私に、根拠なき価値観を植え付けていた。\
+`(?)　Having that repeated daily for so long, at some point those foundationless values had been instilled in me.`\
+;Translation liberty
 
-　人は、自ら死んではならないと。@
+;　人は、自ら死んではならないと。@
+`　People musn't take their own lives.`@
 br
-　その価値観が、初めて揺らぐ。@
-　それはつまり、世界中が口を揃えて言っていたことが、@嘘だったと初めて気付いたということだ。\
+;　その価値観が、初めて揺らぐ。@
+`　This is the first time that value has wavered for me.`@
+;　それはつまり、世界中が口を揃えて言っていたことが、@嘘だったと初めて気付いたということだ。\
+`　In other words, that meant, for the first time, I had realized that this concept uniformly spoken around the world, `@`was a lie.`\
 
 ld r,YUK_Def4a,22
 
-　……世界そのものが、嘘で出来ていることを、私は知る。@
+;　……世界そのものが、嘘で出来ていることを、私は知る。@
+`　...I knew that the world itself was made of lies.`@
 br
-　この、狭く真四角に切り取られたトイレの個室。@
-　その外側は、私が見ていない時、どれほどの嘘と嘲りで満ちているのだろう。\
+;　この、狭く真四角に切り取られたトイレの個室。@
+`　This tightly packed bathroom stall with four walls.`@
+;　その外側は、私が見ていない時、どれほどの嘘と嘲りで満ちているのだろう。\
+`　When I'm not there to see it, just how many lies and how much ridicule fills the outside of it, I wonder?`\
 
 ;bg black,22
 ;bg toire_02,22
 
 me1v 28,70
 
-　……あの子、またここのトイレに来てるね。@
+;　……あの子、またここのトイレに来てるね。@
+`　...That girl, she still comes to this bathroom huh?`@
 br
-　学年、違うんじゃないの？@　どうしてここのトイレに来るの…？@
+;　学年、違うんじゃないの？@　どうしてここのトイレに来るの…？@
+`　Isn't she from a different grade? `@`Why does she come to this bathroom...?`@
 br
-　いじめられてるらしいよ。@いつもオドオドしてるでしょ？\
+;　いじめられてるらしいよ。@いつもオドオドしてるでしょ？\
+`　It seems she's being bullied. `@`Isn't she always cowering?`\
 
 bg black,22
 bg e008,22
 
-　いつもあの個室に入ってるよね？@　自分の部屋のつもりだったりして。@
+;　いつもあの個室に入ってるよね？@　自分の部屋のつもりだったりして。@
+`　She's been in that stall forever hasn't she? `@`It's like she's making it her own room or something.`@
 br
 
 bg e009,22
 
-　そんなにトイレが好きなら、トイレに住んじゃえばいいのにね。@
+;　そんなにトイレが好きなら、トイレに住んじゃえばいいのにね。@
+`　If she likes the bathroom, then she should just live on the toilet, yeah?`@
 
 br
 bg e010,22
@@ -1434,7 +1461,8 @@ bg e010,22
 
 se1 84
 
-　くすくすくすくす、くっすくすくすくすくすくすくすくすくすくすくす……。\
+;　くすくすくすくす、くっすくすくすくすくすくすくすくすくすくすくす……。\
+`　*giggle giggle giggle*, Teeheeheeheeheeheeheeheehee...`\
 
 bg white,23
 bg toire_04,22
@@ -1443,32 +1471,42 @@ E_MA
 
 quakey 1,100
 
-「ひ、……い…ッ………。」@
+;「ひ、……い…ッ………。」@
+`"He, ...e......"`@
 br
-　そんな声、笑い声、聞こえるはずない。\
+;　そんな声、笑い声、聞こえるはずない。\
+`　A voice like that shouldn't sound like laughter.`\
 
 me1v 17,50
 
-　全部、自分の妄想。@
+;　全部、自分の妄想。@
+`　Everything was my illusion.`@
 br
-　それを生み出す頭が許せなくて、掻き毟り、叩きつけ、砕くかのように押し抱える。@
-　頭蓋骨が、ぴしぴしと割れるかのように痛む。@
+;　それを生み出す頭が許せなくて、掻き毟り、叩きつけ、砕くかのように押し抱える。@
+`　As if I couldn't forgive my mind for birthing the idea, I gripped my head as if tearing, beating, and smashing it.`@
+;　頭蓋骨が、ぴしぴしと割れるかのように痛む。@
+`　It was as if my skull was fracturing with a crackling pain.`@
 br
-　当然だ。@割れてしまえと思って、押し抱えてる。\
+;　当然だ。@割れてしまえと思って、押し抱えてる。\
+`　It made sense. `@`I was gripping my head -- thinking to break it.`\
 
 me2v 3,50
 
-　死ねば、学校から、逃げられる。@
+;　死ねば、学校から、逃げられる。@
+`　If I die, I can get away from school.`@
 br
-　どこまで走って逃げても。@どんなところに隠れても、逃れることの出来ない悪夢からの、唯一の出口……。\
+;　どこまで走って逃げても。@どんなところに隠れても、逃れることの出来ない悪夢からの、唯一の出口……。\
+`　No matter how far I run. `@`No matter where I hide, it's the only escape from this inescapable nightmare...`\
 
 bg black,22
 
 me3v 5,50
 
-　死のう。@
+;　死のう。@
+`　I'll die.`@
 br
-　死ねば、ここから逃げられる……。\
+;　死ねば、ここから逃げられる……。\
+`　If I die, I can escape from here...`\
 
 
 
@@ -1489,7 +1527,8 @@ bg black,22
 
 ;locate 0,5
 br
-“駄目ですっ。@　死は何の解決にも、何の開放にもならないっ。”\
+;“駄目ですっ。@　死は何の解決にも、何の開放にもならないっ。”\
+`""It's uselessss. `@`Death resolves nothing, and offers no freeedomm!""`\
 
 bg white,23
 bg toire_03,0
@@ -1498,15 +1537,21 @@ ld c,YUK_N1,80
 
 bgm1 5
 
-　？！@
-　さっきまで私を苛んでいた言葉や笑い声は、どうせ私の妄想だと思っていた。@
+;　？！@
+`　?!`@
+;　さっきまで私を苛んでいた言葉や笑い声は、どうせ私の妄想だと思っていた。@
+`　I had thought those tormenting words and voices of laughter were somehow my own delusions.`@
 br
-　しかし、今の声は違う。@
-　耳に聞こえたんじゃないけれど、……はっきりと私は、確かに聞いた。\
+;　しかし、今の声は違う。@
+`　But this voice was different.`@
+;　耳に聞こえたんじゃないけれど、……はっきりと私は、確かに聞いた。\
+`　I couldn't hear it with my ears, ...but I, clearly, did hear it.`\
 
-　そしてその声は、私が心の中で呟いた、死のうという言葉に対し、明白な返事をしてくれた。@
+;　そしてその声は、私が心の中で呟いた、死のうという言葉に対し、明白な返事をしてくれた。@
+`　And that voice whispered to my heart, and kindly gave me a clear response to my words, I'll die.`@
 br
-　それは断じて、誰かに温かい言葉を掛けられたいと願う私の心が生み出した言葉じゃない。\
+;　それは断じて、誰かに温かい言葉を掛けられたいと願う私の心が生み出した言葉じゃない。\
+`　Those warm words someone had prayed to reach me, were absolutely not from my imagination.`\
 
 ;bg white,23
 bg toire_04,23
@@ -1518,29 +1563,39 @@ bg toire_04,23
 ;bg toire_03,0
 ;ld c,YUK_I3a,23
 
-　私は驚いて辺りを見回す。@
+;　私は驚いて辺りを見回す。@
+`　Startled, I looked at the area around me.`@
 br
-　しかし、個室を区切る白い壁が私を取り囲んでいるだけだ……。\
+;　しかし、個室を区切る白い壁が私を取り囲んでいるだけだ……。\
+`　However, all that surrounded me were the white walls of the stall...`\
 
-　……目を開けていては、聞こえない声…？@
+;　……目を開けていては、聞こえない声…？@
+`　...With my eyes open, I can't hear the voice...?`@
 br
-　目を開けるとまったく感じられないのだが、目を閉じると、声が確かに聞こえる。@
-　いや、すぐ近くに気配さえ感じられる気がした。\
+;　目を開けるとまったく感じられないのだが、目を閉じると、声が確かに聞こえる。@
+`　With my eyes open I couldn't sense it at all, but if I close my eyes, I really can hear a voice.`@
+;　いや、すぐ近くに気配さえ感じられる気がした。\
+`　No, I even felt as if someone was right next to me.`\
 
 bg black,22
 ;mono 2
 ;bg Different_spiral_1b,22
 
-　まさか、………お化けとか、妖怪…？@
+;　まさか、………お化けとか、妖怪…？@
+`　Could it be... a ghost, or a youkai...?`@
 br
-　そういえば、どこかのトイレには、@めそめそさんという妖怪が住んでいるんじゃなかったっけ。\
+;　そういえば、どこかのトイレには、@めそめそさんという妖怪が住んでいるんじゃなかったっけ。\
+`　Now that I think of it, didn't I hear in some bathroom, `@`there was this youkai known as Mesomeso-san.`\
 
 
 
-　でもあれは、旧校舎のトイレじゃなかったっけ…。@
-　いや、校内のトイレなら、どこにでも現れるのかもしれない。@
+;　でもあれは、旧校舎のトイレじゃなかったっけ…。@
+`　But wasn't that in the old school bathrooms...?`@
+;　いや、校内のトイレなら、どこにでも現れるのかもしれない。@
+`　No, if it's a bathroom in the school, she might be able to appear anywhere.`@
 br
-　私が死のうなんて良くないことを考えていたから、妖怪を引き寄せてしまったのかもしれない。\
+;　私が死のうなんて良くないことを考えていたから、妖怪を引き寄せてしまったのかもしれない。\
+`　Because I'm thinking of such a bad thing like killing myself, I might have drawn a youkai to me.`\
 
 ;bg black,22
 ;mono 0
@@ -1548,126 +1603,167 @@ bg toire_03,0
 ld r,YUK_def3a,22
 ld r,YUK_Def4a,80
 
-　一瞬、私は妖怪に呪い殺されるのかなと思った。@
+;　一瞬、私は妖怪に呪い殺されるのかなと思った。@
+`　In a moment, I thought I might be cursed and killed by a youkai.`@
 br
-　それは怯えというより、むしろちょっとした期待。@
-　妖怪が私を殺してくれるということによる、解放をわずかに期待した。\
+;　それは怯えというより、むしろちょっとした期待。@
+`　Instead of being afraid, rather, I was a little anxious.`@
+;　妖怪が私を殺してくれるということによる、解放をわずかに期待した。\
+`　I was slightly anticipating the freedom that being murdered by a youkai could grant me.`\
 
-　でも多分、そんな大層な気持ちじゃない。@
+;　でも多分、そんな大層な気持ちじゃない。@
+`　But, perhaps it wasn't that kind of a feeling.`@
 br
-　こんな私に言葉を掛けてくれた誰かに、@ただ一時、胸中を吐露できるだけでも、今の私には嬉しかった。\
+;　こんな私に言葉を掛けてくれた誰かに、@ただ一時、胸中を吐露できるだけでも、今の私には嬉しかった。\
+`　I was a little glad, `@`that for just a moment, even if it was just in my own mind, someone had given me those words.`\
 
 bg black,23
 bg toire_04,23
 
-「……私に声を掛けてくれたのは、誰ですか。」@
+;「……私に声を掛けてくれたのは、誰ですか。」@
+`"...Who is it? Whose voice spoke with me?"`@
 br
-　心の中でそう言うと、再び声は答えてくれた。@
-　今度は聞こえる。@しっかり聞こえる。\
+;　心の中でそう言うと、再び声は答えてくれた。@
+`　Saying that in my mind, once again the voice replied.`@
+;　今度は聞こえる。@しっかり聞こえる。\
+`　This time I could hear it. `@`I could hear it clearly.`\
 
 bg black,22
 
-「死んでは駄目です。@お願いだから、自殺すれば救われるなんて、考えないで…。」@
-「……あなたは誰？@　どこから話し掛けてるんです？」\
+;「死んでは駄目です。@お願いだから、自殺すれば救われるなんて、考えないで…。」@
+`"Dying is useless. `@`Please, don't think of death as the way to save yourself..."`@
+;「……あなたは誰？@　どこから話し掛けてるんです？」\
+`"...Who are you? `@`Where are you talking to me from?"`\
 
-「私は、……………………。」@
+;「私は、……………………。」@
+`"I ........."`@
 br
-　そこで、声の主は沈黙してしまう。@
-　人間でないことは明らかだった。@
+;　そこで、声の主は沈黙してしまう。@
+`　Then, the owner of the voice became silent.`@
+;　人間でないことは明らかだった。@
+`　It was obvious it wasn't human.`@
 br
-　じゃあ、……やっぱり妖怪なのだ。\
+;　じゃあ、……やっぱり妖怪なのだ。\
+`　Then, ...it's probably a youkai.`\
 
-　妖怪は、人間より、いじめっこより、強くてすごい。@
+;　妖怪は、人間より、いじめっこより、強くてすごい。@
+`　Youkai are much stronger then humans and bullies.`@
 br
-　だから、学校なんか、怖いところでも何でもないはず。\
+;　だから、学校なんか、怖いところでも何でもないはず。\
+`　After all, school for them shouldn't be anything to be afraid of.`\
 
-　ならば誇らしげに名乗ってくれればいいのに、@声の主は、自らの正体を明かすのを恥じるかのように、沈黙する。\
+;　ならば誇らしげに名乗ってくれればいいのに、@声の主は、自らの正体を明かすのを恥じるかのように、沈黙する。\
+`　If only it could triumphantly expound its name, `@`but the owner of the voice, as if it would be shamed to bring its identity to light, was silent.`\
 
 ld l,YUK_Def3a,22
 ld l,YUK_I1a,80
 
-　私は、それを尋ねてしまったことを慌てて謝る。\
+;　私は、それを尋ねてしまったことを慌てて謝る。\
+`　In a panic, I apologized for what I had just asked.`\
 
-「ご、ごめんなさい。@でも、多分、人間じゃないあなた。@……私に話し掛けてくれてありがとう。」\
+;「ご、ごめんなさい。@でも、多分、人間じゃないあなた。@……私に話し掛けてくれてありがとう。」\
+`"I-I'm sorry! `@`But, you're, probably not human. `@`...Thank you for speaking with me."`\
 
 ld r,MAR_def1,2
 ld r,MAR_def4,80
 
-「話し掛けなければ、……あなたが死んでしまうと思ったからです。」\
+;「話し掛けなければ、……あなたが死んでしまうと思ったからです。」\
+`"It's because I thought if I didn't talk to you... you would have died."`\
 
 ld l,YUK_Def2,80
 
-「……どうして、死んだらいけないんですか。」@
+;「……どうして、死んだらいけないんですか。」@
+`"...Why shouldn't I kill myself?"`@
 
 ld r,MAR_def3,80
 
-「死んだら、お父さんやお母さんも悲しみます。@お友達だって先生だって。」\
+;「死んだら、お父さんやお母さんも悲しみます。@お友達だって先生だって。」\
+`"If you die, you'll make your mother and father sad. `@`And your friends, and your teachers."`\
 
 ld l,YUK_Def3a,80
 
-「私が死んで、悲しむ友達なんて、いるでしょうか…。@……みんな、私がいじめられても、笑ってるだけで……。@いなくなったってどうせ、気にもしない…。」\
+;「私が死んで、悲しむ友達なんて、いるでしょうか…。@……みんな、私がいじめられても、笑ってるだけで……。@いなくなったってどうせ、気にもしない…。」\
+`"Do I have friends... who would be sad... if I died? `@`...Even when I'm tormented, everyone just laughs... `@`I don't think they'd care, even if I wasn't here..."`\
 
 ld r,MAR_Def4a,80
 
-「生きてれば、きっと楽しいことだってあります。」@
+;「生きてれば、きっと楽しいことだってあります。」@
+`"As long as you're alive, there'll be fun things to do."`@
 
 ld l,YUK_I2a,80
 
-「学校に、そんなことはないです。」\
+;「学校に、そんなことはないです。」\
+`"There's nothing like that in school."`\
 
 ld r,MAR_Def3a,80
 
-「がんばれば、いつか学校だって卒業しますよ。」@
+;「がんばれば、いつか学校だって卒業しますよ。」@
+`"If you keep going, someday you'll graduate school, you know."`\
 
 ld l,YUK_Def4a,80
 
-「卒業って、……あと何年、私はここで、いじめに耐えていればいいんですか……。」\
+;「卒業って、……あと何年、私はここで、いじめに耐えていればいいんですか……。」\
+`"Graduate?... How many years should I wait here being bullied until then...?"`\
 
 ld r,MAR_Def2a,80
 
-「……私もね、かつてはいじめられていたから、あなたの気持ちはよくわかるの。」\
+;「……私もね、かつてはいじめられていたから、あなたの気持ちはよくわかるの。」\
+`"...You see, I was once being bullied, so I really understand how you feel."`\
 
 bg black,22
 
-　意外だった。@
+;　意外だった。@
+`　This was unexpected.`@
 br
-　すごい力を持っているはずの妖怪でさえ、いじめられていたことがあるのだから。\
+;　すごい力を持っているはずの妖怪でさえ、いじめられていたことがあるのだから。\
+`　Because even a youkai who held amazing power had been bullied before.`\
 
-　私は思った。@
+;　私は思った。@
+`　I thought.`@
 br
-　ひょっとして。@
-　……いじめられて、自ら死を選んで、@……そして彼女は、妖怪になれたんじゃないだろうか、って。\
+;　ひょっとして。@
+`　Could it be.`@
+;　……いじめられて、自ら死を選んで、@……そして彼女は、妖怪になれたんじゃないだろうか、って。\
+`　...She was bullied, chose to end her life, `@`...and then she became a youkai? I wondered.`\
 
 ld c,MAR_I4a,1
 quakey 1,100
 
-「妖怪になりたくて死ぬなんて、絶対に駄目ですっ。」\
+;「妖怪になりたくて死ぬなんて、絶対に駄目ですっ。」\
+`"Wanting to die to become a youkai, it's uselessss!"`\
 
 ld l,YUK_N1,80
 
-「あっ、ご、ごめんなさい……。」@
+;「あっ、ご、ごめんなさい……。」@
+`"Oh, I- I'm sorry..."`@
 br
-　死んで妖怪になれば、その力でいじめっこたちに復讐できるのではないか。@……なんて淡い期待は、ぴしゃりと叱り付けられた。\
+;　死んで妖怪になれば、その力でいじめっこたちに復讐できるのではないか。@……なんて淡い期待は、ぴしゃりと叱り付けられた。\
+`　Couldn't I have my revenge on those bullies with the power of becoming a youkai? `@`...With those words she slapped my small hope away.`\ 
 
 cl c,0
 ld r,MAR_Def4,23
 
-「私は妖怪です。@……この学校の、夜に住んでいます。」\
+;「私は妖怪です。@……この学校の、夜に住んでいます。」\
+`"I am a youkai. `@`...I live in the night of this school."`\
 
 ld l,YUK_Def3a,80
 
-「……その学校の夜には、いじめはありますか…？」\
+;「……その学校の夜には、いじめはありますか…？」\
+`(?) "...Is there, bullying in that night...?"`\
+;I want to make this sound better...
 
 bg black,22
 bg Different_spiral_1a,22
 
 ;ld r,MAR_Def3,80
 
-「ありますよ。@……それは、昼間より酷いものです。」@
+;「ありますよ。@……それは、昼間より酷いものです。」@
+`"There is! `@`...And it's crueler than it is in the day."`@
 
 ld l,YUK_Def2a,80
 
-「…………。」\
+;「…………。」\
+`"......"`\
 
 ;bg black,22
 ;mono 2
