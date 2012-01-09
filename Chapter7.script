@@ -1151,14 +1151,16 @@ bg toire_07,22
 `　It's not like I would decide which year or which class's bathroom I would use.`@`
 br
 ;　しかし、縄張りのような独特の空気があり、@……遠い教室の異郷から訪れている私を、温かく迎えてくれる雰囲気はわずかほどもなかった。\
-`　
+`　However, a peculiar air that seemed territorial was there,`@` ...because the far classroom I was going to was a strange land, there wasn't even the slightest atmosphere of someone welcoming me warmly.`\
 
-　………あの人だれ？@
+;　………あの人だれ？@
+`　...Who is that?`@`
 br
-　……上級生だよね？@
+;　……上級生だよね？@
+`　...She's an upper classman, right?`@`
 br
-　何でここに来てるの？\
-
+;　何でここに来てるの？\
+`　What's she doing here?`\
 bg black,23
 se1v 16,50
 bg toire_03,23
@@ -1167,71 +1169,96 @@ wait 1000
 
 ld c,YUK_Def3a,22
 
-　でも、こうして個室に入って、扉を閉めてしまえば、……私は全てから隔離される。@
+;　でも、こうして個室に入って、扉を閉めてしまえば、……私は全てから隔離される。@
+`　But if I go into the stall like this, and close the door, ...I can be isolated from everything.`@`
 br
-　ここでなら、トイレの個室は本当の意味で安全地帯。@
-　上から、デッキブラシやバケツが放り込まれてくることはない。\
-
+;　ここでなら、トイレの個室は本当の意味で安全地帯。@
+`　As long as I'm here, I can understand the true meaning of a bathroom stall being a safety zone.`@`
+;　上から、デッキブラシやバケツが放り込まれてくることはない。\
+`　There wouldn't be any deck brushes or buckets tossed at me from above.`\
 cl c,5
 
-　私は脱力するようにしゃがみ込むと、……小さく頭を振りながら、その顔を両手で覆った。\
+;　私は脱力するようにしゃがみ込むと、……小さく頭を振りながら、その顔を両手で覆った。\
+`　I kneeled down as though I'd been drained of all strength, ...and with a small shake of my head, I covered my face with both hands.`\
 
-　泣きたかったからじゃない。@
-　顔を手で覆って、温めたかっただけ。@
+;　泣きたかったからじゃない。@
+`　It wasn't because I wanted to cry.`@`
+;　顔を手で覆って、温めたかっただけ。@
+`　I just wanted to make my face warm by covering it with my hands.`@`
 br
-　冷え切った顔が、まるで私の心そのもののように思えて、@……それが冷たくて、痛くて痛くて、……少しでも温めたかっただけなのだ。\
-
+;　冷え切った顔が、まるで私の心そのもののように思えて、@……それが冷たくて、痛くて痛くて、……少しでも温めたかっただけなのだ。\
+`　My completely chilled face, could be thought of as the same thing as my heart,`@` ...It was cold, and hurt so much, ...so I only wanted to warm it a little bit.`\
 me1v 16,50
 
-「私、……何で、こんな学校生活してんだろ……。」@
+;「私、……何で、こんな学校生活してんだろ……。」@
+`"Why...I wonder why I'm living this kind of school life..."`@`
+
 br
-　私にはわからない。\
+;　私にはわからない。\
+`　I didn't know.`\
 
 bg black,22
 
-　学校って、何のために通うところなんだろう。@
+;　学校って、何のために通うところなんだろう。@
+`　I wondered, for what purpose we go to a place like school.`@`
 br
-　お勉強を教わるため？@
+;　お勉強を教わるため？@
+`　To be taught things?`@`
 br
-　掛け算や割り算や、漢字の読み方や書き方を習うため？\
-
-　……そんなの、お家でも出来ると思うな。@
+;　掛け算や割り算や、漢字の読み方や書き方を習うため？\
+`　To practice things like multiplication and division, or how to read and write kanji?`\
+;　……そんなの、お家でも出来ると思うな。@
+`　...I think you could do that kind of thing at home.`@`
 br
-　どうして、それを、学　校　で習わなくちゃいけないんだろう。\
+;　どうして、それを、学　校　で習わなくちゃいけないんだろう。\
+`　Why, do we have to practice this at s c h o o l?`\
 
 ld r,YUK_def2a,22
 
-　………………………。@
+;　………………………。@
+`　........`@`
 br
-　学校に、どうして来なくちゃいけないのかな。\
-
+;　学校に、どうして来なくちゃいけないのかな。\
+`　I wonder why I have to go to school.`\
 ;mono 2
 ;bg Different_spiral_1a,22
 
-　学校に、……来たくない。@
+;　学校に、……来たくない。@
+`　I don't...want to go.
 br
-　いや、居たくない。@
-　そうすれば、痛くない。@
-　私の心は、痛まずに済む…。\
+;　いや、居たくない。@
+`　No, I don't want to be here.`@`
+;　そうすれば、痛くない。@
+`　If I'm not here, it won't hurt.`@`
+;　私の心は、痛まずに済む…。\
+`　I can end the pain in my heart...`\
 
-　今日が終われば、学校から一時、逃げることは出来る。@
-　でも、日が昇れば、また明日は来る。@
+;　今日が終われば、学校から一時、逃げることは出来る。@
+`　Once the day is over, I can run away from school for a short period.`@`
+;　でも、日が昇れば、また明日は来る。@
+`　But when the sun rises, tomorrow comes again.`@`
+
 br
-　逃げられない。@
-　私を苛む、この学校から、私は逃れられない。\
+;　逃げられない。@
+`　I can't escape.`@`
+;　私を苛む、この学校から、私は逃れられない。\
+`　I cannot escape from this school that torments me.`\
 
 ;bg Different_spiral_1b,22
 ld r,YUK_def4,22
 
-「……ないの？@　私に、どこか、……逃げ道は……。」@
+;「……ないの？@　私に、どこか、……逃げ道は……。」@
+`"...Is there no way?`@` Isn't there anyway, anywhere...I can run to...?"`@`
 br
-　わかってる。@
-　あるわけなんかない。\
-
-　かくれんぼみたいに、土管に潜り込むとか、タイヤの山に隠れるとか、@そんなことをして逃げることが出来ればいいのに……。@
+;　わかってる。@
+`　I know.`@`
+;　あるわけなんかない。\
+`　There's no way there is.`\
+;　かくれんぼみたいに、土管に潜り込むとか、タイヤの山に隠れるとか、@そんなことをして逃げることが出来ればいいのに……。@
+`　It would be so nice if I could run away,`@` by slipping into a wooden pipe, or hiding away in a mountain of tires, just like hide and seek....`@`
 br
-　………大怪我をすれば、………病院とかに入院して、……逃げられるかな。\
-
+;　………大怪我をすれば、………病院とかに入院して、……逃げられるかな。\
+`　....If I get seriously injured, ...and I'm hospitalized, ...I wonder if I can escape.`\
 
 
 
@@ -1250,7 +1277,8 @@ mono 0
 
 E_A
 
-　くす。\
+;　くす。\
+`　Teehee.`\
 
 bg toire_03,0
 ld c,YUK_Def2,26
@@ -1258,23 +1286,32 @@ ld c,YUK_Def3a,80
 
 me1v 26,50
 
-「…………え？@　………？」@
-br
-　その時、私はどこかで誰かに笑われたように感じた。\
+;「…………え？@　………？」@
+`"....Eh?`@`.......?"`@`
 
-　そんなはずはない。@
 br
-　トイレには他に誰の気配もない。@
-　笑い声など、聞こえるわけもないのだ。\
+;　その時、私はどこかで誰かに笑われたように感じた。\
+`　Just then, I felt like somebody was laughing at me from somewhere.`\
+
+;　そんなはずはない。@
+`　But there's no way.`@`
+br
+;　トイレには他に誰の気配もない。@
+`　I don't feel the presence of anybody else in the bathroom.`@`　
+;　笑い声など、聞こえるわけもないのだ。\
+`　There's no way I heard anything, like a laugh.`\
 
 bg black,22
 bg toire_04,22
 
-　しかし、私は確かに聞いた。@聞いた気がした。@
+;　しかし、私は確かに聞いた。@聞いた気がした。@
+`　However, I'm sure I heard it.`@` I feel like I did.`@`
 br
-　まるで、私の心の声が誰かに聞かれていて、@……それを嘲笑ったかのように感じられた。\
+;　まるで、私の心の声が誰かに聞かれていて、@……それを嘲笑ったかのように感じられた。\
+`　It was a feeling just like somebody had heard the voice of my heart,`@` ...and was ridiculing it.`\
 
-　ここから逃れるために、自らに傷を負わせる。@
+;　ここから逃れるために、自らに傷を負わせる。@
+`
 br
 　それに、ようやく気付けたのかと、嘲笑うように。\
 
