@@ -399,7 +399,7 @@ bg kyou_04,22
 quakex 1,100
 
 ;　その場から逃げるように教室を出る。@扉を閉めると同時に、大袈裟なほど下品な笑い声が聞こえてきた。\
-`　He left the classroom as if he were running away from that scenario. `@`As he shut the door, he heard a grandoise vulgar laughter.`\
+`　He left the classroom as if he were running away from that scenario. `@`As he shut the door, he heard a grandiose vulgar laughter.`\
 
 
 ;「…………………………。」@
@@ -518,7 +518,7 @@ mono 1
 bg kyou_03,22
 
 ;　ひかるの持ち物が捨てられはじめたのはいつからだったろう。@
-`　How long had it been since Hikaru's posessions had started being thrown away?`@`
+`　How long had it been since Hikaru's possessions had started being thrown away?`@`
 br
 ;　全教科で百点をとって先生に褒められてから？@　厚意からみんなにノートをまとめるコツを教えてあげてから？\
 `　Was it because he received 100% in all of his classes and was praised by his teachers?`@` Was it because he kindly taught everyone his trick to taking notes?`\
@@ -1071,7 +1071,7 @@ ld r,HAM_Def1,2
 ld r,HAM_Def2,80
 
 ;「“いるわけないよな、妖怪なんて”。@……そんなの妖怪が聞いたら、きっと傷つくよ。@存在を否定される辛さは、君もよく知ってるだろう……？」\
-`"'Youkai don't exist'. `@`...If a youkai heard something like that, it would definitely hurt. `@`You're well aquainted with the pain of having your existence denied, aren't you...?"`\
+`"'Youkai don't exist'. `@`...If a youkai heard something like that, it would definitely hurt. `@`You're well acquainted with the pain of having your existence denied, aren't you...?"`\
 
 ;　今度は、一瞬の間に、自分の背後に人がいたのだ。@……もう驚愕を超えて、呆然とするしかない。\
 `　This time, in an instant, someone was behind me. `@`...I was beyond frightened -- I was dumbfounded.`\
@@ -1621,7 +1621,7 @@ br
 ;quakey 2,200
 
 ;　少年の一人が大袈裟に顔をしかめ、それを見て他の少年たちも豪快に笑った。\
-`　One of the boys showed an exagerated grimace, and seeing that, the others burst into laughter.`\
+`　One of the boys showed an exaggerated grimace, and seeing that, the others burst into laughter.`\
 
 ;「ほら、さっさと帰れよ。@じゃないと今度はゴミ箱じゃなくて焼却炉に鞄ごとぶち込むぞ。」@
 `"Look, hurry up and go home. `@`Otherwise next time it won't be in the garbage, but we'll stuff your bag in the incinerator."`@
@@ -1909,7 +1909,7 @@ me2v 17,70
 se1 85
 br
 ;　青年はなおもリズミカルにカスタネットを鳴らす。@するとうさぎたちはまるでその音に操られるかのように一列に並んだ。\
-`　The young man even began to play the castanets to a rythym. `@`As if they were being manipulated by that sound, the rabbits formed a line.`\
+`　The young man even began to play the castanets to a rhythm. `@`As if they were being manipulated by that sound, the rabbits formed a line.`\
 
 ld c,HAM_Def3,80
 
@@ -1992,7 +1992,7 @@ quake 5,500
 ;　出来るのは、ただがむしゃらに走り回って、壁や金網に突進して頭をぶつけることだけ。@
 `　All they could do was just run around in circles recklessly, charging at the walls and fencing only to bump their heads.`@
 ;　見ているのが哀れなくらい愚かで無駄な抵抗だった。\
-`　Looking at them, they seemed patheticly foolish in their pointless resistance.`\
+`　Looking at them, they seemed pathetically foolish in their pointless resistance.`\
 
 ;　金網に負けて爪が剥がれ、あちこちに頭をぶつけ血を滲ませると、@……とうとう彼らも諦めたのか、身を寄せ合って、懇願するようにひかるを見上げる。\
 `　Their claws would loosen and break against the wire mesh, here and there blood flowed from heads butting, `@`...perhaps they had given up, as they huddled together and looked up as if to beg Hikaru.`\
@@ -2054,7 +2054,7 @@ bg rouka_02,0
 ld r,HIK_Def2,22
 
 ;　学校は今、先日起きた二つの事件の話題で持ち切りだった。\
-`　At school, all anybody talked about now were the two incidents that occured the other day.`\
+`　At school, all anybody talked about now were the two incidents that occurred the other day.`\
 
 ;「うさぎ小屋の虐殺」。@そして、「行方不明になった４人の生徒」。\
 `"The Mass Killing in the Rabbit Cage."`@` And, "The Missing 4 Students."`\
@@ -2227,7 +2227,7 @@ bg rouka_03,24
 
 br
 ;　そこには、まるで舞台からそのまま抜け出してきたような豪奢な服を着た少女が立っていた。\
-`　A girl clad so extravagently that it looked as though she'd just slipped away from a play was there.`\
+`　A girl clad so extravagantly that it looked as though she'd just slipped away from a play was there.`\
 ld c,HIG_Def2,22
 fede 0,1000
 E_A
@@ -2276,7 +2276,7 @@ br
 br
 
 ;　思わず目を逸らしたくなるほどに、冷え切った眼光の笑いだった。\
-`　A smile with such an icy gleam in her eye it made him avert his eyes inadvertantly.`\
+`　A smile with such an icy gleam in her eye it made him avert his eyes inadvertently.`\
 
 ld r,HIK_Def3,80
 
@@ -2370,7 +2370,7 @@ ld l,HIK_Def4a,23
 `　Even though I don't believe I said anything, ...she abruptly responded with, "So that's what you think."`@`
 br
 ;　……この、口にしていないはずなのに、会話になってしまう感覚は……、まさか……。\
-`　...This feeling, carrying on a conversation when I have't said anything...it can't be...`\
+`　...This feeling, carrying on a conversation when I haven't said anything...it can't be...`\
 
 ld r,HIG_Def2,80
 
@@ -2591,7 +2591,7 @@ bg black,22
 `　Suddenly catching his eye, in the corner of the staff room were the remaining live rabbits, `@`or rather, the real rabbits from the cages.`@
 br
 ;　いくつかのダンボールで組み上げた簡易的な柵。@そこに新聞紙が敷かれて、とりあえずの彼らの住処が出来上がっていた。\
-`　A simple fort made from many stacked carboard boxes. `@`Newspapers were spread out inside, and that completed the temporary living space for the rabbits.`\
+`　A simple fort made from many stacked cardboard boxes. `@`Newspapers were spread out inside, and that completed the temporary living space for the rabbits.`\
 
 ;　そう言えば、事件の後、一時的に職員室に移されることになった、@と誰かが言っていた気がする。@
 `　That reminded him, `@`he felt he had heard that after the incident, they were temporarily moved to the staff room.`@
@@ -2744,7 +2744,7 @@ ld r,HIK_Def2,80
 `　An outsider can't understand this pure, simple, and unreasonable -- evil intent.`@
 br
 ;　そんなものも理解できないで、よくも教壇で担任面が出来たものだ。\
-`　Unable to understand that, how dare they put thesmelves on the lecturne.`\
+`　Unable to understand that, how dare they put themselves on the lectern.`\
 
 bg black,23
 bg shokuin_02,23
@@ -3163,12 +3163,12 @@ bg rouka_01,22
 `　The school at night looked completely different than it did in the day.`@
 br
 ;　明るさとか雰囲気とかそんな程度の違いではなく、まるで建物ごと別の次元に迷い込んでしまったかのようだ。\
-`　It wasn't just the lighting or atmosphere that was different, but it was as if each building had wandered into their own seperate worlds.`\
+`　It wasn't just the lighting or atmosphere that was different, but it was as if each building had wandered into their own separate worlds.`\
 
 ;　そんな薄暗い廊下を、早足で歩いていく。@気持ちが急くのを抑えきれない…。@
 `　He walks quickly down the dim hallway. `@`He can't hold back his need to hurry...`@
 ;　カツカツ、と反響する自分の足音を聞きながら、ひかるは思い出していた。@
-`　As he was listening to the sound of the echos of his own footsteps going tap tap tap, Hikaru remembered.`@
+`　As he was listening to the sound of the echoes of his own footsteps going tap tap tap, Hikaru remembered.`@
 br
 ;　……命を奪うに相応しい、覚悟が自分にあるのかどうかを。\
 `　...Whether or not he was properly prepared to take someone's life.`\
@@ -3458,7 +3458,7 @@ ld c,HAM_Def5,22
 ;ld c,HAM_Def1,80
 
 ;「数日を経ずに、この怪異は学校に止まらず、町全体を恐怖のどん底に叩き込むでしょう！@　そしてやがて、音楽室より聞こえるカスタネットの音が、@その恐怖に彩りを加え、『ハメルンのカスタネット』という新たな怪談を生み出すのです！」\
-`"Before too many days pass, this terror will not stop at this school, but we will drive this entire city into the very depths of horror! `@`And eventually, the sound of castanets from the music room, `@`will be added to the palette of fear, and a new legend known as "Hameln's Castanets" will be born!"`\
+`"Before too many days pass, this terror will not stop at this school, but we will drive this entire city into the very depths of horror! `@`And eventually, the sound of castanets from the music room, `@`will be added to the palette of fear, and a new legend known as 'Hameln's Castanets' will be born!"`\
 
 ld c,HAM_Def3,80
 
@@ -3493,13 +3493,13 @@ ld c,HAM_Def3,23
 ld c,HAM_Def5,80
 
 ;「森谷毬枝は学校妖怪に相応しくありませんッ。@だから私が、新しい第八の怪談となりましょう！！@　『音楽室のハメルン』！@　『ハメルンのカスタネット』！！@　ふっははははっはっはっは！！@　この新しき怪談が、八つの怪談の頂点に躍り出るのですッ！@　充分な狩りによって私は力を増し、やがて実力でめそめそさんを駆逐する！@　その時こそ、私は本当の第八の怪談となるのです！」\
-`"Marie Moriya isn't an appropriate youkai for this school~. `@`So make me the new eighth mystery of this school!! `@`""Hameln of the Music Room!"" `@`""Hameln's Castanets!!"" `@`Huhhahaha hah hah hah ha!! `@`This new tale will jump to the top of all eight stories~! `@`I'll greatly expand my power from hunting, and then before long I'll exterminate Mesomeso-san with true power! `@`And then, I will become the true eighth mystery!"`\
+`"Marie Moriya isn't an appropriate youkai for this school~. `@`So make me the new eighth mystery of this school!! `@`'Hameln of the Music Room!' `@`'Hameln's Castanets'!! `@`Huhhahaha hah hah hah ha!! `@`This new tale will jump to the top of all eight stories~! `@`I'll greatly expand my power from hunting, and then before long I'll exterminate Mesomeso-san with true power! `@`And then, I will become the true eighth mystery!"`\
 
 ld r,HIK_Def4a,24
 ld r,HIK_w3a,80
 
 ;「……ハメルンは、……いや、……僕たちは、学校の新しい怪談になるんだ。@………僕たちの邪魔をするなら、@……例え、相手が妖怪だって、容赦はしない。@お前がどんな恐ろしい妖怪だったとしても、僕たちには敵わないんだ。@……ハメルンのカスタネットには、敵わない…！！」@
-`"...Hameln, ...No, ...We will become a new school horror story. `@`...If any gets in our way, `@`...even if it's a youkai, we won't show them mercy. `@`No matter how terrifying a youkai you might be, you're no match for us. `@`...No one can stand against Hameln's Castanets...!!"`@
+`"...Hameln, ...No, ...We will become a new school horror story. `@`...If anyone gets in our way, `@`...even if it's a youkai, we won't show them mercy. `@`No matter how terrifying a youkai you might be, you're no match for us. `@`...No one can stand against Hameln's Castanets...!!"`@
 br
 ;　ひかるは精一杯の強がりを吐き出す。\
 `　Hikaru spat out a show of courage with everything he had.`\
@@ -3530,7 +3530,7 @@ bgm1 12
 `　UhhuhuhuhuHaHAhAhAHhaHAHAHAHHAHAHAHHA!!!"`@
 br
 ;　上品な笑いは最初だけ。@最後の方には、職員室全体を振るわせるような、地獄の底からの笑いとなっていた。\
-`　Her laughter started off elegently. `@`By the end of it, it turned into a laugh that shook the everything in the staff room as if it were from the depths of hell.`\
+`　Her laughter started off elegantly. `@`By the end of it, it turned into a laugh that shook everything in the staff room as if it were from the depths of hell.`\
 
 bg black,23
 bg shokuin_03,0
@@ -3558,7 +3558,7 @@ se1v 2,100
 quakey 1,100
 
 ;「イエェーースッ！！！@　『ハメルンのッ、カスタネット』ォオオォッ！！！」\
-`"<YEEEEEESS!!!> `@`""HAMELN'S CASTANETSSSssSSsS!!!""`\
+`"<YEEEEEESS!!!> `@`'HAMELN'S CASTANETSSSssSSsS!!!'"`\
 
 se1v 85,70
 
@@ -3592,7 +3592,7 @@ quakey 1,100
 quakex 2,200
 
 ;　彼岸花の笑いにその長い髪が暴れ散る。@
-`(?)　Higanbana thew back her hair and laughed.`@
+`(?)　Higanbana threw back her hair and laughed.`@
 br
 ;　彼女を中心に竜巻が湧き起こり、書類などを撒き散らして、まるで地獄の吹雪のような光景を見せた。\
 `　A tornado burst from her center, scattering paperwork, and showed them a scene not unlike a blizzard from hell.`\
@@ -3604,7 +3604,7 @@ ld r,HIK_n1,24
 ld r,HIK_i2,80
 
 ;「ハメルンッ、何をやってる？！@　早くあいつをうさぎに……！@　………あッ…！！」\
-`"Hameln~ what are doing?! `@`Hurry and turn her into...! `@`...Ahh...!!"`\
+`"Hameln~ what are you doing?! `@`Hurry and turn her into...! `@`...Ahh...!!"`\
 
 se1 66
 
@@ -3613,7 +3613,7 @@ bg white,24
 bg black,22
 
 ;　職員室中に螺旋を描いて舞い散る書類の吹雪が、@うねる真っ白な大蛇のように、ハメルンに襲い掛かり、……ぐるぐる巻きに拘束してしまう。\
-`　The blizzard of dancing papers that drawing a spiral in the middle of the staff room, `@`rushed at Hameln like a giant white serpent, ...and wrapped around him -- constricting him.`\
+`　The blizzard of dancing papers that was drawing a spiral in the middle of the staff room,`@` rushed at Hameln like a giant white serpent, ...and wrapped around him -- constricting him.`\
 
 ;　ハメルンはまるで、大量の書類で作られた、巨大な張子の虎のような姿にされていた……。@
 `　Then Hameln turned himself into what seemed like a giant tiger formed from a large quantity of papers...`@
@@ -3724,10 +3724,10 @@ br
 ;ld r,HIK_Def1,80
 
 ;　……顔を踏みつける感触、耳を切り裂くハサミの震え、目玉に突き破る時のコンパスのあの手応え。@
-(?)`　...that feeling of stepping on a face, the the trembling of cutting off ears with scissors, and that moment of impact when you pierce eyes with a drafting compass.`@`
+`　(?)...that feeling of stepping on a face, the trembling of cutting off ears with scissors, and that moment of impact when you pierce eyes with a drafting compass.`@`
 br
 ;　それら全てを実感して、理解してやる。\
-`　I've felt everything, and I understand.`@
+`　I've felt everything, and I understand.`\
 
 ld c,HIG_w4,22
 
@@ -3781,7 +3781,7 @@ me1v 16,50
 `　His skin was covered in goosebumps, and he trembled with fear...`@`
 br
 ;　不意にひかるは、自分の右手が何かを握っている気がした。\
-`　Suddenly, Hikaru realized his right hand was clasping something.
+`　Suddenly, Hikaru realized his right hand was clasping something.`\
 
 bg aka3,1
 quakey 2,200
@@ -3793,19 +3793,19 @@ me2v 17,50
 `　Scissors, a compass, a box cutter.`@`
 br
 ;　それはうさぎたちを虐殺した、処刑道具。\
-`　They were the tools he'd executed the rabbits when he was killing the rabbits.`\
+`　They were the tools he'd executed the rabbits with.`\
 
 ;　ここにあるはずがない。@だって捨てたはずだ。@
 `　They shouldn't be here.`@` I swear I threw them out.`@`
 ;　あの日、彼らを殺した後、血を洗い流し、コンビニのゴミ箱の中へ放り込んだ。@それなのに何故……。\
-`　That day, after I killed them all and washed the blood, I'd tossed them into a bin at a convenience store.`@` So then why...`\
+`　That day, after I killed them all and washed away the blood, I'd tossed them into a bin at a convenience store.`@` So then why...`\
 
 bg white,1
 bg black,22
 
 
 ;　その時、土の匂いを嗅いだ気がした。@それに混じる獣の臭い……。@
-`　At that time, he realized the smell of the earth.`@` And mixed in was the stink of animals....`@`
+`　At that time, he sensed the smell of the earth.`@` And mixed in was the stink of animals....`@`
 br
 ;　え……ここって……。@
 `　Eh...this is...`@`
@@ -3982,10 +3982,10 @@ quakey 1,100
 
 
 ;　刃がぬめり、欠ける度にカチカチと刃を繰り出して、ようやく……、ぞりりと……切り落とす。@
-`　The blade was damaged by the viscuous liquid, and each time he would stubbornly draw it out, finally...with a squish, ...he'd lop it off.`@`
+`　The blade was damaged by the viscous liquid, and each time he would stubbornly draw it out, finally...with a squish, ...he'd lop it off.`@`
 br
 ;　その、ぞりりという感触がそのまま、ひかるの背中を這い上がる……。\
-`　That, squishy sensation as it was, creeped up Hikaru's back...`\
+`　That, squishy sensation as it was, crept up Hikaru's back...`\
 
 ;　もちろん、あの晩のひかるは、指一本程度では満足しない。@……そのまま、他の指も……。@…………ぞり、………ぞりり………。\
 `　Of course, on that evening, Hikaru was not satisfied with just one finger.`@`...Just like that, with the other fingers...`@` ...squish, ...squissshhhhh...`\
@@ -4152,7 +4152,7 @@ ld r,HAM_Def3,80
 ld l,HIG_w6,80
 
 ;「それがお望み？@　なら、私があんたをこのまま、ぼきぼきに折って砕いてあげるわ。」@
-`"Is what you desire?`@` Then, I can rip and tear you to pieces right here."`@`
+`"Is that what you desire?`@` Then, I can rip and tear you to pieces right here."`@`
 br
 ;　彼岸花は妖艶に笑い、拘束されたままのハメルンを睨む。\
 `　Higanbana's bewitching smile, was judging the restrained Hameln.`\
@@ -4363,7 +4363,7 @@ bg black,26
 bg shokuin_04,22
 
 ;「このままうさぎ小屋に放ってしまおうかとも思ったけれど、何しろ彼岸花先輩のこと。@いつ妖力を取り戻して、元の姿を取り戻されるかわかったものじゃありませんからね。@……手も足も出ない、このみすぼらしい姿の内に、@しっかりトドメを刺させていただきましょう。」\
-`"I had planned on releasing the rabbits from their cage, but what can I do with Higanbana-sempai.`@` I don't know if you'll turn back to your original form when your power comes back.`@`...While you can't do a thing in this shabby form,`@` I should firmly finish you off."`\
+`"I had planned on releasing the rabbits from their cage, but what can I do with Higanbana-sempai.`@` I don't know if you'll turn back to your original form when your power comes back.`@` ...While you can't do a thing in this shabby form,`@` I should firmly finish you off."`\
 
 ld r,HAM_Def5,26
 
@@ -4376,7 +4376,7 @@ ld r,HAM_Def5,26
 bg black,22
 
 ;『…………手も足も出せない？@　この踊る彼岸花が…？』\
-`"'......I can't move my arms and legs?`@` I, the Dancing Higanbana...?"'`\
+`"......I can't move my arms and legs?`@` I, the Dancing Higanbana...?"`\
 ;bg shokuin_03,0
 ld c,HAM_Def2,22
 ld c,HAM_Def4,80
@@ -4385,7 +4385,7 @@ ld c,HAM_Def4,80
 `"Oh?`@` Even as a rabbit, you're able to talk?`@` Pffhahaha, I'm surprised.`@` However, you are unable to do anything."`\
 
 ;『そうね。@動かせるのはせいぜい、この口だけ。』\
-`"'You're right.`@` The most I am able to move is just my mouth."'`\
+`"You're right.`@` The most I am able to move is just my mouth."`\
 ld c,HAM_Def2,80
 
 ;「ならばせめて。@その口で断末魔くらい聞かせて下さい。@……それではご機嫌よう、彼岸花先輩。」\
@@ -4394,7 +4394,7 @@ ld c,HAM_Def2,80
 bg black,22
 
 ;『ご機嫌よう？@　……もう勝ったつもりでいるの？@　あなた程度、口だけ動かせれば充分よ。』\
-`"'Fare thee well?`@` ...Do you really think you've won?`@` Against you, it's enough to just move my mouth."'`\
+`"Fare thee well?`@` ...Do you really think you've won?`@` Against you, it's enough to just move my mouth."`\
 
 
 ;　ハメルンは、その手を開く。@
@@ -4489,7 +4489,7 @@ bg black,23
 mono 0
 
 ;『……毬枝を追い落として第８位になると言ってみたり、私を倒して第３位になると言ってみたり。@くすくす、うふふふふふ、それだけの大口を叩くだけあって、実に立派な舌だわ。@くすくすくすくすくすくす…！！』\
-`"'...Saying you want to chase after Marie to become the 8th Rank, saying you'd try to knock me out to become 3rd Rank.`@` Teehee, Pffahahaha, as to be expected from such a boastful man, your tongue was truly splendid...!! Teeheeheeheehee...!!"'`\
+`"...Saying you want to chase after Marie to become the 8th Rank, saying you'd try to knock me out to become 3rd Rank.`@` Teehee, Pffahahaha, as to be expected from such a boastful man, your tongue was truly splendid...!! Teeheeheeheehee...!!"`\
 
 bg shokuin_04,22
 se1 38
@@ -4500,7 +4500,7 @@ quakey 1,100
 `"Gg...guh...gggg...gg...guoh....!!!"`\
 
 ;『最後に教えてご覧なさい。@あんたをこの学校に呼び寄せたのは誰……？@　毬枝は私の大切なオトモダチなのよ…？@　それを追い払おうとするなんて、許せないヤツだわ。@……そいつの名を教えてご覧なさい…？@　……………………。@……あぁ、無理よね。@こんなにも舌も内臓も引きずり出されちゃ、返事も満足に出来ないわね。』\
-`"'Please tell me one last thing.`@` Who called you to this school...?`@` Marie is my very important friend...`@` I won't forgive anybody who would try to drive her away.`@` ...Tell me that name.`@` ..........`@`...Ahh, it's impossible.`@` Since you had your tongue and organs ripped out, you can't even satisfy me with a reply."'`\
+`"Please tell me one last thing.`@` Who called you to this school...?`@` Marie is my very important friend...`@` I won't forgive anybody who would try to drive her away.`@` ...Tell me that name.`@` ..........`@`...Ahh, it's impossible.`@` Since you had your tongue and organs ripped out, you can't even satisfy me with a reply."`\
 
 se2 38
 
@@ -4512,7 +4512,7 @@ quakey 2,200
 bg black,22
 
 ;『さようなら、ハメルン。@あんたの怪談なんて、……この学校に残させてやらない。@くす、くすくすくすくすくすくす、あっははははははははははははははははははははは！！！』\
-`"'Fare thee well, Hameln.`@` Your story, ...will never remain in this school.`@` Teehee, Teeheeheehee, AhhahaHAHAHAHAHAHAHAHAHA!!!"'`\
+`"Fare thee well, Hameln.`@` Your story, ...will never remain in this school.`@` Teehee, Teeheeheehee, AhhahaHAHAHAHAHAHAHAHAHA!!!"`\
 
 se3v 84,100
 
@@ -4569,7 +4569,7 @@ quakex 1,100
 ld l,HIG_Def5,80
 
 ;「人を殺すということを、まさか、あれっぽっちで全て実感できたと思っているの…？@　あなたが実感したのは、ニンゲン側だけじゃない。」\
-(?)`"Do you think that killing someone would be something you could fully experience just like that..?`@` What you actually felt was only a  H U M A N' S  side."`\
+`(?)"Do you think that killing someone would be something you could fully experience just like that..?`@` What you actually felt was only a  H U M A N' S  side."`\
 
 ld r,HIK_n1,80
 
@@ -4791,7 +4791,7 @@ br
 ld c,HIG_w6,22
 
 ;「くすくすくすくすくす。@……うさぎって、性欲がすごく強いって聞くんだけれど。@……本当かしらね…。@……くす、………くすくすくすくすくすくすくすくすくすくす！！」\
-`"Teeheeheehee.`@`...I hear that rabbits have quite a strong libido.`@` ...I wonder if that's true...`@` ...Teehee, ....Teeheeheeheeheehee!!"`\
+`"Teeheeheehee.`@` ...I hear that rabbits have quite a strong libido.`@` ...I wonder if that's true...`@` ...Teehee, ....Teeheeheeheeheehee!!"`\
 
 cl c,2
 
