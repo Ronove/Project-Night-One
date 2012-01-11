@@ -1749,7 +1749,7 @@ ld r,MAR_Def4,23
 ld l,YUK_Def3a,80
 
 ;「……その学校の夜には、いじめはありますか…？」\
-`(?) "...Is there, bullying in that night...?"`\
+`(?) "...Does bullying happen at night at school too...?"`\
 ;I want to make this sound better...
 
 bg black,22
@@ -1758,7 +1758,7 @@ bg Different_spiral_1a,22
 ;ld r,MAR_Def3,80
 
 ;「ありますよ。@……それは、昼間より酷いものです。」@
-`"There is! `@`...And it's crueler than it is in the day."`@
+`"Yes! `@`...And it's crueler than it is in the day."`@
 
 ld l,YUK_Def2a,80
 
@@ -1769,20 +1769,24 @@ ld l,YUK_Def2a,80
 ;mono 2
 ;bg Different_spiral_1a,22
 
-「妖怪になれば、もう誰にもいじめられなくなるなんて、そんな甘えは持たないで下さい。@……死者の魂がどれほど無力で、どれほど無残にいじめられているか。@……生きているあなたにはわからないと思います。@でも、それをあなたが身をもって知った時には、もう手遅れです。」\
+;「妖怪になれば、もう誰にもいじめられなくなるなんて、そんな甘えは持たないで下さい。@……死者の魂がどれほど無力で、どれほど無残にいじめられているか。@……生きているあなたにはわからないと思います。@でも、それをあなたが身をもって知った時には、もう手遅れです。」\
+`"Please don't think that if you become a youkai you won't be bullied by anyone any longer. `@`...Just how powerless dead souls are, and how cruel the brutality becomes. `@`...I don't think you can quite understand that while you're still alive. `@`But, by the time you learn of it with your own body it's already too late."`\
 
 ;bg Different_spiral_1b,22
 ld r,MAR_Def3a,22
 
-「………そして特に。@……自ら死を選んだ魂は、妖怪たちの大好物だから。@それはもう、……酷い目に遭います。@魂たちは皆、死ななければ良かったと後悔します。@……でも、もう遅い。@……永遠の地獄で、酷い責め苦に苛まれます…。」\
-
+;「………そして特に。@……自ら死を選んだ魂は、妖怪たちの大好物だから。@それはもう、……酷い目に遭います。@魂たちは皆、死ななければ良かったと後悔します。@……でも、もう遅い。@……永遠の地獄で、酷い責め苦に苛まれます…。」\
+`"...And especially. `@`...Souls that choose to end their own lives are a youkai's favorite food. `@`...I've already seen this first hand. `@`All these souls regret thinking they'd be better off dead. `@`...But, then it's already too late. `@`...They're put through horrific tortures in the abyss for eternity..."`\
 bg black,22
 mono 0
 
-　そんな話、どこかで聞かされたこともある。@
-　特別授業か何かで、お坊さんか何かが来た時に、そんな話をしていた気もする。@
+;　そんな話、どこかで聞かされたこともある。@
+`　It seems like I've heard about this before.`@
+;　特別授業か何かで、お坊さんか何かが来た時に、そんな話をしていた気もする。@
+`　I feel like during special studies, when a Buddhist priest came for some reason, he talked about something like that.`@
 br
-　でも、まったく同じそれも妖怪が語ると、比べ物にならない信憑性を伴う…。\
+;　でも、まったく同じそれも妖怪が語ると、比べ物にならない信憑性を伴う…。\
+`　But he couldn't compare with the authenticity of a youkai, who was talking about the exact same thing...`\
 
 fede 0,2000
 E_A
@@ -1792,36 +1796,44 @@ ld r,YUK_Def3a,80
 
 me1v 5,50
 
-「じゃ、……じゃあ。@……妖怪さんは、どうしろと言うんですか。」@
+;「じゃ、……じゃあ。@……妖怪さんは、どうしろと言うんですか。」@
+`"Well, ...well. `@`...Then what are you suggesting I should do, youkai-san?"`@
 
 ld l,MAR_Def3a,22
 ld l,MAR_Def2a,80
 
-「……………………。」\
+;「……………………。」\
+`"........."`\
 
 ld r,YUK_Def4a,80
 
-「死後の世界でいじめられる方が辛いから、今、ここでいじめられている方がまだマシ。@……だから、卒業するまでずっとずっと、……ここでいじめられていろって言うんですか……。」\
+;「死後の世界でいじめられる方が辛いから、今、ここでいじめられている方がまだマシ。@……だから、卒業するまでずっとずっと、……ここでいじめられていろって言うんですか……。」\
+`"Since the bullying in the world after death is much more painful, so for now I should stay here and be bullied like this. `@`...And until I graduate, during that very long time... I should keep being bullied here like this...?"`\
 
 ld l,MAR_I3a,80
 
-「戦わなきゃ。」@
+;「戦わなきゃ。」@
+`"You have to fight back."`@
 
 ld r,YUK_N1,80
 
-「戦うって…？！@　そんなこと絶対出来ないし、そんなことしたら余計いじめられるに決まってるし…！！」\
+;「戦うって…？！@　そんなこと絶対出来ないし、そんなことしたら余計いじめられるに決まってるし…！！」\
+`"Fight...?! `@`I couldn't do something like that, and if I did something like that I'll just invite more needless bullying on myself...!!"`\
 
 ld l,MAR_I4a,80
 
-「死んで解放されようなんて、邪悪な妖怪たちの囁きと、まず戦うんです。」@
+;「死んで解放されようなんて、邪悪な妖怪たちの囁きと、まず戦うんです。」@
+`"First, you should fight those whispers of wicked youkai inviting you to free yourself through death."`@
 
 ld r,YUK_Def4a,80
 
-「………それは、……そうだけど……。」\
+;「………それは、……そうだけど……。」\
+`"...Well, ...I suppose..."`\
 
 ld l,MAR_I1a,80
 
-「そして次に、周りの色々な人に相談してみて。@……先生や両親に相談してみて。@私はかつて、それを怠り、自分ひとりで全てを抱え込んでしまったから…。」\
+;「そして次に、周りの色々な人に相談してみて。@……先生や両親に相談してみて。@私はかつて、それを怠り、自分ひとりで全てを抱え込んでしまったから…。」\
+`"Then, try asking for help from those around you. `@`...Try asking your parents and teachers. `@`Once I had neglected to do that, and I brought everything on myself..."`\
 
 ;bg "BMP\background\efe\red1.bmp",1
 ;mono 2
@@ -1834,29 +1846,41 @@ bg toire_04,22
 
 bgm1 22
 
-　先生や両親に、相談？@
+;　先生や両親に、相談？@
+`　Ask for help from -- my parents, my teachers?`@
 br
-　その言葉が、私の心に亀裂を入れた。\
+;　その言葉が、私の心に亀裂を入れた。\
+`　Those words put a gash in my heart.`\
 
-　悲しみじゃない。@
-　……怒りだった。@
+;　悲しみじゃない。@
+`　It wasn't sadness.`@
+;　……怒りだった。@
+`　...It was anger.`@
 br
-　相談した。@先生にも親にも。@
-　その答えはいつだって、無視しなさいだった。\
+;　相談した。@先生にも親にも。@
+`　I asked for help. `@`From my parents, from my teachers.`@
+;　その答えはいつだって、無視しなさいだった。\
+`　And their response was always 'ignore them.'`\
 
-　でも、私はいつの頃からか気付いていた。@
+;　でも、私はいつの頃からか気付いていた。@
+`　However, at some point I realized it.`@
 br
-　無視するのは、私がじゃない。@
-　私に対して、先生や親が、だったのだ。\
+;　無視するのは、私がじゃない。@
+`　I wasn't the one who was ignoring others.`@
+;　私に対して、先生や親が、だったのだ。\
+`　Rather, it was my parents and my teachers, who were ignoring me.`\
 
 bg black,22
 mono 0
 
-　いじめは、いじめられている子が、いじめられていると騒ぐからいじめになる。@
+;　いじめは、いじめられている子が、いじめられていると騒ぐからいじめになる。@
+`　Bullying is bullying because bullied kids speak up about it.`@
 br
-　なら、その子が何をされても、黙って俯いていたなら、それはいじめではなくなるのだ。@
+;　なら、その子が何をされても、黙って俯いていたなら、それはいじめではなくなるのだ。@
+`　Then even if something is being done to those kids, if they hang their heads in silence, then it's no longer bullying.`@
 br
-　だから、いじめが、なくなる。\
+;　だから、いじめが、なくなる。\
+`　So the bullying stops.`\
 
 bg toire_03,0
 ld c,YUK_I3a,22
@@ -1864,7 +1888,8 @@ ld c,YUK_I3a,22
 ;quakey 1,100
 ld c,YUK_i2a,80
 
-「そんなの、全然、解決に、……ならなかった…。@私が反応するから、面白がってみんながもっともっといじめるんだって。@そう言われたから信じて、私はずっとずっと、ずっとずっとずっと我慢しているのに、@……でもいつまで経っても、何も解決しなくて、何も何も解決しなくてっ、@……結局、誰も助けてくれないんですっ！！　私はちゃんと先生にも親にも相談したのに、@……誰も、誰も助けてくれなくてっ、……くれなくてっ、……うううぅッ…！！」\
+;「そんなの、全然、解決に、……ならなかった…。@私が反応するから、面白がってみんながもっともっといじめるんだって。@そう言われたから信じて、私はずっとずっと、ずっとずっとずっと我慢しているのに、@……でもいつまで経っても、何も解決しなくて、何も何も解決しなくてっ、@……結局、誰も助けてくれないんですっ！！　私はちゃんと先生にも親にも相談したのに、@……誰も、誰も助けてくれなくてっ、……くれなくてっ、……うううぅッ…！！」\
+`"That didn't solve... anything... `@`They said since I'd react, everyone would find it funny and bully me even more! `@`Even though I believed them when they said that, even though I really really really really tried... `@`...No matter how much time passed, it resolved nothing, it resolved nothing at allll. `@`...In the end, no one could save meee!! Even though I asked my parents and teachers for help, `@`...no one could help meee, ... no one, ...Aaahhh~...!!"`\ 
 
 ld c,YUK_N2,80
 cl c,5
@@ -1873,22 +1898,31 @@ wait 1000
 
 ld r,MAR_def3,22
 
-「…………………………………。」@
+;「…………………………………。」@
+`"........."`@
 br
-　毬枝は俯く他なかった。\
+;　毬枝は俯く他なかった。\
+`　Marie only hung her head.`\
 
-　この哀れな少女、榊由香里は、自分が試すべきであった試みを、全て試していた。@
-　そして、いじめを無視しろという過酷な助言を信じ、@……彼女は今日まで頑張ってきた。@
+;　この哀れな少女、榊由香里は、自分が試すべきであった試みを、全て試していた。@
+`　This pitiful girl, Yukari Sakaki, she tried everything she was supposed to try.`@
+;　そして、いじめを無視しろという過酷な助言を信じ、@……彼女は今日まで頑張ってきた。@
+`　Believed the strict advice of ignoring the bullying, `@`...she has endured until today.`@
 br
-　でも、もう。@
-　そんな彼女の心は、綻び始めていて…。\
+;　でも、もう。@
+`　And yet already.`@
+;　そんな彼女の心は、綻び始めていて…。\
+`　Her heart was starting to come apart...`\
 
 bg black,22
 
-　やがて、そんな彼女の耳には、@自ら死を選ぶように唆す、妖怪たちの甘言が届くようになるだろう。@
-　……いや、ひょっとしたら、@それを耳にしたからこそ、彼女は死ねば逃れられるなどと、思い至ったのかもしれない。@
+;　やがて、そんな彼女の耳には、@自ら死を選ぶように唆す、妖怪たちの甘言が届くようになるだろう。@
+`　And then before long, `@`her ears started to receive the sweet whispers of youkai inviting her to kill herself.`@
+;　……いや、ひょっとしたら、@それを耳にしたからこそ、彼女は死ねば逃れられるなどと、思い至ったのかもしれない。@
+`　...No, `@`perhaps it was because she chose to hear them, that she realized that she could escape if she were to die.`@
 br
-　毬枝は、少女を深く深く同情した…。\
+;　毬枝は、少女を深く深く同情した…。\
+`　Marie deeply deeply sympathized with the girl...`\
 
 
 
@@ -1906,10 +1940,13 @@ bg kyou_01,22
 
 me1v 16,50
 
-　榊由香里は、かつてはどこのクラスにでもいるような、平均的な子だった。@
+;　榊由香里は、かつてはどこのクラスにでもいるような、平均的な子だった。@
+`　Yukari Sakaki, once was a very average girl that one could find in any class.`@
 br
-　特にいじめの標的にされるようなこともなく、@日々を無自覚に安穏と、そして淡々と灰色に過ごす、ごく普通の少女だった。\
-　……そんな彼女の身に、突然の不幸が襲ったのは、一昨年のことだった。\
+;　特にいじめの標的にされるようなこともなく、@日々を無自覚に安穏と、そして淡々と灰色に過ごす、ごく普通の少女だった。\
+`(?)　She wasn't particularly the target of any bullying, `@`unconciously passing her days in peace like a bland shade of grey, she was quite an average girl.`\
+;　……そんな彼女の身に、突然の不幸が襲ったのは、一昨年のことだった。\
+`　...The assault of sudden misfortuntes on her began a year ago.`\
 
 bg black,22
 ;mono 0
@@ -1917,48 +1954,65 @@ bg black,22
 ;se1v 33,100
 ;quakex 2,200
 
-　母親が、交通事故で他界してしまったのだ。@
+;　母親が、交通事故で他界してしまったのだ。@
+`　Her mother passed away in a traffic accident.`@
 br
-　それ自体も、彼女の心を深く傷つけたが、@彼女にとっては、その後の長い時間の方が辛いものだったかもしれない。\
+;　それ自体も、彼女の心を深く傷つけたが、@彼女にとっては、その後の長い時間の方が辛いものだったかもしれない。\
+`　That in itself deeply wounded her heart, `@`but for her, the long period afterwards was painful.`\ 
 
 bg ie_01u,22
 
-　父親は見てわかるほどに元気を失った。@
+;　父親は見てわかるほどに元気を失った。@
+`　Her father, as far as she could tell had lost his spirit.`@
 br
-　そして、仕事と家事を、不器用ながらも両立しようと努力した。\
-
+;　そして、仕事と家事を、不器用ながらも両立しようと努力した。\
+`　And although he was inefficient, he struggled hard to support both the household and his work.`\
+;(TL Note: Minor liberty taken)
 ;mono 2
 ;bg Different_spiral_1a,22
 
-　しかし、不慣れな家事と、元々多忙だった仕事との両立は、@ますますに父親を打ちのめして行き……。@
+;　しかし、不慣れな家事と、元々多忙だった仕事との両立は、@ますますに父親を打ちのめして行き……。@
+`　However, he was inexperienced in housework, and coexisting with his work that had been busy from the beginning, `@`started to break her father down more and more...`@
 br
-　いつも薄暗く、ゴミや新聞紙が散らかったままになっている家の中にはもはや、@家族の安らぎはなくなっていた…。\
+;　いつも薄暗く、ゴミや新聞紙が散らかったままになっている家の中にはもはや、@家族の安らぎはなくなっていた…。\
+`　It was always gloomy, and the inside of the house that had become filled with trash and newspapers scattered about `@`had already lost the peace of a family...`\
 
-　最初の頃は、父親もがんばって洗濯をしてくれた。@
+;　最初の頃は、父親もがんばって洗濯をしてくれた。@
+`　In the beginning, her father tried his best and helped with the laundry.`@
 br
-　父親が辛そうにしているのを見て、由香里も手伝ったが、@………次第に陰鬱な空気は彼女をも蝕んでいき、その気力も奪ってしまった。\
+;　父親が辛そうにしているのを見て、由香里も手伝ったが、@………次第に陰鬱な空気は彼女をも蝕んでいき、その気力も奪ってしまった。\
+`　Yukari also helped, seeing her father was suffering, `@`...but then the gloomy atmosphere started to eat at her, and gradually her willpaper was snatched away.`\
 
 ;bg Different_spiral_1b,22
 bg black,22
 
-　だから、彼女は洗わない同じ服を着ることが多くなった。@
-　そしてそれは次第に薄汚れていった。@
+;　だから、彼女は洗わない同じ服を着ることが多くなった。@
+`　So she started often wearing the same unwashed clothes.`@
+;　そしてそれは次第に薄汚れていった。@
+`　And they gradually started getting dirty.`@
 br
-　それを目ざといクラスメートたちに指摘されたが、疲れきった彼女の耳には、届かなかった。\
+;　それを目ざといクラスメートたちに指摘されたが、疲れきった彼女の耳には、届かなかった。\
+`　That was pointed out to her by her sharp-eyed classmates, but their words couldn't reach her worn out ears.`\
 
 bg kyou_02,22
 
-　……そして、ある日。@由香里は気付くのだ。@
+;　……そして、ある日。@由香里は気付くのだ。@
+`　...Then one day. `@`Yukari realized.`@
 br
-　自分が臭い臭いと不潔呼ばわりされて、クラス中から後ろ指を差されていることに…。\
+;　自分が臭い臭いと不潔呼ばわりされて、クラス中から後ろ指を差されていることに…。\
+`　She realized she was being called filthy and foul, and that people in class were talking about her behind her back...`\
 
 ld l,YUK_Def2,22
 
-　母親の死から、彼女も父親も、次第に立ち直った。@
-　時間は、どんな惨たらしい心の傷だって、やさしく癒してくれる。@
+;　母親の死から、彼女も父親も、次第に立ち直った。@
+`　After her mother's death, even her father gradually began to get back on his feet.`@
+;　時間は、どんな惨たらしい心の傷だって、やさしく癒してくれる。@
+`　Whatever horrific emotional scars we might have, time, will gently mend them.`@
 br
-　そうして、榊由香里が元の世界に戻ってきた時。@
-　そこにいた自分は、いつの間にか、クラスのいじめられっこになっていたのだ……。\
+;　そうして、榊由香里が元の世界に戻ってきた時。@
+`　With that, when Yukari Sakaki returned to her former world.`@
+;　そこにいた自分は、いつの間にか、クラスのいじめられっこになっていたのだ……。\
+`　At some point, she had become a target for the bullies in class...`\
 
 bg black,22
 mono 0
@@ -1981,39 +2035,54 @@ ld r,MAR_Def2a,80
 
 bgm1 17
 
-　そこまでを知り、毬枝は俯いてしまう。@
+;　そこまでを知り、毬枝は俯いてしまう。@
+`　Knowing that much, Marie hung her head.`@
 br
-　そして、由香里のことをよく知りもせず、@両親に相談するようにと勧めてしまった、無神経さに絶句してしまう。\
+;　そして、由香里のことをよく知りもせず、@両親に相談するようにと勧めてしまった、無神経さに絶句してしまう。\
+`　And despite how well she knew Yukari, `@`she had recommended Yukari ask her parents for help, and so she became speechless from her own insensitivity.`\
 
-　毬枝は初め、由香里のことを、安易に自殺を選ぼうとする心の弱い人間だと思っていた。@
+;　毬枝は初め、由香里のことを、安易に自殺を選ぼうとする心の弱い人間だと思っていた。@
+`　In the beginning, Marie had thought Yukari was a weak minded human who was choosing suicide as her simple escape.`@
 br
-　しかし、それはとんでもない誤解だった。\
+;　しかし、それはとんでもない誤解だった。\
+`　However, she had completely misunderstood.`\
 
 ld r,MAR_Def3,80
 
-　彼女は、母親の死という辛い体験から、立ち直って、@元の世界に返ってくるという勇気を見せていたのだ。\
+;　彼女は、母親の死という辛い体験から、立ち直って、@元の世界に返ってくるという勇気を見せていたのだ。\
+`　Since her painful experience with her mother's death, `@`she had recovered and shown courage to return back to her former world.`\
 
-　なのに、帰ってきた世界に、いつの間にか自分の居場所がなくなっていて。@
+;　なのに、帰ってきた世界に、いつの間にか自分の居場所がなくなっていて。@
+`　Even so, her own place in the world she had returned to had already disappeared.`@
 br
-　……でも、理不尽ないじめに、耐えて、堪えて。@
-　先生や父親に相談して、無視しなさいという無責任な助言を、頑なに信じて守って。\
+;　……でも、理不尽ないじめに、耐えて、堪えて。@
+`　...And yet, she put up, endured, the senseless bullying.`@
+;　先生や父親に相談して、無視しなさいという無責任な助言を、頑なに信じて守って。\
+`　She asked her parents and her teachers and others for help, and she strictly adhered to and believed their irresponsible advice to just ignore it.`\
 
 bg black,22
 bg toire_03,22
 
-　その挙句の挙句に、……トイレのこんな小さな個室でうずくまって涙をすすったとして。@
+;　その挙句の挙句に、……トイレのこんな小さな個室でうずくまって涙をすすったとして。@
+`　In the end, ...she was reduced to cowering in this small bathroom stall, tasting her own tears.`@
 br
-　……それが、安易に自殺を選ぼうとする心の弱い人間だなどと、どうして言えるのか。\
+;　……それが、安易に自殺を選ぼうとする心の弱い人間だなどと、どうして言えるのか。\
+`　...How could she call her a weakminded human who simply chose suicide as an escape?`\
 
-　そこまでを知り、毬枝は確信した。@
+;　そこまでを知り、毬枝は確信した。@
+`　Knowing that much, Marie believed it.`@
 br
-　由香里は、彼女も気付いていないけれど、本当は強い人なんだ。@
-　それが、不幸と理不尽ないじめと、……彼女を死へと誘いたがる妖怪の誰かの囁きで、@……少しだけ心が、挫けかけてしまっただけなんだ。\
+;　由香里は、彼女も気付いていないけれど、本当は強い人なんだ。@
+`　Yukari, although even she hadn't realized it yet, was truly a strong person.`@ 
+;　それが、不幸と理不尽ないじめと、……彼女を死へと誘いたがる妖怪の誰かの囁きで、@……少しだけ心が、挫けかけてしまっただけなんだ。\
+`　And with that unfortunate and senseless bullying... and those whispers wishing to invite her death from the youkai, `@`...had crushed what little was left of her heart.`\
 
 ld r,MAR_i4,22
 
-　………彼女をこのまま無視すれば。@
-　こんな、気の毒で“美味しそうな”少女を、……妖怪たちが放っておくわけがない。\
+;　………彼女をこのまま無視すれば。@
+`　...If I ignore her like this.`@
+;　こんな、気の毒で“美味しそうな”少女を、……妖怪たちが放っておくわけがない。\
+`　There's no way the other youkai will let this... unfortunate "tasty looking" girl go.`\
 
 
 ;bg black,22
@@ -2021,34 +2090,46 @@ ld r,MAR_i4,22
 
 ld r,MAR_i4a,22
 
-　いや、……あの彼岸花さんが、彼女を見過ごすはずがないのだ。\
+;　いや、……あの彼岸花さんが、彼女を見過ごすはずがないのだ。\
+`　No, ...there's no way that Higanbana-san will overlook her.`\
 
 ;bg black,22
 ;bg white,28
 ;bg e005,22
 
-　助けなきゃ。@
-　彼女はすでに、先生と親に助けを求めた。@
-　それで誰も助けることが出来なかったなら。@
+;　助けなきゃ。@
+`　I have to save her.`@
+;　彼女はすでに、先生と親に助けを求めた。@
+`　She already wanted to be saved by her father and her teachers.`@
+;　それで誰も助けることが出来なかったなら。@
+`　And since no one could save her.`@
 br
-　今度は、私が、助けなきゃ。\
+;　今度は、私が、助けなきゃ。\
+`　This time, I have to save her.`\
 
 bg black,22
 
-　私にはわかる。@
-　こんな、誰も助けてくれない時に、それでも助けてくれる誰かがいてくれたら。@
+;　私にはわかる。@
+`　I understand.`@
+;　こんな、誰も助けてくれない時に、それでも助けてくれる誰かがいてくれたら。@
+`　At a time like this when you can't be saved by anyone, even so, if only there was someone who could save you.`@
 br
-　そんな気持ちが、私には誰よりもわかる。\
+;　そんな気持ちが、私には誰よりもわかる。\
+`　I understand that feeling more than anyone.`\
 
 ;bg black,22
 ld c,MAR_I4,22
 
-　森谷毬枝は、決意する。@
-　学校妖怪序列第８位。@めそめそさんの毬枝は、決意する。@
+;　森谷毬枝は、決意する。@
+`　Marie Moriya decided.`@
+;　学校妖怪序列第８位。@めそめそさんの毬枝は、決意する。@
+`　The Eighth Ranking of the School Youkai. `@`Mesomeso-san Marie, decided.`@
 br
-　彼女を救おうと。@
+;　彼女を救おうと。@
+`　She would save her.`@
 br
-　榊由香里を、このいじめから救おうと、決意した。\
+;　榊由香里を、このいじめから救おうと、決意した。\
+`　She decided she would save Yukari Sakaki from her torment.`\
 
 bg black,2
 
@@ -2080,45 +2161,62 @@ quakex 2,200
 
 me1v 24,50
 
-「シカトこいてんじゃねーよー！」@
+;「シカトこいてんじゃねーよー！」@
+`(?) "Watch where you're going!"`@
 br
 
-　大勢の笑い声が後に続く。\
+;　大勢の笑い声が後に続く。\
+`　An uproar of laughter follows afterwards`\
 
 ld l,YUK_def4,22
 
-　榊由香里は、授業が終わると同時に教室を逃げ出そうとした。@
+;　榊由香里は、授業が終わると同時に教室を逃げ出そうとした。@
+`　Yukari Sakaki decided to run away at the same time class ended.`@
 br
-　その背中に、誰かの体操服袋がぶつけられたのだ。@
-　それによろめき、壁に頭をぶつけてうずくまる彼女に浴びせられたのが、その言葉と嘲笑だった。\
+;　その背中に、誰かの体操服袋がぶつけられたのだ。@
+`　Someone's gym bag knocked her in the back.`@
+;　それによろめき、壁に頭をぶつけてうずくまる彼女に浴びせられたのが、その言葉と嘲笑だった。\
+`　Staggering from that, she bumped her head in the wall, and the girl showered her with those words of scorn.`\ 
 
-　彼らは、由香里に執拗に絡む、いじめっ子たちだった。@
+;　彼らは、由香里に執拗に絡む、いじめっ子たちだった。@
+`　They were the ones always finding fault with Yukari -- they were her bullies.`@
 br
-　クラス全体が彼女をいじめ、あるいはそれを容認する。@そんな中で、彼らはもっとも執拗な、性質の悪い連中の筆頭だった。\
+;　クラス全体が彼女をいじめ、あるいはそれを容認する。@そんな中で、彼らはもっとも執拗な、性質の悪い連中の筆頭だった。\
+`　The entire class bullied her, or perhaps, they approved of it. `@`Among them, there was a leader of a gang of particularly a persistent ill repute bunch.`\
 
 ;bg black,23
 ;bg kyou_02,0
 cl l,0
 ld c,YUK_I2a,23
 
-「………………………。」@
-「何だよ。@何か言いたいことあるなら言えよなー！」\
+;「………………………。」@
+`"........."`@
+;「何だよ。@何か言いたいことあるなら言えよなー！」\
+`"What! `@`If you got somethin' you wanna say, then say it~!"`\
 
-　それは明らかな挑発だ。@
-　それに対し、何を答えても、嘲りか、さらなるいじめへの呼び水となるだけだ。@
+;　それは明らかな挑発だ。@
+`　That was clearly meant to provoke her.`@
+;　それに対し、何を答えても、嘲りか、さらなるいじめへの呼び水となるだけだ。@
+`　In response, no matter what she says, she'll be ridiculed, or it'll juse rouse them to bully her even more.`@
 br
-　だから由香里は、下唇をぎゅっと噛み締めて、……内なる感情に堪え、それを凍らせる。\
+;　だから由香里は、下唇をぎゅっと噛み締めて、……内なる感情に堪え、それを凍らせる。\
+`　So Yukari bit her lower lip, ...endured her inner emotions and cooled them.`\
 
-　目さえも合わせてはならない。@
-　本当は足を止めてさえ、いけなかったのだ。@
+;　目さえも合わせてはならない。@
+`　She couldn't even let her eyes meet theirs.`@
+;　本当は足を止めてさえ、いけなかったのだ。@
+`　In truth, she had to keep moving.`@
 br
-　こうして立ち止まり、……半分であっても振り返ってしまっただけで、@彼女は、いじめに対し無視することに失敗していた。\
+;　こうして立ち止まり、……半分であっても振り返ってしまっただけで、@彼女は、いじめに対し無視することに失敗していた。\
+`　If she were to stop here like this, ...just by turning around even half way, `@`she would lose that power of ignoring the bullies.`\
 
 cl c,23
 
-　だから、……それ以上の反応を一切見せず、足早に立ち去る。@
+;　だから、……それ以上の反応を一切見せず、足早に立ち去る。@
+`　And so, ...without showing them any more of a reaction than that, she quickly left.`@
 br
-　その背中には、嘲笑、哄笑、苦笑、失笑、あらゆる嘲りが浴びせられた。\
+;　その背中には、嘲笑、哄笑、苦笑、失笑、あらゆる嘲りが浴びせられた。\
+`　At her back, snickers, haughty laughs, sarcastic laughs, sniggers, every sort of ridicule was tossed at her.`\
 
 bg black,22
 
@@ -2129,27 +2227,37 @@ me1v 16,50
 
 ;ld c,YUK_Def4a,80
 
-　……立ち止まらなければ良かった。@
+;　……立ち止まらなければ良かった。@
+`　...I had to keep going.`@
 br
-　反応するから、みんな面白がるんだ。@
-　反応して立ち止まらなければ良かった……。\
+;　反応するから、みんな面白がるんだ。@
+`　Since I reacted, everyone is amused.`@
+;　反応して立ち止まらなければ良かった……。\
+`　I'm glad I kept going after reacting...`\
 
 ;bg white,63.
 ;bg rouka_03,23
 
-　でも、……いつまでそうしていれば、私は救われるんだろう。@
-　由香里のその自問に、当然、答えはない。@
+;　でも、……いつまでそうしていれば、私は救われるんだろう。@
+`　But, ...how long do I have to keep doing that until I'm saved, I wonder?`@
+;　由香里のその自問に、当然、答えはない。@
+`　At that time for Yukari, naturally, there was no response.`@ 
 br
-　いや、ひとつあるが、……それを考えてはならないと、昨日、妖怪さんに言われた。@
-　ならもう、……由香里に思い付く答えはない。\
+;　いや、ひとつあるが、……それを考えてはならないと、昨日、妖怪さんに言われた。@
+`　No, there was one, ...and if she had to think of it, yesterday, the youkai told her.`@
+;　ならもう、……由香里に思い付く答えはない。\
+`　But now, ...Yukari couldn't think of it.`\
 
 bg rouka_03,22
 ld r,YUK_Def2,22
 
-　由香里はただ、心を凍らせて、何も考えないようにしながら、廊下を歩く。@
+;　由香里はただ、心を凍らせて、何も考えないようにしながら、廊下を歩く。@
+`　Yukari had turned her heart to ice, and as she forced herself not to think of anything, she walks down the hallway.`@
 br
-　足早にでなく、……いつものように。@
-　足早に教室を逃れることさえ、彼らにしてみれば、@自分たちに対して示した反応と受け取るかもしれないのだから…。\
+;　足早にでなく、……いつものように。@
+`　Not in a hurried pace, ...but as she always does.`@
+;　足早に教室を逃れることさえ、彼らにしてみれば、@自分たちに対して示した反応と受け取るかもしれないのだから…。\
+`　If they were to even see her running off from the classroom, `@`they might have taken that as her showing them a reaction...`\
 
 bg black,2
 
@@ -2161,14 +2269,19 @@ bg kyou_01,22
 
 me1v 24,50
 
-　由香里の姿がなくなれば、教室は普段通りの休み時間の賑わいを取り戻す。@
+;　由香里の姿がなくなれば、教室は普段通りの休み時間の賑わいを取り戻す。@
+`　When Yukari was gone, the classroom returned to the usual bustle during the break period.`@
 br
-　その光景は奇怪にも、@由香里さえいなければ、いじめなど存在しないのではないかと錯覚してしまいそうになるほど、@……当り前で平凡に見える時間だった。\
+;　その光景は奇怪にも、@由香里さえいなければ、いじめなど存在しないのではないかと錯覚してしまいそうになるほど、@……当り前で平凡に見える時間だった。\
+`　Mysteriously that scene, `@`when Yukari was no longer there, like an optical illusion it seemed as if the existence of bullying had disappeared entirely. `@`...It seemed like an entirely ordinary break.`\
 
-　まだ由香里の話を続けているのは、あのいじめっ子たちのグループだけだった。@
-　彼らは、今度はどんな方法で由香里をいじめようか、談笑している。@
+;　まだ由香里の話を続けているのは、あのいじめっ子たちのグループだけだった。@
+`　The only ones still talking about Yukari was that group of bullies.`@
+;　彼らは、今度はどんな方法で由香里をいじめようか、談笑している。@
+`　They were having a friendly chat about how best to harass Yukari next time.`@
 br
-　厳密にはこうだ。\
+;　厳密にはこうだ。\
+`　It was exactly like this.`\
 
 
 
@@ -2176,75 +2289,104 @@ br
 
 bgm1 6
 
-「あいつ、どんだけ無視しやがんだよな。」@
-「絶対ェ、泣かしてやりてー。@マジもう無茶苦茶にさー。」@
-「むしろ逆ギレとかチョー笑えそう！」@
-「あいつはキレるタイプっぽいよなー。@カッターナイフとか持ってきたらどうすんよ？」@
-「笑える、それもチョー笑えるー！！」\
+;「あいつ、どんだけ無視しやがんだよな。」@
+`"That girl, she keeps fucking ignoring us, yeah?"`@
+;「絶対ェ、泣かしてやりてー。@マジもう無茶苦茶にさー。」@
+`"I am sooo gonna make her cry. `@`She is so freaking unbelievable~"`@
+;「むしろ逆ギレとかチョー笑えそう！」@
+`(?)"Or make her mad at us, or make people laugh at her!"`@
+;「あいつはキレるタイプっぽいよなー。@カッターナイフとか持ってきたらどうすんよ？」@
+`"She seems like the spazzing type. `@`How about bringing a box cutter?"`@
+;「笑える、それもチョー笑えるー！！」\
+`"I'd laugh, that would so make me lauuugh!!"`\
 
-「俺は泣くと思うなー。@あいつ泣いたら、マジでゾクゾクしそうだしー。」@
-「泣くならもーとっくに泣いてるって！@　絶対にキレるって、あいつは！」@
-「俺は泣く派かなー。@尾崎くんはどうよ。」@
+;「俺は泣くと思うなー。@あいつ泣いたら、マジでゾクゾクしそうだしー。」@
+`"I think she should cry. `@`I'd get a real thrill out of seeing her cry."`@
+;「泣くならもーとっくに泣いてるって！@　絶対にキレるって、あいつは！」@
+`"Crying? She has probably already been crying I tell ya! `@`She's totally a spazz, that girl!"`@
+;「俺は泣く派かなー。@尾崎くんはどうよ。」@
+`"I think crying is the way to go~. `@`Ozaki-kun, what do you think?"`@
 br
-　そう問われ、いじめっ子たちの目線が、ひとりの男子に集まる。\
+;　そう問われ、いじめっ子たちの目線が、ひとりの男子に集まる。\
+`　Being asked that, the eyes of the bullies gather on a lone boy.`\
 
 bg black,23
 bg kyou_02,23
 
-　二つ上の学年と言われても通用しそうな大柄の体格。@
-　尾崎と呼ばれた彼が、いじめっ子たちのリーダー格。@
+;　二つ上の学年と言われても通用しそうな大柄の体格。@
+`　Even though he was two grades above them, he passed for a particularly large physique.`@
+;　尾崎と呼ばれた彼が、いじめっ子たちのリーダー格。@
+`　The boy called Ozaki was their ringleader.`@
 br
-　……由香里に体操服袋を投げつけた張本人だった。\
+;　……由香里に体操服袋を投げつけた張本人だった。\
+`　...He was the perpetrator who hit Yukari with his gym bag.`\
+;「………どっちでもいいんだよ。@俺はよ。」@
+`"...Me? `@`Either way is fine."`@
+br
+;　しかしその表情は、言葉とは逆のものだった。\
+`　But his expression was the opposite of his words.`\
 
-「………どっちでもいいんだよ。@俺はよ。」@
+;「榊が泣こうがキレようが、別に俺はどっちでもいいんだよ。@………俺はムカついてるんだよ。@私はイジメられてませぇん、みたいなよ、眼中にねぇような態度がよ、クソムカつくんだよ。」@
+`"I don't mind if we cut her or if we make her cry. `@`...I'm pissed off~. `@`That inconsiderate attitude she has like 'I'm not even bothered', fucking pisses me off."`@
 br
-　しかしその表情は、言葉とは逆のものだった。\
-
-「榊が泣こうがキレようが、別に俺はどっちでもいいんだよ。@………俺はムカついてるんだよ。@私はイジメられてませぇん、みたいなよ、眼中にねぇような態度がよ、クソムカつくんだよ。」@
-br
-　そう言いながらも、さぞ愉快なことのように、にやにやと笑う。\
+;　そう言いながらも、さぞ愉快なことのように、にやにやと笑う。\
+`　When he was speaking, like it was a pleasant topic, he grinned wide.`\
 
 bg black,22
 
 fede 10,1000
 E_MA
 
-　彼らにとって、榊由香里をいじめることは、スポーツなのだ。\
+;　彼らにとって、榊由香里をいじめることは、スポーツなのだ。\
+`　To them, bullying Yukari Sakaki was a sport.`\
 
-　スポーツは勝敗を競い合うが、結果でなく、過程を楽しむものだ。@
+;　スポーツは勝敗を競い合うが、結果でなく、過程を楽しむものだ。@
+`　In sports, it's not about the result, but it's about enjoying the spirit of the competition.`@
 br
-　彼らにとって、榊由香里をいじめることは、それとまったく変わらない。\
+;　彼らにとって、榊由香里をいじめることは、それとまったく変わらない。\
+`　To them, bullying Yukari Sakaki was no different.`\
 
-　少女が最終的に泣こうが、逆上しようが。@その予想が的中しようが、裏切られようが、どちらでもいい。@
+;　少女が最終的に泣こうが、逆上しようが。@その予想が的中しようが、裏切られようが、どちらでもいい。@
+`(?)　Finally making a girl cry, or making them go into a frenzy. `@`Whether those things go to plan, or betray their expectations, either way is fine.`@ 
 br
-　その過程だけが、ただただ楽しいのだ。\
+;　その過程だけが、ただただ楽しいのだ。\
+`　The process itself was truly fun.`\
 
 bg kyou_02,22
 
-　そのことを、多分、彼が一番、素直に理解していた。@
+;　そのことを、多分、彼が一番、素直に理解していた。@
+`　That is something that they probably knew best.`@
 br
-　榊由香里をいじめること、そのもの。@
-　それが彼らにとっては娯楽であり、@それを鑑賞して笑うことが、クラス全体にとっても娯楽であったのだ。\
+;　榊由香里をいじめること、そのもの。@
+`　And bullying Yukari Sakaki was just that.`@
+;　それが彼らにとっては娯楽であり、@それを鑑賞して笑うことが、クラス全体にとっても娯楽であったのだ。\
+`　To them it was a game `@`and because they appreciated it and laughed, even for the entire class -- it was a game.`\
 
 ;bg black,24
 ;bg kyou_01,24
 
 me1v 17,50
 
-　よくあんなにされて、無視してられるね。@
+;　よくあんなにされて、無視してられるね。@
+`　She thinks she can just ignore us like that.`@
 br
-　泣きたければ泣けばいいのにね。@
+;　泣きたければ泣けばいいのにね。@
+`　She should cry because we want her to cry.`@
 br
-　お高くとまってんのよ、きっと。@
+;　お高くとまってんのよ、きっと。@
+`　We'll put an end to her smugness, for sure.`@
 br
-　だってあの子、服、汚いし。@
+;　だってあの子、服、汚いし。@
+`　After all, that girl, her clothes, they're dirty.`@
 br
-　とゆーか、臭いし。@
+;　とゆーか、臭いし。@
+`　Which means, she stinks.`@
 br
 
 quake 3,300
 
-　くすくすくす。\
+;　くすくすくす。\
+`　Heeheehee.`\
 
 
 
