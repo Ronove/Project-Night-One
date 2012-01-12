@@ -2642,24 +2642,31 @@ br
 ;　夜の学校は、昼の学校とはまったく異なる、別の場所、……別の次元なのだ。@
 `　The school of the night and the school of the day were varying greatly. They were different places, ...different dimensions.`@`
 br
-　彼は今頃になって、……夜の学校の数々の怪談を思い出していた。\
+;　彼は今頃になって、……夜の学校の数々の怪談を思い出していた。\
+`　It was about this time, ...that he recalled the numerous ghost stories about the school at night.`\
 
 bg black,22
 
-　生徒を連れ去って神隠しにしてしまう、過去の校長先生の亡霊の話。@
-　校長室に飾られた歴代校長の写真のひとつが、真夜中にその目をぎらりと光らせるという。@
+;　生徒を連れ去って神隠しにしてしまう、過去の校長先生の亡霊の話。@
+`　The story of the principal of the past who would kidnap and spirit away students.`@`
+;　校長室に飾られた歴代校長の写真のひとつが、真夜中にその目をぎらりと光らせるという。@
+`　It's said that one of the paintings of the past principals decorating the the principal's office, would glare and glitter in the night.`@` 
 br
-　そういえば、保健室にも怪談がなかったっけ……。\
+;　そういえば、保健室にも怪談がなかったっけ……。\
+`　Speaking of which, there was a story about the infirmary too...`\
 
 ;bg rouka_01,22
 
 mono 1
 bg hoken_05,22
 
-　そうだ、思い出した。@踊る西洋人形の呪いだ…。@
+;　そうだ、思い出した。@踊る西洋人形の呪いだ…。@
+`　That's right, I just remembered.`@` The curse of the dancing western doll...`@`
 br
-　保健室の薬品棚の上に、なぜか不似合いな西洋人形が置かれていて。@
-　それが夜な夜な踊り出すというんじゃなかったっけ……。\
+;　保健室の薬品棚の上に、なぜか不似合いな西洋人形が置かれていて。@
+`　On top of the infirmary's medicine shelves, an unfitting western doll was placed.`@`
+;　それが夜な夜な踊り出すというんじゃなかったっけ……。\
+`　If I remember right, they said it would start to dance every night...`\
 
 bg black,23
 
