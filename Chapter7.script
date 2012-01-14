@@ -2397,15 +2397,15 @@ quake 3,300
 bg black,22
 
 ;　由香里の服がずっと同じもので、薄汚れていたことがあったのは事実だ。@
-`　Yukari's clothes were always the same, so saying she was dirty was fact.`@`
+`　Since Yukari had been wearing the same clothes for some time, it was true they had gotten dirty.`@`
 
 br
 ;　しかしそれは一時のこと。@
-`　However, that was only one time.`@`
+`　However, that was only temporary.`@`
 ;　彼女が母親を失った悲しみから立ち直ってからは、そのようなことは一度もない。\
-`　After she recovered from the sadness of losing her mother, that sort of thing hadn't happened even once again.`\
+`　After she recovered from the sadness of losing her mother, that sort of thing hadn't happened even once since.`\
 ;　しかし、榊由香里の服は汚くて臭い、ということになったから。@
-`　But because Yukari Sakaki's clothes were dirty and stinky, that is what it became.`@`
+`　But because people were saying Yukari Sakaki's clothes were dirty and smelly...`@`
 
 br
 ;　彼女がどんな服を着ていようと、どんな臭いがしていようと、していなかろうとも。@
@@ -2436,7 +2436,7 @@ me1v 24,50
 `　"Ahh," they said as they put on expressions like they'd remembered, and gestured with a clap of their hands.`@`
 br
 ;　まるで、昨日の夕飯が思い出せなくて、やっと思い出せた時に見せる仕草のような、@そんな感じに。\
-`　It almost felt like when someone couldn't remember what they had for dinner yesterday, and when they finally remembered, they made a gesture to show everyone.`\
+`　It was just like they had forgotten what they ate for dinner last night, and their reactions showed that moment of finally remembering it `@`-- that's how they treated it.`\
 
 ;「確かに、そうだった。」@
 `"You're right, that did happen."`@`
@@ -2474,7 +2474,7 @@ quake 3,300
 mcbg 22
 
 ;「だからよ。@榊がジサツなんかするわけねーじゃん。@死んでもよ、事故だよ事故。@遺書なんて、出るわけもねーじゃん。」\
-`"That's why.`@` There's no way Sakaki's gonna off herself.`@` Even if she dies, it'll just be an accident.`@` There's no way sh'll write a will."`\
+`"That's why.`@` There's no way Sakaki's gonna off herself.`@` Even if she dies, it'll just be an accident.`@` There's no way she'll write a will."`\
 
 ;「だよな。@つーか、榊、イジメてるのって誰よ？@　俺たち、いじめてないもんな？」@
 `"I guess you're right.`@` I mean, who the hell is it bullying Sakaki anyway?`@` We aren't bullying her, right?"`@`
@@ -2489,10 +2489,10 @@ quake 3,300
 `"Pffffffhahaha, kyahahahaha."`\
 
 ;　リーダー格の尾崎が、彼らにしかわからないスラングで何かを呟くと、@それが大受けして、クラス中に笑いが広がった。@
-`　The leader Ozaki was murmuring something in some slang that only they could understand,`@` which was somehow successful and laughter spread throughout the class.`@`
+`　The leader Ozaki was mumbling something in slang that only they could understand,`@` and it was a big sucess, so laughter spread throughout the class.`@`
 br
 ;　何と言ったのかわからないが、榊由香里を侮辱するものであったことは、想像に難くない。\
-`　They didn't know what he had said, but it was easy to imagine it was something insulting Yukari Sakaki.`\
+`　They didn't know what he had said, but it wasn't hard to imagine it was something insulting Yukari Sakaki.`\
 
 bg black,22
 fede 1,2000
@@ -2505,7 +2505,7 @@ ld r,MAR_i4,22
 `　...Watching the exchange in the shadows of the classroom, was Marie.`@`
 br
 ;　じっと、由香里を馬鹿にする言葉を繰り返している尾崎を見つめていた…。\
-`　She fixedly watched Ozaki repeating those words ridiculing Yukari...`\
+`　Her eyes fixed on Ozaki, who was repeating those words ridiculing Yukari...`\
 
 bg black,2
 
@@ -2520,10 +2520,10 @@ bg gakkou_01u,2
 me1v 5,50
 
 ;　放課後を迎えた、夕闇の学校。@
-`　After school, it was dusk in the school.`@`
+`　Twilight, after school.`@`
 br
 ;　生徒たちのほとんどは下校し、校庭で遊んでいた生徒も、我先に片付けを急ぐような、夕刻。@
-`　Most of the students had already gone home, and the ones who had been playing in the courtyard were scrambling to be first finished with cleaning up this evening.`@`
+`　Most of the students had already gone home, and the ones who had been playing in the courtyard were scrambling to be the first to finish with clean up duty -- it was that sort of evening.`@`
 br
 ;　尾崎は舌打ちをしながら、再び校門を潜っていた。\
 `　While smacking his lips, Ozaki once again passed under the school gate.`\
@@ -2537,17 +2537,17 @@ br
 `　After that, he'd go back home and wait for his parents while watching TV.`@`
 br
 ;　そう思い帰宅して、……鍵がないことに、気が付いた。\
-`　While thinking this on his way home, ...he realized he didn't have a key.`\
+`　As he thought about that on his way home, ...he noticed -- he didn't have a key.`\
 
 bg black,22
 
 ;「……確かにあったし。@……じゃあ俺、学校で落としたか…？@　……そんなはずは、……ぶつぶつ……。」@
-`"...But I'm sure I had it.`@` ...Maybe I dropped it at the school...?`@` ...That shouldn't have...grumblegrumble..."`@`
+`"...But I'm sure I had it.`@` ...Maybe I dropped it at the school...?`@` ...That shouldn't have...Uggghhh..."`@`
 br
 ;　尾崎にとって、誰もいない自宅に帰宅して、@扉の前でポケットから鍵を取り出すのは当り前の行為だ。\
-`　To Ozaki, going home when nobody was around,`@` and pulling out his key from his pocket in front of the door was an obvious thing.`\
+`　Going home to an empty house`@` and fishing out his key from his pocket in front of the door would have been normal for Ozaki.`\
 ;　そんな、当り前が唐突に今日に限って、出来なくて。@
-`　To suddenly not be able to do such an obvious thing, just today.`@`
+`　But today, he suddenly was incapable of such a normal act.`@`
 br
 ;　降って湧いた小さな不幸に、彼は何度も舌打ちを繰り返した。\
 `　He kept smacking his lips over and over again, at this small and unexpected misfortune.`\
@@ -2558,14 +2558,14 @@ bg gakkou_01u,22
 `　His key wasn't at his friends' house he'd stopped by.`@`
 br
 ;　今日一日の足取りを巻き戻すかのように辿り、@……最後に辿り着いたのが、学校の校門だったのだ。\
-`　He retraced his steps for the entire day,`@` ...And the last place he'd arrived was the school gates.`\
+`　He retraced his steps for the entire day,`@` ...and the last place he arrived was at the school gates.`\
 ;　学校など、一日に一度でたくさんだ。@
-`　In the school, in just one day there were plenty of periods.`@`
+`　There were a lot of periods in just one day at school.`@`
 br
 ;　せっかく下校したのに、もう一度、校門を潜ることになるなんて。@
-`　After finally getting to go home, to have to go through the school gates again.`@`
+`　After finally being able to leave, having to go through the school gates again...`@`
 ;　それだけで、神社のおみくじで、家族で自分だけ大凶でも引いてしまったかのような、@……そんな気持ちにさせられるのだ。\
-`　Just by that, he had a terrible feeling`@` as if having been the only one in ther entire family to draw a 'terrible luck' fortune at a shrine.`\
+`　With that thought, he had a terrible feeling`@` just like he had been the only one in his entire family to draw a 'terrible luck' fortune at a shrine.`\
 
 bg black,22
 bg gakkou_02u,22
@@ -2577,27 +2577,27 @@ bgm1 14
 
 br
 ;　自分たちの人生の、半分は過ごしているはずの学校という世界。@
-`　It was supposed to be a world called 'school' that they spent half of their lives.`@`
+`　It was the world called 'school' that they supposedly spend half their lives.`@`
 br
 ;　何年も通わされ、見るのもうんざりしているはずの、学校。\
-`　A place they'd attend for several years, a place that even just by looking at it would make you get fed up by it, called school.`\
+`　A place they'd attend for several years, a place that even just by looking at it would make them fed up -- 'school'.`\
 ;　……なのに、夕闇に飲み込まれていく校舎も、昇降口も、@……それら全ての光景が、初めて見るもので……。@
-`　...But still, when swallowed by the twilight, the school building, and the entrance,`@` ...looked like a scene he'd only seen for thhe first time...`@`
+`　...But still, when swallowed by the twilight, the school building, and the entrance,`@` ...looked like a scene he'd only seen for the first time...`@`
 br
 ;　あぁ、今、彼は自覚する。@
 `　Ah, now, he became self aware.`@`
 br
 ;　自分が知り尽くして、すでに退屈しきっていると思っていた学校は、@……昼間のものだったのだ。\
-`　Everything he knew, the school he'd already become bored of,`@` ...was a thing of the afternoon.`\
+`　Everything he knew, the school he'd already become bored of,`@` ...was in the daylight.`\
 
 ;　一日の半分は、昼の光の中。@
-`　The half of his day, was in the light of the afternoon.`@`
+`　Half of the day was in the light of the sun.`@`
 br
 ;　なら、もう半分は、夜の闇の中。\
 `　So, the other half, was in the dark of the night.`\
 
 ;　闇の中で、その巨体を横たわらせ、昇降口をあんぐりと開けたそれは、@……人間をぼりぼりと貪り喰う、巨大な化け物の口にも見えた。@
-`　Stretching inside the darkness, the large entranceway was like an open-mouthed emptiness,`@` ...it looked like a gargantuan creature's mouth, that would crush, and indulge in eating a human.`@`
+`　Stretching inside the darkness, the large entranceway was like an open-mouthed emptiness,`@` ...it looked like a gargantuan creature's mouth that would crush and devour a human being.`@`
 br
 ;　その、歯茎の隙間から、尾崎は渋々と中に入る。\
 `　There, from the crevices in the gums, Ozaki reluctantly went into the hatchway.`\
@@ -2615,15 +2615,15 @@ br
 ;　下駄箱前を往復するが、鍵らしいものは見つけられない。@
 `　He looked all around the front of the shoe rack, but couldn't find anything that looked like a key.`@`
 ;　すのこを捲ってみても、鍵は見当たらなかった。\
-`　Even after peeling off the (???) and looking, he didn't see the key.`\
+`(?)　Even after looking under the matting in the rack, he coulnd't see his key.`\
 ;　ここにないなら、……もう、靴を脱いで、上履きに履き替えなければならない。@
-`　If it's not here, ...dammit, I have to take off my shoes and change into my slippers.`@`
+`　If it's not here, ...he had to take off his shoes and slip into the indoor slippers.`@`
 br
 ;　それは尾崎にとって、一度下校した校門を再び潜る以上に不快なことだった。\
 `　As far as Ozaki was concerned, that was more unpleasant than having gone home once and going back through the school gates again.`\
 
 ;　……昼間は、あんなにも当り前に履いている上履きが、@夜の闇が迫る後者では、こんなにも冷たく湿っていて、そして重いなんて、知らなかった。\
-`　...During the day, it was obvious he'd put on slippers,`@` but, with the darkness of the night pressing on him, he did not know it would be so cold, damp, and heavy.`\
+`　...He had put on the same slippers just as he had during the daylight hours,`@` however, he did not expect they would be so cold, damp, and this heavy after nightfall.`\
 
 bg black,22
 bg rouka_01,22
@@ -2637,10 +2637,10 @@ br
 `　In the darkness, a one eyed monster glared at him with its red eye shining with displeasure.`@`
 br
 ;　……そこに火災報知器があるなんて、昼間は深く考えもしなかった。\
-`　...In the day, he wouldn't have to think twice that it was just a fire alarm.`\
+`　...In the day, it was just a fire alarm. He wouldn't even think twice about it .`\
 
 ;　夜の学校は、昼の学校とはまったく異なる、別の場所、……別の次元なのだ。@
-`　The school of the night and the school of the day were varying greatly. They were different places, ...different dimensions.`@`
+`　The school of the night and the school of the day were very different. Different places, ...even different dimensions.`@`
 br
 ;　彼は今頃になって、……夜の学校の数々の怪談を思い出していた。\
 `　It was about this time, ...that he recalled the numerous ghost stories about the school at night.`\
@@ -2648,9 +2648,9 @@ br
 bg black,22
 
 ;　生徒を連れ去って神隠しにしてしまう、過去の校長先生の亡霊の話。@
-`　The story of the principal of the past who would kidnap and spirit away students.`@`
+`　The story of a past principal who would kidnap kids -- spiriting them away.`@`
 ;　校長室に飾られた歴代校長の写真のひとつが、真夜中にその目をぎらりと光らせるという。@
-`　It's said that one of the paintings of the past principals decorating the the principal's office, would glare and glitter in the night.`@` 
+`　It's said that one of the paintings of the past principals decorating the the principal's office, would glare and its eyes would shine in the night.`@` 
 br
 ;　そういえば、保健室にも怪談がなかったっけ……。\
 `　Speaking of which, there was a story about the infirmary too...`\
@@ -2664,9 +2664,9 @@ bg hoken_05,22
 `　That's right, I just remembered.`@` The curse of the dancing western doll...`@`
 br
 ;　保健室の薬品棚の上に、なぜか不似合いな西洋人形が置かれていて。@
-`　On top of the infirmary's medicine shelves, an unfitting western doll was placed.`@`
+`　An out of place western doll had been set on top of the medicine shelves in the infirmary.`@`
 ;　それが夜な夜な踊り出すというんじゃなかったっけ……。\
-`　If I remember right, they said it would start to dance every night...`\
+`　If I remember right, they said, every night, it would start to dance...`\
 
 bg black,23
 
@@ -2675,17 +2675,21 @@ mono 0
 bg kaidan_01,23
 quakey 1,100
 
-　真っ暗な保健室から、薄気味悪い音が何か聞こえだしては来ないか。@
+;　真っ暗な保健室から、薄気味悪い音が何か聞こえだしては来ないか。@
+`　I wonder if I'll hear some strange sounds or something coming from that pitch black infirmary.`@
 br
-　それに怯えながら、尾崎は足早に保健室の前を通り抜け、階段を駆け上がる。\
+;　それに怯えながら、尾崎は足早に保健室の前を通り抜け、階段を駆け上がる。\
+`　Ozaki thought as he quickly passed the infirmary and dashed up the stairs.`\
 
 bg black,26
 bg rouka_03,24
 quakey 1,100
 
-　一度駆け出すと、もう歯止めは効かなかった。@
+;　一度駆け出すと、もう歯止めは効かなかった。@
+`　Once he had started running there was no stopping him.`@
 br
-　自分の教室まで、息を止めたまま、脱兎の如く走るのみ。\
+;　自分の教室まで、息を止めたまま、脱兎の如く走るのみ。\
+`　He held his breath, and like a bolt of lightning he shot off until he reached his classroom.`\ 
 
 ;bg white,64
 bg black,23
@@ -2694,9 +2698,11 @@ wait 1000
 se1v 82,100
 
 
-　そして教室に駆け込み、明かりのスイッチを入れる。@
+;　そして教室に駆け込み、明かりのスイッチを入れる。@
+`　And flying into the classroom, he flipped the light switch.`@
 br
-　蛍光灯が、ぱんぱんと乾いた音を立てて、煌々と瞬いた。\
+;　蛍光灯が、ぱんぱんと乾いた音を立てて、煌々と瞬いた。\
+`　The fluorescent lamps made dry buzzing sounds and flickered with blinding light.`\
 
 fede 1,1000
 E_B
@@ -2710,68 +2716,95 @@ E_B
 bg white,1
 bg kyou_01,2
 
-「………………………はぁ、………はぁ…。」@
+;「………………………はぁ、………はぁ…。」@
+`".........Haa, ......Haah..."`@
 br
-　眩しく照らし出された教室は、@……誰もいないが、呆れるくらいに、彼がよく知る教室のままだった。\
+;　眩しく照らし出された教室は、@……誰もいないが、呆れるくらいに、彼がよく知る教室のままだった。\
+`　In the brilliantly illuminated classroom, `@`...even though no one was there, to his amazement, it was the same classroom that he knew well.`\ 
 
-　魑魅魍魎たちが、昼夜を間違えて登校した間抜けな子を食べようと、@待ち構えていたりは、しなかった。@
-　その、余りに当り前な光景に、尾崎は胸を撫で下ろす。@
+;　魑魅魍魎たちが、昼夜を間違えて登校した間抜けな子を食べようと、@待ち構えていたりは、しなかった。@
+`　Demons ready to devour a foolish child who mistook day for night and attended their school. `@`There wasn't anything like that lying in wait for him.`@
+;　その、余りに当り前な光景に、尾崎は胸を撫で下ろす。@
+`　Ozaki started to calm down when he saw such a normal sight.`@
 br
-　そしてようやく自分が、昇降口から教室に来るという、たったそれだけのことで、@これだけの汗をかき、息を荒げていたことを知る……。\
+;　そしてようやく自分が、昇降口から教室に来るという、たったそれだけのことで、@これだけの汗をかき、息を荒げていたことを知る……。\
+`　Since he had come from the school entrance to the classroom, `@`he finally realized how much he was sweating and how erratic his breathing had become...`\
 
-「……ダセぇな、俺…。@……何をビビってんだよ。」@
+;「……ダセぇな、俺…。@……何をビビってんだよ。」@
+`"...Way to lose your cool Ozaki... `@`...The hell are you so afraid of?"`@
 br
-　臆病な自分を敢えて見下すことで、もう今の自分はそうではないと言い聞かせる。@
-　落ち着きを取り戻すと、早く鍵を見つけて帰らなくてはならないことを思い出す。\
+;　臆病な自分を敢えて見下すことで、もう今の自分はそうではないと言い聞かせる。@
+`　By provoking and shaming his own cowardace, he persuaded himself that wasn't who he was.`@
+;　落ち着きを取り戻すと、早く鍵を見つけて帰らなくてはならないことを思い出す。\
+`　Calming himself, he remembered he had to find his key and get back home.`\
 
-　こんな時間に教室にいるところを先生に見つかったら、怒られるかもしれない。@
-　……鍵をなくしただけでも間抜けなのに、@さらにその上、こんな時間にのこのこと教室まで戻ってきて。@さらにその上、怒られたとあっては、恥ずかし過ぎて目も当てられない。@
+;　こんな時間に教室にいるところを先生に見つかったら、怒られるかもしれない。@
+`　He would probably get yelled at by a teacher if he was found in class at a time like this.`@
+;　……鍵をなくしただけでも間抜けなのに、@さらにその上、こんな時間にのこのこと教室まで戻ってきて。@さらにその上、怒られたとあっては、恥ずかし過ぎて目も当てられない。@
+`(?)　...Even though it was stupid of him to lose his key, `@`aside from that, coming to class at this time of night, `@`futhermore, if he were to be scolded for it, it would be too shameful and he wouldn't be able to stand it.`@
 br
-　次第に、昼間の自分が取り戻せて行くのを感じながら、彼は鍵を探し始める。\
+;　次第に、昼間の自分が取り戻せて行くのを感じながら、彼は鍵を探し始める。\
+`　Gradually, as he started to feel himself return to as he was during daylight, he began to search for his key.`\
 
 bg black,23
 bg kyou_02u,23
 
-　しかし、見つからない。@
-　自分の机の中、周り。@さらに他の机の中さえ調べたが、見つからない。@
+;　しかし、見つからない。@
+`　But he couldn't find it.`@
+;　自分の机の中、周り。@さらに他の机の中さえ調べたが、見つからない。@
+`　In and around his desk. `@`He even checked in other desks, but he couldn't find it.`@
 br
-　……もうじき、親が帰ってくるだろうから、いつまでも外で待ち惚けにはならないだろう。@
-　しかし、鍵をなくしたとなれば、親に怒られる。\
+;　……もうじき、親が帰ってくるだろうから、いつまでも外で待ち惚けにはならないだろう。@
+`　...Since his parents would probably return soon, and they probably wouldn't leave him outside forever.`@
+;　しかし、鍵をなくしたとなれば、親に怒られる。\
+`　However, if he lost his key, his parents would be upset with him.`\
 
 bg black,22
 ;mono 2
 ;bg Different_spiral_1a,22
 
-　両親はいつも疲れた顔をして帰ってきて、宿題はやったか、明日の準備はしたかしか言わない。@
-　もうだいぶ長いこと、こちらから話し掛けた記憶もない。@
+;　両親はいつも疲れた顔をして帰ってきて、宿題はやったか、明日の準備はしたかしか言わない。@
+`　My parents would always come back wearing exhaustion on their faces, and aside from asking, 'did you finish your homework?' and 'are you ready for tomorrow?,' they would say nothing else.`@
+;　もうだいぶ長いこと、こちらから話し掛けた記憶もない。@
+`(?)　I don't even remember anymore the last time I was speaking with them about much of anything for long.`@ 
+;TL note: could sound better.
 br
-　それなのに、久しぶりにこちらから話し掛けるそれが、家の鍵を無くした、だなんて。\
+;　それなのに、久しぶりにこちらから話し掛けるそれが、家の鍵を無くした、だなんて。\
+`　Even so, after not having talked to them in so long, talking about something like losing the house key...`\
 
 ;bg Different_spiral_1b,22
 
-　母さんはすぐに喚き出して泣き出すし。@
+;　母さんはすぐに喚き出して泣き出すし。@
+`　Mom would immediately start shouting and crying.`@
 br
-　父さんはそれを見るとすぐに殴ってくるし。\
+;　父さんはそれを見るとすぐに殴ってくるし。\
+`　Dad would see that and immediately start beating me.`\
 
 ;bg black,22
 mono 0
 bg kyou_03,22
 ;quakey 1,100
 
-「………最悪だな、畜生…。@……マジでどこ行ったんだよ、……鍵……。」@
+;「………最悪だな、畜生…。@……マジでどこ行ったんだよ、……鍵……。」@
+`"...Shit, ...this sucks. `@`...Seriously, where did you go... key..."`@
 br
-　夜の学校に対する恐怖は、焦りに変わり、最後には未だ姿を現さない鍵への怒りに変わった。\
+;　夜の学校に対する恐怖は、焦りに変わり、最後には未だ姿を現さない鍵への怒りに変わった。\
+`　The fear Ozaki had from being at school at night changed to impatience, and then when they key refused to show itself, it finally changed into anger.`\
 
-　しかし、彼の感情などどうでもいいかのように、まったく無情に、@……彼の鍵は、どこにも見つからなかった。\
+;　しかし、彼の感情などどうでもいいかのように、まったく無情に、@……彼の鍵は、どこにも見つからなかった。\
+`　However, regardless of his emotions, without any emotion, `@`...his key, still couldn't be found anywhere.`\
 
 ;bg white,63
 bg black,23
 bg rouka_03,23
 
-　素直に職員室に行って、落し物の鍵が届いていないか聞こう。@
-　それでも見つからなければ、………お手上げか。@
+;　素直に職員室に行って、落し物の鍵が届いていないか聞こう。@
+`　I guess I'll honestly ask if anyone has left any lost articles over at the staff room.`@
+;　それでも見つからなければ、………お手上げか。@
+`　If I still can't find it... it might be all over?`@
 br
-　のろのろと教室を出る尾崎。\
+;　のろのろと教室を出る尾崎。\
+`　Ozaki thought, slowly leaving the classroom.`\
 
 
 
@@ -2791,50 +2824,72 @@ bg toire_05,23
 
 E_A
 
-　そんな彼の目に、明かりが漏れ出している男子便所が見えた。\
+;　そんな彼の目に、明かりが漏れ出している男子便所が見えた。\
+`　In his eyes, he saw a light coming from the boy's restroom.`\
 
 me1v 26,50
 
-　トイレか…。@
-　……今日も、何度か入ってる。@
+;　トイレか…。@
+`　The bathroom, huh...`@
+;　……今日も、何度か入ってる。@
+`　...I've been in there so many times today.`@
 br
-　まさか、トイレに鍵を落としたということはないだろうか。\
+;　まさか、トイレに鍵を落としたということはないだろうか。\
+`　Don't tell me, did I drop my key in the bathroom?`\
 
-　トイレに鍵が落ちていたら、誰も拾わない。@
+;　トイレに鍵が落ちていたら、誰も拾わない。@
+`　If he had dropped the key in the bathroom, no one would have picked it up.`@
 br
-　そんな鍵に触れたら、バイキンが付いた、近寄るなー、とみんなに冷やかされてしまう。\
+;　そんな鍵に触れたら、バイキンが付いた、近寄るなー、とみんなに冷やかされてしまう。\
+`　If they put their hands on a key like that, they would get germs, and everyone would make fun of them saying, "get away from me!" or something.`\
 
-　だからこそ、誰かの鍵が落ちていても、みんな、見て見ぬふりをして、@……今もそこにそのまま落ちている、なんてことがあるのではないか。@
+;　だからこそ、誰かの鍵が落ちていても、みんな、見て見ぬふりをして、@……今もそこにそのまま落ちている、なんてことがあるのではないか。@
+`　Because of that, even if someone drops their keys, everyone will look and then pretend they didn't see it, `@`...so it's possible it's still in there on the floor even now.`@
 br
-　誰も拾わないなら、落し物として職員室には行かない。\
+;　誰も拾わないなら、落し物として職員室には行かない。\
+`　If no one picked it up, it wouldn't be in the lost and found.`\
 
 bg black,22
 
-「……一応、見てみるか。」@
+;「……一応、見てみるか。」@
+`"...I guess I'll give it a look."`@
 br
-　彼に普段、独り言を言う癖はない。@
-　しかし、この暗闇の学校では、せめて自分で自分に話し掛けないと、@……あまりに静寂が冷た過ぎるのだ。\
+;　彼に普段、独り言を言う癖はない。@
+`　He didn't normally have the habit of talking to himself.`@
+;　しかし、この暗闇の学校では、せめて自分で自分に話し掛けないと、@……あまりに静寂が冷た過ぎるのだ。\
+`　However, in this school of darkness, if he didn't at least talk to himself, `@`...the silence would become far too chilling.`\
 
 bg toire_07,3
 
-　そろりと、……男子便所を覗き込む。@
+;　そろりと、……男子便所を覗き込む。@
+`　Slowly, ...he peeks into the boy's restroom.`@
 br
-　その床に、鍵の銀色の煌きはない。\
+;　その床に、鍵の銀色の煌きはない。\
+`　On the floor, there was no silver color of the key.`\
 
-　まさかとは思うが、それぞれの小便器の中もそれぞれ探す。@
+;　まさかとは思うが、それぞれの小便器の中もそれぞれ探す。@
+`　Even though he thought it was impossible, he still looked in each of the urinals.`@
 br
-　……そんなところにあったら。@
-　最悪だ。@大事な鍵が、一日中、小便漬けだったことになる。@
+;　……そんなところにあったら。@
+`　...If it was in someplace like that...`@
+;　最悪だ。@大事な鍵が、一日中、小便漬けだったことになる。@
+`　That would be the worst. `@`His precious key would have been soaked in the urinal throughout the entire day.`@
 br
-　小便の臭い匂いが染み付いて、いくら洗っても、きっと抜けないに違いない。\
+;　小便の臭い匂いが染み付いて、いくら洗っても、きっと抜けないに違いない。\
+`　The stink of urine would stick to it, and no matter how much it's washed, there's no way that smell would come out.`\
 
-　そんな臭い鍵を持ち歩いたら、明日から自分は何と囃し立てられるかわからない。@
+;　そんな臭い鍵を持ち歩いたら、明日から自分は何と囃し立てられるかわからない。@
+`　And if he walked around with that foul key, there's no telling how many jeers he'll get from tomorrow onwards.`@
 br
-　最悪だ、こんなところにあったら最悪だ…。@
-　むしろあって欲しくない、こんなところに。\
+;　最悪だ、こんなところにあったら最悪だ…。@
+`　That would be the worst, if it was somewhere like this, it would be the worst...`@
+;　むしろあって欲しくない、こんなところに。\
+`　I'd rather not find it in a place like this.`\
 
-　だから、全ての小便器を確認して、そこに自分の鍵が存在しないことを確認し終えた時。@
-　尾崎は小さな安堵さえ覚えたのだった。\
+;　だから、全ての小便器を確認して、そこに自分の鍵が存在しないことを確認し終えた時。@
+`　So after checking all of the urinals, and confirming that none of them had his key in them.`@
+;　尾崎は小さな安堵さえ覚えたのだった。\
+`　Ozaki felt a slight relief.`\
 
 
 
@@ -2851,26 +2906,37 @@ mbg black,1
 bg toire_02,0
 mcbg 22
 
-　その時。@
-　嘲笑われた。@
+;　その時。@
+`　Suddenly.`@
+;　嘲笑われた。@
+`　He was laughed at.`@
 bgm1 10
-　ギギ、と、嘲笑われた。@
+;　ギギ、と、嘲笑われた。@
+`　With a 'Geheh', he was laughed at.`@
 br
-　彼の安堵を、彼のすぐ背後で、バケモノが、ギギ、と嘲笑った……。\
+;　彼の安堵を、彼のすぐ背後で、バケモノが、ギギ、と嘲笑った……。\
+`　Directly behind him, some monster was laughing, with a 'geheh' at his relief...`\
 
-　尾崎は窒息して、すくみ上る。@
-　目は大きく見開かれ、……全身の毛穴より、嫌な臭いのする汗がどっと噴き出す。@
+;　尾崎は窒息して、すくみ上る。@
+`　Ozaki choked and stood frozen.`@
+;　目は大きく見開かれ、……全身の毛穴より、嫌な臭いのする汗がどっと噴き出す。@
+`　His eyes opened wide, ...and from all the pores on his skin, a foul smelling sweat suddenly started to gush out`@
 br
-　そんな彼の後姿を見て、……もう一度、バケモノは、ギギ……と、笑う。\
+;　そんな彼の後姿を見て、……もう一度、バケモノは、ギギ……と、笑う。\
+`　Seeing his figure from behind as he did so... once again, the monster laughed with a 'geheh.'`\
 
 bg black,23
 bg toire_08,23
 
-　今度はわかった。@
-　笑いじゃない。@
+;　今度はわかった。@
+`　This time he understood.`@
+;　笑いじゃない。@
+`　It wasn't a laugh.`@
 br
-　……扉だった。@
-　彼の背後の、大便器の個室の扉が、不快な軋みを聞かせただけなのだ。\
+;　……扉だった。@
+`　...It was a door.`@
+;　彼の背後の、大便器の個室の扉が、不快な軋みを聞かせただけなのだ。\
+`　Behind him, a large bathroom stall door, made an unpleasant screeching sound.`\
 
 ;quakey 1,100
 
@@ -2880,7 +2946,8 @@ E_B
 
 me1v 16,50
 
-「……っざけんなよッ。@………ビビらせんじゃねー……。」@
+;「……っざけんなよッ。@………ビビらせんじゃねー……。」@
+`"...n't fuck with me. `@`...Ya can't scare meeee..."`@
 br
 　強がりを口に出すが、それはみっともなく震えていて、@自分がどれだけ怯えたかを自らの耳で改めて知ることにしかならなかった。\
 
