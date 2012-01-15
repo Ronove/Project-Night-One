@@ -2675,9 +2675,11 @@ mono 0
 bg kaidan_01,23
 quakey 1,100
 
-　真っ暗な保健室から、薄気味悪い音が何か聞こえだしては来ないか。@
+;　真っ暗な保健室から、薄気味悪い音が何か聞こえだしては来ないか。@
+`　I wondered if I'd hear some creepy sound from the pitch black infirmary.`@`
 br
-　それに怯えながら、尾崎は足早に保健室の前を通り抜け、階段を駆け上がる。\
+;　それに怯えながら、尾崎は足早に保健室の前を通り抜け、階段を駆け上がる。\
+`　
 
 bg black,26
 bg rouka_03,24
