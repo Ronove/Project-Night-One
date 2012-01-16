@@ -2947,39 +2947,55 @@ E_B
 me1v 16,50
 
 ;「……っざけんなよッ。@………ビビらせんじゃねー……。」@
-`"...n't fuck with me. `@`...Ya can't scare meeee..."`@
+`"...Don't fuck with me. `@`...you can't scare meeee..."`@
 br
-　強がりを口に出すが、それはみっともなく震えていて、@自分がどれだけ怯えたかを自らの耳で改めて知ることにしかならなかった。\
+;　強がりを口に出すが、それはみっともなく震えていて、@自分がどれだけ怯えたかを自らの耳で改めて知ることにしかならなかった。\
+`(?)　He said strongly, but his words shook disgracefully, `@`and all they did was inform him once again just how scared he was.`\
 
-　それでも、怯えが拭い去られる時の、全身から力の抜けるような快楽は、何とも言えず心地良いものだ。@
+;　それでも、怯えが拭い去られる時の、全身から力の抜けるような快楽は、何とも言えず心地良いものだ。@
+`　Even so, that moment of pleasure when the power of all his fears drained away, was indescribably comforting.`@
 br
-　その心地良さに浸りながら、……尾崎はその、銀色の輝きに目を釘付けにしていた。\
+;　その心地良さに浸りながら、……尾崎はその、銀色の輝きに目を釘付けにしていた。\
+`　While bathing in that comfort... Ozaki's eyes locked onto a silver gleam.`\
 
-「…………………………。@……え？」\
+;「…………………………。@……え？」\
+`"......... `@`...Wh?"`\
 
 E_A
 
 bg toire_08,22
 
-　鍵だった。@
+;　鍵だった。@
+`　It was the key.`@
 bgm1 14
-　紛れもなく、彼がずっと探していた、鍵だった。\
+;　紛れもなく、彼がずっと探していた、鍵だった。\
+`　There was no mistake, it was the key he had long been searching for.`\
 
-　それが、ぽつんと、個室の奥に、……まるで彼という隠れん坊の鬼から隠れていたみたいに、……ちょこんと、置かれていた。@
+;　それが、ぽつんと、個室の奥に、……まるで彼という隠れん坊の鬼から隠れていたみたいに、……ちょこんと、置かれていた。@
+`　Inside the stall, by itself... it had seemed almost as it was hidden there by a demon in a game of hide and seek.... and so there it was.`@
 br
-　ここに入った記憶はない。@
-　なぜこんなところに、自分の鍵が。\
+;　ここに入った記憶はない。@
+`　He had no memory of going in here.`@
+;　なぜこんなところに、自分の鍵が。\
+`　Then why was his key in a place like this?`\
 
-　……誰かが見つけて、汚い汚いと言ってふざけて、この個室へ蹴り込んだのだろうか。@
-　ありえる想像だった。@
+;　……誰かが見つけて、汚い汚いと言ってふざけて、この個室へ蹴り込んだのだろうか。@
+`　...Perhaps someone saw it said 'yuck disgusting' and then kicked it into this stall.`@
+;　ありえる想像だった。@
+`　That was a plausable guess.`@
 br
-　その汚い鍵が自分のものだと誰にも知られなかっただけ、幸運だった。\
+;　その汚い鍵が自分のものだと誰にも知られなかっただけ、幸運だった。\
+`　He was lucky that at least no one knew that dirty key belonged to him.`\
 
-　それをさっさと拾って帰ろう。@
-　その前に水でよく洗っておこう。@……よく念入りに。@
+;　それをさっさと拾って帰ろう。@
+`　He thought to immediately pick it up and head home.`@
+;　その前に水でよく洗っておこう。@……よく念入りに。@
+`　Give it a good scrubbing in some water. `@`...Thoroughly.`@
 br
-　でも、兎にも角にも、見つかって良かった。@
-　こんな時間に、わざわざ学校まで戻ってきて良かった…。\
+;　でも、兎にも角にも、見つかって良かった。@
+`　But in any case, he was glad he found it.`@
+;　こんな時間に、わざわざ学校まで戻ってきて良かった…。\
+`　At that moment, he was glad that he came back all the way to school...`\
 
 
 
@@ -2993,20 +3009,26 @@ bg black,1
 
 wait 2000
 
-　その時、世界が真っ黒になった。@
-　時間さえ止まったように感じた。@
+;　その時、世界が真っ黒になった。@
+`　That second, the world turned pitch black.`@
+;　時間さえ止まったように感じた。@
+`　It seemed as if even time itself had stopped.`@
 
 me1v 26,50
 
 br
-　だから彼は、屈み込み、鍵に手を伸ばしたその姿のままで、@しばらくの間、凍ったように姿を留めていた。\
+;　だから彼は、屈み込み、鍵に手を伸ばしたその姿のままで、@しばらくの間、凍ったように姿を留めていた。\
+`　And as he leaned, his arm extended to pick up the key, `@`for some time, he was stopped as if frozen in time.`\
 
-　……次第に、自分の心臓の鼓動を感じ、時間が止まってなどいないことを理解する。@
+;　……次第に、自分の心臓の鼓動を感じ、時間が止まってなどいないことを理解する。@
+`　...Gradually, he felt his heart beat, and he realized that time hadn't stopped.`@
 br
-　消されたのだ。@
-　唐突に、便所の明かりが。@
+;　消されたのだ。@
+`　They had been turned them off.`@
+;　唐突に、便所の明かりが。@
+`　Suddenly, something had turned off the lights.`@
 br
-　見回りの先生が見つけて、消したのだろうか。\
+;　見回りの先生が見つけて、消したのだろうか。\
 
 　いや、でもそんな気配も感じなかったし、足音だって聞かなかった。@
 br
