@@ -286,7 +286,7 @@ bg kyou_02a,6
 `"Yeeeeeah."`\
 
 ;　朝の出席。@これに答えることが、学校の一日の始まり。@
-`　Morning role call.`@` Answering this meant it was the beginning of my school day.
+`　Morning roll call.`@` Answering this meant it was the beginning of my school day.
 ;　学校が退屈な子や、まだまだ眠い子は、かったるい返事をする。\
 `　Those that are bored of school, or those who are still tired, respond sluggishly.`\
 
@@ -535,7 +535,7 @@ ld l,mar_def2,80
 ;　彼岸花は瞳をキラキラさせてほくそえむが、毬枝は、はぁっと深いため息。@
 `　While Higanbana's eyes glittered and narrowed, Marie sighed deeply.`@`
 ;　彼女が上機嫌な時に、変に口を挟むと妙に拗ねることを、毬枝は最近、理解し始めている。@
-`　Marie was starting to realize that while Higanbana was in a good mood, if she were to interupt her with an awkward comment, Higanbana would get strangely pouty.`@`
+`　Marie was starting to realize that while Higanbana was in a good mood, if she were to interrupt her with an awkward comment, Higanbana would get strangely pouty.`@`
 br
 ;　……命に危害を加えようと言い出さない限りは、まぁ、大目に見ておくか。\
 `　...As long as she doesn't start saying she'll cause any harm, I suppose I can tolerate it.`\
@@ -615,7 +615,7 @@ br
 `　Why did the thermometer have to get slippery all of a sudden?!`@`
 ld r,HIG_W3,80
 ;　彼女の後ろで意地悪な学校妖怪がくすくすと笑う。\
-`　Behind her, the mischevous school youkai giggled.`\
+`　Behind her, the mischievous school youkai giggled.`\
 
 bg rika_03,23
 
@@ -659,7 +659,7 @@ br
 bg black,22
 
 ;　酷い目に遭ったけど、こんな大笑いの給食は、きっとどんな素敵な献立にも負けない。@
-(?)`　Even though I suffered through that, during this lunch filled with raucous laughter, I couldn't lose no matter what was on the menu.`@`
+`　(?)Even though I suffered through that, during this lunch filled with raucous laughter, I couldn't lose no matter what was on the menu.`@`
 ;　だから私は、ハンカチで顔を拭いながらも、まだ笑いが止まらないのだった。\
 `　That's why, as I wiped my face with my handkerchief, I still couldn't stop laughing.`\
 
@@ -715,7 +715,7 @@ quakex 3,300
 ;「どこで遊ぶ？！」@
 `"Where should we play?!"`@`
 ;「百葉箱のところは？　あそこの芝生は気持ちいいよねー！」\
-`"How about over by the meteorogical equipment? The grass over there feels so good~!"`\
+`"How about over by the meteorological equipment? The grass over there feels so good~!"`\
 ;　数人で集まって、温かい芝生の上でボールが一つあれば。@それだけで、昼休みのひと時は虹色に輝くのだ。\
 `　If you get a bunch of people together and you have a ball and the warm grass.`@` Just by that, the afternoon break glittered vividly.`\
 
@@ -1120,7 +1120,7 @@ me1v 31,40
 bg hoken_03,22
 
 ;　……あはは。@校庭を見ることは出来なくても、この保健室の中から耳を澄ますだけで、手に取るようにわかる。@
-`　...Ahaha. `@`Even though i can't see the courtyard, just by listening carefully I can pick up what's happening out there from inside the infirmary.`@
+`　...Ahaha. `@`Even though I can't see the courtyard, just by listening carefully I can pick up what's happening out there from inside the infirmary.`@
 br
 ;　保健室は校庭に面しているのだから、校庭の声はとてもよく聞こえるのだ。@
 `　Since the infirmary faced the courtyard, I could hear the voices on campus really well.`@
@@ -1170,7 +1170,7 @@ fedexx 70,40,0,0,0,0,3000
 `"You see, when you're in the infirmary you can really hear voices from outside. `@`...Whoever it is, what they're doing, or what they're playing `@`...you can tell easily."`@
 br
 ;　保健室の主は、遠くを見るような目で、そう言った。\
-`　The master of the infiramry said with her eyes staring into the distance.`\
+`　The master of the infirmary said with her eyes staring into the distance.`\
 
 ;「……こんなにも、みんなが楽しそうにしているのをすぐ近くで感じることが出来るのに。@……その姿を見ることも、加わることも出来ない。」@
 `"...Even though you can feel everyone enjoying themselves as if they're right next to you. `@`...You can't see them, nor can you be with them."`\
@@ -1261,7 +1261,7 @@ bg hoken_02,22
 se1v 69,20
 
 ;　チャイムが鳴り、５時間目の終わりを告げる。@
-`　The chime sounds, signalling the end of fifth period.`@
+`　The chime sounds, signaling the end of fifth period.`@
 me1v 23,20
 ;　すると、電話が鳴った。@
 `　Then the phone rang.`@
@@ -1395,7 +1395,7 @@ br
 ;　普段、あまり縁のない子まで、大丈夫？と声を掛けてくれた。@
 `　Normally completely unconcerned people even asked me if I was alright.`@
 ;　そういう気持ちがとても嬉しい。\
-`　Feeligns like those made me feel so happy.`\
+`　Feelings like those made me feel so happy.`\
 
 bg kyou_03,22
 
@@ -1460,7 +1460,7 @@ se2 3
 se3 7
 
 ;　理科準備室から理科室へ逃げる友達を追う私の箒が、何かを引っ掛けた。@
-`　The broom I was using to chase after my friends who ran from the science prep room to the labratory got caught on something.`@
+`　The broom I was using to chase after my friends who ran from the science prep room to the laboratory got caught on something.`@
 ;se1 1006
 se1 12
 quakey 2,300
@@ -1730,7 +1730,7 @@ ld r,yo2_def1,80
 
 ld l,hig_def1,80
 ;「私もそれがいいと思うわ。@幽霊なんて、楽しいことなんて何もないわよ。@……妖怪だってそう。@だって、私たちには下校はない。@……帰るところはないんだから。」\
-`"I think that's fine too. `@`Being a spirit, there's nothing fun about it. `@`...The same for Youkai. `@`I mean, we can't leave school. `@`...Because we have no where to return to."`\
+`"I think that's fine too. `@`Being a spirit, there's nothing fun about it. `@`...The same for Youkai. `@`I mean, we can't leave school. `@`...Because we have nowhere to return to."`\
 
 ;bg "bmp\background\school\Air_01.bmp",6
 
@@ -1851,7 +1851,7 @@ lsp 4,"bmp\background\efe\punch_r2.bmp",0,0,100
 print 6
 
 ;　それを彼岸花は白い指で、そっと摘んで捕まえる。@
-`　Higanbana genly plucked and held it in her white fingers.`@
+`　Higanbana gently plucked and held it in her white fingers.`@
 ;　そして、……小さな唇で、その尾を食む。\
 `　And, ...with her slender lips, she put its tail in her mouth.`\
 ;se1 9
@@ -1900,7 +1900,7 @@ ld l,hig_w3,80
 ;bg black,22
 
 ;「私は戻って、ひとりでお茶にしようと思います。@昨日、職員室で美味しそうな苺入りの大福を見つけたので。」@
-`"I'll head back, I think I'll drink some tea by myself. `@`I found some delicious rice cakes stuffed with strawberrys in the staff room yesterday."`@
+`"I'll head back, I think I'll drink some tea by myself. `@`I found some delicious rice cakes stuffed with strawberries in the staff room yesterday."`@
 
 cl l,0
 ld c,hig_def5,23
@@ -1978,7 +1978,7 @@ br
 cl r,22
 
 ;「毬枝っ。@まさか本気で独り占めするつもりじゃないわよね…？！@　一個は私にも寄越しなさい？！@/
-`"Marie~. `@`You don't reall intend to keep everything for yourself...?! `@`Give me one okay?!`@/
+`"Marie~. `@`You don't really intend to keep everything for yourself...?! `@`Give me one okay?!`@/
 ;cl c,23
 ;ld r,hig_def1,23
 ;　じゃないともう、保健室のテレビ、見せてあげないわよ…！@　ねぇ、ちょっと聞こえてるかしらー？！」\
