@@ -3021,64 +3021,86 @@ br
 `　And as he leaned, his arm extended to pick up the key, `@`for some time, he was stopped as if frozen in time.`\
 
 ;　……次第に、自分の心臓の鼓動を感じ、時間が止まってなどいないことを理解する。@
-`　...Gradually, he felt his heart beat, and he realized that time hadn't stopped.`@
+`　...Gradually, feeling the beating of his own heart, he realized that time hadn't stopped.`@
 br
 ;　消されたのだ。@
-`　They had been turned them off.`@
+`　Someone had turned it off.`@
 ;　唐突に、便所の明かりが。@
 `　Suddenly, something had turned off the lights.`@
 br
 ;　見回りの先生が見つけて、消したのだろうか。\
+`　Perhaps a teacher on patrol saw it and turned it off.`\
 
-　いや、でもそんな気配も感じなかったし、足音だって聞かなかった。@
+;　いや、でもそんな気配も感じなかったし、足音だって聞かなかった。@
+`　No, but he didn't sense anything like that, and he hadn't even hear the sound of footsteps.`@
 br
-　……じゃあ、何で唐突に明かりが消えたんだ…？\
+;　……じゃあ、何で唐突に明かりが消えたんだ…？\
+`　...Well, then how did the lights go out like that...?`\
 
 mono 1
 ;bg Different_spiral_1a,22
 bg toire_05,22
 
-　いや、そもそも。@
+;　いや、そもそも。@
+`　Rather, from the beginning.`@
 br
-　彼が階段を上って教室に辿り着くまで。@
-　廊下も何もかも、全て真っ暗だった。\
+;　彼が階段を上って教室に辿り着くまで。@
+`　Until he arrived at the classroom after climbing the stairs.`@
+;　廊下も何もかも、全て真っ暗だった。\
+`　The hallways -- everything and anything was complete darkness.`\
 
-　その闇が、教室に辿り着いて、明かりをつけることで、やっと払われて安堵したのだ。@
+;　その闇が、教室に辿り着いて、明かりをつけることで、やっと払われて安堵したのだ。@
+`　He was took relief from turning on the lights after reaching the classroom in that darkness.`@
 br
-　だからつまり、……教室に辿り着くまでの間に、明かりなどなかったのだ。\
+;　だからつまり、……教室に辿り着くまでの間に、明かりなどなかったのだ。\
+`　In other words, ...until he got into the classroom, there was no light or anything of the sort.`\
 
 bg black,22
 mono 0
 bg Different_spiral_1a,22
 
-　それがどうして、教室から出たら、……男子便所から、@/
+;　それがどうして、教室から出たら、……男子便所から、@/
+`　Then why, after leaving the classroom ...and heading to the boy's bathroom, `@/
 me2v 16,50
-明　か　り　が　漏　れ　て　る　ん　だ　…？\
+;明　か　り　が　漏　れ　て　る　ん　だ　…？\
+`w a s  t h e r e  a  l i g h t  o n ...?`\
 
-　明かりをつけたなら、誰かが使用したはずだ。@
-　でも、男子便所は無人だったし、……消し忘れて誰かが立ち去った気配もなかった。@
+;　明かりをつけたなら、誰かが使用したはずだ。@
+`　If the light's on, then someone should have used it.`@
+;　でも、男子便所は無人だったし、……消し忘れて誰かが立ち去った気配もなかった。@
+`　But there wasn't anyone in the bathroom, ...and he didn't sense someone who forgot to turn off the light.`@
 br
-　この夕闇の静寂が支配する学校では、廊下の足音は鋭く残響する。@
-　仮に彼が教室にいたとしても、それを聞き逃しはしなかったはずだ。\
+;　この夕闇の静寂が支配する学校では、廊下の足音は鋭く残響する。@
+`　In this school ruled by the silent darkness of the night, echoes of footsteps would echo sharply.`@
+;　仮に彼が教室にいたとしても、それを聞き逃しはしなかったはずだ。\
+`　Even in the short time he was in the classroom, he should have heard those sounds reach him.`\
 
 bg black,22
 mono 1
 bg toire_02,22
 
-　だからつまり。@
-　誰の気配もなく、……この男子便所の明かりはいつの間にかついていて。@
+;　だからつまり。@
+`　That means.`@
+;　誰の気配もなく、……この男子便所の明かりはいつの間にかついていて。@
+`　With no sign of anyone, ...the lights had suddenly turned on.`@ 
 br
-　そして。@
-　誰の気配もなく、……唐突に、この男子便所の明かりは消えたのだ。\
+;　そして。@
+`　And.`@
+;　誰の気配もなく、……唐突に、この男子便所の明かりは消えたのだ。\
+`　With no sign of anyone, ...suddenly, the boy's restroom lights had been turned off.`\
 
 bg black,22
 mono 0
 
-　よせよ、やめろよ、そういう冗談……。@
+;　よせよ、やめろよ、そういう冗談……。@
+`　Back off, stop it, stop joking...`@
 br
-　尾崎は、そう口に出したかった。@
-　でも、唇は不器用に震えるだけで、……それを言葉にしてはくれなかった。@
-　心臓はばくばくと震え続け、今にも胸を突き破りそうなくらいに、ますます高鳴っていた。\
+;　尾崎は、そう口に出したかった。@
+`　Ozaki wanted to say.`@
+;　でも、唇は不器用に震えるだけで、……それを言葉にしてはくれなかった。@
+`　But with his lips quivering, ...he couldn't even say those words.`@
+;　心臓はばくばくと震え続け、今にも胸を突き破りそうなくらいに、ますます高鳴っていた。\
+`　His heart continued to tremble with its throbs, almost like it was going to burst out of his chest, his heart beat faster and faster.`\
 
 
 
@@ -3095,36 +3117,52 @@ bg white,1
 bg black,22
 bg toire_04,2
 
-　ぱん、という乾いた音と、明滅する明かりが、わずかに彼を照らす。@
+;　ぱん、という乾いた音と、明滅する明かりが、わずかに彼を照らす。@
+`　With a dry buzz sound, a blinking beam slightly shined on him.`@
 br
-　男子便所内の蛍光灯が一本だけ、か弱い明かりを灯した。\
+;　男子便所内の蛍光灯が一本だけ、か弱い明かりを灯した。\
+`　Only a single fluorescent ceiling lamp in the boy's bathroom gave off its dim light.`\
 
-　しかしそれは、不吉に明滅を繰り返すもの。@
-　灯ったと思うとすぐに消え、乾いた音と共に再び光る。@
+;　しかしそれは、不吉に明滅を繰り返すもの。@
+`　However, it continued blinking ominously.`@
+;　灯ったと思うとすぐに消え、乾いた音と共に再び光る。@
+`　Just when he'd think it was lit it would go off, and then with a dry sound it would light back on again.`@
 br
-　その繰り返しは、明かりによる安心感よりも、はるかに不安感を煽った。\
+;　その繰り返しは、明かりによる安心感よりも、はるかに不安感を煽った。\
+`(?)　Rather than relaxing with the lighting, that repitition stirred unease at what lay beyond.`\
 
-　灯った蛍光灯は、個室の外のものだった。@
+;　灯った蛍光灯は、個室の外のものだった。@
+`　That fluroescent light was outside the stall.`@
 br
-　だから、こうして個室内に閉じ込められている尾崎にとっては、@自分がむしろくっきりと真四角の闇の中に閉じ込められていることを自覚させてくれる。\
+;　だから、こうして個室内に閉じ込められている尾崎にとっては、@自分がむしろくっきりと真四角の闇の中に閉じ込められていることを自覚させてくれる。\
+`　Because, for Ozaki who was shut up in the bathroom stall like this, `@`he was made to realize that he was distinctly shut up inside four sharp corners of darkness.`\
 
 bg black,22
 
-　………え？@
-　いつの間に、……個室の扉は閉まったんだ…。@
+;　………え？@
+`　...Eh?`@
+;　いつの間に、……個室の扉は閉まったんだ…。@
+`　When did ...the stall door close...`@
 br
-　俺、……鍵を見つけて、……中に入って、急に、……暗くなって……。\
+;　俺、……鍵を見つけて、……中に入って、急に、……暗くなって……。\
+`　I, ...found the key, ...went inside, and suddenly... things went dark...`\
 
-　鍵は？@
-　慌てて振り返るが、そこには鍵は無い。@
+;　鍵は？@
+`　Where's the key?`@
+;　慌てて振り返るが、そこには鍵は無い。@
+`　I panicked and turned around and the key wasn't there.`@
 br
-　確かに暗くて見辛いけれど、……さっきまであったそこに、鍵が無いのだ。\
+;　確かに暗くて見辛いけれど、……さっきまであったそこに、鍵が無いのだ。\
+`　Sure it's dark and hard to see, ...but the key is gone from where I saw it just now.`\
 
-　じゃあ、さっきあったと思ったのは、目の錯覚？@　そんな馬鹿なことがあるか。@
+;　じゃあ、さっきあったと思ったのは、目の錯覚？@　そんな馬鹿なことがあるか。@
+`　Well, maybe what I thought I saw a second ago was an optical illusion? `@`Can something that stupid even happen?`@
 br
-　それより、…………　/
+;　それより、…………　/
+`　More importantly, ...`/
 E_A
-此　処、ど　こ　だ　よ　…。\
+;此　処、ど　こ　だ　よ　…。\
+`w h e r e  a m  I  ...`\
 
 
 
@@ -3142,46 +3180,64 @@ bg toire_03,22
 
 bgm1 13
 
-　そこは紛れもなく、便所の個室の中だ。@
+;　そこは紛れもなく、便所の個室の中だ。@
+`　There was no mistake that this was the inside of a bathroom stall.`@
 br
-　だが、……違うのだ。@
-　ここは、ついさっき入った個室じゃない。\
+;　だが、……違うのだ。@
+`　But, ...it's different.`@
+;　ここは、ついさっき入った個室じゃない。\
+`　This place isn't the stall I just went in.`\
 
-　便所の個室は個室だが、……さっき入った個室じゃない。@
+;　便所の個室は個室だが、……さっき入った個室じゃない。@
+`　This bathroom stall, ...definitely isn't the stall I just went in.`\
 br
-　便器とかペーパーホルダーとか、壁の色合いとか汚れとか、金具とか角度とか、@それからえっとえっと……。\
+;　便器とかペーパーホルダーとか、壁の色合いとか汚れとか、金具とか角度とか、@それからえっとえっと……。\
+`　The urinal, the toilet paper dispenser, the color of the walls were dirty, the fixtures, the angles, `@`and, ummm....`\
 
 me1v 17,50
 
-「ど、……何処だよ、……こ、こ……。」\
+;「ど、……何処だよ、……こ、こ……。」\
+`"W- ...Where?... where am I?..."`\
 
-　その時、初めて、気配を耳にした。@
+;　その時、初めて、気配を耳にした。@
+`　At that moment, his ears sensed something for the first time.`@
 br
-　音にならない吐息とか、本来なら耳に届かないほど小さい、服の擦れる音とか。@
-　そういう、音にさえ至らないわずかのものを、この静寂の中で、今、はっきりと聞いた。\
+;　音にならない吐息とか、本来なら耳に届かないほど小さい、服の擦れる音とか。@
+`　A sigh that couldn't be a sound, sounds so small it shouldn't reach his ears, the sound of chafing clothing.`@
+;　そういう、音にさえ至らないわずかのものを、この静寂の中で、今、はっきりと聞いた。\
+`　Now he clearly heard that sound that was so slight it couldn't even be called a sound.`\
 
-　その気配の主は、………あろうことか、………そこにいる。@
+;　その気配の主は、………あろうことか、………そこにいる。@
+`　That object of that sensation, ...strangely enough ... it was there.`@
 br
-　すぐ、そこ。@
-　すぐそこだけれど、彼には見ることが出来ない。\
+;　すぐ、そこ。@
+`　Right, there.`@
+;　すぐそこだけれど、彼には見ることが出来ない。\
+`　It was right there, but he couldn't see it.`\
 
 bg black,22
 
 me2v 16,50
 
-　扉を一枚、隔てているから。@
+;　扉を一枚、隔てているから。@
+`　Because it was shut out behind that single door.`@
 br
-　……彼は、唐突に現れた気配に、薄い扉一枚を挟んで、……向かい合っているのだ。\
+;　……彼は、唐突に現れた気配に、薄い扉一枚を挟んで、……向かい合っているのだ。\
+`　...He and the presence that had suddenly appeared were facing one another... with a single thin door between them.`\
 
-　気のせいだ……。@早くこんなところから出よう……。@
-　そう思い、扉に手を掛けようとした瞬間。@
+;　気のせいだ……。@早くこんなところから出よう……。@
+`　It's my imagination... `@`I'll just get out of here...`@
+;　そう思い、扉に手を掛けようとした瞬間。@
+`　He thought, and then the moment he moved to put his hand on the door.`@
 br
 
 quakex 1,100
 
-　今度こそ、本当に吐息が聞こえて、全身がびくりと硬直する。\
+;　今度こそ、本当に吐息が聞こえて、全身がびくりと硬直する。\
+`　This time he heard a real sigh, and his entire body stiffened with a start.`\
 
-　しかも、あろうことか…、……その気配の主は、@………扉の一枚向こうで、……しくしくと、めそめそと泣き出したのだ…。\
+;　しかも、あろうことか…、……その気配の主は、@………扉の一枚向こうで、……しくしくと、めそめそと泣き出したのだ…。\
+`　Even stranger, ...that presence, `@`...on the other side of the door, ...was sobbing and crying with a mesomeso...`\
 
 ;bg black,22
 mono 2
@@ -3189,92 +3245,129 @@ bg Different_spiral_1a,22
 
 me3v 28,70
 
-　だ、……誰っ…………。@
-　何で、……お、俺のところへ来て、………わ、わざわざ泣いてるんだよ………。@
+;　だ、……誰っ…………。@
+`　Wh- ...Whooo...?`@
+;　何で、……お、俺のところへ来て、………わ、わざわざ泣いてるんだよ………。@
+`　Why, ...did... you just come here.... to cry...`@
 br
-　べ、便所なら他にも個室があるだろ、何で俺の個室の前でわざわざ泣いてるんだよ…。@
-　あっち行けよ、泣くなよ、……誰だよ、一体……！！\
+;　べ、便所なら他にも個室があるだろ、何で俺の個室の前でわざわざ泣いてるんだよ…。@
+`　There are other stalls in the bathroom right, so why are you crying in front of my stall...`@
+;　あっち行けよ、泣くなよ、……誰だよ、一体……！！\
+`　Go away, stop crying, ...who are you? dammit...!`\\
 
 bg black,22
 mono 0
 bg toire_03,22
 
-　めそめそ……、めそめそ……。@
+;　めそめそ……、めそめそ……。@
+`　Mesomeso... mesomeso...`@
 br
-　それは紛れもなく、少女の泣き声。\
+;　それは紛れもなく、少女の泣き声。\
+`　Without a doubt, those wer the cries of a girl.`\
 
-　男じゃない。@女の泣き声だ。@
+;　男じゃない。@女の泣き声だ。@
+`　It wasn't male. `@`Those cries are feminine.`@
 br
-　ここ、男子便所の、はずなの、に、………。\
+;　ここ、男子便所の、はずなの、に、………。\
+`　Even though... this is supposed to be the boy's bathroom...`\
 
-　その、めそめそという泣き声が、次第に彼の血管を、足元から凍らせていく…。@
+;　その、めそめそという泣き声が、次第に彼の血管を、足元から凍らせていく…。@
+`　That crying of mesomeso, began freezing the blood in his legs one by one...`@
 br
-　足元から、皮膚に霜柱が立つような感触が上ってきて、……それが脳にまで届いた時、@……思い出したくなかったことを、思い出させられる。\
+;　足元から、皮膚に霜柱が立つような感触が上ってきて、……それが脳にまで届いた時、@……思い出したくなかったことを、思い出させられる。\
+`　From his legs, he felt like rows of ice stood up on his skin, ...and by the time that reached his head, `@`...it made him remember what he did not want to remember.`\
 
 bg black,22
 
 ;locate 0,5
 
 br
-　めそめそ、めそめそ。@
-　そこのあなた。@哀れな私の話を聞いて下さいな……。\
+;　めそめそ、めそめそ。@
+`　Mesomeso, mesomeso.`@
+;　そこのあなた。@哀れな私の話を聞いて下さいな……。\
+`　You there. `@`Please listen to my pitiful story...`\
 
 bg aka3,1
 quake 5,500
 
 me4v 5,70
 
-　ぃ、……ぃぃぃぃぃ……ッッッ……！！！！@
+;　ぃ、……ぃぃぃぃぃ……ッッッ……！！！！@
+`　a...aaaaa...aaaahhh...!!!!`@
 br
-　嘘だ。@嘘だ嘘だ嘘だ。@
-　めそめそさんの怪談なんて、嘘だろ嘘だろ、嘘だ嘘だ嘘だ。\
+;　嘘だ。@嘘だ嘘だ嘘だ。@
+`　It's a lie. `@`A lie a lie a lie.`@
+;　めそめそさんの怪談なんて、嘘だろ嘘だろ、嘘だ嘘だ嘘だ。\
+`　The story of Mesomeso-san, it's a lie right? a lie right? it's a lie a lie a lie.`\
 
-　喉の奥が腫れ上がって、窒息するかのような感覚が込み上げる。@
+;　喉の奥が腫れ上がって、窒息するかのような感覚が込み上げる。@
+`　The inside of his throat swelled up, and a suffocating sensation welled up inside him.`@
 br
-　頭の中がぐるぐると回って、両目の眼球がぐるりと捲れ上がってしまいそう。\
+;　頭の中がぐるぐると回って、両目の眼球がぐるりと捲れ上がってしまいそう。\
+`　The inside of his head began to whirl in circles, and it seemed like his eyes were going to roll back in his head.`\
 
-　これ、何の冗談だよ、冗談だろ冗談冗談。@
+;　これ、何の冗談だよ、冗談だろ冗談冗談。@
+`　What a joke this is. What a joke, a joke, a joke.`@
 br
-　笑える、俺パニくってる、笑える笑えるヤバイヤバイ。\
+;　笑える、俺パニくってる、笑える笑えるヤバイヤバイ。\
+`　They're laughing, I'm panicking, they're laughing, laughing, this is bad this is bad.`\
 
 ;bg black,22
 bg toire_04,22
 
-　めそめそ、めそめそ。@
-　そこのあなた。@哀れな私の話を聞いて下さいな……。@
+;　めそめそ、めそめそ。@
+`　Mesomeso, mesomeso.`@
+;　そこのあなた。@哀れな私の話を聞いて下さいな……。@
+`　You there. `@`Please listen to my pitiful story...`@
 br
-　その少女の悲しい声は、再び繰り返される。@
-　今度ははっきりと。@しっかりと。\
+;　その少女の悲しい声は、再び繰り返される。@
+`　That girl's sad voice repeated once again.`@
+;　今度ははっきりと。@しっかりと。\
+`　This time clearly. `@`Steadily.`\
 
-　心の中だけに聞こえるというような、曖昧なものじゃない。@
+;　心の中だけに聞こえるというような、曖昧なものじゃない。@
+`　It wasn't ambiguous like something that could only be hear inside of his head.`@
 br
-　心臓の鼓動と、明滅する蛍光灯の乾いた音に混じって、@……はっきりと鼓膜で直接感じた、声だった。\
+;　心臓の鼓動と、明滅する蛍光灯の乾いた音に混じって、@……はっきりと鼓膜で直接感じた、声だった。\
+`　It mingled with his heart's palpatations and the dry flickering sound of the blinking fluroescent light, `@`...it was a voice he felt distinctly and directly in his eardrums.`\
 
-　尾崎はもう少しのところで、呻き声を漏らして、その声に応えてしまうところだった。@
-　それを、ぎりぎりのところで思い出し、ぐっと飲み込んで堪える…。\
+;　尾崎はもう少しのところで、呻き声を漏らして、その声に応えてしまうところだった。@
+`　Ozaki was just about to let loose a groan in reply to that voice.`@
+;　それを、ぎりぎりのところで思い出し、ぐっと飲み込んで堪える…。\
+`　Just befoer he does, he remembers and firmly swallows it and holds off...`\
 
 bg Different_spiral_1a,22
 
-　新しく生まれた、第八の怪談。@“めそめそさん”。@
+;　新しく生まれた、第八の怪談。@“めそめそさん”。@
+`　The newly born Eighth Mystery. `@`"Mesomeso-san."`@
 br
-　それは、旧校舎の便所に出るという、新しい怪談の妖怪。\
+;　それは、旧校舎の便所に出るという、新しい怪談の妖怪。\
+`　A new tale of a youkai who appears in the old school bathrooms.`\
 
-　……ふざけんなよ、ここ、旧校舎じゃねぇだろ、出るとこ間違ってんじゃねぇのかよぉ……。@
+;　……ふざけんなよ、ここ、旧校舎じゃねぇだろ、出るとこ間違ってんじゃねぇのかよぉ……。@
+`　...You have to be shitting me, this place, it can't be the old school building right? So there's no way it'd show up heeeere...`@
 br
-　その叫びが口から出ることはない。@ただ、ぱくぱくと、空気を求める金魚が悶えるように、弱々しく開いては閉じを繰り返すだけ…。\
+;　その叫びが口から出ることはない。@ただ、ぱくぱくと、空気を求める金魚が悶えるように、弱々しく開いては閉じを繰り返すだけ…。\
+`　He didn't let that scream escape his mouth. `@`Rather, like a goldfish searching for air in agony, he could only continue to open and close his mouth with a flap flap...`\
 
 bg blood_1a,22
 
-　めそめそさんは、旧校舎の便所で殺された少女の怨霊らしい。@
+;　めそめそさんは、旧校舎の便所で殺された少女の怨霊らしい。@
+`　It seemed like Mesomeso-san is a vengeful spirit of a girl who was killed in the old school bathrooms.`@
 br
-　自分が殺された便所にやってくる人がいると現れて、@自分が殺された時のことを聞かせようとするらしい。\
+;　自分が殺された便所にやってくる人がいると現れて、@自分が殺された時のことを聞かせようとするらしい。\
+`　It appears when people come into the bathroom it was killed in, `@`and it seems to ask people to hear about the time it was killed.`\
 
-　そして、ルールがある。@
+;　そして、ルールがある。@
+`　And there are rules.`@
 br
-　めそめそさんの、哀れな私の話を聞いて下さいな、という問いに、@……答えてはならないのだ。@
+;　めそめそさんの、哀れな私の話を聞いて下さいな、という問いに、@……答えてはならないのだ。@
+`　When Mesomeso-san says to please listen to its pitiful storey, `@`...I mustn't respond.`@　
 br
-　そして姿も見ようとしてはならない。@
-　めそめそさんが立ち去るまで、……何も答えずに、じっと堪えていなくてはならないのだ。\
+;　そして姿も見ようとしてはならない。@
+`　And I can't try seeing what it looks like.`@
+;　めそめそさんが立ち去るまで、……何も答えずに、じっと堪えていなくてはならないのだ。\
+`　Until Mesomeso-san leaves, ...without speaking a word, I have to grit and bear it.`\
 
 ;bg black,22
 bg bite,22
@@ -3282,29 +3375,40 @@ bg bite,22
 
 me5v 3,70
 
-　それを破れば、……殺される。@
+;　それを破れば、……殺される。@
+`　If I break those rules ...I'll be killed.`@
 br
-　弱々しいのは泣き声だけ。@
-　その本当の姿は、禍々しい。@
+;　弱々しいのは泣き声だけ。@
+`　The only thing weak about it, is its voice.`@
+;　その本当の姿は、禍々しい。@
+`　It's true form, monstrous.`@
 br
-　そして、……朽ちた巨木のように太い歪な両腕に抱き締められて、@……全身の骨を粉々に砕かれて、殺される……。\
+;　そして、……朽ちた巨木のように太い歪な両腕に抱き締められて、@……全身の骨を粉々に砕かれて、殺される……。\
+`　So, ...it'll embrace me with its tremendous rotten tree trunklike arms, `@`...crush every bone in my body, killing me...`\
 
 bg black,22
 bg toire_03,22
 quakey 1,100
 
-　ぃぃぃッ、……ぃぃぃぃぃぃぃいぃ……！！！！@
+;　ぃぃぃッ、……ぃぃぃぃぃぃぃいぃ……！！！！@
+`　ahhhh, ...aaaaaaAAAhh...!!!!`@
 br
-　尾崎は両手で自分の口と耳を塞ぐ。\
+;　尾崎は両手で自分の口と耳を塞ぐ。\
+`　Ozaki covers both his ear and mouth with his hands.`\
 
-　右手で口を塞ぎ、もはや自分の意思では堪えることも出来ない、恐怖の叫びを押さえ込む。@
-　そして左手で左の耳を塞ぎ、めそめそさんの泣き声が耳に入らないようにする。@
+;　右手で口を塞ぎ、もはや自分の意思では堪えることも出来ない、恐怖の叫びを押さえ込む。@
+`　Already unable to control it with his own willpower, His right hand covers his mouth to stifle his scream.`@
+;　そして左手で左の耳を塞ぎ、めそめそさんの泣き声が耳に入らないようにする。@
+`　And with his left hand, he covers his left ear as if to stop Mesomeso-san's cries from entering.`@
 br
-　だから、右の耳はがら空き。\
+;　だから、右の耳はがら空き。\
+`　Then his right ear was open.`\
 
-　それでもなお塞ごうと、彼は右の耳を奥の壁に押し付ける。@
+;　それでもなお塞ごうと、彼は右の耳を奥の壁に押し付ける。@
+`　Even so he covered it by sticking his ear up against the inside wall.`@
 br
-　しかしそれでも、……めそめそさんの声が耳に染み入るのを、拒むことなど出来ない…。\
+;　しかしそれでも、……めそめそさんの声が耳に染み入るのを、拒むことなど出来ない…。\
+`　Despite even that, ...he couldn't deny Mesomeso-san's voice from permeating his ears...`\
 
 bg black,22
 
@@ -3312,54 +3416,69 @@ fedexx 70,0,0,0,0,0,1000
 
 locate 8,6
 
-　尾崎くん。\
+;　尾崎くん。\
+`　Ozaki-kun.`\
 
 fedexx 70,70,70,70,70,70,1000
 
 bg toire_03,22
 quakey 1,100
 
-　いッ、……ぃ………ぃいいぃ…、お、……俺の、な、名前…ッッッ！！@
+;　いッ、……ぃ………ぃいいぃ…、お、……俺の、な、名前…ッッッ！！@
+`　AHH, ...a...aAAa..., My... My, n-nAAMEE..ahh!!`@
 br
-　めそめそさんは、確かに俺の名前を呼んだ。@
-　俺を、わかっている、見えている。\
+;　めそめそさんは、確かに俺の名前を呼んだ。@
+`　Mesomeso-san clearly just called my name.`@
+;　俺を、わかっている、見えている。\
+`　It knows who I am, it can see me.`\
 
-　ここにいることがわかっていて、俺を、俺を……。@
+;　ここにいることがわかっていて、俺を、俺を……。@
+`　It knows I'm in here, I'm -- I'm...`@
 br
-　ひいいいぃいいいいぃぃッッ、いいいぃいいいいいいいぃいい！！！\
+;　ひいいいぃいいいいぃぃッッ、いいいぃいいいいいいいぃいい！！！\
+`　AAAAAAAaaaaaa, AAAAAAaAAAAAAaAA!!`\
 
 bg black,22
 locate 0,5
 
-“どうして尾崎くんは、女の子をいじめるの…？”\
+;“どうして尾崎くんは、女の子をいじめるの…？”\
+`""Why do you pick on girls, Ozaki-kun...?""`\
 
 bg toire_03,22
 
-　いじめるって何のことだよ、何のこと…ッ！！\
+;　いじめるって何のことだよ、何のこと…ッ！！\
+`　What do you mean pick on, what are you talking about...!!`\
 
 bg black,22
 locate 0,5
 
-“……榊由香里ちゃんを、いつも、……いじめているよね……？”\
+;“……榊由香里ちゃんを、いつも、……いじめているよね……？”\
+`""...Yukari Sakaki-chan, ...you've been bullying her for a long time... haven't you...?""`\
 
 bg toire_03,22
 
-　ど、どうしてそんなこと知ってんだよ…？！@
+;　ど、どうしてそんなこと知ってんだよ…？！@
+`　H- How does it know about that...?!`@
 br
-　やっぱ罰が当たったんだ、これが罰なんだ…！@　あぁ悪ふざけはほどほどにしておけば良かった、あぁあああああぁあああああッああぁあ！！！\
+;　やっぱ罰が当たったんだ、これが罰なんだ…！@　あぁ悪ふざけはほどほどにしておけば良かった、あぁあああああぁあああああッああぁあ！！！\
+`　My punishment is at hand, this is my punishment...! `@`Aaa I should have just left it alone with a practical joke, AaAAAAAAaaAAAAAaaAAaA!!!`\
 
 bg black,22
 locate 0,5
 
-“もう、いじめ。@……やめてあげて…？”\
+;“もう、いじめ。@……やめてあげて…？”\
+`""The bullying. `@`...would you stop it already...?""`\
 
 bg toire_03,22
 quakey 1,100
 
-「ふッ、……うふッ、ぶッ、……！！！」@
+;「ふッ、……うふッ、ぶッ、……！！！」@
+`"Fffu ...Uhu, bu...!!!"`@
 br
-　思わず尾崎は、口に出して答えそうになってしまう。@
-　それを慌てて飲み込む。\
+;　思わず尾崎は、口に出して答えそうになってしまう。@
+`　Without thinking, Ozaki had blurted out something that seemed like an answer.`@
+;　それを慌てて飲み込む。\
+`　Panicked at that, he swallowed.`\
 
 E_A
 
@@ -3367,27 +3486,39 @@ bg white,1
 wait 100
 bg black,22
 
-　でも、……その噴き出すような声に、@……一本だけ灯っていた蛍光灯の明かりが、パンと割れる音を残して、消えてしまう。@
+;　でも、……その噴き出すような声に、@……一本だけ灯っていた蛍光灯の明かりが、パンと割れる音を残して、消えてしまう。@
+`　But, ...with the voice he seemingly blurted out, `@`...the light from the only fluroescent lamp, breaking with a pop, went out entirely.`@
 br
-　……え？@　な、何？@　何だよ、今度は何だよ……？\
+;　……え？@　な、何？@　何だよ、今度は何だよ……？\
+`　...Eh? `@`Wha- what? `@`What is it -- what is it this time...?`\
 
 bgm1 16
 
-　軋むような、……あるいは歪むような。@
-　小さな音が、便所全体に広がっていく。@
+;　軋むような、……あるいは歪むような。@
+`　As if it were grating, ...or perhaps warping.`@
+;　小さな音が、便所全体に広がっていく。@
+`　A small sound, began spreading throughout the entire bathroom.`@
 br
-　それは、扉や窓や、金具やタイルや、蛇口や鏡が、軋む音。@
-　それは静かな静かな威圧。\
+;　それは、扉や窓や、金具やタイルや、蛇口や鏡が、軋む音。@
+`　It was the grating sound of doors, windows, fixtures, tiles, faucets, and mirrors.`@
+;　それは静かな静かな威圧。\
+`　It was quiet. Quiet and overpowering.`\
 
-　自分の指先さえ見えない暗闇の中。@
+;　自分の指先さえ見えない暗闇の中。@
+`　I was in a darkness where I couldn't even see my own fingertips.`@
 br
-　でも、扉一枚向こうの、……扉さえなければ、@……きっと手を伸ばせば届くほどの目の前の距離にいる何かが、威圧しているのだ。@
-　静かな、だけれども不快で恐ろしい音を立てて、……威圧しているのだ。\
+;　でも、扉一枚向こうの、……扉さえなければ、@……きっと手を伸ばせば届くほどの目の前の距離にいる何かが、威圧しているのだ。@
+`(?)　But, on the other side of this one door ...if I didn't have this door, `@`...that overpowering creature would surely be at the distance of my outreached hands -- directly in front of my eyes.`@
+;　静かな、だけれども不快で恐ろしい音を立てて、……威圧しているのだ。\
+`(?)　This quiet, though chilling and frightening sound it's making, ...would be overpowering.`\
 
-　この暗闇だからこそ、彼にも何が起こってるのか、理解できる。@
-　何も見えないからこそ、……むしろかえって、理解できる。\
+;　この暗闇だからこそ、彼にも何が起こってるのか、理解できる。@
+`　Even in this darkness, he understood what was happening.`@
+;　何も見えないからこそ、……むしろかえって、理解できる。\
+`　Even though he couldn't see anything, ...rather on the contrary, he understood.`\
 
-　わずかであっても、……めそめそさんの問いに答えてしまったから。@
+;　わずかであっても、……めそめそさんの問いに答えてしまったから。@
+`　Even though it was only ever so slightly, ...it was because he had answered Mesomeso-san's question.`@
 br
 　めそめそさんが……、@少女の姿を、……恐ろしい恐ろしい、異形の姿に、……変えているのが、理解できるのだ……。@
 br
