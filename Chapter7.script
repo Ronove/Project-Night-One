@@ -3571,39 +3571,50 @@ me2v 26,50
 `　Both of Ozaki's eyes were open, and while covering his ears and mouth, he bowed his head indefinitely.`@`
 br
 ;　汗と涙と、鼻水と涎をぼたぼたと垂らしながら、壁に頭を打ち付けるかのように、@いつまでも、いつまでも頷き続けていた。\
-`　With sweat and tears, 
+`　With sweat and tears, the snot and the drool plopping and dribbling, as if striking his head against a wall,`@` he would continue nodding his head for all eternity.`\
 
 bg black,22
 
 ;　………それが、旧校舎の昇降口が開いているのに気付き、@念の為、見回りに行った教師が、彼を発見した時の状況である。\
+`　...That was the situation the patrolling teacher discovered him in when, even though the old school building's entrance was closed, he decided to patrol just in case.(?)
 
 ;bg K_rouka_01,22
 
 ;　どうしてこんな時間にそんな場所に入り込み、真っ暗な中で、ひとりで居たのか。@
+`　Why would he go into a place like this, at this time, and in this darkness all alone?`@`
 br
 ;　その問いに、彼が満足に答えることは出来なかった。\
+`　He was not able to find an answer he was satisfied with to that question.`\
 
 ;　そもそも、なぜ彼が放課後、学校へ戻ってきたのかさえ、@満足に説明することは出来なかったのだ。\
+`　In the first place,`@` he couldn't even satisfactorily explain why he would come back to school after school was over.`\
 
 ;bg black,22
 
 ;　………だって。@
+`　...After all.`@`
 br
-　彼が無くした無くしたと繰り返していた家の鍵は、@…………彼のポケットに、普通に入っていたのだから。\
+;　彼が無くした無くしたと繰り返していた家の鍵は、@…………彼のポケットに、普通に入っていたのだから。\
+`　The house key he kept repeating was gone,`@`...was right in his pocket, where it usually was.`\
 
 fede 10,1000
 E_MA
 
 bg k_rouka_03,22
 
-　教師も、めそめそさんの怪談は知っていた。@
-　この一件を他の生徒が知ると、面白がって噂し合って、騒ぎが無駄に大きくなるだろう。@
+;　教師も、めそめそさんの怪談は知っていた。@
+`　The teacher also knew of the story of MesoMeso-san.`@`
+;　この一件を他の生徒が知ると、面白がって噂し合って、騒ぎが無駄に大きくなるだろう。@
+`　If other students knew of this case, they would amuse themselves with rumors, and the uproar would surely become pointlessly huge.`@`
 br
-　下手な騒ぎになって教頭の耳にでも入れば、誰の責任だと面倒な騒ぎになる。\
+;　下手な騒ぎになって教頭の耳にでも入れば、誰の責任だと面倒な騒ぎになる。\
+`　And if this awful clamor reached the vice principal's ears, it would become a troublesome fuss about who was responsible for it.`\
 
-　だから、教師は尾崎をそれ以上問い詰めず、解放した。@
+;　だから、教師は尾崎をそれ以上問い詰めず、解放した。@
+`　That was why, without any questions to Ozaki, the teacher liberated him.`@`
 br
-　今夜、ここで何を見たか知らないが、……それを絶対に口外しないようにと、言い含めて。\
+;　今夜、ここで何を見たか知らないが、……それを絶対に口外しないようにと、言い含めて。\
+`　I don't know what you saw here tonight, ...but you absolutely must make sure you never reveal it, he instructed.`\
 
 bg black,2
 
@@ -3614,189 +3625,243 @@ E_B
 
 bg okujou_03u,2
 
-　尾崎はふらふらと、今にも転んでしまいそうな足取りで校庭を横断し、校門を出て行く。@
+;　尾崎はふらふらと、今にも転んでしまいそうな足取りで校庭を横断し、校門を出て行く。@
+`　Ozaki staggered, and in with a gait like he still might fall over now, he crossed the school yard, and exited the school grounds.`@`
+
 br
-　その背中をじっと見送る、人ならざる者の目……。\
+;　その背中をじっと見送る、人ならざる者の目……。\
+`　Seeing that back off fixedly, were the eyes of one not human...`\
 
 ;bg black,22
 ;bg okujou_02,0
 ld r,HIG_def3,22
 ;ld r,HIG_W4,80
 
-「…………くすくすくすくす。」@
+;「…………くすくすくすくす。」@
+`"...Teeheeheehee."`@`
 
 ld l,MAR_Def4a,22
 
 
-「彼岸花さん…。@いつからそこに。」\
+;「彼岸花さん…。@いつからそこに。」\
+`"Higanbana-san...`@` How long have you been there?"`\
 
 ld r,HIG_w2,80
 
 bgm1 8
 
-「ずっとよ。@毬枝の狩りの、最初からずっと。」@
+;「ずっとよ。@毬枝の狩りの、最初からずっと。」@
+`"The whole time.`@` Since the very start of your hunt."`@`
 br
-　彼岸花はくすりと笑いながら、屋上のフェンスの上に腰掛け、@その長く美しく、冷たい髪をなびかせていた。@
+;　彼岸花はくすりと笑いながら、屋上のフェンスの上に腰掛け、@その長く美しく、冷たい髪をなびかせていた。@
+`　Higanbana giggled as she sat on top of the roof's fence,`@` letting that long, beautiful, cold hair flow.`@`
 br
-　毬枝はじっと。@フェンス越しに、校門を出ていく尾崎の後姿を見送っている…。\
+;　毬枝はじっと。@フェンス越しに、校門を出ていく尾崎の後姿を見送っている…。\
+`　Marie stared.`@` She was seeing off Ozaki's retreating figure through the school gates, just over the fence...`\
 
 bg black,22
 bg okujou_01y,22
 
 ld r,MAR_Def2,22
 
-「これで、由香里ちゃんをいじめなくなってくれるといいんですけど……。」\
+;「これで、由香里ちゃんをいじめなくなってくれるといいんですけど……。」\
+`"It would be nice if he would stop bullying Yukari-chan with this, but..."`\
 
 ld l,HIG_W3,22
 
-「大丈夫よ。@……学校妖怪序列第８位のめそめそさんが、@魂を半分食い千切って警告してあげたんだから。@見ての通り、あの様だもの。@明日からは、誰か人をいじめるような気力は、当分、戻らないでしょうよ。@……くすくすくすくす。」\
+;「大丈夫よ。@……学校妖怪序列第８位のめそめそさんが、@魂を半分食い千切って警告してあげたんだから。@見ての通り、あの様だもの。@明日からは、誰か人をいじめるような気力は、当分、戻らないでしょうよ。@……くすくすくすくす。」\
+`"It's fine.`@`...The school's eighth ranking youkai MesoMeso-san,`@` bit half of his soul off as a warning.`@` As you can see, it looks like he will stop.`@` Starting tomorrow, I doubt that willpower to bully anyone will ever return to him.`@` ...Teeheeheehee."`\
 
 ld r,MAR_def4a,80
 
-「私、警告しただけですよ。@魂を食い千切ってなんて。」@
+;「私、警告しただけですよ。@魂を食い千切ってなんて。」@
+`"I only gave him a warning.`@` To say I bit off his soul..."`@`
 
 ld l,HIG_Def3,80
 
-「あれだけ、がっぷりと歯形を残して噛み付いておいて…？@　くすくすくすくす。@毬枝の狩りも、趣きがあってなかなか素敵よ。@私には、少ぅし退屈だけれども。」\
+;「あれだけ、がっぷりと歯形を残して噛み付いておいて…？@　くすくすくすくす。@毬枝の狩りも、趣きがあってなかなか素敵よ。@私には、少ぅし退屈だけれども。」\
+`"After you bit and latched on so far that you left teethmarks of that extent...?`@` Teeheehehee.`@` Marie's hunting has such grace, and is considerably lovely.`@` Even though I'm a little bit bored."`\
 
-　まだ毬枝には、妖怪たちの狩りというものが、よくわからない。@
+;　まだ毬枝には、妖怪たちの狩りというものが、よくわからない。@
+`　Marie still did not quite understand, what it was the youkai referred to as a hunt.`@`
+
 br
-　しかしこれで、由香里に対するいじめが、少しでも治まってほしいと願うばかりだった。\
+;　しかしこれで、由香里に対するいじめが、少しでも治まってほしいと願うばかりだった。\
+`　However with this, all she could do was hope that the bullying facing Yukari, would lessen if even by a little bit.`\
 
 bg black,22
 
-　それにしても。@
-　やはり、彼岸花は由香里に目を付けていた。@
+;　それにしても。@
+`　Nevertheless.`@`
+;　やはり、彼岸花は由香里に目を付けていた。@
+`　Higanbana was still keeping her eye on Yukari.`@`
 br
-　毬枝は、ほっと、その小さな胸を撫で下ろす…。@
-　その胸中など、とっくにお見通しであるかのように、彼岸花はくすりと笑ってから、フェンスをひらりと飛び降りる。\
+;　毬枝は、ほっと、その小さな胸を撫で下ろす…。@
+`　Marie had that tiny amount of calm relief...`@`
 
+;　その胸中など、とっくにお見通しであるかのように、彼岸花はくすりと笑ってから、フェンスをひらりと飛び降りる。\
+`　As though she had read her thoughts long ago, Higanbana giggled, then nimbly jumped off of the fence.`\
 ;cl r,24
 
-「……本当に美味しそうな子よね。@あの、榊由香里って子。」\
-
+;「……本当に美味しそうな子よね。@あの、榊由香里って子。」\
+`"...She really is a delicious looking girl.`@` That Yukari Sakaki girl."`\
 bg okujou_02,22
 ld c,MAR_I3,22
 
-「彼岸花さん。」@
+;「彼岸花さん。」@
+`"Higanbana-san."`@`
 
 ld r,HIG_w3,22
 
-「なぁに？」\
+;「なぁに？」\
+`"Whaaaat?"`\
 
 ld c,MAR_I4a,80
 
-「由香里ちゃんを狙うのは、許してあげて下さい。」\
+;「由香里ちゃんを狙うのは、許してあげて下さい。」\
+`"Please give up on aiming for Yukari-chan."`\
 
 ld r,HIG_w4,80
 
-「へぇ…？@　……この踊る彼岸花が狙う獲物を、譲れと？」@
+;「へぇ…？@　……この踊る彼岸花が狙う獲物を、譲れと？」@
+`"Hmm...?`@` ...You want I, the dancing Higanbana, to turn over my prey?"`@`
 br
-　彼岸花は振り返らずに言う。@
-　毬枝も、フェンスの前で、振り返らずに言う。\
+;　彼岸花は振り返らずに言う。@
+`　Higanbana spoke without turning around.`@`
+;　毬枝も、フェンスの前で、振り返らずに言う。\
+`　Marie also did not turn around from in front of the fence when she spoke.`\
 
 bg black,22
 bg okujou_03u,22
 
-「……譲れと、命令してるわけじゃないです。」@
-「へぇ。@……じゃあ、オトモダチとしての、お願い？」\
+;「……譲れと、命令してるわけじゃないです。」@
+`"...It's not that I'm ordering you to hand her over."`@`
+;「へぇ。@……じゃあ、オトモダチとしての、お願い？」\
+`"Hmm.`@`...Then, it's a request as a f r i e n d?"`\
 
-「違います。@相応しくありません。」@
-「それって、どういう意味？」\
-
-「由香里ちゃんは、……あなたの獲物に相応しくありません。」\
+;「違います。@相応しくありません。」@
+`"No. `@` That is not adequate."`@`
+;「それって、どういう意味？」\
+`"Then, what is the meaning of this?"`\
+;「由香里ちゃんは、……あなたの獲物に相応しくありません。」\
+`"Yukari-chan, ...is not suitable as prey for you."`\
 
 bg black,23
 bg okujou_01y,0
 ld l,HIG_Def2,23
 
-「へぇ………？」@
+;「へぇ………？」@
+`"Hmmm....?"`@`
 br
-　彼岸花はゆっくりと振り返る。\
+;　彼岸花はゆっくりと振り返る。\
+`　Higanbana slowly turned around.`\
 
-　その形相は、……無機質、無慈悲な、冷え切った人形的なものだった。@
-　その瞳は氷柱より冷たくて鋭くて。@
+;　その形相は、……無機質、無慈悲な、冷え切った人形的なものだった。@
+`　That expression, ...was an inhumanly, ruthlessly, frigidly doll-like thing.`@`
+;　その瞳は氷柱より冷たくて鋭くて。@
+`　Those eyes were more frosty and sharp than an icicle.`@`
 br
-　いや、生きる者の瞳じゃない。@……彼女の目に埋め込まれただけの、人形の目玉そのもの。\
+;　いや、生きる者の瞳じゃない。@……彼女の目に埋め込まれただけの、人形の目玉そのもの。\
+`　No, they were not the eyes of something alive.`@` ...Her eyes were clearly, only doll's eyes that had been embedded in her own.`\
 
-　ざぁっと風が吹いて長い髪を乱し、一層、その表情に不気味さを添える。@
+;　ざぁっと風が吹いて長い髪を乱し、一層、その表情に不気味さを添える。@
+`　A strong gust blew by and rustled her long hair, intensifying that ominous expression even more.`@`
 br
-　そして、……その唇が、新月を越えたばかりの月のように、@……にぃっと、弧を描いて笑う。\
+;　そして、……その唇が、新月を越えたばかりの月のように、@……にぃっと、弧を描いて笑う。\
+`　Then, ...those lips smiled in a perfect arc,`@` ...like a crescent moon only just appearing.`\
 
 ld l,HIG_W6,80
 
-「……くす。@素敵ね、毬枝。@あなたは私のお友達なだけじゃなく。@……私の邪魔も出来るようになったのね。」\
+;「……くす。@素敵ね、毬枝。@あなたは私のお友達なだけじゃなく。@……私の邪魔も出来るようになったのね。」\
+`"...Teehee.`@` How lovely, Marie.`@` You are not only just my friend.`@` ...You've also managed to become like a hindrance."`\
 
 ld r,MAR_I1a,22
 
-「邪魔がしたいんじゃありません。@由香里ちゃんは、彼岸花さんの獲物に相応しくないと言っているんです。@……だって。@あなたは、自ら死を選ぶような、弱々しい魂を獲物とするって、言ったじゃないですか。」\
+;「邪魔がしたいんじゃありません。@由香里ちゃんは、彼岸花さんの獲物に相応しくないと言っているんです。@……だって。@あなたは、自ら死を選ぶような、弱々しい魂を獲物とするって、言ったじゃないですか。」\
+`"I don't want to hinder you.`@` I am only saying that Yukari-chan is not suitable as prey for you.`@` ...After all,`@` didn't you say you prefer to prey upon fragile souls, who seemed like they'd choose their own death?"`\
 
 ld l,HIG_Def4,80
 
-「あの子は、そうじゃないと？」\
+;「あの子は、そうじゃないと？」\
+`"And you're saying, that girl isn't?"`\
 
 ld r,MAR_I3,80
 
-「はい。@由香里ちゃんは、本当は強い子なんです。@お母さんを失うという悲しみからさえ、立ち直ったんです。@確かに今はいじめられて、心が挫けそうにはなっています。@でも、それは今だけの話です。@彼女は必ず元気を取り戻して、立ち直ります。」\
+;「はい。@由香里ちゃんは、本当は強い子なんです。@お母さんを失うという悲しみからさえ、立ち直ったんです。@確かに今はいじめられて、心が挫けそうにはなっています。@でも、それは今だけの話です。@彼女は必ず元気を取り戻して、立ち直ります。」\
+`"Yes.`@` Yukari-chan, is truly a strong girl.`@` She managed to recover even from the sadness of losing her mother.`@` True, she is currently being bullied and her heart seemes like it might be crushed.`@` But that is only for now.`@` She will definitely take back her joy, and stand strong again."`\
 
 ld l,HIG_W2,80
 
-「くすくすくすくすくす。@じゃあ、立ち直る前に死を囁いて、美味しく料理しちゃわないとだわ。」@
+;「くすくすくすくすくす。@じゃあ、立ち直る前に死を囁いて、美味しく料理しちゃわないとだわ。」@
+`"Teeheeheeheehee.`@` Well then, I'll have to whisper of death to her, and prepare her deliciously before she stands strong again."`@`
 
 ld r,MAR_I4a,80
 
-「そうはさせません。@……この、めそめその毬枝が、あの子を守ります。」\
+;「そうはさせません。@……この、めそめその毬枝が、あの子を守ります。」\
+`"I won't let you do that.`@` ...I, MesoMeso Marie, will protect that girl."`\
 
 bg black,22
 
 ;ld l,HIG_W6,80
 
-「くすっ、……はっははははっはっはっはっは。」@
+;「くすっ、……はっははははっはっはっはっは。」@
+`"Teehee, ...Haahhahahahahahahahaha."`@`
 br
-　いつも上品に笑う彼岸花が、とうとう堪え切れなくなって、大きな口で笑う。\
+;　いつも上品に笑う彼岸花が、とうとう堪え切れなくなって、大きな口で笑う。\
+`　Higanbana, who had always laughed so elegantly, finally could not withstand it and howled with laughter.`\
 
 bg okujou_03u,22
 ld r,HIG_def3,22
 
 me1v 5,50
 
-「守れるの？@　あの子が。」@
+;「守れるの？@　あの子が。」@
+`"Can you protect her?`@` Is there any way?"`@`
 
 ld l,MAR_I1a,22
 
-「はい。@尾崎くんがいじめを止めてくれれば、……彼の友達も、それに倣うと思います。」\
+;「はい。@尾崎くんがいじめを止めてくれれば、……彼の友達も、それに倣うと思います。」\
+`"Yes.`@` If Ozaki-kun stopped bullying her, ...I believe his friends will do the same."`\
 
 ld r,HIG_W3,80
 
-「………くすくすくすくす。@……毬枝は面白いわ、本当に。」@
+;「………くすくすくすくす。@……毬枝は面白いわ、本当に。」@
+`"...Teeheeheehee.`@` ...Marie, you truly are entertaining."`@`
 
 ld l,MAR_I4a,80
 
-「……………………。」\
+;「……………………。」\
+`".........."`\
 
 ld r,HIG_Def3,80
 
-「見せてもらおうかしらね、しばらく。@……めそめその毬枝が、何をどの程度やれるのかを、ね。」@
+;「見せてもらおうかしらね、しばらく。@……めそめその毬枝が、何をどの程度やれるのかを、ね。」@
+`"Well then, I'll let you show me for a while.`@` ...Show me what MesoMeso Marie is capable of."`@`
 br
-　彼岸花は、くるりとスカートをなびかせて、姿を消す。\
+;　彼岸花は、くるりとスカートをなびかせて、姿を消す。\
+`　With a turn and her skirt billowing in the wind, Higanbana erased her presence.`\
 
 cl r,2
 
 ;cl r,24
 ;ld c,MAR_Def2,24
 
-　尾崎の姿は、もうとっくに夜の闇に、……いや、学校の外の明かりの中に消えている。@
+;　尾崎の姿は、もうとっくに夜の闇に、……いや、学校の外の明かりの中に消えている。@
+`　Ozaki was already far into the dark of the night, ...no, he had disappeared into the light outside of the school.`@`
 br
-　毬枝はひとり、夜の学校の暗闇の中で、@明日よりの由香里の運命が、わずかでも良い方に好転してほしいと願うのだった。\
+;　毬枝はひとり、夜の学校の暗闇の中で、@明日よりの由香里の運命が、わずかでも良い方に好転してほしいと願うのだった。\
+`　Marie was alone, in the darkness of the school at night,`@` praying that Yukari's fate tomorrow would be changed, even a little bit, for the better.`\
 
 bg black,2
 
 fede 1,1000
 E_B
 
-　……しかし。@
+;　……しかし。@
+`　...However.`@`
 br
-　彼岸花が何を笑ったのか、翌日にはすぐにそれを理解する。\
+;　彼岸花が何を笑ったのか、翌日にはすぐにそれを理解する。\
+`　She would understand the next day, what Higanbana was laughing about.`\
 
 fede 0,2000
 E_A
@@ -3805,35 +3870,48 @@ bg kyou_01,22
 
 bgm1 14
 
-　確かに尾崎は気が抜けた様子で人が変わり、由香里をいじめることはなくなった。@
-　しかし、他のいじめっ子たちは、何も変わらなかった。@
-br
-　尾崎は体調が悪いのだろうから、そっとしておこう。@
-　だから今日は、俺たちだけで榊をいじめて遊ぼう。\
+;　確かに尾崎は気が抜けた様子で人が変わり、由香里をいじめることはなくなった。@
+`　Indeed, Ozaki seemed like a changed person by how exhausted he was, and he also did not bully Yukari.`@`
+;　しかし、他のいじめっ子たちは、何も変わらなかった。@
+`　However, the other bullies, had not changed at all.`@`
 
-　だから結局。@
 br
-　由香里に対するいじめは、何も変わらなかった。\
+;　尾崎は体調が悪いのだろうから、そっとしておこう。@
+`　Ozaki's not feeling so hot, so let's leave him alone.`@`
+;　だから今日は、俺たちだけで榊をいじめて遊ぼう。\
+`　So today, let's just play around with Sakaki ourselves.`\
 
-　せめて、尾崎が一人抜けた分だけ、由香里が救われたと信じたい。@
+;　だから結局。@
+`　So in the end.`@`
 br
-　しかし、そんなものが彼女の救いになるわけもない。@
-　尾崎が昨日までしていた乱暴を、それに代わり、別のいじめっ子が振るうだけのこと。\
-
+;　由香里に対するいじめは、何も変わらなかった。\
+`　The bullying Yukari experienced, did not change at all.`\
+;　せめて、尾崎が一人抜けた分だけ、由香里が救われたと信じたい。@
+`　I want to believe that by removing just Ozaki alone, I could save Yukari.`@`
+br
+;　しかし、そんなものが彼女の救いになるわけもない。@
+`　But there's no way that could save her.`@`
+;　尾崎が昨日までしていた乱暴を、それに代わり、別のいじめっ子が振るうだけのこと。\
+`　The violence Ozaki had been showing up until today, had instead prospered in the other bullies.`\
 bg black,22
 
-　だから結局。@
-　毬枝のしたことは、焼け石に水。@
+;　だから結局。@
+`　So in the end.`@`
+;　毬枝のしたことは、焼け石に水。@
+`　All Marie had done was like putting a bandaid on a cancer patient.`@`
 br
-　いや、まさに一夜の幻程度でしかなかった……。\
+;　いや、まさに一夜の幻程度でしかなかった……。\
+`　No, it was exactly like the night before was an illusion...`\
 
 bg kyou_02,22
 
 me1v 24,50
 
-　昼休み。@
+;　昼休み。@
+`　Lunch break.`@`
 br
-　尾崎は、気が抜けたようにぼんやりと、机に顔を伏して放心している。@
+;　尾崎は、気が抜けたようにぼんやりと、机に顔を伏して放心している。@
+`　
 　その向こうでは、由香里の席に落書きをして盛り上がる、いつものいじめっ子のグループがいた。\
 
 　……確かに尾崎は、めそめそさんとの約束を守ったのだ。@
