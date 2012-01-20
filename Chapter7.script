@@ -3520,13 +3520,18 @@ br
 ;　わずかであっても、……めそめそさんの問いに答えてしまったから。@
 `　Even though it was only ever so slightly, ...it was because he had answered Mesomeso-san's question.`@
 br
-　めそめそさんが……、@少女の姿を、……恐ろしい恐ろしい、異形の姿に、……変えているのが、理解できるのだ……。@
-br
-　それが、わずかな異音と気配だけで、この暗闇ではありありと理解できるのだ……。\
+;　めそめそさんが……、@少女の姿を、……恐ろしい恐ろしい、異形の姿に、……変えているのが、理解できるのだ……。@
+`　Mesomeso-san...`@` he understood that girl's figure...was changing, into a fearsome, terrifying, grotesque appearance.`@`
 
-　その証拠に。@
 br
-　ほら。@……もう、弱々しい声じゃない。\
+;　それが、わずかな異音と気配だけで、この暗闇ではありありと理解できるのだ……。\
+`　That was something that he could understand clearly by only a strange noise and its presence in this darkness...`\
+
+;　その証拠に。@
+`　The evidence.`@`
+br
+;　ほら。@……もう、弱々しい声じゃない。\
+`　Well,`@` ...it was no longer a frail voice.`\
 
 ;bg "BMP\background\efe\red1.bmp",22
 
@@ -3538,42 +3543,51 @@ bg e005,6
 
 locate 0,5
 
-“マタ、イジメタラ。@………次ハ無イカラネ………。”\
+;“マタ、イジメタラ。@………次ハ無イカラネ………。”\
+`"B e c a u s e  y o u  w o n ' t  b e  a  n e x t  t i m e,`@` t o  b u l l y  a g a i n..."`\
 
 bg black,1
 
-　うぶッ、うぶぶぶぅうううぅ！！！！@
+;　うぶッ、うぶぶぶぅうううぅ！！！！@
+`　
 br
-　涙と鼻水と涎を噴き出しながら。@……それでもなお、悲鳴だけは堪え。@
-　尾崎は両手で口と耳を押さえながら、何度も何度も頭を振る。@
+;　涙と鼻水と涎を噴き出しながら。@……それでもなお、悲鳴だけは堪え。@
+`　While spurting out tears, drool and the drippings of his nose,`@` ...and all the while, only a scream withstanding her.`@`
+;　尾崎は両手で口と耳を押さえながら、何度も何度も頭を振る。@
+`　While he pushed against his mouth and ears, Ozaki shook his head over and over.`@`
+
 br
-　ぼたぼたと、わけのわからない液体を零しながら、何度も何度も頭を振って頷く。\
+;　ぼたぼたと、わけのわからない液体を零しながら、何度も何度も頭を振って頷く。\
+`　While all these incomprehensible fluids dripped and leaked, he shook and bowed his head over and over.`\
 
 ;bg white,1
 bg toire_07,2
 
 me2v 26,50
 
-　旧校舎の便所の個室で。@その暗闇の中で。@
-　尾崎は両目を見開き、口と耳を覆いながら、いつまでもいつまでも頷き続けていた。@
+;　旧校舎の便所の個室で。@その暗闇の中で。@
+`　In the stall of the old school building's lavatory.`@` In that darkness.`@`
+;　尾崎は両目を見開き、口と耳を覆いながら、いつまでもいつまでも頷き続けていた。@
+`　Both of Ozaki's eyes were open, and while covering his ears and mouth, he bowed his head indefinitely.`@`
 br
-　汗と涙と、鼻水と涎をぼたぼたと垂らしながら、壁に頭を打ち付けるかのように、@いつまでも、いつまでも頷き続けていた。\
+;　汗と涙と、鼻水と涎をぼたぼたと垂らしながら、壁に頭を打ち付けるかのように、@いつまでも、いつまでも頷き続けていた。\
+`　With sweat and tears, 
 
 bg black,22
 
-　………それが、旧校舎の昇降口が開いているのに気付き、@念の為、見回りに行った教師が、彼を発見した時の状況である。\
+;　………それが、旧校舎の昇降口が開いているのに気付き、@念の為、見回りに行った教師が、彼を発見した時の状況である。\
 
 ;bg K_rouka_01,22
 
-　どうしてこんな時間にそんな場所に入り込み、真っ暗な中で、ひとりで居たのか。@
+;　どうしてこんな時間にそんな場所に入り込み、真っ暗な中で、ひとりで居たのか。@
 br
-　その問いに、彼が満足に答えることは出来なかった。\
+;　その問いに、彼が満足に答えることは出来なかった。\
 
-　そもそも、なぜ彼が放課後、学校へ戻ってきたのかさえ、@満足に説明することは出来なかったのだ。\
+;　そもそも、なぜ彼が放課後、学校へ戻ってきたのかさえ、@満足に説明することは出来なかったのだ。\
 
 ;bg black,22
 
-　………だって。@
+;　………だって。@
 br
 　彼が無くした無くしたと繰り返していた家の鍵は、@…………彼のポケットに、普通に入っていたのだから。\
 
