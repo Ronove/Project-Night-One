@@ -488,7 +488,7 @@ br
 `　At first it looked like there was nothing on it, but slowly an image began to appear...`\
 
 ;「お…、すっげぇじゃん。@写ったぜ？！」@
-`"Woah... That's amazing. `@`It actually worked!?"`@`
+`"Whoa... That's amazing. `@`It actually worked!?"`@`
 ;「何か心霊とか写ってないかよ。@こんな怪しい写真機なら、そういうのがいかにも写ってそうだよな。」@
 `"Did you capture any ghosts in the picture? `@`An old strange camera like this could probably do that, right?"`@`
 ;「……そう言えば、卒業した先輩にそんな話を聞いた気がするな。@/
@@ -697,7 +697,7 @@ br
 `　...Of course, there was no way that was possible.`@` That was probably just my imagination.`@`
 br
 ;　まるで、このカメラに何かびっくりするような仕掛けでもしてあるのを知っているかのように。@彼女はくすくすと笑いながら僕の脇を通り抜ける。\
-`　It was almost like she knew of some prank-like mechanism hidden in the camera.`@`The girl giggled with laughter as she walked past my side.`\
+`　It was almost like she knew of some prank-like mechanism hidden in the camera.`@` The girl giggled with laughter as she walked past my side.`\
 
 cl c,2
 
@@ -900,7 +900,7 @@ br
 `　Somehow I figured that wasn't it.`@`
 br
 ;　ひょっとして、………写ってしまったのではないだろうか。@“写ってはならないもの”が。@
-`　Maybe,...it had photographed something.`@`Something 'that should not be photographed.'`@`
+`　Maybe,...it had photographed something.`@` Something 'that should not be photographed'.`@`
 br
 ;　それを僕らに見せまいと、……写真が抵抗しているのではないだろうか。\
 `　Perhaps the camera was,... resisting, to spare us from seeing that.`\
@@ -1233,7 +1233,7 @@ bg white,1
 bg black,22
 
 ;　それで、僕のささやかな好奇心は納得した。@
-`　And with that, my meagre curiosity was satisfied.`@
+`　And with that, my meager curiosity was satisfied.`@
 br
 ;　布団に入り、横になったままでも消灯できるように延長した灯りの紐を引っ張り、消灯する。\
 `　I got inside my futon, and as I laid down I pulled the string attached to the lamp and turned out the lights.`\
@@ -1842,7 +1842,7 @@ bg white,24
 bg kyou_01,2
 
 ;　今度はすぅっとじゃない。@ざぁっと、一陣の強い風が通り抜けるかのように。@教室の空気の臭いが劇的に変わる。@
-`　This time it wasn't a hiss. `@`With a woosh, it was as if a huge wind had blown in. `@`The scent in the air in the classroom changed dramatically.`@
+`　This time it wasn't a hiss.`@` With a whoosh, it was as if a huge wind had blown in.`@` The scent in the air in the classroom changed dramatically.`@
 br
 ;　何かが変わった。@さっきまでの、森谷毬枝の名を知らなかった僕にはわからなかった何かが変わった…！\
 `　Something had changed. `@`For I, who had no idea what the name Marie Moriya meant until moments ago, didn't know what it was, but something had changed...!"`\
@@ -2987,7 +2987,7 @@ csp -1
 `"...Yes. `@`In the deepest section of the club, where books and equipment are jumbled together."`\
 
 ;「……………ふーむ。@それはとても不思議なことだよ。」@
-`"......Hmmmmm.`@`That's really quite strange."`@`
+`"......Hmmmmm.`@` That's really quite strange."`@`
 ;「え？」\
 `"Eh?"`\
 bg black,22
@@ -4591,7 +4591,7 @@ ld l,NON_Def3a,80
 ld r,HIG_Def4,80
 
 ;「えぇ、そうよ。@あなたは、自分の怨嗟が写真に残らなかったから、時間に溶かしていくことができた。@……それがわかっているのに、あなたは写真を撮り、残酷な現実を捉え、永遠に残そうとする。@面白い矛盾よね。」\
-`"Yeah, that's right. `@`Since you didn't leave it in the photos, you were able to resolve your self resentment over time. `@`...With that in mind, by taking photographs, by capturing the cruel reality, you let those feelings remain for eternity. `@`What an interesting contradiction, don't you think?"`\
+`"Yeah, that's right.`@` Since you didn't leave it in the photos, you were able to resolve your self-resentment over time.`@` ...With that in mind, by taking photographs, by capturing the cruel reality, you let those feelings remain for eternity.`@` What an interesting contradiction, don't you think?"`\
 
 ld l,NON_Def4a,80
 
@@ -5614,7 +5614,7 @@ ld l,NON_s3,80
 ld r,HIG_w6,80
 
 ;「くすくすくすくすくすくすくす！@　あなたを殺せればそれでいいし、@あなたが反撃して、ひ弱な亡者が奈落に再び叩き落とされたとしても、@それはそれで楽しいし。@どっちでもいいの。@うふふふふふふふふふふふ、面白いもの！」\
-`"Teeheeheeheeheeheehee! `@`If you're killed, that's fine, `@`and even if you counterattack and send that weakling corpse once again back to hades, `@`that's fun too. `@`Either is fine. `@`Huhuhuhuhuhuhuhhu, it's amusing you see!"`\
+`"Teeheeheeheeheeheehee!`@` If you're killed, that's fine,`@` and even if you counterattack and send that weakling corpse once again back to Hades,`@` that's fun too.`@` Either is fine.`@` Huhuhuhuhuhuhuhhu, it's amusing you see!"`\
 
 ld r,HIG_w5,80
 
@@ -6289,7 +6289,7 @@ ld r,NON_N1a,24
 ld l,MAR_i1,23
 
 ;「大丈夫です。@校長先生が、私のお母さんの記憶を再び消してくれました。@もう大丈夫です。」\
-`"It's all right. `@`The Headmaster wiped my mothers memories again. `@`It's fine now."`\
+`"It's all right.`@` The Headmaster wiped my mother's memories again.`@` It's fine now."`\
 
 ld r,NON_s3,80
 

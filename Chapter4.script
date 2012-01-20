@@ -57,7 +57,7 @@ me1v 24,50
 ;「えー？！@　加奈がぁ？！@　ウソでしょー？！」@
 `"Wha-? `@`Kana did~? `@`You're kidding right~?!"`@
 ;「椅子が降ってきたって。@……どこからともなく。」@
-`"I heard a chair fell on her. `@`...Straight out of no where."`@
+`"I heard a chair fell on her.`@` ...Straight out of nowhere."`@
 ;「あと数ｃｍずれてたら、眼球が潰れてたかもだって……！」\
 `"A few centimeters difference and they say it would have crushed her eyes...!"`\
 
@@ -126,7 +126,7 @@ bgm1 18
 ;＜みちる
 br
 ;　ぬぅっと姿を現わした、眼帯の少女が、そう呟く。\
-`　A girl with an eyepatch popped out and muttered so much.`\
+`　A girl with an eye patch popped out and muttered so much.`\
 
 ;「う、……うっせぇよ、お前に意見なんか求めてねーよ！@　あっち行けよ、根暗女！！」\
 `"Sh- ...shut up, no one asked you for your opinion!`@` Go somewhere else, emo girl!!"`\
@@ -144,7 +144,7 @@ br
 `　As the leader of the girls uncomfortably gets up to leave, `@`the other girls look at each other and take their leave one after another.`@
 br
 ;　後には、眼帯の少女の姿だけが残った……。\
-`　Afterwards, the girl with the eyepatch was all that was left...`\
+`　Afterwards, the girl with the eye patch was all that was left...`\
 
 ;　少女の名は、……桜田みちる（さくらだ　みちる）。\
 `　The girl's name ...Michiru Sakurada （桜田みちる）.`\
@@ -773,7 +773,7 @@ bgm1 18
 `　They took the prayer beads, charm, and holding the flashlight... they began walking through the old school building at night.`@
 br
 ;　みちるは不思議な呪文、あるいは祝詞を唱えながら。\
-`　Michiru was chanting some strange spell or perhaps a shinto prayer.`\
+`　Michiru was chanting some strange spell or perhaps a Shinto prayer.`\
 
 bg black,22
 bg k_rouka_02,22
@@ -932,7 +932,7 @@ bg black,24
 bg hokora_01,24
 
 ;　何事かと近付いてみると。@
-`　When she moved closed to see what was going on,`@
+`　When she moved closer to see what was going on,`@
 ;　……雑草の茂る一角に、確かに祠があった。@
 `　...out of a corner of the thickly overgrown weeds, there was a shrine.`@
 br
@@ -1567,7 +1567,7 @@ ld l,MIC_Def5,22
 ld r,MAR_i1a,24
 
 ;「あなたは妖怪じゃない。@ましてや、祟りを下す側でもないはず。」\
-`"You are not a youkai.`@` Much less, someone who can curse or pass judgement on anyone."`\
+`"You are not a youkai.`@` Much less, someone who can curse or pass judgment on anyone."`\
 
 ld l,MIC_def3,80
 
