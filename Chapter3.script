@@ -446,7 +446,7 @@ br
 `　She brags about her family's wealth, even though no one would be sympathetic...`@
 br
 ;　去年のクラスでは、それをちやほやしてもらえたかもしれないけれど、@……誰もがお金持ち自慢を持て囃してくれるわけじゃない。\
-`　Last years class might have spoiled her by letting her get away with that, `@`...however, it's not like anyone will praise someone for having pride in being a rich person.`\
+`　Last year's class might have spoiled her by letting her get away with that,`@` ...however, it's not like anyone will praise someone for having pride in being a rich person.`\
 
 bg kyou_03,22
 
@@ -2531,7 +2531,7 @@ br
 `　Just as everyone expected, she was forced into being in charge of all the odd jobs.`\
 
 ;　発声練習も柔軟体操も、何の役にも立たない。@
-`　Vocal warmups and stretching -- she wasn't good at anything.`@
+`　Vocal warm-ups and stretching -- she wasn't good at anything.`@
 br
 ;　相変わらず、ひとり暗く孤立して、……時折、私に妬みの眼差しを向ける。\
 ` Just as always, she was darkly isolated,......and sometimes, she would gaze at me with envy.`\
@@ -2996,7 +2996,7 @@ ld r,MID_K1,22
 `　I had no appetite for food, and even eating a mouthful took a long time.`@
 br
 ;　でも、無理矢理でも食べなければならない。\
-`　But I had to eat even if it it was against my own free will.`\
+`　But I had to eat even if it was against my own free will.`\
 
 ;　今週に入ってからは毎日のように本番用の衣装を着けて通し稽古をしている。@食べなければ身体が持たないのだ。\
 `　Starting this week we would wear the clothes for our parts every day while practicing. `@`If I don't eat, then my body won't be able to handle it.`\
@@ -3118,7 +3118,7 @@ br
 me1v 28,90
 
 ;　てらてらと黒光りする虫の背中。@節の様な足、髪の毛の様な触覚。@
-`　The glistening backs of their lustrous black husks. `@`Knotted legs. Hairlike feelers.`@
+`　The glistening backs of their lustrous black husks.`@` Knotted legs. Hair-like feelers.`@
 br
 ;　それらが茶色いカレーのルーと白いライスに混じっている壮絶な光景。\
 `　They were mixed with the brown curry sauce and the white rice in a horrific display.`\
@@ -4281,7 +4281,7 @@ ld r,MID_def4a,22
 `"........."`@
 br
 ;　私はひとり、……その背中を、祝福でない眼差しで見つめていた…。\
-`　I looked at everyones backs ...I was the only one who wasn't cheering...`\
+`　I looked at everyone's backs ...I was the only one who wasn't cheering...`\
 
 ;　次々と配役が決まっていく。@
 `　One after another the roles were being decided.`@

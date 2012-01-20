@@ -156,7 +156,7 @@ bg k_kyou_03,2
 me1v 16,50
 
 ;　どうしてこのような悲しい運命に迷い込んでしまったのか。@最初の切っ掛けは本当にささやかで下らないものだった気がする。@
-`　How had she strayed into this sad fate? `@`One might muse about the excuses for why she was so meagre and worthless.`@
+`　How had she strayed into this sad fate? `@`One might muse about the excuses for why she was so meager and worthless.`@
 br
 ;　ああするしかなかった。@他に方法がなかった。@断る術がなかった。@それが常に、最善だった。@
 `　She had no choice but to be like that. `@`There was no other way. `@`No way to refuse it. `@`That it was always for the best.`@
@@ -2971,7 +2971,7 @@ mono 1
 bg toire_01,22
 
 ;　あの女子は、明日から人に会う毎に自分は「めそめそさん」に会ったと喧伝するだろう。@
-`　That girl will probably spread the news to the people she meets everyday starting tomorrow that she met "Mesomeso-san."`@
+`　That girl will probably spread the news to the people she meets every day starting tomorrow that she met "Mesomeso-san."`@
 ;　……そして、この学校には確かに「めそめそさん」という妖怪がいるという、学校伝説に育っていく。\
 `　......And then this school will certainly say that a youkai named "Mesomeso-san" exists, and a legend will be born.`\
 
@@ -3552,7 +3552,7 @@ cl c,0
 ld l,HIG_w4,24
 
 ;「……その仕返しも、『めそめそさん』になれなかったらできないんだから、大変ね？@　…復讐するのすら、あの男に邪魔されなくちゃならないんだからね…？」\
-`"......And with that revenge, if you don't become "Mesomeso-san," you'll be in a tough spot, won't you? `@`...And even if you have your revenge, it might just be an inconveninence for that man, right...?"`\
+`"......And with that revenge, if you don't become "Mesomeso-san," you'll be in a tough spot, won't you? `@`...And even if you have your revenge, it might just be an inconvenience for that man, right...?"`\
 
 ;cl l,45
 ;quakey 1,100
@@ -4096,7 +4096,7 @@ br
 ;　……だが、私がいかに忘れようとも、ボタン自体はなくならない。@
 `　......But no matter how I wanted to forget it, the button itself wouldn't disappear.`@
 ;　それは必ず落ちた場所に今も残り続けていて、……そして、誰かが拾ってくれるのを今も待ち続けている…！\
-`　It was surely there even now where it was dropped, ......and until someone picks it up it's waiting there even now...!`\
+`　It was surely there even now where it was dropped, ......and until someone picks it up, it's waiting there even now...!`\
 
 ;bg "BMP\background\efe\red1.bmp",1
 
@@ -4805,7 +4805,7 @@ bgcopy
 csp -1
 
 ;　生徒の乱暴な使用により、それはややひしゃげていたが、@トイレットペーパーを都合のいい大きさに切る程度の役割は、まだ十分に果たせるようだった。@
-`　From its rough use by students it had been squashed somewhat, `@`but it seemed like it could still fufil its role in conveniently cutting large sheets of toilet paper.`@
+`　From its rough use by students it had been squashed somewhat,`@` but it seemed like it could still fulfill its role in conveniently cutting large sheets of toilet paper.`@
 br
 ;　……その、…ペーパーホルダーの上に、………白い雫のようなものが一粒。\
 `　......And, ...above that paper dispenser, ......there was a pebble that looked like a white teardrop.`\ 
@@ -5795,7 +5795,7 @@ ld l,KAN_w1,23
 ld r,HIG_w4,80
 
 ;「そうね。@学校妖怪の末席を許すにはまだまだ役不足ね。@あなたの方が、むしろ邪悪でその任に相応しいと思ってよ。@あなたほどの人なら、@きっと学校妖怪に混じっても、見事にその席を守りきれるでしょうね。@あなたのような人が末席に加わったなら、私もうかうかしていられないわ。」\
-`"I see. `@`Allowing her the lowest seat among the school youkai is far too inappropriate. `@`I think someone like yourself, in your wickedness better fufils the role, you see. `@`If it's someone like you, `@`even among the school youkai you'll splendidly fill and protect that seat. `@`If a human like yourself joins us in the lowest rank, even I'll have to be careful."`\
+`"I see.`@` Allowing her the lowest seat among the school youkai is far too inappropriate.`@` I think someone like yourself, in your wickedness better fulfills the role, you see.`@` If it's someone like you, `@`even among the school youkai you'll splendidly fill and protect that seat.`@` If a human like yourself joins us in the lowest rank, even I'll have to be careful."`\
 
 ld l,KAN_w3,80
 
