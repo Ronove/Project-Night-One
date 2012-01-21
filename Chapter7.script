@@ -3518,14 +3518,14 @@ br
 `　Even though he couldn't see anything, ...rather on the contrary, he understood.`\
 
 ;　わずかであっても、……めそめそさんの問いに答えてしまったから。@
-`　Even though it was only ever so slightly, ...it was because he had answered Mesomeso-san's question.`@
+`　Even though it was only ever so slightly, ...he had answered Mesomeso-san's question.`@
 br
 ;　めそめそさんが……、@少女の姿を、……恐ろしい恐ろしい、異形の姿に、……変えているのが、理解できるのだ……。@
-`　Mesomeso-san...`@` he understood that girl's figure...was changing, into a fearsome, terrifying, grotesque appearance.`@`
+`　Mesomeso-san...`@` that girl -- he could tell she was changing into something... fearsome, terrifying, and grotesque.`@`
 
 br
 ;　それが、わずかな異音と気配だけで、この暗闇ではありありと理解できるのだ……。\
-`　That was something that he could understand clearly by only a strange noise and its presence in this darkness...`\
+`　Even though all he had was a strange noise and her presence to go on, in that darkness he could clearly tell what was happening...`\
 
 ;　その証拠に。@
 `　The evidence.`@`
@@ -3544,17 +3544,17 @@ bg e005,6
 locate 0,5
 
 ;“マタ、イジメタラ。@………次ハ無イカラネ………。”\
-`"B e c a u s e  y o u  w o n ' t  b e  a  n e x t  t i m e,`@` t o  b u l l y  a g a i n..."`\
+`"I F  Y O U  B U L L Y  A G A I N.`@` ...T H E R E  W O N ' T  B E  A  N E X T  T I M E..."`\
 
 bg black,1
 
 ;　うぶッ、うぶぶぶぅうううぅ！！！！@
-`　
+`　Mhmf mmhmmhmmmhmm!!!!`@
 br
 ;　涙と鼻水と涎を噴き出しながら。@……それでもなお、悲鳴だけは堪え。@
-`　While spurting out tears, drool and the drippings of his nose,`@` ...and all the while, only a scream withstanding her.`@`
+`　While spurting out tears, drool, and snot,`@` ...despite everything, he held back a scream.`@`
 ;　尾崎は両手で口と耳を押さえながら、何度も何度も頭を振る。@
-`　While he pushed against his mouth and ears, Ozaki shook his head over and over.`@`
+`　While holding his mouth and ears shut, Ozaki shook his head over and over.`@`
 
 br
 ;　ぼたぼたと、わけのわからない液体を零しながら、何度も何度も頭を振って頷く。\
@@ -3576,15 +3576,15 @@ br
 bg black,22
 
 ;　………それが、旧校舎の昇降口が開いているのに気付き、@念の為、見回りに行った教師が、彼を発見した時の状況である。\
-`　...That was the situation the patrolling teacher discovered him in when, even though the old school building's entrance was closed, he decided to patrol just in case.(?)
+`　...Noticing the old school building's entryway was open, `@`a patrolling teacher took a look around, just in case, only to find him in that state.`\
 
 ;bg K_rouka_01,22
 
 ;　どうしてこんな時間にそんな場所に入り込み、真っ暗な中で、ひとりで居たのか。@
-`　Why would he go into a place like this, at this time, and in this darkness all alone?`@`
+`　Why would he go into a place like that? At that time? In that darkness? All alone?`@`
 br
 ;　その問いに、彼が満足に答えることは出来なかった。\
-`　He was not able to find an answer he was satisfied with to that question.`\
+`　The teacher was not able to find an answer he was satisfied with to that question.`\
 
 ;　そもそも、なぜ彼が放課後、学校へ戻ってきたのかさえ、@満足に説明することは出来なかったのだ。\
 `　In the first place,`@` he couldn't even satisfactorily explain why he would come back to school after school was over.`\
@@ -3595,7 +3595,7 @@ br
 `　...After all.`@`
 br
 ;　彼が無くした無くしたと繰り返していた家の鍵は、@…………彼のポケットに、普通に入っていたのだから。\
-`　The house key he kept repeating was gone,`@`...was right in his pocket, where it usually was.`\
+`　That house key that he kept repeating was gone `@`...was right in his pocket, where as it usually was.`\
 
 fede 10,1000
 E_MA
