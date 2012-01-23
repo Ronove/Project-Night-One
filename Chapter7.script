@@ -3657,7 +3657,7 @@ br
 `　Higanbana giggled as she sat on top of the roof's fence,`@` letting that long, beautiful, cold hair flow.`@`
 br
 ;　毬枝はじっと。@フェンス越しに、校門を出ていく尾崎の後姿を見送っている…。\
-`　Marie stared.`@` She was seeing off Ozaki's retreating figure through the school gates, just over the fence...`\
+`　Marie stared.`@` She was seeing off Ozaki's retreating figure through the school gates just over the fence...`\
 
 bg black,22
 bg okujou_01y,22
@@ -3665,7 +3665,7 @@ bg okujou_01y,22
 ld r,MAR_Def2,22
 
 ;「これで、由香里ちゃんをいじめなくなってくれるといいんですけど……。」\
-`"It would be nice if he would stop bullying Yukari-chan with this, but..."`\
+`"It would be nice if he would stop bullying Yukari-chan, but..."`\
 
 ld l,HIG_W3,22
 
@@ -3697,7 +3697,7 @@ bg black,22
 `　Higanbana was still keeping her eye on Yukari.`@`
 br
 ;　毬枝は、ほっと、その小さな胸を撫で下ろす…。@
-`　Marie had that tiny amount of calm relief...`@`
+`　Marie calmed down just a bit...`@`
 
 ;　その胸中など、とっくにお見通しであるかのように、彼岸花はくすりと笑ってから、フェンスをひらりと飛び降りる。\
 `　As though she had read her thoughts long ago, Higanbana giggled, then nimbly jumped off of the fence.`\
@@ -3719,7 +3719,7 @@ ld r,HIG_w3,22
 ld c,MAR_I4a,80
 
 ;「由香里ちゃんを狙うのは、許してあげて下さい。」\
-`"Please give up on aiming for Yukari-chan."`\
+`"Could you please stop hunting Yukari-chan."`\
 
 ld r,HIG_w4,80
 
@@ -3729,7 +3729,7 @@ br
 ;　彼岸花は振り返らずに言う。@
 `　Higanbana spoke without turning around.`@`
 ;　毬枝も、フェンスの前で、振り返らずに言う。\
-`　Marie also did not turn around from in front of the fence when she spoke.`\
+`　Marie did not turn around either, and started speaking　from in front of the fence.`\
 
 bg black,22
 bg okujou_03u,22
@@ -3737,14 +3737,14 @@ bg okujou_03u,22
 ;「……譲れと、命令してるわけじゃないです。」@
 `"...It's not that I'm ordering you to hand her over."`@`
 ;「へぇ。@……じゃあ、オトモダチとしての、お願い？」\
-`"Hmm.`@`...Then, it's a request as a f r i e n d?"`\
+`"Hmm.`@`...Then, you're asking me as a f r i e n d?"`\
 
 ;「違います。@相応しくありません。」@
-`"No. `@` That is not adequate."`@`
+`"No. `@` That's not quite right."`@`
 ;「それって、どういう意味？」\
-`"Then, what is the meaning of this?"`\
+`"Then, what do you mean?"`\
 ;「由香里ちゃんは、……あなたの獲物に相応しくありません。」\
-`"Yukari-chan, ...is not suitable as prey for you."`\
+`"Yukari-chan, ...she isn't quite the right prey for you."`\
 
 bg black,23
 bg okujou_01y,0
@@ -3757,12 +3757,12 @@ br
 `　Higanbana slowly turned around.`\
 
 ;　その形相は、……無機質、無慈悲な、冷え切った人形的なものだった。@
-`　That expression, ...was an inhumanly, ruthlessly, frigidly doll-like thing.`@`
+`　Her expression, ...was inhuman, meciless, like a frigid doll.`@`
 ;　その瞳は氷柱より冷たくて鋭くて。@
 `　Those eyes were more frosty and sharp than an icicle.`@`
 br
 ;　いや、生きる者の瞳じゃない。@……彼女の目に埋め込まれただけの、人形の目玉そのもの。\
-`　No, they were not the eyes of something alive.`@` ...Her eyes were clearly, only doll's eyes that had been embedded in her own.`\
+`　No, they were not the eyes of something alive.`@` ...Buried into her sockets, were the eyes of a doll.`\
 
 ;　ざぁっと風が吹いて長い髪を乱し、一層、その表情に不気味さを添える。@
 `　A strong gust blew by and rustled her long hair, intensifying that ominous expression even more.`@`
@@ -3773,12 +3773,12 @@ br
 ld l,HIG_W6,80
 
 ;「……くす。@素敵ね、毬枝。@あなたは私のお友達なだけじゃなく。@……私の邪魔も出来るようになったのね。」\
-`"...Teehee.`@` How lovely, Marie.`@` You are not only just my friend.`@` ...You've also managed to become like a hindrance."`\
+`"...Teehee.`@` How lovely, Marie.`@` You are not only just my friend.`@` ...You've also managed to become a nusiance."`\
 
 ld r,MAR_I1a,22
 
 ;「邪魔がしたいんじゃありません。@由香里ちゃんは、彼岸花さんの獲物に相応しくないと言っているんです。@……だって。@あなたは、自ら死を選ぶような、弱々しい魂を獲物とするって、言ったじゃないですか。」\
-`"I don't want to hinder you.`@` I am only saying that Yukari-chan is not suitable as prey for you.`@` ...After all,`@` didn't you say you prefer to prey upon fragile souls, who seemed like they'd choose their own death?"`\
+`"I don't want to be a nusiance.`@` I am only saying that Yukari-chan is not suitable as prey for you.`@` ...After all,`@` didn't you say you prefer to prey upon fragile souls, who seemed like they'd choose their own death?"`\
 
 ld l,HIG_Def4,80
 
@@ -3788,7 +3788,7 @@ ld l,HIG_Def4,80
 ld r,MAR_I3,80
 
 ;「はい。@由香里ちゃんは、本当は強い子なんです。@お母さんを失うという悲しみからさえ、立ち直ったんです。@確かに今はいじめられて、心が挫けそうにはなっています。@でも、それは今だけの話です。@彼女は必ず元気を取り戻して、立ち直ります。」\
-`"Yes.`@` Yukari-chan, is truly a strong girl.`@` She managed to recover even from the sadness of losing her mother.`@` True, she is currently being bullied and her heart seemes like it might be crushed.`@` But that is only for now.`@` She will definitely take back her joy, and stand strong again."`\
+`"Yes.`@` Yukari-chan, is truly a strong girl.`@` She managed to recover even from the sadness of losing her mother.`@` True, she's being bullied and her heart seems to be crushed.`@` But that is only for now.`@` She will definitely take back her joy, and stand strong again."`\
 
 ld l,HIG_W2,80
 
@@ -3839,7 +3839,7 @@ ld r,HIG_Def3,80
 `"Well then, I'll let you show me for a while.`@` ...Show me what MesoMeso Marie is capable of."`@`
 br
 ;　彼岸花は、くるりとスカートをなびかせて、姿を消す。\
-`　With a turn and her skirt billowing in the wind, Higanbana erased her presence.`\
+`　With a turn, her skirt billowing in the wind, Higanbana disappears.`\
 
 cl r,2
 
@@ -3847,10 +3847,10 @@ cl r,2
 ;ld c,MAR_Def2,24
 
 ;　尾崎の姿は、もうとっくに夜の闇に、……いや、学校の外の明かりの中に消えている。@
-`　Ozaki was already far into the dark of the night, ...no, he had disappeared into the light outside of the school.`@`
+`　Ozaki was already far into the dark of the night, ...rather, he had disappeared into the light outside of the school.`@`
 br
 ;　毬枝はひとり、夜の学校の暗闇の中で、@明日よりの由香里の運命が、わずかでも良い方に好転してほしいと願うのだった。\
-`　Marie was alone, in the darkness of the school at night,`@` praying that Yukari's fate tomorrow would be changed, even a little bit, for the better.`\
+`　Marie was alone in the darkness of the school at night.`@` She was praying that Yukari's fate tomorrow would be changed, even a little bit, for the better.`\
 
 bg black,2
 
@@ -3871,7 +3871,7 @@ bg kyou_01,22
 bgm1 14
 
 ;　確かに尾崎は気が抜けた様子で人が変わり、由香里をいじめることはなくなった。@
-`　Indeed, Ozaki seemed like a changed person by how exhausted he was, and he also did not bully Yukari.`@`
+`　Ozaki changed into an absent-minded kid, and he did not bully Yukari again.`@`
 ;　しかし、他のいじめっ子たちは、何も変わらなかった。@
 `　However, the other bullies, had not changed at all.`@`
 
@@ -3887,12 +3887,12 @@ br
 ;　由香里に対するいじめは、何も変わらなかった。\
 `　The bullying Yukari experienced, did not change at all.`\
 ;　せめて、尾崎が一人抜けた分だけ、由香里が救われたと信じたい。@
-`　I want to believe that by removing just Ozaki alone, I could save Yukari.`@`
+`　I wanted to believe that just by removing Ozaki, I could save Yukari.`@`
 br
 ;　しかし、そんなものが彼女の救いになるわけもない。@
 `　But there's no way that could save her.`@`
 ;　尾崎が昨日までしていた乱暴を、それに代わり、別のいじめっ子が振るうだけのこと。\
-`　The violence Ozaki had been showing up until today, had instead prospered in the other bullies.`\
+`　The violence Ozaki had been showing up until today, had instead benefitted the other bullies.`\
 bg black,22
 
 ;　だから結局。@
