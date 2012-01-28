@@ -3911,50 +3911,55 @@ me1v 24,50
 `　Lunch break.`@`
 br
 ;　尾崎は、気が抜けたようにぼんやりと、机に顔を伏して放心している。@
-`　Ozaki was spacing out in exhaustion, with his head bowed down on the desk absentmindedly.`@`
+(?)`　Ozaki, as if he had lost his spirit, rested his head on the desk.`@
 ;　その向こうでは、由香里の席に落書きをして盛り上がる、いつものいじめっ子のグループがいた。\
-`　And further off, were the same old group of bullies energetically scribbling on Yukari's desk.`\
+`　And across from him, excited from having writing graffiti on Yukari's desk, was the usual group of bullies.`\ 
 
 ;　……確かに尾崎は、めそめそさんとの約束を守ったのだ。@
-`　...Well, Ozaki certainly had upheld his promise to MesoMeso-san.`@`
+`　...Ozaki had kept his promise to Mesomeso-san.`@
 br
 ;　旧校舎のトイレで約束した通り、もう榊由香里をいじめたりしなかった。@
-`　Just like he had promised in the abandonded school's bathroom, he didn't bully Yukari Sakaki.`@`
+`　Just as he promised in the old school building bathroom, he no longer bullied Yukari Sakaki anymore.`@
 ;　さりとて、いじめをやめようと言い出しもしなかった。\
-`　Having said that, he also didn't say he would stop any bullying.`\
+`　That being said, he didn't say he would stop all the bullying.`\
 
 ;　毬枝は、それの念を押せば良かったと、小さく後悔する。@
-`　Marie slightly regretted that she hadn't emphasized that point.`@`
+`　Since she hadn't remembered to press him on that, Marie felt a little guilty.
 br
 ;　いや、仮に尾崎がそれを口にしてくれたとしても、@……由香里に対するいじめは、綺麗さっぱり、なくなってくれただろうか。\
-`　No, even if she had spoken of this to Ozaki,`@` ...would Yukari's torment disappear once and for all?`\
+`　But even if Ozaki had said that, `@`...the bullying against Yukari probably wouldn't end that easily.`\
+
 
 bg black,22
 bg kyou_03,0
 ld r,MAR_def3,22
 
 ;　………多分、それは甘い考えだ。@
-`　...That was, most likely a naive thought.`@`
+`　...That's probably wishful thinking.`@
 ;　榊由香里をいじめるのは、彼らの共通の娯楽なのだ。@
-`　Tormenting Yukari Sakaki, was their common interest.`@`
-
+`　Yukari Sakaki's abuse is amusing to all of them.`@
 br
 ;　決して、尾崎の娯楽であって、仲間たちがそれに追従していたわけじゃない。\
-`　
+`　It wasn't as if Ozaki was happy that his followers were following in his footsteps.`\
 
 ;　尾崎がこの娯楽から一人抜けただけであって、@……彼女をいじめたり、それを眺めて笑ったりして楽しむ教室の雰囲気には、何の変わりもない。\
-`　
+`　Ozaki was the only one not included in the fun. `@`...in that classroom atmosphere, he watched as she was bullied. It was as if nothing had changed.`\
 
 cl r,22
 
-　……思えば、いじめなんていつもそうだ。@
+;　……思えば、いじめなんていつもそうだ。@
+`　...Now that I think about it, bullying has always been like that.`@
 br
-　いじめっ子という、限定された人間だけが行なっているのではない。@
-　環境が、いじめっ子を生み出しているだけなのだ。\
+;　いじめっ子という、限定された人間だけが行なっているのではない。@
+(?)`　People don't simply become bullies.`@
+;　環境が、いじめっ子を生み出しているだけなのだ。\
+`　The environment is where bullies are made.`\
 
-　だから、生み出されたいじめっ子を一人、いなくしたところで、それは解決にはならない……。@
+;　だから、生み出されたいじめっ子を一人、いなくしたところで、それは解決にはならない……。@
+`　So taking away one bully made in that environment doesn't solve the problem...`@
 br
-　思い返してみれば、自分が人間だった頃に受けていたいじめも、そうだったかもしれない。\
+;　思い返してみれば、自分が人間だった頃に受けていたいじめも、そうだったかもしれない。\
+`　If I think back, even the abuse I received when I was human was like that too.`\
 
 bg black,22
 
@@ -3964,9 +3969,11 @@ E_MA
 mono 1
 ld l,KAN_W1,22
 
-　金森先生が一人いなくなっただけで、私は救われただろうか。@
+;　金森先生が一人いなくなっただけで、私は救われただろうか。@
+`　With just the death of Kanamori-sensei, I thought I would be saved.`@
 br
-　彼がいなくなれば、元通り、クラスの男子にまたいじめられるだけだったろう。\
+;　彼がいなくなれば、元通り、クラスの男子にまたいじめられるだけだったろう。\
+`　Even if he were gone, as before, I would have still been bullied by the boys in class.`\
 
 　妖怪になって、先生に復讐すれば自分は救われる、という考えが、如何に甘いものだったかを、@今になっても尚、思い知る。\
 
