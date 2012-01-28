@@ -3975,36 +3975,52 @@ br
 ;　彼がいなくなれば、元通り、クラスの男子にまたいじめられるだけだったろう。\
 `　Even if he were gone, as before, I would have still been bullied by the boys in class.`\
 
-　妖怪になって、先生に復讐すれば自分は救われる、という考えが、如何に甘いものだったかを、@今になっても尚、思い知る。\
+;　妖怪になって、先生に復讐すれば自分は救われる、という考えが、如何に甘いものだったかを、@今になっても尚、思い知る。\
+`　The thought that becoming a youkai, and getting my revenge on my teacher would be my salvation, and how naive it was,`@` was something I now realized further.`\
 
 bg black,22
 mono 0
 
 ;ld c,HIG_W4,22
 
-　彼岸花さんは多分、知っていた。@
-　いじめがどういうものか、知っていた。@
-br
-　だから、尾崎といういじめっ子の一人に警告したくらいで、いじめが解決できるなどと信じていた私が、@さぞや滑稽だったに違いないのだ。\
+;　彼岸花さんは多分、知っていた。@
+`　Higanbana-san probably knew that.`@`
+;　いじめがどういうものか、知っていた。@
+`　She probably knew exactly what bullying was.`@`
 
-　彼女の姿は見えないけれど。@……きっとどこかの影の中で、こうして呆然としている私の姿を見て、くすくすと笑っているだろう。\
+br
+;　だから、尾崎といういじめっ子の一人に警告したくらいで、いじめが解決できるなどと信じていた私が、@さぞや滑稽だったに違いないのだ。\
+`　That's why the fact that I believed that by warning just one bully, Ozaki, would solve everything,`@` was no doubt comical to her.`\
+
+;　彼女の姿は見えないけれど。@……きっとどこかの影の中で、こうして呆然としている私の姿を見て、くすくすと笑っているだろう。\
+`　I couldn't see her.`@` ...She is probably in the shadows somewhere, watching me overcome with surprise like this, and giggling.`\
 
 ;bg black,22
 bg kyou_01,22
 
-　やがて、由香里の席に落書きを終え、いじめっ子たちの輪が散る。@
-br
-　その人数は、……とりあえず、四人。@
-br
-　その四人も次々に学校の夜に呼び出し、@尾崎にしたように、めそめそさんとして警告を与えるべきだろうか。\
+;　やがて、由香里の席に落書きを終え、いじめっ子たちの輪が散る。@
+`　Before long, after finishing their scribbling on Yukari's seat, the ring of bullies dispersed.`@`
 
-　恐らくは無駄なことだ。@
 br
-　この四人は手を引くだろうが、@……ならばと代わって、また別のクラスメートがいじめっ子として名乗りを挙げるだけだ。\
+;　その人数は、……とりあえず、四人。@
+`　The number of people, ...was for the time being, four people.`@`
 
-　それに、尾崎に続き、四人もの人間にめそめそさんとして警告を与えることは、@容易なことではなかった。@
 br
-　それは、毬枝の妖怪としての都合による。\
+;　その四人も次々に学校の夜に呼び出し、@尾崎にしたように、めそめそさんとして警告を与えるべきだろうか。\
+`　I wonder if I should call each of those four people one after the other to the school at night,`@` and grant them a warning as MesoMeso-san the way I did to Ozaki.`\
+
+;　恐らくは無駄なことだ。@
+`　I fear that it's pointless.`@`
+
+br
+;　この四人は手を引くだろうが、@……ならばと代わって、また別のクラスメートがいじめっ子として名乗りを挙げるだけだ。\
+`　Those four people may withdraw,`@`...but if I did, it would change and different bully classmates would rise up and accept the role.`\
+
+;　それに、尾崎に続き、四人もの人間にめそめそさんとして警告を与えることは、@容易なことではなかった。@
+`　Besides, to continue from Ozaki, and offer a warning as MesoMeso-san to four more humans,`@` was not a very easy thing before.`@`
+br
+;　それは、毬枝の妖怪としての都合による。\
+`　This was in accordance to Marie's circumstances as a youkai.`\
 
 bg black,22
 fede 0,1000
@@ -4012,65 +4028,93 @@ E_A
 
 bgm1 18
 
-　毬枝や彼岸花たち妖怪も、無尽蔵にその力があるわけではない。\
+;　毬枝や彼岸花たち妖怪も、無尽蔵にその力があるわけではない。\
+`　It is not like youkai like Marie and Higanbana, have an inexhaustable supply of power.`\
 
-　本来、この世ならざる世界に身を置く妖怪たちは、@人の世に姿を現わし、干渉するためには力を消費しなくてはならない。@
+;　本来、この世ならざる世界に身を置く妖怪たちは、@人の世に姿を現わし、干渉するためには力を消費しなくてはならない。@
+`　Essentially, (?) youkai who lay down their selves for this world in exchange for the other, `@` then choose to show themselves in the human world, for the sake of interfering with it requires the consumption of energy.`@` 
+
 br
-　彼岸花はそれを、妖力と教えてくれた。\
+;　彼岸花はそれを、妖力と教えてくれた。\
+`　Higanbana taught me that that is spiritual power.`\
 
 ;bg black,22
 bg Different_spiral_1a,22
 
-　妖力は、書いて字の如く、妖怪の力そのもの。@
-br
-　彼岸花のような強い妖怪ならば当然、大きな妖力があり。@
-　毬枝のような貧弱な妖怪ならば当然、小さな妖力しかない。\
+;　妖力は、書いて字の如く、妖怪の力そのもの。@
+`　Spiritual power, as according to the characters it is written with, is the power that youkai possess.`@`
 
-　人間に干渉するには、この妖力を大きく費やさなくてはならない。@
 br
-　そしてそれは、干渉の度合いによっても大きく変わる。\
+;　彼岸花のような強い妖怪ならば当然、大きな妖力があり。@
+`　If one is a strong youkai like Higanbana, it's natural that one would have a large amount of spiritual power.`@`　
+;毬枝のような貧弱な妖怪ならば当然、小さな妖力しかない。\
+`A meager youkai like Marie, naturally has a small amount of spiritual power.
+
+;　人間に干渉するには、この妖力を大きく費やさなくてはならない。@
+`　To interfere with humans, requires a grand amount of spiritual power.`@`
+br
+;　そしてそれは、干渉の度合いによっても大きく変わる。\
+`　And in addition, it changes with how big the degree of interference is.`\
 
 bg white,28
 
-　白昼夢の中で、わずかに囁きを聞こえさせるくらいなら、わずかの妖力で。\
+;　白昼夢の中で、わずかに囁きを聞こえさせるくらいなら、わずかの妖力で。\
+`　If it is only the small thing making someone listen to your whisper in a daydream, it is only a small amount of spiritual energy.`\
 
 bg aka3,28
 
-　しかし、その姿を現わして妖怪としての恐ろしい力を見せ付けようと思ったなら、大きな妖力が必要となる。@
+;　しかし、その姿を現わして妖怪としての恐ろしい力を見せ付けようと思ったなら、大きな妖力が必要となる。@
+`　However, if you are thinking of showing yourself and making someone see your fearsome power of a youkai, it would require a large amount of magical power.`@`
 br
-　毬枝は、尾崎の前に現れて警告を与える為に、@そのわずかな妖力のほとんどを費やしてしまったのだ。\
+;　毬枝は、尾崎の前に現れて警告を与える為に、@そのわずかな妖力のほとんどを費やしてしまったのだ。\
+`　When Marie appeared before Ozaki in order to give him warning,`@` she spent most of that small amount of spiritual energy.`\
 
 bg black,22
 bg e013,22
 
-　その妖力を取り戻すには、@月の満ち欠けに身を任すか、狩りを行ない人間の魂を食らうか、いくつかの方法がある。@
+;　その妖力を取り戻すには、@月の満ち欠けに身を任すか、狩りを行ない人間の魂を食らうか、いくつかの方法がある。@
+`　To regain that spiritual energy,`@` there are countless ways, like entrusting ones' body to the waxing and waning of the moon, or eating the soul of a human without hunting them.`@`
 br
-　狩りをしない毬枝の場合、妖力を回復する唯一の方法は、時間だけ。\
+;　狩りをしない毬枝の場合、妖力を回復する唯一の方法は、時間だけ。\
+`　In the case of Marie, who will not hunt, the only way to replenish her spiritual energy is to give it time.`\
 
-　四人ものいじめっ子たちに次々に警告を与えたら、@……当分の間、姿を現すことは不可能になるだろう。@
+;　四人ものいじめっ子たちに次々に警告を与えたら、@……当分の間、姿を現すことは不可能になるだろう。@
+`　To give a warning to each and every one of the four bullies,`@` ...for the time being, just showing herself would likely be impossible.`@`
+
 br
-　そして、四人に警告したくらいで、由香里を救えないことも、もうわかってる。\
+;　そして、四人に警告したくらいで、由香里を救えないことも、もうわかってる。\
+`　And, she already knows that just by warning those four people, it will not save Yukari.`\
 
 bg black,22
 ld c,MAR_Def3a,22
 
-　毬枝は下唇を噛みながら、俯く。@
-　……自分の無力さが悔しかった。@
+;　毬枝は下唇を噛みながら、俯く。@
+`　Marie hung her head while biting her lower lip.`@`
+;　……自分の無力さが悔しかった。@
+`　...My powerlessness was mortifying.`@`
 br
-　でも、それを誰も助けてはくれない。@
-　だって、自分は妖怪なのだから。\
+;　でも、それを誰も助けてはくれない。@
+`　But, that wasn't going to save anyone.`@`
+;　だって、自分は妖怪なのだから。\
+`　After all, I'm a youkai.`\
 
-　助けるのは、私。@
-　私が、由香里ちゃんを助けなきゃ。@……しっかりと。@
+;　助けるのは、私。@
+`　The one who can save her is me.`@`
+;　私が、由香里ちゃんを助けなきゃ。@……しっかりと。@
+`　I absolutely have to save Yukari-chan.`@` ...Properly.`@`
 br
-　でも、どうやって。@
-　……わからない。\
+;　でも、どうやって。@
+`　But, I don't know...`@`
+;　……わからない。\
+`　...how to do it.`\
 
 ld c,MAR_I4a,80
 
-　わからないけれど、挫けちゃ駄目だ。@
+;　わからないけれど、挫けちゃ駄目だ。@
+`　I don't know, but I can't be broken down.`@`
 br
-　私が挫けたら、誰が由香里ちゃんを助けてあげるの。\
+;　私が挫けたら、誰が由香里ちゃんを助けてあげるの。\
+`　If I am crushed, who will save Yukari-chan?
 
 bg black,22
 
