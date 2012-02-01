@@ -3975,36 +3975,52 @@ br
 ;　彼がいなくなれば、元通り、クラスの男子にまたいじめられるだけだったろう。\
 `　Even if he were gone, as before, I would have still been bullied by the boys in class.`\
 
-　妖怪になって、先生に復讐すれば自分は救われる、という考えが、如何に甘いものだったかを、@今になっても尚、思い知る。\
+;　妖怪になって、先生に復讐すれば自分は救われる、という考えが、如何に甘いものだったかを、@今になっても尚、思い知る。\
+`　The thought that becoming a youkai, and getting my revenge on my teacher would be my salvation, and how naive it was,`@` was something I now realized further.`\
 
 bg black,22
 mono 0
 
 ;ld c,HIG_W4,22
 
-　彼岸花さんは多分、知っていた。@
-　いじめがどういうものか、知っていた。@
-br
-　だから、尾崎といういじめっ子の一人に警告したくらいで、いじめが解決できるなどと信じていた私が、@さぞや滑稽だったに違いないのだ。\
+;　彼岸花さんは多分、知っていた。@
+`　Higanbana-san probably knew that.`@`
+;　いじめがどういうものか、知っていた。@
+`　She probably knew exactly what bullying was.`@`
 
-　彼女の姿は見えないけれど。@……きっとどこかの影の中で、こうして呆然としている私の姿を見て、くすくすと笑っているだろう。\
+br
+;　だから、尾崎といういじめっ子の一人に警告したくらいで、いじめが解決できるなどと信じていた私が、@さぞや滑稽だったに違いないのだ。\
+`　That's why the fact that I believed that by warning just one bully, Ozaki, would solve everything,`@` was no doubt comical to her.`\
+
+;　彼女の姿は見えないけれど。@……きっとどこかの影の中で、こうして呆然としている私の姿を見て、くすくすと笑っているだろう。\
+`　I couldn't see her.`@` ...She is probably in the shadows somewhere, watching me overcome with surprise like this, and giggling.`\
 
 ;bg black,22
 bg kyou_01,22
 
-　やがて、由香里の席に落書きを終え、いじめっ子たちの輪が散る。@
-br
-　その人数は、……とりあえず、四人。@
-br
-　その四人も次々に学校の夜に呼び出し、@尾崎にしたように、めそめそさんとして警告を与えるべきだろうか。\
+;　やがて、由香里の席に落書きを終え、いじめっ子たちの輪が散る。@
+`　Before long, after finishing their scribbling on Yukari's seat, the ring of bullies dispersed.`@`
 
-　恐らくは無駄なことだ。@
 br
-　この四人は手を引くだろうが、@……ならばと代わって、また別のクラスメートがいじめっ子として名乗りを挙げるだけだ。\
+;　その人数は、……とりあえず、四人。@
+`　Their numbers, ...for the time being, was four people.`@`
 
-　それに、尾崎に続き、四人もの人間にめそめそさんとして警告を与えることは、@容易なことではなかった。@
 br
-　それは、毬枝の妖怪としての都合による。\
+;　その四人も次々に学校の夜に呼び出し、@尾崎にしたように、めそめそさんとして警告を与えるべきだろうか。\
+`　I wonder if I should call each of those four people one after the other to the school at night,`@` and grant them a warning as MesoMeso-san in the same way I did to Ozaki.`\
+
+;　恐らくは無駄なことだ。@
+`　It's probably pointless.`@`
+
+br
+;　この四人は手を引くだろうが、@……ならばと代わって、また別のクラスメートがいじめっ子として名乗りを挙げるだけだ。\
+`　Those four people may withdraw,`@`...even if they did, different bullies would rise up and accept those roles.`\
+
+;　それに、尾崎に続き、四人もの人間にめそめそさんとして警告を与えることは、@容易なことではなかった。@
+`　Besides, continuing from Ozaki and offering a warning as MesoMeso-san to four more humans --`@` that was no easy feat.`@`
+br
+;　それは、毬枝の妖怪としての都合による。\
+`　This was in accordance to Marie's circumstances as a youkai.`\
 
 bg black,22
 fede 0,1000
@@ -4012,65 +4028,93 @@ E_A
 
 bgm1 18
 
-　毬枝や彼岸花たち妖怪も、無尽蔵にその力があるわけではない。\
+;　毬枝や彼岸花たち妖怪も、無尽蔵にその力があるわけではない。\
+`　It is not that youkai like Marie and Higanbana have an inexhaustable supply of power.`\
 
-　本来、この世ならざる世界に身を置く妖怪たちは、@人の世に姿を現わし、干渉するためには力を消費しなくてはならない。@
+;　本来、この世ならざる世界に身を置く妖怪たちは、@人の世に姿を現わし、干渉するためには力を消費しなくてはならない。@
+`　Essentially, (?) youkai who place their forms in the other world, `@`when they reveal themselves, they have to exhaust that power when interfering with that world.`@` 
+
 br
-　彼岸花はそれを、妖力と教えてくれた。\
+;　彼岸花はそれを、妖力と教えてくれた。\
+`　Higanbana said that is youryoku.`\
 
 ;bg black,22
 bg Different_spiral_1a,22
 
-　妖力は、書いて字の如く、妖怪の力そのもの。@
-br
-　彼岸花のような強い妖怪ならば当然、大きな妖力があり。@
-　毬枝のような貧弱な妖怪ならば当然、小さな妖力しかない。\
+;　妖力は、書いて字の如く、妖怪の力そのもの。@
+`　Representing a youkai's (妖怪) power (力）, youryoku （妖力） means exactly as its characters are written.`@`
 
-　人間に干渉するには、この妖力を大きく費やさなくてはならない。@
 br
-　そしてそれは、干渉の度合いによっても大きく変わる。\
+;　彼岸花のような強い妖怪ならば当然、大きな妖力があり。@
+`　If one is a strong youkai like Higanbana, it's natural that they would have a large amount of youryoku.`@`　
+;毬枝のような貧弱な妖怪ならば当然、小さな妖力しかない。\
+`A meager youkai like Marie, naturally has a small amount of youryoku.
+
+;　人間に干渉するには、この妖力を大きく費やさなくてはならない。@
+`　To interfere with humans, requires a grand amount of youryoku.`@`
+br
+;　そしてそれは、干渉の度合いによっても大きく変わる。\
+`　And in addition, it changes with how big the degree of interference is.`\
 
 bg white,28
 
-　白昼夢の中で、わずかに囁きを聞こえさせるくらいなら、わずかの妖力で。\
+;　白昼夢の中で、わずかに囁きを聞こえさせるくらいなら、わずかの妖力で。\
+`　If it is only the small thing making someone listen to your whisper in a daydream, it is only a small amount of youryoku.`\
 
 bg aka3,28
 
-　しかし、その姿を現わして妖怪としての恐ろしい力を見せ付けようと思ったなら、大きな妖力が必要となる。@
+;　しかし、その姿を現わして妖怪としての恐ろしい力を見せ付けようと思ったなら、大きな妖力が必要となる。@
+`　However, if you are thinking of showing yourself and making someone see your fearsome power of a youkai, it requires a large amount of youryoku.`@`
 br
-　毬枝は、尾崎の前に現れて警告を与える為に、@そのわずかな妖力のほとんどを費やしてしまったのだ。\
+;　毬枝は、尾崎の前に現れて警告を与える為に、@そのわずかな妖力のほとんどを費やしてしまったのだ。\
+`　When Marie appeared before Ozaki in order to give him warning,`@` she spent most of what little youryoku she had to do it.`\
 
 bg black,22
 bg e013,22
 
-　その妖力を取り戻すには、@月の満ち欠けに身を任すか、狩りを行ない人間の魂を食らうか、いくつかの方法がある。@
+;　その妖力を取り戻すには、@月の満ち欠けに身を任すか、狩りを行ない人間の魂を食らうか、いくつかの方法がある。@
+`　There are countless ways to regain that spiritual energy,`@` such as entrusting ones' body to the waxing and waning of the moon or hunting and feasting upon the soul of a human.`@`
 br
-　狩りをしない毬枝の場合、妖力を回復する唯一の方法は、時間だけ。\
+;　狩りをしない毬枝の場合、妖力を回復する唯一の方法は、時間だけ。\
+`　In the case of Marie, who will not hunt, the only way to replenish her spiritual energy is to give it time.`\
 
-　四人ものいじめっ子たちに次々に警告を与えたら、@……当分の間、姿を現すことは不可能になるだろう。@
+;　四人ものいじめっ子たちに次々に警告を与えたら、@……当分の間、姿を現すことは不可能になるだろう。@
+`　If she gave a warning to each and every one of the four bullies,`@` ...she probably wouldn't even be able to hold her form any longer.`@`
+
 br
-　そして、四人に警告したくらいで、由香里を救えないことも、もうわかってる。\
+;　そして、四人に警告したくらいで、由香里を救えないことも、もうわかってる。\
+`　And she already knows that just by warning the four bullies, that will not save Yukari.`\
 
 bg black,22
 ld c,MAR_Def3a,22
 
-　毬枝は下唇を噛みながら、俯く。@
-　……自分の無力さが悔しかった。@
+;　毬枝は下唇を噛みながら、俯く。@
+`　Marie hung her head while biting her lower lip.`@`
+;　……自分の無力さが悔しかった。@
+`　...My powerlessness was mortifying.`@`
 br
-　でも、それを誰も助けてはくれない。@
-　だって、自分は妖怪なのだから。\
+;　でも、それを誰も助けてはくれない。@
+`　But, that wasn't going to save anyone.`@`
+;　だって、自分は妖怪なのだから。\
+`　After all, I'm a youkai.`\
 
-　助けるのは、私。@
-　私が、由香里ちゃんを助けなきゃ。@……しっかりと。@
+;　助けるのは、私。@
+`　I am the one who can save her.`@`
+;　私が、由香里ちゃんを助けなきゃ。@……しっかりと。@
+`　I absolutely have to save Yukari-chan.`@` ...I have to.`@`
 br
-　でも、どうやって。@
-　……わからない。\
+;　でも、どうやって。@
+`　But, how...`@`
+;　……わからない。\
+`　...I don't know.`\
 
 ld c,MAR_I4a,80
 
-　わからないけれど、挫けちゃ駄目だ。@
+;　わからないけれど、挫けちゃ駄目だ。@
+`　I don't know, but I can't give up.`@`
 br
-　私が挫けたら、誰が由香里ちゃんを助けてあげるの。\
+;　私が挫けたら、誰が由香里ちゃんを助けてあげるの。\
+`　If I give up, who will save Yukari-chan?
 
 bg black,22
 
@@ -4080,51 +4124,69 @@ bg black,22
 bg kyou_02,22
 ld r,YUK_Def1,22
 
-　そこへ、由香里が戻ってくる。@
+;　そこへ、由香里が戻ってくる。@
+`　Yukari was returning.`@
 br
-　そして机の落書きに気付き、一瞬だけ表情を曇らせたが。@
-　……何も気付かなかったかのように振る舞い、着席する。\
+;　そして机の落書きに気付き、一瞬だけ表情を曇らせたが。@
+`　She noticed the scribblings on her desk, and her expression dimmed for a moment.`@ 
+;　……何も気付かなかったかのように振る舞い、着席する。\
+`　...But then she behaved like she hadn't noticed anything and took her seat.`\
 
 ld r,YUK_Def2,22
 cl r,25
 
-　いじめっ子たちは、相変わらずの無反応に、@ニヤニヤと笑ったり、あるいは舌打ちをしたりしている。@
+;　いじめっ子たちは、相変わらずの無反応に、@ニヤニヤと笑ったり、あるいは舌打ちをしたりしている。@
+`　The bullies, in reaction to her non-reaction, `@`were grinning and clicking their tongues.`@
 br
-　でも私にはわかる。@
-　彼女がその無表情の裏側で、どれだけ悔し涙を流しているか、知っている。\
+;　でも私にはわかる。@
+`　But I knew.`@
+;　彼女がその無表情の裏側で、どれだけ悔し涙を流しているか、知っている。\
+`　I knew how many tears she was letting loose beneath that blank expression of hers.`\
 
-　いじめっ子たちは、その様子を観賞した後、ぞろぞろと教室を出て行く。@
+;　いじめっ子たちは、その様子を観賞した後、ぞろぞろと教室を出て行く。@
+`　After amusing themselves with that, the bullies eventually left class.`@
 br
-　私は、そんな彼らの後を追った。\
+;　私は、そんな彼らの後を追った。\
+`　I followed after them.`\
 
 bg black,23
 bg rouka_03,23
 ld c,MAR_I4,22
 
-　……由香里の姿が辛くてこれ以上、見ていられなかった、というのも確かにある。@
+;　……由香里の姿が辛くてこれ以上、見ていられなかった、というのも確かにある。@
+`　...I can't just stand by and watch Yukari suffer like this.`@
 br
-　しかし、これ以上、彼女を見守っても、私には同情以上のことは何も出来ない。\
+;　しかし、これ以上、彼女を見守っても、私には同情以上のことは何も出来ない。\
+`　But even if I watched over her like this, all I could do was sympathize with her.`\
 
-　彼女を、いじめという、姿なき何かから守ろうとするならば。@
+;　彼女を、いじめという、姿なき何かから守ろうとするならば。@
+`　If I am to protect her from that formless thing known as bullying.`@
 br
-　私は、それをより理解しようとしなくてはならない。\
+;　私は、それをより理解しようとしなくてはならない。\
+`　Then I've got to get a better understanding about it.`\
 
-　だから、私はいじめっ子たちに関心を持った。@
+;　だから、私はいじめっ子たちに関心を持った。@
+`　So I took interest in the bullies.`@
 br
-　彼らを観察することで、何かがわかるかもしれない。\
+;　彼らを観察することで、何かがわかるかもしれない。\
+`　By observing them, I might be able to understand something.`\
 
 ;bg black,2
 ;bg rouka_03,22
 
 cl c,22
 
-　その日より、彼らの影は、わずかにだけ濃く、わずかにだけ冷気を纏うようになる。@
+;　その日より、彼らの影は、わずかにだけ濃く、わずかにだけ冷気を纏うようになる。@
+`　From that day on, their shadows were thickened slightly, and slightly clad with a chill.`@
 br
-　毬枝は、これが取り憑くということなんだなと理解する。\
+;　毬枝は、これが取り憑くということなんだなと理解する。\
+`　Marie understood that this was what posession is.`\
 
-　稀に、霊感の強い生徒が、彼らの姿に軽い違和感を覚えたりしたが、@誰も毬枝の姿には気付かない。@
+;　稀に、霊感の強い生徒が、彼らの姿に軽い違和感を覚えたりしたが、@誰も毬枝の姿には気付かない。@
+`　Rarely, students with strong supernatural senses would occasionally feel a slight unease about them, `@`but no one noticed Marie.`@
 br
-　……そうして、由香里に対するいじめを、いじめっ子たちの肩越しに観察を続けていた……。\
+;　……そうして、由香里に対するいじめを、いじめっ子たちの肩越しに観察を続けていた……。\
+`　...With that, she continued her investigation of the bullying of Yukari from over the shoulders of the bullies themselves...`\
 
 bg black,22
 fede 0,2000
@@ -4142,19 +4204,24 @@ ld r,HIG_Def1,22
 
 bgm1 5
 
-「御機嫌よう、毬枝。@どう？@　あの子を救ってあげられる方法は見つかった…？」@
+;「御機嫌よう、毬枝。@どう？@　あの子を救ってあげられる方法は見つかった…？」@
+`"How are you doing, Marie. `@`Well? `@`Have you found a way to save that girl...?"`@
 
 ld l,MAR_Def4,23
 
-「彼岸花さん。」\
+;「彼岸花さん。」\
+`"Higanbana-san."`\
 
 ld r,HIG_Def4,80
 
-「めそめそさんが、次の獲物を求めて哀れな犠牲者たちを付け回してるって、みんなが噂してるわ。@……人の狩りの邪魔はするのに、自分はちゃんと狩りをするのねって思って。@……くすくす。@からかいに来ただけ。」\
+;「めそめそさんが、次の獲物を求めて哀れな犠牲者たちを付け回してるって、みんなが噂してるわ。@……人の狩りの邪魔はするのに、自分はちゃんと狩りをするのねって思って。@……くすくす。@からかいに来ただけ。」\
+`"Everyone's spreading rumors about Mesomeso-san stalking some pathetic victims, looking for her next prey. `@`...Even though it interferes with your hunt, I figured I'd do some hunting of my own. `@`...*giggle*. `@`I just came to tease you."`\
 
-　彼岸花は初めから知っていた。@
+;　彼岸花は初めから知っていた。@
+`　Higanbana had known from the start.`@
 br
-　いじめっこのリーダー格に警告したくらいで、いじめはなくならないとわかっていた。\
+;　いじめっこのリーダー格に警告したくらいで、いじめはなくならないとわかっていた。\
+`　She knew that just by warning the leader of the bullies wouldn't stop the bullying.`\
 
 　それに毬枝が絶望するかと思ったら、根気良く、他のいじめっこたちの後を付け回している。@
 br
