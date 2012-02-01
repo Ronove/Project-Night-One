@@ -22,7 +22,7 @@ bg kaidan_03u,22
 ;　少女にとって、それぞれの段は。@
 `　To this girl, each step of the stairway`@`
 ;　上れど、下ることのない階段なのだ。\
-(?)`　could be climbed up, but there was no going back down.`\
+`(?)　could be climbed up, but there was no going back down.`\
 
 ;　校庭からは部活に汗を流す生徒たちの、元気な声が聞こえてくる。@
 `　She could hear the energetic voices of the students sweating during their club activities in the schoolyard.`@`
@@ -34,7 +34,7 @@ br
 `　So even though she could hear those distant energetic voices from the courtyard, `@`where she resided inside the school seemed like a different world shrouded in silence.`@
 br
 ;　それが、自分と彼らがどれほど遠く、@そして決して交わることのない世界にいるかを教えてくれた。\
-`　That was how far she was seperated from them, `@`and it told her that they were in a world she could never cross back into again.`\
+`　That was how far she was separated from them,`@` and it told her that they were in a world she could never cross back into again.`\
 
 bg black,22
 bg kaidan_04u,22
@@ -48,7 +48,7 @@ br
 `　And there, the door to the rooftop.`\
 
 ;　屋上という名の行き止まりを意味するそこは、少女にとっての終着駅であり、@………でも彼女はそこを、新たな出発の場所だと信じていた。\
-`　That deadend place known as the rooftop was her last stop, `@`...but she believed that it was a point of a new departure.`\
+`　That dead-end place known as the rooftop was her last stop,`@` ...but she believed that it was a point of a new departure.`\
 
 mbg black,22
 
@@ -190,10 +190,10 @@ br
 `　I could see the other students out doing their club sweating it out in the courtyard.`\
 
 ;「……馬鹿みたい。@どいつもこいつも、クズばっか。」@
-`"...Idiots. `@`Nothing but garbage, every single on of them."`
+`"...Idiots.`@` Nothing but garbage, every single one of them."`
 br
 ;　低俗なことしか頭にない単細胞どもが、群れて笑って、下卑て、私を嘲笑う。\
-`(?)　Those simpletons with their minds in the gutter, flocked and laughted, spread their vulgarity, and sneered at me.`\
+`(?)　Those simpletons with their minds in the gutter, flocked and laughed, spread their vulgarity, and sneered at me.`\
 
 ;　どいつもこいつも、死んでしまえ。@
 `　They should all die.`@
@@ -269,7 +269,7 @@ br
 me2v 17,70
 
 ;　今の私にとって、明日を迎えてもなお、@この汚らわしく愚かしい世界に存在し続けなくてはならないことほど、恐ろしいものなんて、存在しないのだから。@
-`　Even if I see tomorrow, `@`it's because I have to live in this ugly and rediculous world that nothing else can scare me.`@
+`　Even if I see tomorrow,`@` it's because I have to live in this ugly and ridiculous world that nothing else can scare me.`@
 br
 ;　あの、愚か者たちによる蔑みに満ちた教室に、@再び通わなければならない恐怖に比べたら、こんなもの。\
 `　Compared with going back again to that classroom filled with idiots I despise, `@`something like this is...`\
@@ -460,7 +460,7 @@ bgm1 8
 `　It wasn't in dramatic slow-motion or anything of the sort.`@
 br
 ;　ぽん、とフェンスから飛び降りて、ぐしゃり、ばきぽきと、打ち付けられて。@
-`(?)　Leaping from that fence with a woosh, she was hit with a splat and crack.`@
+`(?)　Leaping from that fence with a whoosh, she was hit with a splat and crack.`@
 ;　ほんの、瞬き一つか二つの間に、あっさりとそれは終わってしまった。\
 `　In the span of one or two blinks of an eye, the whole thing was over quickly.`\
 
@@ -646,7 +646,7 @@ br
 `　She was not as wise as she believed she was, nor was she as intelligent.`@`
 br
 ;　あったのは、自分の意見が周囲に理解してもらえないのは、@自身が優れ過ぎているからだという自己弁護だけだ。\
-(?)`　What happened was that others could not understand her view of herself,`@` so as a self defense mechanism, she would say she surpasses them.`\
+`(?)　What happened was that others could not understand her view of herself,`@` so as a self-defense mechanism, she would say she surpasses them.`\
 
 ;　……彼女は、恐らくむしろ、愚かだったのだ。@
 `　...So perhaps it was she who was foolish.`@`
@@ -787,7 +787,7 @@ me1v 16,50
 `...Like serpents, they shot out quickly and captured the soul that was trying to escape to the heavens and swallowed it in the mouths of their petals.`@`
 br
 ;　それは花の姿を模した無数の蛇たちが、一斉に獲物に飛び掛かったように見えた…。\
-`　I could see what looked like countless snakes immitating flowers leaping upon their prey all at once...`\
+`　I could see what looked like countless snakes imitating flowers leaping upon their prey all at once...`\
 
 ;　哀れで愚かな魂を、……ガツガツと引き千切り、花々の花弁に飲み込む。\
 `　The foolish and pitiful soul, ...was greedily torn apart, and swallowed by the flowers' petals.`\
@@ -934,7 +934,7 @@ br
 `　Higanbana will find another miserable victim like her and invite them to die.`@`
 br
 ;　……次は、か弱いいじめられっこを獲物にするとの、予告まで残して。\
-(?)`　...She even gave a notice in advance that she would find another frail, bullied person, to turn into a meal.`\
+`(?)　...She even gave a notice in advance that she would find another frail, bullied person, to turn into a meal.`\
 ld l,MAR_Def2n,80
 
 ;「………私に彼岸花さんを止めることは出来ない。@……………でも。」@
@@ -942,7 +942,7 @@ ld l,MAR_Def2n,80
 ;＜毬枝
 br
 ;　彼女に誑かされそうな子を先に見つけて、@……道を誤らないように、助言することは出来るかもしれない。\
-`　If I find someone likely to be tricked by her first,`@` ...I may be able to advise them in order to keep them from being mislead.`\
+`　If I find someone likely to be tricked by her first,`@` ...I may be able to advise them in order to keep them from being misled.`\
 
 bg black,22
 ;bg blood_1aR,22
@@ -1040,7 +1040,7 @@ bg kyou_02,22
 `　So she obediently believed this, and put it into practice.`@`
 br
 ;　しかしどうやら、……それが効果を示すには、かなりの時間と我慢が必要だったらしい。\
-`　But somehow, ...it seemed like in order to see results, she had to perservere for a considerable amount of time.`\
+`　But somehow, ...it seemed like in order to see results, she had to persevere for a considerable amount of time.`\
 ;　一朝一夕には、その努力は結実しようとしなかった。@
 `　She couldn't reap the fruits of that hard work in a short enough time.`@`
 br
@@ -1127,7 +1127,7 @@ br
 `　...Because if I used one close to the classroom, I would bump into one of the bullies.`\
 
 ;　教室でさえ執拗なのに。@
-`　Even though they were only persistant in class.`@`
+`　Even though they were only persistent in class.`@
 br
 ;　トイレなどという隔離された場所で出くわせば、……………考えたくもなかった。\
 `　If I were to run into one of them in this isolated place, ...I didn't even want to think about it.`\
@@ -1412,7 +1412,7 @@ br
 ;Translation liberty
 
 ;　人は、自ら死んではならないと。@
-`　People musn't take their own lives.`@
+`　People mustn't take their own lives.`@
 br
 ;　その価値観が、初めて揺らぐ。@
 `　This is the first time that value has wavered for me.`@
@@ -1653,7 +1653,7 @@ br
 `　After all, school for them shouldn't be anything to be afraid of.`\
 
 ;　ならば誇らしげに名乗ってくれればいいのに、@声の主は、自らの正体を明かすのを恥じるかのように、沈黙する。\
-`　If only it could triumphantly expound its name, `@`but the owner of the voice, as if it would be shamed to bring its identity to light, was silent.`\
+`　If only it could triumphantly expound its name,`@` but the owner of the voice, as if it would be ashamed to bring its identity to light, was silent.`\
 
 ld l,YUK_Def3a,22
 ld l,YUK_I1a,80
@@ -1944,9 +1944,9 @@ me1v 16,50
 `　Yukari Sakaki, once was a very average girl that one could find in any class.`@
 br
 ;　特にいじめの標的にされるようなこともなく、@日々を無自覚に安穏と、そして淡々と灰色に過ごす、ごく普通の少女だった。\
-`(?)　She wasn't particularly the target of any bullying, `@`unconciously passing her days in peace like a bland shade of grey, she was quite an average girl.`\
+`(?)　She wasn't particularly the target of any bullying,`@` unconsciously passing her days in peace like a bland shade of grey, she was quite an average girl.`\
 ;　……そんな彼女の身に、突然の不幸が襲ったのは、一昨年のことだった。\
-`　...The assault of sudden misfortuntes on her began a year ago.`\
+`　...The assault of sudden misfortunes on her began a year ago.`\
 
 bg black,22
 ;mono 0
@@ -1981,7 +1981,7 @@ br
 `　In the beginning, her father tried his best and helped with the laundry.`@
 br
 ;　父親が辛そうにしているのを見て、由香里も手伝ったが、@………次第に陰鬱な空気は彼女をも蝕んでいき、その気力も奪ってしまった。\
-`　Yukari also helped, seeing her father was suffering, `@`...but then the gloomy atmosphere started to eat at her, and gradually her willpaper was snatched away.`\
+`　Yukari also helped, seeing her father was suffering,`@` ...but then the gloomy atmosphere started to eat at her, and gradually her willpower was snatched away.`\
 
 ;bg Different_spiral_1b,22
 bg black,22
@@ -2067,7 +2067,7 @@ bg toire_03,22
 `　In the end, ...she was reduced to cowering in this small bathroom stall, tasting her own tears.`@
 br
 ;　……それが、安易に自殺を選ぼうとする心の弱い人間だなどと、どうして言えるのか。\
-`　...How could she call her a weakminded human who simply chose suicide as an escape?`\
+`　...How could she call her a weak-minded human who simply chose suicide as an escape?`\
 
 ;　そこまでを知り、毬枝は確信した。@
 `　Knowing that much, Marie believed it.`@
@@ -2197,7 +2197,7 @@ ld c,YUK_I2a,23
 ;　それは明らかな挑発だ。@
 `　That was clearly meant to provoke her.`@
 ;　それに対し、何を答えても、嘲りか、さらなるいじめへの呼び水となるだけだ。@
-`　In response, no matter what she says, she'll be ridiculed, or it'll juse rouse them to bully her even more.`@
+`　In response, no matter what she says, she'll be ridiculed, or it'll just rouse them to bully her even more.`@
 br
 ;　だから由香里は、下唇をぎゅっと噛み締めて、……内なる感情に堪え、それを凍らせる。\
 `　So Yukari bit her lower lip, ...endured her inner emotions and cooled them.`\
@@ -2431,7 +2431,7 @@ me1v 24,50
 ;「だってそうだろ。@……あの女の時だって、遺書なんて出なかっただろ。」\
 `"Well, I mean come on.`@` ...Even during that time with the one bitch, she didn't write a will, right?"`\
 ;　いじめっ子たちは、顔を見合わせる。@
-`　The bullied kids all met each others' eyes.`@`
+`　The bullied kids all met each other's eyes.`@
 ;　あぁ、と思い出した表情や、ぽんと手を打つような仕草。@
 `　"Ahh," they said as they put on expressions like they'd remembered, and gestured with a clap of their hands.`@`
 br
@@ -2489,7 +2489,7 @@ quake 3,300
 `"Pffffffhahaha, kyahahahaha."`\
 
 ;　リーダー格の尾崎が、彼らにしかわからないスラングで何かを呟くと、@それが大受けして、クラス中に笑いが広がった。@
-`　The leader Ozaki was mumbling something in slang that only they could understand,`@` and it was a big sucess, so laughter spread throughout the class.`@`
+`　The leader Ozaki was mumbling something in slang that only they could understand,`@` and it was a big success, so laughter spread throughout the class.`@
 br
 ;　何と言ったのかわからないが、榊由香里を侮辱するものであったことは、想像に難くない。\
 `　They didn't know what he had said, but it wasn't hard to imagine it was something insulting Yukari Sakaki.`\
@@ -2585,7 +2585,7 @@ br
 `　...But still, when swallowed by the twilight, the school building, and the entrance,`@` ...looked like a scene he'd only seen for the first time...`@`
 br
 ;　あぁ、今、彼は自覚する。@
-`　Ah, now, he became self aware.`@`
+`　Ah, now, he became self-aware.`@
 br
 ;　自分が知り尽くして、すでに退屈しきっていると思っていた学校は、@……昼間のものだったのだ。\
 `　Everything he knew, the school he'd already become bored of,`@` ...was in the daylight.`\
@@ -2615,7 +2615,7 @@ br
 ;　下駄箱前を往復するが、鍵らしいものは見つけられない。@
 `　He looked all around the front of the shoe rack, but couldn't find anything that looked like a key.`@`
 ;　すのこを捲ってみても、鍵は見当たらなかった。\
-`(?)　Even after looking under the matting in the rack, he coulnd't see his key.`\
+`(?)　Even after looking under the matting in the rack, he couldn't see his key.`\
 ;　ここにないなら、……もう、靴を脱いで、上履きに履き替えなければならない。@
 `　If it's not here, ...he had to take off his shoes and slip into the indoor slippers.`@`
 br
@@ -2650,7 +2650,7 @@ bg black,22
 ;　生徒を連れ去って神隠しにしてしまう、過去の校長先生の亡霊の話。@
 `　The story of a past principal who would kidnap kids -- spiriting them away.`@`
 ;　校長室に飾られた歴代校長の写真のひとつが、真夜中にその目をぎらりと光らせるという。@
-`　It's said that one of the paintings of the past principals decorating the the principal's office, would glare and its eyes would shine in the night.`@` 
+`　It's said that one of the paintings of the past principals decorating the principal's office, would glare and its eyes would shine in the night.`@
 br
 ;　そういえば、保健室にも怪談がなかったっけ……。\
 `　Speaking of which, there was a story about the infirmary too...`\
@@ -2734,14 +2734,14 @@ br
 `"...Way to lose your cool Ozaki... `@`...The hell are you so afraid of?"`@
 br
 ;　臆病な自分を敢えて見下すことで、もう今の自分はそうではないと言い聞かせる。@
-`　By provoking and shaming his own cowardace, he persuaded himself that wasn't who he was.`@
+`　By provoking and shaming his own cowardice, he persuaded himself that wasn't who he was.`@
 ;　落ち着きを取り戻すと、早く鍵を見つけて帰らなくてはならないことを思い出す。\
 `　Calming himself, he remembered he had to find his key and get back home.`\
 
 ;　こんな時間に教室にいるところを先生に見つかったら、怒られるかもしれない。@
 `　He would probably get yelled at by a teacher if he was found in class at a time like this.`@
 ;　……鍵をなくしただけでも間抜けなのに、@さらにその上、こんな時間にのこのこと教室まで戻ってきて。@さらにその上、怒られたとあっては、恥ずかし過ぎて目も当てられない。@
-`(?)　...Even though it was stupid of him to lose his key, `@`aside from that, coming to class at this time of night, `@`futhermore, if he were to be scolded for it, it would be too shameful and he wouldn't be able to stand it.`@
+`(?)　...Even though it was stupid of him to lose his key,`@` aside from that, coming to class at this time of night,`@` furthermore, if he were to be scolded for it, it would be too shameful and he wouldn't be able to stand it.`@
 br
 ;　次第に、昼間の自分が取り戻せて行くのを感じながら、彼は鍵を探し始める。\
 `　Gradually, as he started to feel himself return to as he was during daylight, he began to search for his key.`\
@@ -2982,7 +2982,7 @@ br
 ;　……誰かが見つけて、汚い汚いと言ってふざけて、この個室へ蹴り込んだのだろうか。@
 `　...Perhaps someone saw it said 'yuck disgusting' and then kicked it into this stall.`@
 ;　ありえる想像だった。@
-`　That was a plausable guess.`@
+`　That was a plausible guess.`@
 br
 ;　その汚い鍵が自分のものだと誰にも知られなかっただけ、幸運だった。\
 `　He was lucky that at least no one knew that dirty key belonged to him.`\
@@ -3129,10 +3129,10 @@ br
 `　Just when he'd think it was lit it would go off, and then with a dry sound it would light back on again.`@
 br
 ;　その繰り返しは、明かりによる安心感よりも、はるかに不安感を煽った。\
-`(?)　Rather than relaxing with the lighting, that repitition stirred unease at what lay beyond.`\
+`(?)　Rather than relaxing with the lighting, that repetition stirred unease at what lay beyond.`\
 
 ;　灯った蛍光灯は、個室の外のものだった。@
-`　That fluroescent light was outside the stall.`@
+`　That fluorescent light was outside the stall.`@
 br
 ;　だから、こうして個室内に閉じ込められている尾崎にとっては、@自分がむしろくっきりと真四角の闇の中に閉じ込められていることを自覚させてくれる。\
 `　Because, for Ozaki who was shut up in the bathroom stall like this, `@`he was made to realize that he was distinctly shut up inside four sharp corners of darkness.`\
@@ -3263,7 +3263,7 @@ bg toire_03,22
 `　Mesomeso... mesomeso...`@
 br
 ;　それは紛れもなく、少女の泣き声。\
-`　Without a doubt, those wer the cries of a girl.`\
+`　Without a doubt, those were the cries of a girl.`\
 
 ;　男じゃない。@女の泣き声だ。@
 `　It wasn't male. `@`Those cries are feminine.`@
@@ -3329,12 +3329,12 @@ br
 `　It wasn't ambiguous like something that could only be hear inside of his head.`@
 br
 ;　心臓の鼓動と、明滅する蛍光灯の乾いた音に混じって、@……はっきりと鼓膜で直接感じた、声だった。\
-`　It mingled with his heart's palpatations and the dry flickering sound of the blinking fluroescent light, `@`...it was a voice he felt distinctly and directly in his eardrums.`\
+`　It mingled with his heart's palpitations and the dry flickering sound of the blinking fluorescent light,`@` ...it was a voice he felt distinctly and directly in his eardrums.`\
 
 ;　尾崎はもう少しのところで、呻き声を漏らして、その声に応えてしまうところだった。@
 `　Ozaki was just about to let loose a groan in reply to that voice.`@
 ;　それを、ぎりぎりのところで思い出し、ぐっと飲み込んで堪える…。\
-`　Just befoer he does, he remembers and firmly swallows it and holds off...`\
+`　Just before he does, he remembers and firmly swallows it and holds off...`\
 
 bg Different_spiral_1a,22
 
@@ -3362,7 +3362,7 @@ br
 `　And there are rules.`@
 br
 ;　めそめそさんの、哀れな私の話を聞いて下さいな、という問いに、@……答えてはならないのだ。@
-`　When Mesomeso-san says to please listen to its pitiful storey, `@`...I mustn't respond.`@　
+`　When Mesomeso-san says to please listen to its pitiful story,`@` ...I mustn't respond.`@　
 br
 ;　そして姿も見ようとしてはならない。@
 `　And I can't try seeing what it looks like.`@
@@ -3384,7 +3384,7 @@ br
 `　It's true form, monstrous.`@
 br
 ;　そして、……朽ちた巨木のように太い歪な両腕に抱き締められて、@……全身の骨を粉々に砕かれて、殺される……。\
-`　So, ...it'll embrace me with its tremendous rotten tree trunklike arms, `@`...crush every bone in my body, killing me...`\
+`　So, ...it'll embrace me with its tremendous rotten tree trunk-like arms,`@` ...crush every bone in my body, killing me...`\
 
 bg black,22
 bg toire_03,22
@@ -3487,7 +3487,7 @@ wait 100
 bg black,22
 
 ;　でも、……その噴き出すような声に、@……一本だけ灯っていた蛍光灯の明かりが、パンと割れる音を残して、消えてしまう。@
-`　But, ...with the voice he seemingly blurted out, `@`...the light from the only fluroescent lamp, breaking with a pop, went out entirely.`@
+`　But, ...with the voice he seemingly blurted out,`@` ...the light from the only fluorescent lamp, breaking with a pop, went out entirely.`@
 br
 ;　……え？@　な、何？@　何だよ、今度は何だよ……？\
 `　...Eh? `@`Wha- what? `@`What is it -- what is it this time...?`\
@@ -3680,7 +3680,7 @@ ld r,MAR_def4a,80
 ld l,HIG_Def3,80
 
 ;「あれだけ、がっぷりと歯形を残して噛み付いておいて…？@　くすくすくすくす。@毬枝の狩りも、趣きがあってなかなか素敵よ。@私には、少ぅし退屈だけれども。」\
-`"After you bit and latched on so far that you left teethmarks of that extent...?`@` Teeheehehee.`@` Marie's hunting has such grace, and is considerably lovely.`@` Even though I'm a little bit bored."`\
+`"After you bit and latched on so far that you left teeth marks of that extent...?`@` Teeheehehee.`@` Marie's hunting has such grace, and is considerably lovely.`@` Even though I'm a little bit bored."`\
 
 ;　まだ毬枝には、妖怪たちの狩りというものが、よくわからない。@
 `　Marie still did not quite understand, what it was the youkai referred to as a hunt.`@`
@@ -3757,7 +3757,7 @@ br
 `　Higanbana slowly turned around.`\
 
 ;　その形相は、……無機質、無慈悲な、冷え切った人形的なものだった。@
-`　Her expression, ...was inhuman, meciless, like a frigid doll.`@`
+`　Her expression, ...was inhuman, merciless, like a frigid doll.`@
 ;　その瞳は氷柱より冷たくて鋭くて。@
 `　Those eyes were more frosty and sharp than an icicle.`@`
 br
@@ -3773,12 +3773,12 @@ br
 ld l,HIG_W6,80
 
 ;「……くす。@素敵ね、毬枝。@あなたは私のお友達なだけじゃなく。@……私の邪魔も出来るようになったのね。」\
-`"...Teehee.`@` How lovely, Marie.`@` You are not only just my friend.`@` ...You've also managed to become a nusiance."`\
+`"...Teehee.`@` How lovely, Marie.`@` You are not only just my friend.`@` ...You've also managed to become a nuisance."`\
 
 ld r,MAR_I1a,22
 
 ;「邪魔がしたいんじゃありません。@由香里ちゃんは、彼岸花さんの獲物に相応しくないと言っているんです。@……だって。@あなたは、自ら死を選ぶような、弱々しい魂を獲物とするって、言ったじゃないですか。」\
-`"I don't want to be a nusiance.`@` I am only saying that Yukari-chan is not suitable as prey for you.`@` ...After all,`@` didn't you say you prefer to prey upon fragile souls, who seemed like they'd choose their own death?"`\
+`"I don't want to be a nuisance.`@` I am only saying that Yukari-chan is not suitable as prey for you.`@` ...After all,`@` didn't you say you prefer to prey upon fragile souls, who seemed like they'd choose their own death?"`\
 
 ld l,HIG_Def4,80
 
@@ -3898,7 +3898,7 @@ bg black,22
 ;　だから結局。@
 `　So in the end.`@`
 ;　毬枝のしたことは、焼け石に水。@
-`　All Marie had done was like putting a bandaid on a cancer patient.`@`
+`　All Marie had done was like putting a band-aid on a cancer patient.`@
 br
 ;　いや、まさに一夜の幻程度でしかなかった……。\
 `　No, it was exactly like the night before was an illusion...`\
@@ -3911,7 +3911,7 @@ me1v 24,50
 `　Lunch break.`@`
 br
 ;　尾崎は、気が抜けたようにぼんやりと、机に顔を伏して放心している。@
-(?)`　Ozaki, as if he had lost his spirit, rested his head on the desk.`@
+`(?)　Ozaki, as if he had lost his spirit, rested his head on the desk.`@
 ;　その向こうでは、由香里の席に落書きをして盛り上がる、いつものいじめっ子のグループがいた。\
 `　And across from him, excited from having writing graffiti on Yukari's desk, was the usual group of bullies.`\ 
 
@@ -3951,7 +3951,7 @@ cl r,22
 `　...Now that I think about it, bullying has always been like that.`@
 br
 ;　いじめっ子という、限定された人間だけが行なっているのではない。@
-(?)`　People don't simply become bullies.`@
+`(?)　People don't simply become bullies.`@
 ;　環境が、いじめっ子を生み出しているだけなのだ。\
 `　The environment is where bullies are made.`\
 
@@ -4029,7 +4029,7 @@ E_A
 bgm1 18
 
 ;　毬枝や彼岸花たち妖怪も、無尽蔵にその力があるわけではない。\
-`　It is not that youkai like Marie and Higanbana have an inexhaustable supply of power.`\
+`　It is not that youkai like Marie and Higanbana have an inexhaustible supply of power.`\
 
 ;　本来、この世ならざる世界に身を置く妖怪たちは、@人の世に姿を現わし、干渉するためには力を消費しなくてはならない。@
 `　Essentially, (?) youkai who place their forms in the other world, `@`when they reveal themselves, they have to exhaust that power when interfering with that world.`@` 
