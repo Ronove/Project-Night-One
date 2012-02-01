@@ -4125,51 +4125,68 @@ bg kyou_02,22
 ld r,YUK_Def1,22
 
 ;　そこへ、由香里が戻ってくる。@
-
+`　Yukari was returning.`@
 br
-　そして机の落書きに気付き、一瞬だけ表情を曇らせたが。@
-　……何も気付かなかったかのように振る舞い、着席する。\
+;　そして机の落書きに気付き、一瞬だけ表情を曇らせたが。@
+`　She noticed the scribblings on her desk, and her expression dimmed for a moment.`@ 
+;　……何も気付かなかったかのように振る舞い、着席する。\
+`　...But then she behaved like she hadn't noticed anything and took her seat.`\
 
 ld r,YUK_Def2,22
 cl r,25
 
-　いじめっ子たちは、相変わらずの無反応に、@ニヤニヤと笑ったり、あるいは舌打ちをしたりしている。@
+;　いじめっ子たちは、相変わらずの無反応に、@ニヤニヤと笑ったり、あるいは舌打ちをしたりしている。@
+`　The bullies, in reaction to her non-reaction, `@`were grinning and clicking their tongues.`@
 br
-　でも私にはわかる。@
-　彼女がその無表情の裏側で、どれだけ悔し涙を流しているか、知っている。\
+;　でも私にはわかる。@
+`　But I knew.`@
+;　彼女がその無表情の裏側で、どれだけ悔し涙を流しているか、知っている。\
+`　I knew how many tears she was letting loose beneath that blank expression of hers.`\
 
-　いじめっ子たちは、その様子を観賞した後、ぞろぞろと教室を出て行く。@
+;　いじめっ子たちは、その様子を観賞した後、ぞろぞろと教室を出て行く。@
+`　After amusing themselves with that, the bullies eventually left class.`@
 br
-　私は、そんな彼らの後を追った。\
+;　私は、そんな彼らの後を追った。\
+`　I followed after them.`\
 
 bg black,23
 bg rouka_03,23
 ld c,MAR_I4,22
 
-　……由香里の姿が辛くてこれ以上、見ていられなかった、というのも確かにある。@
+;　……由香里の姿が辛くてこれ以上、見ていられなかった、というのも確かにある。@
+`　...I can't just stand by and watch Yukari suffer like this.`@
 br
-　しかし、これ以上、彼女を見守っても、私には同情以上のことは何も出来ない。\
+;　しかし、これ以上、彼女を見守っても、私には同情以上のことは何も出来ない。\
+`　But even if I watched over her like this, all I could do was sympathize with her.`\
 
-　彼女を、いじめという、姿なき何かから守ろうとするならば。@
+;　彼女を、いじめという、姿なき何かから守ろうとするならば。@
+`　If I am to protect her from that formless thing known as bullying.`@
 br
-　私は、それをより理解しようとしなくてはならない。\
+;　私は、それをより理解しようとしなくてはならない。\
+`　Then I've got to get a better understanding about it.`\
 
-　だから、私はいじめっ子たちに関心を持った。@
+;　だから、私はいじめっ子たちに関心を持った。@
+`　So I took interest in the bullies.`@
 br
-　彼らを観察することで、何かがわかるかもしれない。\
+;　彼らを観察することで、何かがわかるかもしれない。\
+`　By observing them, I might be able to understand something.`\
 
 ;bg black,2
 ;bg rouka_03,22
 
 cl c,22
 
-　その日より、彼らの影は、わずかにだけ濃く、わずかにだけ冷気を纏うようになる。@
+;　その日より、彼らの影は、わずかにだけ濃く、わずかにだけ冷気を纏うようになる。@
+`　From that day on, their shadows were thickened slightly, and slightly clad with a chill.`@
 br
-　毬枝は、これが取り憑くということなんだなと理解する。\
+;　毬枝は、これが取り憑くということなんだなと理解する。\
+`　Marie understood that this was what posession is.`\
 
-　稀に、霊感の強い生徒が、彼らの姿に軽い違和感を覚えたりしたが、@誰も毬枝の姿には気付かない。@
+;　稀に、霊感の強い生徒が、彼らの姿に軽い違和感を覚えたりしたが、@誰も毬枝の姿には気付かない。@
+`　Rarely, students with strong supernatural senses would occasionally feel a slight unease about them, `@`but no one noticed Marie.`@
 br
-　……そうして、由香里に対するいじめを、いじめっ子たちの肩越しに観察を続けていた……。\
+;　……そうして、由香里に対するいじめを、いじめっ子たちの肩越しに観察を続けていた……。\
+`　...With that, she continued her investigation of the bullying of Yukari from over the shoulders of the bullies themselves...`\
 
 bg black,22
 fede 0,2000
@@ -4187,19 +4204,24 @@ ld r,HIG_Def1,22
 
 bgm1 5
 
-「御機嫌よう、毬枝。@どう？@　あの子を救ってあげられる方法は見つかった…？」@
+;「御機嫌よう、毬枝。@どう？@　あの子を救ってあげられる方法は見つかった…？」@
+`"How are you doing, Marie. `@`Well? `@`Have you found a way to save that girl...?"`@
 
 ld l,MAR_Def4,23
 
-「彼岸花さん。」\
+;「彼岸花さん。」\
+`"Higanbana-san."`\
 
 ld r,HIG_Def4,80
 
-「めそめそさんが、次の獲物を求めて哀れな犠牲者たちを付け回してるって、みんなが噂してるわ。@……人の狩りの邪魔はするのに、自分はちゃんと狩りをするのねって思って。@……くすくす。@からかいに来ただけ。」\
+;「めそめそさんが、次の獲物を求めて哀れな犠牲者たちを付け回してるって、みんなが噂してるわ。@……人の狩りの邪魔はするのに、自分はちゃんと狩りをするのねって思って。@……くすくす。@からかいに来ただけ。」\
+`"Everyone's spreading rumors about Mesomeso-san stalking some pathetic victims, looking for her next prey. `@`...Even though it interferes with your hunt, I figured I'd do some hunting of my own. `@`...*giggle*. `@`I just came to tease you."`\
 
-　彼岸花は初めから知っていた。@
+;　彼岸花は初めから知っていた。@
+`　Higanbana had known from the start.`@
 br
-　いじめっこのリーダー格に警告したくらいで、いじめはなくならないとわかっていた。\
+;　いじめっこのリーダー格に警告したくらいで、いじめはなくならないとわかっていた。\
+`　She knew that just by warning the leader of the bullies wouldn't stop the bullying.`\
 
 　それに毬枝が絶望するかと思ったら、根気良く、他のいじめっこたちの後を付け回している。@
 br
