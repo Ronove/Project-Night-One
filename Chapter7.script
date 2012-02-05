@@ -4221,67 +4221,87 @@ ld r,HIG_Def4,80
 `　Higanbana had known from the start.`@
 br
 ;　いじめっこのリーダー格に警告したくらいで、いじめはなくならないとわかっていた。\
-`　She knew that just by warning the leader of the bullies wouldn't stop the bullying.`\
+`　She knew that just by warning the leader of the bullies wouldn't stop their tormenting.`\
 
-　それに毬枝が絶望するかと思ったら、根気良く、他のいじめっこたちの後を付け回している。@
+;　それに毬枝が絶望するかと思ったら、根気良く、他のいじめっこたちの後を付け回している。@
+`　Moreover, if she thought that Marie would despair, she patiently would wait for the other bullies to come along and surround her.`@`
+
 br
-　いじめによって、生に絶望した経験を持つ毬枝が。@死して再び挑むいじめという問題に、どう抗うのか。@彼岸花は興味があった。\
+;　いじめによって、生に絶望した経験を持つ毬枝が。@死して再び挑むいじめという問題に、どう抗うのか。@彼岸花は興味があった。\
+`　It was Marie, who had the despairing experience of being tormented in life,`@` who died and once again faced against the problem of bullying, and how she would stand up against this task. `@` That was what Higanbana was interested in.`\
 
 ld r,HIG_Def3,80
 
-「よく言うじゃない？@　いじめってのは、いじめられる側にも問題があるって。」@
+;「よく言うじゃない？@　いじめってのは、いじめられる側にも問題があるって。」@
+`"Isn't that well said?`@` While bullying is a problem, there's a problem with being on the side of someone who is bullied."`@`
 
 ld l,MAR_I3,80
 
-「…………でも、それは由香里ちゃんには当てはまらないと思います。」\
+;「…………でも、それは由香里ちゃんには当てはまらないと思います。」\
+`"...But, I don't think that's so for Yukari-chan."`\
 
 ld r,HIG_W3,80
 
-「くす。@断言するのね。」@
+;「くす。@断言するのね。」@
+`"Teehee.`@` That's quite a declaration."`@`
 
 ld l,MAR_i4,80
 
-「はい。@だって彼女は、いじめられまいと、努力しています。」\
+;「はい。@だって彼女は、いじめられまいと、努力しています。」\
+`"Indeed.`@` After all, she is doing her best to keep from being bullied."`\
 
 bg black,22
 bg kyou_01,0
 ld r,YUK_def3,22
 
-　由香里は努力している。@
+;　由香里は努力している。@
+`　Yukari is trying her hardest.`@`
 br
-　いじめっ子たちを面白がらせないよう、いじめには無視を貫き。@
-　かつて、衣服の汚れや臭いを指摘されたことからいじめが始まったことを理解し、@今は清潔にも気を遣っている。\
+;　いじめっ子たちを面白がらせないよう、いじめには無視を貫き。@
+`　In order to not entertain the bullies more, she has stuck to ignoring it all.`@`
 
-　そこだけを切り出したなら、もはや彼女がいじめられる理由など存在しないのだ。@
-　しかし、彼女にはいじめられっこの烙印が押されてしまった。@
+;　かつて、衣服の汚れや臭いを指摘されたことからいじめが始まったことを理解し、@今は清潔にも気を遣っている。\
+`　Formerly, from when it was pointed out to her that her clothes were smelly and dirty, she understood the torment had just started,`@` and now she pays special attention that she is clean.`\
+
+;　そこだけを切り出したなら、もはや彼女がいじめられる理由など存在しないのだ。@
+`　Just by bringing that down, she had forced all motives for her torment to stop existing.`@`
+;　しかし、彼女にはいじめられっこの烙印が押されてしまった。@
+`　However, she'd already had the label of 'bullied girl,' pushed onto her.`@`
 br
-　だから、現在の彼女がどうであるかに関わらず、彼女はいじめられ続けているのだ……。\
+;　だから、現在の彼女がどうであるかに関わらず、彼女はいじめられ続けているのだ……。\
+`　And thus, even though there is no connection to her present self, her torture persists...`\
 
 bg black,22
 bg rouka_02,0
 ld l,MAR_I1,22
 
-「だから、彼岸花さんの言う、いじめられる側の問題は、@由香里ちゃんの場合は問題ないと思います。」\
+;「だから、彼岸花さんの言う、いじめられる側の問題は、@由香里ちゃんの場合は問題ないと思います。」\
+`"So, that problem of being on the side of someone being bullied that you mentioned,`@` is not a problem in Yukari-chan's case."`\
 
 ld r,HIG_Def2,22
 
-「では問題なのは…？」@
+;「では問題なのは…？」@
+`"Then what is the problem...?"`@`
 
 ld l,MAR_I3,80
 
-「……いじめる側、だと思います。」\
+;「……いじめる側、だと思います。」\
+`"...Being on bully's side, is what I think.
 
 ld r,HIG_Def4,80
 
-「くすくすくすくす。@……思いやりがないとか、人の痛みがわからないとか？@　この学び舎が生まれてから数十年の間、何度も聞いた言葉ね。」\
+;「くすくすくすくす。@……思いやりがないとか、人の痛みがわからないとか？@　この学び舎が生まれてから数十年の間、何度も聞いた言葉ね。」\
+`"Teeheeheehee.`@` ...So, something like if you don't sympathize with them, you won't understand a person's pain?`@` Since the very beginning, over all these many decades, I've heard those words countless times."`\
 
 ld l,MAR_i4a,80
 
-「……いえ、そういうのじゃなく。@……純粋な意味で、彼らは少し、おかしいと思います。」@
+;「……いえ、そういうのじゃなく。@……純粋な意味で、彼らは少し、おかしいと思います。」@
+`"...No, it's not like that.`@` In a completely genuine meaning, I think all of those guys are a little bit strange."`@`
 
 ld r,HIG_W4,80
 
-「へぇ……？」\
+;「へぇ……？」\
+`"Hmmm...?"`\
 
 bg black,22
 
@@ -4293,26 +4313,34 @@ ld r,MAR_i1,22
 
 me1v 24,50
 
-「見て下さい。@あの教室を。」@
+;「見て下さい。@あの教室を。」@
+`"Please have a look.`@` Over at the classroom."`@`
 
 ld l,HIG_W3,22
 
-「いつものように、榊由香里がいじめっこたちに絡まれているのかしら…？」\
+;「いつものように、榊由香里がいじめっこたちに絡まれているのかしら…？」\
+`"Could it be that Yukari Sakaki is being surrounded by all those bullies like always...?"`\
 
 ld r,MAR_Def4,80
 
-「いいえ。@今日は由香里ちゃんはお休みです。」\
+;「いいえ。@今日は由香里ちゃんはお休みです。」\
+`"No.`@` Yukari-chan stayed home today."`\
 
 bg black,22
 
-　今日は風邪を引いて、彼女は欠席だった。@
+;　今日は風邪を引いて、彼女は欠席だった。@
+`　She caught a cold today, so she's absent.`@`
 br
-　クラスでも風邪が流行っている。@
-　それ自体は珍しいことではなく、実際、彼女の欠席も、それ以上でも以下のものでもなかった。\
+;　クラスでも風邪が流行っている。@
+`　The cold is prevalent in the class.`@`
+;　それ自体は珍しいことではなく、実際、彼女の欠席も、それ以上でも以下のものでもなかった。\
+`　That in itself was not rare -- rather, it was practical, as was her absence. This was neither above nor below the usual.`\
 
-　そんな、榊由香里といういじめられっこのいない教室に、見るべき何があるというのか。@
+;　そんな、榊由香里といういじめられっこのいない教室に、見るべき何があるというのか。@
+`　Was she supposed to see something in this classroom where there was no tormentee, Yukari Sakaki, around?`@`
 br
-　彼岸花は興味を覚え、毬枝の指差す方を見た。\
+;　彼岸花は興味を覚え、毬枝の指差す方を見た。\
+`　Higanbana remembered her interests, and looked to where Marie was pointing.
 
 ;bg black,24
 bg kyou_02,22
@@ -4320,19 +4348,23 @@ bg kyou_02,22
 se1v 12,50
 quakex 1,100
 
-　ガツ。@
-
+;　ガツ。@
+`　Crunch.`@`
 se1v 12,50
 quakex 2,200
 se2v 12,50
 quakey 2,200
 
-　ガツガツガツ。@
+;　ガツガツガツ。@
+`　Crunchcrunchcrunch.`@`
 br
-　カーテンの束を何度も何度も、乱暴に蹴り付けている…。@
-　いじめっこたちは教室の一角にたむろし、無言でそれを繰り返していた。\
+;　カーテンの束を何度も何度も、乱暴に蹴り付けている…。@
+`　By the curtains, they were relentlessly, violently kicking...`@`
+;　いじめっこたちは教室の一角にたむろし、無言でそれを繰り返していた。\
+`　The bullies were all gathered in one corner, and wordlessly repeating this.`\
 
-　男子が面白半分に、この手のものをサンドバッグ代わりにするのは、珍しい光景ではない。@
+;　男子が面白半分に、この手のものをサンドバッグ代わりにするのは、珍しい光景ではない。@
+`　
 br
 　……しかし、彼らのそれは、面白半分にという感じではない。\
 
