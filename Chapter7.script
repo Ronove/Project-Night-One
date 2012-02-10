@@ -4215,13 +4215,13 @@ ld l,MAR_Def4,23
 ld r,HIG_Def4,80
 
 ;「めそめそさんが、次の獲物を求めて哀れな犠牲者たちを付け回してるって、みんなが噂してるわ。@……人の狩りの邪魔はするのに、自分はちゃんと狩りをするのねって思って。@……くすくす。@からかいに来ただけ。」\
-`"Everyone's spreading rumors about Mesomeso-san stalking some pathetic victims, looking for her next prey. `@`...Even though it interferes with your hunt, I figured I'd do some hunting of my own. `@`...*giggle*. `@`I just came to tease you."`\
+`"Everyone's spreading rumors about Mesomeso-san stalking some pathetic victims, looking for her next prey. `@`...Alhough it interferes with your hunt, I figured I'd do some hunting of my own. `@`...*giggle*. `@`I just came to tease you."`\
 
 ;　彼岸花は初めから知っていた。@
 `　Higanbana had known from the start.`@
 br
 ;　いじめっこのリーダー格に警告したくらいで、いじめはなくならないとわかっていた。\
-`　She knew that just by warning the leader of the bullies wouldn't stop their tormenting.`\
+`　She knew that just warning the leader of the bullies wouldn't stop their tormenting.`\
 
 ;　それに毬枝が絶望するかと思ったら、根気良く、他のいじめっこたちの後を付け回している。@
 `　Moreover, if she thought that Marie would despair, she patiently would wait for the other bullies to come along and surround her.`@`
@@ -4233,7 +4233,7 @@ br
 ld r,HIG_Def3,80
 
 ;「よく言うじゃない？@　いじめってのは、いじめられる側にも問題があるって。」@
-`"Isn't that well said?`@` While bullying is a problem, there's a problem with being on the side of someone who is bullied."`@`
+`"Isn't that well said?`@` While bullying is a problem, there's also a problem with being on the side of someone who is bullied."`@`
 
 ld l,MAR_I3,80
 
@@ -4258,13 +4258,13 @@ ld r,YUK_def3,22
 `　Yukari is trying her hardest.`@`
 br
 ;　いじめっ子たちを面白がらせないよう、いじめには無視を貫き。@
-`　In order to not entertain the bullies more, she has stuck to ignoring it all.`@`
+`　In order to not entertain the bullies more, she has stuck to ignoring everything they do.`@`
 
 ;　かつて、衣服の汚れや臭いを指摘されたことからいじめが始まったことを理解し、@今は清潔にも気を遣っている。\
-`　Formerly, from when it was pointed out to her that her clothes were smelly and dirty, she understood the torment had just started,`@` and now she pays special attention that she is clean.`\
+`　Once it was pointed out to her that her clothes were smelly and dirty, she understood the torment had just started,`@` and now she pays special attention to her hygeine.`\
 
 ;　そこだけを切り出したなら、もはや彼女がいじめられる理由など存在しないのだ。@
-`　Just by bringing that down, she had forced all motives for her torment to stop existing.`@`
+`　She thought that just bringing an end to that, she had forced all motives for her torment to cease.`@`
 ;　しかし、彼女にはいじめられっこの烙印が押されてしまった。@
 `　However, she'd already had the label of 'bullied girl,' pushed onto her.`@`
 br
@@ -4334,7 +4334,7 @@ br
 ;　クラスでも風邪が流行っている。@
 `　The cold is prevalent in the class.`@`
 ;　それ自体は珍しいことではなく、実際、彼女の欠席も、それ以上でも以下のものでもなかった。\
-`　That in itself was not rare -- rather, it was practical, as was her absence. This was neither above nor below the usual.`\
+`　That in itself was not rare -- rather, it was practical, as was her absence. This was neither above nor below the norm.`\
 
 ;　そんな、榊由香里といういじめられっこのいない教室に、見るべき何があるというのか。@
 `　Was she supposed to see something in this classroom where there was no tormentee, Yukari Sakaki, around?`@`
@@ -4361,50 +4361,68 @@ br
 ;　カーテンの束を何度も何度も、乱暴に蹴り付けている…。@
 `　By the curtains, they were relentlessly, violently kicking...`@`
 ;　いじめっこたちは教室の一角にたむろし、無言でそれを繰り返していた。\
-`　The bullies were all gathered in one corner, and wordlessly repeating this.`\
+`　The bullies were all gathered in one corner, and kept kicking without uttering a word.`\
 
 ;　男子が面白半分に、この手のものをサンドバッグ代わりにするのは、珍しい光景ではない。@
-`　
+`　It wasn't an uncommon sight to see the boys playfully beating on something in place of a punching bag.`@
 br
-　……しかし、彼らのそれは、面白半分にという感じではない。\
+;　……しかし、彼らのそれは、面白半分にという感じではない。\
+`　...But what they were expressing wasn't 'playful.'`\
 
 me2v 17,70
 
-　不愉快で不愉快で。@
-　むしゃくしゃして、いらいらして。@
+;　不愉快で不愉快で。@
+`　Hate.`@
+;　むしゃくしゃして、いらいらして。@
+`　Frustration. Anger.`@
 br
-　その感情を、ただ無言で暴力に変えて、カーテンにぶつけているのだ。\
+;　その感情を、ただ無言で暴力に変えて、カーテンにぶつけているのだ。\
+`　Wordlessly turning those emotions into violence, they struck the curtains.`\
 
-「………面白くねぇなー。」@
-「面白くねぇ。」\
+;「………面白くねぇなー。」@
+`"...This is no fuuuun."`@
+;「面白くねぇ。」\
+`"Boooring."`\
 
-　普段なら、榊由香里をからかったり、その席に悪戯をしたりしているだろう。@
-　しかし今日は、彼女が休みだから。@彼らはそれが出来ない。@
+;　普段なら、榊由香里をからかったり、その席に悪戯をしたりしているだろう。@
+`　Normally they would be teasing Yukari Sakaki and playing pranks on her at her desk.`@
+;　しかし今日は、彼女が休みだから。@彼らはそれが出来ない。@
+`　But today she was absent. `@`So they couldn't do that.`@
 br
-　彼らは露骨にぼやいている。@
-　何で自分たちに何の断りもなく、榊由香里が勝手に休んだのかと、ぼやいている。\
+;　彼らは露骨にぼやいている。@
+`　They were grumbling out loud.`@
+;　何で自分たちに何の断りもなく、榊由香里が勝手に休んだのかと、ぼやいている。\
+`(?)　They were grumbling, as if Yukari Sakaki went ahead and took the day off without asking them for permission first.`\
 
 se1v 12,50
 quakey 2,200
 
 me3v 5,50
 
-「マジでイライラする。@榊をおちょくってねぇとイライラして死にそーになる。」@
-「つーかあいつ、何、断りなく風邪とか引いてやがんだよ。@マジ、使えねーな。」@
-「……あいつ居ねぇとイラつくなー。@何つーか、最高にイラつく。」\
+;「マジでイライラする。@榊をおちょくってねぇとイライラして死にそーになる。」@
+`"Seriously, this pissed me off. `@`I'm gonna die of frustration if I don't get to pound that Sakaki."`@
+;「つーかあいつ、何、断りなく風邪とか引いてやがんだよ。@マジ、使えねーな。」@
+`"And that girl, what, she caught a cold? `@`Seriously? Such bullcrap."`@
+;「……あいつ居ねぇとイラつくなー。@何つーか、最高にイラつく。」\
+`"...When she's not here it's so annoying. `@`It's like, the most annoying thing ever."`\
 
-「病院に寄ってから来たとかいって、今からでも来ねぇかなぁ……。」@
-「早くいじめられに来いってんだよな。@俺たちが退屈で死んじまうだろーがよぉ。」@
-「クソ榊がッ。@ボケ榊がッ。@臭ぇんだよ、近寄ンじゃねぇよ、クソクソッ。」\
+;「病院に寄ってから来たとかいって、今からでも来ねぇかなぁ……。」@
+`"They said something like she had to go to the hospital, and she might not come anymore..."`@
+;「早くいじめられに来いってんだよな。@俺たちが退屈で死んじまうだろーがよぉ。」@
+`"It's like, she should hurry up and come back so we can mess with her, ya'know? `@`We're gonna freakin die of booooredom."`@
+;「クソ榊がッ。@ボケ榊がッ。@臭ぇんだよ、近寄ンじゃねぇよ、クソクソッ。」\
+`"Fucking Sakaki. `@`Stupid Sakaki. `@`You stink, back off, goddamn it."`\
 
 se1v 12,50
 quakex 2,200
 se2v 12,50
 quakey 2,200
 
-　近寄るなと言っておきながら。@その彼女の姿がないことを嘆く彼らの矛盾した不機嫌。@
+;　近寄るなと言っておきながら。@その彼女の姿がないことを嘆く彼らの矛盾した不機嫌。@
+`　While saying 'back off,' `@`the lamenting boys pouted inconsistently that Sakaki wasn't there.`@
 br
-　不愉快そうにカーテンの束を罵りながら、代わる代わるに何度も蹴り付けている…。\
+;　不愉快そうにカーテンの束を罵りながら、代わる代わるに何度も蹴り付けている…。\
+`　They took turns kicking the bunched curtains in their frustration -- over and over again...`\
 
 bg black,23
 
@@ -4418,25 +4436,32 @@ ld r,MAR_i4,23
 
 ld l,HIG_W3,80
 
-「くすくすくす。@……まるで、いじめという麻薬の中毒患者ね。」@
+;「くすくすくす。@……まるで、いじめという麻薬の中毒患者ね。」@
+`"Heeheehee. `@`...It's almost as if bullying is their drug, and they're all addicts."`@
 
 ld r,MAR_i4a,80
 
-「……はい。@私にもそう見えます。」\
+;「……はい。@私にもそう見えます。」\
+`"...Yes. `@`I can see that too."`\
 
 ld l,HIG_Def4,80
 
-「いじめは集団社会における序列の確認行為だそうよ。@だから、常にそれを繰り返さないと、自分の序列に不安を感じてしまう。@……だから人は、いじめをやめられない。」\
+;「いじめは集団社会における序列の確認行為だそうよ。@だから、常にそれを繰り返さないと、自分の序列に不安を感じてしまう。@……だから人は、いじめをやめられない。」\
+`"Bullying is an act of establishing hierarchy in group-oriented society. `@`And so if you're not cosntantly doign that, you'll become uncertain about your own ranking. `@`...And so, people cannot stop bullying."`\
 
 bg black,22
 
-　人間もまた、社会を営む動物である以上、いじめという動物的本能から逃れられない。@
+;　人間もまた、社会を営む動物である以上、いじめという動物的本能から逃れられない。@
+`　Furthermore, aside from being creatures that run society, humans cannot escape their instinct to bully.`@
 br
-　彼岸花は持論を説くが、毬枝はそうは思えなかった。\
+;　彼岸花は持論を説くが、毬枝はそうは思えなかった。\
+`　Higanbana explained her theory, but Marie didn't think that was the case.`\
 
-　人間は動物とは違うとか、そんな甘い考えからではない。@
+;　人間は動物とは違うとか、そんな甘い考えからではない。@
+`　It wasn't that she naiively thought that humans were different from animals.`@
 br
-　……純粋に、違和感を覚えたからだ。\
+;　……純粋に、違和感を覚えたからだ。\
+`　...it was because of a purely unease she felt.`\
 
 bg black,22
 
@@ -4454,27 +4479,38 @@ bg kyou_02,22
 
 bgm1 6
 
-　彼らは確かに、由香里をいじめることを常習的に行なっている。@
-　それは、彼らにとってそれがその場で、一番楽しい遊びだからだ。@
+;　彼らは確かに、由香里をいじめることを常習的に行なっている。@
+`　They absolutely were bullying Yukari habitually.`@
+;　それは、彼らにとってそれがその場で、一番楽しい遊びだからだ。@
+`　And for them that was their best way of having fun there.`@
 br
-　なら、由香里がいない日には、その次に楽しい遊びをすればいいではないか。\
+;　なら、由香里がいない日には、その次に楽しい遊びをすればいいではないか。\
+`　So on days when Yukari wasn't there, they should have settled for the next best thing.`\
 
-　しかし彼らはそうしない。@
+;　しかし彼らはそうしない。@
+`　But they did not.`@
 br
-　他の男子たちが、走り回ったり、はしゃぎあったりしている中、@不愉快そうにたむろして、不機嫌にカーテンの束を蹴り付けているだけなのだ。\
+;　他の男子たちが、走り回ったり、はしゃぎあったりしている中、@不愉快そうにたむろして、不機嫌にカーテンの束を蹴り付けているだけなのだ。\
+`　While other boys did things like running around and playing with each other, `@`all they did was hang around the curtains angrily kicking lumps in the folds out of frustration.`\
 
 se1v 12,50
 quakex 2,200
 
-　ガツ。@
-　ガツガツガツ。@
+;　ガツ。@
+`　Swish. `@`
+;　ガツガツガツ。@
+`　Swish swish swish.`@
 br
-　彼らは不愉快そうに、カーテンを蹴り続けている。\
+;　彼らは不愉快そうに、カーテンを蹴り続けている。\
+`　Seemingly out of frustration, they kept kicking.`\
 
-　それが楽しいからしているのではない。@
-　まるで彼らには、いじめ以外に何の快楽も見い出せないかのような。@
+;　それが楽しいからしているのではない。@
+`　It wasn't because it was fun.`@
+;　まるで彼らには、いじめ以外に何の快楽も見い出せないかのような。@
+`　It was as if they couldn't find any other fun to have except in bullying.`@
 br
-　毬枝にはそう見えたのだ。\
+;　毬枝にはそう見えたのだ。\
+`　Marie saw that.`\
 
 bg black,23
 bg kyou_04,0
@@ -4483,25 +4519,32 @@ ld r,MAR_Def3,23
 
 ld l,HIG_W4,80
 
-「だって、いじめは楽しいもの。@……なら、その楽しさに虜になって、中毒になってしまったとしてもおかしくはないんじゃない？」\
+;「だって、いじめは楽しいもの。@……なら、その楽しさに虜になって、中毒になってしまったとしてもおかしくはないんじゃない？」\
+`"After all, bullying is fun. `@`...So when you become a prisoner to that entertainment, it's not strange to become addicted, wouldn't you say?"`\
 
 ld r,MAR_I1,80
 
-「………私は、おかしいと思います。@……百歩譲って、いじめが楽しいものだったとしても。@……それはその場限りのものです。@こんな、………由香里ちゃんが休みの日にまで、それが出来なくて一日中を不機嫌にしているなんて、@……私はちょっとおかしいと思います。」\
+;「………私は、おかしいと思います。@……百歩譲って、いじめが楽しいものだったとしても。@……それはその場限りのものです。@こんな、………由香里ちゃんが休みの日にまで、それが出来なくて一日中を不機嫌にしているなんて、@……私はちょっとおかしいと思います。」\
+`"...Well, I think it's odd. `@`...For arguement's sake, even if bullying is fun. `@`...This is only a one time incident. `@`For them to get this upset over being unable to bully her for one day... just because Yukari-chan is taking one day off, `@`...I think that's a little odd."`\
 
-　たった一日。@
+;　たった一日。@
+`　It's just one day.`@
 br
-　女の子をいじめられないだけで、こんなにも不機嫌になるなんて、おかしい。\
+;　女の子をいじめられないだけで、こんなにも不機嫌になるなんて、おかしい。\
+`　For them to be this upset just because they can't bully a girl, it's just odd.`\
 
 ld l,HIG_Def3,80
 
-「ふぅん。@………毬枝がおかしいと思うなら、そういうことでいいんじゃないのかしら。@くすくす。@私にはどうでもいいことだけれど。@……早く、由香里を追い詰めて、自ら命を絶つように仕向けてくれないかしらね。@ゆっくりじっくり煮込んだ、隠し味に毬枝まで絡んだ、素敵ないじめられっこの魂だもの。@それはきっと、美味に違いないわね。@くすくすくすくすくすくす………。」\
+;「ふぅん。@………毬枝がおかしいと思うなら、そういうことでいいんじゃないのかしら。@くすくす。@私にはどうでもいいことだけれど。@……早く、由香里を追い詰めて、自ら命を絶つように仕向けてくれないかしらね。@ゆっくりじっくり煮込んだ、隠し味に毬枝まで絡んだ、素敵ないじめられっこの魂だもの。@それはきっと、美味に違いないわね。@くすくすくすくすくすくす………。」\
+`"Hmmm. `@`...If you think it's odd Marie, perhaps it's proper to say it is. `@`Teehee. `@`It doesn't particularly matter to me. `@`...Perhaps I should hurry, corner Yukari, and perhaps I'll tempt her to end her own life. `@`I'll carefully boil her, mixed with a secret sauce from Marie, she'll be a wonderful bullied soul. `@`And that will definitely have a good taste, no? `@`Teeheeheeheeheeheehee..."`\
 
 cl l,2
 
-　彼岸花は笑い声を残しながら、影に溶けて消える。@
+;　彼岸花は笑い声を残しながら、影に溶けて消える。@
+`　Leaving a trail of laughter, Higanbana dissolves into the shadows.`@
 br
-　しかし、毬枝はそれに納得しない。@
+;　しかし、毬枝はそれに納得しない。@
+`　But Marie wouldn't allow it to come to that.`@
 　彼らのいじめに対する姿勢が、ちょっとした遊びやおふざけのように、到底、見えないから。\
 
 　確かに彼らは彼岸花が称したように、まるで、いじめという麻薬の中毒患者のようにさえ見える。@
