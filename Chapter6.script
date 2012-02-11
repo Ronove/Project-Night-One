@@ -288,7 +288,7 @@ bg kyou_02a,6
 ;　朝の出席。@これに答えることが、学校の一日の始まり。@
 `　Morning roll call.`@` Answering this meant it was the beginning of my school day.
 ;　学校が退屈な子や、まだまだ眠い子は、かったるい返事をする。\
-`　Those that are bored of school, or those who are still tired, respond sluggishly.`\
+`　Those who are bored of school, or those who are still tired, respond sluggishly.`\
 
 ;　何だか、勿体ないよね。@
 `　That seems like such a waste.`@`
@@ -520,7 +520,7 @@ cl c,0
 ld l,mar_def4a,24
 
 ;「……試すって、何をですか。」@
-`"...what do you mean, by test?"`@`
+`"...What do you mean, by test?"`@`
 
 ld r,hig_w4,80
 
@@ -683,7 +683,7 @@ ld c,hig_w6,80
 se1 2
 quakey 4,300
 ;絶対に泣かしてやるんだからっ！@　学校妖怪序列第３位、踊る彼岸花の名にかけてっ。」@
-`I'll definitely make you cry!!`@` I bet my title of the Dancing Higanbana, the number three school youkai on it."`@`
+` I'll definitely make you cry!!`@` I bet my title of the Dancing Higanbana, the number three school youkai on it."`@`
 ld r,mar_def3a,80
 
 ;「そんなことに名をかけないで下さい……。」\
@@ -919,7 +919,7 @@ me1v 11,90
 `　In the infirmary, the nurses were watching her condition.`@`
 br
 ;「どうですか、先生っ。@救急車を呼んだ方がいいですか…。」\
-"What do you think, nurse?`@` Would it be best for us to call an ambulance...?"`\
+`"What do you think, nurse?`@` Would it be best for us to call an ambulance...?"`\
 
 ld c,HOK_def4,22
 
@@ -931,7 +931,7 @@ ld c,HOK_def4,22
 ld c,HOK_def2,80
 
 ;「大丈夫だってっ。@子供はね、そんなヤワじゃないの！@　たくさん血が出たのを見ちゃったから、ちょっとびっくりしちゃったんでしょ。@しばらく休ませて様子を見ましょう。@担任の先生に、しばらく休ませると伝えてもらえます？」@
-`"I said she's just fine.`@` Kids aren't that breakable!`@` She probably was just a bit surprised when she saw a lot of blood coming out.`@` Let's just let her rest for a while and keep an eye on her condition.`@` Could you let her homeroom teacher know that she'll be resting for a while?"`@`
+`"I said she's just fine.`@` Kids aren't that breakable!`@` She was probably just a bit surprised when she saw a lot of blood coming out.`@` Let's just let her rest for a while and keep an eye on her condition.`@` Could you let her homeroom teacher know that she'll be resting for a while?"`@`
 ;「あ、はい、わかりましたっ。」\
 `"Ah, yes, I understand."`\
 
@@ -1005,7 +1005,7 @@ bg hoken_03,22
 ;　……あーあ……。@
 `　...Man...`@`
 ;　今日という、○月○日○曜日という素晴らしい一日は、もう二度とないというのに。@
-`　Even though this spectacular looking day of  (X month), (X day), (X year), will never happen again.`@`
+`　Even though this spectacular looking day of (X month), (X day), (X year), will never happen again.`@
 ;　何でその貴重な学校生活の一日を、……こんなところで寝て過ごしてるんだろ。\
 `　Why am I spending this precious school day, ...sleeping in this place.`\
 
@@ -1016,7 +1016,7 @@ bg hoken_03,22
 br
 ;　………やっぱり、……今日はツイてないや……。\
 `　...Seriously, ...today just isn't so great...`\
-'　保健室のベッドで寝る夢が叶ったと、精一杯プラス思考で考えていた少女も、@……重なる不運に、さすがに落胆する。\
+;　保健室のベッドで寝る夢が叶ったと、精一杯プラス思考で考えていた少女も、@……重なる不運に、さすがに落胆する。\
 `　The girl who was trying with all her might to think of her dream of sleeping in the infirmary bed as a plus,`@` ...as could be expected with all these misfortunes piling up, was getting discouraged.`\
 
 bg hoken_01,22
@@ -1108,7 +1108,7 @@ bg black,2
 me1v 31,40
 
 ;　校庭から聞こえるホイッスルの短い音や、みんなの元気な掛け声が聞こえてくる。@
-`　From the courtyard I could hear a short whistle blowing, and then I began to everyone's enthusiastic shouts.`@
+`　From the courtyard I could hear a short whistle blowing, and then I began to hear everyone's enthusiastic shouts.`@
 ;　私のクラスメートたちの声だ。@彼らの姿が見えなくても、ここで聞いているだけでわかる。\
 `　They were the voices of my classmates. `@`Even though I couldn't see them, I could tell it was them just by hearing their voices from here.`\
 
@@ -1153,7 +1153,7 @@ ld c,mar_def2,22
 ld r,hig_w3,80
 
 ;「いいじゃない。@保健室のベッドで寝てみたいという夢を、叶えてあげたのだし。」\
-`"It's fine. `@`After all I've given her the favor of sleeping on an infirmary bed."`\
+`"It's fine.`@` After all, I've granted her wish of sleeping in an infirmary bed."`\
 
 ld c,mar_def3,80
 
@@ -1210,10 +1210,10 @@ br
 `　So definitely... if I were to become a ghost, I think I would become a school ghost.`@
 br
 ;　そんなことを、これまで漠然と考えてきた。\
-`(?)　I thought about that absentmindedly for a time.`\
+`(?)　I thought about that absentmindedly for a while.`\
 
 ;　……しかし、今、こうして保健室で横になり、@……校庭で楽しそうにしているみんなの声だけが聞こえていると。@
-`　...But, right now, next to this infirmary, `@`...all I could hear was the sound of everyone's voices seemingly having so much fun.`@
+`　...But, right now, in this infirmary,`@` ...all I could hear was the sound of everyone's voices seemingly having so much fun.`@
 br
 ;　それはちょっぴり、………寂しいことなのかなと、思えてしまうのだ。\
 `　I started to feel just a bit... lonely, I suppose?`\
@@ -1296,7 +1296,7 @@ br
 ;　……あ、いつの間にか大丈夫。@
 `　...Ah, suddenly I'm feeling better.`@
 ;　運びこまれた時は、あんなにも体が重かったのに。@今はもう、すっかり元通りだった。\
-`　When I was carried in, my had felt so heavy. `@`But now I already felt completely better.`\
+`　When I was carried in, I had felt so heavy. `@`But now I already felt completely better.`\
 
 
 ;「……私、いつまでここにいればいいのかな……。」@
@@ -1305,7 +1305,7 @@ br
 ;　首を回したり、肩を回したりしてみる。@
 `　I tried rotating my neck and shoulders.`@
 ;　恐る恐る頭の包帯にも触れてみる。@
-`　Fearfully, I tried touching the bandage on my head.`@
+`　Gingerly, I tried touching the bandage on my head.`@
 ;　…………………。\
 `　.........`\
 
@@ -1340,7 +1340,7 @@ br
 `　I got up out of bed and put on my indoor slippers.`\
 
 ;　私のなりたい幽霊というのは、自由に学校を闊歩して、みんなと一緒に色々と遊べる存在。@
-`　The ghost I want to be, is one that can freely go around the school and play all sorts of games with everyone.`@
+`　The ghost I want to be, is one who can freely go around the school and play all sorts of games with everyone.`@
 br
 ;　今からそれになろう。\
 `　I'll make myself one from now on.`\
@@ -1371,7 +1371,7 @@ bg kaidan_01,23
 ;　帰ろう。@自分の教室へ。@
 `　I'm heading back. `@`I'm off to my classroom.`@
 ;　そして掃除に参加しよう。@
-`　And I'll help with cleaning up.`@
+`　And I'll help with the cleaning up.`@
 br
 ;　私はささっと抜け出し、教室へ戻る。\
 `　I quickly snuck off and returned to my class.`\
@@ -1422,9 +1422,9 @@ br
 `　More than sweeping the floors, it felt like we were chasing each other around.`\
 
 ;　だって、私は昼休みも体育の時間もやってない。@
-`　After all, I didn't get my P.E. in during recess.`@
+`　After all, I didn't get my P.E. during recess.`@
 ;　だから、一日のエネルギーの全てをこの掃除の時間に吐き出すのだ。\
-`　So I put out every bit of energy I had today into time I had to clean up.`\
+`　So I used every bit of energy I had today into the time I had to clean up.`\
 
 bg rika_03,24
 
@@ -1485,9 +1485,9 @@ bg rika_04,22
 `"I'm fine but... `@`...It doesn't look like this person is doing so well."`@
 br
 ;　私が引っ掛けたのは、……あの理科室でお馴染みの、グロテスクな人体標本。@
-`　What I had caught on was... the science room's friendly, grotesque human anatomy dummy.`@
+`　What I had got caught on was... the science room's friendly, grotesque human anatomy dummy.`@
 ;　床に引っ繰り返って、いくつかの部品にばらけて壊れてしまった。\
-`　He had been toppled to the floor, breaking into countless pieces.
+`　He had toppled to the floor, breaking into countless pieces.
 
 ;「だ、大丈夫……。@黙ってればバレないよ……。」@
 `"It's... It's fine... `@`If we keep quiet, they won't think it was us..."`@
@@ -1507,7 +1507,7 @@ ld c,non_def4a,22
 ;　……えっと、確か、野々宮くん。@
 `　...Um, that's Takeshi Nonomiya-kun.`@
 ;　あんまり話したことがない男子だけど、………………………。@
-`　He's not really a boy I've talked to much but.........`@
+`　He's not really a boy I've talked to much, but.........`@
 br
 ;　呆れた顔をしてる。@
 `　He had a shocked look on his face.`@
@@ -1515,7 +1515,7 @@ br
 `　......`\
 
 ;「ごめんね、野々宮くん。@……物を壊すぞって注意してくれたのに。ごめんね。」@
-`"Sorry, Takeshi Nonomiya-kun. `@`...Even though you warned me saying, 'Don't break anything!' I'm sorry."`@
+`"Sorry, Takeshi Nonomiya-kun. `@`...Even though you warned me saying, 'Don't break anything!', I'm sorry."`@
 
 ld c,non_def5a,80
 
@@ -1528,7 +1528,7 @@ se1 82
 bg white,23
 bg rouka_02,23
 ;………ごめーん、なっちゃーん。@私、先生に謝ってくるね！」@
-`...Sorry~, Nacchan~. `@`I'm gonna go apologize to the teacher, kay?!"`@
+`...Sorry~, Nacchan~. `@`I'm gonna go apologize to the teacher, 'kay?!"`@
 ;「えー、黙ってればわからないってー。」@
 `"Whaa, I said he won't know as long as you keep quiet about it~"`@
 ;「だーめ。@謝るのっ。@壊したのは私だし。@なっちゃんは関係ないから待ってて。」@
@@ -1550,7 +1550,7 @@ br
 `　But, if I ended a day like today with feelings like those, they'll stay on my conscience, and obviously, I'll feel bad.`@
 br
 ;　だから、先生には怒られたけれど、………心はとっても晴れやかだった。\
-`　So I'll got yelled at by the teacher, ...but my mind was clear.`\
+`　So, I'd get yelled at by the teacher, ...but my mind was clear.`\
 
 bg white,2
 bg kyou_02,2
@@ -1604,7 +1604,7 @@ br
 ;　みんなは一斉に駆け出して教室を飛び出していく。@
 `　Everyone took off dashing together out of the classroom.`@
 ;　他のクラスもそれぞれホームルームを終え、廊下は帰りを急ぐ子たちで大賑わいになる。\
-`　The other classes home room periods began to end one after another, the hallway was bustling with kids hurrying home.`\
+`　The other classes' home room periods began to end one after another, the hallway was bustling with kids hurrying home.`\
 
 ;　その賑わいも、わいわいざわざわも、少しずつ遠退いていく。@
 `　Even that bustling, with its noise and chattering, began to fade away little by little.`@
@@ -1618,7 +1618,7 @@ br
 `　From the hallway, to the stairwell.`@/
 bg shoukou_01,22
 ;階段から昇降口へ。@
-`From the stairs, to the entrance.`@
+` From the stairs, to the entrance.`@
 br
 ;　そして校庭へと散り、……学校は静寂に、満たされていく。\
 `　Then dispersing to the schoolyard, ...the school began to fill with silence.`\
@@ -1640,7 +1640,7 @@ bgm1 4
 `　From the window the teacher forgot to close, a cool wind blew, causing the curtains to gently sway.`@
 br
 ;　その、風が膨らます白いカーテンの束が、……私が小さい頃に大好きだった、白いドレスのことを思い出させる。\
-`　And, the white bundle the wind expanded in the curtains, ...was something I loved seeing since I was a child, because it would remind me of white dresses.`\
+`　And, the white bundle as the wind expanded in the curtains, ...was something I loved seeing since I was a child, because it would remind me of white dresses.`\
 
 ;　また明日ね。@ばいばい、か。@
 `　See you tomorrow. `@`Bye bye, huh?`@
@@ -1802,7 +1802,7 @@ ld l,mar_def4a,22
 ld r,hig_def2,80
 
 ;「そういう約束だから、今日という奇跡をプレゼントしたのよ。@……未だ生に未練のある魂に、もう一度学校生活を味わわせて、未練を強めて苦しめて、その去り際の魂をいただく。@……どんな味の魂に仕上がってくれたか、楽しみで舌なめずりしちゃうんだから。」@
-`"Since it's that kind of promise, I gave you the miracle of today as a present. `@`...So your soul still with lingering regrets could once again experience school life, and be exercised of your strong lingering and pain, so I could take it. `@`...It makes me lick my lips wondering what kind of taste your soul has been given."`\
+`"Since it's that kind of promise, I gave you the miracle of today as a present. `@`...So your soul still with lingering regrets could once again experience school life, and be exorcised of your strong lingering and pain, so I could take it. `@`...It makes me lick my lips wondering what kind of taste your soul has been given."`@
 br
 ;　彼岸花はくすりと笑って、小さな舌で唇を拭う仕草を見せる。\
 `　Higanbana giggled and put on a display of licking her lips with her tongue.`\
@@ -1889,13 +1889,13 @@ ld l,hig_def2,80
 ;「あら、嫌にあっさりね。@その子を見逃してあげて云々って、もう少し騒ぐかと思ったら。」@
 `(?) "Oh, leaving already. `@`I thought you were going to stay and watch, complain, and make some noise a bit longer."`@
 ;「騒いでも、私の言うことなんていつも聞いてくれないじゃないですか。」\
-`"Even if I made a big deal of it, you'd never listen what I have to say anyway, would you?"`\
+`"Even if I made a big deal of it, you'd never listen to what I have to say anyway, would you?"`\
 
 ;cl l,0
 ld l,hig_w3,80
 
 ;「それもそうだわ。@じゃあ確かに、言うだけ無駄というものね。」\
-`"That's true too I suppose. `@`Well then, just talking is pointless."`\
+`"That's true too, I suppose.`@` Well then, just talking is pointless."`\
 
 ;bg black,22
 
@@ -1961,7 +1961,7 @@ print 42
 `　Oh, what have I done. `@`...Higanbana smiled bitterly as she looked upwards.`@
 br
 ;　黄昏色の空に、それはどんどん吸い込まれるように、……遠く、小さくなっていく。\
-`　As if it were being sucked into the twilight colored sky, ...it shrank in the distance.`\
+`　As if it were being sucked into the twilight-colored sky, ...it shrank in the distance.`\
 
 ld r,hig_def2,22
 
