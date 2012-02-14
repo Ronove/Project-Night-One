@@ -4536,7 +4536,7 @@ br
 ld l,HIG_Def3,80
 
 ;「ふぅん。@………毬枝がおかしいと思うなら、そういうことでいいんじゃないのかしら。@くすくす。@私にはどうでもいいことだけれど。@……早く、由香里を追い詰めて、自ら命を絶つように仕向けてくれないかしらね。@ゆっくりじっくり煮込んだ、隠し味に毬枝まで絡んだ、素敵ないじめられっこの魂だもの。@それはきっと、美味に違いないわね。@くすくすくすくすくすくす………。」\
-`"Hmmm. `@`...If you think it's odd Marie, perhaps it's proper to say it is. `@`Teehee. `@`It doesn't particularly matter to me. `@`...Perhaps I should hurry, corner Yukari, and perhaps I'll tempt her to end her own life. `@`I'll carefully boil her, mixed with a secret sauce from Marie, she'll be a wonderful bullied soul. `@`And that will definitely have a good taste, no? `@`Teeheeheeheeheeheehee..."`\
+`"Hmmm. `@`...If you think it's odd Marie, perhaps it's proper to say it is. `@`Teehee. `@`It doesn't particularly matter to me. `@`...Perhaps I should hurry, corner Yukari, and perhaps I'll tempt her to end her own life. `@`I'll carefully boil her, mixed with a secret sauce from you, Marie, and she'll be a wonderful tortured soul. `@`And that will definitely have a good taste, no? `@`Teeheeheeheeheeheehee..."`\
 
 cl l,2
 
@@ -4545,31 +4545,43 @@ cl l,2
 br
 ;　しかし、毬枝はそれに納得しない。@
 `　But Marie wouldn't allow it to come to that.`@
-　彼らのいじめに対する姿勢が、ちょっとした遊びやおふざけのように、到底、見えないから。\
+;　彼らのいじめに対する姿勢が、ちょっとした遊びやおふざけのように、到底、見えないから。\
+`　Because Marie couldn't see their bullying as playful, or by no means, a laughing matter.`\
 
-　確かに彼らは彼岸花が称したように、まるで、いじめという麻薬の中毒患者のようにさえ見える。@
+;　確かに彼らは彼岸花が称したように、まるで、いじめという麻薬の中毒患者のようにさえ見える。@
+`　Just like Higanbana explained, she could see that they were only addicts for the drug that was bullying.`@
 br
-　いじめには、そんなにも人を虜にする魔力や魅力があるだろうか…？\
+;　いじめには、そんなにも人を虜にする魔力や魅力があるだろうか…？\
+`　Does bullying really have such magical yet mysterious power to hold people prisoner like that...?`\
 
 cl r,0
 ld c,MAR_i4a,24
 
-　………そんなものはないと、信じたい。@
+;　………そんなものはないと、信じたい。@
+`　...I want to believe that's not it.`@
 br
-　彼岸花さんは、人間はそれから逃れられない動物に過ぎないと嘲笑ったけれど。@……私は、信じたい。\
+;　彼岸花さんは、人間はそれから逃れられない動物に過ぎないと嘲笑ったけれど。@……私は、信じたい。\
+`　Higanbana-san sneered, saying that humans are like animals and unable to escape from it, `@`...but I still want to believe.`\
 
 bg black,22
 
-　人間には、人の嫌がる顔を見て喜ぶなんて魔性が、生まれつき、あるわけもない。@
+;　人間には、人の嫌がる顔を見て喜ぶなんて魔性が、生まれつき、あるわけもない。@
+`　There's no way that humans by nature wickedly take pleasure in seeing the suffering in others faces.`@
 br
-　なら、なぜ。@彼らは執拗に毎日、いじめを繰り返すのか。@
-　そして、いじめられっこが不在である今日、ここまで不機嫌になれるのか。\
+;　なら、なぜ。@彼らは執拗に毎日、いじめを繰り返すのか。@
+`　Then, why? `@`Why do they persist in repeatedly bullying every day?`@
+;　そして、いじめられっこが不在である今日、ここまで不機嫌になれるのか。\
+`　And why on days like today when the bullied child is gone, does it bother them this much?`\
 
-　……きっと、何かある。@
-　彼らが、いじめに、ここまで中毒になる、理由。@
-　それを解き明かさない限り、由香里を救えないのではないか。@
+;　……きっと、何かある。@
+`　...There has to be something.`@
+;　彼らが、いじめに、ここまで中毒になる、理由。@
+`　A reason why they're this addicted to bullying.`@
+;　それを解き明かさない限り、由香里を救えないのではないか。@
+`　As long as that's not explained, perhaps Yukari can't be saved.`@
 br
-　……毬枝はそう確信していた。\
+;　……毬枝はそう確信していた。\
+`　...Marie was certain of that.`\
 
 bg black,2
 
@@ -4590,13 +4602,18 @@ bg kyou_01,22
 
 me1v 24,50
 
-「尾崎くんじゃん。@体調どう？」@
-「一時、何か元気なかったじゃん。」@
-「……ん。@風邪だよ、風邪。」\
+;「尾崎くんじゃん。@体調どう？」@
+`"Oh it's Ozaki-kun. `@`How ya doin?"`@
+;「一時、何か元気なかったじゃん。」@
+`"You're kinda down for a while."`@
+;「……ん。@風邪だよ、風邪。」\
+`"...Yeah. `@`It's a cold, a cold."`\
 
-　毬枝に脅され、一時、元気をなくしていた尾崎も、@最近は少しずつ元の調子を取り戻しつつあった。@
+;　毬枝に脅され、一時、元気をなくしていた尾崎も、@最近は少しずつ元の調子を取り戻しつつあった。@
+`　Even Ozaki, who had been threatened by Marie and lost his spirits for a time, `@`recently had started regaining his former composure little by little.`@
 br
-　来週を待たずに、元の彼に戻るだろう。\
+;　来週を待たずに、元の彼に戻るだろう。\
+`　He might even return to normal before the end of the week.`\
 
 　彼にとって、忘れ難いほどの恐怖体験ではあったが、@それで廃人になってしまうほどに、脅されたわけでもない。@
 br
