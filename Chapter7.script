@@ -4615,63 +4615,94 @@ br
 ;　来週を待たずに、元の彼に戻るだろう。\
 `　He might even return to normal before the end of the week.`\
 
-　彼にとって、忘れ難いほどの恐怖体験ではあったが、@それで廃人になってしまうほどに、脅されたわけでもない。@
+;　彼にとって、忘れ難いほどの恐怖体験ではあったが、@それで廃人になってしまうほどに、脅されたわけでもない。@
+`　It was a terrifying experience that was hard to forget, `@`but he hadn't been menaced to the point of becoming an invalid.`@
 br
-　未だに思い出したくない出来事ではあるが、誰に話しても理解してくれないだろうし、@自分が臆病者だと思われたいわけもない。\
+;　未だに思い出したくない出来事ではあるが、誰に話しても理解してくれないだろうし、@自分が臆病者だと思われたいわけもない。\
+`　It was still an event he didn't want to remember, but even if he told anyone, it wasn't as if anyone would be able to understand him, `@`and he did not want to be thought of as a coward.`\
 
-　それはつまり、毬枝の一夜の努力は、@ほんの数日、彼ひとりを由香里から遠ざける効果しかなかったことを示す。@
+;　それはつまり、毬枝の一夜の努力は、@ほんの数日、彼ひとりを由香里から遠ざける効果しかなかったことを示す。@
+`　In other words, `@`it shows that all of Marie's efforts that night had only the effect of distancing him from Yukari for a couple of days.`@
 br
-　しかしもう、それに毬枝は落胆しない。\
+;　しかしもう、それに毬枝は落胆しない。\
+`　But even so, this doesn't discourage Marie.`\
 
-　由香里を救うために、彼らの異常な何かを、解き明かさなくてはならない。@
+;　由香里を救うために、彼らの異常な何かを、解き明かさなくてはならない。@
+`　In order to save Yukari, she had to explain their abnormal behavior.`@
 br
-　毬枝は静かに耳をそばだて、彼らのすぐ後ろに立ち続ける……。\
+;　毬枝は静かに耳をそばだて、彼らのすぐ後ろに立ち続ける……。\
+`　Marie listened quietly, with her ears at attention, as she continued standing directly behind them...`\
 
 bg black,22
 bg kyou_03,22
 
-「榊もまぁまぁだけどよ。@……やっぱ、去年だよな。」@
-「あー………、去年だよなー。」@
-「正直さ。@榊で我慢はしてるけど、満足はしてねーよなー。」\
+;「榊もまぁまぁだけどよ。@……やっぱ、去年だよな。」@
+`"Sakaki's alright. `@`...But last year..."`@
+;「あー………、去年だよなー。」@
+`"Ohhh yeah... I remember last year."`@
+;「正直さ。@榊で我慢はしてるけど、満足はしてねーよなー。」\
+`"Seriously. `@`I could put up with Sakaki, but man, it's just not as satisfying, y'know?"`\
 
-「榊の、無理やり無視してるとことがムカつく。」@
-「それはそれで、意地でも反応させたくなるけどさ。@……でもまー、…去年だよな。」@
-「……あの馬鹿女、何で勝手に事故って死んでんだよな。」\
+;「榊の、無理やり無視してるとことがムカつく。」@
+`"Being ignored by Sakaki pissed me off."`@
+;「それはそれで、意地でも反応させたくなるけどさ。@……でもまー、…去年だよな。」@
+`"And that alone just made me want to see her react, even if we were messing with her. `@`...But yeah, ...Last year man."`@
+;「……あの馬鹿女、何で勝手に事故って死んでんだよな。」\
+`"...That stupid girl, why'd she have to go and die in an accident?"`\
 
 me2v 16,50
 
-　以前にも聞いた、その話。@
+;　以前にも聞いた、その話。@
+`　She had heard that story before.`@
 br
-　彼らが去年のクラスで、誰かをいじめていたらしい話。@
+;　彼らが去年のクラスで、誰かをいじめていたらしい話。@
+`　A story seemingly about how they were bullying someone last year.`@
 br
-　そしてどうやら、その子は事故で死んでしまったらしい話……。\
+;　そしてどうやら、その子は事故で死んでしまったらしい話……。\
+`　A story about how somehow that girl ended up dying in an accident...`\
 
 bg black,24
 bg kyou_02,24
 
-「あいつみてーなヤツ。@……いねぇかなー。」@
-「……あいつはおちょくると色々、面白かったもんな。」@
-「榊も、もうちょっと揉んだら面白くなりそうだけどなー。」\
+;「あいつみてーなヤツ。@……いねぇかなー。」@
+`"Y'know, `@`...there's nobody like her."`@
+;「……あいつはおちょくると色々、面白かったもんな。」@
+`"...When we messed with her we had all sorts of fun."`@
+;「榊も、もうちょっと揉んだら面白くなりそうだけどなー。」\
+`"And if we could get Sakaki upset a bit more, she might be fun too~"`\
 
-「榊じゃ、三隅の代わりにはならねーだろ。」@
-「ならねーなー……。」@
-「あいつ、いちいちリアクションが面白かったもんなー。」@
-「確かに確かに。」\
+;「榊じゃ、三隅の代わりにはならねーだろ。」@
+`"Well Sakaki will probably never replace Misumi."`@
+;「ならねーなー……。」@
+`"Yeah..."`@
+;「あいつ、いちいちリアクションが面白かったもんなー。」@
+`"Every one of that girl's reactions was fun~"`@
+;「確かに確かに。」\
+`"Indeed. Indeed."`\
 
-「打てば響くっつーか。」@
-「そうそう。@いじめられっこは、あーあるべきだよなー。」@
-「榊はその辺、まだまだ鍛えが足りないんだよなー。」\
+;「打てば響くっつーか。」@
+`"Well with every action there's a reaction."`@
+;「そうそう。@いじめられっこは、あーあるべきだよなー。」@
+`"Yeah yeah. `@`The same should be for bullied kids."`@
+;「榊はその辺、まだまだ鍛えが足りないんだよなー。」\
+`"Sakaki is going to need a lot more discipline to reach that level."`\
 
 bg black,24
 bg kyou_01,24
 
-「それを鍛えるのが面白ぇんじゃん。」@
-「そうそう。@三隅だって、どんどん面白くなっていったじゃん？」@
-「そーなんだよなー。@三隅は、いじめてるっつーより、……何？@　一緒に遊んでる感じ？」\
+;「それを鍛えるのが面白ぇんじゃん。」@
+`"And disciplining her, that'll be fun!"`@
+;「そうそう。@三隅だって、どんどん面白くなっていったじゃん？」@
+`"Exactly. `@`After all, Misumi just kept getting better and better didn't she?"`@
+;「そーなんだよなー。@三隅は、いじめてるっつーより、……何？@　一緒に遊んでる感じ？」\
+`"Absolutely~. `@`Misumi, it wasn't quite messing around... how can I say it? `@`It felt like we were hanging out together?"`\
 
-「そうそう。@三隅には悪ぃけど、あいつも楽しんでるんじゃね？@って、勝手に思い込んでたもんな。」@
-「そうだよな、あれはいじめじゃないよな。@だって三隅、絶対ぇ喜んでたもんな？」@
-「俺たちにからかわれて、あいつはあいつで喜んでたよ、絶対。」\
+;「そうそう。@三隅には悪ぃけど、あいつも楽しんでるんじゃね？@って、勝手に思い込んでたもんな。」@
+`"Yeah. `@`No offense to Misumi, but maybe she was enjoying it too? `@`Or, at least that's what I thought."`@
+;「そうだよな、あれはいじめじゃないよな。@だって三隅、絶対ぇ喜んでたもんな？」@
+`"Right, and that's not bullying. `@`I mean Misumi was really having a good time, wasn't she?"`@
+;「俺たちにからかわれて、あいつはあいつで喜んでたよ、絶対。」\
+`"She really enjoyed it when we teased her, she absolutely did."`\
 
 「あんな根暗そうなヤツ、俺たちが遊んでやらなかったら、孤独死しちゃいそーじゃん？」@
 「そうそう。@あいつは絶対、俺たちに遊んでもらって喜んでたよ。」@
