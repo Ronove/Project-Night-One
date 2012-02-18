@@ -4704,38 +4704,53 @@ bg kyou_01,24
 ;「俺たちにからかわれて、あいつはあいつで喜んでたよ、絶対。」\
 `"She really enjoyed it when we teased her, she absolutely did."`\
 
-「あんな根暗そうなヤツ、俺たちが遊んでやらなかったら、孤独死しちゃいそーじゃん？」@
-「そうそう。@あいつは絶対、俺たちに遊んでもらって喜んでたよ。」@
-「なわけねーじゃん。@雑巾汁いれたシチュー飲まされて、嬉しいわけねーじゃん！」@
+;「あんな根暗そうなヤツ、俺たちが遊んでやらなかったら、孤独死しちゃいそーじゃん？」@
+`"That gloomy ol' bitch, she woulda died of loneliness if we hadn't played with her, right?"`@`
+;「そうそう。@あいつは絶対、俺たちに遊んでもらって喜んでたよ。」@
+`"You bet.`@` She was totally thrilled we played with her."`@`
+;「なわけねーじゃん。@雑巾汁いれたシチュー飲まされて、嬉しいわけねーじゃん！」@
+`"Like hell she was.`@` Nobody'd be happy drinking mop water stew!"`@` (?)
 br
 quake 3,300
 
-「「「わっははははははははははははは。」」」\
+;「「「わっははははははははははははは。」」」\
+`"""Wahhahahahahahahaha."""`\
 
 
+;「それと比べるとさ。@榊には、俺たちに遊んでもらってるっつー、感謝がねぇんだよな？」@
+`"Hey, speaking of.`@` Y'know, we never got any sort of thanks from Sakaki for playing with her, did we?"`@`
+;「ないない。@すっげぇ、メーワクそーにしてるぜ、あいつ。」@
+`"We sure haven't.`@` She totally looks like it's just such a pain to do it too."`@`
+;「俺たちが遊んでくれなかったら、臭くて不潔なだけで、誰にも構ってもらえないくせによ。」\
+`"Even though if we hadn't played with her, nobody would concern themselves with such a smelly and filthy existence like her."`\
 
-「それと比べるとさ。@榊には、俺たちに遊んでもらってるっつー、感謝がねぇんだよな？」@
-「ないない。@すっげぇ、メーワクそーにしてるぜ、あいつ。」@
-「俺たちが遊んでくれなかったら、臭くて不潔なだけで、誰にも構ってもらえないくせによ。」\
-
-「ホントだよな、榊は感謝が足りねーよ！」@
-「それをよく思い知らせてやんねーとな。」@
-「明日からは、それをよく理解させるように教育してやんねーとなー。」@
-「教育しねーとなー！」\
-
+;「ホントだよな、榊は感謝が足りねーよ！」@
+`"God, you're right, Sakaki hasn't thanked us enough!"`@`
+;「それをよく思い知らせてやんねーとな。」@
+`"We gotta really make her remember to now."`@`
+;「明日からは、それをよく理解させるように教育してやんねーとなー。」@
+`"Starting tomorrow, we gotta teach her a lesson so she really gets it."`@`
+;「教育しねーとなー！」\
+`"Yeah, gotta teach her a lesson!"`\
 quake 3,300
 
-「「「わっはははははっはっはっはっはっはっはっは！！」」」\
+;「「「わっはははははっはっはっはっはっはっはっは！！」」」\
+`"""Wahhahahahahahahahahahaha!!"""`\
 
 ld r,MAR_i4a,22
 
-　あれだけ酷くいじめておいて、感謝が足りないなんて。@
+;　あれだけ酷くいじめておいて、感謝が足りないなんて。@
+`　To say that by that tormenting alone, she should be grateful.`@`
 br
-　毬枝にとっては、耳を覆いたくなるほどの暴言だった。\
+;　毬枝にとっては、耳を覆いたくなるほどの暴言だった。\
+`　It was such a rash remark that Marie even wanted to cover her ears.`\
 
-　彼らはしばらくの間、機嫌良さそうに笑っていたが、@……やがてそれに飽き、再び、不機嫌な様子に戻る。@
+;　彼らはしばらくの間、機嫌良さそうに笑っていたが、@……やがてそれに飽き、再び、不機嫌な様子に戻る。@
+`　For a little while, the boys were laughing in high spirits,`@` ...but sooner or later, they grew tired of it and once again appeared displeasured as ever.`@`
+
 br
-　彼らは明日、由香里が登校してきて、再びいじめが出来るまで、@ずっとそのまま不機嫌でいるのだろう。\
+;　彼らは明日、由香里が登校してきて、再びいじめが出来るまで、@ずっとそのまま不機嫌でいるのだろう。\
+`　Tomorrow, up until Yukari attends again and they can bully her once more,`@` they would likely be ill-humored like now.
 
 bg black,22
 
@@ -4758,13 +4773,15 @@ ld r,MAR_Def3,22
 
 bgm1 7
 
-　毬枝は彼らの側を少し離れ、考えを整理する。@
+;　毬枝は彼らの側を少し離れ、考えを整理する。@
+`　Marie separated herself from their side and reorganized her thoughts.`@`
 br
-　まず、去年、彼らがいじめていたらしい女子生徒の話。\
-
-　この生徒は、彼らに酷くいじめられていて、事故で死んでしまったらしい。@
+;　まず、去年、彼らがいじめていたらしい女子生徒の話。\
+`　First of all, there was talk of the girl who they apparently bullied last year.`\
+;　この生徒は、彼らに酷くいじめられていて、事故で死んでしまったらしい。@
+`　This student was terribly bullied, and died in an accident.`@`
 br
-　少し、気になったのだが……、@彼らは全員、その去年のいじめに加担していたのだろうか。\
+;　少し、気になったのだが……、@彼らは全員、その去年のいじめに加担していたのだろうか。\
 
 ld r,MAR_Def3a,80
 
