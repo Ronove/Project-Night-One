@@ -4746,11 +4746,11 @@ br
 `　It was such a rash remark that Marie even wanted to cover her ears.`\
 
 ;　彼らはしばらくの間、機嫌良さそうに笑っていたが、@……やがてそれに飽き、再び、不機嫌な様子に戻る。@
-`　For a little while, the boys were laughing in high spirits,`@` ...but sooner or later, they grew tired of it and once again appeared displeasured as ever.`@`
+`　For a little while, the boys were laughing in high spirits,`@` ...but sooner or later, they grew tired of it and once again appeared displeased as ever.`@`
 
 br
 ;　彼らは明日、由香里が登校してきて、再びいじめが出来るまで、@ずっとそのまま不機嫌でいるのだろう。\
-`　Tomorrow, up until Yukari attends again and they can bully her once more,`@` they would likely be ill-humored like now.
+`　Tomorrow, up until Yukari attends again and they can bully her once more,`@` they would likely be ill-humored like now.`\
 
 bg black,22
 
@@ -4774,68 +4774,94 @@ ld r,MAR_Def3,22
 bgm1 7
 
 ;　毬枝は彼らの側を少し離れ、考えを整理する。@
-`　Marie separated herself from their side and reorganized her thoughts.`@`
+`　Marie separated herself from the boys for a moment and reorganized her thoughts.`@`
 br
 ;　まず、去年、彼らがいじめていたらしい女子生徒の話。\
 `　First of all, there was talk of the girl who they apparently bullied last year.`\
 ;　この生徒は、彼らに酷くいじめられていて、事故で死んでしまったらしい。@
-`　This student was terribly bullied, and died in an accident.`@`
+`　This student was bullied terribly and then died in an accident.`@`
 br
 ;　少し、気になったのだが……、@彼らは全員、その去年のいじめに加担していたのだろうか。\
+`　But what was concerning... `@`it seemed that all of them complied with last year's bullying.`\
 
 ld r,MAR_Def3a,80
 
-　普通、いじめというのは同じクラスの中で行なわれるものだ。@
-　他のクラスの子を、わざわざいじめに行くという話は、聞いたことがない。@
+;　普通、いじめというのは同じクラスの中で行なわれるものだ。@
+`　Normally, bullying is something that happens inside the same class.`@
+;　他のクラスの子を、わざわざいじめに行くという話は、聞いたことがない。@
+`　She had never heard of other kids from other classes specifically going out to bully someone.`@
 br
-　なら、……彼らいじめっこグループは全員、去年は同じクラスだったということだろうか。\
+;　なら、……彼らいじめっこグループは全員、去年は同じクラスだったということだろうか。\
+`　Then, ...maybe they, everyone in group of bullies, were in the same class last year.`\
 
-　この学校では、進級する度にクラス替えが行なわれる。@
-　一学年に膨大な数のクラスがある為、@新しいクラスでは、ほとんど顔見知りがいないことも珍しくはない。@
-　その為、以前、同じクラスだった者同士がグループを作るのは、@この学校では珍しい話ではない。\
+;　この学校では、進級する度にクラス替えが行なわれる。@
+`　Students at this school change classes with each new grade level.`@
+;　一学年に膨大な数のクラスがある為、@新しいクラスでは、ほとんど顔見知りがいないことも珍しくはない。@
+`　Since a single grade level has such a vast number of classes, `@`it's not unusual to hardly know anyone in a new class.`@ 
+;　その為、以前、同じクラスだった者同士がグループを作るのは、@この学校では珍しい話ではない。\
+`　Because of that, it wasn't unusual for groups of students who had the same classes before to create groups.`\
 bg black,22
 
-「………元６組の子たちって、何か乱暴よねぇ。」@
-「いっつも、榊さんをいじめてるもんねぇ。」@
-「榊さんもお気の毒にねぇ。@くすくすくすくす。」\
+;「………元６組の子たちって、何か乱暴よねぇ。」@
+`"...Those kids who used to be in class 6, they're kinda rough."`@
+;「いっつも、榊さんをいじめてるもんねぇ。」@
+`"They're alllways picking on Sakaki-san."`@
+;「榊さんもお気の毒にねぇ。@くすくすくすくす。」\
+`"I even feel bad for Sakaki-san. `@`Teeheehee."`\
 
-　不機嫌そうな彼らを見て、女子たちが囁くのが聞こえた。@
+;　不機嫌そうな彼らを見て、女子たちが囁くのが聞こえた。@
+`　Seeing the displeased looking boys, the girls could be heard whispering.`@
 br
-　毬枝は彼女らに近付き、その肩越しに耳を傾ける。\
+;　毬枝は彼女らに近付き、その肩越しに耳を傾ける。\
+`(?)　Marie drew closer to the girls, and listened carefully.`\
 
 ;bg black,24
 bg kyou_02,24
 
-「ほら、知ってる？@　隣のクラスでずいぶん前にあった騒ぎ。」@
-「あー、いじめられっこの女子が、@飛び降りて死ぬ死ぬとか言って、手すりに跨って大騒ぎしたって話ぃ？」@
-「頭おかしー。@けらけらけらけら。」\
+;「ほら、知ってる？@　隣のクラスでずいぶん前にあった騒ぎ。」@
+`"Hey, did'ya know? `@`A long time ago there was a big ruckus in the class next door."`@
+;「あー、いじめられっこの女子が、@飛び降りて死ぬ死ぬとか言って、手すりに跨って大騒ぎしたって話ぃ？」@
+`(?)"Oh yeah, about that bullied girl? `@`Something about telling her to go jump and kill herself or somethin', and they said she was straddling the rails on the roof?"`@
+;「頭おかしー。@けらけらけらけら。」\
+`"So crazy. `@`Hahahahaha"`\
 
-「それさ。@いじめてた女子たちも、みんな元６組らしいよ。」@
-「あー、何か聞いたことあるかも。@元６組出身はいじめっこが多いらしいって噂。」\
+;「それさ。@いじめてた女子たちも、みんな元６組らしいよ。」@
+`"Well. `@`Everyone used to be from class 6, even the bullied girls."`@
+;「あー、何か聞いたことあるかも。@元６組出身はいじめっこが多いらしいって噂。」\
+`"Oh yeah, I think I heard about that. `@`A rumor that lots of bullies used to be in class 6."`\
 
-「センセー言ってたらしいね。@何で元６組の子ばっかり問題を起こすのかーって。」@
-「やだー。@何でー？@　６組って悪い子ばっか集められてたとかー？」@
-「……ほら、覚えてる？@　去年、屋上から転落して死んだ６組の女の子の話……。」\
+;「センセー言ってたらしいね。@何で元６組の子ばっかり問題を起こすのかーって。」@
+`"Didn't 'sensei' say it too? `@`Something like, why are the former class 6 kids causing nothing but trouble~?"`@
+;「やだー。@何でー？@　６組って悪い子ばっか集められてたとかー？」@
+`"Oh man. `@`Why? `@`Maybe it's because class 6 has nothing but bad kids in it?"`@
+;「……ほら、覚えてる？@　去年、屋上から転落して死んだ６組の女の子の話……。」\
+`"...Say, do you remember? `@`That story about the girl who fell off the roof and died being from class 6..."`\
 
 ld l,MAR_def4,22
 
-　三隅、という名の少女の話に違いない。@
+;　三隅、という名の少女の話に違いない。@
+`　They had to be talking about the girl named Misumi.`@
 br
-　事故死ということになっているが、@いじめた当人たちは、きっと自殺に違いないと信じているほどに、@………いじめられていたらしい。\
+;　事故死ということになっているが、@いじめた当人たちは、きっと自殺に違いないと信じているほどに、@………いじめられていたらしい。\
+`　They say her death was accidental, `@`but it seems that the bullied kids had to believe it was suicide, `@`...because it seems they were bullied to do so.`\
 
 bg black,22
 
-　確かに、屋上から転落死で事故、……というのも不自然な話だった。\
+;　確かに、屋上から転落死で事故、……というのも不自然な話だった。\
+`　Certainly, hearing about an accident from falling off the roof... that was strange.`\
 
 ;lsp bgsp,":a;bmp\background\efe\red_waku.bmp",0,0
 ;bg kaidan_04,22
 ;bgcopy
 ;csp -1
 
-　屋上には、授業の一環でもない限り、生徒は出入りすることを禁じられている。@
-　そして、仮に屋上に出たとしても、低くないフェンスで囲まれている。@
+;　屋上には、授業の一環でもない限り、生徒は出入りすることを禁じられている。@
+`　The roof wasn't even a part of classes, and students were prohibited access.`@
+;　そして、仮に屋上に出たとしても、低くないフェンスで囲まれている。@
+`　And even if someone went out on the roof for a time, it was surrounded by a fence that couldn't be described as short.`@
 br
-　そこから、うっかり、事故で、……転落するなんて、確かに考え難い。\
+;　そこから、うっかり、事故で、……転落するなんて、確かに考え難い。\
+`　So from there, for a careless accident to happen like someone falling off the roof... That was hard to imagine.`\
 
 ;bg black,22
 lsp bgsp,":a;bmp\background\efe\red_waku.bmp",0,0
