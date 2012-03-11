@@ -4870,60 +4870,87 @@ bgcopy
 csp -1
 
 
-　彼岸花さんが自殺を唆し、懸命に思い留まるように忠告したけれど聞き入れず、@屋上より身を投げた少女のことを思い出す。\
+;　彼岸花さんが自殺を唆し、懸命に思い留まるように忠告したけれど聞き入れず、@屋上より身を投げた少女のことを思い出す。\
+(?)`　She remembered the girl who threw herself off the roof.`@` Having been tempted to kill herself by Higanbana, and not listening despite being warned that if she didn't stop these thoughts it would risk her life.
 
-　あの少女も、フェンスを自らの意思でよじ登り、そこから跳んだ。@
+;　あの少女も、フェンスを自らの意思でよじ登り、そこから跳んだ。@
+`　That girl also climbed up the fence of her own free will, and jumped.`@`
 br
-　ちょっとしたうっかりやミスなどで、到底、越えられるフェンスではない。\
+;　ちょっとしたうっかりやミスなどで、到底、越えられるフェンスではない。\
+`　There is no possible way that anyone could go over the fence through some careless, petty mistake.`\
 
 bg black,22
 
-　なら、やはり。@
+;　なら、やはり。@
+`　Which means, just as she thought.`@`
 br
-　……元６組のいじめられっこ、三隅さんは、…………自殺……。\
+;　……元６組のいじめられっこ、三隅さんは、…………自殺……。\
+`　...Misumi-san, the former class 6 victim...killed herself...`\
 
 bg kyou_02,22
 
-「屋上は立入禁止なのにねー。@事故で転落とか、ありえないよねぇ。」@
-「ないない。@ありえない。@あれはいじめを苦にした自殺だって、もっぱらの噂だよ…。」@
-「ガッコーがインペーして、事故ってことにしたんだろうねぇ。」\
+;「屋上は立入禁止なのにねー。@事故で転落とか、ありえないよねぇ。」@
+`"Even though the roof was supposed to be off limits.`@` There's no way she fell by accident."`@`
+;「ないない。@ありえない。@あれはいじめを苦にした自殺だって、もっぱらの噂だよ…。」@
+`"Well, yeah!`@` It's totally impossible.`@` You know, they say that she killed herself after facing the cruelty of bullying, but that's totally a rumor..."`@`
+;「ガッコーがインペーして、事故ってことにしたんだろうねぇ。」\
+`"I bet the school covered it up and said it was an accident."`\
 
-「その死んだ子。@……クラス全員にいじめられてたらしいよ？」@
-「全員？」@
-「うん。@全員。」\
+;「その死んだ子。@……クラス全員にいじめられてたらしいよ？」@
+`"You know the dead girl?`@` ...I heard she was bullied by everyone in the class."`@`
+;「全員？」@
+`"By everyone?"`@`
+;「うん。@全員。」\
+`"Yup.`@` Every last one of them."`\
 
 ;bg black,23
 ;bg kyou_02,23
 
 ld r,MAR_def4a,22
 
-　……クラス全員が、いじめ？@
+;　……クラス全員が、いじめ？@
+`　...She was bullied, by the entire class?`@`
 br
-　毬枝は耳を疑う。@
-　それはもちろん、話を聞いている女子たちもだった。\
+;　毬枝は耳を疑う。@
+`　Marie doubted her own ears.`@`
+;　それはもちろん、話を聞いている女子たちもだった。\
+`　And of course, the girls she was overhearing did too.`\
 
-　普通、いじめっこというのは数人だ。@
-　それをクラスの大勢が、傍観したり、あるいは囃し立てたりするが、……それはいじめていることにはカウントしない。@
+;　普通、いじめっこというのは数人だ。@
+`　Usually, when talking about bullying it's only a couple of people.`@`
+;　それをクラスの大勢が、傍観したり、あるいは囃し立てたりするが、……それはいじめていることにはカウントしない。@
+`　Then the majority of the class would be onlookers, or possibly might even cheer it on, but...that wouldn't count as bullying.`@`
+
 br
-　その、主体的ないじめっこが、クラス全員……？\
+;　その、主体的ないじめっこが、クラス全員……？\
+`　So, the entire class was actively responsible for the bullying of that girl...?`\
 
-「うん。@６組全員でいじめてたらしいよ。@もー、ほとんど、袋叩きのフルボッコ状態。」@
-「………………………………。」\
+;「うん。@６組全員でいじめてたらしいよ。@もー、ほとんど、袋叩きのフルボッコ状態。」@
+`"Yup.`@` I heard that all of Class 6 bullied her.`@` Seriously, most of the time it was a situation where they'd all gang up on her and beat the crap out of her."`@`
+;「………………………………。」\
+`"......"`\
 
-「……でも、尾崎くんたち見てるとわかるよね。@元６組って、何か、いじめ大好きな感じ。」@
-「今だって、榊さんをいじめられないから、イラついてカーテン蹴ってるわけでしょ。」@
-「そんなにもいじめが楽しいのかしらねー。」\
+;「……でも、尾崎くんたち見てるとわかるよね。@元６組って、何か、いじめ大好きな感じ。」@
+`"...But looking at Ozaki-kun and the others, you get a feel for it.`@` Like that former Class 6, seriously loved to bully people."`@`
+;「今だって、榊さんをいじめられないから、イラついてカーテン蹴ってるわけでしょ。」@
+`"Even now, since they can't bully Sakaki-san, they're taking out their frustrations by kicking curtains, aren't they?"`@`
+;「そんなにもいじめが楽しいのかしらねー。」\
+`"I wonder if bullying is actually all that fun..."`\
 
-「あいつら、いつも言ってるじゃない。@去年の女が一番、いじめ甲斐があって楽しかったって。@榊さんじゃ、ひとつ物足りない、ってー。」@
-「何それ、あれだけいじめといてひっどーい。@きゃっははははは。」\
+;「あいつら、いつも言ってるじゃない。@去年の女が一番、いじめ甲斐があって楽しかったって。@榊さんじゃ、ひとつ物足りない、ってー。」@
+`"Those guys are always saying that, aren't they?`@` Last year's girl was the best, the most incredible fun they've ever had.`@` And how they're never gonna be fully satisfied with just Sakaki."`@`
+;「何それ、あれだけいじめといてひっどーい。@きゃっははははは。」\
+`"What the hell, going so far just to bully someone is awful!!!`@` Ahahaha."`\
 
 cl r,22
 
-　そこまでを聞き、毬枝は彼女らの側を離れる。@
+;　そこまでを聞き、毬枝は彼女らの側を離れる。@
+`　Hearing up to that point, Marie separated herself from the girls.`@`
 br
-　日向は妖怪の身には少し辛い。@
-　影に入り、聞いた話を再び整理する……。\
-
+;　日向は妖怪の身には少し辛い。@
+`　It was a bit painful to uphold her form in the sun.`@`
+;　影に入り、聞いた話を再び整理する……。\
+`　Entering the shadows, she once again put in order what she had heard...`\
 
 
 
