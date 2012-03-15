@@ -4968,32 +4968,45 @@ bg black,22
 
 me1v 16,50
 
-　去年。@彼らの６組で、何があったのだろう。@
+;　去年。@彼らの６組で、何があったのだろう。@
+`　Last year.`@` Something happened, in class 6.`@`
 br
-　そして、元６組の子のほとんどがいじめっこになって、@各々のクラスに散っているらしいという噂。\
+;　そして、元６組の子のほとんどがいじめっこになって、@各々のクラスに散っているらしいという噂。\
+`　Then the former class 6, most of the children having become bullies,`@` were rumored to have been scattered among all the other classes.`\
 
-　由香里を執拗にいじめ続ける彼らを理解するには、@……彼らが去年を過ごした、元６組を知る必要がある気がする。@
+;　由香里を執拗にいじめ続ける彼らを理解するには、@……彼らが去年を過ごした、元６組を知る必要がある気がする。@
+`　To comprehend their persistent bullying of Yukari,`@` ...she had the feeling she would have to understand how the former class 6 spent their last year.`@`
+
 br
-　彼らは、本当にただのいじめっこなのだろうか…？\
+;　彼らは、本当にただのいじめっこなのだろうか…？\
+`　Were they, really just ordinary bullies...?`\
 
 ld c,MAR_I4,22
 
-　彼岸花も、他のクラスメートたちも、それ以上のものとは思っていない。@
+;　彼岸花も、他のクラスメートたちも、それ以上のものとは思っていない。@
+`　Higanbana and the other classmates seemed to think that.`@`
 br
-　しかし、毬枝はそうだと納得することが出来ず、さらに調べる決意をする。@
-　由香里を救う方法が思い付かない今。@出来ることは何でもするつもりだった。\
+;　しかし、毬枝はそうだと納得することが出来ず、さらに調べる決意をする。@
+`　However, Marie could not accept that as truth, and was further determined to research more.`@`
+;　由香里を救う方法が思い付かない今。@出来ることは何でもするつもりだった。\
+`　She could not figure a method to rescue Yukari now.`@` But she planned to do whatever it took.`\
 
 ;bg black,22
 bg kyou_01,2
 
-　その日より、毬枝は教室より姿を消す。@
+;　その日より、毬枝は教室より姿を消す。@
+`　From that day, Marie erased her presence from the classroom.`@`
 br
-　何かを究明できるまでの間、由香里がいじめに耐え、@彼岸花を初めとする妖怪たちの囁きに耳を貸さないでくれるよう、祈るばかりだった……。\
+;　何かを究明できるまでの間、由香里がいじめに耐え、@彼岸花を初めとする妖怪たちの囁きに耳を貸さないでくれるよう、祈るばかりだった……。\
+`　Just while Marie investigates, Yukari will need to withstand the bullying,`@` and she could only pray that Yukari does not lend her ear to Higanbana or the other youkai's tempting...`\
 
-　だが。@
+;　だが。@
+`　However.`@`
 br
-　毬枝はおろか、由香里さえも想像し得なかった形で。@
-　彼女へのいじめは、唐突に終止符を打たれることとなる……。\
+;　毬枝はおろか、由香里さえも想像し得なかった形で。@
+`　Needless to say, in a way that Yukari could never possibly imagine,`@`
+;　彼女へのいじめは、唐突に終止符を打たれることとなる……。\
+`　Marie was able to put a sudden stop to Yukari's bullying...`\
 
 bg black,2
 bgcopy ;背景をリセット
@@ -5012,49 +5025,64 @@ ld r,YUK_def2,22
 
 me1v 24,50
 
-　先日の風邪も治り、……私は再び、学校へ戻った。\
+;　先日の風邪も治り、……私は再び、学校へ戻った。\
+`　After recovering from yesterday's cold, ...I once again returned to school.`\
 
-　昔は、欠席の次の日の学校が嫌いだった。@
+;　昔は、欠席の次の日の学校が嫌いだった。@
+`　In the past, I hated coming back the day after being absent from school.`@`
 br
-　自分のいなかった一日の間に、何もかもが全て変わってしまって、@自分だけが置いてけぼりにされているのではないかという、怯えがあったからだ。\
+;　自分のいなかった一日の間に、何もかもが全て変わってしまって、@自分だけが置いてけぼりにされているのではないかという、怯えがあったからだ。\
+`　In the one day I was gone, everything would completely change.`@` It wasn't to say that was because I was the only one who was left out, but it was because I was afraid.`\
 
-　なら、幸いにも、今回はそれはなかった。@
-　いや、あるいは不幸にも、というべきか。@
+;　なら、幸いにも、今回はそれはなかった。@
+`　So in that case, I should feel lucky that didn't happen this time.`@`
+;　いや、あるいは不幸にも、というべきか。@
+`　No, perhaps I should feel unlucky.`@`
+
 br
-　私が休んだ、たった一日の間には、何も起こりも変わりもしない。\
+;　私が休んだ、たった一日の間には、何も起こりも変わりもしない。\
+`　In just that one day I was gone, nothing happened or changed.`\
 
-　それまでの日々とまったく変わらない、@……意地悪な彼らに纏わりつかれる、辛く疲れ果てた日々が再開するだけだった。\
-
+;　それまでの日々とまったく変わらない、@……意地悪な彼らに纏わりつかれる、辛く疲れ果てた日々が再開するだけだった。\
+`　So up until that day, absolutely nothing changed,`@` ...all that happened was that those awful boys she'd grown tired of being with, would resume their exhausting, horrible treatment.`\
 bg black,23
 bg kyou_02,23
 
-　今日も登校してくるなり、臭い臭い、近寄るなと囃し立てられる。@
+;　今日も登校してくるなり、臭い臭い、近寄るなと囃し立てられる。@
+`　Since today she came back to school, they'd be able to jeer openly with things like, 'you stink!' and 'don't come near me!'`@`
 br
-　……今は、臭いなんてこと、絶対にないのに。@
-　でも彼らは鼻を摘み、さも私から酷い臭いが漂うかのような仕草をして、私をからかう…。\
-
+;　……今は、臭いなんてこと、絶対にないのに。@
+`　...Even though there's no possible way she could be stinky now.`@`
+;　でも彼らは鼻を摘み、さも私から酷い臭いが漂うかのような仕草をして、私をからかう…。\
+`　Regardless, they would pinch their noses, acting like some sort of terrible stench was coming from me, and mock me...`\
 ld r,YUK_def3a,22
 
-　………反応しちゃ駄目だ。@
+;　………反応しちゃ駄目だ。@
+`　...Just don't react.`@`
 br
-　私が反応すれば、彼らを面白がらせてしまう。@
-　彼らだって、私が反応を示してくれないので、どこか面白くないはずなのだ。\
+;　私が反応すれば、彼らを面白がらせてしまう。@
+`　If I react, they'll have even more fun.`@`
+;　彼らだって、私が反応を示してくれないので、どこか面白くないはずなのだ。\
+`　So for them, if I don't give them any reaction, they shouldn't be able to find anything fun about it.`\
 
-　彼らは、私が人間だからいじめる。@
+;　彼らは、私が人間だからいじめる。@
+`　They bully me, because I'm human.`@`
 br
-　私がしゃべらず、反応もしない、石のお地蔵さんだったら、彼らはいじめるわけもないのだ。\
-
+;　私がしゃべらず、反応もしない、石のお地蔵さんだったら、彼らはいじめるわけもないのだ。\
+`　If I do not speak and do not react, like a stone jizo statue, they would have no reason to bully me.`\
 ;bg black,22
 ld r,YUK_def2a,22
 
-　……私は、石。@
-br
-　そう信じて、今日も一日、……長い一日を乗り越えていこう……。\
+;　……私は、石。@
+`　...I am a rock.`@`
 
+br
+;　そう信じて、今日も一日、……長い一日を乗り越えていこう……。\
+`　Believing this, for today all day, ...I go to overcome my long day...`\
 cl r,25
 
-　少なくとも朝の時点では、私も今日という一日が、@……そして今日からという日々が、これまでと違うものになるとは、想像もしなかった。\
-
+;　少なくとも朝の時点では、私も今日という一日が、@……そして今日からという日々が、これまでと違うものになるとは、想像もしなかった。\
+`　At the very least, the morning of the one day called today...`@` and for every day after today, was something so different she could not possibly imagine it.`\
 bg black,22
 
 se1 69
@@ -5064,7 +5092,8 @@ E_MA
 
 bg kyou_01,2
 
-「今日は、皆さんに新しいお友達を紹介します。@……さぁ、入って。」\
+;「今日は、皆さんに新しいお友達を紹介します。@……さぁ、入って。」\
+`"Today, I have a new friend to introduce to all of you.`@` ...Alright, come on in."`\
 
 ;mbg white,64
 ;mcbg 24
@@ -5072,13 +5101,17 @@ ld c,SMI_Def5,2
 
 bgm1 8
 
-　朝のホームルームで告げた、先生の唐突な一言に、クラス中がざわめく。@
+;　朝のホームルームで告げた、先生の唐突な一言に、クラス中がざわめく。@
+`　The morning homeroom stirred with sound at the sudden announcement the teacher gave.`@`
 br
-　何と、転校生だった。\
+;　何と、転校生だった。\
+`　Wow, a transfer student.`\
 
-　この町には大きな工場や会社があり、@親の都合などで、季節を問わず、頻繁に転校が起こっている。@
+;　この町には大きな工場や会社があり、@親の都合などで、季節を問わず、頻繁に転校が起こっている。@
+`　This town has large factories and companies,`@` depending on parental circumstances and the like, without any care for the season, people transfering was a frequent occurance.`@`
 br
-　だから、他の学校だったら珍しいような、この時期の転校生も、@ここでは決して珍しいことではなかった。\
+;　だから、他の学校だったら珍しいような、この時期の転校生も、@ここでは決して珍しいことではなかった。\
+`　
 
 　しかしそれでも、転校生というイベントは稀なもの。@
 br
