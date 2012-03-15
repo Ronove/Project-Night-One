@@ -5111,78 +5111,102 @@ br
 `　This town has large factories and companies,`@` depending on parental circumstances and the like, without any care for the season, people transfering was a frequent occurance.`@`
 br
 ;　だから、他の学校だったら珍しいような、この時期の転校生も、@ここでは決して珍しいことではなかった。\
-`　
+`　That's why, while if it were at any other school it would have been rare to have a transfer student at this time,`@` here it's hardly an unusual thing.`\
 
-　しかしそれでも、転校生というイベントは稀なもの。@
+;　しかしそれでも、転校生というイベントは稀なもの。@
+`　However, the event of having a transfer student was a rare thing.
 br
-　教室中が浮かれるようにざわめいていた。\
+;　教室中が浮かれるようにざわめいていた。\
+`　The class was murmuring in an out of place way.`\
 
 ld c,SMI_Def3a,80
 
-「………お、……大住玲子（おおすみ　れいこ）です…。@……よ、よろしくお願いします……。」\
+;「………お、……大住玲子（おおすみ　れいこ）です…。@……よ、よろしくお願いします……。」\
+`"...I'm...Oosumi Reiko...`@` ...I, it's a pleasure to meet you..."`\
 
-　人前で話すのが苦手な性分なのか、あるいは緊張しすぎているのか。@
+;　人前で話すのが苦手な性分なのか、あるいは緊張しすぎているのか。@
+`　Either she was not very good at public speaking, or she was too nervous.`@`
 br
-　消え入りそうな声での自己紹介だった。\
+;　消え入りそうな声での自己紹介だった。\
+`　It was a self-introduction made with a voice that seemed it would vanish.`\
 
-　色白で、……お人形さんのような子、というよりは、病弱そうな子、という印象だった。@
+;　色白で、……お人形さんのような子、というよりは、病弱そうな子、という印象だった。@
+`　She was fair-skinned, ...a girl like a doll. Perhaps it would be better to say she gave the impression of being a very frail girl.`@`
 br
-　それを彼女なりにがんばって元気に見せようと振る舞っているらしいのが、逆に痛々しくて、@むしろその印象を強めてしまっている。\
-
+;　それを彼女なりにがんばって元気に見せようと振る舞っているらしいのが、逆に痛々しくて、@むしろその印象を強めてしまっている。\
+`　It seemed like she was trying to energetically show us how hard she tried in her own way, but instead it just seemed pitiful.`@` Rather, it strengthened that impression.`\
 bg black,22
 bg kyou_03,22
 
 me1v 24,50
 
-「転校生も来たことだし、席替えをします。@目の悪い人は先に先生に言って下さい。」@
+;「転校生も来たことだし、席替えをします。@目の悪い人は先に先生に言って下さい。」@
+`"Since we now have a transfer student, we'll be moving to new seats.`@` If you have poor vision, please tell me ahead of time."`@`
 br
-　席替えのためだけにわざわざ作ったというクジを引き、全員の席がランダムに替わる。\
+;　席替えのためだけにわざわざ作ったというクジを引き、全員の席がランダムに替わる。\
+`　A drawing specifically created for changing seats, made it so that the change would be completely random.`\
 
-　私の席は、元と同じ列の前から２番目。@
+;　私の席は、元と同じ列の前から２番目。@
+`　My seat is now two seats from the front of the same row as my original.`@`
 br
-　私の前には、転校生が座ることになった。\
+;　私の前には、転校生が座ることになった。\
+`　Sitting in front of me, is the new transfer student.`\
 
 bg black,22
 bg kyou_01,22
 ld l,SMI_Def5a,22
 
-「……あ、あの、……よろしくお願いします……。」@
+;「……あ、あの、……よろしくお願いします……。」@
+`"...E, er, ...nice to meet you..."`@`
 
 ld r,YUK_W3,22
 
-「こ、こちらこそ。@榊です。@わからないことがあったら、何でも聞いてね。」\
+;「こ、こちらこそ。@榊です。@わからないことがあったら、何でも聞いてね。」\
+`"N, nice to meet you too.`@` I'm Sakaki.`@` If there's anything you need help with, you can ask me anything."`\
 
 ld l,SMI_Def3a,80
 
-「……わ、わからないことだらけで……。@実は、学校に来る道さえまだ、よく……。」\
+;「……わ、わからないことだらけで……。@実は、学校に来る道さえまだ、よく……。」\
+`"...Th, there's a lot I don't understand...`@` To tell the truth, I still don't even know the road to get to school all that well..."`\
 
 ld r,YUK_W4,80
 
-「それじゃ、今日の帰り道は？」@
+;「それじゃ、今日の帰り道は？」@
+`"Well then, how about your way home today?"`@`
 
 ld l,SMI_Def4a,80
 
-「えっと………。@……実は、………自信ないんです……。@……てへへ……。」\
+;「えっと………。@……実は、………自信ないんです……。@……てへへ……。」\
+`"Er...`@` ...Well...I don't really have confidence...`@` ...Ehehe..."`\
 
-　彼女なりに精一杯茶化そうとしたのだろうが、何というか、勢いがなくてむしろ痛々しい。@
+;　彼女なりに精一杯茶化そうとしたのだろうが、何というか、勢いがなくてむしろ痛々しい。@
+`　She was probably giving it her best to poke fun at herself or something, but she didn't have any energy in it, so it was just pathetic.`@`
 br
-　本来、彼女は元気な性分ではないのだろう。\
+;　本来、彼女は元気な性分ではないのだろう。\
+`　It's likely she naturally doesn't have an energetic disposition.`\
 
-　でも、そのせいで前の学校では苦労したに違いない。@
+;　でも、そのせいで前の学校では苦労したに違いない。@
+`　But, because of that she had to have had hardships at her former school.`@`
 br
-　だから転校を機に自分を変えようと精一杯努力して……、@というのが、このやりとりだけで、察することが出来た。\
+;　だから転校を機に自分を変えようと精一杯努力して……、@というのが、このやりとりだけで、察することが出来た。\
+`　Therefore, at the opportunity to change schools, she must be working very hard to change herself...`@` I was able to deduce this just through this exchange.`\
 
 ld r,YUK_W2,80
 
-　でも、ひとつだけ、とても大事なこともわかる。@
+;　でも、ひとつだけ、とても大事なこともわかる。@
+`　However, she also understood there was just one, very important thing.
 br
-　それは彼女が、私をいじめるような悪い人ではない、ということだ。\
+;　それは彼女が、私をいじめるような悪い人ではない、ということだ。\
+`　That was that she was not a bad person that would hurt her.`\
 
-　彼女も恐らく、同じことを思ってくれたのだろう。@
+;　彼女も恐らく、同じことを思ってくれたのだろう。@
+`　It was likely that she was thinking the same thing.`@`
 br
-　私たちは、すぐに友達になり。@
+;　私たちは、すぐに友達になり。@
+`　We should become friends right away.`@`
 br
-　私は本当に久しぶりに、友人と一緒に帰宅することを楽しむのだった。\
+;　私は本当に久しぶりに、友人と一緒に帰宅することを楽しむのだった。\
+`　I was truly looking forward to walking home with a friend for the first time in so long.`\
 
 bg black,2
 fede 0,2000
