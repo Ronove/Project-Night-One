@@ -5230,264 +5230,343 @@ wait 2000
 bg roji_02,2
 ld l,YUK_W1,23
 
-「四丁目なんだ。@じゃあ、すぐ近くまで一緒だね。」@
+;「四丁目なんだ。@じゃあ、すぐ近くまで一緒だね。」@
+`"So you're on the fourth block.`@` Then pretty close together, aren't we?"`@`
 
 ld r,SMI_Def5,24
 
-「……ほ、本当に助かりました……。@……ひとりじゃ、……帰れないかなって思ってたので。@……てへへ…。」\
+;「……ほ、本当に助かりました……。@……ひとりじゃ、……帰れないかなって思ってたので。@……てへへ…。」\
+`"...Th, thank you so much...`@` ...If I were alone...I thought I wouldn't make it home.`@` ...Ehehe..."`\
 
 ld l,YUK_W2,80
 
-「大住玲子さん、だっけ。@……これからは玲子ちゃんって呼んでいい？」@
+;「大住玲子さん、だっけ。@……これからは玲子ちゃんって呼んでいい？」@
+`"Reiko Oosumi-san, right?`@` ...Could I call you Reiko-chan?"`@`
 
 ld r,SMI_Def3,80
 
-「え、………あ、……はっ、はい……。」\
+;「え、………あ、……はっ、はい……。」\
+`"Eh, ...ah, ...y, yes..."`\
 
 ld l,YUK_W3,80
 
-「そんなに畏まらなくていいよ。@別に私、いじめたりなんかしないし。@……というかむしろ、いじめられっこだし。」\
+;「そんなに畏まらなくていいよ。@別に私、いじめたりなんかしないし。@……というかむしろ、いじめられっこだし。」\
+`"You don't have to be so formal.`@` I mean, it's not like I'll bully you or anything.`@` ...Well, actually, I've been bullied myself."`\
 
 ld r,SMI_Def4a,80
 
-「ぇ、……ぁ、……私も、……いじめられっこ、……ですし。」@
+;「ぇ、……ぁ、……私も、……いじめられっこ、……ですし。」@
+`"Eh, ...ah, ...Me too, ...I've also, ...been bullied."`@`
 
 ld l,YUK_def3a,80
 
-「え？@　……そうだったの？」\
+;「え？@　……そうだったの？」\
+`"Eh?`@` ...Seriously?"`\
 
 bg black,22
 
-　とは言うものの、何となく察してはいた。@
-br
-　いじめられっこ同士でしかわかりあえない、波長のようなものを、ずっと感じていた。\
+;　とは言うものの、何となく察してはいた。@
+`　Even saying that, I kind of figured as much.`@`
 
-　玲子ちゃんも、前の学校では、ひどくいじめられていたという。@
-　クラスメートに、臭いとか汚いとか言われて、いつもいじめられていたという。@
 br
-　私もそれを打ち明ける。\
+;　いじめられっこ同士でしかわかりあえない、波長のようなものを、ずっと感じていた。\
+`　I'd been feeling it the whole time, something that only fellow bullied students could understand, something like a wavelength.`\
+
+;　玲子ちゃんも、前の学校では、ひどくいじめられていたという。@
+`　That Reiko-chan was also horribly bullied at her former school.`@`
+;　クラスメートに、臭いとか汚いとか言われて、いつもいじめられていたという。@
+`　That she had always been bullied by her classmates, being called stinky and dirty.`@`
+
+br
+;　私もそれを打ち明ける。\
+`　I also opened my heart.`\
 
 bg roji_03,22
 
 ;ld r,SMI_Def3a,80
 
-「え、……じゃあ、榊さんも…？」@
+;「え、……じゃあ、榊さんも…？」@
+`"Eh, ...so, you were too...?"`@`
 
 ;ld l,YUK_Def2a,80
 
-「うん。@……お互い、辛いね。」@
+;「うん。@……お互い、辛いね。」@
+`"Yeah.`@` ...It's mutually painful, huh?"`@`
 
 ;ld r,SMI_Def2,80
 
-「…………可哀想に…。」\
+;「…………可哀想に…。」\
+`"...Sadly enough..."`\
 
 bg black,24
 bg roji_01,0
 ld r,YUK_Def3a,24
 ld r,YUK_Def4a,80
 
-「嫌だね。@どうしてどこの学校にも、いじめがあるんだろうね。」@
+;「嫌だね。@どうしてどこの学校にも、いじめがあるんだろうね。」@
+`"It's just awful.`@` I wonder why there's hazing at this school too."`@`
 
 ld l,SMI_Def5,23
 
-「仕方ないんですよ、きっと。」@
+;「仕方ないんですよ、きっと。」@
+`"I guess it can't be helped."`@`
 
 ld r,YUK_def3,80
 
-「仕方ないって？」\
+;「仕方ないって？」\
+`"What can't be helped?"`\
 
 ld l,SMI_Def3,80
 
-「……人間だって、生きるために動物を殺して、植物を引き抜いて、ご飯を食べるじゃないですか。@……動物も植物も何も殺さずに、人間は生きていけません。」@
+;「……人間だって、生きるために動物を殺して、植物を引き抜いて、ご飯を食べるじゃないですか。@……動物も植物も何も殺さずに、人間は生きていけません。」@
+`"...Well, just to live, humans have to kill animals and tear plants out to make their meals, right?`@` ...If they don't kill animals, plants, or anything at all, humans can't live."`@`
 
 ld r,YUK_Def3a,80
 
-「それは、……生きるためには仕方ないからであって、……いじめとは……。」\
+;「それは、……生きるためには仕方ないからであって、……いじめとは……。」\
+`"So, ...bullying...is something that can't be helped in order for people to live..."`\
 
 ld l,SMI_Def5,80
 
-「……私、思うんです。@……きっと、いじめというものには、栄養があるんじゃないでしょうか。」@
-
+;「……私、思うんです。@……きっと、いじめというものには、栄養があるんじゃないでしょうか。」@
+`"...I think so.`@` ...Maybe, this thing called bullying just, has some kind of nourishment."`@`
 ld r,YUK_N1,80
 
-「え、……栄養……？」\
+;「え、……栄養……？」\
+`"Eh, ...nourishment...?"`\
 
 bg black,22
 
-　そんなとんでもないことを言い出す玲子ちゃんの顔は、笑顔ではあったが、少し寂しげだった。\
+;　そんなとんでもないことを言い出す玲子ちゃんの顔は、笑顔ではあったが、少し寂しげだった。\
+`　After saying something so ridiculous, Reiko-chan had a smile on, but it was a little lonely.`\
 
 bg roji_04,22
 ld c,SMI_Def4,22
 
-「人間は、常に自分が不安になる生き物です。@……自分が、誰かに劣っていないか、常に気にしていないと不安になる生き物。」@
+;「人間は、常に自分が不安になる生き物です。@……自分が、誰かに劣っていないか、常に気にしていないと不安になる生き物。」@
+`"Humans are creatures that are always insecure with themselves.`@` ...They are creatures that are always uneasy about whether they are inferior to someone or something."`@`
 
 ld l,YUK_Def2a,22
 
-「………………………。」\
+;「………………………。」\
+`"............"`\
 
 ld c,SMI_Def3a,80
 
-「そんな気持ちになった時。@……身近に、自分より劣った人間がいてくれて、自分が劣ってないことを実感させてくれたなら、@……心も満たされて、落ち着くんじゃないでしょうか。」\
+;「そんな気持ちになった時。@……身近に、自分より劣った人間がいてくれて、自分が劣ってないことを実感させてくれたなら、@……心も満たされて、落ち着くんじゃないでしょうか。」\
+`"When you start feeling that.`@` ...If there is someone lesser than you nearby, then they make you actually feel like you're not inferior,`@` ...Maybe it appeases and calms their heart."`\
 
 cl c,0
 ld r,SMI_Def5,24
 
-「……これって、足りなくなった心の栄養を、補給してるんだと思うんです。@その、………山羊さんが、塩分を補給するために、岩を舐めるみたいな感じ…。@……てへへ……。」\
+;「……これって、足りなくなった心の栄養を、補給してるんだと思うんです。@その、………山羊さんが、塩分を補給するために、岩を舐めるみたいな感じ…。@……てへへ……。」\
+`"...I believe that, this is supplying the heart's nutrition.`@` Er, ...like how in order to supply a goat's salt content, they have to lick rocks...`@` ...Ehehe..."`\
 
 ld l,YUK_Def4,80
 
-「そんな栄養、……本当にあるのかな……。」@
+;「そんな栄養、……本当にあるのかな……。」@
+`"I wonder if there actually is, ...that kind of nutrition..."`@`
 
 ld r,SMI_Def3,80
 
-「あると思いますよ。@……だって、私たち。@……今、それを感じていませんか？」@
+;「あると思いますよ。@……だって、私たち。@……今、それを感じていませんか？」@
+`"I think there is.`@` ...I mean, look at us.`@` ...Aren't we both feeling it?"`@`
 
 ld l,YUK_Def3a,80
 
-「………え？」\
+;「………え？」\
+`"...Huh?"`\
 
 bg black,22
 bg roji_03,22
 
-　玲子ちゃんはそう言い、夕焼け色に染まった顔で振り返る。@
+;　玲子ちゃんはそう言い、夕焼け色に染まった顔で振り返る。@
+`　Saying that, Reiko-chan turned around, her face dyed with the colors of the sunset.`@`
 br
-　夕日が眩しくて、どんな表情をしているのか、見えない。\
+;　夕日が眩しくて、どんな表情をしているのか、見えない。\
+`　The evening sun was bright, and I couldn't see what expression she was making.`\
 
-「……先に、謝ります。@……私、榊さんにさっき、自分もいじめられっこだったって聞かされて、……すごく心が安らいだんです。@………ひょっとして、それは榊さんもじゃないですか？」@
-「…………それは……、………。」\
+;「……先に、謝ります。@……私、榊さんにさっき、自分もいじめられっこだったって聞かされて、……すごく心が安らいだんです。@………ひょっとして、それは榊さんもじゃないですか？」@
+`"...I apologize for earlier.`@` ...When I heard that you were bullied too, ...it really put me at ease.`@` ...By any chance, did you feel the same, Sakaki-san?"`@`
+;「…………それは……、………。」\
+`"...That's..."`\
 
-　否定の言葉を口にしようとするが、すぐにそれは詰まってしまう。@
+;　否定の言葉を口にしようとするが、すぐにそれは詰まってしまう。@
+`　I wanted to deny it, but it was instantly blocked.`@`
 br
-　確かに私は感じてしまった。@
-　玲子ちゃんもいじめられっこだったと聞き、……安堵してしまった。\
+;　確かに私は感じてしまった。@
+`　It's true that I did feel that way.`@`
+;　玲子ちゃんもいじめられっこだったと聞き、……安堵してしまった。\
+`　When I heard Reiko-chan was bullied too, ...I was relieved.`\
 
 bg black,22
 
-　どうして安堵を？@
-br
-　自分の境遇を理解してくれる人に出会えたから？\
+;　どうして安堵を？@
+`　Why was I relieved?`@`
 
-　少し違う。@
-　………確認できたからだ。@
 br
-　少なくとも。@……自分がクラスの、ひとりぼっちの最底辺ではないと、確認できたからだ。\
+;　自分の境遇を理解してくれる人に出会えたから？\
+`　Because I met someone who could comprehend these circumstances?`\
+
+;　少し違う。@
+`　It's a little different.`@`
+;　………確認できたからだ。@
+`　...Because I was able to affirm it.`@`
+
+br
+;　少なくとも。@……自分がクラスの、ひとりぼっちの最底辺ではないと、確認できたからだ。\
+`　At the very least.`@` ...It was because I could confirm that I wouldn't be all alone at the bottom of the class.`\
 
 bg roji_04,0
 ld r,SMI_Def4,22
 ld r,SMI_Def3,80
 
-「……昔、先生にこんな話をされたんです。@……上ばかり見ていても、羨ましいだけできりがない。@それよりも下を見て、自分が如何に満たされているかを気付きなさい、って。」\
+;「……昔、先生にこんな話をされたんです。@……上ばかり見ていても、羨ましいだけできりがない。@それよりも下を見て、自分が如何に満たされているかを気付きなさい、って。」\
+`"...A while ago, my teacher told me this.`@` ...If you're only looking at the top, you can't feel anything but endless jealousy.`@` So more than that, you need to look to the bottom and realize how lucky you are."`\
 
 ld l,YUK_Def3,23
 
-「もっと恵まれない人たちもいるから、わがままを言っちゃいけないって、@私もお父さんに言われたことがあるかも…。」@
+;「もっと恵まれない人たちもいるから、わがままを言っちゃいけないって、@私もお父さんに言われたことがあるかも…。」@
+`"Since there are people who are less fortunate, you shouldn't say selfish things.`@` I think my father told me that once too..."`@`
 
 ld r,SMI_Def5,80
 
-「ほら。@……それってつまり、そういうことですよね……？」\
+;「ほら。@……それってつまり、そういうことですよね……？」\
+`"There you have it.`@` ...In short, that's the same thing, right...?"`\
 
-　自分より劣る人間を見ることで、自分を満たすという行為。@
+;　自分より劣る人間を見ることで、自分を満たすという行為。@
+`　By looking at people lesser than yourself, you can feel better about yourself.`@`
 br
-　今までは美辞麗句に聞こえていたはずなのに、@………玲子ちゃんに質されると、複雑な気持ちになってしまう…。\
+;　今までは美辞麗句に聞こえていたはずなのに、@………玲子ちゃんに質されると、複雑な気持ちになってしまう…。\
+`　Even though it should have just been flowery words I'd been hearing up until now, `@`...after hearing it from Reiko-chan, all these complicated emotions come up...`\
 
 ld r,SMI_Def1a,80
 
-「私たち、いじめられっこっていうのは、……その、“下”の役なんだと思うんです。@私たちが存在することを知ることで、@……クラスメートたちは、自分が満たされているんだと、確認することが出来る。」\
+;「私たち、いじめられっこっていうのは、……その、“下”の役なんだと思うんです。@私たちが存在することを知ることで、@……クラスメートたちは、自分が満たされているんだと、確認することが出来る。」\
+`"I think that we, the bullied, ...are that 'bottom' to people.`@` Just by knowing we exist,`@` ...our classmates can reaffirm how lucky they are."`\
 
 ld r,SMI_Def5,80
 
-「……だから私たちはきっと、……そんなクラスメートたちに、心の栄養を与える役目、@……だと思うんです。」@
-
+;「……だから私たちはきっと、……そんなクラスメートたちに、心の栄養を与える役目、@……だと思うんです。」@
+`"...That's got to be why, ...we have the duty of being our classmates' nourishment for their hearts.`@` ...That's what I think."`@`
 ld l,YUK_Def2a,80
 
-「……………………………。」\
+;「……………………………。」\
+`".........."`\
 
 ld r,SMI_Def4a,80
 
-「……私だって、いじめられっこになんか、なりたくありません。@……でも、その役目が与えられてしまったなら。@……それを全うすることで、……クラスのみんなの役にも、立てるんじゃないでしょうか。」\
-
+;「……私だって、いじめられっこになんか、なりたくありません。@……でも、その役目が与えられてしまったなら。@……それを全うすることで、……クラスのみんなの役にも、立てるんじゃないでしょうか。」\
+`"...I didn't want to be bullied.`@` ...But if I was given this duty.`@` ...Then by carrying that out, ...maybe I can be of use to my class."`\
 ld l,YUK_Def3a,80
 
-　詭弁だと思う。@いじめられっことして、みんなの役に立つなんて考えは……。@
-br
-　しかし、そう思わなくてはやっていけない彼女の心情も痛いほどわかる。\
+;　詭弁だと思う。@いじめられっことして、みんなの役に立つなんて考えは……。@
+`　I think that's quite sophisticated.`@` To think that by being bullied, we can be of service to everyone...`@`
 
-　玲子ちゃんはきっと、前の学校では、私以上にひどくいじめられていたのだろう。@
 br
-　その末に辿り着いた、悲しい達観の境地が、……きっとそれに、違いない。\
+;　しかし、そう思わなくてはやっていけない彼女の心情も痛いほどわかる。\
+`　However, she painfully understood the emotions of the girl who couldn't do anything without thinking that way.`\
+
+;　玲子ちゃんはきっと、前の学校では、私以上にひどくいじめられていたのだろう。@
+`　Reiko-chan surely was bullied even worse at her old school than I am here.`@`
+
+br
+;　その末に辿り着いた、悲しい達観の境地が、……きっとそれに、違いない。\
+`　And finally after struggling on, she took on that sad, philosophical mental state, ...that has to be what happened.`\
 
 bg black,23
 bg roji_05,23
 ld l,SMI_Def5,23
 
-「……私は多分。@……この学校でも、いじめられると思います。」@
+;「……私は多分。@……この学校でも、いじめられると思います。」@
+`"...You know.`@` ...I think I'll be bullied at this school too."`@`
 
 ld r,YUK_I3a,24
 
-「そんなことは……………。」\
+;「そんなことは……………。」\
+`"That's not..."`\
+;　でも、私のいじめられっことしての感覚が、教えてくれている。@
+`　But my experience as a victim of bullying has taught me better.`@`
 
-　でも、私のいじめられっことしての感覚が、教えてくれている。@
 br
-　……彼女はこの学校でもきっと、いじめられっこになる。\
+;　……彼女はこの学校でもきっと、いじめられっこになる。\
+`　...Even at this school, she'll surely be bullied.`\
 
-　彼女が如何に取り繕おうとも、@……いやむしろ、そうしようとすればするほどに、痛々しいほどに、@彼女がいじめられっこであるという気配が、滲み出てしまっている。\
+;　彼女が如何に取り繕おうとも、@……いやむしろ、そうしようとすればするほどに、痛々しいほどに、@彼女がいじめられっこであるという気配が、滲み出てしまっている。\
+`　No matter how she keeps up her appearances,`@` ...Or rather, because she keeps up that pitiful appearance, `@`she just oozes the presence of being a victim.`\
 
 ld l,SMI_Def1,80
 
-「……また、いじめられるようになったら。」@
-
+;「……また、いじめられるようになったら。」@
+`"...If I'm going to be bullied again."`@`
 ld r,YUK_Def3,80
 
-「……………………。」@
-
+;「……………………。」@
+`"........."`@`
 ld l,SMI_Def3,80
 
-「その時は。@/
+;「その時は。@/
+`"At that time.`@``/`
 me1v 16,50
-……この学校でも、クラスメートのみんなの、心の栄養になれたんだ、って。@……そう思うことにします。」\
+;……この学校でも、クラスメートのみんなの、心の栄養になれたんだ、って。@……そう思うことにします。」\
+`...I'll have become everyone in the class's heart nutrients.`@` ...That's what I think."`\
 
 ld r,YUK_Def4,80
 
-「……心の、……栄養………。」\
+;「……心の、……栄養………。」\
+`"...The nutrients...of the heart..."`\
 
 ld l,SMI_Def5,80
 
-「そうです。@心の、栄養。@…………榊さんも、今日まできっと辛い思いをたくさんしてきたと思います。@でも、そのお陰で、たくさんのクラスメートたちが、心の栄養を補給することが出来たんです。」\
+;「そうです。@心の、栄養。@…………榊さんも、今日まできっと辛い思いをたくさんしてきたと思います。@でも、そのお陰で、たくさんのクラスメートたちが、心の栄養を補給することが出来たんです。」\
+`"That's right.`@` The nutrients of the heart.`@` ...I think you've been having plenty of painful memories up until now.`@` But thanks to that, plenty of classmates have had their hearts replenished."`\
 
 ld l,SMI_Def1a,80
 
-「……彼らは誰も感謝しないけれど、@……あなたがいなくては得られなかった、大切な栄養を心に得ることが出来た。」@
+;「……彼らは誰も感謝しないけれど、@……あなたがいなくては得られなかった、大切な栄養を心に得ることが出来た。」@
+`"...They may not thank anyone,`@` ...but if you were not there, they would neve have been able to obtain those precious nutrients for their hearts."`@`
 
 ld r,YUK_Def2a,80
 
-「………………………。」\
+;「………………………。」\
+`"........"`\
 
 cl l,0
 ld c,SMI_Def3,23
 
-「誰も感謝しなくても。@………感謝してますよ。@神様が。」@
+;「誰も感謝しなくても。@………感謝してますよ。@神様が。」@
+`"Even if nobody thanks you.`@` ...You are being thanked.`@` By God."`@`
 
 ld r,YUK_Def3,80
 
-「神様が……。」@
+;「神様が……。」@
+`"God is..."`@`
 
 ld c,SMI_Def5,80
 
-「はい。@……学校の、神様です。」\
+;「はい。@……学校の、神様です。」\
+`"Yes.`@` ...The God of school."`\
 
-　それは本当に、………斬新な考え方。@
+;　それは本当に、………斬新な考え方。@
+`　That is truly, ...a novel way of thinking.`@`
 br
-　ほんの少しだけ、……これまでの辛い日々が報われるようにさえ、感じられるのだ。\
+;　ほんの少しだけ、……これまでの辛い日々が報われるようにさえ、感じられるのだ。\
+`　Even by just a little, ...I was able to feel the reward for all of those painful days.`\
 
 bg black,22
 
-　私はずっと、いじめに悲しんできた。@悲しむだけだった。@
-br
-　それが実は、クラスメートのみんなの心の、……役に立っていたなんて。\
+;　私はずっと、いじめに悲しんできた。@悲しむだけだった。@
+`　I was always saddened by the torment.`@` And only saddened.`@`
 
-　にわかには受け容れ難い。@
 br
-　……でも、彼女の言葉は、いつまでも私の胸に残り続けた。\
+;　それが実は、クラスメートのみんなの心の、……役に立っていたなんて。\
+`　But to think that it was actually being of use...to all of my classmates' hearts.`\
+
+;　にわかには受け容れ難い。@
+`　Suddenly accepting it like that was difficult.`@`
+br
+;　……でも、彼女の言葉は、いつまでも私の胸に残り続けた。\
+`　...But, her words, remained in my heart.`\
 
 fede 10,1000
 E_MA
@@ -5498,20 +5577,23 @@ ld r,YUK_Def2a,22
 
 ld l,SMI_Def3,80
 
-「くす……。@……だから、榊さんにだって、その心の栄養が必要なはずなんです。」@
+;「くす……。@……だから、榊さんにだって、その心の栄養が必要なはずなんです。」@
+`"Teehee...`@` ...That's why, you need that nutrition for your heart too, Sakaki-san."`@`
 
 ld r,YUK_N1,80
 
-「私は、別に………。」\
+;「私は、別に………。」\
+`"I don't, really..."`\
 
 ld l,SMI_Def5a,80
 
-「榊さんだって人間ですもの。@……心の栄養が欲しいはず。@……その時は、私から得て下さいね。@てへへ………。@私はクラスみんなの、心の栄養なのですから。」\
-
-　彼女は悲しそうに、そう笑った。@
+;「榊さんだって人間ですもの。@……心の栄養が欲しいはず。@……その時は、私から得て下さいね。@てへへ………。@私はクラスみんなの、心の栄養なのですから。」\
+`"You're human too, Sakaki-san.`@` ...You should wish for those nutrients too.`@` ...When that time comes, please use me.`@` Ehehe...`@` Because I'm everybody's nutrients in this class."`\`
+;　彼女は悲しそうに、そう笑った。@
+`　She laughed, in such a sad way.`@`
 br
-　……何て気の毒な、そして心の綺麗な子だろう。@私はそう思った。\
-
+;　……何て気の毒な、そして心の綺麗な子だろう。@私はそう思った。\
+`　...What a pitiful girl, with such a beautiful heart.`@` That's what I thought.`\
 bg black,22
 
 fede 0,1000
@@ -5529,24 +5611,29 @@ me1v 5,50
 
 
 
-　私たちは、これからどうなるのだろう。@
+;　私たちは、これからどうなるのだろう。@
+`　I wondered what would become of us from here.`@`
 br
-　私は、……これまでと変わらず、また、臭い臭いといじめられ続けるだろう。@
+;　私は、……これまでと変わらず、また、臭い臭いといじめられ続けるだろう。@
+`　I most likely, ...will not have changed, and will continue being harassed over how 'stinky' I am.`@`
 br
-　彼女は、……新しい学校では、新しい生活に、踏み出せるだろうか……。\
-
-　彼女の内より滲み出る、いじめられっこの隠し切れない気配を、クラスメートたちに気付かれないよう、祈るしかなかった。\
-
+;　彼女は、……新しい学校では、新しい生活に、踏み出せるだろうか……。\
+`　I wonder, ...if she will be able to step forward into a new school, and a new life...`\
+;　彼女の内より滲み出る、いじめられっこの隠し切れない気配を、クラスメートたちに気付かれないよう、祈るしかなかった。\
+`　All I could pray was that our classmates wouldn't recognize that unconcealable 'bullied' aura that seeped out from her, 
 bg black,2
 ;bg kyou_02,2
 
-　しばらくの間、私たちの日常は大きく変化はしなかった。@
+;　しばらくの間、私たちの日常は大きく変化はしなかった。@
+`　For a while, there was no great change in our daily lives.`@`
 br
-　私は相変わらずのいじめられっこだったし。@
-　玲子ちゃんは内気でうまく溶け込むことが出来ず、相変わらず、ひとりぼっち。@
+;　私は相変わらずのいじめられっこだったし。@
+`　I was bullied like always.`@`
+;　玲子ちゃんは内気でうまく溶け込むことが出来ず、相変わらず、ひとりぼっち。@
+`　Reiko-chan was unable to mesh with how timid she was, and was alone as always.`@`
 br
-　そんな日がずっと、変わらずに続いていくと思っていた、そんなある日。\
-
+;　そんな日がずっと、変わらずに続いていくと思っていた、そんなある日。\
+`　Just when I was thinking that these days would continue on forever, something happened.`\
 fede 0,2000
 E_A
 
