@@ -5654,64 +5654,87 @@ quake 3,300
 
 me1v 24,50
 
-　うわーーーーーーーーーーー！！！@
+;　うわーーーーーーーーーーー！！！@
+`　Uwaaaaaaahhhh~~~~~~~!!!`@`
 br
-　ガシャンという金属音と　黄色い悲鳴が一斉に沸き起こる。\
+;　ガシャンという金属音と　黄色い悲鳴が一斉に沸き起こる。\
+`　A clash of metal and a shrill scream rang out simultaneously.`\
 
 ;ld l,YUK_N1,22
 
-「だ、……大丈夫？！@　玲子ちゃん……！」@
+;「だ、……大丈夫？！@　玲子ちゃん……！」@
+`"A, ...Are you okay?!`@` Reiko-chan...!"`@`
 
 ;ld c,SMI_def5a,22
 
-「……ぁ、……ぁぃたたた………。」@
-「何やってんだよッ、大住？！？！」@
-「うわーーーー、どーすんだよ、これーー？！」\
+;「……ぁ、……ぁぃたたた………。」@
+`"...u, ...owwwowowowow...."`@`
+;「何やってんだよッ、大住？！？！」@
+`"The hell are you doing, Oosumi?!?!"`@`
+;「うわーーーー、どーすんだよ、これーー？！」\
+`"What the hell are you thinkin', screaming like that?!"`\
 
-　私たちは同じ班だから、給食の準備も一緒だった。@
+;　私たちは同じ班だから、給食の準備も一緒だった。@
+`　Since we're in the same group, we also prepare school lunch together.`@`
 br
-　今日の献立はカレーライス。@
-　誰もが大好きな、人気の献立だった。\
+;　今日の献立はカレーライス。@
+`　Today's menu is curry rice.`@`
+;　誰もが大好きな、人気の献立だった。\
+`　A popular dish that was beloved by all.`\
 
-　そのカレーの入った寸胴鍋を台車から下ろし、運んでいた玲子ちゃんが、何かに躓いて転んだのだ。@
+;　そのカレーの入った寸胴鍋を台車から下ろし、運んでいた玲子ちゃんが、何かに躓いて転んだのだ。@
+`　When Reiko-chan was moving the stockpot of curry to the push car, she tripped with it.`@`
 br
-　中身のカレーは全て教室の床にぶちまけられ、@……彼女はその上に覆い被さるように、惨めに転んでいた。\
+;　中身のカレーは全て教室の床にぶちまけられ、@……彼女はその上に覆い被さるように、惨めに転んでいた。\
+`　All of the curry inside it spilled all over the classroom floor,`@` ...and she fell in a miserable state, as if trying to cover it.`\
 
 
 bg black,22
 bg kyou_01,0
 ld l,YUK_N1,22
 
-「れ、玲子ちゃん……、立てる……？」@
+;「れ、玲子ちゃん……、立てる……？」@
+`"Re, Reiko-chan..., can you stand up...?"`@`
 
 ld r,SMI_Def5a,6
 ld r,SMI_Def4a,80
 
-「……あ、……あいたたた……。」\
+;「……あ、……あいたたた……。」\
+`"...Ow, ...owowowow..."`\
 
-「何やってんだよ、大住ぃ…！@　これ、……どーすんだよ？！」@
+;「何やってんだよ、大住ぃ…！@　これ、……どーすんだよ？！」@
+`"What the hell are you doing, Oosumi...!`@` What...what are you going to do about this?!"`@`
 
 ld r,SMI_Def3a,80
 
-「ご、……ごめんなさい……。@躓いちゃって……。@………てへへ……。」\
+;「ご、……ごめんなさい……。@躓いちゃって……。@………てへへ……。」\
+`"I, ...I'm sorry...`@` I must have tripped...`@` ...Ehehe..."`\
 
 quakey 1,100
 
-「て　へ　へ、　………じゃねぇよッ！！！」@
+;「て　へ　へ、　………じゃねぇよッ！！！」@
+`"Don't you fucking 'Ehehe' me!!!"`@`
+
 me2v 17,50
 br
-　空腹で苛立っていた男子たちが、一斉に玲子ちゃんを罵った。@
-　玲子ちゃんが時折、語尾につける、あの笑いが彼らの癪に障ったらしい。\
+;　空腹で苛立っていた男子たちが、一斉に玲子ちゃんを罵った。@
+`　The boys, who were all irritated with hunger, all rained insults down on Reiko-chan at once.`@`
+;　玲子ちゃんが時折、語尾につける、あの笑いが彼らの癪に障ったらしい。\
+`　Reiko-chan's laugh that she'd occasionally stick onto the end of the station apparently aggravated them.`\
 
 bg black,22
 
-　彼女は床いっぱいに広がったカレーの上に、這いつくばるようにしながら、@……それでもなお、てへへ、てへへへ……と愛想笑いを繰り返す。\
+;　彼女は床いっぱいに広がったカレーの上に、這いつくばるようにしながら、@……それでもなお、てへへ、てへへへ……と愛想笑いを繰り返す。\
+`　She crouched and crawled over the curry that had spread all over the floor,`@` ...but even still, she kept laughing the same forced laugh. 'Ehehe, ehehe.'`\
 
-　……彼らの怒りを、何とか誤魔化したくて繰り返すそれが、@むしろ油を注ぐ結果になっているのがあまりに皮肉で、そして気の毒だった。\
+;　……彼らの怒りを、何とか誤魔化したくて繰り返すそれが、@むしろ油を注ぐ結果になっているのがあまりに皮肉で、そして気の毒だった。\
+`　...Though she intended to constantly dodge their anger,`@` the fact that it cynically turned out to be more like adding fuel to the fire was unfortunate.`\
 
-　彼女の可愛らしい服は、……上から下まで、べっとりとカレーに塗れ、本当に酷い有様だった。@
+;　彼女の可愛らしい服は、……上から下まで、べっとりとカレーに塗れ、本当に酷い有様だった。@
+`　Her poor clothes...were completely stained from top to bottom with curry. It was truly a terrible state.`@`
 br
-　そんな気の毒な様子を見て、同情の念を持ったのは、@……信じられないことに、この中で私ひとりのようだった。\
+;　そんな気の毒な様子を見て、同情の念を持ったのは、@……信じられないことに、この中で私ひとりのようだった。\
+`　Seeing that pitiful state, the only one with any sympathy for her,`@` ...turned out to be myself.`\
 
 ;bg black,22
 
@@ -5719,83 +5742,113 @@ bg kyou_03,22
 
 bgm1 14
 
-　このような給食の事故は、稀に起こることだ。@
+;　このような給食の事故は、稀に起こることだ。@
+`　Accidents like this during lunch preparations rarely happen.`@`
 br
-　その際には、他のクラスを回り、少しずつ分けてもらったりする。\
+;　その際には、他のクラスを回り、少しずつ分けてもらったりする。\
+`　During these times, the duties are split up and sent around the other classes.`\
 
 ;mono 2
 ;bg Different_spiral_1b,22
 
-　ところが、この日は運悪く、@直前の授業の都合で、私たちのクラスは給食の準備が大きく遅れたのだ。@
+;　ところが、この日は運悪く、@直前の授業の都合で、私たちのクラスは給食の準備が大きく遅れたのだ。@
+`　However, today was unlucky.`@` Due to the previous class, our class's preparations were incredibly late.`@` 
 br
-　……その為、他のクラスを回っても、もうすでに配膳を終えてしまっていて、@ほとんど分けてもらうことが出来なかった。\
+;　……その為、他のクラスを回っても、もうすでに配膳を終えてしまっていて、@ほとんど分けてもらうことが出来なかった。\
+`　...That was why even if they went around to the other classes, they had already finished setting up their tables.`@` Hardly anyone would help them.`\
 
 bg black,22
 
 fede 10,1000
 E_MA
 
-　集められたカレーは、ほんのひとすくい程度。@
+;　集められたカレーは、ほんのひとすくい程度。@
+`　The curry they'd prepared was barely enough for everyone.`@`
 br
-　それをクラスメートみんなに分配したら、………スプーン一杯ほどにもならなかった。\
+;　それをクラスメートみんなに分配したら、………スプーン一杯ほどにもならなかった。\
+`　If one were to split that among all the classmates, ...it wouldn't have been enough for a whole spoonful each time.`\
 
 ;mono 0
 bg kyou_02,22
 
-　給食の時間。@
+;　給食の時間。@
+`　Lunch time came.`@`
 br
-　その日は、まるでお通夜のように静かだった。@
-　かちゃかちゃという食器の音しか聞こえない。\
+;　その日は、まるでお通夜のように静かだった。@
+`　It was almost as silent as a wake.`@`
+;　かちゃかちゃという食器の音しか聞こえない。\
+`　She couldn't hear a sound save for the clinking of utensils.`\
 
-　……いや、本当は聞こえてる。@
-　ひそひそ、ぼそぼそ、と。@
+;　……いや、本当は聞こえてる。@
+`　...No, in reality, she could hear it.`@`　
+;ひそひそ、ぼそぼそ、と。@
+`The whispers and murmurs.`@`
 br
-　全校の生徒たちが、みんなカレーライスを食べているのに、@……自分たちだけが、ただの白いご飯を食べているという不幸が、誰のせいであるかを囁きながら。\
-
-　玲子ちゃんは、カレーで全身が黄色くべっとり汚れた姿のまま、@押し潰されそうな面持ちで、白いご飯をかちゃかちゃと先割れスプーンで食べていた……。\
+;　全校の生徒たちが、みんなカレーライスを食べているのに、@……自分たちだけが、ただの白いご飯を食べているという不幸が、誰のせいであるかを囁きながら。\
+`　Even though every student in the school was eating curry rice,`@` ...they were whispering about whose fault it was that we were the only ones with the misfortune of having to eating plain white rice.`\
+;　玲子ちゃんは、カレーで全身が黄色くべっとり汚れた姿のまま、@押し潰されそうな面持ちで、白いご飯をかちゃかちゃと先割れスプーンで食べていた……。\
+`　With her clothing sticky and stained yellow with curry and a crushed expression,`@` Reiko-chan ate her white rice to the sounds of clattering silverware...`\
 
 bg black,22
 bg kyou_01,22
 
 me1v 28,50
 
-　昼休み。@
+;　昼休み。@
+`　Afternoon break.`@`
 br
-　彼女は早々に、怒りの収まらない男子たちに取り囲まれていた。\
+;　彼女は早々に、怒りの収まらない男子たちに取り囲まれていた。\
+`　She was swiftly surrounded by the boys whose anger had not been quelled.`\
 
 quakey 1,100
 
-「お前のせいだぞ、謝れよ…！！」@
-「何、へらへらしてんだよ、テメェ！！」@
+;「お前のせいだぞ、謝れよ…！！」@
+`"It's your damn fault, apologize for it...!!"`@`
+;「何、へらへらしてんだよ、テメェ！！」@
+`"The hell were you fuckin' around for, you bitch!!"`@`
 br
-　聞こえるのは男子たちの怒鳴り声だけで、玲子ちゃんの声は聞こえない。@
-　……でもやりとりだけで、何となく想像は出来た。\
+;　聞こえるのは男子たちの怒鳴り声だけで、玲子ちゃんの声は聞こえない。@
+`　All that could be heard were the shouts of the boys. Reiko-chan's voice could not be heard.`@`
+;　……でもやりとりだけで、何となく想像は出来た。\
+`　...But based on the exchange, you could piece it together.`\
 
 ld c,SMI_N1,22
 
-　彼女のあの、てへへ、という愛想笑いが、ますますに彼らを怒らせているのだ。@
-　彼女を庇ってあげたいと思ったが、……私に、あの男子の人垣を掻き分ける力など、あるわけもない。@
+;　彼女のあの、てへへ、という愛想笑いが、ますますに彼らを怒らせているのだ。@
+`　It turned out her forced, 'Ehehe,' laugh was angering them more and more.`@`
+;　彼女を庇ってあげたいと思ったが、……私に、あの男子の人垣を掻き分ける力など、あるわけもない。@
+`　I thought I wanted to protect her, ...but there was no possible way I'd have the strength to push through that crowd of boys.`@`
 br
-　ただ呆然と、彼らの怒りの暴風が過ぎ去るのを、こうして遠巻きに眺めて待つことしか出来ない……。\
+;　ただ呆然と、彼らの怒りの暴風が過ぎ去るのを、こうして遠巻きに眺めて待つことしか出来ない……。\
+`　All I could do was wait and stare dazedly until the windstorm of their rage had passed...`\
 
-「触んなよ、汚ぇだろ…！！」@
-「カレー臭ぇんだよ、臭いが移るだろ！！」@
-「こいつ本当に臭え！！@　マジカレー臭、ハンパねー！！」\
+;「触んなよ、汚ぇだろ…！！」@
+`"Don't touch me, you'll leave a stain...!!"`@`
+;「カレー臭ぇんだよ、臭いが移るだろ！！」@
+`"Ugh, you stink like curry, it's like you were bathing in it!!"`@`
+;「こいつ本当に臭え！！@　マジカレー臭、ハンパねー！！」\
+(?)`"Ugh, this bitch reeks!!`@` It's the worst curry smell ever!!"`\
 
-　体操服でもあれば着替えることが出来たのだが、@不幸なことに、彼女はこの日、それを持っていなかった。@
+;　体操服でもあれば着替えることが出来たのだが、@不幸なことに、彼女はこの日、それを持っていなかった。@
+`　If she had a gym uniform, she could have changed into it,`@` but unfortunately, she didn't bring one today.`@`
 br
-　だから玲子ちゃんの服は、いくらハンカチで拭いても、カレーでべっとり汚れたままだった……。\
+;　だから玲子ちゃんの服は、いくらハンカチで拭いても、カレーでべっとり汚れたままだった……。\
+`　That's why, no matter how many times she wiped it down with a handkerchief, Reiko-chan's clothes were sticky and ruined by curry...`\
 
-　彼らの怒りはやがて、彼女のその気の毒な姿に対する罵倒に変わっていく。@
-　男子たちは、臭い臭いと連呼し、彼女を囃し立て、罵った。@
+;　彼らの怒りはやがて、彼女のその気の毒な姿に対する罵倒に変わっていく。@
+`　Eventually, their anger had turned towards abusing her unfortunate appearance.`@`
+;　男子たちは、臭い臭いと連呼し、彼女を囃し立て、罵った。@
+`　The boys repeatedly jeered at her, calling her rancid and smelly.`@`
 br
-　それは、彼女がこのクラスのいじめられっこに転落し、@……その烙印が押されたことを意味した。\
+;　それは、彼女がこのクラスのいじめられっこに転落し、@……その烙印が押されたことを意味した。\
+`　That was how she slumped back into the victim's role in this class,`@` ...and the meaning behind having this stigma pushed upon her.`\
 bg black,22
 
-　その、臭い臭いと囃し立てられるのは、昨日までは私の役割だった。@
+;　その、臭い臭いと囃し立てられるのは、昨日までは私の役割だった。@
+`　The one who was being mocked for being smelly was, up until yesterday, my role.`@`
 br
-　しかしこの瞬間から。@……それは彼女を囃し立てるものに変わったのだ…。\
-
+;　しかしこの瞬間から。@……それは彼女を囃し立てるものに変わったのだ…。\
+`　However, from just this moment.`@` ...It had changed to be her social standing...`\
 fede 10,1000
 E_MA
 
@@ -5808,34 +5861,42 @@ E_MA
 
 ld r,YUK_def4a,22
 
-「れ、……玲子ちゃん………。」@
+;「れ、……玲子ちゃん………。」@
+`"Re, ...Reiko-chan..."`@`
 ;＜由香里
 
 ld c,HIG_W3,22
 
-「おめでとう、由香里。@……くすくすくすくすくす。」\
+;「おめでとう、由香里。@……くすくすくすくすくす。」\
+`"Congratulations, Yukari.`@` ...Teeheeheehee."`\
 ;＜彼岸花
 
-　不意に、私の後ろにいる誰かが、薄気味悪く笑いながらそう言った。@
+;　不意に、私の後ろにいる誰かが、薄気味悪く笑いながらそう言った。@
+`　Suddenly, somebody behind me spoke while laughing eerily.`@`
 br
-　私には、玲子ちゃんがいじめられているその光景が、@どうして私を祝福するものになり得るのか、理解できるはずもない。\
+;　私には、玲子ちゃんがいじめられているその光景が、@どうして私を祝福するものになり得るのか、理解できるはずもない。
+`　There shouldn't be any way she could understand,`@` how this scenario of Reiko-chan being bullied would be a blessing to me.
 
 bg black,22
 bg kyou_03,22
 
-「何で、……これが私に、おめでとうになるんですか…。」\
+;「何で、……これが私に、おめでとうになるんですか…。」\
+`"Why, ...are you congratulating me for this...?"`\
 
+;「くすくすくす。@だって、そうでしょう？@　これで、あなたは今日からいじめられなくなるのよ？」@
+`"Teeheehee.`@` Because it is a celebration, right?`@` This way, starting today you won't be bullied anymore, right?"`@`
+;「そ、……そんなこと、わかりませんよ。」\
+`"I, ...I don't understand."`\
 
-「くすくすくす。@だって、そうでしょう？@　これで、あなたは今日からいじめられなくなるのよ？」@
-「そ、……そんなこと、わかりませんよ。」\
-
-「あなたには見えないの？」@
-「何が、ですか……。」\
+;「あなたには見えないの？」@
+`"Can't you see it?"`@`
+;「何が、ですか……。」\
+`"See what...?"`\
 
 bg black,22
 
-「見えているはずよ？@　だって、あなたはつい昨日までのいじめられっこだもの。@だから、見えているはず。@………あなたに押し付けられていた、いじめられっこの汚名という、茨の冠が、@あなたの頭から今、あの子に移し変えられたのが、見えているはず。@……くすくすくすくすくす。」\
-
+;「見えているはずよ？@　だって、あなたはつい昨日までのいじめられっこだもの。@だから、見えているはず。@………あなたに押し付けられていた、いじめられっこの汚名という、茨の冠が、@あなたの頭から今、あの子に移し変えられたのが、見えているはず。@……くすくすくすくすくす。」\
+`"You should be able to see it?`@` After all, 
 
 　……否定できない。@
 br
