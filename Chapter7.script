@@ -4866,7 +4866,7 @@ br
 ;bg black,22
 lsp bgsp,":a;bmp\background\efe\red_waku.bmp",0,0
 bg okujou_02,22
-bgcopy
+t re
 csp -1
 
 
@@ -6776,44 +6776,58 @@ br
 
 　理解できないものを見る、彼らの冷め切った、目、……目……。@
 br
-　先生が取り繕ったように苦笑いしてくれなかったら、@私は耐えきれなくて、卒倒していたかもしれない。\
+;　先生が取り繕ったように苦笑いしてくれなかったら、@私は耐えきれなくて、卒倒していたかもしれない。\
+`　If the teacher hadn't laughed to smoothe things over, `@`I wouldn't have been able to take it and I might have fainted.`\
 
 bg black,23
 bg kyou_03,23
 
-「……そ、……そうだな…。@榊の言う通りだな…。@これ以上は……、いじめになっちゃうもんなぁ…。@……はは、は……。@………じゃあ、みんなっ、先生と約束だからなっ。@毎日、うがいと手洗いをちゃんとするんだぞっ…！」\
+;「……そ、……そうだな…。@榊の言う通りだな…。@これ以上は……、いじめになっちゃうもんなぁ…。@……はは、は……。@………じゃあ、みんなっ、先生と約束だからなっ。@毎日、うがいと手洗いをちゃんとするんだぞっ…！」\
+`"...Y, ...Yeah... `@`It's just as Sakaki says... `@`Any more of this, well, it might turn into bullying... `@`...Heh, heh... `@`Everyone promise me~. `@`Be sure to gargle and wash your hands everyday now~!"`\
 
-　さっきまでなら、彼らは上機嫌に、はぁいと返事をしただろう。@
+;　さっきまでなら、彼らは上機嫌に、はぁいと返事をしただろう。@
+`　Until now, all of them would have happily answered "Yeees".`@
 br
-　何人かはぼそぼそと応えるが、@……楽しい時間に水を差されたという不快感をみんながみんな、露骨に浮かべていた。\
+;　何人かはぼそぼそと応えるが、@……楽しい時間に水を差されたという不快感をみんながみんな、露骨に浮かべていた。\
+`　While some of them listlessly responded, `@`...everyone -- everyone seemed blatantly displeased as if someone had rained on their parade.`\ 
 
-　先生ひとりが、わざとらしく上機嫌を振る舞いながら、@今の場をなかったことにしようとし、みんなを散らしている。\
+;　先生ひとりが、わざとらしく上機嫌を振る舞いながら、@今の場をなかったことにしようとし、みんなを散らしている。\
+`　As the teacher continued feigning an unnatural good mood, `@`he decided it was time to leave, and he ended class for the day.`\
 
 bg black,22
 bg kyou_02,22
 ld c,SMI_Def5a,2
 
-　そして、ようやく、……由香里ちゃんは人垣から解放される。@
+;　そして、ようやく、……由香里ちゃんは人垣から解放される。@
+`　Then finally, ...Yukari-chan was released from the crowd of people.`@
 br
-　彼女は、何が起こったのかわからないという顔で、呆然としているようだった…。\
+;　彼女は、何が起こったのかわからないという顔で、呆然としているようだった…。\
+`　As if she were dumbfounded, her face showed she didn't understand what had happened...`\
 
 ld r,YUK_Def3a,22
 
-　その彼女の目と、……合う。@
+;　その彼女の目と、……合う。@
+`　And our eyes... locked.`@
 br
-　私が何をしたのか。@今、何が起こったのか。@それさえ、わからないという風。\
+;　私が何をしたのか。@今、何が起こったのか。@それさえ、わからないという風。\
+`　What did I do? `@`What happened just now? `@`It seemed she didn't even know that.`\
 
 bg black,22
 
-　…………私だって、……わからない。@
+;　…………私だって、……わからない。@
+`　......I... don't understand.`@
 br
-　クラス中からひそひそと聞こえる、不快そうな呟き、あるいは囁き。@そして、ねっとりと絡みつくように投げかけられる目線。@
+;　クラス中からひそひそと聞こえる、不快そうな呟き、あるいは囁き。@そして、ねっとりと絡みつくように投げかけられる目線。@
+`　I could hear the quiet chatter in class, uncomfortable muttering, or possibly whispers. `@`And then they would savagely twist their gazes towards me.`@\
 br
-　それらは全て、私に向けられている。\
+;　それらは全て、私に向けられている。\
+`　All of their eyes were on me.`\
 
-　クラスみんなで先生まで一緒に、あんなに楽しいユートピアを築けていたのに、@………どうしてそれを勝手に壊してしまったのかと。@………私を非難するいくつもの瞳が、……あちこちから向けられている。@
+;　クラスみんなで先生まで一緒に、あんなに楽しいユートピアを築けていたのに、@………どうしてそれを勝手に壊してしまったのかと。@………私を非難するいくつもの瞳が、……あちこちから向けられている。@
+`　Even though everyone including the teacher had fabricated such a fun utopia, `@`... as if asking why I went and ruined it all, `@`...countless accosting eyes... were looking my way.`@ 
 br
-　私たち二人はそんな中で、しばらくの間、互いに呆然として見詰め合っていることしか出来なかった……。\
+;　私たち二人はそんな中で、しばらくの間、互いに呆然として見詰め合っていることしか出来なかった……。\
+`　For a time, all the two of us could do among them was stand dumbfounded -- our eyes fixed on each other...`\
 
 bg black,2
 
@@ -6826,122 +6840,152 @@ bg roji_03,2
 
 bgm1 4
 
-　その日は、久しぶりに二人で下校した。@
+;　その日は、久しぶりに二人で下校した。@
+`　That day, after a long time we both left school.`@
 br
-　真っ赤な夕焼けの中を、久しぶりに一緒に帰った。\
+;　真っ赤な夕焼けの中を、久しぶりに一緒に帰った。\
+`　In the bright red sunset, after a long time we went home together.`\ 
 
-　転校してきた最初の頃は、よくそうしていたけれど、@彼女がいじめられるようになってからは、何となく気まずくて縁遠くなっていた。@
+;　転校してきた最初の頃は、よくそうしていたけれど、@彼女がいじめられるようになってからは、何となく気まずくて縁遠くなっていた。@
+`　When she first transferred, we often did this, `@`but after she started being bullied, somwhow our relationship became awkward and distant.`@
 br
-　……今思うと、それは酷いことだったように思う。\
+;　……今思うと、それは酷いことだったように思う。\
+`　...Thinking back on it, I was cruel.`\
 
 bg black,22
 bg roji_01,0
 ld r,YUK_Def2a,22
 ld r,YUK_Def3,80
 
-「ごめんね、由香里ちゃん。@……いつかこうしたなら、もっと早くこうしていれば良かった。」@
+;「ごめんね、由香里ちゃん。@……いつかこうしたなら、もっと早くこうしていれば良かった。」@
+`"Yukari-chan, I'm sorry. `@`...I should have done thus much sooner."`@
 
 ld l,SMI_Def5,23
 
-「……何が、ですか…？」\
+;「……何が、ですか…？」\
+`"...What do you mean?..."`\
 
 ld r,YUK_Def4,80
 
-「いじめって。@……加わらなければ、自分はいじめに加担してることにならないなんて、ならないよね。」@
+;「いじめって。@……加わらなければ、自分はいじめに加担してることにならないなんて、ならないよね。」@
+`"The bullying. `@`...If I had joined in, I would have been supporting it, and I couldn't do that."`@
 
 ld l,SMI_Def1,80
 
-「…………………。」\
+;「…………………。」\
+`"........."`\
 
 bg black,22
 bg Air_01,22
 
 ;ld r,YUK_W3,80
 
-「多分、私は知ってた。@遠巻きに見守っているあの中の誰かが、私を助けてくれたらって、いつも思ってた。@でも彼らはそれをしてくれない。」\
+;「多分、私は知ってた。@遠巻きに見守っているあの中の誰かが、私を助けてくれたらって、いつも思ってた。@でも彼らはそれをしてくれない。」\
+`"I think I knew. `@`I always thought that someone who was watching over me far away would save me. `@`But they wouldn't do that."`\
 
-　見て見ぬふりは、いじめの否定じゃない。@
+;　見て見ぬふりは、いじめの否定じゃない。@
+`　Pretending not to see it doesn't mean bullying doesn't exist.`@
 br
-　それは消極的ながらも、……いや。\
+;　それは消極的ながらも、……いや。\
+`　That was while I was being passive, ...no that's not it.`\
 
 ;ld r,YUK_Def3,80
 
 bg black,22
 
-「いじめを止めずに見守るのは。@……いじめを見て嘲笑う人たちと、大して変わりはしない。@だって、いじめっこたちは、止められない限り、@どこまでもいつまでも、ずっとずっとそれを続けるのだから。」\
+;「いじめを止めずに見守るのは。@……いじめを見て嘲笑う人たちと、大して変わりはしない。@だって、いじめっこたちは、止められない限り、@どこまでもいつまでも、ずっとずっとそれを続けるのだから。」\
+`"Watching over bullying without stopping it. `@`...There's not much of a difference between myself and the people sniggering watching it go on. `@`I mean, because unless the bullies are stopped, `@`no matter where, no matter when, they'll continue bullying on and on forever."`\
 
 bg roji_01,22
 ld r,YUK_W4,22
 
-「だから止めようとしないのは、加担しているのと同じなんだよね。@いじめられてる側から見れば。」\
+;「だから止めようとしないのは、加担しているのと同じなんだよね。@いじめられてる側から見れば。」\
+`"So choosing not to stop them is the same as allowing it to happen, right? `@`If we try and look at it from the bullied side of things."`\
 
 ld l,SMI_Def5a,22
 
-「…………でも、……みんな、……楽しそうでしたし……。」@
+;「…………でも、……みんな、……楽しそうでしたし……。」@
+`"...But... everybody... seemed to be having fun..."`@
 
 ld r,YUK_I2a,80
 
-「みんなは楽しいかもしれないよ？！@　でも、玲子ちゃんは楽しくなんかないでしょ？！」\
+;「みんなは楽しいかもしれないよ？！@　でも、玲子ちゃんは楽しくなんかないでしょ？！」\
+`"Maybe everyone was having fun?! `@`But Reiko-chan you weren't having fun were you?!"`\
 
 ld l,SMI_Def6,80
 
-「……私は……、みんなの心の栄養になれれば……、それで…………。」@
+;「……私は……、みんなの心の栄養になれれば……、それで…………。」@
+`"...I... If I can make everyone happy... then...."`@
 
 cl r,0
 ld c,YUK_I3a,24
 
-「それは玲子ちゃんにとって、楽しいことなの？@　楽しくなんかないでしょッ！」\
+;「それは玲子ちゃんにとって、楽しいことなの？@　楽しくなんかないでしょッ！」\
+`"But are you saying this was 'fun' for you? `@`Like hell it was fun for you!"`\
 
 bg black,22
 
-　逃れられぬいじめに対し、私の場合は心を閉ざすことを選んだ。@
+;　逃れられぬいじめに対し、私の場合は心を閉ざすことを選んだ。@
+`　In the face of inescapable bullying, I chose not to keep my mouth shut.`@
 br
-　それに対し、玲子ちゃんの場合は、@……いじめられることが、みんなの役に立つことだと思い込むことを選んだのだ。\
+;　それに対し、玲子ちゃんの場合は、@……いじめられることが、みんなの役に立つことだと思い込むことを選んだのだ。\
+`　But from Reiko-chan's perspective, `@`...she thought she was being useful to everyone by being abused.`\
 
-　それは、心の痛みから目を背けるための、自分を騙すための嘘。@
+;　それは、心の痛みから目を背けるための、自分を騙すための嘘。@
+`　That was a lie. A lie she deceived herself with so she wouldn't have to face the pain within.`@
 br
-　玲子ちゃんは、どれほどの長い間、その嘘で自分を騙してきたのだろう…？\
+;　玲子ちゃんは、どれほどの長い間、その嘘で自分を騙してきたのだろう…？\
+`　Reiko-chan, just how long -- how long have you been deceiving yourself with that lie, I wonder...?`\
 
 bg roji_02,0
 ld r,SMI_Def4a,22
 ld r,SMI_Def5a,80
 
-「……でも。@……悪いのはいつも私ですし……。@……みんな、とても楽しそうでしたし。@……てへへ…。」\
+;「……でも。@……悪いのはいつも私ですし……。@……みんな、とても楽しそうでしたし。@……てへへ…。」\
+`"...But. `@`...I'm always the one doing bad things... `@`...And everyone seemed to be enjoying themselves. `@`...Tehehe.."`\
 
 ld l,YUK_I3,23
 
-「玲子ちゃんにとっては楽しいのッ？！」@
+;「玲子ちゃんにとっては楽しいのッ？！」@
+`"But was it 'enjoyable' for you?!"`@
 
 ld r,SMI_Def3a,80
 
-「……みんなが楽しそうにしてれば、……私も、……楽し………。」\
+;「……みんなが楽しそうにしてれば、……私も、……楽し………。」\
+`"...If everyone is enjoying themselves... then... I'm having... fun......"`\
 
 ld l,YUK_I2a,80
 
-「嘘吐き！@　……ううん、もういいんだよ…！@　自分をもう、騙さなくていいの。」@
+;「嘘吐き！@　……ううん、もういいんだよ…！@　自分をもう、騙さなくていいの。」@
+`"Liar! `@`...God, enough already...! `@`Keep fooling yourself."`@
 
 ld r,SMI_Def1a,80
 
-「自分を、……騙す…………。」\
+;「自分を、……騙す…………。」\
+`"Fool... myself...."`\
 
 bg black,22
 bg roji_01,22
 
 ;ld l,YUK_N1,80
 
-「玲子ちゃんは、楽しいと無理やり思い込もうとしていただけ…！@　逃れられないし、誰も助けてくれないから……、@悲しみのあまり、自分を騙すことを選んでしまっただけ…！@　でもね、もうそれをしなくていいんだよ…！」\
+;「玲子ちゃんは、楽しいと無理やり思い込もうとしていただけ…！@　逃れられないし、誰も助けてくれないから……、@悲しみのあまり、自分を騙すことを選んでしまっただけ…！@　でもね、もうそれをしなくていいんだよ…！」\
+`"Reiko-chan, you're just being forced into thinking that it's fun...! `@`It's not like you can get away because no one will help you.... `@`Trapped in sadness, you've just chosen to lie to yourself...! `@`But you know, you don't have to do that anymore...!"`\
 
 ld c,SMI_Def2n,22
 
-「……どうして………？」@
+;「……どうして………？」@
+`"...Why...?"`@
 
 ld r,YUK_I3,24
 
-「私が守るからッ！」@
+;「私が守るからッ！」@
+`"Because I'll protect you!"`@
 
 ld c,SMI_Def3a,80
 
-「……守る、……って………。」\
+;「……守る、……って………。」\
+`"...Protect... me...?"`\
 
 ld r,YUK_I2,80
 
