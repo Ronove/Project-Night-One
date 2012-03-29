@@ -6989,48 +6989,60 @@ ld c,SMI_Def3a,80
 
 ld r,YUK_I2,80
 
-「私は決めたの！@　いじめに怯えるのは、もう止めた！@　自分がいじめられたくないから、誰かがいじめられているのに見て見ぬふりをするなんて、@もう絶対しないのッ。」\
+;「私は決めたの！@　いじめに怯えるのは、もう止めた！@　自分がいじめられたくないから、誰かがいじめられているのに見て見ぬふりをするなんて、@もう絶対しないのッ。」\
+`"I've decided! `@`I've had it being scared of bullying. `@`Since I don't want to be bullied myself, why should I stand by and watch while someone else gets bullied? `@`I'll never let that happen again."`\
 
 bg black,22
 bg roji_03,22
 
-　玲子ちゃんは夕焼け色に染まる世界で、呆然としながら立ち尽くしていた。@
+;　玲子ちゃんは夕焼け色に染まる世界で、呆然としながら立ち尽くしていた。@
+`　Reiko-chan stood atsonished against the world painted by the colors of the evening sun.`@
 br
-　私は感情の全てを一気に吐き出し、……ぜぇぜぇと肩で息をしていた。@
+;　私は感情の全てを一気に吐き出し、……ぜぇぜぇと肩で息をしていた。@
+`　I had vomitted all of my feelings in one go, ...I was huffing and puffing and my shoulders motioned with my breathing.`@
 br
-　……うん。@何だか、……心の中がすっきりした気がする。\
+;　……うん。@何だか、……心の中がすっきりした気がする。\
+`　...Yeah. `@`For some reason... doing that made my mind feel refreshed.`\
 
 bg black,23
 bg roji_04,23
 ld l,SMI_Def2n,23
 
-「でも、……せっかく、私がいじめられてたのに……。@……それで、……榊さんはいじめから逃れることが出来てたのに……。@………なのに、……なのに……。」\
+;「でも、……せっかく、私がいじめられてたのに……。@……それで、……榊さんはいじめから逃れることが出来てたのに……。@………なのに、……なのに……。」\
+`"But, ...even after all that time I had been bullied... `@`...And yet... Sakaki-san was able to save me from it... `@`...And yet, ...and yet..."`\
 
 ld r,YUK_W3,24
 
-「そうだね。@確かに私は、玲子ちゃんがいじめられっこになることによって、@幸か不幸か、いじめから逃れることが出来てた。」\
+;「そうだね。@確かに私は、玲子ちゃんがいじめられっこになることによって、@幸か不幸か、いじめから逃れることが出来てた。」\
+`"That's right. `@`I mean really, by letting you become their target, `@`whether it was good or bad, I was able to escape from being bullied."`\
 
 ld r,YUK_I2,80
 
-「でも、そんなの全然嬉しいことじゃない。@だって、目の前で玲子ちゃんがいじめられてるんだもん。@それを見て見ぬふりをして、自分はいじめられなくなったから嬉しいなんて、@そんなの絶対におかしいもの。」\
+;「でも、そんなの全然嬉しいことじゃない。@だって、目の前で玲子ちゃんがいじめられてるんだもん。@それを見て見ぬふりをして、自分はいじめられなくなったから嬉しいなんて、@そんなの絶対におかしいもの。」\
+`"But that didn't make me happy one bit. `@`I mean, I saw you being abused right before my very eyes. `@`If I was pretending not to see what they were doing to you, and if I were happy just because I wasn't the one being bullied, `@`there's something definitely wrong with that."`\
 
 ld l,SMI_Def6,80
 
-「……いいじゃないですか…。@榊さんはいじめられなくなった。@……いじめはなくならない。@絶対に一人、クラスで誰かがいじめられなくちゃいけないんです。@……だからそれを私は……。」\
+;「……いいじゃないですか…。@榊さんはいじめられなくなった。@……いじめはなくならない。@絶対に一人、クラスで誰かがいじめられなくちゃいけないんです。@……だからそれを私は……。」\
+`"...Isn't that just fine though?... `@`Then Sakaki-san doesn't have to be bullied. `@`...Bullying won't stop. `@`There always has to be at least one target in the class. `@`...And that's me..."`\
 
 ld r,YUK_I3,80
 
-「それがおかしいし、絶対に納得しちゃいけないことだと思うっ。@誰かがいじめられちゃくちゃいけないなんて、絶対におかしい！@　私は納得しないし、二度と認めたりしない。」\
+;「それがおかしいし、絶対に納得しちゃいけないことだと思うっ。@誰かがいじめられちゃくちゃいけないなんて、絶対におかしい！@　私は納得しないし、二度と認めたりしない。」\
+`"That's wrong, I don't think you get it. `@`Saying that someone has to be bullied, that's just wrong! `@`I won't go along with it, and I won't let it happen again."`\
 
 ld l,SMI_Def1,80
 
-「…………榊…さん………。」\
+;「…………榊…さん………。」\
+`"......Sakaki...san...."`\
 
 bg black,22
 
-　クラスで誰か一人が必ずいじめられていなくてはならないという、おかしなルール。@
+;　クラスで誰か一人が必ずいじめられていなくてはならないという、おかしなルール。@
+`　Suggesting that one person in the classroom always has to be bullied is a strange rule.`@
 br
-　玲子ちゃんがいじめられてくれたから、私はいじめられなくなって良かった…、@なんて言うのは、このルールに則り加担しているも同じこと。\
+;　玲子ちゃんがいじめられてくれたから、私はいじめられなくなって良かった…、@なんて言うのは、このルールに則り加担しているも同じこと。\
+`　Reiko-chan being happy to be bullied so I wouldn't have to be in bullied in her place... `@`That's the same as adhering to and supporting this bizzare rule.`\
 
 bg roji_05,23
 ld l,YUK_Def3,23
@@ -7038,15 +7050,19 @@ ld l,YUK_i2,80
 
 me1v 5,50
 
-「私は本当の意味で、いじめから逃れたいの。@……それは、誰かがいじめられてて、私がいじめられてなければ良い、という意味じゃない。@いじめが本当に本当に大嫌いだから。@その辛さを、誰よりも知っているからこそ。」\
+;「私は本当の意味で、いじめから逃れたいの。@……それは、誰かがいじめられてて、私がいじめられてなければ良い、という意味じゃない。@いじめが本当に本当に大嫌いだから。@その辛さを、誰よりも知っているからこそ。」\
+`"I mean to truly escape from bullying. `@`...That doesn't mean I'd be fine with someone being bullied as long as I wasn't being bullied. `@`Because I really really hate bullying. `@`You should know the pain of it more than anyone else."`\
 
-　誰がいじめられてるかなんて、関係ない。@
+;　誰がいじめられてるかなんて、関係ない。@
+`　It doesn't matter who is being bullied.`@
 br
-　いじめが目の前にあって、許されているという事実。@それを、絶対に許しちゃいけないんだ。\
+;　いじめが目の前にあって、許されているという事実。@それを、絶対に許しちゃいけないんだ。\
+`　The truth is if bullying happens under my watch, that's the same as allowing it to happen. `@`And I can't let that happen`\
 
 ld l,YUK_I1,80
 
-「一度もいじめられたことがない人にとって、いじめは楽しいかもしれない。@……みんなで一緒にテレビを見て、盛り上がっているような気持ちになるのかもしれない。」\
+;「一度もいじめられたことがない人にとって、いじめは楽しいかもしれない。@……みんなで一緒にテレビを見て、盛り上がっているような気持ちになるのかもしれない。」\
+`"For someone who has never been bullied before, bullying might be fun. `@`...For them it might seem as entertaining as gathering everyone up and watching a TV show."`\
 
 ld l,YUK_I3,80
 
