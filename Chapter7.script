@@ -7168,44 +7168,55 @@ ld l,YUK_I1,80
 
 ld l,YUK_I3,80
 
-「なら、それがどんなに辛いものか知っている、私が立ち上がらなくちゃいけないの。@いじめは許されないものだって、声を上げて、戦わなくちゃいけない。」\
+;「なら、それがどんなに辛いものか知っている、私が立ち上がらなくちゃいけないの。@いじめは許されないものだって、声を上げて、戦わなくちゃいけない。」\
+`"Because, I know what that kind of pain is like, so I had to stand up to it. `@`As someone who won't put up with bullying, I spoke up, and I was my duty to fight it."`\
 
 cl l,0
 ld c,YUK_W3,23
 
-「………私は二度と。@玲子ちゃんがいじめられているのを見て、@……自分がいじめられてなくて良かったなんて、思わない。」\
+;「………私は二度と。@玲子ちゃんがいじめられているのを見て、@……自分がいじめられてなくて良かったなんて、思わない。」\
+`"...Never again. `@`I won't watch you being bullied, `@`...and say to myself how glad I am I'm not the one being bullied."`\
 
 ld r,SMI_Def4a,24
 
-「……でも、そんなことしたら……。@…また、榊さんがいじめられてしまうかもしれない……。」\
+;「……でも、そんなことしたら……。@…また、榊さんがいじめられてしまうかもしれない……。」\
+`"...But if you do that... `@`Sakaki-san, you might end up being bullied again..."`\
 
 ld c,YUK_W2,80
 
-「もしいじめられたら。@きっぱり止めてと言って、しっかり無視する。@相手を面白がらせない。@そして、その時は今度は玲子ちゃんが私を助けてね。」\
+;「もしいじめられたら。@きっぱり止めてと言って、しっかり無視する。@相手を面白がらせない。@そして、その時は今度は玲子ちゃんが私を助けてね。」\
+`"If I'm bullied again, `@`I'll tell them flat out to stop it and then completely ignore them. `@`I won't give them the pleasure of being their target. `@`And then next time, when that time comes, you can save me, Reiko-chan"`\
 
 ld r,SMI_Def3a,80
 
-「私、が…………。」@
+;「私、が…………。」@
+`"M... me?..."`@
 
 ld c,YUK_W3,80
 
-「うん。@今度は玲子ちゃんが。@もちろん、玲子ちゃんがいじめられるようなことがあったら、私が助けるから。@そして、もしも。@私たちじゃない誰かがいじめられていたら。@私たちは一緒に、その子のために戦おう。」\
+;「うん。@今度は玲子ちゃんが。@もちろん、玲子ちゃんがいじめられるようなことがあったら、私が助けるから。@そして、もしも。@私たちじゃない誰かがいじめられていたら。@私たちは一緒に、その子のために戦おう。」\
+"`Yep. `@`Next time you will. `@`Of course, if you end up being bullied, I'll be there to save you. `@`And then if it comes to it. `@`If someone else is being bullied. `@`Let's for that person -- together."`\
 
 ld r,SMI_Def1,80
 
-「……戦…う……？」@
+;「……戦…う……？」@
+`"...F-Fight...?"`@
 
 cl c,0
 ld l,YUK_Def1,24
 
-「そう。@戦うの。」\
+;「そう。@戦うの。」\
+`"Right. `@`We'll fight."`\
 
 bg black,22
 
-　いじめと戦うなんて言葉、今こうして口にする今日まで、一度も考えたことなんてなかった。@
-　いじめは、下唇を噛んで堪えるもの、逃れて関わり合いにならないもの。@そう思ってきた。@
+;　いじめと戦うなんて言葉、今こうして口にする今日まで、一度も考えたことなんてなかった。@
+`　Until today, I had never thought I'd use the word 'fight' against bullying.`@
+;　いじめは、下唇を噛んで堪えるもの、逃れて関わり合いにならないもの。@そう思ってきた。@
+`　Bullying was something that one could only bite their lip over and couldn't escape. `@`That's what I had always thought.`@
 br
-　違う。\
+;　違う。\
+`　That's wrong.`\
 
 fede 0,1000
 E_A
@@ -7215,124 +7226,162 @@ ld r,YUK_I1,24
 
 bgm1 20
 
-「戦おう。@いじめと。」@
+;「戦おう。@いじめと。」@
+`"The bullying. `@`Let's fight it"`@
 
 ld l,SMI_Def4a,23
 
-「……で、でも……、いじめなんて、なくなるわけない……。」\
+;「……で、でも……、いじめなんて、なくなるわけない……。」\
+`"...B-but... you can't stop bullying..."`\
 
 ld r,YUK_I3,80
 
-「そう諦めて、誰かを生贄にすれば、クラスみんなは楽しくて幸せなの？@　そんなのは偽りの幸せ…！@　誰かひとりが笑い者にされて、それで残り全員が楽しいなら、それはユートピアなの？@　そんな偽りの理想郷、絶対にもう、私は許さない。@許しちゃ、いけない。」\
+;「そう諦めて、誰かを生贄にすれば、クラスみんなは楽しくて幸せなの？@　そんなのは偽りの幸せ…！@　誰かひとりが笑い者にされて、それで残り全員が楽しいなら、それはユートピアなの？@　そんな偽りの理想郷、絶対にもう、私は許さない。@許しちゃ、いけない。」\
+`"You think that by giving up like that, that if someone else is made into their scapegoat, that everyone in class will be happy? `@`That's a false happiness...! `@`So if someone is made the butt of all jokes, and everyone else enjoys themselves, that's your utopia? `@`I can't accept that kind of false paradise, not any more. `@`I will not."`\
 
 ld l,SMI_Def6,80
 
-「私が、……みんなの心の栄養になっているって、思ってたのは、……間違いなの……？」@
+;「私が、……みんなの心の栄養になっているって、思ってたのは、……間違いなの……？」@
+`"Are you saying... trying to please everyone... is wrong...?"`@
 
 ld r,YUK_i2,80
 
-「……………うん。」@
+;「……………うん。」@
+`".......Yes."`@
 
 ld l,SMI_Def2n,80
 
-「……そん………な……。」\
+;「……そん………な……。」\
+`"...That... can't be..."`\
 
 ld r,YUK_w3,80
 
-「もうやめよ、玲子ちゃん。@その考え方は。」@
+;「もうやめよ、玲子ちゃん。@その考え方は。」@
+`"Give it a rest, Reiko-chan. `@`Stop thinking like that."`@
 br
-　彼女は、その考えで、自分を、自分の心を、守ってきた。@
-　それを否定されるのは、……辛いことだと思う。\
+;　彼女は、その考えで、自分を、自分の心を、守ってきた。@
+`　By thinking like that, she had been protecting herself -- and her heart.`@
+;　それを否定されるのは、……辛いことだと思う。\
+`　I think having that protection denied... is a painful thing.`\
 
-　自分がみんなの役に立ってきたと思い込めばこそ、……耐えることが出来たのだ。@
+;　自分がみんなの役に立ってきたと思い込めばこそ、……耐えることが出来たのだ。@
+`　She thought she was being useful to everyone, and so she was able to put up with it.`@
 br
-　それを否定されたら。@………それまでの痛みに、押し潰されてしまうだろう。\
+;　それを否定されたら。@………それまでの痛みに、押し潰されてしまうだろう。\
+`　The pain of having that denied `@`...must have been crushing.`\
 
 ld l,SMI_N1,22
 
-　玲子ちゃんは、大粒の涙を浮かべ始める。@
+;　玲子ちゃんは、大粒の涙を浮かべ始める。@
+`　Reiko-chan's eyes began welling up large tear drops.`@
 br
-　その涙は、わずかに光って、夕焼け色だった。\
+;　その涙は、わずかに光って、夕焼け色だった。\
+`　And those tears, reflected, slightly, the colors of evening sun.`\
 
 ld r,YUK_Def1,80
 
-「もう。@いじめに対して、てへへなんて、愛想笑いで誤魔化すのは止めよう？@　それは彼らを面白がらせるだけじゃない。@玲子ちゃんも面白がってるから、これはいじめじゃなくて遊びなんだと誤解させちゃうだけ。」\
+;「もう。@いじめに対して、てへへなんて、愛想笑いで誤魔化すのは止めよう？@　それは彼らを面白がらせるだけじゃない。@玲子ちゃんも面白がってるから、これはいじめじゃなくて遊びなんだと誤解させちゃうだけ。」\
+`"Enough. `@`How about you stop covering up that bullying with your 'tehehe's? `@`You're just doing it to make them feel good. `@`And since to them it seemed amused too, you caused them to misunderstand their bullying as fun and games."`\
 
 ld r,YUK_W1,80
 
-「いじめには、毅然と嫌だとはっきり言おう？@　そして、とことん無視してしまおう？@　私が助ける。@いつも一緒にいてあげる。@だから、もう。@……一人で苦しまなくていいんだよ。」\
+;「いじめには、毅然と嫌だとはっきり言おう？@　そして、とことん無視してしまおう？@　私が助ける。@いつも一緒にいてあげる。@だから、もう。@……一人で苦しまなくていいんだよ。」\
+`"How about saying a strong no to the bullying `@`And ignoring them until it stops? `@`I'll help. `@`I'll always be with you. `@`So. `@`...You don't have to suffer alone anymore."`\
 
 ld l,SMI_N3,22
 
 bg black,22
 bg roji_03,22
 
-　玲子ちゃんは堪えきれなくなって。@……とうとう、両手を顔で覆って、泣き出してしまう。@
-　彼女がこれまで胸の奥に隠してきた、痛みが、悲しみが、……溢れ出したのだろう。@
+;　玲子ちゃんは堪えきれなくなって。@……とうとう、両手を顔で覆って、泣き出してしまう。@
+`　Reiko-chan, being unable to stand it. `@`...Finally, buried her face in her hands and cried.`@
+;　彼女がこれまで胸の奥に隠してきた、痛みが、悲しみが、……溢れ出したのだろう。@
+`　The pain, the sadness she must have been hiding until now, deep within her chest... came pouring out`@
 br
-　私も、……何だかもらい泣きみたいに、いつの間にか涙を浮かべていた。\
+;　私も、……何だかもらい泣きみたいに、いつの間にか涙を浮かべていた。\
+`　I also... for some reason wanted to cry with her, and suddenly the tears came.`\
 
-　でも、私の涙は、熱い。@そしてきっと夕焼け色。@
+;　でも、私の涙は、熱い。@そしてきっと夕焼け色。@
+`　My tears were hot. `@`And they clearly showed the colors of the evening sun.`@
 br
-　ならば、同じ色の涙を零す彼女のそれだって、……きっと熱いはずなんだ。\
+;　ならば、同じ色の涙を零す彼女のそれだって、……きっと熱いはずなんだ。\
+`　Then the same colored tears she was shedding as I was... must have been hot as well.`\
 
 bg black,24
 bg roji_05,0
 ld r,SMI_Def6,24
 ld r,SMI_Def1a,80
 
-「………なくならないよ、………いじめは、……絶対……。」\
+;「………なくならないよ、………いじめは、……絶対……。」\
+`"...It won't die... bullying... it'll never..."`\
 
 ld l,YUK_Def1,23
 
-「そうだね。@簡単には、なくせないかもしれない。@でも、だからって。@私は二度と、あんな偽りのユートピアを、認めたりしない。」\
+;「そうだね。@簡単には、なくせないかもしれない。@でも、だからって。@私は二度と、あんな偽りのユートピアを、認めたりしない。」\
+`"Right. `@`We can't just simply be rid of it. `@`But, you know. `@`I won't let stuff like that false utopia fly ever again."`\
 
 ld r,SMI_Def2,80
 
-「……私を、楽しくいじめて、……みんなが幸せなユートピア……。」\
+;「……私を、楽しくいじめて、……みんなが幸せなユートピア……。」\
+`"...The happy utopia where everyone has fun... bullying me...."`\
 
 ld l,YUK_I2,80
 
-「あんなの、ユートピアじゃ、全然ないっ。@だって、みんなは玲子ちゃんをいじめてる時だけは楽しそうにしているけれど。@玲子ちゃんがいない時には、ずっとイライラして不愉快そうにしてる！@　まるで、玲子ちゃんをいじめてなかったら、退屈で死んじゃうとでも言わんばかりに…！」\
+;「あんなの、ユートピアじゃ、全然ないっ。@だって、みんなは玲子ちゃんをいじめてる時だけは楽しそうにしているけれど。@玲子ちゃんがいない時には、ずっとイライラして不愉快そうにしてる！@　まるで、玲子ちゃんをいじめてなかったら、退屈で死んじゃうとでも言わんばかりに…！」\
+`"Something like that, is definitely not a utopia~! `@`I mean, everyone might seem to be enjoying themselves when they're bullying you Reiko-chan. `@`But when you're not there, they have long periods of unease! `@`It's almost to the point where I could say they'd die of boredom without being able to bully you...!"`\
 
 ld l,YUK_I3a,80
 
-「ユートピアってのは、みんながみんな、いつも楽しく笑い合っている世界でしょう？@　だったら、玲子ちゃんがいなかったら笑えないような、@そして、玲子ちゃん一人を悲しませてしか笑い合えないユートピアなんて、@絶対に絶対に、私は認めないっ。」\
+;「ユートピアってのは、みんながみんな、いつも楽しく笑い合っている世界でしょう？@　だったら、玲子ちゃんがいなかったら笑えないような、@そして、玲子ちゃん一人を悲しませてしか笑い合えないユートピアなんて、@絶対に絶対に、私は認めないっ。」\
+`"I mean a utopia, isn't that a world where every single person is always smiling together happily? `@`If that's the case, then if Reiko-chan can't be happy, `@`then if Reiko-chan is the only one sad in a world where everyone laughs together, `@`I will not, absolutely not, allow it to happen!"`\
 
 ld r,SMI_N1,80
 
-「……みんなは、いじめがすごく楽しそうだよ……。」@
+;「……みんなは、いじめがすごく楽しそうだよ……。」@
+`"...But everyone seems to have so much fun picking on me..."`@
 
 ld l,YUK_I2,80
 
-「楽しくなんかない！@　みんなおかしいだけ！」\
+;「楽しくなんかない！@　みんなおかしいだけ！」\
+`"There's nothing fun about it! `@`Everyone's just crazy!"`\
 
 ld r,SMI_Def2n,80
 
-「……榊さんはいじめられっこだったから知らないだけで、@……本当はいじめたら、すごく楽しいんじゃ……。」\
+;「……榊さんはいじめられっこだったから知らないだけで、@……本当はいじめたら、すごく楽しいんじゃ……。」\
+`"...Just because Sakaki-san has been a bullied kid and doesn't know it -- `@`...the truth, maybe bullying is really fun..."`\
 
 cl l,0
 ld c,YUK_I3,23
 
-「みんなが楽しければ、いじめはあってもいいの？！@　みんなが楽しいかどうかなんて関係ないの。@誰かを悲しませてしか成立できない世界を、私は認めたくないのっ！」\
+;「みんなが楽しければ、いじめはあってもいいの？！@　みんなが楽しいかどうかなんて関係ないの。@誰かを悲しませてしか成立できない世界を、私は認めたくないのっ！」\
+`"As long as everyone is having fun, then bullying is fine too?! `@`It doesn't matter if everyone is enjoying themselves. `@`I don't want a world that only comes into existence through someone else's sadness!"`\
 
-　いじめられっこは、自分だけの力では、いじめに抗えない。@
-　だから、私が助ける。@そして私たちで、抗う。@
+;　いじめられっこは、自分だけの力では、いじめに抗えない。@
+`　The bullied ones can't fight back against bullying with their own strength alone.`@
+;　だから、私が助ける。@そして私たちで、抗う。@
+`　So I'll save them. `@`And we'll fight back.`@
 br
-　私はようやく、……吹っ切れたのだ。\
+;　私はようやく、……吹っ切れたのだ。\
+`　I'm finally... free.`\
 
 bg white,29
 bg roji_03,2
 
-　夕方の涼しい風が吹き、……私の髪を揺らす。@
-　何だかちょっと、気分がいい。@
+;　夕方の涼しい風が吹き、……私の髪を揺らす。@
+`　The cool evening breeze blows... my hair flows with the wind.`@
+;　何だかちょっと、気分がいい。@
+`　Somehow, ever so little, I feel good.`@
 br
-　今日の一件がきっかけで、明日から私はいじめられるかもしれない。\
+;　今日の一件がきっかけで、明日から私はいじめられるかもしれない。\
+`　Today's event was the start, and I might be bullied from tomorrow on.`\
 
-　でも、負けない。@
+;　でも、負けない。@
+`　But I won't lose.`@
 br
-　私は毅然と戦うし、玲子ちゃんだって戦ってくれる。@
-　誰か一人を生贄に捧げて、残る全員は楽しくなっていいなんて、いじめの存在を、@二度と許したりするものか。\
+;　私は毅然と戦うし、玲子ちゃんだって戦ってくれる。@
+`　I'm dedicated to the fight, and Reiko-chan will fight for me.`@
+;　誰か一人を生贄に捧げて、残る全員は楽しくなっていいなんて、いじめの存在を、@二度と許したりするものか。\
+`　The idea that someone can be made a scapegoat and everyone else that remains has their fun, that kind of bullying `@`I won't let ever happen again.`\
 
 bg black,23
 bg roji_04,23
@@ -7340,34 +7389,41 @@ ld l,SMI_Def5,23
 
 me1v 16,50
 
-「………榊さんは、………不思議な子だね…。」@
+;「………榊さんは、………不思議な子だね…。」@
+`"...Sakaki-san... you're a strange girl..."`@
 
 ld r,YUK_W4,24
 
-「不思議じゃないよ。@私が普通なの。@……いじめを楽しいなんて思ったりする子たちの方が、ずっとずっと不思議でおかしいの。」\
+;「不思議じゃないよ。@私が普通なの。@……いじめを楽しいなんて思ったりする子たちの方が、ずっとずっと不思議でおかしいの。」\
+`"I'm not strange. `@`I'm normal. `@`...It's those kids who think that something like bullying is fun, they've always, always been the strange ones -- the crazy ones."`\
 
 ld l,SMI_Def2n,80
 
-「…………………みんなみんな、……いじめを楽しんでるのに……。@……ぅうっ…。」@
+;「…………………みんなみんな、……いじめを楽しんでるのに……。@……ぅうっ…。」@
+`"......Everyone... everyone enjoys bullying though... `@`...uUu..."`@
 
 ld r,YUK_I3a,80
 
-「楽しくないよ、いじめなんて！」\
+;「楽しくないよ、いじめなんて！」\
+`"Bullying? Bullying isn't fun!"`\
 
 ld l,SMI_N3,80
 
-「それは……、ひっく…。@………榊さんが、いじめをしたことがないから……。」@
+;「それは……、ひっく…。@………榊さんが、いじめをしたことがないから……。」@
+`"But... *sniff*... `@`...It's because, Sakaki-san hasn't bullied someone before..."`@
 
 ld r,YUK_I2,80
 
-「いじめなんかしないよ。@これからも絶対ッ。」\
+;「いじめなんかしないよ。@これからも絶対ッ。」\
+`"And I won't ever. `@`No matter what."`\
 
 bg black,22
 locate 0,5
 
 E_B
 
-「だから、イ　ジ　メ　ノ　楽　シ　サ　を、　知らないんだね。」\
+;「だから、イ　ジ　メ　ノ　楽　シ　サ　を、　知らないんだね。」\
+`"It's because you don't know the f u n   o f   b u l l y i n g."`\
 
 mono 1
 bg white,24
@@ -7377,23 +7433,33 @@ bg roji_04,0
 
 ld r,YUK_I1a,24
 
-　えっ。@
+;　えっ。@
+`　Wha-`@
 br
-　その時、どっと風が吹いた。@
-　さっきまでの、涼しさを感じさせるものじゃない。@
-　汗の玉を浮き上がらせるような、……じっとりとした、生温い、嫌な風だった。\
+;　その時、どっと風が吹いた。@
+`　At that moment a gust of wind blew.`@
+;　さっきまでの、涼しさを感じさせるものじゃない。@
+`　It wasn't like the coolness of what was blowing before.`@
+;　汗の玉を浮き上がらせるような、……じっとりとした、生温い、嫌な風だった。\
+`　It was humid, warm, and enough to make me sweat... a foul wind.`\
 
-　玲子ちゃんは、顔を両手で覆ったままだった。@
+;　玲子ちゃんは、顔を両手で覆ったままだった。@
+`　Reiko-chan still had her face buried in her hands.`@
 br
-　でも、……その手の、……指の隙間から、彼女の目が覗いている。@
-　そこから、真っ黒な瞳が、覗いてる。\
+;　でも、……その手の、……指の隙間から、彼女の目が覗いている。@
+`　But ...her eyes were peeking through the slits between her fingers.`@
+;　そこから、真っ黒な瞳が、覗いてる。\
+`　From there, pure black eyes looked outwards.`\
 
 bg black,22
 
-　……瞳…？@
+;　……瞳…？@
+`　...eyes...?`@
 br
-　違う。@
-　瞳大の、真っ黒な、……泥のように真っ黒な穴が、指の間から、@……ぬろりと、覗いている……。\
+;　違う。@
+`　No.`@
+;　瞳大の、真っ黒な、……泥のように真っ黒な穴が、指の間から、@……ぬろりと、覗いている……。\
+`　They were pure black ...pure muddy black holes, from between her fingers, `@`...peeking out...`\
 
 ;bg black,22
 
@@ -7404,18 +7470,22 @@ bg e005,6
 
 bgm1 13
 
-「イ　ジ　メ　は　楽　し　い　よ……？@　ミンナ大好き。@誰かをイジメる時、教室のミンナは一つになれるの。@男の子も女の子も先生もナイ。@ミンナがミンナ、ワタシを取り囲んで、手と手を繋イデ輪にナッテ。@ミンナでミンナで仲良くなれるのに。@……どうして榊サンは、その輪に加わらないノ……？」\
+;「イ　ジ　メ　は　楽　し　い　よ……？@　ミンナ大好き。@誰かをイジメる時、教室のミンナは一つになれるの。@男の子も女の子も先生もナイ。@ミンナがミンナ、ワタシを取り囲んで、手と手を繋イデ輪にナッテ。@ミンナでミンナで仲良くなれるのに。@……どうして榊サンは、その輪に加わらないノ……？」\
+`"B u l l y i n g  i s  f u n ...? `@`EVERYONE loves it. `@`When someone is bullied, EVERYONE in class becomes one. `@`There are no boys, girls, or teachers. `@`EVERYONE, EVERYONE surrounds ME -- hand in hand they form a RING. `@`Even though EVERYONE, EVERYONE gets along. `@`...Why don't you join that ring, SAKAKI-SAN...?"`\ 
 
 bg roji_04,0
 ld r,YUK_N1,22
 
-　………ぇ、………………ぁ、\
+;　………ぇ、………………ぁ、\
+`　...eh ......ah`\
 
 ld r,YUK_i3a,80
 
-「……れ、……玲子……ちゃ…ん…………？」\
+;「……れ、……玲子……ちゃ…ん…………？」\
+`"...Re ...Reiko...chan....?"`\
 
-「榊サンは、どうしてイジメに加わらないノ…？@　楽しいノニ。@病み付きにナルノニ。@イジメに加われば、誰とだって手を取り合えるノニ…！！」\
+;「榊サンは、どうしてイジメに加わらないノ…？@　楽しいノニ。@病み付きにナルノニ。@イジメに加われば、誰とだって手を取り合えるノニ…！！」\
+`"Sakaki-SAN, why don't you join the BULLYING...? `@`IT'S FUN. `@`IT'S ADDICTIVE. `@`If you join in the BULLYING, you can take anyone's hand...!!"`\
 
 bg black,22
 bg roji_03,22
@@ -7423,26 +7493,34 @@ bg roji_03,22
 me1v 17,50
 
 
-　イジメはなくならないよ、なくせないヨ！@
+;　イジメはなくならないよ、なくせないヨ！@
+`　BULLYING won't stop, IT CAN'T STOP!`@
 br
-　それは朝に昇り夕に沈む太陽を、なくせと願うようなモノ！\
+;　それは朝に昇り夕に沈む太陽を、なくせと願うようなモノ！\
+`　That's like wishing for the sun that rises at dawn and sinks at dusk to DISAPPEAR!`\
 
-　お日様がなくちゃニンゲンは生きてイケナイ！@
-　そのお日様を、ミンナで手を取り合って、輪にナッテ囲ンデ！@　
+;　お日様がなくちゃニンゲンは生きてイケナイ！@
+`　Humans CANNOT LIVE WITHOUT THE SUN!`@
+;　そのお日様を、ミンナで手を取り合って、輪にナッテ囲ンデ！@　
+`　EVERYONE take up their hands and form a ring for the sun.`@
 br
-　ミンナで楽しく踊ロウヨ！！@　輪になって踊ロウ、ミンナで楽シク楽シク笑い合って！！@
+;　ミンナで楽しく踊ロウヨ！！@　輪になって踊ロウ、ミンナで楽シク楽シク笑い合って！！@
+`　EVERYONE, LET'S DANCE WITH JOY!! `@`Let's form a ring and DANCE, EVERYONE let's smile and have FUN, FUN TOGETHER!!`@
 br
-　ソレを覚えたらモウ！！@　誰モ！！@　忘レラレナイ、逃レラレナイ！！\
+;　ソレを覚えたらモウ！！@　誰モ！！@　忘レラレナイ、逃レラレナイ！！\
+`　IF WE REMEMBER THAT!! `@`NO ONE!! `@`NO ONE CAN FORGET, NO ONE CAN ESCAPE NOW!!`\
 
 ld r,SMI_W6,22
 
 me2v 28,70
 
-「イジメの快楽カラ、もう、誰モッ！！！」\
+;「イジメの快楽カラ、もう、誰モッ！！！」\
+`"NO ONE CAN GET AWAY... FROM THE FUN OF BULLYING!!!"`\
 
 ld l,YUK_N1,22
 
-「………れ、……玲子……ちゃん…………ッ……。」\
+;「………れ、……玲子……ちゃん…………ッ……。」\
+`"...Re... Reiko...chan....nn..."`\
 
 
 ;bg black,22
@@ -7452,74 +7530,100 @@ bg aka2,22
 
 me3v 16,70
 
-　もう逃れられないノ、誰モ誰モ。@
-　ヒトをイジメて、ミンナで楽シイ楽シイ、気持チ気持チ。@
+;　もう逃れられないノ、誰モ誰モ。@
+`　No one can escape now, NO ONE, NO ONE.`@
+;　ヒトをイジメて、ミンナで楽シイ楽シイ、気持チ気持チ。@
+`　TORMENTING PEOPLE, EVERYONE has FUN and EVERYONE FEELS GOOD.`@
 br
-　覚えてしまったナラ、病み付キ病み付キ、忘れられはシナイ！@
-　モウひと時ダッテ！！@　ヒトをイジメずには生キテ行けナイ！！\
+;　覚えてしまったナラ、病み付キ病み付キ、忘れられはシナイ！@
+`　Once they experience IT, it's ADDICTIVE, SO ADDICTIVE, they DON'T FORGET IT!`@
+;　モウひと時ダッテ！！@　ヒトをイジメずには生キテ行けナイ！！\
+`　ONCE they start!! `@`They can't live WITHOUT BULLYING PEOPLE`\
 
 ;bg aka3,22
 ld c,SMI_W5,22
 
 me4v 3,70
 
-「榊は、どうして私をいじめないのじゃ？！@　いじめれば、ニンゲンとして覚えられる最高の快楽を教えてあげたのにッ！！@　クラスのみんなと仲良くなれた！@　お前をいじめてた、あのいじめっこたちとさえな！！@　素敵であろう？！@　みんなで仲良く生贄をイジメれば、@誰とでも仲良くなれる素晴らしきユートピアを、扉を開けてお前を誘っていたのにッ！！」\
+;「榊は、どうして私をいじめないのじゃ？！@　いじめれば、ニンゲンとして覚えられる最高の快楽を教えてあげたのにッ！！@　クラスのみんなと仲良くなれた！@　お前をいじめてた、あのいじめっこたちとさえな！！@　素敵であろう？！@　みんなで仲良く生贄をイジメれば、@誰とでも仲良くなれる素晴らしきユートピアを、扉を開けてお前を誘っていたのにッ！！」\
+`"Sakaki, why don't you bully me?! `@`If you did, I'd let you learn the greatest pleasure you could experience as a human being. `@`You'll get along with everyone! `@`Even those bullies who ridiculed you!! `@`Is it not wonderful?! `@`If you cooperate and humiliate the scapegoat with everyone, `@`you will be invited through the gate to the utopia where you can be friends with everyyyyone!!"`\
 
 ld c,SMI_W6,22
 
-「なのにどうしてお前は来ない？！@　わからないワカラナイ、理解出来ナイのじゃ！！@　今まで、いじめられっこを何人も見てきた。@いじめられている時は、みんな、この世の終わりのような顔をしていじめを憎むのに！@　私が現れて、いじめられっこを代わってあげると、ひょこひょこといじめの輪に加わり出すッ！！@　なのにお前は不思議じゃ、おかしいのじゃ！！@　いじめを許さない？@　納得しない？@　一緒に戦おう？！@/
+;「なのにどうしてお前は来ない？！@　わからないワカラナイ、理解出来ナイのじゃ！！@　今まで、いじめられっこを何人も見てきた。@いじめられている時は、みんな、この世の終わりのような顔をしていじめを憎むのに！@　私が現れて、いじめられっこを代わってあげると、ひょこひょこといじめの輪に加わり出すッ！！@　なのにお前は不思議じゃ、おかしいのじゃ！！@　いじめを許さない？@　納得しない？@　一緒に戦おう？！@/
+`"And yet you won't go?! `@`I don't get it I DON'T GET IT, I CANNOT understand you!! `@`Until now, everyone has come to see the bullied child. `@`When they're being bullied they make faces like the world is going to end and hate bullying and yet! `@`I appear and take their place, and then they bumble into joining the ring of bulliessss!! `\
+`But you're strange -- weird!! `@`You won't allow bullying? `@`Won't accept it? `@`Let's fight it together?!`@/  
 se1 84
-　ふふひひひひははははははははははははははははははははははッ！！！」\
+;　ふふひひひひははははははははははははははははははははははッ！！！」\
+`　Huhuhuhuhihihihihihihahahahahahhahahahahahaaaa!!!"`\
 
 bg black,22
 bg roji_04,0
 ld r,YUK_N1,22
 
-「ぁ、………あなたは……、誰……………。@………………ぇ……？」\
+;「ぁ、………あなたは……、誰……………。@………………ぇ……？」\
+`"Ah, ...Who... are you...... `@`......eh...?"`\
 
 bg black,23
 bg roji_06,23
 
-　その時。@……由香里は奇妙な何かを見る。@
+;　その時。@……由香里は奇妙な何かを見る。@
+`　Then. `@`...Yukari saw something strange.`@
 br
-　それは目の前にいる玲子の奇怪な笑いではなく、……その、ずっと後ろ。\
+;　それは目の前にいる玲子の奇怪な笑いではなく、……その、ずっと後ろ。\
+`　It wasn't Reiko's strange smile before her eyes, ...but something far behind her.`\
 
-　そこにはカーブミラーがあった。@
-　ダンプか何かにぶつけられたのだろうか。@それは少しひしゃげ、カーブの向こうではなく、こちらに向いていた。@
+;　そこにはカーブミラーがあった。@
+`　Beyond her stood curved mirror.`@
+;　ダンプか何かにぶつけられたのだろうか。@それは少しひしゃげ、カーブの向こうではなく、こちらに向いていた。@
+`　A dump truck or something had probably hit it. `@`It was bent a bit, and instead of facing a side alley, it was facing this way.`@
 br
-　……そこに、自分が映っている。@自分だけが、映っている。\
+;　……そこに、自分が映っている。@自分だけが、映っている。\
+`　...My reflection was in the mirror. `@`Just my reflection was in the mirror.`\
 
-「…………ぇ、………………？！」@
+;「…………ぇ、………………？！」@
+`"...eh, ......?!"`@
 br
-　そんなはずはない。@
-　こうして向き合って立っているのだから、……映らないはずがないのだ。@
+;　そんなはずはない。@
+`　That can't be.`@
+;　こうして向き合って立っているのだから、……映らないはずがないのだ。@
+`　Since it's standing and facing this way, ...there's no way it couldn't be reflecting...`@
 br
-　なのに、……自分の姿は映っているのに、……大住玲子の姿だけ、映っていないのだ。\
+;　なのに、……自分の姿は映っているのに、……大住玲子の姿だけ、映っていないのだ。\
+`　And yet... my reflection is there and yet... Reiko Oosumi's... isn't there.`\
 
-　由香里は、カーブミラーと玲子をまじまじと、何度も見比べる。@
+;　由香里は、カーブミラーと玲子をまじまじと、何度も見比べる。@
+`　Yukari stared at the mirror and Reiko, looking back and forth over and over again.`@
 br
-　目の前にいて不気味に笑う彼女の存在と、にも関わらず、彼女だけいないカーブミラーの景色……。\
+;　目の前にいて不気味に笑う彼女の存在と、にも関わらず、彼女だけいないカーブミラーの景色……。\
+`　With the ominously smiling girl directly in front of her, nevertheless, the curved mirror showed no one else but Yukari...`\ 
 
 
 bg black,22
 
-「これはうっかりしていたものよ。@あのようなところに鏡があったとは。@姿を映すのを、すっかり忘れていたのじゃ。@ふっふふっひっひは！！」\
+;「これはうっかりしていたものよ。@あのようなところに鏡があったとは。@姿を映すのを、すっかり忘れていたのじゃ。@ふっふふっひっひは！！」\
+`"I've been careless. `@`To think there'd be a mirror like that over there. `@`My reflection completely slipped my mind. `@`Hu huhu hi hi ha!!"`\
 
 E_B
 
 bg white,1
 bg roji_04,22
 
-　彼女は自分の姿がカーブミラーに映らないことをあっさりと認めると、ぱちんと手を叩く。@
+;　彼女は自分の姿がカーブミラーに映らないことをあっさりと認めると、ぱちんと手を叩く。@
+`　As if to simply allow her reflection to appear in the curved mirror, she clapped her hands.`@
 br
-　すると、今さらのように、そこに彼女の後姿が浮かび上がる。\
+;　すると、今さらのように、そこに彼女の後姿が浮かび上がる。\
+`　Then, despite how late it was now, the reflection of her back projected onto the mirror.
 
 ;ld r,SMI_W1,42
 
-　しかし、そこに映った姿は、……目の前にいる彼女のそれとは、異なるモノ。@
+;　しかし、そこに映った姿は、……目の前にいる彼女のそれとは、異なるモノ。@
+`　However, the figure that reflected there ...was a different 'thing' than the girl that stood before her.`@
 br
-　今こそようやく理解する。@もはや、認めざるを得ない。@
-　大住玲子は、人ならざる存在なのだ……。\
+;　今こそようやく理解する。@もはや、認めざるを得ない。@
+`　And now she finally realized. `@`There was no room for doubt.`@
+;　大住玲子は、人ならざる存在なのだ……。\
+`　Reiko Oosumi wasn't human...`\
 
 ld l,YUK_N1,23
 
@@ -7527,7 +7631,8 @@ E_A
 
 bgm1 12
 
-「あ、あなた誰……？！@　に、……人間じゃない…？！？」\
+;「あ、あなた誰……？！@　に、……人間じゃない…？！？」\
+`"W-Who are you...?! `@`...You're not human...?!?"`\
 
 ld r,SMI_W1,2
 
