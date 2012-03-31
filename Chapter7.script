@@ -6769,48 +6769,62 @@ me1v 5,50
 
 br
 ;　彼女が一番求めていることは、かつていじめられていた自分には一番わかっている。\
-`　
+`　The thing she is wishing for most, is something my previous bullied self would understand best.`\
 
-　私だって、想像の中でだけなら、……人垣を割って入って、彼女を庇ってあげたい。@
+;　私だって、想像の中でだけなら、……人垣を割って入って、彼女を庇ってあげたい。@
+`　Because I too, even if just in my imagination, ...want to force my way through the crowd and protect her.`@`
 br
-　でも、それをすることは、………今や、クラス全員を敵に回すことだ。\
+;　でも、それをすることは、………今や、クラス全員を敵に回すことだ。\
+`　However, in doing so, ...it would now mean making enemies of everyone in the class.
 
 bg black,22
 bg e010,22
 
 me2v 17,50
 
-　男子も女子も、誰から誰まで。@
-　クラスメート全員が、今や玲子ちゃんをいじめることを、共通の娯楽にしてしまっている。@
+;　男子も女子も、誰から誰まで。@
+`　Boys, girls, from anyone and everyone.`@`
+;　クラスメート全員が、今や玲子ちゃんをいじめることを、共通の娯楽にしてしまっている。@
+`　Everyone in the class, by bullying Reiko-chan now, are enjoying themselves as a community.`@`
 br
-　彼女をいじめることは、まるで、夕方からやっている人気のアニメみたいなものなのだ。@
+;　彼女をいじめることは、まるで、夕方からやっている人気のアニメみたいなものなのだ。@
+`　Bullying her is just like watching a popular anime playing in the evening.`@`
 br
-　彼女の何らかの失敗を取り上げ、それをみんなで嘲笑い、その感想でみんなで盛り上がる。\
+;　彼女の何らかの失敗を取り上げ、それをみんなで嘲笑い、その感想でみんなで盛り上がる。\
+`　Somehow picking up on each of her failures, and being jeered at by everyone, just the thought of it made everyone get even more excited.`\
 
-　それを邪魔すれば、どうなるか、……想像するのも、恐ろしい。@
-　誰だって、自分がアニメを見て楽しんでいる時に、@唐突にテレビを切られたら不愉快になって、敵意の眼差しを向けたくなる。\
+;　それを邪魔すれば、どうなるか、……想像するのも、恐ろしい。@
+`　What would happen if I were to get in the way of that? ...Just thinking about it is frightening.`@`
 
-　それを、クラス全員から向けられる勇気が、私のこの小さな胸に、あるというのか……。\
+;　誰だって、自分がアニメを見て楽しんでいる時に、@唐突にテレビを切られたら不愉快になって、敵意の眼差しを向けたくなる。\
+`　If, while enjoying anime on the television and the television were to be suddenly shut off,`@` anybody would get upset and glare in animosity.`\
+;　それを、クラス全員から向けられる勇気が、私のこの小さな胸に、あるというのか……。\
+`　Can I say that I have the courage in my tiny heart to face being glared at by everyone in the class...?`\
 
 bg black,22
 
-「くすくすくす。@………彼女が転校してくるという奇跡のお蔭で、あなたはいじめられっこの座を抜け出すことが出来た。@もう一度、そこに戻るのも勝手だけれど、@……今度はもう、都合のいい奇跡は起こらないかもね…？」\
+;「くすくすくす。@………彼女が転校してくるという奇跡のお蔭で、あなたはいじめられっこの座を抜け出すことが出来た。@もう一度、そこに戻るのも勝手だけれど、@……今度はもう、都合のいい奇跡は起こらないかもね…？」\
+`"Teeheehee.`@` ...Thanks to the miracle of her transferring here, you were able to sneak out of the bullied hotseat.`@` It would be of your own will if you return to it this time.`@` ...but it's not likely a convenient miracle like that will occur this time, you know...?"`\
 
 bg kyou_01,0
 ld r,YUK_def4a,22
 
-　言われなくったって、わかってる。@
+;　言われなくったって、わかってる。@
+`　I knew that without being told.`@`
 br
-　私は今、玲子ちゃんを憐れむふりをしながらも、……噛みしめてる。\
+;　私は今、玲子ちゃんを憐れむふりをしながらも、……噛みしめてる。\
+`　Right now, I'm just pretending to pity Reiko-chan, ...and all the while gritting my teeth.`\
 
-　彼女を憐れむことが出来るという、心のゆとりを。@
+;　彼女を憐れむことが出来るという、心のゆとりを。@
+`　Because I am able to feel pity for her, there is a little leeway in my heart.`@`
 br
-　それが持てる、いじめられっこでないという愉悦を、噛みしめてるっ……。\
+;　それが持てる、いじめられっこでないという愉悦を、噛みしめてるっ……。\
+`　Because I have that, I am biting down on the joy of not being the victim here...`\
 
 bg black,22
 
-「えぇ、そう。@あなたは今、噛みしめてる。@そうして、義憤と安楽の、その狭間で躊躇することの愉悦を今、噛みしめてるっ。@……えぇ、そうよ、じっくりと噛みしめてちょうだいな。……くすくす、今、あなたの魂がどんどん、どんどん、美味しくなってるッ。@どんどん熟れて、蜜がぼたぼたと滴る果実のように…！@　くすくす、あはは、素敵よ由香里、本当に素敵だわ榊由香里…！！@　もっともっと滴らせて…！！@　綺麗事を並べ立てながら、そこでずっとずっといつまでも、@自分はもういじめられっこじゃないという愉悦を噛みしめていてちょうだい！@　くすくすくす、あっはははははははははははははははははは…！！！」\
-
+;「えぇ、そう。@あなたは今、噛みしめてる。@そうして、義憤と安楽の、その狭間で躊躇することの愉悦を今、噛みしめてるっ。@……えぇ、そうよ、じっくりと噛みしめてちょうだいな。……くすくす、今、あなたの魂がどんどん、どんどん、美味しくなってるッ。@どんどん熟れて、蜜がぼたぼたと滴る果実のように…！@　くすくす、あはは、素敵よ由香里、本当に素敵だわ榊由香里…！！@　もっともっと滴らせて…！！@　綺麗事を並べ立てながら、そこでずっとずっといつまでも、@自分はもういじめられっこじゃないという愉悦を噛みしめていてちょうだい！@　くすくすくす、あっはははははははははははははははははは…！！！」\
+`"That's correct.`@` You are currently gritting your teeth.`@` This way, you can joyously hesitate in the valley between righteous indignation and comfort, and hold on tight.`@` ...Yes, very good. Please, bite down more for me.`@` Teehee, your soul is growing more and more delicious.`@` It's steadily ripening, and its nectar is dripping out just like a trickling fruit...!`@` Teehee, ahaha, you're wonderful, Yukari, truly wonderful Yukari Sakaki...!!`@` Dribble more for me...!!!`@` Lay out all of those lovely things, stay there forever and ever for all of time`@` and bite down tight on that joy of not being the victim anymore for me!`@` Teeheehee, ahahahahahahahahahahahaha...!!!"`\ 
 
 
 
@@ -6828,31 +6842,41 @@ ld r,YUK_i3a,22
 
 wait 1000
 
-　や、………止　め　て　下　さ　い　ッッッ！！！\
-
+;　や、………止　め　て　下　さ　い　ッッッ！！！\
+`　P, ...P l e a s e   n o   m o r e!!!`\
 bgm1 5
 
-　シンと、教室が静まり返る。@
+;　シンと、教室が静まり返る。@
+`　Suddenly, the class fell silent.`@`
 br
-　玲子ちゃんを囃し立てる大勢の喧騒が止んだ。\
+;　玲子ちゃんを囃し立てる大勢の喧騒が止んだ。\
+`　The clatter of the crowd mocking Reiko-chan stopped.`\
 
 ld r,YUK_N1,22
 
-　私は思わず、……あ、……と口にしてしまう。@
+;　私は思わず、……あ、……と口にしてしまう。@
+`　Without thinking, ...I found myself saying, ...ah.`@`
 br
-　私の口から飛び出したその言葉に、彼ら以上に、私自身が驚いていた…。@
+;　私の口から飛び出したその言葉に、彼ら以上に、私自身が驚いていた…。@
+`　Even I was surprised at the words that came from my mouth...`@`
 br
-　先生も、いじめっこたちも、クラスメートたちもみんなみんな、@……私の方を向いて、茫然としていた。\
+;　先生も、いじめっこたちも、クラスメートたちもみんなみんな、@……私の方を向いて、茫然としていた。\
+`　The teacher, the victims, the classmates, all of them, every last one,`@` ...turned to me, overcome with amazement.`\
 
-　茫然……？@
+;　茫然……？@
+`　Dumbfounded...?`@`
 br
-　あるいは唖然だろうか。\
+;　あるいは唖然だろうか。\
+`　Or was it mute amazement?`\
 
-　クラスみんなで、大住玲子をいじめて楽しく盛り上がっているのに。@
+;　クラスみんなで、大住玲子をいじめて楽しく盛り上がっているのに。@
+`　Even though everyone in the class was excited and enjoying themselves by bullying Reiko-chan.`@`
 br
-　なぜ、……それに水を差すようなことを言い出す子がいるのか、@心底、わからないという風だった。\
+;　なぜ、……それに水を差すようなことを言い出す子がいるのか、@心底、わからないという風だった。\
+`　Why, ...is there someone here that would shout something like pouring cold water over someone?`@` It was like they truly couldn't understand it from the depths of their hearts.`\
 
-　理解できないものを見る、彼らの冷め切った、目、……目……。@
+;　理解できないものを見る、彼らの冷め切った、目、……目……。@
+`　Seeing something they couldn't understand, those piercing, cold eyes, ...those eyes....`@`
 br
 ;　先生が取り繕ったように苦笑いしてくれなかったら、@私は耐えきれなくて、卒倒していたかもしれない。\
 `　If the teacher hadn't laughed to smoothe things over, `@`I wouldn't have been able to take it and I might have fainted.`\
