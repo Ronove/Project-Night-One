@@ -6437,9 +6437,12 @@ ld c,SMI_N2,22
 
 br
 ;　玲子ちゃんに対するいじめ、というこの一点さえ目を瞑ったなら。@
-`　
-　彼女は間違いなく、クラスの人気者であり。@
-　クラス全体に笑いを振りまく、クラスの潤滑油でさえあった。\
+`　If you were to close your eyes to the torment Reiko-chan faced...`@`
+
+;　彼女は間違いなく、クラスの人気者であり。@
+`　She's without a doubt the class's big hit.`@`
+;　クラス全体に笑いを振りまく、クラスの潤滑油でさえあった。\
+`　Sprinkling laughter through the entire class, one could almost say she was like the oil needed to loosen them up.`\
 
 bg black,22
 
@@ -6448,78 +6451,103 @@ lsp2 2,$ld_pass,480,450,-200,200,0
 lsp2 3,$ld_pass2,480,450,-200,200,0
 print 22
 
-「………くすくすくす。@本来、あそこまで極端ではないにしても。@クラスメートたちには序列があり、そのグループ間で摩擦などが生じるわ。@見下したり、嫌ったり。@……誰だって、クラスメート全員が仲良くいられるユートピアなんて存在するわけないって、知っているわ。」\
+;「………くすくすくす。@本来、あそこまで極端ではないにしても。@クラスメートたちには序列があり、そのグループ間で摩擦などが生じるわ。@見下したり、嫌ったり。@……誰だって、クラスメート全員が仲良くいられるユートピアなんて存在するわけないって、知っているわ。」\
 ;＜彼岸花
+`"....Teeheehee.`@` Even if it hadn't been that apparent originally.`@` The classmates have a hierarchy, and within that group, friction is generated.`@` Loathing, despising.`@` ...There is no possible way a utopia of being friendly with the entire class. I know that."`\
 
-　クラスに存在しないはずの、あの髪の長い子が、私の背中でまた囁く……。\
+;　クラスに存在しないはずの、あの髪の長い子が、私の背中でまた囁く……。\
+`　The girl who shouldn't exist in this class, the girl with that long hair, was once again whispering to my back...`\
 
 ld_p HIG_W2
 lsp2 2,$ld_pass,480,450,-200,200,0
 lsp2 3,$ld_pass2,480,450,-200,200,0
 print 80
 
-「でも、それをあの大住玲子という一人の少女が実現したわ。@彼女を触媒とすることで、クラスみんなが一つになれる。@くすくすくすくす、それは本当に素晴らしいことだと思わない？」\
+;「でも、それをあの大住玲子という一人の少女が実現したわ。@彼女を触媒とすることで、クラスみんなが一つになれる。@くすくすくすくす、それは本当に素晴らしいことだと思わない？」\
+`"However, that's materialized within that Reiko Oosumi girl.`@` With her as the catalyst, the class has all become unified.`@` Teeheehee, don't you think that's truly magnificent?"`\
 
 ld_p YUK_Def3a
 lsp2 4,$ld_pass,130,480,200,200,0
 lsp2 5,$ld_pass2,130,480,200,200,0
 print 22
 
-「………こんなのが、素晴らしいことなんですか……。」\
+;「………こんなのが、素晴らしいことなんですか……。」\
+`"...Is something like this, really that magnificent...?"`\
 
 ld_p HIG_Def2
 lsp2 2,$ld_pass,480,450,-200,200,0
 lsp2 3,$ld_pass2,480,450,-200,200,0
 print 80
 
-「見て御覧なさい。@クラスメートみんなも、そして先生も。@……教室全体が、こんなにも温かに纏まっていることが、どう不満だというの？」\
+;「見て御覧なさい。@クラスメートみんなも、そして先生も。@……教室全体が、こんなにも温かに纏まっていることが、どう不満だというの？」\
+`"Have a look yourself.`@` Your classmates, even your teacher.`@` ...How can you say you're dissatisfied with the entire class being so warm and orderly?"`\
 
 csp2 -1
 bg black,22
 bg kyou_01,22
 
-「先生ぇ！@　大住さん、昨日もお風呂に入らなかったそうでーす！！」@
-「大住ぃ。@ちゃんと毎日お風呂に入らないと駄目だぞー？@　だからみんなにカレー臭いとか言われちゃうんだ。」\
+;「先生ぇ！@　大住さん、昨日もお風呂に入らなかったそうでーす！！」@
+`"Teacheeerrrr!`@` It looks like Oosumi-san didn't take a bath yesterday either~!!"`@`
+;「大住ぃ。@ちゃんと毎日お風呂に入らないと駄目だぞー？@　だからみんなにカレー臭いとか言われちゃうんだ。」\
+`"Oosumiii.`@` You have to get in the bath everyday, you know~?`@` That's why everyone says you smell like curry."`\
 
 ld r,SMI_N1,22
 
-「て、……てへへへ……。」@
+;「て、……てへへへ……。」@
+`"Eh, ...ehehehe..."`@`
 
 quake 3,300
 
-「「「わっはははははははははははははははは！！」」」\
+;「「「わっはははははははははははははははは！！」」」\
+`"""Wahahahahahahahahahahaha!!!"""`\
 
-「みんなはちゃんと毎日お風呂に入って、体を清潔にするんだぞー。@先生との約束だからなー！@　じゃないと大住みたいに、カレー臭になっちゃうぞー！」@
-「「「どわっはっはっはははは！@　はーーーーーーい！！！」」」\
+;「みんなはちゃんと毎日お風呂に入って、体を清潔にするんだぞー。@先生との約束だからなー！@　じゃないと大住みたいに、カレー臭になっちゃうぞー！」@
+`"Everyone needs to take a bath every day and clean their bodies.`@` You all promise to your teacher~!`@` If you don't, you'll start stinking of curry like Oosumi~!"`@`
+;「「「どわっはっはっはははは！@　はーーーーーーい！！！」」」\
+`"""Pffffahahahahahaha!`@` Gooooooooooot it!!!"""`\
 
 ld r,SMI_N2,80
 
-「てへへへ…………。」@
-「ほらっ、大住もまたテヘってるんじゃないっ。@ちゃんと毎日お風呂に入らなかったら、お前のあだ名、カレー臭いマンにしちゃうからな！」@
-「「「どわっはっはっはははははははははははは！！」」」\
+;「てへへへ…………。」@
+`"Ehehehe..."`@`
+;「ほらっ、大住もまたテヘってるんじゃないっ。@ちゃんと毎日お風呂に入らなかったら、お前のあだ名、カレー臭いマンにしちゃうからな！」@
+`"See, Oosumi's 'Ehehe'ing again too.`@` If you don't take a bath every day, your nickname will turn into Stinky Curry Man!"`@`
+;「「「どわっはっはっはははははははははははは！！」」」\
+`"""Hahahahahahahahahahahaha!!!"""`\
 
-「カレー臭いマ～ン！！」@
+;「カレー臭いマ～ン！！」@
+`"Stinky Curry Ma~~~~~~~n!!"`@`
 
 ld r,SMI_N1,80
 
-「て、てへへへ……、あだ名もらっちゃった……。@………てへへへへ……。」\
+;「て、てへへへ……、あだ名もらっちゃった……。@………てへへへへ……。」\
+`"Eh, ehehehe... I guess I got a nickname...`@` ....Ehehehehe..."`\
 
-「先生ぇ、カレー臭いマン、あだ名もらえて、すごい嬉しそうにしてまーす！！」@
-「みんなもそう呼ばれたくなかったら、お風呂だけじゃなく、うがいや手洗いもしっかりやるんだぞー！@　わかったなー！！」@
-「「「はーーーーい！！！」」」\
+;「先生ぇ、カレー臭いマン、あだ名もらえて、すごい嬉しそうにしてまーす！！」@
+`"Teacheerrr, Stinky Curry Man looks super happy to have gotten her nickname!!"`@`
+;「みんなもそう呼ばれたくなかったら、お風呂だけじゃなく、うがいや手洗いもしっかりやるんだぞー！@　わかったなー！！」@
+`"If you don't want to be called the same thing, don't only take a bath, but wash your hands and gargle every day too~!`@` You got it~?"`@`
+;「「「はーーーーい！！！」」」\
+`"""Goooooooot iiiiit!!!"""`\
+
 
 bg black,22
 bg kyou_03,22
 
-　……まるで、低学年か幼稚園のような、明るい素直さに教室が満ち溢れていた。@
+;　……まるで、低学年か幼稚園のような、明るい素直さに教室が満ち溢れていた。@
+`　...The classroom was the exact same overflowing, bright obedience as a kindergarten or an elementary school class.`@`
 br
-　教室の全員が、ひとつのことに関心を持ち、その価値観を共有し、同じ感情で統一されている。\
+;　教室の全員が、ひとつのことに関心を持ち、その価値観を共有し、同じ感情で統一されている。\
+`　The entirety of the class held the same one interest, shared the same values, and was unified in the same feelings.`\
 
-　それを、こうして茫然と見ていると、@……確かにこれは、学校という異常な世界に現れた束の間の奇跡、……ユートピアに見える。\
+;　それを、こうして茫然と見ていると、@……確かにこれは、学校という異常な世界に現れた束の間の奇跡、……ユートピアに見える。\
+`　Watching this, completely dumbfounded,`@` ...It was true that in a sudden miracle, it appeared to be the abnormal world known as school...it looked like a utopia.`\
 
-　でも、そのユートピアは、玲子ちゃんという気の毒ないじめられっこを踏み台にして築かれている。@
+;　でも、そのユートピアは、玲子ちゃんという気の毒ないじめられっこを踏み台にして築かれている。@
+`　But this utopia was built from the unfortune stepping stone of the bullied child, Reiko-chan.`@`
 br
-　その彼女の、痛々しい苦笑いが見えてしまう私には、@……断じてそれが、ユートピアだなどとは思えないのだ…。\
+;　その彼女の、痛々しい苦笑いが見えてしまう私には、@……断じてそれが、ユートピアだなどとは思えないのだ…。\
+`　But to me, seeing her smiling that pitiful, bitter smile,`@` ...my conclusion was that I could never think of this as anything like a utopia...`\
 
 bg black,22
 
@@ -6531,7 +6559,8 @@ E_A
 ;lsp2 3,$ld_pass2,480,550,-200,200,0
 ;print 22
 
-「くすくすくす。@………あなたって、動物の悲鳴が聞こえるから、お肉とか食べられなぁい、っていうタイプかしら？」@
+;「くすくすくす。@………あなたって、動物の悲鳴が聞こえるから、お肉とか食べられなぁい、っていうタイプかしら？」@
+`"Teeheehee.`@` ...I bet you're the type who can't eat meat because you can hear the animal's cry, aren't you?"`@`
 ;＜彼岸花
 
 ;ld_p YUK_Def4
@@ -6539,7 +6568,8 @@ E_A
 ;lsp2 5,$ld_pass2,130,480,200,200,0
 ;print 22
 
-「……た、食べ物は、動物に感謝して、残さないように食べろって、……お父さんに。」\
+;「……た、食べ物は、動物に感謝して、残さないように食べろって、……お父さんに。」\
+`"...D, Dad told me to thank the animal for the food, and to not have anything left on my plate..."`\
 
 ;ld_p HIG_W3
 ;lsp2 2,$ld_pass,480,550,-200,200,0
@@ -6548,140 +6578,185 @@ E_A
 
 bgm1 6
 
-「動物だって、殺されたくなんかなかったはず。@でも、あなたはその肉を食べるわ。@……感謝しながらね。@くすくすくすくす。」\
+;「動物だって、殺されたくなんかなかったはず。@でも、あなたはその肉を食べるわ。@……感謝しながらね。@くすくすくすくす。」\
+`"I doubt animals want to be killed or anything.`@` But you eat that meat.`@` ...While thanking them.`@` Teeheeheehee."`\
 
 ;csp2 -1
 ;print 0
 ;bg black,22
 bg kyou_02,22
 
-　何を嘲笑われているのか、わかってる。\
+;　何を嘲笑われているのか、わかってる。\
+`　I know what it is she's sneering at.`\
 
-　玲子ちゃんの言う、心の栄養という名の、いじめられっこの存在。@
-　それが不可欠な要素ならば、……私たちは感謝しながら、それを享受すべきなのだろう。@
+;　玲子ちゃんの言う、心の栄養という名の、いじめられっこの存在。@
+`　The existence of those victims, the ones Reiko-chan called the 'nutrients of the heart.`@`　
+;　それが不可欠な要素ならば、……私たちは感謝しながら、それを享受すべきなのだろう。@
+`　If it's true that those are essential elements, ...then we should also accept them with gratitude.`@`
 br
-　あたかも、食卓に並ぶお肉を食べるかのように。\
+;　あたかも、食卓に並ぶお肉を食べるかのように。\
+`　As if we were eating meat lined up on the dinner table.`\
 
-　食肉になることを望んで生まれてきた動物なんて、いるわけもない。@
+;　食肉になることを望んで生まれてきた動物なんて、いるわけもない。@
+`　There's no way there's an animal born with the wish to become our food.`@`
 br
-　同じく。@
-br
-　いじめられっこになることを望んで生まれてきた人なんて、いるわけもない。\
+;　同じく。@
+`　In that same way.`@`
 
-　私が動物たちの悲鳴に聞こえぬふりをして、今日まで漫然とお肉を食べることが出来たなら。@
 br
-　……私は玲子ちゃんという、尊い犠牲に感謝しながら、@………この、一体感あふれる愉快な教室を認めるべきなのだ。\
+;　いじめられっこになることを望んで生まれてきた人なんて、いるわけもない。\
+`　There is no way a person exists having wanted to become a victim of abuse from birth.`\
+
+;　私が動物たちの悲鳴に聞こえぬふりをして、今日まで漫然とお肉を食べることが出来たなら。@
+`　If I can pretend not to hear the screams of the animals, and aimlessly go about eating meat.`@`
+br
+;　……私は玲子ちゃんという、尊い犠牲に感謝しながら、@………この、一体感あふれる愉快な教室を認めるべきなのだ。\
+`　...Then while being grateful to her precious sacrifice,`@` ...I should recognize this sense of unity and joy brimming over the classroom.`\
 
 bg black,22
 
-　玲子ちゃんという、たった一人のいじめられっこにさえ目を瞑れたなら。@
+;　玲子ちゃんという、たった一人のいじめられっこにさえ目を瞑れたなら。@
+`　While turning my head away from the only victim, Reiko-chan.`@`
+
 br
-　ここは紛れもなく、ユートピア……。\
+;　ここは紛れもなく、ユートピア……。\
+`　This is without a doubt, utopia...`\
 
 ld l,HIG_Def3,22
 
-「あなたも彼女をいじめる輪に加われば、みんなと一緒に、楽しく楽しく日々を過ごせるのに。」@
+;「あなたも彼女をいじめる輪に加われば、みんなと一緒に、楽しく楽しく日々を過ごせるのに。」@
+`"Even though you could join that group of people bullying her and spend every day having fun with everyone."`@`
 
 ld r,YUK_I2,22
 
-「……人がいじめられているのを知っていて、……楽しくなんて、過ごせません。」\
+;「……人がいじめられているのを知っていて、……楽しくなんて、過ごせません。」\
+`"...Knowing how it feels to be bullied, ...I couldn't spend it having fun."`\
 
 ld l,HIG_W3,80
 
-「だからクラスであなた一人。@この楽しい雰囲気に溶け込めず、ひとり孤立しているのね。」\
+;「だからクラスであなた一人。@この楽しい雰囲気に溶け込めず、ひとり孤立しているのね。」\
+`"That's why you are alone in the class.`@` That's why you can't blend in with this great atmosphere, and why you are isolated."`\
 
 ld r,YUK_Def4a,80
 
-　確かに、今、私は孤立しているかもしれない。@
-　いじめの輪に加われば、……みんなとも楽しく交流できるだろう。@
-　……玲子ちゃんを囃し立て、嘲笑い、……みんなでご機嫌。@
+;　確かに、今、私は孤立しているかもしれない。@
+`　Certainly, I might be isolated now.`@`
+;　いじめの輪に加われば、……みんなとも楽しく交流できるだろう。@
+`　If I joined that circle of torment, ...I might be able to have fun interacting with everyone.
+;　……玲子ちゃんを囃し立て、嘲笑い、……みんなでご機嫌。@
+`　...Mocking and sneering at Reiko-chan...being in good spirits with everyone.`@`
 br
-　………………………。\
+;　………………………。\
+`　..........`\
 
 ld l,HIG_w4,80
 
-「納得行かなそうね。@……毬枝に似た面白い子だこと。@くすくすくす。」@
+;「納得行かなそうね。@……毬枝に似た面白い子だこと。@くすくすくす。」@
+`"It looks like you won't consent.`@` ...You're a funny girl just like Marie.`@` Teeheehee."`@`
 
 ld r,YUK_I2,80
 
-「………誰かひとりに悲しみを押し付けて。@……それの上にあぐらをかいて、……その子以外が楽しければそれで幸せなんて、@……私はやっぱり、納得したくありません…。」\
+;「………誰かひとりに悲しみを押し付けて。@……それの上にあぐらをかいて、……その子以外が楽しければそれで幸せなんて、@……私はやっぱり、納得したくありません…。」\
+`"...Pushing misfortune on some one lone person.`@` ...And sitting proudly on top of that, ...thinking that it's happiness to enjoy life with everyone but her,`@` ...I just don't want to agree with that..."`\
 
 ld l,HIG_W1,80
 
-「くすくすくす。@ま、……納得するもしないも、それをのんびりと傍観しながら迷うことが出来るのも、@彼女の犠牲の上に成り立つ、立派なあぐらだと思うけれど…？」@
+;「くすくすくす。@ま、……納得するもしないも、それをのんびりと傍観しながら迷うことが出来るのも、@彼女の犠牲の上に成り立つ、立派なあぐらだと思うけれど…？」@
+`"Teeheehee.`@` Well, ...I think you're still proudly sitting upon her sacrifice.`@` Even by refusing to acknowledge it and being able to leisurely remaining a spectator is still magnificently sitting atop, don't you think...?"`@`
 
 ld r,YUK_Def2a,80
 
-「…………………ん………。」\
+;「…………………ん………。」\
+`"....Nngh..."`\
 
 ld l,HIG_W4,80
 
-「それに、あなたと違って。@ここまでいじめが大きくなったのは、彼女の責任でもあるんじゃないかしら…？」@
+;「それに、あなたと違って。@ここまでいじめが大きくなったのは、彼女の責任でもあるんじゃないかしら…？」@
+`"And unlike you.`@` Don't you think she's liable for her abuse getting this far...?"`@`
 
 ld r,YUK_Def3a,80
 
-「……どうしてですか…。」\
+;「……どうしてですか…。」\
+`"...Why do you say that...."`\
 
 ld l,HIG_W3,80
 
-「あなたがいじめられていた時には。@少なくとも、彼らをそれ以上刺激しないように、ささやかな努力をしていたわ。」\
+;「あなたがいじめられていた時には。@少なくとも、彼らをそれ以上刺激しないように、ささやかな努力をしていたわ。」\
+`"When you were getting harassed.`@` At the very least, in order to not provide any additional stimuli to them, you exerted a great effort."`\
 
 bg black,22
 mono 1
 bg kyou_01,22
 
-　いじめに反応を返すことは、ますますいじめを助長する結果になる。@だから、どんなに辛くても、反応を返してはいけない。@
+;　いじめに反応を返すことは、ますますいじめを助長する結果になる。@だから、どんなに辛くても、反応を返してはいけない。@
+`　If you respond to any abuse, you'll just create more and more abuse.`@` So no matter how difficult it may be, you mustn't respond.`@`
 br
-　私がいじめられっこであった時、唯一許された、最初で最後の自衛だった。\
+;　私がいじめられっこであった時、唯一許された、最初で最後の自衛だった。\
+`　When I was the target of their harrasment, there was only one time I allowed it, my first and last self-defense.`\
 
-　あの時は、それでもいじめは一向に止まず、何の効果もないと思っていた。@
+;　あの時は、それでもいじめは一向に止まず、何の効果もないと思っていた。@
+`　Even during that time, the abuse didn't stop at all, and I thought it had no effect.`@`
 br
-　しかし、こうして今、玲子ちゃんのいじめと比較すると、……その差は歴然とわかる。\
+;　しかし、こうして今、玲子ちゃんのいじめと比較すると、……その差は歴然とわかる。\
+`　However, looking at it this way, comparing it to Reiko-chan's suffering, ...I clearly understand the difference.`\
 
-　いじめっこたちに対し、迎合するかのように苦笑いし、へらへらとし、@まるで遊んでもらってるかのように振る舞う彼女のそれは、明らかにさらなるいじめを助長していた……。\
+;　いじめっこたちに対し、迎合するかのように苦笑いし、へらへらとし、@まるで遊んでもらってるかのように振る舞う彼女のそれは、明らかにさらなるいじめを助長していた……。\
+`　When someone being bullied fights responds, and smiles bitterly like they are going along with it, or laugh it up,`@` it's exactly like she's allowing them to play with her. It clearly just promotes the abuse she faces...`\
 
 bg black,22
 mono 0
 ld r,HIG_Def2,24
 
-「ね？@　それは、あの子の責任だとは、思わない？」@
+;「ね？@　それは、あの子の責任だとは、思わない？」@
+`"Right?`@` Don't you think that that's her own fault?"`@`
 
 ld l,YUK_Def2,23
 
-「…………それは………。」\
+;「…………それは………。」\
+`"...That's...."`\
 
 ld r,HIG_W3,80
 
-「かつてのあなたを、誰も助けてはくれなかった。@当然よ。@だって、いじめられっこを守ってくれる唯一の人間は、@他の誰でもない、自分自身だけなのだから。」@
+;「かつてのあなたを、誰も助けてはくれなかった。@当然よ。@だって、いじめられっこを守ってくれる唯一の人間は、@他の誰でもない、自分自身だけなのだから。」@
+`"Nobody ever came to help you in the past.`@` Of course they didn't.`@` After all, the only one who can help a victim of bullying,`@` is themself."`@`
 br
-　かつて何度も夢想した。@こんな自分を誰か助けてくれないかと期待した。\
+;　かつて何度も夢想した。@こんな自分を誰か助けてくれないかと期待した。\
+`　In the past, I dreamt about it countless times.`@` I expected someone to come and help me.`\
 
 ld l,YUK_Def4,80
 
-「……でも、……誰も助けてはくれなかった……。」\
+;「……でも、……誰も助けてはくれなかった……。」\
+`"...But, ...nobody helped me..."`\
 
 ld r,HIG_W1,80
 
-「そう。@だからあなたは、自分がそれ以上に酷くいじめられないように、無言の努力をじっと重ねた。@……でも、大住玲子はその努力をしていない。」\
+;「そう。@だからあなたは、自分がそれ以上に酷くいじめられないように、無言の努力をじっと重ねた。@……でも、大住玲子はその努力をしていない。」\
+`"That's right.`@` That's because you wordlessly let it pile it up in order to keep from facing any worse bullying.`@` ...But Reiko Oosumi is not doing that."`\
 
 ld l,YUK_Def3a,80
 
-「………………………………。」\
+;「………………………………。」\
+`"............"`\
 
 ld r,HIG_Def3,80
 
-「くす、くすくすくすくすくす。」@
+;「くす、くすくすくすくすくす。」@
+`"Teehee, teeheeheehee."`@`
 
 ld l,YUK_I3a,80
 
-「……な、……何がおかしいんですか…。」\
+;「……な、……何がおかしいんですか…。」\
+`"...Wh, ...what's so funny..."`\
 
 ld r,HIG_W4,80
 
-「あなたの胸の内に芽生えたささやかな義憤が、@ようやく得た平穏の海に、沈むまいともがく葛藤がとても愉快だっただけよ。」@
+;「あなたの胸の内に芽生えたささやかな義憤が、@ようやく得た平穏の海に、沈むまいともがく葛藤がとても愉快だっただけよ。」@
+(?)`"I am just so pleased that the budding righteous indignation you kept deep in your heart,`@` is finally sinking into the tranquil sea of discord."`@`
 br
-　私は顔を苦々しく俯く。@
-　……私の心は、どうやら読まれているようだった。\
+;　私は顔を苦々しく俯く。@
+`　I hung my head in disgust at myself.`@`
+;　……私の心は、どうやら読まれているようだった。\
+`　...It seems that somehow she was able to read my thoughts.`\
 
 bg black,22
 bg kyou_01,0
@@ -6689,9 +6764,12 @@ ld c,YUK_def3a,22
 
 me1v 5,50
 
-　私は一瞬だけ、……彼女のために、何かをしようと思った。@
+;　私は一瞬だけ、……彼女のために、何かをしようと思った。@
+`　For just an instant, ...I thought I should do something for her.`@`
+
 br
-　彼女が一番求めていることは、かつていじめられていた自分には一番わかっている。\
+;　彼女が一番求めていることは、かつていじめられていた自分には一番わかっている。\
+`　
 
 　私だって、想像の中でだけなら、……人垣を割って入って、彼女を庇ってあげたい。@
 br
