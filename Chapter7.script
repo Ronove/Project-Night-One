@@ -7434,7 +7434,8 @@ bg black,22
 br
 ;　違う。@
 `　No.`@
-　瞳大の、真っ黒な、……泥のように真っ黒な穴が、指の間から、@……ぬろりと、覗いている……。\
+;　瞳大の、真っ黒な、……泥のように真っ黒な穴が、指の間から、@……ぬろりと、覗いている……。\
+`　They were pure black ...pure muddy black holes, from between her fingers, `@`...peeking out...`\
 
 ;bg black,22
 
@@ -7445,18 +7446,22 @@ bg e005,6
 
 bgm1 13
 
-「イ　ジ　メ　は　楽　し　い　よ……？@　ミンナ大好き。@誰かをイジメる時、教室のミンナは一つになれるの。@男の子も女の子も先生もナイ。@ミンナがミンナ、ワタシを取り囲んで、手と手を繋イデ輪にナッテ。@ミンナでミンナで仲良くなれるのに。@……どうして榊サンは、その輪に加わらないノ……？」\
+;「イ　ジ　メ　は　楽　し　い　よ……？@　ミンナ大好き。@誰かをイジメる時、教室のミンナは一つになれるの。@男の子も女の子も先生もナイ。@ミンナがミンナ、ワタシを取り囲んで、手と手を繋イデ輪にナッテ。@ミンナでミンナで仲良くなれるのに。@……どうして榊サンは、その輪に加わらないノ……？」\
+`"B u l l y i n g  i s  f u n ...? `@`EVERYONE loves it. `@`When someone is bullied, EVERYONE in class becomes one. `@`There are no boys, girls, or teachers. `@`EVERYONE, EVERYONE surrounds ME -- hand in hand they form a RING. `@`Even though EVERYONE, EVERYONE gets along. `@`...Why don't you join that ring, SAKAKI-SAN...?"`\ 
 
 bg roji_04,0
 ld r,YUK_N1,22
 
-　………ぇ、………………ぁ、\
+;　………ぇ、………………ぁ、\
+`　...eh ......ah`\
 
 ld r,YUK_i3a,80
 
-「……れ、……玲子……ちゃ…ん…………？」\
+;「……れ、……玲子……ちゃ…ん…………？」\
+`"...Re ...Reiko...chan....?"`\
 
-「榊サンは、どうしてイジメに加わらないノ…？@　楽しいノニ。@病み付きにナルノニ。@イジメに加われば、誰とだって手を取り合えるノニ…！！」\
+;「榊サンは、どうしてイジメに加わらないノ…？@　楽しいノニ。@病み付きにナルノニ。@イジメに加われば、誰とだって手を取り合えるノニ…！！」\
+`"Sakaki-SAN, why don't you join the BULLYING...? `@`IT'S FUN. `@`IT'S ADDICTIVE. `@`If you join in the BULLYING, you can take anyone's hand...!!"`\
 
 bg black,22
 bg roji_03,22
@@ -7464,26 +7469,34 @@ bg roji_03,22
 me1v 17,50
 
 
-　イジメはなくならないよ、なくせないヨ！@
+;　イジメはなくならないよ、なくせないヨ！@
+`　BULLYING won't stop, IT CAN'T STOP!`@
 br
-　それは朝に昇り夕に沈む太陽を、なくせと願うようなモノ！\
+;　それは朝に昇り夕に沈む太陽を、なくせと願うようなモノ！\
+`　That's like wishing for the sun that rises at dawn and sinks at dusk to DISAPPEAR!`\
 
-　お日様がなくちゃニンゲンは生きてイケナイ！@
-　そのお日様を、ミンナで手を取り合って、輪にナッテ囲ンデ！@　
+;　お日様がなくちゃニンゲンは生きてイケナイ！@
+`　Humans CANNOT LIVE WITHOUT THE SUN!`@
+;　そのお日様を、ミンナで手を取り合って、輪にナッテ囲ンデ！@　
+`　EVERYONE take up their hands and form a ring for the sun.`@
 br
-　ミンナで楽しく踊ロウヨ！！@　輪になって踊ロウ、ミンナで楽シク楽シク笑い合って！！@
+;　ミンナで楽しく踊ロウヨ！！@　輪になって踊ロウ、ミンナで楽シク楽シク笑い合って！！@
+`　EVERYONE, LET'S DANCE WITH JOY!! `@`Let's form a ring and DANCE, EVERYONE let's smile and have FUN, FUN TOGETHER!!`@
 br
-　ソレを覚えたらモウ！！@　誰モ！！@　忘レラレナイ、逃レラレナイ！！\
+;　ソレを覚えたらモウ！！@　誰モ！！@　忘レラレナイ、逃レラレナイ！！\
+`　IF WE REMEMBER THAT!! `@`NO ONE!! `@`NO ONE CAN FORGET, NO ONE CAN ESCAPE NOW!!`\
 
 ld r,SMI_W6,22
 
 me2v 28,70
 
-「イジメの快楽カラ、もう、誰モッ！！！」\
+;「イジメの快楽カラ、もう、誰モッ！！！」\
+`"NO ONE CAN GET AWAY... FROM THE FUN OF BULLYING!!!"`\
 
 ld l,YUK_N1,22
 
-「………れ、……玲子……ちゃん…………ッ……。」\
+;「………れ、……玲子……ちゃん…………ッ……。」\
+`"...Re... Reiko...chan....nn..."`\
 
 
 ;bg black,22
@@ -7493,74 +7506,100 @@ bg aka2,22
 
 me3v 16,70
 
-　もう逃れられないノ、誰モ誰モ。@
-　ヒトをイジメて、ミンナで楽シイ楽シイ、気持チ気持チ。@
+;　もう逃れられないノ、誰モ誰モ。@
+`　No one can escape now, NO ONE, NO ONE.`@
+;　ヒトをイジメて、ミンナで楽シイ楽シイ、気持チ気持チ。@
+`　TORMENTING PEOPLE, EVERYONE has FUN and EVERYONE FEELS GOOD.`@
 br
-　覚えてしまったナラ、病み付キ病み付キ、忘れられはシナイ！@
-　モウひと時ダッテ！！@　ヒトをイジメずには生キテ行けナイ！！\
+;　覚えてしまったナラ、病み付キ病み付キ、忘れられはシナイ！@
+`　Once they experience IT, it's ADDICTIVE, SO ADDICTIVE, they DON'T FORGET IT!`@
+;　モウひと時ダッテ！！@　ヒトをイジメずには生キテ行けナイ！！\
+`　ONCE they start!! `@`They can't live WITHOUT BULLYING PEOPLE`\
 
 ;bg aka3,22
 ld c,SMI_W5,22
 
 me4v 3,70
 
-「榊は、どうして私をいじめないのじゃ？！@　いじめれば、ニンゲンとして覚えられる最高の快楽を教えてあげたのにッ！！@　クラスのみんなと仲良くなれた！@　お前をいじめてた、あのいじめっこたちとさえな！！@　素敵であろう？！@　みんなで仲良く生贄をイジメれば、@誰とでも仲良くなれる素晴らしきユートピアを、扉を開けてお前を誘っていたのにッ！！」\
+;「榊は、どうして私をいじめないのじゃ？！@　いじめれば、ニンゲンとして覚えられる最高の快楽を教えてあげたのにッ！！@　クラスのみんなと仲良くなれた！@　お前をいじめてた、あのいじめっこたちとさえな！！@　素敵であろう？！@　みんなで仲良く生贄をイジメれば、@誰とでも仲良くなれる素晴らしきユートピアを、扉を開けてお前を誘っていたのにッ！！」\
+`"Sakaki, why don't you bully me?! `@`If you did, I'd let you learn the greatest pleasure you could experience as a human being. `@`You'll get along with everyone! `@`Even those bullies who ridiculed you!! `@`Is it not wonderful?! `@`If you cooperate and humiliate the scapegoat with everyone, `@`you will be invited through the gate to the utopia where you can be friends with everyyyyone!!"`\
 
 ld c,SMI_W6,22
 
-「なのにどうしてお前は来ない？！@　わからないワカラナイ、理解出来ナイのじゃ！！@　今まで、いじめられっこを何人も見てきた。@いじめられている時は、みんな、この世の終わりのような顔をしていじめを憎むのに！@　私が現れて、いじめられっこを代わってあげると、ひょこひょこといじめの輪に加わり出すッ！！@　なのにお前は不思議じゃ、おかしいのじゃ！！@　いじめを許さない？@　納得しない？@　一緒に戦おう？！@/
+;「なのにどうしてお前は来ない？！@　わからないワカラナイ、理解出来ナイのじゃ！！@　今まで、いじめられっこを何人も見てきた。@いじめられている時は、みんな、この世の終わりのような顔をしていじめを憎むのに！@　私が現れて、いじめられっこを代わってあげると、ひょこひょこといじめの輪に加わり出すッ！！@　なのにお前は不思議じゃ、おかしいのじゃ！！@　いじめを許さない？@　納得しない？@　一緒に戦おう？！@/
+`"And yet you won't go?! `@`I don't get it I DON'T GET IT, I CANNOT understand you!! `@`Until now, everyone has come to see the bullied child. `@`When they're being bullied they make faces like the world is going to end and hate bullying and yet! `@`I appear and take their place, and then they bumble into joining the ring of bulliessss!! `\
+`But you're strange -- weird!! `@`You won't allow bullying? `@`Won't accept it? `@`Let's fight it together?!`@/  
 se1 84
-　ふふひひひひははははははははははははははははははははははッ！！！」\
+;　ふふひひひひははははははははははははははははははははははッ！！！」\
+`　Huhuhuhuhihihihihihihahahahahahhahahahahahaaaa!!!"`\
 
 bg black,22
 bg roji_04,0
 ld r,YUK_N1,22
 
-「ぁ、………あなたは……、誰……………。@………………ぇ……？」\
+;「ぁ、………あなたは……、誰……………。@………………ぇ……？」\
+`"Ah, ...Who... are you...... `@`......eh...?"`\
 
 bg black,23
 bg roji_06,23
 
-　その時。@……由香里は奇妙な何かを見る。@
+;　その時。@……由香里は奇妙な何かを見る。@
+`　Then. `@`...Yukari saw something strange.`@
 br
-　それは目の前にいる玲子の奇怪な笑いではなく、……その、ずっと後ろ。\
+;　それは目の前にいる玲子の奇怪な笑いではなく、……その、ずっと後ろ。\
+`　It wasn't Reiko's strange smile before her eyes, ...but something far behind her.`\
 
-　そこにはカーブミラーがあった。@
-　ダンプか何かにぶつけられたのだろうか。@それは少しひしゃげ、カーブの向こうではなく、こちらに向いていた。@
+;　そこにはカーブミラーがあった。@
+`　Beyond her stood curved mirror.`@
+;　ダンプか何かにぶつけられたのだろうか。@それは少しひしゃげ、カーブの向こうではなく、こちらに向いていた。@
+`　A dump truck or something had probably hit it. `@`It was bent a bit, and instead of facing a side alley, it was facing this way.`@
 br
-　……そこに、自分が映っている。@自分だけが、映っている。\
+;　……そこに、自分が映っている。@自分だけが、映っている。\
+`　...My reflection was in the mirror. `@`Just my reflection was in the mirror.`\
 
-「…………ぇ、………………？！」@
+;「…………ぇ、………………？！」@
+`"...eh, ......?!"`@
 br
-　そんなはずはない。@
-　こうして向き合って立っているのだから、……映らないはずがないのだ。@
+;　そんなはずはない。@
+`　That can't be.`@
+;　こうして向き合って立っているのだから、……映らないはずがないのだ。@
+`　Since it's standing and facing this way, ...there's no way it couldn't be reflecting...`@
 br
-　なのに、……自分の姿は映っているのに、……大住玲子の姿だけ、映っていないのだ。\
+;　なのに、……自分の姿は映っているのに、……大住玲子の姿だけ、映っていないのだ。\
+`　And yet... my reflection is there and yet... Reiko Oosumi's... isn't there.`\
 
-　由香里は、カーブミラーと玲子をまじまじと、何度も見比べる。@
+;　由香里は、カーブミラーと玲子をまじまじと、何度も見比べる。@
+`　Yukari stared at the mirror and Reiko, looking back and forth over and over again.`@
 br
-　目の前にいて不気味に笑う彼女の存在と、にも関わらず、彼女だけいないカーブミラーの景色……。\
+;　目の前にいて不気味に笑う彼女の存在と、にも関わらず、彼女だけいないカーブミラーの景色……。\
+`　With the ominously smiling girl directly in front of her, nevertheless, the curved mirror showed no one else but Yukari...`\ 
 
 
 bg black,22
 
-「これはうっかりしていたものよ。@あのようなところに鏡があったとは。@姿を映すのを、すっかり忘れていたのじゃ。@ふっふふっひっひは！！」\
+;「これはうっかりしていたものよ。@あのようなところに鏡があったとは。@姿を映すのを、すっかり忘れていたのじゃ。@ふっふふっひっひは！！」\
+`"I've been careless. `@`To think there'd be a mirror like that over there. `@`My reflection completely slipped my mind. `@`Hu huhu hi hi ha!!"`\
 
 E_B
 
 bg white,1
 bg roji_04,22
 
-　彼女は自分の姿がカーブミラーに映らないことをあっさりと認めると、ぱちんと手を叩く。@
+;　彼女は自分の姿がカーブミラーに映らないことをあっさりと認めると、ぱちんと手を叩く。@
+`　As if to simply allow her reflection to appear in the curved mirror, she clapped her hands.`@
 br
-　すると、今さらのように、そこに彼女の後姿が浮かび上がる。\
+;　すると、今さらのように、そこに彼女の後姿が浮かび上がる。\
+`　Then, despite how late it was now, the reflection of her back projected onto the mirror.
 
 ;ld r,SMI_W1,42
 
-　しかし、そこに映った姿は、……目の前にいる彼女のそれとは、異なるモノ。@
+;　しかし、そこに映った姿は、……目の前にいる彼女のそれとは、異なるモノ。@
+`　However, the figure that reflected there ...was a different 'thing' than the girl that stood before her.`@
 br
-　今こそようやく理解する。@もはや、認めざるを得ない。@
-　大住玲子は、人ならざる存在なのだ……。\
+;　今こそようやく理解する。@もはや、認めざるを得ない。@
+`　And now she finally realized. `@`There was no room for doubt.`@
+;　大住玲子は、人ならざる存在なのだ……。\
+`　Reiko Oosumi wasn't human...`\
 
 ld l,YUK_N1,23
 
@@ -7568,7 +7607,8 @@ E_A
 
 bgm1 12
 
-「あ、あなた誰……？！@　に、……人間じゃない…？！？」\
+;「あ、あなた誰……？！@　に、……人間じゃない…？！？」\
+`"W-Who are you...?! `@`...You're not human...?!?"`\
 
 ld r,SMI_W1,2
 
