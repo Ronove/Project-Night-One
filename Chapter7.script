@@ -6943,7 +6943,7 @@ bg roji_03,2
 bgm1 4
 
 ;　その日は、久しぶりに二人で下校した。@
-`　That day, after a long time we both left school.`@
+`　That day, we both left school together for the first time in a long time.`@
 br
 ;　真っ赤な夕焼けの中を、久しぶりに一緒に帰った。\
 `　In the bright red sunset, after a long time we went home together.`\ 
@@ -6960,7 +6960,7 @@ ld r,YUK_Def2a,22
 ld r,YUK_Def3,80
 
 ;「ごめんね、由香里ちゃん。@……いつかこうしたなら、もっと早くこうしていれば良かった。」@
-`"Yukari-chan, I'm sorry. `@`...I should have done thus much sooner."`@
+`"Yukari-chan, I'm sorry. `@`...I should have done this much sooner."`@
 
 ld l,SMI_Def5,23
 
@@ -7044,7 +7044,7 @@ ld r,SMI_Def4a,22
 ld r,SMI_Def5a,80
 
 ;「……でも。@……悪いのはいつも私ですし……。@……みんな、とても楽しそうでしたし。@……てへへ…。」\
-`"...But. `@`...I'm always the one doing bad things... `@`...And everyone seemed to be enjoying themselves. `@`...Tehehe.."`\
+`"...But. `@`...I'm always the one doing bad things... `@`...And everyone seemed to be enjoying themselves. `@`...Ehehe.."`\
 
 ld l,YUK_I3,23
 
@@ -7098,7 +7098,7 @@ bg black,22
 bg roji_03,22
 
 ;　玲子ちゃんは夕焼け色に染まる世界で、呆然としながら立ち尽くしていた。@
-`　Reiko-chan stood atsonished against the world painted by the colors of the evening sun.`@
+`　Reiko-chan stood astonished against the world painted by the colors of the evening sun.`@
 br
 ;　私は感情の全てを一気に吐き出し、……ぜぇぜぇと肩で息をしていた。@
 `　I had vomitted all of my feelings in one go, ...I was huffing and puffing and my shoulders motioned with my breathing.`@
@@ -7111,7 +7111,7 @@ bg roji_04,23
 ld l,SMI_Def2n,23
 
 ;「でも、……せっかく、私がいじめられてたのに……。@……それで、……榊さんはいじめから逃れることが出来てたのに……。@………なのに、……なのに……。」\
-`"But, ...even after all that time I had been bullied... `@`...And yet... Sakaki-san was able to save me from it... `@`...And yet, ...and yet..."`\
+`"But, ...even after all that time I was finally being bullied... `@`...and by that...you were able to run away from your bullies... `@`...And yet, ...and yet..."`\
 
 ld r,YUK_W3,24
 
@@ -7169,7 +7169,7 @@ ld l,YUK_I1,80
 ld l,YUK_I3,80
 
 ;「なら、それがどんなに辛いものか知っている、私が立ち上がらなくちゃいけないの。@いじめは許されないものだって、声を上げて、戦わなくちゃいけない。」\
-`"Because, I know what that kind of pain is like, so I had to stand up to it. `@`As someone who won't put up with bullying, I spoke up, and I was my duty to fight it."`\
+`"Because, I know what that kind of pain is like, I had to stand up to it. `@`As someone who won't put up with bullying, I spoke up, and it was my duty to fight it."`\
 
 cl l,0
 ld c,YUK_W3,23
@@ -7185,7 +7185,7 @@ ld r,SMI_Def4a,24
 ld c,YUK_W2,80
 
 ;「もしいじめられたら。@きっぱり止めてと言って、しっかり無視する。@相手を面白がらせない。@そして、その時は今度は玲子ちゃんが私を助けてね。」\
-`"If I'm bullied again, `@`I'll tell them flat out to stop it and then completely ignore them. `@`I won't give them the pleasure of being their target. `@`And then next time, when that time comes, you can save me, Reiko-chan"`\
+`"If I'm bullied again, `@`I'll tell them flat out to stop it and then completely ignore them. `@`I won't give them the pleasure of being their target. `@`And then next time, when that time comes, you can save me, Reiko-chan."`\
 
 ld r,SMI_Def3a,80
 
@@ -7195,7 +7195,7 @@ ld r,SMI_Def3a,80
 ld c,YUK_W3,80
 
 ;「うん。@今度は玲子ちゃんが。@もちろん、玲子ちゃんがいじめられるようなことがあったら、私が助けるから。@そして、もしも。@私たちじゃない誰かがいじめられていたら。@私たちは一緒に、その子のために戦おう。」\
-"`Yep. `@`Next time you will. `@`Of course, if you end up being bullied, I'll be there to save you. `@`And then if it comes to it. `@`If someone else is being bullied. `@`Let's for that person -- together."`\
+"`Yep. `@`Next time you will. `@`Of course, if you end up being bullied, I'll be there to save you. `@`And then if it comes to it. `@`If someone else is being bullied. `@`Let's fight for that person -- together."`\
 
 ld r,SMI_Def1,80
 
@@ -7276,12 +7276,12 @@ ld l,SMI_N1,22
 `　Reiko-chan's eyes began welling up large tear drops.`@
 br
 ;　その涙は、わずかに光って、夕焼け色だった。\
-`　And those tears, reflected, slightly, the colors of evening sun.`\
+`　And those tears, slightly reflected the colors of evening sun.`\
 
 ld r,YUK_Def1,80
 
 ;「もう。@いじめに対して、てへへなんて、愛想笑いで誤魔化すのは止めよう？@　それは彼らを面白がらせるだけじゃない。@玲子ちゃんも面白がってるから、これはいじめじゃなくて遊びなんだと誤解させちゃうだけ。」\
-`"Enough. `@`How about you stop covering up that bullying with your 'tehehe's? `@`You're just doing it to make them feel good. `@`And since to them it seemed amused too, you caused them to misunderstand their bullying as fun and games."`\
+`"Enough. `@`How about you stop covering up that bullying with your 'Ehehe's? `@`You're just doing it to make them feel good. `@`And since to them it seemed amused too, you caused them to misunderstand their bullying as fun and games."`\
 
 ld r,YUK_W1,80
 
