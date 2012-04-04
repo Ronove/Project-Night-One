@@ -7651,7 +7651,8 @@ wait 1000
 
 ld r,SMI_W3,22
 
-「如何にも。@大住玲子なる姿は仮のもの…。@まさかこんなところで見破られるとは思わなかったのじゃ……。@これは困った。@……大住玲子はニンゲンではないと、お前に言い触らされては困るのでな……。」\
+;「如何にも。@大住玲子なる姿は仮のもの…。@まさかこんなところで見破られるとは思わなかったのじゃ……。@これは困った。@……大住玲子はニンゲンではないと、お前に言い触らされては困るのでな……。」\
+`"Indeed. `@`I just took on the guise of Reiko Oosumi... `@`To think I would be found out in a place like this... `@`How troublesome. `@`...If I let you spread word that Reiko Oosumi isn't human, that will be troublesome..."`\
 
 bg black,22
 ld_p SMI_W3
@@ -7665,11 +7666,15 @@ lsp2 3,$ld_pass2,480,380,200,200,0
 print 80
 
 
-　玲子の瞳が爛々と、怪しく光る。@
-　その笑みは不気味なほどに切れ込み、……舌なめずりさえする。@
-　不気味な瞳に映る玲子の姿が、どんどん大きくなる……。@
+;　玲子の瞳が爛々と、怪しく光る。@
+`　Reiko's eyes glared and shined ominously.`@
+;　その笑みは不気味なほどに切れ込み、……舌なめずりさえする。@
+`　Her grin was cut to the point of being ghoulish... and she even licked her lips.`@
+;　不気味な瞳に映る玲子の姿が、どんどん大きくなる……。@
+`　Reiko with her ghastly reflective eyes, grew larger and larger...`@
 br
-　彼女の鼻がぶつかるくらいに近付いて…………。\
+;　彼女の鼻がぶつかるくらいに近付いて…………。\
+`　She drew so close that she almost hit me with her nose...`\
 
 ;ld l,YUK_N2,80
 
@@ -7682,7 +7687,8 @@ lsp2 4,$ld_pass,130,480,-200,200,0
 lsp2 5,$ld_pass2,130,480,-200,200,0
 print 80
 
-「あ、あなたは誰……。@玲子ちゃんじゃなければ、……だ、誰なの……。」\
+;「あ、あなたは誰……。@玲子ちゃんじゃなければ、……だ、誰なの……。」\
+`"Wh-who are you... `@`If you're not Reiko-chan... then... who..."`\
 
 ;ld c,SMI_W3,80
 
@@ -7691,9 +7697,11 @@ lsp2 2,$ld_pass,480,380,200,200,0
 lsp2 3,$ld_pass2,480,380,200,200,0
 print 80
 
-「知る必要はない。@……お前はここで私に喰われるのじゃ。@ぺろりとな…？@/
+;「知る必要はない。@……お前はここで私に喰われるのじゃ。@ぺろりとな…？@/
+`"You don't need to know. `@`...I'm going to eat you right here. `@`Slurp you up, see...?`@/
 se1v 84,90
-　………ふふ、……ひひひはは、はっはははっはっはははははははははははは！！！」\
+;　………ふふ、……ひひひはは、はっはははっはっはははははははははははは！！！」\
+`　...Huhu, ...hihihihaha, ha hahaha ha ha HAHAHAHAHAHAHAHAHA!!!"`\
 
 csp2 -1
 print 0
@@ -7702,16 +7710,20 @@ bg roji_04,24
 se1 13
 quakex 2,200
 
-　玲子が両腕を広げ、由香里を飲み込もうとした刹那。@
+;　玲子が両腕を広げ、由香里を飲み込もうとした刹那。@
+`　The moment Reiko held out both arms to devour Yukari.`@
 br
-　由香里は何かに激しく弾き飛ばされた。\
+;　由香里は何かに激しく弾き飛ばされた。\
+`　Something violently sent Yukari flying.`\
 
-　何が起こったのかわからない。@アスファルトに尻餅をつき、何が起こったのか理解しようと努めるのがやっとだった…。\
+;　何が起こったのかわからない。@アスファルトに尻餅をつき、何が起こったのか理解しようと努めるのがやっとだった…。\
+`　She couldn't tell what happened. `@`Her backside hit the asphault and it took her a bit of struggling to understand what happened..."`\
 
 ld c,MAR_I4a,2
 ld c,MAR_I3,80
 
-「そこまでです。@大住玲子さん。@………そして、去年の名は、三隅麗さんです。」\
+;「そこまでです。@大住玲子さん。@………そして、去年の名は、三隅麗さんです。」\
+`"That's as far as you go. `@`Reiko Oosumi-san. `@`...And, the name you went by last year, Urara Misumi-san."`\  
 ;＜毬枝
 
 bg black,23
@@ -7719,23 +7731,27 @@ bg roji_05,0
 ld c,SMI_W1,23
 ld c,SMI_W4,80
 
-「おや。@誰かと思えば、めそめその毬枝じゃ。@私の周りを嗅ぎ回っていたのは、お前であったか……。」\
+;「おや。@誰かと思えば、めそめその毬枝じゃ。@私の周りを嗅ぎ回っていたのは、お前であったか……。」\
+`"Oh. `@`Why isn't it Mesomeso Marie. `@`So you're the one whose been sniffing around my territory..."`\
 
 bg black,24
 bg roji_04,0
 ld c,MAR_I4,24
 
-　由香里はきっと、庇われたのだ。@玲子に飲み込まれる直前に、眼鏡の少女に救われたのだ。\
+;　由香里はきっと、庇われたのだ。@玲子に飲み込まれる直前に、眼鏡の少女に救われたのだ。\
+`　Yukari had been protected. `@`The moment Reiko was about to eat her, a spectacled girl saved her.`\ 
 
 ld l,YUK_N1,23
 
-「……ど、どなたか知りませんが、助けてくれてありがとう…。」@
+;「……ど、どなたか知りませんが、助けてくれてありがとう…。」@
+`"...I, I don't know who you are, but thank you for saving me..."`@
 ;＜由香里
 
 ;cl c,23
 ld c,MAR_I3a,80
 
-「危ないところでした…。@この人は、妖怪です。@……それも、とてもとても悪質な。」\
+;「危ないところでした…。@この人は、妖怪です。@……それも、とてもとても悪質な。」\
+`"You were in danger... `@`This person is a youkai. `@`...Furthermore, she's the very very nasty sort."`\
 ;＜毬枝
 
 bg black,23
@@ -7745,33 +7761,41 @@ ld r,SMI_W5,80
 
 me1v 5,50
 
-「悪質でない妖怪がどこにいよう！@　毬枝は面白いことを言う…！」\
+;「悪質でない妖怪がどこにいよう！@　毬枝は面白いことを言う…！」\
+`"So there are youkai that aren't nasty then! `@`Marie, you say such amusing things...!"`\
 
 ld l,MAR_I3,22
 
-「それ以上、近付かないで下さいっ。@この子は渡しませんっ。」@
+;「それ以上、近付かないで下さいっ。@この子は渡しませんっ。」@
+`"Please, don't come any closer than that. `@`I won't let you have this girl~"`@
 br
-　毬枝は両腕を広げ、その背中に由香里を庇う。\
+;　毬枝は両腕を広げ、その背中に由香里を庇う。\
+`　Marie held out her arms protecting Yukari behind her.`\
 
 ld r,SMI_W2,80
 
-　玲子は、……いや、玲子と名乗っていた妖怪は、それを見て肩を竦めて笑う。\
+;　玲子は、……いや、玲子と名乗っていた妖怪は、それを見て肩を竦めて笑う。\
+`　Reiko, ...rather, the youkai with Reiko's name, saw this, shrugged her shoulders, and laughed.`\
 
 ld l,MAR_I4a,80
 
-「……学校妖怪ですね。」@
+;「……学校妖怪ですね。」@
+`"...You're a school youkai?"`@
 ;＜毬枝
 
 cl r,0
 mld r,SMI_W1,80
 
-「如何にもじゃ。@……名乗ろうぞ。@我こそは学校妖怪序列第７位、夕闇のスミレ…。」\
+;「如何にもじゃ。@……名乗ろうぞ。@我こそは学校妖怪序列第７位、夕闇のスミレ…。」\
+`"Indeed. `@`...I'll give you my name. `@`I am the Seventh Ranked School Youkai, Sumire of the Twilight..."`\
 
 bg black,22
 
-　学校妖怪序列第７位、夕闇のスミレ。@
+;　学校妖怪序列第７位、夕闇のスミレ。@
+`　The Seventh Ranked Youkai, Sumire of the Twilight.`@
 br
-　学校に語り継がれる七不思議の一つを司る妖怪。\
+;　学校に語り継がれる七不思議の一つを司る妖怪。\
+`　One of the ruling youkai of the seven mysteries handed down in the school.`\
 
 mcl r,0
 bg okujou_03u,22
