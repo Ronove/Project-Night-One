@@ -7800,13 +7800,17 @@ br
 mcl r,0
 bg okujou_03u,22
 
-　夕闇の迫る校庭でいつまでも遊んでいると、@……いつの間にか、知らない少女が混じって遊んでいることに気付く。@
+;　夕闇の迫る校庭でいつまでも遊んでいると、@……いつの間にか、知らない少女が混じって遊んでいることに気付く。@
+`　Playing eternally in the schoolyard as twilight approaches,`@` ...you'll suddenly realize there is an unknown girl blending in and playing.`@`
+
 br
-　誰かの友達だろうと思って誰も気にしないけど。@……後でみんなに聞いても、誰も知らないという、謎の少女。\
+;　誰かの友達だろうと思って誰も気にしないけど。@……後でみんなに聞いても、誰も知らないという、謎の少女。\
+`　Even if you wonder if she's someone's friend, nobody seems to care.`@` ...And even if you ask everyone later, she is a mysterious girl that nobody knows.`\
 
 bg black,22
 
-　……でも、そんな少女の後についていって、@夜の闇が近付いてくるのに気付かずにいつまでも遊んでしまうと。@……神隠しにあってしまうという、怪談。\
+;　……でも、そんな少女の後についていって、@夜の闇が近付いてくるのに気付かずにいつまでも遊んでしまうと。@……神隠しにあってしまうという、怪談。\
+`　...But if you follow after that girl,`@` even though the darkness of the night is nearing, you will not realize it and play forever more.`@` ...That is the rumor of how you would be spirited away.`\
 
 
 bg roji_05,0
@@ -7815,18 +7819,23 @@ ld r,SMI_W4,22
 
 ld l,MAR_I3,80
 
-「スミレさん。@色々調べさせてもらいました。@私にはもう、全てわかっているんです。@……あなたがどんな狩りをするのかもっ。」\
+;「スミレさん。@色々調べさせてもらいました。@私にはもう、全てわかっているんです。@……あなたがどんな狩りをするのかもっ。」\
+(?)`"Sumire-san.`@` I've taken the liberty of checking up on you.`@` I already know everything.`@` ...About what kind of hunting you do."`\
 
 ld r,SMI_W2,80
 
-「ふっふふ。@何しろ私は力のない妖怪じゃ。@自らが狩りをするなどという面倒、なかなか出来はせぬ。@故に私は、獲物を探すのでなく。@狩猟者を、生み出すのじゃ！」\
+;「ふっふふ。@何しろ私は力のない妖怪じゃ。@自らが狩りをするなどという面倒、なかなか出来はせぬ。@故に私は、獲物を探すのでなく。@狩猟者を、生み出すのじゃ！」\
+`"Fufufu.`@`At any rate, I am a powerless Youkai.`@` Naturally, I can hardly go to the trouble to hunt.`@` Therefore, I do not search for prey.`@` I birth hunters!"`\
 
 bg black,22
 
-　スミレの狩り。@それは、いじめそのもののこと。@
+;　スミレの狩り。@それは、いじめそのもののこと。@
+`　Sumire's hunt.`@` It was for bullying itself.`@`
 br
-　しかし彼女は、自ら誰かをいじめたりはしない。@
-　いじめっこを生み出し、彼らが生み出す無数のいじめから、少しずつ魂を得ているのだ。\
+;　しかし彼女は、自ら誰かをいじめたりはしない。@
+`　However, she does not bully anyone on her own.`@`
+;　いじめっこを生み出し、彼らが生み出す無数のいじめから、少しずつ魂を得ているのだ。\
+`　She creates a victim, and from the countless harassment born from the bullies, she obtains souls bit by bit.`\
 
 fede 10,1000
 E_MA
@@ -7836,35 +7845,44 @@ mono 1
 bg kyou_01,0
 ld r,SMI_N3,22
 
-「あなたは去年。@６組に三隅麗という転校生を装って転校し、@……自ら望んでいじめられっことなりました。@クラス全体を、……いじめっこにするために。」\
+;「あなたは去年。@６組に三隅麗という転校生を装って転校し、@……自ら望んでいじめられっことなりました。@クラス全体を、……いじめっこにするために。」\
+`"Last year.`@` You presented a transfer student in class 6 named Misumi.`@` ...And she became the victim you wanted.`@`In order to turn the entire class, ...into bullies."`\
 
 ld r,SMI_W6,80
 
-「ふっふひはっはは！@　私が零すは魔性の涙。@私をいじめた者は、いじめることに魔性の悦楽を覚えるのじゃ…！」@
+;「ふっふひはっはは！@　私が零すは魔性の涙。@私をいじめた者は、いじめることに魔性の悦楽を覚えるのじゃ…！」@
+`"Ufufu, heehahaha!`@` The tears I shed are the Devil's Tears.`@` They can cause the ones who bully me to feel the devilish pleasure of harassment...!"`@`
+ 
 br
-　スミレの涙は、ニンゲンを幻惑し、その魂を闇に染める力がある。\
+;　スミレの涙は、ニンゲンを幻惑し、その魂を闇に染める力がある。\
+`　Sumire's tears have the power to bewitch humans and stain their soul with darkness.`\
 
-　彼女をいじめる者は、いじめの楽しさに取り憑かれてしまい、@魂が堕落して、いじめっこに成り下がってしまうのだ。\
+;　彼女をいじめる者は、いじめの楽しさに取り憑かれてしまい、@魂が堕落して、いじめっこに成り下がってしまうのだ。\
+`　Those that harrass her become obsessed with how enjoyable it is,`@` their souls become corrupted, and they stoop to the level of becoming a school bully.
 
 bg black,22
 mono 0
 
-「その力で、あなたはかつて、６組のみんなを惑わし、……全員をいじめっこにした。」\
+;「その力で、あなたはかつて、６組のみんなを惑わし、……全員をいじめっこにした。」\
+`"Before, you deceived the entirety of class six with that power, ...and turned them all into those terrors."`\
 ;＜毬枝
 
 bg blood_1aR,2
 ;se1v 33,100
 ;quakex 2,200
 
-　そして、事故死を騙って、唐突に彼女は６組より姿を消す。\
+;　そして、事故死を騙って、唐突に彼女は６組より姿を消す。\
+`　Then, tricking them with an accidental death, she suddenly disappeared from Class Six.`\
 
 ;bg black,22
 mono 2
 bg Different_spiral_1b,2
 
-　いじめの標的を失った彼らは、まさにいじめ中毒者と成り果て、@進級してクラスを変わった今も、学年中のあちこちのクラスでいじめを繰り返しているのだ。@
+;　いじめの標的を失った彼らは、まさにいじめ中毒者と成り果て、@進級してクラスを変わった今も、学年中のあちこちのクラスでいじめを繰り返しているのだ。@
+`　Then, upon losing their target of torment, as though they had been reduced to addicts of torture,`@` even upon changing classes, in the middle of the school year, they repeat it from class to class.`@`
 br
-　そのいじめが、哀れな犠牲者の魂を削り取り、……スミレに献上され、彼女の獲物となる。\
+;　そのいじめが、哀れな犠牲者の魂を削り取り、……スミレに献上され、彼女の獲物となる。\
+`　That heckling scrapes away at the pitiful victim, ...and is presented to Sumire as the spoils of her work.`\
 
 bg black,22
 mono 0
@@ -7875,32 +7893,40 @@ ld l,MAR_I4,22
 
 ld r,SMI_W3,80
 
-「元６組の可愛い子たちは、今もよくやってくれている…！@　しかし、１クラス４０人程度ではまだまだ足りぬのじゃ！」@
+;「元６組の可愛い子たちは、今もよくやってくれている…！@　しかし、１クラス４０人程度ではまだまだ足りぬのじゃ！」@
+`"Those adorable children in the former class six are still doing so well for me even now...!`@` But one class of fourty people is still not enough!"`@`
 
 ld l,MAR_I2a,80
 
-「……それで、今度は大住玲子と名乗り、@また１クラス丸ごとを、いじめっこに変えようとした。」\
+;「……それで、今度は大住玲子と名乗り、@また１クラス丸ごとを、いじめっこに変えようとした。」\
+`"...So this time as Reiko Oosumi,`@` you tried to turn another class into bullies."`\
 
 ld r,SMI_W6,80
 
-「ふっふふ！@　まだまだ足りぬのじゃ！@　何度も繰り返し、あちこちのクラスを次々丸ごといじめっこに変えていく！@　その人数は１００人、２００人と膨れ上がり、進級によるクラス替えで学年中に散って行く！！@　やがては学校の全てのクラスに散らばり、いじめの花でいっぱいにするのじゃ！！@　その甘き蜜を、私は座して吸うだけで良い！@　これぞ、夕闇のスミレの優雅なる狩りなのじゃ…！！」\
+;「ふっふふ！@　まだまだ足りぬのじゃ！@　何度も繰り返し、あちこちのクラスを次々丸ごといじめっこに変えていく！@　その人数は１００人、２００人と膨れ上がり、進級によるクラス替えで学年中に散って行く！！@　やがては学校の全てのクラスに散らばり、いじめの花でいっぱいにするのじゃ！！@　その甘き蜜を、私は座して吸うだけで良い！@　これぞ、夕闇のスミレの優雅なる狩りなのじゃ…！！」\
+`"Ufufufu!`@` It's still not enough!`@` I'll keep going, turning class after class into full-blown tormentors!`@` And when that number swells up to 100 or 200, they change grade levels in the middle of the year and spread!!`@` Before long, the entire school will be filled with the scattered about flowers of torture!!`@` And how lovely it is when I can sit and suck up that sweet nectar!`@` This is it, the refined hunting of Sumire of the Twilight...!!"`\
 
 ld l,MAR_I3a,80
 
-「……人を誑かして、いじめっこにするなんて……。@……そして、あちこちのクラスでいじめがたくさん起こって…。@……それでどれだけの人が悲しんでいるか、考えたことはあるんですかっ！」\
+;「……人を誑かして、いじめっこにするなんて……。@……そして、あちこちのクラスでいじめがたくさん起こって…。@……それでどれだけの人が悲しんでいるか、考えたことはあるんですかっ！」\
+`"...Tricking those people and turning them into bullies...`@` ...then having hazing occur in tons of classrooms, here and there...`@` ...Have you thought about how many people you've made suffer like that?!"`\
 
 ld r,SMI_W3,80
 
-「毬枝はおかしなやつじゃ。@妖怪がニンゲンを誑かして何が悪い？@　それに、お前も知っての通り、我ら妖怪は囁き、誑かすことしか出来ぬ。@それに耳を貸し、心を明け渡すのは人間の自らの意思によってじゃ！@　私が今のクラスで何をしたと思う？@　給食のカレーを引っ繰り返しただけじゃ！@　それをあいつらは寄ってたかって、笑い者にして、いたぶり嬲って！！@　ふふひひははッ、実に酷いやつらじゃ。」\
+;「毬枝はおかしなやつじゃ。@妖怪がニンゲンを誑かして何が悪い？@　それに、お前も知っての通り、我ら妖怪は囁き、誑かすことしか出来ぬ。@それに耳を貸し、心を明け渡すのは人間の自らの意思によってじゃ！@　私が今のクラスで何をしたと思う？@　給食のカレーを引っ繰り返しただけじゃ！@　それをあいつらは寄ってたかって、笑い者にして、いたぶり嬲って！！@　ふふひひははッ、実に酷いやつらじゃ。」\
+`"You're so strange, Marie.`@` What's wrong with a Youkai deceiving a HUMAN?`@` Besides, as you know, us Youkai cannot do anything but to tempt and deceive.`@` Moreover, if they listen to us and surrender their heart, it's that human's personal intention!`@` What do you think I did to this class?`@` All I did was spill some cafeteria curry!`@` Those kids are the ones who approached me, made a laughingstock of me and persecuted me!!`@` Fufuhehehaha, they're truly cruel."`\
 
 
-　スミレは高笑いする。@ニンゲンの浅ましさを嘲笑う。\
+;　スミレは高笑いする。@ニンゲンの浅ましさを嘲笑う。\
+`　Sumire was cackling.`@` She was sneering at HUMANS' shamefulness.`\
 
 bg black,22
 
-　確かに彼女の涙には魔性の力があるが、……それは絶対ではない。@
+;　確かに彼女の涙には魔性の力があるが、……それは絶対ではない。@
+`　It was certain that her tears had the devils' power, ...but that was not absolute.`@`
 br
-　現に由香里が抗ったように。@いじめの誘惑に抗うことは不可能ではないのだ。\
+;　現に由香里が抗ったように。@いじめの誘惑に抗うことは不可能ではないのだ。\
+`　Like how Yukari opposed it.`@` It is not impossible to fight against the temptation to haze.`\
 
 bg e010,22
 
