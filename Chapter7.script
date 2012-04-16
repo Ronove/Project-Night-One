@@ -8627,29 +8627,41 @@ ld r,SMI_W4,80
 
 ld l,YUK_I3a,80
 
-「自分がいじめられない為に、見て見ぬふりをしたり、……いじめに加わったりするなんて、@……私はやりません。@……それが、……私にとっての、……いじめと戦う、ということです……。」\
+;「自分がいじめられない為に、見て見ぬふりをしたり、……いじめに加わったりするなんて、@……私はやりません。@……それが、……私にとっての、……いじめと戦う、ということです……。」\
+`"Pretending I don't see it just so I don't get bullied, ...or even to add to the harrassment,`@` ...I won't do that.`@` ...That, ...to me, ...is my fight against hazing."`\
 
-　言いながらも、もう後悔している……。@
-br
-　しかし、それがいじめと戦うという言葉を口にした、自分の責任……。\
+;　言いながらも、もう後悔している……。@
+`　Even while saying it, she's already regretting it...`@`
 
-　夕闇のスミレは、それを嘲笑う。@
 br
-　一時の義憤で、退くに退けなくなった、ニンゲンの愚かを嘲笑う。\
+;　しかし、それがいじめと戦うという言葉を口にした、自分の責任……。\
+`　However, after saying the words 'fighting against hazing,' it was her own responsibility...`\
+
+;　夕闇のスミレは、それを嘲笑う。@
+`　Sumire of the Twilight jeered.`@`
+br
+;　一時の義憤で、退くに退けなくなった、ニンゲンの愚かを嘲笑う。\
+`　She jeered at the foolishness of a HUMAN who would step out of the way after a short moment of righteous indignation.`\
 
 ld r,SMI_W6,80
 
-「明日からはそちにとって世界が変わるぞ。@私の涙の禁断症状は凄まじい。@……ふっふふふふふふッ、クラス中が飢えたケモノと化すのじゃ！@　明日の日が昇るのを、楽しみに待つが良い…！！@　私は姿を消し、クラス中から魂を削り取られるのを見物しておるぞ。@……そなたの魂がどんな美味なのか、楽しみというものじゃ…！@　ふふふひひひ……はっはっはっはっはっはっはっはっはっは！！！」\
+;「明日からはそちにとって世界が変わるぞ。@私の涙の禁断症状は凄まじい。@……ふっふふふふふふッ、クラス中が飢えたケモノと化すのじゃ！@　明日の日が昇るのを、楽しみに待つが良い…！！@　私は姿を消し、クラス中から魂を削り取られるのを見物しておるぞ。@……そなたの魂がどんな美味なのか、楽しみというものじゃ…！@　ふふふひひひ……はっはっはっはっはっはっはっはっはっは！！！」\
+`"Starting tomorrow, your world will change like that.`@` The withdrawal from my tears are awfully dreadful.`@` ...Fufufufufufufu, your class will transform into starving BEASTS!`@` You should look forward to when tomorrow comes...!!!`@` I will erase my presence, and I will simply watch over what I scraped off of the class' souls.`@` ...I am looking forward to how delicious your soul will be...!`@` Fufufuhehehe...Hahahahahahahahahahahahahaha!!!"`\
 
 cl r,42
 
-　残忍な笑いを残し、スミレは姿を消す……。@
+;　残忍な笑いを残し、スミレは姿を消す……。@
+`　Leaving behind a cruel laugh, Sumire disappeared...`@`
 br
-　後には、……ただの当り前な、いつもの下校の風景があるだけ。\
+;　後には、……ただの当り前な、いつもの下校の風景があるだけ。\
+`　After that, ...was only the obvious, usual scenery from the end of school.`\
 
-　ほんのついさっきまでの、恐ろしい光景が全て、白昼夢だったかと錯覚してしまいそうになる。@
+;　ほんのついさっきまでの、恐ろしい光景が全て、白昼夢だったかと錯覚してしまいそうになる。@
+`　It made it seem like the terrifying spectacle from only seconds ago was like a daydream or a hallucination.`@`
 br
-　でも、断じて白昼夢ではない。@……妖怪の囁いた、恐ろしい予告が、……耳にこびりついている。\
+;　でも、断じて白昼夢ではない。@……妖怪の囁いた、恐ろしい予告が、……耳にこびりついている。\
+`　But it was clearly not a daydream.`@` ...The Youkai's horrifying preliminary notice, ....was still stuck in her head.`\
+
 bg black,2
 
 fede 1,2000
@@ -8657,13 +8669,18 @@ E_B
 
 bg kyou_03,22
 
-　そして、……翌日。@
+;　そして、……翌日。@
+`　Then, ...the next day.`@`
 br
-　大住玲子は唐突に姿を消す。@……姿どころか、初めからいなかったかのように、みんなの記憶から消えていた。\
+;　大住玲子は唐突に姿を消す。@……姿どころか、初めからいなかったかのように、みんなの記憶から消えていた。\
+`　Reiko Oosumi suddenly disappeared.`@` ...And as though she had not been there from the very beginning, she disappeared from everyone's memories.`\
 
-　しかし、彼らが覚えてしまった、いじめという禁断の快楽だけは、拭われない。@
+;　しかし、彼らが覚えてしまった、いじめという禁断の快楽だけは、拭われない。@
+`　But what they did remember, what they couldn't wipe away, was the forbidden pleasure of hazing.`@`
+
 br
-　そして、………彼らの矛先は当然のように、………由香里に向けられるのだ……。\
+;　そして、………彼らの矛先は当然のように、………由香里に向けられるのだ……。\
+`　And, ...as though it were only natural, their attacks were aimed, ...right at Yukari...`\
 
 bg black,22
 
@@ -8674,31 +8691,44 @@ bg kyou_01,22
 
 bgm1 22
 
-「臭ぇ臭ぇ臭え～！！@　何かカレー臭ぇええぇ！」@
-「榊が入ってきたら、急にカレー臭くなったぞぉ！」\
+;「臭ぇ臭ぇ臭え～！！@　何かカレー臭ぇええぇ！」@
+`"Stinky, stinky, stinky~!!`@` Something stinks like curryyyyyy!"`@`
+;「榊が入ってきたら、急にカレー臭くなったぞぉ！」\
+`"It starts stinking of curry the second Sakaki comes in!"`\
 
 ld r,YUK_Def3a,22
 
-　彼らが昨日までいじめていた人間は、大住玲子ではなく、@……由香里ということになっているようだった。@
+;　彼らが昨日までいじめていた人間は、大住玲子ではなく、@……由香里ということになっているようだった。@
+`　Since the human they had been bullying up until yesterday, Reiko Oosumi, was not there,`@` ...it seemed that Yukari would be next.`@`
 br
-　昨日まで当然のように玲子をいじめていたその矛先を、@今日も当然であるかのように、由香里に向ける…。\
+;　昨日まで当然のように玲子をいじめていたその矛先を、@今日も当然であるかのように、由香里に向ける…。\
+`　Just how yesterday it seemed natural to target Reiko,`@` just as naturally now, the attacks turned towards Yukari...`\
 
 me1v 24,50
 
-「ほら、静かに静かにー！@　榊がカレー臭いから、みんながいつまでも静かにならないじゃないかー。」@
-「臭ぇぞ臭ぇぞ、窓を開けろー！@　わっはははははははは！」@
-「ほら、着席しろー！@　社会科見学のバスの席を決めるぞー！」\
+;「ほら、静かに静かにー！@　榊がカレー臭いから、みんながいつまでも静かにならないじゃないかー。」@
+`"Quiet, everyone, quiet!`@` Just because Sakaki stinks of curry doesn't mean you can keep talking forever."`@`
+;「臭ぇぞ臭ぇぞ、窓を開けろー！@　わっはははははははは！」@
+`"God, it reeks, open a window~!`@` Wahahahahahaha!"`@`
+;「ほら、着席しろー！@　社会科見学のバスの席を決めるぞー！」\
+`"Come on, get to your seets!`@` We're deciding on seats for our social studies field trip~!"`\
 
-「カレー臭いマンと一緒の席は絶対イヤでーす！！」@
-「榊～、前日は必ずお風呂に入るんだぞ？@　先生との約束だからなー？」\
+;「カレー臭いマンと一緒の席は絶対イヤでーす！！」@
+`"I sure as hell don't wanna sit next to Stinky Curry Man!!!"`@`
+;「榊～、前日は必ずお風呂に入るんだぞ？@　先生との約束だからなー？」\
+`"Sakaki, make sure you take a bath the day before, okay?`@` Promise your teacher, won't you?"`\
 
 ;ld r,YUK_Def2a,22
 ld r,YUK_Def4a,80
 
-「………は、……入ってます……。@毎日……。」@
-「だったらどーしてそんなに臭いのよ～！！」@
+;「………は、……入ってます……。@毎日……。」@
+`"...I, ...I do...`@` Every day..."`@`
+;「だったらどーしてそんなに臭いのよ～！！」@
+`"Then why the hell do you reek so bad~!?"`@`
+
 quake 2,200
-「「「どわっはっはっはっはっはっはっはっは！！」」」\
+;「「「どわっはっはっはっはっはっはっはっは！！」」」\
+`"""Pffwahhahahahahahahahahaha!!!"""`\
 
 bg black,22
 
@@ -8707,9 +8737,11 @@ E_MA
 
 bg kyou_03,22
 
-　由香里は下唇を噛んで俯き、………クラス全員４０人による、@………いや、先生を加えた４１人ものいじめの渦中に、堪えている…。\
+;　由香里は下唇を噛んで俯き、………クラス全員４０人による、@………いや、先生を加えた４１人ものいじめの渦中に、堪えている…。\
+`　Yukari bit her lip and hung her head, ...enduring all 40 people in the class,`@` ...no, including the teacher, 41 in this whirlpool of hazing....`\
 
-　玲子ちゃんという、いじめられっこ仲間がいたからこそ、@一緒に戦おうなんて大それたことも言えたのだ。@
+;　玲子ちゃんという、いじめられっこ仲間がいたからこそ、@一緒に戦おうなんて大それたことも言えたのだ。@
+`　
 br
 　……しかし、ひとりぼっちのいじめられっこに、一体、何が戦えるというのか。\
 
