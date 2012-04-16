@@ -7932,19 +7932,22 @@ bg e010,22
 
 me1v 28,70
 
-　……しかし、つい。@……人の失敗を嘲笑いたいという邪悪な誘惑が、……その魔性に魂を明け渡す。\
+;　……しかし、つい。@……人の失敗を嘲笑いたいという邪悪な誘惑が、……その魔性に魂を明け渡す。\
+`　...However.`@` ...That wicked temptation to sneer at people's failures, ...is surrendering your soul to that devil.
 
 bg black,22
 bg roji_04,0
 ld c,YUK_Def4,22
 ld c,YUK_N1,80
 
-「何て人なの……。@いじめを、学校中に生み出そうなんて……。」@
+;「何て人なの……。@いじめを、学校中に生み出そうなんて……。」@
+`"What kind of person...`@` Who would bring forth hazing through this school...."`@`
 ;＜由香里
 
 ld r,MAR_I1a,24
 
-「その狩りで、スミレさんはもう充分に魂を得たでしょう。@……お願いですから、その狩りはもう、止めて下さい。」\
+;「その狩りで、スミレさんはもう充分に魂を得たでしょう。@……お願いですから、その狩りはもう、止めて下さい。」\
+`"You should have obtained plenty of souls through that hunt, Sumire-san.`@` ...I'll ask you now, please stop your hunt."`\
 ;＜毬枝
 
 bg black,23
@@ -7952,27 +7955,34 @@ bg roji_05,0
 ld l,SMI_W5,23
 ld l,SMI_W4,80
 
-「止めろと申すか。@……ふっふふっふふ、ひひははははははははははは！！@　彼岸花に聞いたのじゃ。@めそめその毬枝は、時に狩りの邪魔をする困ったヤツだとな。@……しかし、我等は学校妖怪。@狩りをするも自由。@それを邪魔するも自由じゃ！@　そして、止めろとの申し出に、耳を貸さぬことさえ自由というもの。」\
+;「止めろと申すか。@……ふっふふっふふ、ひひははははははははははは！！@　彼岸花に聞いたのじゃ。@めそめその毬枝は、時に狩りの邪魔をする困ったヤツだとな。@……しかし、我等は学校妖怪。@狩りをするも自由。@それを邪魔するも自由じゃ！@　そして、止めろとの申し出に、耳を貸さぬことさえ自由というもの。」\
+`"You're telling me to stop?`@` ...Fufufufu, heeheehahahahahahahahahahahaha!!!`@` I heard from Higanbana.`@` I heard that MesoMeso Marie was a troublesome creature that gets in the way of hunting.`@` ...Regardless, we are school Youkai.`@` We have the freedom to hunt.`@` And we have the freedom to stand in the way as well!`@` And so naturally, we have the freedom to refuse to listen to your suggestion for me to stop."`\
 
 ld r,MAR_I3,24
 
-「…………お願いです。@由香里ちゃんのクラスを、もう許してあげて下さい。@……お願いします。」@
+;「…………お願いです。@由香里ちゃんのクラスを、もう許してあげて下さい。@……お願いします。」@
+`"...I'm begging you.`@` Please leave Yukari-chan's class alone.`@` ...Please."`@`
 
 ld l,SMI_W1,80
 
-「嫌だと言ったら、どうするつもりじゃ？」\
+;「嫌だと言ったら、どうするつもりじゃ？」\
+`"And what do you plan to do if I say no?"`\
 
 ld r,MAR_I4a,80
 
-「…………学校妖怪序列第８位。@……めそめその毬枝として、お相手します。」@
+;「…………学校妖怪序列第８位。@……めそめその毬枝として、お相手します。」@
+`"...As the 8th Ranked School Youkai.`@` ...As MesoMeso Marie, I will become your opponent."`@`
 
 ld l,SMI_W3,80
 
-「これは参った。@全身の骨を粉々に砕く怪力妖怪との噂じゃ。@非力な私では太刀打ち出来ぬやも知れぬ。@ふっふふふふ……！」\
+;「これは参った。@全身の骨を粉々に砕く怪力妖怪との噂じゃ。@非力な私では太刀打ち出来ぬやも知れぬ。@ふっふふふふ……！」\
+`"Well, that is quite troubling.`@` It's rumored that you have the power to crush every bone in the body to pieces.`@` I do not know that a powerless being like me could cross swords with you.`@` Fufufufufu...!"`\
 
-　そうは言うが、スミレは挑発的に笑う。@
+;　そうは言うが、スミレは挑発的に笑う。@
+`　Though she said this, Sumire snickered suggestively.`@`
 br
-　学校妖怪たちの中では、確かに非力な部類かもしれない。@……しかし、毬枝と比べてもそうとは、限らない…。\
+;　学校妖怪たちの中では、確かに非力な部類かもしれない。@……しかし、毬枝と比べてもそうとは、限らない…。\
+`　
 
 ld r,MAR_I2a,80
 
@@ -9493,7 +9503,8 @@ ld c,YUK_I3,80
 bgmonce"bgm\bgm_ldsk_01.ogg"
 bgmvol 60
 
-「ねぇっ。@……そこの男子たちっ。」\
+;「ねぇっ。@……そこの男子たちっ。」\
+`"Right?`@` ...You boys, there."`\
 
 
 
