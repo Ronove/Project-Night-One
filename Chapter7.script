@@ -7982,15 +7982,18 @@ ld l,SMI_W3,80
 `　Though she said this, Sumire snickered suggestively.`@`
 br
 ;　学校妖怪たちの中では、確かに非力な部類かもしれない。@……しかし、毬枝と比べてもそうとは、限らない…。\
-`　
+`　Among the school youkai, she was certainly of the powerless variety. `@`...But the same could be said for Marie...`\
 
 ld r,MAR_I2a,80
 
-　毬枝はごくりと唾を飲み込んでから、…………覚悟を決める。@
+;　毬枝はごくりと唾を飲み込んでから、…………覚悟を決める。@
+`　Marie swallows with a gulp ...and she prepares herself.`@
 br
-　妖怪たち相手に、言葉による説得が通用することはない。\
+;　妖怪たち相手に、言葉による説得が通用することはない。\
+`　When facing youkai, one cannot persuade them with words.`\
 
-　実力で相手を捻じ伏せる。@それだけが、学校妖怪たちに通用する唯一の説得であり、@彼らの交渉の不文律なのだ。\
+;　実力で相手を捻じ伏せる。@それだけが、学校妖怪たちに通用する唯一の説得であり、@彼らの交渉の不文律なのだ。\
+`　Take them down by force. `@`That's the only way to persuade a school youkai. `@`It's their unwritten rule of negociating.`\
 
 bg black,29
 bg roji_03,29
@@ -7999,45 +8002,59 @@ ld c,HIG_W4,80
 
 E_MA
 
-「……くすくすくすくすくすくすくす。@……毬枝はお間抜けでウスノロだけれど、@こうと一度決めたことは、容易なことじゃ曲げないわ。」\
+;「……くすくすくすくすくすくすくす。@……毬枝はお間抜けでウスノロだけれど、@こうと一度決めたことは、容易なことじゃ曲げないわ。」\
+`"...Teeheeheeheeheehee. `@`...Marie may be a half-wit dunce, `@`but once she makes up her mind, changing it won't be an easy thing."`\
 
-「彼岸花さんっ。」@
-「これはこれは。@ご機嫌ようなのじゃ、踊る彼岸花。@このようなところへ姿を見せるとは珍しいのじゃ。」\
+;「彼岸花さんっ。」@
+`"Higanbana-san"`@
+;「これはこれは。@ご機嫌ようなのじゃ、踊る彼岸花。@このようなところへ姿を見せるとは珍しいのじゃ。」\
+`"Well well. `@`How do you do? Dancing Higanbana. `@`How unusual to see you show yourself in a place like this."`\
 
-　彼岸花の姿が、いつの間にか塀の上にあった。@
+;　彼岸花の姿が、いつの間にか塀の上にあった。@
+`　Suddenly, Higanbana was on top of the wall.`@
 br
-　対峙する二人を悠然と見下ろし、笑っていた。\
+;　対峙する二人を悠然と見下ろし、笑っていた。\
+`　Looking down on the two facing off, she was laughing.`\
 
 ld c,HIG_Def3,80
 
-「毬枝。@よくスミレの正体に気付いたわね。」@
+;「毬枝。@よくスミレの正体に気付いたわね。」@
+`"Marie. `@`You noticed Sumie's true form I see."`@
 
 mld l,MAR_I4,23
 
-「……元６組の子の、いじめに対する様子があまりに異常だったので。@……ひょっとしてと思っていました。」\
+;「……元６組の子の、いじめに対する様子があまりに異常だったので。@……ひょっとしてと思っていました。」\
+`"...The way the former girl from class 6 was acting was too strange. `@`...So I thought maybe it was like this."`\
 
-　彼岸花は小馬鹿にするように笑う。@
+;　彼岸花は小馬鹿にするように笑う。@
+`　Higanbana gave a mocking smile.`@
 br
-　毬枝は小さく溜め息を漏らす。@……多分、彼岸花は初めから、これが全てスミレの狩りだと知っていたのだ。@
+;　毬枝は小さく溜め息を漏らす。@……多分、彼岸花は初めから、これが全てスミレの狩りだと知っていたのだ。@
+`　Marie let loose a brief sigh. `@`...In all likelyhood, Higanbana knew from the very beginning that everything was Sumie's hunting game.`@
 br
-　それに気付かず、右往左往する毬枝を見て、面白がっていたに違いない。\
+;　それに気付かず、右往左往する毬枝を見て、面白がっていたに違いない。\
+`　She must have thought it was amusing watching the clueless Marie running around every which way.`\
 
 mld l,MAR_i4a,80
 
-「教えてくれればいいのに…。@……彼岸花さんは、時々、人が悪いです。」\
+;「教えてくれればいいのに…。@……彼岸花さんは、時々、人が悪いです。」\
+`"You should have told me... `@`...Higanbana-san, sometimes, you're a bad person."`\
 
 cl c,0
 ld r,HIG_def4,23
 
-「くすくすくすくす。@だって、毬枝があまりにも面白かったものだから。@………ねぇ、それより、毬枝。@あなたは由香里を庇うために戦っているようだけれど。@……ならば、本当にスミレちゃんと戦っちゃっていいのかしら…？」\
+;「くすくすくすくす。@だって、毬枝があまりにも面白かったものだから。@………ねぇ、それより、毬枝。@あなたは由香里を庇うために戦っているようだけれど。@……ならば、本当にスミレちゃんと戦っちゃっていいのかしら…？」\
+`"Teeheeheehee. `@`But you're so entertaining Marie. `@`...Heey Marie, about that. `@`So you're fighting to protect Yukari. `@`...Then shouldn't you fight Sumire-chan seriously...?"`\
 
 mld l,MAR_Def4a,80
 
-「………？」\
+;「………？」\
+`"...?"`\
 
 ld r,HIG_W3,80
 
-「やれやれ……。@本当にお間抜けなんだから……。@なら、由香里？@　あなたにはわかるんじゃない？@　……夕闇のスミレを、……大住玲子を倒せば、明日からどういうことになるか。」\
+;「やれやれ……。@本当にお間抜けなんだから……。@なら、由香里？@　あなたにはわかるんじゃない？@　……夕闇のスミレを、……大住玲子を倒せば、明日からどういうことになるか。」\
+`"Oh come on... `@`You're a real dunce... `@`Well, Yukari? `@`You understand don't you? `@`...If you defeat Twilight Sumire... Reiko Oosumi, then what will happen starting tomorrow?"`\
 
 mcl l,0
 bg black,23
@@ -8046,15 +8063,18 @@ ld l,YUK_Def3,23
 ld l,YUK_I1a,80
 
 
-「え、……………。」@
+;「え、……………。」@
+`"Eh, ......"`@
 ;＜由香里
 br
-　由香里は唐突に話を振られて面食らう。\
+;　由香里は唐突に話を振られて面食らう。\
+`　Yukari who had been shunned from the conversation was suddenly sucked back in.`\
 
 ld r,SMI_W4,22
 ld r,SMI_W1,80
 
-「わからぬのか？@　ふっふふふふ……。@明日から唐突に、大住玲子がいなくなったなら、@……お前のクラスのいじめっこたちが、どうなるのか。」\
+;「わからぬのか？@　ふっふふふふ……。@明日から唐突に、大住玲子がいなくなったなら、@……お前のクラスのいじめっこたちが、どうなるのか。」\
+`"Don't you get it? `@`Huhuhuhu... `@`If Reiko Oosumi suddenly disappeared, `@`...starting tomorrow, what would happen to the bullies in your class?"`\
 ;＜スミレ
 
 bg black,24
@@ -8063,15 +8083,18 @@ ld r,MAR_I1a,24
 
 me1v 16,50
 
-「…………まさか。@……ひ、卑怯な……。」@
+;「…………まさか。@……ひ、卑怯な……。」@
+`"...You don't mean. `@`...H-How cowardly..."`@
 ;＜毬枝
 br
-　ようやく毬枝は気付く。@……スミレを安易に倒すことは出来ないのだ。\
+;　ようやく毬枝は気付く。@……スミレを安易に倒すことは出来ないのだ。\
+`　Marie finally realized it. `@`...She can't easily defeat Sumire.`\
 
 ;ld l,HIG_W1,23
 ld l,HIG_W3,22
 
-「大住玲子がクラスから消えたら？@　……いじめ中毒のクラスメートたちは、次の生贄を求めるんじゃない…？」\
+;「大住玲子がクラスから消えたら？@　……いじめ中毒のクラスメートたちは、次の生贄を求めるんじゃない…？」\
+`"And if Reiko Oosumi disappears from class? `@`...Then wouldn't her bullying addicted classmates search for their next target...?"`\
 ;＜彼岸花
 
 bg black,24
@@ -8082,23 +8105,27 @@ ld r,SMI_W6,80
 
 me2v 17,70
 
-「ふっふふひひひひひ……。@大住玲子が現れることで、いじめられっこの烙印から逃れることが出来たのは、一体、誰だったというのじゃ……？」@
+;「ふっふふひひひひひ……。@大住玲子が現れることで、いじめられっこの烙印から逃れることが出来たのは、一体、誰だったというのじゃ……？」@
+`"Huhuhuhihihihi... `@`As long as Reiko Oosumi is there, just who is it that escapes the brand of the bullied child...?"`@
 
 ld l,YUK_N1,80
 
-「ま、……まさか…………。」\
+;「ま、……まさか…………。」\
+`"Y-...You don't mean..."`\
 ;＜由香里
 
 ld r,SMI_W5,80
 
-「お前じゃ！@　いじめられっこの榊由香里ッ。@ふっふふひひひひはっははははははは！！@　私の存在がなくなれば、お前が元通りのいじめられっこに戻るだけ。@……かつてのそなたは、元６組の数人にからかわれるだけだったが、@今度はそう甘くはないぞ？@　今やクラスの全員がいじめに飢える狼なのじゃ！@　明日よりのお前は、飢えた狼の檻に放り込まれる生餌の鶏でしかないと知るが良い！！」\
+;「お前じゃ！@　いじめられっこの榊由香里ッ。@ふっふふひひひひはっははははははは！！@　私の存在がなくなれば、お前が元通りのいじめられっこに戻るだけ。@……かつてのそなたは、元６組の数人にからかわれるだけだったが、@今度はそう甘くはないぞ？@　今やクラスの全員がいじめに飢える狼なのじゃ！@　明日よりのお前は、飢えた狼の檻に放り込まれる生餌の鶏でしかないと知るが良い！！」\
+`"You! `@`Bullied child, Yukari Sakaki~. `@`Huhuhuhihihihihahahahahahaha!! `@`Without me, you just go back to being the target once more. `@`...Once, you were just teased by a number of former class 6 members, `@`but this time, it won't be so gentle? `@`Even now, the class is nothing but wolves starving to torment someone! `@`Starting tomorrow, you shall know what it feels like to be a chicken thrown into a cage of starving wolves!!"`\
 
 bg black,22
 bg roji_03,0
 ld c,HIG_W3,22
 ld c,HIG_W4,80
 
-「……由香里。@あなたは毎日見ていたわよね？@　クラスメート全員に、大住玲子がどんな風にいじめられるか。@あなたは遠巻きに見て、@……それが自分に対するものでないと安堵していたんじゃない…？」\
+;「……由香里。@あなたは毎日見ていたわよね？@　クラスメート全員に、大住玲子がどんな風にいじめられるか。@あなたは遠巻きに見て、@……それが自分に対するものでないと安堵していたんじゃない…？」\
+`"...Yukari. `@`You've seen it everyday, haven't you? `@`Just how much have all your classmates been abusing Reiko Oosumi? `@`You've watched from a distance, `@`...and you've felt safe since it had nothing to do with you, right...?"`\
 ;＜彼岸花
 
 bg black,22
@@ -8107,26 +8134,33 @@ bg Different_spiral_1b,22
 
 me3v 28,70
 
-　みんなに臭い臭いと罵られ、囃し立てられ。@
+;　みんなに臭い臭いと罵られ、囃し立てられ。@
+`　I was assaulted with 'you stink, you stink' and they made fun of me.`@
 br
-　先生にも馬鹿にされ、クラス中の笑い者にされ…、……それから、……それから………。\
+;　先生にも馬鹿にされ、クラス中の笑い者にされ…、……それから、……それから………。\
+`　Even the teacher belittled me, I was made a laughing stock in class, ...and... and...`\
 
 
 ld c,YUK_N2,22
 
-「ひ、……ひ……ぃ………………ッ……。」@
+;「ひ、……ひ……ぃ………………ッ……。」@
+`"Hi, ...hi...i......i..."`@
 ;＜由香里
 br
-　由香里の背筋に再び、おぞましい悪寒が這い上がる。\
+;　由香里の背筋に再び、おぞましい悪寒が這い上がる。\
+`　Once again, a repulsive feeling crawled up Yukari's spine.`\
 
 
-　彼女は認めなければならない。@
+;　彼女は認めなければならない。@
+`　She wouldn't believe it.`@
 br
-　玲子がいじめられているのを見ていて、……それが自分でなくて良かったと、@……心の奥で、わずかでも思っていたことを、認めなければならない。\
+;　玲子がいじめられているのを見ていて、……それが自分でなくて良かったと、@……心の奥で、わずかでも思っていたことを、認めなければならない。\
+`　To say that she saw Reiko being bullied, ...and was glad it wasn't her, `@`...and suggesting that, even by chance, she thought that deep in her mind, that was something she couldn't believe.`\ 
 
 ;ld c,YUK_N2,80
 
-　そして明日より、……それが、自分になる。@……それが約束されることの、……恐怖……。\
+;　そして明日より、……それが、自分になる。@……それが約束されることの、……恐怖……。\
+`　And starting tomorrow, ...that would be her. `@`...It was a promise... of fear.`\
 
 se1 1006
 
@@ -8136,13 +8170,16 @@ bg white,1
 bg black,0
 ld l,SMI_W5,22
 
-「嫌であろう？@　クラス全員にいじめられるのは。@……いじめと一緒に戦おう？@　ふっふふふひひひひひひ！！@　お前と一緒に戦う友人など誰もおらぬのじゃ！@　お前はひとりぼっちで、クラス中に馬鹿にされ、先生にまで嘲笑われるのじゃ！@　それでも戦えるというのか？@　元６組のほんの数人の時でさえ、無視を決め込むことしか出来なかったお前が、@今度はクラス全員からのいじめに対し、何をどう戦うというのじゃ？@　ふふふひひひはははははははははははははははははははッ！！！」\
+;「嫌であろう？@　クラス全員にいじめられるのは。@……いじめと一緒に戦おう？@　ふっふふふひひひひひひ！！@　お前と一緒に戦う友人など誰もおらぬのじゃ！@　お前はひとりぼっちで、クラス中に馬鹿にされ、先生にまで嘲笑われるのじゃ！@　それでも戦えるというのか？@　元６組のほんの数人の時でさえ、無視を決め込むことしか出来なかったお前が、@今度はクラス全員からのいじめに対し、何をどう戦うというのじゃ？@　ふふふひひひはははははははははははははははははははッ！！！」\
+`"You don't like it? `@`Being bullied by the entire class, that is. `@`...Let's fight the bullying together? `@`Huhuuhuhuhihihihihihi!! `@`You have no friends to fight with! `@`You'll be alone, mocked in class, and even the teacher will sneer at you! `@`You think you can fight even then? `@`Even when there were just a few former class 6 people doing it, and all you could do was ignore it, `@`this time when you're bullied by the entire class, just how will you fight it then, huh? `@`HuhuhuhihihihiHAHAHAHAHHAHAHAHAHAHAHAHA~!!"`\
 
 ld r,YUK_Def4a,22
 
-　由香里は何も言い返せない……。@
+;　由香里は何も言い返せない……。@
+`　Yukari couldn't say anything in reply...`@
 br
-　震えながら下唇を噛んで俯き、……体を震えを抑えようと、両腕を組むのがやっとだった。\
+;　震えながら下唇を噛んで俯き、……体を震えを抑えようと、両腕を組むのがやっとだった。\
+`　Hanging her head, trembling and biting her lip, ...she finally folded her arms to stop her body from shaking.`\
 
 bg black,22
 
@@ -8153,20 +8190,24 @@ mono 0
 bg roji_05,0
 ld c,MAR_Def3a,22
 
-　何も言い返せないのは毬枝も同じだ。@
+;　何も言い返せないのは毬枝も同じだ。@
+`　Marie couldn't say anything in response either.`@
 br
-　由香里を救いたい気持ち。@スミレの狩りを止めさせたい気持ち。@それらにはいささかの揺るぎもないが、………どう戦えばいいのか、まるでわからない……。\
+;　由香里を救いたい気持ち。@スミレの狩りを止めさせたい気持ち。@それらにはいささかの揺るぎもないが、………どう戦えばいいのか、まるでわからない……。\
+`　The desire to save Yukari. `@`The desire to stop Sumire's hunt. `@`She wasn't even shaking a bit from those, ...but she still didn't know how she could fight....`\
 
 ld c,MAR_i2a,80
 
-　だから毬枝は恐怖でなく、悔しさで全身を振るわせるのだった。\
+;　だから毬枝は恐怖でなく、悔しさで全身を振るわせるのだった。\
+`　Marie wasn't afraid, but her whole body was shaking from frustration.`\
 
 bg black,22
 bg roji_03,0
 ;ld c,HIG_W4,22
 ld c,HIG_W1,22
 
-「くすくすくす。@……毬枝。@あなたに出来ることは何もないわ。@退きなさい。@スミレちゃんは面白い子だけれど、……それでもあんたよりはよっぽど残酷よ？」\
+;「くすくすくす。@……毬枝。@あなたに出来ることは何もないわ。@退きなさい。@スミレちゃんは面白い子だけれど、……それでもあんたよりはよっぽど残酷よ？」\
+`"Teeheehee. `@`...Marie. `@`There's nothing you can do. `@`Step aside. `@`Sumire-chan is a fun girl and all, ...but she'll be really cruel to you, ya'know?"`\
 ;＜彼岸花
 
 bg black,23
@@ -8175,49 +8216,59 @@ bg roji_05,0
 ld l,MAR_Def3a,23
 ld l,MAR_I3a,80
 
-「……退けません。@……由香里ちゃんが妖怪の餌食にされるのを、見過ごすわけには行きませんっ。」\
+;「……退けません。@……由香里ちゃんが妖怪の餌食にされるのを、見過ごすわけには行きませんっ。」\
+`"...I won't budge. `@`...I won't stand by and watch as Yukari-chan is made into a victim for a youkai!"`\
 
 ld r,SMI_W1,24
 ld r,SMI_W3,80
 
-「ならば私と戦ってみるかや？@　恐ろしきめそめそさんの豪腕にて、私を捕まえ、全身の骨を粉々に砕いてみるかや？@　ふっふふふふふ、これは恐ろしいのじゃ！」\
+;「ならば私と戦ってみるかや？@　恐ろしきめそめそさんの豪腕にて、私を捕まえ、全身の骨を粉々に砕いてみるかや？@　ふっふふふふふ、これは恐ろしいのじゃ！」\
+`"Then how about you try fighting me? `@`Perhaps the terrifying Mesomeso-san's arms will try grabbing me and crushing all of the bones in my body? `@` Huhuhuhuhu, oh how scary!"`\
 
 ld l,MAR_I4a,80
 
 cl r,0
 ld c,SMI_W4,24
 
-　スミレはゆっくりと毬枝に歩み寄る。@
+;　スミレはゆっくりと毬枝に歩み寄る。@
+`　Sumire slowly walked up to Marie.`@
 br
-　肩を竦めるかのように、両腕を開き、@……殴りたければ、さぁどうぞ、とでも言うような仕草をする。\
+;　肩を竦めるかのように、両腕を開き、@……殴りたければ、さぁどうぞ、とでも言うような仕草をする。\
+`　Both her arms were extended as she shrugged, `@`...it was as if she were saying just try and hit me.`\
 
 ld l,MAR_I2a,80
 
-　……毬枝は両拳を震わせるが、………何も出来ない。@
+;　……毬枝は両拳を震わせるが、………何も出来ない。@
+`　...Marie's fists were shaking, ...but she could do nothing.`@
 br
-　スミレを倒しても。@……いやむしろ逆。@……スミレを倒せば、由香里が明日から恐ろしいいじめの渦中に投げ込まれてしまう……。\
+;　スミレを倒しても。@……いやむしろ逆。@……スミレを倒せば、由香里が明日から恐ろしいいじめの渦中に投げ込まれてしまう……。\
+`　When she defeated Sumire. `@`...No. `@`If she defeated, Yukari would be thrown into a maelstrom of terrifying abuse from tomorrow onward...`\
 
 ld c,SMI_W2,80
 
-「どうした？@　噂のめそめそさんが、よもやこのような非力な妖怪に、臆しているわけもあるまい？」\
+;「どうした？@　噂のめそめそさんが、よもやこのような非力な妖怪に、臆しているわけもあるまい？」\
+`"What's the matter? `@`There's no way the legendary Mesomeso-san would be afraid of a powerless youkai like myself, is there?"`\
 
 bg black,23
 bg roji_03,0
 ;ld c,HIG_W3,22
 ld l,HIG_Def5,23
 
-「毬枝。@退きなさい。@スミレちゃんの方が、一枚も二枚も上だと、わかったでしょう？」\
+;「毬枝。@退きなさい。@スミレちゃんの方が、一枚も二枚も上だと、わかったでしょう？」\
+`"Marie. `@`Step aside. `@`Can't you see? Sumire-chan is already one, no, two pages ahead of you."`\
 
 bg black,24
 bg roji_04,0
 ld c,MAR_Def3a,24
 ld c,MAR_I1a,80
 
-「でも、…………退けませんっ。@私は、由香里ちゃんを守るって、決めたんですっ。」@
+;「でも、…………退けませんっ。@私は、由香里ちゃんを守るって、決めたんですっ。」@
+`"But, ...I won't budge. `@`I said I would protect Yukari-chan!"`@
 
 ld l,YUK_Def3a,23
 
-「………………………。」\
+;「………………………。」\
+`"........."`\
 ;＜由香里
 
 bg black,23
@@ -8225,7 +8276,8 @@ bg roji_03,0
 ld c,HIG_Def2,23
 ld c,HIG_W1,80
 
-「……馬鹿な毬枝。@だからとて、何も出来はしないくせに。」\
+;「……馬鹿な毬枝。@だからとて、何も出来はしないくせに。」\
+`"...Foolish Marie. `@`Even though I keep telling you there's nothing you can do."`\
 ;＜彼岸花
 
 bg black,23
@@ -8233,14 +8285,16 @@ bg roji_05,0
 ld c,SMI_W4,23
 ld c,SMI_W6,80
 
-「ふっふふひひひひひ。@何も出来ぬのか、めそめそさんよ。@……ならば私からお前へ礼じゃ。@……この夕闇のスミレの狩りを邪魔すると、上等なる啖呵を切ったその度胸に、@たっぷりと礼をしてやるのじゃ。」\
+;「ふっふふひひひひひ。@何も出来ぬのか、めそめそさんよ。@……ならば私からお前へ礼じゃ。@……この夕闇のスミレの狩りを邪魔すると、上等なる啖呵を切ったその度胸に、@たっぷりと礼をしてやるのじゃ。」\
+`"Huhuhuhihihihi. `@`You can't do anything then? Mesomeso-san. `@`...Then I give you my thanks. `@`...That you would interfere with I, Sumire of the Twilight's hunt with such superior and sharp words of courage, `@`I wholeheartedly commend you for that."`\
 
 ;bg black,24
 ;bg roji_03,0
 ;ld c,HIG_W4,24
 ld l,HIG_w3,22
 
-「大目に見てあげなさいよ。@まだ、私たちの世界の厳しさを知らないんだから。」\
+;「大目に見てあげなさいよ。@まだ、私たちの世界の厳しさを知らないんだから。」\
+`"Just let it go. `@`After all, you still don't know the loneliness of our world."`\
 ;＜彼岸花
 
 ;bg black,23
@@ -8250,7 +8304,8 @@ cl c,0
 mld c,SMI_W3,80
 
 
-「ならばこそ。@私がそれを教えてやるのじゃ。@……ふっふふふっふっふふ。@ひっひひ、はっははははっはっはっはっはッ！！」\
+;「ならばこそ。@私がそれを教えてやるのじゃ。@……ふっふふふっふっふふ。@ひっひひ、はっははははっはっはっはっはッ！！」\
+`"Well then. `@`I'll be the one to teach you that. `@`...Huhuhuhuhuhuhu. `@`Hihihihi, hahHAHhAHHAHAHhAHAHAHA~!!"`\
 
 se1v 66,70
 
