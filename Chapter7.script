@@ -9110,34 +9110,47 @@ quakex 2,200
 
 「かーーーーーーッ！！@　あぁもうムシャクシャするぅッ！」@
 br
-　誰かがそう叫ぶ。@すると、全員の不満が堰を切って溢れ出す。\
+;　誰かがそう叫ぶ。@すると、全員の不満が堰を切って溢れ出す。\
+`　Somebody screamed`@` With that, everyone's displeasure flowed out like a dam breaking and gushing forth.`\
 
 me2v 24,50
 
-「……何で、榊のヤツ、学校、来ねぇんだよ…！！」@
-「ふざけやがって、トーコーキョヒかよな、舐めやがってよ。」@
-「これでまたノコノコ来て、カレー臭かったら、マジで今度は丸洗いだろ。」\
+;「……何で、榊のヤツ、学校、来ねぇんだよ…！！」@
+`"...Why the hell won't that bitch Sakaki come to school...!!!"`@`
+;「ふざけやがって、トーコーキョヒかよな、舐めやがってよ。」@
+`"Messing around with us and playin' hooky, making light of us."`@`
+;「これでまたノコノコ来て、カレー臭かったら、マジで今度は丸洗いだろ。」\
+`"If she comes trumping along again smellin' like curry, we'll seriously wash her off!"`\
 
-「ぷーくすくすくす！@　でも絶対、榊さん、またカレー臭いに決まってるよね！」@
-「「ねー！！」」@
-「榊が来たらよ、カンゲー会してやろうぜ、カンゲー会！」\
+;「ぷーくすくすくす！@　でも絶対、榊さん、またカレー臭いに決まってるよね！」@
+`"Pffffkahahaha!`@` But we already know Sakaki's gonna smell like curry!"`@`
+;「「ねー！！」」@
+`""Yeah--!!!""`@`
+;「榊が来たらよ、カンゲー会してやろうぜ、カンゲー会！」\
+`"If Sakaki comes around, let's throw her a big welcome party!"`\
 
-「というかさー、男子ィ。@榊さんの机にゴキブリ入れんの止めてよー。@這い出してこっち来たらやなんだからー。」@
-「大丈夫だよ、ちゃんと潰して内臓出てンから！」@「「汚ねぇ～～！！@　わっははははははは！！」」@「何匹目だっけ？@　６匹？」@「昨日、俺も入れたから７匹入ってるよ。」@「やだー、男子、マジありえなーい！！」@「「「わははわはは、げらげらっ！！」」」\
+;「というかさー、男子ィ。@榊さんの机にゴキブリ入れんの止めてよー。@這い出してこっち来たらやなんだからー。」@
+`"But hey, boys.`@` Stop putting cockroaches in Sakaki's desk.`@` If they get out and come towards us, I don't even want to think about it~."`@`
+;「大丈夫だよ、ちゃんと潰して内臓出てンから！」@「「汚ねぇ～～！！@　わっははははははは！！」」@「何匹目だっけ？@　６匹？」@「昨日、俺も入れたから７匹入ってるよ。」@「やだー、男子、マジありえなーい！！」@「「「わははわはは、げらげらっ！！」」」\
+`"It's fine, we'll smash 'em 'til their guts come out!`@`""Ewwwwwww~~~!!`@` Wahahahahahaha!!""`@`"How many are there now?`@` Six?"`@` "Since I put some in yesterday too, there's seven."`@` "Ewwww, I can't belieeeeeeeeve boys!!"`@` """Wahahawahaha, Nghahahahahahahaha!!!"""`\
 
-
-　ようやく談笑が湧き上がったかと思えば、@……それは全て、由香里が再び登校してきた時、どのようないじめで歓待しようかという悪巧みばかり。@
+;　ようやく談笑が湧き上がったかと思えば、@……それは全て、由香里が再び登校してきた時、どのようないじめで歓待しようかという悪巧みばかり。@
+`　When one could finally think that a friendly conversation had finally started up,`@` ...Once Yukari came to school again, all of it would turn into a conspiratorious warm reception of harassment.
 br
-　ぎらぎらと邪悪に眼を輝かせて、それを笑い合う彼らに、@人間としての温かみを感じることは難しかった。\
+;　ぎらぎらと邪悪に眼を輝かせて、それを笑い合う彼らに、@人間としての温かみを感じることは難しかった。\
+`　They'd glare with an evil twinkle in their eye, and once they laughed at her,`@` it would be difficult to feel the warmth of her fellow human beings.`\
 
 ;bg black,22
 ld r,SMI_W4,22
 ld r,SMI_W2,80
 
-　スミレは、その様子を見て、にんまりと笑う。@
+;　スミレは、その様子を見て、にんまりと笑う。@
+`　While Sumire watched this, she smiled in satisfaction.`@`
 br
-　禁断の悦楽を覚えた可愛い子たちは来年、クラス替えで学年中に散っていく。@
-　……行く先々で咲かすだろう、いじめの花の蜜に、@今からスミレの喉がごくりと鳴る…。\
+;　禁断の悦楽を覚えた可愛い子たちは来年、クラス替えで学年中に散っていく。@
+`　Her adorable children who remembered those forbidden pleasures would next year be scattered throughout the school when the classes changed.`@`
+;　……行く先々で咲かすだろう、いじめの花の蜜に、@今からスミレの喉がごくりと鳴る…。\
+`　...
 
 ld r,SMI_W3,80
 
