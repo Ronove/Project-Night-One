@@ -8320,9 +8320,11 @@ se2v 66,100
 bg white,28
 bg black,8
 
-　スミレの影から、……ぬうっと、真っ黒で巨大な腕が、何本も生え出す。@
+;　スミレの影から、……ぬうっと、真っ黒で巨大な腕が、何本も生え出す。@
+`　From Sumire's shadow... suddenly, countless massive black arms sprout forth.`@
 br
-　それがぞわぞわと毬枝に近付き、……撫で回すかのように、毬枝に絡みついていく…。\
+;　それがぞわぞわと毬枝に近付き、……撫で回すかのように、毬枝に絡みついていく…。\
+`　And they creep towards Marie, ...and they entwine around her as if caressing her...`\
 
 bg roji_04,0
 mld c,MAR_I4a,22
@@ -8332,22 +8334,26 @@ se1 66
 bg white,28
 bg black,8
 
-「逃げぬのか？@　榊由香里を捨てて逃げれば、見逃してやっても良いのじゃぞ…？」\
+;「逃げぬのか？@　榊由香里を捨てて逃げれば、見逃してやっても良いのじゃぞ…？」\
+`"You're not running? `@`If you abandon Yukari Sakaki and leave, I would be fine with letting you go...?"`\
 
 mld c,MAR_I3a,80
 
-「……私は由香里ちゃんを、……絶対に見捨てませんっ……。」\
+;「……私は由香里ちゃんを、……絶対に見捨てませんっ……。」\
+`"...I won't... I won't abandon Yukari-chan~..."`\
 
 ld l,SMI_W5,22
 
-「私には勝てぬ。@学校よりいじめを無くすことが出来ぬようにな。@……無駄な抗いの代償がどれほどのものになるか、……教えてやるのじゃ……。@ふっふひひひっひひひひはははっははははははははははははははは！！」\
+;「私には勝てぬ。@学校よりいじめを無くすことが出来ぬようにな。@……無駄な抗いの代償がどれほどのものになるか、……教えてやるのじゃ……。@ふっふひひひっひひひひはははっははははははははははははははは！！」\
+`"You can't stop me. `@`Just like you can't stop the bullying at school. `@`...I'll teach you just how rewarding your foolish resistance is... `@`FuhuhihihihihihihihahahAHAHAHAHAHAHAHAHA!!"`\
 
 mld c,MAR_I2a,80
 mcl c,0
 
 bg black,22
 
-　一斉に幾本もの腕が飛び掛かり、毬枝をぐしゃぐしゃにしながら、影の中に引きずり込む。\
+;　一斉に幾本もの腕が飛び掛かり、毬枝をぐしゃぐしゃにしながら、影の中に引きずり込む。\
+`　All at once, countless arms jumped, and while seizing Marie, the arms pull her into Sumire's shadow.`\
 
 ;bg white,1
 ;bg black,0
@@ -8363,7 +8369,8 @@ me1v 17,70
 
 bg Different_spiral_1a,22
 
-　それは漆黒の、悪夢の沼。@その中では、毬枝の生前にいじめられた記憶が、濃密な泥となって、彼女を苛むのだ。\
+;　それは漆黒の、悪夢の沼。@その中では、毬枝の生前にいじめられた記憶が、濃密な泥となって、彼女を苛むのだ。\
+`　Sumire's shadow was a jet-black nightmare lagoon. `@`In the middle of it, Marie's memories of being bullied when she was alive turned into thick mud and tormented her.`\
 
 se1 38
 
@@ -8408,7 +8415,8 @@ se2v 55,70
 
 me2v 28,70
 
-　何本もの腕が、毬枝をその沼で乱暴に、まるで洗濯でもするかのように、@どっぷんどっぷんと、ぐっちゃんぐっちゃんと、……何度も叩き付けては、沈めて、掻き回して、そして叩き付けられる。\
+;　何本もの腕が、毬枝をその沼で乱暴に、まるで洗濯でもするかのように、@どっぷんどっぷんと、ぐっちゃんぐっちゃんと、……何度も叩き付けては、沈めて、掻き回して、そして叩き付けられる。\
+`　Almost like a washing machine, the countless arms violently toss Marie in the swamp. `@` With a slop slop, thump thump, ...she was hit countless times, submerged down, stirred up, and thrown around.`\ 
 
 ;bg roji_03,0
 
@@ -8416,22 +8424,26 @@ bg roji_05,0
 ld l,HIG_Def5,22
 ld l,HIG_W3,80
 
-「…………馬鹿毬枝ね。@……スミレちゃん。@お灸はほどほどにお願いね。@……その子、一応、私のお友達ってことになってるんだから。」\
+;「…………馬鹿毬枝ね。@……スミレちゃん。@お灸はほどほどにお願いね。@……その子、一応、私のお友達ってことになってるんだから。」\
+`"...Foolish Marie. `@`...Sumire-chan. `@`Go easy with the scolding, okay. `@`...That girl has in a way become my 'friend' after all."`\
 ;＜彼岸花
 
 ;bg black,23
 ld c,SMI_W4,22
 ld c,SMI_W6,80
 
-「嫌じゃ。@何しろこれは、夕闇のスミレとめそめその毬枝の初対面。@初めての挨拶は、濃厚に、骨身に染み込ませてやるに限るのじゃ…！@　ふっふふふふふッ、どうした毬枝？！@　この程度でへばっていては学校妖怪など務まらぬぞ？@　もっともっと深く深く！@　そちのいじめの記憶の沼へ深く埋め込んでやろうぞ…！！」\
+;「嫌じゃ。@何しろこれは、夕闇のスミレとめそめその毬枝の初対面。@初めての挨拶は、濃厚に、骨身に染み込ませてやるに限るのじゃ…！@　ふっふふふふふッ、どうした毬枝？！@　この程度でへばっていては学校妖怪など務まらぬぞ？@　もっともっと深く深く！@　そちのいじめの記憶の沼へ深く埋め込んでやろうぞ…！！」\
+`"I don't wanna. `@`After all, this is Sumire of the Twilight's first encounter with Mesomeso Marie. `@`I'll have my first impression permeate into her flesh and bones...! `@` Huhuhuhuhuhu~ what's wrong Marie?! `@`If you're getting tired at this rate then you won't be able to handle being a school youkai, you know? `@`We're gonna dig deeper, deeper! `@`And I'm going to bury you deep within your swamp of memories of abuse...!!"`\
 
 se1v 38,100
 
 bg black,6
 
-　……スミレは執拗だった。@
+;　……スミレは執拗だった。@
+`　...Sumire was relentless.`@
 br
-　生前、いじめられっこで、それがきっかけで生を失った毬枝にとって、@その記憶が蘇らせられるのは、もう一度殺されるのに等しい苦痛だ。\
+;　生前、いじめられっこで、それがきっかけで生を失った毬枝にとって、@その記憶が蘇らせられるのは、もう一度殺されるのに等しい苦痛だ。\
+`　When she was alive as a bullied girl, for Marie, who lost her life to chance, `@`having those memories revived brought back the terrible pain of being killed all over again.`\
 
 ;bg white,1
 ;bg black,0
@@ -8452,16 +8464,20 @@ br
 
 me3v 3,70
 
-　それを知っていて、その苦痛の沼に、何度も何度も沈める、沈める。@漬け込み、叩き付け、深く深く、何度も何度も。@
+;　それを知っていて、その苦痛の沼に、何度も何度も沈める、沈める。@漬け込み、叩き付け、深く深く、何度も何度も。@
+`　And with that in mind, she was dunked into that bog of agony over and over again. `@`Pickled, slapped, deeper and deeper, again and again.`@
 br
-　おぞましい記憶に苛まれ、……毬枝は白目を剥き、涙と鼻水と涎でぐちゃぐちゃの顔になっても、@それでも尚、スミレは毬枝を許そうとはしなかった。@
+;　おぞましい記憶に苛まれ、……毬枝は白目を剥き、涙と鼻水と涎でぐちゃぐちゃの顔になっても、@それでも尚、スミレは毬枝を許そうとはしなかった。@
+`　Tormented by repulsive memories, ...Marie's eyes shot open. Her face became a blur of tears, snot, and drool. `@`Even so, Sumire showed Marie no mercy.`@ 
 br
-　それは、力ある妖怪が、力なき妖怪に働く、いじめそのもの。\
+;　それは、力ある妖怪が、力なき妖怪に働く、いじめそのもの。\
+`　For the youkai with power using it against the powerless youkai, this was bullying itself.`\
 
 bg roji_06,0
 ld l,YUK_N1,22
 
-　由香里はその壮絶な光景を見せ付けられ、腰を抜かしてへたり込み、@恐怖に震えることしか出来なかった…。\
+;　由香里はその壮絶な光景を見せ付けられ、腰を抜かしてへたり込み、@恐怖に震えることしか出来なかった…。\
+`　Being shown that grand spectacle, Yukari couldn't move. `@`She could only shiver in terror...`\
 
 
 bg black,22
@@ -8489,81 +8505,102 @@ bg roji_04,2
 se1 13
 quakex 1,100
 
-　やがて……。@
-　涙と鼻水でぐしゃぐしゃになり、痙攣さえしなくなった骸同然の毬枝が、……路肩に放り出される。@
+;　やがて……。@
+`　Before long... `@`
+;　涙と鼻水でぐしゃぐしゃになり、痙攣さえしなくなった骸同然の毬枝が、……路肩に放り出される。@
+`　The quivering shell of Marie, damp with tears and snot, ...was tossed to the curbside.`@
 br
-　あまりに執拗なスミレの責め苦の果てに、それは当然の結果だった。\
+;　あまりに執拗なスミレの責め苦の果てに、それは当然の結果だった。\
+`　After the merciless Sumire's torture from hell, it was a natural result.`\
 
 
-　彼岸花でさえ、途中で呆れて姿を消してしまうほどに、それは執拗だった。@
+;　彼岸花でさえ、途中で呆れて姿を消してしまうほどに、それは執拗だった。@
+`　It was so relentless that even Higanbana shockingly disappeared in the middle of it.`@
 br
-　由香里は、自分を庇うために犠牲になってくれた彼女に駆け寄り、その体を揺さぶる。\
+;　由香里は、自分を庇うために犠牲になってくれた彼女に駆け寄り、その体を揺さぶる。\
+`　Yukari rushed over to the girl who had become her martyr in order to protect her, and shook that body.`\
 
 ld c,YUK_I3a,26
 ld c,YUK_N1,80
 
-「……しっかり…、しっかりして……！」\
+;「……しっかり…、しっかりして……！」\
+`"...Hang in... Hang in there...!!"`\
 
 ld r,MAR_Def2n,6
 ld r,MAR_Def3n,80
 
-「………………ごめんなさい…。@何の役にも……、立てなくて……。」@
+;「………………ごめんなさい…。@何の役にも……、立てなくて……。」@
+`"......I'm sorry... `@`I couldn't be... of any use..."`@
 
 ld c,YUK_N2,80
 
-「いえ……、私のために戦ってくれて、……ありがとう……。」\
+;「いえ……、私のために戦ってくれて、……ありがとう……。」\
+`"No... Thank you... for fighting for my sake..."`\
 
 ld r,MAR_Def2n,80
 
-「負けないで……。@絶対に…………。@……………………。」@
+;「負けないで……。@絶対に…………。@……………………。」@
+`"Don't lose... `@`Ever...... `@`......"`@
 br
 
 cl r,42
 
-　それ以上は言葉にならなかった。@
-　そして妖力を完全に失い、霞のように、その姿を散らして消えてしまう…。\
+;　それ以上は言葉にならなかった。@
+`　Those were her last words.`@
+;　そして妖力を完全に失い、霞のように、その姿を散らして消えてしまう…。\
+`　Then she completely lost her youkai power, and like a mist, her body dissolved and completely disappeared...`\
 
 bg black,23
 bg roji_05,0
 ld r,SMI_W6,23
 ld r,SMI_W3,80
 
-「これで当分、いや金輪際…！@　私の邪魔をしようなどとは思わぬだろうて…！」@
+;「これで当分、いや金輪際…！@　私の邪魔をしようなどとは思わぬだろうて…！」@
+`"For now, no, until the end of time...! `@`I don't think she'll bother me or anything of the like again...!"`@
 
 ;ld l,YUK_i3a,23
 ld l,YUK_I2a,23
 
-「……な、……何て酷い人なの………。」\
+;「……な、……何て酷い人なの………。」\
+`"...Wh- ...What a cruel person..."`\
 ;＜由香里
 
 ld r,SMI_W2,80
 
-「毬枝はお前を守るとか抜かしておったな。@……ふっふふふふ。@ならば決めたぞ。@私はさっそく明日より姿を消すことにする。@明日より、クラスのいじめられっこはお前じゃ、榊由香里よ…！！」@
+;「毬枝はお前を守るとか抜かしておったな。@……ふっふふふふ。@ならば決めたぞ。@私はさっそく明日より姿を消すことにする。@明日より、クラスのいじめられっこはお前じゃ、榊由香里よ…！！」@
+`"Marie blurted something out about protecting you, right? `@`...Huhuhuhu. `@`Then I've decided. `@`Starting tomorrow I'm going to copletely disappear. `@`Starting tomorrow, the bullied child in class will be you, Yukari Sakaki!!"`@
 br
-　死刑宣告にも等しいそれに、由香里は全身の血が引いていくのを感じる……。\
+;　死刑宣告にも等しいそれに、由香里は全身の血が引いていくのを感じる……。\
+`　Exactly like the pronouncement of a death sentence, Yukari felt all the blood in her body freeze...`\
 
 ld r,SMI_W6,80
 
-「我が魔性に狂いしクラス４０人のいじめっこたちが、@明日はお前が登校してくるのを、涎を垂らしながら待っているぞ…！！@　楽しみであろう？@　ふっふふふふふっふっふっふ！！@　いじめと戦う？@　そんな戯言を、まだお前は口に出来るというのかや…？」\
+;「我が魔性に狂いしクラス４０人のいじめっこたちが、@明日はお前が登校してくるのを、涎を垂らしながら待っているぞ…！！@　楽しみであろう？@　ふっふふふふふっふっふっふ！！@　いじめと戦う？@　そんな戯言を、まだお前は口に出来るというのかや…？」\
+`"The 40 bullies in the class I've corrupted with my devilishness `@`will drool in anticipation of you coming to school tomorrow!! `@`Let's have fun? `@`Huhuhu huhuhuhuhu hu hu hu! `@`Fight bullying? `@`I wonder, can you still utter such nonsense...?"`\
 
 ld l,YUK_Def4a,80
 
-「…………………………。」\
+;「…………………………。」\
+`"........."`\
 
 ld r,SMI_W4,80
 
-「榊由香里よ。@私に屈し、明日より大住玲子をいじめると誓うのじゃ。」@
+;「榊由香里よ。@私に屈し、明日より大住玲子をいじめると誓うのじゃ。」@
+`"Yukari Sakaki. `@`Yield to me and swear to bully Reiko Oosumi tomorrow."`@
 
 ld l,YUK_I2a,80
 
-「わ、……私に、いじめっこに加われと、……言うんですか……。」\
+;「わ、……私に、いじめっこに加われと、……言うんですか……。」\
+`"Are you... saying I should... join the bullies...?"`\
 
 cl r,0
 ld c,SMI_W2,24
 
-「そうじゃ。@さすれば、姿を消すのを止め、@明日からも私がクラスのいじめられっこを引き受けてやっても良いのじゃぞ……？@　ふっふふふふふふふ……。」@
+;「そうじゃ。@さすれば、姿を消すのを止め、@明日からも私がクラスのいじめられっこを引き受けてやっても良いのじゃぞ……？@　ふっふふふふふふふ……。」@
+`"Exactly. `@`If you do, I won't disappear. `@`I'll gladly continue taking the abuse from the bullies in class starting tomorrow.... understand? `@`Hu huhuhuhuhuhu..."`@
 br
-　葛藤が、頭痛さえも引き起こして由香里を苛む。\
+;　葛藤が、頭痛さえも引き起こして由香里を苛む。\
+`　The chaos even tormented Yukari by giving her a headache.`\
 
 bg black,22
 
@@ -8583,14 +8620,19 @@ bg Different_spiral_1b,22
 
 me1v 17,50
 
-　……いじめなければ、いじめられる。@……それが、学校の摂理だ。@
+;　……いじめなければ、いじめられる。@……それが、学校の摂理だ。@
+`　...If you're not bullied, you're bullying. `@`...That's the school's providence.`@
 br
-　いじめられたくないのに、自分はいじめない。@……そんな自分は、その摂理に逆らった、異端なのかもしれない。\
+;　いじめられたくないのに、自分はいじめない。@……そんな自分は、その摂理に逆らった、異端なのかもしれない。\
+`　Even though I'm not being bullied, I'm not bullying others. `@`...Sinec I go against that providence, I'm probably a heretic.`\
 
-　……もう二度と、いじめられたくなんかない。@……みんなに臭い臭いなんて、嘲笑われたくない……。@
-　それに、……どうせ、大住玲子は妖怪だ。@……いじめたって、彼女が傷付くわけじゃない。@
+;　……もう二度と、いじめられたくなんかない。@……みんなに臭い臭いなんて、嘲笑われたくない……。@
+`　...No, I don't want to be bullied again. `@`...I don't want to be sneered at by everyone as they go 'you stink' 'you stink'...`@
+;　それに、……どうせ、大住玲子は妖怪だ。@……いじめたって、彼女が傷付くわけじゃない。@
+`　At any rate... Reiko Oosumi is a youkai. `@`...It's not like being bullied hurts her at all.`@
 br
-　……………………なら、…………。@…………う…………。\
+;　……………………なら、…………。@…………う…………。\
+`　......Then maybe..... `@`...Uh...`\
 
 bg black,22
 mono 0
@@ -8599,7 +8641,8 @@ lsp2 4,$ld_pass,420,380,200,200,0
 lsp2 5,$ld_pass2,420,380,200,200,0
 print 22
 
-「答えを聞こうぞ。@榊由香里。@まぁ、聞くまでもないが。」\
+;「答えを聞こうぞ。@榊由香里。@まぁ、聞くまでもないが。」\
+`"Let's hear your reply. `@`Yukari Sakaki. `@`Then agani, maybe I don't even have to ask."`\
 
 ld_p SMI_W3
 lsp2 4,$ld_pass,420,380,200,200,0
@@ -8619,11 +8662,13 @@ wait 1000
 
 ld l,YUK_I2a,80
 
-「……お。@…………お断り、します………。」@
+;「……お。@…………お断り、します………。」@
+`"...I. `@`...I, refuse..."`@
 
 ld r,SMI_W4,80
 
-「ふっふふふふふふふふふ…！@　やはり、じゃな。」\
+;「ふっふふふふふふふふふ…！@　やはり、じゃな。」\
+`"Hu huhuhuhuhuhu...! `@`I thought so."`\
 
 ld l,YUK_I3a,80
 
@@ -8631,11 +8676,11 @@ ld l,YUK_I3a,80
 `"Pretending I don't see it just so I don't get bullied, ...or even to add to the harrassment,`@` ...I won't do that.`@` ...That, ...to me, ...is my fight against hazing."`\
 
 ;　言いながらも、もう後悔している……。@
-`　Even while saying it, she's already regretting it...`@`
+`　As she said it, she was already regretting it...`@`
 
 br
 ;　しかし、それがいじめと戦うという言葉を口にした、自分の責任……。\
-`　However, after saying the words 'fighting against hazing,' it was her own responsibility...`\
+`　However, after saying the words 'fighting against bullying,' it was her own responsibility...`\
 
 ;　夕闇のスミレは、それを嘲笑う。@
 `　Sumire of the Twilight jeered.`@`
@@ -8741,22 +8786,28 @@ bg kyou_03,22
 `　Yukari bit her lip and hung her head, ...enduring all 40 people in the class,`@` ...no, including the teacher, 41 in this whirlpool of hazing....`\
 
 ;　玲子ちゃんという、いじめられっこ仲間がいたからこそ、@一緒に戦おうなんて大それたことも言えたのだ。@
-`　
+`　To the one called Reiko, who had been her bullied companion, `@`she had said something as outrageous as let's fight together.`@
 br
-　……しかし、ひとりぼっちのいじめられっこに、一体、何が戦えるというのか。\
+;　……しかし、ひとりぼっちのいじめられっこに、一体、何が戦えるというのか。\
+`　...However, just how can someone fight against being the bullied child all by themselves.`\
 
 bg black,22
 
-　何もない。@
+;　何もない。@
+`　There wasn't one.`@
 br
-　やはり、いじめと戦おうなんて戯言だったんだ。\
+;　やはり、いじめと戦おうなんて戯言だったんだ。\
+`　Of course, to suggest we could fight bullying was nonsense.`\
 
 ;bg kyou_03,22
 
-　玲子ちゃんのお陰でいじめられなくなった私は、きっと心のどこかで驕ってたんだ。@
+;　玲子ちゃんのお陰でいじめられなくなった私は、きっと心のどこかで驕ってたんだ。@
+`　Thanks to Reiko-chan, I hadn't been bullied, so somewhere in my heart I must have felt happy about that.`@
 br
-　いじめなんて、当事者以外から見れば、本当にささやかなもの。@
-　……だから、戦えば何とかなるようなものだと、錯覚してしまったんだ…。\
+;　いじめなんて、当事者以外から見れば、本当にささやかなもの。@
+`　Bullying though, from an outsider's perspective, is truly a minor thing.`@
+;　……だから、戦えば何とかなるようなものだと、錯覚してしまったんだ…。\
+`　...So, being able to somehow fight against it -- that was a delusion...`\
 
 ;bg black,22
 
@@ -8765,9 +8816,11 @@ mono 1
 bg roji_05,0
 ld c,MAR_i3a,22
 
-　でも。@……あの日、毬枝という名の妖怪も、私を守るために戦ってくれた。@
+;　でも。@……あの日、毬枝という名の妖怪も、私を守るために戦ってくれた。@
+`　However, `@`...on that day, even the youkai called Marie fought to protect me.`@
 br
-　スミレという恐ろしい妖怪を相手に、@……こちらが手出し出来ないのをいいことに、あんなに酷いことをされても、@……逃げなかった。\
+;　スミレという恐ろしい妖怪を相手に、@……こちらが手出し出来ないのをいいことに、あんなに酷いことをされても、@……逃げなかった。\
+`　Against that terrifying youkai, Sumire, `@`...being unable to interfere, she even had terrible things done to her, `@`...and she couldn't escape.`\ 
 
 　私など放り出して逃げ出すことも出来たはずなのに、………それをしなかった。@
 br
