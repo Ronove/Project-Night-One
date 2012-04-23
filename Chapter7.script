@@ -8822,11 +8822,14 @@ br
 ;　スミレという恐ろしい妖怪を相手に、@……こちらが手出し出来ないのをいいことに、あんなに酷いことをされても、@……逃げなかった。\
 `　Against that terrifying youkai, Sumire, `@`...being unable to interfere, she even had terrible things done to her, `@`...and she couldn't escape.`\ 
 
-　私など放り出して逃げ出すことも出来たはずなのに、………それをしなかった。@
+;　私など放り出して逃げ出すことも出来たはずなのに、………それをしなかった。@
+`　Even though she could have given up on me and ran away, ...she didn't.`@`
 br
-　あれは戦いじゃない。@毬枝は手出し出来なかったのだから、いじめと同じだ。@
+;　あれは戦いじゃない。@毬枝は手出し出来なかったのだから、いじめと同じだ。@
+`　That isn't a fight.`@` Because Marie could not interfere, the same goes for hazing.`@`
 br
-　そのいじめに、……毬枝は毅然と戦い、……最後まで、逃げなかった。\
+;　そのいじめに、……毬枝は毅然と戦い、……最後まで、逃げなかった。\
+`　In the face of that harassment, ...Marie fought resolutely, ...and didn't run away until the very end.`\
 
 bg black,22
 
@@ -8836,38 +8839,51 @@ bg kyou_01,22
 
 me1v 24,50
 
-「何、俯いてんだよ！@　人の話、聞いてんのかよー！！」@
-「榊さんって、本当にどこかぽーっとしてるわよねぇ。」@
-「お前のカレー臭のせいで、俺たちみんな迷惑してんだよ…！@　その責任、感じてねぇのかよ！」\
+;「何、俯いてんだよ！@　人の話、聞いてんのかよー！！」@
+`"What're you hanging your head for?!`@` Listen when people talk to you-!!"`@`
+;「榊さんって、本当にどこかぽーっとしてるわよねぇ。」@
+`"Oh, I bet Sakaki-san was just off in LaLa Land."`@`
+;「お前のカレー臭のせいで、俺たちみんな迷惑してんだよ…！@　その責任、感じてねぇのかよ！」\
+`"Your damn curry stench is getting on everyone's nerves...!`@` You wanna tell us you don't feel any sense of responsibility for that?!"`\
 
-「何とか言ったらどうなのよー。@あんたのせいで私たち、カレー臭いクラスとか言われたりしちゃうんだからー！」\
+;「何とか言ったらどうなのよー。@あんたのせいで私たち、カレー臭いクラスとか言われたりしちゃうんだからー！」\
+`"What good is it gonna do if you say anything?`@` It's all your fault that people call us the Stinky Curry Class--!"`\
 
-　何も、言い返すことなど、あるわけもない…。@
+;　何も、言い返すことなど、あるわけもない…。@
+`　There's no way I can respond...`@`
 br
-　言い返せば、百倍返しになって返ってくるだけ。@……堪えて無視することだけが、私に出来る唯一の戦い……。\
+;　言い返せば、百倍返しになって返ってくるだけ。@……堪えて無視することだけが、私に出来る唯一の戦い……。\
+`　If I did, I'd just be hit by a response a hundredfold worse.`@` ...Withstanding it and ignoring it, is the only way to fight I have...`\
 
 bg black,22
 
-　でもわかってる。@言い返せば百倍返しだろうが、@言い返さなくったって、五倍、十倍といじめは拡大していく。@
+;　でもわかってる。@言い返せば百倍返しだろうが、@言い返さなくったって、五倍、十倍といじめは拡大していく。@
+`　But I know.`@` If I snap back, I'll receive a hundred fold in return,`@` but even if I don't, it'll still increase by five, maybe ten.`@`
 br
-　何をしてもしなくても、@……いじめのエスカレートを止める方法など、いじめられっこには許されていないのだ……。\
+;　何をしてもしなくても、@……いじめのエスカレートを止める方法など、いじめられっこには許されていないのだ……。\
+`　Damned if I do, damned if I don't,`@` ...there is no way to stop the increase of hazing, and there is no rest for the bullied....`\
 
 fede 1,1000
 E_B
 
 bg kyou_02,22
 
-「何でさ、榊さんっていつになってもカレー臭が抜けないわけぇ？」@
-「服じゃね？@　こいつ、服とか全然洗わねぇからさぁ！」@
-「服が臭いんだよ、服ゥ！」@
-「お前が洗わないならさ、俺たちが洗ってやるよッ。」\
+;「何でさ、榊さんっていつになってもカレー臭が抜けないわけぇ？」@
+`"Why the hell won't that curry stink come off of her?"`@`
+;「服じゃね？@　こいつ、服とか全然洗わねぇからさぁ！」@
+`"You think it's her clothes?`@` I bet this bitch doesn't even wash her clothes!"`@`
+;「服が臭いんだよ、服ゥ！」@
+`"Your clothes reek something fierce!"`@`
+;「お前が洗わないならさ、俺たちが洗ってやるよッ。」\
+`"If you ain't gonna wash them, we'll wash them for you!"`\
 
 ld c,YUK_I1a,22
 ld c,YUK_N1,80
 
 quakex 2,200
 
-「……ぇ、……ちょ、……ちょっと、……何、…………きゃッ、」\
+;「……ぇ、……ちょ、……ちょっと、……何、…………きゃッ、」\
+`"...Wh, ...wa, ...wait, ...what are, ...kyaa...!"`\
 
 bg black,23
 bg kyou_03,23
@@ -8878,25 +8894,33 @@ quakex 3,300
 
 me2v 17,50
 
-「ほらッ、洗ってやるから脱げって…！！@　臭ぇから暴れンじゃねぇよ…！」@
-「やだー、男子、やらしー。@くすくすくす！」@
-「靴下脱がせ、靴下！」@「汚ぇ～！」@「こっち放らないでよ、やだー！」\
+;「ほらッ、洗ってやるから脱げって…！！@　臭ぇから暴れンじゃねぇよ…！」@
+`"Come on, we're washing them for you, so take 'em off...!!`@` It's only 'cause they stink, so stop struggling so much...!"`@`
+;「やだー、男子、やらしー。@くすくすくす！」@
+`"Ewwwww, you boys are so uncouth~`@` Teeheehee!"`@`
+;「靴下脱がせ、靴下！」@「汚ぇ～！」@「こっち放らないでよ、やだー！」\
+`"Take off your socks! Strip 'em!"`@` "Wash them~!"`@` Ewww, don't throw them over here!!"`\
 
 bgm1 10
 
-「や、……やめて……、やめて………、」\
+;「や、……やめて……、やめて………、」\
+`"S, ...stop it..., stop it...."`\
 
 se1v 13,30
 quakey 2,200
 se2v 13,50
 quakex 3,300
 
-「脱ーがーせー！@　脱ーがーせー！！」@
-「洗ってやんだよ、抵抗すんじゃねえ！！」\
+;「脱ーがーせー！@　脱ーがーせー！！」@
+`"Take-It-Off-!`@` Take-It-Off-!!"`@`
+;「洗ってやんだよ、抵抗すんじゃねえ！！」\
+`"Resist all you want, we're gonna wash them!!"`\
 
-　群がる男子たちが、次々に由香里の服を無理やり脱がしては放っていく。@
+;　群がる男子たちが、次々に由香里の服を無理やり脱がしては放っていく。@
+`　The swarming boys stripped Yukari of her clothes one after the other.`@`
 br
-　それを見て、女子たちは黄色い声で囃し立てる。@……誰も、一人の少女が着衣を剥ぎ取られるという蛮行を、止めようとしない。\
+;　それを見て、女子たちは黄色い声で囃し立てる。@……誰も、一人の少女が着衣を剥ぎ取られるという蛮行を、止めようとしない。\
+`　While watching it, the girls jeered in their shrill voices.`@` ...Nobody, went to stop the brutality of a girl having her clothes torn off.`\
 
 bg black,22
 
@@ -8905,13 +8929,17 @@ me3v 5,70
 bg e010,22
 quake 3,300
 
-　乱暴な何本もの腕が、由香里の髪を掴み、服を掴み、ボタンを千切る。@
+;　乱暴な何本もの腕が、由香里の髪を掴み、服を掴み、ボタンを千切る。@
+`　Countless violent arms were ripping at Yukari's hair, tearing off her clothes and ripping off her buttons.`@`
 br
-　肌が露わにされ、……みるみる下着姿にされていく。\
+;　肌が露わにされ、……みるみる下着姿にされていく。\
+`　Her skin was exposed, ...and everyone could see her nearly nude figure.`\
 
-　彼らは誰もそれを、行き過ぎた行為とは思わない。@キャンプファイヤーを囲んでの、ちょっとした悪ふざけ程度にしか思っていない。\
+;　彼らは誰もそれを、行き過ぎた行為とは思わない。@キャンプファイヤーを囲んでの、ちょっとした悪ふざけ程度にしか思っていない。\
+`　None of the boys even once thought they were taking it too far.`@` They only thought it was at the same level as some petty horseplay around a campfire.`\
 
-　……彼らは下着さえ、脱がすつもりだ。@止まることを知らぬ彼らの悪意に、由香里は全身で抵抗するが、@……これほど大勢の男子たちに、抗う術があるわけもない。\
+;　……彼らは下着さえ、脱がすつもりだ。@止まることを知らぬ彼らの悪意に、由香里は全身で抵抗するが、@……これほど大勢の男子たちに、抗う術があるわけもない。\
+`　...They even planned to take off her underwear.`@` Yukari resisted the boys' malice that knew no end with all her might,`@` ...but there was no way she could stand up against such a large crowd of boys.`\
 
 se1v 20,30
 bg black,23
@@ -8921,19 +8949,25 @@ quakey 2,200
 
 me4v 28,70
 
-「脱がせ脱がせっ、丸洗いだー！！」@
-「やめてッ、誰か……、た、……助けて……ッ……、」@
-「「「あははははははは、あっはははははははははははははっはっはっは！！」」」\
+;「脱がせ脱がせっ、丸洗いだー！！」@
+`"Strip, strip, let's wash the whole set~!!"`@`
+;「やめてッ、誰か……、た、……助けて……ッ……、」@
+`"Stop it, somebody..., he, ...help me....!"`@`
+;「「「あははははははは、あっはははははははははははははっはっはっは！！」」」\
+`"""AHAHAHAHAHA, AHAHAHAHAHAHAHAHAHAHAHAHAHA!!"""`\
 
 se3 84
 
 bg black,0
 ld r,SMI_W3,22
 
-　教室の影の中で、スミレはその光景を眺め、邪悪に笑っていた。@
+;　教室の影の中で、スミレはその光景を眺め、邪悪に笑っていた。@
+`　In the shadows of the classroom, Sumire was watching the spectacle and smirked.`@`
 br
-　彼女にとって、彼らが由香里より剥ぎ取っているのは着衣ではない。@……由香里の魂なのだ。@
-　それが、羽毛のように教室に散らばって漂う。\
+;　彼女にとって、彼らが由香里より剥ぎ取っているのは着衣ではない。@……由香里の魂なのだ。@
+`　To her, what the boys were stripping of Yukari were not her clothes.`@` ...It was her soul.`@`
+;　それが、羽毛のように教室に散らばって漂う。\
+`　Her soul scattered and drifted through the classroom like feather down.`\
 
 se1v 22,50
 
@@ -8942,13 +8976,16 @@ ld r,SMI_W3,22
 
 ld r,SMI_W5,80
 
-「……んっふふふふ…。@……美味なのじゃ…。」@
+;「……んっふふふふ…。@……美味なのじゃ…。」@
+`"...Mmhuhuhu....`@`...Simply delectable..."`@`
 br
-　その一欠片を摘んで口にし、……ねっとりとした舌で溶かして味わう。\
+;　その一欠片を摘んで口にし、……ねっとりとした舌で溶かして味わう。\
+`　Plucking one of the fragments and putting it to her mouth, ...she stickily placed it to her tongue and relished it as it dissolved.`\
 
 ld r,SMI_W6,80
 
-「さぁ、どうした由香里よ。@いじめと戦うのではなかったか？@　早くそれを見せて欲しいものじゃ。@ふっふひひひははははははは…！！」\
+;「さぁ、どうした由香里よ。@いじめと戦うのではなかったか？@　早くそれを見せて欲しいものじゃ。@ふっふひひひははははははは…！！」\
+`"What's the matter, Yukari?`@` Weren't you supposed to be fighting against the hazing?`@` I'm simply dying for you to show me.`@` Huhuhehehahahahahahahahahahaha...!!"`\
 
 ;bg black,22
 bg kyou_01,22
@@ -8957,11 +8994,13 @@ se2v 12,30
 se1v 13,50
 quakey 1,100
 
-「止めてッ、……嫌ッ、嫌ぁああああぁあああぁあああッ！！」@
+;「止めてッ、……嫌ッ、嫌ぁああああぁあああぁあああッ！！」@
+`"Stop it, ...no, NooOoOOoOoOooOOOOoOOOOO!!!"`@`
 br
-　あらん限りの力で抵抗し、……由香里はもがきながら男子の輪を掻き分ける。@
-　半裸姿で教室を飛び出して、逃げる。\
-
+;　あらん限りの力で抵抗し、……由香里はもがきながら男子の輪を掻き分ける。@
+`　Struggling with all her might, ...Yukari writhed against the boys and managed to push her way through the ring of boys.`@`
+;　半裸姿で教室を飛び出して、逃げる。\
+`　Half naked, she burst out of the classroom and fled.`\
 se3v 82,100
 
 bg white,63
@@ -8974,16 +9013,19 @@ bg black,23
 bg rouka_03,23
 quakex 1,100
 
-　どこかへ逃げるあてがあるわけでもない。@しかし、逃げ出さねば、……蹂躙される。@
+;　どこかへ逃げるあてがあるわけでもない。@しかし、逃げ出さねば、……蹂躙される。@
+`　There was no place to run to.`@` However, if she did not run away, ...she would be violated.`@`
 br
-　男子たちも廊下に飛び出す。@榊由香里を脱がすという遊びは、今度は彼女を追い掛けるという遊びに変わった。\
+;　男子たちも廊下に飛び出す。@榊由香里を脱がすという遊びは、今度は彼女を追い掛けるという遊びに変わった。\
+`　The boys also burst into the hallway.`@` The fun they'd had stripping Yukari Sakaki had now changed into the fun of chasing her down.`\
 
 bg black,23
 bg rouka_04,23
 
 E_B
 
-「ぁッ、……………きゃあッ？！？！」@
+;「ぁッ、……………きゃあッ？！？！」@
+`"Ah, ....Kyaa?!?!"`@`
 br
 
 ;mbg "BMP\background\efe\red1.bmp",1
@@ -8999,72 +9041,92 @@ se2v 13,30
 fede 0,1000
 E_A
 
-　由香里の短い悲鳴が聞こえた。@
+;　由香里の短い悲鳴が聞こえた。@
+`　They heard her short cry.`@`
 bgm1 14
-　それから、何人かの女子の短い悲鳴。\
+;　それから、何人かの女子の短い悲鳴。\
+`　With that was the cry of countless girls.`\
 
 ld l,SMI_W4,22
 
-「……何だ。@何事なのじゃ。」@
+;「……何だ。@何事なのじゃ。」@
+`"...Hmm.`@` Something's there."`@`
 br
-　男子たちが群がり、階段下を見下ろしている。\
+;　男子たちが群がり、階段下を見下ろしている。\
+`　The boys swarmed and overlooked the staircase.`\
 
 bg black,22
 bg kaidan_02,22
 
 me1v 16,50
 
-　………階段下には、由香里が倒れていた。@
+;　………階段下には、由香里が倒れていた。@
+`　...At the bottom of the stairs, Yukari had collapsed.`@`
 br
-　何かに躓いて、階段下へ転げ落ち、………どうも額を割ったらしい。\
+;　何かに躓いて、階段下へ転げ落ち、………どうも額を割ったらしい。\
+`　Having stumbled over something, she fell down the stairs, ...and somehow seemed to have split her forehead.`\
 
 ;bg black,22
 ;se1 34
 bg blood_1aR,2
 
-　鮮血が、床をゆっくりと染めていく。@
+;　鮮血が、床をゆっくりと染めていく。@
+`　The fresh blood, was slowly coloring the floor.`@`
 br
-　その光景は、悪ふざけに興奮した彼らを正気に戻す程度の力は、あったようだった。\
+;　その光景は、悪ふざけに興奮した彼らを正気に戻す程度の力は、あったようだった。\
+`　That sight seemed to have been powerful enough to return the excited, horseplaying boys back to sanity.`\
 
 bg black,22
 bg kaidan_02,22
 
-　……しかし由香里は、何に躓いたというのか。@何も躓くようなものはなかったのに、……目に見えない何かに、彼女は確かに躓いたのだ。\
+;　……しかし由香里は、何に躓いたというのか。@何も躓くようなものはなかったのに、……目に見えない何かに、彼女は確かに躓いたのだ。\
+`　...But what was it that Yukari had tripped on?`@` Even though there was nothing she could have tripped over, ...but she certainly had tripped over something that couldn't be seen.`\
 
-　朦朧とした意識の中で、……由香里は自分を覗き込む、髪の長い少女の存在に気付く。\
+;　朦朧とした意識の中で、……由香里は自分を覗き込む、髪の長い少女の存在に気付く。\
+`　Yukari peered into her hazy subconsciousness, ...and realized the existence of that long haired girl.`\
 
 mld c,HIG_w3,2
 mld c,HIG_W4,80
 
-「くすくすくすくすくす。@そんなあられもない姿で、階段から転げ落ちて額を割るなんて、@………本当に間抜けな姿ね。」@
+;「くすくすくすくすくす。@そんなあられもない姿で、階段から転げ落ちて額を割るなんて、@………本当に間抜けな姿ね。」@
+`"Teehee, Teeheehee.`@` What an unbecoming pose, falling down the stairs, splitting open your forehead, `@` ....What a truly stupid condition you're in."`@`
 br
-　……見覚えがある。@スミレと一緒にいた、……彼岸花と呼ばれていた妖怪だ。\
-
-「………あなた……ですか……。@……私を……、転ばせた……のは………。」\
-
+;　……見覚えがある。@スミレと一緒にいた、……彼岸花と呼ばれていた妖怪だ。\
+`　...I think I remember her.`@` She was with Sumire, ...the Youkai named Higanbana.`\
+;「………あなた……ですか……。@……私を……、転ばせた……のは………。」\
+`"...Are you...the one...`@` ...That made...me...fall....?"`\
 mld c,HIG_Def4,80
 
-「そうよ。@あなたは本当に美味しそうな魂になってくれたから。@そろそろ摘み食いしてみようかしらと思って。@………くすくすくすくす、私に感謝なさい？@　これであなたは保健室に運ばれる。@わずかなひと時、スミレの子たちのいじめから、逃れることが出来るのだから。」\
+;「そうよ。@あなたは本当に美味しそうな魂になってくれたから。@そろそろ摘み食いしてみようかしらと思って。@………くすくすくすくす、私に感謝なさい？@　これであなたは保健室に運ばれる。@わずかなひと時、スミレの子たちのいじめから、逃れることが出来るのだから。」\
+`"That's right.`@` Because you became such a delicious soul for me.`@` I thought, 'Maybe I should snatch up my food now.'`@` ...Teeheehee, now won't you show me some gratitude?`@` Now you'll be carried to the infirmary.`@` In just a short moment, you'll be able to escape from Sumire's children's harassment."`\
 
-「………私は…、死ぬんですか……。」\
+;「………私は…、死ぬんですか……。」\
+`"...Am I, ...going to die...?"`\
 
 mld c,HIG_def3,80
 
-「死ぬわけないでしょう、ちょっと額を割ったくらいで。@私は殺さない。@自ら死ねば、どれほど楽になれるかと、あなたに囁き掛けるだけ。@くすくすくすくすくすくすくすくす……。」\
+;「死ぬわけないでしょう、ちょっと額を割ったくらいで。@私は殺さない。@自ら死ねば、どれほど楽になれるかと、あなたに囁き掛けるだけ。@くすくすくすくすくすくすくすくす……。」\
+`"There's no way you'll die, with just a little scratch on your forehead.`@` I don't kill.`@` I only suggest how much easier it would be for you if you just took your own life.`@` Teeheehee, teeheehee...."`\
 
 bg black,22
 mld c,HIG_W3,80
 
-　さぁ、あなたを保健室へ連れて行ってあげる。@
-　そこで、いじめから逃れるという、束の間の快楽を知りなさい…？@
+;　さぁ、あなたを保健室へ連れて行ってあげる。@
+`　Come, I shall take you to the infirmary.`@`
+;　そこで、いじめから逃れるという、束の間の快楽を知りなさい…？@
+`　Then, you shall know the pleasures of running away from your bullying for a brief moment...`@`
+
 br
-　そしたらもう、あなたは教室には通えない。\
+;　そしたらもう、あなたは教室には通えない。\
+`　And then, you will not be able to return to your class.`\
 
 mld c,HIG_W4,80
 
-　もうずっとずっと、保健室の住人。@私の虜……。@
+;　もうずっとずっと、保健室の住人。@私の虜……。@
+`　From now on, for all eternity, you shall be an inhabitant of the infirmary.`@` My precious prisoner...`@`
 br
-　くすくすくすくすくすくすくす……。\
+;　くすくすくすくすくすくすくす……。\
+`　Teeheehee, Teeheehee...`\
 
 mcl c,0
 bg black,22
@@ -9074,23 +9136,30 @@ E_MA
 
 bg kaidan_02,22
 
-　由香里の意識が遠退いていく。@
-br
-　先生たちに抱えられて、保健室へ運ばれていく……。\
+;　由香里の意識が遠退いていく。@
+`　Yukari's consciousness began to recede.`@`
 
+br
+;　先生たちに抱えられて、保健室へ運ばれていく……。\
+`　The teachers held her, and started transporting her to the infirmary...`\
 bg black,22
 
-　……私は、……戦わなくちゃ……。@
-　保健室の住人になんか……、ならない……。@
+;　……私は、……戦わなくちゃ……。@
+`　...I have, ...to fight....`@`
+;　保健室の住人になんか……、ならない……。@
+`　I won't be...a 'resident of the infirmary'...or anything like that...`@`
 br
-　私をおいて逃げればいいのに、そうしないで庇い続けてくれた、@……毬枝という妖怪のためにも………。\
+;　私をおいて逃げればいいのに、そうしないで庇い続けてくれた、@……毬枝という妖怪のためにも………。\
+`　I have to do this for the Youkai Marie,`@` ...who, even though it would have been fine for me to run away, told me not to and protected me....`\
 
-　………でも、………このまま、眠るように死ねたら、@もう誰にも苛まれないのにという、黒い誘惑にも耳を貸しそうになる……。\
+;　………でも、………このまま、眠るように死ねたら、@もう誰にも苛まれないのにという、黒い誘惑にも耳を貸しそうになる……。\
+`　...But, ...at this rate, I feel like I may just listen to that dark temptation,`@` that if I die in my sleep, nobody would be able to torment me anymore...`\
 
-　……誰か、…………助けて………………。@
+;　……誰か、…………助けて………………。@
+`　...Somebody, ...help me....`@`
 br
-　……………………………。\
-
+;　……………………………。\
+`　..............`\
 fede 0,2000
 E_A
 
@@ -9098,22 +9167,30 @@ bg kyou_04,2
 
 me1v 5,50
 
-　榊由香里はその後、数日、学校を休むことになる。@
+;　榊由香里はその後、数日、学校を休むことになる。@
+`　For a few days after that, Yukari Sakaki decided to be absent from school.`@`
 br
-　彼女がいじめを恐れ、学校から逃げたのではない。\
+;　彼女がいじめを恐れ、学校から逃げたのではない。\
+`　It wasn't that she was scared of being bullied, and decided to run away from school.`\
+;　階段から落ちた時の傷からばい菌が入ったのか、@……あるいはスミレや彼岸花に魂をかじられたことが原因なのか。@
+`　Whether it was because her wound from when she fell down the stairs got infected,`@` ...or if Sumire or Higanbana had been nibbling at her soul.`@`
 
-　階段から落ちた時の傷からばい菌が入ったのか、@……あるいはスミレや彼岸花に魂をかじられたことが原因なのか。@
-　……高熱で数日間、布団から起き上がることも出来なかった。\
+;　……高熱で数日間、布団から起き上がることも出来なかった。\
+`　...For several days, she had a high fever and was unable to get out of her futon.`\
 
 bg black,22
 
-　……このまま、熱で死ねたらという誘惑が、そんな彼女を毎日、苛む。@
+;　……このまま、熱で死ねたらという誘惑が、そんな彼女を毎日、苛む。@
+`　...Every day, she was tormented by the seductive idea of dying from her fever.`@`
 br
-　そうすればもう、学校に行かなくていい。@いじめられない。\
+;　そうすればもう、学校に行かなくていい。@いじめられない。\
+`　If she did that, she wouldn't have to go to school.`@` She wouldn't be able to be harassed.`\
 
-　……でも、……それでも…………………。@
+;　……でも、……それでも…………………。@
+`　...But, ...but still....`@`
 br
-　………………………………。\
+;　………………………………。\
+`　.............`\
 
 fede 0,2000
 E_A
@@ -9122,12 +9199,15 @@ bg touge_01,2
 
 me1v 30,90
 
-　その日は、バスで移動しての社会科見学だった。@
+;　その日は、バスで移動しての社会科見学だった。@
+`　The next day, the students took the bus to their social studies field trip.`@`
 bgm1 8
 br
-　行き先は、……生徒たちにはどうでもいいことだ。@窮屈な教室を逃れられるなら、それは遠足と何ら変わりはしない。@
+;　行き先は、……生徒たちにはどうでもいいことだ。@窮屈な教室を逃れられるなら、それは遠足と何ら変わりはしない。@
+`　The destination, ...well, the students didn't care.`@` As long as they could escape from the cramped classroom, whatever the outing was didn't change anything.`@`
 br
-　山道を登るバスの車列。@どのバスも、はしゃいで興奮する子供たちの声で溢れていた。\
+;　山道を登るバスの車列。@どのバスも、はしゃいで興奮する子供たちの声で溢れていた。\
+`　The buses were escorted up the mountain path.`@` No matter which bus it was, the excited children's voices overflowed.`\
 
 bg black,22
 
@@ -9135,21 +9215,28 @@ fedexx 70,50,0,0,0,0,1000
 
 bg touge_04,2
 
-　しかし、……由香里のクラスのバスは静かだった。@
+;　しかし、……由香里のクラスのバスは静かだった。@
+`　However, ...Yukari's class's bus was silent.`@`
 br
-　他のバスは笑いに溢れているのに。@………このバスだけは、重苦しい沈黙が張り詰めていた。\
+;　他のバスは笑いに溢れているのに。@………このバスだけは、重苦しい沈黙が張り詰めていた。\
+`　Even though the other buses were flooding with laughter.`@` ...Only this bus was frozen over with an oppressive silence.`\
 
-　眠っているのではない。@
+;　眠っているのではない。@
+`　They were not all sleeping.`@`
 br
-　……みんな、……不快そうに、……不満そうに俯いている。@
-　ある者は突然、奇声をあげるが、@それは不満を示すもので、何かの言葉を告げるものではない。\
+;　……みんな、……不快そうに、……不満そうに俯いている。@
+`　...Everyone, ...was looking downward, ...in displeasure and dissatisfaction.`@`
+;　ある者は突然、奇声をあげるが、@それは不満を示すもので、何かの言葉を告げるものではない。\
+`　(?)
 
 bg black,22
 ;mono 1
 ;bg kyou_01,22
 
-　みんな、………禁断症状なのだ。@
-　榊由香里が休んで、すでに数日。@
+;　みんな、………禁断症状なのだ。@
+`　All of them, ...were in withdrawal.`@`
+;　榊由香里が休んで、すでに数日。@
+`　Yukari Sakaki was resting for days.`@`
 br
 　クラスは全員がいじめっこで、@……誰かをいじめなくては、もはや、一日たりとも我慢できない。\
 　その苛立ちが、彼らの眉間を歪ませ、歯軋りをさせるのだ……。\
