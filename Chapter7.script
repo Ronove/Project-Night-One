@@ -9290,11 +9290,12 @@ br
 ;　禁断の悦楽を覚えた可愛い子たちは来年、クラス替えで学年中に散っていく。@
 `　Her adorable children who remembered those forbidden pleasures would next year be scattered throughout the school when the classes changed.`@`
 ;　……行く先々で咲かすだろう、いじめの花の蜜に、@今からスミレの喉がごくりと鳴る…。\
-`　...
+`　...They'd likely bloom in all of their destinations, where from then on Sumire`@` would gulp all of the honey from their flowers of hazing...`\
 
 ld r,SMI_W3,80
 
-「……うふふふふふふふ。@私の花で学校はいっぱいになる……！@　愉快痛快、気分爽快なのじゃ…！！」\
+;「……うふふふふふふふ。@私の花で学校はいっぱいになる……！@　愉快痛快、気分爽快なのじゃ…！！」\
+`"...Ufufufufufu.`@` My flowers will fill this whole school....!`@` How intensely pleasurable and exciting...!!"`\
 
 ld r,SMI_W6,22
 cl r,2
@@ -9307,31 +9308,42 @@ E_B
 ;bg black,22
 ;bg touge_04,22
 
-「尾崎くんもイジメよーぜー？@　また昔みたいにさー。」@
-「そうそう。@一時、調子崩してたけどさ。@また、昔みたいに面白いことやってよ…！」@
-「……………………………。」\
+;「尾崎くんもイジメよーぜー？@　また昔みたいにさー。」@
+`"Ozaki-kun, can't you come play with us too?`@` You know, the way we used to."`@`
+;「そうそう。@一時、調子崩してたけどさ。@また、昔みたいに面白いことやってよ…！」@
+`"Hell yeah.`@` I know you were totally crushed that one time.`@` But let's do something fun again, just like old times...!"`@`
+;「……………………………。」\
+`"........."`\
 
-　かつて執拗にいじめていた尾崎は、……めそめそさんに脅され、二度と榊由香里をいじめないと誓った……。@
+;　かつて執拗にいじめていた尾崎は、……めそめそさんに脅され、二度と榊由香里をいじめないと誓った……。@
+`　The formerly obstinate bully Ozaki, ...had been threatened by MesoMeso-san, and haad sworn he'd never pick on Yukari Sakaki again...`@`
 br
-　しかし、彼の眼はぎょろりと邪悪に歪む。@そしてニヤリと笑うのだ。\
+;　しかし、彼の眼はぎょろりと邪悪に歪む。@そしてニヤリと笑うのだ。\
+`　However, his eyes warped into a wicked stare.`@` He broadly sneered.`\
 
 bg black,22
 bg e010,22
 
 me2v 17,50
 
-「……そうだよな。@……何がめそめそさんだ。@あんなの、何かの勘違いに決まってる……。@おっしゃあッ！！@　榊が帰って来たらよ、久しぶりにたっぷりとご馳走してやろうぜ…！」@
-「尾崎くんのスペシャルメニュー？」@
-「今度は何をやるの？！」\
+;「……そうだよな。@……何がめそめそさんだ。@あんなの、何かの勘違いに決まってる……。@おっしゃあッ！！@　榊が帰って来たらよ、久しぶりにたっぷりとご馳走してやろうぜ…！」@
+`"...You're right.`@` ...The hell is MesoMeso-san anyway.`@` That had to be some sorta big misunderstanding....`@` Alriiiiiight!!!`@` If Sakaki comes back, we'll give her a feast she'll never forget, just like old times...!"`@`
+;「尾崎くんのスペシャルメニュー？」@
+`"Off of Ozaki-kun's special menu~?"`@`
+;「今度は何をやるの？！」\
+`"What are we gonna do this time?!"`\
 
-「机の中のゴキブリ、全部磨り潰してカレーに入れて食わしてやるか！@　カレー臭いマン榊にはピッタリだろ！@　これからはゴキブリカレーマンだッ！！」\
+;「机の中のゴキブリ、全部磨り潰してカレーに入れて食わしてやるか！@　カレー臭いマン榊にはピッタリだろ！@　これからはゴキブリカレーマンだッ！！」\
+`"We'll put cockroaches in her desk, smash them all up, put 'em in curry and make her eat it!`@` It's perfect for Stinky-Curry Man Sakaki!`@` From now on she'll be Cockroach-Curry-Man!!"`\
 
 ld r,SMI_W3,22
 quake 2,200
 
-「「「そいつはいいやッ！！@　えー、やだー！@　くすくす、わははははははははげらげらげらげら！！」」」@
+;「「「そいつはいいやッ！！@　えー、やだー！@　くすくす、わははははははははげらげらげらげら！！」」」@
+`"""Hell yeah!!`@` Ewww, that's gross~!`@` Teehee, Wahahahaahahahaa, AHAHAHAHAHAHA!!!"""`@`
 br
-　スミレも混じってバスは大笑いに包まれる……。\
+;　スミレも混じってバスは大笑いに包まれる……。\
+`　Sumire blended in with the bus as it was wrapped in rowdy laughter.....`\
 
 E_A
 
@@ -9342,15 +9354,18 @@ se1 33
 quakey 1,100
 quakex 3,300
 
-　その時、突然バスが大きくガクンと揺れた。@
+;　その時、突然バスが大きくガクンと揺れた。@
+`　But just then, the bus suddenly jerked and shook.`@`
 me1v 28,70
 br
-　運転手が大声で叫んで、乱暴にハンドルを切る。@バスは大きく振り回され、車内は悲鳴に包まれる。\
+;　運転手が大声で叫んで、乱暴にハンドルを切る。@バスは大きく振り回され、車内は悲鳴に包まれる。\
+`　The driver screamed and violently turned the wheel.`@` The bus swung vigorously, and the inside of it was filled with screams.`\
 
 ;bg black,22
 bg touge_01,22
 
-　……バスの運転手は確かに見たのだ。@
+;　……バスの運転手は確かに見たのだ。@
+`　...The bus driver swore he saw it.`@`
 br
 
 ld r,HIG_W3,80
@@ -9358,8 +9373,10 @@ ld r,HIG_W3,80
 
 bg black,22
 
-　突然、……赤い服を着た少女が、道路の真ん中に現れたのだ。@
-　その瞬間、タイヤが破裂して、バスは大きくうねった。\
+;　突然、……赤い服を着た少女が、道路の真ん中に現れたのだ。@
+`　Out of the blue, ...a girl wearing red clothes appeared in the middle of the road.`@`
+;　その瞬間、タイヤが破裂して、バスは大きくうねった。\
+`　In that split second, the tires exploded, and gave a huge rumble.`\
 
 se1v 66,100
 
@@ -9400,32 +9417,39 @@ se3v 13,30
 
 quakey 1,300
 
-　バスの巨体が横転し、ガードレールを越える。@
+;　バスの巨体が横転し、ガードレールを越える。@
+`　The bus' large build turned it sideways and it crashed through the guard rail.`@`
 br
-　道は深い山林のハイウェイ。@ガードレールの向こうは、深緑の深い谷……。\
-
+;　道は深い山林のハイウェイ。@ガードレールの向こうは、深緑の深い谷……。\
+`　The road was a highway deep in the woods of a mountain.`@` Past the guardrail was a dark, green, and thick valley...`\
 
 ld r,SMI_i1,26
 ld r,SMI_def7,80
 
-「……な、………何なのじゃ？！@　い、………一体、これは………、」@
+;「……な、………何なのじゃ？！@　い、………一体、これは………、」@
+`"...Wh, ...what is this?!`@` Wh, ....what the hell....."`@`
 br
-　スミレは呆然としながら、@谷底へ転げ落ち、ぺしゃんこになって煙をもうもうと噴き上げる潰れた車体を見下ろす。@
-　……この高さを転げ落ちたのだ。@誰も助かるまい……。\
+;　スミレは呆然としながら、@谷底へ転げ落ち、ぺしゃんこになって煙をもうもうと噴き上げる潰れた車体を見下ろす。@
+`　Sumire stared dumbfoundedly,`@` as the bus tumbled down to the bottom of the valley, and she looked down at the flattened frame of the bus as it blew clouds of smoke upwards.`@`
+;　……この高さを転げ落ちたのだ。@誰も助かるまい……。\
+`　...It fell from this height.`@` There's no way to save anyone....`\
 
 ld r,SMI_I1,80
 
-「わ、……私の育てた花たちが……、……な、何ということじゃ……、何ということじゃ………。」\
+;「わ、……私の育てた花たちが……、……な、何ということじゃ……、何ということじゃ………。」\
+`"M, ...My beautiful flowers..., ...wh, what happened..., what happened to you....?"`\
 
 ;bg black,22
 
 E_A
 
-「くす。@……くすくすくすくすくすくすくすくす……。」\
+;「くす。@……くすくすくすくすくすくすくすくす……。」\
+`"Teehee.`@` ...Teeheeheeheehee..."`\
 
 ld r,SMI_I2,80
 
-　その聞き覚えのある笑い声に、スミレははっとして振り返る。\
+;　その聞き覚えのある笑い声に、スミレははっとして振り返る。\
+`　At the sound of that memorable laugh, Sumire whirled around.`\
 
 bg black,23
 bg touge_01,23
@@ -9433,80 +9457,99 @@ mld l,HIG_w3,22
 
 bgm1 6
 
-　そこには、ガードレールに腰掛けて、風に髪を任せる彼岸花の姿があった。\
+;　そこには、ガードレールに腰掛けて、風に髪を任せる彼岸花の姿があった。\
+`　There, sitting on the guard rail, was Higanbana, with her hair fluttering in the wind.`\
 
 mld r,SMI_I1,24
 
-「……これは、………な、何の真似というのか…！@　わ、私が手塩をかけた、可愛い可愛いいじめの花たちを……！！」\
+;「……これは、………な、何の真似というのか…！@　わ、私が手塩をかけた、可愛い可愛いいじめの花たちを……！！」\
+`"...This, ...what do you think you're doing...!`@` What did you do to my lovingly seasoned, wonderful, adorable flowers...!!!"`\
 
 mld l,HIG_W4,80
 
-「ご馳走様。@それを横から掻っ攫うのも、たまには乙なものね。@くすくすくすくす……。」\
+;「ご馳走様。@それを横から掻っ攫うのも、たまには乙なものね。@くすくすくすくす……。」\
+`"Thanks for the meal.`@` I guess snatching one up from the sidelines can be tasty as well.`@` Teeheeheehee..."`\
 
 mld r,SMI_I2,80
 
-「な、何故に、……こ、このようなことを……、お、……おのれぇえぇ……。」\
+;「な、何故に、……こ、このようなことを……、お、……おのれぇえぇ……。」\
+`"Wh, why, ...would you do something like this...y, ...you biiiitch...."`\
 
 mcl l,0
 mld c,HIG_def4,23
 
-「だって、私たちは学校妖怪でしょう？@　スミレちゃんが言ったわ。@狩りをするも自由。@邪魔をするのも自由、って。@ならもちろん、横取りをするのだって自由だわ。@くすくす、くっすくすくすくすくすくすくす…！！」\
+;「だって、私たちは学校妖怪でしょう？@　スミレちゃんが言ったわ。@狩りをするも自由。@邪魔をするのも自由、って。@ならもちろん、横取りをするのだって自由だわ。@くすくす、くっすくすくすくすくすくすくす…！！」\
+`"Well, we're School Youkai aren't we?`@` You said it yourself.`@` We have the freedom to hunt when we want.`@` But we also have the freedom to get in the way if we want too, right?`@` So then of course, we have the freedom to steal from the side too.`@` Teeheehee, Teeheeeheheheheheeeheeehee....!!"`\
 
 mld r,SMI_I1,80
 
-「ひ、彼岸花ぁああぁあぁぁ、お、おのれぇええぇえぇえぇえぇ…！！！」\
+;「ひ、彼岸花ぁああぁあぁぁ、お、おのれぇええぇえぇえぇえぇ…！！！」\
+`"Hi, HiganbanaAaAAaaA, You BiIiiIIiiIiIiITcH....!!!"`\
 
 bg black,22
 mld c,HIG_W6,80
 
 me1v 16,50
 
-「そしてもちろん。@文句があるなら言うのだって自由だわ。@…………踊る？@　この、学校妖怪序列第３位の、踊る彼岸花と一緒に。@……スミレちゃんとは、ずいぶん長く遊んでないじゃない。@……どう？@　久しぶりに少し、……踊ってみないかしら…？@　くすくすくすくすくすくすくすくすくすくす…！！」\
+;「そしてもちろん。@文句があるなら言うのだって自由だわ。@…………踊る？@　この、学校妖怪序列第３位の、踊る彼岸花と一緒に。@……スミレちゃんとは、ずいぶん長く遊んでないじゃない。@……どう？@　久しぶりに少し、……踊ってみないかしら…？@　くすくすくすくすくすくすくすくすくすくす…！！」\
+`"And of course.`@` If you have any complaints you're free to talk about them too.`@` ....Won't you dance?`@` You can dance with the 3rd Ranking School Youkai, the Dancing Higanbana.`@` ...If I recall correctly, you like to play for a long time.`@` ...So how aout it?`@` Won't you come and dance with me, ...after all thhis time...?`@` Teeheeheeheeheeheeheeheehee...!!"`\
 
 mcl r,0
 ld l,SMI_I2,24
 
-　スミレは怒りに震えながら俯くが、……何も言い返しはしない。@
+;　スミレは怒りに震えながら俯くが、……何も言い返しはしない。@
+`　Sumire hung her head and shook with rage, ...but did not say anything back.`@`
 br
-　踊る彼岸花という、気紛れなる性質の悪い妖怪に、@自分の狩りを見つかり、美味しいところだけを攫われてしまった。@……それ以上でも以下でもない。\
+;　踊る彼岸花という、気紛れなる性質の悪い妖怪に、@自分の狩りを見つかり、美味しいところだけを攫われてしまった。@……それ以上でも以下でもない。\
+`　The Dancing Higanbana, a Youkai known for her uneven temper,`@` simply found her prey, and ran off with it at the tastiest moment.`@` ...Nothing more and nothing less.`\
 
 ;mld r,SMI_I3,80
 
-　狩りの規模を大きくすれば、他の妖怪の目にも留まりやすくなる。@……この狩りは、身の丈に合わないものだったのか……。\
+;　狩りの規模を大きくすれば、他の妖怪の目にも留まりやすくなる。@……この狩りは、身の丈に合わないものだったのか……。\
+`　If your plan for your hunt gets too big, it makes it easy for other Youkai to catch a glimpse of it.`@` ...This prey must not have met with my stature...`\
 
 bg touge_01,0
 ld l,SMI_I2,22
 
 ld l,SMI_I1,80
 
-「………次の機会には、今度は私がそちの獲物を横取りするのじゃ…。@……覚えておれいっ。」\
+;「………次の機会には、今度は私がそちの獲物を横取りするのじゃ…。@……覚えておれいっ。」\
+`"...Next chance I get, I'll be the one stealing your prey...`@` ...Just you wait."`\
 
 ;mcl r,2
 
 mcl c,0
 ld r,HIG_W4,23
 
-「またね。@また夜の学校で会いましょう？@　くすくすくすくすくす。」@
+;「またね。@また夜の学校で会いましょう？@　くすくすくすくすくす。」@
+`"See you again.`@` Let's meet in the moonlight of the school.`@` Teeheeheehee."`@`
 br
-　スミレは地団駄を踏みながら姿を消す。\
+;　スミレは地団駄を踏みながら姿を消す。\
+`　Sumire stamped her feet in frustration and disappeared.`\
 
 cl l,22
 bg black,2
 
 bg touge_02,22
 
-　眼下では、潰れたバスから運転手が這い出すのが見える。@……様子を見る限り、他の生存者はいないようだった。\
+;　眼下では、潰れたバスから運転手が這い出すのが見える。@……様子を見る限り、他の生存者はいないようだった。\
+`　Down below, the bus driver crawled out from under the wreckage.`@` ...If someone were just checking the state of things, it would've looked like there were no survivors.`\
 
-　彼岸花は、一クラス丸ごとを喰らったのだ。@
+;　彼岸花は、一クラス丸ごとを喰らったのだ。@
+`　Higanbana ate the entirety of one class.`@`
 br
-　いじめの快楽に溺れ、魂を闇に沈めた愚かで憐れな生徒たちを丸ごと、綺麗さっぱり。\
+;　いじめの快楽に溺れ、魂を闇に沈めた愚かで憐れな生徒たちを丸ごと、綺麗さっぱり。\
+`　The souls of those pitiful students that drowned in the pleasure of hazing and sunk into the darkness, were eaten once and for all.`\
 
 ;bg black,22
 ;bg touge_02,22
 
-　運転手が車道に這い上がった時、そこには誰の姿もない。@
+;　運転手が車道に這い上がった時、そこには誰の姿もない。@
+`　When the driver crept up to the roadway, there was nobody around.`@`
+
 br
-　かすかに、残忍なる学校妖怪の笑い声が、風に混じって聞こえるだけだった……。\
+;　かすかに、残忍なる学校妖怪の笑い声が、風に混じって聞こえるだけだった……。\
+`　But in the distance, he could hear the cruel laughter of the school Youkai fading in the wind...`\
 
 bg black,2
 
@@ -9517,31 +9560,42 @@ bg shokuin_01,22
 
 bgm1 4
 
-　………私はその事故のことを、学校からの電話で知った。@
+;　………私はその事故のことを、学校からの電話で知った。@
+`　...I heard about the accident through a phone call from school.`@`
 br
-　熱も下がり、明日からはもう学校へ行ける。@……学校では、みんなが私をいじめようと待ち構えているだろう……、@そんな時に、電話を受けた。\
+;　熱も下がり、明日からはもう学校へ行ける。@……学校では、みんなが私をいじめようと待ち構えているだろう……、@そんな時に、電話を受けた。\
+`　My fever had gone down, and I would be able to go to school.`@` ...At school, everyone was waiting to pick on me...`@` And then, the phone rang.`\
 
-　先生も含め、……私以外のクラス全員が、死んでしまったという。@
-　もちろん、ショックは大きかった。@
+;　先生も含め、……私以外のクラス全員が、死んでしまったという。@
+`　Even the teacher was there, ...everyone in the class but me was dead.`@`
+;　もちろん、ショックは大きかった。@
+`　Of course I was shocked.`@`
 br
-　……でも、……これでもう、いじめられないという安堵があったことは、……否定できない。\
+;　……でも、……これでもう、いじめられないという安堵があったことは、……否定できない。\
+`　...But, ...the fact that I was relieved that I wouldn't be bullied anymore, ...was undeniable.`\
 
 bg black,22
 bg shoukou_01,0
 ld c,YUK_Def3,22
 
-　………私は、……いじめと、戦えただろうか。@
+;　………私は、……いじめと、戦えただろうか。@
+`　...Wasn't I, ...fighting against that?`@`
 br
-　…………………。\
+;　…………………。\
+`　.........`\
 
 ;ld c,YUK_Def4,80
 
-　何も、……戦っていない。@
+;　何も、……戦っていない。@
+`　I, ...didn't fight.`@`
 br
-　ただ、いじめられるがままにいじめられ。@
-　偶然の転校生に救われ、妖怪によって再びいじめられ、@……そして事故によって、再び救われた。\
+;　ただ、いじめられるがままにいじめられ。@
+`　I just continued letting myself be bullied as I was told.`@`
+;　偶然の転校生に救われ、妖怪によって再びいじめられ、@……そして事故によって、再び救われた。\
+`　I was unexpectedly saved by an exchange student, and then harassed by Youkai, `@`...then I was saved again by this accident.`\
 
-　私は何も、戦ってなんかいない。@……ただ、偶然と何かの思惑に翻弄されたに過ぎない……。@
+;　私は何も、戦ってなんかいない。@……ただ、偶然と何かの思惑に翻弄されたに過ぎない……。@
+`　I didn't fight at all.`@` ...
 br
 　……いじめと戦う。@……私は何と大それたことを口にしたんだろう。\
 
