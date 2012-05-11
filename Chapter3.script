@@ -198,12 +198,12 @@ br
 `　That delight was in regards that she had new gossip to offer Princess Midori.`@
 br
 ;　でも、これは実はみどりのサービス。@
-`　But this was a service from Midori.`@
+`　But this was Midori's service to them.`@
 ;　本当はアニメ化されることはもう、本で読んで知ってる。@初耳を装ってあげたら、フミエが喜んでくれるかなと思って、そう言ったのだ。\
-`　Truthfully she had already read that an anime version was being made. `@`By pretending that she hadn't heard about it before, she was letting Fumie feel happy.`\
+`　The truth was she had already read that an anime version was being made. `@`But by pretending that she hadn't heard about it before, she was letting Fumie feel happy.`\
 
 ;　彼女も、ただちやほやされてるわけではない。@自分に好意を寄せてくれる人たちに、少しでも喜んでもらおうと、@ささやかな気遣いを忘れないようにしている。\
-`　(?) It wasn't as if she was just be favored by them. `@`By spreading a bit of good will to those around her, `@`she was being modestly considerate of others.`\
+`　It wasn't as if she was fussing over them either. `@`By spreading a bit of happiness to those around her, `@`she was being modestly considerate of others.`\
 
 ;　フミエは嬉しそうに、聞いてもないアニメ化情報を次々に説明し出す。@
 `　Fumie was happily giving explanation after explanation about the anime version they hadn't heard about.`@
@@ -236,7 +236,7 @@ br
 `　Midori Kusunoki. `@`The girl called princess who every girl in the class yearned after.`@
 br
 ;　彼女は何の不足もなく、満ち足りた学校生活を送っていた……。\
-`　Without any insecurities, she lived a completely satisfying school life...`\
+`　Without any worries, she lived a completely satisfying school life...`\
 
 bg black,22
 
@@ -2258,7 +2258,7 @@ ld l,MID_Def2,22
 `"N-no, I'm fine. `@`I'm think I'm just the type who feels pain when I get nervous or wear myself out......"` `@`
 br
 ;　それを友達が大袈裟がっちゃって。@……大騒ぎしちゃってすみませんでしたと、みどりは謝る。\
-`(?)　Her friends made a big deal about that. `@`......Midori apologized, saying she was sorry for causing the commotion.`\
+` Her friends made a big deal about that. `@`......Midori apologized, saying she was sorry for causing the commotion.`\
 
 bg black,22
 
@@ -2401,7 +2401,7 @@ br
 ;　薬品棚の物陰から、恐る恐る毬枝が顔を覗かせる……。\
 `　From the cover of medicine shelf, Marie timidly peeked her face......`\
 ;　その手には、職員室かどこかからちょろまかしてきた、栗饅頭が握られている。@
-`　(?)Perhaps taken from the staff room or elsewhere, in her hand she gripped a chestnut steamed bun.`@
+`　Perhaps taken from the staff room or elsewhere, in her hand she gripped a chestnut steamed bun.`@
 br
 ;　……美味しそうなお茶菓子を見つけたので、彼岸花にお裾分けを持ってきたのだ。\
 `　......Since she found a delicious teacake, she brought it to share with Higanbana.`\
@@ -2774,7 +2774,7 @@ bg black,22
 bg Air_01,22
 
 ;　部活を終えて家に帰る頃にはいつも夜。@夕食もそこそこに済ませると、ベッドに倒れ込み泥の様に眠ってしまう。@それの繰り返しだった。@
-`(?)　It was always night by the time the club ended and she went home.`@` She had to finish her dinner in a hurry, splattered into bed like mud and slept.`@` It was that sort of cycle.`@`
+`It was always night by the time the club ended and she went home.`@` Then she would finish her dinner in a hurry tumble into her bed and sleep like a rock.`@` It was that sort of cycle.`@`
 br
 ;　体力的には辛いけれど、……最高に充実した日々だった。\
 `　It was difficult on the body, ...but day after day was supremely productive.`\
@@ -3706,7 +3706,7 @@ ld c,MAR_i3,80
 ld l,SIN_Def3,80
 
 ;「……しかし、みどりさんという素晴らしき茶葉をここで譲るには余りに惜しい。」@
-`(?)"...However, I think giving up Midori-san, who makes such brilliant tea leaves, right here would be truly regrettable."`@`
+`"...However, I think giving up the brilliant tea leaves that make up Midori-san right here would be most regrettable."`@`
 
 cl c,0
 ld r,MAR_i4,23

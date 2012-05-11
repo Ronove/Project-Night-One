@@ -13,7 +13,7 @@
    bg black,4
 
    ;Dataset
-   mov %EN_glossary_page_max,4 ;Number of total pages
+   mov %EN_glossary_page_max,1 ;Number of total pages
    mov %EN_glossary_page_view,1 ;Page at which the glossary opens at/current page
    mov %EN_glossary_current_hint,0 ;Current hint displayed
 
@@ -27,7 +27,7 @@
   ;Basic View button image
   mov %Free4,410
   lsp 890,":c;bmp\r_click\r_back.bmp",-0,100,40 ;Background image
-  lsp 850,":c;bmp\r_click\text\txt_def.bmp",315,29 ;Notebook image
+  ;lsp 850,":c;bmp\r_click\text\txt_def.bmp",315,29 ;Notebook image
   lsp 101,":a/2,0,3;bmp\r_click\btn\Left.BMP",330,%Free4 -10 ;To the previous image^101
   lsp 102,":a/2,0,3;bmp\r_click\btn\Right.BMP",400,%Free4 -10 ;To the next image^102
   lsp rmenu_btn_Exit,":a/2,0,3;bmp\r_click\btn\exit.BMP",480,%Free4 + 20,230 ;Exit
@@ -102,37 +102,7 @@ return
   mov %Free6,42 ;dY between two buttons
  
 notif %EN_glossary_page_view = 1 jumpf
-	lsp EN_hint_button_0,":a/2,0,3;bmp\r_click\r_btn_system.bmp", %Free4, %Free5 : add %Free5, %Free6
-	lsp EN_hint_button_1,":a/2,0,3;bmp\r_click\r_btn_clear.bmp", %Free4, %Free5 : add %Free5, %Free6
-	lsp EN_hint_button_2,":a/2,0,3;bmp\r_click\r_btn_system.bmp", %Free4, %Free5 : add %Free5, %Free6
-	lsp EN_hint_button_3,":a/2,0,3;bmp\r_click\r_btn_system.bmp", %Free4, %Free5 : add %Free5, %Free6
-	lsp EN_hint_button_4,":a/2,0,3;bmp\r_click\r_btn_system.bmp", %Free4, %Free5 : add %Free5, %Free6
-	lsp EN_hint_button_5,":a/2,0,3;bmp\r_click\r_btn_clear.bmp", %Free4, %Free5 : add %Free5, %Free6
-	lsp EN_hint_button_6,":a/2,0,3;bmp\r_click\r_btn_system.bmp", %Free4, %Free5 : add %Free5, %Free6
-	lsp EN_hint_button_7,":a/2,0,3;bmp\r_click\r_btn_system.bmp", %Free4, %Free5 : add %Free5, %Free6
-~
-notif %EN_glossary_page_view = 2 jumpf
-	lsp EN_hint_button_0,":a/2,0,3;bmp\r_click\r_btn_system.bmp", %Free4, %Free5 : add %Free5, %Free6
-	lsp EN_hint_button_1,":a/2,0,3;bmp\r_click\r_btn_system.bmp", %Free4, %Free5 : add %Free5, %Free6
-	lsp EN_hint_button_2,":a/2,0,3;bmp\r_click\r_btn_system.bmp", %Free4, %Free5 : add %Free5, %Free6
-	lsp EN_hint_button_3,":a/2,0,3;bmp\r_click\r_btn_system.bmp", %Free4, %Free5 : add %Free5, %Free6
-	lsp EN_hint_button_4,":a/2,0,3;bmp\r_click\r_btn_system.bmp", %Free4, %Free5 : add %Free5, %Free6
-	lsp EN_hint_button_5,":a/2,0,3;bmp\r_click\r_btn_system.bmp", %Free4, %Free5 : add %Free5, %Free6
-	lsp EN_hint_button_6,":a/2,0,3;bmp\r_click\r_btn_system.bmp", %Free4, %Free5 : add %Free5, %Free6
-	lsp EN_hint_button_7,":a/2,0,3;bmp\r_click\r_btn_clear.bmp", %Free4, %Free5 : add %Free5, %Free6
-~
-notif %EN_glossary_page_view = 3 jumpf
-	lsp EN_hint_button_0,":a/2,0,3;bmp\r_click\r_btn_system.bmp", %Free4, %Free5 : add %Free5, %Free6
-	lsp EN_hint_button_1,":a/2,0,3;bmp\r_click\r_btn_system.bmp", %Free4, %Free5 : add %Free5, %Free6
-	lsp EN_hint_button_2,":a/2,0,3;bmp\r_click\r_btn_system.bmp", %Free4, %Free5 : add %Free5, %Free6
-	lsp EN_hint_button_3,":a/2,0,3;bmp\r_click\r_btn_system.bmp", %Free4, %Free5 : add %Free5, %Free6
-	lsp EN_hint_button_4,":a/2,0,3;bmp\r_click\r_btn_system.bmp", %Free4, %Free5 : add %Free5, %Free6
-	lsp EN_hint_button_5,":a/2,0,3;bmp\r_click\r_btn_clear.bmp", %Free4, %Free5 : add %Free5, %Free6
-	lsp EN_hint_button_6,":a/2,0,3;bmp\r_click\r_btn_system.bmp", %Free4, %Free5 : add %Free5, %Free6
-	lsp EN_hint_button_7,":a/2,0,3;bmp\r_click\r_btn_system.bmp", %Free4, %Free5 : add %Free5, %Free6
-~
-notif %EN_glossary_page_view = 4 jumpf
-	lsp EN_hint_button_0,":a/2,0,3;bmp\r_click\r_btn_system.bmp", %Free4, %Free5 : add %Free5, %Free6
+	lsp EN_hint_button_0,":a/2,0,3;bmp\glos_btn\output0.bmp", %Free4, %Free5 : add %Free5, %Free6
 	lsp EN_hint_button_1,":a/2,0,3;", %Free4, %Free5 : add %Free5, %Free6
 	lsp EN_hint_button_2,":a/2,0,3;", %Free4, %Free5 : add %Free5, %Free6
 	lsp EN_hint_button_3,":a/2,0,3;", %Free4, %Free5 : add %Free5, %Free6
@@ -155,79 +125,7 @@ return
   mov %Free3,50 ;Y coordinate of text
 
 notif %EN_glossary_page view = 1 && %EN_glossary_current_hint = 0 jumpf
-	lsp rmenu_back, ":a;bmp\r_click\text\cha\ham_1.bmp",%Free2,%Free3
-~
-notif %EN_glossary_page view = 1 && %EN_glossary_current_hint = 1 jumpf
-	lsp rmenu_back, ":a;bmp\r_click\text\cha\ham_1.bmp",%Free2,%Free3
-~
-notif %EN_glossary_page view = 1 && %EN_glossary_current_hint = 2 jumpf
-	lsp rmenu_back, ":a;bmp\r_click\text\cha\hig_1.bmp",%Free2,%Free3
-~
-notif %EN_glossary_page view = 1 && %EN_glossary_current_hint = 3 jumpf
-	lsp rmenu_back, ":a;bmp\r_click\text\cha\ham_1.bmp",%Free2,%Free3
-~
-notif %EN_glossary_page view = 1 && %EN_glossary_current_hint = 4 jumpf
-	lsp rmenu_back, ":a;bmp\r_click\text\cha\hig_1.bmp",%Free2,%Free3
-~
-notif %EN_glossary_page view = 1 && %EN_glossary_current_hint = 5 jumpf
-	lsp rmenu_back, ":a;bmp\r_click\text\cha\ham_1.bmp",%Free2,%Free3
-~
-notif %EN_glossary_page view = 1 && %EN_glossary_current_hint = 6 jumpf
-	lsp rmenu_back, ":a;bmp\r_click\text\cha\hok_1.bmp",%Free2,%Free3
-~
-notif %EN_glossary_page view = 1 && %EN_glossary_current_hint = 7 jumpf
-	lsp rmenu_back, ":a;bmp\r_click\text\cha\hig_1.bmp",%Free2,%Free3
-~
-notif %EN_glossary_page view = 2 && %EN_glossary_current_hint = 0 jumpf
-	lsp rmenu_back, ":a;bmp\r_click\text\cha\ham_1.bmp",%Free2,%Free3
-~
-notif %EN_glossary_page view = 2 && %EN_glossary_current_hint = 1 jumpf
-	lsp rmenu_back, ":a;bmp\r_click\text\cha\hig_1.bmp",%Free2,%Free3
-~
-notif %EN_glossary_page view = 2 && %EN_glossary_current_hint = 2 jumpf
-	lsp rmenu_back, ":a;bmp\r_click\text\cha\ham_1.bmp",%Free2,%Free3
-~
-notif %EN_glossary_page view = 2 && %EN_glossary_current_hint = 3 jumpf
-	lsp rmenu_back, ":a;bmp\r_click\text\cha\hok_1.bmp",%Free2,%Free3
-~
-notif %EN_glossary_page view = 2 && %EN_glossary_current_hint = 4 jumpf
-	lsp rmenu_back, ":a;bmp\r_click\text\cha\hig_1.bmp",%Free2,%Free3
-~
-notif %EN_glossary_page view = 2 && %EN_glossary_current_hint = 5 jumpf
-	lsp rmenu_back, ":a;bmp\r_click\text\cha\ham_1.bmp",%Free2,%Free3
-~
-notif %EN_glossary_page view = 2 && %EN_glossary_current_hint = 6 jumpf
-	lsp rmenu_back, ":a;bmp\r_click\text\cha\hig_1.bmp",%Free2,%Free3
-~
-notif %EN_glossary_page view = 2 && %EN_glossary_current_hint = 7 jumpf
-	lsp rmenu_back, ":a;bmp\r_click\text\cha\ham_1.bmp",%Free2,%Free3
-~
-notif %EN_glossary_page view = 3 && %EN_glossary_current_hint = 0 jumpf
-	lsp rmenu_back, ":a;bmp\r_click\text\cha\hok_1.bmp",%Free2,%Free3
-~
-notif %EN_glossary_page view = 3 && %EN_glossary_current_hint = 1 jumpf
-	lsp rmenu_back, ":a;bmp\r_click\text\cha\hig_1.bmp",%Free2,%Free3
-~
-notif %EN_glossary_page view = 3 && %EN_glossary_current_hint = 2 jumpf
-	lsp rmenu_back, ":a;bmp\r_click\text\cha\ham_1.bmp",%Free2,%Free3
-~
-notif %EN_glossary_page view = 3 && %EN_glossary_current_hint = 3 jumpf
-	lsp rmenu_back, ":a;bmp\r_click\text\cha\hig_1.bmp",%Free2,%Free3
-~
-notif %EN_glossary_page view = 3 && %EN_glossary_current_hint = 4 jumpf
-	lsp rmenu_back, ":a;bmp\r_click\text\cha\ham_1.bmp",%Free2,%Free3
-~
-notif %EN_glossary_page view = 3 && %EN_glossary_current_hint = 5 jumpf
-	lsp rmenu_back, ":a;bmp\r_click\text\cha\ham_1.bmp",%Free2,%Free3
-~
-notif %EN_glossary_page view = 3 && %EN_glossary_current_hint = 6 jumpf
-	lsp rmenu_back, ":a;bmp\r_click\text\cha\hig_1.bmp",%Free2,%Free3
-~
-notif %EN_glossary_page view = 3 && %EN_glossary_current_hint = 7 jumpf
-	lsp rmenu_back, ":a;bmp\r_click\text\cha\ham_1.bmp",%Free2,%Free3
-~
-notif %EN_glossary_page view = 4 && %EN_glossary_current_hint = 0 jumpf
-	lsp rmenu_back, ":a;bmp\r_click\text\cha\hig_1.bmp",%Free2,%Free3
+	lsp rmenu_back, ":a;bmp\r_click\text\cha\gls_1.bmp",%Free2,%Free3
 ~
 
 return
