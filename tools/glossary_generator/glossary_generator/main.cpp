@@ -113,13 +113,16 @@ entriesLeftUnprocessed : data.entriesPerPage;
 			
 		for(unsigned j = 0; j < data.entriesPerPage; ++j)
 		{
-			output << "\tlsp EN_hint_button_";
-			output << j;
-			output << ",\":a/2,0,3;";
-			std::string buttonImage = j < entriesOnThisPage? data.glossaryEntries[i*data.entriesPerPage + j].buttonImage : "";
-			output << buttonImage;
-			output << "\", %Free4, %Free5 : add %Free5, %Free6";
-			output << std::endl;
+			output << "\tnotif %EN_glossary_progress > " << i*data.entriesPerPage + j << " jumpf" << std::endl;
+			// add entry to hints
+				output << "\t\tlsp EN_hint_button_";
+				output << j;
+				output << ",\":a/2,0,3;";
+				std::string buttonImage = j < entriesOnThisPage? data.glossaryEntries[i*data.entriesPerPage + j].buttonImage : "";
+				output << buttonImage;
+				output << "\", %Free4, %Free5 : add %Free5, %Free6";
+				output << std::endl;
+			output << "\t~" << std::endl;
 		}
 		output << "~";
 		output << std::endl;
