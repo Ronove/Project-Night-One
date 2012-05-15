@@ -102,14 +102,30 @@ return
   mov %Free6,42 ;dY between two buttons
  
 notif %EN_glossary_page_view = 1 jumpf
-	lsp EN_hint_button_0,":a/2,0,3;bmp\glos_btn\output0.bmp", %Free4, %Free5 : add %Free5, %Free6
-	lsp EN_hint_button_1,":a/2,0,3;", %Free4, %Free5 : add %Free5, %Free6
-	lsp EN_hint_button_2,":a/2,0,3;", %Free4, %Free5 : add %Free5, %Free6
-	lsp EN_hint_button_3,":a/2,0,3;", %Free4, %Free5 : add %Free5, %Free6
-	lsp EN_hint_button_4,":a/2,0,3;", %Free4, %Free5 : add %Free5, %Free6
-	lsp EN_hint_button_5,":a/2,0,3;", %Free4, %Free5 : add %Free5, %Free6
-	lsp EN_hint_button_6,":a/2,0,3;", %Free4, %Free5 : add %Free5, %Free6
-	lsp EN_hint_button_7,":a/2,0,3;", %Free4, %Free5 : add %Free5, %Free6
+	notif %EN_glossary_progress > 0 jumpf
+		lsp EN_hint_button_0,":a/2,0,3;bmp\glos_btn\output0.bmp", %Free4, %Free5 : add %Free5, %Free6
+	~
+	notif %EN_glossary_progress > 1 jumpf
+		lsp EN_hint_button_1,":a/2,0,3;", %Free4, %Free5 : add %Free5, %Free6
+	~
+	notif %EN_glossary_progress > 2 jumpf
+		lsp EN_hint_button_2,":a/2,0,3;", %Free4, %Free5 : add %Free5, %Free6
+	~
+	notif %EN_glossary_progress > 3 jumpf
+		lsp EN_hint_button_3,":a/2,0,3;", %Free4, %Free5 : add %Free5, %Free6
+	~
+	notif %EN_glossary_progress > 4 jumpf
+		lsp EN_hint_button_4,":a/2,0,3;", %Free4, %Free5 : add %Free5, %Free6
+	~
+	notif %EN_glossary_progress > 5 jumpf
+		lsp EN_hint_button_5,":a/2,0,3;", %Free4, %Free5 : add %Free5, %Free6
+	~
+	notif %EN_glossary_progress > 6 jumpf
+		lsp EN_hint_button_6,":a/2,0,3;", %Free4, %Free5 : add %Free5, %Free6
+	~
+	notif %EN_glossary_progress > 7 jumpf
+		lsp EN_hint_button_7,":a/2,0,3;", %Free4, %Free5 : add %Free5, %Free6
+	~
 ~
 
 return
@@ -125,7 +141,7 @@ return
   mov %Free3,50 ;Y coordinate of text
 
 notif %EN_glossary_page view = 1 && %EN_glossary_current_hint = 0 jumpf
-	lsp rmenu_back, ":a;bmp\r_click\text\cha\gls_1.bmp",%Free2,%Free3
+	lsp rmenu_back, ":a;bmp\r_click\text\glos\gls_1.bmp",%Free2,%Free3
 ~
 
 return
