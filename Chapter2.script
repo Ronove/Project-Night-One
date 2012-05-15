@@ -4191,12 +4191,12 @@ mcl a,22
 ;bg Different_spiral_1a,22
 
 ;　妖怪を自宅になんか連れて行きたくない。@…あぁ、いけない。@こんなことを考えたら心を読まれてしまう…。\
-`　I didn't want to take a youkai to my home. `@`...Oh shoot. `@`If I think like this she'll just read my thoughts...`\
+`　I don't want to take a youkai to my home. `@`...Oh shoot. `@`If I think like this she'll just read my thoughts...`\
 
 bg black,22
 
 ;　でも、これを断れば、本当に僕の腕を一本もいでいくかもしれない…。@………彼女が僕のことを、友達だと言ってくれている以上、僕もそれに合わさざるを得ない……。@
-`　(?) But should I refuse, she'll probably really tear off one of my arms. `@`...Aside from when she said I was her friend, I didn't share the sentiment...`@`
+`　But if I refuse, she'll probably really tear off one of my arms. `@`...When she said I was her friend, I didn't share the sentiment...`@`
 ;　彼女の機嫌を損ねることは、今の僕には怖くてとてもできなかった。\
 `　But I was too scared now to displease her.`\
 
@@ -4547,7 +4547,7 @@ bg black,22
 mono 0
 
 ;　だからわかる。@………カメラを手にするようになった最初の頃は、@僕と同じような冤罪を暴こうと、日々、目を鋭く光らせていた。\
-`　(?) So I understood. `@`......From the first moment I took a camera in my hands, `@`during those days my eyes were lit with a rage seeking to prove my innocence.`\
+`　Then I knew. `@`......From the first moment I took a camera in my hands, `@`from that day on, my eyes were lit with a rage seeking to prove my innocence.`\
 
 ;　でも、僕の事件はもう、冤罪として断定されて終わってしまった。@今からカメラを構えたところで、@僕が犯人ということで決まった、あの理科準備室での事件を覆すことはできない。\
 `　However, my incident has long since been decided in my false accusation. `@`I had been decided as the culprit, and I couldn't overturn the verdict of what took place in that science prep room.`\
@@ -5951,7 +5951,7 @@ ld c,KOU_Def2,42
 ld c,KOU_Def5,80
 
 ;「君は地獄へ戻る。@そして全ての人に忘れ去られる。@……その代わり、君が凍えるような寒ささえも忘れていられるように、私が全てを安らかに眠らせよう。」\
-`(?)"You will return to hell. `@`And you will be forgotten by everyone. `@`...In exchange, I'll put everything to rest with the chill of your forgotten shivers."`\
+`"You will return to hell. `@`And you will be forgotten by everyone. `@`...In exchange, I'll put everything to rest as you forget even the chill of your shivers."`\
 
 ld l,YOU_Def5,80
 

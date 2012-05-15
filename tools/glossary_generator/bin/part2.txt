@@ -12,7 +12,7 @@
   ;Basic View button image
   mov %Free4,410
   lsp 890,":c;bmp\r_click\r_back.bmp",-0,100,40 ;Background image
-  lsp 850,":c;bmp\r_click\text\txt_def.bmp",315,29 ;Notebook image
+  ;lsp 850,":c;bmp\r_click\text\txt_def.bmp",315,29 ;Notebook image
   lsp 101,":a/2,0,3;bmp\r_click\btn\Left.BMP",330,%Free4 -10 ;To the previous image^101
   lsp 102,":a/2,0,3;bmp\r_click\btn\Right.BMP",400,%Free4 -10 ;To the next image^102
   lsp rmenu_btn_Exit,":a/2,0,3;bmp\r_click\btn\exit.BMP",480,%Free4 + 20,230 ;Exit
