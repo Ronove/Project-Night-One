@@ -87,6 +87,11 @@ bg black,22
 ; Unlocks glossary
 mov %EN_GLOSSARY_UNLOCK,1
 
+; Unlocks first glossary entry
+if %EN_glossary_progress > 2 jumpf
+	mov %EN_glossary_progress,2
+~
+
 bgm1 5
 
 bg kyou_01,42
@@ -112,6 +117,7 @@ ld r,MAR_Def3,80
 br
 ;　＊年８組の生徒で、飼育委員を務める心やさしい少女だった。@
 `　An X year student in the 8th class. She was a kind hearted girl who worked as a member of the animal raising committee.`@
+
 br
 ;　成績は平均。@得意教科はなく、苦手教科は体育。@…その意味では平均よりやや劣る成績と言えたかも知れない。\
 `　Her grades were average. `@`She wasn't strong in any subject ― P.E. was her weakest. `@`...It could have been said that she was even somewhat below average.`\
@@ -211,7 +217,7 @@ bg black,22
 `　To her, a girl who couldn't even refuse joining the animal raising committee when pressed, `@`how could she escape this malicious trap?`@
 br
 ;　……だからこれはつまり、…彼女にはとてもとても気の毒なのだが…、当然の結果だった。\
-`　.....Therefore, this is basically, ...even though it's very very pitiful for her... an expected result.`\
+`　.....And so in other words, this was basically, ...even though it's very very pitiful for her... a natural consequence.`\
 
 fede 1,2000
 E_B
@@ -223,7 +229,7 @@ me2 26
 bg toire_08,42
 
 ;　毬枝はのろのろと衣服を身につけると、再びランドセルを背負う。@
-`　Marie slowly put on her clothes and once again donned the backpack.`@
+`　Marie slowly puts on her clothes and once again dons her backpack.`@
 ;　……その背負う重みに、先ほどまで強要されていた数々の辱めが思い出された。@
 `　......And with its weight, she was reminded of the many disgraceful things she was forced to do mere moments ago.`@ 
 br
@@ -253,7 +259,7 @@ mono 1
 bg kyou_02,2
 
 ;　一番最初、悪かったのは確かに自分だった。@
-`　From the very beginning, I was clearly the one who was wrong.`@
+`　It was my fault from the very beginning.`@
 br
 ;　私はしてはいけないことをしてしまい、それを先生に見つかって咎められた。\
 `　I went and did something I wasn't supposed to, and Sensei found out and blamed me for it.`\
@@ -299,7 +305,7 @@ bg e010,22
 `　If I were to compare it to the sorrow and fear of being bullied in class, `@`listening to Sensei's words weren't hard at all.`@
 br
 ;　先生は、放課後に私を呼び出す時以外は私を虐めないし、@むしろ私を虐めようとするクラスメートを叱ってさえくれた。\
-`　Aside from calling for me after school, it's not like Sensei ever teases me. `@`Rather, he goes so far as to punish the classmates who do tease me.`\
+`　Aside from calling for me after school, it's not like Sensei ever teases me. `@`Instead, he goes so far as to punish the classmates who do tease me.`\
 
 ;bg white,27
 ;bg black,22
@@ -316,10 +322,10 @@ bg e020,22
 `　Yes.`@` Even though Sensei forced me to disgrace myself, he was protecting me.`@
 br
 ;　だから私は、身を守ってくれる恩返しに、@先生の望むことをしてあげるのは当然の奉仕だと思って耐えてきたのだ。\
-`　And so, in return for protecting me, `@`I have begun to think that giving Sensei whatever he wants is a natural service and I endure it.`\
+`　And so, in return for protecting me, `@`I have begun to think it's my duty to give Sensei whatever he wants and I endure it.`\
 
 ;　先生の求める行為に罪悪感を覚えるのは私の問題で、@先生自身はそれらの行為にいつもとても満足し褒めてさえくれた。@
-`　Feeling guilty about the deeds Sensei wants is my problem, `@`while Sensei himself is always very satisfied with them and goes so far as to praise me.`@
+`　Feeling guilty about what Sensei wants is my problem, `@`while Sensei himself is always very satisfied with them and even compliments me.`@
 br
 ;　……だから、私は良いことをしているのだと思い込もうとがんばってきた。@
 `　......So, I've come to endure it ― thinking that what I'm doing is good.`@
@@ -328,7 +334,7 @@ br
 `　......But `@`I don't know how to stop his desires.`\
 
 ;　先生が私を守ってくれることに対する感謝の気持ちとして捧げていたはずの行為は、@今では先生のために私が施さなければならない義務と化し、@かつてはたまの放課後だけに呼び出されていたはずの関係も、@徐々に他の時間にも浸食するようになり始めていた。\
-`　The deeds I should have offered up in gratitude to Sensei for protecting me, `@`are now becoming an obligation I must perform for Sensei. `@`Even the occasional after school relationship, `@`gradually began to corrode into other times as well.`\
+`　The deeds I should have offered up in gratitude to Sensei for protecting me are now becoming an obligation I must perform for him. `@`The occasional after school relationship gradually began to corrode into other times as well.`\
 
 textoff
 
@@ -341,17 +347,17 @@ mono 0
 ;bg Different_spiral_1a,22
 
 ;　授業中に仮病を使って抜けるように命令されたり。@休日にも学校に来るように命令されたり。@
-`　He'll do things like order me to feign illness so he can take me away during class, `@`or order me to come to school on days off.`@
+`　He'll do things like order me to feign illness so he can take me away during class `@`or order me to come to school on days off.`@
 br
 ;　今では学校生活は副次的なものとなり、@私は平日も休日も、先生が望んだ時、望んだことを捧げなければならない身となり果てている。\
-`　Until now school life had been secondary. `@`Now when Sensei wants me on weekdays and weekends, I must do as he desires, and it's exhausting me.`\
+`　Until now school life had been secondary. `@`Now when Sensei wants me on weekdays and weekends, I must do his bidding, and it's exhausting me.`\
 
 ;bg Different_spiral_1b,22
 
 me1v 16,70
 
 ;　平穏な学校生活を守るために耐えてきた苦役は、@今や私の平穏を侵し始め、何のために捧げている行為なのか、@その意味すら分からなくなり始めていたのだ……。\
-`　Why am I so dedicated to these tasks? `@`These hard toils that I've come to endure to protect my tranquil school life, `@`as they begin to violate that very tranquility, `@`I'm starting to believe they no longer serve their purpose......`\
+`　Why am I so dedicated to doing these things? `@`These toils that I've come to endure to protect my tranquil school life, `@`as they begin to violate that very tranquility, `@`I'm starting to believe they no longer serve their purpose......`\
 
 fedexx 70,70,0,0,0,0,2000
 E_M3
@@ -368,7 +374,7 @@ bg black,22
 ;mono 0
 
 ;　だから、…先生が悪い人だとは思えない。@
-`　Because, ...I can't think of Sensei as a bad person.`@
+`　So ...I can't think of Sensei as a bad person.`@
 ;　むしろ先生は、いじめられっ子の私を守ってくれるいい先生なのだ。\
 `　Rather, Sensei is a good teacher who helps protect me from the bullies.`\
 
@@ -378,7 +384,7 @@ me2v 17,70
 `　......And so heeding Sensei's desires is the natural way of showing my gratitude for that......`@
 br
 ;　それに対し、不快に感じるのはつまり、@私が感謝の気持ちを忘れかけているということで……。\
-`　On the other hand, `@`feeling uncomfortable means that I'm beginning to forget that gratitude......`\
+`　On the other hand, `@`feeling uncomfortable means that I'm starting to lose that appreciation......`\
 
 
 bg toire_08,2
@@ -391,7 +397,7 @@ me3v 3,70
 `　......Just today, I did exactly as he said. Sensei ordered me to put on a backpack while in my underwear. `@`...... His order seemed as if he wanted me to thank him for his day's work......`@
 br
 ;　それが辛く感じるのは、私に感謝の気持ちがないからなのだ。\
-`　And that pain I felt was because I had no feelings of gratitude.`\
+`　And it hurt was because I didn't feel thankful.`\
 
 ;bg black,22
 ;bg e002,22
@@ -400,10 +406,10 @@ br
 ;　先生が守ってくれなかったら、私はきっと今頃クラス中に虐められている。@
 `　If Sensei didn't protect me, I would probably be bullied in class right now.`@
 ;　…それに比べたら、…こんなの全然、……平気……。@
-`　......Compared to that, ...this is natural ......it's fine......`@
+`　......Compared to that ...this is ......okay......`@
 br
 ;　そうわかっているはずなのに、@……私はめそめそと泣き続けるのをやめることはできなかった……。\
-`　Even though I should have understood that, `@`......I couldn't stop myself from continuing to cry and sob, *mesomeso*.`\
+`　Even though I thought that way, `@`......I couldn't stop myself from continuing to cry and sob, *mesomeso*.`\
 
 bg black,42
 
@@ -476,7 +482,7 @@ ld r,KAN_K3,22
 `　All he had was the trickling of his meaningless sweat.`@
 br
 ;　……なのに、世の中にはそんな自分の苦労の上にさも当り前のようにあぐらをかき、@うまい汁だけを吸っている連中がたくさんいるのだ。\
-`　......And yet there were a lot of people in this world who would stand on his shoulders`@` and just sip his delicious sweat.`\
+`　......And yet there were a lot of people in this world who would stand on his shoulders`@` and just sip that delicious sweat.`\
 
 ;bg e016,45
 
@@ -489,7 +495,7 @@ ld c,KAN_K2,22
 `　But on the other hand, when no one rewarded him, he had to reward himself.`@
 br
 ;　だから、これまでの自分の苦労を考えれば、これくらいの逸脱は当然の権利であると、@自分勝手な理論を次第に蓄積させていくようになった。\
-`　Because if he thought about his labors up until now, this kind of deviation was his right, `@`and so he began to reinforce his selfish reasoning.`\
+`　Because if he thought about his work up until now, this kind of deviation was justified, `@`and so he began to reinforce his selfish reasoning.`\
 
 bg black,22
 
