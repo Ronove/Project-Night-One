@@ -4180,7 +4180,7 @@ cl c,22
 `　From that day on, their shadows were thickened slightly, and slightly clad with a chill.`@
 br
 ;　毬枝は、これが取り憑くということなんだなと理解する。\
-`　Marie understood that this was what posession is.`\
+`　Marie understood that this was what possession is.`\
 
 ;　稀に、霊感の強い生徒が、彼らの姿に軽い違和感を覚えたりしたが、@誰も毬枝の姿には気付かない。@
 `　Rarely, students with strong supernatural senses would occasionally feel a slight unease about them, `@`but no one noticed Marie.`@
@@ -4215,7 +4215,7 @@ ld l,MAR_Def4,23
 ld r,HIG_Def4,80
 
 ;「めそめそさんが、次の獲物を求めて哀れな犠牲者たちを付け回してるって、みんなが噂してるわ。@……人の狩りの邪魔はするのに、自分はちゃんと狩りをするのねって思って。@……くすくす。@からかいに来ただけ。」\
-`"Everyone's spreading rumors about Mesomeso-san stalking some pathetic victims, looking for her next prey. `@`...Alhough it interferes with your hunt, I figured I'd do some hunting of my own. `@`...*giggle*. `@`I just came to tease you."`\
+`"Everyone's spreading rumors about Mesomeso-san stalking some pathetic victims, looking for her next prey. `@`...Although it interferes with your hunt, I figured I'd do some hunting of my own. `@`...*giggle*. `@`I just came to tease you."`\
 
 ;　彼岸花は初めから知っていた。@
 `　Higanbana had known from the start.`@
@@ -4261,7 +4261,7 @@ br
 `　In order to not entertain the bullies more, she has stuck to ignoring everything they do.`@`
 
 ;　かつて、衣服の汚れや臭いを指摘されたことからいじめが始まったことを理解し、@今は清潔にも気を遣っている。\
-`　Once it was pointed out to her that her clothes were smelly and dirty, she understood the torment had just started,`@` and now she pays special attention to her hygeine.`\
+`　Once it was pointed out to her that her clothes were smelly and dirty, she understood the torment had just started,`@` and now she pays special attention to her hygiene.`\
 
 ;　そこだけを切り出したなら、もはや彼女がいじめられる理由など存在しないのだ。@
 `　She thought that just bringing an end to that, she had forced all motives for her torment to cease.`@`
@@ -4447,7 +4447,7 @@ ld r,MAR_i4a,80
 ld l,HIG_Def4,80
 
 ;「いじめは集団社会における序列の確認行為だそうよ。@だから、常にそれを繰り返さないと、自分の序列に不安を感じてしまう。@……だから人は、いじめをやめられない。」\
-`"Bullying is an act of establishing hierarchy in group-oriented society. `@`And so if you're not cosntantly doign that, you'll become uncertain about your own ranking. `@`...And so, people cannot stop bullying."`\
+`"Bullying is an act of establishing hierarchy in group-oriented society. `@`And so if you're not constantly doing that, you'll become uncertain about your own ranking. `@`...And so, people cannot stop bullying."`\
 
 bg black,22
 
@@ -4458,7 +4458,7 @@ br
 `　Higanbana explained her theory, but Marie didn't think that was the case.`\
 
 ;　人間は動物とは違うとか、そんな甘い考えからではない。@
-`　It wasn't that she naiively thought that humans were different from animals.`@
+`　It wasn't that she naively thought that humans were different from animals.`@
 br
 ;　……純粋に、違和感を覚えたからだ。\
 `　...it was because of a purely unease she felt.`\
@@ -4525,7 +4525,7 @@ ld l,HIG_W4,80
 ld r,MAR_I1,80
 
 ;「………私は、おかしいと思います。@……百歩譲って、いじめが楽しいものだったとしても。@……それはその場限りのものです。@こんな、………由香里ちゃんが休みの日にまで、それが出来なくて一日中を不機嫌にしているなんて、@……私はちょっとおかしいと思います。」\
-`"...Well, I think it's odd. `@`...For arguement's sake, even if bullying is fun. `@`...This is only a one time incident. `@`For them to get this upset over being unable to bully her for one day... just because Yukari-chan is taking one day off, `@`...I think that's a little odd."`\
+`"...Well, I think it's odd. `@`...For argument's sake, even if bullying is fun. `@`...This is only a one time incident. `@`For them to get this upset over being unable to bully her for one day... just because Yukari-chan is taking one day off, `@`...I think that's a little odd."`\
 
 ;　たった一日。@
 `　It's just one day.`@
@@ -4871,7 +4871,7 @@ csp -1
 
 
 ;　彼岸花さんが自殺を唆し、懸命に思い留まるように忠告したけれど聞き入れず、@屋上より身を投げた少女のことを思い出す。\
-(?)`　She remembered the girl who threw herself off the roof.`@` Having been tempted to kill herself by Higanbana, and not listening despite being warned that if she didn't stop these thoughts it would risk her life.
+`(?)　She remembered the girl who threw herself off the roof.`@` Having been tempted to kill herself by Higanbana, and not listening despite being warned that if she didn't stop these thoughts it would risk her life.
 
 ;　あの少女も、フェンスを自らの意思でよじ登り、そこから跳んだ。@
 `　That girl also climbed up the fence of her own free will, and jumped.`@`
@@ -5108,7 +5108,7 @@ br
 `　Wow, a transfer student.`\
 
 ;　この町には大きな工場や会社があり、@親の都合などで、季節を問わず、頻繁に転校が起こっている。@
-`　This town has large factories and companies,`@` depending on parental circumstances and the like, without any care for the season, people transfering was a frequent occurance.`@`
+`　This town has large factories and companies,`@` depending on parental circumstances and the like, without any care for the season, people transferring was a frequent occurrence.`@`
 br
 ;　だから、他の学校だったら珍しいような、この時期の転校生も、@ここでは決して珍しいことではなかった。\
 `　That's why, while if it were at any other school it would have been rare to have a transfer student at this time,`@` here it's hardly an unusual thing.`\
@@ -5524,7 +5524,7 @@ ld l,SMI_Def5,80
 ld l,SMI_Def1a,80
 
 ;「……彼らは誰も感謝しないけれど、@……あなたがいなくては得られなかった、大切な栄養を心に得ることが出来た。」@
-`"...They may not thank anyone,`@` ...but if you were not there, they would neve have been able to obtain those precious nutrients for their hearts."`@`
+`"...They may not thank anyone,`@` ...but if you were not there, they would never have been able to obtain those precious nutrients for their hearts."`@`
 
 ld r,YUK_Def2a,80
 
@@ -5827,7 +5827,7 @@ br
 ;「カレー臭ぇんだよ、臭いが移るだろ！！」@
 `"Ugh, you stink like curry, it's like you were bathing in it!!"`@`
 ;「こいつ本当に臭え！！@　マジカレー臭、ハンパねー！！」\
-(?)`"Ugh, this bitch reeks!!`@` It's the worst curry smell ever!!"`\
+`(?)"Ugh, this bitch reeks!!`@` It's the worst curry smell ever!!"`\
 
 ;　体操服でもあれば着替えることが出来たのだが、@不幸なことに、彼女はこの日、それを持っていなかった。@
 `　If she had a gym uniform, she could have changed into it,`@` but unfortunately, she didn't bring one today.`@`
@@ -6037,7 +6037,7 @@ lsp2 5,$ld_pass2,130,450,200,200,0
 print 80
 
 ;「本当に滑稽だわ。@あなたを救おうと、今もどこかの暗がりで頭を抱えている学校妖怪がいるというのに。@当のあなたは、何の努力もなく、転校生というささやかな幸運で、@いつの間にか勝手に救われているのだから。@毬枝はそれを知ったら、どんな顔をするのかしらね？@　くすくす、毬枝のマヌケ面を想像するだけで、当分は楽しく月を眺められそうだわ。@くすくすくすくすくすくすくすくすくす、くっすくすくすくすくす……！」\
-`"How truly humorous.`@` Even though you had, and still have,  a school youkai in the darkness somewhere who is greatly troubled about how to save you.`@` Without any effort at all, by the meagre fortune of a transfer student,`@` you were rescued all on your own in the blink of an eye.`@` I wonder what kind of face Marie would make if she knew!`@` Teeheehee, just thinking about Marie's dejected expression, it sounds about as fun as gazing at the moon.`@` Teeheeheehee, Teeheehee, Teeheehee....!"`\
+`"How truly humorous.`@` Even though you had, and still have,  a school youkai in the darkness somewhere who is greatly troubled about how to save you.`@` Without any effort at all, by the meager fortune of a transfer student,`@` you were rescued all on your own in the blink of an eye.`@` I wonder what kind of face Marie would make if she knew!`@` Teeheehee, just thinking about Marie's dejected expression, it sounds about as fun as gazing at the moon.`@` Teeheeheehee, Teeheehee, Teeheehee....!"`\
 
 csp2 -1
 print 0
@@ -6072,7 +6072,7 @@ bg kyou_01,22
 ;「臭ぇんだよ、お前はよ…！！」@
 `"God, you smell like shit...!!"`@`
 ;「土下座して詫びろよ、土下座！」@
-`"You oughtta kneel down and apologize to us for it!"`@`
+`"You oughta kneel down and apologize to us for it!"`@`
 ;「「「どーげーざー！@　どーげーざー！」」」\
 `"""On~ Your~ Knees!`@` On~ Your~ Knees~!!!"""`\
 ld c,SMI_N1,22
@@ -6134,7 +6134,7 @@ bg kyou_01,22
 `　The girl without a form whispered.`@`
 br
 ;　玲子ちゃんの性格はよくわかってる。@呪われたバトンを、人に押し付けられるわけもない。@
-`　I understand Reiko-chan's personality all to well.`@` There's no way she would pass that awful baton to anyone else.`@`
+`　I understand Reiko-chan's personality all too well.`@` There's no way she would pass that awful baton to anyone else.`@`
 ;　彼女もまた、……私と同じに、それを握り続けるだろう。@
 `　I would bet she would also...clutch onto it the same way I did.`@`
 ;　そしてそれを、……クラスメートたちの心の栄養になると称して、彼女は受け入れていく……。\
@@ -6182,7 +6182,7 @@ ld l,HIG_def4,24
 ;print 80
 
 ;「くすくすくすくす、それがあなたの憧れた、平穏な学校生活のはずだわ。@……満喫したらいい。@静かな静かな生活を。@……そして時に彼女がいじめられているのを見て、@今の自分がどれほど恵まれた生活を送れているのかに浸ったらいい。@それが、あなたの心が求めている安寧。@………心の、栄養というものだわ？」\
-`"Teehee, Teeheehee. I believe that's the peaceful school life you longed for.`@` ...You should have your fill.`@` How peaceful and quiet it is.`@` ...And occasionally you can just watch her being harrassed.`@` Recognize and be flooded with just how blessed you are to be able to lead this life now.`@` That is the peace of mind you were seeking.`@` ...That 'nourishment of the heart,' I believe it was called?"`\
+`"Teehee, Teeheehee. I believe that's the peaceful school life you longed for.`@` ...You should have your fill.`@` How peaceful and quiet it is.`@` ...And occasionally you can just watch her being harassed.`@` Recognize and be flooded with just how blessed you are to be able to lead this life now.`@` That is the peace of mind you were seeking.`@` ...That 'nourishment of the heart,' I believe it was called?"`\
 
 ld r,YUK_def4a,80
 
@@ -6290,7 +6290,7 @@ ld c,SMI_N2,80
 `　Whenever that happens, she'll be certain to laugh to try and patch it up, with an 'Ehehe.'`\
 
 ;　それが余計に彼らを面白がらせている。@
-`　It's unneccessarily entertaining to the boys.`@`
+`　It's unnecessarily entertaining to the boys.`@`
 ;　……いじめには、反応を返してはいけないことを、彼女は知らないのだろう。@
 `　...I bet she doesn't know that you can't respond to bullying.`@`
 br
@@ -6348,7 +6348,7 @@ ld c,SMI_N1,22
 ;「おら、タワシで洗えよ、タワシで！！」@
 `"Come on, use the scrub brush, it won't hurt!!"`@`
 ;「お前、毎日フロ入ってんのかよ！@　臭えんだよ、マジで！」\
-`"Do you actually take a bath everyday?`@` I've never smelled anything worse!"`\
+`"Do you actually take a bath every day?`@` I've never smelled anything worse!"`\
 
 ld c,SMI_N2,80
 
@@ -6489,7 +6489,7 @@ bg kyou_01,22
 ;「先生ぇ！@　大住さん、昨日もお風呂に入らなかったそうでーす！！」@
 `"Teacheeerrrr!`@` It looks like Oosumi-san didn't take a bath yesterday either~!!"`@`
 ;「大住ぃ。@ちゃんと毎日お風呂に入らないと駄目だぞー？@　だからみんなにカレー臭いとか言われちゃうんだ。」\
-`"Oosumiii.`@` You have to get in the bath everyday, you know~?`@` That's why everyone says you smell like curry."`\
+`"Oosumiii.`@` You have to get in the bath every day, you know~?`@` That's why everyone says you smell like curry."`\
 
 ld r,SMI_N1,22
 
@@ -6544,7 +6544,7 @@ br
 `　Watching this, completely dumbfounded,`@` ...It was true that in a sudden miracle, it appeared to be the abnormal world known as school...it looked like a utopia.`\
 
 ;　でも、そのユートピアは、玲子ちゃんという気の毒ないじめられっこを踏み台にして築かれている。@
-`　But this utopia was built from the unfortune stepping stone of the bullied child, Reiko-chan.`@`
+`　But this utopia was built from the unfortunate stepping stone of the bullied child, Reiko-chan.`@`
 br
 ;　その彼女の、痛々しい苦笑いが見えてしまう私には、@……断じてそれが、ユートピアだなどとは思えないのだ…。\
 `　But to me, seeing her smiling that pitiful, bitter smile,`@` ...my conclusion was that I could never think of this as anything like a utopia...`\
@@ -6692,7 +6692,7 @@ bg kyou_01,22
 `　If you respond to any abuse, you'll just create more and more abuse.`@` So no matter how difficult it may be, you mustn't respond.`@`
 br
 ;　私がいじめられっこであった時、唯一許された、最初で最後の自衛だった。\
-`　When I was the target of their harrasment, there was only one time I allowed it, my first and last self-defense.`\
+`　When I was the target of their harassment, there was only one time I allowed it, my first and last self-defense.`\
 
 ;　あの時は、それでもいじめは一向に止まず、何の効果もないと思っていた。@
 `　Even during that time, the abuse didn't stop at all, and I thought it had no effect.`@`
@@ -6751,7 +6751,7 @@ ld l,YUK_I3a,80
 ld r,HIG_W4,80
 
 ;「あなたの胸の内に芽生えたささやかな義憤が、@ようやく得た平穏の海に、沈むまいともがく葛藤がとても愉快だっただけよ。」@
-(?)`"I am just so pleased that the budding righteous indignation you kept deep in your heart,`@` is finally sinking into the tranquil sea of discord."`@`
+`(?)"I am just so pleased that the budding righteous indignation you kept deep in your heart,`@` is finally sinking into the tranquil sea of discord."`@`
 br
 ;　私は顔を苦々しく俯く。@
 `　I hung my head in disgust at myself.`@`
@@ -6879,7 +6879,7 @@ br
 `　Seeing something they couldn't understand, those piercing, cold eyes, ...those eyes....`@`
 br
 ;　先生が取り繕ったように苦笑いしてくれなかったら、@私は耐えきれなくて、卒倒していたかもしれない。\
-`　If the teacher hadn't laughed to smoothe things over, `@`I wouldn't have been able to take it and I might have fainted.`\
+`　If the teacher hadn't laughed to smooth things over, `@`I wouldn't have been able to take it and I might have fainted.`\
 
 bg black,23
 bg kyou_03,23
@@ -6949,7 +6949,7 @@ br
 `　In the bright red sunset, after a long time we went home together.`\ 
 
 ;　転校してきた最初の頃は、よくそうしていたけれど、@彼女がいじめられるようになってからは、何となく気まずくて縁遠くなっていた。@
-`　When she first transferred, we often did this, `@`but after she started being bullied, somwhow our relationship became awkward and distant.`@
+`　When she first transferred, we often did this, `@`but after she started being bullied, somehow our relationship became awkward and distant.`@
 br
 ;　……今思うと、それは酷いことだったように思う。\
 `　...Thinking back on it, I was cruel.`\
@@ -7101,7 +7101,7 @@ bg roji_03,22
 `　Reiko-chan stood astonished against the world painted by the colors of the evening sun.`@
 br
 ;　私は感情の全てを一気に吐き出し、……ぜぇぜぇと肩で息をしていた。@
-`　I had vomitted all of my feelings in one go, ...I was huffing and puffing and my shoulders motioned with my breathing.`@
+`　I had vomited all of my feelings in one go, ...I was huffing and puffing and my shoulders motioned with my breathing.`@
 br
 ;　……うん。@何だか、……心の中がすっきりした気がする。\
 `　...Yeah. `@`For some reason... doing that made my mind feel refreshed.`\
@@ -7144,7 +7144,7 @@ bg black,22
 `　Suggesting that one person in the classroom always has to be bullied is a strange rule.`@
 br
 ;　玲子ちゃんがいじめられてくれたから、私はいじめられなくなって良かった…、@なんて言うのは、このルールに則り加担しているも同じこと。\
-`　Reiko-chan being happy to be bullied so I wouldn't have to be in bullied in her place... `@`That's the same as adhering to and supporting this bizzare rule.`\
+`　Reiko-chan being happy to be bullied so I wouldn't have to be in bullied in her place... `@`That's the same as adhering to and supporting this bizarre rule.`\
 
 bg roji_05,23
 ld l,YUK_Def3,23
@@ -7717,7 +7717,7 @@ br
 `　Something violently sent Yukari flying.`\
 
 ;　何が起こったのかわからない。@アスファルトに尻餅をつき、何が起こったのか理解しようと努めるのがやっとだった…。\
-`　She couldn't tell what happened. `@`Her backside hit the asphault and it took her a bit of struggling to understand what happened..."`\
+`　She couldn't tell what happened.`@` Her backside hit the asphalt and it took her a bit of struggling to understand what happened..."`\
 
 ld c,MAR_I4a,2
 ld c,MAR_I3,80
@@ -7732,7 +7732,7 @@ ld c,SMI_W1,23
 ld c,SMI_W4,80
 
 ;「おや。@誰かと思えば、めそめその毬枝じゃ。@私の周りを嗅ぎ回っていたのは、お前であったか……。」\
-`"Oh. `@`Why isn't it Mesomeso Marie. `@`So you're the one whose been sniffing around my territory..."`\
+`"Oh.`@` Why, isn't it Mesomeso Marie.`@` So you're the one who's been sniffing around my territory..."`\
 
 bg black,24
 bg roji_04,0
@@ -7820,12 +7820,12 @@ ld r,SMI_W4,22
 ld l,MAR_I3,80
 
 ;「スミレさん。@色々調べさせてもらいました。@私にはもう、全てわかっているんです。@……あなたがどんな狩りをするのかもっ。」\
-(?)`"Sumire-san.`@` I've taken the liberty of checking up on you.`@` I already know everything.`@` ...About what kind of hunting you do."`\
+`(?)"Sumire-san.`@` I've taken the liberty of checking up on you.`@` I already know everything.`@` ...About what kind of hunting you do."`\
 
 ld r,SMI_W2,80
 
 ;「ふっふふ。@何しろ私は力のない妖怪じゃ。@自らが狩りをするなどという面倒、なかなか出来はせぬ。@故に私は、獲物を探すのでなく。@狩猟者を、生み出すのじゃ！」\
-`"Fufufu.`@`At any rate, I am a powerless Youkai.`@` Naturally, I can hardly go to the trouble to hunt.`@` Therefore, I do not search for prey.`@` I birth hunters!"`\
+`"Fufufu.`@` At any rate, I am a powerless Youkai.`@` Naturally, I can hardly go to the trouble to hunt.`@` Therefore, I do not search for prey.`@` I birth hunters!"`\
 
 bg black,22
 
@@ -7846,7 +7846,7 @@ bg kyou_01,0
 ld r,SMI_N3,22
 
 ;「あなたは去年。@６組に三隅麗という転校生を装って転校し、@……自ら望んでいじめられっことなりました。@クラス全体を、……いじめっこにするために。」\
-`"Last year.`@` You presented a transfer student in class 6 named Misumi.`@` ...And she became the victim you wanted.`@`In order to turn the entire class, ...into bullies."`\
+`"Last year.`@` You presented a transfer student in class 6 named Misumi.`@` ...And she became the victim you wanted.`@` In order to turn the entire class, ...into bullies."`\
 
 ld r,SMI_W6,80
 
@@ -7858,7 +7858,7 @@ br
 `　Sumire's tears have the power to bewitch humans and stain their soul with darkness.`\
 
 ;　彼女をいじめる者は、いじめの楽しさに取り憑かれてしまい、@魂が堕落して、いじめっこに成り下がってしまうのだ。\
-`　Those that harrass her become obsessed with how enjoyable it is,`@` their souls become corrupted, and they stoop to the level of becoming a school bully.
+`　Those that harass her become obsessed with how enjoyable it is,`@` their souls become corrupted, and they stoop to the level of becoming a school bully.`\
 
 bg black,22
 mono 0
@@ -7894,7 +7894,7 @@ ld l,MAR_I4,22
 ld r,SMI_W3,80
 
 ;「元６組の可愛い子たちは、今もよくやってくれている…！@　しかし、１クラス４０人程度ではまだまだ足りぬのじゃ！」@
-`"Those adorable children in the former class six are still doing so well for me even now...!`@` But one class of fourty people is still not enough!"`@`
+`"Those adorable children in the former class six are still doing so well for me even now...!`@` But one class of forty people is still not enough!"`@
 
 ld l,MAR_I2a,80
 
@@ -7993,7 +7993,7 @@ br
 `　When facing youkai, one cannot persuade them with words.`\
 
 ;　実力で相手を捻じ伏せる。@それだけが、学校妖怪たちに通用する唯一の説得であり、@彼らの交渉の不文律なのだ。\
-`　Take them down by force. `@`That's the only way to persuade a school youkai. `@`It's their unwritten rule of negociating.`\
+`　Take them down by force.`@` That's the only way to persuade a school youkai.`@` It's their unwritten rule of negotiating.`\
 
 bg black,29
 bg roji_03,29
@@ -8030,7 +8030,7 @@ mld l,MAR_I4,23
 `　Higanbana gave a mocking smile.`@
 br
 ;　毬枝は小さく溜め息を漏らす。@……多分、彼岸花は初めから、これが全てスミレの狩りだと知っていたのだ。@
-`　Marie let loose a brief sigh. `@`...In all likelyhood, Higanbana knew from the very beginning that everything was Sumie's hunting game.`@
+`　Marie let loose a brief sigh.`@` ...In all likelihood, Higanbana knew from the very beginning that everything was Sumie's hunting game.`@
 br
 ;　それに気付かず、右往左往する毬枝を見て、面白がっていたに違いない。\
 `　She must have thought it was amusing watching the clueless Marie running around every which way.`\
@@ -8125,7 +8125,7 @@ ld c,HIG_W3,22
 ld c,HIG_W4,80
 
 ;「……由香里。@あなたは毎日見ていたわよね？@　クラスメート全員に、大住玲子がどんな風にいじめられるか。@あなたは遠巻きに見て、@……それが自分に対するものでないと安堵していたんじゃない…？」\
-`"...Yukari. `@`You've seen it everyday, haven't you? `@`Just how much have all your classmates been abusing Reiko Oosumi? `@`You've watched from a distance, `@`...and you've felt safe since it had nothing to do with you, right...?"`\
+`"...Yukari.`@` You've seen it every day, haven't you?`@` Just how much have all your classmates been abusing Reiko Oosumi?`@` You've watched from a distance,`@` ...and you've felt safe since it had nothing to do with you, right...?"`\
 ;＜彼岸花
 
 bg black,22
@@ -8568,7 +8568,7 @@ ld l,YUK_I2a,23
 ld r,SMI_W2,80
 
 ;「毬枝はお前を守るとか抜かしておったな。@……ふっふふふふ。@ならば決めたぞ。@私はさっそく明日より姿を消すことにする。@明日より、クラスのいじめられっこはお前じゃ、榊由香里よ…！！」@
-`"Marie blurted something out about protecting you, right? `@`...Huhuhuhu. `@`Then I've decided. `@`Starting tomorrow I'm going to copletely disappear. `@`Starting tomorrow, the bullied child in class will be you, Yukari Sakaki!!"`@
+`"Marie blurted something out about protecting you, right?`@` ...Huhuhuhu.`@` Then I've decided.`@` Starting tomorrow I'm going to completely disappear.`@` Starting tomorrow, the bullied child in class will be you, Yukari Sakaki!!"`@
 br
 ;　死刑宣告にも等しいそれに、由香里は全身の血が引いていくのを感じる……。\
 `　Exactly like the pronouncement of a death sentence, Yukari felt all the blood in her body freeze...`\
@@ -8624,7 +8624,7 @@ me1v 17,50
 `　...If you're not bullied, you're bullying. `@`...That's the school's providence.`@
 br
 ;　いじめられたくないのに、自分はいじめない。@……そんな自分は、その摂理に逆らった、異端なのかもしれない。\
-`　Even though I'm not being bullied, I'm not bullying others. `@`...Sinec I go against that providence, I'm probably a heretic.`\
+`　Even though I'm not being bullied, I'm not bullying others.`@` ...Since I go against that providence, I'm probably a heretic.`\
 
 ;　……もう二度と、いじめられたくなんかない。@……みんなに臭い臭いなんて、嘲笑われたくない……。@
 `　...No, I don't want to be bullied again. `@`...I don't want to be sneered at by everyone as they go 'you stink' 'you stink'...`@
@@ -8642,7 +8642,7 @@ lsp2 5,$ld_pass2,420,380,200,200,0
 print 22
 
 ;「答えを聞こうぞ。@榊由香里。@まぁ、聞くまでもないが。」\
-`"Let's hear your reply. `@`Yukari Sakaki. `@`Then agani, maybe I don't even have to ask."`\
+`"Let's hear your reply.`@` Yukari Sakaki.`@` Then again, maybe I don't even have to ask."`\
 
 ld_p SMI_W3
 lsp2 4,$ld_pass,420,380,200,200,0
@@ -8673,7 +8673,7 @@ ld r,SMI_W4,80
 ld l,YUK_I3a,80
 
 ;「自分がいじめられない為に、見て見ぬふりをしたり、……いじめに加わったりするなんて、@……私はやりません。@……それが、……私にとっての、……いじめと戦う、ということです……。」\
-`"Pretending I don't see it just so I don't get bullied, ...or even to add to the harrassment,`@` ...I won't do that.`@` ...That, ...to me, ...is my fight against hazing."`\
+`"Pretending I don't see it just so I don't get bullied, ...or even to add to the harassment,`@` ...I won't do that.`@` ...That, ...to me, ...is my fight against hazing."`\
 
 ;　言いながらも、もう後悔している……。@
 `　As she said it, she was already regretting it...`@`
@@ -8756,7 +8756,7 @@ me1v 24,50
 ;「臭ぇぞ臭ぇぞ、窓を開けろー！@　わっはははははははは！」@
 `"God, it reeks, open a window~!`@` Wahahahahahaha!"`@`
 ;「ほら、着席しろー！@　社会科見学のバスの席を決めるぞー！」\
-`"Come on, get to your seets!`@` We're deciding on seats for our social studies field trip~!"`\
+`"Come on, get to your seats!`@` We're deciding on seats for our social studies field trip~!"`\
 
 ;「カレー臭いマンと一緒の席は絶対イヤでーす！！」@
 `"I sure as hell don't wanna sit next to Stinky Curry Man!!!"`@`
@@ -9278,7 +9278,7 @@ me2v 24,50
 `"It's fine, we'll smash 'em 'til their guts come out!`@`""Ewwwwwww~~~!!`@` Wahahahahahaha!!""`@`"How many are there now?`@` Six?"`@` "Since I put some in yesterday too, there's seven."`@` "Ewwww, I can't belieeeeeeeeve boys!!"`@` """Wahahawahaha, Nghahahahahahahaha!!!"""`\
 
 ;　ようやく談笑が湧き上がったかと思えば、@……それは全て、由香里が再び登校してきた時、どのようないじめで歓待しようかという悪巧みばかり。@
-`　When one could finally think that a friendly conversation had finally started up,`@` ...Once Yukari came to school again, all of it would turn into a conspiratorious warm reception of harassment.`@
+`　When one could finally think that a friendly conversation had finally started up,`@` ...Once Yukari came to school again, all of it would turn into a conspiratorial warm reception of harassment.`@
 br
 ;　ぎらぎらと邪悪に眼を輝かせて、それを笑い合う彼らに、@人間としての温かみを感じることは難しかった。\
 `　They'd glare with an evil twinkle in their eye, and once they laughed at her,`@` it would be difficult to feel the warmth of her fellow human beings.`\
