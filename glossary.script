@@ -106,7 +106,7 @@ notif %EN_glossary_page_view = 1 jumpf
 		lsp EN_hint_button_0,":a/2,0,3;bmp\glos_btn\output0.bmp", %Free4, %Free5 : add %Free5, %Free6
 	~
 	notif %EN_glossary_progress > 1 jumpf
-		lsp EN_hint_button_1,":a/2,0,3;", %Free4, %Free5 : add %Free5, %Free6
+		lsp EN_hint_button_1,":a/2,0,3;bmp\glos_btn\output1.bmp", %Free4, %Free5 : add %Free5, %Free6
 	~
 	notif %EN_glossary_progress > 2 jumpf
 		lsp EN_hint_button_2,":a/2,0,3;", %Free4, %Free5 : add %Free5, %Free6
@@ -142,6 +142,9 @@ return
 
 notif %EN_glossary_page view = 1 && %EN_glossary_current_hint = 0 jumpf
 	lsp rmenu_back, ":a;bmp\r_click\text\glos\gls_1.bmp",%Free2,%Free3
+~
+notif %EN_glossary_page view = 1 && %EN_glossary_current_hint = 1 jumpf
+	lsp rmenu_back, ":a;bmp\r_click\text\glos\gls_2.bmp",%Free2,%Free3
 ~
 
 return

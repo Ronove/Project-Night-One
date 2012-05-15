@@ -12648,6 +12648,7 @@ if %Se_Number = 1005 mov $Se_Play,"sys_se\zyosys3.WAV"  ;キャンセル音
 if %Se_Number = 1006 mov $Se_Play,"sys_se\ZS1.WAV"  	;EXIT音（ガラスが割れる音（小）に差替える）
 
 if %Se_Number = 1010 mov $Se_Play,"sys_se\page.wav"     ;ページをめくる音
+if %Se_Number = 1011 mov $Se_play,"sys_se\p_sharin.wav"
 
 ;if %Se_Number = 1020 mov $Se_Play,"sys_se\ZS1.WAV"     ;一人死ぬ（ガラスが割れる音（小）に差替える）
 ;if %Se_Number = 1021 mov $Se_Play,"sys_se\one_re.wav"     ;一人生き返る（ワインを注ぐ音等？）
