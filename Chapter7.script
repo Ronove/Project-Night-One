@@ -9495,7 +9495,7 @@ mld c,HIG_W6,80
 me1v 16,50
 
 ;「そしてもちろん。@文句があるなら言うのだって自由だわ。@…………踊る？@　この、学校妖怪序列第３位の、踊る彼岸花と一緒に。@……スミレちゃんとは、ずいぶん長く遊んでないじゃない。@……どう？@　久しぶりに少し、……踊ってみないかしら…？@　くすくすくすくすくすくすくすくすくすくす…！！」\
-`"And of course.`@` If you have any complaints you're free to talk about them too.`@` ....Won't you dance?`@` You can dance with the 3rd Ranking School Youkai, the Dancing Higanbana.`@` ...If I recall correctly, you like to play for a long time.`@` ...So how aout it?`@` Won't you come and dance with me, ...after all thhis time...?`@` Teeheeheeheeheeheeheeheehee...!!"`\
+`"And of course.`@` If you have any complaints you're free to talk about them too.`@` ....Won't you dance?`@` You can dance with the 3rd Ranking School Youkai, the Dancing Higanbana.`@` ...If I recall correctly, you like to play for a long time.`@` ...So how about it?`@` Won't you come and dance with me, ...after all this time...?`@` Teeheeheeheeheeheeheeheehee...!!"`\
 
 mcl r,0
 ld l,SMI_I2,24
@@ -9601,7 +9601,7 @@ br
 `　I didn't fight at all.`@` ...I've just been led around by chance and the whims of others...`@
 br
 ;　……いじめと戦う。@……私は何と大それたことを口にしたんだろう。\
-`　...To fight bullying. `@`...What a rediculous thing to say.`\
+`　...To fight bullying. `@`...What a ridiculous thing to say.`\
 
 ld c,YUK_Def1,80
 
@@ -9695,7 +9695,7 @@ bg kyou_03,22
 ;ld l,MAR_def3,80
 
 ;「……それはきっと、大変なことだと思うけれど……？」\
-`"...That's goint to be really hard to do though...?"`\
+`"...That's going to be really hard to do though...?"`\
 
 bg black,22
 
@@ -9796,7 +9796,7 @@ ld r,MAR_W1,80
 cl r,42
 
 ;　毬枝はやわらかな微笑みを残し、姿を消す。\
-`　With a warm smile, Marie's figure disappaers.`\
+`　With a warm smile, Marie's figure disappears.`\
 
 ;mbg white,23
 ;mcbg 23
