@@ -48,7 +48,7 @@ br
 `　And there, the door to the rooftop.`\
 
 ;　屋上という名の行き止まりを意味するそこは、少女にとっての終着駅であり、@………でも彼女はそこを、新たな出発の場所だと信じていた。\
-`　That dead-end place known as the rooftop was her last stop,`@` ...but she believed that it was a point of a new departure.`\
+`　That dead-end place known as the rooftop was her last stop,`@` ...but she believed that it was the point of a new departure.`\
 
 mbg black,22
 
@@ -187,7 +187,7 @@ me1v 5,50
 `　Heading out onto the rooftop, the sharp open air violently scattered her hair with a gush of wind.`@
 br
 ;　校庭では、部活の生徒たちが楽しげに汗を流しているのが見える。\
-`　I could see the other students out doing their club sweating it out in the courtyard.`\
+`　I could see the other students out doing their club activities, sweating it out in the courtyard.`\
 
 ;「……馬鹿みたい。@どいつもこいつも、クズばっか。」@
 `"...Idiots.`@` Nothing but garbage, every single one of them."`
@@ -214,7 +214,7 @@ br
 ;　ここは、低俗なる者たちの住まう世界。@
 `　This is a world where vulgar beings live.`@
 ;　それが天のミスで、私をここへ産み落とすというあってはならぬことを許したのだ。@
-`　And by a mistake from the heavens, I was allowed to be born into this world hence I do not belong.`@
+`　And by a mistake from the heavens, I was allowed to be born into this world where I do not belong.`@
 br
 ;　つまり、私がここにいることが、間違っているのだ。\
 `　In other words, the fact that I am here -- that's what's wrong.`\
@@ -298,7 +298,7 @@ bg okujou_01u,24
 ld c,MAR_Def3a,2
 
 ;　だから振り返ると、@……臆病そうな少女が、フェンスの上に座る私を見上げているのが見えた。\
-`　I turned around, `@`...and I saw a timid looking girl gazing up at me as I sat on the face.`\
+`　I turned around, `@`...and I saw a timid-looking girl gazing up at me as I sat on the fence.`\
 
 ld c,MAR_I1a,80
 
@@ -306,7 +306,7 @@ ld c,MAR_I1a,80
 `"Please come down from there. `@`It's dangerous up there!......"`@
 br
 ;　無責任な言葉を繰り返し、私にここから降りろと命じるのだ。\
-`　Ordering me to get down from here, she reiterates her irresponsible words, .`\
+`　Ordering me to get down from here, she reiterates her irresponsible words.`\
 
 ;　……もう、命令はたくさん。@
 `　...I've had enough orders.`@
@@ -399,7 +399,7 @@ quakey 1,100
 mbg black,22
 
 ;「私は違うのよ。@……私は知的で高潔。@そう、私は天才なの。@それがあまりに逸脱してるから、この愚かな世界では理解されないだけ。@そう、ここは白黒テレビの世界なの。@テレビが白黒なんだもの、何を映したって、全て白黒。@私という総天然色の存在だって、この世界ではただの白黒にしか見えない。私には私に相応しい高貴な世界があるの。@死は、そんな私を、相応しい世界へ連れて行ってくれるだけの、@渡し舟でしかないのよ。」\
-`"I'm different. `@`...I am intelligent and noble. `@`That's right, I'm a genius. `@`Since I'm so different, I just cannot be understood in this foolish world. `@`Yes, this is a world of black and white television. `@`Since the television is black and white, no matter what is projected, it all comes out monochrome. `@`For a full color being such as myself, I can only see black and white in this world. There is a high class world for me. Death, will take me to that world. It is only my ferry"`\
+`"I'm different. `@`...I am intelligent and noble. `@`That's right, I'm a genius. `@`Since I'm so different, I just cannot be understood in this foolish world. `@`Yes, this is a world of black and white television. `@`Since the television is black and white, no matter what is projected, it all comes out monochrome. `@`For a full color being such as myself, I can only see black and white in this world. There is a high class world for me. Death will take me to that world. It is only my ferry."`\
 ;(Translator's note) Probably too long to fit on one page
 
 mcbg 22
@@ -583,14 +583,14 @@ ld l,HIG_W3,22
 ld l,HIG_W2,80
 
 ;「……あら、毬枝じゃない。@うっふふふふふふふふふふふ、御機嫌よう。」@
-`"...Well, if it isn't Marie.`@` Mmhmhmhmhmhm, How do you do?"`@`
+`"...Well, if it isn't Marie.`@` Mmhmhmhmhmhm, how do you do?"`@`
 ;＜彼岸花
 
 ld r,MAR_I4a,22
 ld r,MAR_I3a,80
 
 ;「その子は、……可哀想な子なんです…！@　きっといつか、自分の過ちに気付いてくれますから……、@だから許してあげて下さい…！」\
-`"It's just that, ...that girl is much too pitiful...!`@` I'm sure someday, she will realize the error of her ways...,`@` So please, forgive her...!"`\
+`"It's just that, ...that girl is much too pitiful...!`@` I'm sure someday, she will realize the error of her ways...,`@` so please, forgive her...!"`\
 ;＜毬枝
 
 ld l,HIG_Def5,80
@@ -607,8 +607,8 @@ ld l,HIG_W4,80
 
 ld r,MAR_I1a,80
 
-「それは、彼岸花さんがそう唆したからで……。」@
-"That was because you tempted her..."`@`
+;「それは、彼岸花さんがそう唆したからで……。」@
+`"That was because you tempted her..."`@
 ;＜毬枝
 
 cl l,0
@@ -652,7 +652,7 @@ br
 `　...So perhaps it was she who was foolish.`@`
 br
 ;　自分の意見を、周囲に理解させるという能力の欠落した、愚かな少女だった…。\
-`　She was a foolish girl whose own opinions made her lack the power of being understood by those around her.
+`　She was a foolish girl whose own opinions made her lack the power of being understood by those around her.`\
 
 ;bg black,22
 ;bg okujou_02,22
@@ -784,7 +784,7 @@ quakey 4,300
 `　Then all at once, the thicket of higanbana,`@`/
 me1v 16,50
 ;……まるで爬虫類を思わせる機敏な動きで伸びて、天へ逃れようとする魂を捕らえ、花弁の口で飲み込んだ。@
-`...Like serpents, they shot out quickly and captured the soul that was trying to escape to the heavens and swallowed it in the mouths of their petals.`@`
+` ...like serpents, they shot out quickly and captured the soul that was trying to escape to the heavens and swallowed it in the mouths of their petals.`@`
 br
 ;　それは花の姿を模した無数の蛇たちが、一斉に獲物に飛び掛かったように見えた…。\
 `　I could see what looked like countless snakes imitating flowers leaping upon their prey all at once...`\
@@ -906,7 +906,7 @@ me1v 5,50
 ld r,HIG_W4,80
 
 ;「くすくすくす、そんな子に甘く囁き掛けて、保健室へ逃げる喜びを教えてあげるの。@それから、ゆっくりと死へ誘ってあげるのよ。@……きっといるわ、そんな可哀想な子がね。@だって、この学校、とても大きくて広いもの。@………くすくすくすくすくすくす。」\
-`"Teeheehee, I'll sweetly whisper to that child, and teach them the delight in running to the school infirmary.`@` And from them, I'll slowly invite them to die.`@` ...I'm sure a pathetic girl like that is here.`@` Because this school is so very large and wide.`@` ...Teeheeheehee..."`\
+`"Teeheehee, I'll sweetly whisper to that child, and teach them the delight in running to the school infirmary.`@` And from then on, I'll slowly invite them to die.`@` ...I'm sure a pathetic girl like that is here.`@` Because this school is so very large and wide.`@` ...Teeheeheehee..."`\
 ;＜彼岸花
 
 cl r,2
@@ -1354,7 +1354,7 @@ me3v 17,50
 `　Then, ...I'll pay just so that I'll never have to return to school again.`@
 br
 ;　それだけの、……私の体に許されている、一番大きな支払いをする覚悟があるならば。\
-`(?)　Just for that... as long as my body is willing I'm prepared to pay the greatest price.`\
+`(?)　Just for that... as long as my body is willing, I'm prepared to pay the greatest price.`\
 
 bg toire_03,0
 ld c,YUK_Def3a,22
@@ -1770,7 +1770,7 @@ ld l,YUK_Def2a,80
 ;bg Different_spiral_1a,22
 
 ;「妖怪になれば、もう誰にもいじめられなくなるなんて、そんな甘えは持たないで下さい。@……死者の魂がどれほど無力で、どれほど無残にいじめられているか。@……生きているあなたにはわからないと思います。@でも、それをあなたが身をもって知った時には、もう手遅れです。」\
-`"Please don't think that if you become a youkai you won't be bullied by anyone any longer. `@`...Just how powerless dead souls are, and how cruel the brutality becomes. `@`...I don't think you can quite understand that while you're still alive. `@`But, by the time you learn of it with your own body it's already too late."`\
+`"Please don't think that if you become a youkai you won't be bullied by anyone any longer.`@` Just how powerless dead souls are, and how cruel the brutality becomes...`@` I don't think you can quite understand that while you're still alive. `@`But by the time you learn of it with your own body, it's already too late."`\
 
 ;bg Different_spiral_1b,22
 ld r,MAR_Def3a,22
@@ -1907,7 +1907,7 @@ br
 ;　この哀れな少女、榊由香里は、自分が試すべきであった試みを、全て試していた。@
 `　This pitiful girl, Yukari Sakaki, she tried everything she was supposed to try.`@
 ;　そして、いじめを無視しろという過酷な助言を信じ、@……彼女は今日まで頑張ってきた。@
-`　Believed the strict advice of ignoring the bullying, `@`...she has endured until today.`@
+`　Believing the strict advice of ignoring the bullying,`@` ...she has endured until today.`@
 br
 ;　でも、もう。@
 `　And yet already.`@
@@ -2007,7 +2007,7 @@ ld l,YUK_Def2,22
 ;　母親の死から、彼女も父親も、次第に立ち直った。@
 `　After her mother's death, even her father gradually began to get back on his feet.`@
 ;　時間は、どんな惨たらしい心の傷だって、やさしく癒してくれる。@
-`　Whatever horrific emotional scars we might have, time, will gently mend them.`@
+`　Whatever horrific emotional scars we might have, time will gently mend them.`@
 br
 ;　そうして、榊由香里が元の世界に戻ってきた時。@
 `　With that, when Yukari Sakaki returned to her former world.`@
@@ -2123,7 +2123,7 @@ ld c,MAR_I4,22
 ;　森谷毬枝は、決意する。@
 `　Marie Moriya decided.`@
 ;　学校妖怪序列第８位。@めそめそさんの毬枝は、決意する。@
-`　The Eighth Ranking of the School Youkai. `@`Mesomeso-san Marie, decided.`@
+`　The Eighth Ranked of the School Youkai. `@`Mesomeso-san Marie, decided.`@
 br
 ;　彼女を救おうと。@
 `　She would save her.`@
@@ -2176,13 +2176,13 @@ br
 ;　その背中に、誰かの体操服袋がぶつけられたのだ。@
 `　Someone's gym bag knocked her in the back.`@
 ;　それによろめき、壁に頭をぶつけてうずくまる彼女に浴びせられたのが、その言葉と嘲笑だった。\
-`　Staggering from that, she bumped her head in the wall, and the girl showered her with those words of scorn.`\ 
+`　Staggering from that, she bumped her head against the wall, and the girl showered her with those words of scorn.`\ 
 
 ;　彼らは、由香里に執拗に絡む、いじめっ子たちだった。@
 `　They were the ones always finding fault with Yukari -- they were her bullies.`@
 br
 ;　クラス全体が彼女をいじめ、あるいはそれを容認する。@そんな中で、彼らはもっとも執拗な、性質の悪い連中の筆頭だった。\
-`　The entire class bullied her, or perhaps, they approved of it. `@`Among them, there was a leader of a gang of particularly a persistent ill repute bunch.`\
+`　The entire class bullied her, or perhaps, they approved of it.`@` Among them, there was the leader of a particularly persistent ill-reputed gang.`\
 
 ;bg black,23
 ;bg kyou_02,0
@@ -2252,7 +2252,7 @@ bg rouka_03,22
 ld r,YUK_Def2,22
 
 ;　由香里はただ、心を凍らせて、何も考えないようにしながら、廊下を歩く。@
-`　Yukari had turned her heart to ice, and as she forced herself not to think of anything, she walks down the hallway.`@
+`　Yukari's heart had turned to ice, and as she forced herself not to think of anything, she walks down the hallway.`@
 br
 ;　足早にでなく、……いつものように。@
 `　Not in a hurried pace, ...but as she always does.`@
@@ -2429,7 +2429,7 @@ me1v 24,50
 ;「絶対？」@
 `"Really?"`@`
 ;「だってそうだろ。@……あの女の時だって、遺書なんて出なかっただろ。」\
-`"Well, I mean come on.`@` ...Even during that time with the one bitch, she didn't write a will, right?"`\
+`"Well, I mean come on.`@` ...Even during that time with that one bitch, she didn't write a will, right?"`\
 ;　いじめっ子たちは、顔を見合わせる。@
 `　The bullied kids all met each other's eyes.`@
 ;　あぁ、と思い出した表情や、ぽんと手を打つような仕草。@
@@ -2523,7 +2523,7 @@ me1v 5,50
 `　Twilight, after school.`@`
 br
 ;　生徒たちのほとんどは下校し、校庭で遊んでいた生徒も、我先に片付けを急ぐような、夕刻。@
-`　Most of the students had already gone home, and the ones who had been playing in the courtyard were scrambling to be the first to finish with clean up duty -- it was that sort of evening.`@`
+`　Most of the students had already gone home, and the ones who had been playing in the courtyard were scrambling to be the first to finish with cleaning up duty -- it was that sort of evening.`@`
 br
 ;　尾崎は舌打ちをしながら、再び校門を潜っていた。\
 `　While smacking his lips, Ozaki once again passed under the school gate.`\
@@ -2531,13 +2531,13 @@ br
 `　His parents were both working and wouldn't be home until late.`@`
 br
 ;　だから、家に真っ直ぐ帰らず、そのまま友達の家に寄り道するのが彼の日課だった。\
-`　So it was his daily routine to drop in at a friends' house without going straight home.`\
+`　So it was his daily routine to drop in at a friend's house without going straight home.`\
 
 ;　そうして家に帰り、テレビでも見ながら両親の帰りを待とう。@
 `　After that, he'd go back home and wait for his parents while watching TV.`@`
 br
 ;　そう思い帰宅して、……鍵がないことに、気が付いた。\
-`　As he thought about that on his way home, ...he noticed -- he didn't have a key.`\
+`　As he thought about that on his way home, ...he noticed -- he didn't have his key.`\
 
 bg black,22
 
@@ -2555,7 +2555,7 @@ br
 bg gakkou_01u,22
 
 ;　寄り道した友達の家にも鍵はなく。@
-`　His key wasn't at his friends' house he'd stopped by.`@`
+`　His key wasn't at his friend's house he'd stopped by at.`@`
 br
 ;　今日一日の足取りを巻き戻すかのように辿り、@……最後に辿り着いたのが、学校の校門だったのだ。\
 `　He retraced his steps for the entire day,`@` ...and the last place he arrived was at the school gates.`\
@@ -2617,7 +2617,7 @@ br
 ;　すのこを捲ってみても、鍵は見当たらなかった。\
 `(?)　Even after looking under the matting in the rack, he couldn't see his key.`\
 ;　ここにないなら、……もう、靴を脱いで、上履きに履き替えなければならない。@
-`　If it's not here, ...he had to take off his shoes and slip into the indoor slippers.`@`
+`　If it's not here, ...he'd have to take off his shoes and slip into his indoor slippers.`@`
 br
 ;　それは尾崎にとって、一度下校した校門を再び潜る以上に不快なことだった。\
 `　As far as Ozaki was concerned, that was more unpleasant than having gone home once and going back through the school gates again.`\
@@ -2755,7 +2755,7 @@ bg kyou_02u,23
 `　In and around his desk. `@`He even checked in other desks, but he couldn't find it.`@
 br
 ;　……もうじき、親が帰ってくるだろうから、いつまでも外で待ち惚けにはならないだろう。@
-`　...Since his parents would probably return soon, and they probably wouldn't leave him outside forever.`@
+`　...His parents would probably return soon, and they probably wouldn't leave him outside forever.`@
 ;　しかし、鍵をなくしたとなれば、親に怒られる。\
 `　However, if he lost his key, his parents would be upset with him.`\
 
@@ -2786,10 +2786,10 @@ bg kyou_03,22
 ;quakey 1,100
 
 ;「………最悪だな、畜生…。@……マジでどこ行ったんだよ、……鍵……。」@
-`"...Shit, ...this sucks. `@`...Seriously, where did you go... key..."`@
+`"...Shit, ...this sucks.`@` ...Seriously, where did you go, key...?"`@
 br
 ;　夜の学校に対する恐怖は、焦りに変わり、最後には未だ姿を現さない鍵への怒りに変わった。\
-`　The fear Ozaki had from being at school at night changed to impatience, and then when they key refused to show itself, it finally changed into anger.`\
+`　The fear Ozaki had from being at school at night changed to impatience, and then when the key refused to show itself, it finally changed into anger.`\
 
 ;　しかし、彼の感情などどうでもいいかのように、まったく無情に、@……彼の鍵は、どこにも見つからなかった。\
 `　However, regardless of his emotions, without any emotion, `@`...his key, still couldn't be found anywhere.`\
@@ -2972,7 +2972,7 @@ bgm1 14
 `　There was no mistake, it was the key he had long been searching for.`\
 
 ;　それが、ぽつんと、個室の奥に、……まるで彼という隠れん坊の鬼から隠れていたみたいに、……ちょこんと、置かれていた。@
-`　Inside the stall, by itself... it had seemed almost as it was hidden there by a demon in a game of hide and seek.... and so there it was.`@
+`　Inside the stall, by itself... it had seemed almost as if it was hidden there by a demon in a game of hide and seek.... and so there it was.`@
 br
 ;　ここに入った記憶はない。@
 `　He had no memory of going in here.`@
@@ -2980,7 +2980,7 @@ br
 `　Then why was his key in a place like this?`\
 
 ;　……誰かが見つけて、汚い汚いと言ってふざけて、この個室へ蹴り込んだのだろうか。@
-`　...Perhaps someone saw it said 'yuck disgusting' and then kicked it into this stall.`@
+`　...Perhaps someone saw it, said 'yuck disgusting' and then kicked it into this stall.`@
 ;　ありえる想像だった。@
 `　That was a plausible guess.`@
 br
@@ -3118,7 +3118,7 @@ bg black,22
 bg toire_04,2
 
 ;　ぱん、という乾いた音と、明滅する明かりが、わずかに彼を照らす。@
-`　With a dry buzz sound, a blinking beam slightly shined on him.`@
+`　With a dry buzzing sound, a blinking beam shined on him slightly.`@
 br
 ;　男子便所内の蛍光灯が一本だけ、か弱い明かりを灯した。\
 `　Only a single fluorescent ceiling lamp in the boy's bathroom gave off its dim light.`\
@@ -3208,7 +3208,7 @@ br
 `　Now he clearly heard that sound that was so slight it couldn't even be called a sound.`\
 
 ;　その気配の主は、………あろうことか、………そこにいる。@
-`　That object of that sensation, ...strangely enough ... it was there.`@
+`　The object of that sensation, ...strangely enough ... it was there.`@
 br
 ;　すぐ、そこ。@
 `　Right, there.`@
@@ -3228,7 +3228,7 @@ br
 ;　気のせいだ……。@早くこんなところから出よう……。@
 `　It's my imagination... `@`I'll just get out of here...`@
 ;　そう思い、扉に手を掛けようとした瞬間。@
-`　He thought, and then the moment he moved to put his hand on the door.`@
+`　He thought, and then the moment he moved to put his hand on the door...`@
 br
 
 quakex 1,100
@@ -3251,9 +3251,9 @@ me3v 28,70
 `　Why, ...did... you just come here.... to cry...`@
 br
 ;　べ、便所なら他にも個室があるだろ、何で俺の個室の前でわざわざ泣いてるんだよ…。@
-`　There are other stalls in the bathroom right, so why are you crying in front of my stall...`@
+`　There are other stalls in the bathroom, right? So why are you crying in front of my stall...?`@
 ;　あっち行けよ、泣くなよ、……誰だよ、一体……！！\
-`　Go away, stop crying, ...who are you? dammit...!`\\
+`　Go away, stop crying, ...who are you? Dammit...!`\\
 
 bg black,22
 mono 0
@@ -3275,7 +3275,7 @@ br
 `　That crying of mesomeso, began freezing the blood in his legs one by one...`@
 br
 ;　足元から、皮膚に霜柱が立つような感触が上ってきて、……それが脳にまで届いた時、@……思い出したくなかったことを、思い出させられる。\
-`　From his legs, he felt like rows of ice stood up on his skin, ...and by the time that reached his head, `@`...it made him remember what he did not want to remember.`\
+`　From his legs, he felt rows of ice stand up on his skin, ...and by the time they reached his head,`@` ...it made him remember what he did not want to remember.`\
 
 bg black,22
 
@@ -3326,7 +3326,7 @@ br
 `　This time clearly. `@`Steadily.`\
 
 ;　心の中だけに聞こえるというような、曖昧なものじゃない。@
-`　It wasn't ambiguous like something that could only be hear inside of his head.`@
+`　It wasn't ambiguous like something that could only be heard inside his head.`@
 br
 ;　心臓の鼓動と、明滅する蛍光灯の乾いた音に混じって、@……はっきりと鼓膜で直接感じた、声だった。\
 `　It mingled with his heart's palpitations and the dry flickering sound of the blinking fluorescent light,`@` ...it was a voice he felt distinctly and directly in his eardrums.`\
@@ -3342,7 +3342,7 @@ bg Different_spiral_1a,22
 `　The newly born Eighth Mystery. `@`"Mesomeso-san."`@
 br
 ;　それは、旧校舎の便所に出るという、新しい怪談の妖怪。\
-`　A new tale of a youkai who appears in the old school bathrooms.`\
+`　The new tale of a youkai who appears in the old school bathrooms.`\
 
 ;　……ふざけんなよ、ここ、旧校舎じゃねぇだろ、出るとこ間違ってんじゃねぇのかよぉ……。@
 `　...You have to be shitting me, this place, it can't be the old school building right? So there's no way it'd show up heeeere...`@
@@ -3353,7 +3353,7 @@ br
 bg blood_1a,22
 
 ;　めそめそさんは、旧校舎の便所で殺された少女の怨霊らしい。@
-`　It seemed like Mesomeso-san is a vengeful spirit of a girl who was killed in the old school bathrooms.`@
+`　It seemed like Mesomeso-san was the vengeful spirit of a girl who was killed in the old school bathrooms.`@
 br
 ;　自分が殺された便所にやってくる人がいると現れて、@自分が殺された時のことを聞かせようとするらしい。\
 `　It appears when people come into the bathroom it was killed in, `@`and it seems to ask people to hear about the time it was killed.`\
@@ -3397,7 +3397,7 @@ br
 `　Ozaki covers both his ear and mouth with his hands.`\
 
 ;　右手で口を塞ぎ、もはや自分の意思では堪えることも出来ない、恐怖の叫びを押さえ込む。@
-`　Already unable to control it with his own willpower, His right hand covers his mouth to stifle his scream.`@
+`　Already unable to control it with his own willpower, his right hand covers his mouth to stifle his scream.`@
 ;　そして左手で左の耳を塞ぎ、めそめそさんの泣き声が耳に入らないようにする。@
 `　And with his left hand, he covers his left ear as if to stop Mesomeso-san's cries from entering.`@
 br
@@ -3595,7 +3595,7 @@ br
 `　...After all.`@`
 br
 ;　彼が無くした無くしたと繰り返していた家の鍵は、@…………彼のポケットに、普通に入っていたのだから。\
-`　That house key that he kept repeating was gone `@`...was right in his pocket, where as it usually was.`\
+`　The house key that he kept repeating was gone`@` ...was right in his pocket, where it usually was.`\
 
 fede 10,1000
 E_MA
@@ -3603,7 +3603,7 @@ E_MA
 bg k_rouka_03,22
 
 ;　教師も、めそめそさんの怪談は知っていた。@
-`　The teacher also knew of the story of MesoMeso-san.`@`
+`　The teacher also knew the story of Mesomeso-san.`@
 ;　この一件を他の生徒が知ると、面白がって噂し合って、騒ぎが無駄に大きくなるだろう。@
 `　If other students knew of this case, they would amuse themselves with rumors, and the uproar would surely become pointlessly huge.`@`
 br
@@ -3626,7 +3626,7 @@ E_B
 bg okujou_03u,2
 
 ;　尾崎はふらふらと、今にも転んでしまいそうな足取りで校庭を横断し、校門を出て行く。@
-`　Ozaki staggered, and in with a gait like he still might fall over now, he crossed the school yard, and exited the school grounds.`@`
+`　Ozaki staggered, and with a gait like he still might fall over now, he crossed the school yard, and exited the school grounds.`@`
 
 br
 ;　その背中をじっと見送る、人ならざる者の目……。\
@@ -3670,7 +3670,7 @@ ld r,MAR_Def2,22
 ld l,HIG_W3,22
 
 ;「大丈夫よ。@……学校妖怪序列第８位のめそめそさんが、@魂を半分食い千切って警告してあげたんだから。@見ての通り、あの様だもの。@明日からは、誰か人をいじめるような気力は、当分、戻らないでしょうよ。@……くすくすくすくす。」\
-`"It's fine.`@`...The school's eighth ranking youkai MesoMeso-san,`@` bit half of his soul off as a warning.`@` As you can see, it looks like he will stop.`@` Starting tomorrow, I doubt that willpower to bully anyone will ever return to him.`@` ...Teeheeheehee."`\
+`"It's fine.`@`...The school's eighth ranking youkai Mesomeso-san,`@` bit half of his soul off as a warning.`@` As you can see, it looks like he will stop.`@` Starting tomorrow, I doubt that willpower to bully anyone will ever return to him.`@` ...Teeheeheehee."`\
 
 ld r,MAR_def4a,80
 
@@ -3798,7 +3798,7 @@ ld l,HIG_W2,80
 ld r,MAR_I4a,80
 
 ;「そうはさせません。@……この、めそめその毬枝が、あの子を守ります。」\
-`"I won't let you do that.`@` ...I, MesoMeso Marie, will protect that girl."`\
+`"I won't let you do that.`@` ...I, Mesomeso Marie, will protect that girl."`\
 
 bg black,22
 
@@ -3836,7 +3836,7 @@ ld l,MAR_I4a,80
 ld r,HIG_Def3,80
 
 ;「見せてもらおうかしらね、しばらく。@……めそめその毬枝が、何をどの程度やれるのかを、ね。」@
-`"Well then, I'll let you show me for a while.`@` ...Show me what MesoMeso Marie is capable of."`@`
+`"Well then, I'll let you show me for a while.`@` ...Show me what Mesomeso Marie is capable of."`@`
 br
 ;　彼岸花は、くるりとスカートをなびかせて、姿を消す。\
 `　With a turn, her skirt billowing in the wind, Higanbana disappears.`\
@@ -3913,7 +3913,7 @@ br
 ;　尾崎は、気が抜けたようにぼんやりと、机に顔を伏して放心している。@
 `(?)　Ozaki, as if he had lost his spirit, rested his head on the desk.`@
 ;　その向こうでは、由香里の席に落書きをして盛り上がる、いつものいじめっ子のグループがいた。\
-`　And across from him, excited from having writing graffiti on Yukari's desk, was the usual group of bullies.`\ 
+`　And across from him, excited from having written graffiti on Yukari's desk, was the usual group of bullies.`\ 
 
 ;　……確かに尾崎は、めそめそさんとの約束を守ったのだ。@
 `　...Ozaki had kept his promise to Mesomeso-san.`@
@@ -4003,11 +4003,11 @@ bg kyou_01,22
 
 br
 ;　その人数は、……とりあえず、四人。@
-`　Their numbers, ...for the time being, was four people.`@`
+`　Their number, ...for the time being, was four people.`@
 
 br
 ;　その四人も次々に学校の夜に呼び出し、@尾崎にしたように、めそめそさんとして警告を与えるべきだろうか。\
-`　I wonder if I should call each of those four people one after the other to the school at night,`@` and grant them a warning as MesoMeso-san in the same way I did to Ozaki.`\
+`　I wonder if I should call each of those four people one after the other to the school at night,`@` and grant them a warning as Mesomeso-san in the same way I did to Ozaki.`\
 
 ;　恐らくは無駄なことだ。@
 `　It's probably pointless.`@`
@@ -4017,7 +4017,7 @@ br
 `　Those four people may withdraw,`@`...even if they did, different bullies would rise up and accept those roles.`\
 
 ;　それに、尾崎に続き、四人もの人間にめそめそさんとして警告を与えることは、@容易なことではなかった。@
-`　Besides, continuing from Ozaki and offering a warning as MesoMeso-san to four more humans --`@` that was no easy feat.`@`
+`　Besides, continuing from Ozaki and offering a warning as Mesomeso-san to four more humans --`@` that was no easy feat.`@`
 br
 ;　それは、毬枝の妖怪としての都合による。\
 `　This was in accordance to Marie's circumstances as a youkai.`\
@@ -4073,7 +4073,7 @@ bg black,22
 bg e013,22
 
 ;　その妖力を取り戻すには、@月の満ち欠けに身を任すか、狩りを行ない人間の魂を食らうか、いくつかの方法がある。@
-`　There are countless ways to regain that spiritual energy,`@` such as entrusting ones' body to the waxing and waning of the moon or hunting and feasting upon the soul of a human.`@`
+`　There are countless ways to regain that spiritual energy,`@` such as entrusting one's body to the waxing and waning of the moon or hunting and feasting upon the soul of a human.`@`
 br
 ;　狩りをしない毬枝の場合、妖力を回復する唯一の方法は、時間だけ。\
 `　In the case of Marie, who will not hunt, the only way to replenish her spiritual energy is to give it time.`\
@@ -4114,7 +4114,7 @@ ld c,MAR_I4a,80
 `　I don't know, but I can't give up.`@`
 br
 ;　私が挫けたら、誰が由香里ちゃんを助けてあげるの。\
-`　If I give up, who will save Yukari-chan?
+`　If I give up, who will save Yukari-chan?`\
 
 bg black,22
 
@@ -4205,7 +4205,7 @@ ld r,HIG_Def1,22
 bgm1 5
 
 ;「御機嫌よう、毬枝。@どう？@　あの子を救ってあげられる方法は見つかった…？」@
-`"How are you doing, Marie. `@`Well? `@`Have you found a way to save that girl...?"`@
+`"How are you doing, Marie?`@` Well?`@` Have you found a way to save that girl...?"`@
 
 ld l,MAR_Def4,23
 
@@ -4264,7 +4264,7 @@ br
 `　Once it was pointed out to her that her clothes were smelly and dirty, she understood the torment had just started,`@` and now she pays special attention to her hygiene.`\
 
 ;　そこだけを切り出したなら、もはや彼女がいじめられる理由など存在しないのだ。@
-`　She thought that just bringing an end to that, she had forced all motives for her torment to cease.`@`
+`　She thought that just by bringing an end to that, she had forced all motives for her torment to cease.`@`
 ;　しかし、彼女にはいじめられっこの烙印が押されてしまった。@
 `　However, she'd already had the label of 'bullied girl,' pushed onto her.`@`
 br
@@ -7956,7 +7956,7 @@ ld l,SMI_W5,23
 ld l,SMI_W4,80
 
 ;「止めろと申すか。@……ふっふふっふふ、ひひははははははははははは！！@　彼岸花に聞いたのじゃ。@めそめその毬枝は、時に狩りの邪魔をする困ったヤツだとな。@……しかし、我等は学校妖怪。@狩りをするも自由。@それを邪魔するも自由じゃ！@　そして、止めろとの申し出に、耳を貸さぬことさえ自由というもの。」\
-`"You're telling me to stop?`@` ...Fufufufu, heeheehahahahahahahahahahahaha!!!`@` I heard from Higanbana.`@` I heard that MesoMeso Marie was a troublesome creature that gets in the way of hunting.`@` ...Regardless, we are school Youkai.`@` We have the freedom to hunt.`@` And we have the freedom to stand in the way as well!`@` And so naturally, we have the freedom to refuse to listen to your suggestion for me to stop."`\
+`"You're telling me to stop?`@` ...Fufufufu, heeheehahahahahahahahahahahaha!!!`@` I heard from Higanbana.`@` I heard that Mesomeso Marie was a troublesome creature that gets in the way of hunting.`@` ...Regardless, we are school Youkai.`@` We have the freedom to hunt.`@` And we have the freedom to stand in the way as well!`@` And so naturally, we have the freedom to refuse to listen to your suggestion for me to stop."`\
 
 ld r,MAR_I3,24
 
@@ -7971,7 +7971,7 @@ ld l,SMI_W1,80
 ld r,MAR_I4a,80
 
 ;「…………学校妖怪序列第８位。@……めそめその毬枝として、お相手します。」@
-`"...As the 8th Ranked School Youkai.`@` ...As MesoMeso Marie, I will become your opponent."`@`
+`"...As the 8th Ranked School Youkai.`@` ...As Mesomeso Marie, I will become your opponent."`@`
 
 ld l,SMI_W3,80
 
@@ -9319,7 +9319,7 @@ E_B
 `"........."`\
 
 ;　かつて執拗にいじめていた尾崎は、……めそめそさんに脅され、二度と榊由香里をいじめないと誓った……。@
-`　The formerly obstinate bully Ozaki, ...had been threatened by MesoMeso-san, and haad sworn he'd never pick on Yukari Sakaki again...`@`
+`　The formerly obstinate bully Ozaki, ...had been threatened by Mesomeso-san, and haad sworn he'd never pick on Yukari Sakaki again...`@`
 br
 ;　しかし、彼の眼はぎょろりと邪悪に歪む。@そしてニヤリと笑うのだ。\
 `　However, his eyes warped into a wicked stare.`@` He broadly sneered.`\
