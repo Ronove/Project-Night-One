@@ -56,3 +56,9 @@ This might seem simple, but it would not be very surprising if a bug sneaks in d
 Therefore, I recommend that QA makes sure glossary entires are properly being unlocked...
 
 If there are any problems, send an e-mail to nicolasg@uvic.ca
+
+***************
+Added note:
+***************
+Glossary text color is currently: #ECD672 (Light Gold)
+Sound entry code is: se1v 1011,50

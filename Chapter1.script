@@ -37,7 +37,17 @@ bg black,5
 bg toire_04,5
 
 ;　少女は、男の足音が遠のき、@自分が無人の旧校舎の忘れられたトイレに一人っきりになったことを思い出すと、@そのまま床にへたり込み、めそめそと哀れな涙を零し始めるのだった……。\
-`　As the echoes of the man's footsteps began to fade away, `@`the girl remembered she was helplessly forgotten ― alone in the former school building. `@`As she sank to the floor, she began to shed her tears while sobbing, *mesomeso*......`\
+`　As the echoes of the man's footsteps began to fade away, `@`the girl remembered she was helplessly forgotten ― alone in the former school building. `@`As she sank to the floor, she began to shed her tears while sobbing, #ECD672*mesomeso*#FFFFFF......`\
+
+; Unlocks glossary
+mov %EN_GLOSSARY_UNLOCK,1
+
+; Unlocks first glossary entry
+;(Glossary Entry #1: Mesomeso)
+if %EN_glossary_progress > 1 jumpf
+	mov %EN_glossary_progress,1
+	se1v 1011,50
+~
 
 textoff
 
@@ -83,14 +93,6 @@ bg black,22
 bg "bmp\background\efe\text007.bmp",22
 wait 4000
 bg black,22
-
-; Unlocks glossary
-mov %EN_GLOSSARY_UNLOCK,1
-
-; Unlocks first glossary entry
-if %EN_glossary_progress > 2 jumpf
-	mov %EN_glossary_progress,2
-~
 
 bgm1 5
 
@@ -567,13 +569,13 @@ bg Air_02,22
 me1v 31,50
 
 ;　プール開きが始まり、学校指定の濃紺の水着が眩しい季節になった。@
-`　The pool opening began, and the school-appointed dark blue swimsuits became dazzlingly miracles.`@
+`　The pool opening began, and the school-appointed dark blue swimsuits became dazzling miracles.`@
 br
 ;　……下着にランドセルという組み合わせにもそろそろ飽きてきたところだ。@今度は学校指定水着にランドセルでも背負わせてやろうか。@
 `　......I think I'm just about tired of the underwear and backpack combination. `@`Perhaps this time I'll make her wear that backpack with a school swimsuit.`@
 br
 ;　…きっと、誰も見たことのない、滑稽で馬鹿馬鹿しい格好になるに違いない。\
-`　...Surely, no one has seen it before, and it'll doubtlessly become a laughably stupid look for her.`\
+`　...No doubt it'll be a laughably stupid look for her like no one has ever seen.`\
 
 bg black,22
 
@@ -598,7 +600,7 @@ br
 `　......Plenty of different philosophies have questioned how humans could elevate themselves.`@
 br
 ;　私は、どうすれば自分の人間としての格を上げることができるのか、他人に見下されているように感じずに済むのか、@若い日に真剣に悩んだことがある。\
-`　How could I elevate my own humanity? How could I be at ease without being looked down upon by others? `@`These were things I had worried about in my younger days.`\
+`　How could I elevate myself as a human? How could I be at ease without being looked down upon by others? `@`These were things I had worried about in my younger days.`\
 
 bg k_kyou_03,22
 ;ld c,MAR_Def1,80
@@ -702,13 +704,13 @@ bg shokuin_04,26
 bg shokuin_02,22
 
 ;　始めに思いついたのは、彼女が卒業してからも支配を続け、永遠に私を裏切らないようにすること。\
-`　The first thing I thought of was how I could extend my power over her after she graduated. How could I control her without being betrayed for eternity?`\
+`　The first thing I thought of was how I could extend my power over her after she graduated. How could I control her forever without betrayal?`\
 
 ;　……だが、永遠を維持することなど人の身にできることではない。@
-`　......But our bodies can't last forever.`@
+`　......And it's not like our bodies can last forever either.`@
 br
 ;　となれば、この日々が必ず終わることを前提に、@綺麗に終わらせることを考えなければならないのだ。\
-`　If that's the case, assuming these days have to end, `@`I must think of a way to make them end as cleanly as possible.`\
+`　If that's the case, assuming these days have to end, `@`I must think of a way to make them end as quietly as possible.`\
 
 bg shokuin_03,0
 ld r,KAN_K1,22
@@ -723,7 +725,7 @@ br
 `　After following this chain of logic ...the resulting solution was exceedingly simple.`@
 br
 ;　その回答は、テレビや映画にいくらでも溢れていた。@だからすぐに思いつくことができた。\
-`　This answer was overflowing in countless movies, television programs, and the like. `@`And so it instantly came to mind.`\
+`　This answer was overflowing in countless movies, television programs, and the like, `@`and so it instantly came to mind.`\
 
 bg black,22
 
@@ -862,7 +864,15 @@ br
 bg rouka_04,22
 
 ;　学校妖怪というのはアレだ。@
-`　A school youkai is just that.`@
+`　A school #ECD672youkai#FFFFFF is just that.`@
+
+; Unlocks first glossary entry
+;(Glossary Entry #2: Youkai)
+if %EN_glossary_progress > 2 jumpf
+	mov %EN_glossary_progress,2
+	se1v 1011,50
+~
+
 br
 ;　例えば、夜中に踊り出す理科準備室の骨格標本や、@目が動くという音楽室のベートーベンの肖像。@どこの学校にもあり、@そして大して代わり映えのない学校怪談によく登場するあれらのことである。@
 `　For example, if the science room's skeleton starts to dance in the middle of the night, `@`or if someone sees the moving eyes of the music room's Beethoven statue. `@`Schools everywhere have them, `@`and without a better alternative, they are often introduced in school ghost stories.`@
