@@ -128,6 +128,7 @@ effect 31,18,300,":c;Bmp\Efe\2.bmp"
 
 numalias UMINEKOEND,2901     ;終了フラグ
 numalias EN_GLOSSARY_UNLOCK,2902	;true or false depending on whether or not the glossary was unlocked
+numalias EN_glossary_progress,2903 ;Current index of glossary entry unlocked
 numalias savemodePage,3001         ;セーブ画面ページ収得エリア
 
 numalias savedataTime,3100          ;セーブデータ用時間データ文字エリア
@@ -538,7 +539,6 @@ numalias tips_cha_view,%0 : inc %0 ;TIPSのテキスト数
 numalias EN_glossary_page_max,%0 : inc %0 ;Maximum number of pages in the glossary
 numalias EN_glossary_page_view,%0 : inc %0 ;Page at which glossary opens at
 numalias EN_glossary_current_hint,%0 : inc %0 ;Current hint being displayed
-numalias EN_glossary_progress,%0 : inc %0 ;Current index of glossary entry unlocked
 ;Declare names for hint buttons
 numalias EN_hint_button_0,%0 : inc %0
 numalias EN_hint_button_1,%0 : inc %0
