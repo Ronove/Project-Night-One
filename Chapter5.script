@@ -4912,7 +4912,7 @@ if %UMINEKOEND < 5 mov %UMINEKOEND,5 : mov %END_FLG,5 ;クリアフラグの変更
 goto *b_title
 ;reset
 
-*higan7_opning
+*higan6_opning
 texton
 csp -1
 
@@ -4925,10 +4925,6 @@ setwindow 31,16,22,16,26,26,0,2,20,1,1,#999999,0,0,639,479
 
 mono 0
 E_A
-
-;スミレ衣装フラグ
-mov %smi_Isyou,1
-
-me1v 16,50
+;■とある少女の一日
 
 wait 2000
