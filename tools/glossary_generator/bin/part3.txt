@@ -6,5 +6,5 @@
 
 ;Coordinate setting
   mov %Free2,345 ;X coordinate of text
-  mov %Free3,50 ;Y coordinate of text
+  mov %Free3,0 ;Y coordinate of text
 
