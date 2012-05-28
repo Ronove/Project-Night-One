@@ -3619,7 +3619,7 @@ ld l,MAR_i3a,22
 ld r,SIN_Def2,22
 
 ;「ささやかなものでしょう？@　強欲な学校妖怪たちと違い、私は命を奪うようなことは好みませんので。」\
-`"It's only a little bit, right?`@` Unlike the greedy School Youkai, it is not to my liking to steal one's life."`\ 
+`"It's only a little bit, right?`@` Unlike the greedy school youkai, it is not to my liking to steal one's life."`\ 
 
 ld l,MAR_i4,80
 

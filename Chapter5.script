@@ -1030,7 +1030,7 @@ br
 ld l,HIK_w2a,22
 
 ;「まさかな。@……はっ。@いるわけないよな、妖怪なんて。」@
-`"No way. `@`...Heh. `@`Youkai don't exist."`@
+`"No way. `@`...Heh. `@`youkai don't exist."`@
 br
 ;　ひかるは土くれで汚れた手を払う。@
 `　Hikaru wipes the dirty hand that held the clump of dirt.`@
@@ -1071,7 +1071,7 @@ ld r,HAM_Def1,2
 ld r,HAM_Def2,80
 
 ;「“いるわけないよな、妖怪なんて”。@……そんなの妖怪が聞いたら、きっと傷つくよ。@存在を否定される辛さは、君もよく知ってるだろう……？」\
-`"'Youkai don't exist'. `@`...If a youkai heard something like that, it would definitely hurt. `@`You're well acquainted with the pain of having your existence denied, aren't you...?"`\
+`"'youkai don't exist'. `@`...If a youkai heard something like that, it would definitely hurt. `@`You're well acquainted with the pain of having your existence denied, aren't you...?"`\
 
 ;　今度は、一瞬の間に、自分の背後に人がいたのだ。@……もう驚愕を超えて、呆然とするしかない。\
 `　This time, in an instant, someone was behind me. `@`...I was beyond frightened -- I was dumbfounded.`\
@@ -1179,7 +1179,7 @@ E_MA
 ld l,HAM_Def2,80
 
 ;「……妖怪じゃないか？」@
-`"...Youkai?"`@`
+`"...youkai?"`@`
 br
 ;　青年がまるで先回りでもするようにひかるの考えを口にする。\
 `　The young man, as though anticipating it, spoke what Hikaru was thinking.`\
@@ -1357,7 +1357,7 @@ ld r,HIK_Def4,22
 br
 
 ;　犠牲者をねずみに姿を変えてしまうという物騒な妖怪が、……自分に何の用があるというのか。@
-`　What could a dangerous Youkai who turns his victims into rats... want with me?`@`
+`　What could a dangerous youkai who turns his victims into rats... want with me?`@`
 ;　まさか、自分をねずみにするつもりじゃ………。\
 `　He couldn't be, planning on turning me into a rat...`\
 
@@ -3337,7 +3337,7 @@ ld r,HAM_Def1,24
 ld r,HAM_Def2,80
 
 ;「これは、どういうつもりですか。@学校妖怪序列第３位の、踊る彼岸花先輩。」\
-`"Excuse me, what are your intentions? `@`School Youkai of the Third Rank, Dancing Higanbana-senpai?"`\
+`"Excuse me, what are your intentions? `@`School youkai of the Third Rank, Dancing Higanbana-senpai?"`\
 
 ;　背後からの声に振り返ると、そこにはいつの間にかハメルンが立っていた。\
 `　I turned around to the voice at my back, and suddenly Hameln was standing there.`\
@@ -3355,7 +3355,7 @@ ld l,HIG_Def2,23
 ld r,HAM_Def2,80
 
 ;「なら、何の御用でしょう？@　何しろ私は非力な妖怪。@学校妖怪八席はおろか、生徒たちにさえ未だ覚えられていない怪談の身ですから。@彼岸花先輩が、じきじきにお出でになられるような心当たりが何もありません。」\
-`"Then what is your business? `@`At any rate, I am a powerless youkai. `@`Unlike The 8th Ranking School Youkai, I'm a being whose story still hasn't caught on in the minds of the students yet. `@`I have no direct knowledge at all of your comings and goings."`\
+`"Then what is your business? `@`At any rate, I am a powerless youkai. `@`Unlike The 8th Ranking School youkai, I'm a being whose story still hasn't caught on in the minds of the students yet. `@`I have no direct knowledge at all of your comings and goings."`\
 
 ld l,HIG_Def5,80
 
@@ -4557,7 +4557,7 @@ br
 ld l,HIG_w3,80
 
 ;「あなたの顔。@悪夢に怯えて目を覚ました寝ぼすけみたいだわ。@………でもね。@本当の悪夢は、これからじゃないかしら。@……私は踊る彼岸花。@学校妖怪八席の中でも、……特に残酷な妖怪なのよ…？@　あなたをそのまま見逃して、私が立ち去るとでも思ったかしら……？」\
-`"Your face.`@` It looks just like one half awake after a nightmare.`@`...But you know.`@` A true nightmare has yet to begin. `@` ...I am the Dancing Higanbana.`@` I am the 8th Rank of the School Youkai, ...and I am a particularly cruel youkai...`@` Did you think that I would overlook you, and take my leave of you...?"`\
+`"Your face.`@` It looks just like one half awake after a nightmare.`@`...But you know.`@` A true nightmare has yet to begin. `@` ...I am the Dancing Higanbana.`@` I am the 8th Rank of the School youkai, ...and I am a particularly cruel youkai...`@` Did you think that I would overlook you, and take my leave of you...?"`\
 
 ld r,HIK_n1,26
 ld r,HIK_n2,80

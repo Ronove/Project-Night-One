@@ -1730,7 +1730,7 @@ ld r,yo2_def1,80
 
 ld l,hig_def1,80
 ;「私もそれがいいと思うわ。@幽霊なんて、楽しいことなんて何もないわよ。@……妖怪だってそう。@だって、私たちには下校はない。@……帰るところはないんだから。」\
-`"I think that's fine too. `@`Being a spirit, there's nothing fun about it. `@`...The same for Youkai. `@`I mean, we can't leave school. `@`...Because we have nowhere to return to."`\
+`"I think that's fine too. `@`Being a spirit, there's nothing fun about it. `@`...The same for youkai. `@`I mean, we can't leave school. `@`...Because we have nowhere to return to."`\
 
 ;bg "bmp\background\school\Air_01.bmp",6
 

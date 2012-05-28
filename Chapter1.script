@@ -867,7 +867,7 @@ bg rouka_04,22
 `　A school #ECD672youkai#FFFFFF is just that.`@
 
 ; Unlocks second glossary entry
-;(Glossary Entry #2: Youkai)
+;(Glossary Entry #2: youkai)
 if %EN_glossary_progress > 2 jumpf
 	mov %EN_glossary_progress,2
 	se1v 1011,50
@@ -1432,7 +1432,7 @@ br
 `　......While I understood that much, I didn't have the courage to simply choose death.`@
 br
 ;　だから、妖怪になって復讐したいなどという、@前向きなのか後向きなのかもわからない、妙な考えになってしまうのだ…。\
-`　After all, becoming a Youkai, wanting revenge and the like `@`― those were strange ideas, and I couldn't tell if they were positive or negative...`\
+`　After all, becoming a youkai, wanting revenge and the like `@`― those were strange ideas, and I couldn't tell if they were positive or negative...`\
 
 bg black,2
 ;wait 3000
