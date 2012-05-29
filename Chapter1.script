@@ -118,7 +118,7 @@ ld r,MAR_Def3,80
 `　The girl's name is Marie Moriya (森谷毬枝).`@
 br
 ;　＊年８組の生徒で、飼育委員を務める心やさしい少女だった。@
-`　An X year student in the 8th class. She was a kind hearted girl who worked as a member of the animal raising committee.`@
+`　An *** year student in the 8th class. She was a kind hearted girl who worked as a member of the animal raising committee.`@
 
 br
 ;　成績は平均。@得意教科はなく、苦手教科は体育。@…その意味では平均よりやや劣る成績と言えたかも知れない。\
@@ -4225,7 +4225,7 @@ br
 `　It's there. `@`......It's in there.`@
 br
 ;　……私は、誰にも見られずに旧校舎に入るため、完全にひと気がなくなる時間まで、@逸る心を抑えて待つしかできなかった……。\
-`　......In order to not be seen by anyone when I entering the old school building, and stay there until I could be completely satisfied, `@`all I could do was hold back my impatient mind and wait......`\
+`　......In order to not be seen by anyone when I entered the old school building, and stay there until I could be completely satisfied, `@`all I could do was hold back my impatient mind and wait......`\
 
 bg black,2
 
@@ -5115,7 +5115,7 @@ csp -1
 `　That crying voice from the other side of the door, `@`......No, ...while Marie's ghost continued its pitiful cries, she began to condemn him with her words......`\
 
 ;「…………あれだけ酷いことを強いて……、………………その最後が殺すことなんて、@…あんまりに酷いです……。@…………ううぅうぅぅぅ……。」\
-`".........You forced me to do horrible things......, .........And then you killed me in the end, `@`...that was cruelest of all...... `@`.........UUuUuuu......"`\
+`".........You forced me to do horrible things......, .........And then you killed me in the end, `@`...that was the cruelest of all...... `@`.........UUuUuuu......"`\
 
 ld r,KAN_K2,22
 ;ld r,KAN_Def1,80
