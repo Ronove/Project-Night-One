@@ -39,7 +39,7 @@ br
 `　When they call me that, it makes me feel different than the rest `@`and just a tad alienated.`@
 br
 ;　でも、みんなが温かにそう呼んでくれるのは、決して悪い気持ちのするものではない。@だから、恥ずかしがりながらも、その呼び名を受け入れている。\
-`　But it's not like anyone has any ill will in warmly referring to me as that. `@`So even though it's a bit embarrassing to admit it, I'm starting to accept being called that.`\
+`　But it's not like anyone has any ill will in warmly referring to me like that. `@`So even though it's a bit embarrassing to admit it, I'm starting to accept that nickname.`\
 
 bg black,22
 
@@ -170,15 +170,15 @@ br
 `　Just like Sakie, Fumie was one of Princess Midori's followers.`\
 
 ;「ねぇねぇ、今月号の『シーキャット』見た？」@
-`"Hey, did you see this month's issue of 'Sea Cats'?"`@
+`"Hey, did you see this month's chapter of 'Sea Cats'?"`@
 ;「うん。すごかったね。@急展開って感じで。」\
 `"Yep. It was awesome, right? `@`I felt it was a dramatic development."`\
 
 ;　『シーキャット』は今、このクラスで人気のある連載漫画だ。@かなりダークな描写があるので、親達や学校には問題視されているが、@クラスの子の大半は隠れて読んでいる。@
-`　'Sea Cats' is a popular serialized manga in this class. `@`Its rather dark themes are seen as a bit of a problem by the parents and the school, `@`however the majority of students in this class are secretly reading it.`@
+`　'Sea Cats' is a popular serialized manga in this class. `@`Its rather dark themes are seen as a bit of a problem by the parents and the school, `@`however the majority of students in this class are reading it behind closed doors.`@
 br
 ;　もちろんみどりもファンの一人で、毎月号欠かさず雑誌を買っている。\
-`　Of course, as one of those fans, Midori doesn't miss an issue and buys it every month.`\
+`　Of course, as one of those fans, Midori doesn't miss a chapter and buys one every month.`\
 
 ;「来月からアニメもスタートだしねっ。@すっごい楽しみ！」@
 `"It seems like there's gonna be an anime starting next month too. `@`I'm soo excited!"`@
@@ -233,10 +233,10 @@ br
 `　Because no other blushing girl in this class had ever received words of gratitude from Midori.`\
 
 ;　楠木みどり。@クラス中の女子の誰もが憧れる、姫と呼ばれる少女。@
-`　Midori Kusunoki . `@`The girl called 'Princess' who every girl in the class yearned for.`@
+`　Midori Kusunoki . `@`The girl called 'Princess' who every girl in the class swooned over.`@
 br
 ;　彼女は何の不足もなく、満ち足りた学校生活を送っていた……。\
-`　Without any insecurities, she lived a completely satisfying school life...`\
+`　She lived a completely satisfying school life without any insecurities...`\
 
 bg black,22
 
@@ -322,7 +322,7 @@ br
 `　Undoubtedly, she felt jealous, and being jealous was all she could do.`@
 br
 ;　それがありありとわかるから、サキエもフミエも不快そうに睨み返している。\
-`　Since it was clear to them, Sakie and Fumie returned that sharply unpleasant glare.`\
+`　Since that was clear to Sakie and Fumie, they returned her sharply unpleasant glare.`\
 
 ;「自分が姫と呼ばれるかと思ったら、それがみどりだったから面白くないんだよ。」@
 `"If I thought I was called princess, I wouldn't like it if Midori was called that."`@
@@ -346,9 +346,9 @@ br
 `　Every day, someone in class said terrible things about Nozomi or played terrible pranks on her.`\
 
 ;　今日だって、誰からどんないじめを受けるか、わかったものではない。@
-`　Who knows what kind of abuse she's suffered today alone.`@
+`　Who knows what kind of abuse she has suffered today alone.`@
 ;　みどりは、こんな朝から、さっそくいじめられるところを見たくはなかった……。\
-`　On this kind of morning, Midori didn't want to immediately look at the bullying taking place...`\
+`　On a morning like this, Midori didn't want to see the bullying start so soon...`\
 
 
 ;　サキエとフミエは、一触即発の緊張感でのぞみを睨みつけている。\
@@ -410,10 +410,10 @@ br
 bg black,22
 
 ;　みどりは、のぞみを救ってやれないことを、気の毒にも思う。@……庇ってあげるべきなのではと思うこともある。@
-`　Midori thought it was pitiful that she couldn't save Nozomi. `@`...She also thought she should stand up for her.`@
+`　Midori thought it was unfortunate that she couldn't save Nozomi. `@`...She also believed she should stand up for her.`@
 br
 ;　しかし実際、川田のぞみは高慢で、自分の家の方が裕福であることを威張っている。@今でも、口を開くことを許されるなら、それを自慢して、みどりを見下したいのだ。\
-`　But in reality, Nozomi Kawada was arrogant and took pride in her family's wealth. `@`Even now if they let her speak up, her pride made her want to look down on Midori.`\
+`　But in reality, Nozomi Kawada was arrogant and took pride in her family's wealth. `@`Even now if they let her speak up, Nozomi's pride made her want to look down on Midori.`\
 
 bg kyou_01,0
 ld r,MID_K1,22
@@ -422,7 +422,7 @@ ld r,MID_K1,22
 `　...Even Midori realized the irrationality of this world.`@
 br
 ;　どんなに親しく接しようとしても、世の中には仲良くなれない人間もいる。@……それが、川田のぞみなのだ。\
-`　That there are people you cannot get along with in this world, no matter how friendly you are to them. `@`...And one of them was Nozomi Kawada.`\
+`　No matter how friendly you are to them there are people you cannot get along with in this world. `@`...Nozomi Kawada was one of them.`\
 
 ;　だから、彼女へのいじめは、……辛いけれど、見て見ぬふりをするしかない。@
 `　It's because the bullying against her ...which might have been cruel, but all she could do was see it or pretend not to see it.`@
@@ -443,7 +443,7 @@ br
 ;　川田さんだってそれをすればいいのに、……どうしてしないの？@
 `　Kawada-san would be fine if only she would too ...but why doesn't she?`@
 ;　家が裕福だって自慢したって、誰もいい顔をしないのに……。@
-`　She brags about her family's wealth, even though no one would be sympathetic...`@
+`　She brags about her family's wealth, even though no one can sympathesize...`@
 br
 ;　去年のクラスでは、それをちやほやしてもらえたかもしれないけれど、@……誰もがお金持ち自慢を持て囃してくれるわけじゃない。\
 `　Last year's class might have spoiled her by letting her get away with that,`@` ...however, it's not like anyone will praise someone for having pride in being a rich person.`\
@@ -572,7 +572,7 @@ br
 `　There are times when I feel that something had to have touched me, `@`and during those times, I've also felt a pain that sends me cowering.`@
 br
 ;　そしてその箇所も、今のように腕であったりお腹であったり背中であったり、一定ではない。\
-`　And like at that point too, like now I'd feel it in my arm, in my stomach, in my back -- it's not a specific place.`\
+`　And like at that point too, like now I'd feel it in my arm, in my stomach, in my back ― it's not a specific place.`\
 
 ;　……最初の頃は、気のせいか何かだろうと考えていた。@
 `　...From the beginning, I've thought about whether it's my imagination or something.`@
@@ -589,7 +589,7 @@ br
 `　If it's so severe, I'll be honest with my parents, and if they think I should, they'll certainly take me to get looked at in the hospital.`\
 
 ;　……紅茶紳士さん。@……これって、何かの病気なの…？\
-`　...Oh, Tea Gentleman. `@`...Just... what kind of sickness is this...?`\
+`　...Oh, Black Tea Gentleman. `@`...Just... what kind of sickness is this...?`\
 
 fede 0,1000
 E_B
@@ -621,7 +621,7 @@ ld c,SIN_Def1,22
 bgm1 18
 
 ;　この不思議な男の人を、私は紅茶紳士さんと呼んでいる。@……いつも現れる時、紅茶を飲んでいるからだ。\
-`　I call this mysterious man the Tea Gentleman. `@`...Because whenever he appears, he's always drinking black tea.`\
+`　I call this mysterious man the Black Tea Gentleman. `@`...Because whenever he appears, he's always drinking black tea.`\
 
 ;　みんなが談笑する教室の中で、@おかしなアレンジをしたタキシード風の格好で、立ったまま紅茶を嗜む謎の紳士。@
 `　In the middle of the classroom filled with idle chatter, `@`in a strangely arranged tuxedo outfit, was a strange gentleman standing and tasting his tea.`@
@@ -656,7 +656,7 @@ ld r,SIN_Def2,80
 `"Well, then it's nothing to worry about."`@
 br
 ;　紅茶紳士は、あっけらかんとそう言う。\
-`　The Tea Gentleman said this indifferently.`\
+`　The Black Tea Gentleman said this indifferently.`\
 
 ld l,MID_K1,80
 
@@ -716,12 +716,12 @@ ld l,SIN_Def1,80
 cl l,2
 
 ;　私が納得すると、紅茶紳士さんは姿を消す。\
-`　When I agreed with him, the Tea Gentleman disappeared.`\
+`　When I agreed with him, the Black Tea Gentleman disappeared.`\
 
 ld r,MID_k1,80
 
 ;　彼は当然、人間ではないだろう。@
-`　He's probably not human`@
+`　He's probably not human.`@
 
 ;　なら、何？@　……オバケとか、……妖怪？@
 `　Then what is he? `@`...A monster? ...a youkai?`@
@@ -730,7 +730,7 @@ br
 `　There's no reason to think too much about his real identity.`\
 
 ;　彼は紅茶紳士さん。@私の前に現れた、不思議な人。@
-`　He is the Tea Gentleman. `@`A mysterious figure who revealed himself to me.`@
+`　He is the Black Tea Gentleman. `@`A mysterious figure who revealed himself to me.`@
 br
 ;　彼が、かつての私を、生まれ変わらせてくれたのだ。\
 `　And he brought me a new life from who I once was.\
@@ -808,7 +808,7 @@ br
 ;　いや、厳密には逆か。@
 `　No, perhaps it makes more sense the other way around?`@
 ;　演劇部でお姫様だからこそ、クラスでもお姫様なのだ。\
-`　Because I was the princess in the drama club, I was a princess in the classroom.`\
+`　Because she was the princess in the drama club, she was a princess in the classroom.`\
 
 ;　舞台上の彼女が美しく輝くからこそ、彼女は姫と呼ばれ、@他のクラスどころか、他の学年の子にまで大勢慕われているのだ。\
 `　She is called Princess because she shines beautifully on stage, `@`and she is loved by students from other classes and even different grades.`\
@@ -835,13 +835,19 @@ br
 
 ;　部活の時は全員体操着に着替える。@そして体力作りと称して学校の周りを走り込んだり、@近くの河原に行って大声で発声練習も行ったりもする。@ほとんど『ガラスの仮面』の世界だ。\
 ;　(Translator's Note) Reference made to Gurasu no Kamen, "Glass Mask." A manga from the 1960s.
-`　(?) During club hours, everyone changes into gym outfits. `@`Then, in the name of improving our endurance, we do things like running around the school `@`as well as heading down to the river bed and practicing our shouts for vocal exercises. `@`It's almost like the world in "Glass Mask."`\ 
+`　Everyone changes into gym outfits during club hours. `@`To improve our endurance, `@`we run around the school or we head down to the river bed and practice shouting to exercise our vocal cords. `@`It's almost like the world in #ECD672Glass Mask#FFFFFF.`\ 
+
+;(Glossary Entry #5: Glass Mask)
+if %EN_glossary_progress > 5 jumpf
+	mov %EN_glossary_progress,5
+	se1v 1011,50
+~
 
 ;　そして、毎学期末には発表会があり、全校生徒の前で芝居を上演することになっている。@
-`　And now, it's become a tradition to have a recital at the end of every semester where we perform in front of all the students in school on stage.`@
+`　And now, it has become a tradition to have a performance at the end of every semester where we act in front of all the students in school on stage.`@
 br
 ;　今日はその発表会の配役決めを行う重要な日だ。@部員達はいつもにも増して気合いが入っているようだった。\
-`　Today is a very important day, where the roles of the recital will be decided. `@`It was as if all the club members were overflowing with excitement.`\
+`　Today is that very important day where the roles of the performance will be decided. `@`It was as if all the club members were overflowing with excitement.`\
 
 mbg black,22
 
@@ -852,10 +858,10 @@ mbg black,22
 
 
 ;　今回の発表会での演目は、『六軒島』という古典作品。@
-`　This time, the play we're doing at the recital will be 'Rokkenjima', a classic work.`@
+`　This time the play we are performing will be the classic 'Rokkenjima'.`@
 br
 ;　ファンタジーのようでもあり、ミステリーのようでもある不思議な作品だ。\
-`　It's a mysterious play that is like a fantasy, but also like a mystery.`\
+`　It's a mysterious play that is like a fantasy but also like a mystery.`\
 
 ;　かなり難解な内容で、役者が心情を充分に理解して演じなければ、@到底、メッセージを伝えることなど出来ない。@
 `　Since there is some very difficult content to work with, if the actors don't understand the emotions they have to portray, `@`then they cannot transmit the message of the story.`@
@@ -925,13 +931,13 @@ br
 `　In other words, ...the play 'Rokkenjima' `@`might as well have been chosen just for Midori's sake.`\
 
 ;　………先生、私を見て下さい。@絶対に、魔女役に相応しい演技をお見せします。@
-`　...Sensei, please look at me. `@`No matter what, I'll show you a fitting performance for the role of the witch.`@
+`　...Watch me Sensei. `@`No matter what, I'll show you a fitting performance for the role of the witch.`@
 br
 ;　みどりもまた、決意を眼差しに込めて、先生にそれを返すのだった。\
 `　And then Midori's eyes filled with determination in response to her teacher.`\
 
 ;　ほぼ魔女役が内定しているみどりと違い、@その他の部員たちにとっては、無事に役を射止められるかどうか、まだまだ不安だった。\
-`　Unlike Midori, who was almost guaranteed to get the role, `@`the other club members were still worried whether or not they would get their own parts so easily .`\
+`　Unlike Midori, who was almost guaranteed to get the role, `@`the other club members were still worried whether or not they would get their own parts so easily.`\
 
 ;「あーあ、私、どの役にも就けなかったらどうしよう。」@
 `"Ah~ah, what should I do if I don't get any of the parts?"`@
@@ -973,13 +979,13 @@ br
 ;　みどりのところにまで声が届いているのだから、当ののぞみに聞こえていないはずがない。@
 `　Their voices extended out to Nozomi. There was no doubt that she heard what they were saying.`@
 ;　しかし、彼女は全く気にしない様子で黙々とストレッチを続けていた。@おそらく必死に心を殺し、聞こえない振りをしているのだろう。\
-`　And yet, she silently continued to stretch as if it didn't bother her at all. `@`Perhaps she was silencing her heart and pretending not to hear.`\
+`　And yet, she silently continued to stretch as if it didn't bother her at all. `@`Perhaps she was silencing her thoughts and pretending not to hear.`\
 
 ;　クラスだけでなく、ここでもいじめられてるなんて。@みどりは気の毒に思う。@
 `　She wasn't just bullied in the classroom, but here as well. `@`Midori felt sorry for her.`@
 br
 ;　のぞみは、みんなに陰口で言われるほどブスではない。@……むしろ、顔立ちは美人の部類に入るだろう。\
-`　It wasn't as if Nozomi was as ugly as everyone was slandering her out to be. `@`...On the contrary, her face made her seem like a beauty.`\
+`　It wasn't as if Nozomi was as ugly as everyone was slandering her out to be. `@`...On the contrary, her face made her seem beautiful.`\
 
 ;　金持ち自慢の傲慢な笑みでなく、……心の底からの朗らかな笑いを浮かべることが出来たなら、@もっともっと明るく輝くだろうに。\
 `　Rather than a smile prideful of her wealth ...if she could smile from the bottom of her heart, `@`then her face would surely shine even brighter.`\
@@ -990,7 +996,7 @@ bg black,22
 `　...I, too, was once ignorantly prideful of my family's wealth.`@
 br
 ;　でも、幸いなことに、それが傲慢であると気付き、直すことが出来た。\
-`　Thankfully, I realized my arrogance and I fixed myself.`\
+`　Thankfully, I realized my arrogance and I changed my ways.`\
 
 ;　それが出来なければ、……川田のぞみは、私だっただろう。@
 `　If I hadn't done that... I would be Nozomi Kawada.`@
@@ -1012,7 +1018,7 @@ ld r,MID_K1,26
 `"Eh? `@`...Oh, thank you."`@
 br
 ;　紅茶紳士が現れ、みどりに、番が来たことを教えてくれる。\
-`　The Tea Gentleman appears and tells Midori that her time has come.`\
+`　The Black Tea Gentleman appears and tells Midori that her time has come.`\
 
 cl r,23
 bg black,23
@@ -1108,7 +1114,7 @@ ld l,SIN_Def1,22
 `"What's the matter? `@`It's finally time to show them what you've been working for until today, you know."`@
 br
 ;　紅茶紳士さんも励ましてくれる。\
-`　Even the Tea Gentleman was cheering me on.`\
+`　Even the Black Tea Gentleman was cheering me on.`\
 
 ld c,MID_Def1,80
 
@@ -1195,10 +1201,10 @@ mono 1
 bg engeki_01,22
 
 ;　それまでは発表会の時には何かしらの役には付けていたのに、@雑用ばかりをやらされるようになった。@
-`　It even went so far as to affect her role in the recital at the time. `@`She was made to perform only the unwanted work.`@
+`　It even went so far as to affect her role in the performance at the time. `@`She was made to perform only the unwanted work.`@
 br
 ;　仲の良かった部員たちも次第にみどりと口をきかなくなり、@みどりはクラスでも演劇部でも孤立した。\
-`　Even her fellow club members that she got along with began to backtalk Midori. `@`She was isolated both in the classroom and the clubroom.`\
+`　Even her fellow club members that she got along with began to spread rumors about Midori. `@`She was isolated both in the classroom and the clubroom.`\
 
 bg black,22
 mono 0
@@ -1221,7 +1227,7 @@ br
 ;　私は出会ったのだ。@
 `　I met him.`@
 ;　紅茶紳士と名乗る、人ならざる存在に。\
-`　That otherworldly man. The one known as the Tea Gentleman.`\
+`　That otherworldly man. The one known as the Black Tea Gentleman.`\
 
 fede 0,1000
 E_A
@@ -1282,7 +1288,7 @@ br
 `　But as I try to remember, I felt I was paying for my mistakes.`@
 br
 ;　……お金持ち自慢の高慢ちき、というレッテルを貼られる前に戻ることが出来たらと、@ひとり悲しく夢想していた…。\
-`　...As I tried to remember back before I was labeled a rich arrogant snob, `@`I day dreamed sadly -- alone...`\
+`　...As I tried to remember back before I was labeled a rich arrogant snob, `@`I day dreamed sadly ― alone...`\
 
 ;　涙を零したって、仕事は終わらない。@
 `　Even though I shed my tears, the work didn't end.`@
@@ -1397,12 +1403,12 @@ ld r,SIN_Def2,80
 `"Good evening, young lady. `@`...Being dedicated to your club activities is good, `@`but isn't it a bit too late for a girl like yourself to be out?"`@
 br
 ;　それが、みどりと紅茶紳士の、初めての出会いだった。\
-`　That was the first time that Midori met the Tea Gentleman.`\
+`　That was the first time that Midori met the Black Tea Gentleman.`\
 
 bg black,22
 
 ;　紅茶紳士は、小道具作りを手伝ってくれたわけではない。@
-`　The Tea Gentleman didn't offer to help her put together the props or anything like that.`@
+`　The Black Tea Gentleman didn't offer to help her put together the props or anything like that.`@
 br
 ;　しかし、窓辺でティーカップを傾けながら、みどりの身の上話に静かに相槌を打ってくれた。\
 `　However, he did quietly listen to Midori tell her story while inclining his teacup by the window.`\
@@ -1429,7 +1435,7 @@ ld l,SIN_Def1,80
 ld r,MID_Def2a,80
 
 ;「私、……本当に演劇が好きなんです。@………舞台の上では、色んな自分になれる。@別の世界や、別の人生が体験できる。@それが好きで、演劇部に入ったんです。」\
-`"I ...really love drama. `@`...On the stage, I can become whatever I want. `@`I can experience different worlds - different lives. `@`Because I love that, I entered the drama club."`\
+`"I ...really love drama. `@`...On the stage, I can become whatever I want. `@`I can experience different worlds ― different lives. `@`Because I love that, I entered the drama club."`\
 
 ld l,SIN_Def2,80
 
@@ -1494,7 +1500,7 @@ cl r,0
 ld c,SIN_Def4,24
 
 ;「貴方は、クラスでどんなにいじめられようとも、@舞台の上で輝けたならそれで満足とまで仰いました。@……演劇部員として、実に見上げた根性です。@それに敬意を表し、……そんな貴方の夢を一つだけ、一度だけ叶えてあげましょう。」@
-`"No matter how much you might be bullied in class, `@`as long as you can shine up on the stage, you said you'd be satisfied. `@`...As a drama club member, that is truly an admirable spirit. `@`As a token of my respect, ...allow me to grant your one dream - your one wish."`@
+`"No matter how much you might be bullied in class, `@`as long as you can shine up on the stage, you said you'd be happy. `@`...As a drama club member, that is truly an admirable spirit. `@`As a token of my respect, ...allow me to grant your one dream ― your one wish."`@
 br
 ;　男はそう言うと、左手をツイと上げる。\
 `　When he said that, the man quickly raised his left hand.`\
@@ -1535,7 +1541,7 @@ ld l,MID_Def2a,22
 ld r,SIN_Def3,80
 
 ;「えぇ、どんな役でもですよ。@悪を倒すヒーローにも愛を囁かれるヒロインにも。@望むなら犬にも猫にも、背景の木の役にだってして差し上げますよ……。」\
-`"Yes, any role! `@`A hero who topples evil. A heroine who receives whispers of love. `@`If you wish it - I'll give you the role of a dog, a cat, or even a tree in the background...."`\
+`"Yes, any role! `@`A hero who topples evil. A heroine who receives whispers of love. `@`If you wish it, I'll give you the role of a dog, a cat, or even a tree in the background...."`\
 
 ;ld l,MID_Def1,80
 
@@ -1607,7 +1613,7 @@ cl c,0
 ld r,SIN_Def4,23
 
 ;「素晴らしい。@……貴方の心の強さに敬意を表します。@……貴方は必ずや得るでしょう。@この貴重な機会を活かし、それを切っ掛けに、まったく別の人生を切り開けると。@……貴方は必ずや今夜の奇跡を活かし、生まれ変われるに違いありません。」\
-`"Wonderful. `@`...I respect the strength of your spirit. `@`...Of course you will take the contract. `@`Take this precious opportunity - take advantage of it and start a whole new life. `@`...You will make the best of tonight's miracle, and you will be born again."`\
+`"Wonderful. `@`...I respect the strength of your spirit. `@`...Of course you will take the contract. `@`Take this precious opportunity ― take advantage of it and start a whole new life. `@`...You will make the best of tonight's miracle, and you will be born again."`\
 
 bg black,22
 
@@ -1641,7 +1647,7 @@ ld c,MID_Def2,22
 ld l,SIN_Def1,22
 
 ;「そうですね。@……では、私の大好きな紅茶にちなみ。@紅茶紳士とでも名乗るとしましょう。」\
-`"That's right. `@`...Well, since I do love tea, `@`you may refer to me as the Tea Gentleman."`\
+`"That's right. `@`...Well, since I do love tea, `@`you may refer to me as the Black Tea Gentleman."`\
 
 
 
@@ -1668,7 +1674,7 @@ bg engeki_02,2
 bgm1 5
 
 ;　そして、紅茶紳士さんは約束を守った。@
-`　So the Tea Gentleman kept his promise.`@
+`　So the Black Tea Gentleman kept his promise.`@
 br
 ;　次の演目で、私は大抜擢を受けたのだ。\
 `　For the next play, I was chosen for the lead role.`\
@@ -1688,13 +1694,13 @@ bg black,22
 ;　………それは私が願って止まなかった、可憐な可憐な、……お姫様の役だった。\
 `　......I never stopped wanting it. ...The sweet, sweet role of the princess.`\
 ;　私など、突然の穴に抜擢された、あくまでも急場凌ぎ。@……先生も部長も、誰も期待などしていなかった。\
-`　That someone like me was chosen to fill a sudden opening in a last minute emergency `@`...My teacher, even the club president - no one expected it.`\
+`　That someone like me was chosen to fill a sudden opening in a last minute emergency. `@`...My teacher, even the club president ― no one expected it.`\
 
 ;　でも、私はその役に、全ての魂をぶつけた。@
 `　But I thrust all of my soul into that role.`@
 br
 ;　紅茶紳士さんが与えてくれた、たった一度のチャンスに、@……いや、一度と知るからこそ、全てをぶつけたのだ。\
-`　Into that once-in-a-lifetime chance that the Tea Gentleman gave to me... `@`No, it was because I knew it was my only chance that I gave it everything I had.`\
+`　Into that once-in-a-lifetime chance that the Black Tea Gentleman gave to me... `@`No, it was because I knew it was my only chance that I gave it everything I had.`\
 
 ;se1 77
 bg white,22
@@ -1750,7 +1756,7 @@ wait 500
 ld l,MID_Def2,22
 
 ;「紅茶……紳士さん…………。」@
-`"Tea Gentleman..."`@
+`"Black Tea Gentleman..."`@
 
 ld r,SIN_Def2,80
 
@@ -1758,7 +1764,7 @@ ld r,SIN_Def2,80
 `"You did wonderful. `@`I've been watching from here for some time."`@
 br
 ;　舞台袖のカーテンの陰で。@紅茶紳士さんもずっと手を叩いていてくれた。\
-`　In the shadows behind the curtain. `@`The Tea Gentleman had been applauding for a while as well.`\
+`　In the shadows behind the curtain. `@`The Black Tea Gentleman had been applauding for a while as well.`\
 
 ld l,MID_Def5,80
 
@@ -1799,7 +1805,7 @@ ld r,SIN_Def4,80
 cl r,2
 
 ;　紅茶紳士はにやりと笑い、それだけを言い残すと姿を消す。\
-`　The Tea Gentleman said with a smile. And with those words, he disappeared.`\
+`　The Black Tea Gentleman said with a smile. And with those words, he disappeared.`\
 
 bg white,1
 bg engeki_05,22
@@ -1860,7 +1866,7 @@ br
 ;　もう、お金持ち自慢の高慢ちきなんて、絶対に言われないようにしよう。@
 `　She decided that she wouldn't flaunt her wealth anymore.`@
 ;　あのお姫様のように、……可憐でやさしくて、誰からも愛される心の美しいお姫様になるんだ……。\
-`　Just like that princess ...she would become sweet, kind -- a beautiful princess with a heart loved by all...`\
+`　Just like that princess ...she would become sweet, kind ― a beautiful princess with a heart loved by all...`\
 
 bg black,22
 bg kyou_03,22
@@ -1910,7 +1916,7 @@ ld r,MID_Def3,22
 `"It's fine, club president. `@`I'm also going to do my best at practice, and I'm going to work hard to become an even better actress."`\
 
 ;『さすがみどり姫～……。@何であんな素敵な子が同じ部にいるのに、私たちはずっと気付かなかったの？』@
-`"That's our Princess Midori~... `@`With such a wonderful girl in our class like her, how come we never noticed her before?"`@
+`"That's our Princess Midori~... `@`How come we never noticed there was such a wonderful girl like her in our class before?"`@
 br
 ;　教室でも部室でも、みどりを賞賛する声が溢れる。\
 `　In the classroom and in the clubroom, voices of praise washed over Midori.`\
@@ -1940,7 +1946,7 @@ ld r,MID_Def5,22
 `　Even her voice held a dignified tone, and those that heard her voice couldn't help but turn their heads and to listen.`@ 
 br
 ;　顔も、誰もが溜め息を漏らしたくなるほどに美しく変わっていった。\
-`　Her face also changed beautifully -- making onlookers want to sigh.`\
+`　Her face also changed beautifully ― making onlookers want to sigh.`\
 
 ld r,MID_Def3,22
 cl r,22
@@ -2005,7 +2011,7 @@ wait 1000
 ld r,SIN_def4,80
 
 ;「ですが、みどりさん？@　一応、これ。@……ギブアンドテイクですので、@その辺りだけは、お忘れないようお願いしますよ。@……っくっくっく。」@
-`"However, Midori?`@` Just in case, here. `@`......Since this is give and take, `@` or something like that, I ask that you do not forget. ......Kukuku."`@
+`"Oh Midori-san?`@`......Remember, this is a give and take. `@`So please don't forget that. ......Kukuku."`@
 br
 ;もう一度、ティーカップが、ツイっと傾いた。\
 `And once again, he took a sip from the teacup.`\
@@ -2034,7 +2040,7 @@ br
 ;　先生がパンと手を打つ。
 `　The teacher clapped his hands together.`
 ;　……私は魔女役の演技を止めた。@
-` ......I stopped my performance as the witch.`@`
+` ......I ceased my performance as the witch.`@`
 br
 ;　しばしの沈黙の後、先生と部長が無言で頷き合う。\
 `　In the brief silence, the teacher and the club leader nodded wordlessly.'\
@@ -2076,7 +2082,7 @@ br
 ;「もちろんっ。@みどり姫が主演の大作だもん。@すごい話題になるよ！」\
 `"Of course. `@`With Princess Midori at the lead, it'll be huge. It'll be the talk of the town!"`\
 ;「発表会、ものすごい盛り上がりそう！@　うわぁ、今から緊張するー！」@
-`"The performance sounds so incredibly exciting!`@` Uwaa, I'm already getting nervous--!"` `@`
+`"The performance sounds so incredibly exciting!`@` Uwaa, I'm already getting nervous―!"` `@`
 ;「……わ、私たちも、足を引っ張らないようにしないとねー。」\
 `"......W-we should make sure we don't hold her back, too."` \
 
@@ -2120,7 +2126,7 @@ mono 2
 bg Different_spiral_1a,22
 
 ;　何で、そんな嫌な目でずっと私を見ているの…？@
-`　Why is she always watching me with such distaste in her eyes...?` `@`
+`　Why is she always watching me with such disgust in her eyes...?` `@`
 br
 
 ;　………わかってる。@……私が、妬ましいんだよね……？\
@@ -2129,10 +2135,10 @@ br
 ;bg Different_spiral_1b,22
 
 ;　かつては自分がお姫様だとちやほやされてたのに、@……今ではお金持ち自慢の高慢ちきだと嫌われ、いじめられ。@
-`　Even though she once was pampered as a princess, `@`......Now, she is hated and bullied as proud, rich, and haughty.``@` 
+`　Even though she once was pampered as a princess, `@`......Now, she is hated and bullied for being proud, rich, and haughty.``@` 
 br
 ;　……それがかつての自分そのものだから、……痛いくらいに彼女の胸中がわかるのだ。\
-`　......Because that was my former self, ......I understand her pain so well it hurt.`\
+`　......I understood her pain so well it hurt ......because that was who I used to be.`\
 bg black,22
 mono 0
 ;bg white,28
@@ -2150,7 +2156,7 @@ br
 `　Even I, with just one chance, was able to transform so much, it was as though I was reborn.` `@`
 br
 ;　ならあなたにだってきっと。@そんなチャンスがやがてあるよ……。\
-`　So surely, for you as well. `@` That chance will come to you before long......` \
+`　I'm sure you can too. `@`Your chance will come someday......` \
 
 
 
@@ -2173,10 +2179,10 @@ ld r,MID_K2,6
 me1v 28,70
 
 ;「…………痛ッ、…………………。」\
-`"............Ow...!............"`\
+`"............Ow!..............."`\
 
 ;　その時、何の前触れもなく、また、………痛みが走る。@
-`　Just then, without any notice, another pain struck.` `@`
+`　Suddenly, without warning, I was struck with pain again.` `@`
 br
 ;　足に、思わず身をよじってしまうような激痛が。\
 `　A severe pain in my foot, one that caused me to unconsciously contort my body.` \
@@ -2185,7 +2191,7 @@ bg black,23
 bg engeki_01,23
 
 ;「……ちょっと、みどり。@……大丈夫…？」@
-`"......Hold on, Midori. `@`......Are you okay...?` `@`
+`"......Hey Midori. `@`......Are you okay...?` `@`
 ;「顔色悪いよ？」@
 `"You don't look so good."` `@`
 
@@ -2204,13 +2210,13 @@ br
 bg black,22
 
 ;　もう何度目になるかもわからない、突然の謎の痛み。@
-`　A strange, sudden pain that has occurred countless times.` `@`
+`　This mysterious sudden pain that keeps happening to me.` `@`
 br
 ;　……良い機会かもしれない。@一度、保健室で見てもらおう。\
-`　......This might be a good chance. `@` I'll go to the infirmary.`\
+`　......This might be a good opportunity. `@` I'll try getting it looked at in the infirmary.`\
 
 ;　きっと、緊張のし過ぎなんだ。@普通の人は腹痛に出る。@……私はきっと、それが体の痛みに出るタイプに違いない。\
-`　Surely, I'm just too nervous. `@` Most people would get a stomach-ache. `@` ......I must be the type that gets pains all over.`\
+`　It has to be because I'm so nervous. `@` Most people would get a stomach-ache. `@` ......I must be the type that gets pains all over.`\
 
 ;　リラックスしてれば大丈夫と、保健の先生に太鼓判を押されれば、またがんばれる…。@
 `　If I relax, I should be okay. I'll get the nurse's seal of approval, then I'll be able to do my best again...` `@`
@@ -2242,7 +2248,7 @@ me2v 11,90
 `"It doesn't look like there's anything particularly wrong."` `@`
 br
 ;　保健室の先生はあっさりとした口調でそう言った。@
-`　The school nurse expressed easily.`@
+`　The school nurse put it bluntly.`@
 
 ;　足に感じていた痛みは、保健室にくるまでに完全に消えていた。\
 `　The pain in her foot had completely disappeared when she'd come to the infirmary.'\
@@ -2250,7 +2256,7 @@ br
 ld r,HOK_Def4,80
 
 ;「何もないのに、突然、痛くなるなんて。@………もし、頻繁に繰り返すようなら、大きな病院で見てもらった方がいいわね。」\
-`"Suddenly feeling pain like that, even though there's nothing wrong... `@`......If it keeps happening all the time, you should get checked out in a real hospital."`\
+`"There seems to be nothing wrong so you shouldn't have sudden pains like that... `@`......If it keeps happening all the time, you should get checked out in a real hospital."`\
 
 ld l,MID_Def2,22
 
@@ -2258,7 +2264,7 @@ ld l,MID_Def2,22
 `"N-no, I'm fine. `@`I'm think I'm just the type who feels pain when I get nervous or wear myself out......"` `@`
 br
 ;　それを友達が大袈裟がっちゃって。@……大騒ぎしちゃってすみませんでしたと、みどりは謝る。\
-`(?)　Her friends made a big deal about it. `@`......Midori apologized, saying she was sorry for causing the commotion.`\
+`　Her friends made a big deal about it. `@`......Midori apologized, saying she was sorry for causing the commotion.`\
 
 bg black,22
 
@@ -2277,7 +2283,7 @@ bg hoken_04,22
 `　Once she said she was fine, the nurse couldn't do anything else for her. `@`Strange things happen sometimes, and with that she held her pencil between her nose and upper lip and tilted her head.\
 
 ;　特に異常はない。@……その言葉にみどりは少し安堵するが、@ならばこの痛みの正体は何なのかと、かえってもやもやした気持ちになるのだった。\
-`　Nothing particularly wrong. `@`......Those words relieved Midori, `@`but wondering what the true reason for the pain was caused her mind to wander.\
+`　Nothing particularly wrong. `@`......Those words relieved Midori, `@`but wondering what the true reason was for the pain caused her mind to wander.\
 
 fede 11,1000
 E_M1
@@ -2310,15 +2316,15 @@ bg hoken_02,22
 E_A
 
 ;「…………気にしないことですよ。@/
-`".........It's something you don't need to worry about.`@`
+`".........It's something you don't need to worry about.`@/
 bgm1 18
 ;　痛みなどに、かまけているほど貴方はお暇ではないでしょう。」@
-`　You don't have the time to become so preoccupied with pain."``@`
+` You don't have the time to become so preoccupied with pain."``@`
 
 ld r,MID_K1,22
 
 ;「紅茶紳士さん……。」\
-`"Tea Gentleman......"`\
+`"Black Tea Gentleman......"`\
 
 ld l,SIN_Def2,22
 
@@ -2333,7 +2339,7 @@ ld r,MID_Def2a,80
 ;　痛みのことなど気にするな。@
 `　Don't worry about the pain.@
 ;　紅茶紳士さんは、いつもそう言う。\
-`　The Tea Gentleman is always saying that.`\
+`　The Black Tea Gentleman is always saying that.`\
 ;ld r,MID_Def1,80
 
 ;　確かに、気にしても仕方がないのなら、彼の言う通りだ。@
@@ -2358,19 +2364,19 @@ bg hoken_01,23
 ;ld c,SIN_Def1,24
 
 ;　……紅茶紳士はそれを背中で見送りながら、紅茶のティーカップを傾ける。\
-`　......While The Tea Gentleman watched her go, he sipped his black tea.`\
+`　......While The Black Tea Gentleman watched her go, he sipped his black tea.`\
 
 ld c,SIN_Def2,22
 
 ;「そうですか。@……痛みの頻度が、増しているのですか。@……っくっくっく、それは困りましたねぇ……。@っくっくっくっく……。」\
-`"Is that so. `@`......It's that the frequency of your pain, has increased. `@`.......Kukuku, that is a dilemma, isn't it......`@`Kukukuku......`"\
+`"Is that so. `@`......You're feeling those pains more often? `@`.......Kukuku, that is a dilemma, isn't it......`@`Kukukuku......`"\
 
 ld c,SIN_Def4,22
 
 cl c,2
 
 ;　人ならざる者にしか聞こえない笑い声を残し、紅茶紳士の姿は消える。\
-`　Leaving only a laugh no human could hear, The Tea Gentleman disappeared.`\
+`　Leaving only a laugh no human could hear, The Black Tea Gentleman disappeared.`\
 fede 0,1000
 E_A
 
@@ -2401,13 +2407,13 @@ br
 ;　薬品棚の物陰から、恐る恐る毬枝が顔を覗かせる……。\
 `　From the cover of medicine shelf, Marie timidly peeked her face......`\
 ;　その手には、職員室かどこかからちょろまかしてきた、栗饅頭が握られている。@
-`　In her hand, she gripped a chestnut steamed bun that may have been taken from the staff room or elsewhere.`@
+`　In her hand, she gripped chestnut steamed buns that may have been taken from the staff room or elsewhere.`@
 br
 ;　……美味しそうなお茶菓子を見つけたので、彼岸花にお裾分けを持ってきたのだ。\
-`　......Since she found a delicious teacake, she brought it to share with Higanbana.`\
+`　......After finding these delicious buns, she brought them to the infirmary share with Higanbana over tea.`\
 
 ;　ちなみに、毬枝にはどういうわけか、お茶菓子を発見するという奇妙な才能が、……死後に発現したのだった。\
-`　By the way, if one is wondering how Marie comes across these, it is due to a strange ability that allows her to spot out tea cakes. It revealed itself after death.`\
+`　How did Marie find them you ask? After she died, Marie discovered she had the miraculous power to home in on buns....`\
 
 ;　彼岸花は留守だった。@
 `　Higanbana was gone.@
@@ -2428,7 +2434,7 @@ ld c,MAR_def4a,22
 `"......I wonder.......@......that person just now was......"@
 br
 ;　人ならざる者の直感が、紅茶紳士もまた同類であることを毬枝にも報せる。\
-`　Her otherworldly senses told her that the Tea Gentleman was the same as she.\
+`　Her otherworldly senses told her that the Black Tea Gentleman was the same as she.\
 
 ;　……妖怪だろうか。@
 `　......a youkai?@
@@ -2487,7 +2493,7 @@ mbg white,1
 mcbg 22
 
 ;「ほら、楠木さんッ。@体だけで演技しては駄目！@　心から演技しなさいッ！@　もう一度やり直し！！」\
-`"Come on, Kusunoki-san~. `@`You can't just perform with your body! `@`Perform from your heart! `@`Do it over again!!"`\
+`"Come on, Kusunoki-san~. `@`You can't just give a performance with your body! `@`You have to give it from your heart! `@`Do it over again!!"`\
 
 ;「……みどり、すごいよね。@よく、あんな長い台詞、覚えられるよ…。」@
 `"......Midori is so amazing.`@` She remembers all those good lines so well..."`@
@@ -2507,7 +2513,7 @@ br
 ;　あの日の、舞台での感動が、眩しく記憶に焼きついている。@
 `　The deep emotion of that day on the stage was vividly burned into her memory.`@
 ; あの感動をもう一度得られるなら、どんな苦しい稽古にだって耐えられる。@
-` In order to obtain that excitement once more, she was able to withstand any excruciating practice.`@
+` In order to obtain that excitement once more, she was able to withstand any excruciating exercise.`@
  br
 ;　そんなみどりが流す汗は、透き通っていて輝いていた。\
 ` The sweat that flowed from Midori was transparent and glistening.`\
@@ -2531,10 +2537,10 @@ br
 `　Just as everyone expected, she was forced into being in charge of all the odd jobs.`\
 
 ;　発声練習も柔軟体操も、何の役にも立たない。@
-`　Vocal warm-ups and stretching -- she wasn't good at anything.`@
+`　Vocal warm-ups and stretching ― she wasn't good at anything.`@
 br
 ;　相変わらず、ひとり暗く孤立して、……時折、私に妬みの眼差しを向ける。\
-` Just as always, she was darkly isolated,......and sometimes, she would gaze at me with envy.`\
+` Just as always, she was darkly isolated,......and sometimes, she would glare at me with envy.`\
 
 ld r,MID_K1,0
 mcbg 22
@@ -2562,9 +2568,9 @@ br
 bg black,22
 
 ;　だからこそ、……突然の抜擢にも応えることが出来たのだ。\
-` And so,...I was able to live up to even that unexpected selection.`\
+` Because of that ...I was able to live up to my chance selection for the role.`\
 ;　……私だって、みんなを妬んだことはある。@でも、努力をしたんだよ。@
-` ......Even I, have been jealous of everybody. `@`But I gave it my all.`@
+` ......I was envious of everyone. `@`But I worked hard and gave it my all.`@
 ;　努力をしなきゃ、チャンスだって掴めないんだよ。@
 ` You have to give it your all, or you can't seize your chance.`@
 br
@@ -2605,11 +2611,11 @@ me1v 16,50
 
 
 ;　彼女が訴えるのだ。@……彼女の、目が。@
-` She was calling to me. `@`......Her eyes seemed to say.`\
+` She was calling to me. `@`......Her eyes seemed to say.`@
 
 br
 ;　………私だって、……ただ妬んでるだけじゃ、ないんだよ、……と。\
-` ......Me? ......It's not like I'm just... jealous....`\
+` ......'Me? ......It's not like I'm just... jealous'....`\
 
 ;　のぞみの傍らに、開いたままの『六軒島』の台本が、そのまま伏せて置かれている。@
 ` Next to Nozomi, the script of 'Rokkenjima', was lying upside down.`@
@@ -2635,7 +2641,7 @@ br
 ;　……うかがっているのだ。@……虎視、眈々と。@
 `　......She was watching me. `@`......She was lying in wait.`@
 ;　誰もが私以外に適任はいないと言って、“諦める”魔女の役。\
-` As if saying there were none suitable but her, 'abandon' the role of the witch.`\
+` Her eyes seemed to say there were none suitable but her, that I should 'abandon' the role of the witch.`\
 ;　もし、……私が、発表会の直前に、……体調不良か何かで、突然、降板するようなことになったなら。@……誰にも代役を務めることは出来ない。@
 ` If,......just before the play, I......perhaps were to fall ill, and suddenly drop out. `@`......There wouldn't be anybody else to stand-in for the part.`@
 br
@@ -2667,7 +2673,7 @@ ld r,MID_K2,22
 ;　私が突然のお姫様役の降板によって、大抜擢を受けたように。@……彼女も私が、突然降板することを願っているのだ。\
 ` If I suddenly dropped the role of the princess, she could get the main role. `@`......So she is hoping I will suddenly drop out.`\
 ;　楠木みどりに出来たことなら、自分に出来ないはずはないとでも言うつもりだろうか。@
-` Perhaps her eyes were trying to say, 'If it was something Midori Kusunoki could do, there shouldn't be any reason I can't too.'`@
+` Perhaps her eyes were trying to say, 'If Midori Kusunoki did it, there shouldn't be any reason I can't do it too.'`@
 br
 ;　……無感情な、……見ているだけで不快になる、その眼差し。@
 ` ......That blank expression, ......Her gaze made me uncomfortable just by looking towards her. `@
@@ -2718,7 +2724,7 @@ br
 ` However.`@
 br
 ;　私に、紅茶紳士さんという不思議な存在が現れて力を貸してくれたのだ。@
-` I was given this power by the mysterious Tea Gentleman who revealed himself to me.`@
+` I was given this power by the mysterious Black Tea Gentleman who revealed himself to me.`@
 ; 彼女にも、不思議な何かがあったとしても、おかしくはないのかもしれない。\
 ` It might not be that strange if she was something mysterious too.`\
 bg black,22
@@ -2726,7 +2732,7 @@ bg black,22
 ;ld r,MID_Def1,80
 
 ;　……うん。@紅茶紳士さんの言う通りなんだ。@
-`......Yes.`@` It's just as The Tea Gentleman said.`@
+`......Yes.`@` It's just as The Black Tea Gentleman said.`@
 br
 ;　気にしたら負けだ。@彼女が私の代役を狙っているかどうかなんて、関係ない。@
 ` If I worry about it, it's over.`@` It doesn't matter if she's after my role.`@
@@ -2741,7 +2747,7 @@ br
 br
 
 ;　そうとも、川田のぞみの不気味な眼差しに怯えている時間など、私にはないのだ。\
-`　And with that, the time to be afraid of Nozomi Kawada's ominous gaze, is gone.`\
+`　And with that, the time to be afraid of Nozomi Kawada's ominous gaze, was over.`\
 
 ;bg black,2
 
@@ -2766,25 +2772,25 @@ bg engeki_01,22
 bgm1 8
 
 ;　発表会に向けた、猛稽古の日々が続いた。@
-`　Working towards the performance, the days of energetic practice continued.`@`
+`　While she worked towards the performance, her days of energetic practice continued.`@`
 br
 ;　一分たりとも無駄にできる稽古などなく、時間が経つのが本当にあっという間に感じられた。\
-`　Not even one practice was unnecessary, and one could feel that time passed in the blink of an eye.`\
+`　She deemed no exercise unworthy of her time, and that time passed in the blink of an eye.`\
 bg black,22
 bg Air_01,22
 
 ;　部活を終えて家に帰る頃にはいつも夜。@夕食もそこそこに済ませると、ベッドに倒れ込み泥の様に眠ってしまう。@それの繰り返しだった。@
-`(?)　It was always night by the time the club ended and she went home.`@` She had to finish her dinner in a hurry, splattered into bed like mud and slept.`@` It was that sort of cycle.`@`
+`　It would always be night by the time the club ended and she went home.`@` She would finish her dinner in a hurry, splatter into bed like mud, and sleep.`@` That was how her daily cycle went.`@`
 br
 ;　体力的には辛いけれど、……最高に充実した日々だった。\
-`　It was difficult on the body, ...but day after day was supremely productive.`\
+`　It was difficult on the body, ...everyday was satisfying and productive.`\
 bg black,22
 
 ;　………痛み。@……それさえなければ。@
-`　...Pain.`@` ...If it weren't for that.`@`
+`　...That pain.`@` ...If it weren't for that pain.`@`
 br
 ;　あの不思議な痛みの間隔が日に日に短くなっていた。\
-`　The time between days that the she would experience the mysterious pain had become shorter.`\
+`　The time between days that the she would experience the mysterious pain became shorter.`\
 
 bg "BMP\background\efe\red1.bmp",1
 bg engeki_02,0
@@ -2857,7 +2863,7 @@ bg black,22
 mono 0
 
 ;　……悪いけれど、……川田さんに、絶対に譲るものか………。@
-`　...Sorry, but...there's no way I'll ever hand this over to Kawada-san...`@`
+`　...Sorry, but...there's no way I'll ever hand this over to you, Kawada-san...`@`
 br
 ;　発表会までもう何日もない。\
 `　There's not many days until the performance.`\
@@ -2870,7 +2876,7 @@ ld r,SIN_Def4,22
 `"It's not something to worry about.`@` You don't really have the time to let it tear you apart, do you?"`@
 br
 ;　紅茶紳士さんは繰り返す。@気にしないことですと。\
-`　The Tea Gentleman keeps repeating.`@` It's not something to worry about.`\
+`　The Black Tea Gentleman kept repeating that.`@` It's not something to worry about.`\
 
 bg black,22
 
@@ -2927,20 +2933,20 @@ ld r,MID_Def2,22
 `"R, really...?`@` It's just your imagination.`@` Don't worry about it."`\
 
 ;「稽古、ほとんど毎日なんでしょ？@　無理しないでね。」@
-`"Practice is just about every day, right?`@` Don't push yourself, okay?"`@`
+`"You've been practicing almost every day, haven't you?`@` Try not to push yourself, all right?"`@`
 ;「だけど、みどりが主役の舞台が見れるなんてすっごい楽しみ。@今週末だよね？@　頑張ってね、みどり！」\
 `"But, I just can't wait to see Midori on the stage as the lead.`@` It's this weekend, right?`@` Good luck, Midori!"`\
 
 ld r,MID_K1,22
 
 ;　痛みの呪いは、やはり私を疲弊させているようだった。@
-`　It seemed that, the curse of my pain was wearing me out.`@`
+`　It seemed that the curse of my pain was wearing me out.`@`
 br
 ;　素振りを見せているつもりはないのだが、@いつも身近にいるサキエたちにはわかるようだった。\
 `　I hadn't intended it to show through my mannerisms,`@` but it seemed that Sakie and the others who were always around me could tell.`\
 
 ;　……お姫様が病気、なんてことになったらきっと、みんな大仰に大騒ぎする。@
-`　...If it were to be that their princess had fallen ill, everyone would exaggeratedly cause a huge uproar.`@`
+`　...If their princess had fallen ill, everyone would cause an uproar.`@`
 
 br
 ;　そうしたら演劇部にも話が届いて、………先生や部長の耳にも入って……。\
@@ -2949,7 +2955,7 @@ br
 bg black,22
 
 ;　………冗談じゃない。@
-`　...You must be joking.`@`
+`　...It's no laughing matter.`@`
 
 br
 ;　絶対に降りない。@……発表会で、舞台の中央でスポットライトを浴びるのは私なんだから。@
@@ -3026,7 +3032,7 @@ br
 `　This time it was the back of her head. `@`It hurt like someone just struck her violently.`\
 
 ;　どうせ振り返っても誰もいないので、もはや私は振り返りさえしない。@
-`　Even if she turned around no one would be there, so she doesn't even turn around to check.`@
+`　Even if she turned around no one would be there, so she didn't even turn around to check.`@
 br
 ;　代わりに、川田のぞみの背中を憎々しげに睨むのだ。\
 `　Rather, she glared at Kawada Nozomi's back.`\
@@ -3110,10 +3116,10 @@ br
 `　On top of the curry, ...without a doubt, those things were scattered about.`\
 
 ;　私が川田さんを睨んでいる間に誰かが悪戯したとか、カレーの下から浮いてきたとか、@そんなことは断じてありえない。@
-`　Someone pulling a prank while I was staring at Kawada-san, or these things floating up from the bottom of the curry `@`- those things are absolutely impossible.`@
+`　It was impossible for someone to pull a prank while I was staring at Kawada-san, `@`and there was no way these things just floated up from the bottom of my curry. `@`There's just no way!`@
 br
 ;　私の目の前で。@それはゆらりと、現れたのだ……。\
-`　Before my very eyes,`@` they had - swayed - into my vision...`\
+`　Before my very eyes,`@` they warped into existence...`\
 
 me1v 28,90
 
@@ -3121,7 +3127,7 @@ me1v 28,90
 `　The glistening backs of their lustrous black husks.`@` Knotted legs. Hair-like feelers.`@
 br
 ;　それらが茶色いカレーのルーと白いライスに混じっている壮絶な光景。\
-`　They were mixed with the brown curry sauce the white rice in a horrific display.`\
+`　They were mixed with the brown curry sauce and the white rice in a gruesome display.`\
 
 ;　私の手はスプーンを握り、そこにずっと突き立てたままだった。@
 `　Gripping my spoon, I had been drawing from the bowl for some time.`@
@@ -3135,7 +3141,7 @@ br
 me2v 3,90
 
 ;　……先割れスプーンは、……深々と、……黒い昆虫に、……突き刺さっていて。@
-`　...My fork and spoon were now deeply covered... stuck with ...black bugs.`@
+`　...My fork and spoon were now thickly encrusted... and stuck with ...black bugs.`@
 br
 ;　そこから、何色とも形容し難い、体液と内臓を溢れ出させているのだ……。\
 `　And there were a variety of indescribable colors composing the bodily fluids and guts that flowed out from them...`\
@@ -3181,7 +3187,7 @@ ld l,SIN_Def1,22
 ld r,MID_K2,22
 
 ;「……紅茶紳士さんにはこれ、……見えていますか。」\
-`"...Tea Gentleman, ...are you seeing this?"`\
+`"...Black Tea Gentleman, ...are you seeing this?"`\
 
 ld l,SIN_Def2,80
 
@@ -3199,7 +3205,7 @@ ld l,SIN_Def4,80
 "Kukukuku. `@`Exactly."`@
 br
 ;　紅茶紳士さんは他人事のようにくすくすと笑う。\
-`　The Tea Gentleman snickers as if it were someone else's problem.`\
+`　The Black Tea Gentleman snickers as if it were someone else's problem.`\
 
 ;　……見えている。@
 `　...He sees it.`@
@@ -3212,7 +3218,7 @@ br
 ld r,MID_K5,80
 
 ;「……紅茶紳士さん、ですね……。」@
-`"...You're the Tea Gentleman... right?"`@
+`"...You're the Black Tea Gentleman... right?"`@
 
 ld l,SIN_Def1,80
 
@@ -3225,7 +3231,7 @@ bg kyou_02,22
 ;ld r,MID_Def1,80
 
 ;「………惚けないで下さい。@……あのおかしな痛みも、このカレーも。@……紅茶紳士さんの力じゃないんですか。」@
-`"...Please don't act like a fool. `@`...That strange pain, this curry `@`- isn't this all your doing?"`@
+`"...Please don't act like a fool. `@`...That strange pain, this curry `@`― isn't this all your doing?"`@
 
 ;ld l,SIN_Def1,80
 
@@ -3257,7 +3263,7 @@ ld r,SIN_Def4,22
 `"I see. `@`...In order to get the lead role, Kawada-san entrusts me with causing you to resign. `@`I see, I see... Kukuku."`@
 br
 ;　紅茶紳士さんは意味深に笑う。\
-`　The Tea Gentleman smiles widely.`\
+`　The Black Tea Gentleman smiles widely.`\
 
 cl c,0
 ld l,MID_K5,24
@@ -3383,7 +3389,7 @@ bgm1 13
 `"...Ku Ku kukukukukuku. `@`...Dear oh dear. `@`So very young."`@
 br
 ;　紅茶紳士は肩を竦めて笑う。\
-`　The Tea Gentleman shrugged his shoulders and laughed.`\
+`　The Black Tea Gentleman shrugged his shoulders and laughed.`\
 
 se1v 22,50
 
@@ -3399,7 +3405,7 @@ br
 `　That was something only a supernatural being could see.`@
 br
 ;　紅茶紳士は空のティーカップをふわりと持つと、@……その煙のようなものが、すぅっと集まり、カップに満たされていく。\
-`　The Tea Gentleman gently held his teacup in the air, `@`...and that smoke-like entity slowly gathered and began to fill his cup.`\
+`　The Black Tea Gentleman gently held his teacup in the air, `@`...and that smoke-like entity slowly gathered and began to fill his cup.`\
 
 ;　そしてそれは渦を巻きながら茶色く透き通り、@……彼好みの、鮮烈な香りを放つ、良い紅茶となった。@
 `　And as that swirl wound itself, it turned brown. `@`...It became a delicious black tea with a pleasant fragrance.`@
@@ -3466,7 +3472,7 @@ ld c,MID_Def2a,24
 `"...I am the lead actress... I am the lead actress... `@`...I won't let anyone else, ...I won't let anyone elssse..."`@
 br
 ;　お気に入りのワンピースを脱ぐ。\
-`　I took off my favorite dress.`\
+`　She took off her favorite dress.`\
 
 ;bg white,28
 
@@ -3537,7 +3543,7 @@ bg engeki_01,22
 `　A teacup floating in the corner of the clubroom tipped with a slurp.`@`
 br
 ;　衝撃を受けて放心しているみどりには、紅茶紳士の姿は見えていないようだった。\
-`　Due to the shock on her peace of mind, it seemed like Midori couldn't see The Tea Gentleman's form.`\
+`　Due to the shock on her peace of mind, it seemed like Midori couldn't see The Black Tea Gentleman's form.`\
 
 ld l,SIN_Def1,2
 ld l,SIN_Def4,22
@@ -3564,9 +3570,9 @@ me1v 17,50
 
 br
 ;　紅茶紳士の前に、……毬枝が、ゆっくりと姿を現す。@
-`　In front of The Tea Gentleman, ...Marie slowly showed herself.`@`
+`　In front of The Black Tea Gentleman, ...Marie slowly showed herself.`@`
 ;　鋭い目線で、紅茶紳士を睨んでいた。\
-`　She glared at The Tea Gentleman with a perceptive gaze.`\
+`　She glared at The Black Tea Gentleman with a perceptive gaze.`\
 
 ld l,SIN_Def4,80
 
@@ -3680,7 +3686,7 @@ mld l,SIN_Def4,80
 `"Kukukuku.`@` KU KUKUKUKUKU!`@` I seeeee, youkai certainly do follow that one rule, don't we?"`@`
 br
 ;　紅茶紳士は、一本取られたとでも言うように肩を揺すって笑う。\
-`　As if to say, 'You've got me there', The Tea Gentleman's shoulders shook with laughter.`\
+`　As if to say, 'You've got me there', The Black Tea Gentleman's shoulders shook with laughter.`\
 
 mcl a,0
 bg black,23
@@ -3691,7 +3697,7 @@ ld c,MAR_i4a,22
 `"I understand that youkai are under the circumstances where we must consume souls to live.`@` ...Therefore, if you depart now, I will not exacerbate this."`@`
 br
 ;　毬枝は強い意思の宿る眼差しで、紅茶紳士を射抜く。\
-`　Marie's strong will shot through The Tea Gentleman, just with her gaze.`\
+`　Marie's strong will shot through The Black Tea Gentleman, just with her gaze.`\
 
 ld l,SIN_Def2,22
 
@@ -3706,7 +3712,7 @@ ld c,MAR_i3,80
 ld l,SIN_Def3,80
 
 ;「……しかし、みどりさんという素晴らしき茶葉をここで譲るには余りに惜しい。」@
-`(?)"...However, I think giving up Midori-san right here would be truly regrettable, considering she makes such brilliant tea leaves."`@`
+`"...However, I think giving up Midori-san right here would be truly regrettable, considering she would make such brilliant tea leaves."`@`
 
 cl c,0
 ld r,MAR_i4,23
@@ -3728,18 +3734,18 @@ cl l,0
 mld l,SIN_Def1,80
 
 ;「めそめそさんは、扉を挟んでこそ、真価を発揮する妖怪と聞きましたが…？」@
-`"I've heard Mesomeso-san is a youkai who demonstrates her true worth -- from behind a door?"`@`
+`"I've heard Mesomeso-san is a youkai who demonstrates her true worth from behind a door?"`@`
 
 ld r,MAR_i3a,80
 
 ;「……仮にも学校妖怪八席。@……あなたを、……この腕で、……駆逐しますッ。」\
-`"...For the moment, I am in the 8th Ranked Seat of School Youkai.`@` With these hands...I will...destroy you."`\
+`"...Right now I am in the 8th Ranked Seat of School Youkai.`@` ...I will destroy you... with my bare hands~!"`\
 
 se1v 22,50
 bg white,8
 
 ;　いつの間にか、紅茶紳士のティーカップの湯気が、部室中に充満していた。@
-`　At some point, the steam from The Tea Gentleman's cup, had filled the entire club room.`@`
+`　At some point, the steam from The Black Tea Gentleman's cup, had filled the entire club room.`@`
 br
 ;　それは霧のようというより、@……まるでティーカップから、霧の腕が何本も生え出したかのよう。\
 `　Rather than a mist,`@` ...it was as if from the teacup, countless arms of fog had sprung up.`\
@@ -3792,13 +3798,13 @@ ld l,SIN_Def1,22
 `"..."`@`
 br
 ;　紅茶紳士は、ふっと笑う。\
-　The Tea Gentleman laughed with a huff.
+　The Black Tea Gentleman laughed with a huff.
 
 ;　あっさりと決着がついたから？@　違う。@
-`　Because he settled things so quickly?`@` No.`@`　
+`　Was it because he settled things so quickly?`@` No.`@`　
 br
 ;　わかっているのだ。@仮にも、学校妖怪八席。@……この程度で、仕留められるわけもない。\
-`　He knew.`@` The Eighth Ranked School Youkai, even if she was temporarily in that rank.`@`...There was no way this amount would take her down.`\
+`　He realized it.`@` Even if she was temporarily in that rank, he was up against The Eighth Ranked School Youkai.`@`...There was no way he could take her down using attacks like that.`\
 
 
 mbg "BMP\background\efe\red1.bmp",1
@@ -3815,7 +3821,7 @@ ld l,SIN_Def3,80
 `"...Mesomeso-san appears to be a youkai with superhuman strength.`@` ...I see, what a dreadful power."`@`
 br
 ;　繭を内側から破るように。@……激しい音がして、霧の腕が霧散する。\
-`　As though tearing apart a cocoon from within,`@` ...With a violent sound, the arms of mist dispersed.`\
+`　With a violent sound like tearing apart a cocoon from within,`@` ...the arms of mist were dispatched.`\
 se1v 55,70
 
 bg white,28
@@ -3831,11 +3837,11 @@ se3v 13,50
 quakey 2,200
 
 ;　再び姿を見せた毬枝は、@……学校を代表する妖怪たちの末席を務める者に相応しい貫禄を見せていた。\
-`　The figure of Marie was seen once more,`@` ..Marie displayed a presence befitting of one representing the school's lowest seat of youkai.`\
+`　The figure of Marie was seen once more,`@` ...Marie displayed a presence befitting of one representing the school's lowest seat of power among the youkai.`\
 mld c,MAR_i2,80
 
 ;「…………私は、まだ自分の力をよくわかっていません。@………私に抱き締められタラ、……手加減は、無理……デス……。」\
-`"...I, still do not understand my own power.`@`...If you hoLD ME, ...I won't be able to ...HOLD BACK..."`\
+`"...I, still do not understand my own power.`@`...If you try to stOP ME, ...I won't be able to ...HOLD BACK..."`\
 
 me1v 16,70
 
@@ -3850,17 +3856,17 @@ me2v 28,90
 
 br
 ;　鉛のような質量を伴った両腕は、@まるで丸太を思わせるほどの太ささえ感じさせる威圧感を放っていた。\
-`　As though they were reinforced with lead,`@` both arms gave off an intimidating air and were so large, one might even think they were like tree trunks.`\
+`　Both her arms were as heavy as lead, @` and they were so large they seemed like tree trunks.`\
 mcl c,0
 bg engeki_01,0
 mld l,SIN_Def1,22
 ;ld l,SIN_Def1,80
 
 ;「やはり、……敵いませんか。@……では、最後に一花とさせていただきましょう。」@
-`"I suppose,...that didn't take.`@` ...Well then, let's continue until something succeeds."`@`
+`"I suppose that didn't work.`@` ...Well then, let's continue until something does."`@`
 br
 ;　紅茶紳士が手をかざすと、そこに霧の蛇が巻きつき、……槍のような鋭さを見せる。\
-`　The Tea Gentleman raised his hand, and a snake of mist twined around, ...sharp like a lance.`\
+`　The Black Tea Gentleman raised his hand, and a snake of mist twined around, ...and sharpened like a lance.`\
 
 se1v 22,50
 
@@ -3869,12 +3875,12 @@ bg white,8
 ld r,MAR_o1,2
 
 ;「…………………………………。」@
-`"......"`@`
+`"............"`@`
 
 mld l,SIN_Def2,80
 
 ;「……おや。@足音が近付いてきますね。@……これ以上、ニンゲンが増えると居心地が良くありません。@この一撃で、決着とさせていただきましょう。」\
-`"...Oh my. `@`Some footsteps are coming closer`@`...If we go on, more 'humans' than I am comfortable with will be here.`@` Allow me to settle this with this one blow."`\
+`"...Oh my. `@`I hear some footsteps coming closer.`@`...If we go on, more 'humans' than I am comfortable with will be here.`@` Allow me to settle this with this one blow."`\
 
 ;　確かに、誰かの足音が近付いてくる。@
 `　Indeed, someone's footsteps were nearing.`@`
@@ -3893,10 +3899,10 @@ bg white,64
 
 
 ;　がらりと部室の引き戸が開け放たれた瞬間。@/
-`　Suddenly, the moment the club's sliding door was thrown open.`@`/
+`　The instant the club's sliding door was thrown open,`@`/
 me1v 28,70
 ;……毬枝と紅茶紳士は、電光のような閃きで交差した。\
-`...Marie and the Tea Gentleman, crossed paths with a flash like lightning.`\
+`...Marie and the Black Tea Gentleman, crossed paths with a flash like lightning.`\
 
 
 ld_p MAR_i2
@@ -3905,7 +3911,7 @@ lsp2 5,$ld_pass2,130,550,200,200,0
 print 24
 
 ;「…………………………。」@
-`"......"`@`
+`"............"`@`
 
 ld_p SIN_Def3
 lsp2 2,$ld_pass,480,480,-200,200,0
@@ -3913,7 +3919,7 @@ lsp2 3,$ld_pass2,480,480,-200,200,0
 print 23
 
 ;「………ですよねぇ…………。」\
-`".....Isn't it..."`\
+`".....I see..."`\
 
 ld_p MAR_i3
 lsp2 4,$ld_pass,130,550,200,200,0
@@ -3921,7 +3927,7 @@ lsp2 5,$ld_pass2,130,550,200,200,0
 print 80
 
 ;「……負けを認めて下さい。@……手加減は、本当に難しいんです。」@
-`"...Accept your defeat.`@` ...It truly is difficult to hold back."`@`
+`"...Accept your defeat.`@` ...It'm really struggling to hold back."`@`
 
 ld_p SIN_Def1
 lsp2 2,$ld_pass,480,480,-200,200,0
@@ -3958,12 +3964,12 @@ quakey 2,300
 me1v 5,50
 
 ;　雷鳴のような音が轟き、……紅茶紳士の体は、豪腕によって殴り飛ばされたことを、思い出す。@
-`　With a roar like the sound of thunder, ...The Black Tea Gentleman's body was knocked off his feet by her strong arms.`@`
+`　With a roar like the sound of thunder, ...The Black Black Tea Gentleman's body was knocked off his feet by her strong arms.`@`
 ;　一番奥の壁まで吹き飛ばされ、大の字に叩き付けられた。@
 `　He was blown clear across the room and strewn against the furthest wall.`@`
 br
 ;　紅茶紳士は、見事な一撃です…、と言いながら、親指を立てる仕草をしてみせる…。\
-`　The Tea Gentleman said, "a splendid strike," and gave a thumbs up as he spoke...`\
+`　The Black Tea Gentleman said, "a splendid strike," and gave a thumbs up as he spoke...`\
 se1v 1100,30
 mbg white,1
 mcbg 22
@@ -3971,7 +3977,7 @@ mcbg 22
 ;　それと同時に、小さな割れる音。@
 `　At that same time, a small breaking sound.`@`
 ;　みどりに及んでいた紅茶紳士の力が砕け、彼女が解放されたことを示すものだった。@
-`　It was to signify that The Tea Gentleman's power had been broken, and Midori had been freed.`@`
+`　It was to signify that The Black Tea Gentleman's power had been broken, and Midori had been set free.`@`
 br
 ;　毬枝は安堵の溜め息を漏らしながら、ゆっくりと両拳の力を抜いていく………。\
 `　While letting out a sigh of relief, Marie drew back the power in both her fists...`\
@@ -4096,7 +4102,7 @@ mono 1
 ld l,SIN_def4,22
 
 ;　紅茶紳士は、一つだけ願いを叶えようと言った。@
-`　The Tea Gentleman had said he would grant one wish.`@
+`　The Black Tea Gentleman had said he would grant one wish.`@
 br
 ;　どんな役でも一つ、与えてあげようと言った。\
 `　That he would give her any one role she wanted.`\
@@ -4167,7 +4173,7 @@ bg white,22
 `　It was almost like watching a movie on rewind.`@
 br
 ;　過去の記憶が鮮明に蘇る。@嘘で上書きされる前の、正しい“本当”の姿で。\
-`　Memories of the past were clearly resurrected. `@`From the lies that had hid them before came the right 'truth'.`\
+`　Memories of the past were clearly resurrected. `@`From the lies that covered it came the real 'truth'.`\
 
 bg kyou_02,2
 
@@ -4230,7 +4236,7 @@ bg engeki_03,22
 `　As I looked for a place to stretch, everyone said 'you stink' and moved away from me.`@
 br
 ;　ぽっかりとあけられた広すぎるスペース。\
-`　They started to move away and created a vast distance of space.`\
+`　When they left me it created a vast distance of space.`\
 
 mbg "BMP\background\efe\red1.bmp",1
 se1 12
@@ -4404,7 +4410,7 @@ bg black,22
 me4v 3,70
 
 ;　だから、紅茶紳士に何の役を演じたいのかと問われて、私は答えたんだ。@
-`　So when the Tea Gentleman asked what kind of role I wanted to play, I answered him.`@
+`　So when the Black Tea Gentleman asked what kind of role I wanted to play, I answered him.`@
 br
 ;　私は、川田のぞみになりたいって……！\
 `　I said, I wanted to be Nozomi Kawada...!`\
@@ -4419,7 +4425,7 @@ bg engeki_04,6
 `　The back of my head filled with blood, ... as she slowly stained the witch's dress with blood, `@`Midori slowly stood up.`@
 br
 ;　そして、壁に寄り掛かり、苦しそうにしている紅茶紳士の姿を見つけた。\
-`　And she leaned against the wall, she saw the Tea Gentleman, who seemed to be in anguish.`\
+`　And she leaned against the wall, she saw the Black Tea Gentleman, who seemed to be in anguish.`\
 
 bg black,24
 bg engeki_03,24
@@ -4441,7 +4447,7 @@ ld l,SIN_Def1,22
 ld r,MID_def2a,80
 
 ;「姫と呼ばれて、……ちやほやされたい。@演劇部でも、素敵な役を与えられて、舞台の中央でスポットライトを浴びたい…。@私を、彼女にして。@……川田のぞみにして……。」\
-`"I want to be called princess ...I want to be spoiled. `@`Even in the drama club, I want to earn a spectacular role, and bathe in the spotlight of the center stage... `@`Make me her. `@`...Make me Nozomi Kawada..."`\
+`"I want to be called princess ...I want to be loved. `@`Even in the drama club, I want to earn a spectacular role, and bathe in the spotlight of the center stage... `@`Make me her. `@`...Make me Nozomi Kawada..."`\
 
 ld l,SIN_Def3,80
 
@@ -4455,7 +4461,7 @@ me1v 16,70
 ;ld r,MID_def1,80
 
 ;「でも、……おかしいの……、おかしいの……。@……みんなが、みんなが……私をいじめるの……。@……川田さんもおかしいの……。@このドレス、私のじゃないって……、私のこと、……雑用係だって……！！」\
-`"But... something is wrong... something is wrong... `@`...Everyone, everyone is bullying me... `@`...Even Kawada-san is wrong... `@`They're saying... this dress isn't mine -- they're saying... I'm the chore girl!!"`\
+`"But... something is wrong... something is wrong... `@`...Everyone, everyone is bullying me... `@`...Even Kawada-san is wrong... `@`They're saying... this dress isn't mine ― they're saying... I'm the chore girl!!"`\
 
 ;ld l,SIN_Def1,80
 
@@ -4530,7 +4536,7 @@ ld c,MID_U2,0
 ld l,SIN_Def2,2
 
 ;　その手を、紅茶紳士が握っている。@
-`　The Tea Gentleman took that hand.`@`
+`　The Black Tea Gentleman took that hand.`@`
 br
 ;　毬枝もまた、その光景を呆然と見ている他なかった。\
 `　Marie was also watching this spectacle in bewilderment.`\
@@ -4575,7 +4581,7 @@ bgm1 14
 `"Higanbana-san...!"`@`
 br
 ;　いつの間にか彼岸花の姿もあった。\
-`　Unbeknownst when she arrived, Higanbana was also there.`\
+`　There was no telling when she arrived, but Higanbana was there.`\
 
 ld r,HIG_Def2,22
 
@@ -4654,7 +4660,7 @@ ld r,HIG_w3,22
 ld l,MAR_i4a,22
 
 ;「彼は紅茶紳士と名乗りましたが、……一体、何者なんですか。」@
-`"The man used the name 'Tea Gentleman'...but just who on earth is he?"`@`
+`"The man used the name 'Black Tea Gentleman'...but just who on earth is he?"`@`
 
 ld r,HIG_Def3,80
 
@@ -4675,13 +4681,13 @@ br
 `　But his power is extremely tempting, ...and surely no human can resist it.`@`
 br
 ;　校長先生の手下という扱いなので、序列は持たないが、@その実力は影の序列第２位と囁かれている……。\
-`　This is what the Headmaster's underling handles,`@` the power of the shadow's second ranks, spoken of in whispers...`\
+`　This is what the Headmaster's underling is capable of `@`― the power of the shadow second ranked youkai spoken of in whispers...`\
 
 bg engeki_01,0
 ld c,SIN_Def1,22
 
 ;「ご謙遜を。@私など、名も無い一妖怪に過ぎません。」\
-`"You flatter me.`@` I am nothing but a youkai with no name."`\
+`"You flatter me.`@` I am nothing but a nameless youkai."`\
 
 bg black,22
 bg engeki_02,0
@@ -4700,14 +4706,14 @@ cl r,2
 
 br
 ;　毬枝は呆然と、……紅茶紳士とみどりのアンコールを見ていた……。\
-`　Marie speechlessly,...watched The Tea Gentleman and Midori's encore...`\
+`　Marie was speechless...and watched The Black Tea Gentleman and Midori's encore...`\
 
 bg black,22
 ;bg engeki_03,0
 ;ld c,MID_Def1,24
 
 ;　川田のぞみも呆然としている。@……もう、みどりには誰の姿も目に入らない。@
-`　Nozomi Kawada was also at a loss for words.`@`...For Midori, her eyes could no longer see anyone.`@`
+`　Nozomi Kawada was also at a loss for words.`@`...And Midori's eyes could no longer see anyone.`@`
 ;　彼女の瞳に浮かぶのは、……満場の観客席だけだ。\
 `　But reflected in those eyes, ...was an auditorium full of spectators.`\
 se1v 77,70

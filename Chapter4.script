@@ -65,7 +65,7 @@ me1v 24,50
 `　The next day. `@`Her class was in an uproar.`\
 
 ;　単調な日常が繰り返される学校生活において、@クラスメートが怪我で入院するなんて大事件は、そうそう起こらない。@
-`　For the average, ever-repeating daily routine that was their school lives, `@`a big incident, like one of their classmates being injured and hospitalized, almost never happens.`@
+`　For the average, ever-repeating daily routine that was their school lives, `@`a big incident, like one of their classmates being injured and hospitalized, almost never happened.`@
 ;　皆、興奮した様子でおしゃべりを延々と繰り広げている……。@
 `　They were all excited about this turn of events, and they continued talking without end......`@
 br
@@ -156,19 +156,19 @@ br
 `　Always alone and reading complicated books ...she'd mutter to herself.`\
 
 ;　クラスメートの女子に言わせると、“何か見えちゃってる、アブネーやつ”だった。@
-`　If you ask her classmates about her, they will tell you 'she stands out - she's a dangerous one.'`@
+`　If you ask her classmates about her, they will tell you 'she stands out ― she's a dangerous one.'`@
 br
 ;　しかし、……その表現はみちるにとって、……あながち、的外れなものではないと感じている。\
-`　But, ...as far as Michiru is concerned, ...that expression wasn't entirely off target.`\ 
+`　But, ...as far as Michiru is concerned, ...that wasn't entirely off target.`\ 
 
 bg black,22
 bg gakkou_03,22
 
 ;　………みちるは一人、校舎裏にやって来る。@
-`　...Michiru comes to the back of the school building alone.`@
+`　...Michiru heads to the back of the school building alone.`@
 br
 ;　そして、忘れ去られ雑草が生い茂った花壇の一角にやってくる。\
-`　And she comes to the forgotten flowerbed that is overgrown with weeds.`\
+`　And she goes to the forgotten flowerbed that is overgrown with weeds.`\
 
 bg black,22
 bg hokora_01,22
@@ -293,7 +293,7 @@ bg hokora_02,22
 bgm1 8
 
 ;「…………桜田さんってさ……。@その、………。@………あるの……？」\
-`"...About Sakurada-san... `@`Well, ... `@`...Do you have it...?"`\
+`"...Hey Sakurada-san... `@`Well, ... `@`...do you have... you know...?"`\
 
 ld c,MIC_Def1,22
 
@@ -320,7 +320,7 @@ br
 `　So the girl, unable to stand the silence, began to cringe...`\
 
 ;「……クラスの子が噂してたの。@……桜田さんは、その、………霊感とか、そういう力があって…。@………霊とかそういうのが、……見えちゃう、って……。@わ、……私は全然見えないけどっ。@ふ、ふつーそうだよね…？@　はは、はは……。」@
-`"...Kids in class have spread rumors about it. `@`...They say you, well, ...have something like a sixth sense... `@`...They say that a sixth sense means... you can see... them...`@` I-... I can't see them at all, but --`@` that's n- normal, right...? `@`Ha ha, ha ha..."`@
+`"...Kids in class have spread rumors about it. `@`...They say you, well, ...have something like a sixth sense... `@`...They say that a sixth sense means... you can see... them...`@` I-... I can't see them at all, but ―`@` that's n- normal, right...? `@`Ha ha, ha ha..."`@
 br
 ;　みちるはもう一度、小さく溜め息を漏らしてから、……言った。\
 `　After taking letting out another short sigh... Michiru spoke.`\
@@ -450,7 +450,7 @@ bgm1 18
 ;ld l,MIC_Def1,80
 
 ;「違うよ。@………鎮守神さまは、そんな悪い気や霊を、この祠で鎮めて来たんだよ。@……はるか昔からここにいて、@敬う人間がいなくなっても、ずっとずっとここに留まって、……土地を守り続けてきた。」\
-`"No. `@`...The Guardian Deity came here to appease the evil will and bad spirits, using this shrine. `@`...Long, long ago,`@` even after the people who honored Him were gone, he remained for ages and ages,...continuing to protect this land."`\
+`"No. `@`...The Guardian Deity came here and used this shrine to calm the evil forces and wicked spirits. `@`...Long, long ago,`@` even after the people who honored him were gone, he remained for ages and ages,...continuing to protect this land."`\
 
 ;ld l,MIC_Def1,80
 
@@ -509,7 +509,7 @@ ld r,MIC_Def1,22
 ld r,MIC_Def3,80
 
 ;「……それで、鎮守神さまは人間たちの不敬に怒り狂ってしまったの。@………私の忠告を聞いていれば、……誰も不幸にならなかった。」\
-`"...And so, the Guardian Deity became encompassed in rage at humans' disrespect.`@` ....If you had listened to my warning... nobody would have experienced this misfortune."`\
+`"...And so, the Guardian Deity became encompassed in rage from humans' disrespect.`@` ....If you had listened to my warning... nobody would have experienced this misfortune."`\
 
 ;「ご、ごめんなさい…！@　あの時は私たちも動揺してて、その……。」@
 `"I, I'm sorry...!`@` At that time, we were in such a panic, we just..."`@`
@@ -522,14 +522,14 @@ ld r,MIC_Def2,80
 quakey 1,100
 
 ;「お願い、桜田さん…！@　私ッ、怖いの…！！@　加奈の事故だけじゃない…！@　博美も若菜も、みんな身の回りで何かおかしいことが起こってるの…！@　最初は誰かの悪戯かなって程度だったけど、@だんだんおかしくなっていって、……それでとうとう加奈は……！@　これ以上、祟りが酷くなったら、私たちはどうなるの？@　どうなっちゃうの？！@　怖いよッ、助けてよッ、桜田さん！！」\
-`"Please, Sakurada-san...!`@` I, I'm scared...!!`@` Not just of the accidents with the chairs...!`@` Hiromi, Wakana, and everyone around them...Something strange is happening to them...!`@` At first, I wondered if maybe it was just someone pulling my leg,`@` but then things got worse and worse, ...and then finally the chairs...!`@` If this curse gets any worse than this, what will happen to us?`@` What's going to happen?!`@` I'm scared...! Save us, Sakurada-san!!"`\
+`"Please, Sakurada-san...!`@` I, I'm scared...!!`@` Not just of the accident with the chair...!`@` Hiromi, Wakana, and everyone around them...Something strange is happening to them...!`@` At first, I wondered if maybe it was just someone pulling my leg,`@` but then things got worse and worse, ...and then finally the chair...!`@` If this curse gets any worse than this, what will happen to us?`@` What's going to happen?!`@` I'm scared...! Save us, Sakurada-san!!"`\
 
 ;　少女は蒼ざめながら、目に涙を溜めて懇願する。\
 `　As the girl became more pale, tears welled up in her eyes and she pleaded.`\
 bg black,22
 
 ;　その力ゆえに、薄気味悪いとクラスメートたちからずっと敬遠されてきたみちるにとって、@都合のいい時だけ頼られるのは、良い気持ちのするものではない。\
-`　Because of that power, to eerie Michiru, who was always distanced from her classmates, `@`she was being relied upon only when it became convenient for them -- a feeling that was hardly good.`\ 
+`　Because of her power, to eerie Michiru, who was always distant from her classmates, `@`she was being relied upon only when it became convenient for them ― and that wasn't a pleasant feeling.`\ 
 
 ;　……しかし、彼女は初めて機会を得たのかもしれない。@
 `　...However, she may have just grasped her first chance.`@`
@@ -538,28 +538,28 @@ br
 `　A rare chance that she might be able to save someone with her own power.`\
 
 ;　みちるは、何度目かの溜め息を吐き出し、……覚悟を決めた眼差しで、少女を見る。\
-`　Michiru sighed for the umpteenth time, ...gazing at the girl, preparing herself for the worst.`\
+`　Michiru sighed for the umpteenth time, ...and as she gazed at the girl, she prepared herself for the worst.`\
 
 bg hokora_01,0
 ld c,MIC_Def3,22
 ld c,MIC_Def4,80
 
 ;「……私に出来ることは多くないよ。@まず、私に鎮守神さまの怒りを鎮めることは出来ない。」@
-`"...The things I can do are very few.`@` First off, I cannot quell the Guardian Deity's rage.`@`
+`"...I can't do much.`@` First off, I cannot quell the Guardian Deity's rage.`@`
 ;「そ、そんな……。@じゃあ、誰が怒りを鎮めるの…？！」\
 `"N, no...`@`Then, who can appease it...?!"`\
 
 ld c,MIC_Def2,80
 
 ;「それが出来るのは、あなたたちだけ。」@
-`"The only ones who can do that, are all of you."`@`
+`"The only ones who can do that are all of you."`@`
 br
 ;　道理だ。@少女は閉口して、ごくりと唾を飲み込む。\
 `　It was the truth.`@` She was dumbfounded, and she swallowed with a gulp.`\
 ld c,MIC_Def3,80
 
 ;「この祠の前で。@ボール遊びをしていた全員が揃ってお参りして、鎮守神さまに謝れば。@……どうにかなるかもしれない。」@
-`"In front of this shrine. `@`Gather all who were playing ball that day, and if you all apologize,`@`...perhaps it will do something."`@`
+`"Gather all who were playing ball that day in front of this shrine,`@` and if you all apologize,`@`...perhaps that will do something."`@`
 ;「私たち、全員で……？」\
 `"All, of us...?"`\
 
@@ -567,7 +567,7 @@ cl c,0
 ld r,MIC_Def4,23
 
 ;「そう。@全員で。@……あなた一人が謝ったところで、鎮守神さまの心には多分、届かない。@………心の力は、一人一人では弱いけれど、束ねると強くなるから。@……縄と同じだよ。」@
-`"Yes.`@` All of you.`@` ...Even if you apologize on your own, it's likely that alone will not reach the Guardian Deity.`@` ...It's almost like rope. `@`The power of your hearts are weak one by one, but when twined together they become strong."`\
+`"Yes.`@` All of you.`@` ...Even if you apologize on your own, it's likely that alone will not reach the Guardian Deity.`@` ...Think of it like rope. `@`The power of your hearts are weak one by one, but when tied together they become strong."`\
 ;(CHANGE) Order changed to make it sound better in English. 
 ;「……………う、………うん…。」\
 `"...Y, ...Yeah..."`\
@@ -594,10 +594,10 @@ br
 bg kyou_02,22
 
 ;　リーダー格の博美はオカルト紛いの話を、馬鹿馬鹿しいと吐き捨てて拒絶している。@説得は容易ではないに違いない。\
-`　The leader-type, Hiromi, spat out flat rejection at talk of these events being related to the occult as stupid. `@`Convincing her would be no simple matter.`\
+`　The leader-type, Hiromi, reacting to talk of these events being tied to the occult spat out flat rejection ― calling the idea stupid. `@`Convincing her would be no simple matter.`\
 
 ;　そして、椅子で怪我をした加奈は入院している。@
-`　And Kana is in the hospital after being injured by the chair.`@
+`　Kana is still in the hospital after being injured by the chair.`@
 ;　命に別状はないそうだが、いつ退院してくるかは、よくわからない……。@
 `　They say she's not in a serious condition, but they don't really know when she'll be able to leave...`@ 
 br
@@ -613,13 +613,21 @@ bg hokora_01,22
 ld l,MIC_Def1,22
 
 ;「……私は嫌だよ。@菊の花の飾ってある教室なんて。」@
-`"...I don't want that. `@`I don't want a classroom filled with chrysanthemums."`@
+`"...I don't want that. `@`I don't want a classroom filled with #ECD672chrysanthemums#FFFFFF."`@
+
+; Unlocks sixth glossary entry
+;(Glossary Entry #6: Chrysanthemums)
+if %EN_glossary_progress > 6 jumpf
+	mov %EN_glossary_progress,6
+	se1v 1011,50
+~
+
 ;(Translator's Note): Culture note needed here.
 ;「ちょ、ちょっと止めてよ、笑えないよぉ…！」@
 `"H, hang on, this is no laughing matter...!"`@`
 br
 ;　少女は泣き笑いのようなわけのわからない表情を浮かべながら、みちるの肩にすがり付く。\
-`　While making a confused expression like laughing while crying, the girl grabbed hold of Michiru's shoulder.`\
+`　The girl made an expression as if not knowing whether to laugh or to cry and grabbed hold of Michiru's shoulder.`\
 
 
 ld l,MIC_Def2,80
@@ -636,7 +644,7 @@ ld l,MIC_Def3,80
 `"...There is, but the Guardian Deity is very strong. `@`Something like that can't protect you."`\
 
 ;「じゃあ、どうすればいいの…？！@　絶対にみんなを説得してここで謝るから、@それまでの間、どうすれば祟りを防げるの？！」@
-`"Then, what should I do...?! `@`I absolutely will convince and bring everyone here, `@`so until then, how can we protect ourselves from the curse?!"`@
+`"Then, what should I do...?! `@`I'll definitely convince everyone and bring them here, `@`so until then, how can we protect ourselves from the curse?!"`@
 br
 ;　みちるは髪を風になびかせながら、……祠を見やり、……そして大きな学校を見上げる。\
 `　With her hair blowing in the wind... Michiru looks to the shrine... and then looks up at the large school.`\
@@ -650,7 +658,7 @@ bg gakkou_02u,2
 ;「鎮守神さまは土地の神様。@……その神様の祟りを防ぐには、@……同じ土地に住む、同じくらい強い力を借りる必要がある。」@
 `"The Guardian Deity is a god of this place. `@`...To protect against his curse, `@`...you must borrow similar power from those that live on these grounds."`@
 ;「う、うん。@……それは、どうやればいいの……？！」\
-`"O, Okay. `@`...So how do I do that...?!"`\
+`"O, Okay. `@`...What do I do?!"`\
 
 bg black,2
 
@@ -672,7 +680,7 @@ bg black,22
 bg gakkou_08y,22
 
 ;　二人の人影は、……旧校舎の校舎の陰にあった。\
-`　The silhouettes of two people... stood behind of the old school building.`\
+`　The silhouettes of two people... stood behind the old school building.`\
 
 ;「こ、……こんなことして、……先生に見つかったら大変じゃない……？」\
 `"If... If our teacher sees us doing something like this... we'll be in big trouble won't we...?"`\
@@ -720,7 +728,7 @@ bg k_rouka_03,2
 bgm1 8
 
 ;「きゅ、……旧校舎ってさ…。@オカルトスポットなんでしょ……？」@
-`"A- ...About the old building... `@`It's an area of occultism, isn't it...?"`@
+`"A- ...About the old building... `@`It's haunted, isn't it...?"`@
 
 ld r,MIC_Def3,22
 
@@ -728,14 +736,14 @@ ld r,MIC_Def3,22
 `"...Talking about that, eh?`@` ...Well, we're not really alone."`\
 
 ;「い、……今も、その辺に、……うようよいて、……見えてたりする……？」\
-`"E- ...Even now, in this place... can you see them...crawling about?"`\
+`"R- ...Right now, ... can you see any of them...crawling about in this place?"`\
 
 ld r,MIC_Def2,80
 
 ;「どんなのが見えてるか、……教えて欲しいなら。」@
-`"What sort of things am I seeing? ......If you want to know, I'll tell you."`@
+`"You want to know what I see? ......If you want, I can tell you."`@
 ;「え、……遠慮するよぉ……！」\
-`"Y- ...You don't have to...!!"`\
+`"N- ...Nevermind...!!"`\
 
 ld r,MIC_Def1,80
 
@@ -763,14 +771,14 @@ ld c,MIC_Def1,26
 
 
 ;「はい、数珠。@……これを持って。@そう。@……それからこれは御守りの護符。@悪い霊を遠ざけて、代わりに良い霊たちを集めてくれる。」\
-`"Here, a rosary. `@`...Take this. `@`Yes. `@`...And here is a protective charm. `@`These will ward evil spirits, and they'll bring the good spirits to you."`\
+`"Here, prayer beads. `@`...Take them. `@`Good. `@`...And here is a protective charm. `@`These will ward off evil spirits, and they'll bring the good spirits to you."`\
 
 cl c,2
 
 bgm1 18
 
 ;　みちるたちは、数珠と護符と懐中電灯を持ち、………夜の旧校舎の中を歩き始める。@
-`　They took the rosary, charm, and while holding the flashlight... they began walking through the old school building at night.`@
+`　Holding prayer beads, charms, and flashlights... they began walking through the old school building at night.`@
 br
 ;　みちるは不思議な呪文、あるいは祝詞を唱えながら。\
 `　Michiru was chanting some strange spell or perhaps a Shinto prayer.`\
@@ -800,7 +808,7 @@ bg black,22
 `　Michiru wasn't telling a lie with those words.`@
 br
 ;　なぜなら、確かに人ならざる存在はそこにいて、二人の少女を見ていたからだ。\
-`　Because an otherworldly being really is there, and it's watching the two girls.`\
+`　Because an otherworldly being really was there, and it was watching the two girls.`\
 
 textoff
 
@@ -811,15 +819,15 @@ wait 2000
 ld r,MAR_Def4a,2
 
 ;「……何をしているのかな。@……こんな時間に、この二人は……。」@
-`"...You two. `@`...What are you doing... at this hour...?"`@
+`"...You two. `@`...What are you up to at this hour...?"`@
 br
 ;　それは、旧校舎の怪談の主、……第八怪談を司る、めそめその毬枝だった。\
-`　It was the subject of the old school building's ghost story, ...ruler of the 8th Ghost Story, Mesomeso Marie.`\
+`　It was the subject of the old school building's ghost story, ... Mesomeso Marie of the 8th Ghost Story.`\
 
 ;　稀に、肝試しと称して忍び込んでくる生徒はいる。@
 `　Rarely are there students who test their courage by creeping in here.`@
 ;　しかし、こんなにも遅い時間に入ってくる生徒は本当に珍しい。@
-`　However, for students to come in here at this late an hour is particularly rare.`@
+`　Students coming in here this late are particularly rare.`@
 br
 ;　毬枝は、暗がりで転んで怪我でもしなければいいのだけどと心配しながら、@少女たちと一緒に歩いていた。\
 `　Marie, worrying the girls might tumble in the darkness and get themselves hurt, `@`walked alongside them.`\
@@ -831,12 +839,12 @@ bg k_rouka_01,22
 `　...In reality, the inside of the old school building was full of low class spirits and youkai.`@
 br
 ;　それらは夜に力を増幅し、@この珍客たちを、転ばせたり、何かに引っ掛けたりして、怪我をさせようとあちこちからうかがっているのだ。\
-`　Their strength amplified by the night, `@`they wait here and there, looking to harm these rare visitors by making do things such as getting caught on things or tripping and falling.`\
+`　Their strength amplified by the night, `@`they wait here and there, looking to harm these rare visitors by making them get caught on things or by causing them to trip and fall.`\
 
 ld c,MAR_i4,24
 
 ;　しかし、それらは学校妖怪序列第８位の毬枝の姿を見ると、びくっと姿を隠してしまう。@
-`　However, when they see Marie, school youkai of the eighth rank, they jump and get out of sight.`@
+`　However, when they see Marie, School Youkai of the Eighth Rank, they jump and run out of sight.`@
 br
 ;　彼らにとって、学校妖怪八席は恐ろしい存在。@
 `　To them, the eighth ranked school youkai was a terrifying creature.`@
@@ -874,7 +882,7 @@ br
 `　Marie clenched her fist and gave a strong nod.`\
 
 ;　きっと、祟りをしている本人にとって、その祠は大事なものなんだろう。@それを壊されて怒る気持ちは確かにわかる。@
-`　Surely, that shrine has to be pretty important to the one cursing them. `@`I certainly understood it for getting mad that it was destroyed.`@
+`　That shrine's deity has to be pretty important to be cursing people. `@`I could understand it for getting mad that its home was destroyed.`@
 br
 ;　でも、それに反省しているし、みんなで揃って謝りに行くとも言っている。@
 `　But, thinking about it, it's saying it wants everyone to gather and apologize.`@
@@ -926,7 +934,7 @@ br
 `　The school is vast and gigantic. `@`There was nothing unusual about going to a place she didn't know about...`\
 
 ;　すると、……トントン、カンカンと、釘を打つ音が聞こえた。\
-`　Then ...with clang clang and tap tap, she heard the sound of someone hitting metal.`\
+`　Then ...with and clang clang and tap tap, she heard the sound of someone hitting metal.`\
 
 bg black,24
 bg hokora_01,24
@@ -937,7 +945,7 @@ bg hokora_01,24
 `　...in a corner of the thickly overgrown weeds, there was the shrine.`@
 br
 ;　そこに、白衣の先生がしゃがみ込んで、何やらやっている。\
-`　There was someone in a teacher's white robe crouched down there, and she was doing something.`\
+`　There was someone in a teacher's white coat crouched down there, and she was doing something.`\
 
 ld r,MAR_Def4a,24
 
@@ -978,12 +986,12 @@ ld l,HOK_Def3,80
 ld r,MAR_def4a,80
 
 ;「ムシが騒ぐって？」\
-`"What do you mean bugs make noise?"`\
+`"'Bugs make a lot of noise'?"`\
 
 ld l,HOK_Def4,80
 
 ;「あはははははは。@まぁ、先生の第六感かな？@　何だか気になって来てみたらね。@この祠の扉が壊れてたんだよ。@ボールか何かがぶつかったのかもね。@これじゃ、祠の神様が可哀想だからと思ってね。@先生、こう見えても、こういうのの修理、得意だったりするの。」\
-`"Ahahahahahaha. `@`Well, perhaps it's just my sixth sense? `@`It just bothered me for some reason, and I went out to look, right? `@`This shrine's gates were broken. `@`A ball or something must have crashed into it. `@`And then I thought about the poor spirit in the shrine, ya know? `@`If you can, look at it this way -- as a nurse, mending is my forte."`\
+`"Ahahahahahaha. `@`Well, perhaps that's just my sixth sense? `@`It just bothered me for some reason, and I went out to look, right? `@`This shrine's gates were broken. `@`A ball or something must have crashed into it. `@`And then I thought about the poor spirit in the shrine, ya know? `@`If you can, look at it this way ― as a nurse, mending is my forte."`\
 
 cl l,25
 
@@ -1006,7 +1014,7 @@ ld l,HIG_w3,80
 `"Once in a while there is one, you see. `@`A human who can sense us, that is. `@`...At times, she's noticed of my presence. `@`She's always been by my side, so perhaps some of my magic has rubbed off on her. `@`*giggle giggle*"`\
 
 ;　保健の先生の霊感が、この祠の主の怒りを察知したに違いない。@
-`　The school nurse's sixth sense, must have led her to percieve the rage of this shrine's master.`@`
+`　The school nurse's sixth sense must have led her to percieve the rage of this shrine's master.`@`
 
 br
 ;　それでここへやってきて、壊れているのを見つけたのだ。\
@@ -1015,7 +1023,7 @@ br
 ld r,MAR_Def3,80
 
 ;「……彼岸花さん。@この祠には、どなたか住んでるんですよね…？」\
-`"...Higanbana-san.`@` Somebody is, living in this shrine, right...?"`\
+`"...Higanbana-san.`@` Someone is living in this shrine, right...?"`\
 
 textoff
 ld l,HIG_def5,80
@@ -1046,10 +1054,10 @@ bg black,22
 `　It was an exceedingly obvious story.`@`
 br
 ;　とにかく、少女たちがやがて謝りに来るので、それまで祟りを待って欲しいとお願いするしかない。\
-`　(?)Anyway, the girls didn't have long to come and apologize, so before that time came, they had no choice but to ask someone to halt the curse.`\
+`　Anyway, the girls didn't have long to gather and come to apologize, so before their time runs out, they had no choice but to ask someone to hold off the curse.`\
 
 ;　……あの少女たちの話を聞く限り、相当強力な妖力を持つ存在らしい。@ということは、その格もきっと高いだろう。@
-`　...According to what she heard from the girl's story, it seemed this presence held considerably strong spiritual power.`@` I'll bet it's high ranked.`@`
+`　...According to what I heard from the girls' story, it seemed this presence held considerably strong spiritual power.`@` I'll bet it's high ranked.`@`
 br
 ;　序列第８位の、非力な自分の話を聞いてくれるだろうか…。\
 `　I wonder if it will listen to this powerless, eighth ranked youkai's story...`\
@@ -1145,7 +1153,7 @@ br
 `　...He had ears that made one think of a fox or something,`@` ...He didn't seem one tiny bit like what one would call a stern Guardian Deity.`@`
 br
 ;　……どちらかというと、……可愛い男の子のように見えた。\
-`　...If she had to say, ...he looked like an adorable young boy.`\
+`　...If she had to say, ...he looked like an adorable boy.`\
 
 mld c,SAK_n2,80
 
@@ -1222,7 +1230,7 @@ mld c,SAK_n3,80
 ld l,HIG_Def5,80
 
 ;「さくのしんは、とっても怖がりな子なの。@仮にも長をやってるんだから、もっとどっしり構えてればいいのにねぇ。」\
-`"Sakunoshin is a very easily frightened child.`@` Though even for an instant he is still the head, so it'd be better if he'd bulk up and be more prepared."`\
+`"Sakunoshin is a very easily frightened child.`@` Though even if we suppose he's the boss around here he should at least bulk up and be more prepared."`\
 
 mld c,SAK_n2,80
 
@@ -1279,7 +1287,7 @@ quakey 1,100
 `"Yaaaaay!!`@` Thank you, Sensei~!!`@` Uryuu~~~!!!"`@`
 br
 ;　泣いたカラスがもう笑った、とはよく言ったもの。@さくのしんは飛び跳ねて喜んでいる。@
-`　'The raven that cried finally laughed' was quite the accurate saying.`@` Sakunoshin was jumping up in down in delight.`@`
+`　'The crying raven finally laughed' was quite the accurate saying.`@` Sakunoshin was jumping up in down in delight.`@`
 br
 ;　……その無邪気な様子を見る限り、祟りで人に危害を加えるような子には、到底見えない。\
 `　...While seeing such an innocent display, it was clear that this child could not possibly curse or harm anyone.`\
@@ -1292,7 +1300,7 @@ me1v 5,50
 
 br
 ;　祠にボールをぶつけた少女たちの身に、色々と不審なことが起こった。@
-`　To the girls who hit the shrine with the ball, many things were happening that were beyond comprehension.`@`
+`　Many things were happening to the girls who hit the shrine with the ball that were beyond explanation.`@`
 
 br
 ;　そして、椅子が降ってきて……。\
@@ -1311,7 +1319,7 @@ bg kyou_04,2
 ;「で、でも、犯人とかわかってないんでしょ…？」\
 `"B, but, we still don't know the culprit, right...?"`\
 ;「犯人わかんないからって、祟りって決め付けるあんたたちの脳みそはどーいう構造になってるわけぇ？！@　私は祟りなんて信じないねッ、絶対に絶対に！@　じゃあねッ、私、部活あるから！」\
-`(?)"Just because you don't know who the culprit is, you figure it was a curse? What kind of crap is your brain even made of?!`@` I don't believe in curses. Never have, never will!`@` So see you. I have clubs to attend!"`\
+`"Just because you don't know who the culprit is, you figure it was a curse? What kind of crap is your brain even made of?!`@` I don't believe in curses. Never have, never will!`@` So see you. I have to go to club now!"`\
 
 se1v 82,90
 
@@ -1395,7 +1403,7 @@ bgm1 8
 `"Is that so!`@` Well, thank goodness!!"`\
 
 ;「あとは博美だけだね！@　……博美も祟りに遭う前に、気が変わってくれるといいんだけど……。」\
-`"So all that's left is Hiromi, right?`@` ...It'd be nice if Hiromi changed how she felt before a curse befell her too, but..."`\
+`"So that just leaves Hiromi, right?`@` ...It'd be nice if Hiromi could chnage how she feels before the curse falls on her too, but..."`\
 
 ;「……何か、ガツーンと来ないと駄目かもねー…。」@
 `"...If we don't do something fast, it might be too late..."`@`
@@ -1445,16 +1453,16 @@ br
 ;　博美は小さく身震いをする。@
 `　Hiromi was trembling slightly.`@`
 ;　みんなの前では強がっているが、彼女も本当は怖いのだ。@
-`　She acted tough in front of everyone, but she too was truly scared.`@`
+`　She put on a show in front of everyone, but she was truly scared.`@`
 br
 ;　……渋々とみんなに付き合ったということにして……、@私もあの祠に、……謝りに行った方がいいかな。\
-`　(?)...Even though she was reluctant to meet with everyone at the shrine...`@` she also wondered ...if it would be best to go and apologize.`\
+`　...Even though she was reluctant to meet with everyone at the shrine...`@` she also wondered ...if it would be best to go and apologize.`\
 
 ;　博美は、何となく怖くて、昇降口を出られない。@
 `　Hiromi was so afraid, she couldn't leave the entrance.`@`
 br
 ;　自分がそのひさしを出た瞬間に、………上から何か、@……もっと致命的なものが降って来るのではないかと怯えてしまう。\
-`　(?)The moment that she walked from under the eaves, ...maybe something from above,`@` ...maybe something more lethal would come falling down on her. The thought frightened her.`\
+`　The moment that she walked from under the eaves, ...maybe something from above,`@` ...maybe something more lethal would come falling down on her. The thought frightened her.`\
 
 ;　……私は強がってるから、……椅子じゃなくて、……今度は消火器、とか……。@
 `　...Since I'm acting tough, ...maybe it won't be a chair, ...and it would be a fire extinguisher or something instead...`@`
@@ -1473,7 +1481,7 @@ bgm1 10
 
 br
 ;　その音が、博美の耳に届くわけもない。\
-`　There was no way that sound could reach Hiromi's ears.`\
+`　That sound had no way to reach Hiromi's ears.`\
 
 bg gakkou_02u,22
 
@@ -1486,7 +1494,7 @@ bg black,22
 `　What it was... did not betray her imagination.`@`
 br
 ;　……少し煤けて錆びた、………真っ赤な真っ赤な、………重い重い、@………消火器。@
-`　...A little bit sooty and rusted, ...a deep red, ...extremely heavy, `@`...fire extinguisher.`@`
+`　...A little bit sooty and rusted, ...it was a deep red, ...extremely heavy, `@`...fire extinguisher.`@`
 me1v 5,50
 
 br
@@ -1501,7 +1509,7 @@ br
 ;　一歩、二歩、@……三歩。@
 `　One step, two steps,`@` ...three steps.`@`
 ;　もう数歩をあるけば、昇降口を出る。@ひさしを出る。\
-`　If she walks several steps, she leaves the entrance.`@` She leaves the eaves.`\
+`　If she walks a few more steps, she'd leave the entrance.`@` She heads out under the eaves.`\
 
 ;bg black,22
 
@@ -1510,7 +1518,7 @@ me2v 28,90
 bg gakkou_02u,2
 
 ;　そして、……ゆっくりと、……消火器が持ち上がる……。@
-`　Then, ...slowly...lifting the fire extinguisher...`@`
+`　Then, ...slowly...the fire extinguisher was lifted...`@`
 
 br
 ;　その無骨で重い金属の塊が、………博美が姿を現すのを待ち受ける………。\
@@ -1586,7 +1594,7 @@ mld c,MIC_n3n,23
 E_A
 
 ;「……誰も、………信じてくれないんだもんッ……！！」\
-`"...Nobody, ...would believe me...!!!"`\
+`"...Nobody, ...NOBODY WOULD BELIEVE ME!!!"`\
 
 
 
@@ -1636,7 +1644,7 @@ ld c,MIC_n3n,80
 ld c,MIC_n2n,80
 
 ;「………なら、……ならッ、……いっそ、……祟りを起こしてくれればいいのに、@……何も起こらない…！@　あんなにも、……激しい感情を破裂させたのに、……何も起こらないなんて…！@　……だから私が祟りを代わろうと思ったの…！@　そうすればきっと、あの祠のッ、鎮守神さまに謝ろうって気持ちにみんななってくれると思って！！」\
-`"...So, ...in that case, ...even though a curse should have occurred... `@`Nothing happened...!`@` Even after, ...that violent explosion of emotion, ...nothing happened...!`@` So I thought I'd substitute for the curse...!`@` I thought if I did that, then everybody would change their minds and apologize to the guardian deity of that shrine!!"`\
+`"...And ...even though a curse should have occurred... `@`nothing happened!`@` Even after, ...that violent explosion of emotion, ...nothing happened!`@` So I thought I'd substitute for the curse!`@` I thought if I did that, then everybody would change their minds and apologize to the guardian deity of that shrine!!"`\
 cl c,25
 quakey 1,100
 
@@ -1646,13 +1654,13 @@ quakey 1,100
 bg black,22
 
 ;　彼女の霊感は紛れもなく本物だろう。\
-`　Her sixthth sense was not confused and could have been the real thing.`\
+`　Her sixth sense was not wrong and could have been the real thing.`\
 
 ;　あの祠の主の驚愕の感情をしっかりと受け取れた。@
 `　She firmly understood the feeling of shock from the master of the shrine.`@`
 br
 ;　……しかし、それ以上を理解するには、彼女の霊感は至らなかった。\
-`　However, her sixth sense had not come to understand any more.`\
+`　However, her sixth sense didn't understand the rest.`\
 
 bg hokora_02,0
 ld c,SAK_k1,22
@@ -1663,7 +1671,7 @@ cl c,23
 quakex 1,100
 
 ;　まさか、あの祠の主がものすごく臆病な子で、@ずっと保健室のベッドの下で震えていたなんて、想像も出来なかったろう。\
-`　By no means could she imagine that the master of that shrine was a cowardly child,`@` who had been hiding under the bed in the infirmary the entire time.`\ 
+`　By no means had she imagined that the master of that shrine was a cowardly child,`@` one who had been hiding under the bed in the infirmary the entire time.`\ 
 
 bg black,22
 bg k_kyou_02,0
@@ -1671,7 +1679,7 @@ ld l,MAR_Def2,22
 ld l,MAR_Def1,80
 
 ;「あの祠は、保健室の先生が修理してくれました。@祠の主も、それをとても喜んでいます。@祟りどころか、怒ってさえいません。@……でも、あの子の名を騙る祟りで誰かが傷付いたら、きっととても悲しむと思います。」\
-`"That shrine, was repaired by the school nurse.`@` The master of that shrine was thrilled by this.`@` He was far from cursing, or getting angry.`@` ...But if he knew his name was used to curse and injure somebody, I certainly think that would make him very sad."`\
+`"That shrine was repaired by the school nurse.`@` The master of that shrine was thrilled by this.`@` He was far from cursing, or getting angry.`@` ...But if he knew his name was used to curse and injure somebody, I certainly think that would make him very sad."`\
 ld l,MAR_def3,80
 
 ;「だから、もう。@……あなたの祟りを止めて下さい。@あの子たちはもう、心を決めています。@きっとみんなで揃って、祠に謝りに行くでしょう。@あなたはそれを信じて、見守っていて下さい。」\
@@ -1686,12 +1694,12 @@ br
 ;　みちるは泣き続ける。@涙をぼろぼろと零しながら。@
 `　Michiru continued to cry.`@` Her tears spilled out one by one.`@`
 ;　その涙が本当に透き通っていることを認め、毬枝も表情をわずかに和らげる。\
-`　Acknowledging the feeling those tears were showing through, Marie was slightly relieved.`\
+`　Acknowledging the feelings reflected in those teardrops, Marie was slightly relieved.`\
 
 ld l,MAR_w1,80
 
 ;「……あなたが、祠のことを本当に心配してくれたことは、さくのしんちゃんも喜んでました。@……あ、さくのしんちゃんっていうのは、祠の主のことです。@……だから今度。@祠に行ってみて下さい。@今のあなたにならきっと、あの子が喜んでいるのを感じ取れるはずです。」\
-`"...The fact that, you were truly worried for the shrine, made Sakunoshin-chan very happy.`@` ...Ah, Sakunoshin-chan is the master of that shrine.`@` ...So this time.`@` Go look at the shrine, please.`@` If you go as you are now, you will surely feel his joy."`\
+`"...The fact that you were truly worried for the shrine made Sakunoshin-chan very happy.`@` ...Oh right, 'Sakunoshin-chan' is the master of that shrine.`@` ...So next time.`@` Please take a look at the shrine.`@` If you go as you are now, you will surely feel his joy."`\
 ld r,MIC_n1,80
 
 ;「……本当に、……私には感じ取れるでしょうか…。@……私には、本当に霊感なんて、……あるんでしょうか……。」@
@@ -1728,7 +1736,7 @@ me1v 16,50
 
 br
 ;　みちるは辺りを見渡すが、もうその姿を見つけることは出来ない。\
-`　Michiru surveyed the area around her, but she could not find that figure.`\
+`　Michiru surveyed the area around her, but she could not find her.`\
 
 ;cl r,24
 ;ld c,MIC_Def6,24
@@ -1737,7 +1745,7 @@ br
 `　However, she was sure she heard it.`@` She was certain she was able to hear it.`@`
 br
 ;　毬枝の声が、最後にもう一度だけ聞こえた。\
-`　Marie's voice, was heard one last time.`\
+`　She heard Marie's voice one last time.`\
 
 ;『その消火器。@元のところにちゃんと戻しておいて下さいね。』\
 `"That fire extinguisher.`@` Put it right back where you found it, alright?"`\
@@ -1753,7 +1761,7 @@ wait 2000
 ld c,MIC_def6,80
 
 ;「………はいっ。」\
-`"...Yes."`\
+`"...Yes~."`\
 
 bg e022,42
 

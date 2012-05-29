@@ -1132,7 +1132,7 @@ fede 10,1000
 E_MA
 
 ;　こんなにも、みんなのことがわかるくらい、すぐ近くなのに。@
-`　Even though I can tell what everyone is doing -- it's as if they are so close to me...`@
+`　Even though I can tell what everyone is doing ― it's as if they are so close to me...`@
 ;　……なのに、私にはみんなの姿が見えなくて。@……私だけが、みんなの中に加われない。@
 `　...But I can't see anyone, `@`...I'm the only one who can't be with them.`@
 br
@@ -1254,7 +1254,7 @@ br
 ;　嫌だ。@
 `　I hate this. `@`
 ;　こんなの幽霊ですらない。@……嫌だ、こんな死体みたいな自分………。\
-`　I don't want to be a ghost like this. `@`...I hate this -- being like a corpse...`\
+`　I don't want to be a ghost like this. `@`...I hate this ― being like a corpse...`\
 
 bg black,22
 bg hoken_02,22
@@ -1544,7 +1544,7 @@ bg black,23
 `　The teacher from the infirmary was there as well, so I got double scolded to be quiet and not to leave.`\
 
 ;　……心の中にちょっぴり、黙ってればバレないかもって気持ちがあったのは事実。@
-`　...I did have the small thought of keeping quiet so I wouldn't be found out in my mind -- that much was true.`@
+`　...I did have the small thought of keeping quiet so I wouldn't be found out in my mind ― that much was true.`@
 br
 ;　でも、そんな気持ちのまま今日を終えたら、ずっと心にそれが残って、気分がすっきりしないに決まってる。@
 `　But, if I ended a day like today with feelings like those, they'll stay on my conscience, and obviously, I'll feel bad.`@
