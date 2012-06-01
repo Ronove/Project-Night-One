@@ -122,7 +122,15 @@ ld c,MIC_Def1,2
 bgm1 18
 
 ;「それも、………鎮守神さまの祟りだよ……。」@
-`"That's also... the curse of the guardian deity..."`@
+`"Don't forget... the curse of the #ECD672guardian spirit#FFFFFF..."`@
+
+;Unlocks the sixth glossary entry
+;(Glossary Entry #6: Guardian Spirit)
+if %EN_glossary_progress > 6 jumpf
+	mov %EN_glossary_progress,6
+	se1v 1011,50
+~
+
 ;＜みちる
 br
 ;　ぬぅっと姿を現わした、眼帯の少女が、そう呟く。\
@@ -191,7 +199,7 @@ ld r,MIC_Def2,22
 ld r,MIC_Def1,80
 
 ;「………鎮守神さま、鎮守神さま……。@……どうか、お怒りをお鎮め下さい……。」@
-`"...Guardian deity, guardian deity... `@`...Somehow, please stop the festival..."`@
+`"...Guardian spirit-sama, guardian spirit-sama... `@`...Oh please, somehow, stop the festival..."`@
 br
 ;　小声で何度もそう呟きながら、……祠を見上げては、拝礼を繰り返す。\
 `　As she whispered this in a low voice countless times, ...she'd look up at the shrine, and repeat her prayer.`\
@@ -409,7 +417,7 @@ br
 ld c,MIC_Def2,80
 
 ;「……あなたたちが壊した、この鎮守神さまの祠のことを……？」\
-`"...About the shrine to the guardian deity that you broke...?"`\
+`"...About the shrine to the guardian spirit that you broke...?"`\
 
 ;「う、…………うん…。@加奈の怪我って、やっぱりその、……祟りなの…？」\
 `"Y,...yeah...`@` Is Kana's injury...that curse after all...?"`\
@@ -450,14 +458,14 @@ bgm1 18
 ;ld l,MIC_Def1,80
 
 ;「違うよ。@………鎮守神さまは、そんな悪い気や霊を、この祠で鎮めて来たんだよ。@……はるか昔からここにいて、@敬う人間がいなくなっても、ずっとずっとここに留まって、……土地を守り続けてきた。」\
-`"No. `@`...The Guardian Deity came here and used this shrine to calm the evil forces and wicked spirits. `@`...Long, long ago,`@` even after the people who honored him were gone, he remained for ages and ages,...continuing to protect this land."`\
+`"No. `@`...The guardian spirit came here and used this shrine to calm the evil forces and wicked spirits. `@`...Long, long ago,`@` even after the people who honored him were gone, he remained for ages and ages,...continuing to protect this land."`\
 
 ;ld l,MIC_Def1,80
 
 bg hokora_01,22
 
 ;「…………鎮守神さまは寂しかったんだよ。@こんなにも長い間、土地を守ってきたのに、……誰からも感謝されなくて。@だから、……鎮守神さまも、きっと少し、@拗ねていたところがあったのかもしれないね…。」\
-`"...The deity was lonely.`@` During these good times, even though he was protecting this land, ...he received no thanks.`@` Because of this, ...I'm sure that the deity,`@` might have had times where even he would sulk."`\
+`"...The spirit was lonely.`@` During these good times, even though he was protecting this land, ...he received no thanks.`@` Because of this, ...I'm sure that the spirit,`@` might have had times where even he would sulk."`\
 
 ;「そ、……そこに、……私たちがボールをぶつけて、……こ、壊してしまったから……？」\
 `"Th, ...then there, ...since we hit it with the ball, ...and b, broke it...?"`\
@@ -468,23 +476,23 @@ bg black,22
 me1v 5,50
 
 ;「………そうだよ。@それで、鎮守神さまは怒ってしまった。@………あなたたちだけが悪いわけじゃない。@……長い年月の中で、祠を放置して敬わなかった、何代もの積み重ね。@……その鬱積が、あなたたちに祠を壊されたことで、一気に噴き出してしまった…。」\
-`"...That's right. `@` The Guardian Deity became angry.`@` ...It's not like only you were in the wrong. `@`...In the midst of these good months and years, the shrine was left alone and was not honored. This built up for many generations. `@` ...When you all broke the shrine, this accumulation came bursting forth."`\
+`"...That's right. `@` The guardian spirit became angry.`@` ...It's not like only you were in the wrong. `@`...In the midst of these good months and years, the shrine was left alone and was not honored. This built up for many generations. `@` ...When you all broke the shrine, this accumulation came bursting forth."`\
 
 ;「鎮守神さまの、……祟り………。」\
-`"The Guardian Deity's...curse..."`\
+`"The guardian spirit's...curse..."`\
 
 bg hokora_01,22
 ld r,MIC_Def1,80
 
 ;「……そう。@………鎮守神さまは、今もすごく怒っている。」@
-`"...Yes.`@`...The Guardian Deity, is incredibly angry now."`@`
+`"...Yes.`@`...The guardian spirit is incredibly angry now."`@`
 ;「ど、……どうしたらその怒りを鎮めてもらえるの…？」\
 `"H,...How are we supposed to calm him...?"`\
 
 ld r,MIC_Def2,80
 
 ;「……………一番いいのは。@ボールをぶつけたその時、みんなですぐに祠に謝れば良かった。@……そうすれば、@鎮守神さまも、これが偶然の事故なんだと割り切ることがきっと出来た……。」\
-`"...The best thing to do,`@` would have been for all of you to have apologized to the shrine the moment you broke it with the ball.`@`...If you had done that,`@` the Guardian Deity would surely have been able to see it as a simple coincidental accident."`\
+`"...The best thing to do,`@` would have been for all of you to have apologized to the shrine the moment you broke it with the ball.`@`...If you had done that,`@` the guardian spirit would surely have been able to see it as a simple coincidental accident."`\
 
 bg black,22
 
@@ -509,7 +517,7 @@ ld r,MIC_Def1,22
 ld r,MIC_Def3,80
 
 ;「……それで、鎮守神さまは人間たちの不敬に怒り狂ってしまったの。@………私の忠告を聞いていれば、……誰も不幸にならなかった。」\
-`"...And so, the Guardian Deity became encompassed in rage from humans' disrespect.`@` ....If you had listened to my warning... nobody would have experienced this misfortune."`\
+`"...And so, the guardian spirit became encompassed in rage from humans' disrespect.`@` ....If you had listened to my warning... nobody would have experienced this misfortune."`\
 
 ;「ご、ごめんなさい…！@　あの時は私たちも動揺してて、その……。」@
 `"I, I'm sorry...!`@` At that time, we were in such a panic, we just..."`@`
@@ -517,7 +525,7 @@ ld r,MIC_Def3,80
 ld r,MIC_Def2,80
 
 ;「………いいんだよ。@少なくとも、あなただけは、鎮守神さまへの敬いの気持ちを持ってくれた。@……それが、お怒りを鎮める第一歩になるんだよ。」\
-`"...It's fine.`@` At the very least, The Guardian Deity has received your feelings of reverence. `@`...That, will become the first step towards quelling his rage."`\
+`"...It's fine.`@` At the very least, The guardian spirit has received your feelings of reverence. `@`...That, will become the first step towards quelling his rage."`\
 
 quakey 1,100
 
@@ -545,7 +553,7 @@ ld c,MIC_Def3,22
 ld c,MIC_Def4,80
 
 ;「……私に出来ることは多くないよ。@まず、私に鎮守神さまの怒りを鎮めることは出来ない。」@
-`"...I can't do much.`@` First off, I cannot quell the Guardian Deity's rage.`@`
+`"...I can't do much.`@` First off, I cannot quell the guardian spirit's rage.`@`
 ;「そ、そんな……。@じゃあ、誰が怒りを鎮めるの…？！」\
 `"N, no...`@`Then, who can appease it...?!"`\
 
@@ -567,7 +575,7 @@ cl c,0
 ld r,MIC_Def4,23
 
 ;「そう。@全員で。@……あなた一人が謝ったところで、鎮守神さまの心には多分、届かない。@………心の力は、一人一人では弱いけれど、束ねると強くなるから。@……縄と同じだよ。」@
-`"Yes.`@` All of you.`@` ...Even if you apologize on your own, it's likely that alone will not reach the Guardian Deity.`@` ...Think of it like rope. `@`The power of your hearts are weak one by one, but when tied together they become strong."`\
+`"Yes.`@` All of you.`@` ...Even if you apologize on your own, it's likely that alone will not reach the guardian spirit.`@` ...Think of it like rope. `@`The power of your hearts are weak one by one, but when tied together they become strong."`\
 ;(CHANGE) Order changed to make it sound better in English. 
 ;「……………う、………うん…。」\
 `"...Y, ...Yeah..."`\
@@ -615,10 +623,10 @@ ld l,MIC_Def1,22
 ;「……私は嫌だよ。@菊の花の飾ってある教室なんて。」@
 `"...I don't want that. `@`I don't want a classroom filled with #ECD672chrysanthemums#FFFFFF."`@
 
-; Unlocks sixth glossary entry
-;(Glossary Entry #6: Chrysanthemums)
-if %EN_glossary_progress > 6 jumpf
-	mov %EN_glossary_progress,6
+; Unlocks seventh glossary entry
+;(Glossary Entry #7: Chrysanthemums)
+if %EN_glossary_progress > 7 jumpf
+	mov %EN_glossary_progress,7
 	se1v 1011,50
 ~
 
@@ -633,7 +641,7 @@ br
 ld l,MIC_Def2,80
 
 ;「………とにかく。@あなたたちがここに全員揃うまでの間、@鎮守神さまの祟りが及ばないようにしないと。」\
-`"...Anyway. `@`Until you all have gathered here, `@`we have to make it so the Guardian Deity doesn't cast his spell again."`\
+`"...Anyway. `@`Until you all have gathered here, `@`we have to make it so the guardian spirit doesn't cast his spell again."`\
 
 ;「何かないの…？！@　御守りとか護符とかそういうの…！！」@
 `"Isn't there anything...?! `@`Like a charm, talisman... something!!"`@
@@ -641,7 +649,7 @@ ld l,MIC_Def2,80
 ld l,MIC_Def3,80
 
 ;「……あるけれど、鎮守神さまはとても強い神様。@そんなのじゃ防げないよ。」\
-`"...There is, but the Guardian Deity is very strong. `@`Something like that can't protect you."`\
+`"...There is, but the guardian spirit is very strong. `@`Something like that can't protect you."`\
 
 ;「じゃあ、どうすればいいの…？！@　絶対にみんなを説得してここで謝るから、@それまでの間、どうすれば祟りを防げるの？！」@
 `"Then, what should I do...?! `@`I'll definitely convince everyone and bring them here, `@`so until then, how can we protect ourselves from the curse?!"`@
@@ -656,7 +664,7 @@ me2v 16,50
 bg gakkou_02u,2
 
 ;「鎮守神さまは土地の神様。@……その神様の祟りを防ぐには、@……同じ土地に住む、同じくらい強い力を借りる必要がある。」@
-`"The Guardian Deity is a god of this place. `@`...To protect against his curse, `@`...you must borrow similar power from those that live on these grounds."`@
+`"The guardian spirit is the local deity of these grounds. `@`...To protect against his curse, `@`...you must borrow similar power from those that live on these grounds."`@
 ;「う、うん。@……それは、どうやればいいの……？！」\
 `"O, Okay. `@`...What do I do?!"`\
 
@@ -717,7 +725,7 @@ br
 `　After a few times, cracks like a spider web ran across the glass, and a fist-sized hole opened up...`\
 
 ;　みちるに懐中電灯で照らされながら、少女はそこより手を突っ込み、鍵を開ける……。@
-`　While Michiru shined a light on it with a flashlight, the girl reached inside the hole and unlocked a door...`@
+`　While Michiru cast a light on it with a flashlight, the girl reached inside the hole and unlocked a door...`@
 br
 ;　二人はそこより旧校舎の中へ入り込んだ……。\
 `　And then the two stepped into the old school building...`\
@@ -855,7 +863,7 @@ bg black,22
 bg k_rouka_02,22
 
 ;「あぁ、どうか旧校舎の霊の皆さん…！@　私をしばらくの間、鎮守神さまの祟りからお守り下さいぃぃ！@　近々必ず、みんなで祠にお参りして謝りますからっ。@ボールをぶつけて壊して、そのまま逃げてすみませんでしたぁぁああぁ…！！」\
-`"Ooh, spirits of the former school building...! `@`For just a short time, please grant me protection from the Guardian Deityyyy!`@` Because I must do the ritual and apologize with my friends~.`@` I kicked the ball in the shrine and broke it, and then I ran away.`@` Please forgive meeEeeEee...!!"`\
+`"Ooh, spirits of the former school building...! `@`For just a short time, please grant me protection from the guardian spiriiit!`@` Because I must do the ritual and apologize with my friends~.`@` I kicked the ball in the shrine and broke it, and then I ran away.`@` Please forgive meeEeeEee...!!"`\
 
 ld r,MAR_Def4,22
 
@@ -882,7 +890,7 @@ br
 `　Marie clenched her fist and gave a strong nod.`\
 
 ;　きっと、祟りをしている本人にとって、その祠は大事なものなんだろう。@それを壊されて怒る気持ちは確かにわかる。@
-`　That shrine's deity has to be pretty important to be cursing people. `@`I could understand it for getting mad that its home was destroyed.`@
+`　That shrine's spirit has to be pretty important to be cursing people. `@`I could understand it for getting mad that its home was destroyed.`@
 br
 ;　でも、それに反省しているし、みんなで揃って謝りに行くとも言っている。@
 `　But, thinking about it, it's saying it wants everyone to gather and apologize.`@
@@ -893,7 +901,7 @@ br
 bg black,22
 
 ;　鎮守神さま、という妖怪に会ったことはない。@
-`　I haven't met this youkai called the Guardian Deity.`@
+`　I haven't met this youkai called the guardian spirit.`@
 br
 ;　でも、同じ学校内に住む存在なのだから、私の話だって聞いてくれるはずだ。\
 `　But since it's something that lives on the same school grounds that I do, it should listen to what I have to say.`\
@@ -1150,7 +1158,7 @@ br
 ;　毬枝の背よりも頭一つ分は低い。@
 `　He was about one head shorter than Marie.`@`
 ;　……狐か何かを思わせる耳が生えていて、@……その、鎮守神さまなんて呼ばれてたような厳つさは微塵も感じられない。@
-`　...He had ears that made one think of a fox or something,`@` ...He didn't seem one tiny bit like what one would call a stern Guardian Deity.`@`
+`　...He had ears that made one think of a fox or something,`@` ...He didn't seem one tiny bit like what one would call a stern guardian spirit.`@`
 br
 ;　……どちらかというと、……可愛い男の子のように見えた。\
 `　...If she had to say, ...he looked like an adorable boy.`\
@@ -1348,7 +1356,7 @@ ld r,MIC_def1,22
 `"...Was it no good?"`\
 
 ;「う、うん。@……でも、必ず説得するから！@　じゃないと鎮守神さまの祟りがまた誰かに…！」@
-`"Y, yes.`@`...But I'll definitely persuade her!`@` If I don't, the Guardian Deity will curse someone again...!"`@`
+`"Y, yes.`@`...But I'll definitely persuade her!`@` If I don't, the guardian spirit will curse someone again...!"`@`
 
 ld r,MIC_def2,80
 
@@ -1403,7 +1411,7 @@ bgm1 8
 `"Is that so!`@` Well, thank goodness!!"`\
 
 ;「あとは博美だけだね！@　……博美も祟りに遭う前に、気が変わってくれるといいんだけど……。」\
-`"So that just leaves Hiromi, right?`@` ...It'd be nice if Hiromi could chnage how she feels before the curse falls on her too, but..."`\
+`"So that just leaves Hiromi, right?`@` ...It'd be nice if Hiromi could change how she feels before the curse falls on her too, but..."`\
 
 ;「……何か、ガツーンと来ないと駄目かもねー…。」@
 `"...If we don't do something fast, it might be too late..."`@`
@@ -1644,7 +1652,7 @@ ld c,MIC_n3n,80
 ld c,MIC_n2n,80
 
 ;「………なら、……ならッ、……いっそ、……祟りを起こしてくれればいいのに、@……何も起こらない…！@　あんなにも、……激しい感情を破裂させたのに、……何も起こらないなんて…！@　……だから私が祟りを代わろうと思ったの…！@　そうすればきっと、あの祠のッ、鎮守神さまに謝ろうって気持ちにみんななってくれると思って！！」\
-`"...And ...even though a curse should have occurred... `@`nothing happened!`@` Even after, ...that violent explosion of emotion, ...nothing happened!`@` So I thought I'd substitute for the curse!`@` I thought if I did that, then everybody would change their minds and apologize to the guardian deity of that shrine!!"`\
+`"...And ...even though a curse should have occurred... `@`nothing happened!`@` Even after, ...that violent explosion of emotion, ...nothing happened!`@` So I thought I'd substitute for the curse!`@` I thought if I did that, then everybody would change their minds and apologize to the guardian spirit of that shrine!!"`\
 cl c,25
 quakey 1,100
 

@@ -16,7 +16,7 @@ bg roji_03a,42
 ;　私は走っている。@
 `　I was running.`@`
 ;　学校で走るなんてこと、三つしか考えられない。\
-`　There have only been three times I can think of that I've run at school.`\
+`　There have only been three times I can think of that I run at school.`\
 ;　一つ。体育の時間。@
 `　First, was for gym.`@`
 br
@@ -293,7 +293,7 @@ bg kyou_02a,6
 ;　何だか、勿体ないよね。@
 `　That seems like such a waste.`@`
 ;　だって、ここで元気良く返事をしたら、その分、一日が素敵になるかもしれないじゃない。\
-`　Because, if you respond cheerfully, you could have a wonderful day of that same extent.`\
+`　After all, if you respond cheerfully, you could have a wonderful day of that same extent.`\
 
 ;　だから、自分の名が呼ばれた時。@私は飛びきり元気な声で返事をした。@
 `　That's why, when my name was called.`@` I replied in an exceptionally energetic voice.`@`
@@ -393,7 +393,7 @@ br
 `　Ohh, whhyyy?!`@` Even though I know I did my homework and put it in my bag!!`\
 
 ;　いつまでもそんなことをしてると、往生際が悪いと思われているようで気まずい。@
-`(?)　I kept thinking that way, like I didn't want to gracefully accept my punishment, and I felt awful.`@`
+`　I kept thinking that way, like I didn't want to gracefully accept my punishment, and I felt awful.`@`
 ;　うーーん、きっと家の机の上に忘れてきちゃったんだろうな。@
 `　Hmm, I bet I just left it in my desk at home.`@`
 br
@@ -403,7 +403,7 @@ br
 bg kyou_01,22
 
 ;　忘れた６人は一列に並ばされ、次々に先生にほっぺたをつねられグリグリされていく。@
-`　The six that forgot lined up, and one after the other had their cheeks pinched and grinded against.`@`
+`　The six that forgot lined up, and one after the other had their cheeks pinched and twisted.`@`
 ;　どの男子たちも忘れ物の常習犯ばかり。\
 `　These boys were all habitually forgetful.`\
 
@@ -460,7 +460,7 @@ quakey 3,300
 ;　私のやわらかーなほっぺが、ぐににぃと伸びて歪む。@
 `　My soft, soft cheeks were tugged, stretched, and twisted.`@`
 ;　よほど私は面白い顔をしているのだろう。@みんな大笑いする。@
-`　I could guess my face was very funny.`@` Everybody was bursting with laughter.`@`
+`　I guess my face was very funny,`@` because everybody was bursting with laughter.`@`
 br
 ;　それが何だか面白くて。@痛いはずなのに、私まで笑い出してしまう。\
 `　That was somehow funny.`@` Even though it should've hurt, it made me laugh too.`\
@@ -552,7 +552,7 @@ br
 ;ld c,mar_def1,22
 
 ;「さぁ、試してあげようかしら。@何が起こっても、どこまであんたが楽しいなんて思ってられるかをね…！」\
-`"Alright, let's try it out!`@` If you'll still think everything is fun no matter what happens or how far you're pushed...!"`\
+`"Alright, let's try it out!`@` Let's see if you'll still think everything is fun no matter what happens or how far you're pushed...!"`\
 
 fede 0,2000
 E_A
@@ -563,7 +563,7 @@ bg white,22
 bg "bmp\background\school\Air_02.bmp",2
 
 ;　性質の悪い学校妖怪に目を付けられた少女の今日一日は、とにかく不幸の連続だった。\
-`　The girl who caught the bad-natured school youkai's eye, in any case had a series of unfortunate events all day.`\
+`　The girl who caught the bad-natured school youkai's eye, in any case, had a series of unfortunate events all day.`\
 
 ;　どういうわけかその日に限って、日差しが気持ちよくて。@
 `　On just this day, the rays of the sun felt really good.`@`
@@ -578,7 +578,7 @@ bg kyou_02a,23
 `"Ummm, ...er...uh...."`@`
 br
 ;　うわー、先生が疑ってる。@居眠りしてたんだろーって疑ってるー、あーうー！\
-`　Waahhh, my teacher's suspecting me.`@` He's thinks I was falling asleep...auuu....!`\
+`　Waahhh, my teacher's suspecting me.`@` He thinks I was falling asleep...auuu....!`\
 
 se1 47
 ;「………４８ページぃ～。」@
@@ -607,7 +607,7 @@ br
 `　The teacher said if we didn't pay attention to the thermometer, the test tube could break in spite of everything.`@`/
 se1 1006
 ;……バリン。\
-`...*Crunch*.`\
+`...*Shatter*.`\
 ;「うわ、っちゃ……、やっちゃったぁ……。」@
 `"Oh no...! Now I've done it..."`@`
 br
@@ -637,18 +637,18 @@ se1 69
 bg gakkou_02,22
 
 ;　まぁ、あとで先生に怒られるわけだけど、@……こういうのもすっごく楽しい。\
-`　Well, later the teacher got mad at me, but,`@` ...This too, was extremely fun.`\
+`　Well, later the teacher got mad at me, but,`@` ...I still had too much fun.`\
 
 ;wait 2000
 ;bg kyou_02,22
 
 ;　そして、給食の時間も、どういうわけかツイてない。@
-`　Then there was the time at lunch, which for some reason I just couldn't follow.`@`
+`　Then there was the time at lunch.`@`
 ;　牛乳を飲んでたら、唐突に鼻がムズっと来て、ハックションと大くしゃみ！@
-`　When I was drinking my milk, it suddenly went up my nose and a humongous sneeze came out!`@`
+`　For some reason I just couldn't follow, when I was drinking my milk, it suddenly went up my nose and a humongous sneeze came out!`@`
 br
 ;　幸いにも誰の顔にもブチまけずに済んだけど、私の鼻からは牛乳の雫がたらりと糸を引いて、クラス中が大笑い。\
-`(?)　Everyone could see it felt pretty awful when I finished my sneeze, but then I had a lines of milk coming out my nose, and everyone in the class cracked up.`\
+`　Everyone could tell it felt pretty awful when I finished my sneeze, but then I had lines of milk coming out of my nose, and everyone in the class cracked up.`\
 
 ;　それにつられたのか、数人の男子が同じように牛乳を噴き出したものだから、もうクラス中、大パニックの大爆笑。@
 `　It must have been infectious, because countless boys started spurting out milk in the same way, and the whole class erupted in explosive laughter.`@`
@@ -659,9 +659,9 @@ br
 bg black,22
 
 ;　酷い目に遭ったけど、こんな大笑いの給食は、きっとどんな素敵な献立にも負けない。@
-`　(?)Even though I suffered through that, during this lunch filled with raucous laughter, I couldn't lose no matter what was on the menu.`@`
+`　Even though I suffered through that, nothing could keep me down, and not even the lunch on the menu could beat a room filled with raucous laughter.`@`
 ;　だから私は、ハンカチで顔を拭いながらも、まだ笑いが止まらないのだった。\
-`　That's why, as I wiped my face with my handkerchief, I still couldn't stop laughing.`\
+`　And so as I wiped my face with my handkerchief, I couldn't stop laughing.`\
 
 ;bg rouka_02,0
 bg kyou_02,0
@@ -820,7 +820,7 @@ print 2
 ;「だ、大丈夫ッ？！」@
 `"A, Are you okay?!"`@`
 ;「きゃ、きゃーーッ！！@　血、血がすごい出てるよ？！」@
-`"Kyaa, kyaaaaaa!!!!`@` That's, that's so much blood!!"`@`
+`"Kyaa, kyaaaaaa!!!!`@` There's, there's so much blood!!"`@`
 ;「………そ、………そ…う………？　………ぅ……く………。」\
 `"...R, ...rea...lly...? ....u....kkkghh...."`\
 
@@ -851,12 +851,12 @@ br
 bg e014,5
 
 ;　少女は意識を失い、ずるりと姿勢を崩して床に倒れる。@
-`　She lost her consciousness, and ungracefully her stance collapsed to the floor.`@`
+`　She lost her consciousness, and her stance lost its grace as she collapsed to the floor.`@`
 ;　彼女がずるりと額でなぞった下駄箱には、血の帯がべっとりと付いている。@
 `　On the shoe rack that she had clumsily gone over with her forehead, a slash of blood was thickly plastered.`@`
 br
 ;　それを見て、女子たちが絹を裂くような悲鳴をあげる。\
-`　Look at that, the girls let out a blood-curdling scream.`\
+`　Seeing that, the girls let out a blood-curdling scream.`\
 
 bg black,22
 
@@ -892,7 +892,7 @@ ld c,mar_i3a,80
 ld r,hig_w3,80
 
 ;「……何を甘えてるのよ、毬枝？　私は妖怪よ？@　気に入った生徒を保健室へと引きずり込む、踊る彼岸花。@……その私が気に入ってしまったのよ？@　転んでも遅刻しても、忘れ物をしても抓られても、@何をやっても楽しい楽しいと言ってしまうあの子を、私は何が何でも泣かせてやりたいのよ。@くす、くすくすくすくすくすくすくす。」\
-`"...Why're you being so spoiled, Marie? I'm a youkai, aren't I?`@` I'm the Dancing Higanbana, and I drag the students I take interest in to the infirmary.`@` ...She's someone I took interest in, right?`@` Even if she falls down, or she's late, she forgets something, or gets pinched,`@` no matter what happens to her she just keeps saying it's so much fun, and I wanted to make her cry no matter what it took.`@` Teehee, Teeheeheeheeheehee."`\
+`"...Why're you being so spoiled, Marie? I'm a youkai, aren't I?`@` I'm the Dancing Higanbana, and I drag the students I take interest in to the infirmary.`@` ...She's someone I took interest in, right?`@` Even if she falls down, or she's late, she forgets something, or gets pinched,`@` no matter what happens to her she just keeps saying it's so much fun, and I want to make her cry no matter what it takes.`@` Teehee, Heeheeheeheeheehee."`\
 
 ;bg black,22
 ;wait 1000
@@ -926,7 +926,7 @@ ld c,HOK_def4,22
 ;「大丈夫っ。@額を綺麗に切っちゃっただけでしょ。」@
 `"She's fine~.`@` She cut her forehead quite cleanly."`@`
 ;「で、でも、意識を失ってますし……。」\
-`"B, but, she's been passing out..."`\
+`"B, but, she's passed out..."`\
 
 ld c,HOK_def2,80
 
@@ -977,9 +977,9 @@ br
 ;　でも、……ま、……いいか。@
 `　But, ...well, ...I guess it's fine.`@`
 ;　保健室のベッドって、……一度、寝てみたいと思ってたし。@
-`　I was thinking, ...I wanted to sleep in the infirmary bed at least once.`@`
+`　I was thinking, ...I always wanted to sleep in the infirmary bed at least once.`@`
 ;　その夢が叶ったから、よしとする……か。\
-`　Thinking that that wish came true, I thought I'd leave it at that...`\
+`　My wish came true, so maybe that's a good thing...?`\
 se1v 69,20
 bg hoken_01,2
 wait 2000
@@ -1063,22 +1063,22 @@ bg hoken_04,24
 `"Are you okay?!`@` It's because you were running in the halls that you wound up like this, really."`@`
 br
 ;　担任の先生がやってきて、怒られた。@
-`　My homeroom teacher came and got mad at me.`@`
+`　My homeroom teacher came too and got mad at me.`@`
 ;　保健の先生が、まぁまぁと庇ってくれる。\
-`　The school nurse, saying 'there, there', was standing up for me.`\
+`　The school nurse, saying 'calm down, calm down', was standing up for me.`\
 
 ;「走ってはいけないということは、本人もガツンと痛い思いをして勉強したでしょうから。@ね？@　もう走ったりしないわよね～？」@
-`"I suppose you could learn that running in the halls is a bad thing if you yourself hit your head and remember how much it hurt.`@` Right?`@` You won't run or anything anymore, right~?"`@`
+`"I suppose you could learn that running in the halls is a bad thing if you hit your head and remember how much it hurt.`@` Right?`@` You won't run or anything anymore, right~?"`@`
 ;「………はい。」@
-`"...No."`@`
+`"...I won't."`@`
 br
 ;　私が頷き返すと、先生たちも安堵の微笑みを浮かべる。\
 `　I responded with a nod, and a relieved smile came from both teachers.`\
 
 ;「もうしばらく寝かせてあげようと思います。@帰りのホームルームには多分、戻れると思います。」@
-`"I think I'll let you sleep for a little longer.`@` (?) I think you will probably be able to go back to your homeroom to go home."`@`
+`"I think I'll let her sleep for a little longer.`@` I think she will probably be able to go back to homeroom eventually."`@`
 ;「そうですか、ありがとうございます。@じゃ、ゆっくり休んでね？　無理しちゃ駄目よっ。」\
-`"If that's how it is, thank you very much.`@` So, please rest for a while, okay?`@` You mustn't push yourself."`\
+`"Is that so? Thank you very much.`@` Hear that? Please rest for a while, okay?`@` You mustn't push yourself~."`\
 
 ;「体育、したいです……。」@
 `"I want, to go to gym..."`@`
@@ -1096,7 +1096,7 @@ br
 `　Then the nurse kept me from getting up and got mad at me, saying that I have to get some sleep.`@`
 br
 ;　私なりに元気さをアピールしようと思ったのだが、ことごとく駄目だった。\
-`　I thought I'd try to protest that I was energetic in my own way, but it was altogether no good.`\
+`　I thought I'd try to protest that I was energetic in my own way, but it didn't do me any good.`\
 
 se1v 69,20
 bg black,2
@@ -1173,13 +1173,13 @@ br
 `　The master of the infirmary said with her eyes staring into the distance.`\
 
 ;「……こんなにも、みんなが楽しそうにしているのをすぐ近くで感じることが出来るのに。@……その姿を見ることも、加わることも出来ない。」@
-`"...Even though you can feel everyone enjoying themselves as if they're right next to you. `@`...You can't see them, nor can you be with them."`\
+`"...Even though you can feel everyone enjoying themselves as if they're right next to you. `@`...You can't see them, nor can you be with them."`@
 br
 ;「それは、……彼岸花さんのこと、ですか……？」\
-`"Could this be about... you, Higanbana-san?..."`\
+`"Could it be that you're talking about... yourself? Higanbana-san?..."`\
 
 ;「…………………。@それが学校妖怪の、……いえ、人ならざる世界の話だというだけのことよ。」\
-`"...... `@`This is about all school youkai, ......or rather, non-human beings."`\
+`"......`@`This is about all school youkai, ......or rather, non-human beings."`\
 
 bg black,22
 
@@ -1210,7 +1210,7 @@ br
 `　So definitely... if I were to become a ghost, I think I would become a school ghost.`@
 br
 ;　そんなことを、これまで漠然と考えてきた。\
-`(?)　I thought about that absentmindedly for a while.`\
+`　I thought about that absentmindedly for a time.`\
 
 ;　……しかし、今、こうして保健室で横になり、@……校庭で楽しそうにしているみんなの声だけが聞こえていると。@
 `　...But, right now, in this infirmary,`@` ...all I could hear was the sound of everyone's voices seemingly having so much fun.`@
@@ -1383,7 +1383,7 @@ bg kyou_04,25
 wait 2000
 
 ;「陽子ちゃん、大丈夫？！　その頭ぁ！」@
-`"Youko-chan, are you alright?! Look at your head~!"`@
+`"Yoko-chan, are you alright?! Look at your head~!"`@
 ;「うん、もう全然平気。@包帯も痒いし。」@
 `"Yeah, I'm completely fine now. `@`My bandage itches too."`@
 ;「勝手に取らない方がいいよー。」@
@@ -1431,10 +1431,10 @@ bg rika_03,24
 ;「あっはははははは…！@　待ちなさいよ、こらーっ。」@
 `"Ahhahhahahaha...! `@`Wait up, hey~"`@
 ;「やめてやめて、ちょっとやめてよ、陽子ー！@　あっはははははははは…！」\
-`"Stop stop, stop that~ Youko~! `@`Ahahhahahahaha...!"`\
+`"Stop stop, stop that~ Yoko~! `@`Ahahhahahahaha...!"`\
 
 ;　どったんばったんと。@まるで猫が鼠を追い回す古いアニメみたいに、私たちははしゃぎ合う。@
-`(?)　Leaping and pouncing. `@`Like old cartoons of cats chasing mice, we played.`@
+`　Leaping and pouncing. `@`Like old cartoons of cats chasing mice, we played.`@
 br
 ;　時に滑って転んだり、机の角に体をぶつけたりもするが、あまりに楽しくてへっちゃらだった。\
 `　Sometimes we'd slip and fall, or bump into the corners of the desks, but we were having so much fun we didn't feel a thing.`\
@@ -1477,7 +1477,7 @@ ld r,non_def5a,80
 `"...See! `@`Didn't I tell you?"`@
 ;＜野々宮
 ;「だ、大丈夫ぅ？　陽子ぉ……。」\
-`"Are, are you okayy? Youko~?..."`\
+`"Yoko~? Are, are you okayy?..."`\
 
 bg rika_04,22
 
@@ -1496,7 +1496,7 @@ br
 `"........."`@
 ;＜野々宮
 ;「行こ、陽子……。@……陽子？」\
-`"Let's go, Youko... `@`...Youko?"`\
+`"Let's go, Yoko... `@`...Yoko?"`\
 
 bg black,22
 bg rika_02,0
@@ -1534,7 +1534,7 @@ bg rouka_02,23
 ;「だーめ。@謝るのっ。@壊したのは私だし。@なっちゃんは関係ないから待ってて。」@
 `"We can't do that. `@`I'm gonna apologize. `@`I'm the one who broke it. `@`Nacchan you had nothing to do with it, so wait here."`@
 ;「ちょっと、……陽子ぉ～！」\
-`"Waaait ...Youko~!"`\
+`"Waaait ...Yoko~!"`\
 
 bg black,23
 
@@ -1550,7 +1550,7 @@ br
 `　But, if I ended a day like today with feelings like those, they'll stay on my conscience, and obviously, I'll feel bad.`@
 br
 ;　だから、先生には怒られたけれど、………心はとっても晴れやかだった。\
-`　So, I'd get yelled at by the teacher, ...but my mind was clear.`\
+`　So, I got yelled at by the teacher, ...but my conscience was clear.`\
 
 bg white,2
 bg kyou_02,2
@@ -1587,7 +1587,7 @@ quakex 3,300
 `　Suddenly everything feels so rushed.`\
 
 ;「陽子～、一緒に帰ろー！」@
-`"Youko~ Let's go together~!"`@
+`"Yoko~ Let's go together~!"`@
 br
 ;　友達が声を掛けてくる。@
 `　My friend spoke.`@
@@ -1595,7 +1595,7 @@ br
 `　I answered with a wide smile.`\
 
 ;「ごめん。@今日はちょっと学校で用事があるの。@だから、みんなは先に帰ってて。」@
-`"Sorry. `@`I have a bit of business to take care of at school. `@`So leave without me."`@
+`"Sorry. `@`I have a bit of business to take care of at school. `@`Head on without me okay?"`@
 ;「そう？　ふーん。@……じゃあね！@　また明日ね！@　ばいば～い！！」@
 `"Oh? `@`Hmmmm. `@`...Later then! `@`See you tomorrow! `@`Bye bye~!!"`@
 ;「うんっ。@ばいばーい！@　また明日ねーっ。」\
@@ -1621,7 +1621,7 @@ bg shoukou_01,22
 ` From the stairs, to the entrance.`@
 br
 ;　そして校庭へと散り、……学校は静寂に、満たされていく。\
-`　Then dispersing to the schoolyard, ...the school began to fill with silence.`\
+`　Then dispersing to the schoolyard they went, ...and the school began to fill with silence.`\
 
 bg black,2
 
@@ -1640,7 +1640,7 @@ bgm1 4
 `　From the window the teacher forgot to close, a cool wind blew, causing the curtains to gently sway.`@
 br
 ;　その、風が膨らます白いカーテンの束が、……私が小さい頃に大好きだった、白いドレスのことを思い出させる。\
-`　And, the white bundle as the wind expanded in the curtains, ...was something I loved seeing since I was a child, because it would remind me of white dresses.`\
+`　And, the white bundle the wind made in the curtains as it blowed, ...was something I loved seeing since I was a child, because it would remind me of white dresses.`\
 
 ;　また明日ね。@ばいばい、か。@
 `　See you tomorrow. `@`Bye bye, huh?`@
@@ -1656,7 +1656,7 @@ bg black,22
 ;　私は黄昏色の教室をもう一度見渡す。@
 `　I look over the orange classroom once more.`@
 ;　それから、ゆっくりと立ち上がり、教室を後にする。\
-`　Then I slowly stand up and leave the classroom.`\
+`　Then I slowly stand up and leave.`\
 
 bg kyou_04,3
 wait 1000
@@ -1704,7 +1704,7 @@ wait 2000
 
 ld c,mar_w2,80
 ;「…………どうでしたか。@沼田陽子さん。」\
-`"......How was it? `@`Youko Numata-san?"`\
+`"......How was it? `@`Yoko Numata-san?"`\
 
 bg "bmp\background\school\Air_01.bmp",3
 
@@ -1747,7 +1747,7 @@ br
 
 
 ;　かつて、私もあの中の一人だったんだ。@
-`　Once, I was one of them.`@
+`　I used to be one of them once.`@
 ;　そして今日。@私は確かに、あの中の一人だったんだ。\
 `　And today, `@`I surely was one of them.`\
 
@@ -1887,7 +1887,7 @@ cl r,22
 ld l,hig_def2,80
 
 ;「あら、嫌にあっさりね。@その子を見逃してあげて云々って、もう少し騒ぐかと思ったら。」@
-`(?) "Oh, leaving already. `@`I thought you were going to stay and watch, complain, and make some noise a bit longer."`@
+`"Oh, leaving already. `@`I thought you were going to stay and watch, complain, and make some noise a bit longer."`@
 ;「騒いでも、私の言うことなんていつも聞いてくれないじゃないですか。」\
 `"Even if I made a big deal of it, you'd never listen to what I have to say anyway, would you?"`\
 
@@ -1930,7 +1930,7 @@ bg black,22
 ;　彼岸花は、毬枝の背中と、摘んでいる魂の双方を見比べる。@
 `　Higanbana looked back and forth between Marie's fleeting figure and the soul she held in her hand.`@
 ;　そしてもう一度、魂の尾をぱくりと食んで、……悩み込むように眉をしかめる。\
-`(?)　And once again, she took a mouthful of the soul's tail, ...and her eyebrows waned in worry.`\
+`　Once again, she took a mouthful of the soul's tail, ...but her eyebrows waned in worry.`\
 
 bg okujou_01u,22
 ;ld c,hig_def5,2
@@ -1966,7 +1966,7 @@ br
 ld r,hig_def2,22
 
 ;「……とんだタダ働きだわ。」@
-`(?)"...It was just an easy job anyway."`@
+`"...It was just an easy job anyway."`@
 br
 ;　彼岸花は肩を竦め、ハンカチをしまう。\
 `　Higanbana shrugged her shoulders and put away her handkerchief.`\

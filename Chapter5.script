@@ -4557,7 +4557,7 @@ br
 ld l,HIG_w3,80
 
 ;「あなたの顔。@悪夢に怯えて目を覚ました寝ぼすけみたいだわ。@………でもね。@本当の悪夢は、これからじゃないかしら。@……私は踊る彼岸花。@学校妖怪八席の中でも、……特に残酷な妖怪なのよ…？@　あなたをそのまま見逃して、私が立ち去るとでも思ったかしら……？」\
-`"Your face.`@` It looks just like one half awake after a nightmare.`@`...But you know.`@` A true nightmare has yet to begin. `@` ...I am the Dancing Higanbana.`@` I am the 8th Rank of the School youkai, ...and I am a particularly cruel youkai...`@` Did you think that I would overlook you, and take my leave of you...?"`\
+`"Your face.`@` It looks just like one half awake after a nightmare.`@`...But you know.`@` A true nightmare has yet to begin. `@` ...I am the Dancing Higanbana.`@` I am the 3rd Rank of the School youkai, ...and I am a particularly cruel youkai...`@` Did you think that I would overlook you, and take my leave of you...?"`\
 
 ld r,HIK_n1,26
 ld r,HIK_n2,80

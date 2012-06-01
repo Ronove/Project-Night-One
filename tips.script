@@ -1,4 +1,4 @@
-
+;Tips
 
 *tips
    E_A                                 ;現在演奏中の曲をストッ プする
@@ -32,7 +32,7 @@
   ;基本ボタン画像の表示
   mov %Free4,410
   lsp 890,":c;bmp\r_click\r_back.bmp",-0,100,40 ;バックの画像
-  lsp 850,":c;bmp\r_click\text\txt_def.bmp",315,29 ;テキストバックの画像
+  lsp 850,":c;bmp\r_click\text\txt_def.bmp",315,29,80 ;テキストバックの画像
   lsp 101,":a/2,0,3;bmp\r_click\btn\Left.BMP",330,%Free4 -10 ;前の画像へ101
   lsp 102,":a/2,0,3;bmp\r_click\btn\Right.BMP",400,%Free4 -10 ;次の画像へ102
 ;  lsp 853,":c/2,0,3;bmp\r_click\btn\tips.BMP",460,%Free4 ;用語説明？853
@@ -97,7 +97,7 @@ return
 ;座標設定
   mov %Free1,0 ;キャラのY座標（共通。Xはデータによってまちまちなため、数値は直接入力）
   mov %Free2,345 ;テキスト表示のX座標
-  mov %Free3,50 ;テキスト表示のY座標
+  mov %Free3,-23 ;テキスト表示のY座標
 
 ;TIPSで表示するキャラの登録及び表示のサブルーチン
  notif %tips_cha_view = 1 jumpf

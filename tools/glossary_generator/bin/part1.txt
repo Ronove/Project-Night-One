@@ -1,3 +1,4 @@
+;Glossary
 *EN_glossary
    E_A                                 ;Stop currently playing song
    setwindow 31,16,22,16,22,22,0,2,20,1,1,#ffffff,0,0,639,479

@@ -3387,7 +3387,7 @@ cl c,0
 ld r,HIG_w3,23
 
 ;「うふふふふふふふ……。@学校ほど未熟な魂がたくさん集まるところはない。@そんな魂からお零れを頂戴しようと、日本中で学校ほど魑魅魍魎が集まるところはない。@まだあなたには知覚できないだろうけど、@近隣でも最大のマンモス校であるこの学校は、この辺りじゃちょいと知られた妖怪銀座。」\
-`"Uhuhuhuhuhu...... `@`There's no place where as many ripe souls gather other than a school. `@`Just to feast on the leftovers of those souls, there is no other place in all Japan where as many evil spirits gather. `@`You probably can't perceive them yet, `@`but even this area around this mammoth school is a well known youkai gold mine."`\
+`"Uhuhuhuhuhu...... `@`There's no place where as many ripe souls gather other than a school. `@`There is no other place in all Japan where as many evil spirits gather just to feast on the leftovers of those souls. `@`You probably can't perceive them yet, `@`but even this area around this mammoth school is a well known youkai gold mine."`\
 
 bg black,0
 ld r,HIG_Def3,22
