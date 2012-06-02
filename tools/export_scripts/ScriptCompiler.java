@@ -13,13 +13,13 @@ class ScriptCompiler
 		}
 		
 		Scanner sc = new Scanner(new FileReader(args[0]));
-		PrintWriter pw = new PrintWriter(new FileOutputStream("0.txt"));
+		PrintWriter pw = new PrintWriter(new OutputStreamWriter(new FileOutputStream("0.txt"),"SHIFT_JIS"));
 			
 		while (sc.hasNextLine())
 		{
 			File f = new File(sc.nextLine());
 			System.out.println("Adding " + f.getPath() + " to 0.txt");
-			BufferedReader br = new BufferedReader(new FileReader(f.getPath()));
+			BufferedReader br = new BufferedReader(new InputStreamReader(new FileInputStream(f.getPath()),"SHIFT_JIS"));
 			String line = br.readLine();
 			while (line != null)
 			{
