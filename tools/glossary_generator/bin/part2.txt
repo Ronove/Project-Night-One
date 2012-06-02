@@ -87,3 +87,14 @@ return
   mov %Free5,129 ;Y coordinate of top left button
   mov %Free6,42 ;dY between two buttons
  
+;Clean up all button sprites to reload them
+  csp EN_hint_button_0
+  csp EN_hint_button_1
+  csp EN_hint_button_2
+  csp EN_hint_button_3
+  csp EN_hint_button_4
+  csp EN_hint_button_5
+  csp EN_hint_button_6
+  csp EN_hint_button_7
+  
+  

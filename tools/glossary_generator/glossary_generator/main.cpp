@@ -102,30 +102,24 @@ std::stringstream createGlossaryPageMode(const GlossaryData& data)
 
 	for(unsigned i = 0; i < data.numPages; ++i)
 	{
-		output << "notif %EN_glossary_page_view = ";
-		output << i+1;
-		output << " jumpf";
-		output << std::endl;
-
 		int entriesLeftUnprocessed = data.glossaryEntries.size() - i * data.entriesPerPage;
 		unsigned entriesOnThisPage = entriesLeftUnprocessed < data.entriesPerPage ?
 entriesLeftUnprocessed : data.entriesPerPage;
 			
 		for(unsigned j = 0; j < data.entriesPerPage; ++j)
 		{
-			output << "\tnotif %EN_glossary_progress > " << i*data.entriesPerPage + j << " jumpf" << std::endl;
+			output << "if %EN_glossary_page_view==";
+			output << i+1;
+			output << " && %EN_glossary_progress>" << i*data.entriesPerPage + j;
 			// add entry to hints
-				output << "\t\tlsp EN_hint_button_";
+				output << " lsp EN_hint_button_";
 				output << j;
 				output << ",\":a/2,0,3;";
 				std::string buttonImage = j < entriesOnThisPage? data.glossaryEntries[i*data.entriesPerPage + j].buttonImage : "";
 				output << buttonImage;
 				output << "\", %Free4, %Free5 : add %Free5, %Free6";
 				output << std::endl;
-			output << "\t~" << std::endl;
 		}
-		output << "~";
-		output << std::endl;
 	}
 
 	output << std::endl;
@@ -146,23 +140,25 @@ std::stringstream createGlossaryButtonMode(const GlossaryData& data)
 		unsigned entriesOnThisPage = entriesLeftUnprocessed < data.entriesPerPage ?
 entriesLeftUnprocessed : data.entriesPerPage;
 
+		output << std::endl;
 		for(unsigned j = 0; j < entriesOnThisPage; ++j)
 		{
-			output << "notif %EN_glossary_page view = ";
+			output << "if %EN_glossary_page_view==";
 			output << i+1;
-			output << " && %EN_glossary_current_hint = ";
+			output << " && %EN_glossary_current_hint==";
 			output << j;
-			output << " jumpf";
-			output << std::endl;
+			//output << " jumpf";
+			//output << std::endl;
 
-			output << "\tlsp rmenu_back, \":a;";
+			output << " lsp rmenu_back, \":a;";
 			output << data.glossaryEntries[i*data.entriesPerPage+j].textImage;
 			output << "\",%Free2,%Free3";
 			output << std::endl;
 
-			output << "~";
-			output << std::endl;
+			//output << "~";
+			//output << std::endl;
 		}
+		output << std::endl;
 	}
 
 	output << std::endl;
