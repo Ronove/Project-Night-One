@@ -4109,7 +4109,7 @@ bg black,22
 `　...Just as the Headmaster said. `@`...That camera had been carefully sealed away, and he said it wasn't something humans could simply find.`@`
 br
 ;　納得する。@……この彼岸花が、友達の仇を討ちたくて、不思議なカメラの封印を解き、僕に見つけさせたのだ。\
-`　It made sense. `@`...This Higanbana person wanted revenge for her friend, removed the seal on the mysterious camera, and allowed me to find it.`@`
+`　It made sense. `@`...This Higanbana person wanted revenge for her friend, removed the seal on the mysterious camera, and allowed me to find it.`\
 
 bg roji_02,22
 ld c,HIG_Def2,22
