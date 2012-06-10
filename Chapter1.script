@@ -909,7 +909,7 @@ bg rouka_03,24
 me1v 24,50
 
 ;「うん。@めそめそさんはね、旧校舎の女子トイレに出るんだよ。@そしてね、個室の中で、めそめそ、めそめそと泣いてるの。@誰が泣いてるんだろうって思ってね、個室のドアを叩くと、@中からこう聞こえてくるの。」\
-`"Yeah. `@`That Mesomeso-san right? Apparently it comes out of the old school building's girl's bathroom! `@`And then, inside the stall, it cries `mesomeso`. `@`If you think it might be somebody crying and knock on the door, `@`you'll start to hear it from inside."`\
+`"Yeah. `@`That Mesomeso-san right? Apparently it comes out of the old school building's girl's bathroom! `@`And then, inside the stall, it cries 'mesomeso'. `@`If you think it might be somebody crying and knock on the door, `@`you'll start to hear it from inside."`\
 
 ;locate 0,5
 

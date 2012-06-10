@@ -2761,7 +2761,7 @@ quakey 2,200
 `"........EHHH?!"`@`
 br
 ;　目で見たものを脳が理解する前に、……僕の背中にはぞわりとしたものが込み上げた。@
-`　When I my mind understood what was in front of my eyes, ...chills jumped up my spine.`@
+`　When my mind understood what was in front of my eyes, ...chills jumped up my spine.`@
 bgm1 10
 br
 ;　なぜなら、………僕は老人に背を向け、踵を返したはずなのに、@………再び老人が、立ち塞がっているのが見えたからだ。\
@@ -4109,7 +4109,7 @@ bg black,22
 `　...Just as the Headmaster said. `@`...That camera had been carefully sealed away, and he said it wasn't something humans could simply find.`@`
 br
 ;　納得する。@……この彼岸花が、友達の仇を討ちたくて、不思議なカメラの封印を解き、僕に見つけさせたのだ。\
-`　It made sense. `@`...This Higanbana person wanted revenge for her friend, removed the seal on the mysterious camera, and allowed me to find it.`@`
+`　It made sense. `@`...This Higanbana person wanted revenge for her friend, removed the seal on the mysterious camera, and allowed me to find it.`\
 
 bg roji_02,22
 ld c,HIG_Def2,22

@@ -3577,7 +3577,7 @@ br
 ld l,SIN_Def4,80
 
 ;「学校妖怪、序列第８位の。@……めそめその毬枝さんではありませんか。」\
-`"If it isn't our 8th Ranking School Youkai.`@` ...Meso-Meso Marie."`\
+`"If it isn't our 8th Ranking School Youkai.`@` ...Mesomeso Marie."`\
 
 E_A
 

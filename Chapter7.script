@@ -6480,7 +6480,7 @@ print 22
 `"....Teeheehee.`@` Even if it wasn't obvious from the start,`@` your classmates have a hierarchy, and friction is generated between the ranks.`@` So they envy each other, and look down on one other.`@` ...It's impossible for a classroom to be a utopia where everyone gets along. Everyone knows that."`\
 
 ;　クラスに存在しないはずの、あの髪の長い子が、私の背中でまた囁く……。\
-`　Once again came the whispers from the the long haired girl sat in the still empty seat behind me...`\
+`　Once again came the whispers from the long-haired girl sat in the still empty seat behind me...`\
 
 ld_p HIG_W2
 lsp2 2,$ld_pass,480,450,-200,200,0
