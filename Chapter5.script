@@ -320,7 +320,7 @@ bg kyou_03,22
 me1v 24,50
 
 ;「……で、旧校舎の女子トイレから聞こえてくるんだってさ。@“めそめそ……めそめそ……そこの人、@どうか哀れな私の話を聞いてください”って女の子の声が……。」\
-`"...So, they say you can hear it from the former school building girls' bathroom.`@` A girl's voice would say...`@` "Mesomeso...mesomeso...you there, `@`please listen to my pitiful story~"`\
+`"...So, they say you can hear it from the former school building girls' bathroom.`@` A girl's voice would say...`@` 'Mesomeso...mesomeso...you there,`@` please listen to my pitiful story~'"`\
 
 ;「え、男じゃないの？@　なんか男の悲鳴や絶叫が聞こえるって。」@
 `"Eh, it's not a guy? `@`I heard someone say they heard a guy screaming and shouting."`@
@@ -916,7 +916,7 @@ ld l,MAR_n1,80
 bg black,22
 
 ;　何も犯してないさ、別に何もッ。@
-`　You didn't do anything wrong, not a thing..`@
+`　You didn't do anything wrong, not a thing.`@
 br
 ;　許してやるから出て失せろッ、二度と僕の聖域に近付くなッ！！\
 `　I'll forgive you, so leave ― and don't come near my sanctuary again!!`\
@@ -924,10 +924,10 @@ br
 ;ld l,MAR_Def3n,80
 
 ;「ご、……ごめんなさい……、ごめんなさい……。@私……、何かした……？@　何か悪いことをしたなら謝るから……、ごめんなさい……！」@
-`"I- ...I'm sorry... I'm sorry... `@`Did... did I do something..? `@`If I did something wrong, I apologize... I'm sorry...!"`@
+`"I- ...I'm sorry... I'm sorry...`@` Did... did I do something...?`@` If I did something wrong, I apologize... I'm sorry...!"`@
 br
 ;　少女が見せる、おろおろとした怯えた瞳。@僕の手から逃れようと呻く、うさぎたちのそれと重なって……、@無性に腹立たしくなる。\
-`　The girl shows me ― her nervous, frightened pupils. `@`She moans to escape my hand, and with that she seemed like one of the rabbits, ...`@` She became extremely annoying.`\
+`　The girl shows me ― her nervous, frightened pupils. `@`She moans to escape my hand, and with that she seemed like one of the rabbits...,`@` she became extremely annoying.`\
 
 cl a,0
 bg usagi_03,0
@@ -1030,7 +1030,7 @@ br
 ld l,HIK_w2a,22
 
 ;「まさかな。@……はっ。@いるわけないよな、妖怪なんて。」@
-`"No way. `@`...Heh. `@`youkai don't exist."`@
+`"No way.`@` ...Heh.`@` Youkai don't exist."`@
 br
 ;　ひかるは土くれで汚れた手を払う。@
 `　Hikaru wipes the dirty hand that held the clump of dirt.`@
@@ -1392,7 +1392,7 @@ me1v 5,50
 ld r,HAM_Def1,22
 
 ;「これって動物虐待って言うんだろ？@　随分と残酷なことするよね。@罪もないうさぎたちを、いじめるなんて。」@
-`"This is called animal abuse, right?`@` It is a particularly cruel sort of thing.`@` To torture these innocent rabbits.`@`
+`"This is called animal abuse, right?`@` It is a particularly cruel sort of thing.`@` To torture these innocent rabbits."`@
 br
 ;　それを言われると、……何も言い返せない。\
 `　Being told that, ...I am unable to retort.`\
@@ -1604,7 +1604,7 @@ ld c,HIK_Def1,2
 `　The boys had only just seen him head out the classroom like he was running away.`@
 br
 ;　しかし、今のひかるは何も言わず、無表情のままジッと少年たちを睨みつけている。\
-`　However, now Hikaru said nothing and with his expressionless face, and he glared ― his eyes fixed upon them.`\
+`　However, now Hikaru said nothing and with his expressionless face, he glared ― his eyes fixed upon them.`\
 
 bgm1 9
 
@@ -3686,7 +3686,7 @@ ld r,HIK_n1,22
 me3v 17,70
 
 ;　ゆっくりと、……ゆっくりと彼岸花が近付いてくる。@
-`　Slowly, ...Slowly, Higanbana drew nearer.`@`
+`　Slowly, ...slowly, Higanbana drew nearer.`@
 br
 ;　ひかるの足は、凍り付いて床に貼り付いてしまったかのよう。@
 `　Hikaru's legs were frozen, as though stuck to the ground.`@`
@@ -3719,7 +3719,7 @@ me4v 16,70
 `　I have the resolution to kill...out of revenge, and hatred.`@`
 br
 ;　その為に、殺すということを、五感の全てで、実感して理解してやるよ。\
-`　Hence, I　truly understand, with all five senses, what it means to kill.`\
+`　Hence, I truly understand, with all five senses, what it means to kill.`\
 
 ;ld r,HIK_Def1,80
 
@@ -3733,7 +3733,7 @@ ld c,HIG_w4,22
 
 
 ;「それがあなたの覚悟？@　殺すということの理解？@　……………くすくす、うふふ、うっふふふふふふふふふふふふふふ！！@　何を実感したというの？@　……うさぎの皮を裂いた実感しか記憶に留めていないくせに。@……そんなあなたが、何を実感して、何を覚悟しているって言うの？@　くすくす、……くっすくすくすくすくすくすくすくすくすくすくすッ！！！」\
-`"That's your resolve?`@` That's how you understand killing?`@` ....Hehe, Ehehehehehe!!`@` What are you saying you've experienced?`@` ...Even though you can't even remember the actual feeling of tearing up a rabbit's flesh.`@` ...So what on earth are you saying like that, what experience? What kind of resolution is that?`@` Teeheehee, ...Ehehehehehehehehehe!`\
+`"That's your resolve?`@` That's how you understand killing?`@` ....Hehe, Ehehehehehe!!`@` What are you saying you've experienced?`@` ...Even though you can't even remember the actual feeling of tearing up a rabbit's flesh.`@` ...So what on earth are you saying like that, what experience? What kind of resolution is that?`@` Teeheehee, ...Ehehehehehehehehehe!"`\
 se1v 66,100
 
 me5v 5,90
@@ -4056,7 +4056,7 @@ me1v 5,70
 `　And, ...on that night, I laughed.`@`
 br
 ;　血に染まったうさぎ小屋を見渡し、@……処刑はまだまだこれからだと、邪悪な笑みで、笑い転げるのだ………。\
-`　Viewing the blood-stained cage,`@` ...Thinking that there would be still more executions to come, with an wicked grin, I convulsed with laughter...`\
+`　Viewing the blood-stained cage,`@` ...Thinking that there would be still more executions to come, with a wicked grin, I convulsed with laughter...`\
 
 bg black,2
 
@@ -4479,7 +4479,7 @@ quakey 2,200
 me2v 17,70
 
 ;「ぉごおぉおおおおっぉおおぉ…ぉおお……ぉぉぉ……！！！！」@
-`"UghhhooOoOOooooOOooOooOoooOOOoo...ooo..oo!!!!`@`
+`"UghhhooOoOOooooOOooOooOoooOOOoo...ooo...oo!!!!"`@
 br
 ;　ハメルンは白目を剥きながら、びくびくと全身を震わせる。\
 `　Hameln's eyes were wide, and his entire body trembled violently.`\
@@ -4542,7 +4542,7 @@ br
 ;　……そこから、彼岸花がゆっくりと立ち上がり、姿を見せる。@
 `　...From there, Higanbana slowly rose and showed herself.`@`
 ;　それは元の西洋人形のような姿。@……そして、ハメルンの姿はもう、どこにもなかった。\
-`　It was the look of a western doll.`@` ...and Hameln, was no longer anywhere.`\
+`　It was the look of a western doll.`@` ...And Hameln, was no longer anywhere.`\
 ld l,HIG_Def2,80
 
 ;「お生憎様。@……うさぎって、食欲もすごく旺盛なの。@……知らなかった？」@
