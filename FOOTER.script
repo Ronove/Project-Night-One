@@ -4579,6 +4579,8 @@ numalias bgm_btn_back_lsp,%1 : dec %1	 ;曲一覧、バックページ
 ;曲情報表示用スプライト
 numalias bgm_title_lsp,%1 : dec %1	 ;タイトル名
 numalias bgm_sakka_lsp,%1 : dec %1	 ;作家名
+numalias bgm_kanji_lsp,%1 : dec %1	 ;[Higanbana-EN]: Original Title
+numalias bgm_english_lsp,%1 : dec %1 ;[Higanbana-EN]: Translation
 numalias bgm_time_lsp,%1 : dec %1	 ;曲の長さ
 
 
@@ -5101,7 +5103,7 @@ lsp %3805,":s#B7B7B7#FF1D1D$4008",%3801,%3802 : lsph %3807,":s#FFFFFF$4008",%380
 lsp %3805,":s#B7B7B7#FF1D1D$4009",%3801,%3802 : lsph %3807,":s#FFFFFF$4009",%3801,%3802 : add %3802,%3804 : inc %3805 : inc %3807
 lsp %3805,":s#B7B7B7#FF1D1D$4010",%3801,%3802 : lsph %3807,":s#FFFFFF$4010",%3801,%3802 : add %3802,%3804 : inc %3805 : inc %3807
 
-mov %3801,175 : mov %3802,%3806 : mov %3803,0
+mov %3801,195 : mov %3802,%3806 : mov %3803,0
 lsp %3805,":s#B7B7B7#FF1D1D$4011",%3801,%3802 : lsph %3807,":s#FFFFFF$4011",%3801,%3802 : add %3802,%3804 : inc %3805 : inc %3807
 lsp %3805,":s#B7B7B7#FF1D1D$4012",%3801,%3802 : lsph %3807,":s#FFFFFF$4012",%3801,%3802 : add %3802,%3804 : inc %3805 : inc %3807
 lsp %3805,":s#B7B7B7#FF1D1D$4013",%3801,%3802 : lsph %3807,":s#FFFFFF$4013",%3801,%3802 : add %3802,%3804 : inc %3805 : inc %3807
@@ -5113,7 +5115,7 @@ lsp %3805,":s#B7B7B7#FF1D1D$4018",%3801,%3802 : lsph %3807,":s#FFFFFF$4018",%380
 lsp %3805,":s#B7B7B7#FF1D1D$4019",%3801,%3802 : lsph %3807,":s#FFFFFF$4019",%3801,%3802 : add %3802,%3804 : inc %3805 : inc %3807
 lsp %3805,":s#B7B7B7#FF1D1D$4020",%3801,%3802 : lsph %3807,":s#FFFFFF$4020",%3801,%3802 : add %3802,%3804 : inc %3805 : inc %3807
 
-mov %3801,330 : mov %3802,%3806 : mov %3803,0
+mov %3801,375 : mov %3802,%3806 : mov %3803,0
 lsp %3805,":s#B7B7B7#FF1D1D$4021",%3801,%3802 : lsph %3807,":s#FFFFFF$4021",%3801,%3802 : add %3802,%3804 : inc %3805 : inc %3807
 lsp %3805,":s#B7B7B7#FF1D1D$4022",%3801,%3802 : lsph %3807,":s#FFFFFF$4022",%3801,%3802 : add %3802,%3804 : inc %3805 : inc %3807
 lsp %3805,":s#B7B7B7#FF1D1D$4023",%3801,%3802 : lsph %3807,":s#FFFFFF$4023",%3801,%3802 : add %3802,%3804 : inc %3805 : inc %3807
@@ -5978,7 +5980,7 @@ mono 0
 csp 0 : csp 1
 csp 10 : csp 11 : csp 12 : csp 13 : csp 14 : csp 15 : csp 16
 csp 500 : csp 501 : csp 502 : csp 503 : csp 504 : csp 505 : csp 506: csp 507: csp 508: csp 509: csp 510
-csp bgm_title_lsp : csp bgm_sakka_lsp : csp bgm_time_lsp
+csp bgm_title_lsp : csp bgm_sakka_lsp : csp bgm_extra_lsp : csp bgm_time_lsp
 textclear
 setwindow 40,385,30,3,22,22,0,2,20,1,1,#ffffff,0,0,610,495
 return
@@ -6150,7 +6152,7 @@ inc %3801
 	mov ?bgmm[%3801][bm_c],%bgm_mood_op_no	;曲の割り当て番号（チャンネル）
 	mov ?bgmm[%3801][bm_t],100000		;曲の長さ
 	add %3802,400
-	mov ?bgmm[%3801][bm_n],%3802 : mov $%3802,"愛しを渡るは黄～" ;曲名
+	mov ?bgmm[%3801][bm_n],%3802 : mov $%3802,"Itoshi　wo　Wataru~" ;曲名
 	mov ?bgmm[%3801][bm_k],0		;怖い曲かどうかのチェック
 	add %3802,400
 	mov ?bgmm[%3801][bm_pa],%3802
@@ -6163,7 +6165,7 @@ inc %3801
 	mov ?bgmm[%3801][bm_c],1		;曲の割り当て番号（チャンネル）
 	mov ?bgmm[%3801][bm_t],81000		;曲の長さ1:21
 	add %3802,400
-	mov ?bgmm[%3801][bm_n],%3802 : mov $%3802,"春風" ;曲名
+	mov ?bgmm[%3801][bm_n],%3802 : mov $%3802,"Harukaze" ;曲名
 	mov ?bgmm[%3801][bm_k],0		;怖い曲かどうかのチェック
 	gosub *bgm_mode_path_shutoku		;ファイルへのパスの取得
 
@@ -6172,7 +6174,7 @@ inc %3801
 	mov ?bgmm[%3801][bm_c],2		;曲の割り当て番号（チャンネル）
 	mov ?bgmm[%3801][bm_t],394000		;曲の長さ6:34
 	add %3802,400
-	mov ?bgmm[%3801][bm_n],%3802 : mov $%3802,"忘れ得ぬこの日" ;曲名
+	mov ?bgmm[%3801][bm_n],%3802 : mov $%3802,"Wasureenu　Kono　Hi" ;曲名
 	mov ?bgmm[%3801][bm_k],0		;怖い曲かどうかのチェック
 	gosub *bgm_mode_path_shutoku		;ファイルへのパスの取得
 
@@ -6181,7 +6183,7 @@ inc %3801
 	mov ?bgmm[%3801][bm_c],3		;曲の割り当て番号（チャンネル）
 	mov ?bgmm[%3801][bm_t],343000		;曲の長さ
 	add %3802,400
-	mov ?bgmm[%3801][bm_n],%3802 : mov $%3802,"驚いた？" ;曲名5:43
+	mov ?bgmm[%3801][bm_n],%3802 : mov $%3802,"Odoroita?" ;曲名5:43
 	mov ?bgmm[%3801][bm_k],0		;怖い曲かどうかのチェック
 	gosub *bgm_mode_path_shutoku		;ファイルへのパスの取得
 
@@ -6190,7 +6192,7 @@ inc %3801
 	mov ?bgmm[%3801][bm_c],4		;曲の割り当て番号（チャンネル）
 	mov ?bgmm[%3801][bm_t],110000		;曲の長さ
 	add %3802,400
-	mov ?bgmm[%3801][bm_n],%3802 : mov $%3802,"陽炎" ;曲名1:50
+	mov ?bgmm[%3801][bm_n],%3802 : mov $%3802,"Youen" ;曲名1:50
 	mov ?bgmm[%3801][bm_k],0		;怖い曲かどうかのチェック
 	gosub *bgm_mode_path_shutoku		;ファイルへのパスの取得
 
@@ -6199,7 +6201,7 @@ inc %3801
 	mov ?bgmm[%3801][bm_c],5		;曲の割り当て番号（チャンネル）
 	mov ?bgmm[%3801][bm_t],256000		;曲の長さ
 	add %3802,400
-	mov ?bgmm[%3801][bm_n],%3802 : mov $%3802,"宵の影踏み" ;曲名4:16
+	mov ?bgmm[%3801][bm_n],%3802 : mov $%3802,"Yoi　no　Kagefumi" ;曲名4:16
 	mov ?bgmm[%3801][bm_k],0		;怖い曲かどうかのチェック
 	gosub *bgm_mode_path_shutoku		;ファイルへのパスの取得
 
@@ -6208,7 +6210,7 @@ inc %3801
 	mov ?bgmm[%3801][bm_c],6		;曲の割り当て番号（チャンネル）
 	mov ?bgmm[%3801][bm_t],233000		;曲の長さ
 	add %3802,400
-	mov ?bgmm[%3801][bm_n],%3802 : mov $%3802,"葬り去る花" ;曲名3:53
+	mov ?bgmm[%3801][bm_n],%3802 : mov $%3802,"Houmurisaru　Hana" ;曲名3:53
 	mov ?bgmm[%3801][bm_k],0		;怖い曲かどうかのチェック
 	gosub *bgm_mode_path_shutoku		;ファイルへのパスの取得
 
@@ -6217,7 +6219,7 @@ inc %3801
 	mov ?bgmm[%3801][bm_c],7		;曲の割り当て番号（チャンネル）
 	mov ?bgmm[%3801][bm_t],137000		;曲の長さ
 	add %3802,400
-	mov ?bgmm[%3801][bm_n],%3802 : mov $%3802,"フルキアシキ" ;曲名2:17
+	mov ?bgmm[%3801][bm_n],%3802 : mov $%3802,"Furukiashiki" ;曲名2:17
 	mov ?bgmm[%3801][bm_k],0		;怖い曲かどうかのチェック
 	gosub *bgm_mode_path_shutoku		;ファイルへのパスの取得
 
@@ -6226,7 +6228,7 @@ inc %3801
 	mov ?bgmm[%3801][bm_c],8		;曲の割り当て番号（チャンネル）
 	mov ?bgmm[%3801][bm_t],130000		;曲の長さ
 	add %3802,400
-	mov ?bgmm[%3801][bm_n],%3802 : mov $%3802,"クラヤミオンガク" ;曲名2:10
+	mov ?bgmm[%3801][bm_n],%3802 : mov $%3802,"Kurayami　Ongaku" ;曲名2:10
 	mov ?bgmm[%3801][bm_k],0		;怖い曲かどうかのチェック
 	gosub *bgm_mode_path_shutoku		;ファイルへのパスの取得
 
@@ -6235,7 +6237,7 @@ inc %3801
 	mov ?bgmm[%3801][bm_c],9		;曲の割り当て番号（チャンネル）
 	mov ?bgmm[%3801][bm_t],203000		;曲の長さ
 	add %3802,400
-	mov ?bgmm[%3801][bm_n],%3802 : mov $%3802,"かがみさん" ;曲名3:23
+	mov ?bgmm[%3801][bm_n],%3802 : mov $%3802,"Kagami-san" ;曲名3:23
 	mov ?bgmm[%3801][bm_k],1		;怖い曲かどうかのチェック
 	gosub *bgm_mode_path_shutoku		;ファイルへのパスの取得
 
@@ -6244,7 +6246,7 @@ inc %3801
 	mov ?bgmm[%3801][bm_c],10		;曲の割り当て番号（チャンネル）
 	mov ?bgmm[%3801][bm_t],390000		;曲の長さ
 	add %3802,400
-	mov ?bgmm[%3801][bm_n],%3802 : mov $%3802,"そこには誰も居～" ;曲名6:30
+	mov ?bgmm[%3801][bm_n],%3802 : mov $%3802,"Soko　ni　wa　Dare~" ;曲名6:30
 	mov ?bgmm[%3801][bm_k],1		;怖い曲かどうかのチェック
 	gosub *bgm_mode_path_shutoku		;ファイルへのパスの取得
 
@@ -6253,7 +6255,7 @@ inc %3801
 	mov ?bgmm[%3801][bm_c],11		;曲の割り当て番号（チャンネル）
 	mov ?bgmm[%3801][bm_t],154000		;曲の長さ
 	add %3802,400
-	mov ?bgmm[%3801][bm_n],%3802 : mov $%3802,"フ゜ツフ゜ツ" ;曲名2:34
+	mov ?bgmm[%3801][bm_n],%3802 : mov $%3802,"Putsuputsu" ;曲名2:34
 	mov ?bgmm[%3801][bm_k],1		;怖い曲かどうかのチェック
 	gosub *bgm_mode_path_shutoku		;ファイルへのパスの取得
 
@@ -6262,7 +6264,7 @@ inc %3801
 	mov ?bgmm[%3801][bm_c],12		;曲の割り当て番号（チャンネル）
 	mov ?bgmm[%3801][bm_t],193000		;曲の長さ
 	add %3802,400
-	mov ?bgmm[%3801][bm_n],%3802 : mov $%3802,"学校案内人" ;曲名3:13
+	mov ?bgmm[%3801][bm_n],%3802 : mov $%3802,"Gakkou　Angainin" ;曲名3:13
 	mov ?bgmm[%3801][bm_k],1		;怖い曲かどうかのチェック
 	gosub *bgm_mode_path_shutoku		;ファイルへのパスの取得
 
@@ -6271,7 +6273,7 @@ inc %3801
 	mov ?bgmm[%3801][bm_c],13		;曲の割り当て番号（チャンネル）
 	mov ?bgmm[%3801][bm_t],50000		;曲の長さ
 	add %3802,400
-	mov ?bgmm[%3801][bm_n],%3802 : mov $%3802,"丑三つ時" ;曲名0:50
+	mov ?bgmm[%3801][bm_n],%3802 : mov $%3802,"Ushimitsudoki" ;曲名0:50
 	mov ?bgmm[%3801][bm_k],1		;怖い曲かどうかのチェック
 	gosub *bgm_mode_path_shutoku		;ファイルへのパスの取得
 
@@ -6280,7 +6282,7 @@ inc %3801
 	mov ?bgmm[%3801][bm_c],14		;曲の割り当て番号（チャンネル）
 	mov ?bgmm[%3801][bm_t],98000		;曲の長さ
 	add %3802,400
-	mov ?bgmm[%3801][bm_n],%3802 : mov $%3802,"例えば、こんな～" ;曲名1:38
+	mov ?bgmm[%3801][bm_n],%3802 : mov $%3802,"Tatoeba,　konna~" ;曲名1:38
 	mov ?bgmm[%3801][bm_k],0		;怖い曲かどうかのチェック
 	gosub *bgm_mode_path_shutoku		;ファイルへのパスの取得
 
@@ -6289,7 +6291,7 @@ inc %3801
 	mov ?bgmm[%3801][bm_c],15		;曲の割り当て番号（チャンネル）
 	mov ?bgmm[%3801][bm_t],156000		;曲の長さ
 	add %3802,400
-	mov ?bgmm[%3801][bm_n],%3802 : mov $%3802,"棘" ;曲名2:36
+	mov ?bgmm[%3801][bm_n],%3802 : mov $%3802,"Toge" ;曲名2:36
 	mov ?bgmm[%3801][bm_k],0		;怖い曲かどうかのチェック
 	gosub *bgm_mode_path_shutoku		;ファイルへのパスの取得
 
@@ -6298,7 +6300,7 @@ inc %3801
 	mov ?bgmm[%3801][bm_c],16		;曲の割り当て番号（チャンネル）
 	mov ?bgmm[%3801][bm_t],187000		;曲の長さ
 	add %3802,400
-	mov ?bgmm[%3801][bm_n],%3802 : mov $%3802,"霧花" ;曲名3:07
+	mov ?bgmm[%3801][bm_n],%3802 : mov $%3802,"Kirihana" ;曲名3:07
 	mov ?bgmm[%3801][bm_k],1		;怖い曲かどうかのチェック
 	gosub *bgm_mode_path_shutoku		;ファイルへのパスの取得
 
@@ -6307,7 +6309,7 @@ inc %3801
 	mov ?bgmm[%3801][bm_c],17		;曲の割り当て番号（チャンネル）
 	mov ?bgmm[%3801][bm_t],96000		;曲の長さ
 	add %3802,400
-	mov ?bgmm[%3801][bm_n],%3802 : mov $%3802,"強く生きて、花～" ;曲名1:36
+	mov ?bgmm[%3801][bm_n],%3802 : mov $%3802,"Tsuyoku　Ikite,　Hana~" ;曲名1:36
 	mov ?bgmm[%3801][bm_k],0		;怖い曲かどうかのチェック
 	gosub *bgm_mode_path_shutoku		;ファイルへのパスの取得
 
@@ -6316,7 +6318,7 @@ inc %3801
 	mov ?bgmm[%3801][bm_c],18		;曲の割り当て番号（チャンネル）
 	mov ?bgmm[%3801][bm_t],217000		;曲の長さ
 	add %3802,400
-	mov ?bgmm[%3801][bm_n],%3802 : mov $%3802,"丑ノ刻参り" ;曲名3:37
+	mov ?bgmm[%3801][bm_n],%3802 : mov $%3802,"Ushi　no　Koku　Mairi" ;曲名3:37
 	mov ?bgmm[%3801][bm_k],0		;怖い曲かどうかのチェック
 	gosub *bgm_mode_path_shutoku		;ファイルへのパスの取得
 
@@ -6325,7 +6327,7 @@ inc %3801
 	mov ?bgmm[%3801][bm_c],19		;曲の割り当て番号（チャンネル）
 	mov ?bgmm[%3801][bm_t],58000		;曲の長さ
 	add %3802,400
-	mov ?bgmm[%3801][bm_n],%3802 : mov $%3802,"ほこライオン、～" ;曲名0:58
+	mov ?bgmm[%3801][bm_n],%3802 : mov $%3802,"HokoRaion~" ;曲名0:58
 	mov ?bgmm[%3801][bm_k],0		;怖い曲かどうかのチェック
 	gosub *bgm_mode_path_shutoku		;ファイルへのパスの取得
 
@@ -6334,7 +6336,7 @@ inc %3801
 	mov ?bgmm[%3801][bm_c],20		;曲の割り当て番号（チャンネル）
 	mov ?bgmm[%3801][bm_t],189000		;曲の長さ
 	add %3802,400
-	mov ?bgmm[%3801][bm_n],%3802 : mov $%3802,"サボンの花" ;曲名3:09
+	mov ?bgmm[%3801][bm_n],%3802 : mov $%3802,"Sabon　no　Hana" ;曲名3:09
 	mov ?bgmm[%3801][bm_k],0		;怖い曲かどうかのチェック
 	gosub *bgm_mode_path_shutoku		;ファイルへのパスの取得
 
@@ -6343,7 +6345,7 @@ inc %3801
 	mov ?bgmm[%3801][bm_c],21		;曲の割り当て番号（チャンネル）
 	mov ?bgmm[%3801][bm_t],404000		;曲の長さ
 	add %3802,400
-	mov ?bgmm[%3801][bm_n],%3802 : mov $%3802,"暗き昏き闇は月～" ;曲名6:44
+	mov ?bgmm[%3801][bm_n],%3802 : mov $%3802,"Kuraki　Kuraki　Yami　wa　Tsuki~" ;曲名6:44
 	mov ?bgmm[%3801][bm_k],0		;怖い曲かどうかのチェック
 	gosub *bgm_mode_path_shutoku		;ファイルへのパスの取得
 
@@ -6352,7 +6354,7 @@ inc %3801
 	mov ?bgmm[%3801][bm_c],22		;曲の割り当て番号（チャンネル）
 	mov ?bgmm[%3801][bm_t],220000		;曲の長さ
 	add %3802,400
-	mov ?bgmm[%3801][bm_n],%3802 : mov $%3802,"体のない夜" ;曲名3:40
+	mov ?bgmm[%3801][bm_n],%3802 : mov $%3802,"Karada　no　Nai　Yoru" ;曲名3:40
 	mov ?bgmm[%3801][bm_k],0		;怖い曲かどうかのチェック
 	gosub *bgm_mode_path_shutoku		;ファイルへのパスの取得
 
@@ -6361,7 +6363,7 @@ inc %3801
 	mov ?bgmm[%3801][bm_c],1004		;曲の割り当て番号（チャンネル）
 	mov ?bgmm[%3801][bm_t],185000		;曲の長さ
 	add %3802,400
-	mov ?bgmm[%3801][bm_n],%3802 : mov $%3802,"冥暗境界線" ;曲名3:05
+	mov ?bgmm[%3801][bm_n],%3802 : mov $%3802,"Meian　Kyoukaisen" ;曲名3:05
 	mov ?bgmm[%3801][bm_k],0		;怖い曲かどうかのチェック
 	gosub *bgm_mode_path_shutoku		;ファイルへのパスの取得
 
@@ -6371,7 +6373,7 @@ inc %3801
 	mov ?bgmm[%3801][bm_c],1003		;曲の割り当て番号（チャンネル）
 	mov ?bgmm[%3801][bm_t],186000		;曲の長さ
 	add %3802,400
-	mov ?bgmm[%3801][bm_n],%3802 : mov $%3802,"いわいとまつり" ;曲名3:16
+	mov ?bgmm[%3801][bm_n],%3802 : mov $%3802,"Iwai　to　Matsuri" ;曲名3:16
 	mov ?bgmm[%3801][bm_k],0		;怖い曲かどうかのチェック
 	gosub *bgm_mode_path_shutoku		;ファイルへのパスの取得
 
@@ -6380,7 +6382,7 @@ inc %3801
 	mov ?bgmm[%3801][bm_c],1002		;曲の割り当て番号（チャンネル）
 	mov ?bgmm[%3801][bm_t],198000		;曲の長さ
 	add %3802,400
-	mov ?bgmm[%3801][bm_n],%3802 : mov $%3802,"ひとりぼっちの～" ;曲名3:18
+	mov ?bgmm[%3801][bm_n],%3802 : mov $%3802,"Hitoribocchi　no~" ;曲名3:18
 	mov ?bgmm[%3801][bm_k],0		;怖い曲かどうかのチェック
 	gosub *bgm_mode_path_shutoku		;ファイルへのパスの取得
 
@@ -6390,7 +6392,7 @@ inc %3801
 	mov ?bgmm[%3801][bm_c],1001		;曲の割り当て番号（チャンネル）
 	mov ?bgmm[%3801][bm_t],124000		;曲の長さ
 	add %3802,400
-	mov ?bgmm[%3801][bm_n],%3802 : mov $%3802,"愛しを渡～Ver.ED" ;曲名2:04
+	mov ?bgmm[%3801][bm_n],%3802 : mov $%3802,"Itsoshi　wo　Wata～Ver.ED" ;曲名2:04
 	mov ?bgmm[%3801][bm_k],0		;怖い曲かどうかのチェック
 	gosub *bgm_mode_path_shutoku		;ファイルへのパスの取得
 
@@ -6549,9 +6551,10 @@ return
 	lsp 510,$tmp,0,0
 	bgmvol 90
 
-      lsp bgm_title_lsp,":s#FFFFFF【Title 】　春風",%bgm_x,%bgm_y1
-      lsp bgm_sakka_lsp,":s#FFFFFF【Artist】　ｄａｉ",%bgm_x,%bgm_y2
-      lsp bgm_time_lsp,":s#FFFFFF【Time　】　１：２１",%bgm_x,%bgm_y3
+      lsp bgm_title_lsp,":s#FFFFFF【Title 】　Harukaze",%bgm_x,%bgm_y1-23
+      lsp bgm_kanji_lsp,":s#FFFFFF【Kanji  】　春風",%bgm_x,%bgm_y1
+      lsp bgm_sakka_lsp,":s#FFFFFF【Artist】　dai",%bgm_x,%bgm_y2
+      lsp bgm_time_lsp,":s#FFFFFF【Info　】　bgm_da_12.ogg、1:21m",%bgm_x,%bgm_y3
 
       gosub *bgm_mode_h2
       print 2
@@ -6568,9 +6571,10 @@ goto *bgm_mode_btn_lp
 	lsp 510,$tmp,0,0
 	bgmvol 70
 
-      lsp bgm_title_lsp,":s#FFFFFF【Title 】　忘れ得ぬこの日",%bgm_x,%bgm_y1
-      lsp bgm_sakka_lsp,":s#FFFFFF【Artist】　Ｍｏｒｒｉｇａｎ",%bgm_x,%bgm_y2
-      lsp bgm_time_lsp,":s#FFFFFF【Time　】　６：３５",%bgm_x,%bgm_y3
+      lsp bgm_title_lsp,":s#FFFFFF【Title 】　Wasurenu　Kono　Hi",%bgm_x,%bgm_y1-23
+      lsp bgm_kanji_lsp,":s#FFFFFF【Kanji  】　忘れ得ぬこの日",%bgm_x,%bgm_y1
+      lsp bgm_sakka_lsp,":s#FFFFFF【Artist】　Morrigan",%bgm_x,%bgm_y2
+      lsp bgm_time_lsp,":s#FFFFFF【Info　】　bgm_mo_02.ogg、6:35m",%bgm_x,%bgm_y3
 
       gosub *bgm_mode_h2
       print 2
@@ -6589,9 +6593,10 @@ goto *bgm_mode_btn_lp
 	lsp 510,$tmp,0,0
 	bgmvol 75
 
-      lsp bgm_title_lsp,":s#FFFFFF【Title 】　陽炎",%bgm_x,%bgm_y1
-      lsp bgm_sakka_lsp,":s#FFFFFF【Artist】　ｄａｉ",%bgm_x,%bgm_y2
-      lsp bgm_time_lsp,":s#FFFFFF【Time　】　１：５０",%bgm_x,%bgm_y3
+      lsp bgm_title_lsp,":s#FFFFFF【Title 】　Youen",%bgm_x,%bgm_y1-23
+      lsp bgm_kanji_lsp,":s#FFFFFF【Kanji  】　陽炎",%bgm_x,%bgm_y1
+      lsp bgm_sakka_lsp,":s#FFFFFF【Artist】　dai",%bgm_x,%bgm_y2
+      lsp bgm_time_lsp,":s#FFFFFF【Info　】　bgm_da_16.ogg、1:50m",%bgm_x,%bgm_y3
 
       gosub *bgm_mode_h2
       print 2
@@ -6610,9 +6615,10 @@ goto *bgm_mode_btn_lp
 	lsp 510,$tmp,0,0
 	bgmvol 75
 
-      lsp bgm_title_lsp,":s#FFFFFF【Title 】　驚いた？",%bgm_x,%bgm_y1
-      lsp bgm_sakka_lsp,":s#FFFFFF【Artist】　Ｍｏｒｒｉｇａｎ",%bgm_x,%bgm_y2
-      lsp bgm_time_lsp,":s#FFFFFF【Time　】　５：４３",%bgm_x,%bgm_y3
+      lsp bgm_title_lsp,":s#FFFFFF【Title 】　Odorita?",%bgm_x,%bgm_y1-23
+      lsp bgm_kanji_lsp,":s#FFFFFF【Kanji  】　驚いた？",%bgm_x,%bgm_y1
+      lsp bgm_sakka_lsp,":s#FFFFFF【Artist】　Morrigan",%bgm_x,%bgm_y2
+      lsp bgm_time_lsp,":s#FFFFFF【Info　】　bgm_mo_03.ogg、5:43m",%bgm_x,%bgm_y3
 
       gosub *bgm_mode_h2
       print 2
@@ -6630,9 +6636,10 @@ goto *bgm_mode_btn_lp
 	lsp 510,$tmp,0,0
 	bgmvol 65
 
-      lsp bgm_title_lsp,":s#FFFFFF【Title 】　宵の影踏み",%bgm_x,%bgm_y1
-      lsp bgm_sakka_lsp,":s#FFFFFF【Artist】　Ｍｏｒｒｉｇａｎ",%bgm_x,%bgm_y2
-      lsp bgm_time_lsp,":s#FFFFFF【Time　】　４：１６",%bgm_x,%bgm_y3
+      lsp bgm_title_lsp,":s#FFFFFF【Title 】　Yoi　no　Kagefumi",%bgm_x,%bgm_y1-23
+      lsp bgm_kanji_lsp,":s#FFFFFF【Kanji  】　宵の影踏み",%bgm_x,%bgm_y1
+      lsp bgm_sakka_lsp,":s#FFFFFF【Artist】　Morrigan",%bgm_x,%bgm_y2
+      lsp bgm_time_lsp,":s#FFFFFF【Info　】　bgm_mo_01.ogg、4:16m",%bgm_x,%bgm_y3
 
       gosub *bgm_mode_h2
       print 2
@@ -6649,9 +6656,10 @@ goto *bgm_mode_btn_lp
 	lsp 510,$tmp,0,0
 	bgmvol 80
 
-      lsp bgm_title_lsp,":s#FFFFFF【Title 】　葬り去る花",%bgm_x,%bgm_y1
-      lsp bgm_sakka_lsp,":s#FFFFFF【Artist】　Ｐｒｅ－ｈｏｌｄｅｒ",%bgm_x,%bgm_y2
-      lsp bgm_time_lsp,":s#FFFFFF【Time　】　３：５３",%bgm_x,%bgm_y3
+      lsp bgm_title_lsp,":s#FFFFFF【Title 】　Houmurisaru　Hana",%bgm_x,%bgm_y1-23
+      lsp bgm_kanji_lsp,":s#FFFFFF【Kanji  】　葬り去る花",%bgm_x,%bgm_y1
+      lsp bgm_sakka_lsp,":s#FFFFFF【Artist】　Pre-holder",%bgm_x,%bgm_y2
+      lsp bgm_time_lsp,":s#FFFFFF【Info　】　bgm_ph_03.ogg、3:53m",%bgm_x,%bgm_y3
 
       gosub *bgm_mode_h2
       print 2
@@ -6668,9 +6676,10 @@ goto *bgm_mode_btn_lp
 	lsp 510,$tmp,0,0
 	bgmvol 90
 
-      lsp bgm_title_lsp,":s#FFFFFF【Title 】　フルキアシキ",%bgm_x,%bgm_y1
-      lsp bgm_sakka_lsp,":s#FFFFFF【Artist】　ラック眼力",%bgm_x,%bgm_y2
-      lsp bgm_time_lsp,":s#FFFFFF【Time　】　２：１７",%bgm_x,%bgm_y3
+      lsp bgm_title_lsp,":s#FFFFFF【Title 】　Furukiashiki",%bgm_x,%bgm_y1-23
+      lsp bgm_kanji_lsp,":s#FFFFFF【Kanji  】　フルキアシキ",%bgm_x,%bgm_y1
+      lsp bgm_sakka_lsp,":s#FFFFFF【Artist】　LUCK　Ganriki",%bgm_x,%bgm_y2
+      lsp bgm_time_lsp,":s#FFFFFF【Info　】　bgm_lg_02.ogg、2:17m",%bgm_x,%bgm_y3
 
       gosub *bgm_mode_h2
       print 2
@@ -6687,9 +6696,10 @@ goto *bgm_mode_btn_lp
 	lsp 510,$tmp,0,0
 	bgmvol 75
 
-      lsp bgm_title_lsp,":s#FFFFFF【Title 】　クラヤミオンガク",%bgm_x,%bgm_y1
-      lsp bgm_sakka_lsp,":s#FFFFFF【Artist】　ラック眼力",%bgm_x,%bgm_y2
-      lsp bgm_time_lsp,":s#FFFFFF【Time　】　２：１０",%bgm_x,%bgm_y3
+      lsp bgm_title_lsp,":s#FFFFFF【Title 】　Kurayami　Ongaku",%bgm_x,%bgm_y1-23
+      lsp bgm_kanji_lsp,":s#FFFFFF【Kanji  】　クラヤミオンガク",%bgm_x,%bgm_y1
+      lsp bgm_sakka_lsp,":s#FFFFFF【Artist】　LUCK　Ganriki",%bgm_x,%bgm_y2
+      lsp bgm_time_lsp,":s#FFFFFF【Info　】　bgm_lg_01.ogg、2:10m",%bgm_x,%bgm_y3
 
       gosub *bgm_mode_h2
       print 2
@@ -6706,9 +6716,10 @@ goto *bgm_mode_btn_lp
 	lsp 510,$tmp,0,0
 	bgmvol 80
 
-      lsp bgm_title_lsp,":s#FFFFFF【Title 】　かがみさん",%bgm_x,%bgm_y1
-      lsp bgm_sakka_lsp,":s#FFFFFF【Artist】　Ｐｒｅ－ｈｏｌｄｅｒ",%bgm_x,%bgm_y2
-      lsp bgm_time_lsp,":s#FFFFFF【Time　】　３：２４",%bgm_x,%bgm_y3
+      lsp bgm_title_lsp,":s#FFFFFF【Title 】　Kagami-san",%bgm_x,%bgm_y1-23
+      lsp bgm_kanji_lsp,":s#FFFFFF【Kanji  】　かがみさん",%bgm_x,%bgm_y1
+      lsp bgm_sakka_lsp,":s#FFFFFF【Artist】　Pre-holder",%bgm_x,%bgm_y2
+      lsp bgm_time_lsp,":s#FFFFFF【Info　】　bgm_ph_04.ogg、3:24m",%bgm_x,%bgm_y3
 
       gosub *bgm_mode_h2
       print 2
@@ -6725,9 +6736,10 @@ goto *bgm_mode_btn_lp
 	lsp 510,$tmp,0,0
 	bgmvol 75
 
-      lsp bgm_title_lsp,":s#FFFFFF【Title 】　そこには誰もいないはず",%bgm_x,%bgm_y1
-      lsp bgm_sakka_lsp,":s#FFFFFF【Artist】　Ｍｏｒｒｉｇａｎ",%bgm_x,%bgm_y2
-      lsp bgm_time_lsp,":s#FFFFFF【Time　】　６：３０",%bgm_x,%bgm_y3
+      lsp bgm_title_lsp,":s#FFFFFF【Title 】　Soko　ni　wa　Dare　mo　Inai　Hazu",%bgm_x,%bgm_y1-23
+      lsp bgm_kanji_lsp,":s#FFFFFF【Kanji  】　そこには誰もいないはず",%bgm_x,%bgm_y1
+      lsp bgm_sakka_lsp,":s#FFFFFF【Artist】　Morrigan",%bgm_x,%bgm_y2
+      lsp bgm_time_lsp,":s#FFFFFF【Info　】　bgm_mo_06.ogg、6:30m",%bgm_x,%bgm_y3
 
       gosub *bgm_mode_h2
       print 2
@@ -6744,9 +6756,10 @@ goto *bgm_mode_btn_lp
 	lsp 510,$tmp,0,0
 	bgmvol 85
 
-      lsp bgm_title_lsp,":s#FFFFFF【Title 】　フ゜ツフ゜ツ",%bgm_x,%bgm_y1
-      lsp bgm_sakka_lsp,":s#FFFFFF【Artist】　ラック眼力",%bgm_x,%bgm_y2
-      lsp bgm_time_lsp,":s#FFFFFF【Time　】　２：３４",%bgm_x,%bgm_y3
+      lsp bgm_title_lsp,":s#FFFFFF【Title 】　Putsuputsu",%bgm_x,%bgm_y1-23
+      lsp bgm_kanji_lsp,":s#FFFFFF【Kanji  】　フ゜ツフ゜ツ",%bgm_x,%bgm_y1
+      lsp bgm_sakka_lsp,":s#FFFFFF【Artist】　LUCK　Ganriki",%bgm_x,%bgm_y2
+      lsp bgm_time_lsp,":s#FFFFFF【Info　】　bgm_lg_03.ogg、2:34m",%bgm_x,%bgm_y3
 
       gosub *bgm_mode_h2
       print 2
@@ -6763,9 +6776,10 @@ goto *bgm_mode_btn_lp
 	lsp 510,$tmp,0,0
 	bgmvol 90
 
-      lsp bgm_title_lsp,":s#FFFFFF【Title 】　学校案内人",%bgm_x,%bgm_y1
-      lsp bgm_sakka_lsp,":s#FFFFFF【Artist】　ｄａｉ",%bgm_x,%bgm_y2
-      lsp bgm_time_lsp,":s#FFFFFF【Time　】　３：１３",%bgm_x,%bgm_y3
+      lsp bgm_title_lsp,":s#FFFFFF【Title 】　Gakkou　Angainin",%bgm_x,%bgm_y1-23
+      lsp bgm_kanji_lsp,":s#FFFFFF【Kanji  】　学校案内人",%bgm_x,%bgm_y1
+      lsp bgm_sakka_lsp,":s#FFFFFF【Artist】　dai",%bgm_x,%bgm_y2
+      lsp bgm_time_lsp,":s#FFFFFF【Info　】　bgm_da_08.ogg、3:13m",%bgm_x,%bgm_y3
 
       gosub *bgm_mode_h2
       print 2
@@ -6782,9 +6796,10 @@ goto *bgm_mode_btn_lp
 	lsp 510,$tmp,0,0
 	bgmvol 80
 
-      lsp bgm_title_lsp,":s#FFFFFF【Title 】　丑三つ時",%bgm_x,%bgm_y1
-      lsp bgm_sakka_lsp,":s#FFFFFF【Artist】　ｄａｉ",%bgm_x,%bgm_y2
-      lsp bgm_time_lsp,":s#FFFFFF【Time　】　０：５０",%bgm_x,%bgm_y3
+      lsp bgm_title_lsp,":s#FFFFFF【Title 】　Ushimitsudoki",%bgm_x,%bgm_y1-23
+      lsp bgm_kanji_lsp,":s#FFFFFF【Kanji  】　丑三つ時",%bgm_x,%bgm_y1
+      lsp bgm_sakka_lsp,":s#FFFFFF【Artist】　dai",%bgm_x,%bgm_y2
+      lsp bgm_time_lsp,":s#FFFFFF【Info　】　bgm_da_14.ogg、0:50m",%bgm_x,%bgm_y3
 
       gosub *bgm_mode_h2
       print 2
@@ -6801,9 +6816,10 @@ goto *bgm_mode_btn_lp
 	lsp 510,$tmp,0,0
 	bgmvol 85
 
-      lsp bgm_title_lsp,":s#FFFFFF【Title 】　例えば、こんな怪談",%bgm_x,%bgm_y1
-      lsp bgm_sakka_lsp,":s#FFFFFF【Artist】　ｄａｉ",%bgm_x,%bgm_y2
-      lsp bgm_time_lsp,":s#FFFFFF【Time　】　１：３８",%bgm_x,%bgm_y3
+      lsp bgm_title_lsp,":s#FFFFFF【Title 】　Tatoeba,　Konna　Kaidan",%bgm_x,%bgm_y1-23
+      lsp bgm_kanji_lsp,":s#FFFFFF【Kanji  】　例えば、こんな怪談",%bgm_x,%bgm_y1
+      lsp bgm_sakka_lsp,":s#FFFFFF【Artist】　dai",%bgm_x,%bgm_y2
+      lsp bgm_time_lsp,":s#FFFFFF【Info　】　bgm_da_15.ogg、1:38m",%bgm_x,%bgm_y3
 
       gosub *bgm_mode_h2
       print 2
@@ -6820,9 +6836,10 @@ goto *bgm_mode_btn_lp
 	lsp 510,$tmp,0,0
 	bgmvol 90
 
-      lsp bgm_title_lsp,":s#FFFFFF【Title 】　棘",%bgm_x,%bgm_y1
-      lsp bgm_sakka_lsp,":s#FFFFFF【Artist】　ｄａｉ",%bgm_x,%bgm_y2
-      lsp bgm_time_lsp,":s#FFFFFF【Time　】　２：３６",%bgm_x,%bgm_y3
+      lsp bgm_title_lsp,":s#FFFFFF【Title 】　Toge",%bgm_x,%bgm_y1-23
+      lsp bgm_kanji_lsp,":s#FFFFFF【Kanji  】　棘",%bgm_x,%bgm_y1
+      lsp bgm_sakka_lsp,":s#FFFFFF【Artist】　dai",%bgm_x,%bgm_y2
+      lsp bgm_time_lsp,":s#FFFFFF【Info　】　bgm_da_21.ogg、2:36m",%bgm_x,%bgm_y3
 
       gosub *bgm_mode_h2
       print 2
@@ -6839,9 +6856,10 @@ goto *bgm_mode_btn_lp
 	lsp 510,$tmp,0,0
 	bgmvol 75
 
-      lsp bgm_title_lsp,":s#FFFFFF【Title 】　霧花",%bgm_x,%bgm_y1
-      lsp bgm_sakka_lsp,":s#FFFFFF【Artist】　Ｍ．Ｚａｋｋｙ",%bgm_x,%bgm_y2
-      lsp bgm_time_lsp,":s#FFFFFF【Time　】　３：０６",%bgm_x,%bgm_y3
+      lsp bgm_title_lsp,":s#FFFFFF【Title 】　Kirihana",%bgm_x,%bgm_y1-23
+      lsp bgm_kanji_lsp,":s#FFFFFF【Kanji  】　霧花",%bgm_x,%bgm_y1
+      lsp bgm_sakka_lsp,":s#FFFFFF【Artist】　M.Zakky",%bgm_x,%bgm_y2
+      lsp bgm_time_lsp,":s#FFFFFF【Info　】　bgm_mz_01.ogg、3:06m",%bgm_x,%bgm_y3
 
       gosub *bgm_mode_h2
       print 2
@@ -6858,9 +6876,10 @@ goto *bgm_mode_btn_lp
 	add $tmp,"bgm_mode\bgm_back.bmp"
 	lsp 510,$tmp,0,0
 
-      lsp bgm_title_lsp,":s#FFFFFF【Title 】　強く生きて、花は咲く",%bgm_x,%bgm_y1
-      lsp bgm_sakka_lsp,":s#FFFFFF【Artist】　ｄａｉ",%bgm_x,%bgm_y2
-      lsp bgm_time_lsp,":s#FFFFFF【Time　】　１：３６",%bgm_x,%bgm_y3
+      lsp bgm_title_lsp,":s#FFFFFF【Title 】　Tsuyoku　Ikite,　Hana　wa　Saku",%bgm_x,%bgm_y1-23
+      lsp bgm_kanji_lsp,":s#FFFFFF【Kanji  】　強く生きて、花は咲く",%bgm_x,%bgm_y1
+      lsp bgm_sakka_lsp,":s#FFFFFF【Artist】　dai",%bgm_x,%bgm_y2
+      lsp bgm_time_lsp,":s#FFFFFF【Info　】　bgm_da_20.ogg、1:36m",%bgm_x,%bgm_y3
 
       gosub *bgm_mode_h2
       print 2
@@ -6877,9 +6896,10 @@ goto *bgm_mode_btn_lp
 	lsp 510,$tmp,0,0
 	bgmvol 80
 
-      lsp bgm_title_lsp,":s#FFFFFF【Title 】　丑ノ刻参り",%bgm_x,%bgm_y1
+      lsp bgm_title_lsp,":s#FFFFFF【Title 】　Ushi　no　Koku　Mairi",%bgm_x,%bgm_y1-23
+      lsp bgm_kanji_lsp,":s#FFFFFF【Kanji  】　丑ノ刻参り",%bgm_x,%bgm_y1
       lsp bgm_sakka_lsp,":s#FFFFFF【Artist】　ＳＢ　ＹＵＮＥ",%bgm_x,%bgm_y2
-      lsp bgm_time_lsp,":s#FFFFFF【Time　】　３：３７",%bgm_x,%bgm_y3
+      lsp bgm_time_lsp,":s#FFFFFF【Info　】　bgm_sb_01.ogg、3:37m",%bgm_x,%bgm_y3
 
       gosub *bgm_mode_h2
       print 2
@@ -6897,9 +6917,10 @@ goto *bgm_mode_btn_lp
 	bgmvol 85
 
 
-lsp bgm_title_lsp,":s#FFFFFF【Title 】　ほこライオン、はじめました",%bgm_x,%bgm_y1
-      lsp bgm_sakka_lsp,":s#FFFFFF【Artist】　ｄａｉ",%bgm_x,%bgm_y2
-      lsp bgm_time_lsp,":s#FFFFFF【Time　】　０：５８",%bgm_x,%bgm_y3
+	  lsp bgm_title_lsp,":s#FFFFFF【Title 】　HokoRaion,　Hajimemashita",%bgm_x,%bgm_y1-23
+      lsp bgm_kanji_lsp,":s#FFFFFF【Kanji  】　ほこライオン、はじめました",%bgm_x,%bgm_y1
+      lsp bgm_sakka_lsp,":s#FFFFFF【Artist】　dai",%bgm_x,%bgm_y2
+      lsp bgm_time_lsp,":s#FFFFFF【Info　】　bgm_da_24.ogg、0:58m",%bgm_x,%bgm_y3
 
       gosub *bgm_mode_h2
       print 2
@@ -6916,9 +6937,10 @@ goto *bgm_mode_btn_lp
 	lsp 510,$tmp,0,0
 	bgmvol 90
 
-      lsp bgm_title_lsp,":s#FFFFFF【Title 】　サボンの花",%bgm_x,%bgm_y1
-      lsp bgm_sakka_lsp,":s#FFFFFF【Artist】　ｄａｉ",%bgm_x,%bgm_y2
-      lsp bgm_time_lsp,":s#FFFFFF【Time　】　３：０９",%bgm_x,%bgm_y3
+      lsp bgm_title_lsp,":s#FFFFFF【Title 】　Sabon　no　Hana",%bgm_x,%bgm_y1-23
+      lsp bgm_kanji_lsp,":s#FFFFFF【Kanji  】　サボンの花",%bgm_x,%bgm_y1
+      lsp bgm_sakka_lsp,":s#FFFFFF【Artist】　dai",%bgm_x,%bgm_y2
+      lsp bgm_time_lsp,":s#FFFFFF【Info　】　bgm_da_03.ogg、3:09m",%bgm_x,%bgm_y3
 
       gosub *bgm_mode_h2
       print 2
@@ -6935,9 +6957,10 @@ goto *bgm_mode_btn_lp
 	lsp 510,$tmp,0,0
 	bgmvol 75
 
-      lsp bgm_title_lsp,":s#FFFFFF【Title 】　暗き昏き闇は月を背に",%bgm_x,%bgm_y1
-      lsp bgm_sakka_lsp,":s#FFFFFF【Artist】　Ｍｏｒｒｉｇａｎ",%bgm_x,%bgm_y2
-      lsp bgm_time_lsp,":s#FFFFFF【Time　】　６：４４",%bgm_x,%bgm_y3
+      lsp bgm_title_lsp,":s#FFFFFF【Title 】　Kuraki　Kuraki　Yami　wa　Tsuki　wo　Sei　ni",%bgm_x,%bgm_y1-23
+      lsp bgm_kanji_lsp,":s#FFFFFF【Kanji  】　暗き昏き闇は月を背に",%bgm_x,%bgm_y1	
+      lsp bgm_sakka_lsp,":s#FFFFFF【Artist】　Morrigan",%bgm_x,%bgm_y2
+      lsp bgm_time_lsp,":s#FFFFFF【Info　】　bgm_mo_04.ogg、6:44m",%bgm_x,%bgm_y3
 
       gosub *bgm_mode_h2
       print 2
@@ -6954,9 +6977,10 @@ goto *bgm_mode_btn_lp
 	lsp 510,$tmp,0,0
 	bgmvol 75
 
-      lsp bgm_title_lsp,":s#FFFFFF【Title 】　体のない夜",%bgm_x,%bgm_y1
-      lsp bgm_sakka_lsp,":s#FFFFFF【Artist】　Ｐｒｅ－ｈｏｌｄｅｒ",%bgm_x,%bgm_y2
-      lsp bgm_time_lsp,":s#FFFFFF【Time　】　３：４０",%bgm_x,%bgm_y3
+      lsp bgm_title_lsp,":s#FFFFFF【Title 】　Karada　no　Nai　Yoru",%bgm_x,%bgm_y1-23
+      lsp bgm_kanji_lsp,":s#FFFFFF【Kanji  】　体のない夜",%bgm_x,%bgm_y1	
+      lsp bgm_sakka_lsp,":s#FFFFFF【Artist】　Pre-holder",%bgm_x,%bgm_y2
+      lsp bgm_time_lsp,":s#FFFFFF【Info　】　bgm_ph_02.ogg、3:40m",%bgm_x,%bgm_y3
 
       gosub *bgm_mode_h2
       print 2
@@ -6973,9 +6997,10 @@ goto *bgm_mode_btn_lp
 	lsp 510,$tmp,0,0
 	bgmvol 100
 
-      lsp bgm_title_lsp,":s#FFFFFF【Title 】　ひとりぼっちの君のうた",%bgm_x,%bgm_y1
-      lsp bgm_sakka_lsp,":s#FFFFFF【Artist】　ｄａｉ",%bgm_x,%bgm_y2
-      lsp bgm_time_lsp,":s#FFFFFF【Time　】　３：１８",%bgm_x,%bgm_y3
+      lsp bgm_title_lsp,":s#FFFFFF【Title 】　Hitoribocchi　no　Kimi　no　Uta",%bgm_x,%bgm_y1-23
+      lsp bgm_kanji_lsp,":s#FFFFFF【Kanji  】　ひとりぼっちの君のうた",%bgm_x,%bgm_y1	
+      lsp bgm_sakka_lsp,":s#FFFFFF【Artist】　dai",%bgm_x,%bgm_y2
+      lsp bgm_time_lsp,":s#FFFFFF【Info　】　d_7.ogg、3:18m",%bgm_x,%bgm_y3
 
       gosub *bgm_mode_h2
       print 2
@@ -6992,9 +7017,10 @@ goto *bgm_mode_btn_lp
 	lsp 510,$tmp,0,0
 	bgmvol 90
 
-      lsp bgm_title_lsp,":s#FFFFFF【Title 】　いわいとまつり",%bgm_x,%bgm_y1
-      lsp bgm_sakka_lsp,":s#FFFFFF【Artist】　ｄａｉ",%bgm_x,%bgm_y2
-      lsp bgm_time_lsp,":s#FFFFFF【Time　】　３：１６",%bgm_x,%bgm_y3
+      lsp bgm_title_lsp,":s#FFFFFF【Title 】　Iwai　to　Matsuri",%bgm_x,%bgm_y1-23
+      lsp bgm_kanji_lsp,":s#FFFFFF【Kanji  】　いわいとまつり",%bgm_x,%bgm_y1	
+      lsp bgm_sakka_lsp,":s#FFFFFF【Artist】　dai",%bgm_x,%bgm_y2
+      lsp bgm_time_lsp,":s#FFFFFF【Info　】　d_10.ogg、3:16m",%bgm_x,%bgm_y3
 
       gosub *bgm_mode_h2
       print 2
@@ -7011,9 +7037,10 @@ goto *bgm_mode_btn_lp
 	lsp 510,$tmp,0,0
 	bgmvol 90
 
-      lsp bgm_title_lsp,":s#FFFFFF【Title 】　冥暗境界線",%bgm_x,%bgm_y1
-      lsp bgm_sakka_lsp,":s#FFFFFF【Artist】　ｄａｉ",%bgm_x,%bgm_y2
-      lsp bgm_time_lsp,":s#FFFFFF【Time　】　３：０５",%bgm_x,%bgm_y3
+      lsp bgm_title_lsp,":s#FFFFFF【Title 】　Meian　Kyoukaisen",%bgm_x,%bgm_y1-23
+      lsp bgm_kanji_lsp,":s#FFFFFF【Kanji  】　冥暗境界線",%bgm_x,%bgm_y1	
+      lsp bgm_sakka_lsp,":s#FFFFFF【Artist】　dai",%bgm_x,%bgm_y2
+      lsp bgm_time_lsp,":s#FFFFFF【Info　】　d_25.ogg、3:15m",%bgm_x,%bgm_y3
 
       gosub *bgm_mode_h2
       print 2
@@ -7030,9 +7057,10 @@ goto *bgm_mode_btn_lp
 	lsp 510,$tmp,0,-50
 	bgmvol 100
 
-      lsp bgm_title_lsp,":s#FFFFFF【Title 】　愛しを渡るは黄昏ぞ（エンディングＶｅｒ）",%bgm_x,%bgm_y1
-      lsp bgm_sakka_lsp,":s#FFFFFF【Artist】　ラック眼力、ｄａｉ、佐倉かなえ",%bgm_x,%bgm_y2
-      lsp bgm_time_lsp,":s#FFFFFF 【Vocal 】　木野寧",%bgm_x,%bgm_y3
+      lsp bgm_title_lsp,":s#FFFFFF【Title  】　Itsoshi　wo　Wataru　wa　Tasogare　zo　~Ending　Ver",%bgm_x,%bgm_y1-23
+      lsp bgm_kanji_lsp,":s#FFFFFF【Kanji  】　愛しを渡るは黄昏ぞ",%bgm_x,%bgm_y1
+      lsp bgm_sakka_lsp,":s#FFFFFF【Artist 】　LUCK　Ganriki、dai、Kanae　Sakura",%bgm_x,%bgm_y2
+      lsp bgm_time_lsp,":s#FFFFFF 【Info   】　Vocal:　Nei　Kino、bgm_ldsk_01.ogg、2:04m",%bgm_x,%bgm_y3
 
       gosub *bgm_mode_h2
       print 2
@@ -9457,6 +9485,12 @@ if %tmp = 1 goto *b_sakuru_logo_shuuryou
 	wait 2000
 	csp 100
 	print 2
+	
+	lsp 100,":c;bmp\title\trans_logo.bmp",0,0
+	print 22
+	wait 2000
+	csp 100
+	print 2
 
 	lsp 100,":c;bmp\background\efe\keikoku_02.bmp",0,0
 ;	print 99,3000,"trvswave.dll/h"
@@ -9678,13 +9712,13 @@ mov %title_skip,0 ;瞬間表示のフラグを解除
 
 
 ;説明テキストの読み込み
-lsph t_txt_ep1_lsp,":a;bmp\title\txt_box\ep1.bmp",350,120,100
-lsph t_txt_ep2_lsp,":a;bmp\title\txt_box\ep2.bmp",350,120,100
-lsph t_txt_ep3_lsp,":a;bmp\title\txt_box\ep3.bmp",350,120,100
-lsph t_txt_ep4_lsp,":a;bmp\title\txt_box\ep4.bmp",350,120,100
-lsph t_txt_ep5_lsp,":a;bmp\title\txt_box\ep5.bmp",350,120,100
-lsph t_txt_ep6_lsp,":a;bmp\title\txt_box\ep6.bmp",350,120,100
-lsph t_txt_ep7_lsp,":a;bmp\title\txt_box\ep7.bmp",350,120,100
+lsph t_txt_ep1_lsp,":a;bmp\title\txt_box\ep1.bmp",350,35,100
+lsph t_txt_ep2_lsp,":a;bmp\title\txt_box\ep2.bmp",350,35,100
+lsph t_txt_ep3_lsp,":a;bmp\title\txt_box\ep3.bmp",350,35,100
+lsph t_txt_ep4_lsp,":a;bmp\title\txt_box\ep4.bmp",350,35,100
+lsph t_txt_ep5_lsp,":a;bmp\title\txt_box\ep5.bmp",350,35,100
+lsph t_txt_ep6_lsp,":a;bmp\title\txt_box\ep6.bmp",350,35,100
+lsph t_txt_ep7_lsp,":a;bmp\title\txt_box\ep7.bmp",350,35,100
 
 ;lsph t_txt_lock_lsp,":a;bmp\title\txt_box\warning.bmp",350,35
 
@@ -9752,7 +9786,7 @@ goto *b_title_botun_loop
 		lsp t_btn_ep6_lsp,":a;bmp\title\ss_btn\btn\6_1.bmp",150,230,45	;235
 		lsp t_btn_ep7_lsp,":a;bmp\title\ss_btn\btn\7_1.bmp",240,180,40	;235
 		lsp t_btn_load_lsp,":a/2,0,3;bmp\r_click\sys_btn\load.bmp",460,430	;254
-		lsph t_txt_ep1_lsp,":a;bmp\title\txt_box\ep1.bmp",350,120,100
+		lsph t_txt_ep1_lsp,":a;bmp\title\txt_box\ep1.bmp",350,35,100
 
 		bg "bmp\title\ss_btn\back\s_select_back1.bmp",0
 		print 80
@@ -9824,8 +9858,8 @@ goto *b_title_botun_loop
 		lsp t_btn_ep6_lsp,":a;bmp\title\ss_btn\btn\6_1.bmp",150,230,45	;235
 		lsp t_btn_ep7_lsp,":a;bmp\title\ss_btn\btn\7_1.bmp",240,180,50	;235
 		lsp t_btn_load_lsp,":a/2,0,3;bmp\r_click\sys_btn\load.bmp",460,430	;254
-		lsph t_txt_ep1_lsp,":a;bmp\title\txt_box\ep1.bmp",350,120,100
-		lsph t_txt_ep2_lsp,":a;bmp\title\txt_box\ep2.bmp",350,120,100
+		lsph t_txt_ep1_lsp,":a;bmp\title\txt_box\ep1.bmp",350,35,100
+		lsph t_txt_ep2_lsp,":a;bmp\title\txt_box\ep2.bmp",350,35,100
 
 		print 80
 
@@ -9877,9 +9911,9 @@ goto *b_title_botun_loop
 		lsp t_btn_ep6_lsp,":a;bmp\title\ss_btn\btn\6_1.bmp",150,230,45	;235
 		lsp t_btn_ep7_lsp,":a;bmp\title\ss_btn\btn\7_1.bmp",240,180,50	;235
 		lsp t_btn_load_lsp,":a/2,0,3;bmp\r_click\sys_btn\load.bmp",460,430	;254
-		lsph t_txt_ep1_lsp,":a;bmp\title\txt_box\ep1.bmp",350,120,100
-		lsph t_txt_ep2_lsp,":a;bmp\title\txt_box\ep2.bmp",350,120,100
-		lsph t_txt_ep3_lsp,":a;bmp\title\txt_box\ep3.bmp",350,120,100
+		lsph t_txt_ep1_lsp,":a;bmp\title\txt_box\ep1.bmp",350,35,100
+		lsph t_txt_ep2_lsp,":a;bmp\title\txt_box\ep2.bmp",350,35,100
+		lsph t_txt_ep3_lsp,":a;bmp\title\txt_box\ep3.bmp",350,35,100
 		print 80
 
 		*start_sub_menu_btn_300_loop
@@ -9931,10 +9965,10 @@ goto *b_title_botun_loop
 		lsp t_btn_ep6_lsp,":a;bmp\title\ss_btn\btn\6_1.bmp",150,230,45	;235
 		lsp t_btn_ep7_lsp,":a;bmp\title\ss_btn\btn\7_1.bmp",240,180,50	;235
 		lsp t_btn_load_lsp,":a/2,0,3;bmp\r_click\sys_btn\load.bmp",460,430	;254
-		lsph t_txt_ep1_lsp,":a;bmp\title\txt_box\ep1.bmp",350,120,100
-		lsph t_txt_ep2_lsp,":a;bmp\title\txt_box\ep2.bmp",350,120,100
-		lsph t_txt_ep3_lsp,":a;bmp\title\txt_box\ep3.bmp",350,120,100
-		lsph t_txt_ep4_lsp,":a;bmp\title\txt_box\ep4.bmp",350,120,100
+		lsph t_txt_ep1_lsp,":a;bmp\title\txt_box\ep1.bmp",350,35,100
+		lsph t_txt_ep2_lsp,":a;bmp\title\txt_box\ep2.bmp",350,35,100
+		lsph t_txt_ep3_lsp,":a;bmp\title\txt_box\ep3.bmp",350,35,100
+		lsph t_txt_ep4_lsp,":a;bmp\title\txt_box\ep4.bmp",350,35,100
 
 		print 80
 
@@ -9984,11 +10018,11 @@ goto *b_title_botun_loop
 		lsp t_btn_ep6_lsp,":a;bmp\title\ss_btn\btn\6_1.bmp",150,230,45	;235
 		lsp t_btn_ep7_lsp,":a;bmp\title\ss_btn\btn\7_1.bmp",240,180,50	;235
 		lsp t_btn_load_lsp,":a/2,0,3;bmp\r_click\sys_btn\load.bmp",460,430	;254
-		lsph t_txt_ep1_lsp,":a;bmp\title\txt_box\ep1.bmp",350,120,100
-		lsph t_txt_ep2_lsp,":a;bmp\title\txt_box\ep2.bmp",350,120,100
-		lsph t_txt_ep3_lsp,":a;bmp\title\txt_box\ep3.bmp",350,120,100
-		lsph t_txt_ep4_lsp,":a;bmp\title\txt_box\ep4.bmp",350,120,100
-		lsph t_txt_ep5_lsp,":a;bmp\title\txt_box\ep5.bmp",350,120,100
+		lsph t_txt_ep1_lsp,":a;bmp\title\txt_box\ep1.bmp",350,35,100
+		lsph t_txt_ep2_lsp,":a;bmp\title\txt_box\ep2.bmp",350,35,100
+		lsph t_txt_ep3_lsp,":a;bmp\title\txt_box\ep3.bmp",350,35,100
+		lsph t_txt_ep4_lsp,":a;bmp\title\txt_box\ep4.bmp",350,35,100
+		lsph t_txt_ep5_lsp,":a;bmp\title\txt_box\ep5.bmp",350,35,100
 
 
 		print 80
@@ -10042,12 +10076,12 @@ goto *b_title_botun_loop
 		lsp t_btn_ep6_lsp,":a/2,0,3;bmp\title\ss_btn\btn\6_2.bmp",150,230,230	;235
 		lsp t_btn_ep7_lsp,":a;bmp\title\ss_btn\btn\7_1.bmp",240,180,50	;235
 		lsp t_btn_load_lsp,":a/2,0,3;bmp\r_click\sys_btn\load.bmp",460,430	;254
-		lsph t_txt_ep1_lsp,":a;bmp\title\txt_box\ep1.bmp",350,120,100
-		lsph t_txt_ep2_lsp,":a;bmp\title\txt_box\ep2.bmp",350,120,100
-		lsph t_txt_ep3_lsp,":a;bmp\title\txt_box\ep3.bmp",350,120,100
-		lsph t_txt_ep4_lsp,":a;bmp\title\txt_box\ep4.bmp",350,120,100
-		lsph t_txt_ep5_lsp,":a;bmp\title\txt_box\ep5.bmp",350,120,100
-		lsph t_txt_ep6_lsp,":a;bmp\title\txt_box\ep6.bmp",350,120,100
+		lsph t_txt_ep1_lsp,":a;bmp\title\txt_box\ep1.bmp",350,35,100
+		lsph t_txt_ep2_lsp,":a;bmp\title\txt_box\ep2.bmp",350,35,100
+		lsph t_txt_ep3_lsp,":a;bmp\title\txt_box\ep3.bmp",350,35,100
+		lsph t_txt_ep4_lsp,":a;bmp\title\txt_box\ep4.bmp",350,35,100
+		lsph t_txt_ep5_lsp,":a;bmp\title\txt_box\ep5.bmp",350,35,100
+		lsph t_txt_ep6_lsp,":a;bmp\title\txt_box\ep6.bmp",350,35,100
 
 		print 80
 
@@ -10099,13 +10133,13 @@ goto *b_title_botun_loop
 		lsp t_btn_ep6_lsp,":a/2,0,3;bmp\title\ss_btn\btn\6_3.bmp",150,230,230	;235
 		lsp t_btn_ep7_lsp,":a/2,0,3;bmp\title\ss_btn\btn\7_2.bmp",240,180,240	;235
 		lsp t_btn_load_lsp,":a/2,0,3;bmp\r_click\sys_btn\load.bmp",460,430	;254
-		lsph t_txt_ep1_lsp,":a;bmp\title\txt_box\ep1.bmp",350,120,100
-		lsph t_txt_ep2_lsp,":a;bmp\title\txt_box\ep2.bmp",350,120,100
-		lsph t_txt_ep3_lsp,":a;bmp\title\txt_box\ep3.bmp",350,120,100
-		lsph t_txt_ep4_lsp,":a;bmp\title\txt_box\ep4.bmp",350,120,100
-		lsph t_txt_ep5_lsp,":a;bmp\title\txt_box\ep5.bmp",350,120,100
-		lsph t_txt_ep6_lsp,":a;bmp\title\txt_box\ep6.bmp",350,120,100
-		lsph t_txt_ep7_lsp,":a;bmp\title\txt_box\ep7.bmp",350,120,100
+		lsph t_txt_ep1_lsp,":a;bmp\title\txt_box\ep1.bmp",350,35,100
+		lsph t_txt_ep2_lsp,":a;bmp\title\txt_box\ep2.bmp",350,35,100
+		lsph t_txt_ep3_lsp,":a;bmp\title\txt_box\ep3.bmp",350,35,100
+		lsph t_txt_ep4_lsp,":a;bmp\title\txt_box\ep4.bmp",350,35,100
+		lsph t_txt_ep5_lsp,":a;bmp\title\txt_box\ep5.bmp",350,35,100
+		lsph t_txt_ep6_lsp,":a;bmp\title\txt_box\ep6.bmp",350,35,100
+		lsph t_txt_ep7_lsp,":a;bmp\title\txt_box\ep7.bmp",350,35,100
 
 		print 80
 
@@ -10156,13 +10190,13 @@ goto *b_title_botun_loop
 		lsp t_btn_ep6_lsp,":a/2,0,3;bmp\title\ss_btn\btn\6_3.bmp",150,230,230	;235
 		lsp t_btn_ep7_lsp,":a/2,0,3;bmp\title\ss_btn\btn\7_3.bmp",240,180,240	;235
 		lsp t_btn_load_lsp,":a/2,0,3;bmp\r_click\sys_btn\load.bmp",460,430	;254
-		lsph t_txt_ep1_lsp,":a;bmp\title\txt_box\ep1.bmp",350,120,100
-		lsph t_txt_ep2_lsp,":a;bmp\title\txt_box\ep2.bmp",350,120,100
-		lsph t_txt_ep3_lsp,":a;bmp\title\txt_box\ep3.bmp",350,120,100
-		lsph t_txt_ep4_lsp,":a;bmp\title\txt_box\ep4.bmp",350,120,100
-		lsph t_txt_ep5_lsp,":a;bmp\title\txt_box\ep5.bmp",350,120,100
-		lsph t_txt_ep6_lsp,":a;bmp\title\txt_box\ep6.bmp",350,120,100
-		lsph t_txt_ep7_lsp,":a;bmp\title\txt_box\ep7.bmp",350,120,100
+		lsph t_txt_ep1_lsp,":a;bmp\title\txt_box\ep1.bmp",350,35,100
+		lsph t_txt_ep2_lsp,":a;bmp\title\txt_box\ep2.bmp",350,35,100
+		lsph t_txt_ep3_lsp,":a;bmp\title\txt_box\ep3.bmp",350,35,100
+		lsph t_txt_ep4_lsp,":a;bmp\title\txt_box\ep4.bmp",350,35,100
+		lsph t_txt_ep5_lsp,":a;bmp\title\txt_box\ep5.bmp",350,35,100
+		lsph t_txt_ep6_lsp,":a;bmp\title\txt_box\ep6.bmp",350,35,100
+		lsph t_txt_ep7_lsp,":a;bmp\title\txt_box\ep7.bmp",350,35,100
 
 		print 80
 
