@@ -115,7 +115,7 @@ br
 `　Despite his insistence that she had broken the anatomy dummy, `@`the girl and her friends claimed she had done no such thing. `@`No, in fact, they even went so far as to say none of them had gone near the science prep room.`\
 
 ;　野々宮武は、自分の目の前で彼女が人体模型を弾き飛ばした光景をはっきり目に焼き付けている。@
-`　But the image of the girl knocking over the anatomy dummy right before his eyes was burned into Takeshi's Nonomiya mind.`@`
+`　But the image of the girl knocking over the anatomy dummy right before his eyes was burned into Takeshi Nonomiya's mind.`@`
 br
 ;　もしも可能ならば現像したいと思うくらいにはっきりと焼き付けていた。\
 `　It was fixed there so clearly that, if he could, he would have printed and developed it like film.`\
@@ -141,7 +141,7 @@ ld r,NON_def5a,22
 `　As a result, no matter what he did, `@` ...the teacher decided Takeshi Nonomiya was lying. `@`
 br
 ;　別にゲンコツをもらったわけではないが、こっぴどく叱られた。@……とても悔しかった。@
-`　It wasn't like he was beaten for it, only harshly scolded. `@`...but it was so very frustrating. `@`
+`　It wasn't like he was beaten for it, only harshly scolded. `@`...But it was so very frustrating. `@`
 br
 ;　もちろん、嘘を吐いた女子も許せなかったが、@それ以上に、目の前で起こった真実を提示できなかったことが悔しかった。\
 `　Oh, he would never forgive the girls who had lied, `@`but what was truly frustrating was that he couldn't present the truth he had seen with his own eyes.`\
@@ -538,7 +538,7 @@ E_B
 E_M1
 
 ;　フィルムの残り枚数は、あとほんの数枚しかない。@玩具にするほども遊べはしないだろう。@
-`　There were only a few shots left of remaining film left in it.`@` Someone probably couldn't even play around with it even though it was a toy camera.`@`
+`　There were only a few shots of remaining film left in it.`@` Someone probably couldn't even play around with it even though it was a toy camera.`@`
 br
 ;　それでも、このカメラと自分との出会いは、神さまか何かの仕組んだ貴重な縁に違いない。\
 `　Even so, his encounter with this camera must have tied him to a divine plan of great importance. `\
@@ -1214,7 +1214,7 @@ me1v 11,90
 `　There are 48 students in our class.`@
 br
 ;　間違いなくその数を数えることができて、@僕は布団にどさりと倒れこみ、自らを笑い飛ばすように大笑いした。\
-`　I had surely counted that many, `@`Toppling over with a thud on the futon, as if to laugh at myself, I burst out laughing.`\
+`　I had surely counted that many. `@`Toppling over with a thud on the futon, as if to laugh at myself, I burst out laughing.`\
 
 ;　この一枚の写真に、今日一日、僕はどれだけ大騒ぎしたというのか。@あぁ馬鹿馬鹿しい、だけれども本当に面白かった。@
 `　All day today, how much have I been worrying about this single photograph I wonder? `@`Ahh how foolish, but it was truly fascinating.`@
@@ -1277,7 +1277,7 @@ se1v 13,50
 quakey 2,200
 
 ;「うわあああああああああああああああああああぁあああぁあああぁあッッ！！！」@
-`"UWAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAaaaaAAAAaaaa~~!!!"`@
+`"UWAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAaaaaAAAAaaaa!!!"`@
 br
 ;　僕は恐ろしい写真を撮ってしまったかもしれないことに、ようやく気付く。@
 `　I finally realized what a terrifying photograph I had taken.`@
@@ -1453,7 +1453,7 @@ bg shinbun_02,22
 me1v 16,50
 
 ;「野々宮、先日のカメラ。@あれ、結局、何か面白いものは写ったのかよー？」@
-`"Nonomiya, about that camera from the other day. `@`After all that, did it capture anything interesting~?"`@
+`"Nonomiya, about that camera from the other day. `@`After all that, did it capture anything innnnteresting?"`@
 
 ld r,NON_Def3a,23
 
@@ -1539,7 +1539,7 @@ bgm1 14
 ;　そうだ。@思えば彼女は、このカメラの正体を知っていたように思う。@
 `　That's right. `@`Now that I think of it, I believe this girl knows what this camera really is.`@
 ;　なら、この写真に写った謎の少女のことも教えてくれるのではないか。\
-`　If so, maybe she can tell me who this mysterious girl is captured in this photograph.`\
+`　If so, maybe she can tell me who this mysterious girl captured in this photograph is.`\
 
 ld r,HIG_Def3,22
 
@@ -1568,7 +1568,7 @@ ld l,NON_Def7a,80
 ld r,HIG_w1,80
 
 ;「みぃんな忘れちゃったのよね。@…アイツのせいで。@…………あなたはこれから帰り？」@
-`"Everyone~ went and forgot her, you see? `@`...It's 'his' fault. `@`......Are you heading out?"`@
+`"Everyooone went and forgot her, you see? `@`...It's 'his' fault. `@`......Are you heading out?"`@
 
 ld l,NON_Def4a,80
 
@@ -1662,7 +1662,7 @@ cl c,2
 `　I noticed her figure vaguely distort somehow. `@`...Are my eyes blurry...?`@
 br
 ;　目にゴミでも入ったのかとごしごしと擦ってから再び廊下を見ると、@彼女の姿はもうなくなっていた……。\
-`　As if something were in my eyes, I quickly rubbed them and once ago looked down the hall, `@`and the girl's figure had already disappeared......`\
+`　As if something were in my eyes, I quickly rubbed them and once again looked down the hall, `@`and the girl's figure had already disappeared......`\
 
 bg black,2
 fede 0,2000
@@ -1682,7 +1682,7 @@ bg shoukou_01,22
 me1v 16,50
 
 ;　昇降口で靴を取り出す前に。@……彼女に言われた通り、僕は出席番号順に並んだクラスメートの靴箱を調べてみた。@
-`　In front of the entrance where students take off their shoes, `@`...Just as she said, I tried checking the numbered shelves for the shoes of my classmates.`@
+`　In front of the entrance where students take off their shoes, `@`...just as she said, I tried checking the numbered shelves for the shoes of my classmates.`@
 br
 ;　すると、………靴も上履きも入っていなかったけれど、名前のシールの貼られた靴箱がひとつ、@ぽつんとあった。\
 `　And... there weren't any shoes or slippers inside them, but there was one shelf labeled with a name tag stuck to it `@`― all by itself.`\
@@ -1691,7 +1691,7 @@ br
 `　It seemed like it had been stuck on from a very long time ago. It was a worn out label.`@
 br
 ;　それは文字通り、忘れられてしまったかのような寂しさを感じさせた。\
-`　Literally, It made me feel its loneliness, as if it had been completely forgotten.`\
+`　Literally, it made me feel its loneliness, as if it had been completely forgotten.`\
 
 ;　しゃがみ、そのシールの名前を、……読む。@
 `　I squatted down to read it ... the name on that label.`@
@@ -1769,7 +1769,7 @@ br
 bg kyou_02,22
 
 ;「悪いと思ってンなら謝りなさいよッ！！@　ごめんなさいが先でしょ、ごめんなさいがッ！！@　ほらあ！！」\
-`"If you THINK it's YOUR fault then apologize~!! `@`You should have said 'I'm sorry' earlier, that's right, 'I'm sorry~'!! `@`Say it!!"`\
+`"If you THINK it's YOUR fault then apologiiize!! `@`You should have said 'I'm sorry' earlier, that's right, 'I'm sorryyyy'!! `@`Say it!!"`\
 
 ld c,MAR_Def2n,22
 ld c,MAR_n1,80
@@ -1778,9 +1778,9 @@ ld c,MAR_n1,80
 `"I, ...I, ...I did nothing wrong... `@`...Why ― why do I have to apologize...?"`\
 
 ;「そんなわけないでしょぉ？！@　みんなは聞いててどう思った？！@　どっちが悪いと思ったぁ？！」@
-`"Who are you kidding?! `@`Everyone hear that? What do you think? `@`So who do you think is wrong here~?!"`@
+`"Who are you kidding?! `@`Everyone hear that? What do you think? `@`So who do you think is wrong heeere?!"`@
 ;「判決！！@　森谷が有罪ぃ～、わっはっはっはっはっはっはっは！！」@
-`"We have the verdict!! `@`Moriya is GUILTY~, Wahahahahahahahaha!!"`@
+`"We have the verdict!! `@`Moriya is GUILTY, Wahahahahahahahaha!!"`@
 br
 
 ld c,MAR_def3n,80
@@ -2122,7 +2122,7 @@ br
 `　Even if she misunderstood what I looked like, I couldn't have looked like a high pressure salesman. `@`As if to make sure, the door opened with the chain on.`@
 br
 ;　ドアが開くと、むわっとした生活臭と共に、想像したよりも美人なおばさんが顔を覗かせる。\
-`　As the door opened, along with all kinds of smells, an older woman's face, more beautiful than I had imagined, peaked out.`\
+`　As the door opened, along with all kinds of smells, an older woman's face, more beautiful than I had imagined, peeked out.`\
 
 ;bg mansion_03,22
 
@@ -2230,7 +2230,7 @@ br
 `　I could tell her words were trembling with uncertainty. `@`...I could clearly see her irritation that she couldn't say for sure she didn't know her.`\
 
 ;　自分の家族が、本当は四人じゃなくて、@……五人家族だったんじゃないかという記憶が蘇り掛けている…。@
-`　In her house, perhaps she didn't really have a family of four, `@`...and a memory was might be reviving in her mind that she had family of five...`@
+`　Perhaps she pondered that she might not really have a family of four in her household, `@`...and a memory might be reviving in her mind that she had a family of five...`@
 br
 ;　そして、…………小声で、………呟いた。\
 `　And then, ...in a whisper ...she muttered.`\
@@ -2278,14 +2278,14 @@ bg black,1
 me2v 17,70
 
 ;「毬枝ぇえええええええええぇ！！！@　そうよ、毬枝がずっと帰ってこないのよ！！@　毬枝はどこなの？！@　もうずっと帰ってこないのよ、帰ってこないのッ！！@　毬枝はどこなの？！@　ねぇどこにいるの？！@　あれから何日も家に帰ってこないのよ？！@　あああぁあぁ、私が悪いのよ、あの子の個性とか全然考えずに勉強勉強って押し付けすぎた…！！@　あの子は家に居場所がなくなってしまった！！@　あぁ、毬枝はきっと私が怖くて家に帰れなくて家出を…！@　私のせいなのよ！！@　どこなの？！@　毬枝はどこにいるのッ？！@/
-`"MARIEeEEEEEEEEEEEEEEe!!! `@`That's right! Marie didn't come back for ages!! `@`Where is Marie?! `@`She never came back, never came baaack!! `@`Where is Marie?! `@`Hey, where is she?! `@`She's been gone for days you know?! `\
+`"MARIEeEEEEEEEEEEEEEEe!!! `@`That's right! Marie didn't come back for ages!! `@`Where is Marie?! `@`She never came back, never came baaack!! `@`Where is Marie?! `@`Hey, where is she?! `@`She's been gone for days you know?!" `\
 ;Note: Split this line because it's way too long.
-`"AAaAAAh, it's my fault, I forced her to study study, never thinking of that girl's personality...!! `@`Now she doesn't know her own home!! `@`Aah, she won't come home, she's afraid of me, and she ran away...! `@`It's my fault!! `@`Where? `@`Where is Marie~?!`@/
+`"AAaAAAh, it's my fault, I forced her to study, study, study. Never thinking of that girl's personality...!! `@`Now she's lost to us!! `@`Aah, she won't come home, she's afraid of me, so she ran away...! `@`It's my fault!! `@`Where? `@`Where is Marieeee?!`@/
 
 quakey 2,200
 
 ;　毬枝、お願いよ、帰って来てぇえええええええぇ、おおおおあああああああああああぁあぁッ！！！」\
-` Marie, PLEASE! COME HOOOOOOOOOOOOOOMEe, WAAAAAAAAAAAAAAAAAAaaaaAAAHH~!!"\
+` Marie, PLEASE! COME HOOOOOOOOOOOOOOMEe, WAAAAAAAAAAAAAAAAAAaaaaAAAHH!!"\
 
 me3v 28,70
 quake 8,800
@@ -2477,7 +2477,7 @@ bgm1 14
 `　Since I ran in confusion, I couldn't tell how many wrong alleyways I went down.`@
 br
 ;　でも、自分が町内のどの辺にいるのかは理解していたので、@僕はさして気にも留めず、滅多に歩かない細い路地を歩いていた。\
-`　But since I had I knew I was somewhere in the neighborhood, `@`without noticing it, I walked down a narrow alley that I had never walked down before.`\ 
+`　But since I knew I was somewhere in the neighborhood, `@`without realizing it, I walked down a narrow alley that I had never walked down before.`\ 
 
 ;　今の僕には、往来の激しい太い通りよりも、@誰にも姿を見られずに済む、こんな忘れられた細い路地の方が心地良かった。@
 `　Rather than going down a crowded wide avenue, `@`I felt more comfortable in a forgotten narrow alley where no one would see me.`@
@@ -2500,7 +2500,7 @@ ld r,NON_Def4a,22
 `"................"`@`
 br
 ;　………何度見直しても、そこには、自分を忘れないでほしいと訴える少女の姿が写っていた。@
-`　......No matter how many times I looked, the captured girl's figure called to me as if to she didn't want to be forgotten.`@
+`　......No matter how many times I looked, the captured girl's image called to me as if to tell me she didn't want to be forgotten.`@
 br
 ;　いや、……本当にそうなのだろうか。\
 `　No, ......Maybe she really was.`\
@@ -2773,7 +2773,7 @@ bg black,22
 ;bg Different_spiral_1a,22
 
 ;　こんなこと、……ありえないッ！@
-` This....this is impossible~!`@`
+` This....this is impossible!`@`
 br
 ;　老人が実は二人いて、僕を前後から追い詰めてからかっているのか？！@　そんな馬鹿なことをして何が楽しいんだ…？！\
 `　There must have really been two of them ― did they intend to corner me from both sides?! `@`What enjoyment could they possibly derive from something so stupid...?!`\
@@ -2890,7 +2890,7 @@ br
 bg black,22
 
 ;　突拍子もない話だとは思う。@初対面の人なのに、勝手に先生だと思ってしまうなんて。@
-`　I thought that was a crazy idea. `@`Even though I had just met him, thinking he was a teacher or something like that~.`@
+`　I thought that was a crazy idea. `@`Even though I had just met him, thinking he was a teacher or something like that.`@
 br
 ;　……でもとにかく。@ほんの少し言葉を交わしただけで感じた第一印象は「先生」、だった。\
 `　...Nonetheless. `@`Based on what little words we exchanged, he gave me the impression he was a "teacher".`\
@@ -3009,7 +3009,7 @@ ld c,KOU_Def2,22
 `"That camera was oh so securely sealed away. `@`It's not something that is supposed to be found by 'humans'. `@`...Then how could you have found it? It's so very strange. `@`...Oh dear oh dear."`@
 br
 ;　この老人こそが、僕にとっては不思議側の存在だ。@…その彼が「不思議」と言い出すのだから、不安なことこの上ない…。\
-`　I must have been strange to this old man as well. `@`...Because there was nothing stranger than being called "strange" a man like this...`\
+`　I must have been strange to this old man as well. `@`...Because there was nothing stranger than being called "strange" by a man like this...`\
 
 ld c,KOU_Def3,80
 
@@ -3029,7 +3029,7 @@ cl c,0
 ld r,KOU_Def2,23
 
 ;「……あまり時間は掛けられないから手っ取り早く話そう。@…その写真機を、返して欲しいのだ。」@
-`"...I don't want to take up too much of your time, so I'll speak quickly to the point. `@`...I want that camera back."`@
+`"...I don't want to take up too much of your time, so I'll get quickly to the point. `@`...I want that camera back."`@
 
 ld l,NON_Def4a,23
 ld l,NON_Def6a,80
@@ -3096,7 +3096,7 @@ fede 1,1000
 E_B
 
 ;「……ほお。@断るというのかね…？」@
-`"...Ho~? `@`Are you saying you refuse then...?"`@
+`"...Ho? `@`Are you saying you refuse then...?"`@
 
 ;「あ、…いえ、その、………だって、このカメラは僕が見つけたんですから、@それが欲しいって言うなら、その、何か対価がもらえないとその…！@　遺失物だって、一割はもらえるわけだし…。」\
 `"Well, ...No, It's just... Since I found this camera, `@`if ya say you want it, well, then ya gotta gimme somethin' for it...! `@`It's a lost article y'know, I should at least get a 10% finder's fee..."`\
@@ -3115,7 +3115,7 @@ bg black,49
 
 
 ;　その時、沈み行く太陽がちょうど、老人の頭に掛かった。@……老人の顔が、真っ暗な闇で塗り潰される…。@
-`　Exactly when the sun began to set, I looked to the old man. `@`...His face was completely covered in pure darkness...`@
+`　Exactly when the sun began to set, I looked at the old man. `@`...His face was completely covered in pure darkness...`@
 br
 ;　一瞬の沈黙が、かえってどんな怒声よりも恐ろしく感じられた。\
 `　I felt that moment of silence would have been scarier than any scream.`\
@@ -3151,7 +3151,7 @@ ld c,KOU_U1,2
 ;;顔が真っ黒でモノクルだけのものをイメージしています。
 
 ;「野々宮くんには、少しお灸も必要かね…？@　もう少し、お利口な子だと思っていたんだがね…？@　野々宮くんん……？？？」\
-`"Takeshi Nonomiya-kun, perhaps you need something to light your fire, hm...? `@`Or do you no longer think you're such a clever child, I wonder...?`@` Takeshi Nonomiya-kun~...???"`\
+`"Takeshi Nonomiya-kun, perhaps you need something to light your fire, hm...? `@`Or do you no longer think you're such a clever child, I wonder...?`@` Takeshi Nonomiya-kuuun...???"`\
 
 se1 66
 
@@ -3288,7 +3288,7 @@ mld c,NON_s2,80
 bgm1 15
 
 ;「……え？@　………う、……うわッ…！」/
-`"......Eh? `@`......U- ...UWAH~!"`/
+`"......Eh? `@`......U- ...UWAaaH!"`/
 
 me1v 17,70
 
@@ -3523,7 +3523,7 @@ ld l,HIG_w3,80
 ld r,KOU_Def4,80
 
 ;「……………………ほぅ。」@
-`".........Ho~"`@`
+`".........Ho"`@`
 br
 ;　彼岸花はさっきから、笑いを堪えるのに必死なようだ。@……多分、こんなやり取りすらも、彼女にとってはきっと、何かの遊びの延長なのだろう。\
 `　Higanbana standing there laughing seemed like certain death. `@`...And this exchange between them must have been just her way of somehow extending her playtime.`\
@@ -3881,7 +3881,7 @@ me1v 5,50
 `　The smell of fried food reached my nose. `@`That was probably that smell that hung in the air earlier. `@`...Even though it felt like that smell had 'returned.'`@`
 br
 ;　……何と形容すればいいのか、…生活的な空気感が戻ったのを感じた。@ならさっきまでの路地裏はこことは違う世界だったのか。@……今となっては、わからない。\
-`　...How can I best describe it ...I felt as if the air the living had returned. `@`If so, was that back alley a different world than this one? `@`...Now that I think of it, I can't tell.`\
+`　...How can I best describe it ...I felt as if the air of the living had returned. `@`If so, was that back alley a different world than this one? `@`...Now that I think of it, I can't tell.`\
 
 bg black,23
 bg roji_01,0
@@ -3983,7 +3983,7 @@ bg black,22
 `　...What I saw, `@`was what seemed like the 'Headmaster' attacked her with everything he had and begrudgingly had to retreat.`@`
 br
 ;　そんな恐ろしい存在が目の前にいるのだ。@……さっきのような非礼があったなら、今度は容赦なく殺されてしまうに違いない……。\
-`　That terrifying creature was right in front of my eyes. `@`...If I had the impoliteness he had before, this time I would certainly be killed......`\
+`　That terrifying creature was right in front of my eyes. `@`...If I had the impoliteness I had before, this time I would certainly be killed......`\
 
 bg roji_02,22
 ld l,HIG_Def5,22
@@ -4352,7 +4352,7 @@ bg kyou_02,22
 `　In other words, that game of musical chairs we played so much in nursery school, `@`at the end of the day, we didn't learn the valuable life lesson it was teaching us.`@`
 br
 ;　だから僕たちは、いじめられる側にならないよう、いじめる側に回る機会を常にうかがっている。\
-`　Because if we're on the bullied side, and we'll always be looking for our chance to switch to the bullying side.`\
+`　Because if we're on the bullied side, we'll always be looking for our chance to switch to the bullying side.`\
 
 ;　それは多分、彼岸花たち妖怪の世界と、何も変わらない。@
 `　It seemed nothing was different for Higanbana and the others in the youkai world.`@`
@@ -4606,7 +4606,7 @@ ld r,HIG_Def4,80
 ld l,NON_Def4a,80
 
 ;「………なぜか、僕が責められているように感じます。@僕だって、忘れてもいいことと、忘れてはならないことの区別はついているつもりです。@……確かにあの事件はとても悔しくて、なかなか忘れられるものではなかったけれど、@……でも、いつまでもそれを恨んで覚えていたって仕方がない。@……早く忘れて気分を切り替えて、前向きに人生を過ごすのも、@きっと大事なことじゃないかと思います。」\
-`"......For some reason, I feel as if you're condemning me. `@`I'm intentionally making a distinction between what's all right to forget and what must not be forgotten. `@`...Surely that incident gave me sorrow, and I haven't really forgotten it, `@`...but, thinking I'd always remember it with resentment, I had no choice. `@`...Quickly forgetting it, changing my outlook, creating a positive lifestyle~ `@`I thought that was the much better route to take."`\
+`"......For some reason, I feel as if you're condemning me. `@`I'm intentionally making a distinction between what's all right to forget and what must not be forgotten. `@`...Surely that incident gave me sorrow, and I haven't really forgotten it, `@`...but, thinking I'd always remember it with resentment, I had no choice. `@`...Quickly forgetting it, changing my outlook, creating a positive lifestyle `@`I thought that was the much better route to take."`\
 
 
 
@@ -4636,7 +4636,7 @@ bgm1 6
 
 br
 ;　彼岸花は、肩を竦めて笑った。@……明らかに小馬鹿にしている仕草だったが、何を小馬鹿にしたのか、わからなかった。\
-`　Higanbana shrugged with smile. `@`...She clearly looked like she was making a mockery, but as for what she was mocking, I didn't understand.`\
+`　Higanbana shrugged with a smile. `@`...She clearly looked like she was making a mockery, but as for what she was mocking, I didn't understand.`\
 
 bg black,22
 ;ld l,HIG_Def1,80
@@ -4707,7 +4707,7 @@ lsp2 3,$ld_pass2,130,380,200,200,0
 print 80
 
 ;「………ねぇ、このページとこのページの間に、何があったの…？@　忘　レ　チ　ャ　ッ　タ　ノ　…？」\
-`"...Hey~, what was in these pages, I wonder...? `@` D i d  y o u  f o r g e t  ...?"`\
+`"...Heeey, what was in these pages, I wonder...? `@` D i d  y o u  f o r g e t  ...?"`\
 
 csp2 -1
 ;bg black,28
@@ -4891,7 +4891,7 @@ ld c,HIG_w5,26
 ;ld c,HIG_Def1,80
 
 ;「……憎くて悔しくて恨めしくて。@あなたは何をしたんだったか、思い出した…？@　自分の無実を晴らせないなら、@どうやってその怨嗟を晴らすというのかしら…？@　そうよ、あなたは濡れ衣を着せた彼女に仕返しがしたかった。@ねぇ、理科準備室で、あなたの目の前で、@人体解剖模型を倒した彼女をあなたは、覚　エ　テ　ル　？」\
-`"...Hate, pain, and bitterness. `@`Do you remember now? What you did...? `@`If you won't dispel your denial, `@`how do you intend to rid yourself of that resentment, I wonder...? `@`That's right, you wanted revenge against that girl who framed you. `@`Hey~, in that science prep room, in front of your very eyes, `@`do you  r e m e m b e r  that girl who knocked down that human dummy?"`\
+`"...Hate, pain, and bitterness. `@`Do you remember now? What you did...? `@`If you won't dispel your denial, `@`how do you intend to rid yourself of that resentment, I wonder...? `@`That's right, you wanted revenge against that girl who framed you. `@`Heeey, in that science prep room, in front of your very eyes, `@`do you  r e m e m b e r  that girl who knocked down that human dummy?"`\
 
 ;　……とてもとても悔しかったことは覚えてる。@
 `　...I remember being very very bitter.`@`
@@ -4927,7 +4927,7 @@ br
 `　And yet, and yet, how dare she shamelessly say I was the one who did it!!`\
 
 ;　そしてあんなにも悔しくて悔しくて！@　枕を涙で濡らし、布団を何度も何度も噛んだはずなのに、………でも、思い出せないッ！\
-`　And yet it was so frustrating, so frustrating! `@`Over and over again I sunk my teeth into my blanket. I soaked my pillow in tears, `@`...and yet, I can't remember!~`\
+`　And yet it was so frustrating, so frustrating! `@`Over and over again I sunk my teeth into my blanket. I soaked my pillow in tears, `@`...and yet, I can't remembeeeer!`\
 
 ;bg black,22
 mono 0
@@ -4939,7 +4939,7 @@ bg Different_spiral_1a,22
 ;bg Different_spiral_1b,22
 
 ;　……え？@　………名前、………………思い出せない……………。@忘れたのか、覚えてないのか、森谷毬枝を忘れていたように、記憶から消されてしまったのか、わからない……ッ！！\
-`　...Eh? `@`...Her name was.........I can't remember... `@`Did I forget it? Can I just not remember it? Or maybe just like the way Marie Moriya was forgotten she was erased from my memory? I just don't know~!!`\
+`　...Eh? `@`...Her name was.........I can't remember... `@`Did I forget it? Can I just not remember it? Or maybe just like the way Marie Moriya was forgotten she was erased from my memory? I just don't knoooow!!`\
 
 ;　足元に散らばった、記憶にナイ写真たちが、僕を取り囲み、嘲笑う。@
 `　Littered around my feet the UNKNOWN photos surrounded me. Mocking me.`@`
@@ -4971,7 +4971,7 @@ ld c,NON_s1,22
 `　That was it... That name. `@`THAT was her name...!!`@`
 br
 ;　聞いただけで、あの日の怒りが蘇りそうになる…！@　あぁあぁ、こんなにも恨めしいと心に刻み込んだ名前なのに、@……どうしてどうして、今の今まで僕は思い出せなかったというのかッ！！\
-`　Just hearing that name brought back the rage. The rage from that day! `@`AAAaaAAH, even though that name etched so much hate in my heart, `@`...how, how could I have forgotten it UNTIL NOW~?!!`\
+`　Just hearing that name brought back the rage. The rage from that day! `@`AAAaaAAH, even though that name etched so much hate in my heart, `@`...how, how could I have forgotten it UNTIL NOooW?!!`\
 
 ;quake 3,300
 ld c,NON_s2,22
@@ -4986,7 +4986,7 @@ me5v 20,90
 cl c,22
 
 ;　なら、彼女はあいつの犠牲になったということなのか…？@　…いや、違う、違う違う違うッ！！@　僕の胸を抉るこの痛みは、明確な罪の意識…！@　あぁあぁ、思い出しちゃ駄目なんだ、思い出しちゃ駄目なんだ…！！\
-`　Well does that mean one of his victims? `@` ...No, that's not it, NO NO NO~~!! `@`This pain hollowing my heart, my guilty conscience...! `@`AAAAAAA I MUSTN'T REMEMBER, I MUST NOT REMEMBER!!`\
+`　Well does that mean she's one of his victims? `@` ...No, that's not it, NO NO NOooo!! `@`This pain hollowing my heart, my guilty conscience...! `@`AAAAAAA I MUSTN'T REMEMBER, I MUST NOT REMEMBER!!`\
 
 bg white,2
 fedexx 0,100,100,100,100,100,2000
@@ -5160,7 +5160,7 @@ br
 ld c,HIG_w6,80
 
 ;　彼女は結局、誰にも相談できず、ひとりで全てを抱え込み、自らの死を願ったの。\
-`　In the end, with no one to turn to, she took everything you had alone and wanted to end her life.`\
+`　In the end, with no one to turn to, she took everything you had done and wanted to end her life.`\
 
 bg black,22
 
@@ -5197,7 +5197,7 @@ bg BITE,1
 bg black,2
 
 ;　妖怪が人間を喰らうなんて、信じられないでしょう？\
-`　youkai eating people and the like. Unbelievable isn't it?`\
+`　Youkai eating people and the like. Unbelievable isn't it?`\
 
 ;　それもそのはず。@だって、突然、人が行方不明になったりしたら、大騒ぎになるものね。@
 `　It should be. `@`After all, when people suddenly go missing like that it would be a big deal.`@`
@@ -5230,7 +5230,7 @@ ld c,KOU_U1,22
 ;　……あいつはちっぽけな老いぼれのくせに、@この力を持っているお陰で、学校妖怪序列第１位に堂々と収まってるの。@
 `　...Since he's a bit of a senile old fool, `@`because of this power he's remained established as the first rank among the school youkai order.`@`
 ;　この力さえなかったら、とっくに私が八つ裂きにしてその座を奪っているというのにね。\
-`　If he didn't have that power, I would have torn him from limb from limb and taken his seat myself.`\
+`　If he didn't have that power, I would have torn him from limb to limb and taken his seat myself.`\
 
 
 bg black,22
@@ -5429,7 +5429,7 @@ ld l,HIG_w4,22
 ;ld l,HIG_Def1,80
 
 ;「ねぇ、陽子。@あなたは死の際に願ったんですって？@　自分の命と引き換えに、自分を付け回した張本人に復讐がしたいって。@……あなたを死に誘った妖怪は無慈悲だったけれども、@この踊る彼岸花はとても慈悲深いの。@あなたをわざわざ蘇らせ、その機会を与えたこの慈愛に、感謝をなさい？@　うっふふふふふふふふふふふふふ！」\
-`"Hey~, Yoko. `@`You said you wanted to cross into death? `@`In exchange for your life, you said you wanted to have revenge on the ringleader. `@`...Despite the ruthlessness of that youkai who invited you to die, `@`this dancing Higanbana is deeply compassionate. `@`I've expressly brought you back and given you your chance, so how about some gratitude for this kindness? `@`Huhuhuhuhuhuhuhuhuhuhuhu!"`\
+`"Heeey, Yoko. `@`You said you wanted to cross into death? `@`In exchange for your life, you said you wanted to have revenge on the ringleader. `@`...Despite the ruthlessness of that youkai who invited you to die, `@`this dancing Higanbana is deeply compassionate. `@`I've expressly brought you back and given you your chance, so how about some gratitude for this kindness? `@`Huhuhuhuhuhuhuhuhuhuhuhu!"`\
 
 cl r,0
 cl l,2
@@ -5470,7 +5470,7 @@ br
 ld r,HIG_w6,22
 
 ;「くすくすくすくす、うふふふふふふふふふふふふふふ…！！@　どうしたのかしら、野々宮くん。@あなただって一方的に非があるわけじゃないでしょう？@　陽子があなたに濡れ衣を被せるような卑怯を働かなければ、@そもそもあなたはあんなことをしなかった。」\
-`"*giggle giggle* Huhuhuhuhuhuhhuhuhuhu~!! `@`I wonder what's the matter, Takeshi Nonomiya-kun. `@`It's not entirely your fault is it? `@`If Yoko hadn't cowardly worked to frame you, `@`none of this would have happened in the first place."`\
+`"*giggle giggle* Huhuhuhuhuhuhhuhuhuhuuu!! `@`I wonder what's the matter, Takeshi Nonomiya-kun. `@`It's not entirely your fault is it? `@`If Yoko hadn't cowardly worked to frame you, `@`none of this would have happened in the first place."`\
 
 ld r,HIG_w5,80
 
@@ -5492,7 +5492,7 @@ cl r,0
 ld l,HIG_w3,24
 
 ;「……ねぇ、陽子。@自らの命を自ら手放した者が、@魂をしゃぶり尽くされてどんな地獄を彷徨うことになるのか、彼に教えてあげたら…？@　戻りたくはないでしょう？@　ならば復讐を成し遂げなさい？」\
-`"...Hey~, Yoko. `@`How about you tell him `@`what kind of hell souls can crawl around in after they've been sucked dry...? `@`You don't want to go back do you? `@`Then how about fulfilling that revenge?`\
+`"...Heeey, Yoko. `@`How about you tell him `@`what kind of hell souls can crawl around in after they've been sucked dry...? `@`You don't want to go back do you? `@`Then how about fulfilling that revenge?"`\
 
 ld l,HIG_def3,80
 
@@ -5542,7 +5542,7 @@ ld r,HIG_w6,22
 ld r,HIG_w5,80
 
 ;「それが嫌なら陽子。@あなたがそうされるより先に野々宮くんの首を捻じ切ってやりなさい。@今のあなたには、その程度の力は与えられているのだから。」\
-`"If you don't want that Yoko. `@`Then before that happens, snap Nonomiya-kun's neck. `@`Because, as you are now, I've granted you the power to do as much."`\
+`"If you don't want that, Yoko. `@`Then before that happens, snap Nonomiya-kun's neck. `@`Because, as you are now, I've granted you the power to do as much."`\
 
 ;　彼岸花は、僕たちをそう焚き付けると、優雅そうに、……いや、今こそわかる。@これ以上ないくらい邪悪に、くすくすと笑い転げる。@
 `　Higanbana stirred us up like so, and in her elegance ... no. This time I knew. `@`She was bursting with giggles of laughter from which there was no greater evil.`@
@@ -5681,7 +5681,7 @@ ld l,YOU_Def1,22
 ld r,NON_s3,80
 
 ;「そ、………それは、…先にそっちがやったからだよッ！！@　あの日、理科準備室で人体模型を倒したのは君だったじゃないか！@　君だってわかってたはずだ。@それなのに、君は嘘を吐いた！！」\
-`"B- ...Because y- ...you did it to me first~!! `@`That day, in the science prep room you knocked over that anatomy dummy didn't you! `@`You should know. `@`Even then, you lied!!"`\
+`"B- ...Because y- ...you did it to me fiiirst!! `@`That day, in the science prep room you knocked over that anatomy dummy didn't you! `@`You should know. `@`Even then, you lied!!"`\
 
 
 textoff
@@ -5702,7 +5702,7 @@ ld l,YOU_Def1,80
 bgm1 17
 
 ;「……うん。@……嘘を、……吐いた。@……でも、……ここまで酷い仕返しをされるほど、@…………そこまで私は、……酷いことを、……したのかな………。」\
-`"...Yes. `@`...I ......lied. `@`...But ...taking your revenge so far, `@`......Did I really ...do such ...a bad thing...?"`\
+`"...Yes. `@`...I ......lied. `@`...But ...taking your revenge so far, `@`......did I really ...do such ...a bad thing...?"`\
 
 ld r,NON_N1a,22
 
@@ -5767,7 +5767,7 @@ ld l,YOU_Def3,22
 ld r,HIG_w6,80
 
 ;「うふふふふふふふふふふふふ。@なら、やっぱり陽子が自業自得なのかしら。@なら、永久に凍えて過ごさなければならないあの地獄は、@やっぱりあなたにはお似合いの地獄だってことになるわよ？@　あなたは、あの地獄へ再び戻りたいのかしら…？」\
-`"Uhuhuhuhuhuhuhuhuhu~. `@`Then, in the end, do you think you're paying for your own mistakes? `@`Then, in the end, do you think that being trapped for eternity in that freezing hell suits you? `@`Do you want to go back to that hell once again, I wonder?..."`\
+`"Uhuhuhuhuhuhuhuhuhu. `@`Then, in the end, do you think you're paying for your own mistakes? `@`Then, in the end, do you think that being trapped for eternity in that freezing hell suits you? `@`Do you want to go back to that hell once again, I wonder?..."`\
 
 ld l,YOU_Def1,22
 
@@ -5814,7 +5814,7 @@ ld r,YOU_Def3,80
 `　We were close enough so we could each embrace one another `@`...or we could each strangle one another.`\ 
 
 ;　彼岸花は、僕たちに相手の首を絞めろと囃し立てる。@……しかし僕らはそれをしなかった。@そしてそれが、彼女にとってもっともつまらないことだったのだろう。@彼岸花は僕たちを馬鹿にし、嘲笑する。\
-`　Higanbana was egging us on to strangle each other. `@`...But we did not. `@`It must have terribly bored her so. `@`Higanbana made fools of us and ridiculed us.`\
+`　Higanbana was egging us on to strangle each other. `@`...But we did not. `@`It must have terribly bored her, `@`so Higanbana made fools of us and ridiculed us.`\
 
 ;　そして、このまま互いが何もしないのなら、@沼田さんがこの世に留まることができる時間が切れて、@そのまま元の地獄へ堕ちることになるとさらに焚き付ける。@
 `　So if we each do nothing like this, `@`Numata-san's time on this earth will run out, `@`and then she'll plummet back to burn in hell.`@`
@@ -5847,7 +5847,7 @@ ld l,NON_s3,1
 quakey 2,200
 
 ;「…ぬ、…………沼田さん…！@　ごめんッ！！」@
-`"...Nu- ......Numata-san! `@`I'm sorry~!!"`@
+`"...Nu- ......Numata-san! `@`I'm sorry!!"`@
 
 ld r,YOU_Def3,22
 
@@ -5862,7 +5862,7 @@ ld l,NON_N1a,80
 ld l,NON_s3,80
 
 ;「……それを思い出すことができて、僕はこの機会に感謝してる！@　だからもう一度言うよ！@　沼田さん、…本当に、……ごめんッ！！」\
-`"...Being able to remember, I wanted to thank you for this opportunity. `@`So I'll say it again! `@`Numata-san, I am... truly ...sorry~!!"\
+`"...Being able to remember, I wanted to thank you for this opportunity. `@`So I'll say it again! `@`Numata-san, I am... truly ...sorry!!"\
 
 ld r,YOU_Def1,80
 
@@ -5891,7 +5891,7 @@ mcbg 22
 ld l,NON_s3,80
 
 ;「それでも、自殺に追い込んだのは僕の責任だ！！@　僕が、悪いんだ…！！」@
-`"Even so, I'm responsible for driving you to suicide!! `@`IT'S MY FAULT~~!!"`@
+`"Even so, I'm responsible for driving you to suicide!! `@`IT'S MY FAAAAULT!!"`@
 br
 ;　……そんな僕たちのそれを、茶番だと吐き捨てるかのように、彼岸花が舌打ちをした。\
 `　...As if she were about to vomit thinking we were putting on a farce, Higanbana clicked her tongue.`\
@@ -5900,14 +5900,14 @@ mld c,HIG_w5,22
 ;mld c,HIG_Def1,80
 
 ;「………………………あなたたち、さっきから何を言っているの？@　野々宮くんも陽子も。@……何で互いを罵り合わないの？@　いじめたりいじめられたり。@やらなきゃやられる、いじめなきゃいじめられるのが学校の掟なんでしょう？@　それを何で二人して謝り合っているの？@　何だか滑稽だけれど、……つまらないわっ。」\
-`"......You guys, what did I say earlier? `@`Nonomiya-kun, Yoko. `@`...Why won't you curse each other? `@`Bully and be bullied. `@`Either do or don't, bully or be bullied, those are the laws of school aren't they? `@`So why are you apologizing to each other? `@`Sure it's kinda funny ......but it's boring~."\
+`"......You guys, what did I say earlier? `@`Nonomiya-kun, Yoko. `@`...Why won't you curse each other? `@`Bully and be bullied. `@`Either do or don't, bully or be bullied, those are the laws of school aren't they? `@`So why are you apologizing to each other? `@`Sure it's kinda funny ......but it's booooring."\
 
 ld r,YOU_Def1,80
 
 me1v 16,50
 
 ;「…………彼岸花…さ………………。@……私、………これで、いいです。@…このまま、………地獄へ、……帰ります。」@
-`"......Higanbana..-sa....... `@`...I ......am satis-...fied. `@`...I will ......return to hell... like this."`@
+`"......Higanbana...-sa....... `@`...I ......am satis-...fied. `@`...I will ......return to hell... like this."`@
 
 ld l,NON_N1a,80
 
@@ -6008,7 +6008,7 @@ ld r,YOU_Def3,22
 ld c,NON_s1,24
 
 ;「僕も、沼田さんに謝ることができた…！」\
-`"And I was also able to apologize to Numata-san~!"`\
+`"And I was also able to apologize to Numata-saaan!"`\
 
 cl l,0
 
@@ -6055,7 +6055,7 @@ ld l,YOU_Def4,80
 ld r,NON_s3,80
 
 ;「ぅ、…………うん…！！！」\
-`"A- .......All right~!!"`\
+`"A- .......All right!!"`\
 
 ;　彼女の、雪のように真っ白で、そして冷え切った手を、ぎゅうっと握り締める…。@
 `　I firmly grasped her snow white and ice cold hand...`@
@@ -6139,7 +6139,7 @@ ld r,HIG_w5a,22
 ld r,HIG_w6,80
 
 ;「つまらないつまらない。@つまらないつまらないつまらないつまらないつまらない！！@　なぁにこれは、どういうことなのかしら、あぁ退屈退屈！@　生き残れておめでとう、野々宮くん。@無事に復讐を全て成し遂げた気分はどうかしら？」\
-`"How dull! How lame! `@`LAME! LAME! LAME! LAME! LAAAME~!! `@`Whyyy did it have to turn out like this? Oh how uninteresting! How dull! `@`Congratulations on staying alive, Nonomiya-kun. `@`How does it feel to complete your revenge uninjured I wonder?"`\
+`"How dull! How lame! `@`LAME! LAME! LAME! LAME! LAAaaAME!! `@`Whyyy did it have to turn out like this? Oh how uninteresting! How dull! `@`Congratulations on staying alive, Nonomiya-kun. `@`How does it feel to complete your revenge uninjured I wonder?"`\
 
 ld l,NON_Def7a,23
 
@@ -6181,7 +6181,7 @@ br
 `　I could hear the room creak and bend with her rage. `@`...Well, it's over... `@`...I'm probably ...going to be killed in this place...`\
 
 ;　でも、………構うものか。@
-`　But ...I don't care`@
+`　But ...I don't care.`@
 br
 ;　沼田さんがひとり凍える地獄に、僕も行って寄り添おう。@……彼女にたったひとりで、地獄を背負わせたりなんかするものか…！\
 `　I'll rest alongside Numata-san in that freezing hell. `@`...I won't leave her to face that hell all by herself!`\
@@ -6196,14 +6196,14 @@ ld r,HIG_w6,22
 ld r,HIG_w5,80
 
 ;「何てやりにくいニンゲンなのかしら…。@軽々しく地獄を語る愚か者ッ！！@　あの寒くて孤独な世界の恐ろしさも知らないくせにね…！！@　誰もね、迎えに来てくれないのよ？@　いつも知らない人が勝手に遊びに来て、勝手に下校していって、@二度と遊びに来てくれない！@　私はいっつも寒くて孤独な保健室にひとりぼっち！！」\
-`"You might be quite a tricky human... `@`What a fool to speak so lightly of HELL~!! `@`You don't even know the fear of that world of solitude!! `@`No one will come to greet you there, you see? `@`People you don't know will come to play when they want and leave when they want, `@`but they'll never come to play with you again! `@`I was all alone in that cold lonely infirmary!!"`\
+`"You might be quite a tricky human... `@`What a fool to speak so lightly of HELL!! `@`You don't even know the fear of that world of solitude!! `@`No one will come to greet you there, you see? `@`People you don't know will come to play when they want and leave when they want, `@`but they'll never come to play with you again! `@`I was all alone in that cold lonely infirmary!!"`\
 
 me2v 28,70
 
 bg Aka3,22
 
 ;「くすくす、うふふふふふふふふふふふふふふふふふ！！@　そんな地獄をまったく恐れないなんて、野々宮くんはなんて面白い人なのかしら。@あなたは期待していた人とは全然違ったけれど、別の興味が湧いてきたわ、@やっぱり面白い人だったわッ！！@　陽子じゃ役不足ね、あなたを私のお人形にしてあげるわ、@私がいつ遊んでくれるのかと、永遠にそれだけを待ち望みながら、@永久の闇の中で待ち惚けをさせてあげる…！！」\
-`"Teeheehee, UhuhuhuhuHUHUHUHUHU!! `@`Saying that kind of hell isn't scary at all, you're quite an entertaining individual, Nonomiya-kun. `@`It's totally different than the person you're expecting, but I've got a different idea. `@`Like I said, you're truly amusing~!! `@`Yoko was unappealing yeah? I'll make you my doll, `@`and if you want to spend eternity for whenever I feel like playing with you, `@`then I can send you into eternal darkness where you can wait in vain!!"`\
+`"Teeheehee, UhuhuhuhuHUHUHUHUHU!! `@`Saying that kind of hell isn't scary at all, you're quite an entertaining individual, Nonomiya-kun. `@`It's totally different than the person you're expecting, but I've got a different idea. `@`Like I said, you're truly amuuuusing!! `@`Yoko was unappealing yeah? I'll make you my doll, `@`and if you want to spend eternity for whenever I feel like playing with you, `@`then I can send you into eternal darkness where you can wait in vain!!"`\
 
 se1v 1006,100
 
@@ -6271,7 +6271,7 @@ ld l,HIG_Def5,80
 ld l,HIG_w6,80
 
 ;「くすくすくすくす、あっははははははははははははははは！@　おっかしい。@私は陽子に復讐の機会をあげただけよ？@　かつてあなたにもその機会をあげたように！」\
-`"Teeheeheehee, AhahhahahahahahAHAHAHAHAHAHAHA! `@`Hi-larious. `@I just gave Yoko her chance for revenge, no? `@`Just like I once gave you your chance!"`\
+`"Teeheeheehee, AhahhahahahahahAHAHAHAHAHAHAHA! `@`Hi-larious. `@`I just gave Yoko her chance for revenge, no? `@`Just like I once gave you your chance!"`\
 
 ld r,MAR_i3,80
 
@@ -6340,7 +6340,7 @@ mld l,HIG_w4,24
 ld r,MAR_i3a,80
 
 ;「人の不幸を嘲笑い弄ぶあなたのような人の暴挙を、食い止めることですッ！！」\
-`"You, with your sneering and toying with the misfortune of others. I can stop you with your own kind of violence~!!"`\
+`"You, with your sneering and toying with the misfortune of others. I can stop you with your own kind of violence!!"`\
 
 mld l,HIG_w6,80
 
@@ -6350,7 +6350,7 @@ mld l,HIG_w6,80
 `"AH HAH HA HA HA HA HA HA!! `@`Well then, come dance with me Marie! `@`I've been bored because you haven't played with me lately. `@`I mean, if you would come play with me more often, `@`then maybe I would finally stop these boring hunts. `@`This is YOUR fault! `@/
 ;se2 84
 ;くすくす、うふふふふふふふふふふふふふふふふふ…！！」\
-`TEEHEEHEE, UHUHUHUHUHUHUHUHUHU~~!!"\
+`TEEHEEHEE, UHUHUHUHUHUHUHUHUHUuu!!"\
 
 se1 1006
 se2 57
@@ -6426,7 +6426,7 @@ bg ie_02u,0
 ld r,NON_s1,23
 
 ;「も、…森谷さん…！！@　血が、……血が……ッ！！」@
-`"M- ...Moriya-san!! `@`You ...you're bleeding~!!"`@
+`"M- ...Moriya-san!! `@`You ...you're bleediiing!!"`@
 
 ld l,MAR_i1a,23
 ;ld l,MAR_Def1,80
@@ -6483,7 +6483,7 @@ ld c,MAR_i2a,23
 ld c,MAR_i3a,80
 
 ;「今です、廊下へッ！！！」@
-`"Now! To the hallway~!!!"`@
+`"Now! To the hallwaaaay!!!"`@
 br
 
 se1 20
@@ -6581,7 +6581,7 @@ lsp2 5,$ld_pass2,480,370,200,200,0
 print 80
 
 ;「……お茶ぁ？@　大福ぅ？@　……くすくすくすくす、うふふふふふふふふふふふふふ！！@　あぁ、それは素敵な夜のお茶会ね。@でも、乾杯には彼の赤い血の杯が似合うんじゃないかしら？！@　彼は足を挫いたようね、@年貢の納め時よ、毬枝ッ、野々宮くんん！！！」\
-`"...Teeeeea? `@`Riiice caaake? `@`...Heeheehee Pfwahahahahahahaha!! `@`Oh that would be a splendid evening tea party. `@`But don't you think we should toast with his red blood in our cups?! `@`Looks like he broke a leg. `@`It's time to pay the piper, MARIE~ NONOMIYA-KUNN~!!!"`\
+`"...Teeeeea? `@`Riiice caaake? `@`...Heeheehee Pfwahahahahahahaha!! `@`Oh that would be a splendid evening tea party. `@`But don't you think we should toast with his red blood in our cups?! `@`Looks like he broke a leg. `@`It's time to pay the piper, MARIEEEE, NONOMIYA-KUNN!!!"`\
 
 csp2 -1
 
@@ -6593,7 +6593,7 @@ ld c,MAR_i4a,23
 ld c,MAR_i1a,80
 
 ;「まったく、彼岸花さんはいつも聞き分けがなくて困ります！！@　閉じろよ扉ッ！！」\
-`"Geez, why won't you ever listen to me Higanbana-san!! `@`Door! SHUT YOURSELF~!!"`\
+`"Geez, why won't you ever listen to me Higanbana-san!! `@`Door! SHUT YOURSEEELF!!"`\
 
 bg white,64
 bg black,64
@@ -6626,14 +6626,14 @@ mcbg 22
 ld c,HIG_w6,80
 
 ;「妖怪のくせに、ニンゲンの肩を持つとはね？！@　魂も食わずに、空腹で干乾びてるくせにッ！！@　こんな薄っぺらい扉、粉々に砕いてあげるわッ！！」\
-`"Even though you're a youkai you're siding with a HUMAN? `@`Even though if you don't feed on souls you'll dry and shrivel uuup~!! `@`I'll smash this flimsy door to bits for you~!!"`\
+`"Even though you're a youkai you're siding with a HUMAN? `@`Even though if you don't feed on souls you'll dry and shrivel uuup!! `@`I'll smash this flimsy door to bits for youuu!!"`\
 
 bg black,22
 ld c,MAR_i1,22
 ;ld c,MAR_Def1,80
 
 ;「いいえ、あなたにこの扉は開けません。@聞けよ扉ッ！@　“めそめそ、めそめそ、そこのあなた、哀れな私の話を聞いて下さいな。”！！」\
-`"No, you cannot open this door. `@`Door! Listen to me~! `@`'Mesomeso, mesomeso, you there. Won't you listen to my pitiful story'!!"`\
+`"No, you cannot open this door. `@`Door! Listen to meee! `@`'Mesomeso, mesomeso, you there. Won't you listen to my pitiful story!!'"`\
 
 bg black,22
 
@@ -6666,7 +6666,7 @@ br
 `　It's said that each night in the former school building's bathroom stall, a youkai called Mesomeso-san appears. `@`That's how that youkai invites people inside the stall.`\
 
 ;　その怪談のルールによれば、@その問い掛けに答えてはならないし、扉　ヲ　開　ケ　テ　モ　ナ　ラ　ナ　イ　！！@　開ければ恐ろしいめそめそさんに、全身の骨を粉々に砕いて殺される…！！\
-`　According to the rules in that story, `@`you must not respond to that question, and you MUST NOT OPEN THE DOOR!! `@`If you open it, the terrifying Mesomeso-san will kill you by crushing every bone in your body!!"`\
+`　According to the rules in that story, `@`you must not respond to that question, and you MUST NOT OPEN THE DOOR!! `@`If you open it, the terrifying Mesomeso-san will kill you by crushing every bone in your body!!`\
 
 bg black,22
 bg ie_05,0
@@ -6713,7 +6713,7 @@ wait 1000
 ld c,HIG_w6a,22
 
 ;「くすくすくすくす…………！@　毬枝ぇぇ……。」\
-`"Hehehehehehe.......! `@`Marieee~..."`\
+`"Hehehehehehe.......! `@`Marieee..."`\
 
 ;bg black,22
 
@@ -6820,7 +6820,7 @@ lsp2 5,$ld_pass2,480,370,200,200,0
 print 80
 
 ;「えぇ、いいわよ、そうしましょう。@やっぱり私の友達はあなただけなのね。@あっははははははははははははははははははは…！！」\
-`"Sure, fine with me, let's do it. `@`I knew you were my only friend! `@`AhahaAHAHAHAHAHHAHAHAHAHA~!!"`\
+`"Sure, fine with me, let's do it. `@`I knew you were my only friend! `@`AhahaAHAHAHAHAHHAHAHAHAHAaa!!"`\
 
 csp -1
 csp2 -1
@@ -6869,7 +6869,7 @@ bg ie_03,23
 `　Even though everything had been destroyed by that raging tornado, there was no trace of it at all. `@`...As if Higanbana and the like had never been there from the beginning.`@
 br
 ;　でも、彼女のために出した座布団とマグカップは、@確かにそこに残っていた…。\
-`　Although the mug and cushion I had put out for Higanbana, `@`those were still there...`\
+`　As for the mug and cushion I had put out for Higanbana, `@`those were still there...`\
 
 ld l,MAR_w1,22
 ;ld l,MAR_Def1,80
@@ -7084,7 +7084,7 @@ bg black,22
 `　But I wasn't the only one caught on the photograph.`@
 br
 ;　そこには、…沼田陽子さんの、姿が。\
-`　Yoko Numata-san's figure... was also there`\
+`　Yoko Numata-san's figure... was also there.`\
 
 ;　でもそれは醜かったり惨たらしかったりしたあの姿ではなく、@……元気に理科準備室を駆け抜けていた頃に、@当り前のように浮かべていた笑顔で、服装で。\
 `　But she didn't appear hideous or gory. `@`...With her usual smile on her face, her normal clothes, `@`she looked just like she did when she was running around the science prep room.`\
@@ -7217,7 +7217,7 @@ bg hoken_01,2
 ld r,HIG_w3,22
 
 ;「でもまぁ、しばらくは狩りもお休みしてあげてもいいかもだわ。@……この大福に免じてね。@明日はお煎餅がいいわ。@絶対に調達してきてちょうだい。@待ってるわよ。くすくすくすくす…！」
-`"Then again, maybe I'll give myself a little break from hunting. `@`...Instead I'll have these rice cakes. `@`Tomorrow I'd like some rice crackers. `@`You simply must bring me some. `@`I'll wait for you. Teeheeheehee~!"`@
+`"Then again, maybe I'll give myself a little break from hunting. `@`...Instead I'll have these rice cakes. `@`Tomorrow I'd like some rice crackers. `@`You simply must bring me some. `@`I'll wait for you. Teeheeheeheeee!"`@
 
 
 ;＜おしまい＞
