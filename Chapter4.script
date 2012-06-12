@@ -55,7 +55,7 @@ bg kyou_01,22
 me1v 24,50
 
 ;「えー？！@　加奈がぁ？！@　ウソでしょー？！」@
-`"Wha-? `@`Kana did~? `@`You're kidding right~?!"`@
+`"Wha-? `@`Kana diiid? `@`You're kidding right?!"`@
 ;「椅子が降ってきたって。@……どこからともなく。」@
 `"I heard a chair fell on her.`@` ...Straight out of nowhere."`@
 ;「あと数ｃｍずれてたら、眼球が潰れてたかもだって……！」\
@@ -84,7 +84,7 @@ me1v 16,50
 ;「………ヤバいんじゃない……？」@
 `"...This is bad, isn't it...?"`@
 ;「気にし過ぎだってー。@馬鹿馬鹿しい……。」@
-`"You're worrying too much~. `@`Don't be stupid..."`@
+`"You're worrying too much. `@`Don't be stupid..."`@
 ;「……椅子なんて降って来る？@　フツー。」\
 `"...For a chair or something to come falling down? `@`It's not uncommon."`\
 
@@ -186,7 +186,7 @@ bg hokora_01,22
 `　And there is a tiny shrine of weathered wood...`\
 
 ;　風雨で埃まみれとなった祠は、手入れがされているとは言い難い。@
-`　It's difficult to tell if shrine that had been covered in grit from wind and rain was being maintained or not.`@
+`　It's difficult to tell if the shrine that had been covered in grit from wind and rain was being maintained or not.`@
 ;　しかし、歳月を感じさせる貫禄は、確かにあった。\
 `　However, its age certainly lends it a sense of serenity.`\
 
@@ -331,7 +331,7 @@ br
 `"...Kids in class have spread rumors about it. `@`...They say you, well, ...have something like a sixth sense... `@`...They say that a sixth sense means... you can see... them...`@` I-... I can't see them at all, but ―`@` that's n- normal, right...? `@`Ha ha, ha ha..."`@
 br
 ;　みちるはもう一度、小さく溜め息を漏らしてから、……言った。\
-`　After taking letting out another short sigh... Michiru spoke.`\
+`　After letting out another short sigh... Michiru spoke.`\
 
 ld c,MIC_Def1,80
 
@@ -699,7 +699,7 @@ ld c,MIC_Def2,80
 ;「……祟りに遭う方がいいというなら、引き返してもいいんだよ…。」@
 `"...If you think suffering a curse is better, then you should go back..."`@
 ;「や、やるよぉ、やるよぉ……！」\
-`"I'll do it~ I'll do it~!"`\
+`"I'll do it, I'll do it!"`\
 
 ;mbg white,1
 ;mcbg 22
@@ -863,7 +863,7 @@ bg black,22
 bg k_rouka_02,22
 
 ;「あぁ、どうか旧校舎の霊の皆さん…！@　私をしばらくの間、鎮守神さまの祟りからお守り下さいぃぃ！@　近々必ず、みんなで祠にお参りして謝りますからっ。@ボールをぶつけて壊して、そのまま逃げてすみませんでしたぁぁああぁ…！！」\
-`"Ooh, spirits of the former school building...! `@`For just a short time, please grant me protection from the guardian spiriiit!`@` Because I must do the ritual and apologize with my friends~.`@` I kicked the ball in the shrine and broke it, and then I ran away.`@` Please forgive meeEeeEee...!!"`\
+`"Ooh, spirits of the former school building...! `@`For just a short time, please grant me protection from the guardian spiriiit!`@` I kicked the ball in the shrine and broke it, and then I ran away.`@` I must do the ritual and apologize with my friends.`@` Please forgive meeEeeEee...!!"`\
 
 ld r,MAR_Def4,22
 
@@ -942,7 +942,7 @@ br
 `　The school is vast and gigantic. `@`There was nothing unusual about going to a place she didn't know about...`\
 
 ;　すると、……トントン、カンカンと、釘を打つ音が聞こえた。\
-`　Then ...with and clang clang and tap tap, she heard the sound of someone hitting metal.`\
+`　Then came a *clang clang* and *tap tap*... `@`She heard the sound of someone hitting metal.`\
 
 bg black,24
 bg hokora_01,24
@@ -989,7 +989,7 @@ ld r,MAR_Def4,80
 ld l,HOK_Def3,80
 
 ;「うん。@なんかねー、ムシが騒いでねー。」@
-`"Well.`@` You see~ the bugs make a lot of noise~"`@
+`"Well.`@` You seeee, the bugs make a lot of noise"`@
 
 ld r,MAR_def4a,80
 
@@ -1143,7 +1143,7 @@ mld c,SAK_n3,26
 bgm1 19
 
 ;「うりゅー！@　ぼくはそんなことしないよー！」\
-`"Uryuu!`@` I didn't do anything like that~!"`\
+`"Uryuu!`@` I didn't do anything like thaaat!"`\
 ;＜さくのしん
 
 ld r,MAR_def4a,22
@@ -1166,7 +1166,7 @@ br
 mld c,SAK_n2,80
 
 ;「うりゅー。@ぼくはしないよ、人を怪我させたりなんてしないんだよー！@　ひどいよひどいよー、うりゅー！」@
-`"Uryuu~.`@` I wouldn't do that, I wouldn't ever hurt anyone~!`@` That's so mean, so mean~, uryuu~!"`@`
+`"Uryuu.`@` I wouldn't do that, I wouldn't ever hurt anyone!`@` That's so mean, so mean, uryuu!"`@`
 ld r,MAR_Def3a,80
 
 ;「えっと、……え？@　……え？」@
@@ -1186,7 +1186,7 @@ ld l,HIG_w3,22
 mld c,SAK_Def4,80
 
 ;「うりゅー！/
-`"Uryuu~!`/
+`"Uryuu!`/
 se1 47
 quakey 2,200
 ;@　ぼくの名前は、さくのしん！」\
@@ -1208,7 +1208,7 @@ ld l,HIG_Def4,80
 mld c,SAK_Def2,80
 
 ;「うりゅー！@　ぼくは動物の王様なのー！@　らいおんなのー！」@
-`"Uryuu~!`@` I am the king of animals~!`@` I'm a lion~!"`@`
+`"Uryuu!`@` I am the king of animals~!`@` I'm a lion!"`@`
 
 ld r,MAR_Def3a,80
 
@@ -1218,7 +1218,7 @@ ld r,MAR_Def3a,80
 mld c,SAK_n2,80
 
 ;「うりゅー、ひどいよー、らいおんなのにー。@らいおんなのにーっ。」@
-`"Uryuu~, that's so mean~, even though I'm a lion~.`@` Even though I'm a lion~!"`@`
+`"Uryuu, that's so meeean, even though I'm a liooon.`@` Even though I'm a liooon!"`@`
 br
 ;　今度はわんわん泣き始める。@
 `　This time, he began crying loudly.`@`
@@ -1228,12 +1228,12 @@ br
 ld l,HIG_Def2,80
 
 ;「この子は、突然、ボールが飛んできて、大切な家を壊されちゃったんで、@驚いて怖がって、ずっと怯えてたのよ？@　怒るどころか、ついさっきまで保健室のベッドの下に隠れて震えてたんだから。」\
-`"He suddenly had a ball come flying, which broke his precious home.`@` It surprised him and frightened him, so he's been scared away for a while now."`@` He may have been upset, but until just a little while ago he had been hiding and trembling under the bed in the school infirmary."`\
+`"He suddenly had a ball come flying, which broke his precious home.`@` It surprised him and frightened him, so he's been scared away for a while now. `@` He may have been upset, but until just a little while ago he had been hiding and trembling under the bed in the school infirmary."`\
 
 mld c,SAK_n3,80
 
 ;「震えてないよー、うりゅーうりゅー、うわぁーーーん！！」\
-`"I wasn't shivering~, uryuu uryuu~, Waaaa~~~~h!!!"`\
+`"I wasn't shivering, uryuu uryuu, Waaaaaaaah!!!"`\
 
 ld l,HIG_Def5,80
 
@@ -1243,7 +1243,7 @@ ld l,HIG_Def5,80
 mld c,SAK_n2,80
 
 ;「だってー、だってぇ！@　ぽかぽかお昼寝してたらっ、急にボールが、どーん、ぐしゃーん、ばりーん、うりゅー！！@　うわぁあああんん！！」\
-`"But~ but~!`@` I was just going to have a warm nap, and suddenly a ball came bam, crash, screech, uryuu~!!`@` Uwaaaaaaahhhh!!"`\
+`"But but!`@` I was just going to have a warm nap, and suddenly a ball came bam, crash, screech, uryuu!!`@` Uwaaaaaaahhhh!!"`\
 
 ld l,HIG_w3,80
 
@@ -1258,7 +1258,7 @@ ld r,MAR_i4a,80
 mld c,SAK_n3,80
 
 ;「僕は知らないよー！@　うりゅーうりゅー、うわぁーーん！！」\
-`"I don't know anything about it~!`@` Uryuu~ Uryuu~ Uwaaaaaaaaaaaahhhh!!"`\
+`"I don't know anything about it!`@` Uryuu Uryuu Uwaaaaaaaaaaaahhhh!!"`\
 
 mcl c,0
 bg black,26
@@ -1270,7 +1270,7 @@ ld l,HOK_def2,26
 `"...Aaaand that should do it.`@`...There, all better!"`@`
 br
 ;　手をぱんぱんと叩きながら、保健の先生が立ち上がる。\
-`　The school nurse stood up while clapping her hands together.`\
+`　The school nurse stood up while dusting off her hands.`\
 
 bg white,29
 
@@ -1279,7 +1279,7 @@ se1v 1,50
 bg hokora_01,9
 
 ;　仮ではあるが、新しい扉が取り付けられ、@さくのしんの家は、しっかりと戸締りが出来るようになった。\
-`　Rather than just a provisional fix-up, a new door had been placed,`@` and Sakunoshin's house had was to close its doors again.`\
+`　Rather than just a provisional fix-up, a new door had been installed,`@` and Sakunoshin's house had new doors to close again.`\
 
 ld r,HIG_Def1,22
 ;ld r,HIG_Def1,80
@@ -1292,7 +1292,7 @@ ld l,SAK_Def4,80
 quakey 1,100
 
 ;「わああぁい！！@　先生ぇ、ありがとー！！@　うりゅーーー！！！」@
-`"Yaaaaay!!`@` Thank you, Sensei~!!`@` Uryuu~~~!!!"`@`
+`"Yaaaaay!!`@` Thank you, Sensei!!`@` Uryuu!!!"`@`
 br
 ;　泣いたカラスがもう笑った、とはよく言ったもの。@さくのしんは飛び跳ねて喜んでいる。@
 `　'The crying raven finally laughed' was quite the accurate saying.`@` Sakunoshin was jumping up in down in delight.`@`
@@ -1320,7 +1320,7 @@ E_B
 bg kyou_04,2
 
 ;「……ちょっとぉ！@　聞いてよ、博美ぃ！」\
-`"...Wait!`@` Listen, Hiromi~!`\
+`"...Wait!`@` Listen, Hiromiii!"`\
 
 ;「馬鹿馬鹿しいったらありゃしないね！@　祟りぃ？@　そんなのあるわけないでしょ？！@　加奈のはただの事故だって！」@
 `"If you're going to act stupid then I'm not going to!`@` Curses?`@` There's no way it's something like that!!`@` What happened to Kana was just an accident!"`@`
@@ -1404,7 +1404,7 @@ bgm1 8
 `"Also,`@` They said she's not hospitalized because of her injuries, but because she actually had appendicitis.`@` Once she'd received medical care at the hospital, suddenly her stomach started to hurt and stuff!"`\
 
 ;「盲腸ー？！@　椅子と関係ないの？！」@
-`"Appendicitis~?!`@` It doesn't have anything to do with the chair?!"`@`
+`"Appendicitis?!`@` It doesn't have anything to do with the chair?!"`@`
 ;「頭の怪我は全然、かすり傷だって。」@
 `"They said her head injury was just a graze."`@`
 ;「そーなんだぁ！@　良かったぁ！！」\
@@ -1416,7 +1416,7 @@ bgm1 8
 ;「……何か、ガツーンと来ないと駄目かもねー…。」@
 `"...If we don't do something fast, it might be too late..."`@`
 ;「やだよ、今度は消火器とかが降ってきて、今度こそ人が死んじゃったら絶対に嫌だよー！！」@
-`"No! This time a fire extinguisher or something could fall! I can't handle it if somebody dies this time~!!"`@`
+`"No! This time a fire extinguisher or something could fall! I can't handle it if somebody dies this tiiime!!"`@`
 br
 ;　少女たちは、見回りの教師に帰れと怒鳴られるまで、@そこでいつまでもおしゃべりをしているのだった……。\
 `　Until the teacher doing his rounds yelled at them to go home,`@` the girls talked there for ages...`\
@@ -1447,7 +1447,7 @@ bg shoukou_01,22
 
 br
 ;　……この昇降口には、自分ひとり。@
-`　...She was alone at the entrance`@`
+`　...She was alone at the entrance.`@`
 ;　校舎はシンと静まり返り、……ちょっぴり薄気味悪かった。\
 `　The school building fell deathly silent ...and was slightly eerie.`\
 
@@ -1769,7 +1769,7 @@ wait 2000
 ld c,MIC_def6,80
 
 ;「………はいっ。」\
-`"...Yes~."`\
+`"...Yes."`\
 
 bg e022,42
 
