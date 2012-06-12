@@ -233,7 +233,7 @@ br
 `　Because no other blushing girl in this class had ever received words of gratitude from Midori.`\
 
 ;　楠木みどり。@クラス中の女子の誰もが憧れる、姫と呼ばれる少女。@
-`　Midori Kusunoki . `@`The girl called 'Princess' who every girl in the class swooned over.`@
+`　Midori Kusunoki.`@` The girl called 'Princess' who every girl in the class swooned over.`@
 br
 ;　彼女は何の不足もなく、満ち足りた学校生活を送っていた……。\
 `　She lived a completely satisfying school life without any insecurities...`\
@@ -425,7 +425,7 @@ br
 `　No matter how friendly you are to them there are people you cannot get along with in this world. `@`...Nozomi Kawada was one of them.`\
 
 ;　だから、彼女へのいじめは、……辛いけれど、見て見ぬふりをするしかない。@
-`　It's because the bullying against her ...which might have been cruel, but all she could do was see it or pretend not to see it.`@
+`　It's because of the bullying against her ...which might have been cruel, but all she could do was see it or pretend not to see it.`@
 br
 ;　彼女だって、みどりにだけは庇われたくないと思っているのだから……。\
 `　After all, Midori thought that if Nozomi wanted protection, she didn't want to be protected by her...`\
@@ -724,7 +724,7 @@ ld r,MID_k1,80
 `　He's probably not human.`@
 
 ;　なら、何？@　……オバケとか、……妖怪？@
-`　Then what is he? `@`...A monster? ...a youkai?`@
+`　Then what is he?`@` ...A monster? ...A youkai?`@
 br
 ;　その正体について、深く考えても意味はない。\
 `　There's no reason to think too much about his real identity.`\
@@ -877,7 +877,7 @@ mcbg 22
 `　The leading role of the witch is no ordinary role, and it requires real acting ability.`@
 br
 ;　でも、それを見事射止めたい。@この演目を、そしてこの役を、@……私になら出来ると信じてくれた先生の期待に応えたいのだ。\
-`　But I want to make that role mine. `@`This play, and this role, `@`...If I can do it, I want to realize the expectations of the teacher who believed in me.`\
+`　But I want to make that role mine. `@`This play, and this role,`@` ...if I can do it, I want to realize the expectations of the teacher who believed in me.`\
 
 bg black,23
 bg engeki_01,23
@@ -1119,7 +1119,7 @@ br
 ld c,MID_Def1,80
 
 ;　……やっぱり私、緊張してるのかな。@
-`　...Perhaps I'm just nervous`@
+`　...Perhaps I'm just nervous.`@
 br
 ;　それとも、川田のぞみを意識し過ぎてしまったせいだろうか。\
 `　Or perhaps it's because I was too worried about Nozomi Kawada.`\
@@ -2070,7 +2070,7 @@ bg engeki_03,24
 se1v 54,70
 
 ;「みどりっ、魔女役おめでとう！！」@
-`"Midori, congratulations on getting the witch's role!!` `@`
+`"Midori, congratulations on getting the witch's role!!"`@
 br
 ;　温かな拍手が広がっていく。\
 `　A warm applause began to spread.`\
@@ -2135,7 +2135,7 @@ br
 ;bg Different_spiral_1b,22
 
 ;　かつては自分がお姫様だとちやほやされてたのに、@……今ではお金持ち自慢の高慢ちきだと嫌われ、いじめられ。@
-`　Even though she once was pampered as a princess, `@`......Now, she is hated and bullied for being proud, rich, and haughty.``@` 
+`　Even though she once was pampered as a princess,`@` ......now, she is hated and bullied for being proud, rich, and haughty.``@` 
 br
 ;　……それがかつての自分そのものだから、……痛いくらいに彼女の胸中がわかるのだ。\
 `　......I understood her pain so well it hurt ......because that was who I used to be.`\
@@ -2261,7 +2261,7 @@ ld r,HOK_Def4,80
 ld l,MID_Def2,22
 
 ;「い、いいえ、大丈夫です。@私、緊張したり疲れたりすると、痛みを感じるタイプなんだと思うので……。」@
-`"N-no, I'm fine. `@`I'm think I'm just the type who feels pain when I get nervous or wear myself out......"` `@`
+`"N-no, I'm fine.`@` I think I'm just the type who feels pain when I get nervous or wear myself out......"`@
 br
 ;　それを友達が大袈裟がっちゃって。@……大騒ぎしちゃってすみませんでしたと、みどりは謝る。\
 `　Her friends made a big deal about it. `@`......Midori apologized, saying she was sorry for causing the commotion.`\
@@ -2308,7 +2308,7 @@ br
 `　From here on, in preparation for the performance, she must focus on practicing more and more.`@
 br
 ;　なのに、このおかしな痛みがどんどん酷くなっていったら、きっと差し支えるに違いない……。\
-`　But still, if this strange pain gets worse and worse, it's definitely going to interfere ......\
+`　But still, if this strange pain gets worse and worse, it's definitely going to interfere......`\
 
 bg hoken_02,22
 ;ld l,SIN_Def1,24
@@ -2405,18 +2405,18 @@ bgm1 14
 
 br
 ;　薬品棚の物陰から、恐る恐る毬枝が顔を覗かせる……。\
-`　From the cover of medicine shelf, Marie timidly peeked her face......`\
+`　From the cover of a medicine shelf, Marie's face timidly peeked out......`\
 ;　その手には、職員室かどこかからちょろまかしてきた、栗饅頭が握られている。@
 `　In her hand, she gripped chestnut steamed buns that may have been taken from the staff room or elsewhere.`@
 br
 ;　……美味しそうなお茶菓子を見つけたので、彼岸花にお裾分けを持ってきたのだ。\
-`　......After finding these delicious buns, she brought them to the infirmary share with Higanbana over tea.`\
+`　......After finding these delicious buns, she brought them to the infirmary to share with Higanbana over tea.`\
 
 ;　ちなみに、毬枝にはどういうわけか、お茶菓子を発見するという奇妙な才能が、……死後に発現したのだった。\
 `　How did Marie find them you ask? After she died, Marie discovered she had the miraculous power to home in on buns....`\
 
 ;　彼岸花は留守だった。@
-`　Higanbana was gone.@
+`　Higanbana was gone.`@
 br
 ;　代わりに、………見慣れない男の姿を見てしまった。\
 `　In her place,.......She saw the figure of a man she was not familiar with.`\
@@ -2431,16 +2431,16 @@ ld c,MAR_def4a,22
 ;print 80
 
 ;「……誰、……だろう。@……今の人は……。」@
-`"......I wonder.......@......that person just now was......"@
+`"......I wonder.......`@`......That person just now was......"`@
 br
 ;　人ならざる者の直感が、紅茶紳士もまた同類であることを毬枝にも報せる。\
-`　Her otherworldly senses told her that the Black Tea Gentleman was the same as she.\
+`　Her otherworldly senses told her that the Black Tea Gentleman was the same as she.`\
 
 ;　……妖怪だろうか。@
-`　......a youkai?@
+`　......a youkai?`@
 br
 ;　先に出て行った女の子に、取り憑いてるように見えた。\
-`　It looked to her that he was haunting the girl who had just left.\
+`　It looked to her that he was haunting the girl who had just left.`\
 
 ;ld_p MAR_Def1
 ;lsp2 2,$ld_pass,90,400,-100,100,0
@@ -2450,7 +2450,7 @@ br
 ld c,MAR_def1,80
 
 ;「…………………………。」\
-`"............"\
+`"............"`\
 
 bg black,2
 
@@ -2676,7 +2676,7 @@ ld r,MID_K2,22
 ` Perhaps her eyes were trying to say, 'If Midori Kusunoki did it, there shouldn't be any reason I can't do it too.'`@
 br
 ;　……無感情な、……見ているだけで不快になる、その眼差し。@
-` ......That blank expression, ......Her gaze made me uncomfortable just by looking towards her. `@
+` ......That blank expression, ......her gaze made me uncomfortable just by looking towards her.`@
 ;　きっとそれが、……私に、おかしな痛みを送っているに違いないのだ……。\
 ` ......Without a doubt, she must be the one sending me those strange pains.......`\
 
@@ -3159,7 +3159,7 @@ br
 `　It wasn't just because of what I was seeing in front of me that caused my queasiness.`\
 
 ;　……さっきまで食べていた物の中にも、……それが混じっていたのではないかと感じて、@……ぅ、……うぅううぅぅ……。\
-`　...Inside what I had ate just now ...I sensed they had mixed in there as well, `@`...uhh ..UuUUuu...`\
+`　...Inside what I had ate just now ...I sensed they had mixed in there as well, `@`...uhh ...UuUUuu...`\
 
 bg black,22
 
@@ -3400,7 +3400,7 @@ mcbg 22
 `　...Something strange caught his eye.`@
 br
 ;　荒々しく席を立ち、教室から出て行ったみどりは、@全身からうっすらと、湯気かお線香の煙のようなものを棚引かせていた。\
-`　Midori, who roughly flew out her chair and out the classroom, `@`steam or smoke and trailed out from her body and hung in the air like steam or incense.`\
+`　Midori, who roughly flew out her chair and out the classroom,`@` steam or smoke trailed out from her body and hung in the air like steam or incense.`\
 ;　それは人ならざる者の目にしか見えない。@
 `　That was something only a supernatural being could see.`@
 br
@@ -3964,7 +3964,7 @@ quakey 2,300
 me1v 5,50
 
 ;　雷鳴のような音が轟き、……紅茶紳士の体は、豪腕によって殴り飛ばされたことを、思い出す。@
-`　With a roar like the sound of thunder, ...The Black Black Tea Gentleman's body was knocked off his feet by her strong arms.`@`
+`　With a roar like the sound of thunder, ...The Black Tea Gentleman's body was knocked off his feet by her strong arms.`@`
 ;　一番奥の壁まで吹き飛ばされ、大の字に叩き付けられた。@
 `　He was blown clear across the room and strewn against the furthest wall.`@`
 br
