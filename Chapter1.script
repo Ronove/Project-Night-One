@@ -1028,7 +1028,7 @@ bg rouka_03,22
 ;quake 3,300
 
 ;「怖い怖い怖いー！」\
-`"Scary scary scary~!"\
+`"Scary scary scaaaary!"\
 
 bg black,22
 
@@ -1201,7 +1201,7 @@ bg kyou_02,22
 ;「怖いね…！@　旧校舎のトイレなんてわざわざ行かないけど、ますます使いたくなくなっちゃうね！」@
 `"How creepy...! `@`I don't go to the old school bathroom's toilet, but now I really don't want to use it!"`@
 ;「でも怖いー！@　旧校舎でなくても、閉まってる個室をノックして、@中から、めそめそ…なんて聞こえてきたら嫌だよね…！」\
-`"But it's scary~! `@`Even if it wasn't in the old school building, if I were to knock on a closed stall door, `@`and from the inside heard mesomeso... I'd freak out...!"`\
+`"But it's scaaary! `@`Even if it wasn't in the old school building, if I were to knock on a closed stall door, `@`and from the inside heard mesomeso... I'd freak out...!"`\
 
 ;「どうする？@　そこのトイレでさ、ノックしたら、@“めそめそ…、そこの人、どうか哀れな私の話を聞いてください…”なんて言われたら！」\
 `"What would you do? `@`Let's say you knocked, `@ `and it said something like "Mesomeso..., you there, listen to my pitiful story...!"`\
@@ -1210,7 +1210,7 @@ bg kyou_03,1
 quakey 2,200
 
 ;「やっだーーー！！！@　あははは！@　逃げる逃げる！@　返事しただけで全身の骨を砕かれて殺されちゃうんでしょ？@　やだやだやだー！」@
-`"Noooo~~~!!! `@`Ahahaha! `@` Run away run away! `@` Just by replying like that, it'd probably kill you by crushing every bone in your body, right? `@` No no no~!"`@ 
+`"Noooooooo!!! `@`Ahahaha! `@` Run away run away! `@` Just by replying like that, it'd probably kill you by crushing every bone in your body, right? `@` No no nooooo!"`@ 
 br
 ;　……それを聞きながら、毬枝は悲しい気持ちになっていた。@
 `　......While listening to this, Marie was feeling sad.`@
@@ -2148,7 +2148,7 @@ br
 `　......That kind of thickheaded stupidity was the capacity of this bullied child after all.`\
 
 ;　……そんな間抜けにッ、@今日まで努力を積み重ね、名門高校、名門大学、そして教師と駒を進めてきて、@やがては教頭、校長とさらに高みに登っていく自分の足下をさらわれることになるなんて…！@
-`　......To that kind of stupidity~, `@`stacked next to my great work until now: my prestigious high school, my prestigious university, and continuing on as a teacher, `@`and before long, vice principal, and I who would go on to become headmaster, as if she could even follow in my footsteps...!`
+`　......To that kind of stupidityyy, `@`stacked next to my great work until now: my prestigious high school, my prestigious university, and continuing on as a teacher, `@`and before long, vice principal, and I who would go on to become headmaster, as if she could even follow in my footsteps...!`
 br
 ;　私は理不尽な怒りに腸が焼かれるのを感じる。\
 `　I feel a mindless fury burning in my guts.`\
@@ -2557,7 +2557,7 @@ quakey 2,200
 `　Ah, ...Ahh!! `@`They, they hit it..., they knocked...!!`@
 br
 ;　ノックは中に人がいるかどうかの確認だ。@こ、ここで中にいると返事をしなかったら、@無人なのになぜ閉まってるのかと、よじ登って中を覗いてくるかもしれない。@あるいはもっと簡単に、しゃがみこんで、扉の下の隙間を覗き込んでくるかもしれない。@どちらにしたって、１人以上の人間がいるという異常事態を理解してしまうッ！！！\
-`　A knock was a confirmation if someone was inside or not. `@`If, if an answer doesn't come from in here, `@`maybe they'll wonder why no one is inside, and climb up to peak from above. `@`Or easier yet, they'd squat down and peak through the hole under the door. `@`Either way, they'll realize the strangeness of there being more than one person inside~!!!`\
+`　A knock was a confirmation if someone was inside or not. `@`If, if an answer doesn't come from in here, `@`maybe they'll wonder why no one is inside, and climb up to peak from above. `@`Or easier yet, they'd squat down and peak through the hole under the door. `@`Either way, they'll realize the strangeness of there being more than one person insiiiide!!!`\
 
 me4v 28,100
 
@@ -2573,7 +2573,7 @@ me5v 16,100
 ld c,KAN_K5,22
 
 ;　ああくそああくそああくそくそくそッ！！@　扉越しでなかったら、@この度胸試しの間抜け生徒も、毬枝の後を追わせて沈黙させてやるってのにッ！！！@　でも２人はまずい、１人でもヤバイかもしれないのに、２人も殺したら今度こそ隠しきれる自信がないッ、@こいつの友達が校舎の外で帰りを待ってるかもしれないじゃないか、@ぅううぅあああぁあぁぁああぁ！！！\
-`　AAAH dammit DAMN IT DAMN IT!! `@` If I don't go out that door, `@`then I'll also have to silence this stupid gutsy student and send him after Marie~!!! `@`But two would be bad, and even though one might be tough, and if I killed two more, I have no confidence I could get away with it~. `@`And this brat's friends might even be waiting outside for them to get back. `@`uUUuAAAaAaaAAa!!!`\
+`　AAAH dammit DAMN IT DAMN IT!! `@` If I don't go out that door, `@`then I'll also have to silence this stupid gutsy student and send him after Marieee!!! `@`But two would be bad, and even though one might be tough, and if I killed two more, I have no confidence I could get away with iiiit. `@`And this brat's friends might even be waiting outside for them to get back. `@`uUUuAAAaAaaAAa!!!`\
 
 textoff
 bg white,28
@@ -2692,7 +2692,7 @@ quakey 2,200
 bgm1 7
 
 ;　は、………はははははは、…はははは！@　やったぞ、…やったッ！\
-`　Ha, .........hahahahahaha, ...HAHAHAHA! `@` I did it, ...I DID IT~!`\
+`　Ha, .........hahahahahaha, ...HAHAHAHA! `@` I did it, ...I DIIID IIIT!`\
 
 cl c,23
 se1 16
@@ -4278,7 +4278,7 @@ wait 1000
 bg e005,25
 
 ;「さぁ……。@毬枝も金森も。@どちらが相応しいか見せて頂戴。@ウチのクラスのみんなも、投票より面白いかもしれないって期待してるんだから。@くすくすくすくす…！」\
-`"Now then...... `@`Marie. Kanamori. `@`Please show me who is more fitting. `@`Because everyone in 'our class' are also hoping for something more interesting than a vote. `@`Teeheeheeheeheeee~!"`\
+`"Now then...... `@`Marie. Kanamori. `@`Please show me who is more fitting. `@`Because everyone in 'our class' are also hoping for something more interesting than a vote. `@`Teeheeheeheeheeee!"`\
 
 bg black,22
 fede 0,2000
@@ -5016,7 +5016,7 @@ mono 0
 `　Because, because, basically hiding my breathing and checking was in itself, `@`confirmation that something w a s  h a p p e n i n g......`@
 br
 ;　でも、それをしなければならないくらいに、…今、めそめそははっきりと聞こえたんだッ？！\
-`　But because I had to do that, ...does that mean that I clearly heard that 'mesomeso' just now~?!`\
+`　But because I had to do that, ...does that mean that I clearly heard that 'mesomeso' just now?!`\
 
 ld c,KAN_K4,22
 
@@ -5282,7 +5282,7 @@ bg black,22
 ;bg e004,45
 
 ;「……ううううぅううぅうぅぅぅッ！！！」@
-`"......UUUUUuUUuUuuu~!!!"`@
+`"......UUUUUuUUuUuuu!!!"`@
 br
 ;　毬枝の魂を死した後にも辱める…。\
 `　Even Marie's soul after death was humiliated...`\
@@ -5504,7 +5504,7 @@ ld c,KAN_w1,80
 ;「駄目だね。」@
 `"It's useless, you see."`@
 ;「ひぃッ！！！」@
-`"Ahh~!!!"`@
+`"Ahh!!!"`@
 br
 ;　まるでギロチンの刃を落とす処刑人のような残酷さで、金森は扉を開け放つ。\
 `　With the cruelty of an executioner dropping the bladed edge of a guillotine, Kanamori threw open the door.`\
@@ -5622,7 +5622,7 @@ E_A
 bgm1 12
 
 ;「ぅう、ぅ、…ぅわあああぁああああああああぁああッ！！！」\
-`"uU, u, ...uWAAAAAaaAAAAAAAAAaAAA~~!!!"`\
+`"uU, u, ...uWAAAAAaaAAAAAAAAAaAAA!!!"`\
 
 
 
@@ -5652,7 +5652,7 @@ quakey 3,200
 `　As Marie cried and screamed, she grabbed Kanamori. `@`As Kanamori's throat was gripped by both her thin arms, `@`Kanamori's hands also grabbed hold of Marie's throat.`\
 
 ;「そうだ、今は戦うのが正しい。@今この瞬間だけを見れば正解さ。@だが、非力な君が、私と一騎打ちしたって勝ち目がないことは、@すでに立証済みだったんじゃないかい？@　君は死んでも、やっぱり落ち零れなのさッ！！」\
-`"Yes, fighting now is correct. `@`Even if it's just for this moment, it's right, you see. `@`But in your incompetence you have no chance to defeat me alone, `@`perhaps I should end your demonstration? `@`Even in death you see, you're a fool~!!"`\ 
+`"Yes, fighting now is correct. `@`Even if it's just for this moment, it's right, you see. `@`But in your incompetence you have no chance to defeat me alone, `@`perhaps I should end your demonstration? `@`Even in death you see, you're a fool!!"`\ 
 
 me1v 28,90
 
@@ -5677,7 +5677,7 @@ print 24
 quakex 3,200
 
 ;「君ひとりでは打ち勝てない難題なんてこの世にはいくらだってあるッ！！@　それを乗り越えるために人は社会の力を借りるんだ。@それを怠った君の末路は、@例え二度繰り返そうとここに帰ってくるんだ。@……これで成仏できないなら、また何度でも私のもとを訪れるといい！！@　何度でも何度でも、殺された時の苦しみを思い出させてやるッ！！@　何度でも何度でも、お前を絞め殺してやるッ！！！」\
-`"How many challenges are there in this world that you can't win alone~?!!`@`　In order to surmount them, people borrow power from society. `@`In your final days you ignored that. `@`And you've come once again to repeat that mistake. `@`......If you can't rest in peace, then feel free to visit me as many times as you like!!`@`　Over and over again, I'll make you remember the pain of death~!! `@`I'll strangle you to death forever and everrr!!!"`\
+`"How many challenges are there in this world that you can't win alooone?!!`@`　In order to surmount them, people borrow power from society. `@`In your final days you ignored that. `@`And you've come once again to repeat that mistake. `@`......If you can't rest in peace, then feel free to visit me as many times as you like!!`@`　Over and over again, I'll make you remember the pain of deeeeath!! `@`I'll strangle you to death forever and everrr!!!"`\
 
 bg black,23
 csp2 -1
@@ -5716,11 +5716,11 @@ quakex 2,200
 quakey 3,200
 
 ;「さぁ、間違いなくもう一度死ねッ！！！@　森谷毬枝ぇええッ！！！」@
-`"Now, YOU WILL DIE AGAIN!!!`@`　MARIE MORIYAaAaAA~!!"`@
+`"Now, YOU WILL DIE AGAIN!!!`@`　MARIE MORIYAaAaAAaaaa!!"`@
 
 quakex 3,200
 ;「……………………………ッッッ！！」\
-`"...............~~~!!"`\
+`"...............gh!!"`\
 
 bg "BMP\background\efe\red1.bmp",1
 mono 2
@@ -5940,7 +5940,7 @@ bgcopy
 csp -1
 
 ;　ぎゃッ！！！」@
-`　GaAAH~!!!"`@
+`　GaAaaAH!!!"`@
 br
 ;　今や、金森の両手首の骨を粉々に砕いた毬枝の両腕が、全身を抱擁するように抱きしめる。@
 `　Now both Marie's arms crushed the bones in Kanamori's hands, but they sought to wholly embrace him.`@
