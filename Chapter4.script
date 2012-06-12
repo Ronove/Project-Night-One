@@ -155,7 +155,7 @@ br
 `　Afterwards, the girl with the eye patch was all that was left...`\
 
 ;　少女の名は、……桜田みちる（さくらだ　みちる）。\
-`　The girl's name ...Michiru Sakurada （桜田みちる）.`\
+`　The girl's name ...Michiru Sakurada (桜田みちる).`\
 
 ;　陰鬱な雰囲気が示す通り、友達はいない。@
 `　As indicated by the gloomy atmosphere, she has no friends.`@
@@ -186,7 +186,7 @@ bg hokora_01,22
 `　And there is a tiny shrine of weathered wood...`\
 
 ;　風雨で埃まみれとなった祠は、手入れがされているとは言い難い。@
-`　It's difficult to tell if shrine that had been covered in grit from wind and rain was being maintained or not.`@
+`　It's difficult to tell if the shrine, which was covered in grit from the wind and rain, was being maintained or not.`@
 ;　しかし、歳月を感じさせる貫禄は、確かにあった。\
 `　However, its age certainly lends it a sense of serenity.`\
 
@@ -331,7 +331,7 @@ br
 `"...Kids in class have spread rumors about it. `@`...They say you, well, ...have something like a sixth sense... `@`...They say that a sixth sense means... you can see... them...`@` I-... I can't see them at all, but ―`@` that's n- normal, right...? `@`Ha ha, ha ha..."`@
 br
 ;　みちるはもう一度、小さく溜め息を漏らしてから、……言った。\
-`　After taking letting out another short sigh... Michiru spoke.`\
+`　After letting out another short sigh... Michiru spoke.`\
 
 ld c,MIC_Def1,80
 
@@ -942,7 +942,7 @@ br
 `　The school is vast and gigantic. `@`There was nothing unusual about going to a place she didn't know about...`\
 
 ;　すると、……トントン、カンカンと、釘を打つ音が聞こえた。\
-`　Then ...with and clang clang and tap tap, she heard the sound of someone hitting metal.`\
+`　Then ...with a 'clang clang' and a 'tap tap', she heard the sound of someone hitting metal.`\
 
 bg black,24
 bg hokora_01,24
@@ -1228,7 +1228,7 @@ br
 ld l,HIG_Def2,80
 
 ;「この子は、突然、ボールが飛んできて、大切な家を壊されちゃったんで、@驚いて怖がって、ずっと怯えてたのよ？@　怒るどころか、ついさっきまで保健室のベッドの下に隠れて震えてたんだから。」\
-`"He suddenly had a ball come flying, which broke his precious home.`@` It surprised him and frightened him, so he's been scared away for a while now."`@` He may have been upset, but until just a little while ago he had been hiding and trembling under the bed in the school infirmary."`\
+`"He suddenly had a ball come flying, which broke his precious home.`@` It surprised him and frightened him, so he's been scared away for a while now.`@` He may have been upset, but until just a little while ago he had been hiding and trembling under the bed in the school infirmary."`\
 
 mld c,SAK_n3,80
 
@@ -1279,7 +1279,7 @@ se1v 1,50
 bg hokora_01,9
 
 ;　仮ではあるが、新しい扉が取り付けられ、@さくのしんの家は、しっかりと戸締りが出来るようになった。\
-`　Rather than just a provisional fix-up, a new door had been placed,`@` and Sakunoshin's house had was to close its doors again.`\
+`　Rather than just a provisional fix-up, a new door had been placed,`@` and Sakunoshin's house could close its doors again.`\
 
 ld r,HIG_Def1,22
 ;ld r,HIG_Def1,80
@@ -1320,7 +1320,7 @@ E_B
 bg kyou_04,2
 
 ;「……ちょっとぉ！@　聞いてよ、博美ぃ！」\
-`"...Wait!`@` Listen, Hiromi~!`\
+`"...Wait!`@` Listen, Hiromi~!"`\
 
 ;「馬鹿馬鹿しいったらありゃしないね！@　祟りぃ？@　そんなのあるわけないでしょ？！@　加奈のはただの事故だって！」@
 `"If you're going to act stupid then I'm not going to!`@` Curses?`@` There's no way it's something like that!!`@` What happened to Kana was just an accident!"`@`
@@ -1447,7 +1447,7 @@ bg shoukou_01,22
 
 br
 ;　……この昇降口には、自分ひとり。@
-`　...She was alone at the entrance`@`
+`　...She was alone at the entrance.`@
 ;　校舎はシンと静まり返り、……ちょっぴり薄気味悪かった。\
 `　The school building fell deathly silent ...and was slightly eerie.`\
 
