@@ -49,7 +49,7 @@ bg roji_04a,23
 ;　私のように、走っている生徒の姿さえない。@
 `　There weren't any other students running like me.`@`
 ;　あぁ、何てことっ、遅刻なんて絶対に嫌っ！\
-`　Aah, this is awful, I really don't want to be late~!`\
+`　Aah, this is awful, I really don't want to be laaate!`\
 ;　そこの曲がり角を曲がって、最後の直線を駆け抜ければ校門だ。@
 `　I'll turn at that corner, and make the last straight line into the school gate.`@`
 br
@@ -146,7 +146,7 @@ bg roji_04a,22
 `　Which means, that even if I run now, it's no use.`\
 
 ;「なら、歩こっ。@もう遅刻してるのに、走るなんて馬鹿馬鹿しいもんっ。」@
-`"Then, I'll walk~.`@` Even if I'm already late, running now would just be ridiculous."`@`
+`"Then, I'll walk.`@` Even if I'm already late, running now would just be ridiculous."`@`
 br
 ;　私はあっけらかんと笑いながら、悠然と歩き出す。\
 `　While laughing indifferently, I calmly began to walk.`\
@@ -299,7 +299,7 @@ bg kyou_02a,6
 `　That's why, when my name was called.`@` I replied in an exceptionally energetic voice.`@`
 br
 ;「はーーーい！」@
-`"Heeeeeeeere!"`@~
+`"Heeeeeeeere!"`@
 br
 ;　直前までの低いテンションから、明らかに浮いた私の声に、みんなはきょとんと驚いてから、くすくすと笑う。\
 `　The low spirits of before, in light of my clearly cheerful voice, surprised everyone with their blank faces, and they giggled.`\
@@ -339,7 +339,7 @@ bg kyou_03,22
 ;　痛いし、つねられてる時の表情が面白おかしくてみんなの笑い者になるので、好んで宿題を忘れる子はいない。\
 `　It hurts, and the expressions of people who get pinched is silly, so it makes everyone laugh, so there isn't a person here who would want to forget their homework.`\
 ;　それでも、ずぼらな男子が何人か、開き直るような笑顔で、忘れましたーと元気に宣言して席を立っている。@
-`　But still, there are a few reckless boys that will smile defiantly, and proclaim, 'Yeahhhh I forgot~' and stand up from their seat.`@`
+`　But still, there are a few reckless boys that will smile defiantly, and proclaim, 'Yeahhhh I forgooot' and stand up from their seat.`@`
 br
 ;　男子はだらしないなぁ。@女子には忘れる人なんてひとりもいない。@
 `　Boys are just so careless.`@` There's not a single girl who would forget.`@`
@@ -408,7 +408,7 @@ bg kyou_01,22
 `　These boys were all habitually forgetful.`\
 
 ;「もー！@　あなたたちには何回言えば忘れ物がなくなるんです？！@　次からは忘れたら、ダブルですよダブル！@　ブルドックになっちゃうくらい引っ張っちゃいますからね！」@
-`"Really!`@` How many times do I have to tell you before you stop forgetting?!`@` Next time you forget, I'll do this double, you hear? Double!!`@` I'll pull on your cheeks till your face looks like a bulldog's!!"`@~
+`"Really!`@` How many times do I have to tell you before you stop forgetting?!`@` Next time you forget, I'll do this double, you hear? Double!!`@` I'll pull on your cheeks till your face looks like a bulldog's!!"`@
 
 br
 
@@ -419,7 +419,7 @@ br
 `　Seeing those warped, funny faces, everybody laughed hysterically.`@`
 br
 ;　……あー、普段なら私も笑ってる側なのにー、何たる失態。\
-`　...Man, normally I'd be laughing with them~ what a disgrace.`\
+`　...Man, normally I'd be laughing with theeem, what a disgrace.`\
 bg kyou_03,23
 
 ;「あら、珍しい。@あなたも忘れちゃったの？！」@
@@ -582,7 +582,7 @@ br
 
 se1 47
 ;「………４８ページぃ～。」@
-`"...Page 48~"`@~
+`"...Page 48"`@
 ;「わ、ありがとっ。」@
 `"Wah, thank you!"`@`
 br
@@ -711,11 +711,11 @@ quakex 3,300
 ;「早く行こ行こ…！@　また男子にボールを全部取られちゃうよ…！」@
 `"Hurry, let's go, let's go...!`@` The boys are gonna take all the balls from us again...!"`@`
 ;「遅れると、空気の抜けたボールしか残らないもんねー。」@
-`"If we're late, only the deflated balls will be left~"`@`
+`"If we're late, only the deflated balls will be leeeft"`@`
 ;「どこで遊ぶ？！」@
 `"Where should we play?!"`@`
 ;「百葉箱のところは？　あそこの芝生は気持ちいいよねー！」\
-`"How about over by the meteorological equipment? The grass over there feels so good~!"`\
+`"How about over by the meteorological equipment? The grass over there feels so gooood!"`\
 ;　数人で集まって、温かい芝生の上でボールが一つあれば。@それだけで、昼休みのひと時は虹色に輝くのだ。\
 `　If you get a bunch of people together and you have a ball and the warm grass.`@` Just by that, the afternoon break glittered vividly.`\
 
@@ -843,7 +843,7 @@ se1 13
 `　...Ng, ....aghh....`@`
 br
 ;　きゃーー、しっかりしてーー、先生ぇー、誰か先生を呼んでーー………。@
-`　Kyaa~~!!! Hang in there, somebody, somebody call the nurse~~~~.....`@`
+`　Kyaaaaa!!! Hang in there, somebody, somebody call the nuuuurse.....`@`
 br
 ;　……………………………………。\
 `　...................`\
@@ -924,7 +924,7 @@ br
 ld c,HOK_def4,22
 
 ;「大丈夫っ。@額を綺麗に切っちゃっただけでしょ。」@
-`"She's fine~.`@` She cut her forehead quite cleanly."`@`
+`"She's fiiine.`@` The cut on her forehead is quite clean."`@`
 ;「で、でも、意識を失ってますし……。」\
 `"B, but, she's passed out..."`\
 
@@ -1068,7 +1068,7 @@ br
 `　The school nurse, saying 'calm down, calm down', was standing up for me.`\
 
 ;「走ってはいけないということは、本人もガツンと痛い思いをして勉強したでしょうから。@ね？@　もう走ったりしないわよね～？」@
-`"I suppose you could learn that running in the halls is a bad thing if you hit your head and remember how much it hurt.`@` Right?`@` You won't run or anything anymore, right~?"`@`
+`"I suppose you could learn that running in the halls is a bad thing if you hit your head and remember how much it hurt.`@` Right?`@` You won't run or anything anymore, riiight?"`@`
 ;「………はい。」@
 `"...I won't."`@`
 br
@@ -1078,7 +1078,7 @@ br
 ;「もうしばらく寝かせてあげようと思います。@帰りのホームルームには多分、戻れると思います。」@
 `"I think I'll let her sleep for a little longer.`@` I think she will probably be able to go back to homeroom eventually."`@`
 ;「そうですか、ありがとうございます。@じゃ、ゆっくり休んでね？　無理しちゃ駄目よっ。」\
-`"Is that so? Thank you very much.`@` Hear that? Please rest for a while, okay?`@` You mustn't push yourself~."`\
+`"Is that so? Thank you very much.`@` Hear that? Please rest for a while, okay?`@` You mustn't push yourseeelf."`\
 
 ;「体育、したいです……。」@
 `"I want, to go to gym..."`@`
@@ -1249,7 +1249,7 @@ br
 ;　……幽霊って、もっと楽しいものだと思ってた。@
 `　...I thought being a ghost would be more fun.`@
 ;　好きに姿を消したり、不思議な悪戯をしたりして、……いつまでもみんなと一緒にいられるものだと思ってた。\
-`　Disappearing at will, pulling mysterious pranks, ...and I thought I'd could always be with everyone.`\
+`　Disappearing at will, pulling mysterious pranks, ...and I thought I could always be with everyone.`\
 
 ;　嫌だ。@
 `　I hate this. `@`
@@ -1272,7 +1272,7 @@ se1 53
 `　The nurse picked up the receiver.`\
 
 ;　あーあー、お世話になってますー、えぇえぇ、どーもー。@
-`　Mmmhmmm, you've been a great help, yeaaah, thank youuuu~`@
+`　Mmmhmmm, you've been a great help, yeaaah, thank youuuu`@
 br
 ;　そんなことを言いながら受話器を置くと、私の様子をちらりと見てから、保健室を出て行ってしまった。\
 `　Saying that, she put down the receiver, and after briefly checking my condition, she left the infirmary.`\
@@ -1383,11 +1383,11 @@ bg kyou_04,25
 wait 2000
 
 ;「陽子ちゃん、大丈夫？！　その頭ぁ！」@
-`"Yoko-chan, are you alright?! Look at your head~!"`@
+`"Yoko-chan, are you alright?! Look at your heeead!"`@
 ;「うん、もう全然平気。@包帯も痒いし。」@
-`"Yeah, I'm completely fine now. `@`My bandage itches too."`@
+`"Yeah, I'm completely fine now. `@`My bandage itches though."`@
 ;「勝手に取らない方がいいよー。」@
-`"Just don't go and take it off~"`@
+`"Just don't go and take it off."`@
 br
 ;　包帯の頭にみんなが心配の声を掛けてくれる。\
 `　Everyone voiced their concern for the bandage on my head.`\
@@ -1429,9 +1429,9 @@ br
 bg rika_03,24
 
 ;「あっはははははは…！@　待ちなさいよ、こらーっ。」@
-`"Ahhahhahahaha...! `@`Wait up, hey~"`@
+`"Ahhahhahahaha...! `@`Wait up, heeey~"`@
 ;「やめてやめて、ちょっとやめてよ、陽子ー！@　あっはははははははは…！」\
-`"Stop stop, stop that~ Yoko~! `@`Ahahhahahahaha...!"`\
+`"Stop stop, stop thaaat Yokooo! `@`Ahahhahahahaha...!"`\
 
 ;　どったんばったんと。@まるで猫が鼠を追い回す古いアニメみたいに、私たちははしゃぎ合う。@
 `　Leaping and pouncing. `@`Like old cartoons of cats chasing mice, we played.`@
@@ -1450,12 +1450,12 @@ se1 3
 cl c,0
 ld r,non_def6a,23
 ;　きゃー！@　あっはははははははは！」@
-`　Kya~! `@`Ahahahahhahahaha!"`@
+`　Kyaaaa! `@`Ahahahahhahahaha!"`@
 ;「ちょこまかとー！@　こら待てー！@/
-`"She's still going~! `@`Hey stop~!`@/
+`"She's still going! `@`Hey stooop!`@/
 se2 3
 ;　そりゃー！」\
-`　Take that~!"`\
+`　Take thaaat!"`\
 
 se3 7
 
@@ -1477,7 +1477,7 @@ ld r,non_def5a,80
 `"...See! `@`Didn't I tell you?"`@
 ;＜野々宮
 ;「だ、大丈夫ぅ？　陽子ぉ……。」\
-`"Yoko~? Are, are you okayy?..."`\
+`"Yoko? Are, are you okayy?..."`\
 
 bg rika_04,22
 
@@ -1528,13 +1528,13 @@ se1 82
 bg white,23
 bg rouka_02,23
 ;………ごめーん、なっちゃーん。@私、先生に謝ってくるね！」@
-`...Sorry~, Nacchan~. `@`I'm gonna go apologize to the teacher, 'kay?!"`@
+`...Sorry Nacchan. `@`I'm gonna go apologize to the teacher, 'kay?!"`@
 ;「えー、黙ってればわからないってー。」@
-`"Whaa, I said he won't know as long as you keep quiet about it~"`@
+`"Whaa, I said he won't know as long as you keep quiet about iiiit."`@
 ;「だーめ。@謝るのっ。@壊したのは私だし。@なっちゃんは関係ないから待ってて。」@
 `"We can't do that. `@`I'm gonna apologize. `@`I'm the one who broke it. `@`Nacchan you had nothing to do with it, so wait here."`@
 ;「ちょっと、……陽子ぉ～！」\
-`"Waaait ...Yoko~!"`\
+`"Waaait ...Yokoooo!"`\
 
 bg black,23
 
@@ -1558,7 +1558,7 @@ bg kyou_02,2
 ;　掃除の時間の悪ふざけをいっぱい満喫して。@
 `　I've had my fill of plenty of hijinks during cleaning duty.`@
 ;　いよいよ帰りのホームルーム。@
-`　Finally it was time to go back to home room.`@
+`　Finally it was time to go back to homeroom.`@
 ;　先生から連絡事項を聞き、気を付けて帰るようにと念を押される。@
 `　We listened to the teacher tell us to make sure to take care when going home.`@
 br
@@ -1570,7 +1570,7 @@ br
 bg kyou_03,22
 
 ;「「「さよーならーーーー！！」」」@
-`"""Good-bye~~~~!!"""`@
+`"""Good-byyyyye!!"""`@
 br
 ;　クラスメート全員での最後の大合唱。@
 `　All my classmates rang out in a great chorus.`@
@@ -1604,7 +1604,7 @@ br
 ;　みんなは一斉に駆け出して教室を飛び出していく。@
 `　Everyone took off dashing together out of the classroom.`@
 ;　他のクラスもそれぞれホームルームを終え、廊下は帰りを急ぐ子たちで大賑わいになる。\
-`　The other classes' home room periods began to end one after another, the hallway was bustling with kids hurrying home.`\
+`　The other classes' homeroom periods began to end one after another, the hallway was bustling with kids hurrying home.`\
 
 ;　その賑わいも、わいわいざわざわも、少しずつ遠退いていく。@
 `　Even that bustling, with its noise and chattering, began to fade away little by little.`@
@@ -1923,7 +1923,7 @@ cl r,22
 `　Marie left Higanbana with those words as she quickly went down the stairs.`\
 
 ;「ちょ、ちょっと待ちなさいよ、毬枝ぇーーっ。@もーー……！」\
-`"Hey, hey hold on, Marie~~~. `@`Jeez~~...!"`\
+`"Hey, hey hold on, Marieeee. `@`Jeeeez...!"`\
 
 bg black,22
 
@@ -1978,11 +1978,11 @@ br
 cl r,22
 
 ;「毬枝っ。@まさか本気で独り占めするつもりじゃないわよね…？！@　一個は私にも寄越しなさい？！@/
-`"Marie~. `@`You don't really intend to keep everything for yourself...?! `@`Give me one okay?!`@/
+`"Marieee. `@`You don't really intend to keep everything for yourself...?! `@`Give me one okay?!`@/
 ;cl c,23
 ;ld r,hig_def1,23
 ;　じゃないともう、保健室のテレビ、見せてあげないわよ…！@　ねぇ、ちょっと聞こえてるかしらー？！」\
-`　If you don't, I won't let you watch TV in the infirmary...! `@`Heey, are you listening~?!"`\
+`　If you don't, I won't let you watch TV in the infirmary...! `@`Heey, are you listeniiing?!"`\
 
 
 ;cl r,23
