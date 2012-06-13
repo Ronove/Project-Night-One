@@ -7923,7 +7923,7 @@ ld r,SMI_W3,80
 ld l,MAR_I2a,80
 
 ;「……それで、今度は大住玲子と名乗り、@また１クラス丸ごとを、いじめっこに変えようとした。」\
-`"...So this time you took the name Osumi, Reiko`@` and you tried to turn another class into bullies."`\
+`"...So this time you took the name Reiko Osumi,`@` and you tried to turn another class into bullies."`\
 
 ld r,SMI_W6,80
 
@@ -8078,7 +8078,7 @@ mld l,MAR_Def4a,80
 ld r,HIG_W3,80
 
 ;「やれやれ……。@本当にお間抜けなんだから……。@なら、由香里？@　あなたにはわかるんじゃない？@　……夕闇のスミレを、……大住玲子を倒せば、明日からどういうことになるか。」\
-`"Oh come on... `@`You really are a dunce... `@`Well, Yukari? `@`You understand don't you? `@`...If you defeat Twilight Sumire... Osumi, Reiko, then what will happen starting tomorrow?"`\
+`"Oh come on...`@` You really are a dunce...`@` Well, Yukari?`@` You understand don't you?`@` ...If you defeat Twilight Sumire... Reiko Osumi, then what will happen starting tomorrow?"`\
 
 mcl l,0
 bg black,23
