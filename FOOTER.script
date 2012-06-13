@@ -9712,15 +9712,15 @@ mov %title_skip,0 ;瞬間表示のフラグを解除
 
 
 ;説明テキストの読み込み
-lsph t_txt_ep1_lsp,":a;bmp\title\txt_box\ep1.bmp",350,35,100
-lsph t_txt_ep2_lsp,":a;bmp\title\txt_box\ep2.bmp",350,35,100
-lsph t_txt_ep3_lsp,":a;bmp\title\txt_box\ep3.bmp",350,35,100
-lsph t_txt_ep4_lsp,":a;bmp\title\txt_box\ep4.bmp",350,35,100
-lsph t_txt_ep5_lsp,":a;bmp\title\txt_box\ep5.bmp",350,35,100
-lsph t_txt_ep6_lsp,":a;bmp\title\txt_box\ep6.bmp",350,35,100
-lsph t_txt_ep7_lsp,":a;bmp\title\txt_box\ep7.bmp",350,35,100
+lsph t_txt_ep1_lsp,":a;bmp\title\txt_box\ep1.bmp",350,115,100
+lsph t_txt_ep2_lsp,":a;bmp\title\txt_box\ep2.bmp",350,115,100
+lsph t_txt_ep3_lsp,":a;bmp\title\txt_box\ep3.bmp",350,115,100
+lsph t_txt_ep4_lsp,":a;bmp\title\txt_box\ep4.bmp",350,115,100
+lsph t_txt_ep5_lsp,":a;bmp\title\txt_box\ep5.bmp",350,115,100
+lsph t_txt_ep6_lsp,":a;bmp\title\txt_box\ep6.bmp",350,115,100
+lsph t_txt_ep7_lsp,":a;bmp\title\txt_box\ep7.bmp",350,115,100
 
-;lsph t_txt_lock_lsp,":a;bmp\title\txt_box\warning.bmp",350,35
+;lsph t_txt_lock_lsp,":a;bmp\title\txt_box\warning.bmp",350,115
 
 
 ; ボタン定義と、ボタンクリック待ちの処理
@@ -9786,7 +9786,7 @@ goto *b_title_botun_loop
 		lsp t_btn_ep6_lsp,":a;bmp\title\ss_btn\btn\6_1.bmp",150,230,45	;235
 		lsp t_btn_ep7_lsp,":a;bmp\title\ss_btn\btn\7_1.bmp",240,180,40	;235
 		lsp t_btn_load_lsp,":a/2,0,3;bmp\r_click\sys_btn\load.bmp",460,430	;254
-		lsph t_txt_ep1_lsp,":a;bmp\title\txt_box\ep1.bmp",350,35,100
+		lsph t_txt_ep1_lsp,":a;bmp\title\txt_box\ep1.bmp",350,115,100
 
 		bg "bmp\title\ss_btn\back\s_select_back1.bmp",0
 		print 80
@@ -9858,8 +9858,8 @@ goto *b_title_botun_loop
 		lsp t_btn_ep6_lsp,":a;bmp\title\ss_btn\btn\6_1.bmp",150,230,45	;235
 		lsp t_btn_ep7_lsp,":a;bmp\title\ss_btn\btn\7_1.bmp",240,180,50	;235
 		lsp t_btn_load_lsp,":a/2,0,3;bmp\r_click\sys_btn\load.bmp",460,430	;254
-		lsph t_txt_ep1_lsp,":a;bmp\title\txt_box\ep1.bmp",350,35,100
-		lsph t_txt_ep2_lsp,":a;bmp\title\txt_box\ep2.bmp",350,35,100
+		lsph t_txt_ep1_lsp,":a;bmp\title\txt_box\ep1.bmp",350,115,100
+		lsph t_txt_ep2_lsp,":a;bmp\title\txt_box\ep2.bmp",350,115,100
 
 		print 80
 
@@ -9911,9 +9911,9 @@ goto *b_title_botun_loop
 		lsp t_btn_ep6_lsp,":a;bmp\title\ss_btn\btn\6_1.bmp",150,230,45	;235
 		lsp t_btn_ep7_lsp,":a;bmp\title\ss_btn\btn\7_1.bmp",240,180,50	;235
 		lsp t_btn_load_lsp,":a/2,0,3;bmp\r_click\sys_btn\load.bmp",460,430	;254
-		lsph t_txt_ep1_lsp,":a;bmp\title\txt_box\ep1.bmp",350,35,100
-		lsph t_txt_ep2_lsp,":a;bmp\title\txt_box\ep2.bmp",350,35,100
-		lsph t_txt_ep3_lsp,":a;bmp\title\txt_box\ep3.bmp",350,35,100
+		lsph t_txt_ep1_lsp,":a;bmp\title\txt_box\ep1.bmp",350,115,100
+		lsph t_txt_ep2_lsp,":a;bmp\title\txt_box\ep2.bmp",350,115,100
+		lsph t_txt_ep3_lsp,":a;bmp\title\txt_box\ep3.bmp",350,115,100
 		print 80
 
 		*start_sub_menu_btn_300_loop
@@ -9965,10 +9965,10 @@ goto *b_title_botun_loop
 		lsp t_btn_ep6_lsp,":a;bmp\title\ss_btn\btn\6_1.bmp",150,230,45	;235
 		lsp t_btn_ep7_lsp,":a;bmp\title\ss_btn\btn\7_1.bmp",240,180,50	;235
 		lsp t_btn_load_lsp,":a/2,0,3;bmp\r_click\sys_btn\load.bmp",460,430	;254
-		lsph t_txt_ep1_lsp,":a;bmp\title\txt_box\ep1.bmp",350,35,100
-		lsph t_txt_ep2_lsp,":a;bmp\title\txt_box\ep2.bmp",350,35,100
-		lsph t_txt_ep3_lsp,":a;bmp\title\txt_box\ep3.bmp",350,35,100
-		lsph t_txt_ep4_lsp,":a;bmp\title\txt_box\ep4.bmp",350,35,100
+		lsph t_txt_ep1_lsp,":a;bmp\title\txt_box\ep1.bmp",350,115,100
+		lsph t_txt_ep2_lsp,":a;bmp\title\txt_box\ep2.bmp",350,115,100
+		lsph t_txt_ep3_lsp,":a;bmp\title\txt_box\ep3.bmp",350,115,100
+		lsph t_txt_ep4_lsp,":a;bmp\title\txt_box\ep4.bmp",350,115,100
 
 		print 80
 
@@ -10018,11 +10018,11 @@ goto *b_title_botun_loop
 		lsp t_btn_ep6_lsp,":a;bmp\title\ss_btn\btn\6_1.bmp",150,230,45	;235
 		lsp t_btn_ep7_lsp,":a;bmp\title\ss_btn\btn\7_1.bmp",240,180,50	;235
 		lsp t_btn_load_lsp,":a/2,0,3;bmp\r_click\sys_btn\load.bmp",460,430	;254
-		lsph t_txt_ep1_lsp,":a;bmp\title\txt_box\ep1.bmp",350,35,100
-		lsph t_txt_ep2_lsp,":a;bmp\title\txt_box\ep2.bmp",350,35,100
-		lsph t_txt_ep3_lsp,":a;bmp\title\txt_box\ep3.bmp",350,35,100
-		lsph t_txt_ep4_lsp,":a;bmp\title\txt_box\ep4.bmp",350,35,100
-		lsph t_txt_ep5_lsp,":a;bmp\title\txt_box\ep5.bmp",350,35,100
+		lsph t_txt_ep1_lsp,":a;bmp\title\txt_box\ep1.bmp",350,115,100
+		lsph t_txt_ep2_lsp,":a;bmp\title\txt_box\ep2.bmp",350,115,100
+		lsph t_txt_ep3_lsp,":a;bmp\title\txt_box\ep3.bmp",350,115,100
+		lsph t_txt_ep4_lsp,":a;bmp\title\txt_box\ep4.bmp",350,115,100
+		lsph t_txt_ep5_lsp,":a;bmp\title\txt_box\ep5.bmp",350,115,100
 
 
 		print 80
@@ -10076,12 +10076,12 @@ goto *b_title_botun_loop
 		lsp t_btn_ep6_lsp,":a/2,0,3;bmp\title\ss_btn\btn\6_2.bmp",150,230,230	;235
 		lsp t_btn_ep7_lsp,":a;bmp\title\ss_btn\btn\7_1.bmp",240,180,50	;235
 		lsp t_btn_load_lsp,":a/2,0,3;bmp\r_click\sys_btn\load.bmp",460,430	;254
-		lsph t_txt_ep1_lsp,":a;bmp\title\txt_box\ep1.bmp",350,35,100
-		lsph t_txt_ep2_lsp,":a;bmp\title\txt_box\ep2.bmp",350,35,100
-		lsph t_txt_ep3_lsp,":a;bmp\title\txt_box\ep3.bmp",350,35,100
-		lsph t_txt_ep4_lsp,":a;bmp\title\txt_box\ep4.bmp",350,35,100
-		lsph t_txt_ep5_lsp,":a;bmp\title\txt_box\ep5.bmp",350,35,100
-		lsph t_txt_ep6_lsp,":a;bmp\title\txt_box\ep6.bmp",350,35,100
+		lsph t_txt_ep1_lsp,":a;bmp\title\txt_box\ep1.bmp",350,115,100
+		lsph t_txt_ep2_lsp,":a;bmp\title\txt_box\ep2.bmp",350,115,100
+		lsph t_txt_ep3_lsp,":a;bmp\title\txt_box\ep3.bmp",350,115,100
+		lsph t_txt_ep4_lsp,":a;bmp\title\txt_box\ep4.bmp",350,115,100
+		lsph t_txt_ep5_lsp,":a;bmp\title\txt_box\ep5.bmp",350,115,100
+		lsph t_txt_ep6_lsp,":a;bmp\title\txt_box\ep6.bmp",350,115,100
 
 		print 80
 
@@ -10133,13 +10133,13 @@ goto *b_title_botun_loop
 		lsp t_btn_ep6_lsp,":a/2,0,3;bmp\title\ss_btn\btn\6_3.bmp",150,230,230	;235
 		lsp t_btn_ep7_lsp,":a/2,0,3;bmp\title\ss_btn\btn\7_2.bmp",240,180,240	;235
 		lsp t_btn_load_lsp,":a/2,0,3;bmp\r_click\sys_btn\load.bmp",460,430	;254
-		lsph t_txt_ep1_lsp,":a;bmp\title\txt_box\ep1.bmp",350,35,100
-		lsph t_txt_ep2_lsp,":a;bmp\title\txt_box\ep2.bmp",350,35,100
-		lsph t_txt_ep3_lsp,":a;bmp\title\txt_box\ep3.bmp",350,35,100
-		lsph t_txt_ep4_lsp,":a;bmp\title\txt_box\ep4.bmp",350,35,100
-		lsph t_txt_ep5_lsp,":a;bmp\title\txt_box\ep5.bmp",350,35,100
-		lsph t_txt_ep6_lsp,":a;bmp\title\txt_box\ep6.bmp",350,35,100
-		lsph t_txt_ep7_lsp,":a;bmp\title\txt_box\ep7.bmp",350,35,100
+		lsph t_txt_ep1_lsp,":a;bmp\title\txt_box\ep1.bmp",350,115,100
+		lsph t_txt_ep2_lsp,":a;bmp\title\txt_box\ep2.bmp",350,115,100
+		lsph t_txt_ep3_lsp,":a;bmp\title\txt_box\ep3.bmp",350,115,100
+		lsph t_txt_ep4_lsp,":a;bmp\title\txt_box\ep4.bmp",350,115,100
+		lsph t_txt_ep5_lsp,":a;bmp\title\txt_box\ep5.bmp",350,115,100
+		lsph t_txt_ep6_lsp,":a;bmp\title\txt_box\ep6.bmp",350,115,100
+		lsph t_txt_ep7_lsp,":a;bmp\title\txt_box\ep7.bmp",350,115,100
 
 		print 80
 
@@ -10190,13 +10190,13 @@ goto *b_title_botun_loop
 		lsp t_btn_ep6_lsp,":a/2,0,3;bmp\title\ss_btn\btn\6_3.bmp",150,230,230	;235
 		lsp t_btn_ep7_lsp,":a/2,0,3;bmp\title\ss_btn\btn\7_3.bmp",240,180,240	;235
 		lsp t_btn_load_lsp,":a/2,0,3;bmp\r_click\sys_btn\load.bmp",460,430	;254
-		lsph t_txt_ep1_lsp,":a;bmp\title\txt_box\ep1.bmp",350,35,100
-		lsph t_txt_ep2_lsp,":a;bmp\title\txt_box\ep2.bmp",350,35,100
-		lsph t_txt_ep3_lsp,":a;bmp\title\txt_box\ep3.bmp",350,35,100
-		lsph t_txt_ep4_lsp,":a;bmp\title\txt_box\ep4.bmp",350,35,100
-		lsph t_txt_ep5_lsp,":a;bmp\title\txt_box\ep5.bmp",350,35,100
-		lsph t_txt_ep6_lsp,":a;bmp\title\txt_box\ep6.bmp",350,35,100
-		lsph t_txt_ep7_lsp,":a;bmp\title\txt_box\ep7.bmp",350,35,100
+		lsph t_txt_ep1_lsp,":a;bmp\title\txt_box\ep1.bmp",350,115,100
+		lsph t_txt_ep2_lsp,":a;bmp\title\txt_box\ep2.bmp",350,115,100
+		lsph t_txt_ep3_lsp,":a;bmp\title\txt_box\ep3.bmp",350,115,100
+		lsph t_txt_ep4_lsp,":a;bmp\title\txt_box\ep4.bmp",350,115,100
+		lsph t_txt_ep5_lsp,":a;bmp\title\txt_box\ep5.bmp",350,115,100
+		lsph t_txt_ep6_lsp,":a;bmp\title\txt_box\ep6.bmp",350,115,100
+		lsph t_txt_ep7_lsp,":a;bmp\title\txt_box\ep7.bmp",350,115,100
 
 		print 80
 
