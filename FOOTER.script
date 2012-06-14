@@ -13141,8 +13141,8 @@ return
 ; Description: Display error if patch is incorrectly installed
 
 *yirba_troubleshoot
-	fileexist %2905,"bmp2\TATI\YUK\1\YUK_Def1.bmp"
-	if %2905=0 goto *yirba_troubleshoot_error
+	fileexist %yirba_troubleshoot_verified,"bmp2\TATI\YUK\1\YUK_Def1.bmp"
+	if %yirba_troubleshoot_verified=0 goto *yirba_troubleshoot_error
 	*yirba_troubleshoot_continue
 return
 
