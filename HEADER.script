@@ -1173,6 +1173,7 @@ gosub *bt_def
 
 game
 *Start
+gosub *yirba_troubleshoot
 saveoff
 ;csp -1
 

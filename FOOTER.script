@@ -13133,3 +13133,33 @@ print 1
 	if %save_on_flg = on saveon
 return
 ;*************************************
+
+
+;*************************************
+; English patch troubleshooter [Yirba]
+; Date: 14 June 2012
+; Description: Display error if patch is incorrectly installed
+
+*yirba_troubleshoot
+	fileexist %2905,"bmp2\TATI\YUK\1\YUK_Def1.bmp"
+	if %2905=0 goto *yirba_troubleshoot_error
+	*yirba_troubleshoot_continue
+return
+
+*yirba_troubleshoot_error
+	!s0
+	`The English patch for this game has not been installed correctly. Please view the included README document for installation instructions. Alternatively, you may find additional support on our website.`
+	locate 10,5
+	`--Spider Lily Translations`
+	br
+	select `Visit Spider Lily Translations website`,*yirba_troubleshoot_web,`Quit the game`,*yirba_troubleshoot_quit,`Continue anyway (not recommended)`,*yirba_troubleshoot_continue
+	goto *yirba_troubleshoot_error
+
+*yirba_troubleshoot_web
+	shell "http://ronove.blogspot.com"
+	goto *yirba_troubleshoot_error
+
+*yirba_troubleshoot_quit
+	end
+
+;*************************************
