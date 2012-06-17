@@ -9477,7 +9477,7 @@ if %tmp = 1 goto *b_sakuru_logo_shuuryou
 
 	btndef ""
 	btntime 000
-	btnwait2 %tmp
+	;btnwait2 %tmp ;Removed by Yirba (fixes "click to start" bug)
 	
 
 	lsp 100,":c;bmp\title\Circle_logo\circle_logo.bmp",0,0
