@@ -7913,14 +7913,14 @@ mov %y,25
   mov %x2,218
   mov %y2,86
 
-  mov %x3,294
+  mov %x3,280
   mov %y3,55
 
 for %Free2 = 1 to 8
 
 ;xy軸を取得
 
-  if %y > 400 mov %y,50 : mov %x,431 : mov %y2,111 : mov %y3,80 :mov %x2,431 : mov %x3,511
+  if %y > 400 mov %y,50 : mov %x,431 : mov %y2,111 : mov %y3,80 :mov %x2,431 : mov %x3,495
 
 ;セーブデータを収得しているか確認する
 
@@ -7943,7 +7943,7 @@ lsp %savescreenshotsp,$Free1,%x,%y
 
  ;セーブデータの時間データを表示する
 
-  mov $saveTimesp2,":s/8,15,1;#FFFFFF"
+  mov $saveTimesp2,":s/15,15,1;#FFFFFF"
   add $saveTimesp2,$%savedataTime
 
 
@@ -7951,7 +7951,7 @@ lsp %savescreenshotsp,$Free1,%x,%y
 
  ;セーブデータのテキストデータを表示する
 
-  mov $saveTextsp2,":s/10,10,1;#FFFFFF"
+  mov $saveTextsp2,":s/12,12,1;#FFFFFF"
   add $saveTextsp2,$%Free5
 
   lsp %saveTextsp,$saveTextsp2,%x3,%y3
@@ -8104,13 +8104,13 @@ mov $%Free2,$SaveTime
 ;if %scenario_Number = 5 mov $%Free2,"第５話　" : add $%Free2,$SaveTime
 ;if %scenario_Number = 6 mov $%Free2,"第６話　" : add $%Free2,$SaveTime
 ;if %scenario_Number = 7 mov $%Free2,"第７話　" : add $%Free2,$SaveTime
-if %scenario_Number = 1 mov $%Free2,"Chapter 1; " : add $%Free2,$SaveTime
-if %scenario_Number = 2 mov $%Free2,"Chapter 2; " : add $%Free2,$SaveTime
-if %scenario_Number = 3 mov $%Free2,"Chapter 3; " : add $%Free2,$SaveTime
-if %scenario_Number = 4 mov $%Free2,"Chapter 4; " : add $%Free2,$SaveTime
-if %scenario_Number = 5 mov $%Free2,"Chapter 5; " : add $%Free2,$SaveTime
-if %scenario_Number = 6 mov $%Free2,"Chapter 6; " : add $%Free2,$SaveTime
-if %scenario_Number = 7 mov $%Free2,"Chapter 7; " : add $%Free2,$SaveTime
+if %scenario_Number = 1 mov $%Free2,"Chapter 1;　" : add $%Free2,$SaveTime
+if %scenario_Number = 2 mov $%Free2,"Chapter 2;　" : add $%Free2,$SaveTime
+if %scenario_Number = 3 mov $%Free2,"Chapter 3;　" : add $%Free2,$SaveTime
+if %scenario_Number = 4 mov $%Free2,"Chapter 4;　" : add $%Free2,$SaveTime
+if %scenario_Number = 5 mov $%Free2,"Chapter 5;　" : add $%Free2,$SaveTime
+if %scenario_Number = 6 mov $%Free2,"Chapter 6;　" : add $%Free2,$SaveTime
+if %scenario_Number = 7 mov $%Free2,"Chapter 7;　" : add $%Free2,$SaveTime
 
 ;セーブデータ作成時のコメント取得
 ;保存するグローバル変数の変数番号を取る
@@ -8128,7 +8128,7 @@ mov %Free2,savedataComment+%savedataNowNum
 ;add $Free2,"……"
 mid $Free1,$TextlogNow,0,16
 mov $Free2,"` " : add $Free2,$Free1
-add $Free2,"…"
+add $Free2,"..."
 mov $%Free2,$Free2
 
 
@@ -8260,7 +8260,7 @@ mov %y,25
   mov %x2,218
   mov %y2,86
 
-  mov %x3,294
+  mov %x3,280
   mov %y3,55
 
 
@@ -8269,7 +8269,7 @@ btndef ""
 for %Free2 = 1 to 8
 
 	;xy軸を取得
-	if %y > 400 mov %y,50 : mov %x,431 : mov %y2,111 : mov %y3,80 :mov %x2,431 : mov %x3,511
+	if %y > 400 mov %y,50 : mov %x,431 : mov %y2,111 : mov %y3,80 :mov %x2,431 : mov %x3,495
 
 	;セーブデータを収得しているか確認する
 	if %%Free1 = 0 jumpf
@@ -8288,12 +8288,12 @@ for %Free2 = 1 to 8
 		lsp %savescreenshotsp,$Free1,%x,%y
 
 		;セーブデータの時間データを表示する
-		mov $saveTimesp2,":s/8,15,1;#FFFFFF"
+		mov $saveTimesp2,":s/15,15,1;#FFFFFF"
 		add $saveTimesp2,$%savedataTime
 		lsp %saveTimesp,$saveTimesp2,%x2,%y2
 		;セーブデータのテキストデータを表示する
 
-		mov $saveTextsp2,":s/10,10,1;#FFFFFF"
+		mov $saveTextsp2,":s/12,12,1;#FFFFFF"
 		add $saveTextsp2,$%Free5
 		lsp %saveTextsp,$saveTextsp2,%x3,%y3
 		
