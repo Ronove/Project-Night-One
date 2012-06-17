@@ -13137,7 +13137,8 @@ return
 
 ;*************************************
 ; English patch troubleshooter [Yirba]
-; Date: 14 June 2012
+; Created: 14 June 2012
+; Modified: 17 June 2012
 ; Description: Display error if patch is incorrectly installed
 
 *yirba_troubleshoot
@@ -13147,11 +13148,9 @@ return
 return
 
 *yirba_troubleshoot_error
-	!s0
-	`The English patch for this game has not been installed correctly. Please view the included README document for installation instructions. Alternatively, you may find additional support on our website.`
-	locate 10,5
-	`--Spider Lily Translations`
-	br
+	setwindow 50,300,590,0,20,20,0,15,20,1,1,#ffffff,0,0,639,479
+	lsp 100,"bmp/background/efe/trans_error.png",0,0
+	;locate 0,10
 	select `Visit Spider Lily Translations website`,*yirba_troubleshoot_web,`Quit the game`,*yirba_troubleshoot_quit,`Continue anyway (not recommended)`,*yirba_troubleshoot_continue
 	goto *yirba_troubleshoot_error
 

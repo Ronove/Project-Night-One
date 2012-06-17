@@ -1174,7 +1174,6 @@ gosub *bt_def
 
 game
 *Start
-gosub *yirba_troubleshoot
 saveoff
 ;csp -1
 
@@ -1206,6 +1205,7 @@ mov $START_bg,"BMP\background\efe\different_spiral_1a.bmp"
 
 gosub *bt_def2
 mov %save_on_flg,on	;セーブON命令を動作させる。
+gosub *yirba_troubleshoot ;English patch troubleshooter
 goto *b_sakuru_logo
 
 *higan1_opning
