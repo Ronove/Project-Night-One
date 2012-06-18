@@ -3927,7 +3927,7 @@ lsp2 5,$ld_pass2,130,550,200,200,0
 print 80
 
 ;「……負けを認めて下さい。@……手加減は、本当に難しいんです。」@
-`"...Accept your defeat.`@` ...It'm really struggling to hold back."`@`
+`"...Accept your defeat.`@` ...I'm really struggling to hold back."`@`
 
 ld_p SIN_Def1
 lsp2 2,$ld_pass,480,480,-200,200,0
