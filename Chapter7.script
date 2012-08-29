@@ -6984,7 +6984,9 @@ ld r,YUK_Def2a,22
 ld r,YUK_Def3,80
 
 ;「ごめんね、由香里ちゃん。@……いつかこうしたなら、もっと早くこうしていれば良かった。」@
-`"Yukari-chan, I'm sorry. `@`...I should have done this much sooner."`@
+`"Reiko-chan, I'm sorry. `@`...I should have done this much sooner."`@
+; TL note: The name "Yukari-chan" is used in the original text. This appears to be an
+; error, and "Reiko-chan" should have been used instead.
 
 ld l,SMI_Def5,23
 
