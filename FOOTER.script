@@ -5757,7 +5757,7 @@ notif %BtnRes = bgm_btn_stop goto *bgm_mode_stop
    ;fede 0,2000
    E_A
    textclear
-	csp bgm_title_lsp : csp bgm_sakka_lsp : csp bgm_time_lsp : vsp bgm_ennsou_lsp,0
+	csp bgm_title_lsp : csp bgm_sakka_lsp : csp bgm_kanji_lsp : csp bgm_time_lsp : vsp bgm_ennsou_lsp,0
 	mov %tmp,100 : add %tmp,%bm_p : vsp %tmp,0
 	print 1
    mov %bm_stop,0
