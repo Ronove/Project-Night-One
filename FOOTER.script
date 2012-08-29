@@ -5980,7 +5980,7 @@ mono 0
 csp 0 : csp 1
 csp 10 : csp 11 : csp 12 : csp 13 : csp 14 : csp 15 : csp 16
 csp 500 : csp 501 : csp 502 : csp 503 : csp 504 : csp 505 : csp 506: csp 507: csp 508: csp 509: csp 510
-csp bgm_title_lsp : csp bgm_sakka_lsp : csp bgm_extra_lsp : csp bgm_time_lsp
+csp bgm_title_lsp : csp bgm_sakka_lsp : csp bgm_kanji_lsp : csp bgm_extra_lsp : csp bgm_time_lsp
 textclear
 setwindow 40,385,30,3,22,22,0,2,20,1,1,#ffffff,0,0,610,495
 return
