@@ -6237,7 +6237,7 @@ inc %3801
 	mov ?bgmm[%3801][bm_c],9		;曲の割り当て番号（チャンネル）
 	mov ?bgmm[%3801][bm_t],203000		;曲の長さ
 	add %3802,400
-	mov ?bgmm[%3801][bm_n],%3802 : mov $%3802,"`Kagami-san`" ;曲名3:23
+	mov ?bgmm[%3801][bm_n],%3802 : mov $%3802,"`◆Kagami-san`" ;曲名3:23
 	mov ?bgmm[%3801][bm_k],1		;怖い曲かどうかのチェック
 	gosub *bgm_mode_path_shutoku		;ファイルへのパスの取得
 
@@ -6246,7 +6246,7 @@ inc %3801
 	mov ?bgmm[%3801][bm_c],10		;曲の割り当て番号（チャンネル）
 	mov ?bgmm[%3801][bm_t],390000		;曲の長さ
 	add %3802,400
-	mov ?bgmm[%3801][bm_n],%3802 : mov $%3802,"`Soko ni wa Dare~`" ;曲名6:30
+	mov ?bgmm[%3801][bm_n],%3802 : mov $%3802,"`◆Soko ni wa Dare~`" ;曲名6:30
 	mov ?bgmm[%3801][bm_k],1		;怖い曲かどうかのチェック
 	gosub *bgm_mode_path_shutoku		;ファイルへのパスの取得
 
@@ -6255,7 +6255,7 @@ inc %3801
 	mov ?bgmm[%3801][bm_c],11		;曲の割り当て番号（チャンネル）
 	mov ?bgmm[%3801][bm_t],154000		;曲の長さ
 	add %3802,400
-	mov ?bgmm[%3801][bm_n],%3802 : mov $%3802,"`Putsuputsu`" ;曲名2:34
+	mov ?bgmm[%3801][bm_n],%3802 : mov $%3802,"`◆Putsuputsu`" ;曲名2:34
 	mov ?bgmm[%3801][bm_k],1		;怖い曲かどうかのチェック
 	gosub *bgm_mode_path_shutoku		;ファイルへのパスの取得
 
@@ -6264,7 +6264,7 @@ inc %3801
 	mov ?bgmm[%3801][bm_c],12		;曲の割り当て番号（チャンネル）
 	mov ?bgmm[%3801][bm_t],193000		;曲の長さ
 	add %3802,400
-	mov ?bgmm[%3801][bm_n],%3802 : mov $%3802,"`Gakkou Angainin`" ;曲名3:13
+	mov ?bgmm[%3801][bm_n],%3802 : mov $%3802,"`◆Gakkou Angainin`" ;曲名3:13
 	mov ?bgmm[%3801][bm_k],1		;怖い曲かどうかのチェック
 	gosub *bgm_mode_path_shutoku		;ファイルへのパスの取得
 
@@ -6273,7 +6273,7 @@ inc %3801
 	mov ?bgmm[%3801][bm_c],13		;曲の割り当て番号（チャンネル）
 	mov ?bgmm[%3801][bm_t],50000		;曲の長さ
 	add %3802,400
-	mov ?bgmm[%3801][bm_n],%3802 : mov $%3802,"`Ushimitsudoki`" ;曲名0:50
+	mov ?bgmm[%3801][bm_n],%3802 : mov $%3802,"`◆Ushimitsudoki`" ;曲名0:50
 	mov ?bgmm[%3801][bm_k],1		;怖い曲かどうかのチェック
 	gosub *bgm_mode_path_shutoku		;ファイルへのパスの取得
 
@@ -6300,7 +6300,7 @@ inc %3801
 	mov ?bgmm[%3801][bm_c],16		;曲の割り当て番号（チャンネル）
 	mov ?bgmm[%3801][bm_t],187000		;曲の長さ
 	add %3802,400
-	mov ?bgmm[%3801][bm_n],%3802 : mov $%3802,"`Kirihana`" ;曲名3:07
+	mov ?bgmm[%3801][bm_n],%3802 : mov $%3802,"`◆Kirihana`" ;曲名3:07
 	mov ?bgmm[%3801][bm_k],1		;怖い曲かどうかのチェック
 	gosub *bgm_mode_path_shutoku		;ファイルへのパスの取得
 
