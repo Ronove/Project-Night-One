@@ -13154,7 +13154,7 @@ return
 	goto *yirba_troubleshoot_error
 
 *yirba_troubleshoot_web
-	shell "http://ronove.blogspot.com"
+	shell "http://spiderlilytranslations.com"
 	goto *yirba_troubleshoot_error
 
 *yirba_troubleshoot_quit
