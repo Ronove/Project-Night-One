@@ -143,14 +143,14 @@ cl r,2
 `　.....And yet, if she had been able to change herself by thought alone, no one would have had to suffer.`@
 br
 ;　だから毬枝は、自分すら愛せぬまま、今日という袋小路を迎えていたのだった……。\
-`　And so, without love for herself, Marie headed down the dark alley called today......`\
+`　And so, without love for herself, Marie headed down the dark alley called 'today'......`\
 
 bg black,2
 
 ;　毬枝が望まぬことをいつから強要されているのか。@
 `　For how long had Marie been forced to do the things she didn't want to do?`@
 ;　そしてどのような破廉恥な行為を強要されているのか。@
-`　And what kind of shameless deeds were she being forced to do?`@
+`　And what kind of shameless deeds was she being forced to do?`@
 ;　……それについて詳細に説明する必要は何もない。@
 `　.....As for that, there's no need to explain it in detail.`@
 br
@@ -246,7 +246,7 @@ bg black,22
 `　......Why did it have to turn out like this......?`@
 br
 ;　宙を泳ぐ金魚がいたならば、@水面で口をぱくぱくさせなければならないに違いないと思うほど、@酸素の薄れた空気の中で、私はぼんやりと考えていた……。\
-`　In this oxygen deprived air, `@`I idly thought to myself that even if there was a goldfish that could swim in midair, `@`it would have no choice but to stick its head in the water to breathe......`\
+`　In this oxygen-deprived air, `@`I idly thought to myself that even if there was a goldfish that could swim in midair, `@`it would have no choice but to stick its head in the water to breathe......`\
 
 bg black,22
 
@@ -352,7 +352,7 @@ mono 0
 `　He'll do things like order me to feign illness so he can take me away during class `@`or order me to come to school on days off.`@
 br
 ;　今では学校生活は副次的なものとなり、@私は平日も休日も、先生が望んだ時、望んだことを捧げなければならない身となり果てている。\
-`　Until now school life had been secondary. `@`Now when Sensei wants me on weekdays and weekends, I must do his bidding, and it's exhausting me.`\
+`　Until now, school life had been secondary. `@`Now when Sensei wants me on weekdays and weekends, I must do his bidding, and it's exhausting me.`\
 
 ;bg Different_spiral_1b,22
 
@@ -834,7 +834,7 @@ bg shokuin_03,22
 me1v 11,90
 
 ;　今日はどのようにして欲望を吐き出してやろう。@卑猥な妄想に再び頭の中が満たされていく……。@
-`　What kind of pleasure shall I indulge in today? `@`Again I allowed my mind to fill with perverted fantasies.......`@
+`　What kind of pleasure shall I indulge in today? `@`Again, I allowed my mind to fill with perverted fantasies.......`@
 ;　その妄想は、予鈴によって教頭が長話を打ち切るまで、ずっと続くのだった。\
 `　And until the long speech by the vice principal ended at first bell, for a long time, those fantasies continued.`\
 
