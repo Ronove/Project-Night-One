@@ -492,7 +492,7 @@ bg e013,46
 ;　それはゆっくりゆっくりと蕾を広げ、大きな特徴的な花を開く。@
 `　And those buds slowly, slowly spread, and opened into large characteristic flowers.`@`
 ;　血を吸い、真っ赤に染まった、……彼岸花だった。@
-`　Sucking the blood, dyed a deep red, ...they were #ECD672higanbana#FFFFFF.`@`
+`　Sucking the blood, dyed a deep red, ...they were `/
 
 ; Unlocks eighth glossary entry
 ;(Glossary Entry #8: Higanbana)
@@ -500,6 +500,8 @@ if %EN_glossary_progress > 8 jumpf
 	mov %EN_glossary_progress,8
 	se1v 1011,50
 ~
+
+`#ECD672higanbana#FFFFFF.`@
 
 br
 ;　彼岸花が、次々に咲き乱れていく。@まるで、骸を飲み込んでしまうかのように。\
@@ -2573,7 +2575,7 @@ br
 ;　せっかく下校したのに、もう一度、校門を潜ることになるなんて。@
 `　After finally being able to leave, having to go through the school gates again...`@`
 ;　それだけで、神社のおみくじで、家族で自分だけ大凶でも引いてしまったかのような、@……そんな気持ちにさせられるのだ。\
-`　With that thought, he had a terrible feeling`@` almost like being the only one in the family to draw a #ECD672'terrible luck' fortune#FFFFFF at a shrine.`\
+`　With that thought, he had a terrible feeling`@` almost like being the only one in the family to draw a `/
 
 ; Unlocks ninth glossary entry
 ;(Glossary Entry #9: Fortunes)
@@ -2581,6 +2583,8 @@ if %EN_glossary_progress > 9 jumpf
 	mov %EN_glossary_progress,9
 	se1v 1011,50
 ~
+
+`#ECD672'terrible luck' fortune#FFFFFF at a shrine.`\
 
 bg black,22
 bg gakkou_02u,22
@@ -5084,7 +5088,7 @@ br
 `　They bully me because I'm human.`@`
 br
 ;　私がしゃべらず、反応もしない、石のお地蔵さんだったら、彼らはいじめるわけもないのだ。\
-`　If I do not speak and do not react, like a stone #ECD672Jizo statue#FFFFFF, they would have no reason to bully me.`\
+`　If I do not speak and do not react, like a stone `/
 
 ; Unlocks tenth glossary entry
 ;(Glossary Entry #10: Jizo)
@@ -5092,6 +5096,8 @@ if %EN_glossary_progress > 10 jumpf
 	mov %EN_glossary_progress,10
 	se1v 1011,50
 ~
+
+`#ECD672Jizo statue#FFFFFF, they would have no reason to bully me.`\
 
 ;bg black,22
 ld r,YUK_def2a,22

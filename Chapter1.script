@@ -37,7 +37,7 @@ bg black,5
 bg toire_04,5
 
 ;　少女は、男の足音が遠のき、@自分が無人の旧校舎の忘れられたトイレに一人っきりになったことを思い出すと、@そのまま床にへたり込み、めそめそと哀れな涙を零し始めるのだった……。\
-`　As the echoes of the man's footsteps began to fade away, `@`the girl remembered she was helplessly forgotten ― alone in the former school building. `@`As she sank to the floor, she began to shed her tears while sobbing, #ECD672*mesomeso*#FFFFFF......`\
+`　As the echoes of the man's footsteps began to fade away, `@`the girl remembered she was helplessly forgotten ― alone in the former school building. `@`As she sank to the floor, she began to shed her tears while sobbing, `/
 
 ; Unlocks glossary
 mov %EN_GLOSSARY_UNLOCK,1
@@ -48,6 +48,8 @@ if %EN_glossary_progress > 1 jumpf
 	mov %EN_glossary_progress,1
 	se1v 1011,50
 ~
+
+`#ECD672*mesomeso*#FFFFFF......`\
 
 textoff
 
@@ -864,7 +866,7 @@ br
 bg rouka_04,22
 
 ;　学校妖怪というのはアレだ。@
-`　A school #ECD672youkai#FFFFFF is just that.`@
+`　A school `/
 
 ; Unlocks second glossary entry
 ;(Glossary Entry #2: youkai)
@@ -873,12 +875,14 @@ if %EN_glossary_progress > 2 jumpf
 	se1v 1011,50
 ~
 
+`#ECD672youkai#FFFFFF is just that.`@
+
 br
 ;　例えば、夜中に踊り出す理科準備室の骨格標本や、@目が動くという音楽室のベートーベンの肖像。@どこの学校にもあり、@そして大して代わり映えのない学校怪談によく登場するあれらのことである。@
 `　For example, if the science room's skeleton starts to dance in the middle of the night, `@`or if someone sees the moving eyes of the music room's Beethoven statue. `@`Schools everywhere have them, `@`and without a better alternative, they are often introduced in school ghost stories.`@
 br
 ;　学校の七不思議なんて呼ばれたりもするアレだ。\
-`　There are also stories like the school's #ECD672Seven Mysteries#FFFFFF.`\
+`　There are also stories like the school's `/
 
 ; Unlocks third glossary entry
 ;(Glossary Entry #3: 7 Mysteries)
@@ -886,6 +890,8 @@ if %EN_glossary_progress > 3 jumpf
 	mov %EN_glossary_progress,3
 	se1v 1011,50
 ~
+
+`#ECD672Seven Mysteries#FFFFFF.`\
 
 bg black,22
 

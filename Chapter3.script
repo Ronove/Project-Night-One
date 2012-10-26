@@ -835,13 +835,15 @@ br
 
 ;　部活の時は全員体操着に着替える。@そして体力作りと称して学校の周りを走り込んだり、@近くの河原に行って大声で発声練習も行ったりもする。@ほとんど『ガラスの仮面』の世界だ。\
 ;　(Translator's Note) Reference made to Gurasu no Kamen, "Glass Mask." A manga from the 1960s.
-`　Everyone changes into gym outfits during club hours. `@`To improve our endurance, `@`we run around the school or we head down to the river bed and practice shouting to exercise our vocal cords. `@`It's almost like the world in #ECD672Glass Mask#FFFFFF.`\ 
+`　Everyone changes into gym outfits during club hours. `@`To improve our endurance, `@`we run around the school or we head down to the river bed and practice shouting to exercise our vocal cords. `@`It's almost like the world in `/
 
 ;(Glossary Entry #5: Glass Mask)
 if %EN_glossary_progress > 5 jumpf
 	mov %EN_glossary_progress,5
 	se1v 1011,50
 ~
+
+`#ECD672Glass Mask#FFFFFF.`\
 
 ;　そして、毎学期末には発表会があり、全校生徒の前で芝居を上演することになっている。@
 `　And now, it has become a tradition to have a performance at the end of every semester where we act in front of all the students in school on stage.`@

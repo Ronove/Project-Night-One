@@ -1854,15 +1854,17 @@ me1v 19,90
 bg kyou_02,24
 
 ;　壁に貼られている、ベルマーク集めのクラス名簿を見る。@学校に持ってきたベルマークの点数でシールがもらえるヤツだ。@
-`　I looked at the #ECD672bell mark#FFFFFF names list on the wall. `@
-;(Translator's Note) - Bell Marks can be brought to schools, gathered up, and traded for school supplies.
+`　I looked at the `/
 
-; Unlocks first glossary entry
+; Unlocks fourth glossary entry
 ;(Glossary Entry #4: Bell Marks)
 if %EN_glossary_progress > 4 jumpf
 	mov %EN_glossary_progress,4
 	se1v 1011,50
 ~
+
+;(Translator's Note) - Bell Marks can be brought to schools, gathered up, and traded for school supplies.
+`#ECD672bell mark#FFFFFF names list on the wall. `@
 
 `She was the kind of girl who would bring those to school, and have her bell mark score on the wall.`@
 
