@@ -7942,7 +7942,7 @@ lsp %savescreenshotsp,$Free1,%x,%y
 
  ;セーブデータの時間データを表示する
 
-  mov $saveTimesp2,":s/15,15,1;#FFFFFF"
+  mov $saveTimesp2,":s/12,12,1;#FFFFFF"
   add $saveTimesp2,$%savedataTime
 
 
@@ -8069,24 +8069,24 @@ savetime %savedataNowNum,%Morth,%Day,%Hour,%Minute
 ;itoa2 $Free1,%Hour : add $SaveTime,$Free1 : add $SaveTime,"時"
 ;itoa2 $Free1,%Minute : add $SaveTime,$Free1 : add $SaveTime,"分"
 ; Use abbrev. month name
-if %Morth = 1 mov $SaveTime,"Jan "
-if %Morth = 2 mov $SaveTime,"Feb "
-if %Morth = 3 mov $SaveTime,"Mar "
-if %Morth = 4 mov $SaveTime,"Apr "
-if %Morth = 5 mov $SaveTime,"May "
-if %Morth = 6 mov $SaveTime,"Jun "
-if %Morth = 7 mov $SaveTime,"Jul "
-if %Morth = 8 mov $SaveTime,"Aug "
-if %Morth = 9 mov $SaveTime,"Sep "
-if %Morth = 10 mov $SaveTime,"Oct "
-if %Morth = 11 mov $SaveTime,"Nov "
-if %Morth = 12 mov $SaveTime,"Dec "
-itoa $Free1,%Day : add $SaveTime,$Free1 : add $SaveTime,", "
+if %Morth = 1 mov $SaveTime,"`Jan `"
+if %Morth = 2 mov $SaveTime,"`Feb `"
+if %Morth = 3 mov $SaveTime,"`Mar `"
+if %Morth = 4 mov $SaveTime,"`Apr `"
+if %Morth = 5 mov $SaveTime,"`May `"
+if %Morth = 6 mov $SaveTime,"`Jun `"
+if %Morth = 7 mov $SaveTime,"`Jul `"
+if %Morth = 8 mov $SaveTime,"`Aug `"
+if %Morth = 9 mov $SaveTime,"`Sep `"
+if %Morth = 10 mov $SaveTime,"`Oct `"
+if %Morth = 11 mov $SaveTime,"`Nov `"
+if %Morth = 12 mov $SaveTime,"`Dec `"
+itoa $Free1,%Day : add $SaveTime,$Free1 : add $SaveTime,"`, `"
 ; Use 12-hour time (AM/PM)
-if %Hour = 0 mov $Free2," AM" : itoa $Free1,12
-if %Hour > 0 && %Hour < 12 mov $Free2," AM" : itoa $Free1,%Hour
-if %Hour = 12 mov $Free2," PM" : itoa $Free1,12
-if %Hour > 12 && %Hour < 24 mov $Free2," PM" : sub %Hour,12 : itoa $Free1,%Hour : add %Hour,12
+if %Hour = 0 mov $Free2,"` AM`" : itoa $Free1,12
+if %Hour > 0 && %Hour < 12 mov $Free2,"` AM`" : itoa $Free1,%Hour
+if %Hour = 12 mov $Free2,"` PM`" : itoa $Free1,12
+if %Hour > 12 && %Hour < 24 mov $Free2,"` PM`" : sub %Hour,12 : itoa $Free1,%Hour : add %Hour,12
 add $SaveTime,$Free1 : add $SaveTime,":"
 if %Minute < 10 add $SaveTime,"0"
 itoa $Free1,%Minute : add $SaveTime,$Free1 : add $SaveTime,$Free2
@@ -8103,13 +8103,13 @@ mov $%Free2,$SaveTime
 ;if %scenario_Number = 5 mov $%Free2,"第５話　" : add $%Free2,$SaveTime
 ;if %scenario_Number = 6 mov $%Free2,"第６話　" : add $%Free2,$SaveTime
 ;if %scenario_Number = 7 mov $%Free2,"第７話　" : add $%Free2,$SaveTime
-if %scenario_Number = 1 mov $%Free2,"Chapter 1;　" : add $%Free2,$SaveTime
-if %scenario_Number = 2 mov $%Free2,"Chapter 2;　" : add $%Free2,$SaveTime
-if %scenario_Number = 3 mov $%Free2,"Chapter 3;　" : add $%Free2,$SaveTime
-if %scenario_Number = 4 mov $%Free2,"Chapter 4;　" : add $%Free2,$SaveTime
-if %scenario_Number = 5 mov $%Free2,"Chapter 5;　" : add $%Free2,$SaveTime
-if %scenario_Number = 6 mov $%Free2,"Chapter 6;　" : add $%Free2,$SaveTime
-if %scenario_Number = 7 mov $%Free2,"Chapter 7;　" : add $%Free2,$SaveTime
+if %scenario_Number = 1 mov $%Free2,"`Chapter 1; `" : add $%Free2,$SaveTime
+if %scenario_Number = 2 mov $%Free2,"`Chapter 2; `" : add $%Free2,$SaveTime
+if %scenario_Number = 3 mov $%Free2,"`Chapter 3; `" : add $%Free2,$SaveTime
+if %scenario_Number = 4 mov $%Free2,"`Chapter 4; `" : add $%Free2,$SaveTime
+if %scenario_Number = 5 mov $%Free2,"`Chapter 5; `" : add $%Free2,$SaveTime
+if %scenario_Number = 6 mov $%Free2,"`Chapter 6; `" : add $%Free2,$SaveTime
+if %scenario_Number = 7 mov $%Free2,"`Chapter 7; `" : add $%Free2,$SaveTime
 
 ;セーブデータ作成時のコメント取得
 ;保存するグローバル変数の変数番号を取る
@@ -8287,7 +8287,7 @@ for %Free2 = 1 to 8
 		lsp %savescreenshotsp,$Free1,%x,%y
 
 		;セーブデータの時間データを表示する
-		mov $saveTimesp2,":s/15,15,1;#FFFFFF"
+		mov $saveTimesp2,":s/12,12,1;#FFFFFF"
 		add $saveTimesp2,$%savedataTime
 		lsp %saveTimesp,$saveTimesp2,%x2,%y2
 		;セーブデータのテキストデータを表示する
