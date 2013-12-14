@@ -8190,7 +8190,7 @@ lsp 698,":c;bmp\system\hane_load.bmp",0,6,240
 
 ;システムボタン
 mov %tmp1,130 : mov %tmp2,38
-lsp Save,":a/2,0,3;bmp\system\save.bmp",10,%tmp1 : add %tmp1,%tmp2    ;ページ２
+if %load_for_title = 0 lsp Save,":a/2,0,3;bmp\system\save.bmp",10,%tmp1 : add %tmp1,%tmp2    ;ページ２
 lsp Load,":a/2,0,3;bmp\system\Load_b.bmp",10,%tmp1 : add %tmp1,%tmp2 
 lsp rmenu_btn_Exit,":a/2,0,3;bmp\system\exit.bmp",10,%tmp1
 
@@ -9742,7 +9742,7 @@ print 0
    btnwait2 %BtnRes
 
 	if %BtnRes = t_btn_start_lsp : cell t_btn_start_lsp,1 : print 1:btndef "" : goto *start_sub_menu
-	if %BtnRes = t_btn_web_lsp seplay 9,80 : menu_window : shell "http://07th-expansion.net"
+	if %BtnRes = t_btn_web_lsp seplay 9,80 : menu_window : shell "http://www.spiderlilytranslations.com/?1w"
 	if %BtnRes = t_btn_glos_lsp cell t_btn_glos_lsp,1 : print 1:btndef "" : goto *EN_glossary
 	if %BtnRes = t_btn_tips_lsp cell t_btn_tips_lsp,1 : print 1:btndef "" : goto *tips
 	if %BtnRes = t_btn_exit_lsp seplay 9,80 : seplay 9,79 : csp -1 : bg black,2 : wait 3000 : end
@@ -13154,7 +13154,7 @@ return
 	goto *yirba_troubleshoot_error
 
 *yirba_troubleshoot_web
-	shell "http://spiderlilytranslations.com"
+	shell "http://www.spiderlilytranslations.com/?1t"
 	goto *yirba_troubleshoot_error
 
 *yirba_troubleshoot_quit
